@@ -102,7 +102,7 @@
       </section>
     </main>
 		<footer>
-			<div>Copyright © John Elliot V 2024</div></footer>
+			<div>&copy; Copyright 2024 John Elliot V. All rights reserved.</div></footer>
 		<script type="text/javascript">window.g_mud_html_options = {"autoxsrf":true,"max-length":32};</script>
   </body>
 </html>

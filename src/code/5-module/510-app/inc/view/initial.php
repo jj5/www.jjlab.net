@@ -352,7 +352,7 @@ function render_foot() {
   </main>
   <footer>
     <hr>
-    <div>Copyright &copy; John Elliot V <?= date( 'Y' ) ?></div>
+    <div>&copy; Copyright <?= date( 'Y' ) ?> John Elliot V. All rights reserved.</div>
   </footer>
 </body>
 </html>

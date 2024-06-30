@@ -370,7 +370,7 @@ function render_foot() {
 
       tag_open( 'footer' );
 
-        tag_html( 'div', 'Copyright &copy; John Elliot V ' . date( 'Y' ) );
+        tag_html( 'div', '&copy; Copyright ' . date( 'Y' ) . ' John Elliot V. All rights reserved.' );
 
       tag_shut( 'footer' );
 
