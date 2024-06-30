@@ -4,20 +4,27 @@ main() {
 
   set -euo pipefail;
 
+  cd "$( dirname "${BASH_SOURCE[0]}" )";
+
+  command -v git || {
+
+    echo "git is not installed. install git first.";
+
+    exit 1;
+
+  }
+
   git submodule update --init --recursive
 
-  # 2024-07-01 jj5 - you need to install composer first
+  command -v composer || {
+
+    echo "composer is not installed. run install-composer.sh first.";
+
+    exit 1;
+
+  }
 
   composer install;
-
-}
-
-install_composer() {
-
-  cd /root
-  apt update
-  apt install wget php-cli php-zip unzip
-  wget -O composer-setup.php https://getcomposer.org/installer
 
 }
 
