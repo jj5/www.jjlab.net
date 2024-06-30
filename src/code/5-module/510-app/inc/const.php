@@ -5,8 +5,6 @@ define( 'LOGO_URL', 'https://der3syffk4l6q.cloudfront.net/in-the-lab/img/logo.pn
 
 define( 'VIDEO_COUNT', 5 );
 
-define( 'YOUTUBE_API_KEY', 'AIzaSyD4srBogHK10ALd9-z9qYRwKidh-DguoKE' );
-
 define( 'CURL_USER_AGENT', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0' );
 
 define( 'NULL_AFFILIATE_NAME', 'Unspecified' );
