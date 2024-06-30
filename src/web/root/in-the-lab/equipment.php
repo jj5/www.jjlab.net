@@ -66,6 +66,7 @@ function render_equipment_main() {
     tag_open( 'section', [ 'class' => 'container' ] );
 
 ?>
+<h2>Check out my tools and equipment detailed on this page</h2>
 <p>These products have affiliate links to vendors if you would like to buy.
   Clicking through on these affiliate links (in green) is a good way to support the channel at no cost to
   you.</p>
