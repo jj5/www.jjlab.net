@@ -2,7 +2,7 @@
 
 // the version numbers are managed by svnman...
 define( 'JJLAB_VERSION_MAJOR', 0 );
-define( 'JJLAB_VERSION_MINOR', 1 );
+define( 'JJLAB_VERSION_MINOR', 2 );
 define( 'JJLAB_VERSION_PATCH', 349 );
 
 // you can change the name but not the code...
