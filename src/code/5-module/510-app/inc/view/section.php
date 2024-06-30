@@ -961,7 +961,7 @@ function render_section_about_thanks( int $heading_level = 2 ) {
   $h5 = 'h' . ( $heading_level + 3 );
 ?>
 <section class="container">
-  <<?= $h2 ?> id="thanks">Thank You</<?= $h2 ?>>
+  <<?= $h2 ?> id="thanks">Thank You!</<?= $h2 ?>>
   <p>Thanks very much for your interest and <b>I hope you enjoy the show!</b></p>
 </section><?php
 }
