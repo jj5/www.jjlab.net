@@ -56,7 +56,7 @@ function render_affiliate_main() {
 ?>
 <section class="container">
 
-  <h2>Affiliated vendors</h2>
+  <h2>Affiliated Vendors</h2>
   <p>Following is a list of my affiliates. When possible
     <a
       href="<?= url_base() ?>/equipment.php"

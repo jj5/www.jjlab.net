@@ -92,6 +92,8 @@ function render_index( $category_list ) {
 
     tag_open( 'section', [ 'class' => 'container' ] );
 
+      tag_text( 'h2', 'Equipment Categories' );
+
       tag_open( 'p' );
 
         out_text( 'In addition to these categories you can also get a report by ' );
