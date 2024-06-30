@@ -12,4 +12,13 @@ main() {
 
 }
 
+install_composer() {
+
+  cd /root
+  apt update
+  apt install wget php-cli php-zip unzip
+  wget -O composer-setup.php https://getcomposer.org/installer
+
+}
+
 main "$@";
