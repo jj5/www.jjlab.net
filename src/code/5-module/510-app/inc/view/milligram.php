@@ -138,6 +138,17 @@ function render_head( $heading ) {
 
       tag_bare( 'link', [ 'rel' => 'canonical', 'href' => mud_get_full_request_url() ] );
 
+      if ( isset( $_GET[ 'sort' ] ) || isset( $_GET[ 'currency' ] ) ) {
+
+        tag_bare( 'meta', [ 'name' => 'robots', 'content' => 'noindex, nofollow' ] );
+
+      }
+      else {
+
+        tag_bare( 'meta', [ 'name' => 'robots', 'content' => 'index, follow' ] );
+
+      }
+
       render_rss_link();
 
       // 2024-01-24 jj5 - Roboto font...
