@@ -136,7 +136,7 @@ function render_feed_for_list( $video_list, $topic = null ) {
       // 2024-07-01 jj5 - SEE: https://chatgpt.com/share/cd28dea6-a5c1-48ae-95ee-4ffa80848912
       'xmlns:xsi' => 'http://www.w3.org/2001/XMLSchema-instance',
       'xsi:schemaLocation' => 'https://www.inthelabwithjayjay.com/in-the-lab/feed.xsd',
-
+      'xsi:noNamespaceSchemaLocation' => 'https://www.inthelabwithjayjay.com/in-the-lab/feed.xsd',
 
 
     ]
