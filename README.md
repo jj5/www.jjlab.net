@@ -6,7 +6,10 @@ Website for the In The Lab With Jay Jay video blog: https://jjlab.net/
 
 Run the install-composer.sh script (as root) to install composer.
 
-Run the install.sh script to get git submodules and install composer dependencies in the 'vendor' directory.
+Run the install.sh script to get:
+
+* git submodules in 'ext' directory
+* composer dependencies in the 'vendor' directory
 
 ## Configuration
 
