@@ -77,7 +77,7 @@ function render_equipment_main() {
     price.</li>
   <li>Recent exchange rates are used for currency conversions, not the rates that were applicable
     at the time of record.</li>
-  <li>Shipping costs and sales tax are not included in the prices listed here.</li>
+  <li>Shipping costs and sales tax are (usually) not included in the prices listed here.</li>
   <li>Sometimes I can't find the exact product and in those circumstances a substitute product
     might be suggested.</li>
   <li>Sometimes a newer model has been released since I purchased the model I have, so keep
