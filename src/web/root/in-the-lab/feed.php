@@ -123,9 +123,6 @@ function render_feed_for_list( $video_list, $topic = null ) {
     [
       'version' => '2.0',
 
-      // 2024-07-01 jj5 - NOTE: this one is a wild ass guess...
-      'xmlns' => 'http://purl.org/rss/1.0/',
-
       'xmlns:content' => 'http://purl.org/rss/1.0/modules/content/',
       //'xmlns:wfw' => 'http://wellformedweb.org/CommentAPI/',
       'xmlns:dc' => 'http://purl.org/dc/elements/1.1/',
