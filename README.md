@@ -16,5 +16,7 @@ I can get an API key here: https://console.cloud.google.com/welcome?project=jj5w
 
 Example config.php file:
 
- define( 'DEBUG', false );
- define( 'YOUTUBE_API_KEY', '...' );
+```
+define( 'DEBUG', false );
+define( 'YOUTUBE_API_KEY', '...' );
+```
