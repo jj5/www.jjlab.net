@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.inthelabwithjayjay.com/in-the-lab/sitemap.php
