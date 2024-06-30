@@ -1432,96 +1432,96 @@ function render_equipment_list( $equipment_list ) {
 
         $purchase_list = $equipment->get_purchase_list();
 
+        foreach ( $purchase_list as $purchase ) {
+
+          $quantity = $purchase->get_order_quantity();
+          $price = $purchase->get_order_price();
+          $subtotal = $price->multiply( $quantity->get_value() );
+          $date = $purchase->get_order_date();
+          $shipping = $purchase->get_order_shipping();
+          $tax = $purchase->get_order_tax();
+          $discount = $purchase->get_order_discount();
+          $ancillary_charges = null;
+
+          if ( ! $shipping->is_null() ) {
+
+            $ancillary_charges = $shipping->add( $tax )->subtract( $discount );
+
+          }
+          elseif ( ! $tax->is_null() ) {
+
+            $ancillary_charges = $tax->subtract( $discount );
+
+          }
+          elseif ( ! $discount->is_null() ) {
+
+            $ancillary_charges = $discount->invert();
+
+          }
+
+          $total = $subtotal->add( $ancillary_charges );
+          $number = $quantity->get_value();
+          $number_name = NUMBER_MAP[ $number ] ?? $number;
+          $href = '#' . $purchase->get_parent()->get_equipment_id();
+          $vendor_url = $purchase->get_vendor_url();
+
+          if ( ! $vendor_url->is_null() ) { $href = $vendor_url->to_html(); }
+
+          $each = $number === 1 ? '' : ' each';
+          $plus = $shipping->get_value() > 0 ? 'and' : 'plus';
+
+          $order_url_html = $purchase->get_order_url()->to_html();
+          $order_id_html = $purchase->get_order_id()->to_html();
+
+          $order_item_name_html = $purchase->get_order_item_name()->to_html();
+
+          tag_open( 'dt' );
+
+            out_text( 'I purchased ' );
+
+            tag_open(
+              'a',
+              [
+                'href' => $href,
+                'class' => 'external',
+                'title' => TITLE_LINK_PURCHASED,
+                'target' => '_blank',
+              ]
+            );
+
+              $quantity = $purchase->get_order_quantity()->to_string();
+
+              out_text( $number_name );
+
+              out_text( ' of these' );
+
+            tag_shut( 'a' );
+
+            out_text( ' from ' );
+
+            out_text( $purchase->get_vendor() );
+
+            out_text( ' on ' );
+
+            out_text( $purchase->get_order_date()->to_string() );
+
+            out_text( ' for ' );
+
+            out_text( $purchase->get_order_price()->to_string() );
+
+            out_text( $each );
+
+            out_text( '.' );
+
+          tag_shut( 'dt' );
+
+          tag_open( 'dd' );
+
+          tag_shut( 'dd' );
+
+        }
+
       tag_shut( 'dl' );
-
-      foreach ( $purchase_list as $purchase ) {
-
-        $quantity = $purchase->get_order_quantity();
-        $price = $purchase->get_order_price();
-        $subtotal = $price->multiply( $quantity->get_value() );
-        $date = $purchase->get_order_date();
-        $shipping = $purchase->get_order_shipping();
-        $tax = $purchase->get_order_tax();
-        $discount = $purchase->get_order_discount();
-        $ancillary_charges = null;
-
-        if ( ! $shipping->is_null() ) {
-
-          $ancillary_charges = $shipping->add( $tax )->subtract( $discount );
-
-        }
-        elseif ( ! $tax->is_null() ) {
-
-          $ancillary_charges = $tax->subtract( $discount );
-
-        }
-        elseif ( ! $discount->is_null() ) {
-
-          $ancillary_charges = $discount->invert();
-
-        }
-
-        $total = $subtotal->add( $ancillary_charges );
-        $number = $quantity->get_value();
-        $number_name = NUMBER_MAP[ $number ] ?? $number;
-        $href = '#' . $purchase->get_parent()->get_equipment_id();
-        $vendor_url = $purchase->get_vendor_url();
-
-        if ( ! $vendor_url->is_null() ) { $href = $vendor_url->to_html(); }
-
-        $each = $number === 1 ? '' : ' each';
-        $plus = $shipping->get_value() > 0 ? 'and' : 'plus';
-
-        $order_url_html = $purchase->get_order_url()->to_html();
-        $order_id_html = $purchase->get_order_id()->to_html();
-
-        $order_item_name_html = $purchase->get_order_item_name()->to_html();
-
-        tag_open( 'dt' );
-
-          out_text( 'I purchased ' );
-
-          tag_open(
-            'a',
-            [
-              'href' => $href,
-              'class' => 'external',
-              'title' => TITLE_LINK_PURCHASED,
-              'target' => '_blank',
-            ]
-          );
-
-            $quantity = $purchase->get_order_quantity()->to_string();
-
-            out_text( $number_name );
-
-            out_text( ' of these' );
-
-          tag_shut( 'a' );
-
-          out_text( ' from ' );
-
-          out_text( $purchase->get_vendor() );
-
-          out_text( ' on ' );
-
-          out_text( $purchase->get_order_date()->to_string() );
-
-          out_text( ' for ' );
-
-          out_text( $purchase->get_order_price()->to_string() );
-
-          out_text( $each );
-
-          out_text( '.' );
-
-        tag_shut( 'dt' );
-
-        tag_open( 'dd' );
-
-        tag_shut( 'dd' );
-
-      }
 
     tag_shut( 'section' );
 
