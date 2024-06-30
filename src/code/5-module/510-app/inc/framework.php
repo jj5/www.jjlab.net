@@ -106,11 +106,21 @@ function dump( $value ) {
 
 function get_link( $query ) {
 
+  $is_sort_link = false;
+
   $new_query = $_GET;
 
   foreach ( $query as $key => $val ) {
 
+    if ( $key === 'sort' ) { $is_sort_link = true; }
+
     $new_query[ $key ] = $val;
+
+  }
+
+  if ( $is_sort_link ) {
+
+    $new_query[ 'rel' ] = 'nofollow';
 
   }
 
