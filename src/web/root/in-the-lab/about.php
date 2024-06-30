@@ -80,17 +80,22 @@ function render_about_main() {
     <a
       href="http://www.catb.org/hacker-emblem/"
       class="external"
-      title="Click through to learn more about the hacker emblem"
+      title="Click here to learn more about the hacker emblem."
     >Hacker Emblem</a>.
     As all good nerds will know the
     <a
       href="https://en.wikipedia.org/wiki/Glider_(Conway%27s_Game_of_Life)"
       class="external"
-      title="Click through to learn more about the glider in Conway's Game of Life"
+      title="Click here to learn more about the glider in Conway's Game of Life."
     >glider</a>
     which Eric S. Raymond chose for the hacker emblem can be in any of four different states, so I picked an alternative
     state for the glider to be in for the show's logo.
   </p>
+  <p>The source code for this website is now available on GitHub: <a
+      href="https://github.com/jj5/www.jjlab.net"
+      class="external"
+      title="Click here to read the source code for this website on GitHub."
+    >https://github.com/jj5/www.jjlab.net</a></p>
 </section>
 <section class="container">
   <h2 id="secret">Secret Links</h2>
