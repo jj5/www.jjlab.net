@@ -1,0 +1,563 @@
+<?php
+
+require_once __DIR__ . '/../../../../inc/framework.php';
+
+function render() {
+
+  $path_info = $_SERVER[ 'PATH_INFO' ] ?? '';
+
+  switch ( $path_info ) {
+
+    case '' :
+
+      return render_feature_index();
+
+    case '/mini-project' :
+
+      return render_feature_mini_project();
+
+    case '/old-book' :
+
+      return http_redirect( url_base() . '/feature.php/old-book-teardown', 301 );
+
+    case '/new-book' :
+
+      return http_redirect( url_base() . '/feature.php/new-book-teardown', 301 );
+
+  }
+
+  $feature_slug = ltrim( $path_info, '/' );
+
+  $feature = app_stash()->get_item_by_slug( Feature::class, $feature_slug );
+
+  if ( ! $feature->is_null() ) {
+
+    return render_feature_generic( $feature );
+
+  }
+
+  $path_parts = explode( '-', $path_info );
+
+  switch ( $path_parts[ 0 ] ) {
+
+    case '/maxitronix' :
+
+      if ( count( $path_parts ) === 1 ) {
+
+        return render_feature_maxitronix_index();
+
+      }
+
+      $kit = implode( '-', array_slice( $path_parts, 1 ) );
+
+      return render_feature_maxitronix_kit( $kit );
+
+  }
+
+  default_redirect( url_base() . '/feature.php' );
+
+}
+
+function render_feature_index() {
+
+  render_head( 'Features' );
+
+    tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
+
+      tag_open( 'section', [ 'class' => 'container' ] );
+
+        tag_bare( 'img', [ 'src' => LOGO_URL ] );
+
+        tag_text( 'h1', 'Features' );
+
+        tag_text( 'p', 'There are a bunch of regular features on the various shows.' );
+
+      tag_shut( 'section' );
+
+    tag_shut( 'header' );
+
+    tag_open( 'section', [ 'class' => 'container' ] );
+
+      tag_open( 'ul' );
+
+        $list = get_list( Feature::class );
+
+        foreach ( $list as $feature ) {
+
+          $video_count = $feature->video_count();
+
+          if ( $video_count === 0 ) { continue; }
+
+          tag_open( 'li' );
+
+            $feature->render_internal_link();
+
+            if ( $video_count === 1 ) {
+
+              out_text( ' (1 video)' );
+
+            }
+            else {
+
+              out_text( " ($video_count videos)" );
+
+            }
+
+          tag_shut( 'li' );
+
+        }
+
+      tag_shut( 'ul' );
+
+    tag_shut( 'section' );
+
+  render_foot();
+
+}
+
+function render_feature_generic( $feature ) {
+
+  render_head( $feature->get_title() );
+
+    tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
+
+      tag_open( 'section', [ 'class' => 'container' ] );
+
+        tag_bare( 'img', [ 'src' => LOGO_URL ] );
+
+        tag_text( 'h1', $feature->get_title() );
+
+        tag_open( 'p' );
+
+          $feature_title = strtolower( $feature->get_title() );
+          $show_title = strtolower( $feature->get_show()->get_title() );
+
+          if ( strpos( $feature_title, 'maxitronix' ) === 0 ) {
+
+            $feature_title = $feature->get_title();
+
+          }
+
+          switch ( $feature->get_show()->get_slug() ) {
+
+            case 'main-show' :
+
+              out_text( 'The ' );
+
+              $feature->render_internal_link( $feature_title );
+
+              out_text( ' is a regular feature of the ' );
+
+              $feature->get_show()->render_internal_link( $show_title );
+
+              out_text( ' which airs on ' );
+
+              $feature->get_channel()->render_internal_link();
+
+              out_text( '.' );
+
+              break;
+
+            case 'special-show' :
+
+              out_text( 'The ' );
+
+              $feature->render_internal_link( $feature_title );
+
+              out_text( ' is one of the ' );
+
+              $feature->get_show()->render_internal_link( $show_title );
+
+              out_text( ' which airs occasionally on ' );
+
+              $feature->get_channel()->render_internal_link();
+
+              out_text( '.' );
+
+              break;
+
+            default :
+
+              out_text( 'The ' );
+
+              $feature->render_internal_link( $feature_title );
+
+              out_text( ' is a ' );
+
+              $feature->get_show()->render_internal_link( $show_title );
+
+              out_text( ' which airs occasionally on ' );
+
+              $feature->get_channel()->render_internal_link();
+
+              out_text( '.' );
+
+              break;
+
+          }
+
+        tag_shut( 'p' );
+
+        tag_text( 'p', strval( $feature->get_feature_text() ) );
+
+      tag_shut( 'section' );
+
+    tag_shut( 'header' );
+
+    //app_stash()->get_main_show_selection()->render();
+
+    $feature->get_thing_list()->render();
+
+  render_foot();
+
+}
+
+function render_book_feature_text() {
+
+  tag_text(
+    'p',
+    'In a book teardown I go in detail through the table of contents and have a look at some of the front and back ' .
+    'matter. I also have a look at the index and the bibliography. I try to give you a good idea of what the book is ' .
+    'about and what you can expect to find in it.'
+
+  );
+
+}
+
+function render_feature_maxitronix_index() {
+
+  render_head( 'Maxitronix Xin1 Kits' );
+
+    tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
+
+      tag_open( 'section', [ 'class' => 'container' ] );
+
+        tag_bare( 'img', [ 'src' => LOGO_URL ] );
+
+        tag_text( 'h1', 'Maxitronix Xin1 Kits' );
+
+        tag_text(
+          'p',
+          'In the Maxitronix Xin1 videos I work my way through some old electronics project labs distributed ' .
+            'by Maxitronix back in the good old days.'
+        );
+
+        tag_open( 'p' );
+
+          out_text( 'The Maxitronix Xin1 videos are ' );
+
+          tag_text(
+            'a',
+            'special shows',
+            [
+              'href' => url_base() . '/show.php/special-show',
+              'class' => 'internal channel',
+              'title' => TITLE_SHOW_SPECIAL,
+            ]
+          );
+
+          out_text( ' which air on the ' );
+
+          tag_text(
+            'a',
+            'main channel',
+            [
+              'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
+              'class' => 'internal channel',
+              'title' => TITLE_CHANNEL_MAIN,
+            ]
+          );
+
+          out_text( '.' );
+
+        tag_shut( 'p' );
+
+      tag_shut( 'section' );
+
+    tag_shut( 'header' );
+
+    tag_open( 'section', [ 'class' => 'container' ] );
+
+      tag_text( 'h2', 'Maxitronix Xin1 Kits', [ 'id' => 'kits' ] );
+
+      tag_open( 'p' );
+  
+        out_text( 'The Maxitronix Xin1 Kits are electronic project labs with projects designed to teach people about electronics. ' );
+        out_text( 'They are a great way to learn electronics and are a lot of fun. ' );
+        out_text( 'I have a playlist of videos which feature these kits:' );
+
+      tag_shut( 'p' );
+
+      tag_open( 'ul' );
+
+        $kit_list = get_list( MaxitronixKit::class );
+
+        foreach ( $kit_list as $kit ) {
+
+          $kit_name = $kit->get_kit_name()->to_string();
+          $kit_slug = $kit_name;
+
+          tag_open( 'li' );
+
+            tag_text(
+              'a',
+              "Maxitronix $kit_name",
+              [
+                'href' => url_base() . "/feature.php/maxitronix-$kit_slug",
+                'class' => 'internal',
+                'title' => MaxitronixKit::get_html_title( $kit_name ),
+              ]
+            );
+
+          tag_shut( 'li' );
+
+        }
+
+      tag_shut( 'ul' );
+
+      tag_text( 'h2', 'Announcing Maxitronix Xin1 Projects Feature', [ 'id' => 'announcement' ] );
+
+      render_youtube_iframe( 'uEzp4mx_pYA', 'center' );
+
+    tag_shut( 'section' );
+
+    render_section_about_special_shows();
+
+  render_foot();
+
+}
+
+function render_feature_maxitronix_kit( $kit ) {
+
+  render_head( "Maxitronix $kit Kit" );
+
+    tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
+
+      tag_open( 'section', [ 'class' => 'container' ] );
+
+        tag_bare( 'img', [ 'src' => LOGO_URL ] );
+
+        tag_text( 'h1', "Maxitronix $kit Kit" );
+
+        tag_open( 'p' );
+
+          out_text( "In this Maxitronix $kit Kit special feature on the " );
+
+          tag_text(
+            'a',
+            'main channel',
+            [
+              'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
+              'class' => 'internal',
+              'title' => TITLE_CHANNEL_MAIN,
+            ]
+          );
+            
+          out_text( " I work my way through the projects in this old electronics " .
+              "project lab distributed by Maxitronix back in the good old days. When we finish this one we'll move on " .
+              "to the "
+          );
+
+          tag_text(
+            'a',
+            'next one',
+            [
+              'href' => url_base() . '/show.php/maxitronix',
+              'class' => 'internal',
+              'title' => TITLE_SHOW_MAXITRONIX,
+            ]
+          );
+
+          out_text( '!' );
+
+        tag_shut( 'p' );
+
+      tag_shut( 'section' );
+
+    tag_shut( 'header' );
+
+    app_stash()->get_maxitronix_kit_selection( $kit )->render();
+
+  render_foot();
+
+}
+
+function render_feature_mini_project() {
+
+  render_head( 'Mini Projects' );
+
+    tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
+
+      tag_open( 'section', [ 'class' => 'container' ] );
+
+        tag_bare( 'img', [ 'src' => LOGO_URL ] );
+
+        tag_text( 'h1', 'Mini Projects' );
+
+        tag_open( 'p' );
+
+          out_text( 'Mini Projects are ' );
+
+          tag_text(
+            'a',
+            'special shows',
+            [
+              'href' => url_base() . '/show.php/special-show',
+              'class' => 'internal channel',
+              'title' => TITLE_SHOW_SPECIAL,
+            ]
+          );
+
+          out_text( ' which air on the ' );
+
+          tag_text(
+            'a',
+            'main channel',
+            [
+              'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
+              'class' => 'internal channel',
+              'title' => TITLE_CHANNEL_MAIN,
+            ]
+          );
+
+          out_text( '.' );
+
+        tag_shut( 'p' );
+
+        tag_open( 'p' );
+
+          out_text( 'The Mini Projects are published by ' );
+
+          tag_text(
+            'a',
+            'Silicon Chip magazine',
+            [
+              'href' => 'https://www.siliconchip.com.au/',
+              'class' => 'external',
+              'title' => 'Click here to visit Silicon Chip magazine the published of the Mini Projects.',
+            ]
+          );
+
+          out_text( ' and sponsored by ' );
+
+          tag_text(
+            'a',
+            'Jaycar',
+            [
+              'href' => 'https://www.jaycar.com.au/',
+              'class' => 'external',
+              'title' => 'Click here to visit Jaycar the sponsor of the Mini Projects.',
+            ]
+          );
+
+          out_text( '.' );
+
+        tag_shut( 'p' );
+
+      tag_shut( 'section' );
+
+    tag_shut( 'header' );
+
+    tag_open( 'section', [ 'class' => 'container' ] );
+
+      tag_text( 'h2', 'Mini Projects', [ 'id' => 'mini-projects' ] );
+
+      tag_open( 'p' );
+  
+        out_text( 'Soon we will be covering the Mini Projects from Silicon Chip magazine, sponsored by Jaycar. ' );
+
+        out_text( 'Stand by for those!' );
+
+      tag_shut( 'p' );
+
+    tag_shut( 'section' );
+
+    tag_open( 'section', [ 'class' => 'container' ] );
+
+      tag_text( 'h2', 'Links', [ 'id' => 'links' ] );
+
+      tag_open( 'p' );
+  
+        out_text( 'Here are some links regarding the new Mini Projects special shows:' );
+
+      tag_shut( 'p' );
+
+      tag_open( 'ul' );
+
+        tag_open( 'li' );
+
+          tag_text(
+            'a',
+            'Channel News: Announcing Mini Projects | In The Lab With Jay Jay',
+            [
+              'href' => 'https://blog.jj5.net/blog/2024/06/14/channel-news-announcing-mini-projects-in-the-lab-with-jay-jay/',
+              'class' => 'external',
+              'title' => 'Click here for the Mini Projects announcement video.',
+            ]
+          );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          tag_text(
+            'a',
+            'Our new Mini Projects - May 2024 - Silicon Chip Online',
+            [
+              'href' => 'https://www.siliconchip.com.au/Issue/2024/May/Our+new+Mini+Projects',
+              'class' => 'external',
+              'title' => 'Click here to read the Mini Projects announcement from Nicholas Vinen the Editor of Silicon Chip magazine.',
+            ]
+          );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          tag_text(
+            'a',
+            'List of Mini Project articles published by Silicon Chip magazine',
+            [
+              'href' => 'https://www.siliconchip.com.au/Series/417',
+              'class' => 'external',
+              'title' => 'Click here for the full list of Mini Projects published by Silicon Chip magazine.',
+            ]
+          );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          tag_text(
+            'a',
+            'Silicon Chip',
+            [
+              'href' => 'https://www.siliconchip.com.au/',
+              'class' => 'external',
+              'title' => 'Click here to visit Silicon Chip magazine, who publish the the Mini Projects.',
+            ]
+          );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          tag_text(
+            'a',
+            'Jaycar',
+            [
+              'href' => 'https://www.jaycar.com.au/',
+              'class' => 'external',
+              'title' => 'Click here to visit Jaycar, the sponsor of the Mini Projects.',
+            ]
+          );
+
+        tag_shut( 'li' );
+
+      tag_shut( 'ul' );
+
+    tag_shut( 'section' );
+
+  render_foot();
+
+}

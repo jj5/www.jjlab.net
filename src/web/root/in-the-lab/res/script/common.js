@@ -1,0 +1,320 @@
+
+"use strict";
+
+//alert( 'Just testing...' );
+
+var WINDOW_SIZE_COOKIE = 'sz';
+
+// 2024-06-29 jj5 - 'DOMContentLoaded' happens before 'load'...
+//
+document.addEventListener( 'DOMContentLoaded', handle_content_loaded );
+window.addEventListener( 'load', handle_window_load );
+window.addEventListener( 'resize', handle_window_resize );
+document.addEventListener( 'click', handle_document_click );
+
+function handle_window_load( ev, el ) {
+
+  const footer = document.querySelector( 'footer' );
+
+  //footer.innerHTML = '<p>Just testing...</p>';
+
+  log_function_call( 'handle_window_load' );
+
+  el = el ?? this;
+
+  //
+  // 2024-06-15 jj5 - this is for links for headings that have an id attribute
+  //
+
+  const headings = document.querySelectorAll( 'h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]' );
+  
+  headings.forEach( heading => {
+
+    const id = heading.getAttribute( 'id' );
+    
+    if ( ! id ) { return; }
+
+    const link = document.createElement("a");
+    link.setAttribute( 'href', `#${id}` );
+    link.setAttribute( 'class', 'heading-link' );
+    link.innerHTML = '#';
+
+    heading.appendChild( link );
+
+  });
+
+  scroll_into_view();
+
+};
+
+function handle_window_resize( ev, el ) {
+
+  log_function_call( 'handle_window_resize' );
+
+  el = el ?? this;
+
+  set_window_size_cookie();
+
+}
+
+function set_window_size_cookie() {
+
+  log_function_call( 'set_window_size_cookie' );
+
+  var was_set = is_cookie_set( WINDOW_SIZE_COOKIE );
+
+  // 2024-01-24 jj5 - get window size...
+  //
+  var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+  var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+
+  // 2024-01-24 jj5 - create cookie value...
+  //
+  var cookie_value = width + 'x' + height;
+
+  // 2024-01-24 jj5 - calculate an expiry date, 10 years from now...
+  //
+  var d = new Date();
+  d.setTime( d.getTime() + ( 10 * 356 * 24 * 60 * 60 * 1000 ) ); // 10 years in milliseconds
+  var expires = 'expires=' + d.toUTCString();
+
+  // 2024-01-24 jj5 - set cookie with window size and expirty date...
+  //
+  document.cookie = WINDOW_SIZE_COOKIE + '=' + cookie_value + ';' + expires + ';path=/';
+
+  // 2024-01-27 jj5 - if we've just added this cookie for the first time, refresh the page...
+  //
+  // 2024-01-27 jj5 - THINK: is this playing with fire? could we go into an infinite loop?
+  //
+  if ( ! was_set ) {
+    
+    // 2024-01-27 jj5 - if it wasn't set, but now it is set, we assume it has applied and we can reload...
+    //
+    if ( is_cookie_set( WINDOW_SIZE_COOKIE ) ) {
+
+      return document.location.reload();
+
+    }
+  }
+
+  if ( ! DEBUG ) { return; }
+
+  var sz = document.getElementById( WINDOW_SIZE_COOKIE );
+
+  if ( ! sz ) {
+
+    sz = document.createElement( 'div' );
+
+    sz.id = WINDOW_SIZE_COOKIE;
+    sz.style.position = 'fixed';
+    sz.style.bottom = 0;
+    sz.style.right = 0;
+    sz.style.padding = '1rem';
+    sz.style.color = 'red';
+    sz.style.backgroundColor = 'white';
+
+    document.body.appendChild( sz );
+
+  }
+
+  var responsive_category = null;
+
+  if ( width >= 1920 ) {
+
+    responsive_category = 'rc-1920';
+
+  }
+  else if ( width >= 1280 ) {
+
+    responsive_category = 'rc-1280';
+
+  }
+  else if ( width >= 640 ) {
+
+    responsive_category = 'rc-0640';
+
+  }
+  else if ( width >= 320 ) {
+
+    responsive_category = 'rc-0320';
+
+  }
+  else {
+
+    responsive_category = 'rc-base';
+
+  }
+
+  sz.innerHTML = responsive_category + ' | ' + cookie_value;
+
+  //console.log( sz );
+
+}
+
+function is_cookie_set( cookie_name ) {
+  
+  var cookies = document.cookie.split( ';' );
+
+  for ( var i = 0; i < cookies.length; i++ ) {
+    
+    var parts = cookies[ i ].split( '=' );
+    
+    if ( cookie_name === parts[ 0 ].trim() ) { return true; }
+
+  }
+  
+  return false;
+
+}
+
+function handle_document_click( ev, el ) {
+
+  log_function_call( 'handle_document_click' );
+
+  el = el ?? this;
+
+  close_menu();
+
+}
+
+function close_menu() {
+
+  log_function_call( 'close_menu' );
+
+  document.getElementById( 'popover-grid' ).classList.remove( 'popover-open' );
+
+}
+
+function handle_hamburger_click( ev, el ) {
+
+  log_function_call( 'handle_hamburger_click' );
+
+  el = el ?? this;
+
+  ev.stopPropagation();
+
+  toggle_menu();
+
+}
+
+function toggle_menu() {
+
+  log_function_call( 'toggle_menu' );
+
+  document.getElementById( 'popover-grid' ).classList.toggle( 'popover-open' );
+
+}
+
+function handle_content_loaded( ev, el ) {
+
+  log_function_call( 'handle_content_loaded' );
+
+  el = el ?? this;
+
+  set_window_size_cookie();
+
+  load_iframes();
+
+}
+
+function load_iframes() {
+
+  // 2024-01-26 jj5 - don't continually load the iframes during development...
+  //
+  if ( DEBUG ) { return; }
+
+  log_function_call( 'load_iframes' );
+
+  var observer = new IntersectionObserver(
+
+    function( entry_list ) {
+
+      for ( var i = 0; i < entry_list.length; i++ ) {
+
+        var entry = entry_list[ i ];
+
+        if ( ! entry.isIntersecting ) { continue; }
+
+        var iframe = entry.target;
+
+        if ( iframe.getAttribute( 'src' ) !== null ) { continue; }
+
+        if ( iframe.getAttribute( 'src' ) === iframe.getAttribute( 'data-src' ) ) { continue; }
+
+        iframe.setAttribute( 'src', iframe.getAttribute( 'data-src' ) );
+
+      }
+    },
+    {
+      threshold: [ 0 ]
+    }
+  );
+
+  var iframe_list = document.getElementsByTagName( 'iframe' );
+
+  for ( var i = 0; i < iframe_list.length; i++ ) {
+
+    var iframe = iframe_list[ i ];
+
+    if ( iframe.getAttribute( 'src' ) !== null ) { continue; }
+
+    observer.observe( iframe );
+
+  }
+}
+
+function scroll_into_view() {
+
+  console.log( 'scroll_into_view()' );
+
+  //if ( is_john() ) { alert( 'Hi John!' ); }
+
+  var fragment = window.location.hash;
+
+  // 2024-01-27 jj5 - just make sure we're scrolled to the right place... what can happen is that we automatically
+  // reload the page when we set the window size cookie, and then we lose the scroll position. so we just make sure
+  // we're scrolled to the right place when the window loads...
+  //
+  if ( fragment ) {
+
+    console.log( 'found fragment: ' + fragment );
+
+    // 2024-01-27 jj5 - remove the "#" at the beginning of the URL fragment...
+    //
+    var id = fragment.substring( 1 ); 
+
+    var element = document.getElementById( id );
+
+    if ( element ) {
+
+      console.log( 'scrolling to element with id: ' + id );
+
+      element.scrollIntoView();
+
+    }
+  }
+}
+
+function is_john() {
+
+  try {
+      
+    return ( typeof window.IS_JOHN ) === 'boolean' && window.IS_JOHN === true;
+
+  }
+  catch ( ex ) {
+
+    return false;
+
+  }
+}
+
+function log_function_call( fn ) {
+
+  if ( ! DEBUG ) { return false; }
+
+  console.log( fn + '()' );
+
+  return true;
+
+}

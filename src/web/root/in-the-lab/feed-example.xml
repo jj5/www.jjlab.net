@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="feed.xsl" type="text/xsl"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>John&#039;s blog</title>
+	<atom:link href="https://blog.jj5.net/blog/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.jj5.net/blog</link>
+	<description>Talking about technology (mostly)</description>
+	<lastBuildDate>Thu, 27 Jun 2024 06:10:39 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.5</generator>
+
+<image>
+	<url>https://blog.jj5.net/blog/wp-content/uploads/2024/01/cropped-itl-logo-32x32.png</url>
+	<title>John&#039;s blog</title>
+	<link>https://blog.jj5.net/blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Refactoring jjlab.net</title>
+		<link>https://blog.jj5.net/blog/2024/06/27/refactoring-jjlab-net/</link>
+					<comments>https://blog.jj5.net/blog/2024/06/27/refactoring-jjlab-net/#respond</comments>
+		
+		<dc:creator><![CDATA[Jay Jay]]></dc:creator>
+		<pubDate>Thu, 27 Jun 2024 06:09:24 +0000</pubDate>
+				<category><![CDATA[Chatter]]></category>
+		<category><![CDATA[Design]]></category>
+		<category><![CDATA[Diary]]></category>
+		<category><![CDATA[Internet]]></category>
+		<category><![CDATA[Notes]]></category>
+		<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Vocabulary]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[channel]]></category>
+		<category><![CDATA[feature]]></category>
+		<category><![CDATA[jjlab.net]]></category>
+		<category><![CDATA[modeling]]></category>
+		<category><![CDATA[segment]]></category>
+		<category><![CDATA[series]]></category>
+		<category><![CDATA[show]]></category>
+		<category><![CDATA[video]]></category>
+		<guid isPermaLink="false">https://blog.jj5.net/blog/?p=11218</guid>
+
+					<description><![CDATA[I just spent two whole days refactoring and improving my jjlab.net website. One thing I had to think very carefully about for my modeling was the class/instance distinction for various things, you can see my notes below. So channels have &#8230; <a href="https://blog.jj5.net/blog/2024/06/27/refactoring-jjlab-net/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>I just spent two whole days refactoring and improving my <a href="https://jjlab.net">jjlab.net</a> website.</p>
+<p>One thing I had to think very carefully about for my modeling was the class/instance distinction for various things, you can see my notes below.</p>
+<p>So channels have shows, and shows have features.</p>
+<p>A series has segments, and segments have a video.</p>
+<p>A series is an instance of a show, and a segment is an instance of a feature.</p>
+<p>Everything is easy when you know how!</p>
+<p><a href="https://www.jj5.net/file/2024-06-27-160545/IMG_6271.JPEG"><img decoding="async" src="https://www.jj5.net/file/2024-06-27-160545/IMG_6271.JPEG" alt="John's notes about the design of his model"></a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.jj5.net/blog/2024/06/27/refactoring-jjlab-net/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Using an Inverting Regulator for Buck/Boost DC-to-DC Voltage Conversion</title>
+		<link>https://blog.jj5.net/blog/2024/06/26/using-an-inverting-regulator-for-buck-boost-dc-to-dc-voltage-conversion/</link>
+					<comments>https://blog.jj5.net/blog/2024/06/26/using-an-inverting-regulator-for-buck-boost-dc-to-dc-voltage-conversion/#respond</comments>
+		
+		<dc:creator><![CDATA[Jay Jay]]></dc:creator>
+		<pubDate>Wed, 26 Jun 2024 03:54:07 +0000</pubDate>
+				<category><![CDATA[Chatter]]></category>
+		<category><![CDATA[Design]]></category>
+		<category><![CDATA[Diary]]></category>
+		<category><![CDATA[Electronics]]></category>
+		<category><![CDATA[Hardware]]></category>
+		<category><![CDATA[Learning]]></category>
+		<category><![CDATA[Notes]]></category>
+		<category><![CDATA[Reading]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[boost]]></category>
+		<category><![CDATA[buck]]></category>
+		<category><![CDATA[digikey]]></category>
+		<category><![CDATA[inverting regulator]]></category>
+		<category><![CDATA[voltage conversion]]></category>
+		<guid isPermaLink="false">https://blog.jj5.net/blog/?p=11215</guid>
+
+					<description><![CDATA[My friend @dcz_ on IRC referred me to this one: Using an Inverting Regulator for Buck/Boost DC-to-DC Voltage Conversion.]]></description>
+										<content:encoded><![CDATA[<p>My friend @dcz_ on IRC referred me to this one: <a href="https://www.digikey.com.au/en/articles/using-an-inverting-regulator-for-buck-boost-dc-to-dc-voltage-conversion">Using an Inverting Regulator for Buck/Boost DC-to-DC Voltage Conversion</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.jj5.net/blog/2024/06/26/using-an-inverting-regulator-for-buck-boost-dc-to-dc-voltage-conversion/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Assange Free</title>
+		<link>https://blog.jj5.net/blog/2024/06/25/assange-free/</link>
+					<comments>https://blog.jj5.net/blog/2024/06/25/assange-free/#respond</comments>
+		
+		<dc:creator><![CDATA[Jay Jay]]></dc:creator>
+		<pubDate>Tue, 25 Jun 2024 05:06:47 +0000</pubDate>
+				<category><![CDATA[Chatter]]></category>
+		<category><![CDATA[Diary]]></category>
+		<category><![CDATA[Internet]]></category>
+		<category><![CDATA[Learning]]></category>
+		<category><![CDATA[Notes]]></category>
+		<category><![CDATA[Philosophy]]></category>
+		<category><![CDATA[Reading]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Assange]]></category>
+		<category><![CDATA[freedom]]></category>
+		<guid isPermaLink="false">https://blog.jj5.net/blog/?p=11213</guid>
+
+					<description><![CDATA[Today newspapers around the globe announce that Assange is free. And about time too, amirite? No good deed goes unpunished. If we&#8217;re going to live in functioning democracies we need to know what our institutions are doing in our name. &#8230; <a href="https://blog.jj5.net/blog/2024/06/25/assange-free/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>Today newspapers around the globe announce that Assange is free.</p>
+<p>And about time too, amirite?</p>
+<p>No good deed goes unpunished.</p>
+<p>If we&#8217;re going to live in functioning democracies we need to know what our institutions are doing in our name.</p>
+<p>Assange, a true servant of the people.</p>
+<p><a href="https://www.jj5.net/file/2024-06-25-150307/smh.png"><img decoding="async" src="https://www.jj5.net/file/2024-06-25-150307/smh.png" alt="Sydney Morning Herald headlines"></a></p>
+<p><a href="https://www.jj5.net/file/2024-06-25-150307/cnn.png"><img decoding="async" src="https://www.jj5.net/file/2024-06-25-150307/cnn.png" alt="CNN headlines"></a></p>
+<p><a href="https://www.jj5.net/file/2024-06-25-150307/bbc.png"><img decoding="async" src="https://www.jj5.net/file/2024-06-25-150307/bbc.png" alt="BBC headlines"></a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.jj5.net/blog/2024/06/25/assange-free/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Maxitronix 200in1 unboxing</title>
+		<link>https://blog.jj5.net/blog/2024/06/21/maxitronix-200in1-unboxing/</link>
+					<comments>https://blog.jj5.net/blog/2024/06/21/maxitronix-200in1-unboxing/#respond</comments>
+		
+		<dc:creator><![CDATA[Jay Jay]]></dc:creator>
+		<pubDate>Thu, 20 Jun 2024 23:44:03 +0000</pubDate>
+				<category><![CDATA[Asset]]></category>
+		<category><![CDATA[Chatter]]></category>
+		<category><![CDATA[Diary]]></category>
+		<category><![CDATA[Electronics]]></category>
+		<category><![CDATA[Hardware]]></category>
+		<category><![CDATA[Notes]]></category>
+		<category><![CDATA[Maxitronix 200in1]]></category>
+		<category><![CDATA[unboxing]]></category>
+		<guid isPermaLink="false">https://blog.jj5.net/blog/?p=11209</guid>
+
+					<description><![CDATA[You might already know that I have the full set of Maxitronix Xin1 kits, but here are some photos of me unboxing my 200in1 so I could send some pics to my mate Dave Jones:]]></description>
+										<content:encoded><![CDATA[<p>You might already know that I have <a href="https://www.inthelabwithjayjay.com/in-the-lab/show.php/maxitronix">the full set of Maxitronix Xin1 kits</a>, but here are some photos of me unboxing my 200in1 so I could send some pics to my mate <a href="https://www.eevblog.com/">Dave Jones</a>:</p>
+<p><a href="https://www.jj5.net/file/2024-06-21-093917/IMG_6255.JPG"><img decoding="async" src="https://www.jj5.net/file/2024-06-21-093917/IMG_6255.JPG" alt="Maxitronix 200in1 unboxing"></a><br />
+<a href="https://www.jj5.net/file/2024-06-21-093917/IMG_6256.JPG"><img decoding="async" src="https://www.jj5.net/file/2024-06-21-093917/IMG_6256.JPG" alt="Maxitronix 200in1 unboxing"></a><br />
+<a href="https://www.jj5.net/file/2024-06-21-093917/IMG_6257.JPG"><img decoding="async" src="https://www.jj5.net/file/2024-06-21-093917/IMG_6257.JPG" alt="Maxitronix 200in1 unboxing"></a><br />
+<a href="https://www.jj5.net/file/2024-06-21-093917/IMG_6258.JPG"><img decoding="async" src="https://www.jj5.net/file/2024-06-21-093917/IMG_6258.JPG" alt="Maxitronix 200in1 unboxing"></a><br />
+<a href="https://www.jj5.net/file/2024-06-21-093917/IMG_6261.JPG"><img decoding="async" src="https://www.jj5.net/file/2024-06-21-093917/IMG_6261.JPG" alt="Maxitronix 200in1 unboxing"></a><br />
+<a href="https://www.jj5.net/file/2024-06-21-093917/IMG_6262.JPG"><img decoding="async" src="https://www.jj5.net/file/2024-06-21-093917/IMG_6262.JPG" alt="Maxitronix 200in1 unboxing"></a><br />
+<a href="https://www.jj5.net/file/2024-06-21-093917/IMG_6263.JPG"><img decoding="async" src="https://www.jj5.net/file/2024-06-21-093917/IMG_6263.JPG" alt="Maxitronix 200in1 unboxing"></a><br />
+<a href="https://www.jj5.net/file/2024-06-21-093917/IMG_6265.JPG"><img decoding="async" src="https://www.jj5.net/file/2024-06-21-093917/IMG_6265.JPG" alt="Maxitronix 200in1 unboxing"></a><br />
+<a href="https://www.jj5.net/file/2024-06-21-093917/IMG_6268.JPG"><img decoding="async" src="https://www.jj5.net/file/2024-06-21-093917/IMG_6268.JPG" alt="Maxitronix 200in1 unboxing"></a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.jj5.net/blog/2024/06/21/maxitronix-200in1-unboxing/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>In The Lab With Jay Jay growth milestone</title>
+		<link>https://blog.jj5.net/blog/2024/06/21/in-the-lab-with-jay-jay-growth-milestone/</link>
+					<comments>https://blog.jj5.net/blog/2024/06/21/in-the-lab-with-jay-jay-growth-milestone/#comments</comments>
+		
+		<dc:creator><![CDATA[Jay Jay]]></dc:creator>
+		<pubDate>Thu, 20 Jun 2024 22:36:33 +0000</pubDate>
+				<category><![CDATA[Chatter]]></category>
+		<category><![CDATA[Diary]]></category>
+		<category><![CDATA[Notes]]></category>
+		<category><![CDATA[In The Lab With Jay Jay]]></category>
+		<guid isPermaLink="false">https://blog.jj5.net/blog/?p=11206</guid>
+
+					<description><![CDATA[Today In The Lab With Jay Jay just had a good binary milestone. We now have 256 subscribers, which is more than you can count in one byte! Next stop is 357 when I catch up with my mate Craig!]]></description>
+										<content:encoded><![CDATA[<p>Today <a href="https://www.inthelabwithjayjay.com/in-the-lab/">In The Lab With Jay Jay</a> just had a good binary milestone. We now have 256 subscribers, which is more than you can count in one byte!</p>
+<p>Next stop is 357 when I catch up with <a href="https://www.youtube.com/@getsmarterandmakestuff">my mate Craig</a>!</p>
+<p><a href="https://www.jj5.net/file/2024-06-21-083359/jjlab-256.png"><img decoding="async" src="https://www.jj5.net/file/2024-06-21-083359/jjlab-256.png" alt="Now with 256 subscribers and 75 videos"></a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.jj5.net/blog/2024/06/21/in-the-lab-with-jay-jay-growth-milestone/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>My day at ElectroneX with my friend</title>
+		<link>https://blog.jj5.net/blog/2024/06/19/my-day-at-electronex-with-my-friend/</link>
+					<comments>https://blog.jj5.net/blog/2024/06/19/my-day-at-electronex-with-my-friend/#respond</comments>
+		
+		<dc:creator><![CDATA[Jay Jay]]></dc:creator>
+		<pubDate>Wed, 19 Jun 2024 09:49:07 +0000</pubDate>
+				<category><![CDATA[Chatter]]></category>
+		<category><![CDATA[Diary]]></category>
+		<category><![CDATA[Electronics]]></category>
+		<category><![CDATA[Hardware]]></category>
+		<category><![CDATA[Inspiration]]></category>
+		<category><![CDATA[Notes]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Dave Jones]]></category>
+		<category><![CDATA[EEVBlog]]></category>
+		<category><![CDATA[ElectroneX]]></category>
+		<category><![CDATA[Nicholas Vinen]]></category>
+		<guid isPermaLink="false">https://blog.jj5.net/blog/?p=11190</guid>
+
+					<description><![CDATA[Well. Wow. What a day! Today was the opening day of ElectroneX in Sydney. I had the great privilege of spending the day with my very good friend Aleksei. Between us I think we managed to talk to every single &#8230; <a href="https://blog.jj5.net/blog/2024/06/19/my-day-at-electronex-with-my-friend/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>Well. Wow. What a day!</p>
+<p>Today was the opening day of <a href="https://electronex.com.au/">ElectroneX</a> in Sydney.</p>
+<p>I had the great privilege of spending the day with my very good friend <a href="https://alekseivanamois.com/">Aleksei</a>. Between us I think we managed to talk to every single exhibitor. By the time I got home my legs were sore and my lips were parched, so much walking, standing, and talking!</p>
+<p>I turned up in character. I wore my <a href="https://www.inthelabwithjayjay.com/in-the-lab/#costume">costume</a>. A lot of people thought that was fun, as did I. :)</p>
+<p>I met Dave Jones of <a href="https://www.eevblog.com/">EEVblog</a> fame, which really made my day. I knew he would be there and I was really hoping to see him, and I did! He was nice enough to <a href="https://x.com/eevblog/status/1803278981858509163">plug my channel</a>, what an excellent human being! &lt;3</p>
+<p>And as if things couldn&#8217;t get better they went on and did! It was an honour and a privilege to meet Nicholas Vinen, the editor of <a href="https://siliconchip.au/">Silicon Chip</a> magazine. I had hoped that he would be there and I would run into him&#8230; and then he was and I did!</p>
+<p>All round a super great day. I had a lot of fun, learned a few things about the state of the art, and I even netted a few new subscriptions on <a href="https://www.youtube.com/@InTheLabWithJayJay">the channel</a>. :)</p>
+<p><a href="https://www.jj5.net/file/2024-06-19-205530/GQaIq6IbYAEYagi.jpeg"><img decoding="async" src="https://www.jj5.net/file/2024-06-19-205530/GQaIq6IbYAEYagi.jpeg" alt="John and Aleksei meet Dave Jones"></a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.jj5.net/blog/2024/06/19/my-day-at-electronex-with-my-friend/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Today was Spring cleaning day</title>
+		<link>https://blog.jj5.net/blog/2024/06/18/today-was-spring-cleaning-day/</link>
+					<comments>https://blog.jj5.net/blog/2024/06/18/today-was-spring-cleaning-day/#respond</comments>
+		
+		<dc:creator><![CDATA[Jay Jay]]></dc:creator>
+		<pubDate>Tue, 18 Jun 2024 09:01:08 +0000</pubDate>
+				<category><![CDATA[Chatter]]></category>
+		<category><![CDATA[Diary]]></category>
+		<category><![CDATA[Electronics]]></category>
+		<category><![CDATA[Hardware]]></category>
+		<category><![CDATA[Notes]]></category>
+		<category><![CDATA[battery]]></category>
+		<category><![CDATA[Spring cleaning]]></category>
+		<category><![CDATA[ups]]></category>
+		<guid isPermaLink="false">https://blog.jj5.net/blog/?p=11187</guid>
+
+					<description><![CDATA[I had to get new batteries in four of my UPS devices which involved a lot of plugging and unplugging. Since I was down there under my desk I took some time to vacuum and do a better job of &#8230; <a href="https://blog.jj5.net/blog/2024/06/18/today-was-spring-cleaning-day/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>I had to get new batteries in four of my UPS devices which involved a lot of plugging and unplugging. Since I was down there under my desk I took some time to vacuum and do a better job of my cable labeling.</p>
+<p>While I was sorting cables I found one with a frayed end which I decided to keep for spare parts. In makes me nervous just looking at this thing. That&#8217;s a mains power lead with bare ends, it&#8217;s a death sentence waiting to happen! But that bit of cable with that attachment might very well come in handy some time so I will file it in its relevant drawer.</p>
+<p><a href="https://www.jj5.net/file/2024-06-18-185732/IMG_6251.JPEG"><img decoding="async" src="https://www.jj5.net/file/2024-06-18-185732/IMG_6251.JPEG" alt="John's mains power cable with bare ends"></a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.jj5.net/blog/2024/06/18/today-was-spring-cleaning-day/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Tag cloud June 2024</title>
+		<link>https://blog.jj5.net/blog/2024/06/17/tag-cloud-june-2024/</link>
+					<comments>https://blog.jj5.net/blog/2024/06/17/tag-cloud-june-2024/#respond</comments>
+		
+		<dc:creator><![CDATA[Jay Jay]]></dc:creator>
+		<pubDate>Mon, 17 Jun 2024 02:01:44 +0000</pubDate>
+				<category><![CDATA[Chatter]]></category>
+		<category><![CDATA[Diary]]></category>
+		<category><![CDATA[Notes]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[tag cloud]]></category>
+		<guid isPermaLink="false">https://blog.jj5.net/blog/?p=11185</guid>
+
+					<description><![CDATA[Just for fun I took a screenshot of my latest tag cloud: As you can see the new tag In The Lab With Jay Jay is quite prominent now. And ChatGPT is fairly new as well. Ah the times how &#8230; <a href="https://blog.jj5.net/blog/2024/06/17/tag-cloud-june-2024/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>Just for fun I took a screenshot of my latest tag cloud:</p>
+<p><a href="https://www.jj5.net/file/2024-06-17-115751/tag-cloud.png"><img decoding="async" src="https://www.jj5.net/file/2024-06-17-115751/tag-cloud.png" alt="John's tag cloud"></a></p>
+<p>As you can see the new tag <a href="https://blog.jj5.net/blog/tag/in-the-lab-with-jay-jay/">In The Lab With Jay Jay</a> is quite prominent now. And <a href="https://blog.jj5.net/blog/tag/chatgpt/">ChatGPT</a> is fairly new as well.</p>
+<p>Ah the times how they are a&#8217;changing.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.jj5.net/blog/2024/06/17/tag-cloud-june-2024/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Homework</title>
+		<link>https://blog.jj5.net/blog/2024/06/17/homework-19/</link>
+					<comments>https://blog.jj5.net/blog/2024/06/17/homework-19/#respond</comments>
+		
+		<dc:creator><![CDATA[Jay Jay]]></dc:creator>
+		<pubDate>Mon, 17 Jun 2024 01:38:39 +0000</pubDate>
+				<category><![CDATA[Book]]></category>
+		<category><![CDATA[Chatter]]></category>
+		<category><![CDATA[Diary]]></category>
+		<category><![CDATA[Homework]]></category>
+		<category><![CDATA[Internet]]></category>
+		<category><![CDATA[Learning]]></category>
+		<category><![CDATA[Notes]]></category>
+		<category><![CDATA[Philosophy]]></category>
+		<category><![CDATA[Reading]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Video]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Annie Jacobsen]]></category>
+		<category><![CDATA[clickmedia.com.au]]></category>
+		<category><![CDATA[eben moglen]]></category>
+		<category><![CDATA[ElectroneX]]></category>
+		<category><![CDATA[Four Corners]]></category>
+		<category><![CDATA[Gaza]]></category>
+		<category><![CDATA[Iain McGilchrist]]></category>
+		<category><![CDATA[Israel]]></category>
+		<category><![CDATA[manhole cover]]></category>
+		<category><![CDATA[nihilism]]></category>
+		<category><![CDATA[Nuclear War: A Scenario]]></category>
+		<category><![CDATA[Operation Plumbbob]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[Succession]]></category>
+		<guid isPermaLink="false">https://blog.jj5.net/blog/?p=11178</guid>
+
+					<description><![CDATA[This is a part of the homework feature of my blog, which is an ongoing conversation with my mate S.F. Hey mate. Lovely to see you again, as always. I ended up getting these cards printed at clickmedia.com.au to take &#8230; <a href="https://blog.jj5.net/blog/2024/06/17/homework-19/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>This is a part of the <a href="https://www.progclub.org/blog/2022/11/20/homework/">homework</a> feature of my blog, which is an ongoing conversation with my mate S.F.</p>
+<p>Hey mate. Lovely to see you again, as always.</p>
+<p>I ended up getting these cards printed at <a href="https://clickmedia.com.au/">clickmedia.com.au</a> to take with me on Wednesday to <a href="https://electronex.com.au/">ElectroneX</a>:</p>
+<p><a href="https://jjlab.net/card.png"><img decoding="async" src="https://jjlab.net/card.png" alt="John's business card for In The Lab With Jay"></a></p>
+<p>I mentioned <a href="https://en.wikipedia.org/wiki/Iain_McGilchrist">Iain McGilchrist</a>, he&#8217;s a psychiatrist who dabbles in philosophy. I think he has a really excellent and interesting view of things. It&#8217;s hard to summarise his position but he is very interested in the difference in perceptive capabilities of the left and right hemispheres of the brain. He has a YouTube channel over here: <a href="https://www.youtube.com/@DrIainMcGilchrist">@DrIainMcGilchrist</a> and if you <a href="https://www.youtube.com/results?search_query=Iain+McGilchrist">search for him</a> you will find many a fascinating interview.</p>
+<p>You told me to check out <a href="https://en.wikipedia.org/wiki/Succession_(TV_series)">Succession (TV series)</a>.</p>
+<p>I found the Four Corners video you mentioned, over here: <a href="https://www.youtube.com/watch?v=BHlFLsf7ot0">Self-defence or genocide? Asking Israel’s powerful voices about Gaza | Four Corners</a>.</p>
+<p>I mentioned <a href="https://en.wikipedia.org/wiki/Eben_Moglen">Eben Moglen</a>, who has a website over here: <a href="https://moglen.law.columbia.edu/">moglen.law.columbia.edu</a>. I find Eben inspirational. He&#8217;s always talking in grandiose eloquence about the importance of free software, if you <a href="https://www.youtube.com/results?search_query=eben+moglen">search for him on YouTube</a> you are bound to find something of interest.</p>
+<p>I mentioned <a href="https://en.wikipedia.org/wiki/Annie_Jacobsen">Annie Jacobsen</a>, she&#8217;s a pretty interesting cat. She has <a href="https://www.amazon.com.au/stores/Annie-Jacobsen/author/B001K7ZHF0">written a number of books</a> on conspiracy-theory-like topics. I recently read her book <a href="https://www.amazon.com.au/dp/1911709607">Nuclear War: A Scenario</a>.</p>
+<p>I have a note here that says &#8220;positive view on nihilism&#8221; but I forget what that was about. Something I wanted to tell you, now lost to time. But <a href="https://duckduckgo.com/?hps=1&#038;start=1&#038;q=positive+view+on+nihilism&#038;atb=v379-1&#038;ia=web">searching for &#8216;positive view on nihilism&#8217;</a> turns up a bunch of interesting results! (Oh. Wait. Found it! It&#8217;s a video I wanted you to see: <a href="https://www.youtube.com/watch?v=MBRqu0YOH14">Optimistic Nihilism</a>.)</p>
+<p>Oh, another note I don&#8217;t remember: &#8220;void of &#8216;huh'&#8221;. I assume we were being hilarious.</p>
+<p>There is an urban myth that the first human projectile that made it into space was a manhole cover from nuclear testing facilities for <a href="https://en.wikipedia.org/wiki/Operation_Plumbbob">Operation Plumbbob</a> in 1957. I dunno if it&#8217;s true, but it&#8217;s a good story!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.jj5.net/blog/2024/06/17/homework-19/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Announcing new website for In The Lab With Jay Jay</title>
+		<link>https://blog.jj5.net/blog/2024/06/16/announcing-new-website-for-in-the-lab-with-jay-jay-2/</link>
+					<comments>https://blog.jj5.net/blog/2024/06/16/announcing-new-website-for-in-the-lab-with-jay-jay-2/#respond</comments>
+		
+		<dc:creator><![CDATA[Jay Jay]]></dc:creator>
+		<pubDate>Sun, 16 Jun 2024 06:29:06 +0000</pubDate>
+				<category><![CDATA[Art]]></category>
+		<category><![CDATA[Asset]]></category>
+		<category><![CDATA[Business]]></category>
+		<category><![CDATA[Chatter]]></category>
+		<category><![CDATA[Design]]></category>
+		<category><![CDATA[Diary]]></category>
+		<category><![CDATA[Electronics]]></category>
+		<category><![CDATA[Internet]]></category>
+		<category><![CDATA[Notes]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[business card]]></category>
+		<category><![CDATA[In The Lab With Jay Jay]]></category>
+		<category><![CDATA[website]]></category>
+		<guid isPermaLink="false">https://blog.jj5.net/blog/?p=11172</guid>
+
+					<description><![CDATA[Good news everyone! The In The Lab With Jay Jay website has been freeloading off jj5.net for a while now, over here: https://www.jj5.net/in-the-lab/ But I am pleased to announce that it has now been moved into its new and permanent &#8230; <a href="https://blog.jj5.net/blog/2024/06/16/announcing-new-website-for-in-the-lab-with-jay-jay-2/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+										<content:encoded><![CDATA[<p>Good news everyone!</p>
+<p>The In The Lab With Jay Jay website has been freeloading off jj5.net for a while now, over here: <a href="https://www.jj5.net/in-the-lab/">https://www.jj5.net/in-the-lab/</a></p>
+<p>But I am pleased to announce that it has now been moved into its new and permanent home, over here: <a href="https://www.InTheLabWithJayJay.com/">InTheLabWithJayJay.com</a></p>
+<p>There is also a short-link domain which will redirect you to the new site which I put into production to keep the links on my business cards short: <a href="https://jjlab.net/">jjlab.net</a></p>
+<p>Speaking of business cards I had some made to take with me to <a href="https://electronex.com.au/">ElectroneX</a> on Wednesday:</p>
+<p><a href="https://jjlab.net/card.png"><img decoding="async" src="https://jjlab.net/card.png" alt="John's new business card for In The Lab With Jay Jay"></a></p>
+<p>I&#8217;m planning to show up in <a href="https://www.inthelabwithjayjay.com/in-the-lab/#costume">costume</a> and hand out business cards, because I am a *genuine* nerd.</p>
+<p>As part of the migration to the new domain I improved the content of the site a bit. There is now an <a href="https://www.inthelabwithjayjay.com/in-the-lab/about.php">about</a> page with contact info and such and also a <a href="https://www.inthelabwithjayjay.com/in-the-lab/support.php">support the show</a> page with some ideas about how people can support the show!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://blog.jj5.net/blog/2024/06/16/announcing-new-website-for-in-the-lab-with-jay-jay-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

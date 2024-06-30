@@ -1,0 +1,860 @@
+<?php
+
+series(
+  early_content(
+    publication_date( '2023-06-17' ),
+    title( 'Hello, World' ),
+    youtube_video( 'D0-LBogwoi8' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/06/17/in-the-lab-with-jay-jay-june-17-2023-hello-world/' ),
+  ),
+);
+
+series(
+  early_content(
+    publication_date( '2023-06-17' ),
+    title( 'Scope Test' ),
+    youtube_video( '4x8EXxHqDyM' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/06/17/in-the-lab-with-jay-jay-june-17-2023-scope-test/' ),
+  ),
+);
+
+series(
+  early_content(
+    publication_date( '2023-07-20' ),
+    title( 'Reversing AC Adapter' ),
+    youtube_video( 'ApvlTKbqNNc' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/07/20/in-the-lab-with-jay-jay-july-20-2023-reversing-ac-adapter/' ),
+  ),
+);
+
+series(
+  early_content(
+    publication_date( '2023-07-20' ),
+    title( 'Testing with Potentiometer' ),
+    youtube_video( 'BUE2Ihb1hak' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/07/20/in-the-lab-with-jay-jay-july-20-2023-testing-with-potentiometer/' ),
+  ),
+);
+
+series(
+  early_content(
+    publication_date( '2023-07-20' ),
+    title( 'Magic Smoke!' ),
+    youtube_video( 'SKnezq9bzns' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/07/20/in-the-lab-with-jay-jay-july-20-2023-magic-smoke/' ),
+  ),
+);
+
+series(
+  early_content(
+    publication_date( '2023-07-28' ),
+    title( 'Testing Riden RD6006 with 19.5V power supply' ),
+    youtube_video( 'ZwgUtg4uLkE' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/07/28/in-the-lab-with-jay-jay-july-28-2023-testing-riden-rd6006-with-19-5v-power-supply/' ),
+  ),
+);
+
+series(
+  unboxing(
+    publication_date( '2023-08-02' ),
+    title( 'Unboxing of ZKE Tech EBD-A20H Battery Tester Electronic Load' ),
+    youtube_video( 'SolqAm9MgLE' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/08/02/in-the-lab-with-jay-jay-august-2-2023-unboxing-zke-tech-ebd-a20h-battery-tester-electronic-load/' ),
+  ),
+);
+
+series(
+  early_content(
+    publication_date( '2023-08-03' ),
+    title( 'Sorting Soldering Iron Tips' ),
+    youtube_video( 'qulejGTjbSY' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/08/03/in-the-lab-with-jay-jay-august-3-2023-sorting-soldering-iron-tips/' ),
+  ),
+);
+
+series(
+  early_content(
+    publication_date( '2023-08-08' ),
+    title( 'Making Input Power Cable for EBD-A20H Battery Tester' ),
+    youtube_video( '2EwHFPKr2Ak' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/08/08/in-the-lab-with-jay-jay-august-8-2023-making-input-power-cable-for-ebd-a20h-battery-tester/' ),
+  ),
+);
+
+series(
+  unboxing(
+    publication_date( '2023-08-11' ),
+    title( 'Unboxing of NBD Camera' ),
+    youtube_video( 'lT0FP70i1pY' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/08/11/in-the-lab-with-jay-jay-august-11-2023-unboxing-of-nbd-camera/' ),
+  ),
+);
+
+series(
+  unboxing(
+    publication_date( '2023-08-24' ),
+    title( 'Unboxing of UNI-T UTi260B Thermal Imager with Macro Lens' ),
+    youtube_video( 'BHxwOSrMSTo' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/08/24/in-the-lab-with-jay-jay-august-24-2023-unboxing-of-uni-t-uti260b-thermal-imager-with-macro-lens/' ),
+  ),
+);
+
+series(
+  unboxing(
+    publication_date( '2023-08-28' ),
+    title( "Unboxing of Pro'sKit SS-331 Desoldering Pump" ),
+    youtube_video( '0FJPBIfudaY' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/08/28/in-the-lab-with-jay-jay-august-28-2023-unboxing-of-proskit-ss-331-desoldering-pump/' ),
+  ),
+);
+
+series(
+  early_content(
+    publication_date( '2023-08-29' ),
+    title( "OGXbox Recapping, Thermal Paste and Pro'sKit SS-331 Demo" ),
+    youtube_video( 'cDEBewu-JUM' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/08/29/in-the-lab-with-jay-jay-august-29-2023-ogxbox-recapping-thermal-paste-and-proskit-ss-331-demo/' ),
+  ),
+);
+
+series(
+  early_content(
+    publication_date( '2023-09-06' ),
+    title( "Enameled Bodge Wire With UV Solder Mask" ),
+    youtube_video( 'HfUBvaPi7ak' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/09/06/in-the-lab-with-jay-jay-september-6-2023-enameled-bodge-wire-with-uv-solder-mask/' ),
+  ),
+);
+
+series(
+  unboxing(
+    publication_date( '2023-09-07' ),
+    title( "Unboxing of AliExpress TE-801 Third Hand With Magnifier" ),
+    youtube_video( 'MWf-G7ffWWA' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/09/07/in-the-lab-with-jay-jay-september-7-2023-unboxing-aliexpress-te-801-third-hand-with-magnifier/' ),
+  ),
+);
+
+series(
+  extra_content(
+    publication_date( '2023-09-13' ),
+    youtube_video( 'GBD1S2OfG1Q' ),
+    title( "AliExpress diodes" ),
+  ),
+);
+
+series(
+  early_content(
+    publication_date( '2023-10-16' ),
+    title( "Demo of the ALKOY Capacitor Discharge Pen" ),
+    youtube_video( 'UlsYxXp0RG0' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/10/16/in-the-lab-with-jay-jay-october-16-2023-demo-of-the-alkoy-capacitor-discharge-pen/' ),
+  ),
+);
+
+series(
+  silly_job_title( 'Craig Entertainer' ),
+  channel_news(
+    publication_date( '2023-10-27' ),
+    title( "Stetmann Cosplay Costume Reveal" ),
+    youtube_video( 'YaXAwZjlUuk' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/10/27/in-the-lab-with-jay-jay-october-27-2023-stetmann-cosplay-costume-reveal/' ),
+  ),
+);
+
+series(
+  silly_job_title( 'Electron Herder' ),
+  electronics_project(
+    publication_date( '2023-10-28' ),
+    title( "ALKOY Capacitor Discharge Pen Teardown" ),
+    youtube_video( 'HtIWICem9fY' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/10/28/in-the-lab-with-jay-jay-october-28-2023-alkoy-capacitor-discharge-pen-teardown/' ),
+  ),
+);
+
+series(
+  silly_job_title( 'Current Commander' ),
+  unboxing(
+    publication_date( '2023-10-30' ),
+    title( "Unboxing of K-CEVE AM-KVM401-K and KC-KVM401A 4-port HDMI KVM switches" ),
+    youtube_video( 'NEgCk__MJi4' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/10/30/in-the-lab-with-jay-jay-october-30-2023-unboxing-of-k-ceve-am-kvm401-k-and-kc-kvm401a-4-port-hdmi-kvm-switches/' ),
+  ),
+);
+
+series(
+  silly_job_title( 'Sparky' ),
+  unboxing(
+    publication_date( '2023-10-31' ),
+    title( "Unboxing of FILCO Majestouch 2SS Edition 104-key and tenkeyless keyboards" ),
+    youtube_video( '8oEdb9zSZA0' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/10/31/in-the-lab-with-jay-jay-october-31-2023-unboxing-of-filco-majestouch-2ss-edition-104-key-and-tenkeyless-keyboards/' ),
+  ),
+);
+
+series(
+  silly_job_title( 'Power Provider' ),
+  unboxing(
+    publication_date( '2023-10-31' ),
+    title( "Unboxing of Mini Classic Game Console" ),
+    youtube_video( 'StUHgPR3C90' ),
+    youtube_thumbnail( YOUTUBE_THUMBNAIL_MEDIUM_QUALITY ),
+    blog_url( 'https://blog.jj5.net/blog/2023/10/31/in-the-lab-with-jay-jay-october-31-2023-unboxing-of-mini-classic-game-console/' ),
+  ),
+);
+
+series(
+  silly_job_title( 'Hack In Residence' ),
+  unboxing(
+    publication_date( '2023-11-04' ),
+    title( "Unboxing of Sudake SDK07 and SKD08 IC Clip SMD Gripper Test Probe" ),
+    youtube_video( '1bT3kzqp0a8' ),
+    youtube_thumbnail( YOUTUBE_THUMBNAIL_MEDIUM_QUALITY ),
+    blog_url( 'https://blog.jj5.net/blog/2023/11/04/in-the-lab-with-jay-jay-november-4-2023-unboxing-of-sudake-sdk07-and-skd08-ic-clip-smd-gripper-test-probe/' ),
+  ),
+);
+
+series(
+  silly_job_title( 'Science Officer' ),
+  interlude(
+    publication_date( '2023-11-21' ),
+    title( "Mail Call! Cheap Stuff From China!" ),
+    youtube_video( 'goet4jxuIEw' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/11/21/in-the-lab-with-jay-jay-november-21-2023-mail-call/' ),
+    patreon_url( 'https://www.patreon.com/posts/in-lab-with-jay-93246185' ),
+  ),
+);
+
+series(
+  sponsor_name( 'PCBWay' ),
+  silly_job_title( 'Grounding Genius' ),
+  electronics_project(
+    publication_date( '2023-11-30' ),
+    title( "Teardown of Homemade Continuity Tester" ),
+    youtube_video( 'AHW3ipQYTGc' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/11/30/in-the-lab-with-jay-jay-november-30-2023-teardown-of-homemade-continuity-tester/' ),
+    patreon_url( 'https://www.patreon.com/posts/in-lab-with-jay-93803125' ),
+  ),
+  old_book_teardown(
+    publication_date( '2023-11-30' ),
+    old_book(
+      title( 'Industrial Electronics Reference Book' ),
+      author( 'Electronics Engineers of the Westinghouse Electric Corporation' ),
+      copyright_year( '1948' ),
+      page_count( 680 ),
+    ),
+  )
+);
+
+series(
+  sponsor_name( 'PCBWay' ),
+  silly_job_title( 'Ohm Oracle' ),
+  interlude(
+    publication_date( '2023-12-12' ),
+    title( "Mail Call! Plus Two Old Books And A Floppy Disk" ),
+    youtube_video( 'gOMHSQCOQ70' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/12/12/in-the-lab-with-jay-jay-december-12-2023-mail-call-plus-two-old-books-and-a-floppy-disk/' ),
+    patreon_url( 'https://www.patreon.com/posts/in-lab-with-jay-94525531' ),
+  ),
+  old_book_teardown(
+    publication_date( '2023-12-12' ),
+    old_book(
+      title( 'Electric Circuits' ),
+      author( 'J. Richard Johnson' ),
+      copyright_year( '1984' ),
+      page_count( 888 ),
+    ),
+  )
+);
+
+series(
+  extra_content(
+    publication_date( '2023-12-24' ),
+    title( "Motherboard upgrade from ASUS PRIME B550M-A to ASUS ProArt B550-CREATOR" ),
+    youtube_video( 'Sx1DcXpaIk4' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/12/20/motherboard-upgrade-from-asus-prime-b550m-a-to-asus-proart-b550-creator/' ),
+  ),
+);
+
+series(
+  extra_content(
+    publication_date( '2023-12-24' ),
+    title( "Building my new lab/studio workstation 'verve'" ),
+    youtube_video( '_omcSJMz7DE' ),
+  ),
+);
+
+series(
+  silly_job_title( 'Charge Charmer' ),
+  interlude(
+    publication_date( '2023-12-24' ),
+    title( "Demo Of The New Studio Cameras – Now In 4K!" ),
+    youtube_video( '9JYIQ3o73rQ' ),
+    blog_url( 'https://blog.jj5.net/blog/2023/12/24/in-the-lab-with-jay-jay-december-24-2023-demo-of-the-new-studio-cameras-now-in-4k/' ),
+    patreon_url( 'https://www.patreon.com/posts/in-lab-with-jay-95200185' ),
+  ),
+  old_book_teardown(
+    publication_date( '2024-01-04' ),
+    youtube_video( 'zvtVykg1kNY' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/01/05/in-the-lab-with-jay-jay-january-4-2024-old-book-vest-pocket-guide-to-electrical-testing-and-troubleshooting-published-1987/' ),
+    patreon_url( 'https://www.patreon.com/posts/in-lab-with-jay-95883636' ),
+    old_book(
+      title( "Vest Pocket Guide To Electrical Testing And Troubleshooting" ),
+      author( 'John E. Traister' ),
+      copyright_year( '1987' ),
+      page_count( 130 ),
+    ),
+  ),
+);
+
+series(
+  extra_content(
+    publication_date( '2024-01-05' ),
+    title( "Making a USB breakout cable for intercepting USB signal data" ),
+    youtube_video( 'jnSbv_m078w' ),
+  ),
+);
+
+series(
+  extra_content(
+    publication_date( '2024-01-09' ),
+    title( "Prototype of the Xin1 video format" ),
+    youtube_video( 'cR34lOGjUik' ),
+  ),
+);
+
+series(
+  silly_job_title( 'Charge Charmer' ),
+  channel_news(
+    publication_date( '2024-01-09' ),
+    title( "Announcing Maxitronix Xin1 Projects Feature" ),
+    youtube_video( 'uEzp4mx_pYA' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/01/09/announcing-maxitronix-xin1-projects-feature/' ),
+    patreon_url( 'https://www.patreon.com/posts/96070937' ),
+  ),
+  new_book_teardown(
+    publication_date( '2024-02-16' ),
+    youtube_video( 'IzSkw-3aqyA' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/02/16/new-book-the-art-of-electronics-3rd-edition-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/98545979' ),
+    new_book(
+      title( "The Art of Electronics" ),
+      edition( 3 ),
+      author( 'Paul Horowitz, Winfield Hill' ),
+      copyright_year( '2015' ),
+      page_count( 1220 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/Electronics-Harvard-University-Massachusetts-Horowitz/dp/0521809266' ),
+        affiliate_url ( 'https://amzn.to/3wzXF7X' ),
+        item_price    ( 'US$77.70' ),
+      ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com.au/Electronics-Harvard-University-Massachusetts-Horowitz/dp/0521809266' ),
+        affiliate_url ( 'https://amzn.to/4bWg6UD' ),
+        item_price    ( 'AU$117.30' ),
+      ),
+    ),
+  ),
+  old_book_teardown(
+    publication_date( '2024-03-07' ),
+    youtube_video( 'XGwR7Ul55NQ' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/07/old-book-teardown-the-internet-with-windows-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/99911472' ),
+    old_book(
+      title( "The Internet With Windows" ),
+      author( 'Glyn Moody' ),
+      copyright_year( '1996' ),
+      page_count( 651 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/dp/0750620994' ),
+        affiliate_url ( 'https://amzn.to/3Tq57LX' ),
+      ),
+    ),
+  ),
+);
+
+series(
+  maxitronix_segment(
+    publication_date( '2024-01-09' ),
+    title( "Introducing Maxitronix 10in1" ),
+    maxitronix_kit_name( '10in1' ),
+    youtube_video( 'FKAgGdTy0_c' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/01/09/in-the-lab-with-jay-jay-maxitronix-10in1-introduction/' ),
+    patreon_url( 'https://www.patreon.com/posts/introducing-in-96074472' ),
+  ),
+);
+
+series(
+  maxitronix_segment(
+    publication_date( '2024-01-10' ),
+    title( "Morse Code By Light" ),
+    project( 1, 10 ),
+    maxitronix_kit_name( '10in1' ),
+    youtube_video( '2QUb4eTOSIU' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/01/10/in-the-lab-with-jay-jay-maxitronix-10in1-project-1-10-morse-code-by-light/' ),
+    patreon_url( 'https://www.patreon.com/posts/morse-code-by-1-96123921' ),
+  ),
+);
+
+series(
+  maxitronix_segment(
+    publication_date( '2024-01-11' ),
+    title( "Morse Code Oscillator" ),
+    project( 2, 10 ),
+    maxitronix_kit_name( '10in1' ),
+    youtube_video( 'q3hf6988o-k' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/01/11/in-the-lab-with-jay-jay-maxitronix-10in1-project-2-10-morse-code-oscillator/' ),
+    patreon_url( 'https://www.patreon.com/posts/morse-code-2-10-96127734' ),
+  ),
+);
+
+series(
+  maxitronix_segment(
+    publication_date( '2024-01-12' ),
+    title( "Diode Experiment" ),
+    project( 3, 10 ),
+    maxitronix_kit_name( '10in1' ),
+    youtube_video( 'bIdm-RUCKA4' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/01/12/diode-experiment-project-3-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/diode-experiment-96283070' ),
+  ),
+);
+
+series(
+  extra_content(
+    publication_date( '2024-01-14' ),
+    title( "Just checking in about the new website" ),
+    youtube_video( 'ZA6k8Nr78yg' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/01/14/elliots-extras-just-checking-in-about-the-new-website/' ),
+  ),
+);
+
+series(
+  maxitronix_segment(
+    publication_date( '2024-03-08' ),
+    title( "Diode Radio" ),
+    project( 4, 10 ),
+    maxitronix_kit_name( '10in1' ),
+    youtube_video( 'hpL1tqM-l1k' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/08/diode-radio-project-4-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/99918588' ),
+  ),
+);
+
+series(
+  maxitronix_segment(
+    publication_date( '2024-03-09' ),
+    title( "1-Transistor Radio" ),
+    project( 5, 10 ),
+    maxitronix_kit_name( '10in1' ),
+    youtube_video( 'FhvBW1j3CFU' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/09/1-transistor-radio-project-5-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/100035031' ),
+  ),
+);
+
+series(
+  maxitronix_segment(
+    publication_date( '2024-03-10' ),
+    title( "1-Transistor Radio With Diode" ),
+    project( 6, 10 ),
+    maxitronix_kit_name( '10in1' ),
+    youtube_video( 'JHuLiIFftQY' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/10/1-transistor-radio-with-diode-project-6-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/100094447' ),
+  ),
+);
+
+series(
+  maxitronix_segment(
+    publication_date( '2024-03-13' ),
+    title( "Wireless Continuous Wave Transmitter" ),
+    project( 7, 10 ),
+    maxitronix_kit_name( '10in1' ),
+    youtube_video( '16RgaQPAdM0' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/13/wireless-continuous-wave-transmitter-project-7-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/100241765' ),
+  ),
+);
+
+series(
+  maxitronix_segment(
+    publication_date( '2024-03-14' ),
+    title( "Patrol Car Siren" ),
+    project( 8, 10 ),
+    maxitronix_kit_name( '10in1' ),
+    youtube_video( 'EDvpCNR-j7Q' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/14/patrol-car-siren-project-8-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/100246118' ),
+  ),
+);
+
+series(
+  maxitronix_segment(
+    publication_date( '2024-03-15' ),
+    title( "Audio Frequency Oscillator" ),
+    project( 9, 10 ),
+    maxitronix_kit_name( '10in1' ),
+    youtube_video( 'X81qHOV42_g' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/15/audio-frequency-oscillator-project-9-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/100246564' ),
+  ),
+);
+
+series(
+  maxitronix_segment(
+    publication_date( '2024-03-16' ),
+    title( "Burglar Alarm" ),
+    project( 10, 10 ),
+    maxitronix_kit_name( '10in1' ),
+    youtube_video( '1Q9DQwSgQjo' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/16/burglar-alarm-project-10-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/100250272' ),
+  ),
+);
+
+series(
+  maxitronix_segment(
+    publication_date( '2024-03-17' ),
+    title( "Concluding Maxitronix 10in1" ),
+    maxitronix_kit_name( '10in1' ),
+    youtube_video( 'L3S2wSE2pWU' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/17/concluding-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/100251408' ),
+  ),
+);
+
+series(
+  maxitronix_segment(
+    publication_date( '2024-03-18' ),
+    title( "Introducing Maxitronix 20in1" ),
+    maxitronix_kit_name( '20in1' ),
+    youtube_video( 'XQlm1cqXAwE' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/18/introducing-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/100256005' ),
+  ),
+);
+
+series(
+  silly_job_title( 'Spark Slinger' ),
+  electronics_project(
+    publication_date( '2024-01-19' ),
+    title( "USB Light Dimmer for On Air Light" ),
+    youtube_video( 'pv43NMQ0png' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/19/usb-light-dimmer-for-on-air-light-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/100260750' ),
+  ),
+  old_book_teardown(
+    publication_date( '2024-03-23' ),
+    youtube_video( 'Q6jDzp3ZqGE' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/23/old-book-teardown-dictionary-of-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/100590854' ),
+    old_book(
+      title( "Dictionary of Electronics" ),
+      edition( 2 ),
+      author( 'Harley Carter A.M.I.E.E.' ),
+      copyright_year( '1963' ),
+      page_count( 410 ),
+    ),
+  ),
+  new_book_teardown(
+    publication_date( '2024-02-28' ),
+    youtube_video( 'bDSuivHF52g' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/28/new-book-teardown-the-art-of-electronics-the-x-chapters-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/100986394' ),
+    new_book(
+      title( "The Art of Electronics: The x-Chapters" ),
+      author( 'Paul Horowitz, Winfield Hill' ),
+      copyright_year( '2020' ),
+      page_count( 506 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/dp/1108499945' ),
+        affiliate_url ( 'https://amzn.to/3vel6DG' ),
+        item_price    ( 'US$46.18' ),
+      ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com.au/dp/1108499945' ),
+        affiliate_url ( 'https://amzn.to/3VxpZlH' ),
+        item_price    ( 'AU$81.95' ),
+      ),
+    ),
+  ),
+);
+
+series(
+  maxitronix_segment(
+    publication_date( '2024-03-20' ),
+    title( "Brightness Alarm" ),
+    project( 1, 20 ),
+    maxitronix_kit_name( '20in1' ),
+    youtube_video( 'E7ohfecFcrU' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/20/brightness-alarm-project-1-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/100575808' ),
+  ),
+);
+
+series(
+  maxitronix_segment(
+    publication_date( '2024-03-21' ),
+    title( "Darkness Alarm" ),
+    project( 2, 20 ),
+    maxitronix_kit_name( '20in1' ),
+    youtube_video( 'ZLYwRJK6348' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/21/darkness-alarm-project-2-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/100578890' ),
+  ),
+);
+
+series(
+  maxitronix_segment(
+    publication_date( '2024-03-22' ),
+    title( "Electronic Candles" ),
+    project( 3, 20 ),
+    maxitronix_kit_name( '20in1' ),
+    youtube_video( 'qm3Z3fBVWl4' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/22/electronic-candles-project-3-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/100585927' ),
+  ),
+);
+
+series(
+  maxitronix_segment(
+    publication_date( '2024-03-25' ),
+    title( "Light Alarm With Latch" ),
+    project( 4, 20 ),
+    maxitronix_kit_name( '20in1' ),
+    youtube_video( 'fqV9MW1en2I' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/25/light-alarm-with-latch-project-4-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/100977539' ),
+  ),
+);
+
+series(
+  maxitronix_segment(
+    publication_date( '2024-03-26' ),
+    title( "Light-Controlled Organ" ),
+    project( 5, 20 ),
+    maxitronix_kit_name( '20in1' ),
+    youtube_video( 'TGllvZdNbFY' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/26/light-controlled-organ-project-5-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/100980607' ),
+  ),
+);
+
+series(
+  maxitronix_segment(
+    publication_date( '2024-03-27' ),
+    title( "Photometer" ),
+    project( 6, 20 ),
+    maxitronix_kit_name( '20in1' ),
+    youtube_video( 'BrsTaThQr3c' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/27/photometer-project-6-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/100982250' ),
+  ),
+);
+
+series(
+  maxitronix_segment(
+    publication_date( '2024-03-29' ),
+    title( "Shot In The Dark I" ),
+    project( 7, 20 ),
+    maxitronix_kit_name( '20in1' ),
+    youtube_video( 'Ew4okJD-JAY' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/29/shot-in-the-dark-i-project-7-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/101211897' ),
+  ),
+);
+
+series(
+  silly_job_title( 'Master Planner' ),
+  electronics_project(
+    publication_date( '2024-03-30' ),
+    title( "Male And Female RF Coaxial Cables With Alligator Clips" ),
+    youtube_video( 'NVjsEEWVRJ4' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/30/male-and-female-rf-coaxial-cables-with-alligator-clips-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/101286979' ),
+  ),
+  old_book_teardown(
+    publication_date( '2024-03-31' ),
+    youtube_video( 'iAi1UMdaJFI' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/31/old-book-teardown-frequency-modulation-an-introduction-to-the-fundamental-principles-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/101330623' ),
+    old_book(
+      title( "Frequency Modulation: An Introduction To The Fundamental Principles" ),
+      author( 'A. W. Keen, M.I.R.E., A.M.I.E.E.' ),
+      copyright_year( '1958' ),
+      page_count( 274 ),
+    ),
+  ),
+  new_book_teardown(
+    publication_date( '2024-04-01' ),
+    youtube_video( 'UBPZuOjWT0A' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/04/01/new-book-teardown-learning-the-art-of-electronics-a-hands-on-lab-course-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/101331622' ),
+    new_book(
+      title( "Learning The Art of Electronics: A Hands-On Lab Course" ),
+      author( 'Thomas C. Hayes, Paul Horowitz' ),
+      copyright_year( '2016' ),
+      page_count( 1140 ),
+    ),
+  ),
+);
+
+series(
+  extra_content(
+    publication_date( '2024-04-03' ),
+    title( "The SCSI Bus and IDE Interface: Protocols, Applications and Programming (2nd Edition)" ),
+    youtube_video( 'rtDf9n6SW3c' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/04/03/the-scsi-bus-and-ide-interface-protocols-applications-and-programming-2nd-edition/' ),
+    book(
+      title( "The SCSI Bus and Ide Interface: Protocols, Applications and Programming" ),
+      edition( 2 ),
+      author( 'Friedhelm Schmidt' ),
+      copyright_year( '1997' ),
+      page_count( 396 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/dp/0201175142' ),
+        item_price    ( 'US$88.00' ),
+      ),
+    ),
+  ),
+);
+
+series(
+  maxitronix_segment(
+    publication_date( '2024-04-03' ),
+    title( "Shot In The Dark II" ),
+    project( 8, 20 ),
+    maxitronix_kit_name( '20in1' ),
+    youtube_video( 'yrvngScUyro' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/04/03/shot-in-the-dark-ii-project-8-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/101592766' ),
+  ),
+);
+
+series(
+  silly_job_title( 'Electron Enchanter' ),
+  electronics_project(
+    publication_date( '2024-04-25' ),
+    title( "Hook Clip Test Probes to DuPont Jumpers" ),
+    youtube_video( 'm4Q3G1-hMiQ' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/04/25/hook-clip-test-probes-to-dupont-jumpers-in-the-lab-with-jay-jay' ),
+    patreon_url( 'https://www.patreon.com/posts/103023264' ),
+  ),
+  old_book_teardown(
+    publication_date( '2024-04-27' ),
+    youtube_video( 'HPc3LlLlpbU' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/04/27/old-book-teardown-engineering-electronics-with-industrial-applications-and-control-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/103024587' ),
+    old_book(
+      title( "Engineering Electronics with Industrial Applications and Control" ),
+      author( 'John D. Ryder' ),
+      copyright_year( '1957' ),
+      page_count( 666 ),
+    ),
+  ),
+  new_book_teardown(
+    publication_date( '2024-04-30' ),
+    youtube_video( 'uliqFAcrAxY' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/04/30/new-book-teardown-beginners-guide-to-reading-schematics-fourth-edition-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/103027154' ),
+    new_book(
+      title( "Beginner’s Guide to Reading Schematics" ),
+      edition( 4 ),
+      author( 'Stan Gibilisco' ),
+      copyright_year( '2018' ),
+      page_count( 209 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com.au/dp/1260031101' ),
+        affiliate_url ( 'https://amzn.to/3vY5Afz' ),
+        item_price    ( 'AU$97.10' ),
+      ),
+    ),
+  ),
+);
+
+series(
+  interlude(
+    publication_date( '2024-05-09' ),
+    title( "Learning LTspice Part 1" ),
+    youtube_video( 'CUZ4D7Ag1R0' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/05/09/interlude-learning-ltspice-part-1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/103907235' ),
+  ),
+);
+
+series(
+  interlude(
+    publication_date( '2024-05-13' ),
+    title( "Learning LTspice Part 2" ),
+    youtube_video( 'h64N0l887Ps' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/05/13/interlude-learning-ltspice-part-2-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/104147162' ),
+  ),
+);
+
+series(
+  silly_job_title( 'Amp Alchemist' ),
+  electronics_project(
+    publication_date( '2024-05-14' ),
+    title( "Piezoelectric Buzzer Volume Control" ),
+    youtube_video( 'zTD46zepgCw' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/05/14/electronics-project-piezoelectric-buzzer-volume-control-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/104209741' ),
+  ),
+  /*
+  old_book_teardown(
+    publication_date( '2024-04-27' ),
+    youtube_video( 'HPc3LlLlpbU' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/04/27/old-book-teardown-engineering-electronics-with-industrial-applications-and-control-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/103024587' ),
+    old_book(
+      title( "Engineering Electronics with Industrial Applications and Control" ),
+      author( 'John D. Ryder' ),
+      copyright_year( '1957' ),
+      page_count( 666 ),
+    ),
+  ),
+  new_book_teardown(
+    publication_date( '2024-04-30' ),
+    youtube_video( 'uliqFAcrAxY' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/04/30/new-book-teardown-beginners-guide-to-reading-schematics-fourth-edition-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/103027154' ),
+    new_book(
+      title( "Beginner’s Guide to Reading Schematics" ),
+      edition( 4 ),
+      author( 'Stan Gibilisco' ),
+      copyright_year( '2018' ),
+      page_count( 209 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com.au/dp/1260031101' ),
+        affiliate_url ( 'https://amzn.to/3vY5Afz' ),
+        item_price    ( 'AU$97.10' ),
+      ),
+    ),
+  ),
+  */
+);
+
+series(
+  maxitronix_segment(
+    publication_date( '2024-05-16' ),
+    title( "Visitor Alarm" ),
+    project( 9, 20 ),
+    maxitronix_kit_name( '20in1' ),
+    youtube_video( 'QtPBRrF3zPA' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/05/16/visitor-alarm-project-9-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/104348666' ),
+  ),
+);
+
+series(
+  silly_job_title( 'Amp Alchemist' ),
+  channel_news(
+    publication_date( '2024-06-14' ),
+    title( "Announcing Mini Projects" ),
+    youtube_video( 'to9cunh46bw' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/06/14/channel-news-announcing-mini-projects-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/106168226' ),
+  )
+);

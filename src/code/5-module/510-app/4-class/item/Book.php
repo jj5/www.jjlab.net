@@ -1,0 +1,96 @@
+<?php
+
+function book() {
+
+  return new_item( Book::class, func_get_args() );
+
+}
+
+class NullBook extends Book {
+
+  use NullItemMixin;
+
+  public function get_type() { return ''; }
+  public function is_new() { return false; }
+  public function is_old() { return false; }
+
+}
+
+class Book extends Item {
+
+  public function get_type() {
+
+    if ( $this->is_new() ) { return 'New Book'; }
+
+    return 'Old Book';
+
+  }
+
+  public function is_new() {
+
+    if ( $this->get_age() <= 10 ) { return true; }
+
+    return false;
+
+  }
+
+  public function is_old() {
+
+    return ! $this->is_new();
+
+  }
+
+  public function get_title() { return $this->get( Name::class ); }
+
+  public function get_edition() { return $this->get( Edition::class ); }
+  
+  public function get_author() { return $this->get( Author::class ); }
+  public function get_copyright_year() { return $this->get( CopyrightYear::class ); }
+
+  public function get_age() {
+
+    $current_year = intval( date( 'Y' ) );
+    $copyright_year = $this->get_copyright_year()->get_value();
+
+    return $current_year - $copyright_year;
+
+  }
+
+  public function get_page_count() { return $this->get( PageCount::class ); }
+
+  public function get_video_date() {
+
+    return $this->get_parent()->get_publication_date();
+
+  }
+
+  public function get_segment() {
+
+    return $this->get_closest( Segment::class );
+
+  }
+
+  public function get_show() {
+
+    return $this->get_segment()->get_show();
+
+  }
+
+  public function get_channel() {
+
+    return $this->get_segment()->get_channel();
+
+  }
+
+  public function get_youtube_video() {
+
+    return $this->get_segment()->get_youtube_video();
+
+  }
+
+  public function get_affiliate_link_list() {
+
+    return $this->get_list( AffiliateLink::class );
+
+  }
+}
