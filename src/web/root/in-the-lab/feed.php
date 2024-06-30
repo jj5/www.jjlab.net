@@ -105,13 +105,13 @@ function render_feed_for_list( $video_list, $topic = null ) {
 
   if ( is_prod() ) {
 
-    $feed_xsl = 'https://www.inthelabwithjayjay.com/in-the-lab/feed-pretty.xsl';
+    $feed_xsl = 'https://www.inthelabwithjayjay.com/in-the-lab/feed.xsl';
     $domain = 'https://www.inthelabwithjayjay.com';
 
   }
   else {
 
-    $feed_xsl = url_base() . '/feed-pretty.xsl';
+    $feed_xsl = url_base() . '/feed.xsl';
     $domain = 'http://localhost';
 
   }
