@@ -351,7 +351,6 @@ function render_section_about_announcements( int $heading_level = 2 ) {
       target="_blank"
     >jjlab.net</a>, with videos and links to everything else)</li>
   </ul>
-  </p>
 </section>
 <?php
 }
