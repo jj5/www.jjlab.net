@@ -8,7 +8,7 @@ Run the install-composer.sh script (as root) to install composer.
 
 Run the install.sh script to get:
 
-* git submodules in 'ext' directory
+* git submodules in the 'ext' directory
 * composer dependencies in the 'vendor' directory
 
 ## Configuration
