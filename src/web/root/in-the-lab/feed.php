@@ -128,6 +128,11 @@ function render_feed_for_list( $video_list, $topic = null ) {
       'xmlns:atom' => 'http://www.w3.org/2005/Atom',
       'xmlns:sy' => 'http://purl.org/rss/1.0/modules/syndication/',
       //'xmlns:slash' => 'http://purl.org/rss/1.0/modules/slash/',
+
+      // 2024-07-01 jj5 - SEE: https://chatgpt.com/share/cd28dea6-a5c1-48ae-95ee-4ffa80848912
+      'xmlns:xsi' => 'http://www.w3.org/2001/XMLSchema-instance',
+      'xsi:schemaLocation' => 'https://www.inthelabwithjayjay.com/in-the-lab/feed.xsd',
+
     ]
   );
 
