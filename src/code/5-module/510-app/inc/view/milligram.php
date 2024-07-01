@@ -121,8 +121,6 @@ function render_head( $heading ) {
       tag_bare( 'meta', [ 'name' => 'description',  'content' => $description ] );
       tag_bare( 'meta', [ 'name' => 'viewport',     'content' => 'width=device-width, initial-scale=1.0, minimal-ui' ] );
 
-      tag_bare( 'meta', [ 'name' => 'robots', 'content' => 'index, follow' ] );
-
       tag_bare( 'meta', [ 'property' => 'og:title',       'content' => $title_text ] );
       tag_bare( 'meta', [ 'property' => 'og:description', 'content' => $description ] );
       tag_bare( 'meta', [ 'property' => 'og:image',       'content' => LOGO_URL ] );
