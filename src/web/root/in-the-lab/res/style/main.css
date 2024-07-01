@@ -1,11 +1,4 @@
 
-header ul {
-
-  list-style-type: none !important;
-  list-style: none !important;
-
-}
-
 .equipment-link {
 
   margin-top: 4rem;
@@ -243,6 +236,12 @@ section.load a {
 ul {
   list-style: disc;
   margin-left: 2rem;
+}
+
+header ul {
+
+  list-style-type: none !important;
+
 }
 
 a:hover {
