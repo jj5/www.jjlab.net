@@ -483,6 +483,8 @@ function render_series_info() {
 
       foreach ( $video_list as $video ) {
 
+        if ( ! $video->is_live() ) { continue; }
+
         $title = 'This video was published on ' . $publication_date->format_for_user() . ' and is ' . $video->get_duration()->to_string() . ' long.';
 
         tag_open( 'li', [ 'title' => $title ] );
