@@ -419,7 +419,7 @@ window.IS_JOHN = false;
 
       if ( strpos( $_SERVER[ 'HTTP_USER_AGENT' ], 'QtWebEngine' ) !== false ) {
 
-          tag_open( 'script' );
+        tag_open( 'script' );
 
 ?>
 
@@ -430,7 +430,7 @@ function scroll_hack() {
 
   try {
 
-    var limit = 500;
+    var limit = 250;
 
     window.SCROLL_HACK_COUNTER++;
 
@@ -472,11 +472,11 @@ function scroll_hack() {
 }
 
 window.SCROLL_HACK_COUNTER = 0;
-window.SCROLL_HACK = setInterval( scroll_hack, 5 );
+window.SCROLL_HACK = setInterval( scroll_hack, 50 );
 
 <?php
 
-          tag_shut( 'script' );
+        tag_shut( 'script' );
 
       }
 
