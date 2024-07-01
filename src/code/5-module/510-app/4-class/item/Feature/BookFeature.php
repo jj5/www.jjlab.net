@@ -99,9 +99,18 @@ abstract class BookFeature extends Feature {
     $main_video_id = $this->get_show()->get_feature()->get_youtube_video()->get_slug()->to_string();
     $this_video_id = $this->get_youtube_video()->get_slug()->to_string();
 
-    $url = $this->get_channel()->get_internal_url() .
-      '?' . http_build_query( [ 'from' => $main_video_id ] ) .
-      '#' . $this_video_id;
+    if ( true ) {
+
+      $url = $this->get_show()->get_feature()->get_video_id();
+
+    }
+    else {
+
+      $url = $this->get_channel()->get_internal_url() .
+        '?' . http_build_query( [ 'from' => $main_video_id ] ) .
+        '#' . $this_video_id;
+
+    }
 
     $tooltip = $text;
 

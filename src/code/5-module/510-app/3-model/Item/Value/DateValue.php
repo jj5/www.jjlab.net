@@ -34,6 +34,12 @@ class DateValue extends Value {
 
   }
 
+  public function format_for_user() {
+
+    return $this->get_value()->format( DATE_FORMAT );
+
+  }
+
   public function format_for_web() {
 
     static $utc = null;

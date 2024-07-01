@@ -21,6 +21,9 @@ class YoutubeVideo extends Video {
 
   public function get_id() { return $this->get_slug()->to_string(); }
 
+  // 2024-07-02 jj5 - OLD: we can inherit the implementation for this...
+  //
+  /*
   public function get_internal_url() {
 
     $channel = $this->get_channel();
@@ -34,6 +37,7 @@ class YoutubeVideo extends Video {
     return $channel_url . '?' . http_build_query( $query ) . '#' . $slug;
 
   }
+  */
 
 
 

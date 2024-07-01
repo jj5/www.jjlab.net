@@ -2,21 +2,65 @@
 
 require_once __DIR__ . '/../../../../inc/framework.php';
 
+global $g_video_id;
+
 function render() {
+
+  global $g_video_id;
+
+  $g_video_id = false;
 
   $path_info = $_SERVER[ 'PATH_INFO' ] ?? '';
 
-  switch ( $path_info ) {
+  $path_parts = explode( '/', $path_info );
+
+  if ( count( $path_parts ) > 2 ) {
+
+    if ( isset( $_GET[ 'from' ] ) ) {
+
+      // 2024-07-02 jj5 - NOTE: if we land here we have a video id in the URL path and in the query string. The one in
+      // the query string is the one we want to keep, so we'll fix up the path and redirect.
+
+      $path_parts[ 2 ] = $_GET[ 'from' ];
+
+      unset( $_GET[ 'from' ] );
+
+      // 2024-07-02 jj5 - NEW: if there's a video id in the URL we redirect to the video page.
+      $script_name = url_base() . '/video.php';
+      // 2024-07-02 jj5 - OLD:
+      //$script_name = $_SERVER[ 'SCRIPT_NAME' ];
+
+      $query_string = $_GET ? '?' . http_build_query( $_GET ) : '';
+
+      $new_url = $script_name . implode( '/', $path_parts ) . $query_string;
+
+      return http_redirect( $new_url, 301 );
+
+    }
+    else {
+
+      // 2024-07-02 jj5 - NOTE: if we land here the video id is in the URL path but we put it into $_GET for back compat.
+
+      $g_video_id = $path_parts[ 2 ];
+
+      $_GET[ 'from' ] = $g_video_id;
+
+    }
+  }
+
+  $channel = $path_parts[ 1 ] ?? '';
+
+  switch ( $channel ) {
 
     case '' :
 
       return render_channel_index();
 
-    case '/@InTheLabWithJayJay' :
+    case '@InTheLabWithJayJay' :
 
       return render_channel_one();
 
-    case '/@ElliotsExtras' :
+    case '@ElliotsExtras' :
 
       return render_channel_two();
 
@@ -55,6 +99,8 @@ function render_channel_index() {
 
 function render_channel_one() {
 
+  global $g_video_id;
+
   render_head( 'Main Channel' );
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
@@ -63,32 +109,45 @@ function render_channel_one() {
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
-        tag_text( 'h1', 'Main Channel' );
+        if ( $g_video_id ) {
 
-        tag_open( 'p' );
+          render_video_header();
 
-          out_text( 'The main YouTube channel is: ' );
+        }
+        else {
 
-          tag_text(
-            'a',
-            'youtube.com/@InTheLabWithJayJay',
-            [
-              'href' => 'https://www.youtube.com/@InTheLabWithJayJay',
-              'class' => 'external',
-              'title' => TITLE_YOUTUBE_MAIN,
-              'target' => '_blank',
-            ]
-          );
+          tag_text( 'h1', 'Main Channel' );
 
-          //out_text( '.' );
+          tag_open( 'p' );
 
-        tag_shut( 'p' );
+            out_text( 'The main YouTube channel is: ' );
+
+            tag_text(
+              'a',
+              'youtube.com/@InTheLabWithJayJay',
+              [
+                'href' => 'https://www.youtube.com/@InTheLabWithJayJay',
+                'class' => 'external',
+                'title' => TITLE_YOUTUBE_MAIN,
+                'target' => '_blank',
+              ]
+            );
+
+            //out_text( '.' );
+
+          tag_shut( 'p' );
+
+        }
 
       tag_shut( 'section' );
 
     tag_shut( 'header' );
 
-    render_channel_one_main();
+    if ( ! $g_video_id ) {
+
+      render_channel_one_main();
+
+    }
 
     $channel = app_stash()->get_item_by_slug( Channel::class, '@InTheLabWithJayJay' );
 
@@ -153,6 +212,8 @@ function render_channel_one_main() {
 
 function render_channel_two() {
 
+  global $g_video_id;
+
   render_head( "2nd Channel" );
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
@@ -161,32 +222,45 @@ function render_channel_two() {
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
-        tag_text( 'h1', "2nd Channel" );
+        if ( $g_video_id ) {
 
-        tag_open( 'p' );
+          render_video_header();
 
-          out_text( 'The second YouTube channel is: ' );
+        }
+        else {
 
-          tag_text(
-            'a',
-            'youtube.com/@ElliotsExtras',
-            [
-              'href' => 'https://www.youtube.com/@ElliotsExtras',
-              'class' => 'external',
-              'title' => TITLE_YOUTUBE_EXTRA,
-              'target' => '_blank',
-            ]
-          );
+          tag_text( 'h1', "2nd Channel" );
 
-          //out_text( '.' );
+          tag_open( 'p' );
 
-        tag_shut( 'p' );
+            out_text( 'The second YouTube channel is: ' );
+
+            tag_text(
+              'a',
+              'youtube.com/@ElliotsExtras',
+              [
+                'href' => 'https://www.youtube.com/@ElliotsExtras',
+                'class' => 'external',
+                'title' => TITLE_YOUTUBE_EXTRA,
+                'target' => '_blank',
+              ]
+            );
+
+            //out_text( '.' );
+
+          tag_shut( 'p' );
+
+        }
 
       tag_shut( 'section' );
 
     tag_shut( 'header' );
 
-    render_channel_two_main();
+    if ( ! $g_video_id ) {
+
+      render_channel_two_main();
+
+    }
 
     $channel = app_stash()->get_item_by_slug( Channel::class, '@ElliotsExtras' );
 
@@ -336,5 +410,47 @@ function render_extra_channel_shows() {
   $channel = app_stash()->get_item_by_slug( Channel::class, '@ElliotsExtras' );
 
   render_channel_shows( $channel );
+
+}
+
+function render_video_header() {
+
+  global $g_video_id;
+
+  $video = app_stash()->get_item_by_slug( YoutubeVideo::class, $g_video_id );
+
+  if ( $video->is_null() ) { return; }
+
+  tag_text( 'h1', $video->get_title() );
+
+  tag_open( 'p' );
+
+    out_text( 'This video was published to ' );
+
+    $video->get_channel()->render_internal_link();
+
+    out_text( ' on ' );
+
+    $publication_date = $video->get_publication_date();
+
+    tag_text(
+      'time',
+      $publication_date->format_for_user(),
+      [
+        'datetime' => $publication_date->format_for_web(),
+      ]
+    );
+
+    $duration = $video->get_duration();
+
+    out_text( ' and is ' );
+
+    tag_text( 'span', $duration->to_string() );
+
+    out_text( ' long.' );
+
+  tag_shut( 'p' );
+
+  tag_text( 'p', "Thanks for watching, and don't forget to like and subscribe!" );
 
 }

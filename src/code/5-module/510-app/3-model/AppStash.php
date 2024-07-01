@@ -546,10 +546,15 @@ class AppStash {
 
     if ( $from_index === -1 ) {
 
+      // 2024-07-02 jj5 - THINK: what to do here?
+
       // 2024-01-26 jj5 - if we couldn't find the video to start from just redirect to the
       // hosting page without the 'from' parameter.
 
-      default_redirect( '?' . get_link_without( 'from' ) );
+      // 2024-07-02 jj5 - NEW:
+      default_redirect( url_base() . '/' );
+      // 2024-07-02 jj5 - OLD:
+      //default_redirect( '?' . get_link_without( 'from' ) );
 
     }
 
