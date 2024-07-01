@@ -5,7 +5,7 @@ channel(
   channel_slug( '@InTheLabWithJayJay' ),
   channel_name( 'In The Lab With Jay Jay' ),
   show_type(
-    show_slug( 'main-show' ),
+    show_slug( ShowEnum::MainShow->value ),
     show_name( 'Main Show' ),
     show_text( 'In the main show we make high-quality videos of interest to the electronics hobbyist, particularly beginners.' ),
     feature(
@@ -20,7 +20,7 @@ channel(
     ),
   ),
   show_type(
-    show_slug( 'special-show' ),
+    show_slug( ShowEnum::SpecialShow->value ),
     show_name( 'Special Shows' ),
     show_text( 'In the special shows we take a look at something interesting and electronics related.' ),
     feature(
@@ -106,7 +106,7 @@ channel(
   channel_slug( '@ElliotsExtras' ),
   channel_name( "Elliot's Extras" ),
   show_type(
-    show_slug( 'extra-show' ),
+    show_slug( ShowEnum::ExtraShow->value ),
     show_name( 'Extra Shows' ),
     show_text( 'In the extra shows you will find longer form content which has received less editing attention.' ),
     feature(

@@ -140,7 +140,7 @@ function render_feature_generic( $feature ) {
 
           switch ( $feature->get_show_type()->get_slug() ) {
 
-            case 'main-show' :
+            case ShowEnum::MainShow->value :
 
               out_text( 'The ' );
 
@@ -158,7 +158,7 @@ function render_feature_generic( $feature ) {
 
               break;
 
-            case 'special-show' :
+            case ShowEnum::SpecialShow->value :
 
               out_text( 'The ' );
 

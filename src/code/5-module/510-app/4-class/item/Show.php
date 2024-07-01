@@ -274,15 +274,15 @@ class Show extends Item {
 
       case ShowEnum::MainShow:
 
-        return get_item_by_slug( ShowType::class, 'main-show' );
+        return get_item_by_slug( ShowType::class, ShowEnum::MainShow->value );
 
       case ShowEnum::SpecialShow :
 
-        return get_item_by_slug( ShowType::class, 'special-show' );
+        return get_item_by_slug( ShowType::class, ShowEnum::SpecialShow->value );
 
       case ShowEnum::ExtraShow:
 
-        return get_item_by_slug( ShowType::class, 'extra-show' );
+        return get_item_by_slug( ShowType::class, ShowEnum::ExtraShow->value );
 
       default :
 

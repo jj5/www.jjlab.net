@@ -89,7 +89,7 @@ function render_video_list( $video_list ) {
 
               tag_open( 'td' );
 
-                if ( $video->get_show_type()->get_slug() === 'main-show' ) {
+                if ( $video->get_show_type()->get_slug() === ShowEnum::MainShow->value ) {
 
                   $video->get_show()->get_silly_job_title()->render();
 

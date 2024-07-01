@@ -16,7 +16,7 @@ class ElectronicsProject extends Segment {
 
   public function get_show_type() {
 
-    return get_item_by_slug( ShowType::class, 'main-show' );
+    return get_item_by_slug( ShowType::class, ShowEnum::MainShow->value );
 
   }
 

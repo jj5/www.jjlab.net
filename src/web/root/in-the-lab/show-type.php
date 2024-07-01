@@ -180,7 +180,7 @@ function render_show_type_features( $show_type ) {
 
 function render_show_type_main() {
 
-  $show_type = app_stash()->get_item_by_slug( ShowType::class, 'main-show' );
+  $show_type = app_stash()->get_item_by_slug( ShowType::class, ShowEnum::MainShow->value );
 
   render_head( 'Main Show' );
 
@@ -237,7 +237,7 @@ function render_show_type_main() {
 
 function render_show_type_special() {
 
-  $show_type = app_stash()->get_item_by_slug( ShowType::class, 'special-show' );
+  $show_type = app_stash()->get_item_by_slug( ShowType::class, ShowEnum::SpecialShow->value );
 
   render_head( 'Special Shows' );
 
@@ -361,7 +361,7 @@ function render_show_type_extra() {
 
     tag_shut( 'header' );
 
-    $show_type = app_stash()->get_item_by_slug( ShowType::class, 'extra-show' );
+    $show_type = app_stash()->get_item_by_slug( ShowType::class, ShowEnum::ExtraShow->value );
 
     $show_type->get_thing_list()->render();
 
