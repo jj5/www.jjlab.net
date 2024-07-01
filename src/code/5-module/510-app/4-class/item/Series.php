@@ -16,7 +16,7 @@ class Series extends Item {
 
   use LinkedList;
 
-  public function get_video_list() {
+  public function get_live_video_list() {
 
     $segment_list = $this->get_list( Segment::class );
 
@@ -24,7 +24,11 @@ class Series extends Item {
 
     foreach ( $segment_list as $segment ) {
 
-      $result[] = $segment->get_video();
+      $video = $segment->get_video();
+
+      if ( ! $video->is_live() ) { continue; }
+
+      $result[] = $video;
 
     }
 

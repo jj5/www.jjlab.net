@@ -457,7 +457,7 @@ function render_series_info() {
   if ( $video->is_null() ) { return; }
 
   $series = $video->get_series();
-  $video_list = $series->get_video_list();
+  $video_list = $series->get_live_video_list();
 
   if ( count( $video_list ) === 0 ) { return; }
 
@@ -482,8 +482,6 @@ function render_series_info() {
     tag_open( 'ul' );
 
       foreach ( $video_list as $video ) {
-
-        if ( ! $video->is_live() ) { continue; }
 
         $title = 'This video was published on ' . $publication_date->format_for_user() . ' and is ' . $video->get_duration()->to_string() . ' long.';
 
