@@ -1,4 +1,10 @@
 
+header ul {
+
+  list-style-type: none !important;
+
+}
+
 .equipment-link {
 
   margin-top: 4rem;

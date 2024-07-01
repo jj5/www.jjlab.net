@@ -132,7 +132,7 @@ function render_channel_one() {
 
         if ( $g_video_id ) {
 
-          render_video_header();
+          render_series_info();
 
         }
         else {
@@ -245,7 +245,7 @@ function render_channel_two() {
 
         if ( $g_video_id ) {
 
-          render_video_header();
+          render_series_info();
 
         }
         else {
@@ -444,33 +444,100 @@ function render_video_header() {
 
   tag_text( 'h1', $video->get_title() );
 
-  tag_open( 'p' );
+  tag_text( 'p', "Thanks for watching, and don't forget to like and subscribe!" );
 
-    out_text( 'This show was published to ' );
+}
 
-    $video->get_channel()->render_internal_link();
+function render_series_info() {
 
-    out_text( ' on ' );
+  global $g_video_id;
 
-    $publication_date = $video->get_publication_date();
+  $video = app_stash()->get_item_by_slug( YoutubeVideo::class, $g_video_id );
+  $series = $video->get_series();
+  $video_list = $series->get_video_list();
 
-    tag_text(
-      'time',
-      $publication_date->format_for_user(),
-      [
-        'datetime' => $publication_date->format_for_web(),
-      ]
-    );
+  if ( count( $video_list ) === 0 ) { return; }
 
-    $duration = $video->get_duration();
+  assert( $video === $video_list[ 0 ] );
 
-    out_text( ' and is ' );
+  $publication_date = $video->get_publication_date();
 
-    tag_text( 'span', $duration->to_string() );
+  tag_text( 'h1', $video->get_title() );
 
-    out_text( ' long.' );
+  if ( count( $video_list ) > 1 ) {
 
-  tag_shut( 'p' );
+    tag_open( 'p' );
+
+      out_text( 'This show was published to ' );
+
+      $video->get_channel()->render_internal_link();
+
+      out_text( ' and includes these features:' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'ul' );
+
+      foreach ( $video_list as $video ) {
+
+        $title = 'This video was published on ' . $publication_date->format_for_user() . ' and is ' . $video->get_duration()->to_string() . ' long.';
+
+        tag_open( 'li', [ 'title' => $title ] );
+
+          $feature = $video->get_feature();
+
+          //$feature->render_internal_link();
+
+          out_text( $feature->get_name() . ': ' );
+
+          tag_text(
+            'a',
+            $video->get_title(),
+            [
+              'href' => $video->get_internal_url(),
+              'class' => 'internal',
+              'title' => $video->get_title(),
+            ]
+          );
+
+          out_text( ' [' . $video->get_duration()->to_string() . ']' );
+
+        tag_shut( 'li' );
+
+      }
+
+    tag_shut( 'ul' );
+
+  }
+  else {
+
+    tag_open( 'p' );
+
+      out_text( 'This show was published to ' );
+
+      $video->get_channel()->render_internal_link();
+
+      out_text( ' on ' );
+
+      tag_text(
+        'time',
+        $publication_date->format_for_user(),
+        [
+          'datetime' => $publication_date->format_for_web(),
+        ]
+      );
+
+      $duration = $video->get_duration();
+
+      out_text( ' and is ' );
+
+      tag_text( 'span', $duration->to_string() );
+
+      out_text( ' long.' );
+
+    tag_shut( 'p' );
+
+  }
 
   tag_text( 'p', "Thanks for watching, and don't forget to like and subscribe!" );
 

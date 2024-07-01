@@ -16,6 +16,22 @@ class Series extends Item {
 
   use LinkedList;
 
+  public function get_video_list() {
+
+    $segment_list = $this->get_list( Segment::class );
+
+    $result = [];
+
+    foreach ( $segment_list as $segment ) {
+
+      $result[] = $segment->get_video();
+
+    }
+
+    return $result;
+    
+  }
+
   public function is_live() { return $this->get_first_segment()->is_live(); }
 
   public function get_publication_date() { return $this->get_first_segment()->get_publication_date(); }
