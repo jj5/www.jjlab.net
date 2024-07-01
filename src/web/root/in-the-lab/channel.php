@@ -453,6 +453,9 @@ function render_series_info() {
   global $g_video_id;
 
   $video = app_stash()->get_item_by_slug( YoutubeVideo::class, $g_video_id );
+
+  if ( $video->is_null() ) { return; }
+
   $series = $video->get_series();
   $video_list = $series->get_video_list();
 
