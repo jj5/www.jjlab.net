@@ -384,7 +384,7 @@ function render_head( $heading ) {
 
 function render_foot() {
 
-  error_log( $_SERVER[ 'USER_AGENT' ] );
+  error_log( $_SERVER[ 'HTTP_USER_AGENT' ] );
 
       tag_shut( 'main' );
 
