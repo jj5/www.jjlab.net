@@ -417,7 +417,9 @@ window.IS_JOHN = false;
 
       tag_shut( 'script' );
 
-      tag_open( 'script' );
+      if ( strpos( $_SERVER[ 'HTTP_USER_AGENT' ], 'QtWebEngine' ) === false ) {
+
+          tag_open( 'script' );
 
 ?>
 
@@ -474,7 +476,9 @@ window.SCROLL_HACK = setInterval( scroll_hack, 5 );
 
 <?php
 
-      tag_shut( 'script' );
+          tag_shut( 'script' );
+
+      }
 
     tag_shut( 'body' );
 
