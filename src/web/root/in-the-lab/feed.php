@@ -144,7 +144,9 @@ function render_feed_for_list( $video_list, $topic = null ) {
 
       if ( ! $section ) { $section = 'All Videos'; }
 
-      tag_text( 'title', "In The Lab With Jay Jay § $section" );
+      $title = "In The Lab With Jay Jay § $section";
+
+      tag_text( 'title', $title );
 
       tag_bare( 'atom:link', [ 'href' => mud_get_full_request_url(), 'rel' => 'self', 'type' => 'application/rss+xml' ] );
       tag_text( 'link', 'https://www.inthelabwithjayjay.com/' );
@@ -158,7 +160,7 @@ function render_feed_for_list( $video_list, $topic = null ) {
       tag_open( 'image' );
 
         tag_text( 'url', 'https://www.inthelabwithjayjay.com/in-the-lab/img/logo.png' );
-        tag_text( 'title', 'In The Lab With Jay Jay' );
+        tag_text( 'title', $title );
         tag_text( 'link', 'https://www.inthelabwithjayjay.com/' );
         tag_text( 'width', '144' );
         tag_text( 'height', '144' );
