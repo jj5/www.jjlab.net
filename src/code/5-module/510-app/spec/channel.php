@@ -21,7 +21,7 @@ channel(
   ),
   show_type(
     show_slug( ShowEnum::SpecialShow->value ),
-    show_name( 'Special Shows' ),
+    show_name( 'Special Show' ),
     show_text( 'In the special shows we take a look at something interesting and electronics related.' ),
     feature(
       feature_slug( 'channel-news' ),
@@ -107,7 +107,7 @@ channel(
   channel_name( "Elliot's Extras" ),
   show_type(
     show_slug( ShowEnum::ExtraShow->value ),
-    show_name( 'Extra Shows' ),
+    show_name( 'Extra Show' ),
     show_text( 'In the extra shows you will find longer form content which has received less editing attention.' ),
     feature(
       feature_slug( 'extra-content' ),

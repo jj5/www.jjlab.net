@@ -464,6 +464,7 @@ function render_show_info() {
   assert( $video === $video_list[ 0 ] );
 
   $publication_date = $video->get_publication_date();
+  $show_type = $video->get_show_type();
 
   tag_text( 'h1', $video->get_title() );
 
@@ -471,7 +472,11 @@ function render_show_info() {
 
     tag_open( 'p' );
 
-      out_text( 'This show was published to ' );
+      out_text( 'This ' );
+      
+      $show_type->render_internal_link( strtolower( $show_type->get_name() ) );
+
+      out_text( ' was published to ' );
 
       $video->get_channel()->render_internal_link();
 
@@ -516,7 +521,11 @@ function render_show_info() {
 
     tag_open( 'p' );
 
-      out_text( 'This show was published to ' );
+      out_text( 'This ' );
+
+      $show_type->render_internal_link( strtolower( $show_type->get_name() ) );
+
+      out_text( ' was published to ' );
 
       $video->get_channel()->render_internal_link();
 
