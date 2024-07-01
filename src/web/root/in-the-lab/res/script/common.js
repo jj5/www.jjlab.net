@@ -286,6 +286,10 @@ function scroll_into_view() {
 
     if ( element ) {
 
+      var target = document.querySelector( ':target' );
+
+      if ( element === target ) { return; }
+
       console.log( 'scrolling to element with id: ' + id );
 
       element.scrollIntoView();
