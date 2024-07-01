@@ -87,6 +87,8 @@ function render_show_index() {
 
     tag_open( 'section', [ 'class' => 'container' ] );
 
+      tag_text( 'h2', 'List of Shows' );
+
       tag_open( 'ul' );
 
         $channel_list = get_list( Channel::class );
@@ -202,6 +204,8 @@ function render_show_main() {
 
     tag_open( 'section', [ 'class' => 'container' ] );
 
+      tag_text( 'h2', 'Main Show' );
+
       tag_open( 'p' );
 
         out_text( 'The main show airs on the ' );
@@ -280,6 +284,8 @@ function render_show_special() {
     tag_shut( 'header' );
 
     tag_open( 'section', [ 'class' => 'container' ] );
+
+      tag_text( 'h2', 'Show Features' );
 
       tag_open( 'p' );
 
