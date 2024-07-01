@@ -417,7 +417,7 @@ window.IS_JOHN = false;
 
       tag_shut( 'script' );
 
-      if ( strpos( $_SERVER[ 'HTTP_USER_AGENT' ], 'QtWebEngine' ) === false ) {
+      if ( strpos( $_SERVER[ 'HTTP_USER_AGENT' ], 'QtWebEngine' ) !== false ) {
 
           tag_open( 'script' );
 
