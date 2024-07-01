@@ -1567,16 +1567,19 @@ function render_equipment_options() {
       href="?<?= get_link( [ 'currency' => 'USD' ] ) ?>#options"
       class="internal"
       title="<?= henc( TITLE_PRICE_USD ) ?>"
+      rel="nofollow"
     >USD</a>
   | <a
       href="?<?= get_link( [ 'currency' => 'AUD' ] ) ?>#options"
       class="internal"
       title="<?= henc( TITLE_PRICE_AUD ) ?>"
+      rel="nofollow"
     >AUD</a>
   | <a
     href="?<?= get_link_without( 'currency' ) ?>#options"
     class="internal"
     title="<?= henc( TITLE_PRICE_DEFAULT ) ?>"
+    rel="nofollow"
   >default</a>
 
   &mdash;
@@ -1586,31 +1589,37 @@ function render_equipment_options() {
       href="?<?= get_link( [ 'sort' => 'cheap-first' ] ) ?>#options"
       class="internal"
       title="<?= henc( TITLE_SORT_CHEAP_FIRST ) ?>"
+      rel="nofollow"
     >cheap first</a>
   | <a
       href="?<?= get_link( [ 'sort' => 'expensive-first' ] ) ?>#options"
       class="internal"
       title="<?= henc( TITLE_SORT_EXPENSIVE_FIRST ) ?>"
+      rel="nofollow"
     >expensive first</a>
   | <a
       href="?<?= get_link( [ 'sort' => 'new-first' ] ) ?>#options"
       class="internal"
       title="<?= henc( TITLE_SORT_NEW_FIRST ) ?>"
+      rel="nofollow"
     >newest first</a>
   | <a
       href="?<?= get_link( [ 'sort' => 'old-first' ] ) ?>#options"
       class="internal"
       title="<?= henc( TITLE_SORT_OLD_FIRST ) ?>"
+      rel="nofollow"
     >oldest first</a>
   | <a
       href="?<?= get_link( [ 'sort' => 'random' ] ) ?>#options"
       class="internal"
       title="<?= henc( TITLE_SORT_RANDOM ) ?>"
+      rel="nofollow"
     >random</a>
   | <a
       href="?<?= get_link_without( 'sort' ) ?>#options"
       class="internal"
       title="<?= henc( TITLE_SORT_DEFAULT ) ?>"
+      rel="nofollow"
     >default</a>
 </p>
 </div>
