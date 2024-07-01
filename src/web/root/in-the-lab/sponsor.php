@@ -57,6 +57,8 @@ function render_sponsor_main() {
 
     tag_open( 'section', [ 'class' => 'container' ] );
 
+      tag_text( 'h2', 'Show Sponsors' );
+
       tag_text( 'p', 'My most excellent sponsors are:' );
 
       tag_open( 'ul' );
