@@ -66,7 +66,7 @@ abstract class Video extends Item {
     $show_slug = $this->get_series()->get_first_segment()->get_youtube_video()->get_slug()->to_string();
     $slug = $this->get_slug()->to_string();
 
-    return url_base() . '/video.php/' . $channel_slug . '/' . $show_slug . '#' . $slug;
+    return url_base() . '/series.php/' . $channel_slug . '/' . $show_slug . '#' . $slug;
 
 
     $channel = $this->get_channel();

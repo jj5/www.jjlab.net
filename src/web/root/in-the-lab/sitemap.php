@@ -89,7 +89,7 @@ function render_sitemap() {
     foreach ( app_stash()->get_live_video_list() as $video ) {
 
       render_url(
-        '/video.php/' . $video->get_channel()->get_slug() . '/' . $video->get_slug(),
+        '/series.php/' . $video->get_channel()->get_slug() . '/' . $video->get_slug(),
         $video->get_publication_date()->format_for_sitemap(),
         $changefreq,
         $priority

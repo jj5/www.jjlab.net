@@ -21,27 +21,27 @@ function render() {
       // 2024-07-02 jj5 - NOTE: if we land here we have a video id in the URL path and in the query string. The one in
       // the query string is the one we want to keep, so we'll fix up the path and redirect.
 
-      $path_parts[ 2 ] = $_GET[ 'from' ];
+      $g_video_id = $_GET[ 'from' ];
 
-      unset( $_GET[ 'from' ] );
-
-      // 2024-07-02 jj5 - NEW: if there's a video id in the URL we redirect to the video page.
-      $script_name = url_base() . '/video.php';
-      // 2024-07-02 jj5 - OLD:
-      //$script_name = $_SERVER[ 'SCRIPT_NAME' ];
-
-      $query_string = $_GET ? '?' . http_build_query( $_GET ) : '';
-
-      $new_url = $script_name . implode( '/', $path_parts ) . $query_string;
-
-      return http_redirect( $new_url, 301 );
+      return redirect_to_video( $g_video_id );
 
     }
     else {
 
-      // 2024-07-02 jj5 - NOTE: if we land here the video id is in the URL path but we put it into $_GET for back compat.
-
       $g_video_id = $path_parts[ 2 ];
+
+      // 2024-07-02 jj5 - NOTE: if we land here we're supposed to be showing a particular video, so if we're on the
+      // channel.php page (or anything but series.php) we'll redirect to the series.php page.
+
+      $script_name = basename( $_SERVER[ 'SCRIPT_NAME' ] );
+
+      if ( $script_name !== 'series.php' ) {
+
+        return redirect_to_video( $g_video_id );
+
+      }
+
+      // 2024-07-02 jj5 - NOTE: if we land here the video id is in the URL path but we put it into $_GET for back compat.
 
       $_GET[ 'from' ] = $g_video_id;
 
@@ -70,6 +70,27 @@ function render() {
 
   }
 }
+
+function redirect_to_video( $video_id ) {
+
+  $path_info = $_SERVER[ 'PATH_INFO' ] ?? '';
+
+  $path_parts = explode( '/', $path_info );
+
+  unset( $_GET[ 'from' ] );
+
+  $path_parts[ 2 ] = $video_id;
+
+  $script_name = url_base() . '/series.php';
+
+  $query_string = $_GET ? '?' . http_build_query( $_GET ) : '';
+
+  $new_url = $script_name . implode( '/', $path_parts ) . $query_string;
+
+  return http_redirect( $new_url, 301 );
+
+}
+
 
 function render_channel_index() {
 
@@ -425,7 +446,7 @@ function render_video_header() {
 
   tag_open( 'p' );
 
-    out_text( 'This video was published to ' );
+    out_text( 'This show was published to ' );
 
     $video->get_channel()->render_internal_link();
 
