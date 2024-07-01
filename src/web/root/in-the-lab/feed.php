@@ -24,7 +24,7 @@ function render() {
 
     case 'show' :
 
-      return render_feed_show( $path_parts[ 1 ] ?? null );
+      return render_feed_show_type( $path_parts[ 1 ] ?? null );
 
     case 'feature' :
 
@@ -57,15 +57,15 @@ function render_feed_channel( $slug ) {
 
 }
 
-function render_feed_show( $slug ) {
+function render_feed_show_type( $slug ) {
 
-  $show = app_stash()->get_show( $slug );
+  $show_type = app_stash()->get_show_type( $slug );
 
-  if ( $show->is_null() ) { return default_redirect( url_base() . '/feed.php' ); }
+  if ( $show_type->is_null() ) { return default_redirect( url_base() . '/feed.php' ); }
 
-  $video_list = $show->get_live_video_list();
+  $video_list = $show_type->get_live_video_list();
 
-  return render_feed_for_list( $video_list, $show );
+  return render_feed_for_list( $video_list, $show_type );
 
 }
 
@@ -193,7 +193,7 @@ function render_feed_for_list( $video_list, $topic = null ) {
 
                 break;
 
-              case Show::class :
+              case ShowType::class :
 
                 tag_text( 'category', $topic->get_channel()->get_slug() );
                 tag_text( 'category', $topic->get_name() );
@@ -203,7 +203,7 @@ function render_feed_for_list( $video_list, $topic = null ) {
               case Feature::class :
 
                 tag_text( 'category', $topic->get_channel()->get_slug() );
-                tag_text( 'category', $topic->get_show()->get_name() );
+                tag_text( 'category', $topic->get_show_type()->get_name() );
                 tag_text( 'category', $topic->get_name() );
 
                 break;

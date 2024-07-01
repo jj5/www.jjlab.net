@@ -83,7 +83,7 @@ function render_index_main() {
 
     render_section_about_channels();
 
-    render_section_about_main_show();
+    render_section_about_main_show_type();
 
     render_section_about_special_shows();
 

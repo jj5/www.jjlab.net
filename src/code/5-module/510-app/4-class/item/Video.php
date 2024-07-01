@@ -22,9 +22,9 @@ abstract class Video extends Item {
 
   }
 
-  public function get_show() {
+  public function get_show_type() {
 
-    return $this->get_segment()->get_show();
+    return $this->get_segment()->get_show_type();
 
   }
 
@@ -34,9 +34,9 @@ abstract class Video extends Item {
 
   }
 
-  public function get_series() {
+  public function get_show() {
 
-    return $this->get_closest( Series::class );
+    return $this->get_closest( Show::class );
 
   }
 
@@ -63,10 +63,10 @@ abstract class Video extends Item {
   public function get_internal_url() {
 
     $channel_slug = $this->get_channel()->get_slug();
-    $show_slug = $this->get_series()->get_first_segment()->get_youtube_video()->get_slug()->to_string();
+    $show_slug = $this->get_show()->get_first_segment()->get_youtube_video()->get_slug()->to_string();
     $slug = $this->get_slug()->to_string();
 
-    return url_base() . '/series.php/' . $channel_slug . '/' . $show_slug . '#' . $slug;
+    return url_base() . '/show.php/' . $channel_slug . '/' . $show_slug . '#' . $slug;
 
 
     $channel = $this->get_channel();
@@ -75,7 +75,7 @@ abstract class Video extends Item {
 
     $slug = $this->get_slug()->to_string();
 
-    $query = [ 'from' => $this->get_series()->get_first_segment()->get_youtube_video()->get_slug()->to_string() ];
+    $query = [ 'from' => $this->get_show()->get_first_segment()->get_youtube_video()->get_slug()->to_string() ];
 
     return $channel_url . '?' . http_build_query( $query ) . '#' . $slug;
 

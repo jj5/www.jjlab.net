@@ -4,7 +4,7 @@ channel(
   channel_url( 'https://www.youtube.com/@InTheLabWithJayJay' ),
   channel_slug( '@InTheLabWithJayJay' ),
   channel_name( 'In The Lab With Jay Jay' ),
-  show(
+  show_type(
     show_slug( 'main-show' ),
     show_name( 'Main Show' ),
     show_text( 'In the main show we make high-quality videos of interest to the electronics hobbyist, particularly beginners.' ),
@@ -19,7 +19,7 @@ channel(
       feature_text( 'In the old book teardown videos we take a close look at an old electronics book.' ),
     ),
   ),
-  show(
+  show_type(
     show_slug( 'special-show' ),
     show_name( 'Special Shows' ),
     show_text( 'In the special shows we take a look at something interesting and electronics related.' ),
@@ -105,7 +105,7 @@ channel(
   channel_url( 'https://www.youtube.com/@ElliotsExtras' ),
   channel_slug( '@ElliotsExtras' ),
   channel_name( "Elliot's Extras" ),
-  show(
+  show_type(
     show_slug( 'extra-show' ),
     show_name( 'Extra Shows' ),
     show_text( 'In the extra shows you will find longer form content which has received less editing attention.' ),

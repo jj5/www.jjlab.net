@@ -10,31 +10,31 @@ function render() {
 
     case '' :
 
-      return render_show_index();
+      return render_show_type_index();
 
     case '/main-show' :
 
-      return render_show_main();
+      return render_show_type_main();
 
     case '/main' :
 
-      return http_redirect( url_base() . '/show.php/main-show', 301 );
+      return http_redirect( url_base() . '/show-type.php/main-show', 301 );
 
     case '/special-show' :
 
-      return render_show_special();
+      return render_show_type_special();
 
     case '/special' :
 
-      return http_redirect( url_base() . '/show.php/special-show', 301 );
+      return http_redirect( url_base() . '/show-type.php/special-show', 301 );
 
     case '/extra-show' :
 
-      return render_show_extra();
+      return render_show_type_extra();
 
     case '/extra' :
 
-      return http_redirect( url_base() . '/show.php/extra-show', 301 );
+      return http_redirect( url_base() . '/show-type.php/extra-show', 301 );
 
     case '/electronics-project' :
     case '/old-book' :
@@ -62,12 +62,12 @@ function render() {
 
     default :
 
-      default_redirect( url_base() . '/show.php' );
+      default_redirect( url_base() . '/show-type.php' );
 
   }
 }
 
-function render_show_index() {
+function render_show_type_index() {
 
   render_head( 'Shows' );
 
@@ -109,30 +109,30 @@ function render_show_index() {
 
 function render_channel_shows( $channel ) {
 
-  $show_list = $channel->get_show_list();
+  $show_type_list = $channel->get_show_type_list();
 
-  foreach ( $show_list as $show ) {
+  foreach ( $show_type_list as $show_type ) {
 
     tag_open( 'li' );
 
       tag_text(
         'a',
-        $show->get_title(),
+        $show_type->get_title(),
         [
-          'href' => url_base() . '/show.php/' . $show->get_slug(),
+          'href' => url_base() . '/show-type.php/' . $show_type->get_slug(),
           'class' => 'internal',
-          'title' => $show->get_title(),
+          'title' => $show_type->get_title(),
         ]
       );
 
-      if ( $show->video_count() === 1 ) {
+      if ( $show_type->video_count() === 1 ) {
 
-        out_text( ' (' . $show->video_count() . ' video)' );
+        out_text( ' (' . $show_type->video_count() . ' video)' );
 
       }
       else {
 
-        out_text( ' (' . $show->video_count() . ' videos)' );
+        out_text( ' (' . $show_type->video_count() . ' videos)' );
 
       }
 
@@ -141,9 +141,9 @@ function render_channel_shows( $channel ) {
   }
 }
 
-function render_show_features( $show ) {
+function render_show_type_features( $show_type ) {
 
-  $feature_list = $show->get_feature_list();
+  $feature_list = $show_type->get_feature_list();
 
   foreach ( $feature_list as $feature ) {
 
@@ -178,9 +178,9 @@ function render_show_features( $show ) {
 }
 
 
-function render_show_main() {
+function render_show_type_main() {
 
-  $show = app_stash()->get_item_by_slug( Show::class, 'main-show' );
+  $show_type = app_stash()->get_item_by_slug( ShowType::class, 'main-show' );
 
   render_head( 'Main Show' );
 
@@ -224,20 +224,20 @@ function render_show_main() {
 
       tag_shut( 'p' );
 
-      render_show_features( $show );
+      render_show_type_features( $show_type );
 
     tag_shut( 'section' );
 
-    $show->get_thing_list()->render();
+    $show_type->get_thing_list()->render();
 
   render_foot();
 
 }
 
 
-function render_show_special() {
+function render_show_type_special() {
 
-  $show = app_stash()->get_item_by_slug( Show::class, 'special-show' );
+  $show_type = app_stash()->get_item_by_slug( ShowType::class, 'special-show' );
 
   render_head( 'Special Shows' );
 
@@ -269,7 +269,7 @@ function render_show_special() {
             'a',
             'main show',
             [
-              'href' => url_base() . '/show.php/main-show',
+              'href' => url_base() . '/show-type.php/main-show',
               'class' => 'internal channel',
               'title' => TITLE_SHOW_MAIN,
             ]
@@ -305,17 +305,17 @@ function render_show_special() {
 
       tag_shut( 'p' );
 
-      render_show_features( $show );
+      render_show_type_features( $show_type );
 
     tag_shut( 'section' );
 
-    $show->get_thing_list()->render();
+    $show_type->get_thing_list()->render();
 
   render_foot();
 
 }
 
-function render_show_extra() {
+function render_show_type_extra() {
 
   render_head( 'Extra Shows' );
 
@@ -361,9 +361,9 @@ function render_show_extra() {
 
     tag_shut( 'header' );
 
-    $show = app_stash()->get_item_by_slug( Show::class, 'extra-show' );
+    $show_type = app_stash()->get_item_by_slug( ShowType::class, 'extra-show' );
 
-    $show->get_thing_list()->render();
+    $show_type->get_thing_list()->render();
 
   render_foot();
 

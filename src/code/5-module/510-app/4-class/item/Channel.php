@@ -117,17 +117,17 @@ class Channel extends Item {
   }
 
 
-  public function get_show_list() { return $this->get_list( Show::class ); }
+  public function get_show_type_list() { return $this->get_list( ShowType::class ); }
 
   public function get_thing_list() {
 
-    $list = app_stash()->get_list( Series::class );
+    $list = app_stash()->get_list( Show::class );
 
     $list = array_filter(
       $list,
-      function( $series ) {
-        if ( ! $series->get_first_segment()->is_live() ) { return false; }
-        $a = $series->get_channel()->get_slug();
+      function( $show ) {
+        if ( ! $show->get_first_segment()->is_live() ) { return false; }
+        $a = $show->get_channel()->get_slug();
         $b = $this->get_slug();
         //dump([ 'a' => $a, 'b' => $b ]);
         return $a === $b;

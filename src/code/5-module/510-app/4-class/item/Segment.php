@@ -11,7 +11,7 @@ abstract class Segment extends Item {
 
   public abstract function get_channel();
 
-  public abstract function get_show();
+  public abstract function get_show_type();
 
   public abstract function get_feature();
 
@@ -21,7 +21,7 @@ abstract class Segment extends Item {
 
   public function get_silly_job_title() {
 
-    return $this->get_series()->get_silly_job_title();
+    return $this->get_show()->get_silly_job_title();
 
   }
 
@@ -45,7 +45,7 @@ abstract class Segment extends Item {
 
   public function get_sponsor_list_html() {
 
-    return $this->get_series()->get_sponsor_list_html();
+    return $this->get_show()->get_sponsor_list_html();
 
   }
 
@@ -57,7 +57,7 @@ abstract class Segment extends Item {
 
   public function get_title_attr() { return 'Click here to watch this video.'; }
 
-  public function get_series() { return $this->get_closest( Series::class ); }
+  public function get_show() { return $this->get_closest( Show::class ); }
 
   public function get_publication_date() { return $this->get( PublicationDate::class ); }
 
@@ -131,7 +131,7 @@ abstract class Segment extends Item {
 
     if ( ! $this->is_live() ) { return false; }
 
-    $series = $this->get_series();
+    $show = $this->get_show();
 
     $youtube_video = $this->get_youtube_video();
 
@@ -205,7 +205,7 @@ abstract class Segment extends Item {
         tag_text( 'dt', 'YouTube Channel' );
         tag_open( 'dd' );
         
-          $series->get_channel()->render();
+          $show->get_channel()->render();
 
         tag_shut( 'dd' );
 
@@ -217,9 +217,9 @@ abstract class Segment extends Item {
         tag_shut( 'dd' );
 
         tag_text( 'dt', 'Generous Sponsors' );
-        tag_html( 'dd', $series->get_sponsor_list_html() );
+        tag_html( 'dd', $show->get_sponsor_list_html() );
 
-        if ( ! $series->get_silly_job_title()->is_null() ) {
+        if ( ! $show->get_silly_job_title()->is_null() ) {
 
           // 2024-06-16 jj5 - OLD:
           //tag_text( 'dt', 'Silly Job Title' );
@@ -238,7 +238,7 @@ abstract class Segment extends Item {
 
           tag_shut( 'dt' );
 
-          tag_text( 'dd', $series->get_silly_job_title() );
+          tag_text( 'dd', $show->get_silly_job_title() );
 
         }
 
@@ -349,7 +349,7 @@ class NullSegment extends Segment {
 
   public function get_channel() { return NullChannel::Instance(); }
 
-  public function get_show() { return NullShow::Instance(); }
+  public function get_show_type() { return NullShowType::Instance(); }
 
   public function get_feature() { return NullFeature::Instance(); }
 

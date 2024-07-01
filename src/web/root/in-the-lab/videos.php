@@ -71,7 +71,7 @@ function render_video_list( $video_list ) {
 
               tag_open( 'td' );
 
-                $video->get_show()->render_internal_link();
+                $video->get_show_type()->render_internal_link();
 
               tag_shut( 'td' );
 
@@ -89,14 +89,14 @@ function render_video_list( $video_list ) {
 
               tag_open( 'td' );
 
-                if ( $video->get_show()->get_slug() === 'main-show' ) {
+                if ( $video->get_show_type()->get_slug() === 'main-show' ) {
 
-                  $video->get_series()->get_silly_job_title()->render();
+                  $video->get_show()->get_silly_job_title()->render();
 
                 }
                 else {
 
-                  $video->get_series()->get_silly_job_title()->render( null, [ 'style' => 'text-decoration: line-through;' ] );
+                  $video->get_show()->get_silly_job_title()->render( null, [ 'style' => 'text-decoration: line-through;' ] );
 
                 }
 

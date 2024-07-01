@@ -14,9 +14,9 @@ class ElectronicsProject extends Segment {
 
   }
 
-  public function get_show() {
+  public function get_show_type() {
 
-    return get_item_by_slug( Show::class, 'main-show' );
+    return get_item_by_slug( ShowType::class, 'main-show' );
 
   }
 
@@ -28,9 +28,9 @@ class ElectronicsProject extends Segment {
 
   public function render_extra_video_attributes() {
 
-    $series = $this->get_series();
+    $show = $this->get_show();
 
-    $old_book = $series->get_old_book_teardown();
+    $old_book = $show->get_old_book_teardown();
 
     if ( $old_book->is_live() ) {
 
@@ -45,7 +45,7 @@ class ElectronicsProject extends Segment {
 
     }
 
-    $new_book = $series->get_new_book_teardown();
+    $new_book = $show->get_new_book_teardown();
 
     if ( $new_book->is_live() ) {
 
@@ -85,13 +85,13 @@ class ElectronicsProject extends Segment {
         'a',
         'Main Show',
         [
-          'href' => url_base() . '/show.php/main-show',
+          'href' => url_base() . '/show-type.php/main-show',
           'class' => 'internal',
           'title' => TITLE_SHOW_MAIN,
         ]
       );
 
-      //$this->get_show()->render_rss_link();
+      //$this->get_show_type()->render_rss_link();
 
       out_text( ' > ' );
 

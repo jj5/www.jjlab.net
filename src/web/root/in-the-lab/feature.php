@@ -130,7 +130,7 @@ function render_feature_generic( $feature ) {
         tag_open( 'p' );
 
           $feature_title = strtolower( $feature->get_title() );
-          $show_title = strtolower( $feature->get_show()->get_title() );
+          $show_title = strtolower( $feature->get_show_type()->get_title() );
 
           if ( strpos( $feature_title, 'maxitronix' ) === 0 ) {
 
@@ -138,7 +138,7 @@ function render_feature_generic( $feature ) {
 
           }
 
-          switch ( $feature->get_show()->get_slug() ) {
+          switch ( $feature->get_show_type()->get_slug() ) {
 
             case 'main-show' :
 
@@ -148,7 +148,7 @@ function render_feature_generic( $feature ) {
 
               out_text( ' is a regular feature of the ' );
 
-              $feature->get_show()->render_internal_link( $show_title );
+              $feature->get_show_type()->render_internal_link( $show_title );
 
               out_text( ' which airs on ' );
 
@@ -166,7 +166,7 @@ function render_feature_generic( $feature ) {
 
               out_text( ' is one of the ' );
 
-              $feature->get_show()->render_internal_link( $show_title );
+              $feature->get_show_type()->render_internal_link( $show_title );
 
               out_text( ' which airs occasionally on ' );
 
@@ -184,7 +184,7 @@ function render_feature_generic( $feature ) {
 
               out_text( ' is a ' );
 
-              $feature->get_show()->render_internal_link( $show_title );
+              $feature->get_show_type()->render_internal_link( $show_title );
 
               out_text( ' which airs occasionally on ' );
 
@@ -250,7 +250,7 @@ function render_feature_maxitronix_index() {
             'a',
             'special shows',
             [
-              'href' => url_base() . '/show.php/special-show',
+              'href' => url_base() . '/show-type.php/special-show',
               'class' => 'internal channel',
               'title' => TITLE_SHOW_SPECIAL,
             ]
@@ -362,7 +362,7 @@ function render_feature_maxitronix_kit( $kit ) {
             'a',
             'next one',
             [
-              'href' => url_base() . '/show.php/maxitronix',
+              'href' => url_base() . '/show-type.php/maxitronix',
               'class' => 'internal',
               'title' => TITLE_SHOW_MAXITRONIX,
             ]
@@ -402,7 +402,7 @@ function render_feature_mini_project() {
             'a',
             'special shows',
             [
-              'href' => url_base() . '/show.php/special-show',
+              'href' => url_base() . '/show-type.php/special-show',
               'class' => 'internal channel',
               'title' => TITLE_SHOW_SPECIAL,
             ]

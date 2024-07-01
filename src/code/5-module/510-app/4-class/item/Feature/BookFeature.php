@@ -96,12 +96,12 @@ abstract class BookFeature extends Feature {
       }
     }
 
-    $main_video_id = $this->get_show()->get_feature()->get_youtube_video()->get_slug()->to_string();
+    $main_video_id = $this->get_show_type()->get_feature()->get_youtube_video()->get_slug()->to_string();
     $this_video_id = $this->get_youtube_video()->get_slug()->to_string();
 
     if ( true ) {
 
-      $url = $this->get_show()->get_feature()->get_video_id();
+      $url = $this->get_show_type()->get_feature()->get_video_id();
 
     }
     else {

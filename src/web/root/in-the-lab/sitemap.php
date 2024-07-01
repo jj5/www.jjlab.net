@@ -72,7 +72,7 @@ function render_sitemap() {
 
     $changefreq = 'daily';
     $priority = '0.9';
-    $pages = [ 'equipment.php', 'channel.php', 'show.php', 'feature.php', 'videos.php', 'books.php' ];
+    $pages = [ 'equipment.php', 'channel.php', 'show-type.php', 'feature.php', 'videos.php', 'books.php' ];
 
     render_pages( $pages, $latest_date, $changefreq, $priority );
 
@@ -89,7 +89,7 @@ function render_sitemap() {
     foreach ( app_stash()->get_live_video_list() as $video ) {
 
       render_url(
-        '/series.php/' . $video->get_channel()->get_slug() . '/' . $video->get_slug(),
+        '/show.php/' . $video->get_channel()->get_slug() . '/' . $video->get_slug(),
         $video->get_publication_date()->format_for_sitemap(),
         $changefreq,
         $priority
@@ -110,9 +110,9 @@ function render_sitemap() {
 
     }
 
-    foreach ( app_stash()->get_list( Show::class ) as $show ) {
+    foreach ( app_stash()->get_list( ShowType::class ) as $show_type ) {
         
-      render_url( '/show.php/' . $show->get_slug(), $latest_date, $changefreq, $priority );
+      render_url( '/show-type.php/' . $show_type->get_slug(), $latest_date, $changefreq, $priority );
 
     }
 

@@ -32,7 +32,7 @@ class YoutubeVideo extends Video {
 
     $slug = $this->get_slug()->to_string();
 
-    $query = [ 'from' => strval( $this->get_series()->get_first_segment()->get_video()->get_slug() ) ];
+    $query = [ 'from' => strval( $this->get_show()->get_first_segment()->get_video()->get_slug() ) ];
 
     return $channel_url . '?' . http_build_query( $query ) . '#' . $slug;
 

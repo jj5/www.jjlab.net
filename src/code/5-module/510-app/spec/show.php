@@ -1,6 +1,6 @@
 <?php
 
-series(
+show(
   early_content(
     publication_date( '2023-06-17' ),
     title( 'Hello, World' ),
@@ -9,7 +9,7 @@ series(
   ),
 );
 
-series(
+show(
   early_content(
     publication_date( '2023-06-17' ),
     title( 'Scope Test' ),
@@ -18,7 +18,7 @@ series(
   ),
 );
 
-series(
+show(
   early_content(
     publication_date( '2023-07-20' ),
     title( 'Reversing AC Adapter' ),
@@ -27,7 +27,7 @@ series(
   ),
 );
 
-series(
+show(
   early_content(
     publication_date( '2023-07-20' ),
     title( 'Testing with Potentiometer' ),
@@ -36,7 +36,7 @@ series(
   ),
 );
 
-series(
+show(
   early_content(
     publication_date( '2023-07-20' ),
     title( 'Magic Smoke!' ),
@@ -45,7 +45,7 @@ series(
   ),
 );
 
-series(
+show(
   early_content(
     publication_date( '2023-07-28' ),
     title( 'Testing Riden RD6006 with 19.5V power supply' ),
@@ -54,7 +54,7 @@ series(
   ),
 );
 
-series(
+show(
   unboxing(
     publication_date( '2023-08-02' ),
     title( 'Unboxing of ZKE Tech EBD-A20H Battery Tester Electronic Load' ),
@@ -63,7 +63,7 @@ series(
   ),
 );
 
-series(
+show(
   early_content(
     publication_date( '2023-08-03' ),
     title( 'Sorting Soldering Iron Tips' ),
@@ -72,7 +72,7 @@ series(
   ),
 );
 
-series(
+show(
   early_content(
     publication_date( '2023-08-08' ),
     title( 'Making Input Power Cable for EBD-A20H Battery Tester' ),
@@ -81,7 +81,7 @@ series(
   ),
 );
 
-series(
+show(
   unboxing(
     publication_date( '2023-08-11' ),
     title( 'Unboxing of NBD Camera' ),
@@ -90,7 +90,7 @@ series(
   ),
 );
 
-series(
+show(
   unboxing(
     publication_date( '2023-08-24' ),
     title( 'Unboxing of UNI-T UTi260B Thermal Imager with Macro Lens' ),
@@ -99,7 +99,7 @@ series(
   ),
 );
 
-series(
+show(
   unboxing(
     publication_date( '2023-08-28' ),
     title( "Unboxing of Pro'sKit SS-331 Desoldering Pump" ),
@@ -108,7 +108,7 @@ series(
   ),
 );
 
-series(
+show(
   early_content(
     publication_date( '2023-08-29' ),
     title( "OGXbox Recapping, Thermal Paste and Pro'sKit SS-331 Demo" ),
@@ -117,7 +117,7 @@ series(
   ),
 );
 
-series(
+show(
   early_content(
     publication_date( '2023-09-06' ),
     title( "Enameled Bodge Wire With UV Solder Mask" ),
@@ -126,7 +126,7 @@ series(
   ),
 );
 
-series(
+show(
   unboxing(
     publication_date( '2023-09-07' ),
     title( "Unboxing of AliExpress TE-801 Third Hand With Magnifier" ),
@@ -135,7 +135,7 @@ series(
   ),
 );
 
-series(
+show(
   extra_content(
     publication_date( '2023-09-13' ),
     youtube_video( 'GBD1S2OfG1Q' ),
@@ -143,7 +143,7 @@ series(
   ),
 );
 
-series(
+show(
   early_content(
     publication_date( '2023-10-16' ),
     title( "Demo of the ALKOY Capacitor Discharge Pen" ),
@@ -152,7 +152,7 @@ series(
   ),
 );
 
-series(
+show(
   silly_job_title( 'Craig Entertainer' ),
   channel_news(
     publication_date( '2023-10-27' ),
@@ -162,7 +162,7 @@ series(
   ),
 );
 
-series(
+show(
   silly_job_title( 'Electron Herder' ),
   electronics_project(
     publication_date( '2023-10-28' ),
@@ -172,7 +172,7 @@ series(
   ),
 );
 
-series(
+show(
   silly_job_title( 'Current Commander' ),
   unboxing(
     publication_date( '2023-10-30' ),
@@ -182,7 +182,7 @@ series(
   ),
 );
 
-series(
+show(
   silly_job_title( 'Sparky' ),
   unboxing(
     publication_date( '2023-10-31' ),
@@ -192,7 +192,7 @@ series(
   ),
 );
 
-series(
+show(
   silly_job_title( 'Power Provider' ),
   unboxing(
     publication_date( '2023-10-31' ),
@@ -203,7 +203,7 @@ series(
   ),
 );
 
-series(
+show(
   silly_job_title( 'Hack In Residence' ),
   unboxing(
     publication_date( '2023-11-04' ),
@@ -214,7 +214,7 @@ series(
   ),
 );
 
-series(
+show(
   silly_job_title( 'Science Officer' ),
   interlude(
     publication_date( '2023-11-21' ),
@@ -225,7 +225,7 @@ series(
   ),
 );
 
-series(
+show(
   sponsor_name( 'PCBWay' ),
   silly_job_title( 'Grounding Genius' ),
   electronics_project(
@@ -246,7 +246,7 @@ series(
   )
 );
 
-series(
+show(
   sponsor_name( 'PCBWay' ),
   silly_job_title( 'Ohm Oracle' ),
   interlude(
@@ -267,7 +267,7 @@ series(
   )
 );
 
-series(
+show(
   extra_content(
     publication_date( '2023-12-24' ),
     title( "Motherboard upgrade from ASUS PRIME B550M-A to ASUS ProArt B550-CREATOR" ),
@@ -276,7 +276,7 @@ series(
   ),
 );
 
-series(
+show(
   extra_content(
     publication_date( '2023-12-24' ),
     title( "Building my new lab/studio workstation 'verve'" ),
@@ -284,7 +284,7 @@ series(
   ),
 );
 
-series(
+show(
   silly_job_title( 'Charge Charmer' ),
   interlude(
     publication_date( '2023-12-24' ),
@@ -307,7 +307,7 @@ series(
   ),
 );
 
-series(
+show(
   extra_content(
     publication_date( '2024-01-05' ),
     title( "Making a USB breakout cable for intercepting USB signal data" ),
@@ -315,7 +315,7 @@ series(
   ),
 );
 
-series(
+show(
   extra_content(
     publication_date( '2024-01-09' ),
     title( "Prototype of the Xin1 video format" ),
@@ -323,7 +323,7 @@ series(
   ),
 );
 
-series(
+show(
   silly_job_title( 'Charge Charmer' ),
   channel_news(
     publication_date( '2024-01-09' ),
@@ -373,7 +373,7 @@ series(
   ),
 );
 
-series(
+show(
   maxitronix_segment(
     publication_date( '2024-01-09' ),
     title( "Introducing Maxitronix 10in1" ),
@@ -384,7 +384,7 @@ series(
   ),
 );
 
-series(
+show(
   maxitronix_segment(
     publication_date( '2024-01-10' ),
     title( "Morse Code By Light" ),
@@ -396,7 +396,7 @@ series(
   ),
 );
 
-series(
+show(
   maxitronix_segment(
     publication_date( '2024-01-11' ),
     title( "Morse Code Oscillator" ),
@@ -408,7 +408,7 @@ series(
   ),
 );
 
-series(
+show(
   maxitronix_segment(
     publication_date( '2024-01-12' ),
     title( "Diode Experiment" ),
@@ -420,7 +420,7 @@ series(
   ),
 );
 
-series(
+show(
   extra_content(
     publication_date( '2024-01-14' ),
     title( "Just checking in about the new website" ),
@@ -429,7 +429,7 @@ series(
   ),
 );
 
-series(
+show(
   maxitronix_segment(
     publication_date( '2024-03-08' ),
     title( "Diode Radio" ),
@@ -441,7 +441,7 @@ series(
   ),
 );
 
-series(
+show(
   maxitronix_segment(
     publication_date( '2024-03-09' ),
     title( "1-Transistor Radio" ),
@@ -453,7 +453,7 @@ series(
   ),
 );
 
-series(
+show(
   maxitronix_segment(
     publication_date( '2024-03-10' ),
     title( "1-Transistor Radio With Diode" ),
@@ -465,7 +465,7 @@ series(
   ),
 );
 
-series(
+show(
   maxitronix_segment(
     publication_date( '2024-03-13' ),
     title( "Wireless Continuous Wave Transmitter" ),
@@ -477,7 +477,7 @@ series(
   ),
 );
 
-series(
+show(
   maxitronix_segment(
     publication_date( '2024-03-14' ),
     title( "Patrol Car Siren" ),
@@ -489,7 +489,7 @@ series(
   ),
 );
 
-series(
+show(
   maxitronix_segment(
     publication_date( '2024-03-15' ),
     title( "Audio Frequency Oscillator" ),
@@ -501,7 +501,7 @@ series(
   ),
 );
 
-series(
+show(
   maxitronix_segment(
     publication_date( '2024-03-16' ),
     title( "Burglar Alarm" ),
@@ -513,7 +513,7 @@ series(
   ),
 );
 
-series(
+show(
   maxitronix_segment(
     publication_date( '2024-03-17' ),
     title( "Concluding Maxitronix 10in1" ),
@@ -524,7 +524,7 @@ series(
   ),
 );
 
-series(
+show(
   maxitronix_segment(
     publication_date( '2024-03-18' ),
     title( "Introducing Maxitronix 20in1" ),
@@ -535,7 +535,7 @@ series(
   ),
 );
 
-series(
+show(
   silly_job_title( 'Spark Slinger' ),
   electronics_project(
     publication_date( '2024-01-19' ),
@@ -581,7 +581,7 @@ series(
   ),
 );
 
-series(
+show(
   maxitronix_segment(
     publication_date( '2024-03-20' ),
     title( "Brightness Alarm" ),
@@ -593,7 +593,7 @@ series(
   ),
 );
 
-series(
+show(
   maxitronix_segment(
     publication_date( '2024-03-21' ),
     title( "Darkness Alarm" ),
@@ -605,7 +605,7 @@ series(
   ),
 );
 
-series(
+show(
   maxitronix_segment(
     publication_date( '2024-03-22' ),
     title( "Electronic Candles" ),
@@ -617,7 +617,7 @@ series(
   ),
 );
 
-series(
+show(
   maxitronix_segment(
     publication_date( '2024-03-25' ),
     title( "Light Alarm With Latch" ),
@@ -629,7 +629,7 @@ series(
   ),
 );
 
-series(
+show(
   maxitronix_segment(
     publication_date( '2024-03-26' ),
     title( "Light-Controlled Organ" ),
@@ -641,7 +641,7 @@ series(
   ),
 );
 
-series(
+show(
   maxitronix_segment(
     publication_date( '2024-03-27' ),
     title( "Photometer" ),
@@ -653,7 +653,7 @@ series(
   ),
 );
 
-series(
+show(
   maxitronix_segment(
     publication_date( '2024-03-29' ),
     title( "Shot In The Dark I" ),
@@ -665,7 +665,7 @@ series(
   ),
 );
 
-series(
+show(
   silly_job_title( 'Master Planner' ),
   electronics_project(
     publication_date( '2024-03-30' ),
@@ -700,7 +700,7 @@ series(
   ),
 );
 
-series(
+show(
   extra_content(
     publication_date( '2024-04-03' ),
     title( "The SCSI Bus and IDE Interface: Protocols, Applications and Programming (2nd Edition)" ),
@@ -720,7 +720,7 @@ series(
   ),
 );
 
-series(
+show(
   maxitronix_segment(
     publication_date( '2024-04-03' ),
     title( "Shot In The Dark II" ),
@@ -732,7 +732,7 @@ series(
   ),
 );
 
-series(
+show(
   silly_job_title( 'Electron Enchanter' ),
   electronics_project(
     publication_date( '2024-04-25' ),
@@ -773,7 +773,7 @@ series(
   ),
 );
 
-series(
+show(
   interlude(
     publication_date( '2024-05-09' ),
     title( "Learning LTspice Part 1" ),
@@ -783,7 +783,7 @@ series(
   ),
 );
 
-series(
+show(
   interlude(
     publication_date( '2024-05-13' ),
     title( "Learning LTspice Part 2" ),
@@ -793,7 +793,7 @@ series(
   ),
 );
 
-series(
+show(
   silly_job_title( 'Amp Alchemist' ),
   electronics_project(
     publication_date( '2024-05-14' ),
@@ -836,7 +836,7 @@ series(
   */
 );
 
-series(
+show(
   maxitronix_segment(
     publication_date( '2024-05-16' ),
     title( "Visitor Alarm" ),
@@ -848,7 +848,7 @@ series(
   ),
 );
 
-series(
+show(
   silly_job_title( 'Amp Alchemist' ),
   channel_news(
     publication_date( '2024-06-14' ),

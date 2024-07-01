@@ -19,9 +19,9 @@ class AppStash {
 
   }
 
-  public function get_show( $slug ) {
+  public function get_show_type( $slug ) {
 
-    return $this->get_item_by_slug( Show::class, $slug );
+    return $this->get_item_by_slug( ShowType::class, $slug );
 
   }
 
@@ -348,14 +348,14 @@ class AppStash {
 
   }
 
-  public function get_main_show_selection() {
+  public function get_main_show_type_selection() {
 
-    $list = app_stash()->get_list( Series::class );
+    $list = app_stash()->get_list( Show::class );
 
     $list = array_filter(
       $list,
-      function( $series ) {
-        $segment = $series->get_first_segment();
+      function( $show ) {
+        $segment = $show->get_first_segment();
         if ( ! $segment->is_live() ) { return false; }
         return is_a( $segment, ElectronicsProject::class );
       }
@@ -372,14 +372,14 @@ class AppStash {
 
   }
 
-  public function get_maxitronix_show_selection() {
+  public function get_maxitronix_show_type_selection() {
 
-    $list = app_stash()->get_list( Series::class );
+    $list = app_stash()->get_list( Show::class );
 
     $list = array_filter(
       $list,
-      function( $series ) {
-        $segment = $series->get_first_segment();
+      function( $show ) {
+        $segment = $show->get_first_segment();
         if ( ! $segment->is_live() ) { return false; }
         return is_a( $segment, MaxitronixSegment::class );
       }
@@ -398,12 +398,12 @@ class AppStash {
 
   public function get_maxitronix_kit_selection( $kit ) {
 
-    $list = app_stash()->get_list( Series::class );
+    $list = app_stash()->get_list( Show::class );
 
     $list = array_filter(
       $list,
-      function( $series ) use ( $kit ) {
-        $segment = $series->get_first_segment();
+      function( $show ) use ( $kit ) {
+        $segment = $show->get_first_segment();
         if ( ! $segment->is_live() ) { return false; }
         if ( ! is_a( $segment, MaxitronixSegment::class ) ) { return false; }
         return $kit === $segment->get_maxitronix_kit_name()->to_string();
@@ -423,12 +423,12 @@ class AppStash {
 
   public function get_extra_content_selection() {
 
-    $list = app_stash()->get_list( Series::class );
+    $list = app_stash()->get_list( Show::class );
 
     $list = array_filter(
       $list,
-      function( $series ) {
-        $segment = $series->get_first_segment();
+      function( $show ) {
+        $segment = $show->get_first_segment();
         if ( ! $segment->is_live() ) { return false; }
         return is_a( $segment, ExtraContent::class );
       }
@@ -474,8 +474,8 @@ class AppStash {
 
     $list = array_filter(
       $list,
-      function( $series ) {
-        $segment = $series->get_first_segment();
+      function( $show ) {
+        $segment = $show->get_first_segment();
         if ( ! $segment->is_live() ) { return false; }
         return true;
       }
@@ -523,17 +523,17 @@ class AppStash {
 
       $last_index = VIDEO_COUNT;
 
-      $next_series = $last_index < count( $list ) ? $list[ $last_index ] : null;
+      $next_show = $last_index < count( $list ) ? $list[ $last_index ] : null;
 
-      return new ThingList( $thing_list, $next_series );
+      return new ThingList( $thing_list, $next_show );
 
     }
 
     $from_index = -1;
 
-    foreach ( $list as $index => $series ) {
+    foreach ( $list as $index => $show ) {
 
-      $id = strval( $series->get_video_id() );
+      $id = strval( $show->get_video_id() );
 
       if ( $id === $from ) {
 
@@ -562,9 +562,9 @@ class AppStash {
 
     $last_index = $from_index + VIDEO_COUNT;
 
-    $next_series = $last_index < count( $list ) ? $list[ $last_index ] : null;
+    $next_show = $last_index < count( $list ) ? $list[ $last_index ] : null;
 
-    return new ThingList( $thing_list, $next_series );
+    return new ThingList( $thing_list, $next_show );
 
   }
 

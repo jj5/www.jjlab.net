@@ -30,13 +30,13 @@ class Unboxing extends Segment {
         'a',
         'Special Show',
         [
-          'href' => url_base() . '/show.php/special-show',
+          'href' => url_base() . '/show-type.php/special-show',
           'class' => 'internal',
           'title' => TITLE_SHOW_SPECIAL,
         ]
       );
 
-      //$this->get_show()->render_rss_link();
+      //$this->get_show_type()->render_rss_link();
 
       out_text( ' > ' );
 
@@ -70,9 +70,9 @@ class Unboxing extends Segment {
 
   }
 
-  public function get_show() {
+  public function get_show_type() {
 
-    return get_item_by_slug( Show::class, 'special-show' );
+    return get_item_by_slug( ShowType::class, 'special-show' );
 
   }
 

@@ -70,9 +70,9 @@ class Book extends Item {
 
   }
 
-  public function get_show() {
+  public function get_show_type() {
 
-    return $this->get_segment()->get_show();
+    return $this->get_segment()->get_show_type();
 
   }
 

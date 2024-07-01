@@ -14,9 +14,9 @@ class ExtraContent extends Segment {
 
   }
 
-  public function get_show() {
+  public function get_show_type() {
 
-    return get_item_by_slug( Show::class, 'extra-show' );
+    return get_item_by_slug( ShowType::class, 'extra-show' );
 
   }
 
@@ -48,13 +48,13 @@ class ExtraContent extends Segment {
         'a',
         'Extra Show',
         [
-          'href' => url_base() . '/show.php/extra-show',
+          'href' => url_base() . '/show-type.php/extra-show',
           'class' => 'internal',
           'title' => TITLE_SHOW_EXTRA,
         ]
       );
 
-      //$this->get_show()->render_rss_link();
+      //$this->get_show_type()->render_rss_link();
 
       out_text( ' > ' );
 

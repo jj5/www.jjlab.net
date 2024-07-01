@@ -31,11 +31,11 @@ function render() {
       $g_video_id = $path_parts[ 2 ];
 
       // 2024-07-02 jj5 - NOTE: if we land here we're supposed to be showing a particular video, so if we're on the
-      // channel.php page (or anything but series.php) we'll redirect to the series.php page.
+      // channel.php page (or anything but show.php) we'll redirect to the show.php page.
 
       $script_name = basename( $_SERVER[ 'SCRIPT_NAME' ] );
 
-      if ( $script_name !== 'series.php' ) {
+      if ( $script_name !== 'show.php' ) {
 
         return redirect_to_video( $g_video_id );
 
@@ -81,7 +81,7 @@ function redirect_to_video( $video_id ) {
 
   $path_parts[ 2 ] = $video_id;
 
-  $script_name = url_base() . '/series.php';
+  $script_name = url_base() . '/show.php';
 
   $query_string = $_GET ? '?' . http_build_query( $_GET ) : '';
 
@@ -132,7 +132,7 @@ function render_channel_one() {
 
         if ( $g_video_id ) {
 
-          render_series_info();
+          render_show_info();
 
         }
         else {
@@ -245,7 +245,7 @@ function render_channel_two() {
 
         if ( $g_video_id ) {
 
-          render_series_info();
+          render_show_info();
 
         }
         else {
@@ -344,38 +344,38 @@ function render_channel_two_main() {
 
 function render_channel_shows( $channel ) {
 
-  $show_list = $channel->get_show_list();
+  $show_type_list = $channel->get_show_type_list();
 
   tag_open( 'ul' );
 
-    foreach ( $show_list as $show ) {
+    foreach ( $show_type_list as $show_type ) {
 
       tag_open( 'li' );
 
         tag_text(
           'a',
-          $show->get_title(),
+          $show_type->get_title(),
           [
-            'href' => url_base() . '/show.php/' . $show->get_slug(),
+            'href' => url_base() . '/show-type.php/' . $show_type->get_slug(),
             'class' => 'internal',
-            'title' => $show->get_title(),
+            'title' => $show_type->get_title(),
           ]
         );
 
-        if ( $show->video_count() === 1 ) {
+        if ( $show_type->video_count() === 1 ) {
 
-          out_text( ' (' . $show->video_count() . ' video)' );
+          out_text( ' (' . $show_type->video_count() . ' video)' );
 
         }
         else {
 
-          out_text( ' (' . $show->video_count() . ' videos)' );
+          out_text( ' (' . $show_type->video_count() . ' videos)' );
 
         }
 
         tag_open( 'ul' );
 
-          $feature_list = $show->get_feature_list();
+          $feature_list = $show_type->get_feature_list();
 
           foreach ( $feature_list as $feature ) {
 
@@ -448,7 +448,7 @@ function render_video_header() {
 
 }
 
-function render_series_info() {
+function render_show_info() {
 
   global $g_video_id;
 
@@ -456,8 +456,8 @@ function render_series_info() {
 
   if ( $video->is_null() ) { return; }
 
-  $series = $video->get_series();
-  $video_list = $series->get_live_video_list();
+  $show = $video->get_show();
+  $video_list = $show->get_live_video_list();
 
   if ( count( $video_list ) === 0 ) { return; }
 

@@ -1,18 +1,18 @@
 <?php
 
-function series() {
+function show() {
 
- $last_series = get_last( Series::class );
+ $last_show = get_last( Show::class );
 
-  $series = new_item( Series::class, [ sponsor_name( 'Patreon Supporters' ), ...func_get_args() ] );
+  $show = new_item( Show::class, [ sponsor_name( 'Patreon Supporters' ), ...func_get_args() ] );
 
-  $last_series->set_next( $series );
+  $last_show->set_next( $show );
 
-  return $series;
+  return $show;
  
 }
 
-class Series extends Item {
+class Show extends Item {
 
   use LinkedList;
 
@@ -264,25 +264,25 @@ class Series extends Item {
 
   public function get_channel() {
 
-    return $this->get_show()->get_channel();
+    return $this->get_show_type()->get_channel();
 
   }
 
-  public function get_show() {
+  public function get_show_type() {
 
-    switch ( $this->get_show_type() ) {
+    switch ( $this->get_show_enum() ) {
 
-      case ShowType::MainShow:
+      case ShowEnum::MainShow:
 
-        return get_item_by_slug( Show::class, 'main-show' );
+        return get_item_by_slug( ShowType::class, 'main-show' );
 
-      case ShowType::SpecialShow :
+      case ShowEnum::SpecialShow :
 
-        return get_item_by_slug( Show::class, 'special-show' );
+        return get_item_by_slug( ShowType::class, 'special-show' );
 
-      case ShowType::ExtraShow:
+      case ShowEnum::ExtraShow:
 
-        return get_item_by_slug( Show::class, 'extra-show' );
+        return get_item_by_slug( ShowType::class, 'extra-show' );
 
       default :
 
@@ -291,27 +291,27 @@ class Series extends Item {
     }
   }
 
-  public function get_show_type() {
+  public function get_show_enum() {
 
     if ( $this->has( ElectronicsProject::class ) ) {
 
-      return ShowType::MainShow;
+      return ShowEnum::MainShow;
 
     }
 
     if ( $this->has( OldBookTeardown::class ) ) {
 
-      return ShowType::MainShow;
+      return ShowEnum::MainShow;
 
     }
 
     if ( $this->has( ExtraContent::class ) ) {
 
-      return ShowType::ExtraShow;
+      return ShowEnum::ExtraShow;
 
     }
 
-    return ShowType::SpecialShow;
+    return ShowEnum::SpecialShow;
 
   }
 
@@ -323,7 +323,7 @@ class Series extends Item {
 
 }
 
-class NullSeries extends Series {
+class NullShow extends Show {
 
   use NullItemMixin;
 

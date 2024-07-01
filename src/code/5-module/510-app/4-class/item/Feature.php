@@ -11,8 +11,8 @@ class Feature extends Item {
   public function get_rss_info( &$title, &$url ) {
 
     $channel = $this->get_channel();
-    $show = $this->get_show();
-    $title = $channel->get_slug() . ' » ' . $show->get_name(). ' » ' . $this->get_name() . ' » Feed';
+    $show_type = $this->get_show_type();
+    $title = $channel->get_slug() . ' » ' . $show_type->get_name(). ' » ' . $this->get_name() . ' » Feed';
     $url = url_base() . '/feed.php/feature/' . $this->get_slug();
 
   }
@@ -32,7 +32,7 @@ class Feature extends Item {
 
   public function get_channel() { return $this->get_closest( Channel::class ); }
 
-  public function get_show() { return $this->get_closest( Show::class ); }
+  public function get_show_type() { return $this->get_closest( ShowType::class ); }
 
   public function get_feature_text() { return $this->get( FeatureText::class ); }
 

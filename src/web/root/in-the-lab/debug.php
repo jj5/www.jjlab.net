@@ -168,20 +168,20 @@ function render_show_list() {
           'a',
           'Show Index',
           [
-            'href' => url_base() . '/show.php',
+            'href' => url_base() . '/show-type.php',
             'class' => 'internal',
           ]
         );
 
       tag_shut( 'li' );
 
-      $list = app_stash()->get_list( Show::class );
+      $list = app_stash()->get_list( ShowType::class );
 
-      foreach ( $list as $show ) {
+      foreach ( $list as $show_type ) {
 
         tag_open( 'li' );
 
-          $show->render_internal_link();
+          $show_type->render_internal_link();
 
         tag_shut( 'li');
 

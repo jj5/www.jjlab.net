@@ -1,19 +1,19 @@
 <?php
 
-function show() {
+function show_type() {
 
-  return new_item( Show::class, func_get_args() );
+  return new_item( ShowType::class, func_get_args() );
 
 }
 
-class Show extends Item {
+class ShowType extends Item {
 
   public function get_rss_info( &$title, &$url ) {
 
     $slug = $this->get_slug();
     $channel = $this->get_channel();
     $title = $channel->get_slug() . ' » ' . $this->get_name(). ' » Feed';
-    $url = url_base() . '/feed.php/show/' . $slug;
+    $url = url_base() . '/feed.php/show-type/' . $slug;
 
   }
 
@@ -24,7 +24,7 @@ class Show extends Item {
     return array_values( array_filter(
       $list,
       function( $video ) {
-        return $video->get_show() === $this;
+        return $video->get_show_type() === $this;
       }
     ));
 
@@ -40,7 +40,7 @@ class Show extends Item {
 
   public function get_internal_url() {
 
-    return url_base() . '/show.php/' . $this->get_slug();
+    return url_base() . '/show-type.php/' . $this->get_slug();
 
   }
 
@@ -87,7 +87,7 @@ class Show extends Item {
 
     foreach ( get_list( Video::class ) as $video ) {
 
-      if ( $video->get_show() === $this ) {
+      if ( $video->get_show_type() === $this ) {
 
         $result++;
 
@@ -100,13 +100,13 @@ class Show extends Item {
 
   public function get_thing_list() {
 
-    $list = app_stash()->get_list( Series::class );
+    $list = app_stash()->get_list( Show::class );
 
     $list = array_filter(
       $list,
-      function( $series ) {
-        if ( ! $series->get_first_segment()->is_live() ) { return false; }
-        $a = $series->get_show()->get_slug();
+      function( $show ) {
+        if ( ! $show->get_first_segment()->is_live() ) { return false; }
+        $a = $show->get_show_type()->get_slug();
         $b = $this->get_slug();
         //dump([ 'a' => $a, 'b' => $b ]);
         return $a === $b;
@@ -121,7 +121,7 @@ class Show extends Item {
 
 }
 
-class NullShow extends Show {
+class NullShowType extends ShowType {
 
   use NullItemMixin;
 

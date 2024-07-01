@@ -14,9 +14,9 @@ class OldBookTeardown extends BookSegment {
 
   }
 
-  public function get_show() {
+  public function get_show_type() {
 
-    return get_item_by_slug( Show::class, 'main-show' );
+    return get_item_by_slug( ShowType::class, 'main-show' );
 
   }
 
@@ -28,14 +28,14 @@ class OldBookTeardown extends BookSegment {
 
   public function render_extra_video_attributes() {
 
-    $series = $this->get_series();
+    $show = $this->get_show();
 
     tag_text( 'dt', 'Main Show' );
-    //tag_html( 'dd', $series->get_main_feature()->get_link_html() );
+    //tag_html( 'dd', $show->get_main_feature()->get_link_html() );
 
     tag_open( 'dd' );
 
-      $series->get_first_segment()->render_internal_link();
+      $show->get_first_segment()->render_internal_link();
 
     tag_shut( 'dd' );
 
@@ -63,13 +63,13 @@ class OldBookTeardown extends BookSegment {
         'a',
         'Main Show',
         [
-          'href' => url_base() . '/show.php/main-show',
+          'href' => url_base() . '/show-type.php/main-show',
           'class' => 'internal',
           'title' => TITLE_SHOW_MAIN,
         ]
       );
 
-      //$this->get_show()->render_rss_link();
+      //$this->get_show_type()->render_rss_link();
 
       out_text( ' > ' );
 

@@ -108,19 +108,19 @@ function render_section_latest() {
 
 }
 
-function get_latest_series() {
+function get_latest_show() {
 
   $result = null;
 
   //tag_open( 'ul' );
 
-  foreach ( get_list( Series::class ) as $series ) {
+  foreach ( get_list( Show::class ) as $show ) {
 
-    $segment = $series->get_first_segment();
+    $segment = $show->get_first_segment();
 
     //tag_text( 'li', $feature->to_string() . ': ' . $feature->get_title() );
 
-    if ( $series->get_channel()->get_channel_slug()->to_string() !== '@InTheLabWithJayJay' ) { continue; }
+    if ( $show->get_channel()->get_channel_slug()->to_string() !== '@InTheLabWithJayJay' ) { continue; }
 
     if ( $segment->is_live() ) { $result = $segment; }
 
@@ -140,8 +140,8 @@ function get_latest_video() {
 
 function render_section_latest_main() {
 
-  //$latest = get_latest_series();
-  //render_series_main( $latest );
+  //$latest = get_latest_show();
+  //render_show_main( $latest );
 
   tag_open( 'section', [ 'class' => 'container' ] );
 
@@ -155,11 +155,11 @@ function render_section_latest_main() {
 
 }
 
-function render_series_main( $series ) {
+function render_show_main( $show ) {
 
-  if ( $series === null ) { return; }
+  if ( $show === null ) { return; }
 
-  return $series->render();
+  return $show->render();
 
 }
 
@@ -413,23 +413,23 @@ function render_section_about_content( int $heading_level = 2 ) {
 
         tag_open( 'ul' );
 
-          $show_list = $channel->get_show_list();
+          $show_type_list = $channel->get_show_type_list();
 
-          foreach ( $show_list as $show ) {
+          foreach ( $show_type_list as $show_type ) {
 
-            if ( $show->video_count() === 0 ) { continue; }
+            if ( $show_type->video_count() === 0 ) { continue; }
 
             tag_open( 'li' );
 
-              $show->render_internal_link();
+              $show_type->render_internal_link();
 
-              //$show->render_rss_link();
+              //$show_type->render_rss_link();
 
-              render_video_count( $show->video_count() );
+              render_video_count( $show_type->video_count() );
 
               tag_open( 'ul' );
 
-                $feature_list = $show->get_feature_list();
+                $feature_list = $show_type->get_feature_list();
 
                 foreach ( $feature_list as $feature ) {
 
@@ -543,7 +543,7 @@ function render_section_about_channels( int $heading_level = 2 ) {
 <?php
 }
 
-function render_section_about_main_show( int $heading_level = 2 ) {
+function render_section_about_main_show_type( int $heading_level = 2 ) {
   $h2 = 'h' . $heading_level;
   $h3 = 'h' . ( $heading_level + 1 );
   $h4 = 'h' . ( $heading_level + 2 );
@@ -554,7 +554,7 @@ function render_section_about_main_show( int $heading_level = 2 ) {
 <<?= $h2 ?> id="main-show">Main Show</<?= $h2 ?>>
 <p>The
   <a
-    href="<?= url_base() ?>/show.php/main-show"
+    href="<?= url_base() ?>/show-type.php/main-show"
     class="internal"
     title="<?= henc( TITLE_SHOW_MAIN ) ?>"
   >main show</a>
@@ -578,7 +578,7 @@ spun off as separate standalone videos. Each time I do a main show I make one vi
     title="<?= henc( TITLE_FEATURE_ELECTRONICS_PROJECT ) ?>"
   >electronics projects</a>
   on the <a
-    href="<?= url_base() ?>/show.php/main-show"
+    href="<?= url_base() ?>/show-type.php/main-show"
     class="internal"
     title="<?= henc( TITLE_SHOW_MAIN ) ?>"
   >main show</a> I do some miscellaneous and interesting electronics project. The subject matter can vary widely, and might
@@ -605,7 +605,7 @@ and hopefully we can all learn more about electronics together.</p>
     title="<?= henc( TITLE_FEATURE_OLD_BOOK_TEARDOWN ) ?>"
   >old book teardowns</a>
   on the <a
-    href="<?= url_base() ?>/show.php/main-show"
+    href="<?= url_base() ?>/show-type.php/main-show"
     class="internal"
     title="<?= henc( TITLE_SHOW_MAIN ) ?>"
   >main show</a> <b>I introduce and teardown an old book</b>.</p>
@@ -686,7 +686,7 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
 
   <p>For an introduction to the Maxitronix Xin1 kits see the
     <a
-      href="<?= url_base() ?>/show.php/maxitronix"
+      href="<?= url_base() ?>/show-type.php/maxitronix"
       class="internal"
       title="<?= henc( TITLE_SHOW_MAXITRONIX ) ?>"
     >Maxitronix Xin1</a> page.</p>
@@ -694,7 +694,7 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
   <<?= $h3 ?> id="mini-projects">Mini Projects</<?= $h3 ?>>
   <p>In the
     <a
-      href="<?= url_base() ?>/show.php/mini-project"
+      href="<?= url_base() ?>/show-type.php/mini-project"
       class="internal"
       title="<?= henc( TITLE_SHOW_MINI_PROJECT ) ?>"
     >Mini Projects</a>
@@ -735,7 +735,7 @@ function render_section_about_extra_content( int $heading_level = 2 ) {
   2nd channel. This is lower quality content which <b>has received less editing attention</b>.</p>
 <p>I keep this
   <a
-    href="<?= url_base() ?>/show.php/extra-show"
+    href="<?= url_base() ?>/show-type.php/extra-show"
     class="internal"
     title="<?= henc( TITLE_SHOW_EXTRA ) ?>"
   >extra content</a>
@@ -801,7 +801,7 @@ function render_section_about_costume( int $heading_level = 2 ) {
 
   <<?= $h3 ?> id="silly-job-title">Silly Job Title</<?= $h3 ?>>
   <p><b>On my ID badge is a silly job title</b> which I change for each <a
-    href="<?= url_base() ?>/show.php/main-show"
+    href="<?= url_base() ?>/show-type.php/main-show"
     class="internal"
     title="<?= henc( TITLE_SHOW_MAIN ) ?>"
   >main show</a> on the <a
@@ -810,7 +810,7 @@ function render_section_about_costume( int $heading_level = 2 ) {
       title="<?= henc( TITLE_CHANNEL_MAIN ) ?>"
     >main channel</a>.
   I don't change the silly job title for <a
-    href="<?= url_base() ?>/show.php/special-show"
+    href="<?= url_base() ?>/show-type.php/special-show"
     class="internal"
     title="<?= henc( TITLE_SHOW_SPECIAL ) ?>"
   >special shows</a> or for content on <a
@@ -826,7 +826,7 @@ function render_section_about_costume( int $heading_level = 2 ) {
 
 function render_silly_job_title() {
 
-  $latest = get_latest_series();
+  $latest = get_latest_show();
 
   if ( $latest === null ) { return; }
 
@@ -988,12 +988,12 @@ function render_section_about_next( int $heading_level = 2 ) {
       title="<?= henc( TITLE_CHANNEL_MAIN ) ?>"
     >main channel</a>, for all my high quality content including my
       <a
-        href="<?= url_base() ?>/show.php/special-show"
+        href="<?= url_base() ?>/show-type.php/special-show"
         class="internal"
         title="<?= henc( TITLE_SHOW_SPECIAL ) ?>"
       >special shows</a>.</li>
     <li>Visit the <a
-      href="<?= url_base() ?>/show.php/main-show"
+      href="<?= url_base() ?>/show-type.php/main-show"
       class="internal"
       title="<?= henc( TITLE_SHOW_MAIN ) ?>"
     >main show</a>, for my main show videos, which include the

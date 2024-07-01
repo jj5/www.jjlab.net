@@ -555,13 +555,13 @@ function get_rss_link( &$feed_title, &$feed_url ) {
 
       break;
 
-    case 'show.php' :
+    case 'show-type.php' :
 
-      $show = app_stash()->get_show( $slug );
+      $show_type = app_stash()->get_show_type( $slug );
 
-      if ( ! $show->is_null() ) {
+      if ( ! $show_type->is_null() ) {
 
-        return $show->get_rss_info( $feed_title, $feed_url );
+        return $show_type->get_rss_info( $feed_title, $feed_url );
 
       }
 
@@ -574,9 +574,9 @@ function get_rss_link( &$feed_title, &$feed_url ) {
       if ( ! $feature->is_null() ) {
 
         $channel = $feature->get_channel();
-        $show = $feature->get_show();
+        $show_type = $feature->get_show_type();
 
-        $feed_title = $channel->get_slug() . ' » ' . $show->get_name(). ' » ' . $feature->get_name() . ' » Feed';
+        $feed_title = $channel->get_slug() . ' » ' . $show_type->get_name(). ' » ' . $feature->get_name() . ' » Feed';
         $feed_url = url_base() . '/feed.php/feature/' . $slug;
 
         return true;
@@ -603,7 +603,7 @@ function list_maxitronix_kits() {
     $kit_html = henc( $kit_name );
 ?>
   <li><a
-    href="<?= url_base() ?>/show.php/maxitronix-<?= $kit_html ?>"
+    href="<?= url_base() ?>/show-type.php/maxitronix-<?= $kit_html ?>"
     class="internal"
     title="<?= MaxitronixKit::get_html_title( $kit_name ) ?>"
   >Maxitronix <?= $kit_html ?></a></li>
