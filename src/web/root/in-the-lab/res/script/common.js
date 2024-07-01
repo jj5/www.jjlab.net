@@ -14,8 +14,7 @@ document.addEventListener( 'click', handle_document_click );
 
 function handle_window_load( ev, el ) {
 
-  const footer = document.querySelector( 'footer' );
-
+  //const footer = document.querySelector( 'footer' );
   //footer.innerHTML = '<p>Just testing...</p>';
 
   log_function_call( 'handle_window_load' );

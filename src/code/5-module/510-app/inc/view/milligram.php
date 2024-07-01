@@ -426,7 +426,7 @@ function scroll_hack() {
 
   try {
 
-    var limit = 250;
+    var limit = 500;
 
     window.SCROLL_HACK_COUNTER++;
 
@@ -468,7 +468,7 @@ function scroll_hack() {
 }
 
 window.SCROLL_HACK_COUNTER = 0;
-window.SCROLL_HACK = setInterval( scroll_hack, 50 );
+window.SCROLL_HACK = setInterval( scroll_hack, 5 );
 
 <?php
 
