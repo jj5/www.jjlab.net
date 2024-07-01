@@ -117,9 +117,29 @@ function render_head( $heading ) {
       $description = 'In The Lab With Jay Jay is the video blog of John Elliot V';
 
       tag_bare( 'meta', [ 'name' => 'author',       'content' => 'John Elliot V' ] );
-      tag_bare( 'meta', [ 'name' => 'keywords',     'content' => 'electronics, lab, video, experiment, kit' ] );
+
+      tag_bare(
+        'meta',
+        [
+          'name' => 'keywords',
+          'content' => 'electronics videos, electronics lab, electronics kits, electronics experiments, video blog',
+        ]
+      );
+
       tag_bare( 'meta', [ 'name' => 'description',  'content' => $description ] );
+
       tag_bare( 'meta', [ 'name' => 'viewport',     'content' => 'width=device-width, initial-scale=1.0, minimal-ui' ] );
+
+      if ( isset( $_GET[ 'sort' ] ) || isset( $_GET[ 'currency' ] ) ) {
+
+        tag_bare( 'meta', [ 'name' => 'robots', 'content' => 'noindex, nofollow' ] );
+
+      }
+      else {
+
+        tag_bare( 'meta', [ 'name' => 'robots', 'content' => 'index, follow' ] );
+
+      }
 
       tag_bare( 'meta', [ 'property' => 'og:title',       'content' => $title_text ] );
       tag_bare( 'meta', [ 'property' => 'og:description', 'content' => $description ] );
@@ -135,17 +155,6 @@ function render_head( $heading ) {
       tag_bare( 'link', [ 'rel' => 'icon', 'href' => LOGO_URL ] );
 
       tag_bare( 'link', [ 'rel' => 'canonical', 'href' => mud_get_full_request_url() ] );
-
-      if ( isset( $_GET[ 'sort' ] ) || isset( $_GET[ 'currency' ] ) ) {
-
-        tag_bare( 'meta', [ 'name' => 'robots', 'content' => 'noindex, nofollow' ] );
-
-      }
-      else {
-
-        tag_bare( 'meta', [ 'name' => 'robots', 'content' => 'index, follow' ] );
-
-      }
 
       render_rss_link();
 
