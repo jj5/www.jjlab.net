@@ -92,6 +92,8 @@ function render_index( $manufacturer_list ) {
 
     tag_open( 'section', [ 'class' => 'container' ] );
 
+      tag_text( 'h2', 'Equipment Manufacturers' );
+
       tag_open( 'p' );
 
         out_text( 'In addition to these manufacturers you can also get a report by ' );
