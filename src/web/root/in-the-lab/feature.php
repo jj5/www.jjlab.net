@@ -168,7 +168,7 @@ function render_feature_generic( $feature ) {
 
               $feature->get_show_type()->render_internal_link( $show_title );
 
-              out_text( ' which airs occasionally on ' );
+              out_text( ' features which airs occasionally on ' );
 
               $feature->get_channel()->render_internal_link();
 
@@ -186,7 +186,7 @@ function render_feature_generic( $feature ) {
 
               $feature->get_show_type()->render_internal_link( $show_title );
 
-              out_text( ' which airs occasionally on ' );
+              out_text( ' feature which airs occasionally on ' );
 
               $feature->get_channel()->render_internal_link();
 
