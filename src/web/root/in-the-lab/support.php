@@ -69,7 +69,6 @@ function render_support_main() {
         class="internal"
         title="<?= henc( TITLE_EQUIPMENT ) ?>"
       >equipment</a> page before shopping at Amazon, eBay, or AliExpress.</p>
-  </ul>
 </section>
 <section class="container">
   <h2>Make a Custom Sponsorship Deal</h2>
@@ -96,7 +95,6 @@ function render_support_main() {
         title="Click-through to contact me."
       >let's talk</a>.
       </p>
-  </ul>
 </section>
 <section class="container">
   <h2>Tell Your Friends!</h2>
