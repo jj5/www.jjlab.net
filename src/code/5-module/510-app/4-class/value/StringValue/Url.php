@@ -72,7 +72,7 @@ abstract class Url extends StringValue {
 
     $this->parts = parse_url( $this->get_value() );
 
-    $this->host = $this->parts[ 'host' ];
+    $this->host = strval( $this->parts[ 'host' ] ?? '' );
 
     $this->vendor = VENDOR_HOST_MAP[ $this->host ] ?? self::get_vendor_default( $this->host );
 

@@ -221,7 +221,7 @@ show(
     title( "Mail Call! Cheap Stuff From China!" ),
     youtube_video( 'goet4jxuIEw' ),
     blog_url( 'https://blog.jj5.net/blog/2023/11/21/in-the-lab-with-jay-jay-november-21-2023-mail-call/' ),
-    patreon_url( 'https://www.patreon.com/posts/in-lab-with-jay-93246185' ),
+    patreon_url( 'https://www.patreon.com/posts/93246185' ),
   ),
 );
 
@@ -233,7 +233,7 @@ show(
     title( "Teardown of Homemade Continuity Tester" ),
     youtube_video( 'AHW3ipQYTGc' ),
     blog_url( 'https://blog.jj5.net/blog/2023/11/30/in-the-lab-with-jay-jay-november-30-2023-teardown-of-homemade-continuity-tester/' ),
-    patreon_url( 'https://www.patreon.com/posts/in-lab-with-jay-93803125' ),
+    patreon_url( 'https://www.patreon.com/posts/93803125' ),
   ),
   old_book_teardown(
     publication_date( '2023-11-30' ),
@@ -254,7 +254,7 @@ show(
     title( "Mail Call! Plus Two Old Books And A Floppy Disk" ),
     youtube_video( 'gOMHSQCOQ70' ),
     blog_url( 'https://blog.jj5.net/blog/2023/12/12/in-the-lab-with-jay-jay-december-12-2023-mail-call-plus-two-old-books-and-a-floppy-disk/' ),
-    patreon_url( 'https://www.patreon.com/posts/in-lab-with-jay-94525531' ),
+    patreon_url( 'https://www.patreon.com/posts/94525531' ),
   ),
   old_book_teardown(
     publication_date( '2023-12-12' ),
@@ -291,13 +291,13 @@ show(
     title( "Demo Of The New Studio Cameras – Now In 4K!" ),
     youtube_video( '9JYIQ3o73rQ' ),
     blog_url( 'https://blog.jj5.net/blog/2023/12/24/in-the-lab-with-jay-jay-december-24-2023-demo-of-the-new-studio-cameras-now-in-4k/' ),
-    patreon_url( 'https://www.patreon.com/posts/in-lab-with-jay-95200185' ),
+    patreon_url( 'https://www.patreon.com/posts/95200185' ),
   ),
   old_book_teardown(
     publication_date( '2024-01-04' ),
     youtube_video( 'zvtVykg1kNY' ),
     blog_url( 'https://blog.jj5.net/blog/2024/01/05/in-the-lab-with-jay-jay-january-4-2024-old-book-vest-pocket-guide-to-electrical-testing-and-troubleshooting-published-1987/' ),
-    patreon_url( 'https://www.patreon.com/posts/in-lab-with-jay-95883636' ),
+    patreon_url( 'https://www.patreon.com/posts/95883636' ),
     old_book(
       title( "Vest Pocket Guide To Electrical Testing And Troubleshooting" ),
       author( 'John E. Traister' ),
@@ -858,3 +858,15 @@ show(
     patreon_url( 'https://www.patreon.com/posts/106168226' ),
   )
 );
+
+show(
+  interlude(
+    publication_date( '2024-07-02' ),
+    title( "Fixing Corrosion on T15 Torx Bit" ),
+    youtube_video( 'x7XdUhkEJKU' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/07/02/interlude-fixing-corrosion-on-t15-torx-bit-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/107304538' ),
+  ),
+);
+
+// 2024-07-02 jj5 - SEE: https://dev.blackbrick.com.au/wiki/In_The_Lab#When_releasing_a_video
