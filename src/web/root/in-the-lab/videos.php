@@ -58,6 +58,8 @@ function render_video_list( $video_list ) {
 
           foreach( $video_list as $video ) {
 
+            if ( is_prod() && ! $video->is_live() ) { continue; }
+
             tag_open( 'tr' );
 
               tag_text( 'td', $number++ );
