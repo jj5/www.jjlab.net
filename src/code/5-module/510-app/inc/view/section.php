@@ -66,6 +66,7 @@ define( 'TITLE_BLOG', 'Click here to visit my blog!' );
 define( 'TITLE_SUPPORT', 'Click here to find out how you can support the show.' );
 define( 'TITLE_ABOUT', 'Click here for more info about the show.' );
 define( 'TITLE_SILLY_JOB_TITLE', 'Click here to read about the silly job title.' );
+define( 'TITLE_COSTUME', 'Click here to find out about my costume.' );
 
 define( 'TITLE_VIDEO_INDEX', 'Click here to see the "secret" index of all videos.' );
 define( 'TITLE_BOOK_INDEX', 'Click here to see the "secret" index of all books.' );

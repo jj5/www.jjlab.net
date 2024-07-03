@@ -3,7 +3,7 @@
 // the version numbers are managed by svnman...
 define( 'JJLAB_VERSION_MAJOR', 0 );
 define( 'JJLAB_VERSION_MINOR', 2 );
-define( 'JJLAB_VERSION_PATCH', 403 );
+define( 'JJLAB_VERSION_PATCH', 405 );
 
 // you can change the name but not the code...
 define( 'JJLAB_NAME', 'www.jjlab.net' );
