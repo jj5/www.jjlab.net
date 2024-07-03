@@ -21,7 +21,7 @@ function render() {
 
       $path = find_image( $res_dir, $filename );
 
-      if ( ! $path || ! file_exists( $path ) ) { return http_response_code( 404 ); }
+      if ( ! $path || ! file_exists( $path ) ) { return render_404(); }
 
       render_image_headers( $extension );
 
@@ -31,7 +31,7 @@ function render() {
 
     default :
 
-      http_response_code( 404 );
+      render_404();
 
   }
 }

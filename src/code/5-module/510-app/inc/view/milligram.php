@@ -1,7 +1,5 @@
 <?php
 
-use Google\Service\Spanner\Scan;
-
 require_once __DIR__ . '/section.php';
 
 function render_coming_soon() {
@@ -23,6 +21,64 @@ function render_coming_soon() {
       tag_shut( 'section' );
 
     tag_shut( 'header' );
+
+  render_foot();
+
+}
+
+function render_404() {
+
+  http_response_code( 404 );
+
+  render_head( '404 - Page Not Found' );
+
+    tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
+
+      tag_open( 'section', [ 'class' => 'container' ] );
+
+        tag_bare( 'img', [ 'src' => url_base( $use_cdn = true ) . '/res/img.php/logo.png?v=' . get_resource_version() ] );
+
+        tag_text( 'h1', '404 - Page Not Found', [ 'class' => 'title' ] );
+
+        tag_text( 'p', 'Oops! The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.' );
+
+      tag_shut( 'section' );
+
+    tag_shut( 'header' );
+
+    tag_open( 'section', [ 'class' => 'container' ] );
+
+      tag_text( 'p', 'Try the following:' );
+
+      tag_open( 'ul' );
+
+        tag_text( 'li', 'Check the URL for errors and try again.' );
+
+        tag_open( 'li' );
+
+          out_text( 'Return to the ' );
+
+          tag_text( 'a', 'homepage', [ 'href' => url_base() . '/', 'class' => 'internal' ] );
+
+          out_text( '.' );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          out_text( 'If you believe this is an error, please ' );
+
+          tag_text( 'a', 'contact us', [ 'href' => url_base() . '/about.php#contact', 'class' => 'internal' ] );
+
+          out_text( '.' );
+
+        tag_shut( 'li' );
+
+      tag_shut( 'ul' );
+
+      tag_text( 'p', 'Thank you for your understanding.' );
+
+    tag_shut( 'section' );
 
   render_foot();
 
