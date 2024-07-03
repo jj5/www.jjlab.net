@@ -168,6 +168,10 @@ abstract class Money extends IntValue {
 
     assert( $itl !== null );
 
+    $rate = $itl->get_currency_rates( $this->currency )[ 'rates' ][ $currency ] ?? null;
+
+    if ( $rate === null ) { return $this; }
+
     $cents = $itl->get_currency_rates( $this->currency )[ 'rates' ][ $currency ] * $cents;
 
     $cents = round( $cents );
