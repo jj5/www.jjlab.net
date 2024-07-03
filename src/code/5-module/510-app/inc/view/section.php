@@ -113,6 +113,8 @@ function render_section_contents() {
 
     tag_text( 'h2', 'Contents', [ 'id' => 'contents' ] );
 
+    tag_text( 'p', 'The contents of this page are organized into the following sections:' );
+
     tag_text( 'div', 'Contents will go here (if you have Javascript enabled).', [ 'id' => 'contents_div' ] );
 
   tag_shut( 'section' );
