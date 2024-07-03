@@ -144,7 +144,7 @@ function render_500( $message = null, $form = null, $issue = null, $exit = null,
 
         tag_text( 'a', 'contact us', [ 'href' => url_base() . '/about.php#contact', 'class' => 'internal' ] );
 
-        out_text( ' and let us know.' );
+        out_text( ' to let us know.' );
 
       tag_shut( 'p' );
 
