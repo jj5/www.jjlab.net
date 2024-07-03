@@ -136,17 +136,17 @@ function render_500( $message = null, $form = null, $issue = null, $exit = null,
 
         tag_shut( 'li' );
 
-        tag_open( 'li' );
-
-          out_text( 'If the problem persists, please ' );
-
-          tag_text( 'a', 'contact us', [ 'href' => url_base() . '/about.php#contact', 'class' => 'internal' ] );
-
-          out_text( ' and let us know.' );
-
-        tag_shut( 'li' );
-
       tag_shut( 'ul' );
+
+      tag_open( 'p' );
+
+        out_text( 'If the problem persists, please ' );
+
+        tag_text( 'a', 'contact us', [ 'href' => url_base() . '/about.php#contact', 'class' => 'internal' ] );
+
+        out_text( ' and let us know.' );
+
+      tag_shut( 'p' );
 
     tag_shut( 'section' );
 
