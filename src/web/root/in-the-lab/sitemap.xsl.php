@@ -20,7 +20,7 @@ function render() { render_xslt_headers(); }
 ?>
 			<header id="home" class="header">
 				<section class="container">
-					<img src="<?= $cdn_base ?>/res/img.php/logo.png" />
+					<img src="<?= $cdn_base ?>/res/img.php/logo.png?v=<?= get_resource_version() ?>" />
 					<h1>In The Lab With Jay Jay</h1>
 					<p>Hi there! Welcome to my beginner-friendly video blog about electronics!</p>
         </section>

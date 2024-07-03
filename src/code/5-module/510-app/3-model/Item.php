@@ -72,7 +72,7 @@ class Item implements INullable {
       tag_bare(
         'img',
         [
-          'src' => url_base() . '/res/img.php/rss/rss-40674_50.png',
+          'src' => url_base() . '/res/img.php/rss/rss-40674_50.png?v=' . get_resource_version(),
           'style' => 'height: 24px; display: inline-block; margin: 0px 2px; vertical-align: top;',
         ]
       );

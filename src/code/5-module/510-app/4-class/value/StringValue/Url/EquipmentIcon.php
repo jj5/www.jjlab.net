@@ -45,7 +45,7 @@ class EquipmentIcon extends Url {
 
     }
 
-    return url_base( $use_cdn = true ) . "/res/img.php/auto/$hash.$ext";
+    return url_base( $use_cdn = true ) . "/res/img.php/auto/$hash.$ext?v=" . get_resource_version();
 
   }
 
@@ -61,7 +61,7 @@ class EquipmentIcon extends Url {
 
     }
 
-    return "https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/auto/$hash.$ext";
+    return "https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/auto/$hash.$ext?v=" . get_resource_version();
 
   }
 
@@ -105,7 +105,7 @@ class EquipmentIcon extends Url {
 
     itl()->set_equipment_icon_ext( $hash, $ext );
 
-    $dir = realpath( realpath( __DIR__ ) . "/../../../../../../../web/root/in-the-lab/res/img.php/auto" );
+    $dir = realpath( realpath( __DIR__ ) . "/../../../../../../../web/res/img/auto" );
 
     $path = "$dir/$hash.$ext";
 
