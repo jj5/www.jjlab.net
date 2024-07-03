@@ -22,7 +22,7 @@ function render() {
 
       return render_feed_channel( $path_parts[ 1 ] ?? null );
 
-    case 'show' :
+    case 'show-type' :
 
       return render_feed_show_type( $path_parts[ 1 ] ?? null );
 

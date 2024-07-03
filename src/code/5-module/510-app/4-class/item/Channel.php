@@ -34,7 +34,7 @@ class Channel extends Item {
   public function get_rss_info( &$title, &$url ) {
 
     $slug = $this->get_slug();
-    $title = $slug . ' » Feed';
+    $title = 'RSS » ' . $slug;
     $url = url_base() . '/feed.php/channel/' . $slug;
 
   }

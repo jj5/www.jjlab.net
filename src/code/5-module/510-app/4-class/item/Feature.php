@@ -12,7 +12,7 @@ class Feature extends Item {
 
     $channel = $this->get_channel();
     $show_type = $this->get_show_type();
-    $title = $channel->get_slug() . ' » ' . $show_type->get_name(). ' » ' . $this->get_name() . ' » Feed';
+    $title = 'RSS » ' . $channel->get_slug() . ' » ' . $show_type->get_name(). ' » ' . $this->get_name();
     $url = url_base() . '/feed.php/feature/' . $this->get_slug();
 
   }

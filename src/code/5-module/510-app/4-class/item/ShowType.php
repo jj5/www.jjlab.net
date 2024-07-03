@@ -12,7 +12,9 @@ class ShowType extends Item {
 
     $slug = $this->get_slug();
     $channel = $this->get_channel();
-    $title = $channel->get_slug() . ' » ' . $this->get_name(). ' » Feed';
+
+    $title = 'RSS » ' . $channel->get_slug() . ' » ' . $this->get_name();
+
     $url = url_base() . '/feed.php/show-type/' . $slug;
 
   }

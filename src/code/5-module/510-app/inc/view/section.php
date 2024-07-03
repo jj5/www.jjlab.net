@@ -54,6 +54,8 @@ define( 'TITLE_FEATURE_EARLY_CONTENT', "Click here to watch early content from t
 define( 'TITLE_FEATURE_UNBOXING', "Click here to watch this this unboxing video." );
 
 define( 'TITLE_MAIN', "Click here to visit the show's home page." );
+define( 'TITLE_RSS_INFO', 'Click here for the RSS feed info.' );
+define( 'TITLE_RSS', 'Click here for the RSS feed for these types of videos.' );
 define( 'TITLE_SPONSOR', 'Click here to learn more about my generous sponsors.' );
 define( 'TITLE_PATREON', 'Click here to see my generous supporters on Patreon, and maybe join them?' );
 define( 'TITLE_EQUIPMENT', 'Click here to see the lab equipment that I own along with affiliate links to buy.' );
@@ -64,6 +66,9 @@ define( 'TITLE_BLOG', 'Click here to visit my blog!' );
 define( 'TITLE_SUPPORT', 'Click here to find out how you can support the show.' );
 define( 'TITLE_ABOUT', 'Click here for more info about the show.' );
 define( 'TITLE_SILLY_JOB_TITLE', 'Click here to read about the silly job title.' );
+
+define( 'TITLE_VIDEO_INDEX', 'Click here to see the "secret" index of all videos.' );
+define( 'TITLE_BOOK_INDEX', 'Click here to see the "secret" index of all books.' );
 
 define( 'TITLE_LINK_LIGHT_BLUE', 'Clicking on a light blue link will take you to another page on this website.' );
 define( 'TITLE_LINK_DARK_BLUE', 'Clicking on a dark blue link will open the external link in a new tab/window.' );
@@ -402,8 +407,21 @@ function render_section_about_content( int $heading_level = 2 ) {
 <p>Also I'm just starting to learn about video blogging so please bear with me as I figure out how to create <b>high quality videos</b>.</p>
 <p>If you have any suggestions concerning how I might improve either the content or the video
   quality <b>I would be very happy to hear from you!</b></p>
+</section>
 
-<<?= $h3 ?> id="structure">Content Structure</<?= $h3 ?>>
+<?php
+}
+
+function render_section_about_structure( int $heading_level = 2 ) {
+  $h2 = 'h' . $heading_level;
+  $h3 = 'h' . ( $heading_level + 1 );
+  $h4 = 'h' . ( $heading_level + 2 );
+  $h5 = 'h' . ( $heading_level + 3 );
+?>
+
+<section class="container">
+
+<<?= $h2 ?> id="structure">Content Structure</<?= $h2 ?>>
 <p>The various channels, shows, features, and content are organized roughly like this:</p>
 <?php
 
@@ -471,6 +489,92 @@ function render_section_about_content( int $heading_level = 2 ) {
 
     }
 
+    tag_open( 'li' );
+
+      tag_text( 'a', 'InTheLabWithJayJay.com', [ 'href' => url_base() . '/', 'class' => 'internal', 'title' => henc( TITLE_MAIN ) ] );
+
+      out_text( ' (this website)' );
+
+      tag_open( 'ul' );
+
+        tag_open( 'li' );
+
+          tag_text( 'a', 'About The Show', [ 'href' => url_base() . '/about.php', 'class' => 'internal', 'title' => henc( TITLE_ABOUT ) ] );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          tag_text( 'a', 'Sponsors', [ 'href' => url_base() . '/sponsor.php', 'class' => 'internal', 'title' => henc( TITLE_SPONSOR ) ] );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          tag_text( 'a', 'Affiliates', [ 'href' => url_base() . '/affiliate.php', 'class' => 'internal', 'title' => henc( TITLE_AFFILIATE ) ] );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          tag_text( 'a', 'Equipment', [ 'href' => url_base() . '/equipment.php', 'class' => 'internal', 'title' => henc( TITLE_EQUIPMENT ) ] );
+
+          tag_open( 'ul' );
+
+            tag_open( 'li' );
+
+              tag_text( 'a', 'Equipment Manufacturers', [ 'href' => url_base() . '/manufacturer.php', 'class' => 'internal', 'title' => henc( TITLE_LINK_MANUFACTURER ) ] );
+
+            tag_shut( 'li' );
+
+            tag_open( 'li' );
+
+              tag_text( 'a', 'Equipment Categories', [ 'href' => url_base() . '/category.php', 'class' => 'internal', 'title' => henc( TITLE_LINK_CATEGORY ) ] );
+
+            tag_shut( 'li' );
+
+          tag_shut( 'ul' );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          tag_text( 'span', 'Secret Tables', [ 'title' => 'These are "secret" tables that I use for testing.' ] );
+
+          tag_open( 'ul' );
+
+            tag_open( 'li' );
+
+              tag_text( 'a', 'Video Index', [ 'href' => url_base() . '/videos.php', 'class' => 'internal', 'title' => henc( TITLE_VIDEO_INDEX ) ] );
+
+            tag_shut( 'li' );
+
+            tag_open( 'li' );
+
+              tag_text( 'a', 'Book Index', [ 'href' => url_base() . '/books.php', 'class' => 'internal', 'title' => henc( TITLE_BOOK_INDEX ) ] );
+
+            tag_shut( 'li' );
+
+          tag_shut( 'ul' );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          tag_text( 'a', 'RSS Feeds', [ 'href' => url_base() . '#feeds', 'class' => 'internal', 'title' => henc( TITLE_RSS_INFO ) ] );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          tag_text( 'a', 'Support the Show!', [ 'href' => url_base() . '/support.php', 'class' => 'internal', 'title' => henc( TITLE_SUPPORT ) ] );
+
+        tag_shut( 'li' );
+
+      tag_shut( 'ul' );
+
+    tag_shut( 'li' );
+
   tag_shut( 'ul' );
 
 ?>
@@ -478,6 +582,99 @@ function render_section_about_content( int $heading_level = 2 ) {
 <p>When I refer to "the show" or "the channel" I'm usually referring to any and all of the above.
 Maybe I should call it "the spectacle". :P</p>
 
+<<?= $h3 ?> id="feeds">RSS Feeds</<?= $h3 ?>>
+<p>You can subscribe to RSS feeds for the show which is syndicated like this:</p>
+<?php
+
+  tag_open( 'ul' );
+
+    tag_open( 'li' );
+
+      tag_text( 'a', 'RSS » In The Lab With Jay Jay', [ 'href' => url_base() . '/feed.php', 'class' => 'internal', 'title' => henc( TITLE_RSS ) ] );
+
+      out_text( ' (All Videos)' );
+
+      tag_open( 'ul' );
+
+        $channel_list = get_list( Channel::class );
+
+        foreach ( $channel_list as $channel ) {
+
+          if ( $channel->video_count() === 0 ) { continue; }
+
+          tag_open( 'li' );
+
+            $channel->get_rss_info( $title, $url );
+
+            tag_text( 'a', $title, [ 'href' => $url, 'class' => 'internal', 'title' => henc( TITLE_RSS ) ] );
+
+            switch ( $channel->get_slug() ) {
+
+              case '@InTheLabWithJayJay':
+
+                out_text( ' (Main Channel)' );
+
+                break;
+
+              case '@ElliotsExtras':
+
+                out_text( ' (2nd Channel)' );
+
+                break;
+
+            }
+
+            tag_open( 'ul' );
+
+              $show_type_list = $channel->get_show_type_list();
+
+              foreach ( $show_type_list as $show_type ) {
+
+                if ( $show_type->video_count() === 0 ) { continue; }
+
+                tag_open( 'li' );
+
+                  $show_type->get_rss_info( $title, $url );
+
+                  tag_text( 'a', $title, [ 'href' => $url, 'class' => 'internal', 'title' => henc( TITLE_RSS ) ] );
+
+                  tag_open( 'ul' );
+
+                    $feature_list = $show_type->get_feature_list();
+
+                    foreach ( $feature_list as $feature ) {
+
+                      if ( $feature->video_count() === 0 ) { continue; }
+
+                      tag_open( 'li' );
+
+                        $feature->get_rss_info( $title, $url );
+
+                        tag_text( 'a', $title, [ 'href' => $url, 'class' => 'internal', 'title' => henc( TITLE_RSS ) ] );
+
+                      tag_shut( 'li' );
+
+                    }
+
+                  tag_shut( 'ul' );
+
+                tag_shut( 'li' );
+
+              }
+
+            tag_shut( 'ul' );
+
+          tag_shut( 'li' );
+
+        }
+
+      tag_shut( 'ul' );
+
+    tag_shut( 'li' );
+
+  tag_shut( 'ul' );
+
+?>
 </section>
 <?php
 }
