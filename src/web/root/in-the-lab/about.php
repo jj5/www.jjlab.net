@@ -139,7 +139,7 @@ function render_section_summary_blog( int $heading_level = 2 ) {
 
     tag_text( 'p', 'I usually write up show notes on my blog, which is over here:' );
 
-    tag_text( 'p', [ 'class' => 'indent' ] );
+    tag_open( 'p', [ 'class' => 'indent' ] );
 
       tag_text(
         'a',
