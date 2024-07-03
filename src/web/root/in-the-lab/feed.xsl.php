@@ -29,16 +29,6 @@ echo '<?xml version="1.0" encoding="utf-8"?>' . "\n";
 		<link rel="preload" href="<?= $cdn_base ?>/img/banner.jpg" as="image" />
 		<link rel="preload" href="<?= $cdn_base ?>/img/logo.png" as="image" />
 		<link rel="preload" href="<?= $cdn_base ?>/img/rss/rss-40674_50.png" as="image" />
-<style>
-.banner { margin-top: -24px; }
-/*
-main nav div img {
-}
-main nav div header {
-
-}
-*/
-</style>
   </head>
 	<body>
 		<main class="wrapper">
