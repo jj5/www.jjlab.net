@@ -154,6 +154,7 @@ main {
 
 section.table {
   padding: 65px;
+  max-width: none;
 }
 
 .container {
@@ -346,6 +347,7 @@ nav img {
 .header+section {
  border-top:0;
 }
+header section,
 .header .container {
  border-top:0;
  padding-bottom:30px;

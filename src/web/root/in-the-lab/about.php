@@ -25,7 +25,7 @@ function render_about_main() {
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
-      tag_open( 'section', [ 'class' => 'container' ] );
+      tag_open( 'section' );
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
@@ -39,20 +39,10 @@ function render_about_main() {
 
     render_section_contents();
 
+    render_section_contact_info();
+
 ?>
-<section class="container">
-  <h2 id="contact">Contact Info</h2>
-  <p>If you need to get in touch you can find contact info over here:
-    <a
-      href="https://blog.jj5.net/blog/contact/"
-      class="external"
-      target="_blank"
-      rel="noopener follow"
-      title="<?= TITLE_CONTACT ?>"
-    >https://blog.jj5.net/blog/contact/</a>
-  </p>
-</section>
-<section class="container">
+<section>
   <h2 id="channels">Channels</h2>
   <p>The show is published across two YouTube channels:</p>
   <ul>
@@ -72,7 +62,7 @@ function render_about_main() {
       >youtube.com/@ElliotsExtras</a></li>
   </ul>
 </section>
-<section class="container">
+<section>
   <h2 id="blog">Blog</h2>
   <p>I usually write up show notes on my blog, which is over here:
     <a
@@ -85,7 +75,7 @@ function render_about_main() {
   </p>
 </section>
 <?php render_section_about_announcements(); ?>
-<section class="container">
+<section>
   <h2 id="colophon">Colophon</h2>
   <p>The show's logo is a version of the
     <a
@@ -119,7 +109,7 @@ function render_about_main() {
       title="Click here to view the sitemap.xml file."
     >here</a>.</p>
 </section>
-<section class="container">
+<section>
   <h2 id="secret">Secret Links</h2>
   <p>Can you keep a secret? There are two handy pages I made for my own use. I don't advertise them because they use
     massive HTML tables and the pages aren't responsive (i.e. they don't look good on mobilde devices). But if you're
@@ -141,7 +131,7 @@ function render_about_main() {
     </li>
   </ul>
 </section>
-<section class="container">
+<section>
   <h2 id="thanks">Thanks!</h2>
   <p>Thanks for checking out the show! If you would like to help me out there are various ways you can
       <a

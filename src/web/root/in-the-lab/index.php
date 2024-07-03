@@ -83,11 +83,11 @@ function render_index_main() {
 
     render_section_about_announcements();
 
+    render_section_about_video_content();
+
     render_section_about_structure();
 
     render_section_about_show_notes();
-
-    render_section_about_video_content();
 
     render_section_about_channels();
 

@@ -578,6 +578,61 @@ function render_section_about_announcements( int $heading_level = 2 ) {
 
 }
 
+function render_section_about_video_content( int $heading_level = 2 ) {
+
+  tag_open( 'section' );
+
+    tag_text( 'h' . $heading_level, 'Video Content', [ 'id' => 'video-content' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'My videos are primarily about ' );
+
+      tag_text( 'b', 'my misadventures in my electronics lab' );
+
+      out_text( '. I should be very clear: ' );
+
+      tag_text( 'b', 'I am not an expert!' );
+
+      out_text( ' I am a beginning electronics hobbyist and in my videos you will see me fumble around and make a lot of mistakes as I go about learning this dark art.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'Also I\'m just starting to learn about video blogging so please bear with me as I figure out how to create ' );
+
+      tag_text( 'b', 'high quality videos' );
+
+      out_text( '.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'If you have any suggestions concerning how I might improve either the content or the video quality ' );
+
+      tag_text( 'b', 'I would be very happy to hear from you' );
+
+      out_text( '! You can find my contact details ' );
+
+      tag_text(
+        'a',
+        'here',
+        [
+          'href' => url_base() . '/#contact-info',
+          'class' => 'internal',
+          'title' => TITLE_ABOUT,
+        ]
+      );
+
+      out_text( '.' );
+
+    tag_shut( 'p' );
+
+  tag_shut( 'section' );
+
+}
 
 function render_section_about_structure( int $heading_level = 2 ) {
 
@@ -633,7 +688,7 @@ function render_section_about_structure( int $heading_level = 2 ) {
 
                     tag_open( 'li' );
 
-                      $feature->render_internal_link();
+                      $feature->render_internal_link( $feature->get_title() . ' Videos' );
 
                       //$feature->render_rss_link();
 
@@ -968,55 +1023,6 @@ function render_section_about_show_notes( int $heading_level = 2 ) {
 
 }
 
-function render_section_about_video_content( int $heading_level = 2 ) {
-
-  tag_open( 'section' );
-
-    tag_text( 'h' . $heading_level, 'Video Content', [ 'id' => 'video-content' ] );
-
-    tag_open( 'p' );
-
-      out_text( 'My videos are primarily about ' );
-
-      tag_text( 'b', 'my misadventures in my electronics lab' );
-
-      out_text( '. I should be very clear: ' );
-
-      tag_text( 'b', 'I am not an expert!' );
-
-      out_text( ' I am a beginning electronics hobbyist and in my videos you will see me fumble around and make a lot of mistakes as I go about learning this dark art.' );
-
-    tag_shut( 'p' );
-
-    tag_open( 'p' );
-
-      out_text( 'Also I\'m just starting to learn about video blogging so please bear with me as I figure out how to create ' );
-
-      tag_text( 'b', 'high quality videos' );
-
-      out_text( '.' );
-
-    tag_shut( 'p' );
-
-    tag_open( 'p' );
-
-      out_text( 'If you have any suggestions concerning how I might improve either the content or the video quality ' );
-
-      tag_text(
-        'b',
-        'I would be very happy to hear from you!',
-        [
-          'href' => url_base() . '/contact.php',
-          'class' => 'internal',
-          'title' => TITLE_CONTACT,
-        ]
-      );
-
-    tag_shut( 'p' );
-
-  tag_shut( 'section' );
-
-}
 function render_section_about_channels( int $heading_level = 2 ) {
 
   tag_open( 'section' );
@@ -1212,6 +1218,44 @@ function render_section_about_main_show( int $heading_level = 2 ) {
 
     tag_shut( 'p' );
 
+    tag_open( 'p' );
+
+      out_text( 'The regular features are:' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'ul' );
+
+      tag_open( 'li' );
+
+        tag_text(
+          'a',
+          'Electronics Projects',
+          [
+            'href' => url_base() . '/#electronics-projects',
+            'class' => 'internal',
+            'title' => TITLE_FEATURE_ELECTRONICS_PROJECT,
+          ]
+        );
+
+      tag_shut( 'li' );
+
+      tag_open( 'li' );
+
+        tag_text(
+          'a',
+          'Old Book Teardowns',
+          [
+            'href' => url_base() . '/#old-book-teardowns',
+            'class' => 'internal',
+            'title' => TITLE_FEATURE_OLD_BOOK_TEARDOWN,
+          ]
+        );
+
+      tag_shut( 'li' );
+
+    tag_shut( 'ul' );
+
   tag_shut( 'section' );
 
   render_section_about_electronics_project( $heading_level + 1 );
@@ -1232,7 +1276,7 @@ function render_section_about_electronics_project( int $heading_level = 2 ) {
 
       tag_text(
         'a',
-        'electronics projects',
+        'electronics project videos',
         [
           'href' => url_base() . '/feature.php/electronics-project',
           'class' => 'internal',
@@ -1321,7 +1365,7 @@ function render_section_about_old_book_teardown( int $heading_level = 2 ) {
 
       tag_text(
         'a',
-        'old book teardowns',
+        'old book teardown videos',
         [
           'href' => url_base() . '/feature.php/old-book-teardown',
           'class' => 'internal',
@@ -1771,7 +1815,7 @@ function render_section_about_channel_news( int $heading_level = 2 ) {
 
       tag_text(
         'a',
-        'channel news',
+        'channel news videos',
         [
           'href' => url_base() . '/feature.php/channel-news',
           'class' => 'internal',
@@ -1811,7 +1855,7 @@ function render_section_about_interlude( int $heading_level = 2 ) {
 
       tag_text(
         'a',
-        'interlude',
+        'interlude video',
         [
           'href' => url_base() . '/feature.php/interlude',
           'class' => 'internal',
@@ -1853,7 +1897,7 @@ function render_section_about_unboxing( int $heading_level = 2 ) {
 
       tag_text(
         'a',
-        'unboxing',
+        'unboxing video',
         [
           'href' => url_base() . '/feature.php/unboxing',
           'class' => 'internal',
@@ -2357,39 +2401,7 @@ function render_silly_job_title() {
 
 function render_section_about_contact( int $heading_level = 2 ) {
 
-  tag_open( 'section' );
-
-    tag_text( 'h' . $heading_level, 'Contact', [ 'id' => 'contact' ] );
-
-    tag_open( 'p' );
-
-      out_text( 'If you need to get in contact you can ' );
-
-      tag_text( 'b', 'find my contact details here' );
-
-      out_text( ':' );
-
-    tag_shut( 'p' );
-
-    tag_open( 'p', [ 'class' => 'indent' ] );
-
-      tag_text(
-        'a',
-        'blog.jj5.net/blog/contact',
-        [
-          'href' => 'https://blog.jj5.net/blog/contact/',
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => TITLE_CONTACT,
-        ]
-      );
-
-      out_text( '.' );
-
-    tag_shut( 'p' );
-
-  tag_shut( 'section' );
+  render_section_contact_info( $heading_level );
 
 }
 
@@ -2551,7 +2563,7 @@ function render_section_about_equipment( int $heading_level = 2 ) {
         'a',
         'let me know',
         [
-          'href' => url_base() . '/about.php#contact',
+          'href' => url_base() . '/#contact-info',
           'class' => 'internal',
           'rel' => 'follow',
           'title' => TITLE_CONTACT,
@@ -2666,7 +2678,7 @@ function render_section_about_next( int $heading_level = 2 ) {
 
         tag_text(
           'a',
-          'old book teardowns',
+          'old book teardown videos',
           [
             'href' => url_base() . '/feature.php/old-book-teardown',
             'class' => 'internal',
@@ -2725,8 +2737,245 @@ function render_section_about_next( int $heading_level = 2 ) {
 
 }
 
-function get_heading_tag( $level, $plus = 0 ) {
+function render_section_contact_info( int $heading_level = 2 ) {
 
-  return 'h' . ( $level + $plus );
+  tag_open( 'section' );
+
+    tag_text( 'h' . $heading_level, 'Contact Information', [ 'id' => 'contact-info' ] );
+
+    tag_open( 'p' );
+
+      out_text( "If you’d like to get interactive with me or my community, you have a bunch of options." );
+
+    tag_shut( 'p' );
+
+    tag_text( 'h' . ( $heading_level + 1 ), 'Send Me Email', [ 'id' => 'contact-by-email' ] );
+
+    tag_open( 'p' );
+
+      out_text( "If you just want to get in touch with me then email to " );
+
+      tag_text(
+        'a',
+        'jj5@jj5.net',
+        [
+          'href' => 'mailto:jj5@jj5.net?subject=Hi%20John',
+          'class' => 'external',
+          'title' => 'Click here to email me.',
+        ]
+      );
+
+      out_text( " is a good option. Put 'Hi John' in the subject line and you will have a better chance of making it past my spam filter." );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( "I try to reply to all email that I get, so if you don't hear back from me then it's likely that I didn't " );
+      out_text( "get your email, in which case you might like to pursue some of the other contact methods listed on this page." );
+
+    tag_shut( 'p' );
+
+    tag_text( 'h' . ( $heading_level + 1 ), 'Comment On My Blog', [ 'id' => 'comment-on-blog' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'I publish the ' );
+
+      tag_text(
+        'a',
+        'show notes',
+        [
+          'href' => url_base() . '/#show-notes',
+          'class' => 'internal',
+          'title' => 'Click here to read about the show notes.',
+        ]
+      );
+
+      out_text( ' for each video on my blog: ' );
+
+      tag_text(
+        'a',
+        'blog.jj5.net',
+        [
+          'href' => 'https://blog.jj5.net/',
+          'class' => 'external',
+          'target' => '_blank',
+          'rel' => 'noopener follow',
+          'title' => 'Click here to navigate to my blog.',
+        ]
+      );
+
+      out_text( ' (which is running' );
+
+      tag_text(
+        'a',
+        'WordPress',
+        [
+          'href' => 'https://wordpress.org/',
+          'class' => 'external',
+          'target' => '_blank',
+          'rel' => 'noopener follow',
+          'title' => 'Click here to navigate to WordPress.',
+        ]
+      );
+
+      out_text( '). You need an account to comment on the blog, but you can read it without one. An account on the blog ' );
+
+      out_text( 'is a perk for some of the people who ' );
+
+      tag_text(
+        'a',
+        'support me on Patreon',
+        [
+          'href' => 'https://www.patreon.com/JohnElliotV/membership',
+          'class' => 'external',
+          'target' => '_blank',
+          'rel' => 'noopener follow',
+          'title' => 'Click here to read about paid membership tier options.',
+        ]
+      );
+
+      out_text( ' including Priority Access and Inner Circle subscribers.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( "If you do support me (or follow me) on Patreon, you will also be able to get in contact with me through there." );
+
+    tag_shut( 'p' );
+
+    tag_text( 'h' . ( $heading_level + 1 ), 'Comment On YouTube', [ 'id' => 'comment-on-youtube' ] );
+
+    tag_open( 'p' );
+
+      out_text( "You can respond to any of my videos by commenting through YouTube. I operate a " );
+
+      tag_text(
+        'a',
+        'main channel',
+        [
+          'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
+          'class' => 'internal',
+          'rel' => 'follow',
+          'title' => TITLE_CHANNEL_MAIN,
+        ]
+      );
+
+      out_text( " and a " );
+
+      tag_text(
+        'a',
+        '2nd channel',
+        [
+          'href' => url_base() . '/channel.php/@ElliotsExtras',
+          'class' => 'internal',
+          'rel' => 'follow',
+          'title' => TITLE_CHANNEL_EXTRA,
+        ]
+      );
+
+      out_text( ", which you can find here:" );
+
+    tag_shut( 'p' );
+
+    tag_open( 'ul' );
+
+      tag_open( 'li' );
+
+        out_text( 'Main channel: ' );
+
+        tag_text(
+          'a',
+          'youtube.com/@InTheLabWithJayJay',
+          [
+            'href' => 'https://www.youtube.com/channel/UC9k8QIYlZUg2l4YvZbX9zVg',
+            'class' => 'external',
+            'target' => '_blank',
+            'rel' => 'noopener follow',
+            'title' => TITLE_CHANNEL_MAIN,
+          ]
+        );
+
+      tag_shut( 'li' );
+
+      tag_open( 'li' );
+
+        out_text( '2nd channel: ' );
+
+        tag_text(
+          'a',
+          'youtube.com/@ElliotsExtras',
+          [
+            'href' => 'https://www.youtube.com/channel/UC9k8QIYlZUg2l4YvZbX9zVg',
+            'class' => 'external',
+            'target' => '_blank',
+            'rel' => 'noopener follow',
+            'title' => TITLE_CHANNEL_EXTRA,
+          ]
+        );
+
+      tag_shut( 'li' );
+
+    tag_shut( 'ul' );
+
+    tag_text( 'h' . ( $heading_level + 1 ), 'Chat On IRC', [ 'id' => 'irc-chat' ] );
+
+    tag_open( 'p' );
+
+      out_text( "If you want to have an interactive chat you can PM me on IRC:" );
+
+    tag_shut( 'p' );
+
+    tag_open( 'ul' );
+
+      $irc_server_list = [
+        'libera.chat' => irc_server( 'libera.chat', 'irc.libera.chat',  6697, 'ircs://irc.libera.chat:6697',  'https://libera.chat/'        ),
+        'oftc.net'    => irc_server( 'oftc.net',    'irc.oftc.net',     6697, 'ircs://irc.oftc.net:6697',     'https://www.oftc.net/'       ),
+        'tilde.chat'  => irc_server( 'tilde.chat',  'irc.tilde.chat',   6697, 'ircs://irc.tilde.chat:6697',   'https://tilde.team/wiki/irc' ),
+      ];
+
+      foreach ( $irc_server_list as $server ) {
+
+        tag_open( 'li' );
+
+          tag_text(
+            'a',
+            $server['name'],
+            [
+              'href' => $server['url'],
+              'class' => 'external',
+              'target' => '_blank',
+              'rel' => 'noopener follow',
+              'title' => 'Click here to navigate to ' . $server['name'],
+            ]
+          );
+
+        tag_shut( 'li' );
+
+      }
+
+    tag_shut( 'ul' );
+
+    tag_open( 'p' );
+
+      out_text( "My nick is 'jj5'. I am usually online but I am not always at my terminal or watching my IRC client." );
+
+    tag_shut( 'p' );
+
+  tag_shut( 'section' );
+
+}
+
+function irc_server( $name, $host, $port, $url, $website ) {
+
+  return [
+    'name'    => $name,
+    'host'    => $host,
+    'port'    => $port,
+    'url'     => $url,
+    'website' => $website,
+  ];
 
 }
