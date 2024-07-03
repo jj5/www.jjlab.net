@@ -77,7 +77,7 @@ class ThingList {
 
   public static function render_section_empty() {
 
-    tag_open( 'section', [ 'class' => 'container end' ] );
+    tag_open( 'section', [ 'class' => 'container empty' ] );
 
       tag_text( 'p', "None of these videos have been published yet.", [ 'class' => 'end' ] );
 

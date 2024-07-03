@@ -139,7 +139,7 @@ abstract class Segment extends Item {
 
     $video_id = $youtube_video->get_slug()->to_string();
 
-    tag_open( 'section', [ 'id' => $video_id, 'class' => 'container clearfix' ] );
+    tag_open( 'section', [ 'id' => $video_id, 'class' => 'clearfix' ] );
 
       tag_open( $heading );
 

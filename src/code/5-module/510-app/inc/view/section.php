@@ -161,11 +161,30 @@ function render_section_latest_main() {
 
     tag_text( 'h2', 'Latest Video', [ 'id' => 'latest' ] );
 
-    $latest = get_latest_video();
+    tag_open( 'p' );
 
-    $latest->get_segment()->render( 'h3' );
+      out_text( 'The latest video published to the ' );
+
+      tag_text(
+        'a',
+        'main channel',
+        [
+          'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
+          'class' => 'internal',
+          'rel' => 'follow',
+          'title' => TITLE_CHANNEL_MAIN,
+        ]
+      );
+
+      out_text( " is:" );
+
+    tag_shut( 'p' );
 
   tag_shut( 'section' );
+
+  $latest = get_latest_video();
+
+  $latest->get_segment()->render( 'h3' );
 
 }
 

@@ -25,14 +25,12 @@ class ManufacturerName extends Name {
   public function render() {
 
     $href = url_base() . '/manufacturer.php/' . $this->get_manufacturer_id();
-    $title = 'Show other equipment from this manufacturer.';
 
     tag_text(
       'a',
       $this->to_string(),
       [
         'href' => $href,
-        'title' => $title,
         'class' => 'internal',
         'title' => TITLE_LINK_MANUFACTURER,
       ]

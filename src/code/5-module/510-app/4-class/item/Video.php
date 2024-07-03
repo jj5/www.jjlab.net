@@ -68,17 +68,6 @@ abstract class Video extends Item {
 
     return url_base() . '/show.php/' . $channel_slug . '/' . $show_slug . '#' . $slug;
 
-
-    $channel = $this->get_channel();
-
-    $channel_url = $channel->get_internal_url();
-
-    $slug = $this->get_slug()->to_string();
-
-    $query = [ 'from' => $this->get_show()->get_first_segment()->get_youtube_video()->get_slug()->to_string() ];
-
-    return $channel_url . '?' . http_build_query( $query ) . '#' . $slug;
-
   }
 
   public function render_internal_link( $text = null, $attrs = [] ) {
@@ -92,6 +81,8 @@ abstract class Video extends Item {
       $attrs + [
         'href' => $url,
         'class' => 'internal',
+        'rel' => 'follow',
+        'title' => 'Click here to watch this video.'
       ]
     );
 

@@ -67,12 +67,12 @@ h3, h4, h5, h6 {
   text-align: right;
 }
 
-.end {
+.end, .empty {
   font-size: 40px;
   text-align: center;
 }
 
-.end a {
+.end a, .empty a {
   display: inline-block;
   padding: 20px 0px;
 }

@@ -57,6 +57,7 @@ class ShowType extends Item {
       $attrs + [
         'href' => $url,
         'class' => 'internal show',
+        'rel' => 'follow',
         'title' => $this->get_show_text()->to_string(),
       ]
     );
