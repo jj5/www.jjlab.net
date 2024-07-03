@@ -171,7 +171,7 @@ function render_feed_for_list( $video_list, $topic = null ) {
 
       tag_open( 'image' );
 
-        tag_text( 'url', 'https://www.inthelabwithjayjay.com/in-the-lab/img/logo.png' );
+        tag_text( 'url', 'https://www.inthelabwithjayjay.com/in-the-lab/res/img.php/logo.png' );
         tag_text( 'title', $title );
         tag_text( 'link', 'https://www.inthelabwithjayjay.com/' );
         tag_text( 'width', '144' );

@@ -14,7 +14,7 @@ function render_coming_soon() {
 
       tag_open( 'section', [ 'class' => 'container' ] );
 
-        tag_bare( 'img', [ 'src' => url_base( $use_cdn = true ) . '/img/logo.png' ] );
+        tag_bare( 'img', [ 'src' => url_base( $use_cdn = true ) . '/res/img.php/logo.png' ] );
 
         tag_text( 'h1', 'Coming Soon', [ 'class' => 'title' ] );
 
@@ -251,7 +251,7 @@ function render_head( $heading ) {
           'link',
           [
             'rel' => 'preload',
-            'href' => url_base( $use_cdn = true ) . '/img/' . $filename,
+            'href' => url_base( $use_cdn = true ) . '/res/img.php/' . $filename,
             'as' => 'image',
           ]
         );
@@ -285,7 +285,7 @@ function render_head( $heading ) {
               ]
             );
 
-              tag_bare( 'img', [ 'src' => url_base( $use_cdn = true ) . '/img/logo.png' ] );
+              tag_bare( 'img', [ 'src' => url_base( $use_cdn = true ) . '/res/img.php/logo.png' ] );
 
               tag_text( 'header', 'In The Lab With Jay Jay', [ 'class' => 'title' ] );
 
@@ -382,15 +382,15 @@ function render_head( $heading ) {
 
         tag_open( 'header', [ 'id' => 'banner' ] );
 
-          tag_bare( 'img', [ 'class' => 'rc-base', 'src' => url_base( $use_cdn = true ) . '/img/banner-base.jpg' ] );
+          tag_bare( 'img', [ 'class' => 'rc-base', 'src' => url_base( $use_cdn = true ) . '/res/img.php/banner-base.jpg' ] );
 
-          tag_bare( 'img', [ 'class' => 'rc-0320', 'src' => url_base( $use_cdn = true ) . '/img/banner-base.jpg' ] );
+          tag_bare( 'img', [ 'class' => 'rc-0320', 'src' => url_base( $use_cdn = true ) . '/res/img.php/banner-base.jpg' ] );
 
-          tag_bare( 'img', [ 'class' => 'rc-0640', 'src' => url_base( $use_cdn = true ) . '/img/banner-0640.jpg' ] );
+          tag_bare( 'img', [ 'class' => 'rc-0640', 'src' => url_base( $use_cdn = true ) . '/res/img.php/banner-0640.jpg' ] );
 
-          tag_bare( 'img', [ 'class' => 'rc-1280', 'src' => url_base( $use_cdn = true ) . '/img/banner.jpg' ] );
+          tag_bare( 'img', [ 'class' => 'rc-1280', 'src' => url_base( $use_cdn = true ) . '/res/img.php/banner.jpg' ] );
 
-          tag_bare( 'img', [ 'class' => 'rc-1920', 'src' => url_base( $use_cdn = true ) . '/img/banner.jpg' ] );
+          tag_bare( 'img', [ 'class' => 'rc-1920', 'src' => url_base( $use_cdn = true ) . '/res/img.php/banner.jpg' ] );
 
         tag_shut( 'header' );
 
@@ -544,7 +544,7 @@ function render_rss_anchor( $attrs = [] ) {
     tag_bare(
       'img',
       [
-        'src' => url_base( $use_cdn = true ) . '/img/rss/rss-40674_50.png',
+        'src' => url_base( $use_cdn = true ) . '/res/img.php/rss/rss-40674_50.png',
         'style' => 'display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;',
       ]
     );

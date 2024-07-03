@@ -1,7 +1,7 @@
 <?php
 
-//define( 'LOGO_URL', 'https://www.inthelabwithjayjay.com/in-the-lab/img/logo.png' );
-define( 'LOGO_URL', 'https://der3syffk4l6q.cloudfront.net/in-the-lab/img/logo.png' );
+//define( 'LOGO_URL', 'https://www.inthelabwithjayjay.com/in-the-lab/res/img.php/logo.png' );
+define( 'LOGO_URL', 'https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png' );
 
 define( 'VIDEO_COUNT', 5 );
 

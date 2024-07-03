@@ -1043,9 +1043,9 @@ function render_section_about_costume( int $heading_level = 2 ) {
     title="<?= henc( TITLE_STETMANN ) ?>"
   >Egon Stetmann</a>, the
   Chief Scientist from StarCraft II:</p>
-  <p><img style="width:500px" src="<?= url_base( $use_cdn = true ) ?>/img/EgonStetmann_SC2-WoL_Story1.webp" alt="Egon Stetmann"></p>
+  <p><img style="width:500px" src="<?= url_base( $use_cdn = true ) ?>/res/img.php/EgonStetmann_SC2-WoL_Story1.webp" alt="Egon Stetmann"></p>
   <p>Of course he has more hair than I do. :)</p>
-  <p><img style="width:500px" src="<?= url_base( $use_cdn = true ) ?>/img/JohnElliotV-500-2.jpg" alt="Photo of John"></p>
+  <p><img style="width:500px" src="<?= url_base( $use_cdn = true ) ?>/res/img.php/JohnElliotV-500-2.jpg" alt="Photo of John"></p>
 
   <<?= $h3 ?> id="silly-job-title">Silly Job Title</<?= $h3 ?>>
   <p><b>On my ID badge is a silly job title</b> which I change for each <a

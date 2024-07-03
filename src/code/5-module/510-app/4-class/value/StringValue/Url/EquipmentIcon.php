@@ -10,6 +10,8 @@ class EquipmentIcon extends Url {
 
   public function get_hash() { return md5( $this->to_string() ); }
 
+  // 2024-07-03 jj5 - this is wrong and it's not used anyway
+  /*
   public function get_auto_file() {
 
     $hash = $this->get_hash();
@@ -29,6 +31,7 @@ class EquipmentIcon extends Url {
     return $path;
 
   }
+  */
 
   public function get_auto_url() {
 
@@ -42,7 +45,7 @@ class EquipmentIcon extends Url {
 
     }
 
-    return url_base( $use_cdn = true ) . "/img/auto/$hash.$ext";
+    return url_base( $use_cdn = true ) . "/res/img.php/auto/$hash.$ext";
 
   }
 
@@ -58,7 +61,7 @@ class EquipmentIcon extends Url {
 
     }
 
-    return "https://der3syffk4l6q.cloudfront.net/in-the-lab/img/auto/$hash.$ext";
+    return "https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/auto/$hash.$ext";
 
   }
 
@@ -102,7 +105,7 @@ class EquipmentIcon extends Url {
 
     itl()->set_equipment_icon_ext( $hash, $ext );
 
-    $dir = realpath( realpath( __DIR__ ) . "/../../../../../../../web/root/in-the-lab/img/auto" );
+    $dir = realpath( realpath( __DIR__ ) . "/../../../../../../../web/root/in-the-lab/res/img.php/auto" );
 
     $path = "$dir/$hash.$ext";
 
