@@ -34,13 +34,13 @@ function render_sitemap() {
 
   if ( is_prod() ) {
 
-    $sitemap_xsl = "https://www.inthelabwithjayjay.com/in-the-lab/sitemap.xsl?v=$version";
+    $sitemap_xsl = "https://www.inthelabwithjayjay.com/in-the-lab/sitemap.xsl.php?v=$version";
     $domain = 'https://www.inthelabwithjayjay.com';
 
   }
   else {
 
-    $sitemap_xsl = url_base() . '/sitemap.xsl';
+    $sitemap_xsl = url_base() . '/sitemap.xsl.php';
     $domain = 'http://localhost';
 
   }
