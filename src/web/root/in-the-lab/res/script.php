@@ -8,6 +8,8 @@ function render() {
 
   $script_list = [ 'global/default.js', 'script.js' ];
 
+  if ( DEBUG ) { $script_list[] = 'debug.js'; }
+
   foreach ( $script_list as $script ) {
 
     readfile( __DIR__ . '/../../../res/script/' . $script );

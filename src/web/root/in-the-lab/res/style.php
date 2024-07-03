@@ -8,6 +8,8 @@ function render() {
 
   $style_list = [ 'milligram/normalize.css', 'milligram/milligram.css', 'style.css' ];
 
+  if ( DEBUG ) { $style_list[] = 'debug.css'; }
+
   foreach ( $style_list as $style ) {
 
     readfile( __DIR__ . '/../../../res/style/' . $style );
