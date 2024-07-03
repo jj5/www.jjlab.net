@@ -38,7 +38,7 @@ function render() { render_xslt_headers(); }
             <xsl:for-each select="/rss/channel/item">
                 <article>
                     <strong>
-                        <a hreflang="en" target="_blank">
+                        <a hreflang="en">
                             <xsl:attribute name="href">
                                 <xsl:value-of select="link"/>
                             </xsl:attribute>
