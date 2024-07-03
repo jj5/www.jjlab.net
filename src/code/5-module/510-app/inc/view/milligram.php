@@ -30,7 +30,9 @@ function render_404() {
 
   http_response_code( 404 );
 
-  render_head( '404 - Page Not Found' );
+  $title = '404 - Page Not Found';
+
+  render_head( $title );
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
@@ -38,7 +40,7 @@ function render_404() {
 
         tag_bare( 'img', [ 'src' => url_base( $use_cdn = true ) . '/res/img.php/logo.png?v=' . get_resource_version() ] );
 
-        tag_text( 'h1', '404 - Page Not Found', [ 'class' => 'title' ] );
+        tag_text( 'h1', $title, [ 'class' => 'title' ] );
 
         tag_text( 'p', 'Oops! The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.' );
 
@@ -83,6 +85,76 @@ function render_404() {
   render_foot();
 
 }
+
+function render_500( $message = null, $form = null, $issue = null, $exit = null, $ex = null ) {
+
+  http_response_code( 500 );
+
+  $title = '500 - Internal Server Error';
+
+  render_head( $title );
+
+    tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
+
+      tag_open( 'section', [ 'class' => 'container' ] );
+
+        tag_bare( 'img', [ 'src' => url_base( $use_cdn = true ) . '/res/img.php/logo.png?v=' . get_resource_version() ] );
+
+        tag_text( 'h1', $title, [ 'class' => 'title' ] );
+
+        tag_text( 'p', "Uh-oh! Something went wrong on our end. We're working to fix it as quickly as possible." );
+
+      tag_shut( 'section' );
+
+    tag_shut( 'header' );
+
+    tag_open( 'section', [ 'class' => 'container' ] );
+
+      tag_open( 'p' );
+
+        out_text( "Error while processing. This incident has been logged." );
+
+        if ( $issue ) { out_text( " Issue #$issue." ); }
+
+      tag_shut( 'p' );
+
+      tag_text( 'p', 'We apologize for any inconvenience caused and appreciate your patience.' );
+
+      tag_text( 'p', 'In the meantime, you can:' );
+
+      tag_open( 'ul' );
+
+        tag_text( 'li', 'Try refreshing the page.' );
+
+        tag_open( 'li' );
+
+          out_text( 'Return to the ' );
+
+          tag_text( 'a', 'homepage', [ 'href' => url_base() . '/', 'class' => 'internal' ] );
+
+          out_text( '.' );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          out_text( 'If the problem persists, please ' );
+
+          tag_text( 'a', 'contact us', [ 'href' => url_base() . '/about.php#contact', 'class' => 'internal' ] );
+
+          out_text( ' and let us know.' );
+
+        tag_shut( 'li' );
+
+      tag_shut( 'ul' );
+
+    tag_shut( 'section' );
+
+  render_foot();
+
+}
+
+
 
 function render_head( $heading ) {
 
