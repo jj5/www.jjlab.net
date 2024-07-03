@@ -70,15 +70,9 @@ function render_xslt_headers() {
 
 }
 
-function get_app_version() {
-
-  return JJLAB_CODE . '-' . JJLAB_VERSION_MAJOR . '.' . JJLAB_VERSION_MINOR . '.' . JJLAB_VERSION_PATCH;
-
-}
-
 function render_xslt_head() {
   global $cdn_base, $url_base;
-  $version = get_app_version();
+  $version = get_resource_version();
 ?>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui" />
