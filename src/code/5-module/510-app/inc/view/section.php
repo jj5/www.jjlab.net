@@ -422,7 +422,7 @@ function render_section_about_structure( int $heading_level = 2 ) {
 <section class="container">
 
 <<?= $h2 ?> id="structure">Content Structure</<?= $h2 ?>>
-<p>The various channels, shows, features, and content are organized roughly like this:</p>
+<p>The various channels, shows, and features are organized roughly like this:</p>
 <?php
 
   tag_open( 'ul' );
@@ -488,6 +488,20 @@ function render_section_about_structure( int $heading_level = 2 ) {
       tag_shut( 'li' );
 
     }
+
+  tag_shut( 'ul' );
+
+?>
+
+<p>When I refer to "the show" or "the channel" I'm usually referring to any and all of the above.
+Maybe I should call it "the spectacle". :P</p>
+
+<<?= $h3 ?> id="sitemap">Sitemap</<?= $h3 ?>>
+<p>This website is arranged roughly like this:</p>
+
+<?php
+
+  tag_open( 'ul' );
 
     tag_open( 'li' );
 
@@ -578,9 +592,6 @@ function render_section_about_structure( int $heading_level = 2 ) {
   tag_shut( 'ul' );
 
 ?>
-
-<p>When I refer to "the show" or "the channel" I'm usually referring to any and all of the above.
-Maybe I should call it "the spectacle". :P</p>
 
 <<?= $h3 ?> id="feeds">RSS Feeds</<?= $h3 ?>>
 <p>You can subscribe to RSS feeds for the show which is syndicated like this:</p>
