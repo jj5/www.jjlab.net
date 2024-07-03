@@ -62,7 +62,6 @@ function render_sitemap() {
     $priority = '1.0';
 
     render_url( '/', $latest_date, $changefreq, $priority );
-    render_url( '/feed.php', $latest_date, $changefreq, $priority );
 
     $pages = [ 'about.php', 'affiliate.php', 'sponsor.php', 'support.php' ];
 
@@ -167,6 +166,14 @@ function render_sitemap() {
 
     $changefreq = 'monthly';
     $priority = '0.0';
+
+    //
+    // 2024-07-03 jj5 - final pages
+    //
+
+    // 2024-07-03 jj5 - NOTE: this is still high priority but I put it out last because it's not HTML content...
+
+    render_url( '/feed.php', $latest_date, 'hourly', '1.0' );
 
 
   tag_shut( 'urlset' );
