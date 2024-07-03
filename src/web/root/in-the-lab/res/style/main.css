@@ -236,6 +236,7 @@ section.load a {
 ul {
   list-style: disc;
   margin-left: 2rem;
+  font-size: 1em !important;
 }
 
 header ul {
