@@ -101,6 +101,18 @@ class MaxitronixSegment extends Segment {
 
       out_text( ' > ' );
 
+      tag_text(
+        'a',
+        "Maxitronix Xin1 Kits",
+        [
+          'href' => url_base() . "/feature.php/maxitronix",
+          'class' => 'internal',
+          'title' => TITLE_FEATURE_MAXITRONIX_KITS,
+        ]
+      );
+
+      out_text( ' > ' );
+
       $kit = $this->get_maxitronix_kit_name()->to_string();
 
       tag_text(

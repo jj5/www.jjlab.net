@@ -38,6 +38,7 @@ define( 'TITLE_FEATURE_CHANNEL_NEWS', 'Click here to see channel news.' );
 define( 'TITLE_FEATURE_INTERLUDE', 'Click here to watch the videos where I take a break from the main show.' );
 define( 'TITLE_FEATURE_UNBOXING', "Click here to watch this this unboxing video." );
 
+define( 'TITLE_FEATURE_MAXITRONIX_KITS', 'Click here to learn about the Maxitronix Xin1 electronic project labs.' );
 define( 'TITLE_FEATURE_MAXITRONIX', 'Click here to watch the videos where I work through a Maxitronix Xin1 electronic project kit.' );
 define( 'TITLE_FEATURE_MAXITRONIX_10', 'Click here to watch the videos where I work through the Maxitronix 10in1 electronic project lab.' );
 define( 'TITLE_FEATURE_MAXITRONIX_20', 'Click here to watch the videos where I work through the Maxitronix Sensor Robot 20 electronic project lab.' );
@@ -325,7 +326,7 @@ function render_section_about_conventions( int $heading_level = 2 ) {
         'a',
         'internal links are in light blue',
         [
-          'href' => '#conventions',
+          'href' => url_base() . '/#conventions',
           'class' => 'internal',
           'title' => TITLE_LINK_LIGHT_BLUE,
         ]
@@ -337,7 +338,7 @@ function render_section_about_conventions( int $heading_level = 2 ) {
         'a',
         'external links are in dark blue',
         [
-          'href' => '#conventions',
+          'href' => url_base() . '/#conventions',
           'class' => 'external',
           'title' => TITLE_LINK_DARK_BLUE,
         ]
@@ -349,7 +350,7 @@ function render_section_about_conventions( int $heading_level = 2 ) {
         'a',
         'affiliate links are in green',
         [
-          'href' => '#conventions',
+          'href' => url_base() . '/#conventions',
           'class' => 'affiliate',
           'title' => TITLE_LINK_GREEN,
         ]
@@ -683,7 +684,7 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
         'a',
         'given above',
         [
-          'href' => '#structure',
+          'href' => url_base() . '/#structure',
           'class' => 'internal',
         ]
       );
@@ -766,7 +767,7 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
 
           tag_open( 'li' );
 
-            tag_text( 'a', 'RSS Feeds', [ 'href' => url_base() . '#feeds', 'class' => 'internal', 'title' => TITLE_RSS_INFO ] );
+            tag_text( 'a', 'RSS Feeds', [ 'href' => url_base() . '/#feeds', 'class' => 'internal', 'title' => TITLE_RSS_INFO ] );
 
           tag_shut( 'li' );
 
@@ -1454,7 +1455,7 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
           'a',
           'New Book Teardowns',
           [
-            'href' => '#new-book-teardowns',
+            'href' => url_base() . '/#new-book-teardowns',
             'class' => 'internal',
             'title' => TITLE_FEATURE_NEW_BOOK_TEARDOWN,
           ]
@@ -1468,7 +1469,7 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
           'a',
           'Mini Projects',
           [
-            'href' => '#mini-projects',
+            'href' => url_base() . '/#mini-projects',
             'class' => 'internal',
             'title' => TITLE_FEATURE_MINI_PROJECT,
           ]
@@ -1482,7 +1483,7 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
           'a',
           'Channel News',
           [
-            'href' => '#channel-news',
+            'href' => url_base() . '/#channel-news',
             'class' => 'internal',
             'title' => TITLE_FEATURE_EARLY_CONTENT,
           ]
@@ -1496,7 +1497,7 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
           'a',
           'Interludes',
           [
-            'href' => '#interludes',
+            'href' => url_base() . '/#interludes',
             'class' => 'internal',
             'title' => TITLE_FEATURE_INTERLUDE,
           ]
@@ -1510,7 +1511,7 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
           'a',
           'Unboxings',
           [
-            'href' => '#unboxings',
+            'href' => url_base() . '/#unboxings',
             'class' => 'internal',
             'title' => TITLE_FEATURE_UNBOXING,
           ]
@@ -1524,7 +1525,7 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
           'a',
           'Maxitronix Xin1 Kits',
           [
-            'href' => '#maxitronix-kits',
+            'href' => url_base() . '/#maxitronix-kits',
             'class' => 'internal',
             'title' => TITLE_SHOW_MAXITRONIX,
           ]
@@ -1538,7 +1539,7 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
           'a',
           'Early Content',
           [
-            'href' => '#early-content',
+            'href' => url_base() . '/#early-content',
             'class' => 'internal',
             'title' => TITLE_FEATURE_EARLY_CONTENT,
           ]
@@ -1640,7 +1641,7 @@ function render_section_about_new_book_teardown( int $heading_level = 2 ) {
         'a',
         'old book teardowns',
         [
-          'href' => '#old-book-teardowns',
+          'href' => url_base() . '/#old-book-teardowns',
           'class' => 'internal',
           'title' => TITLE_FEATURE_OLD_BOOK_TEARDOWN,
         ]
@@ -2165,7 +2166,7 @@ function render_section_about_costume( int $heading_level = 2 ) {
           'a',
           'silly job title',
           [
-            'href' => '#silly-job-title',
+            'href' => url_base() . '/#silly-job-title',
             'class' => 'internal',
             'title' => 'Click here to read about how the silly job title works.',
           ]
@@ -2311,7 +2312,7 @@ function render_section_about_silly_job_title( int $heading_level = 2 ) {
         'a',
         'show notes',
         [
-          'href' => '#show-notes',
+          'href' => url_base() . '/#show-notes',
           'class' => 'internal',
           'rel' => 'follow',
           'title' => 'Click here to read about the show notes.',
