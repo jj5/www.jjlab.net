@@ -508,7 +508,14 @@ function render_rss_link() {
 
 function render_rss_anchor( $attrs = [] ) {
 
-  get_rss_link( $title, $url );
+  // 2024-07-03 jj5 - NOTE: I'm not going to keep the RSS links as context affinitive, instead the RSS link in the header
+  // will always link to the main feed...
+
+  $title = 'Click here to subscribe to the full RSS feed which includes all videos.';
+  $url = url_base() . '/feed.php';
+
+  // 2024-07-03 jj5 - OLD: this was context affinitive...
+  //get_rss_link( $title, $url );
 
   tag_open(
     'a',
