@@ -113,6 +113,11 @@ function render_about_main() {
       rel="noopener follow"
       title="Click here to read the source code for this website on GitHub."
     >https://github.com/jj5/www.jjlab.net</a></p>
+  <p>This website has a sitemap.xml file which is <a
+      href="<?= url_base() ?>/sitemap.php"
+      class="internal"
+      title="Click here to view the sitemap.xml file."
+    >here</a>.</p>
 </section>
 <section class="container">
   <h2 id="secret">Secret Links</h2>
