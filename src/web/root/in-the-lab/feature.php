@@ -278,52 +278,17 @@ function render_feature_maxitronix_index() {
 
     tag_shut( 'header' );
 
+    render_section_about_maxitronix_kits();
+
     tag_open( 'section' );
 
-      tag_text( 'h2', 'Maxitronix Xin1 Kits', [ 'id' => 'kits' ] );
-
-      tag_open( 'p' );
-  
-        out_text( 'The Maxitronix Xin1 Kits are electronic project labs with projects designed to teach people about electronics. ' );
-        out_text( 'They are a great way to learn electronics and are a lot of fun. ' );
-        out_text( 'I have a playlist of videos which feature these kits:' );
-
-      tag_shut( 'p' );
-
-      tag_open( 'ul' );
-
-        $kit_list = get_list( MaxitronixKit::class );
-
-        foreach ( $kit_list as $kit ) {
-
-          $kit_name = $kit->get_kit_name()->to_string();
-          $kit_slug = $kit_name;
-
-          tag_open( 'li' );
-
-            tag_text(
-              'a',
-              "Maxitronix $kit_name",
-              [
-                'href' => url_base() . "/feature.php/maxitronix-$kit_slug",
-                'class' => 'internal',
-                'title' => MaxitronixKit::get_html_title( $kit_name ),
-              ]
-            );
-
-          tag_shut( 'li' );
-
-        }
-
-      tag_shut( 'ul' );
-
       tag_text( 'h2', 'Announcing Maxitronix Xin1 Projects Feature', [ 'id' => 'announcement' ] );
+
+      tag_text( 'p', 'In this video I announce the Maxitronix Xin1 projects feature.' );
 
       render_youtube_iframe( 'uEzp4mx_pYA', 'center' );
 
     tag_shut( 'section' );
-
-    render_section_about_special_shows();
 
   render_foot();
 

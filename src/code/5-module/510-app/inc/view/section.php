@@ -1962,7 +1962,7 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
 
       tag_text(
         'a',
-        'Maxitronix Xin1 kits',
+        'Maxitronix Xin1 Kits',
         [
           'href' => url_base() . '/feature.php/maxitronix',
           'class' => 'internal',
@@ -2024,13 +2024,21 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
         'a',
         'Maxitronix Xin1 Kits',
         [
-          'href' => url_base() . '/show-type.php/maxitronix',
+          'href' => url_base() . '/show-type.php/maxitronix#announcement',
           'class' => 'internal',
           'title' => TITLE_SHOW_MAXITRONIX,
         ]
       );
 
       out_text( ' page.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'The Maxitronix Xin1 Kits are electronic project labs with projects designed to teach people about electronics. ' );
+      out_text( 'They are a great way to learn electronics and are a lot of fun. ' );
+      out_text( 'I would highly recommend them to anyone interested in electronics.' );
 
     tag_shut( 'p' );
 
