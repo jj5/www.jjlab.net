@@ -145,14 +145,11 @@ function render_xslt_head() {
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui" />
 		<link rel="icon" href="<?= $cdn_base ?>/res/img.php/logo.png" />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
-		<link rel="stylesheet" href="<?= $cdn_base ?>/res/style/milligram/normalize.css?v=<?= $version ?>" />
-		<link rel="stylesheet" href="https://d27cckvuinr11o.cloudfront.net/global/table.css?v=<?= $version ?>" />
-		<link rel="stylesheet" href="<?= $cdn_base ?>/res/style/milligram/milligram.css?v=<?= $version ?>" />
-		<link rel="stylesheet" href="<?= $cdn_base ?>/res/style/main.css?v=<?= $version ?>" />
-		<link rel="stylesheet" href="<?= $cdn_base ?>/res/style/milligram/print.css" media="print" />
-		<script type="text/javascript">var DEBUG = false;</script>
-		<script src="https://d27cckvuinr11o.cloudfront.net/global/default.js?v=<?= $version ?>" type="text/javascript"></script>
-		<script src="<?= $cdn_base ?>/res/script/common.js?v=<?= $version ?>" type="text/javascript"></script>
+
+		<link rel="stylesheet" href="<?= $cdn_base ?>/res/style.php?v=jjlab-0.2.385" />
+		<script>var DEBUG = false;</script>
+		<script src="<?= $cdn_base ?>/res/script.php?v=jjlab-0.2.385"></script>
+
 		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/banner-base.jpg" as="image" />
 		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/banner-0640.jpg" as="image" />
 		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/banner.jpg" as="image" />
