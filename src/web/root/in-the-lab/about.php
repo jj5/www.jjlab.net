@@ -41,107 +41,284 @@ function render_about_main() {
 
     render_section_contact_info();
 
-?>
-<section>
-  <h2 id="channels">Channels</h2>
-  <p>The show is published across two YouTube channels:</p>
-  <ul>
-    <li>Main channel: <a
-        href="https://www.youtube.com/@InTheLabWithJayJay"
-        class="external"
-        target="_blank"
-        rel="noopener follow"
-        title="<?= TITLE_CHANNEL_MAIN ?>"
-      >youtube.com/@InTheLabWithJayJay</a></li>
-    <li>2nd channel: <a
-        href="https://www.youtube.com/@ElliotsExtras"
-        class="external"
-        target="_blank"
-        rel="noopener follow"
-        title="<?= TITLE_CHANNEL_MAIN ?>"
-      >youtube.com/@ElliotsExtras</a></li>
-  </ul>
-</section>
-<section>
-  <h2 id="blog">Blog</h2>
-  <p>I usually write up show notes on my blog, which is over here:
-    <a
-      href="https://blog.jj5.net/"
-      class="external"
-      target="_blank"
-      rel="noopener follow"
-      title="<?= TITLE_BLOG ?>"
-    >https://blog.jj5.net/</a>
-  </p>
-</section>
-<?php render_section_about_announcements(); ?>
-<section>
-  <h2 id="colophon">Colophon</h2>
-  <p>The show's logo is a version of the
-    <a
-      href="http://www.catb.org/hacker-emblem/"
-      class="external"
-      target="_blank"
-      rel="noopener follow"
-      title="Click here to learn more about the hacker emblem."
-    >Hacker Emblem</a>.
-    As all good nerds will know the
-    <a
-      href="https://en.wikipedia.org/wiki/Glider_(Conway%27s_Game_of_Life)"
-      class="external"
-      target="_blank"
-      rel="noopener follow"
-      title="Click here to learn more about the glider in Conway's Game of Life."
-    >glider</a>
-    which Eric S. Raymond chose for the hacker emblem can be in any of four different states, so I picked an alternative
-    state for the glider to be in for the show's logo.
-  </p>
-  <p>The source code for this website is now available on GitHub: <a
-      href="https://github.com/jj5/www.jjlab.net"
-      class="external"
-      target="_blank"
-      rel="noopener follow"
-      title="Click here to read the source code for this website on GitHub."
-    >https://github.com/jj5/www.jjlab.net</a></p>
-  <p>This website has a sitemap.xml file which is <a
-      href="<?= url_base() ?>/sitemap.php"
-      class="internal"
-      title="Click here to view the sitemap.xml file."
-    >here</a>.</p>
-</section>
-<section>
-  <h2 id="secret">Secret Links</h2>
-  <p>Can you keep a secret? There are two handy pages I made for my own use. I don't advertise them because they use
-    massive HTML tables and the pages aren't responsive (i.e. they don't look good on mobilde devices). But if you're
-    brave you can find them here:</p>
-  <ul>
-    <li>
-      <a
-        href="videos.php"
-        class="internal"
-        title="Click here for a table with all videos."
-      >Videos Index</a>
-    </li>
-    <li>
-      <a
-        href="books.php"
-        class="internal"
-        title="Click here for a table with all books."
-      >Books Index</a>
-    </li>
-  </ul>
-</section>
-<section>
-  <h2 id="thanks">Thanks!</h2>
-  <p>Thanks for checking out the show! If you would like to help me out there are various ways you can
-      <a
-      href="support.php"
-      class="internal"
-      title="<?= TITLE_SUPPORT ?>"
-    >support the show</a>.</p>
-</section>
-<?php
-    
+    render_section_summary_channels();
+
+    render_section_summary_blog();
+
+    render_section_about_announcements();
+
+    render_section_about_colophon();
+
+    render_section_about_secrets();
+
+    render_section_summary_thanks();
+
   render_foot();
+
+}
+
+function render_section_summary_channels( int $heading_level = 2 ) {
+
+  tag_open( 'section' );
+
+    tag_text( 'h' . $heading_level, 'Channels', [ 'id' => 'channel-summary' ] );
+
+    tag_text( 'p', 'The show is published across two YouTube channels:' );
+
+    tag_open( 'ul' );
+
+      tag_open( 'li' );
+
+        tag_text(
+          'a',
+          'Main Channel',
+          [
+            'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
+            'class' => 'internal',
+            'rel' => 'follow',
+            'title' => TITLE_CHANNEL_MAIN,
+          ]
+        );
+
+        out_text( ': ' );
+
+        tag_text(
+          'a',
+          'youtube.com/@InTheLabWithJayJay',
+          [
+            'href' => 'https://www.youtube.com/@InTheLabWithJayJay',
+            'class' => 'external',
+            'target' => '_blank',
+            'rel' => 'noopener follow',
+            'title' => TITLE_CHANNEL_MAIN,
+          ]
+        );
+
+      tag_shut( 'li' );
+
+      tag_open( 'li' );
+
+        tag_text(
+          'a',
+          '2nd Channel',
+          [
+            'href' => url_base() . '/channel.php/@ElliotsExtras',
+            'class' => 'internal',
+            'rel' => 'follow',
+            'title' => TITLE_CHANNEL_EXTRA,
+          ]
+        );
+
+        out_text( ': ' );
+
+        tag_text(
+          'a',
+          'youtube.com/@ElliotsExtras',
+          [
+            'href' => 'https://www.youtube.com/@ElliotsExtras',
+            'class' => 'external',
+            'target' => '_blank',
+            'rel' => 'noopener follow',
+            'title' => TITLE_CHANNEL_MAIN,
+          ]
+        );
+
+      tag_shut( 'li' );
+
+    tag_shut( 'ul' );
+
+  tag_shut( 'section' );
+
+}
+
+function render_section_summary_blog( int $heading_level = 2 ) {
+
+  tag_open( 'section' );
+
+    tag_text( 'h' . $heading_level, 'Blog', [ 'id' => 'blog-summary' ] );
+
+    tag_text( 'p', 'I usually write up show notes on my blog, which is over here:' );
+
+    tag_text(
+      'a',
+      'https://blog.jj5.net/',
+      [
+        'href' => 'https://blog.jj5.net/',
+        'class' => 'external',
+        'target' => '_blank',
+        'rel' => 'noopener follow',
+        'title' => TITLE_BLOG,
+      ]
+    );
+
+  tag_shut( 'section' );
+
+}
+
+function render_section_about_colophon( int $heading_level = 2 ) {
+
+  tag_open( 'section' );
+
+    tag_text( 'h' . $heading_level, 'Colophon', [ 'id' => 'colophon' ] );
+
+    tag_text( 'p', 'Here are some notes about how this website is made.' );
+
+    tag_text( 'h' . ( $heading_level + 1 ), 'Logo', [ 'id' => 'about-logo' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'The show\'s logo is a version of the ' );
+
+      tag_text(
+        'a',
+        'Hacker Emblem',
+        [
+          'href' => 'http://www.catb.org/hacker-emblem/',
+          'class' => 'external',
+          'target' => '_blank',
+          'rel' => 'noopener follow',
+          'title' => 'Click here to learn more about the hacker emblem.',
+        ]
+      );
+
+      out_text( '. As all good nerds will know the ' );
+
+      tag_text(
+        'a',
+        'glider',
+        [
+          'href' => 'https://en.wikipedia.org/wiki/Glider_(Conway%27s_Game_of_Life)',
+          'class' => 'external',
+          'target' => '_blank',
+          'rel' => 'noopener follow',
+          'title' => 'Click here to learn more about the glider in Conway\'s Game of Life.',
+        ]
+      );
+
+      out_text( ' which Eric S. Raymond chose for the hacker emblem can be in any of four different states, so I picked an alternative state for the glider to be in for the show\'s logo.' );
+
+    tag_shut( 'p' );
+
+    tag_text( 'h' . ( $heading_level + 1 ), 'Source Code', [ 'id' => 'source-code' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'The source code for this website is now available on GitHub: ' );
+
+      tag_text(
+        'a',
+        'https://github.com/jj5/www.jjlab.net',
+        [
+          'href' => 'https://github.com/jj5/www.jjlab.net',
+          'class' => 'external',
+          'target' => '_blank',
+          'rel' => 'noopener follow',
+          'title' => 'Click here to find the source code for this website.',
+        ]
+      );
+
+    tag_shut( 'p' );
+
+    tag_text( 'h' . ( $heading_level + 1 ), 'Sitemap.xml', [ 'id' => 'sitemap.xml' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'This website has a sitemap.xml file which is ' );
+
+      tag_text(
+        'a',
+        'here',
+        [
+          'href' => url_base() . '/sitemap.php',
+          'class' => 'internal',
+          'title' => 'Click here to view the sitemap.xml file.',
+        ]
+      );
+
+      out_text( '.' );
+
+    tag_shut( 'p' );
+
+  tag_shut( 'section' );
+
+}
+
+function render_section_about_secrets( int $heading_level = 2 ) {
+
+  tag_open( 'section' );
+
+    tag_text( 'h' . $heading_level, 'Secret Links', [ 'id' => 'secret-links' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'Can you keep a secret? There are two handy pages I made for my own use. I don\'t advertise them because they use ' );
+
+      out_text( 'massive HTML tables' );
+
+      out_text( ' so the pages aren\'t responsive (i.e. they don\'t look good on mobilde devices). But if you\'re brave you can find them here:' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'ul' );
+
+      tag_open( 'li' );
+
+        tag_text(
+          'a',
+          'Videos Index',
+          [
+            'href' => url_base() . '/videos.php',
+            'class' => 'internal',
+            'title' => 'Click here for a table with all videos.',
+          ]
+        );
+
+      tag_shut( 'li' );
+
+      tag_open( 'li' );
+
+        tag_text(
+          'a',
+          'Books Index',
+          [
+            'href' => url_base() . '/books.php',
+            'class' => 'internal',
+            'title' => 'Click here for a table with all books.',
+          ]
+        );
+
+      tag_shut( 'li' );
+
+    tag_shut( 'ul' );
+
+  tag_shut( 'section' );
+
+}
+
+function render_section_summary_thanks( int $heading_level = 2 ) {
+
+  tag_open( 'section' );
+
+    tag_text( 'h' . $heading_level, 'Thanks!', [ 'id' => 'thanks' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'Thanks for checking out the show! If you would like to help me out there are various ways you can' );
+
+      tag_text(
+        'a',
+        'support the show',
+        [
+          'href' => url_base() . '/support.php',
+          'class' => 'internal',
+          'title' => TITLE_SUPPORT,
+        ]
+      );
+
+      out_text( '.' );
+
+    tag_shut( 'p' );
+
+  tag_shut( 'section' );
 
 }

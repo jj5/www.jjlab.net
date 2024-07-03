@@ -105,6 +105,9 @@ define( 'TITLE_SORT_OLD_FIRST', 'Click here to sort with the least recently purc
 define( 'TITLE_SORT_RANDOM', 'Click here to sort randomly.' );
 define( 'TITLE_SORT_DEFAULT', 'Click here to use the default sort (expensive first).' );
 
+define( 'TITLE_PCBWAY', 'Click here to visit PCBWay.' );
+define( 'TITLE_SILICON_CHIP', 'Click here to visit Silicon Chip.' );
+
 define( 'ALT_MAXITRONIX_LABS', "John's set of Maxitronix electronic project labs." );
 
 function render_section_contents() {
@@ -2629,6 +2632,25 @@ function render_section_about_next( int $heading_level = 2 ) {
 
       tag_open( 'li' );
 
+        out_text( 'My ' );
+
+        tag_text(
+          'a',
+          'new book teardown videos',
+          [
+            'href' => url_base() . '/feature.php/new-book-teardown',
+            'class' => 'internal',
+            'rel' => 'follow',
+            'title' => TITLE_FEATURE_NEW_BOOK_TEARDOWN,
+          ]
+        );
+
+        out_text( ' are quite popular, you might enjoy watching those.' );
+
+      tag_shut( 'li' );
+
+      tag_open( 'li' );
+
         out_text( 'Visit the ' );
 
         tag_text(
@@ -2776,7 +2798,7 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
     tag_shut( 'p' );
 
-    tag_text( 'h' . ( $heading_level + 1 ), 'Comment On My Blog', [ 'id' => 'comment-on-blog' ] );
+    tag_text( 'h' . ( $heading_level + 1 ), 'Comment Publicly On My Blog', [ 'id' => 'comment-on-blog' ] );
 
     tag_open( 'p' );
 
@@ -2840,13 +2862,7 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
     tag_shut( 'p' );
 
-    tag_open( 'p' );
-
-      out_text( "If you do support me (or follow me) on Patreon, you will also be able to get in contact with me through there." );
-
-    tag_shut( 'p' );
-
-    tag_text( 'h' . ( $heading_level + 1 ), 'Comment On YouTube', [ 'id' => 'comment-on-youtube' ] );
+    tag_text( 'h' . ( $heading_level + 1 ), 'Comment Publicly On YouTube', [ 'id' => 'comment-on-youtube' ] );
 
     tag_open( 'p' );
 
@@ -2884,7 +2900,18 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
       tag_open( 'li' );
 
-        out_text( 'Main channel: ' );
+        tag_text(
+          'a',
+          'Main Channel',
+          [
+            'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
+            'class' => 'internal',
+            'rel' => 'follow',
+            'title' => TITLE_CHANNEL_MAIN,
+          ]
+        );
+
+        out_text( ': ' );
 
         tag_text(
           'a',
@@ -2902,7 +2929,18 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
       tag_open( 'li' );
 
-        out_text( '2nd channel: ' );
+        tag_text(
+          'a',
+          '2nd Channel',
+          [
+            'href' => url_base() . '/channel.php/@ElliotsExtras',
+            'class' => 'internal',
+            'rel' => 'follow',
+            'title' => TITLE_CHANNEL_EXTRA,
+          ]
+        );
+
+        out_text( ': ' );
 
         tag_text(
           'a',
@@ -2920,7 +2958,7 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
     tag_shut( 'ul' );
 
-    tag_text( 'h' . ( $heading_level + 1 ), 'Chat On IRC', [ 'id' => 'irc-chat' ] );
+    tag_text( 'h' . ( $heading_level + 1 ), 'Private Chat On IRC', [ 'id' => 'irc-chat' ] );
 
     tag_open( 'p' );
 
@@ -2963,6 +3001,31 @@ function render_section_contact_info( int $heading_level = 2 ) {
       out_text( "My nick is 'jj5'. I am usually online but I am not always at my terminal or watching my IRC client." );
 
     tag_shut( 'p' );
+
+    tag_text( 'h' . ( $heading_level + 1 ), 'Private Message On Patreon', [ 'id' => 'contact-by-patreon' ] );
+
+    tag_open( 'p' );
+
+      out_text( "If you do " );
+      
+      tag_text(
+        'a',
+        'support me on Patreon',
+        [
+          'href' => 'https://www.patreon.com/JohnElliotV/membership',
+          'class' => 'external',
+          'target' => '_blank',
+          'rel' => 'noopener follow',
+          'title' => 'Click here to read about paid membership tier options.',
+        ]
+      );
+
+      out_text( ", you will also be able to get in contact with me through there. " );
+
+      out_text( "I prioritize responses to Patreon messages." );
+
+    tag_shut( 'p' );
+
 
   tag_shut( 'section' );
 

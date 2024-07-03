@@ -46,7 +46,7 @@ function render_equipment_main() {
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
-      tag_open( 'section', [ 'class' => 'container' ] );
+      tag_open( 'section' );
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
@@ -61,7 +61,7 @@ function render_equipment_main() {
 
     tag_shut( 'header' );
 
-    tag_open( 'section', [ 'class' => 'container' ] );
+    tag_open( 'section' );
 
 ?>
   <p>Let's go shopping!</p>
@@ -70,34 +70,12 @@ function render_equipment_main() {
 
     tag_shut( 'section' );
 
-    tag_open( 'section', [ 'class' => 'container' ] );
+    tag_open( 'section' );
 
       render_equipment_text( $equipment_list );
 
     tag_shut( 'section' );
 
   render_foot();
-
-}
-
-function render_table_head() {
-?>
-    <tr>
-      <th>Equipment</th>
-      <th>Affiliate</th>
-      <th>Price</th>
-      <th>Shipping</th>
-      <th>Total</th>
-      <th>Affiliate Link</th>
-      <th>Option(s)</th>
-<?php
-      if ( is_dev() ) :
-?>
-      <th>Search</th>
-<?php
-      endif;
-?>
-    </tr>
-<?php
 
 }

@@ -24,7 +24,7 @@ function render() {
 
 function render_menu() {
 
-  tag_open( 'section', [ 'class' => 'container' ] );
+  tag_open( 'section' );
 
     tag_text( 'h1', 'Menu' );
 
@@ -117,7 +117,7 @@ function render_menu() {
 
 function render_channel_list() {
 
-  tag_open( 'section', [ 'class' => 'container' ] );
+  tag_open( 'section' );
 
     tag_text( 'h1', 'Channel List' );
 
@@ -156,7 +156,7 @@ function render_channel_list() {
 
 function render_show_list() {
 
-  tag_open( 'section', [ 'class' => 'container' ] );
+  tag_open( 'section' );
 
     tag_text( 'h1', 'Show List' );
 
@@ -195,7 +195,7 @@ function render_show_list() {
 
 function render_feature_list() {
 
-  tag_open( 'section', [ 'class' => 'container' ] );
+  tag_open( 'section' );
 
     tag_text( 'h1', 'Feature List' );
 

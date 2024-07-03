@@ -73,7 +73,7 @@ function render_show_type_index() {
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
-      tag_open( 'section', [ 'class' => 'container' ] );
+      tag_open( 'section' );
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
@@ -85,7 +85,7 @@ function render_show_type_index() {
 
     tag_shut( 'header' );
 
-    tag_open( 'section', [ 'class' => 'container' ] );
+    tag_open( 'section' );
 
       tag_text( 'h2', 'List of Shows' );
 
@@ -186,7 +186,7 @@ function render_show_type_main() {
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
-      tag_open( 'section', [ 'class' => 'container' ] );
+      tag_open( 'section' );
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
@@ -202,7 +202,7 @@ function render_show_type_main() {
 
     tag_shut( 'header' );
 
-    tag_open( 'section', [ 'class' => 'container' ] );
+    tag_open( 'section' );
 
       tag_text( 'h2', 'Main Show' );
 
@@ -243,7 +243,7 @@ function render_show_type_special() {
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
-      tag_open( 'section', [ 'class' => 'container' ] );
+      tag_open( 'section' );
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
@@ -283,7 +283,7 @@ function render_show_type_special() {
 
     tag_shut( 'header' );
 
-    tag_open( 'section', [ 'class' => 'container' ] );
+    tag_open( 'section' );
 
       tag_text( 'h2', 'Show Features' );
 
@@ -321,7 +321,7 @@ function render_show_type_extra() {
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
-      tag_open( 'section', [ 'class' => 'container' ] );
+      tag_open( 'section' );
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 

@@ -21,6 +21,6 @@ function render() {
     }
   }
 
-  return default_redirect( url_base() . '/feed.php' );
+  return default_redirect( url_base() . '/' );
 
 }

@@ -64,7 +64,7 @@ function render_feature_index() {
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
-      tag_open( 'section', [ 'class' => 'container' ] );
+      tag_open( 'section' );
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
@@ -76,7 +76,7 @@ function render_feature_index() {
 
     tag_shut( 'header' );
 
-    tag_open( 'section', [ 'class' => 'container' ] );
+    tag_open( 'section' );
 
       tag_open( 'ul' );
 
@@ -123,7 +123,7 @@ function render_feature_generic( $feature ) {
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
-      tag_open( 'section', [ 'class' => 'container' ] );
+      tag_open( 'section' );
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
@@ -232,7 +232,7 @@ function render_feature_maxitronix_index() {
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
-      tag_open( 'section', [ 'class' => 'container' ] );
+      tag_open( 'section' );
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
@@ -278,7 +278,7 @@ function render_feature_maxitronix_index() {
 
     tag_shut( 'header' );
 
-    tag_open( 'section', [ 'class' => 'container' ] );
+    tag_open( 'section' );
 
       tag_text( 'h2', 'Maxitronix Xin1 Kits', [ 'id' => 'kits' ] );
 
@@ -335,7 +335,7 @@ function render_feature_maxitronix_kit( $kit ) {
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
-      tag_open( 'section', [ 'class' => 'container' ] );
+      tag_open( 'section' );
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
@@ -390,7 +390,7 @@ function render_feature_mini_project() {
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
-      tag_open( 'section', [ 'class' => 'container' ] );
+      tag_open( 'section' );
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
@@ -464,7 +464,7 @@ function render_feature_mini_project() {
 
     tag_shut( 'header' );
 
-    tag_open( 'section', [ 'class' => 'container' ] );
+    tag_open( 'section' );
 
       tag_text( 'h2', 'Mini Projects', [ 'id' => 'mini-projects' ] );
 
@@ -478,7 +478,7 @@ function render_feature_mini_project() {
 
     tag_shut( 'section' );
 
-    tag_open( 'section', [ 'class' => 'container' ] );
+    tag_open( 'section' );
 
       tag_text( 'h2', 'Links', [ 'id' => 'links' ] );
 

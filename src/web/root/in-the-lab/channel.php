@@ -98,7 +98,7 @@ function render_channel_index() {
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
-      tag_open( 'section', [ 'class' => 'container' ] );
+      tag_open( 'section' );
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
@@ -126,7 +126,7 @@ function render_channel_one() {
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
-      tag_open( 'section', [ 'class' => 'container' ] );
+      tag_open( 'section' );
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
@@ -181,7 +181,7 @@ function render_channel_one() {
 
 function render_channel_one_main() {
 
-  tag_open( 'section', [ 'class' => 'container' ] );
+  tag_open( 'section' );
 
     tag_text( 'h2', 'Main Channel: @InTheLabWithJayJay' );
 
@@ -241,7 +241,7 @@ function render_channel_two() {
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
-      tag_open( 'section', [ 'class' => 'container' ] );
+      tag_open( 'section' );
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
@@ -296,7 +296,7 @@ function render_channel_two() {
 
 function render_channel_two_main() {
 
-  tag_open( 'section', [ 'class' => 'container' ] );
+  tag_open( 'section' );
 
     tag_text( 'h2', '2nd Channel: @ElliotsExtras' );
 

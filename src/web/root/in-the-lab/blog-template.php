@@ -29,7 +29,7 @@ function render_blog_template_main() {
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
-      tag_open( 'section', [ 'class' => 'container' ] );
+      tag_open( 'section' );
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
@@ -44,11 +44,7 @@ function render_blog_template_main() {
 
     tag_shut( 'header' );
 
-    tag_open( 'section', [ 'class' => 'container' ] );
-
-    tag_shut( 'section' );
-
-    tag_open( 'section', [ 'class' => 'container' ] );
+    tag_open( 'section' );
 
       render_blog_template( $equipment_list );
 

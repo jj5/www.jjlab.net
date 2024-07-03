@@ -46,7 +46,7 @@ function render_equipment_main() {
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
-      tag_open( 'section', [ 'class' => 'container' ] );
+      tag_open( 'section' );
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
@@ -63,53 +63,133 @@ function render_equipment_main() {
 
     tag_shut( 'header' );
 
-    tag_open( 'section', [ 'class' => 'container' ] );
+    tag_open( 'section' );
 
-?>
-<h2>Check out my tools and equipment detailed on this page</h2>
-<p>These products have affiliate links to vendors if you would like to buy.
-  Clicking through on these affiliate links (in green) is a good way to support the channel at no cost to
-  you.</p>
-<p>Please be aware:</p>
-<ul>
-  <li>The links given here won't necessarily have the best price so please do shop around to
-  see if you can find a better deal.</li>
-  <li>Prices are indicative only and can and will go out of date; click-through for the latest
-    price.</li>
-  <li>Recent exchange rates are used for currency conversions, not the rates that were applicable
-    at the time of record.</li>
-  <li>Shipping costs and sales tax are (usually) not included in the prices listed here.</li>
-  <li>Sometimes I can't find the exact product and in those circumstances a substitute product
-    might be suggested.</li>
-  <li>Sometimes a newer model has been released since I purchased the model I have, so keep
-    your eye out for newer models.</li>
-  <li>Sometimes after you click through on an affiliate link you need to make further choices
-    for the type of product you actually want to buy; sometimes it's different colors or socket
-    types, other times it's completely different products, so keep an eye out for that and make
-    sure you understand what you've ordered before you click buy. I have made an effort to
-    indicate when you need to make specific option choices on listings.</li>
-  </ul>
-  <p>You can also get this equipment listed by <a
-    href="<?= url_base() ?>/category.php"
-    class="internal"
-    title="<?= TITLE_LINK_CATEGORY ?>"
-  >category</a> or by
-  <a
-    href="<?= url_base() ?>/manufacturer.php"
-    class="internal"
-    title="<?= TITLE_LINK_MANUFACTURER ?>"
-  >manufacturer</a>.</p>
-  <p>If you have thoughts or questions please feel free to
-    <a
-      href="https://blog.jj5.net/blog/contact/"
-      class="external"
-      target="_blank"
-      rel="noopener follow"
-      title="<?= TITLE_CONTACT ?>"
-    >let me know</a>.</p>
-  <p>Let's go shopping!</p>
+      tag_text( 'h2', 'Check out my tools and equipment detailed on this page' );
 
-<?php
+      tag_open( 'p' );
+
+        out_text( 'These products have affiliate links to vendors if you would like to buy. ' );
+        out_text( 'Clicking through on these affiliate links (in green) is a good way to support the channel at no cost to you.' );
+
+      tag_shut( 'p' );
+
+      tag_open( 'p' );
+
+        out_text( 'Please be aware:' );
+
+      tag_shut( 'p' );
+
+      tag_open( 'ul' );
+
+        tag_open( 'li' );
+
+          out_text( "The links given here won't necessarily have the best price so please do shop around to " );
+          out_text( "see if you can find a better deal." );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          out_text( "Prices are indicative only and can and will go out of date; click-through for the latest " );
+          out_text( "price." );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+        
+          out_text( "Recent exchange rates are used for currency conversions, not the rates that were applicable " );
+          out_text( "at the time of record." );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          out_text( "Shipping costs and sales tax are (usually) not included in the prices listed here." );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+        
+          out_text( "Sometimes I can't find the exact product and in those circumstances a substitute product " );
+          out_text( "might be suggested." );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          out_text( "Sometimes a newer model has been released since I purchased the model I have, so keep " );
+          out_text( "your eye out for newer models." );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          out_text( "Sometimes after you click through on an affiliate link you need to make further choices " );
+          out_text( "for the type of product you actually want to buy; sometimes it's different colors or socket " );
+          out_text( "types, other times it's completely different products, so keep an eye out for that and make " );
+          out_text( "sure you understand what you've ordered before you click buy. I have made an effort to " );
+          out_text( "indicate when you need to make specific option choices on listings." );
+
+        tag_shut( 'li' );
+
+      tag_shut( 'ul' );
+
+      tag_open( 'p' );
+
+        out_text( "You can also get this equipment listed by " );
+
+        tag_text(
+          'a',
+          'category',
+          [
+            'href' => url_base() . '/category.php',
+            'class' => 'internal',
+            'rel' => 'follow',
+            'title' => TITLE_LINK_CATEGORY,
+          ]
+        );
+
+        out_text( ' or by ' );
+
+        tag_text(
+          'a',
+          'manufacturer',
+          [
+            'href' => url_base() . '/manufacturer.php',
+            'class' => 'internal',
+            'rel' => 'follow',
+            'title' => TITLE_LINK_MANUFACTURER,
+          ]
+        );
+
+      tag_shut( 'p' );
+
+      tag_open( 'p' );
+
+        out_text( 'If you have thoughts or questions please feel free to ' );
+
+        tag_text(
+          'a',
+          'let me know',
+          [
+            'href' => url_base() . '/#contact-info',
+            'class' => 'internal',
+            'rel' => 'follow',
+            'title' => TITLE_CONTACT,
+          ]
+        );
+
+
+        out_text( '.' );
+
+      tag_shut( 'p' );
+
+      tag_open( 'p' );
+
+        out_text( "Let's go shopping!" );
+
+      tag_shut( 'p' );
 
     tag_shut( 'section' );
 
@@ -120,23 +200,23 @@ function render_equipment_main() {
 }
 
 function render_table_head() {
-?>
-    <tr>
-      <th>Equipment</th>
-      <th>Affiliate</th>
-      <th>Price</th>
-      <th>Shipping</th>
-      <th>Total</th>
-      <th>Affiliate Link</th>
-      <th>Option(s)</th>
-<?php
-      if ( is_dev() ) :
-?>
-      <th>Search</th>
-<?php
-      endif;
-?>
-    </tr>
-<?php
+
+  tag_open( 'tr' );
+
+    tag_text( 'th', 'Equipment' );
+    tag_text( 'th', 'Affiliate' );
+    tag_text( 'th', 'Price' );
+    tag_text( 'th', 'Shipping' );
+    tag_text( 'th', 'Total' );
+    tag_text( 'th', 'Affiliate Link' );
+    tag_text( 'th', 'Option(s)' );
+
+    if ( is_dev() ) {
+
+      tag_text( 'th', 'Search' );
+
+    }
+
+  tag_shut( 'tr' );
 
 }

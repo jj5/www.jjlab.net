@@ -39,7 +39,7 @@ function render_equipment_list_for_manufacturer( $manufacturer, $equipment_list 
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
-      tag_open( 'section', [ 'class' => 'container' ] );
+      tag_open( 'section' );
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
@@ -74,7 +74,7 @@ function render_index( $manufacturer_list ) {
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
-      tag_open( 'section', [ 'class' => 'container' ] );
+      tag_open( 'section' );
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
@@ -90,7 +90,7 @@ function render_index( $manufacturer_list ) {
 
     tag_shut( 'header' );
 
-    tag_open( 'section', [ 'class' => 'container' ] );
+    tag_open( 'section' );
 
       tag_text( 'h2', 'Equipment Manufacturers' );
 

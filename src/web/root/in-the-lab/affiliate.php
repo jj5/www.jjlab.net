@@ -25,7 +25,7 @@ function render_affiliate_main() {
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
-      tag_open( 'section', [ 'class' => 'container' ] );
+      tag_open( 'section' );
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
@@ -54,7 +54,7 @@ function render_affiliate_main() {
     tag_shut( 'header' );
 
 ?>
-<section class="container">
+<section>
 
   <h2>Affiliated Vendors</h2>
   <p>Following is a list of my affiliates. When possible

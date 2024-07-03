@@ -19,13 +19,13 @@ function render() { render_xslt_headers(); }
       render_xslt_nav_header();
 ?>
 			<header id="home" class="header">
-				<section class="container">
+				<section>
 					<img src="<?= $cdn_base ?>/res/img.php/logo.png?v=<?= $version ?>" />
 					<h1>In The Lab With Jay Jay</h1>
 					<p>Hi there! Welcome to my beginner-friendly video blog about electronics!</p>
         </section>
       </header>
-      <section class="container">
+      <section>
         <h1>RSS Feed</h1>
         <p><xsl:value-of select="/rss/channel/title"/></p>
         <br />
