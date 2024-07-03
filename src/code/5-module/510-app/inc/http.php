@@ -78,9 +78,9 @@ function render_xslt_head() {
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui" />
 		<link rel="icon" href="<?= $cdn_base ?>/img/logo.png" />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+		<link rel="stylesheet" href="<?= $cdn_base ?>/res/style/milligram/normalize.css?v=<?= $version ?>" />
 		<link rel="stylesheet" href="https://d27cckvuinr11o.cloudfront.net/global/table.css?v=<?= $version ?>" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css" />
+		<link rel="stylesheet" href="<?= $cdn_base ?>/res/style/milligram/milligram.css?v=<?= $version ?>" />
 		<link rel="stylesheet" href="<?= $cdn_base ?>/res/style/main.css?v=<?= $version ?>" />
 		<link rel="stylesheet" href="<?= $cdn_base ?>/res/style/milligram/print.css" media="print" />
 		<script type="text/javascript">var DEBUG = false;</script>

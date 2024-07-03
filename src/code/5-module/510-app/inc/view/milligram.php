@@ -166,7 +166,8 @@ function render_head( $heading ) {
 
       // 2024-01-24 jj5 - CSS reset...
       //
-      tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => 'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css' ] );
+      tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => url_base( $use_cdn = true ) . '/res/style/milligram/normalize.css' ] );
+      //tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => 'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css' ] );
 
       $version = get_resource_version();
 
@@ -175,7 +176,8 @@ function render_head( $heading ) {
 
       // 2024-01-24 jj5 - Milligram CSS...
       //
-      tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => 'https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css' ] );
+      tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => url_base( $use_cdn = true ) . '/res/style/milligram/milligram.css' ] );
+      //tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => 'https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css' ] );
 
       //$hash = md5_file( __DIR__ . '/../../../../../web/root/in-the-lab/res/style/main.css' );
 
