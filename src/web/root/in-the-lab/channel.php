@@ -488,6 +488,7 @@ function render_show_info() {
 
     tag_shut( 'p' );
 
+    /*
     tag_open( 'ul' );
 
       foreach ( $video_list as $video ) {
@@ -519,6 +520,85 @@ function render_show_info() {
       }
 
     tag_shut( 'ul' );
+    */
+
+    tag_open( 'div', [ 'style' => 'text-align:center' ] );
+
+      tag_open( 'table', [ 'style' => 'display:inline-block' ] );
+
+        tag_open( 'thead' );
+
+          tag_open( 'tr' );
+
+            tag_open( 'th' );
+
+              out_text( 'Feature' );
+
+            tag_shut( 'th' );
+
+            tag_open( 'th' );
+
+              out_text( 'Title' );
+
+            tag_shut( 'th' );
+
+            tag_open( 'th' );
+
+              out_text( 'Duration' );
+
+            tag_shut( 'th' );
+
+          tag_shut( 'tr' );
+
+        tag_shut( 'thead' );
+
+        tag_open( 'tbody' );
+
+          foreach ( $video_list as $video ) {
+
+            $title = 'This video was published on ' . $publication_date->format_for_user() . ' and is ' . $video->get_duration()->to_string() . ' long.';
+
+            tag_open( 'tr', [ 'title' => $title ] );
+
+              tag_open( 'td', [ 'style' => 'text-align:right' ] );
+
+                $feature = $video->get_feature();
+
+                //$feature->render_internal_link();
+
+                out_text( $feature->get_name() . ': ' );
+
+              tag_shut( 'td' );
+
+              tag_open( 'td' );
+
+                tag_text(
+                  'a',
+                  $video->get_title(),
+                  [
+                    'href' => $video->get_internal_url(),
+                    'class' => 'internal',
+                    'title' => $video->get_title(),
+                  ]
+                );
+
+              tag_shut( 'td' );
+
+              tag_open( 'td', [ 'style' => 'text-align:right' ] );
+
+                out_text( $video->get_duration()->to_string() );
+
+              tag_shut( 'td' );
+
+            tag_shut( 'tr' );
+
+          }
+
+        tag_shut( 'tbody' );
+
+      tag_shut( 'table' );
+
+    tag_shut( 'div' );
 
   }
   else {
