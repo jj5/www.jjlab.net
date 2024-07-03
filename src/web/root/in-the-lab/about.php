@@ -36,6 +36,9 @@ function render_about_main() {
       tag_shut( 'section' );
 
     tag_shut( 'header' );
+
+    render_section_contents();
+
 ?>
 <section class="container">
   <h2 id="contact">Contact Info</h2>

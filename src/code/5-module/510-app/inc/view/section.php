@@ -102,6 +102,18 @@ define( 'TITLE_SORT_DEFAULT', 'Click here to use the default sort (expensive fir
 
 define( 'ALT_MAXITRONIX_LABS', "John's set of Maxitronix electronic project labs." );
 
+function render_section_contents() {
+
+  tag_open( 'section', [ 'class' => 'container' ] );
+
+    tag_text( 'h2', 'Contents', [ 'id' => 'contents' ] );
+
+    tag_text( 'div', 'Contents will go here (if you have Javascript enabled).', [ 'id' => 'contents_div' ] );
+
+  tag_shut( 'section' );
+
+}
+
 function render_section_latest() {
 
   return render_section_latest_main();

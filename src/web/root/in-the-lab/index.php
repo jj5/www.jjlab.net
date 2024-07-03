@@ -73,6 +73,8 @@ function render_index_main() {
 
     render_section_latest();
 
+    render_section_contents();
+
     render_section_about_main();
 
     render_section_about_conventions();

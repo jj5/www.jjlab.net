@@ -210,6 +210,8 @@ function handle_content_loaded( ev, el ) {
 
   el = el ?? this;
 
+  make_toc();
+
   set_window_size_cookie();
 
   load_iframes();
@@ -320,4 +322,140 @@ function log_function_call( fn ) {
 
   return true;
 
+}
+
+function make_toc() {
+
+  const default_h1_id = 'heading';
+
+  function extract_hier() {
+
+    const root = { parent: null, level: 0, text: 'root', node: null, children: [] };
+
+    let curr = root;
+
+    traverse( document.body, node => {
+
+      const name = node.nodeName;
+
+      if ( ! /^H[1-6]$/.test( name ) ) { return; }
+
+      const level = parseInt( name[ 1 ] );
+
+      while ( curr.level >= level ) { curr = curr.parent; }
+
+      if ( ! node.getAttribute( 'id' ) ) {
+
+        if ( level === 1 ) {
+
+          if ( ! document.getElementById( default_h1_id ) ) {
+
+            node.setAttribute( 'id', default_h1_id );
+
+          }
+        }
+      }
+
+      const child = {
+        parent: curr,
+        level: level,
+        text: node.textContent.trim(),
+        node: node,
+        id: node.getAttribute( 'id' ),
+        children: []
+      };
+
+      curr.children.push( child );
+
+      curr = child;
+
+    });
+
+    return root;
+
+  }
+
+  function traverse( node, callback ) {
+
+    callback( node );
+
+    node.childNodes.forEach( child => traverse( child, callback ) );
+
+  }
+
+  function add_node( node ) {
+
+    const li = document.createElement( 'li' );
+
+    let element = null;
+
+    if ( node.id ) {
+
+      element = document.createElement( 'a' );
+      element.setAttribute( 'href', '#' + node.id );
+      element.textContent = node.text;
+
+    }
+    else {
+
+      if ( node.children.length == 0 ) { return li; }
+
+      element = document.createElement( 'span' );
+      element.textContent = node.text;
+
+    }
+
+    li.appendChild( element );
+
+    if ( node.children.length ) {
+
+      const ul = document.createElement( 'ul' );
+
+      node.children.forEach( function ( child ) {
+
+        const child_li = add_node( child );
+
+        if ( child_li.childNodes.length ) {
+
+          ul.appendChild( child_li );
+
+        }      
+      });
+
+      li.appendChild( ul );
+
+    }
+
+    return li;
+
+  }
+
+  try {
+
+    // 2024-07-03 jj5 - NOTE: we always run this code, even if there is no 'contents_div' element, because this code will
+    // make sure the 'id' attribute is set on the first 'h1' element, if it is missing. this is important because then
+    // it will get a '#' link added to it and we want that to be consistent across the site.
+
+    const root_ul = document.createElement( 'ul' );
+
+    const root = extract_hier().children[ 0 ];
+
+    const root_li = add_node( root );
+
+    root_ul.appendChild( root_li );
+
+    const div = document.getElementById( 'contents_div' );
+
+    if ( ! div ) { return; }
+
+    div.innerHTML = '';
+
+    div.appendChild( root_ul );
+
+  }
+  catch ( ex ) {
+
+    console.error( ex );
+
+  }
 }
