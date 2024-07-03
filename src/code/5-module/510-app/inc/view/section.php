@@ -594,7 +594,8 @@ Maybe I should call it "the spectacle". :P</p>
 ?>
 
 <<?= $h3 ?> id="feeds">RSS Feeds</<?= $h3 ?>>
-<p>You can subscribe to RSS feeds for the show which is syndicated like this:</p>
+<p>You can subscribe to RSS feeds for the show which is syndicated as follows. You can subscribe to the whole lot, or
+  just pick the content category that you're interested in.</p>
 <?php
 
   tag_open( 'ul' );
