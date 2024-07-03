@@ -1846,7 +1846,7 @@ function render_section_about_channel_news( int $heading_level = 2 ) {
         ]
       );
 
-      out_text( ' airs occassionally on the ' );
+      out_text( ' air occassionally on the ' );
 
       tag_text(
         'a',
