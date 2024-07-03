@@ -139,17 +139,21 @@ function render_section_summary_blog( int $heading_level = 2 ) {
 
     tag_text( 'p', 'I usually write up show notes on my blog, which is over here:' );
 
-    tag_text(
-      'a',
-      'https://blog.jj5.net/',
-      [
-        'href' => 'https://blog.jj5.net/',
-        'class' => 'external',
-        'target' => '_blank',
-        'rel' => 'noopener follow',
-        'title' => TITLE_BLOG,
-      ]
-    );
+    tag_text( 'p', [ 'class' => 'indent' ] );
+
+      tag_text(
+        'a',
+        'https://blog.jj5.net/',
+        [
+          'href' => 'https://blog.jj5.net/',
+          'class' => 'external',
+          'target' => '_blank',
+          'rel' => 'noopener follow',
+          'title' => TITLE_BLOG,
+        ]
+      );
+
+    tag_shut( 'p' );
 
   tag_shut( 'section' );
 
