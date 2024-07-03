@@ -88,7 +88,7 @@ abstract class Url extends StringValue {
     tag_text(
       'a',
       $text,
-      [
+      $attrs + [
         'href' => $href,
         'class' => 'external',
       ]

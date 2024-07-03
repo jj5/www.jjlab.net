@@ -65,13 +65,13 @@ class Show extends Item {
   }
 
 
-  public function get_sponsor_list_html() {
+  public function get_sponsor_list_html( $text = null, $attrs = [] ) {
 
     $result_html = [];
 
     foreach ( $this->get_sponsor_list() as $sponsor ) {
 
-      $result_html[] = $sponsor->get_link_html();
+      $result_html[] = $sponsor->get_link_html( $text, $attrs );
 
     }
 

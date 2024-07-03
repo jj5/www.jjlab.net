@@ -164,12 +164,15 @@ function render_head( $heading ) {
       //tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => 'https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic' ] );
       //tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap' ] );
 
+      $version = get_resource_version();
+
+      // 2024-07-03 jj5 - OLD: this stuff has been consolidated now...
+      /*
       // 2024-01-24 jj5 - CSS reset...
       //
       tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => url_base( $use_cdn = true ) . '/res/style/milligram/normalize.css' ] );
       //tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => 'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css' ] );
 
-      $version = get_resource_version();
 
       tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => "https://d27cckvuinr11o.cloudfront.net/global/table.css?v=$version" ] );
       //tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => 'https://www.staticmagic.net/global/table.css?v=2024-01-12-123831' ] );
@@ -191,6 +194,9 @@ function render_head( $heading ) {
           'media' => 'print',
         ]
       );
+      */
+
+      tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => url_base( $use_cdn = true ) . "/res/style.php?v=$version" ] );
 
       tag_open( 'script' );
 
@@ -207,12 +213,18 @@ function render_head( $heading ) {
 
       tag_shut( 'script' );
 
+      // 2024-07-03 jj5 - OLD: this stuff has been consolidated now...
+      /*
       tag_bare( 'script', [ 'src' => "https://d27cckvuinr11o.cloudfront.net/global/default.js?v=$version" ] );
       //tag_bare( 'script', [ 'src' => 'https://www.staticmagic.net/global/default.js?v=2024-01-12-123831' ] );
 
       //$hash = md5_file( __DIR__ . '/../../../../../web/root/in-the-lab/res/script/common.js' );
 
       tag_bare( 'script', [ 'src' => url_base( $use_cdn = true ) . "/res/script/common.js?v=$version" ] );
+      */
+
+      tag_bare( 'script', [ 'src' => url_base( $use_cdn = true ) . "/res/script.php?v=$version" ] );
+
 
       $img_dir = realpath( __DIR__ . '/../../../../../web/root/in-the-lab/img' );
 

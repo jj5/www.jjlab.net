@@ -67,25 +67,25 @@ function render_video_list( $video_list ) {
 
               tag_open( 'td' );
 
-                $video->get_channel()->render_internal_link();
+                $video->get_channel()->render_internal_link( null, [ 'rel ' => 'follow' ] );
 
               tag_shut( 'td' );
 
               tag_open( 'td' );
 
-                $video->get_show_type()->render_internal_link();
+                $video->get_show_type()->render_internal_link( null, [ 'rel ' => 'follow' ] );
 
               tag_shut( 'td' );
 
               tag_open( 'td' );
 
-                $video->get_feature()->render_internal_link();
+                $video->get_feature()->render_internal_link( null, [ 'rel ' => 'follow' ] );
 
               tag_shut( 'td' );
 
               tag_open( 'td' );
 
-                $video->render_internal_link();
+                $video->render_internal_link( null, [ 'rel ' => 'follow' ] );
 
               tag_shut( 'td' );
 
@@ -112,7 +112,7 @@ function render_video_list( $video_list ) {
 
               tag_open( 'td' );
 
-                $video->render_external_link();
+                $video->render_external_link( null, [ 'rel ' => 'follow' ] );
 
               tag_shut( 'td' );
 
@@ -120,13 +120,13 @@ function render_video_list( $video_list ) {
 
                 $url = $video->get_segment()->get_blog_url();
 
-                $url->render_external_link( $url->get_domain() );
+                $url->render_external_link( $url->get_domain(), [ 'rel ' => 'follow' ] );
 
               tag_shut( 'td' );
 
               tag_open( 'td' );
 
-                out_html( $video->get_segment()->get_sponsor_list_html() );
+                out_html( $video->get_segment()->get_sponsor_list_html( null, [ 'rel' => 'follow' ] ) );
 
               tag_shut( 'td' );
 

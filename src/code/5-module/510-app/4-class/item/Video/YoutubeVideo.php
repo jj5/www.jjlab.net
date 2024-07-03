@@ -43,14 +43,16 @@ class YoutubeVideo extends Video {
 
   public function get_slug() { return $this->get( Slug::class ); }
 
-  public function render_external_link() {
+  public function render_external_link( $text = null, $attrs = [] ) {
 
     $url = $this->get_url()->to_string();
 
+    $text = $text ?? $url;
+
     tag_text(
       'a',
-      $url,
-      [
+      $text,
+      $attrs + [
         'href' => $url,
         'class' => 'external',
         'target' => '_blank',

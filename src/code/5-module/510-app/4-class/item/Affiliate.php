@@ -23,10 +23,24 @@ class Affiliate extends Item {
 
     $url = $this->get_affiliate_url()->to_string();
 
-    $url_html = henc( $url );
-    $text_html = henc( $text );
+    //$url_html = henc( $url );
+    //$text_html = henc( $text );
+    //return "<a href='$url_html' class='affiliate external' target='_blank'>$text_html</a>";
 
-    return "<a href='$url_html' class='affiliate external' target='_blank'>$text_html</a>";
+    ob_start();
+
+    tag_text(
+      'a',
+      $text,
+      $attrs + [
+        'href' => $url,
+        'class' => 'affiliate external',
+        'target' => '_blank',
+        'title' => 'Click here to visit the affiliate website.',
+      ]
+    );
+
+    return ob_get_clean();
 
   }
 

@@ -52,19 +52,47 @@ function url_base( $use_cdn = false ) {
 
 }
 
-function render_xslt_headers() {
+function render_one_year_expires_headers() {
+
+  if ( is_prod() ) {
+
+    $one_year = 365 * 24 * 60 * 60; // One year in seconds
+
+    header( "Cache-Control: public, max-age=$one_year, immutable" );
+    header( "Expires: " . gmdate( 'D, d M Y H:i:s', time() + $one_year ) . ' GMT' );
+
+  }
+
+  // 2024-07-03 jj5 - this is a reasonable place to do this:
 
   global $cdn_base, $url_base;
 
-  header( 'Content-Type: application/xslt+xml; charset=UTF-8' );
-
-  $one_year = 365 * 24 * 60 * 60; // One year in seconds
-
-  header( "Cache-Control: public, max-age=$one_year, immutable" );
-  header( "Expires: " . gmdate( 'D, d M Y H:i:s', time() + $one_year ) . ' GMT' );
-
   $cdn_base = url_base( $use_cdn = ! DEBUG );
   $url_base = url_base();
+
+}
+
+function render_script_headers() {
+
+  header( 'Content-Type: application/javascript; charset=UTF-8' );
+
+  render_one_year_expires_headers();
+
+}
+
+function render_style_headers() {
+
+  header( 'Content-Type: text/css; charset=UTF-8' );
+
+  render_one_year_expires_headers();
+
+}
+
+function render_xslt_headers() {
+
+  header( 'Content-Type: application/xslt+xml; charset=UTF-8' );
+
+  render_one_year_expires_headers();
 
   echo '<?xml version="1.0" encoding="utf-8"?>' . "\n";
 

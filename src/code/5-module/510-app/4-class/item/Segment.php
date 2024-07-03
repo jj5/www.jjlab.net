@@ -43,9 +43,9 @@ abstract class Segment extends Item {
 
   }
 
-  public function get_sponsor_list_html() {
+  public function get_sponsor_list_html( $text = null, $attrs = [] ) {
 
-    return $this->get_show()->get_sponsor_list_html();
+    return $this->get_show()->get_sponsor_list_html( $text, $attrs );
 
   }
 
