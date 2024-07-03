@@ -136,7 +136,7 @@ abstract class Money extends IntValue {
 
     }
 
-    return $this->to_currency( $output_currency )->to_string();
+    return strval( $this->to_currency( $output_currency ) );
 
   }
 
