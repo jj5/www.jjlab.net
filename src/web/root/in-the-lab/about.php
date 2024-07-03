@@ -143,7 +143,7 @@ function render_section_summary_blog( int $heading_level = 2 ) {
 
       tag_text(
         'a',
-        'https://blog.jj5.net/',
+        'blog.jj5.net',
         [
           'href' => 'https://blog.jj5.net/',
           'class' => 'external',
