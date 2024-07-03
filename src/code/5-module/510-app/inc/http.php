@@ -65,10 +65,11 @@ function render_one_year_expires_headers() {
 
   // 2024-07-03 jj5 - this is a reasonable place to do this:
 
-  global $cdn_base, $url_base;
+  global $cdn_base, $url_base, $version;
 
   $cdn_base = url_base( $use_cdn = ! DEBUG );
   $url_base = url_base();
+  $version = get_resource_version();
 
 }
 
@@ -143,18 +144,18 @@ function render_xslt_head() {
 ?>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui" />
-		<link rel="icon" href="<?= $cdn_base ?>/res/img.php/logo.png?v=<? = get_resource_version() ?>" />
+		<link rel="icon" href="<?= $cdn_base ?>/res/img.php/logo.png?v=<?= get_resource_version() ?>" />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
 
 		<link rel="stylesheet" href="<?= $cdn_base ?>/res/style.php?v=jjlab-0.2.385" />
 		<script>var DEBUG = false;</script>
 		<script src="<?= $cdn_base ?>/res/script.php?v=jjlab-0.2.385"></script>
 
-		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/banner-base.jpg?v=<? = get_resource_version() ?>" as="image" />
-		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/banner-0640.jpg?v=<? = get_resource_version() ?>" as="image" />
-		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/banner.jpg?v=<? = get_resource_version() ?>" as="image" />
-		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/logo.png?v=<? = get_resource_version() ?>" as="image" />
-		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/rss/rss-40674_50.png?v=<? = get_resource_version() ?>" as="image" />
+		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/banner-base.jpg?v=<?= get_resource_version() ?>" as="image" />
+		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/banner-0640.jpg?v=<?= get_resource_version() ?>" as="image" />
+		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/banner.jpg?v=<?= get_resource_version() ?>" as="image" />
+		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/logo.png?v=<?= get_resource_version() ?>" as="image" />
+		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/rss/rss-40674_50.png?v=<?= get_resource_version() ?>" as="image" />
 <?php
 }
 function render_xslt_nav_header() {
@@ -163,7 +164,7 @@ function render_xslt_nav_header() {
 			<nav class="navigation">
 				<div class="container">
 					<a href="<?= $url_base ?>/" class="navigation-title" title="In The Lab With Jay Jay is the video blog of John Elliot V">
-						<img src="<?= $cdn_base ?>/res/img.php/logo.png?v=<? = get_resource_version() ?>" alt="" />
+						<img src="<?= $cdn_base ?>/res/img.php/logo.png?v=<?= get_resource_version() ?>" alt="" />
 						<header class="title">In The Lab With Jay Jay</header></a>
 					<ul class="navigation-list">
 						<li class="navigation-item">
@@ -187,7 +188,7 @@ function render_xslt_nav_header() {
 										<a href="<?= $url_base ?>/support.php" class="internal popover-link" title="See how you can support the show. Thanks for thinking of me!">Support The Show!</a></li>
 									<li class="popover-item">
 										<a class="internal popover-link" href="<?= $url_base ?>/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos.">
-											<img src="<?= $cdn_base ?>/res/img.php/rss/rss-40674_50.png?v=<? = get_resource_version() ?>" style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" alt="" /></a></li></ul></div></li></ul>
+											<img src="<?= $cdn_base ?>/res/img.php/rss/rss-40674_50.png?v=<?= get_resource_version() ?>" style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" alt="" /></a></li></ul></div></li></ul>
 					<div class="menu-list">
 						<a href="<?= $url_base ?>/" class="internal" title="Welcome!">Home</a> | 
 						<a href="<?= $url_base ?>/channel.php/@InTheLabWithJayJay" class="internal" title="The main channel is @InTheLabWithJayJay.">Main Channel</a> | 
@@ -196,12 +197,12 @@ function render_xslt_nav_header() {
 						<a href="<?= $url_base ?>/about.php" class="internal" title="Find out more about the show including contact info.">About</a> | 
 						<a href="<?= $url_base ?>/support.php" class="internal" title="See how you can support the show. Thanks for thinking of me!">Support The Show!</a>
 						<a class="internal" href="<?= $url_base ?>/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos.">
-							<img src="<?= $cdn_base ?>/res/img.php/rss/rss-40674_50.png?v=<? = get_resource_version() ?>" style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" alt="" /></a></div></div></nav>
+							<img src="<?= $cdn_base ?>/res/img.php/rss/rss-40674_50.png?v=<?= get_resource_version() ?>" style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" alt="" /></a></div></div></nav>
 			<header id="banner">
-				<img class="rc-base" src="<?= $cdn_base ?>/res/img.php/banner-base.jpg?v=<? = get_resource_version() ?>" />
-				<img class="rc-0320" src="<?= $cdn_base ?>/res/img.php/banner-base.jpg?v=<? = get_resource_version() ?>" />
-				<img class="rc-0640" src="<?= $cdn_base ?>/res/img.php/banner-0640.jpg?v=<? = get_resource_version() ?>" />
-				<img class="rc-1280" src="<?= $cdn_base ?>/res/img.php/banner.jpg?v=<? = get_resource_version() ?>" />
-				<img class="rc-1920" src="<?= $cdn_base ?>/res/img.php/banner.jpg?v=<? = get_resource_version() ?>" /></header>
+				<img class="rc-base" src="<?= $cdn_base ?>/res/img.php/banner-base.jpg?v=<?= get_resource_version() ?>" />
+				<img class="rc-0320" src="<?= $cdn_base ?>/res/img.php/banner-base.jpg?v=<?= get_resource_version() ?>" />
+				<img class="rc-0640" src="<?= $cdn_base ?>/res/img.php/banner-0640.jpg?v=<?= get_resource_version() ?>" />
+				<img class="rc-1280" src="<?= $cdn_base ?>/res/img.php/banner.jpg?v=<?= get_resource_version() ?>" />
+				<img class="rc-1920" src="<?= $cdn_base ?>/res/img.php/banner.jpg?v=<?= get_resource_version() ?>" /></header>
 <?php
 }
