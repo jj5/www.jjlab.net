@@ -24,6 +24,16 @@ channel(
     show_name( 'Special Show' ),
     show_text( 'In the special shows we take a look at something interesting and electronics related.' ),
     feature(
+      feature_slug( 'new-book-teardown' ),
+      feature_name( 'New Book Teardown' ),
+      feature_text( 'In the new book teardown videos we take a close look at a new electronics book.' ),
+    ),
+    feature(
+      feature_slug( 'mini-project' ),
+      feature_name( 'Mini Project' ),
+      feature_text( 'In the mini project videos we work our way through the mini projects published in Silicon Chip magazine.' ),
+    ),
+    feature(
       feature_slug( 'channel-news' ),
       feature_name( 'Channel News' ),
       feature_text( 'In the channel news videos I let you know about developments related to the show.' ),
@@ -82,16 +92,6 @@ channel(
       feature_slug( 'maxitronix-500in1' ),
       feature_name( 'Maxitronix 500in1' ),
       feature_text( 'In the Maxitronix 500in1 videos we work our way through the Maxitronix 500in1 electronics project lab.' ),
-    ),
-    feature(
-      feature_slug( 'mini-project' ),
-      feature_name( 'Mini Project' ),
-      feature_text( 'In the mini project videos we work our way through the mini projects published in Silicon Chip magazine.' ),
-    ),
-    feature(
-      feature_slug( 'new-book-teardown' ),
-      feature_name( 'New Book Teardown' ),
-      feature_text( 'In the new book teardown videos we take a close look at a new electronics book.' ),
     ),
     feature(
       feature_slug( 'early-content' ),
