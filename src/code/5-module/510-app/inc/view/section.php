@@ -2022,7 +2022,7 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
 
       tag_text(
         'a',
-        'Maxitronix Xin1 Kits',
+        'announcement video',
         [
           'href' => url_base() . '/show-type.php/maxitronix#announcement',
           'class' => 'internal',
