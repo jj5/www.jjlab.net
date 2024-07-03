@@ -70,21 +70,28 @@ function render_xslt_headers() {
 
 }
 
+function get_app_version() {
+
+  return JJLAB_CODE . '-' . JJLAB_VERSION_MAJOR . '.' . JJLAB_VERSION_MINOR . '.' . JJLAB_VERSION_PATCH;
+
+}
+
 function render_xslt_head() {
   global $cdn_base, $url_base;
+  $version = get_app_version();
 ?>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui" />
 		<link rel="icon" href="<?= $cdn_base ?>/img/logo.png" />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
-		<link rel="stylesheet" href="https://d27cckvuinr11o.cloudfront.net/global/table.css?v=2024-01-12-123831" />
+		<link rel="stylesheet" href="https://d27cckvuinr11o.cloudfront.net/global/table.css?v=<?= $version ?>" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css" />
-		<link rel="stylesheet" href="<?= $cdn_base ?>/res/style/main.css?v=2024-06-16-214523" />
+		<link rel="stylesheet" href="<?= $cdn_base ?>/res/style/main.css?v=<?= $version ?>" />
 		<link rel="stylesheet" href="<?= $cdn_base ?>/res/style/milligram/print.css" media="print" />
 		<script type="text/javascript">var DEBUG = false;</script>
-		<script src="https://d27cckvuinr11o.cloudfront.net/global/default.js?v=2024-01-12-123831" type="text/javascript"></script>
-		<script src="<?= $cdn_base ?>/res/script/common.js?v=2024-06-15-212624" type="text/javascript"></script>
+		<script src="https://d27cckvuinr11o.cloudfront.net/global/default.js?v=<?= $version ?>" type="text/javascript"></script>
+		<script src="<?= $cdn_base ?>/res/script/common.js?v=<?= $version ?>" type="text/javascript"></script>
 		<link rel="preload" href="<?= $cdn_base ?>/img/banner-base.jpg" as="image" />
 		<link rel="preload" href="<?= $cdn_base ?>/img/banner-0640.jpg" as="image" />
 		<link rel="preload" href="<?= $cdn_base ?>/img/banner.jpg" as="image" />
