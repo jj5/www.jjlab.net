@@ -82,24 +82,31 @@
         <p><xsl:value-of select="/rss/channel/title"/></p>
         <br />
         <h2>Recent Posts</h2>
-        <xsl:for-each select="/rss/channel/item">
-            <article>
-                <strong>
-                    <a hreflang="en" target="_blank">
-                        <xsl:attribute name="href">
-                            <xsl:value-of select="link"/>
-                        </xsl:attribute>
-                        <xsl:value-of select="title"/>
-                    </a>
-                </strong>
-                <p>
-                    Published:
-                    <time>
-                        <xsl:value-of select="pubDate" />
-                    </time>
-                </p>
-            </article>
-        </xsl:for-each>
+        <xsl:choose>
+          <xsl:when test="count(/rss/channel/item)=0">
+            <p>There are no posts for this content category yet. But stick around! :)</p>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:for-each select="/rss/channel/item">
+                <article>
+                    <strong>
+                        <a hreflang="en" target="_blank">
+                            <xsl:attribute name="href">
+                                <xsl:value-of select="link"/>
+                            </xsl:attribute>
+                            <xsl:value-of select="title"/>
+                        </a>
+                    </strong>
+                    <p>
+                        Published:
+                        <time>
+                            <xsl:value-of select="pubDate" />
+                        </time>
+                    </p>
+                </article>
+            </xsl:for-each>
+          </xsl:otherwise>
+        </xsl:choose>
       </section>
     </main>
 		<footer>

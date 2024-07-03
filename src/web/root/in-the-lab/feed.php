@@ -81,9 +81,19 @@ function render_feed_feature( $slug ) {
 
 }
 
+function get_last_build_date( $item = null ) {
+
+  if ( $item ) { return $item->get_publication_date()->format_for_web(); }
+
+  return date( DATE_FORMAT_FOR_WEB );
+
+}
+
 function render_feed_for_list( $video_list, $topic = null ) {
 
-  $latest = $video_list[ 0 ];
+  $latest = $video_list[ 0 ] ?? null;
+
+  $last_build_date = get_last_build_date( $latest );
 
   $section = $topic ? $topic->get_name() . ' Videos' : '';
 
@@ -153,7 +163,7 @@ function render_feed_for_list( $video_list, $topic = null ) {
       tag_bare( 'atom:link', [ 'href' => mud_get_full_request_url(), 'rel' => 'self', 'type' => 'application/rss+xml' ] );
       tag_text( 'link', 'https://www.inthelabwithjayjay.com/' );
       tag_text( 'description', 'A video blog of interest to the electronics hobbyist.' );
-      tag_text( 'lastBuildDate', $latest->get_publication_date()->format_for_web() );
+      tag_text( 'lastBuildDate', $last_build_date );
       tag_text( 'language', 'en-US' );
       tag_text( 'sy:updatePeriod', 'hourly' );
       tag_text( 'sy:updateFrequency', '1' );
