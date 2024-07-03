@@ -30,6 +30,7 @@
 					<a href="/in-the-lab/" class="navigation-title" title="In The Lab With Jay Jay is the video blog of John Elliot V">
 						<img src="https://der3syffk4l6q.cloudfront.net/in-the-lab/img/logo.png" />
 						<h1 class="title">In The Lab With Jay Jay</h1></a>
+
 					<ul class="navigation-list">
 						<li class="navigation-item">
 							<button class="hamburger" onclick="handle_hamburger_click( event, this )" title="Click here to access the website navigation.">
@@ -51,8 +52,9 @@
 									<li class="popover-item">
 										<a href="/in-the-lab/support.php" class="internal popover-link" title="See how you can support the show. Thanks for thinking of me!">Support The Show!</a></li>
 									<li class="popover-item">
-										<a class="internal popover-link" href="/in-the-lab/feed.php" title="In The Lab With Jay Jay » Feed">
-											<img src="https://der3syffk4l6q.cloudfront.net/in-the-lab/img/rss/rss-40674_50.png" style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" /></a></li></ul></div></li></ul>
+										<a class="internal popover-link" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos.">
+											<img src="https://der3syffk4l6q.cloudfront.net/in-the-lab/img/rss/rss-40674_50.png" style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" alt="" /></a></li></ul></div></li></ul>
+
 					<div class="menu-list">
 						<a href="/in-the-lab/" class="internal" title="Welcome!">Home</a> | 
 						<a href="/in-the-lab/channel.php/@InTheLabWithJayJay" class="internal" title="The main channel is @InTheLabWithJayJay.">Main Channel</a> | 

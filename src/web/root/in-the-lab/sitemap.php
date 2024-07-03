@@ -30,9 +30,11 @@ function render_sitemap() {
 
   global $domain;
 
+  $version = JJLAB_VERSION_MAJOR . '.' . JJLAB_VERSION_MINOR . '.' . JJLAB_VERSION_PATCH;
+
   if ( is_prod() ) {
 
-    $sitemap_xsl = 'https://www.inthelabwithjayjay.com/in-the-lab/sitemap.xsl';
+    $sitemap_xsl = "https://www.inthelabwithjayjay.com/in-the-lab/sitemap.xsl?v=$version";
     $domain = 'https://www.inthelabwithjayjay.com';
 
   }
