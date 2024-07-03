@@ -1454,13 +1454,13 @@ function render_section_about_old_book_teardown( int $heading_level = 2 ) {
 
       out_text( 'do in these videos. Usually I haven\'t read the book before, usually I am looking at it for the first time, and ' );
 
-      out_text( 'what I do on the video with you is have a look of what\'s inside. I have a look at the front and the back ' );
+      out_text( 'what I do on the video with you is have a look at what\'s inside. I have a look at the front and the back ' );
 
       out_text( 'and then go through the table of contents in detail. Usually I will also take a close look at some specific thing ' );
 
       out_text( 'which takes my interest as I\'m reading out the contents. So these are not simply book reviews, they are book ' );
 
-      out_text( 'teardowns, which is a particular and specific type of review.' );
+      out_text( 'teardowns, which is a particular and specific type of examination.' );
 
     tag_shut( 'p' );
 
