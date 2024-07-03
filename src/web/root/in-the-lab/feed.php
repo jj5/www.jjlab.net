@@ -123,7 +123,7 @@ function render_feed_for_list( $video_list, $topic = null ) {
   }
   else {
 
-    $feed_xsl = url_base() . '/feed.xsl.php';
+    $feed_xsl = url_base() . '/feed.xsl.php?v=' . date( 'Y-m-d-His' );
     $domain = 'http://localhost';
 
   }

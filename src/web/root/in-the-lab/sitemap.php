@@ -40,7 +40,7 @@ function render_sitemap() {
   }
   else {
 
-    $sitemap_xsl = url_base() . '/sitemap.xsl.php';
+    $sitemap_xsl = url_base() . '/sitemap.xsl.php?v=' . date( 'Y-m-d-His' );
     $domain = 'http://localhost';
 
   }

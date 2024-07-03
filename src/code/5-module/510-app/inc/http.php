@@ -51,3 +51,92 @@ function url_base( $use_cdn = false ) {
   return '/www.jjlab.net/in-the-lab';
 
 }
+
+function render_xslt_headers() {
+
+  global $cdn_base, $url_base;
+
+  header( 'Content-Type: application/xslt+xml; charset=UTF-8' );
+
+  $one_year = 365 * 24 * 60 * 60; // One year in seconds
+
+  header( "Cache-Control: public, max-age=$one_year, immutable" );
+  header( "Expires: " . gmdate( 'D, d M Y H:i:s', time() + $one_year ) . ' GMT' );
+
+  $cdn_base = url_base( $use_cdn = ! DEBUG );
+  $url_base = url_base();
+
+  echo '<?xml version="1.0" encoding="utf-8"?>' . "\n";
+
+}
+
+function render_xslt_head() {
+  global $cdn_base, $url_base;
+?>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui" />
+		<link rel="icon" href="<?= $cdn_base ?>/img/logo.png" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+		<link rel="stylesheet" href="https://d27cckvuinr11o.cloudfront.net/global/table.css?v=2024-01-12-123831" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css" />
+		<link rel="stylesheet" href="<?= $cdn_base ?>/res/style/main.css?v=2024-06-16-214523" />
+		<link rel="stylesheet" href="<?= $cdn_base ?>/res/style/milligram/print.css" media="print" />
+		<script type="text/javascript">var DEBUG = false;</script>
+		<script src="https://d27cckvuinr11o.cloudfront.net/global/default.js?v=2024-01-12-123831" type="text/javascript"></script>
+		<script src="<?= $cdn_base ?>/res/script/common.js?v=2024-06-15-212624" type="text/javascript"></script>
+		<link rel="preload" href="<?= $cdn_base ?>/img/banner-base.jpg" as="image" />
+		<link rel="preload" href="<?= $cdn_base ?>/img/banner-0640.jpg" as="image" />
+		<link rel="preload" href="<?= $cdn_base ?>/img/banner.jpg" as="image" />
+		<link rel="preload" href="<?= $cdn_base ?>/img/logo.png" as="image" />
+		<link rel="preload" href="<?= $cdn_base ?>/img/rss/rss-40674_50.png" as="image" />
+<?php
+}
+function render_xslt_nav_header() {
+  global $cdn_base, $url_base;
+?>
+			<nav class="navigation">
+				<div class="container">
+					<a href="<?= $url_base ?>/" class="navigation-title" title="In The Lab With Jay Jay is the video blog of John Elliot V">
+						<img src="<?= $cdn_base ?>/img/logo.png" alt="" />
+						<header class="title">In The Lab With Jay Jay</header></a>
+					<ul class="navigation-list">
+						<li class="navigation-item">
+							<button class="hamburger" onclick="handle_hamburger_click( event, this )" title="Click here to access the website navigation.">
+								<span class="bar"></span>
+								<span class="bar"></span>
+								<span class="bar"></span></button>
+							<div id="popover-grid" class="popover">
+								<ul class="popover-list">
+									<li class="popover-item">
+										<a href="<?= $url_base ?>/" class="internal popover-link" title="Welcome!">Home</a></li>
+									<li class="popover-item">
+										<a href="<?= $url_base ?>/channel.php/@InTheLabWithJayJay" class="internal popover-link" title="The main channel is @InTheLabWithJayJay.">Main Channel</a></li>
+									<li class="popover-item">
+										<a href="<?= $url_base ?>/sponsor.php" class="internal popover-link" title="Super big shout out to our very generous sponsors!">Sponsors</a></li>
+									<li class="popover-item">
+										<a href="<?= $url_base ?>/equipment.php" class="internal popover-link" title="See the lab equipment that I own along with affiliate links to buy.">Equipment</a></li>
+									<li class="popover-item">
+										<a href="<?= $url_base ?>/about.php" class="internal popover-link" title="Find out more about the show including contact info.">About</a></li>
+									<li class="popover-item">
+										<a href="<?= $url_base ?>/support.php" class="internal popover-link" title="See how you can support the show. Thanks for thinking of me!">Support The Show!</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" href="<?= $url_base ?>/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos.">
+											<img src="<?= $cdn_base ?>/img/rss/rss-40674_50.png" style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" alt="" /></a></li></ul></div></li></ul>
+					<div class="menu-list">
+						<a href="<?= $url_base ?>/" class="internal" title="Welcome!">Home</a> | 
+						<a href="<?= $url_base ?>/channel.php/@InTheLabWithJayJay" class="internal" title="The main channel is @InTheLabWithJayJay.">Main Channel</a> | 
+						<a href="<?= $url_base ?>/sponsor.php" class="internal" title="Super big shout out to our very generous sponsors!">Sponsors</a> | 
+						<a href="<?= $url_base ?>/equipment.php" class="internal" title="See the lab equipment that I own along with affiliate links to buy.">Equipment</a> | 
+						<a href="<?= $url_base ?>/about.php" class="internal" title="Find out more about the show including contact info.">About</a> | 
+						<a href="<?= $url_base ?>/support.php" class="internal" title="See how you can support the show. Thanks for thinking of me!">Support The Show!</a>
+						<a class="internal" href="<?= $url_base ?>/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos.">
+							<img src="<?= $cdn_base ?>/img/rss/rss-40674_50.png" style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" alt="" /></a></div></div></nav>
+			<header id="banner">
+				<img class="rc-base" src="<?= $cdn_base ?>/img/banner-base.jpg" />
+				<img class="rc-0320" src="<?= $cdn_base ?>/img/banner-base.jpg" />
+				<img class="rc-0640" src="<?= $cdn_base ?>/img/banner-0640.jpg" />
+				<img class="rc-1280" src="<?= $cdn_base ?>/img/banner.jpg" />
+				<img class="rc-1920" src="<?= $cdn_base ?>/img/banner.jpg" /></header>
+<?php
+}
