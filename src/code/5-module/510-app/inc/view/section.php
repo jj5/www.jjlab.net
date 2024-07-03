@@ -2038,7 +2038,58 @@ function render_section_about_early_content( int $heading_level = 2 ) {
         ]
       );
 
-      out_text( '. Early content was recorded back in the early days when I was just getting started, and since then the format has changed.' );
+      out_text( ". Early content was recorded back in the early days when I was just getting started, " );
+      out_text( "and since then the format of the show has changed. " );
+
+      out_text( "The format now includes the regular " );
+
+      tag_text(
+        'a',
+        'electronics projects',
+        [
+          'href' => url_base() . '/feature.php/electronics-project',
+          'class' => 'internal',
+          'title' => TITLE_FEATURE_ELECTRONICS_PROJECT,
+        ]
+      );
+
+      out_text( " and the " );
+
+      tag_text(
+        'a',
+        'old book teardowns',
+        [
+          'href' => url_base() . '/feature.php/old-book-teardown',
+          'class' => 'internal',
+          'title' => TITLE_FEATURE_OLD_BOOK_TEARDOWN,
+        ]
+      );
+
+      out_text( ", I have the " );
+
+      tag_text(
+        'a',
+        'silly job title',
+        [
+          'href' => url_base() . '/#silly-job-title',
+          'class' => 'internal',
+          'title' => TITLE_SILLY_JOB_TITLE,
+        ]
+      );
+
+      out_text( ", and I " );
+
+      tag_text(
+        'a',
+        'wear my costume',
+        [
+          'href' => url_base() . '/#costume',
+          'class' => 'internal',
+          'title' => TITLE_COSTUME,
+        ]
+      );
+
+      out_text( ". I didn't do any of that in the beginning so you won't see any of that in these old videos." );
 
     tag_shut( 'p' );
 
