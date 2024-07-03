@@ -94,7 +94,7 @@ function render_support_main() {
       If you have quality products or services of interest to the electronics hobbyist that wouldn't embarrass me
       to promote,
       <a
-        href="<?= url_base() ?>/about.php"
+        href="<?= url_base() ?>/about.php#contact"
         class="internal"
         title="Click-through to contact me."
       >let's talk</a>.

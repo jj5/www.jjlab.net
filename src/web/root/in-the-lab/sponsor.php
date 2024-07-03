@@ -120,7 +120,7 @@ function render_sponsor_main() {
           'a',
           "let's talk",
           [
-            'href' => url_base() . '/about.php',
+            'href' => url_base() . '/about.php#contact',
             'class' => 'internal',
             'title' => TITLE_CONTACT,
           ]
