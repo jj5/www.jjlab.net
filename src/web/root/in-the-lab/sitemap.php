@@ -45,7 +45,7 @@ function render_sitemap() {
 
   }
 
-  out_html( "<?xml-stylesheet href=\"$sitemap_xsl\" type=\"text/xsl\"?>\n" );
+  out_html( "<?xml-stylesheet href=\"$sitemap_xsl\" type=\"text/xsl\"?>" );
 
   $latest_video = app_stash()->get_live_video_list()[ 0 ];
   $latest_video_date = $latest_video->get_publication_date()->format_for_sitemap();

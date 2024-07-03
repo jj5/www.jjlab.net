@@ -128,7 +128,7 @@ function render_feed_for_list( $video_list, $topic = null ) {
 
   }
 
-  out_html( "<?xml-stylesheet href=\"$feed_xsl\" type=\"text/xsl\"?>\n" );
+  out_html( "<?xml-stylesheet href=\"$feed_xsl\" type=\"text/xsl\"?>" );
 
   tag_open(
     'rss',
