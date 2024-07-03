@@ -46,7 +46,7 @@ function render_support_main() {
 
     tag_open( 'section' );
 
-      tag_text( 'h' . $heading_level, 'Sponsor On Patreon', [ 'id' => 'sponsor-on-patreon' ] );
+      tag_text( 'h' . $heading_level, 'Sponsor on Patreon', [ 'id' => 'sponsor-on-patreon' ] );
 
       tag_text( 'p', 'If you can send me a few dollars a month via Patreon that would really help me to continue making content for the show:' );
 
@@ -102,7 +102,7 @@ function render_support_main() {
 
     tag_open( 'section' );
 
-      tag_text( 'h' . $heading_level, 'Click Through On Affiliate Links', [ 'id' => 'click-affiliate-links' ] );
+      tag_text( 'h' . $heading_level, 'Click Through on Affiliate Links', [ 'id' => 'click-affiliate-links' ] );
 
       tag_open( 'p' );
 

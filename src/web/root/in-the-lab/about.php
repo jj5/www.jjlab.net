@@ -21,7 +21,7 @@ function render() {
 
 function render_about_main() {
 
-  render_head( 'About The Show' );
+  render_head( 'About the Website' );
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
@@ -29,7 +29,7 @@ function render_about_main() {
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
-        tag_text( 'h1', "About The Show" );
+        tag_text( 'h1', "About the Website" );
         
         tag_text( 'p', 'This website is for the video blog of John Elliot V who is affectionately known as Jay Jay.' );
 

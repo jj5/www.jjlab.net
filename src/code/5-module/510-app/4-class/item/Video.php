@@ -82,7 +82,7 @@ abstract class Video extends Item {
         'href' => $url,
         'class' => 'internal',
         'rel' => 'follow',
-        'title' => 'Click here to watch this video.'
+        'title' => TITLE_LINK_VIDEO
       ]
     );
 

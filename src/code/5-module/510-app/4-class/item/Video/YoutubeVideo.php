@@ -57,7 +57,7 @@ class YoutubeVideo extends Video {
         'class' => 'external',
         'target' => '_blank',
         'rel' => 'noopener follow',
-        'title' => 'Click here to watch the video on YouTube.',
+        'title' => TITLE_LINK_YOUTUBE,
       ]
     );
 

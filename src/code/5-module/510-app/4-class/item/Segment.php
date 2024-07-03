@@ -55,7 +55,7 @@ abstract class Segment extends Item {
   
   public function render_breadcrumbs() { ; }
 
-  public function get_title_attr() { return 'Click here to watch this video.'; }
+  public function get_title_attr() { return TITLE_LINK_SEGMENT; }
 
   public function get_show() { return $this->get_closest( Show::class ); }
 

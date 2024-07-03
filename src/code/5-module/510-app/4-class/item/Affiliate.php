@@ -37,7 +37,7 @@ class Affiliate extends Item {
         'class' => 'affiliate external',
         'target' => '_blank',
         'rel' => 'noopener follow',
-        'title' => 'Click here to visit the affiliate website.',
+        'title' => TITLE_LINK_AFFILIATE,
       ]
     );
 

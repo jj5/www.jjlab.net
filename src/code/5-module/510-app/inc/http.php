@@ -163,40 +163,40 @@ function render_xslt_nav_header() {
 ?>
 			<nav class="navigation">
 				<div class="container">
-					<a href="<?= $url_base ?>/" class="navigation-title" title="In The Lab With Jay Jay is the video blog of John Elliot V">
+					<a href="<?= $url_base ?>/" class="navigation-title" title="<?= TITLE_LOGO ?>">
 						<img src="<?= $cdn_base ?>/res/img.php/logo.png?v=<?= get_resource_version() ?>" alt="" />
 						<header class="title">In The Lab With Jay Jay</header></a>
 					<ul class="navigation-list">
 						<li class="navigation-item">
-							<button class="hamburger" onclick="handle_hamburger_click( event, this )" title="Click here to access the website navigation.">
+							<button class="hamburger" onclick="handle_hamburger_click( event, this )" title="<?= TITLE_NAV_HAMBURGER ?>">
 								<span class="bar"></span>
 								<span class="bar"></span>
 								<span class="bar"></span></button>
 							<div id="popover-grid" class="popover">
 								<ul class="popover-list">
 									<li class="popover-item">
-										<a href="<?= $url_base ?>/" class="internal popover-link" title="Welcome!">Home</a></li>
+										<a href="<?= $url_base ?>/" class="internal popover-link" title="<?= TITLE_NAV_HOME ?>">Home</a></li>
 									<li class="popover-item">
-										<a href="<?= $url_base ?>/channel.php/@InTheLabWithJayJay" class="internal popover-link" title="The main channel is @InTheLabWithJayJay.">Main Channel</a></li>
+										<a href="<?= $url_base ?>/channel.php/@InTheLabWithJayJay" class="internal popover-link" title="<?= TITLE_NAV_MAIN ?>">Main Channel</a></li>
 									<li class="popover-item">
-										<a href="<?= $url_base ?>/sponsor.php" class="internal popover-link" title="Super big shout out to our very generous sponsors!">Sponsors</a></li>
+										<a href="<?= $url_base ?>/sponsor.php" class="internal popover-link" title="<?= TITLE_NAV_SPONSORS ?>">Sponsors</a></li>
 									<li class="popover-item">
-										<a href="<?= $url_base ?>/equipment.php" class="internal popover-link" title="See the lab equipment that I own along with affiliate links to buy.">Equipment</a></li>
+										<a href="<?= $url_base ?>/equipment.php" class="internal popover-link" title="<?= TITLE_NAV_EQUIPMENT ?>">Equipment</a></li>
 									<li class="popover-item">
-										<a href="<?= $url_base ?>/about.php" class="internal popover-link" title="Find out more about the show including contact info.">About</a></li>
+										<a href="<?= $url_base ?>/about.php" class="internal popover-link" title="<?= TITLE_NAV_ABOUT ?>">About</a></li>
 									<li class="popover-item">
-										<a href="<?= $url_base ?>/support.php" class="internal popover-link" title="See how you can support the show. Thanks for thinking of me!">Support The Show!</a></li>
+										<a href="<?= $url_base ?>/support.php" class="internal popover-link" title="<?= TITLE_NAV_SUPPORT ?>">Support The Show!</a></li>
 									<li class="popover-item">
-										<a class="internal popover-link" href="<?= $url_base ?>/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos.">
+										<a class="internal popover-link" href="<?= $url_base ?>/feed.php" title="<?= TITLE_NAV_FEED ?>">
 											<img src="<?= $cdn_base ?>/res/img.php/rss/rss-40674_50.png?v=<?= get_resource_version() ?>" style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" alt="" /></a></li></ul></div></li></ul>
 					<div class="menu-list">
-						<a href="<?= $url_base ?>/" class="internal" title="Welcome!">Home</a> | 
-						<a href="<?= $url_base ?>/channel.php/@InTheLabWithJayJay" class="internal" title="The main channel is @InTheLabWithJayJay.">Main Channel</a> | 
-						<a href="<?= $url_base ?>/sponsor.php" class="internal" title="Super big shout out to our very generous sponsors!">Sponsors</a> | 
-						<a href="<?= $url_base ?>/equipment.php" class="internal" title="See the lab equipment that I own along with affiliate links to buy.">Equipment</a> | 
-						<a href="<?= $url_base ?>/about.php" class="internal" title="Find out more about the show including contact info.">About</a> | 
-						<a href="<?= $url_base ?>/support.php" class="internal" title="See how you can support the show. Thanks for thinking of me!">Support The Show!</a>
-						<a class="internal" href="<?= $url_base ?>/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos.">
+						<a href="<?= $url_base ?>/" class="internal" title="<?= TITLE_NAV_HOME ?>">Home</a> | 
+						<a href="<?= $url_base ?>/channel.php/@InTheLabWithJayJay" class="internal" title="<?= TITLE_NAV_MAIN ?>">Main Channel</a> | 
+						<a href="<?= $url_base ?>/sponsor.php" class="internal" title="<?= TITLE_NAV_SPONSORS ?>">Sponsors</a> | 
+						<a href="<?= $url_base ?>/equipment.php" class="internal" title="<?= TITLE_NAV_EQUIPMENT ?>">Equipment</a> | 
+						<a href="<?= $url_base ?>/about.php" class="internal" title="<?= TITLE_NAV_ABOUT ?>">About</a> | 
+						<a href="<?= $url_base ?>/support.php" class="internal" title="<?= TITLE_NAV_SUPPORT ?>">Support The Show!</a>
+						<a class="internal" href="<?= $url_base ?>/feed.php" title="<?= TITLE_NAV_FEED ?>">
 							<img src="<?= $cdn_base ?>/res/img.php/rss/rss-40674_50.png?v=<?= get_resource_version() ?>" style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" alt="" /></a></div></div></nav>
 			<header id="banner">
 				<img class="rc-base" src="<?= $cdn_base ?>/res/img.php/banner-base.jpg?v=<?= get_resource_version() ?>" />

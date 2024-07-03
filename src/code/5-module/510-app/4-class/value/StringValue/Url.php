@@ -93,7 +93,7 @@ abstract class Url extends StringValue {
         'class' => 'external',
         'target' => '_blank',
         'rel' => 'noopener follow',
-        'title' => 'Click here to visit the website.',
+        'title' => TITLE_LINK_WEB,
       ]
     );
 

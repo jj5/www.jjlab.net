@@ -4,15 +4,16 @@ define( 'TITLE_LOGO', 'In The Lab With Jay Jay is the video blog of John Elliot 
 
 define( 'TITLE_NAV_HAMBURGER', 'Click here to access the website navigation.' );
 
-define( 'TITLE_NAV_HOME', 'Welcome!' );
-define( 'TITLE_NAV_MAIN', "The main channel is @InTheLabWithJayJay." );
-define( 'TITLE_NAV_MAXITRONIX', "We're working our way through the various Maxitronix electronic project labs." );
-define( 'TITLE_NAV_EXTRA', "The 2nd channel is @ElliotsExtras." );
-define( 'TITLE_NAV_SPONSORS', "Super big shout out to our very generous sponsors!" );
-define( 'TITLE_NAV_AFFILIATES', "Learn more about how affiliate links work on this website." );
-define( 'TITLE_NAV_EQUIPMENT', "See the lab equipment that I own along with affiliate links to buy." );
-define( 'TITLE_NAV_ABOUT', 'Find out more about the show including contact info.' );
-define( 'TITLE_NAV_SUPPORT', "See how you can support the show. Thanks for thinking of me!" );
+define( 'TITLE_NAV_HOME', 'Click here to visit the homepage for this website.' );
+define( 'TITLE_NAV_MAIN', "Click here to access the main channel @InTheLabWithJayJay." );
+define( 'TITLE_NAV_MAXITRONIX', "Click here to access the videos for the Maxitronix electronic project labs." );
+define( 'TITLE_NAV_EXTRA', "Click here to access the 2nd channel @ElliotsExtras." );
+define( 'TITLE_NAV_SPONSORS', "Click here to find out more about our very generous sponsors!" );
+define( 'TITLE_NAV_AFFILIATES', "Click here to Learn more about how affiliate links work on this website." );
+define( 'TITLE_NAV_EQUIPMENT', "Click here to see the lab equipment that I own along with affiliate links to buy." );
+define( 'TITLE_NAV_ABOUT', 'Click here to find out more about the show and this website.' );
+define( 'TITLE_NAV_SUPPORT', "Click here to see how you can support the show. Thanks for thinking of me!" );
+define( 'TITLE_NAV_FEED', "Click here to subscribe to the full RSS feed which includes all videos." );
 
 define( 'TITLE_YOUTUBE_MAIN', "Click here to visit my main channel known as In The Lab With Jay Jay over on YouTube. Don't forget to like and subscribe!" );
 define( 'TITLE_YOUTUBE_EXTRA', "Click here to visit my 2nd channel known as Elliot's Extras over on YouTube." );
@@ -64,7 +65,7 @@ define( 'TITLE_CONTACT', 'Click here to find my contact details.' );
 define( 'TITLE_AFFILIATE', "Click here to read about the show's affiliates." );
 define( 'TITLE_BLOG', 'Click here to visit my blog!' );
 define( 'TITLE_SUPPORT', 'Click here to find out how you can support the show.' );
-define( 'TITLE_ABOUT', 'Click here for more info about the show.' );
+define( 'TITLE_ABOUT', 'Click here for more info about the show and this website.' );
 define( 'TITLE_SILLY_JOB_TITLE', 'Click here to read about the silly job title.' );
 define( 'TITLE_COSTUME', 'Click here to find out about my costume.' );
 
@@ -92,6 +93,10 @@ define( 'TITLE_LINK_SHORT', 'You can use this short link to link to this equipme
 define( 'TITLE_LINK_AFFILIATE', "Click here to visit this affliiate's main website." );
 define( 'TITLE_LINK_SEE_ALSO', 'Click here to see other equipment that might be of interest.' );
 define( 'TITLE_LINK_ORDER', 'Click here to view the order of this equipment.' );
+define( 'TITLE_LINK_SEGMENT', 'Click here to watch this feature.' );
+define( 'TITLE_LINK_VIDEO', 'Click here to watch this video.' );
+define( 'TITLE_LINK_YOUTUBE', 'Click here to watch this video on YouTube.' );
+define( 'TITLE_LINK_WEB', 'Click here to visit the website.' );
 
 define( 'TITLE_SEARCH_AFFILIATE', 'Click here to search for this equipment at this affiliate.' );
 
@@ -251,7 +256,7 @@ function render_section_about_main( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h2', 'About The Show', [ 'id' => 'about' ] );
+    tag_text( 'h2', 'About the Show', [ 'id' => 'about' ] );
 
     tag_open( 'p' );
 
@@ -783,7 +788,7 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
 
           tag_open( 'li' );
 
-            tag_text( 'a', 'About The Show', [ 'href' => url_base() . '/about.php', 'class' => 'internal', 'title' => TITLE_ABOUT ] );
+            tag_text( 'a', 'About the Show', [ 'href' => url_base() . '/about.php', 'class' => 'internal', 'title' => TITLE_ABOUT ] );
 
           tag_shut( 'li' );
 
@@ -2682,7 +2687,7 @@ function render_section_about_next( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Where To From Here?', [ 'id' => 'next' ] );
+    tag_text( 'h' . $heading_level, 'Where to from Here?', [ 'id' => 'next' ] );
 
     tag_text( 'p', 'You made it to the bottom of the homepage, huh? Well done! I\'m a bit of a scroller myself. :)' );
 
@@ -2877,7 +2882,7 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
     tag_shut( 'p' );
 
-    tag_text( 'h' . ( $heading_level + 1 ), 'Comment Publicly On My Blog', [ 'id' => 'comment-on-blog' ] );
+    tag_text( 'h' . ( $heading_level + 1 ), 'Comment Publicly on My Blog', [ 'id' => 'comment-on-blog' ] );
 
     tag_open( 'p' );
 
@@ -2941,7 +2946,7 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
     tag_shut( 'p' );
 
-    tag_text( 'h' . ( $heading_level + 1 ), 'Comment Publicly On YouTube', [ 'id' => 'comment-on-youtube' ] );
+    tag_text( 'h' . ( $heading_level + 1 ), 'Comment Publicly on YouTube', [ 'id' => 'comment-on-youtube' ] );
 
     tag_open( 'p' );
 
@@ -3037,7 +3042,7 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
     tag_shut( 'ul' );
 
-    tag_text( 'h' . ( $heading_level + 1 ), 'Private Chat On IRC', [ 'id' => 'irc-chat' ] );
+    tag_text( 'h' . ( $heading_level + 1 ), 'Private Chat on IRC', [ 'id' => 'irc-chat' ] );
 
     tag_open( 'p' );
 
@@ -3081,7 +3086,7 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
     tag_shut( 'p' );
 
-    tag_text( 'h' . ( $heading_level + 1 ), 'Private Message On Patreon', [ 'id' => 'contact-by-patreon' ] );
+    tag_text( 'h' . ( $heading_level + 1 ), 'Private Message on Patreon', [ 'id' => 'contact-by-patreon' ] );
 
     tag_open( 'p' );
 
