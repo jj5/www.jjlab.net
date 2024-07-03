@@ -499,7 +499,7 @@ function render_section_about_structure( int $heading_level = 2 ) {
 Maybe I should call it "the spectacle". :P</p>
 
 <<?= $h3 ?> id="sitemap">Sitemap</<?= $h3 ?>>
-<p>Beyond the channels, shows, and features (given above) the rest of this website is arranged roughly like this:</p>
+<p>Beyond the channels, shows, and features (<a href="#structure" class="internal">given above</a>) the rest of this website is arranged roughly like this:</p>
 
 <?php
 
