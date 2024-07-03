@@ -172,9 +172,7 @@ abstract class Money extends IntValue {
 
     if ( $rate === null ) {
 
-      $currency = 'AUD';
-
-      $rate = $itl->get_currency_rates( $this->currency )[ 'rates' ][ $currency ] ?? null;
+      return null;
 
     }
 

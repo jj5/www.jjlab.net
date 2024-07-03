@@ -43,7 +43,7 @@ class Item implements INullable {
 
     foreach ( $list as $item ) {
 
-      if ( is_a( $item, $class ) ) { return $item->to_string(); }
+      if ( is_a( $item, $class ) ) { return strval( $item ); }
 
     }
 
