@@ -113,7 +113,7 @@ function render_feed_for_list( $video_list, $topic = null ) {
     MUD_CONTENT_TYPE_RSS,
   );
 
-  $version = JJLAB_VERSION_MAJOR . '.' . JJLAB_VERSION_MINOR . '.' . JJLAB_VERSION_PATCH;
+  $version = get_resource_version();
 
   if ( is_prod() ) {
 

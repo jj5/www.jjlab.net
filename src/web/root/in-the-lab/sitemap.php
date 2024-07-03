@@ -30,7 +30,7 @@ function render_sitemap() {
 
   global $domain;
 
-  $version = JJLAB_VERSION_MAJOR . '.' . JJLAB_VERSION_MINOR . '.' . JJLAB_VERSION_PATCH;
+  $version = get_resource_version();
 
   if ( is_prod() ) {
 
@@ -63,29 +63,16 @@ function render_sitemap() {
 
     render_url( '/', $latest_date, $changefreq, $priority );
 
-    $pages = [ 'about.php', 'affiliate.php', 'sponsor.php', 'support.php' ];
-
-    render_pages( $pages, $latest_software_date, $changefreq, $priority );
-
-    //
-    // 2024-06-29 jj5 - main category pages
-    //
-
-    $changefreq = 'daily';
-    $priority = '0.9';
-    $pages = [ 'equipment.php', 'channel.php', 'show-type.php', 'feature.php', 'videos.php', 'books.php' ];
+    $pages = [ 'videos.php', 'books.php' ];
 
     render_pages( $pages, $latest_date, $changefreq, $priority );
 
     //
-    // 2024-06-29 jj5 - important content pages
+    // 2024-07-03 jj5 - shows
     //
 
     $changefreq = 'daily';
-    $priority = '0.7';
-    $pages = [ 'manufacturer.php', 'category.php' ];
-
-    render_pages( $pages, $latest_software_date, $changefreq, $priority );
+    $priority = '0.9';
 
     foreach ( app_stash()->get_live_video_list() as $video ) {
 
@@ -97,6 +84,26 @@ function render_sitemap() {
       );
 
     }
+
+    //
+    // 2024-07-03 jj5 - important category pages
+    //
+
+    $changefreq = 'daily';
+    $priority = '0.8';
+    $pages = [ 'channel.php', 'show-type.php', 'feature.php' ];
+
+    render_pages( $pages, $latest_date, $changefreq, $priority );
+
+    //
+    // 2024-06-29 jj5 - important category pages
+    //
+
+    $changefreq = 'daily';
+    $priority = '0.7';
+    $pages = [ 'equipment.php', 'manufacturer.php', 'category.php' ];
+
+    render_pages( $pages, $latest_software_date, $changefreq, $priority );
 
     //
     // 2024-06-29 jj5 - subcategory pages
@@ -145,6 +152,10 @@ function render_sitemap() {
 
     $changefreq = 'daily';
     $priority = '0.5';
+
+    $pages = [ 'about.php', 'affiliate.php', 'sponsor.php', 'support.php' ];
+
+    render_pages( $pages, $latest_software_date, $changefreq, $priority );
 
     //
     // 2024-06-29 jj5 - less important pages
