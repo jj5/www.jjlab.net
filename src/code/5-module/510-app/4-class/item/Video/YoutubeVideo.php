@@ -56,6 +56,7 @@ class YoutubeVideo extends Video {
         'href' => $url,
         'class' => 'external',
         'target' => '_blank',
+        'rel' => 'noopener follow',
         'title' => 'Click here to watch the video on YouTube.',
       ]
     );

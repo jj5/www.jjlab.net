@@ -889,8 +889,9 @@ function render_equipment_table( $equipment_list ) {
             <div><a
               href="<?= $href_html ?>"
               class="external"
-              title="<?= henc( TITLE_SEARCH_AFFILIATE ) ?>"
               target='search'
+              rel="noopener follow"
+              title="<?= henc( TITLE_SEARCH_AFFILIATE ) ?>"
             ><?= $text_html ?></a></div>
 <?php
 
@@ -930,7 +931,7 @@ function render_equipment_table( $equipment_list ) {
     <tr style="height:2rem">
       <th style="width:5% !important;">Affiliate</th>
       <th colspan="2" style="width:10% !important;">Unit Price</th>
-      <th>Affiliate Link (Click-through for the latest price and to buy!)</th>
+      <th>Affiliate Link (Click here for the latest price and to buy!)</th>
       <th style="width:20% !important;">Option(s)</th>
       <th style="width:4rem !important;">Notes</th>
     </tr>
@@ -1221,8 +1222,9 @@ function render_equipment_table( $equipment_list ) {
             <a
               href="<?= $href ?>"
               class="external"
-              title="<?= $order_item_name_html ?>"
               target="_blank"
+              rel="noopener follow"
+              title="<?= $order_item_name_html ?>"
             ><?= $number_html ?> of these</a>
             on <?= $date_html ?> for
             <?= $price_html ?> <?= $each ?>
@@ -1242,8 +1244,9 @@ function render_equipment_table( $equipment_list ) {
             Order: <a
               href="<?= $order_url_html ?>"
               class="external"
-              title="<?= henc( TITLE_LINK_ORDER ) ?>"
               target='_blank'
+              rel="noopener follow"
+              title="<?= henc( TITLE_LINK_ORDER ) ?>"
             ><?= $order_id_html ?></a>
 <?php endif; ?>
           </td>
@@ -1516,8 +1519,9 @@ function render_equipment_list( $equipment_list ) {
               [
                 'href' => $href,
                 'class' => 'external',
-                'title' => TITLE_LINK_PURCHASED,
                 'target' => '_blank',
+                'rel' => 'noopener follow',
+                'title' => TITLE_LINK_PURCHASED,
               ]
             );
 

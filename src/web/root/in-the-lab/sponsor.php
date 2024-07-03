@@ -105,8 +105,9 @@ function render_sponsor_main() {
           [
             'href' => 'https://www.patreon.com/JohnElliotV',
             'class' => 'external',
-            'title' => TITLE_PATREON,
             'target' => '_blank',
+            'rel' => 'noopener follow',
+            'title' => TITLE_PATREON,
           ]
         );
 

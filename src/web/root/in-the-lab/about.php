@@ -46,6 +46,8 @@ function render_about_main() {
     <a
       href="https://blog.jj5.net/blog/contact/"
       class="external"
+      target="_blank"
+      rel="noopener follow"
       title="<?= henc( TITLE_CONTACT ) ?>"
     >https://blog.jj5.net/blog/contact/</a>
   </p>
@@ -57,11 +59,15 @@ function render_about_main() {
     <li>Main channel: <a
         href="https://www.youtube.com/@InTheLabWithJayJay"
         class="external"
+        target="_blank"
+        rel="noopener follow"
         title="<?= henc( TITLE_CHANNEL_MAIN ) ?>"
       >youtube.com/@InTheLabWithJayJay</a></li>
     <li>2nd channel: <a
         href="https://www.youtube.com/@ElliotsExtras"
         class="external"
+        target="_blank"
+        rel="noopener follow"
         title="<?= henc( TITLE_CHANNEL_MAIN ) ?>"
       >youtube.com/@ElliotsExtras</a></li>
   </ul>
@@ -72,6 +78,8 @@ function render_about_main() {
     <a
       href="https://blog.jj5.net/"
       class="external"
+      target="_blank"
+      rel="noopener follow"
       title="<?= henc( TITLE_BLOG ) ?>"
     >https://blog.jj5.net/</a>
   </p>
@@ -83,12 +91,16 @@ function render_about_main() {
     <a
       href="http://www.catb.org/hacker-emblem/"
       class="external"
+      target="_blank"
+      rel="noopener follow"
       title="Click here to learn more about the hacker emblem."
     >Hacker Emblem</a>.
     As all good nerds will know the
     <a
       href="https://en.wikipedia.org/wiki/Glider_(Conway%27s_Game_of_Life)"
       class="external"
+      target="_blank"
+      rel="noopener follow"
       title="Click here to learn more about the glider in Conway's Game of Life."
     >glider</a>
     which Eric S. Raymond chose for the hacker emblem can be in any of four different states, so I picked an alternative
@@ -97,6 +109,8 @@ function render_about_main() {
   <p>The source code for this website is now available on GitHub: <a
       href="https://github.com/jj5/www.jjlab.net"
       class="external"
+      target="_blank"
+      rel="noopener follow"
       title="Click here to read the source code for this website on GitHub."
     >https://github.com/jj5/www.jjlab.net</a></p>
 </section>

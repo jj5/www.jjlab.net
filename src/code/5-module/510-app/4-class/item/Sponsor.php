@@ -33,8 +33,9 @@ class Sponsor extends Item {
       $attrs + [
         'href' => $url,
         'class' => 'external',
-        'title' => $tooltip,
         'target' => '_blank',
+        'rel' => 'noopener follow',
+        'title' => $tooltip,
       ]
     );
 

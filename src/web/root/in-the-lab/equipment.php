@@ -103,8 +103,9 @@ function render_equipment_main() {
     <a
       href="https://blog.jj5.net/blog/contact/"
       class="external"
-      title="<?= henc( TITLE_CONTACT ) ?>"
       target="_blank"
+      rel="noopener follow"
+      title="<?= henc( TITLE_CONTACT ) ?>"
     >let me know</a>.</p>
   <p>Let's go shopping!</p>
 

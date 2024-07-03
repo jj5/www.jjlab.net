@@ -434,6 +434,8 @@ function render_feature_mini_project() {
             [
               'href' => 'https://www.siliconchip.com.au/',
               'class' => 'external',
+              'target' => '_blank',
+              'rel' => 'noopener follow',
               'title' => 'Click here to visit Silicon Chip magazine the published of the Mini Projects.',
             ]
           );
@@ -446,6 +448,8 @@ function render_feature_mini_project() {
             [
               'href' => 'https://www.jaycar.com.au/',
               'class' => 'external',
+              'target' => '_blank',
+              'rel' => 'noopener follow',
               'title' => 'Click here to visit Jaycar the sponsor of the Mini Projects.',
             ]
           );
@@ -492,6 +496,8 @@ function render_feature_mini_project() {
             [
               'href' => 'https://blog.jj5.net/blog/2024/06/14/channel-news-announcing-mini-projects-in-the-lab-with-jay-jay/',
               'class' => 'external',
+              'target' => '_blank',
+              'rel' => 'noopener follow',
               'title' => 'Click here for the Mini Projects announcement video.',
             ]
           );
@@ -506,6 +512,8 @@ function render_feature_mini_project() {
             [
               'href' => 'https://www.siliconchip.com.au/Issue/2024/May/Our+new+Mini+Projects',
               'class' => 'external',
+              'target' => '_blank',
+              'rel' => 'noopener follow',
               'title' => 'Click here to read the Mini Projects announcement from Nicholas Vinen the Editor of Silicon Chip magazine.',
             ]
           );
@@ -520,6 +528,8 @@ function render_feature_mini_project() {
             [
               'href' => 'https://www.siliconchip.com.au/Series/417',
               'class' => 'external',
+              'target' => '_blank',
+              'rel' => 'noopener follow',
               'title' => 'Click here for the full list of Mini Projects published by Silicon Chip magazine.',
             ]
           );
@@ -534,6 +544,8 @@ function render_feature_mini_project() {
             [
               'href' => 'https://www.siliconchip.com.au/',
               'class' => 'external',
+              'target' => '_blank',
+              'rel' => 'noopener follow',
               'title' => 'Click here to visit Silicon Chip magazine, who publish the the Mini Projects.',
             ]
           );
@@ -548,6 +560,8 @@ function render_feature_mini_project() {
             [
               'href' => 'https://www.jaycar.com.au/',
               'class' => 'external',
+              'target' => '_blank',
+              'rel' => 'noopener follow',
               'title' => 'Click here to visit Jaycar, the sponsor of the Mini Projects.',
             ]
           );

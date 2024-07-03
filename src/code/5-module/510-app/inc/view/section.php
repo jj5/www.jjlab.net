@@ -309,8 +309,9 @@ function render_section_about_announcements( int $heading_level = 2 ) {
     <li><a
       href="https://www.patreon.com/JohnElliotV"
       class="external"
-      title="<?= henc( TITLE_PATREON ) ?>"
       target="_blank"
+      rel="noopener follow"
+      title="<?= henc( TITLE_PATREON ) ?>"
     >patreon.com/JohnElliotV</a> (for both <a
       href="<?= url_base() ?>/channel.php/@InTheLabWithJayJay"
       class="internal"
@@ -323,8 +324,9 @@ function render_section_about_announcements( int $heading_level = 2 ) {
     <li><a
       href="https://www.youtube.com/@InTheLabWithJayJay"
       class="external"
-      title="<?= henc( TITLE_YOUTUBE_MAIN ) ?>"
       target="_blank"
+      rel="noopener follow"
+      title="<?= henc( TITLE_YOUTUBE_MAIN ) ?>"
     >youtube.com/@InTheLabWithJayJay</a> (for <a
       href="<?= url_base() ?>/channel.php/@InTheLabWithJayJay"
       class="internal"
@@ -333,8 +335,9 @@ function render_section_about_announcements( int $heading_level = 2 ) {
     <li><a
       href="https://www.youtube.com/@ElliotsExtras"
       class="external"
-      title="<?= henc( TITLE_YOUTUBE_EXTRA ) ?>"
       target="_blank"
+      rel="noopener follow"
+      title="<?= henc( TITLE_YOUTUBE_EXTRA ) ?>"
     >youtube.com/@ElliotsExtras</a> (for <a
       href="<?= url_base() ?>/channel.php/@ElliotsExtras"
       class="internal"
@@ -343,8 +346,9 @@ function render_section_about_announcements( int $heading_level = 2 ) {
     <li><a
       href="https://blog.jj5.net/"
       class="external"
-      title="<?= henc( TITLE_BLOG ) ?>"
       target="_blank"
+      rel="noopener follow"
+      title="<?= henc( TITLE_BLOG ) ?>"
     >blog.jj5.net</a> (for both <a
       href="<?= url_base() ?>/channel.php/@InTheLabWithJayJay"
       class="internal"
@@ -361,13 +365,15 @@ function render_section_about_announcements( int $heading_level = 2 ) {
     <li><a
       href="https://www.InTheLabWithJayJay.com/"
       class="external"
-      title="<?= henc( TITLE_MAIN ) ?>"
       target="_blank"
+      rel="noopener follow"
+      title="<?= henc( TITLE_MAIN ) ?>"
     >InTheLabWithJayJay.com</a> (this website, aka <a
       href="https://jjlab.net/"
       class="external"
-      title="<?= henc( TITLE_MAIN ) ?>"
       target="_blank"
+      rel="noopener follow"
+      title="<?= henc( TITLE_MAIN ) ?>"
     >jjlab.net</a>, with videos and links to everything else)</li>
   </ul>
 </section>
@@ -394,6 +400,8 @@ function render_section_about_content( int $heading_level = 2 ) {
     <a
     href="https://blog.jj5.net/"
     class="external"
+    target="_blank"
+    rel="noopener follow"
     title="<?= henc( TITLE_BLOG ) ?>"
     >blog.jj5.net</a>. You will be able to find the link to the show notes in the description accompanying the YouTube video.
   </p>
@@ -729,8 +737,9 @@ function render_section_about_channels( int $heading_level = 2 ) {
   <p class="indent"><a
     href="https://www.youtube.com/@InTheLabWithJayJay"
     class="external youtube"
-    title="<?= henc( TITLE_YOUTUBE_MAIN ) ?>"
     target='_blank'
+    rel="noopener follow"
+    title="<?= henc( TITLE_YOUTUBE_MAIN ) ?>"
   >youtube.com/@InTheLabWithJayJay</a></p>
   <p>The main channel is for <b>high quality video content of interest to electronics hobbyists</b>.</p>
   <p>For a list of main channel content visit the
@@ -751,8 +760,9 @@ function render_section_about_channels( int $heading_level = 2 ) {
   <p class="indent"><a
     href="https://www.youtube.com/@ElliotsExtras"
     class="external youtube"
-    title="<?= henc( TITLE_YOUTUBE_EXTRA ) ?>"
     target='_blank'
+    rel="noopener follow"
+    title="<?= henc( TITLE_YOUTUBE_EXTRA ) ?>"
   >youtube.com/@ElliotsExtras</a></p>
   <p>The 2nd channel is for longer form content which has received less editing attention.
   (Yes, that's right, it's the <b>crap that wasn't good enough for the main channel</b>.)</p>
@@ -872,16 +882,22 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
     href="https://www.youtube.com/watch?v=UBPZuOjWT0A"
     class="external"
     target="_blank"
+    rel="noopener follow"
+    title="Click here to watch the new book teardown of Learning the Art of Electronics."
   >Learning the Art of Electronics</a> projects,
   <a
     href="https://www.jaycar.com.au/short-circuits"
     class="external"
     target="_blank"
+    rel="noopener follow"
+    title="Click here to see the Jaycar Short Circuits projects."
   >Jaycar Short Circuits</a> projects, and the other
   <a
     href="https://www.jaycar.com.au/projects"
     class="external"
     target="_blank"
+    rel="noopener follow"
+    title="Click here to see the Jaycar Projects."
   >Jaycar Projects</a>, so standby for those (fingers crossed!).</p>
 
   <<?= $h3 ?> id="maxitronix-kits">Maxitronix Xin1 Kits</<?= $h3 ?>>
@@ -896,6 +912,8 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
   <p><a
     href="https://www.jj5.net/file/2021-08-26-153328/IMG_1490.JPG"
     class="external"
+    target="_blank"
+    rel="noopener follow"
     title="<?= henc( ALT_MAXITRONIX_LABS ) ?>"
   ><img
     src="https://d297fd4gt7t5lv.cloudfront.net/file/2021-08-26-153328/IMG_1490.JPG"
@@ -925,19 +943,25 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
     <a
       href="https://www.siliconchip.com.au/Series/417"
       class="external"
-      title="Click-through for the list of Mini Projects."
+      target="_blank"
+      rel="noopener follow"
+      title="Click here for the list of Mini Projects."
     >Mini Projects</a>
     published by
     <a
       href="https://www.siliconchip.com.au/"
       class="external"
-      title="Click-through for Silicon Chip electronics magazine."
+      target="_blank"
+      rel="noopener follow"
+      title="Click here for Silicon Chip electronics magazine."
     >Silicon Chip</a>
     and sponsored by
     <a
       href="https://www.jaycar.com.au/"
       class="external"
-      title="Click-through for Jaycar, the Australian electronics store."
+      target="_blank"
+      rel="noopener follow"
+      title="Click here for Jaycar, the Australian electronics store."
     >Jaycar</a>.
   </p>
 
@@ -1014,8 +1038,9 @@ function render_section_about_costume( int $heading_level = 2 ) {
   <a
     href="https://starcraft.fandom.com/wiki/Egon_Stetmann"
     class="external"
-    title="<?= henc( TITLE_STETMANN ) ?>"
     target="_blank"
+    rel="noopener follow"
+    title="<?= henc( TITLE_STETMANN ) ?>"
   >Egon Stetmann</a>, the
   Chief Scientist from StarCraft II:</p>
   <p><img style="width:500px" src="<?= url_base( $use_cdn = true ) ?>/img/EgonStetmann_SC2-WoL_Story1.webp" alt="Egon Stetmann"></p>
@@ -1085,8 +1110,9 @@ function render_section_about_contact( int $heading_level = 2 ) {
   <p class="indent"><a
     href="https://blog.jj5.net/blog/contact/"
     class="external"
-    title="<?= henc( TITLE_CONTACT ) ?>"
     target="_blank"
+    rel="noopener follow"
+    title="<?= henc( TITLE_CONTACT ) ?>"
   >blog.jj5.net/blog/contact</a></p>
 </section>
 <?php
@@ -1112,8 +1138,9 @@ function render_section_about_sponsors( int $heading_level = 2 ) {
   <p class="indent"><a
     href="https://www.patreon.com/JohnElliotV"
     class="external"
-    title="<?= henc( TITLE_PATREON ) ?>"
     target="_blank"
+    rel="noopener follow"
+    title="<?= henc( TITLE_PATREON ) ?>"
   >patreon.com/JohnElliotV</a></p>
 </section>
 <?php
@@ -1141,7 +1168,7 @@ function render_section_about_affiliates( int $heading_level = 2 ) {
   This has <b>no cost to you</b> but means if you purchase something from an affiliate after
   clicking through on one of my affiliate links I may earn a small commission from the sale of
   equipment. Clicking through on affiliate links is an <b>excellent way to support the channel</b>.</p>
-  <p>Click-through to the <a
+  <p>Click here to the <a
     href="<?= url_base() ?>/equipment.php"
     class="internal"
     title="<?= henc( TITLE_EQUIPMENT ) ?>"

@@ -122,6 +122,7 @@ class ThingList {
             'href' => 'https://www.youtube.com/@InTheLabWithJayJay',
             'class' => 'external',
             'target' => '_blank',
+            'rel' => 'noopener follow',
             'title' => TITLE_YOUTUBE_MAIN,
           ]
         );
@@ -181,6 +182,7 @@ class ThingList {
             'href' => 'https://www.youtube.com/@InTheLabWithJayJay',
             'class' => 'external',
             'target' => '_blank',
+            'rel' => 'noopener follow',
             'title' => TITLE_YOUTUBE_MAIN,
           ]
         );

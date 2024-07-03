@@ -183,6 +183,7 @@ abstract class Segment extends Item {
                 'href' => $this->get_blog_url()->to_string(),
                 'class' => 'external',
                 'target' => '_blank',
+                'rel' => 'noopener follow',
                 'title' => TITLE_SHOW_NOTES,
               ]
             );

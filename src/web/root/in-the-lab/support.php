@@ -49,6 +49,8 @@ function render_support_main() {
   <p class="indent"><a
         href="https://www.patreon.com/JohnElliotV"
         class="external"
+        target="_blank"
+        rel="noopener follow"
         title="<?= henc( TITLE_PATREON ) ?>"
       >patreon.com/JohnElliotV</a></p>
 </section>
@@ -58,6 +60,8 @@ function render_support_main() {
   <p class="indent"><a
         href="https://www.youtube.com/@InTheLabWithJayJay"
         class="external"
+        target="_blank"
+        rel="noopener follow"
         title="<?= henc( TITLE_YOUTUBE_MAIN ) ?>"
       >youtube.com/@InTheLabWithJayJay</a></p>
 </section>
@@ -79,24 +83,28 @@ function render_support_main() {
   <p>As detailed on my <a
         href="<?= url_base() ?>/sponsor.php"
         class="internal"
-        title="Click-through for information about my sponsors."
+        title="Click here for information about my sponsors."
       >sponsors</a>
     page my friends at <a
         href="https://www.pcbway.com/"
         class="external"
-        title="Click-through to buy from PCBWay!"
+        target="_blank"
+        rel="noopener follow"
+        title="Click here to buy from PCBWay!"
       >PCBWay</a> send me free stuff in exchange for a mention in my videos, and my friends at
       <a
         href="https://www.siliconchip.com.au/"
         class="external"
-        title="Click-through to subscribe to Silicon Chip magazine!"
+        target="_blank"
+        rel="noopener follow"
+        title="Click here to subscribe to Silicon Chip magazine!"
       >Silicon Chip</a> give me free advertising in the back of their magazine because they are awesome.
       If you have quality products or services of interest to the electronics hobbyist that wouldn't embarrass me
       to promote,
       <a
         href="<?= url_base() ?>/about.php#contact"
         class="internal"
-        title="Click-through to contact me."
+        title="Click here to contact me."
       >let's talk</a>.
       </p>
 </section>

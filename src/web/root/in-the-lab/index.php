@@ -47,8 +47,9 @@ function render_index_main() {
             [
               'href' => 'https://www.youtube.com/@InTheLabWithJayJay',
               'class' => 'external',
-              'title' => "Subscribe to my YouTube channel!",
               'target' => '_blank',
+              'rel' => 'noopener follow',
+              'title' => "Subscribe to my YouTube channel!",
             ]
           );
 
@@ -60,8 +61,9 @@ function render_index_main() {
             [
               'href' => 'https://www.patreon.com/JohnElliotV',
               'class' => 'external',
-              'title' => "Super big shout out to my Patreon supporters for supporting the channel!",
               'target' => '_blank',
+              'rel' => 'noopener follow',
+              'title' => "Super big shout out to my Patreon supporters for supporting the channel!",
             ]
           );
 

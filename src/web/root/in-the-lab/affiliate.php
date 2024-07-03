@@ -94,8 +94,9 @@ function render_affiliate_main() {
         [
           'href' => $href,
           'class' => 'external',
-          'title' => TITLE_LINK_AFFILIATE,
           'target' => '_blank',
+          'rel' => 'noopener follow',
+          'title' => TITLE_LINK_AFFILIATE,
         ]
       );
 

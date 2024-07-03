@@ -149,8 +149,9 @@ function render_channel_one() {
               [
                 'href' => 'https://www.youtube.com/@InTheLabWithJayJay',
                 'class' => 'external',
-                'title' => TITLE_YOUTUBE_MAIN,
                 'target' => '_blank',
+                'rel' => 'noopener follow',
+                'title' => TITLE_YOUTUBE_MAIN,
               ]
             );
 
@@ -214,8 +215,9 @@ function render_channel_one_main() {
         [
           'href' => 'https://www.youtube.com/@InTheLabWithJayJay',
           'class' => 'external youtube',
-          'title' => TITLE_YOUTUBE_MAIN,
           'target' => '_blank',
+          'rel' => 'noopener follow',
+          'title' => TITLE_YOUTUBE_MAIN,
         ]
       );
 
@@ -262,8 +264,9 @@ function render_channel_two() {
               [
                 'href' => 'https://www.youtube.com/@ElliotsExtras',
                 'class' => 'external',
-                'title' => TITLE_YOUTUBE_EXTRA,
                 'target' => '_blank',
+                'rel' => 'noopener follow',
+                'title' => TITLE_YOUTUBE_EXTRA,
               ]
             );
 
@@ -327,8 +330,9 @@ function render_channel_two_main() {
         [
           'href' => 'https://www.youtube.com/@ElliotsExtras',
           'class' => 'external youtube',
-          'title' => TITLE_YOUTUBE_EXTRA,
           'target' => '_blank',
+          'rel' => 'noopener follow',
+          'title' => TITLE_YOUTUBE_EXTRA,
         ]
       );
 

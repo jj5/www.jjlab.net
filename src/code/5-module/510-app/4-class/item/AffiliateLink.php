@@ -97,7 +97,8 @@ class AffiliateLink extends Item implements ILink {
         'href' => $this->get_link_href(),
         'class' => $this->get_link_class(),
         'target' => '_blank',
-        'title' => TITLE_AFFILIATE_LINK
+        'rel' => 'noopener follow',
+        'title' => TITLE_AFFILIATE_LINK,
       ]
     );
 

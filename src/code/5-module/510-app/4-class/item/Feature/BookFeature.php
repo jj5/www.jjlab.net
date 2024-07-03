@@ -60,8 +60,9 @@ abstract class BookFeature extends Feature {
         $attrs + [
           'href' => $url->to_string(),
           'class' => 'external',
-          'title' => $tooltip,
           'target' => '_blank',
+          'rel' => 'noopener follow',
+          'title' => $tooltip,
         ]
       );
 

@@ -91,9 +91,11 @@ abstract class Url extends StringValue {
       $attrs + [
         'href' => $href,
         'class' => 'external',
+        'target' => '_blank',
+        'rel' => 'noopener follow',
+        'title' => 'Click here to visit the website.',
       ]
     );
 
   }
-
 }

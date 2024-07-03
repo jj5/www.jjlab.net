@@ -26,6 +26,7 @@ class WebLink extends Item {
         'href' => $this->get_link_href()->to_string(),
         'class' => 'external',
         'target' => '_blank',
+        'rel' => 'noopener follow',
         'title' => TITLE_LINK_EXTERNAL,
       ]
     );
