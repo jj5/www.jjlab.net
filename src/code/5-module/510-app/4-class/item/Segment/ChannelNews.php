@@ -64,7 +64,7 @@ class ChannelNews extends Segment {
         [
           'href' => url_base() . '/feature.php/channel-news',
           'class' => 'internal',
-          'title' => TITLE_FEATURE_ANNOUNCEMENT,
+          'title' => TITLE_FEATURE_CHANNEL_NEWS,
         ]
       );
 

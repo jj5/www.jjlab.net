@@ -117,7 +117,9 @@ function render_feature_index() {
 
 function render_feature_generic( $feature ) {
 
-  render_head( $feature->get_title() );
+  $title = $feature->get_title() . ' Videos';
+
+  render_head( $title );
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
@@ -125,7 +127,7 @@ function render_feature_generic( $feature ) {
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
-        tag_text( 'h1', $feature->get_title() );
+        tag_text( 'h1', $title );
 
         tag_open( 'p' );
 

@@ -92,12 +92,12 @@ function render_equipment_main() {
   <p>You can also get this equipment listed by <a
     href="<?= url_base() ?>/category.php"
     class="internal"
-    title="<?= henc( TITLE_LINK_CATEGORY ) ?>"
+    title="<?= TITLE_LINK_CATEGORY ?>"
   >category</a> or by
   <a
     href="<?= url_base() ?>/manufacturer.php"
     class="internal"
-    title="<?= henc( TITLE_LINK_MANUFACTURER ) ?>"
+    title="<?= TITLE_LINK_MANUFACTURER ?>"
   >manufacturer</a>.</p>
   <p>If you have thoughts or questions please feel free to
     <a
@@ -105,7 +105,7 @@ function render_equipment_main() {
       class="external"
       target="_blank"
       rel="noopener follow"
-      title="<?= henc( TITLE_CONTACT ) ?>"
+      title="<?= TITLE_CONTACT ?>"
     >let me know</a>.</p>
   <p>Let's go shopping!</p>
 

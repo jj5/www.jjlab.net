@@ -48,7 +48,7 @@ function render_about_main() {
       class="external"
       target="_blank"
       rel="noopener follow"
-      title="<?= henc( TITLE_CONTACT ) ?>"
+      title="<?= TITLE_CONTACT ?>"
     >https://blog.jj5.net/blog/contact/</a>
   </p>
 </section>
@@ -61,14 +61,14 @@ function render_about_main() {
         class="external"
         target="_blank"
         rel="noopener follow"
-        title="<?= henc( TITLE_CHANNEL_MAIN ) ?>"
+        title="<?= TITLE_CHANNEL_MAIN ?>"
       >youtube.com/@InTheLabWithJayJay</a></li>
     <li>2nd channel: <a
         href="https://www.youtube.com/@ElliotsExtras"
         class="external"
         target="_blank"
         rel="noopener follow"
-        title="<?= henc( TITLE_CHANNEL_MAIN ) ?>"
+        title="<?= TITLE_CHANNEL_MAIN ?>"
       >youtube.com/@ElliotsExtras</a></li>
   </ul>
 </section>
@@ -80,7 +80,7 @@ function render_about_main() {
       class="external"
       target="_blank"
       rel="noopener follow"
-      title="<?= henc( TITLE_BLOG ) ?>"
+      title="<?= TITLE_BLOG ?>"
     >https://blog.jj5.net/</a>
   </p>
 </section>
@@ -147,7 +147,7 @@ function render_about_main() {
       <a
       href="support.php"
       class="internal"
-      title="<?= henc( TITLE_SUPPORT ) ?>"
+      title="<?= TITLE_SUPPORT ?>"
     >support the show</a>.</p>
 </section>
 <?php

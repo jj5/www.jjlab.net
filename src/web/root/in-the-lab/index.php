@@ -85,11 +85,13 @@ function render_index_main() {
 
     render_section_about_structure();
 
-    render_section_about_content();
+    render_section_about_show_notes();
+
+    render_section_about_video_content();
 
     render_section_about_channels();
 
-    render_section_about_main_show_type();
+    render_section_about_main_show();
 
     render_section_about_special_shows();
 

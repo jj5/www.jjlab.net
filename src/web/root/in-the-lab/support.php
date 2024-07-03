@@ -51,7 +51,7 @@ function render_support_main() {
         class="external"
         target="_blank"
         rel="noopener follow"
-        title="<?= henc( TITLE_PATREON ) ?>"
+        title="<?= TITLE_PATREON ?>"
       >patreon.com/JohnElliotV</a></p>
 </section>
 <section class="container">
@@ -62,7 +62,7 @@ function render_support_main() {
         class="external"
         target="_blank"
         rel="noopener follow"
-        title="<?= henc( TITLE_YOUTUBE_MAIN ) ?>"
+        title="<?= TITLE_YOUTUBE_MAIN ?>"
       >youtube.com/@InTheLabWithJayJay</a></p>
 </section>
 <section class="container">
@@ -75,7 +75,7 @@ function render_support_main() {
     on my <a
         href="<?= url_base() ?>/equipment.php"
         class="internal"
-        title="<?= henc( TITLE_EQUIPMENT ) ?>"
+        title="<?= TITLE_EQUIPMENT ?>"
       >equipment</a> page before shopping at Amazon, eBay, or AliExpress.</p>
 </section>
 <section class="container">

@@ -989,7 +989,7 @@ function render_equipment_table( $equipment_list ) {
         <a
           href="<?= url_base() ?>/equipment.php#<?= $id_html ?>"
           class="internal equipment-link"
-          title="<?= henc( TITLE_LINK_ITEM ) ?>"
+          title="<?= TITLE_LINK_ITEM ?>"
         >
           <div><?= $equipment_text_html ?></div>
           <div><img src="<?= $img_url ?>"></div></a>
@@ -997,7 +997,7 @@ function render_equipment_table( $equipment_list ) {
         <div><a
           href="<?= $short_link_html ?>"
           class="internal"
-          title="<?= henc( TITLE_LINK_SHORT ) ?>"
+          title="<?= TITLE_LINK_SHORT ?>"
         ><?= $short_link_html ?></a></div>
 <?php
       if ( is_dev() ) :
@@ -1013,7 +1013,7 @@ function render_equipment_table( $equipment_list ) {
               class="external"
               target='search'
               rel="noopener follow"
-              title="<?= henc( TITLE_SEARCH_AFFILIATE ) ?>"
+              title="<?= TITLE_SEARCH_AFFILIATE ?>"
             ><?= $text_html ?></a></div>
 <?php
 
@@ -1034,13 +1034,13 @@ function render_equipment_table( $equipment_list ) {
           <a
             href="<?= url_base() ?>/category.php/<?= henc( $link->get_category_id() ) ?>"
             class="internal"
-            title="<?= henc( TITLE_LINK_CATEGORY_SELECTION ) ?>"
+            title="<?= TITLE_LINK_CATEGORY_SELECTION ?>"
           ><?= $link->to_html() ?></a>
 <?php   else : ?>
           <a
             href="<?= url_base() ?>/manufacturer.php/<?= henc( $link->get_manufacturer_id() ) ?>"
             class="internal"
-            title="<?= henc( TITLE_LINK_MANUFACTURER_SELECTION ) ?>"
+            title="<?= TITLE_LINK_MANUFACTURER_SELECTION ?>"
           ><?= $link->to_html() ?></a>
 <?php   endif; ?>
 <?php endforeach; ?>
@@ -1123,7 +1123,7 @@ function render_equipment_table( $equipment_list ) {
             <td colspan="1" rowspan="<?= $notes_adjust ?>" class="notes" style="vertical-align:top !important; text-align: center;"><a
               href="<?= $notes_url ?>"
               class="internal"
-              title="<?= henc( TITLE_LINK_SIXSIGMA ) ?>"
+              title="<?= TITLE_LINK_SIXSIGMA ?>"
             >notes</a></td>
 <?php
           else :
@@ -1184,7 +1184,7 @@ function render_equipment_table( $equipment_list ) {
           <li><a
             href="#<?= $id_html ?>"
             class="internal"
-            title="<?= henc( TITLE_LINK_SEE_ALSO ) ?>"
+            title="<?= TITLE_LINK_SEE_ALSO ?>"
           ><?= $text_html ?></a></li>
 <?php
 
@@ -1368,7 +1368,7 @@ function render_equipment_table( $equipment_list ) {
               class="external"
               target='_blank'
               rel="noopener follow"
-              title="<?= henc( TITLE_LINK_ORDER ) ?>"
+              title="<?= TITLE_LINK_ORDER ?>"
             ><?= $order_id_html ?></a>
 <?php endif; ?>
           </td>
@@ -1724,19 +1724,19 @@ function render_equipment_options() {
     <a
       href="?<?= get_link( [ 'currency' => 'USD' ] ) ?>#options"
       class="internal"
-      title="<?= henc( TITLE_PRICE_USD ) ?>"
+      title="<?= TITLE_PRICE_USD ?>"
       rel="nofollow"
     >USD</a>
   | <a
       href="?<?= get_link( [ 'currency' => 'AUD' ] ) ?>#options"
       class="internal"
-      title="<?= henc( TITLE_PRICE_AUD ) ?>"
+      title="<?= TITLE_PRICE_AUD ?>"
       rel="nofollow"
     >AUD</a>
   | <a
     href="?<?= get_link_without( 'currency' ) ?>#options"
     class="internal"
-    title="<?= henc( TITLE_PRICE_DEFAULT ) ?>"
+    title="<?= TITLE_PRICE_DEFAULT ?>"
     rel="nofollow"
   >default</a>
 
@@ -1746,37 +1746,37 @@ function render_equipment_options() {
     <a
       href="?<?= get_link( [ 'sort' => 'cheap-first' ] ) ?>#options"
       class="internal"
-      title="<?= henc( TITLE_SORT_CHEAP_FIRST ) ?>"
+      title="<?= TITLE_SORT_CHEAP_FIRST ?>"
       rel="nofollow"
     >cheap first</a>
   | <a
       href="?<?= get_link( [ 'sort' => 'expensive-first' ] ) ?>#options"
       class="internal"
-      title="<?= henc( TITLE_SORT_EXPENSIVE_FIRST ) ?>"
+      title="<?= TITLE_SORT_EXPENSIVE_FIRST ?>"
       rel="nofollow"
     >expensive first</a>
   | <a
       href="?<?= get_link( [ 'sort' => 'new-first' ] ) ?>#options"
       class="internal"
-      title="<?= henc( TITLE_SORT_NEW_FIRST ) ?>"
+      title="<?= TITLE_SORT_NEW_FIRST ?>"
       rel="nofollow"
     >newest first</a>
   | <a
       href="?<?= get_link( [ 'sort' => 'old-first' ] ) ?>#options"
       class="internal"
-      title="<?= henc( TITLE_SORT_OLD_FIRST ) ?>"
+      title="<?= TITLE_SORT_OLD_FIRST ?>"
       rel="nofollow"
     >oldest first</a>
   | <a
       href="?<?= get_link( [ 'sort' => 'random' ] ) ?>#options"
       class="internal"
-      title="<?= henc( TITLE_SORT_RANDOM ) ?>"
+      title="<?= TITLE_SORT_RANDOM ?>"
       rel="nofollow"
     >random</a>
   | <a
       href="?<?= get_link_without( 'sort' ) ?>#options"
       class="internal"
-      title="<?= henc( TITLE_SORT_DEFAULT ) ?>"
+      title="<?= TITLE_SORT_DEFAULT ?>"
       rel="nofollow"
     >default</a>
 </p>

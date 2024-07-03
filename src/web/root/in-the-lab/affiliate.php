@@ -61,20 +61,20 @@ function render_affiliate_main() {
     <a
       href="<?= url_base() ?>/equipment.php"
       class="internal"
-      title="<?= henc( TITLE_EQUIPMENT ) ?>"
+      title="<?= TITLE_EQUIPMENT ?>"
     >equipment</a>
     links are to affiliates. I may earn a small commission if you purchase after clicking-through on an
     affiliate link. Clicking-through on the green links on the 
     <a
       href="<?= url_base() ?>/equipment.php"
       class="internal"
-      title="<?= henc( TITLE_EQUIPMENT ) ?>"
+      title="<?= TITLE_EQUIPMENT ?>"
     >equipment</a> page
     is a great way to
     <a
       href="<?= url_base() ?>/support.php"
       class="internal"
-      title="<?= henc( TITLE_SUPPORT ) ?>"
+      title="<?= TITLE_SUPPORT ?>"
     >support the show</a>
     at no cost to you.</p>
 
