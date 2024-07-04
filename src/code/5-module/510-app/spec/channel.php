@@ -34,21 +34,6 @@ channel(
       feature_text( 'In the mini project videos we work our way through the mini projects published in Silicon Chip magazine.' ),
     ),
     feature(
-      feature_slug( 'channel-news' ),
-      feature_name( 'Channel News' ),
-      feature_text( 'In the channel news videos I let you know about developments related to the show.' ),
-    ),
-    feature(
-      feature_slug( 'interlude' ),
-      feature_name( 'Interlude' ),
-      feature_text( 'In the interlude videos we take a small digression into something interesting.' ),
-    ),
-    feature(
-      feature_slug( 'unboxing' ),
-      feature_name( 'Unboxing' ),
-      feature_text( 'In the unboxing videos we open the box and take a look at a new item, such as tools or components.' ),
-    ),
-    feature(
       feature_slug( 'maxitronix-10in1' ),
       feature_name( 'Maxitronix 10in1' ),
       feature_text( 'In the Maxitronix 10in1 videos we work our way through the Maxitronix 10in1 electronics project lab.' ),
@@ -92,6 +77,21 @@ channel(
       feature_slug( 'maxitronix-500in1' ),
       feature_name( 'Maxitronix 500in1' ),
       feature_text( 'In the Maxitronix 500in1 videos we work our way through the Maxitronix 500in1 electronics project lab.' ),
+    ),
+    feature(
+      feature_slug( 'interlude' ),
+      feature_name( 'Interlude' ),
+      feature_text( 'In the interlude videos we take a small digression into something interesting.' ),
+    ),
+    feature(
+      feature_slug( 'unboxing' ),
+      feature_name( 'Unboxing' ),
+      feature_text( 'In the unboxing videos we open the box and take a look at a new item, such as tools or components.' ),
+    ),
+    feature(
+      feature_slug( 'channel-news' ),
+      feature_name( 'Channel News' ),
+      feature_text( 'In the channel news videos I let you know about developments related to the show.' ),
     ),
     feature(
       feature_slug( 'early-content' ),

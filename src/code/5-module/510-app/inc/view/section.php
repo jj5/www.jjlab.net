@@ -1634,11 +1634,11 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
 
         tag_text(
           'a',
-          'Channel News',
+          'Maxitronix Xin1 Kits',
           [
-            'href' => url_base() . '/#channel-news',
+            'href' => url_base() . '/#maxitronix-kits',
             'class' => 'internal',
-            'title' => TITLE_FEATURE_EARLY_CONTENT,
+            'title' => TITLE_SHOW_MAXITRONIX,
           ]
         );
 
@@ -1676,11 +1676,11 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
 
         tag_text(
           'a',
-          'Maxitronix Xin1 Kits',
+          'Channel News',
           [
-            'href' => url_base() . '/#maxitronix-kits',
+            'href' => url_base() . '/#channel-news',
             'class' => 'internal',
-            'title' => TITLE_SHOW_MAXITRONIX,
+            'title' => TITLE_FEATURE_EARLY_CONTENT,
           ]
         );
 
@@ -1756,13 +1756,13 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
 
   render_section_about_mini_project( $heading_level + 1 );
 
-  render_section_about_channel_news( $heading_level + 1 );
+  render_section_about_maxitronix_kits( $heading_level + 1 );
 
   render_section_about_interlude( $heading_level + 1 );
 
   render_section_about_unboxing( $heading_level + 1 );
 
-  render_section_about_maxitronix_kits( $heading_level + 1 );
+  render_section_about_channel_news( $heading_level + 1 );
 
   render_section_about_early_content( $heading_level + 1 );
 
@@ -1912,11 +1912,11 @@ function render_section_about_mini_project( int $heading_level = 2 ) {
 
 }
 
-function render_section_about_channel_news( int $heading_level = 2 ) {
+function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Channel News', [ 'id' => 'channel-news' ] );
+    tag_text( 'h' . $heading_level, 'Maxitronix Xin1 Kits', [ 'id' => 'maxitronix-kits' ] );
 
     tag_open( 'p' );
 
@@ -1924,27 +1924,83 @@ function render_section_about_channel_news( int $heading_level = 2 ) {
 
       tag_text(
         'a',
-        'channel news videos',
+        'Maxitronix Xin1 Kits',
         [
-          'href' => url_base() . '/feature.php/channel-news',
+          'href' => url_base() . '/feature.php/maxitronix',
           'class' => 'internal',
-          'title' => TITLE_FEATURE_CHANNEL_NEWS,
+          'title' => TITLE_SHOW_MAXITRONIX,
         ]
       );
 
-      out_text( ' air occassionally on the ' );
+      out_text( ' are ' );
+
+      tag_text( 'b', 'electronic project labs' );
+
+      out_text( ' of various sizes. I own pretty much the full set:' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      tag_open(
+        'a',
+        [
+          'href' => 'https://www.jj5.net/file/2021-08-26-153328/IMG_1490.JPG',
+          'class' => 'external',
+          'target' => '_blank',
+          'rel' => 'noopener follow',
+          'title' => henc( ALT_MAXITRONIX_LABS )
+        ]
+      );
+
+        tag_bare(
+          'img',
+          [
+            'src' => 'https://d297fd4gt7t5lv.cloudfront.net/file/2021-08-26-153328/IMG_1490.JPG?v=' . get_resource_version(),
+            'alt' => henc( ALT_MAXITRONIX_LABS ),
+            'style' => 'width:500px',
+          ]
+        );
+
+      tag_shut( 'a' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'I am slowly making my way through my collection, making ' );
+
+      tag_text( 'b', 'one video for each project in each Maxitronix project lab' );
+
+      out_text( ':' );
+
+    tag_shut( 'p' );
+
+    list_maxitronix_kits();
+
+    tag_open( 'p' );
+
+      out_text( 'For an introduction to the Maxitronix Xin1 kits see the ' );
 
       tag_text(
         'a',
-        'main channel',
+        'announcement video',
         [
-          'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
+          'href' => url_base() . '/feature.php/maxitronix#announcement',
           'class' => 'internal',
-          'title' => TITLE_CHANNEL_MAIN,
+          'title' => TITLE_SHOW_MAXITRONIX,
         ]
       );
 
-      out_text( '.' );
+      out_text( ' page.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'The Maxitronix Xin1 Kits are electronic project labs with projects designed to teach people about electronics. ' );
+      out_text( 'They are a great way to learn electronics and are a lot of fun. ' );
+      out_text( 'I would highly recommend them to anyone interested in electronics.' );
 
     tag_shut( 'p' );
 
@@ -2036,11 +2092,11 @@ function render_section_about_unboxing( int $heading_level = 2 ) {
 
 }
 
-function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
+function render_section_about_channel_news( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Maxitronix Xin1 Kits', [ 'id' => 'maxitronix-kits' ] );
+    tag_text( 'h' . $heading_level, 'Channel News', [ 'id' => 'channel-news' ] );
 
     tag_open( 'p' );
 
@@ -2048,83 +2104,27 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
 
       tag_text(
         'a',
-        'Maxitronix Xin1 Kits',
+        'channel news videos',
         [
-          'href' => url_base() . '/feature.php/maxitronix',
+          'href' => url_base() . '/feature.php/channel-news',
           'class' => 'internal',
-          'title' => TITLE_SHOW_MAXITRONIX,
+          'title' => TITLE_FEATURE_CHANNEL_NEWS,
         ]
       );
 
-      out_text( ' are ' );
-
-      tag_text( 'b', 'electronic project labs' );
-
-      out_text( ' of various sizes. I own pretty much the full set:' );
-
-    tag_shut( 'p' );
-
-    tag_open( 'p' );
-
-      tag_open(
-        'a',
-        [
-          'href' => 'https://www.jj5.net/file/2021-08-26-153328/IMG_1490.JPG',
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => henc( ALT_MAXITRONIX_LABS )
-        ]
-      );
-
-        tag_bare(
-          'img',
-          [
-            'src' => 'https://d297fd4gt7t5lv.cloudfront.net/file/2021-08-26-153328/IMG_1490.JPG?v=' . get_resource_version(),
-            'alt' => henc( ALT_MAXITRONIX_LABS ),
-            'style' => 'width:500px',
-          ]
-        );
-
-      tag_shut( 'a' );
-
-    tag_shut( 'p' );
-
-    tag_open( 'p' );
-
-      out_text( 'I am slowly making my way through my collection, making ' );
-
-      tag_text( 'b', 'one video for each project in each Maxitronix project lab' );
-
-      out_text( ':' );
-
-    tag_shut( 'p' );
-
-    list_maxitronix_kits();
-
-    tag_open( 'p' );
-
-      out_text( 'For an introduction to the Maxitronix Xin1 kits see the ' );
+      out_text( ' air occassionally on the ' );
 
       tag_text(
         'a',
-        'announcement video',
+        'main channel',
         [
-          'href' => url_base() . '/feature.php/maxitronix#announcement',
+          'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
           'class' => 'internal',
-          'title' => TITLE_SHOW_MAXITRONIX,
+          'title' => TITLE_CHANNEL_MAIN,
         ]
       );
 
-      out_text( ' page.' );
-
-    tag_shut( 'p' );
-
-    tag_open( 'p' );
-
-      out_text( 'The Maxitronix Xin1 Kits are electronic project labs with projects designed to teach people about electronics. ' );
-      out_text( 'They are a great way to learn electronics and are a lot of fun. ' );
-      out_text( 'I would highly recommend them to anyone interested in electronics.' );
+      out_text( '.' );
 
     tag_shut( 'p' );
 
