@@ -53,16 +53,14 @@ html.xslt .hamburger {
 :target::before {
   content: "";
   display: block;
-  height: 52px !important;       /* Same height as the banner */
-  margin-top: -52px !important;  /* Negative margin to offset the height */
+  height: 58px !important;       /* Same height as the banner */
+  margin-top: -58px !important;  /* Negative margin to offset the height */
   background-color: transparent !important;
 }
 
-/*
-section:last-child {
+section > :last-child {
   margin-bottom: 75px !important;
 }
-*/
 
 h1, h2, h3, h4, h5, h6 {
 
