@@ -2706,7 +2706,7 @@ function render_section_about_equipment( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'My Equipment', [ 'id' => 'equipment' ] );
+    tag_text( 'h' . $heading_level, 'Equipment', [ 'id' => 'equipment' ] );
 
     tag_open( 'p' );
 
