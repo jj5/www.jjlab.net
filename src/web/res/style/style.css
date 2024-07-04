@@ -727,7 +727,7 @@ td div {
 
 }
 
-a.internal {
+a, a.internal {
 
   color: #1E90FF;
 
@@ -745,6 +745,13 @@ a.affiliate {
 
 }
 
+/* 2024-07-04 jj5 - OLD: this is ugly so I have disabled it...
+a:visited, a.external:visited, a.visited {
+
+  color: purple;
+
+}
+*/
 
 /*
 // 2024-01-24 jj5 - Mobile First Media Queries:

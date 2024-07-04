@@ -884,18 +884,33 @@ function render_blog_template( $equipment_list ) {
       mud_html_set_opt( 'opt-break', false );
 
       out_text( "\n" );
-      out_text( "This post is part of my video blog: " );
+      out_text( "This post is part of my " );
       
       tag_text(
         'a',
-        'In The Lab With Jay Jay',
+        'video blog',
         [
-          'href' => 'https://www.inthelabwithjayjay.com/in-the-lab/',
+          'href' => 'https://www.inthelabwithjayjay.com/',
           'target' => '_blank',
           'rel' => 'follow',
           'title' => TITLE_BLOG_JJLAB,
           'opt-space' => false,
           'opt-break' => false,
+        ]
+      );
+
+      out_text( " and you can find more information about this video on this show's homepage which is " );
+
+      tag_text(
+        'a',
+        'here',
+        [
+          'href' => '#',
+          'target' => '_blank',
+          'rel' => 'follow',
+          'title' => TITLE_BLOG_VIDEO_LINK,
+          'opt-space' => false,
+          'opt-break' => true,
         ]
       );
 

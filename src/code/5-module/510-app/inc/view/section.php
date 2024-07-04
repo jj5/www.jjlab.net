@@ -29,7 +29,7 @@ define( 'TITLE_SHOW_MINI_PROJECT', 'Click here to watch the special feature vide
 define( 'TITLE_SHOW_EXTRA', "Click here to watch extra content which didn't make it to the main channel." );
 
 define( 'TITLE_ABOUT_SHOW_NOTES', 'Click here to read about the show notes.' );
-define( 'TITLE_SHOW_NOTES', 'Click here to read the show notes published with each video.' );
+define( 'TITLE_SHOW_NOTES', 'Click here to read the show notes published with this video.' );
 
 define( 'TITLE_FEATURE_ELECTRONICS_PROJECT', 'Click here to watch the electronics project videos.' );
 define( 'TITLE_FEATURE_OLD_BOOK_TEARDOWN', 'Click here to watch the videos where I review old technology related books.' );
@@ -130,7 +130,8 @@ define( 'TITLE_PCBWAY', 'Click here to visit PCBWay.' );
 define( 'TITLE_SILICON_CHIP', 'Click here to visit Silicon Chip magazine the venerable Australian electronics magazine and the publisher of the Mini Projects.' );
 define( 'TITLE_JAYCAR', 'Click here to visit Jaycar Electronics an Australian electronics retailer and the sponsor of the Mini Projects.' );
 
-define( 'TITLE_BLOG_JJLAB', 'Click here to read about In The Lab With Jay Jay, my video blog about electronics and stuff.' );
+define( 'TITLE_BLOG_JJLAB', 'Click here to discover my video blog called In The Lab With Jay Jay which is about electronics and related subjects.' );
+define( 'TITLE_BLOG_VIDEO_LINK', 'Click here to access the homepage for this video, there you will find links to all the related material.' );
 define( 'TITLE_BLOG_PATREON', 'Click here to support your mate Jay Jay on Patreon.' );
 
 define( 'TITLE_ANNOUNCEMENT_MINI_PROJECTS', 'Click here for the Mini Projects announcement video.' );
@@ -377,41 +378,44 @@ function render_section_about_conventions( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'On this website ' );
+      out_text( 'On this website internal links are ' );
 
       tag_text(
         'a',
-        'internal links are in light blue',
+        'light blue',
         [
           'href' => url_base() . '/#conventions',
           'class' => 'internal',
           'title' => TITLE_LINK_LIGHT_BLUE,
+          'style' => 'color: #1E90FF !important;',
         ]
       );
 
-      out_text( ', ' );
+      out_text( ', external links are ' );
 
       tag_text(
         'a',
-        'external links are in dark blue',
+        'dark blue',
         [
           'href' => url_base() . '/#conventions',
           'class' => 'external',
           'target' => '_blank',
           'title' => TITLE_LINK_DARK_BLUE,
+          'style' => 'color: blue !important;',
         ]
       );
 
-      out_text( ', and ' );
+      out_text( ', and affiliate links are ' );
 
       tag_text(
         'a',
-        'affiliate links are in green',
+        'green',
         [
           'href' => url_base() . '/#conventions',
           'class' => 'affiliate',
           'target' => '_blank',
           'title' => TITLE_LINK_GREEN,
+          'style' => 'color: green !important;',
         ]
       );
 
@@ -419,10 +423,47 @@ function render_section_about_conventions( int $heading_level = 2 ) {
 
     tag_shut( 'p' );
 
+    // 2024-07-04 jj5 - OLD: visited links aren't indicated any more...
+    /*
+    tag_open( 'p' );
+
+      out_text( 'Visited internal and external links are ' );
+
+      tag_text(
+        'a',
+        'purple',
+        [
+          'href' => url_base() . '/#conventions',
+          'class' => 'affiliate',
+          'target' => '_blank',
+          'title' => TITLE_LINK_GREEN,
+          'style' => 'color: purple !important;',
+        ]
+      );
+
+      out_text( ' and affiliate links are always ' );
+
+      tag_text(
+        'a',
+        'green',
+        [
+          'href' => url_base() . '/#conventions',
+          'class' => 'affiliate',
+          'target' => '_blank',
+          'title' => TITLE_LINK_GREEN,
+          'style' => 'color: green !important;',
+        ]
+      );
+
+      out_text( ' whether you have visited them or not.' );
+
+    tag_shut( 'p' );
+    */
+
     tag_open( 'p' );
 
       out_text( 'Usually external links and affiliate links will open in a new tab/window ' );
-      out_text( 'and this is indicated with a 🔗 symbol following the link.' );
+      out_text( 'and this is indicated with a chain symbol (🔗) following the link.' );
 
     tag_shut( 'p' );
 
