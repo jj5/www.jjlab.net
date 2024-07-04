@@ -286,7 +286,7 @@ function render_section_about_main( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h2', 'About the Show', [ 'id' => 'about' ] );
+    tag_text( 'h2', 'About the Website', [ 'id' => 'about' ] );
 
     tag_open( 'p' );
 
@@ -870,7 +870,7 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
 
           tag_open( 'li' );
 
-            tag_text( 'a', 'About the Show', [ 'href' => url_base() . '/about.php', 'class' => 'internal', 'title' => TITLE_ABOUT ] );
+            tag_text( 'a', 'About the Website', [ 'href' => url_base() . '/about.php', 'class' => 'internal', 'title' => TITLE_ABOUT ] );
 
           tag_shut( 'li' );
 
