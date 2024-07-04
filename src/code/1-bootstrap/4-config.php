@@ -11,3 +11,5 @@ if ( file_exists( JJLAB_CONFIG_PATH ) ) {
 }
 
 mud_define_version( 'JJLAB' );
+
+mud_define_app( 'JJLAB' );

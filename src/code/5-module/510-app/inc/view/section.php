@@ -140,8 +140,10 @@ define( 'TITLE_TEMPLATE_BLOG_PRODUCT', 'Click here for prices and more info abou
 define( 'TITLE_TEMPLATE_BLOG_PRODUCT_NOTES', 'Click here for my notes about the {product}.' );
 define( 'TITLE_TEMPLATE_LINK_IRC', 'Click here to connect to the {name} IRC server at {url}' );
 define( 'TITLE_TEMPLATE_LINK_IRC_WEB', 'Click here to visit the website of the {name} IRC network.' );
+define( 'TITLE_TEMPLATE_LINK_SOFTWARE', 'Click here to learn more about the {name} software.' );
 
 define( 'ALT_MAXITRONIX_LABS', "John's set of Maxitronix electronic project labs." );
+define( 'ALT_LOGO', "The show's logo is a version of the Hacker Emblem which is the Glider from Conway's Game of Life." );
 
 function render_section_contents() {
 

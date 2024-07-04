@@ -169,9 +169,20 @@ function render_section_about_colophon( int $heading_level = 2 ) {
 
     tag_text( 'h' . ( $heading_level + 1 ), 'Logo', [ 'id' => 'about-logo' ] );
 
+    tag_bare(
+      'img',
+      [
+        'src'   => LOGO_URL,
+        'class' => 'logo',
+        'style' => 'width:50px; height:50px; float:right; margin:6px 20px;',
+        'alt'   => ALT_LOGO,
+        'title' => ALT_LOGO,
+      ]
+    );
+
     tag_open( 'p' );
 
-      out_text( 'The show\'s logo is a version of the ' );
+      out_text( 'The show\'s logo (shown right) is a version of the ' );
 
       tag_text(
         'a',
@@ -199,7 +210,9 @@ function render_section_about_colophon( int $heading_level = 2 ) {
         ]
       );
 
-      out_text( ' which Eric S. Raymond chose for the hacker emblem can be in any of four different states, so I picked an alternative state for the glider to be in for the show\'s logo.' );
+      out_text( ' which Eric S. Raymond chose for the hacker emblem can be in any of four different states, so I ' );
+      out_text( 'picked an alternative state for the glider to be in for the show\'s logo. The state I picked looks ' );
+      out_text( 'a little bit like a "J", for "Jay Jay", don\'t you think? :)' );
 
     tag_shut( 'p' );
 
@@ -207,11 +220,15 @@ function render_section_about_colophon( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'The source code for this website is now available on GitHub: ' );
+      out_text( 'The source code for this website is now available on GitHub:' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p', [ 'class' => 'indent' ] );
 
       tag_text(
         'a',
-        'https://github.com/jj5/www.jjlab.net',
+        'github.com/jj5/www.jjlab.net',
         [
           'href' => 'https://github.com/jj5/www.jjlab.net',
           'class' => 'external',
@@ -222,6 +239,74 @@ function render_section_about_colophon( int $heading_level = 2 ) {
       );
 
     tag_shut( 'p' );
+
+    tag_text( 'h' . ( $heading_level + 1 ), 'Software Version', [ 'id' => 'software-version' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'This website is running on the following software:' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'table' );
+
+      tag_open( 'thead' );
+      
+        tag_open( 'tr' );
+
+          tag_text( 'th', 'Software' );
+
+          tag_text( 'th', 'Version' );
+
+        tag_shut( 'tr' );
+
+      tag_shut( 'thead' );
+
+      $apache_version_spec = $_SERVER[ 'SERVER_SOFTWARE' ] ?? '';
+      $apache_version = preg_match( '/Apache\/([0-9.]+)/', $apache_version_spec, $matches ) ? $matches[ 1 ] : '';
+
+      $debian_version_file = '/etc/debian_version';
+      $debian_version = file_exists( $debian_version_file ) ? file_get_contents( $debian_version_file ) : '';
+
+      $software = [
+        JJLAB_NAME  => app_get_software( JJLAB_NAME,    JJLAB_VERSION,    'https://github.com/jj5/www.jjlab.net'  ),
+        'Mudball'   => app_get_software( MUDBALL_NAME,  MUDBALL_VERSION,  'https://github.com/jj5/mudball'        ),
+        'PHP'       => app_get_software( 'PHP',         PHP_VERSION,      'https://www.php.net/'                  ),
+        'Apache'    => app_get_software( 'Apache',      $apache_version,  'https://www.apache.org/'               ),
+        'Debian'    => app_get_software( 'Debian',      $debian_version,  'https://www.debian.org/'               ),
+      ];
+
+      tag_open( 'tbody' );
+
+        foreach ( $software as $code => $version ) {
+
+          tag_open( 'tr' );
+
+            tag_open( 'td', [ 'class' => 'right' ] );
+
+              tag_text(
+                'a',
+                $code,
+                [
+                  'href' => $version[ 'link' ],
+                  'class' => 'external',
+                  'target' => '_blank',
+                  'rel' => 'noopener follow',
+                  'title' => mud_format_string( TITLE_TEMPLATE_LINK_SOFTWARE, [ 'name' => $version[ 'name' ] ] )
+                ]
+              );
+
+            tag_shut( 'td' );
+
+            tag_text( 'td', $version[ 'version' ], [ 'class' => 'right' ] );
+
+          tag_shut( 'tr' );
+
+        }
+
+      tag_shut( 'tbody' );
+
+    tag_shut( 'table' );
 
     tag_text( 'h' . ( $heading_level + 1 ), 'Sitemap.xml', [ 'id' => 'sitemap.xml' ] );
 
@@ -244,6 +329,16 @@ function render_section_about_colophon( int $heading_level = 2 ) {
     tag_shut( 'p' );
 
   tag_shut( 'section' );
+
+}
+
+function app_get_software( $name, $version, $link ) {
+
+  return [
+    'name' => $name,
+    'version' => $version,
+    'link' => $link,
+  ];
 
 }
 
