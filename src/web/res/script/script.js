@@ -230,14 +230,20 @@ function handle_hashchange( ev, el ) {
 
   if ( ! targetElement ) { return; }
 
-  targetElement.classList.add('flash');
+  flash( targetElement );
+
+}
+
+function flash( element ) {
+
+  element.classList.add('flash');
   
   // Remove the class after a short delay to reset the element
   setTimeout(
     function() {
-      targetElement.classList.remove('flash');
+      element.classList.remove('flash');
     },
-    1000  // Duration should match the CSS transition duration
+    750  // Duration should match the CSS transition duration
   );
 
 }
@@ -319,6 +325,8 @@ function scroll_into_view() {
       console.log( 'scrolling to element with id: ' + id );
 
       element.scrollIntoView();
+
+      flash( element );
 
     }
   }

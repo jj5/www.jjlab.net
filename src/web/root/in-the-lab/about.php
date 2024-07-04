@@ -167,6 +167,10 @@ function render_section_about_colophon( int $heading_level = 2 ) {
 
     tag_text( 'p', 'Here are some notes about how this website is made.' );
 
+  tag_shut( 'section' );
+
+  tag_open( 'section' );
+
     tag_text( 'h' . ( $heading_level + 1 ), 'Logo', [ 'id' => 'about-logo' ] );
 
     tag_bare(
@@ -216,6 +220,10 @@ function render_section_about_colophon( int $heading_level = 2 ) {
 
     tag_shut( 'p' );
 
+  tag_shut( 'section' );
+
+  tag_open( 'section' );
+
     tag_text( 'h' . ( $heading_level + 1 ), 'Source Code', [ 'id' => 'source-code' ] );
 
     tag_open( 'p' );
@@ -239,6 +247,10 @@ function render_section_about_colophon( int $heading_level = 2 ) {
       );
 
     tag_shut( 'p' );
+
+  tag_shut( 'section' );
+
+  tag_open( 'section' );
 
     tag_text( 'h' . ( $heading_level + 1 ), 'Software Version', [ 'id' => 'software-version' ] );
 
@@ -307,6 +319,10 @@ function render_section_about_colophon( int $heading_level = 2 ) {
       tag_shut( 'tbody' );
 
     tag_shut( 'table' );
+
+  tag_shut( 'section' );
+
+  tag_open( 'section' );
 
     tag_text( 'h' . ( $heading_level + 1 ), 'Sitemap.xml', [ 'id' => 'sitemap.xml' ] );
 

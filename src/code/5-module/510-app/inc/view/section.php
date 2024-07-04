@@ -1141,6 +1141,10 @@ function render_section_about_channels( int $heading_level = 2 ) {
 
     tag_text( 'p', 'The show is delivered across two separate YouTube channels.' );
 
+  tag_shut( 'section' );
+
+  tag_open( 'section' );
+
     tag_text( 'h' . ( $heading_level + 1 ), 'Main Channel: @InTheLabWithJayJay', [ 'id' => 'main-channel' ] );
 
     tag_open( 'p' );
@@ -1208,6 +1212,10 @@ function render_section_about_channels( int $heading_level = 2 ) {
       out_text( ' page.' );
 
     tag_shut( 'p' );
+
+  tag_shut( 'section' );
+
+  tag_open( 'section' );
 
     tag_text( 'h' . ( $heading_level + 1 ), '2nd Channel: @ElliotsExtras', [ 'id' => '2nd-channel' ] );
 
@@ -2937,6 +2945,10 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
     tag_shut( 'p' );
 
+  tag_shut( 'section' );
+
+  tag_open( 'section' );
+
     tag_text( 'h' . ( $heading_level + 1 ), 'Send Me Email', [ 'id' => 'contact-by-email' ] );
 
     tag_open( 'p' );
@@ -2963,6 +2975,10 @@ function render_section_contact_info( int $heading_level = 2 ) {
       out_text( "get your email, in which case you might like to pursue some of the other contact methods listed on this page." );
 
     tag_shut( 'p' );
+
+  tag_shut( 'section' );
+
+  tag_open( 'section' );
 
     tag_text( 'h' . ( $heading_level + 1 ), 'Comment Publicly on My Blog', [ 'id' => 'comment-on-blog' ] );
 
@@ -3027,6 +3043,10 @@ function render_section_contact_info( int $heading_level = 2 ) {
       out_text( ' including Priority Access and Inner Circle subscribers.' );
 
     tag_shut( 'p' );
+
+  tag_shut( 'section' );
+
+  tag_open( 'section' );
 
     tag_text( 'h' . ( $heading_level + 1 ), 'Comment Publicly on YouTube', [ 'id' => 'comment-on-youtube' ] );
 
@@ -3156,6 +3176,10 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
     tag_shut( 'table' );
 
+  tag_shut( 'section' );
+
+  tag_open( 'section' );
+
     tag_text( 'h' . ( $heading_level + 1 ), 'Private Chat on IRC', [ 'id' => 'irc-chat' ] );
 
     tag_open( 'p' );
@@ -3233,6 +3257,10 @@ function render_section_contact_info( int $heading_level = 2 ) {
       tag_shut( 'tbody' );
 
     tag_shut( 'table' );
+
+  tag_shut( 'section' );
+
+  tag_open( 'section' );
 
     tag_text( 'h' . ( $heading_level + 1 ), 'Private Message on Patreon', [ 'id' => 'contact-by-patreon' ] );
 

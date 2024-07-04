@@ -39,7 +39,7 @@ html.xslt .hamburger {
 
 .equipment-link {
 
-  margin-top: 40px;
+  margin-top: 66px;
   display: inline-block;
 
 }
@@ -51,21 +51,22 @@ html.xslt .hamburger {
 
 /* 2024-06-15 jj5 - this will add a little space above the heading */
 :target::before {
-    content: "";
-    display: block;
-    height: 52px !important;       /* Same height as the banner */
-    margin-top: -52px !important;  /* Negative margin to offset the height */
-    background-color: transparent !important;
-    padding: 4px;
+  content: "";
+  display: block;
+  height: 52px !important;       /* Same height as the banner */
+  margin-top: -52px !important;  /* Negative margin to offset the height */
+  background-color: transparent !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
 
   margin-top: 52px;
 
-  transition: background-color 1s ease;
+  transition: background-color 750ms ease;
 
   border-radius: 20px;
+
+  opacity: 0.75;
 
   /*
   padding: 5px 10px;
@@ -75,7 +76,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .flash {
 
-  background-color: yellow !important;
+  /*background-color: yellow !important;*/
+  background-color: rgb(255,255,0,0.5) !important;
 
 }
 
