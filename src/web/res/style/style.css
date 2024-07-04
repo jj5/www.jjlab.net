@@ -58,6 +58,12 @@ html.xslt .hamburger {
   background-color: transparent !important;
 }
 
+h1:target, h2:target, h3:target, h4:target, h5:target, h6:target {
+
+  text-decoration: underline;
+
+}
+
 section > :last-child {
   margin-bottom: 75px !important;
 }
