@@ -403,7 +403,7 @@ function render_feature_mini_project() {
               'class' => 'external',
               'target' => '_blank',
               'rel' => 'noopener follow',
-              'title' => 'Click here to visit Silicon Chip magazine the published of the Mini Projects.',
+              'title' => TITLE_SILICON_CHIP,
             ]
           );
 
@@ -417,7 +417,7 @@ function render_feature_mini_project() {
               'class' => 'external',
               'target' => '_blank',
               'rel' => 'noopener follow',
-              'title' => 'Click here to visit Jaycar the sponsor of the Mini Projects.',
+              'title' => TITLE_JAYCAR,
             ]
           );
 
@@ -465,7 +465,7 @@ function render_feature_mini_project() {
               'class' => 'external',
               'target' => '_blank',
               'rel' => 'noopener follow',
-              'title' => 'Click here for the Mini Projects announcement video.',
+              'title' => TITLE_ANNOUNCEMENT_MINI_PROJECTS,
             ]
           );
 
@@ -481,7 +481,7 @@ function render_feature_mini_project() {
               'class' => 'external',
               'target' => '_blank',
               'rel' => 'noopener follow',
-              'title' => 'Click here to read the Mini Projects announcement from Nicholas Vinen the Editor of Silicon Chip magazine.',
+              'title' => TITLE_LINK_SILICON_CHIP_MINI_PROJECTS_ANNOUNCEMENT,
             ]
           );
 
@@ -497,7 +497,7 @@ function render_feature_mini_project() {
               'class' => 'external',
               'target' => '_blank',
               'rel' => 'noopener follow',
-              'title' => 'Click here for the full list of Mini Projects published by Silicon Chip magazine.',
+              'title' => TITLE_LINK_SILICON_CHIP_MINI_PROJECTS_LIST,
             ]
           );
 
@@ -513,7 +513,7 @@ function render_feature_mini_project() {
               'class' => 'external',
               'target' => '_blank',
               'rel' => 'noopener follow',
-              'title' => 'Click here to visit Silicon Chip magazine, who publish the the Mini Projects.',
+              'title' => TITLE_SILICON_CHIP,
             ]
           );
 
@@ -529,7 +529,7 @@ function render_feature_mini_project() {
               'class' => 'external',
               'target' => '_blank',
               'rel' => 'noopener follow',
-              'title' => 'Click here to visit Jaycar, the sponsor of the Mini Projects.',
+              'title' => TITLE_JAYCAR,
             ]
           );
 

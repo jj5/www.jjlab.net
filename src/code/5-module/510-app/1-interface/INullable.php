@@ -2,6 +2,6 @@
 
 interface INullable {
 
-  public function is_null();
+  public function is_null() : bool;
 
 }

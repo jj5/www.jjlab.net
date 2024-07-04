@@ -22,7 +22,7 @@ trait NullItemMixin {
 
   }
 
-  public function is_null() { return true; }
+  public function is_null() : bool { return true; }
   public function is_empty() { return true; }
   public function get_item_id() { return 0; }
   public function set_parent( $parent ) { throw new Exception( 'Unsupported' ); }

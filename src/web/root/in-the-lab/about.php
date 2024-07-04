@@ -181,7 +181,7 @@ function render_section_about_colophon( int $heading_level = 2 ) {
           'class' => 'external',
           'target' => '_blank',
           'rel' => 'noopener follow',
-          'title' => 'Click here to learn more about the hacker emblem.',
+          'title' => TITLE_LINK_HACKER_EMBLEM,
         ]
       );
 
@@ -195,7 +195,7 @@ function render_section_about_colophon( int $heading_level = 2 ) {
           'class' => 'external',
           'target' => '_blank',
           'rel' => 'noopener follow',
-          'title' => 'Click here to learn more about the glider in Conway\'s Game of Life.',
+          'title' => TITLE_LINK_GAME_OF_LIFE,
         ]
       );
 
@@ -217,7 +217,7 @@ function render_section_about_colophon( int $heading_level = 2 ) {
           'class' => 'external',
           'target' => '_blank',
           'rel' => 'noopener follow',
-          'title' => 'Click here to find the source code for this website.',
+          'title' => TITLE_LINK_GITHUB_SOURCE,
         ]
       );
 
@@ -235,7 +235,7 @@ function render_section_about_colophon( int $heading_level = 2 ) {
         [
           'href' => url_base() . '/sitemap.php',
           'class' => 'internal',
-          'title' => 'Click here to view the sitemap.xml file.',
+          'title' => TITLE_LINK_SITEMAP_XML,
         ]
       );
 
@@ -273,7 +273,7 @@ function render_section_about_secrets( int $heading_level = 2 ) {
           [
             'href' => url_base() . '/videos.php',
             'class' => 'internal',
-            'title' => 'Click here for a table with all videos.',
+            'title' => TITLE_VIDEO_INDEX,
           ]
         );
 
@@ -287,7 +287,7 @@ function render_section_about_secrets( int $heading_level = 2 ) {
           [
             'href' => url_base() . '/books.php',
             'class' => 'internal',
-            'title' => 'Click here for a table with all books.',
+            'title' => TITLE_BOOK_INDEX,
           ]
         );
 

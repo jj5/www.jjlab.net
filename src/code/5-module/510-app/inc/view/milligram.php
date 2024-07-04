@@ -877,55 +877,118 @@ function render_blog_template( $equipment_list ) {
 
   tag_open( 'textarea', [ 'style' => 'height:400px;' ] );
 
-  out_text("
-This post is part of my video blog: <a href=\"https://www.inthelabwithjayjay.com/in-the-lab/\">In The Lab With Jay Jay</a>.
+    nip_init();
 
-<iframe src=\"https://www.youtube.com/embed/to9cunh46bw\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"true\" width=\"560\" height=\"315\"></iframe>
+      out_text( "\n" );
+      out_text( "This post is part of my video blog: " );
+      
+      tag_text(
+        'a',
+        'In The Lab With Jay Jay',
+        [
+          'href' => 'https://www.inthelabwithjayjay.com/in-the-lab/',
+          'target' => '_blank',
+          'rel' => 'follow',
+          'title' => TITLE_BLOG_JJLAB,
+          'opt-space' => false,
+        ]
+      );
 
-You can support this channel on Patreon: <a href=\"https://www.patreon.com/JohnElliotV\">patreon.com/JohnElliotV</a>
+      out_text( ".\n" );
 
-In this video I 
+      tag_open(
+        'iframe',
+        [
+          'src' => 'https://www.youtube.com/embed/to9cunh46bw',
+          'allow' => 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture',
+          'allowfullscreen' => 'true',
+          'width' => '560',
+          'height' => '315',
+        ]
+      );
 
-Following is a list of products I use which may appear in my videos. Clicking through on these links before purchasing from Amazon, eBay, or AliExpress is a great way to support the channel at no cost to you. Thanks!
+      out_text( "You can support this channel on Patreon: " );
+      
+      tag_text(
+        'a',
+        'patreon.com/JohnElliotV',
+        [
+          'href' => 'https://www.patreon.com/JohnElliotV',
+          'target' => '_blank',
+          'rel' => 'follow',
+          'title' => TITLE_BLOG_PATREON,
+        ]
+      );
 
-<table class='table'>
-<tbody>
-");
+      out_text( "\n\nIn this video I ...\n\n" );
 
-  foreach ( $equipment_list as $equipment ) {
+      out_text( "Following is a list of products I use which may appear in my videos. " );
+      out_text( "Clicking through on these links before purchasing from Amazon, eBay, or AliExpress is a great way " );
+      out_text( "to support the channel at no cost to you. Thanks!\n" );
 
-    $row_number++;
+      tag_open( 'table', [ 'class' => 'table' ] );
 
-    $thumb = henc( $equipment->get_equipment_icon()->get_public_url() );
-    $product = henc( $equipment->get_equipment_name() );
-    $link = henc( $equipment->get_short_link() );
-    $notes = henc( $equipment->get_sixsigma_url() );
+        tag_open( 'body' );
 
-    out_text("<tr>
-<td>
-<a href=\"$link\" title=\"Click here for prices and more info about the $product.\" target=\"_blank\">
-<span style=\"font-size:2rem;\">$product</span>
-<img src=\"$thumb\" alt=\"\" style=\"max-height:400px\"></a>");
+          foreach ( $equipment_list as $equipment ) {
 
-    if ( $notes ) {
+            $row_number++;
 
-      out_text("
-<a href=\"$notes\" title=\"Click here for my notes about the $product.\" target=\"_blank\">notes</a>");
+            $thumb = $equipment->get_equipment_icon()->get_public_url();
+            $product = $equipment->get_equipment_name();
+            $link = $equipment->get_short_link();
+            $notes = $equipment->get_sixsigma_url();
 
-    }
+            tag_open( 'tr' );
 
-    out_text("
-</td>
-</tr>
-");
+              tag_open( 'td' );
 
+                tag_open(
+                  'a',
+                  [
+                    'href' => $link,
+                    'title' => mud_format_string( TITLE_TEMPLATE_BLOG_PRODUCT, [ 'product' => $product ] ),
+                    'target' => '_blank',
+                    'rel' => 'follow',
+                  ]
+                );
 
-  }
+                  tag_text( 'span', $product, [ 'style' => 'font-size:2rem;' ] );
+                  tag_bare( 'img', [ 'src' => $thumb, 'alt' => '', 'style' => 'max-height:400px' ] );
 
-  out_text("</tbody>
-</table>
+                tag_shut( 'a' );
 
-Let's go shopping!");
+                if ( $notes ) {
+
+                  tag_open(
+                    'a',
+                    [
+                      'href' => $notes,
+                      'title' => mud_format_string( TITLE_TEMPLATE_BLOG_PRODUCT_NOTES, [ 'product' => $product ] ),
+                      'target' => '_blank',
+                      'rel' => 'follow',
+                    ]
+                  );
+
+                    out_text( 'notes' );
+
+                  tag_shut( 'a' );
+
+                }
+
+              tag_shut( 'td' );
+
+            tag_shut( 'tr' );
+
+          }
+
+        tag_shut( 'body' );
+
+      tag_shut( 'table' );
+
+      out_text( "\n\nLet's go shopping!" );
+
+    nip_done( $html, $echo = true );
 
   tag_shut( 'textarea' );
 

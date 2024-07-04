@@ -20,7 +20,7 @@ class ValueWrapper extends Value {
 
   }
 
-  public function is_null() { return parent::get_value()->is_null(); }
+  public function is_null() : bool { return parent::get_value()->is_null(); }
   public function is_empty() { return parent::get_value()->is_empty(); }
   public function get_value() { return parent::get_value()->get_value(); }
 

@@ -1,6 +1,6 @@
 <?php
 
-class Item implements INullable {
+class Item extends MudGadget implements INullable {
 
   protected static $null_map = [];
 
@@ -12,6 +12,8 @@ class Item implements INullable {
   protected $parent = null;
 
   public function __construct( int $item_id = 0, array $args = [] ) {
+
+    parent::__construct();
 
     $property_list = [];
 
@@ -81,7 +83,7 @@ class Item implements INullable {
 
   }
 
-  public function is_null() { return false; }
+  public function is_null() : bool { return false; }
 
   public function is_empty() {
 

@@ -98,6 +98,13 @@ define( 'TITLE_LINK_VIDEO', 'Click here to watch this video.' );
 define( 'TITLE_LINK_YOUTUBE', 'Click here to watch this video on YouTube.' );
 define( 'TITLE_LINK_WEB', 'Click here to visit the website.' );
 
+define( 'TITLE_LINK_HACKER_EMBLEM', 'Click here to learn more about the hacker emblem.' );
+define( 'TITLE_LINK_GAME_OF_LIFE', 'Click here to learn more about the glider in Conway\'s Game of Life.' );
+define( 'TITLE_LINK_GITHUB_SOURCE', 'Click here to find the source code for this website.' );
+define( 'TITLE_LINK_SITEMAP_XML', 'Click here to view the sitemap.xml file.' );
+define( 'TITLE_LINK_SILICON_CHIP_MINI_PROJECTS_ANNOUNCEMENT', 'Click here to read the Mini Projects announcement from Nicholas Vinen the Editor of Silicon Chip magazine.' );
+define( 'TITLE_LINK_SILICON_CHIP_MINI_PROJECTS_LIST', 'Click here for the full list of Mini Projects published by Silicon Chip magazine.' );
+
 define( 'TITLE_SEARCH_AFFILIATE', 'Click here to search for this equipment at this affiliate.' );
 
 define( 'TITLE_PRICE_USD', 'Click here to get prices in United States Dollars.' );
@@ -112,7 +119,17 @@ define( 'TITLE_SORT_RANDOM', 'Click here to sort randomly.' );
 define( 'TITLE_SORT_DEFAULT', 'Click here to use the default sort (expensive first).' );
 
 define( 'TITLE_PCBWAY', 'Click here to visit PCBWay.' );
-define( 'TITLE_SILICON_CHIP', 'Click here to visit Silicon Chip.' );
+define( 'TITLE_SILICON_CHIP', 'Click here to visit Silicon Chip magazine the venerable Australian electronics magazine and the publisher of the Mini Projects.' );
+define( 'TITLE_JAYCAR', 'Click here to visit Jaycar Electronics an Australian electronics retailer and the sponsor of the Mini Projects.' );
+
+define( 'TITLE_BLOG_JJLAB', 'Click here to read about In The Lab With Jay Jay, my video blog about electronics and stuff.' );
+define( 'TITLE_BLOG_PATREON', 'Click here to support your mate Jay Jay on Patreon.' );
+
+define( 'TITLE_ANNOUNCEMENT_MINI_PROJECTS', 'Click here for the Mini Projects announcement video.' );
+
+define( 'TITLE_TEMPLATE_MAXITRONIX_KIT', 'Click here to watch the videos where I work through the Maxitronix {name} electronic project lab.' );
+define( 'TITLE_TEMPLATE_BLOG_PRODUCT', 'Click here for prices and more info about the {product}.' );
+define( 'TITLE_TEMPLATE_BLOG_PRODUCT_NOTES', 'Click here for my notes about the {product}.' );
 
 define( 'ALT_MAXITRONIX_LABS', "John's set of Maxitronix electronic project labs." );
 

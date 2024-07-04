@@ -22,7 +22,7 @@ class MaxitronixKit extends Kit {
 
     $name = $this->get_kit_name();
 
-    return "Click here to watch the videos where I work through the Maxitronix $name electronic project lab.";
+    return mud_format_string( TITLE_TEMPLATE_MAXITRONIX_KIT, [ 'name' => $name ] );
 
   }
 
