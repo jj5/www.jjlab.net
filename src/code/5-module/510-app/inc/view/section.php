@@ -723,19 +723,20 @@ function render_section_about_video_content( int $heading_level = 2 ) {
 
       tag_text( 'b', 'I would be very happy to hear from you' );
 
-      out_text( '! You can find my contact details ' );
+      out_text( '! You can find my contact details on the ' );
 
       tag_text(
         'a',
-        'here',
+        'contact',
         [
-          'href' => url_base() . '/#contact-info',
+          'href' => url_base() . '/contact.php',
           'class' => 'internal',
-          'title' => TITLE_ABOUT,
+          'rel' => 'follow',
+          'title' => TITLE_CONTACT,
         ]
       );
 
-      out_text( '.' );
+      out_text( ' page.' );
 
     tag_shut( 'p' );
 
@@ -2578,7 +2579,19 @@ function render_silly_job_title() {
 
 function render_section_about_contact( int $heading_level = 2 ) {
 
-  render_section_contact_info( $heading_level );
+  tag_open( 'section' );
+
+    tag_text( 'h2', 'Contact Information', [ 'id' => 'contact-info' ] );
+
+    tag_open( 'p' );
+
+      out_text( "If you’d like to get interactive with me or my community, you have a bunch of options." );
+
+    tag_shut( 'p' );
+
+  tag_shut( 'section' );
+
+  render_section_contact_info( $heading_level + 1 );
 
 }
 
@@ -2740,7 +2753,7 @@ function render_section_about_equipment( int $heading_level = 2 ) {
         'a',
         'let me know',
         [
-          'href' => url_base() . '/#contact-info',
+          'href' => url_base() . '/contact.php',
           'class' => 'internal',
           'rel' => 'follow',
           'title' => TITLE_CONTACT,
@@ -2937,19 +2950,7 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Contact Information', [ 'id' => 'contact-info' ] );
-
-    tag_open( 'p' );
-
-      out_text( "If you’d like to get interactive with me or my community, you have a bunch of options." );
-
-    tag_shut( 'p' );
-
-  tag_shut( 'section' );
-
-  tag_open( 'section' );
-
-    tag_text( 'h' . ( $heading_level + 1 ), 'Send Me Email', [ 'id' => 'contact-by-email' ] );
+    tag_text( 'h' . ( $heading_level ), 'Send Me Email', [ 'id' => 'contact-by-email' ] );
 
     tag_open( 'p' );
 
@@ -2980,7 +2981,7 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . ( $heading_level + 1 ), 'Comment Publicly on My Blog', [ 'id' => 'comment-on-blog' ] );
+    tag_text( 'h' . ( $heading_level ), 'Comment Publicly on My Blog', [ 'id' => 'comment-on-blog' ] );
 
     tag_open( 'p' );
 
@@ -3048,7 +3049,7 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . ( $heading_level + 1 ), 'Comment Publicly on YouTube', [ 'id' => 'comment-on-youtube' ] );
+    tag_text( 'h' . ( $heading_level ), 'Comment Publicly on YouTube', [ 'id' => 'comment-on-youtube' ] );
 
     tag_open( 'p' );
 
@@ -3180,7 +3181,7 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . ( $heading_level + 1 ), 'Private Chat on IRC', [ 'id' => 'irc-chat' ] );
+    tag_text( 'h' . ( $heading_level ), 'Private Chat on IRC', [ 'id' => 'irc-chat' ] );
 
     tag_open( 'p' );
 
@@ -3262,11 +3263,11 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . ( $heading_level + 1 ), 'Private Message on Patreon', [ 'id' => 'contact-by-patreon' ] );
+    tag_text( 'h' . ( $heading_level ), 'Private Message on Patreon', [ 'id' => 'contact-by-patreon' ] );
 
     tag_open( 'p' );
 
-      out_text( "If you do " );
+      out_text( "If you " );
       
       tag_text(
         'a',

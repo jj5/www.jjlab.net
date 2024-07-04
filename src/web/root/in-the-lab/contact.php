@@ -33,7 +33,7 @@ function render_contact_main() {
 
         tag_text( 'h1', $title );
         
-        tag_text( 'p', 'Please find my contact information below.' );
+        tag_text( 'p', 'If you’d like to get interactive with me or my community, you have a bunch of options.' );
 
       tag_shut( 'section' );
 

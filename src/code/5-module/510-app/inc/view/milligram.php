@@ -70,7 +70,7 @@ function render_404() {
 
           out_text( 'If you believe this is an error, please ' );
 
-          tag_text( 'a', 'contact us', [ 'href' => url_base() . '/contact.php#contact-info', 'class' => 'internal' ] );
+          tag_text( 'a', 'contact us', [ 'href' => url_base() . '/contact.php', 'class' => 'internal' ] );
 
           out_text( '.' );
 
@@ -142,7 +142,7 @@ function render_500( $message = null, $form = null, $issue = null, $exit = null,
 
         out_text( 'If the problem persists, please ' );
 
-        tag_text( 'a', 'contact us', [ 'href' => url_base() . '/contact.php#contact-info', 'class' => 'internal' ] );
+        tag_text( 'a', 'contact us', [ 'href' => url_base() . '/contact.php', 'class' => 'internal' ] );
 
         out_text( ' to let us know.' );
 
