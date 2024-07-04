@@ -385,6 +385,7 @@ function render_section_about_conventions( int $heading_level = 2 ) {
         [
           'href' => url_base() . '/#conventions',
           'class' => 'external',
+          'target' => '_blank',
           'title' => TITLE_LINK_DARK_BLUE,
         ]
       );
@@ -397,6 +398,7 @@ function render_section_about_conventions( int $heading_level = 2 ) {
         [
           'href' => url_base() . '/#conventions',
           'class' => 'affiliate',
+          'target' => '_blank',
           'title' => TITLE_LINK_GREEN,
         ]
       );
@@ -407,7 +409,16 @@ function render_section_about_conventions( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'Usually external links and affiliate links will open in a new tab/window.' );
+      out_text( 'Usually external links and affiliate links will open in a new tab/window ' );
+      out_text( 'and this is indicated with a 🔗 symbol following the link.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'As you may know if you want to open an external/affiliate link in a new tab ' );
+      out_text( 'instead of a new window you can right click the link and select "Open link in new tab" ' );
+      out_text( 'or you can usually hold down the "Ctrl" key while clicking the link.' );
 
     tag_shut( 'p' );
 
