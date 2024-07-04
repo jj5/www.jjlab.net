@@ -346,6 +346,8 @@ function scroll_into_view() {
 
       var target = document.querySelector( ':target' );
 
+      // 2024-07-05 jj5 - OLD: we just always scroll into view now, I think taht's better...
+      /*
       if ( element !== target ) {
 
         //console.log( 'scrolling to element with id: ' + id );
@@ -353,6 +355,9 @@ function scroll_into_view() {
         element.scrollIntoView();
 
       }
+      */
+
+      element.scrollIntoView();
 
       flash( element );
 
