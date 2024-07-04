@@ -53,8 +53,8 @@ html.xslt .hamburger {
 :target::before {
   content: "";
   display: block;
-  height: 58px !important;       /* Same height as the banner */
-  margin-top: -58px !important;  /* Negative margin to offset the height */
+  height: 68px !important;       /* Same height as the banner */
+  margin-top: -68px !important;  /* Negative margin to offset the height */
   background-color: transparent !important;
 }
 
@@ -66,7 +66,8 @@ h1, h2, h3, h4, h5, h6 {
 
   margin-top: 52px;
 
-  transition: background-color 750ms ease;
+  /*transition: color 2000ms ease;*/
+  transition: font-size 750ms ease;
 
   border-radius: 20px;
 
@@ -81,7 +82,15 @@ h1, h2, h3, h4, h5, h6 {
 .flash {
 
   /*background-color: yellow !important;*/
-  background-color: rgb(255,255,0,0.5) !important;
+  /*background-color: rgb(255,255,0,0.5) !important;*/
+
+  /*color: orange;*/
+
+  /*
+  font-size: 42px;
+  */
+
+  font-size: 16px;
 
 }
 

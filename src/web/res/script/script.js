@@ -11,8 +11,34 @@ document.addEventListener( 'DOMContentLoaded', handle_content_loaded );
 window.addEventListener( 'load', handle_window_load );
 window.addEventListener( 'resize', handle_window_resize );
 document.addEventListener( 'click', handle_document_click );
-
 window.addEventListener( 'hashchange', handle_hashchange );
+
+function hook_all() {
+
+  // List of all possible DOM events
+  const allEvents = [
+      "click", "dblclick", "mousedown", "mouseup", "mouseover", "mouseout", "mousemove", 
+      "keydown", "keypress", "keyup", "change", "input", "submit", "focus", "blur", 
+      "resize", "scroll", "contextmenu", "select", "copy", "cut", "paste", "wheel", 
+      "touchstart", "touchmove", "touchend", "touchcancel", "pointerdown", "pointerup", 
+      "pointermove", "pointerover", "pointerout", "pointerenter", "pointerleave", 
+      "pointercancel", "drag", "dragstart", "dragend", "dragover", "dragenter", "dragleave", 
+      "dragexit", "drop"
+  ];
+
+  // Event handler function
+  function eventHandler(event) {
+    console.log(`Event: ${event.type}, Target: ${event.target}`);
+    console.log(event.target);
+  }
+
+  // Subscribe to all events
+  allEvents.forEach(event => {
+    if ( event !== 'focus' ) { return; }
+      document.addEventListener(event, eventHandler, true); // Use capture phase
+  });
+
+}
 
 function handle_window_load( ev, el ) {
 
@@ -30,6 +56,13 @@ function handle_window_load( ev, el ) {
   const headings = document.querySelectorAll( 'h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]' );
   
   headings.forEach( heading => {
+
+    heading.addEventListener( 'focus', function( ev ) {
+
+      console.log( ev.target );
+      flash( ev.target );
+
+    });
 
     const id = heading.getAttribute( 'id' );
     
@@ -317,6 +350,8 @@ function scroll_into_view() {
     var element = document.getElementById( id );
 
     if ( element ) {
+
+      flash( element );
 
       var target = document.querySelector( ':target' );
 
