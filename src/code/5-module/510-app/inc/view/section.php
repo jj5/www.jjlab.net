@@ -850,6 +850,7 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
         [
           'href' => url_base() . '/#structure',
           'class' => 'internal',
+          'opt-space' => false,
         ]
       );
 

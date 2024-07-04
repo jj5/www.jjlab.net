@@ -87,6 +87,10 @@ function render_index_main() {
 
     render_section_about_structure();
 
+    render_section_about_sitemap( 3 );
+
+    render_section_about_rss_feeds( 3 );
+
     render_section_about_show_notes();
 
     render_section_about_channels();
