@@ -58,6 +58,12 @@ html.xslt .hamburger {
   background-color: transparent !important;
 }
 
+/*
+section:last-child {
+  margin-bottom: 75px !important;
+}
+*/
+
 h1, h2, h3, h4, h5, h6 {
 
   margin-top: 52px;
@@ -105,8 +111,10 @@ p.small {
 
 table {
   width: auto;
-  margin-bottom: 12px;
 }
+
+
+
 
 table td, table th {
   padding: 10px !important;
