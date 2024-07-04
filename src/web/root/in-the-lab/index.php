@@ -39,7 +39,11 @@ function render_index_main() {
 
         tag_open( 'p' );
 
-          out_text( 'If you want to help a brother out, please consider subscribing to my YouTube channel ' );
+          out_text( 'You can find my YouTube channel here:' );
+
+        tag_shut( 'p' );
+
+        tag_open( 'p' );
 
           tag_text(
             'a',
@@ -53,7 +57,15 @@ function render_index_main() {
             ]
           );
 
-          out_text( ' or supporting me on Patreon: ' );
+        tag_shut( 'p' );
+
+        tag_open( 'p' );
+
+          out_text( 'You can support me on Patreon here:' );
+
+        tag_shut( 'p' );
+
+        tag_open( 'p' );
 
           tag_text(
             'a',

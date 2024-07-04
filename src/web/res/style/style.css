@@ -19,6 +19,12 @@ section {
 
 }
 
+header section {
+
+  max-width: 1000px;
+
+}
+
 nav header {
 
   margin-left: 10px;
