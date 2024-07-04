@@ -12,6 +12,8 @@ window.addEventListener( 'load', handle_window_load );
 window.addEventListener( 'resize', handle_window_resize );
 document.addEventListener( 'click', handle_document_click );
 
+window.addEventListener( 'hashchange', handle_hashchange );
+
 function handle_window_load( ev, el ) {
 
   //const footer = document.querySelector( 'footer' );
@@ -215,6 +217,28 @@ function handle_content_loaded( ev, el ) {
   set_window_size_cookie();
 
   load_iframes();
+
+}
+
+function handle_hashchange( ev, el ) {
+
+  var id = window.location.hash.substring( 1 );
+
+  console.log( id );
+
+  var targetElement = document.getElementById( id );
+
+  if ( ! targetElement ) { return; }
+
+  targetElement.classList.add('flash');
+  
+  // Remove the class after a short delay to reset the element
+  setTimeout(
+    function() {
+      targetElement.classList.remove('flash');
+    },
+    1000  // Duration should match the CSS transition duration
+  );
 
 }
 
