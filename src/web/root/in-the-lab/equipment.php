@@ -65,7 +65,7 @@ function render_equipment_main() {
 
     tag_open( 'section' );
 
-      tag_text( 'h2', 'Check Out My Tools and Equipment Detailed on This Page' );
+      tag_text( 'h2', 'Check Out My Tools and Equipment Detailed on This Page', [ 'id' => 'intro' ] );
 
       tag_open( 'p' );
 

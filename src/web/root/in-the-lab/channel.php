@@ -137,7 +137,7 @@ function render_channel_one() {
         }
         else {
 
-          tag_text( 'h1', 'Main Channel' );
+          tag_text( 'h1', 'Main Channel', [ 'id' => 'heading' ] );
 
           tag_open( 'p' );
 
@@ -183,7 +183,7 @@ function render_channel_one_main() {
 
   tag_open( 'section' );
 
-    tag_text( 'h2', 'Main Channel: @InTheLabWithJayJay' );
+    tag_text( 'h2', 'Main Channel: @InTheLabWithJayJay', [ 'id' => '@InTheLabWithJayJay' ] );
 
     tag_open( 'p' );
 
@@ -298,7 +298,7 @@ function render_channel_two_main() {
 
   tag_open( 'section' );
 
-    tag_text( 'h2', '2nd Channel: @ElliotsExtras' );
+    tag_text( 'h2', '2nd Channel: @ElliotsExtras', [ 'id' => '@ElliotsExtras' ] );
 
     tag_open( 'p' );
 

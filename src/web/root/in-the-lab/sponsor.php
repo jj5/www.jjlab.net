@@ -57,7 +57,7 @@ function render_sponsor_main() {
 
     tag_open( 'section' );
 
-      tag_text( 'h2', 'Show Sponsors' );
+      tag_text( 'h2', 'Show Sponsors', [ 'id' => 'sponsors' ] );
 
       tag_text( 'p', 'My most excellent sponsors are:' );
 

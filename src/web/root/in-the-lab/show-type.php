@@ -87,7 +87,7 @@ function render_show_type_index() {
 
     tag_open( 'section' );
 
-      tag_text( 'h2', 'List of Shows' );
+      tag_text( 'h2', 'List of Shows', [ 'id' => 'shows' ] );
 
       tag_open( 'ul' );
 
@@ -190,7 +190,7 @@ function render_show_type_main() {
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
-        tag_text( 'h1', 'Main Show' );
+        tag_text( 'h1', 'Main Show', [ 'id' => 'heading' ] );
 
         tag_text(
           'p',
@@ -204,7 +204,7 @@ function render_show_type_main() {
 
     tag_open( 'section' );
 
-      tag_text( 'h2', 'Main Show' );
+      tag_text( 'h2', 'Main Show', [ 'id' => 'main-show' ] );
 
       tag_open( 'p' );
 
@@ -285,7 +285,7 @@ function render_show_type_special() {
 
     tag_open( 'section' );
 
-      tag_text( 'h2', 'Show Features' );
+      tag_text( 'h2', 'Show Features', [ 'id' => 'features' ] );
 
       tag_open( 'p' );
 
