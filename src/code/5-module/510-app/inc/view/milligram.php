@@ -880,8 +880,8 @@ function render_blog_template( $equipment_list ) {
 
     nip_init();
 
-      mud_html_set_opt( 'opt-space', true );
-      mud_html_set_opt( 'opt-break', false );
+      mud_html_set_opt( MUD_HTML_OPT_SPACE, true );
+      mud_html_set_opt( MUD_HTML_OPT_BREAK, false );
 
       out_text( "\n" );
       out_text( "This post is part of my " );
@@ -894,8 +894,8 @@ function render_blog_template( $equipment_list ) {
           'target' => '_blank',
           'rel' => 'follow',
           'title' => TITLE_BLOG_JJLAB,
-          'opt-space' => false,
-          'opt-break' => false,
+          MUD_HTML_OPT_SPACE => false,
+          MUD_HTML_OPT_BREAK => false,
         ]
       );
 
@@ -909,8 +909,8 @@ function render_blog_template( $equipment_list ) {
           'target' => '_blank',
           'rel' => 'follow',
           'title' => TITLE_BLOG_VIDEO_LINK,
-          'opt-space' => false,
-          'opt-break' => true,
+          MUD_HTML_OPT_SPACE => false,
+          MUD_HTML_OPT_BREAK => true,
         ]
       );
 
@@ -937,8 +937,8 @@ function render_blog_template( $equipment_list ) {
           'target' => '_blank',
           'rel' => 'follow',
           'title' => TITLE_BLOG_PATREON,
-          'opt-space' => false,
-          'opt-break' => false,
+          MUD_HTML_OPT_SPACE => false,
+          MUD_HTML_OPT_BREAK => false,
         ]
       );
 
@@ -946,11 +946,11 @@ function render_blog_template( $equipment_list ) {
 
       out_text( "Thanks very much for watching, and please remember to click like and subscribe!\n\n" );
 
-      mud_html_set_opt( 'opt-space', false );
+      mud_html_set_opt( MUD_HTML_OPT_SPACE, false );
 
       tag_bare( 'hr' );
 
-      mud_html_set_opt( 'opt-break', true );
+      mud_html_set_opt( MUD_HTML_OPT_BREAK, true );
 
       out_text( "Following is a list of products I use which may appear in my videos. " );
       out_text( "Clicking through on these links before purchasing from Amazon, eBay, or AliExpress is a great way " );
