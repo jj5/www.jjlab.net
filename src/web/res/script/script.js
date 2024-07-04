@@ -66,6 +66,10 @@ function handle_window_load( ev, el ) {
     link.setAttribute( 'class', 'heading-link' );
     link.innerHTML = '#';
 
+    //const referenceNode = heading;
+    //const newNode = link;
+    //referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+
     heading.appendChild( link );
 
   });
