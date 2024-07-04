@@ -150,7 +150,7 @@ function render_section_contents() {
 
   tag_open( 'section' );
 
-    tag_text( 'h2', 'Contents', [ 'id' => 'contents' ] );
+    tag_text( 'h2', 'Table of Contents', [ 'id' => 'contents' ] );
 
     tag_text( 'p', 'The contents of this page are organized into the following sections:' );
 
@@ -2585,7 +2585,22 @@ function render_section_about_contact( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( "If you’d like to get interactive with me or my community, you have a bunch of options." );
+      out_text( "If you’d like to get interactive with me or my community, you have a bunch of options. " );
+
+      out_text( "You can always find this information on the " );
+
+      tag_text(
+        'a',
+        'contact',
+        [
+          'href' => url_base() . '/contact.php',
+          'class' => 'internal',
+          'rel' => 'follow',
+          'title' => TITLE_CONTACT,
+        ]
+      );
+
+      out_text( ' page.' );
 
     tag_shut( 'p' );
 
