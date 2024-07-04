@@ -1780,9 +1780,9 @@ function render_section_about_new_book_teardown( int $heading_level = 2 ) {
 
       tag_text(
         'a',
-        'new book teardowns',
+        'new book teardown videos',
         [
-          'href' => url_base() . '/show-type.php/new-book-teardown',
+          'href' => url_base() . '/feature.php/new-book-teardown',
           'class' => 'internal',
           'title' => TITLE_FEATURE_NEW_BOOK_TEARDOWN,
         ]
@@ -1854,9 +1854,9 @@ function render_section_about_mini_project( int $heading_level = 2 ) {
 
       tag_text(
         'a',
-        'mini projects',
+        'mini project videos',
         [
-          'href' => url_base() . '/show-type.php/mini-project',
+          'href' => url_base() . '/feature.php/mini-project',
           'class' => 'internal',
           'title' => TITLE_SHOW_MINI_PROJECT,
         ]
@@ -2110,7 +2110,7 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
         'a',
         'announcement video',
         [
-          'href' => url_base() . '/show-type.php/maxitronix#announcement',
+          'href' => url_base() . '/feature.php/maxitronix#announcement',
           'class' => 'internal',
           'title' => TITLE_SHOW_MAXITRONIX,
         ]
@@ -2140,11 +2140,11 @@ function render_section_about_early_content( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'Some of my content is classified as ' );
+      out_text( 'Some of my content is classified as an ' );
 
       tag_text(
         'a',
-        'early content',
+        'early content video',
         [
           'href' => url_base() . '/feature.php/early-content',
           'class' => 'internal',
@@ -2159,7 +2159,7 @@ function render_section_about_early_content( int $heading_level = 2 ) {
 
       tag_text(
         'a',
-        'electronics projects',
+        'electronics project videos',
         [
           'href' => url_base() . '/feature.php/electronics-project',
           'class' => 'internal',
@@ -2171,7 +2171,7 @@ function render_section_about_early_content( int $heading_level = 2 ) {
 
       tag_text(
         'a',
-        'old book teardowns',
+        'old book teardown videos',
         [
           'href' => url_base() . '/feature.php/old-book-teardown',
           'class' => 'internal',
