@@ -28,6 +28,7 @@ define( 'TITLE_SHOW_MAXITRONIX', 'Click here to watch the special feature videos
 define( 'TITLE_SHOW_MINI_PROJECT', 'Click here to watch the special feature videos where I work through Mini Projects from Silicon Chip and Jaycar.' );
 define( 'TITLE_SHOW_EXTRA', "Click here to watch extra content which didn't make it to the main channel." );
 
+define( 'TITLE_ABOUT_SHOW_NOTES', 'Click here to read about the show notes.' );
 define( 'TITLE_SHOW_NOTES', 'Click here to read the show notes published with each video.' );
 
 define( 'TITLE_FEATURE_ELECTRONICS_PROJECT', 'Click here to watch the electronics project videos.' );
@@ -72,6 +73,8 @@ define( 'TITLE_COSTUME', 'Click here to find out about my costume.' );
 define( 'TITLE_VIDEO_INDEX', 'Click here to see the "secret" index of all videos.' );
 define( 'TITLE_BOOK_INDEX', 'Click here to see the "secret" index of all books.' );
 
+define( 'TITLE_LINK_EMAIL', 'Click here to send me an email.' );
+
 define( 'TITLE_LINK_LIGHT_BLUE', 'Clicking on a light blue link will take you to another page on this website.' );
 define( 'TITLE_LINK_DARK_BLUE', 'Clicking on a dark blue link will open the external link in a new tab/window.' );
 define( 'TITLE_LINK_GREEN', 'Clicking on a green link will open the affiliate link in a new tab/window.' );
@@ -105,6 +108,11 @@ define( 'TITLE_LINK_SITEMAP_XML', 'Click here to view the sitemap.xml file.' );
 define( 'TITLE_LINK_SILICON_CHIP_MINI_PROJECTS_ANNOUNCEMENT', 'Click here to read the Mini Projects announcement from Nicholas Vinen the Editor of Silicon Chip magazine.' );
 define( 'TITLE_LINK_SILICON_CHIP_MINI_PROJECTS_LIST', 'Click here for the full list of Mini Projects published by Silicon Chip magazine.' );
 
+define( 'TITLE_LINK_LEARNING_THE_ART_OF_ELECTRONICS', 'Click here to watch the new book teardown of Learning the Art of Electronics.' );
+define( 'TITLE_LINK_JAYCAR_SHORT_CIRCUITS', 'Click here to see the Jaycar Short Circuits projects.' );
+define( 'TITLE_LINK_JAYCAR_PROJECTS', 'Click here to see the Jaycar projects catalog.' );
+define( 'TITLE_LINK_PATREON_MEMBERSHIP_OPTIONS', 'Click here to read about paid membership tier options.' );
+
 define( 'TITLE_SEARCH_AFFILIATE', 'Click here to search for this equipment at this affiliate.' );
 
 define( 'TITLE_PRICE_USD', 'Click here to get prices in United States Dollars.' );
@@ -130,6 +138,8 @@ define( 'TITLE_ANNOUNCEMENT_MINI_PROJECTS', 'Click here for the Mini Projects an
 define( 'TITLE_TEMPLATE_MAXITRONIX_KIT', 'Click here to watch the videos where I work through the Maxitronix {name} electronic project lab.' );
 define( 'TITLE_TEMPLATE_BLOG_PRODUCT', 'Click here for prices and more info about the {product}.' );
 define( 'TITLE_TEMPLATE_BLOG_PRODUCT_NOTES', 'Click here for my notes about the {product}.' );
+define( 'TITLE_TEMPLATE_LINK_IRC', 'Click here to connect to the {name} IRC server at {url}' );
+define( 'TITLE_TEMPLATE_LINK_IRC_WEB', 'Click here to visit the website of the {name} IRC network.' );
 
 define( 'ALT_MAXITRONIX_LABS', "John's set of Maxitronix electronic project labs." );
 
@@ -1661,7 +1671,7 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
           'class' => 'external',
           'target' => '_blank',
           'rel' => 'noopener follow',
-          'title' => 'Click here to watch the new book teardown of Learning the Art of Electronics.',
+          'title' => TITLE_LINK_LEARNING_THE_ART_OF_ELECTRONICS,
         ]
       );
 
@@ -1675,7 +1685,7 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
           'class' => 'external',
           'target' => '_blank',
           'rel' => 'noopener follow',
-          'title' => 'Click here to see the Jaycar Short Circuits projects.',
+          'title' => TITLE_LINK_JAYCAR_SHORT_CIRCUITS,
         ]
       );
 
@@ -1689,7 +1699,7 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
           'class' => 'external',
           'target' => '_blank',
           'rel' => 'noopener follow',
-          'title' => 'Click here to see the Jaycar Projects.',
+          'title' => TITLE_LINK_JAYCAR_PROJECTS,
         ]
       );
 
@@ -1819,7 +1829,7 @@ function render_section_about_mini_project( int $heading_level = 2 ) {
           'class' => 'external',
           'target' => '_blank',
           'rel' => 'noopener follow',
-          'title' => 'Click here for the list of Mini Projects.',
+          'title' => TITLE_LINK_SILICON_CHIP_MINI_PROJECTS_LIST,
         ]
       );
 
@@ -1833,7 +1843,7 @@ function render_section_about_mini_project( int $heading_level = 2 ) {
           'class' => 'external',
           'target' => '_blank',
           'rel' => 'noopener follow',
-          'title' => 'Click here for Silicon Chip electronics magazine.',
+          'title' => TITLE_SILICON_CHIP,
         ]
       );
 
@@ -1847,7 +1857,7 @@ function render_section_about_mini_project( int $heading_level = 2 ) {
           'class' => 'external',
           'target' => '_blank',
           'rel' => 'noopener follow',
-          'title' => 'Click here for Jaycar, the Australian electronics store.',
+          'title' => TITLE_JAYCAR,
         ]
       );
 
@@ -2327,7 +2337,7 @@ function render_section_about_costume( int $heading_level = 2 ) {
           [
             'href' => url_base() . '/#silly-job-title',
             'class' => 'internal',
-            'title' => 'Click here to read about how the silly job title works.',
+            'title' => TITLE_SILLY_JOB_TITLE,
           ]
         );
 
@@ -2474,7 +2484,7 @@ function render_section_about_silly_job_title( int $heading_level = 2 ) {
           'href' => url_base() . '/#show-notes',
           'class' => 'internal',
           'rel' => 'follow',
-          'title' => 'Click here to read about the show notes.',
+          'title' => TITLE_ABOUT_SHOW_NOTES,
         ]
       );
 
@@ -2895,7 +2905,7 @@ function render_section_contact_info( int $heading_level = 2 ) {
         [
           'href' => 'mailto:jj5@jj5.net?subject=Hi%20John',
           'class' => 'external',
-          'title' => 'Click here to email me.',
+          'title' => TITLE_LINK_EMAIL,
         ]
       );
 
@@ -3008,111 +3018,177 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
     tag_shut( 'p' );
 
-    tag_open( 'ul' );
+    tag_open( 'table' );
 
-      tag_open( 'li' );
+      tag_open( 'thead' );
+      
+        tag_open( 'tr' );
 
-        tag_text(
-          'a',
-          'Main Channel',
-          [
-            'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-            'class' => 'internal',
-            'rel' => 'follow',
-            'title' => TITLE_CHANNEL_MAIN,
-          ]
-        );
+          tag_text( 'th', 'Channel Homepage' );
 
-        out_text( ': ' );
+          tag_text( 'th', 'YouTube Link' );
 
-        tag_text(
-          'a',
-          'youtube.com/@InTheLabWithJayJay',
-          [
-            'href' => 'https://www.youtube.com/channel/UC9k8QIYlZUg2l4YvZbX9zVg',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => TITLE_CHANNEL_MAIN,
-          ]
-        );
+        tag_shut( 'tr' );
 
-      tag_shut( 'li' );
+      tag_shut( 'thead' );
 
-      tag_open( 'li' );
+      tag_open( 'tbody' );
 
-        tag_text(
-          'a',
-          '2nd Channel',
-          [
-            'href' => url_base() . '/channel.php/@ElliotsExtras',
-            'class' => 'internal',
-            'rel' => 'follow',
-            'title' => TITLE_CHANNEL_EXTRA,
-          ]
-        );
+        tag_open( 'tr' );
 
-        out_text( ': ' );
+          tag_open( 'td', [ 'class' => 'right' ] );
 
-        tag_text(
-          'a',
-          'youtube.com/@ElliotsExtras',
-          [
-            'href' => 'https://www.youtube.com/channel/UC9k8QIYlZUg2l4YvZbX9zVg',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => TITLE_CHANNEL_EXTRA,
-          ]
-        );
+            tag_text(
+              'a',
+              'Main Channel',
+              [
+                'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
+                'class' => 'internal',
+                'rel' => 'follow',
+                'title' => TITLE_CHANNEL_MAIN,
+              ]
+            );
 
-      tag_shut( 'li' );
+            out_text( ':' );
 
-    tag_shut( 'ul' );
+          tag_shut( 'td' );
+
+          tag_open( 'td', [ 'class' => 'right' ] );
+
+            tag_text(
+              'a',
+              'youtube.com/@InTheLabWithJayJay',
+              [
+                'href' => 'https://www.youtube.com/channel/UC9k8QIYlZUg2l4YvZbX9zVg',
+                'class' => 'external',
+                'target' => '_blank',
+                'rel' => 'noopener follow',
+                'title' => TITLE_CHANNEL_MAIN,
+              ]
+            );
+
+          tag_shut( 'td' );
+
+        tag_shut( 'tr' );
+
+        tag_open( 'tr' );
+
+          tag_open( 'td', [ 'class' => 'right' ] );
+
+            tag_text(
+              'a',
+              '2nd Channel',
+              [
+                'href' => url_base() . '/channel.php/@ElliotsExtras',
+                'class' => 'internal',
+                'rel' => 'follow',
+                'title' => TITLE_CHANNEL_EXTRA,
+              ]
+            );
+
+            out_text( ':' );
+
+          tag_shut( 'td' );
+
+          tag_open( 'td', [ 'class' => 'right' ] );
+
+            tag_text(
+              'a',
+              'youtube.com/@ElliotsExtras',
+              [
+                'href' => 'https://www.youtube.com/channel/UC9k8QIYlZUg2l4YvZbX9zVg',
+                'class' => 'external',
+                'target' => '_blank',
+                'rel' => 'noopener follow',
+                'title' => TITLE_CHANNEL_EXTRA,
+              ]
+            );
+
+          tag_shut( 'td' );
+
+        tag_shut( 'tr' );
+
+      tag_shut( 'tbody' );
+
+    tag_shut( 'table' );
 
     tag_text( 'h' . ( $heading_level + 1 ), 'Private Chat on IRC', [ 'id' => 'irc-chat' ] );
 
     tag_open( 'p' );
 
-      out_text( "If you want to have an interactive chat you can PM me on IRC:" );
+      out_text( "If you want to have an interactive chat you can PM me on IRC. " );
+
+      out_text( "My nick is 'jj5'. I am usually online but I am not always at my terminal or watching my IRC client. " );
+
+      out_text( "These are the servers I hang out on:" );
 
     tag_shut( 'p' );
 
-    tag_open( 'ul' );
+    tag_open( 'table' );
 
-      $irc_server_list = [
-        'libera.chat' => irc_server( 'libera.chat', 'irc.libera.chat',  6697, 'ircs://irc.libera.chat:6697',  'https://libera.chat/'        ),
-        'oftc.net'    => irc_server( 'oftc.net',    'irc.oftc.net',     6697, 'ircs://irc.oftc.net:6697',     'https://www.oftc.net/'       ),
-        'tilde.chat'  => irc_server( 'tilde.chat',  'irc.tilde.chat',   6697, 'ircs://irc.tilde.chat:6697',   'https://tilde.team/wiki/irc' ),
-      ];
+      tag_open( 'thead' );
 
-      foreach ( $irc_server_list as $server ) {
+        tag_open( 'tr' );
 
-        tag_open( 'li' );
+          tag_text( 'th', 'IRC Network' );
 
-          tag_text(
-            'a',
-            $server['name'],
-            [
-              'href' => $server['url'],
-              'class' => 'external',
-              'target' => '_blank',
-              'rel' => 'noopener follow',
-              'title' => 'Click here to navigate to ' . $server['name'],
-            ]
-          );
+          tag_text( 'th', 'Website' );
 
-        tag_shut( 'li' );
+        tag_shut( 'tr' );
 
-      }
+      tag_shut( 'thead' );
 
-    tag_shut( 'ul' );
+      tag_open( 'tbody' );
 
-    tag_open( 'p' );
+        $irc_server_list = [
+          'libera.chat' => irc_server( 'libera.chat', 'irc.libera.chat',  6697, 'ircs://irc.libera.chat:6697',  'https://libera.chat/'        ),
+          'oftc.net'    => irc_server( 'oftc.net',    'irc.oftc.net',     6697, 'ircs://irc.oftc.net:6697',     'https://www.oftc.net/'       ),
+          'tilde.chat'  => irc_server( 'tilde.chat',  'irc.tilde.chat',   6697, 'ircs://irc.tilde.chat:6697',   'https://tilde.team/wiki/irc' ),
+        ];
 
-      out_text( "My nick is 'jj5'. I am usually online but I am not always at my terminal or watching my IRC client." );
+        foreach ( $irc_server_list as $server ) {
 
-    tag_shut( 'p' );
+          tag_open( 'tr' );
+
+            tag_open( 'td', [ 'class' => 'right' ] );
+
+              tag_text(
+                'a',
+                $server['name'],
+                [
+                  'href' => $server['url'],
+                  'class' => 'external',
+                  'target' => '_blank',
+                  'rel' => 'noopener follow',
+                  'title' => mud_format_string( TITLE_TEMPLATE_LINK_IRC, $server ),
+                ]
+              );
+
+            tag_shut( 'td' );
+
+            tag_open( 'td', [ 'class' => 'right' ] );
+
+              tag_text(
+                'a',
+                $server['website'],
+                [
+                  'href' => $server['website'],
+                  'class' => 'external',
+                  'target' => '_blank',
+                  'rel' => 'noopener follow',
+                  'title' => mud_format_string( TITLE_TEMPLATE_LINK_IRC_WEB, $server ),
+                ]
+              );
+
+            tag_shut( 'td' );
+
+          tag_shut( 'tr' );
+
+        }
+
+      tag_shut( 'tbody' );
+
+    tag_shut( 'table' );
 
     tag_text( 'h' . ( $heading_level + 1 ), 'Private Message on Patreon', [ 'id' => 'contact-by-patreon' ] );
 
@@ -3128,7 +3204,7 @@ function render_section_contact_info( int $heading_level = 2 ) {
           'class' => 'external',
           'target' => '_blank',
           'rel' => 'noopener follow',
-          'title' => 'Click here to read about paid membership tier options.',
+          'title' => TITLE_LINK_PATREON_MEMBERSHIP_OPTIONS,
         ]
       );
 

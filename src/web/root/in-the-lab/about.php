@@ -41,7 +41,7 @@ function render_about_main() {
 
     render_section_contact_info();
 
-    render_section_summary_channels();
+    //render_section_summary_channels();
 
     render_section_summary_blog();
 
