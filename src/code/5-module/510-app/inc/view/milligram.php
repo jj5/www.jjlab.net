@@ -538,20 +538,12 @@ function render_foot() {
 
         if ( is_john() ) {
 
-?>
-
-window.IS_JOHN = true;
-
-<?php
+          out_text( "\nwindow.IS_JOHN = true;\n" );
 
         }
         else {
 
-?>
-
-window.IS_JOHN = false;
-
-<?php
+          out_text( "\nwindow.IS_JOHN = false;\n" );
 
         }
 
@@ -561,7 +553,7 @@ window.IS_JOHN = false;
 
         tag_open( 'script' );
 
-?>
+        out_html("
 
 // 2024-06-29 jj5 - NOTE: this is to fix a problem with the page not scrolling to the right place when opened in
 // Akregator. It's a hack, but it works...
@@ -614,7 +606,7 @@ function scroll_hack() {
 window.SCROLL_HACK_COUNTER = 0;
 window.SCROLL_HACK = setInterval( scroll_hack, 50 );
 
-<?php
+");
 
         tag_shut( 'script' );
 
@@ -1605,301 +1597,297 @@ function render_equipment_table( $equipment_list ) {
 }
 
 function render_equipment_list( $equipment_list ) {
-?>
 
-<div class="equipment equipment-list">
-<?php render_equipment_options(); ?>
+  tag_open( 'div', [ 'class' => 'equipment equipment-list' ] );
 
-<?php
+    render_equipment_options();
 
-  $row_number = 0;
+    $row_number = 0;
 
-  foreach ( $equipment_list as $equipment ) {
+    foreach ( $equipment_list as $equipment ) {
 
-    $row_number++;
+      $row_number++;
 
-    $affiliate_link_list = $equipment->get_affiliate_link_list();
+      $affiliate_link_list = $equipment->get_affiliate_link_list();
 
-    $img_url = $equipment->get_equipment_icon()->get_auto_url();
-    $equipment_text = $equipment->get_equipment_name();
+      $img_url = $equipment->get_equipment_icon()->get_auto_url();
+      $equipment_text = $equipment->get_equipment_name();
 
-    $id = $equipment->get_equipment_id();
+      $id = $equipment->get_equipment_id();
 
-    $short_link = $equipment->get_short_link();
+      $short_link = $equipment->get_short_link();
 
-    tag_open( 'section', [ 'id' => $id, 'class' => 'container' ] );
+      tag_open( 'section', [ 'id' => $id, 'class' => 'container' ] );
 
-      //tag_bare( 'br', [ 'style' => 'clear:both' ] );
+        //tag_bare( 'br', [ 'style' => 'clear:both' ] );
 
-      tag_open( 'h2', [ 'class' => 'equipment clearfix' ] );
+        tag_open( 'h2', [ 'class' => 'equipment clearfix' ] );
 
-        out_text( $equipment_text );
+          out_text( $equipment_text );
 
-      tag_shut( 'h2' );
+        tag_shut( 'h2' );
 
-      tag_bare( 'img', [ 'src' => $img_url, 'alt' => $equipment_text ] );
+        tag_bare( 'img', [ 'src' => $img_url, 'alt' => $equipment_text ] );
 
-      tag_open( 'dl' );
+        tag_open( 'dl' );
 
-        tag_text( 'dt', 'Short link' );
+          tag_text( 'dt', 'Short link' );
 
-        tag_open( 'dd' );
+          tag_open( 'dd' );
 
-          $short_link_url = $short_link;
+            $short_link_url = $short_link;
 
-          if ( is_dev() ) {
+            if ( is_dev() ) {
 
-            $short_link_url = "#$id";
+              $short_link_url = "#$id";
+
+            }
+
+            tag_open(
+              'a',
+              [
+                'href' => $short_link_url,
+                'class' => 'internal',
+                'title' => TITLE_LINK_SHORT,
+              ]
+            );
+
+              out_text( $short_link );
+
+            tag_shut( 'a' );
+
+          tag_shut( 'dd' );
+
+          $equipment->get_first_purchase_date()->render_definition();
+
+          $link_list = $equipment->get_category_list();
+          $manufacturer = $equipment->get_equipment_info()->get_manufacturer_name();
+
+          if ( ! $manufacturer->is_null() ) { array_unshift( $link_list, $manufacturer ); }
+
+          if ( count( $link_list ) > 1 ) {
+
+            tag_text( 'dt', 'Categories' );
+
+          }
+          else {
+
+            tag_text( 'dt', 'Category' );
 
           }
 
-          tag_open(
-            'a',
-            [
-              'href' => $short_link_url,
-              'class' => 'internal',
-              'title' => TITLE_LINK_SHORT,
-            ]
-          );
+          tag_open( 'dd' );
 
-            out_text( $short_link );
+            $link_number = 0;
 
-          tag_shut( 'a' );
+            foreach ( $link_list as $link ) {
 
-        tag_shut( 'dd' );
+              $link_number++;
 
-        $equipment->get_first_purchase_date()->render_definition();
+              if ( $link_number !== 1 ) { out_text( ' | ' ); }
 
-        $link_list = $equipment->get_category_list();
-        $manufacturer = $equipment->get_equipment_info()->get_manufacturer_name();
+              $link->render();
 
-        if ( ! $manufacturer->is_null() ) { array_unshift( $link_list, $manufacturer ); }
+            }
 
-        if ( count( $link_list ) > 1 ) {
+          tag_shut( 'dd' );
 
-          tag_text( 'dt', 'Categories' );
+          if ( count( $affiliate_link_list ) ) {
 
-        }
-        else {
+            // 2024-01-17 jj5 - always sort these from cheap to expensive...
+            //
+            usort(
+              $affiliate_link_list,
+              function ( $a, $b ) { return $a->get_sort_value() - $b->get_sort_value(); }
+            );
 
-          tag_text( 'dt', 'Category' );
+            foreach ( $affiliate_link_list as $affiliate_link ) {
 
-        }
+              $affiliate = $affiliate_link->get_affiliate();
+              $equipment_date = $equipment->get_equipment_date();
+              $dt_title = "Price current as of $equipment_date";
 
-        tag_open( 'dd' );
+              tag_open( 'dt', [ 'title' => $dt_title ] );
 
-          $link_number = 0;
+                out_text( 'Buy for ' );
 
-          foreach ( $link_list as $link ) {
+                tag_open( 'b' );
 
-            $link_number++;
+                  out_text( $affiliate_link->get_item_price()->to_string() );
 
-            if ( $link_number !== 1 ) { out_text( ' | ' ); }
+                tag_shut( 'b' );
 
-            $link->render();
+                out_text( ' from ' );
+                out_text( $affiliate->get_affiliate_name() );
 
+                if ( ! $affiliate_link->get_item_options()->is_null() ) {
+
+                  out_text( '; Check option(s): ' );
+                  out_text( $affiliate_link->get_item_options() );
+
+                }
+
+                out_text( ':' );
+
+              tag_shut( 'dt' );
+
+              tag_open( 'dd' );
+
+                $affiliate_link->render();
+
+              tag_shut( 'dd' );
+
+            }
           }
 
-        tag_shut( 'dd' );
+          $notes_url = $equipment->get_sixsigma_url()->to_string();
 
-        if ( count( $affiliate_link_list ) ) {
+          if ( $notes_url ) {
 
-          // 2024-01-17 jj5 - always sort these from cheap to expensive...
-          //
-          usort(
-            $affiliate_link_list,
-            function ( $a, $b ) { return $a->get_sort_value() - $b->get_sort_value(); }
-          );
+            tag_open( 'dt' );
 
-          foreach ( $affiliate_link_list as $affiliate_link ) {
-
-            $affiliate = $affiliate_link->get_affiliate();
-            $equipment_date = $equipment->get_equipment_date();
-            $dt_title = "Price current as of $equipment_date";
-
-            tag_open( 'dt', [ 'title' => $dt_title ] );
-
-              out_text( 'Buy for ' );
-
-              tag_open( 'b' );
-
-                out_text( $affiliate_link->get_item_price()->to_string() );
-
-              tag_shut( 'b' );
-
-              out_text( ' from ' );
-              out_text( $affiliate->get_affiliate_name() );
-
-              if ( ! $affiliate_link->get_item_options()->is_null() ) {
-
-                out_text( '; Check option(s): ' );
-                out_text( $affiliate_link->get_item_options() );
-
-              }
-
-              out_text( ':' );
+              out_text( 'Notes' );
 
             tag_shut( 'dt' );
 
             tag_open( 'dd' );
 
-              $affiliate_link->render();
+              out_text( 'I have ' );
+
+              tag_open(
+                'a',
+                [
+                  'href' => $notes_url,
+                  'class' => 'internal',
+                  'title' => TITLE_LINK_SIXSIGMA,
+                ]
+              );
+
+                out_text( 'notes' );
+
+              tag_shut( 'a' );
+
+              out_text( ' about this product on my personal wiki.' );
 
             tag_shut( 'dd' );
 
           }
-        }
 
-        $notes_url = $equipment->get_sixsigma_url()->to_string();
+          $warning_list = $equipment->get_warning_list();
 
-        if ( $notes_url ) {
+          render_list( 'Warning:', $warning_list, 'warning' );
 
-          tag_open( 'dt' );
+          $see_also_list = $equipment->get_see_also_list();
 
-            out_text( 'Notes' );
+          render_list( 'See also:', $see_also_list, 'see-also' );
 
-          tag_shut( 'dt' );
+          $web_link_list = $equipment->get_web_link_list();
 
-          tag_open( 'dd' );
+          render_list( 'Links:', $web_link_list, 'link' );
 
-            out_text( 'I have ' );
+          $link_list = $equipment->get_equipment_info()->get_manufacturer_link_list();
 
-            tag_open(
-              'a',
-              [
-                'href' => $notes_url,
-                'class' => 'internal',
-                'title' => TITLE_LINK_SIXSIGMA,
-              ]
-            );
+          render_list( 'Manufacturer links:', $link_list, 'link' );
 
-              out_text( 'notes' );
+          $purchase_list = $equipment->get_purchase_list();
 
-            tag_shut( 'a' );
+          foreach ( $purchase_list as $purchase ) {
 
-            out_text( ' about this product on my personal wiki.' );
+            $quantity = $purchase->get_order_quantity();
+            $price = $purchase->get_order_price();
+            $subtotal = $price->multiply( $quantity->get_value() );
+            $date = $purchase->get_order_date();
+            $shipping = $purchase->get_order_shipping();
+            $tax = $purchase->get_order_tax();
+            $discount = $purchase->get_order_discount();
+            $ancillary_charges = null;
 
-          tag_shut( 'dd' );
+            if ( ! $shipping->is_null() ) {
 
-        }
+              $ancillary_charges = $shipping->add( $tax )->subtract( $discount );
 
-        $warning_list = $equipment->get_warning_list();
+            }
+            elseif ( ! $tax->is_null() ) {
 
-        render_list( 'Warning:', $warning_list, 'warning' );
+              $ancillary_charges = $tax->subtract( $discount );
 
-        $see_also_list = $equipment->get_see_also_list();
+            }
+            elseif ( ! $discount->is_null() ) {
 
-        render_list( 'See also:', $see_also_list, 'see-also' );
+              $ancillary_charges = $discount->invert();
 
-        $web_link_list = $equipment->get_web_link_list();
+            }
 
-        render_list( 'Links:', $web_link_list, 'link' );
+            $total = $subtotal->add( $ancillary_charges );
+            $number = $quantity->get_value();
+            $number_name = NUMBER_MAP[ $number ] ?? $number;
+            $href = '#' . $purchase->get_parent()->get_equipment_id();
+            $vendor_url = $purchase->get_vendor_url();
 
-        $link_list = $equipment->get_equipment_info()->get_manufacturer_link_list();
+            if ( ! $vendor_url->is_null() ) { $href = $vendor_url->to_html(); }
 
-        render_list( 'Manufacturer links:', $link_list, 'link' );
+            $each = $number === 1 ? '' : ' each';
+            $plus = $shipping->get_value() > 0 ? 'and' : 'plus';
 
-        $purchase_list = $equipment->get_purchase_list();
+            $order_url_html = $purchase->get_order_url()->to_html();
+            $order_id_html = $purchase->get_order_id()->to_html();
 
-        foreach ( $purchase_list as $purchase ) {
+            $order_item_name_html = $purchase->get_order_item_name()->to_html();
 
-          $quantity = $purchase->get_order_quantity();
-          $price = $purchase->get_order_price();
-          $subtotal = $price->multiply( $quantity->get_value() );
-          $date = $purchase->get_order_date();
-          $shipping = $purchase->get_order_shipping();
-          $tax = $purchase->get_order_tax();
-          $discount = $purchase->get_order_discount();
-          $ancillary_charges = null;
+            tag_open( 'dt' );
 
-          if ( ! $shipping->is_null() ) {
+              out_text( 'I purchased ' );
 
-            $ancillary_charges = $shipping->add( $tax )->subtract( $discount );
+              tag_open(
+                'a',
+                [
+                  'href' => $href,
+                  'class' => 'external',
+                  'target' => '_blank',
+                  'rel' => 'noopener follow',
+                  'title' => TITLE_LINK_PURCHASED,
+                ]
+              );
+
+                $quantity = $purchase->get_order_quantity()->to_string();
+
+                out_text( $number_name );
+
+                out_text( ' of these' );
+
+              tag_shut( 'a' );
+
+              out_text( ' from ' );
+
+              out_text( $purchase->get_vendor() );
+
+              out_text( ' on ' );
+
+              out_text( $purchase->get_order_date()->to_string() );
+
+              out_text( ' for ' );
+
+              out_text( $purchase->get_order_price()->to_string() );
+
+              out_text( $each );
+
+              out_text( '.' );
+
+            tag_shut( 'dt' );
+
+            tag_open( 'dd' );
+
+            tag_shut( 'dd' );
 
           }
-          elseif ( ! $tax->is_null() ) {
 
-            $ancillary_charges = $tax->subtract( $discount );
+        tag_shut( 'dl' );
 
-          }
-          elseif ( ! $discount->is_null() ) {
+      tag_shut( 'section' );
 
-            $ancillary_charges = $discount->invert();
+    }
 
-          }
-
-          $total = $subtotal->add( $ancillary_charges );
-          $number = $quantity->get_value();
-          $number_name = NUMBER_MAP[ $number ] ?? $number;
-          $href = '#' . $purchase->get_parent()->get_equipment_id();
-          $vendor_url = $purchase->get_vendor_url();
-
-          if ( ! $vendor_url->is_null() ) { $href = $vendor_url->to_html(); }
-
-          $each = $number === 1 ? '' : ' each';
-          $plus = $shipping->get_value() > 0 ? 'and' : 'plus';
-
-          $order_url_html = $purchase->get_order_url()->to_html();
-          $order_id_html = $purchase->get_order_id()->to_html();
-
-          $order_item_name_html = $purchase->get_order_item_name()->to_html();
-
-          tag_open( 'dt' );
-
-            out_text( 'I purchased ' );
-
-            tag_open(
-              'a',
-              [
-                'href' => $href,
-                'class' => 'external',
-                'target' => '_blank',
-                'rel' => 'noopener follow',
-                'title' => TITLE_LINK_PURCHASED,
-              ]
-            );
-
-              $quantity = $purchase->get_order_quantity()->to_string();
-
-              out_text( $number_name );
-
-              out_text( ' of these' );
-
-            tag_shut( 'a' );
-
-            out_text( ' from ' );
-
-            out_text( $purchase->get_vendor() );
-
-            out_text( ' on ' );
-
-            out_text( $purchase->get_order_date()->to_string() );
-
-            out_text( ' for ' );
-
-            out_text( $purchase->get_order_price()->to_string() );
-
-            out_text( $each );
-
-            out_text( '.' );
-
-          tag_shut( 'dt' );
-
-          tag_open( 'dd' );
-
-          tag_shut( 'dd' );
-
-        }
-
-      tag_shut( 'dl' );
-
-    tag_shut( 'section' );
-
-  }
-
-?>
-</div>
-<?php
+  tag_shut( 'div' );
 
 }
 
@@ -1930,68 +1918,132 @@ function render_list( $label, $list, $class ) {
 }
 
 function render_equipment_options() {
-?>
-<div id='options'>
-<p>Prices in:
-    <a
-      href="?<?= get_link( [ 'currency' => 'USD' ] ) ?>#options"
-      class="internal"
-      title="<?= TITLE_PRICE_USD ?>"
-      rel="nofollow"
-    >USD</a>
-  | <a
-      href="?<?= get_link( [ 'currency' => 'AUD' ] ) ?>#options"
-      class="internal"
-      title="<?= TITLE_PRICE_AUD ?>"
-      rel="nofollow"
-    >AUD</a>
-  | <a
-    href="?<?= get_link_without( 'currency' ) ?>#options"
-    class="internal"
-    title="<?= TITLE_PRICE_DEFAULT ?>"
-    rel="nofollow"
-  >default</a>
 
-  &mdash;
+  tag_open( 'div', [ 'id' => 'options' ] );
 
-  Sort:
-    <a
-      href="?<?= get_link( [ 'sort' => 'cheap-first' ] ) ?>#options"
-      class="internal"
-      title="<?= TITLE_SORT_CHEAP_FIRST ?>"
-      rel="nofollow"
-    >cheap first</a>
-  | <a
-      href="?<?= get_link( [ 'sort' => 'expensive-first' ] ) ?>#options"
-      class="internal"
-      title="<?= TITLE_SORT_EXPENSIVE_FIRST ?>"
-      rel="nofollow"
-    >expensive first</a>
-  | <a
-      href="?<?= get_link( [ 'sort' => 'new-first' ] ) ?>#options"
-      class="internal"
-      title="<?= TITLE_SORT_NEW_FIRST ?>"
-      rel="nofollow"
-    >newest first</a>
-  | <a
-      href="?<?= get_link( [ 'sort' => 'old-first' ] ) ?>#options"
-      class="internal"
-      title="<?= TITLE_SORT_OLD_FIRST ?>"
-      rel="nofollow"
-    >oldest first</a>
-  | <a
-      href="?<?= get_link( [ 'sort' => 'random' ] ) ?>#options"
-      class="internal"
-      title="<?= TITLE_SORT_RANDOM ?>"
-      rel="nofollow"
-    >random</a>
-  | <a
-      href="?<?= get_link_without( 'sort' ) ?>#options"
-      class="internal"
-      title="<?= TITLE_SORT_DEFAULT ?>"
-      rel="nofollow"
-    >default</a>
-</p>
-</div>
-<?php
+    tag_open( 'p' );
+
+      out_text( 'Prices in: ' );
+
+      tag_text(
+        'a',
+        'USD',
+        [
+          'href' => '?' . get_link( [ 'currency' => 'USD' ] ) . '#options',
+          'class' => 'internal',
+          'title' => TITLE_PRICE_USD,
+          'rel' => 'nofollow',
+        ]
+      );
+
+      out_text( ' | ' );
+
+      tag_text(
+        'a',
+        'AUD',
+        [
+          'href' => '?' . get_link( [ 'currency' => 'AUD' ] ) . '#options',
+          'class' => 'internal',
+          'title' => TITLE_PRICE_AUD,
+          'rel' => 'nofollow',
+        ]
+      );
+
+      out_text( ' | ' );
+
+      tag_text(
+        'a',
+        'default',
+        [
+          'href' => '?' . get_link_without( 'currency' ) . '#options',
+          'class' => 'internal',
+          'title' => TITLE_PRICE_DEFAULT,
+          'rel' => 'nofollow',
+        ]
+      );
+
+      out_html( ' &mdash; ' );
+
+      out_text( 'Sort: ' );
+
+      tag_text(
+        'a',
+        'cheap first',
+        [
+          'href' => '?' . get_link( [ 'sort' => 'cheap-first' ] ) . '#options',
+          'class' => 'internal',
+          'title' => TITLE_SORT_CHEAP_FIRST,
+          'rel' => 'nofollow',
+        ]
+      );
+
+      out_text( ' | ' );
+
+      tag_text(
+        'a',
+        'expensive first',
+        [
+          'href' => '?' . get_link( [ 'sort' => 'expensive-first' ] ) . '#options',
+          'class' => 'internal',
+          'title' => TITLE_SORT_EXPENSIVE_FIRST,
+          'rel' => 'nofollow',
+        ]
+      );
+
+      out_text( ' | ' );
+
+      tag_text(
+        'a',
+        'newest first',
+        [
+          'href' => '?' . get_link( [ 'sort' => 'new-first' ] ) . '#options',
+          'class' => 'internal',
+          'title' => TITLE_SORT_NEW_FIRST,
+          'rel' => 'nofollow',
+        ]
+      );
+
+      out_text( ' | ' );
+
+      tag_text(
+        'a',
+        'oldest first',
+        [
+          'href' => '?' . get_link( [ 'sort' => 'old-first' ] ) . '#options',
+          'class' => 'internal',
+          'title' => TITLE_SORT_OLD_FIRST,
+          'rel' => 'nofollow',
+        ]
+      );
+
+      out_text( ' | ' );
+
+      tag_text(
+        'a',
+        'random',
+        [
+          'href' => '?' . get_link( [ 'sort' => 'random' ] ) . '#options',
+          'class' => 'internal',
+          'title' => TITLE_SORT_RANDOM,
+          'rel' => 'nofollow',
+        ]
+      );
+
+      out_text( ' | ' );
+
+      tag_text(
+        'a',
+        'default',
+        [
+          'href' => '?' . get_link_without( 'sort' ) . '#options',
+          'class' => 'internal',
+          'title' => TITLE_SORT_DEFAULT,
+          'rel' => 'nofollow',
+        ]
+      );
+
+    tag_shut( 'p' );
+
+  tag_shut( 'div' );
+
 }
