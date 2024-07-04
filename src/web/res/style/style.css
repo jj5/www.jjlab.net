@@ -105,6 +105,7 @@ p.small {
 
 table {
   width: auto;
+  margin-bottom: 12px;
 }
 
 table td, table th {
