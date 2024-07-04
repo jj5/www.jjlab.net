@@ -28,8 +28,8 @@ function hook_all() {
 
   // Event handler function
   function eventHandler(event) {
-    console.log(`Event: ${event.type}, Target: ${event.target}`);
-    console.log(event.target);
+    //console.log(`Event: ${event.type}, Target: ${event.target}`);
+    //console.log(event.target);
   }
 
   // Subscribe to all events
@@ -56,13 +56,6 @@ function handle_window_load( ev, el ) {
   const headings = document.querySelectorAll( 'h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]' );
   
   headings.forEach( heading => {
-
-    heading.addEventListener( 'focus', function( ev ) {
-
-      console.log( ev.target );
-      flash( ev.target );
-
-    });
 
     const id = heading.getAttribute( 'id' );
     
@@ -257,7 +250,7 @@ function handle_hashchange( ev, el ) {
 
   var id = window.location.hash.substring( 1 );
 
-  console.log( id );
+  //console.log( id );
 
   var targetElement = document.getElementById( id );
 
@@ -329,7 +322,7 @@ function load_iframes() {
 
 function scroll_into_view() {
 
-  console.log( 'scroll_into_view()' );
+  //console.log( 'scroll_into_view()' );
 
   //if ( is_john() ) { alert( 'Hi John!' ); }
 
@@ -341,7 +334,7 @@ function scroll_into_view() {
   //
   if ( fragment ) {
 
-    console.log( 'found fragment: ' + fragment );
+    //console.log( 'found fragment: ' + fragment );
 
     // 2024-01-27 jj5 - remove the "#" at the beginning of the URL fragment...
     //
@@ -351,15 +344,15 @@ function scroll_into_view() {
 
     if ( element ) {
 
-      flash( element );
-
       var target = document.querySelector( ':target' );
 
-      if ( element === target ) { return; }
+      if ( element !== target ) {
 
-      console.log( 'scrolling to element with id: ' + id );
+        //console.log( 'scrolling to element with id: ' + id );
 
-      element.scrollIntoView();
+        element.scrollIntoView();
+
+      }
 
       flash( element );
 
@@ -385,7 +378,7 @@ function log_function_call( fn ) {
 
   if ( ! DEBUG ) { return false; }
 
-  console.log( fn + '()' );
+  //console.log( fn + '()' );
 
   return true;
 
