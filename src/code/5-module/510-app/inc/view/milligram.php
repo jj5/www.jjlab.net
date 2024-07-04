@@ -984,7 +984,16 @@ function render_blog_template( $equipment_list ) {
                 );
 
                   tag_text( 'span', $product, [ 'style' => 'font-size:2rem;' ] );
-                  tag_bare( 'img', [ 'src' => $thumb, 'alt' => '', 'style' => 'max-height:400px' ] );
+
+                  tag_bare(
+                    'img',
+                    [
+                      'src' => $thumb,
+                      'alt' => 'This is an image of the product.',
+                      'style' => 'max-height:400px',
+                      'loading' => 'lazy',
+                    ]
+                  );
 
                 tag_shut( 'a' );
 
@@ -1090,9 +1099,17 @@ function render_equipment_table( $equipment_list ) {
                 );
 
                   tag_html( 'div', $equipment_text_html );
+
                   tag_open( 'div' );
 
-                    tag_bare( 'img', [ 'src' => $img_url, 'alt' => 'This is a picture of the product.' ] );
+                    tag_bare(
+                      'img',
+                      [
+                        'src' => $img_url,
+                        'alt' => 'This is a picture of the product.',
+                        'loading' => 'lazy',
+                      ]
+                    );
 
                   tag_shut( 'div' );
 
