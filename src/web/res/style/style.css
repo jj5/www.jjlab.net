@@ -1,4 +1,14 @@
 
+a[target="_blank"]::after {
+
+  /* 2024-07-04 jj5 - NOTE: some options...
+  content: " ↗";
+  content: " 🔗";
+  */
+  content: " 🔗";
+
+}
+
 section {
 
   margin: 0 auto;

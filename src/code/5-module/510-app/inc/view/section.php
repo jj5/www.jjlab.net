@@ -76,7 +76,7 @@ define( 'TITLE_LINK_LIGHT_BLUE', 'Clicking on a light blue link will take you to
 define( 'TITLE_LINK_DARK_BLUE', 'Clicking on a dark blue link will open the external link in a new tab/window.' );
 define( 'TITLE_LINK_GREEN', 'Clicking on a green link will open the affiliate link in a new tab/window.' );
 
-define( 'TITLE_AFFILIATE_LINK', 'Click here for the latest price and to buy.' );
+define( 'TITLE_AFFILIATE_LINK', 'Click here for the latest price from this affiliate and to buy!' );
 
 define( 'TITLE_LOAD_MORE', 'Click here to load more videos!' );
 define( 'TITLE_LINK_HOME', 'Click here to return to the home page.' );

@@ -736,23 +736,32 @@ function get_rss_link( &$feed_title, &$feed_url ) {
 }
 
 function list_maxitronix_kits() {
-?>
-<ul>
-<?php
-  foreach ( get_list( MaxitronixKit::class ) as $kit ) {
-    $kit_name = $kit->get_maxitronix_kit_name()->to_string();
-    $kit_html = henc( $kit_name );
-?>
-  <li><a
-    href="<?= url_base() ?>/show-type.php/maxitronix-<?= $kit_html ?>"
-    class="internal"
-    title="<?= MaxitronixKit::get_html_title( $kit_name ) ?>"
-  >Maxitronix <?= $kit_html ?></a></li>
-<?php
-  }
-?>
-</ul>
-<?php
+
+  tag_open( 'ul' );
+
+    foreach ( get_list( MaxitronixKit::class ) as $kit ) {
+
+      $kit_name = $kit->get_maxitronix_kit_name()->to_string();
+
+      tag_open( 'li' );
+
+        tag_text(
+          'a',
+          'Maxitronix ' . $kit_name,
+          [
+            'href' => url_base() . '/show-type.php/maxitronix-' . $kit_name,
+            'class' => 'internal',
+            'rel' => 'follow',
+            'title' => MaxitronixKit::get_html_title( $kit_name ),
+          ]
+        );
+
+      tag_shut( 'li' );
+
+    }
+
+  tag_shut( 'ul' );
+
 }
 
 function sort_equipment_list( &$equipment_list ) {
@@ -995,463 +1004,603 @@ function render_blog_template( $equipment_list ) {
 }
 
 function render_equipment_table( $equipment_list ) {
-?>
 
-<div class="equipment equipment-table">
-<?php render_equipment_options(); ?>
-<table id='equipment' class="main">
-  <tbody>
-<?php
+  tag_open( 'div', [ 'class' => 'equipment equipment-table' ] );
 
-  $row_number = 0;
+    render_equipment_options();
 
-  foreach ( $equipment_list as $equipment ) {
+    tag_open( 'table', [ 'id' => 'equipment', 'class' => 'main' ] );
 
-    $row_number++;
+      tag_open( 'tbody' );
 
-    $affiliate_link_list = $equipment->get_affiliate_link_list();
-    $purchase_list = $equipment->get_purchase_list();
+        $row_number = 0;
 
-    $count = count( $affiliate_link_list );
-    $other_adjust = count( $purchase_list );
+        foreach ( $equipment_list as $equipment ) {
 
-    if ( $purchase_list ) {
+          $row_number++;
 
-      $adjust = 4;
-      $count += count( $purchase_list );
+          $affiliate_link_list = $equipment->get_affiliate_link_list();
+          $purchase_list = $equipment->get_purchase_list();
 
-    }
-    else {
+          $count = count( $affiliate_link_list );
+          $other_adjust = count( $purchase_list );
 
-      $adjust = 3;
+          if ( $purchase_list ) {
 
-    }
+            $adjust = 4;
+            $count += count( $purchase_list );
 
-    $count = $count + $adjust;
+          }
+          else {
 
-    if ( count( $affiliate_link_list ) ) :
+            $adjust = 3;
 
-      $img_url = henc( $equipment->get_equipment_icon()->get_auto_url() );
-      $equipment_text_html = henc( $equipment->get_equipment_name() );
+          }
 
-      $id_html = $equipment->get_equipment_id();
+          $count = $count + $adjust;
 
-      $short_link_html = henc( $equipment->get_short_link() );
+          if ( count( $affiliate_link_list ) ) {
 
-?>
-    <tr class="spacer row-<?= $row_number ?>">
-<?php /*
-      <td style="width:225px !important;"></td>
-      <td colspan="5"></td>
-      <td></td> */ ?>
-      <td colspan="7"></td>
-    </tr>
-    <tr>
+            $img_url = $equipment->get_equipment_icon()->get_auto_url();
+            $equipment_text_html = henc( $equipment->get_equipment_name() );
 
-      <td class="equipment img" rowspan="<?= $count ?>">
-        <a
-          href="<?= url_base() ?>/equipment.php#<?= $id_html ?>"
-          class="internal equipment-link"
-          title="<?= TITLE_LINK_ITEM ?>"
-        >
-          <div><?= $equipment_text_html ?></div>
-          <div><img src="<?= $img_url ?>"></div></a>
-        <div><?= $equipment->get_first_purchase_date()->to_html() ?></div>
-        <div><a
-          href="<?= $short_link_html ?>"
-          class="internal"
-          title="<?= TITLE_LINK_SHORT ?>"
-        ><?= $short_link_html ?></a></div>
-<?php
-      if ( is_dev() ) :
-        ?><hr><?php
+            $id = $equipment->get_equipment_id();
 
-        foreach ( get_list( Affiliate::class ) as $affiliate ) :
+            $short_link = $equipment->get_short_link();
 
-          $href_html = henc( $affiliate->get_search_url( $equipment->get_equipment_name()->to_string() ) );
-          $text_html = $affiliate->get_affiliate_name()->to_html();
-?>
-            <div><a
-              href="<?= $href_html ?>"
-              class="external"
-              target='search'
-              rel="noopener follow"
-              title="<?= TITLE_SEARCH_AFFILIATE ?>"
-            ><?= $text_html ?></a></div>
-<?php
+            tag_open( 'tr', [ 'class' => "spacer row-$row_number" ] );
 
-        endforeach;
-      endif;
-?>
-      </td>
-      <td colspan="7" class="equipment" style="height:2rem">
-        <h2 id="<?= $id_html ?>"><?= $equipment_text_html ?></h2>
-<?php $link_list = $equipment->get_category_list(); ?>
-<?php $manufacturer = $equipment->get_equipment_info()->get_manufacturer_name(); ?>
-<?php if ( ! $manufacturer->is_null() ) { array_unshift( $link_list, $manufacturer ); } ?>
-<?php $link_number = 0; ?>
-<?php foreach ( $link_list as $link ) : ?>
-<?php   $link_number++; ?>
-<?php   if ( $link_number !== 1 ) { echo ' | '; } ?>
-<?php   if ( is_a( $link, Category::class ) ) : ?>
-          <a
-            href="<?= url_base() ?>/category.php/<?= henc( $link->get_category_id() ) ?>"
-            class="internal"
-            title="<?= TITLE_LINK_CATEGORY_SELECTION ?>"
-          ><?= $link->to_html() ?></a>
-<?php   else : ?>
-          <a
-            href="<?= url_base() ?>/manufacturer.php/<?= henc( $link->get_manufacturer_id() ) ?>"
-            class="internal"
-            title="<?= TITLE_LINK_MANUFACTURER_SELECTION ?>"
-          ><?= $link->to_html() ?></a>
-<?php   endif; ?>
-<?php endforeach; ?>
-      </td>
-    </tr>
-<?php
-    endif;
+              tag_bare( 'td', [ 'colspan' => 7 ] );
 
-?>
-    <tr style="height:2rem">
-      <th style="width:5% !important;">Affiliate</th>
-      <th colspan="2" style="width:10% !important;">Unit Price</th>
-      <th>Affiliate Link (Click here for the latest price and to buy!)</th>
-      <th style="width:20% !important;">Option(s)</th>
-      <th style="width:4rem !important;">Notes</th>
-    </tr>
-<?php
+            tag_shut( 'tr' );
 
-      // 2024-01-17 jj5 - always sort these from cheap to expensive...
-      //
-      usort(
-        $affiliate_link_list,
-        function ( $a, $b ) { return $a->get_sort_value() - $b->get_sort_value(); }
-      );
+            tag_open( 'tr' );
 
-      $affiliate_number = 0;
+              tag_open( 'td', [ 'class' => 'equipment img', 'rowspan' => $count ] );
 
-      foreach ( $affiliate_link_list as $affiliate_link ) {
+                tag_open(
+                  'a',
+                  [
+                    'href' => url_base() . '/equipment.php#' . $id,
+                    'class' => 'internal equipment-link',
+                    'rel' => 'follow',
+                    'title' => TITLE_LINK_ITEM,
+                  ]
+                );
 
-        $affiliate_number++;
+                  tag_html( 'div', $equipment_text_html );
+                  tag_open( 'div' );
 
-        $affiliate = $affiliate_link->get_affiliate();
+                    tag_bare( 'img', [ 'src' => $img_url, 'alt' => 'This is a picture of the product.' ] );
 
-        echo "<tr style='height:2rem'>\n";
+                  tag_shut( 'div' );
 
-        $href_html = $affiliate->get_affiliate_url()->to_html();
-        $text_html = $affiliate->get_affiliate_name()->to_nbsp();
-        //echo "<td><a href='$href_html'>$text_html</a></td>";
-        echo "<td class='affiliate'>$text_html:</td>";
+                tag_shut( 'a' );
 
-        $equipment_date = $equipment->get_equipment_date();
-        $title_html = henc( "Price current as of $equipment_date" );
+                tag_open( 'div' );
 
-        $text_html = $affiliate_link->get_item_price()->to_html();
-        echo "<td colspan='2' class='price' title='$title_html'>$text_html</td>";
+                  out_html( $equipment->get_first_purchase_date()->to_html() );
 
-        /*
-        $text_html = $affiliate_link->get_item_shipping()->to_html();
-        echo "<td class='price shipping'>$text_html</td>";
+                tag_shut( 'div' );
 
-        $text_html = $affiliate_link->get_item_total()->to_html();
-        echo "<td class='price total'>$text_html</td>";
-        */
+                tag_open( 'div' );
 
-        echo "<td class='affiliate_link' title='Click through for the latest price from this affiliate and to buy!'>";
-        echo $affiliate_link->to_html();
-        echo "</td>";
+                  tag_text(
+                    'a',
+                    $short_link,
+                    [
+                      'href' => $short_link,
+                      'class' => 'external',
+                      'target' => '_blank',
+                      'rel' => 'noopener follow',
+                      'title' => TITLE_LINK_SHORT,
+                    ]
+                  );
 
-        if ( ! $affiliate_link->get_item_options()->is_null() ) {
+                tag_shut( 'div' );
 
-          $item_options_html = $affiliate_link->get_item_options()->to_html();
+                if ( is_dev() ) {
 
-          echo "<td class='item_options'>$item_options_html</td>";
+                  tag_bare( 'hr' );
 
+                  foreach ( get_list( Affiliate::class ) as $affiliate ) {
+
+                    $href = $affiliate->get_search_url( $equipment->get_equipment_name()->to_string() );
+                    $text = $affiliate->get_affiliate_name()->to_string();
+
+                    tag_open( 'div' );
+
+                      tag_text(
+                        'a',
+                        $text,
+                        [
+                          'href' => $href,
+                          'class' => 'external',
+                          'target' => '_blank',
+                          // 2024-07-04 jj5 - OLD: I don't think this was working? it's not important anyway...
+                          //'target' => 'search',
+                          'rel' => 'noopener follow',
+                          'title' => TITLE_SEARCH_AFFILIATE,
+                        ]
+                      );
+
+                    tag_shut( 'div' );
+
+                  }
+                }
+
+              tag_shut( 'td' );
+
+              tag_open( 'td', [ 'colspan' => 7, 'class' => 'equipment', 'style' => 'height:20px' ] );
+
+                tag_open( 'h2', [ 'id' => $id ] );
+
+                  out_html( $equipment_text_html );
+
+                tag_shut( 'h2' );
+
+                $link_list = $equipment->get_category_list();
+                $manufacturer = $equipment->get_equipment_info()->get_manufacturer_name();
+
+                if ( ! $manufacturer->is_null() ) { array_unshift( $link_list, $manufacturer ); }
+
+                $link_number = 0;
+
+                foreach ( $link_list as $link ) {
+
+                  $link_number++;
+
+                  if ( $link_number !== 1 ) { out_text( ' | ' ); }
+
+                  if ( is_a( $link, Category::class ) ) {
+
+                    tag_text(
+                      'a',
+                      $link,
+                      [
+                        'href' => url_base() . '/category.php/' . $link->get_category_id(),
+                        'class' => 'internal',
+                        'rel' => 'follow',
+                        'title' => TITLE_LINK_CATEGORY_SELECTION,
+                      ]
+                    );
+
+                  }
+                  else {
+
+                    tag_text(
+                      'a',
+                      $link,
+                      [
+                        'href' => url_base() . '/manufacturer.php/' . $link->get_manufacturer_id(),
+                        'class' => 'internal',
+                        'rel' => 'follow',
+                        'title' => TITLE_LINK_MANUFACTURER_SELECTION,
+                      ]
+                    );
+
+                  }
+                }
+
+              tag_shut( 'td' );
+
+            tag_shut( 'tr' );
+
+          }
+
+          tag_open( 'tr', [ 'style' => 'height:20px;' ] );
+
+            tag_text( 'th', 'Affiliate', [ 'style' => 'width:5% !important;' ] );
+
+            tag_text( 'th', 'Unit Price', [ 'colspan' => 2, 'style' => 'width:10% !important;' ] );
+
+            tag_text( 'th', 'Affiliate Link (Click here for the latest price and to buy!)' );
+
+            tag_text( 'th', 'Option(s)', [ 'style' => 'width:20% !important;' ] );
+
+            tag_text( 'th', 'Notes', [ 'style' => 'width:4rem !important;' ] );
+
+          tag_shut( 'tr' );
+
+          // 2024-01-17 jj5 - always sort these from cheap to expensive...
+          //
+          usort(
+            $affiliate_link_list,
+            function ( $a, $b ) { return $a->get_sort_value() - $b->get_sort_value(); }
+          );
+
+          $affiliate_number = 0;
+
+          foreach ( $affiliate_link_list as $affiliate_link ) {
+
+            $affiliate_number++;
+
+            $affiliate = $affiliate_link->get_affiliate();
+
+            tag_open( 'tr', [ 'style' => 'height:20px;' ] );
+
+              $text_html = $affiliate->get_affiliate_name()->to_nbsp();
+
+              tag_html( 'td', "$text_html:", [ 'class' => 'affiliate' ] );
+
+              $equipment_date = $equipment->get_equipment_date();
+              $title = "Price current as of $equipment_date";
+
+              $text = $affiliate_link->get_item_price()->to_string();
+
+              tag_text( 'td', "$text", [ 'colspan' => 2, 'class' => 'price', 'title' => $title ] );
+
+              tag_open(
+                'td',
+                [
+                  'class' => 'affiliate_link',
+                  'title' => TITLE_AFFILIATE_LINK,
+                ]
+              );
+
+                $affiliate_link->render();
+
+              tag_shut( 'td' );
+
+              if ( ! $affiliate_link->get_item_options()->is_null() ) {
+
+                $item_options_html = $affiliate_link->get_item_options()->to_html();
+
+                tag_html( 'td', $item_options_html, [ 'class' => 'item_options' ] );
+
+              }
+              else {
+
+                tag_open( 'td' );
+
+                tag_shut( 'td' );
+
+              }
+
+              if ( $affiliate_number === 1 ) {
+
+                $notes_url = $equipment->get_sixsigma_url()->to_string();
+
+                $notes_adjust = $count - $adjust - $other_adjust;
+
+                if ( $notes_url ) {
+
+                  tag_open(
+                    'td',
+                    [
+                      'colspan' => 1,
+                      'rowspan' => $notes_adjust,
+                      'class' => 'notes',
+                      'style' => 'vertical-align:top !important; text-align: center;',
+                    ]
+                  );
+
+                    tag_text(
+                      'a',
+                      'notes',
+                      [
+                        'href' => $notes_url,
+                        'class' => 'external',
+                        'target' => '_blank',
+                        'rel' => 'noopener follow',
+                        'title' => TITLE_LINK_SIXSIGMA,
+                      ]
+                    );
+
+                  tag_shut( 'td' );
+
+                }
+                else {
+
+                  tag_open( 'td', [ 'colspan' => 1, 'rowspan' => $notes_adjust, 'class' => 'notes'] );
+
+                  tag_shut( 'td' );
+
+                }
+              }
+
+            tag_shut( 'tr' );
+
+          }
+
+          tag_open( 'tr' );
+
+            tag_open( 'td', [ 'colspan' => 7 ] );
+
+              $warning_list = $equipment->get_warning_list();
+
+              if ( $warning_list ) {
+
+                tag_text( 'p', 'Warning:' );
+
+                tag_open( 'ul' );
+
+                  foreach ( $warning_list as $warning ) {
+
+                    $text_html = $warning->to_html();
+
+                    tag_html( 'li', $text_html, [ 'class' => 'warning' ] );
+
+                  }
+
+                tag_shut( 'ul' );
+
+              }
+
+              $see_also_list = $equipment->get_see_also_list();
+
+              if ( $see_also_list ) {
+
+                tag_text( 'p', 'See also:' );
+
+                tag_open( 'ul' );
+
+                  foreach ( $see_also_list as $see_also ) {
+
+                    $text_html = $see_also->to_html();
+                    $id = str_replace( ' ', '-', $see_also->to_string() );
+
+                    tag_open( 'li' );
+
+                      tag_html(
+                        'a',
+                        $text_html,
+                        [
+                          'href' => "#$id",
+                          'class' => 'internal',
+                          'title' => TITLE_LINK_SEE_ALSO,
+                        ]
+                      );
+
+                    tag_shut( 'li' );
+
+                  }
+
+                tag_shut( 'ul' );
+
+              }
+
+              $web_link_list = $equipment->get_web_link_list();
+
+              // 2024-01-18 jj5 - I'm gonna leave this out for now, less is more.
+              //$web_link_list[] = $equipment->get_search_link();
+
+              if ( $web_link_list ) {
+
+                tag_text( 'p', 'Links:' );
+
+                tag_open( 'ul' );
+
+                  foreach ( $web_link_list as $link ) {
+
+                    $link_html = $link->to_html();
+
+                    tag_open( 'li' );
+
+                      out_html( $link_html );
+
+                    tag_shut( 'li' );
+
+                  }
+
+                tag_shut( 'ul' );
+
+              }
+
+              $link_list = $equipment->get_equipment_info()->get_manufacturer_link_list();
+
+              if ( $link_list ) {
+
+                tag_text( 'p', 'Manufacturer links:' );
+
+                tag_open( 'ul' );
+
+                  foreach ( $link_list as $link ) {
+
+                    $link_html = $link->to_html();
+
+                    tag_open( 'li' );
+
+                      out_html( $link_html );
+
+                    tag_shut( 'li' );
+
+                  }
+
+                tag_shut( 'ul' );
+
+              }
+
+            tag_shut( 'td' );
+
+          tag_shut( 'tr' );
+
+          if ( $purchase_list ) {
+
+            tag_open( 'tr', [ 'style' => 'height:20px' ] );
+
+              tag_text( 'th', 'Vendor' );
+
+              tag_text( 'th', 'Unit Price' );
+
+              tag_text(
+                'th',
+                'Ancillary Charges',
+                [
+                  'title' => 'This includes shipping costs and tax less discounts.',
+                ]
+              );
+
+              tag_text( 'th', 'Purchase History (The specific things I purchased)' );
+
+              tag_text( 'th', 'Option(s)' );
+
+              tag_text( 'th', 'Notes' );
+
+            tag_shut( 'tr' );
+
+            foreach ( $purchase_list as $purchase ) {
+
+              $vendor_html = henc( $purchase->get_vendor() );
+
+              $quantity = $purchase->get_order_quantity();
+              $quantity_html = $quantity->to_html();
+
+              $price = $purchase->get_order_price();
+              $price_html = $price->to_html();
+
+              $subtotal = $price->multiply( $quantity->get_value() );
+              $subtotal_html = $subtotal->to_html();
+
+              $date = $purchase->get_order_date();
+              $date_html = $date->to_html();
+
+              $shipping = $purchase->get_order_shipping();
+              $shipping_html = $shipping->to_html();
+
+              $tax = $purchase->get_order_tax();
+              $tax_html = $tax->to_html();
+
+              $discount = $purchase->get_order_discount();
+              $discount_html = $discount->to_html();
+
+              $ancillary_charges = null;
+
+              if ( ! $shipping->is_null() ) {
+
+                $ancillary_charges = $shipping->add( $tax )->subtract( $discount );
+
+              }
+              elseif ( ! $tax->is_null() ) {
+
+                $ancillary_charges = $tax->subtract( $discount );
+
+              }
+              elseif ( ! $discount->is_null() ) {
+
+                $ancillary_charges = $discount->invert();
+
+              }
+
+              $ancillary_charges_html = $ancillary_charges ? $ancillary_charges->to_html() : '';
+
+              $total = $subtotal->add( $ancillary_charges );
+              $total_html = $total->to_html();
+
+              $number = $quantity->get_value();
+
+              $number = NUMBER_MAP[ $number ] ?? $number;
+
+              $options_html = $purchase->get_order_options()->to_html();
+
+              $href = '#' . $purchase->get_parent()->get_equipment_id();
+
+              $vendor_url = $purchase->get_vendor_url();
+
+              if ( ! $vendor_url->is_null() ) { $href = $vendor_url->to_html(); }
+
+              $each = $number === 1 ? '' : 'each';
+              $plus = $shipping->get_value() > 0 ? 'and' : 'plus';
+
+              $order_url = $purchase->get_order_url()->to_string();
+              $order_id = $purchase->get_order_id()->to_string();
+
+              // 2024-01-27 jj5 - TODO: review this tool tip, it's not very good
+
+              $order_item_name = $purchase->get_order_item_name()->to_string();
+
+              tag_open( 'tr', [ 'style' => 'height:20px' ] );
+
+                tag_html( 'td', "$vendor_html:", [ 'class' => 'vendor' ] );
+
+                tag_html( 'td', "$subtotal_html", [ 'class' => 'subtotal price' ] );
+
+                tag_html( 'td', "$ancillary_charges_html", [ 'class' => 'ancillary price' ] );
+
+                tag_open( 'td' );
+
+                  out_text( 'I purchased ' );
+
+                  tag_open(
+                    'a',
+                    [
+                      'href' => $href,
+                      'class' => 'external',
+                      'target' => '_blank',
+                      'rel' => 'noopener follow',
+                      'title' => $order_item_name,
+                    ]
+                  );
+
+                    out_text( "$number of these" );
+
+                  tag_shut( 'a' );
+
+                  out_text( " on $date for $price $each" );
+
+                  if ( $shipping->get_value() > 0 ) {
+
+                    out_text( " plus shipping of $shipping" );
+
+                  }
+                  else {
+
+                    out_text( " with free shipping" );
+
+                  }
+
+                  if ( $tax->get_value() > 0 ) {
+
+                    out_text( " $plus tax of $tax" );
+
+                  }
+
+                  if ( $discount->get_value() > 0 ) {
+
+                    out_text( " and a discount of $discount" );
+
+                  }
+
+                  out_text( " for a total of $total." );
+
+                  if ( is_dev() ) {
+
+                    tag_open(
+                      'a',
+                      [
+                        'href' => $order_url,
+                        'class' => 'external',
+                        'target' => '_blank',
+                        'rel' => 'noopener follow',
+                        'title' => TITLE_LINK_ORDER,
+                      ]
+                    );
+
+                      out_text( $order_id );
+
+                    tag_shut( 'a' );
+
+                  }
+
+                tag_shut( 'td' );
+
+                tag_html( 'td', $options_html );
+
+                tag_open( 'td' );
+
+                tag_shut( 'td' );
+
+              tag_shut( 'tr' );
+
+            }
+          }
         }
-        else {
 
-          echo "<td></td>";
+      tag_shut( 'tbody' );
 
-        }
+    tag_shut( 'table' );
 
-        if ( $affiliate_number === 1 ) {
-
-          $notes_url = $equipment->get_sixsigma_url()->to_html();
-
-          $notes_adjust = $count - $adjust - $other_adjust;
-
-          if ( $notes_url ) :
-    ?>
-            <td colspan="1" rowspan="<?= $notes_adjust ?>" class="notes" style="vertical-align:top !important; text-align: center;"><a
-              href="<?= $notes_url ?>"
-              class="internal"
-              title="<?= TITLE_LINK_SIXSIGMA ?>"
-            >notes</a></td>
-<?php
-          else :
-    ?>
-            <td colspan="1" rowspan="<?= $notes_adjust ?>" class="notes"></td>
-<?php
-          endif;
-
-        }
-
-        echo "</tr>\n";
-
-      }
-
-?>
-    <tr>
-      <td colspan="7">
-<?php
-
-      $warning_list = $equipment->get_warning_list();
-
-      if ( $warning_list ) {
-?>
-        <p>Warning:</p>
-        <ul>
-<?php
-
-        foreach ( $warning_list as $warning ) {
-
-          $text_html = $warning->to_html();
-
-?>
-          <li class="warning"><?= $text_html ?></li>
-<?php
-
-
-        }
-
-?>
-        </ul>
-<?php
-
-      }
-
-      $see_also_list = $equipment->get_see_also_list();
-
-      if ( $see_also_list ) {
-?>
-        <p>See also:</p>
-        <ul>
-<?php
-
-        foreach ( $see_also_list as $see_also ) {
-
-          $text_html = $see_also->to_html();
-          $id_html = str_replace( ' ', '-', $text_html );
-?>
-          <li><a
-            href="#<?= $id_html ?>"
-            class="internal"
-            title="<?= TITLE_LINK_SEE_ALSO ?>"
-          ><?= $text_html ?></a></li>
-<?php
-
-
-        }
-
-?>
-        </ul>
-<?php
-
-      }
-
-      $web_link_list = $equipment->get_web_link_list();
-
-      // 2024-01-18 jj5 - I'm gonna leave this out for now, less is more.
-      //$web_link_list[] = $equipment->get_search_link();
-
-      if ( $web_link_list ) {
-?>
-        <p>Links:</p>
-        <ul>
-<?php
-
-        foreach ( $web_link_list as $link ) {
-
-          $link_html = $link->to_html();
-
- ?>
-          <li><?= $link_html ?></li>
-<?php
-
-        }
-
-?>
-        </ul>
-<?php
-
-      }
-
-      $link_list = $equipment->get_equipment_info()->get_manufacturer_link_list();
-
-      if ( $link_list ) {
-?>
-        <p>Manufacturer links:</p>
-        <ul>
-<?php
-
-        foreach ( $link_list as $link ) {
-
-          $link_html = $link->to_html();
-
- ?>
-          <li><?= $link_html ?></li>
-<?php
-
-        }
-
-?>
-        </ul>
-<?php
-
-      }
-
-?>
-</td>
-    </tr>
-<?php
-
-    if ( $purchase_list ) :
-?>
-    <tr style="height:2rem">
-      <th>Vendor</th>
-      <th>Unit Price</th>
-      <th title="This includes shipping costs and tax less discounts">Ancillary Charges</th>
-      <th>Purchase History (The specific things I purchased)</th>
-      <th>Option(s)</th>
-      <th>Notes</th>
-    </tr>
-<?php
-
-      foreach ( $purchase_list as $purchase ) {
-
-        $vendor_html = henc( $purchase->get_vendor() );
-
-        $quantity = $purchase->get_order_quantity();
-        $quantity_html = $quantity->to_html();
-
-        $price = $purchase->get_order_price();
-        $price_html = $price->to_html();
-
-        $subtotal = $price->multiply( $quantity->get_value() );
-        $subtotal_html = $subtotal->to_html();
-
-        $date = $purchase->get_order_date();
-        $date_html = $date->to_html();
-
-        $shipping = $purchase->get_order_shipping();
-        $shipping_html = $shipping->to_html();
-
-        $tax = $purchase->get_order_tax();
-        $tax_html = $tax->to_html();
-
-        $discount = $purchase->get_order_discount();
-        $discount_html = $discount->to_html();
-
-        $ancillary_charges = null;
-
-        if ( ! $shipping->is_null() ) {
-
-          $ancillary_charges = $shipping->add( $tax )->subtract( $discount );
-
-        }
-        elseif ( ! $tax->is_null() ) {
-
-          $ancillary_charges = $tax->subtract( $discount );
-
-        }
-        elseif ( ! $discount->is_null() ) {
-
-          $ancillary_charges = $discount->invert();
-
-        }
-
-        $ancillary_charges_html = $ancillary_charges ? $ancillary_charges->to_html() : '';
-
-        $total = $subtotal->add( $ancillary_charges );
-        $total_html = $total->to_html();
-
-        $number = $quantity->get_value();
-
-        $number_html = henc( NUMBER_MAP[ $number ] ?? $number );
-
-        $options_html = $purchase->get_order_options()->to_html();
-
-        $href = '#' . $purchase->get_parent()->get_equipment_id();
-
-        $vendor_url = $purchase->get_vendor_url();
-
-        if ( ! $vendor_url->is_null() ) { $href = $vendor_url->to_html(); }
-
-        $each = $number === 1 ? '' : 'each';
-        $plus = $shipping->get_value() > 0 ? 'and' : 'plus';
-
-        $order_url_html = $purchase->get_order_url()->to_html();
-        $order_id_html = $purchase->get_order_id()->to_html();
-
-        // 2024-01-27 jj5 - TODO: review this tool tip, it's not very good
-
-        $order_item_name_html = $purchase->get_order_item_name()->to_html();
-
-?>
-        <tr style="height:2rem">
-          <td class="vendor"><?= $vendor_html ?>:</td>
-          <td class="subtotal price"><?= $subtotal_html ?></td>
-          <td class="ancillary price"><?= $ancillary_charges_html ?></td>
-          <td>I purchased
-            <a
-              href="<?= $href ?>"
-              class="external"
-              target="_blank"
-              rel="noopener follow"
-              title="<?= $order_item_name_html ?>"
-            ><?= $number_html ?> of these</a>
-            on <?= $date_html ?> for
-            <?= $price_html ?> <?= $each ?>
-<?php if ( $shipping->get_value() > 0 ) : ?>
-            plus shipping of <?= $shipping_html ?>
-<?php else : ?>
-            with free shipping
-<?php endif; ?>
-<?php if ( $tax->get_value() > 0 ) : ?>
-            <?= $plus ?> tax of <?= $tax_html ?>
-<?php endif; ?>
-<?php if ( $discount->get_value() > 0 ) : ?>
-            and a discount of <?= $discount_html ?>
-<?php endif; ?>
-            for a total of <?= $total_html ?>.
-<?php if ( is_dev() ) : ?>
-            Order: <a
-              href="<?= $order_url_html ?>"
-              class="external"
-              target='_blank'
-              rel="noopener follow"
-              title="<?= TITLE_LINK_ORDER ?>"
-            ><?= $order_id_html ?></a>
-<?php endif; ?>
-          </td>
-          <td><?= $options_html ?></td>
-          <td></td>
-        </tr>
-<?php
-
-      }
-
-    endif;
-
-  }
-?>
-<?php
-?>
-  </tbody>
-</table>
-</div>
-<?php
+  tag_shut( 'div' );
 
 }
 
