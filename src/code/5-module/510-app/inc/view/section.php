@@ -73,7 +73,7 @@ define( 'TITLE_ABOUT_SHORTCUTS', 'Click here for a list of supported hotkeys. [H
 define( 'TITLE_SILLY_JOB_TITLE', 'Click here to read about the silly job title.' );
 define( 'TITLE_COSTUME', 'Click here to find out about my costume.' );
 define( 'TITLE_SITEMAP_XML', 'Click here for the sitemap.xml file. [Hotkey: X]' );
-define( 'TITLE_RSS_FEED', 'Click here for the RSS feed. [Hotkey: F]' );
+define( 'TITLE_RSS_FEED', TITLE_NAV_FEED );
 
 
 define( 'TITLE_VIDEO_INDEX', 'Click here to see the "secret" index of all videos. [Hotkey: V]' );
