@@ -20,13 +20,13 @@ define( 'TITLE_YOUTUBE_EXTRA', "Click here to visit my 2nd channel known as @Ell
 define( 'TITLE_YOUTUBE_VIDEO', "Click here to watch this video on YouTube." );
 
 define( 'TITLE_CHANNEL_INDEX', "Click here for info about my YouTube channels." );
-define( 'TITLE_CHANNEL_MAIN', "Click here for high quality content on my main YouTube channel @InTheLabWithJayJay." );
-define( 'TITLE_CHANNEL_EXTRA', "Click here for extra content on my 2nd YouTube channel @ElliotsExtras." );
+define( 'TITLE_CHANNEL_MAIN', "Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]" );
+define( 'TITLE_CHANNEL_EXTRA', "Click here for extra content on my 2nd YouTube channel @ElliotsExtras. [Hotkey: 2]" );
 
 define( 'TITLE_SHOW_MAIN', 'Click here to watch videos recorded for the main show.' );
 define( 'TITLE_SHOW_SPECIAL', 'Click here to watch special shows which air on the main channel.' );
-define( 'TITLE_SHOW_MAXITRONIX', 'Click here to watch the special feature videos where I work through old Maxitronix electronic project labs.' );
-define( 'TITLE_SHOW_MINI_PROJECT', 'Click here to watch the special feature videos where I work through Mini Projects from Silicon Chip and Jaycar.' );
+define( 'TITLE_SHOW_MAXITRONIX', 'Click here to watch the special feature videos where I work through old Maxitronix electronic project labs. [Hotkey: K]' );
+define( 'TITLE_SHOW_MINI_PROJECT', 'Click here to watch the special feature videos where I work through Mini Projects from Silicon Chip and Jaycar. [Hotkey: J]' );
 define( 'TITLE_SHOW_EXTRA', "Click here to watch extra content which didn't make it to the main channel." );
 
 define( 'TITLE_ABOUT_SHOW_NOTES', 'Click here to read about the show notes.' );
@@ -56,30 +56,30 @@ define( 'TITLE_FEATURE_MAXITRONIX_500', 'Click here to watch the videos where I 
 define( 'TITLE_FEATURE_EARLY_CONTENT', "Click here to watch early content from the olden days." );
 define( 'TITLE_FEATURE_EXTRA', "Click here to watch extra content which didn't make it to the main channel." );
 
-define( 'TITLE_MAIN', "Click here to visit the show's home page." );
+define( 'TITLE_MAIN', "Click here to visit the show's home page. [Hotkey: H]" );
 define( 'TITLE_HOMEPAGE', TITLE_MAIN );
 define( 'TITLE_RSS_INFO', 'Click here for the RSS feed info.' );
 define( 'TITLE_RSS', 'Click here for the RSS feed for these types of videos.' );
-define( 'TITLE_SPONSOR', 'Click here to learn more about my generous sponsors.' );
+define( 'TITLE_SPONSOR', 'Click here to learn more about my generous sponsors. [Hotkey: S]' );
 define( 'TITLE_PATREON', 'Click here to see my generous supporters on Patreon, and maybe join them?' );
-define( 'TITLE_EQUIPMENT', 'Click here to see the lab equipment that I own along with affiliate links to buy.' );
+define( 'TITLE_EQUIPMENT', 'Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]' );
 define( 'TITLE_STETMANN', 'Click here to see the Egon Stetmann page on the StarCraft Wiki.' );
-define( 'TITLE_CONTACT', 'Click here to find my contact details.' );
+define( 'TITLE_CONTACT', 'Click here to find my contact details. [Hotkey: C]' );
 define( 'TITLE_AFFILIATE', "Click here to read about the show's affiliates." );
 define( 'TITLE_BLOG', 'Click here to visit my blog!' );
-define( 'TITLE_SUPPORT', 'Click here to find out how you can support the show.' );
-define( 'TITLE_ABOUT', 'Click here for more info about the show and this website.' );
-define( 'TITLE_ABOUT_SHORTCUTS', 'Click here for a list of supported hotkeys.' );
+define( 'TITLE_SUPPORT', 'Click here to find out how you can support the show. [Hotkey: U]' );
+define( 'TITLE_ABOUT', 'Click here for more info about the show and this website. [Hotkey: A]' );
+define( 'TITLE_ABOUT_SHORTCUTS', 'Click here for a list of supported hotkeys. [Hotkey: ?]' );
 define( 'TITLE_SILLY_JOB_TITLE', 'Click here to read about the silly job title.' );
 define( 'TITLE_COSTUME', 'Click here to find out about my costume.' );
-define( 'TITLE_SITEMAP_XML', 'Click here for the sitemap.xml file.' );
-define( 'TITLE_RSS_FEED', 'Click here for the RSS feed.' );
+define( 'TITLE_SITEMAP_XML', 'Click here for the sitemap.xml file. [Hotkey: X]' );
+define( 'TITLE_RSS_FEED', 'Click here for the RSS feed. [Hotkey: F]' );
 
 
-define( 'TITLE_VIDEO_INDEX', 'Click here to see the "secret" index of all videos.' );
-define( 'TITLE_BOOK_INDEX', 'Click here to see the "secret" index of all books.' );
-define( 'TITLE_BLOG_TEMPLATE', 'Click here to the template blog post that John uses for the show notes.' );
-define( 'TITLE_DEBUG', 'Click here at your peril. :)' );
+define( 'TITLE_VIDEO_INDEX', 'Click here to see the "secret" index of all videos. [Hotkey: V]' );
+define( 'TITLE_BOOK_INDEX', 'Click here to see the "secret" index of all books. [Hotkey: B]' );
+define( 'TITLE_BLOG_TEMPLATE', 'Click here to the template blog post that John uses for the show notes. [Hotkey: T]' );
+define( 'TITLE_DEBUG', 'Click here at your peril. :) [Hotkey: D]' );
 
 define( 'TITLE_PERMALINK', 'Click here for the permanent link to this video.' );
 
