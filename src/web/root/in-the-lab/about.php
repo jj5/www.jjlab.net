@@ -135,7 +135,7 @@ function render_section_summary_blog( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Blog', [ 'id' => 'blog-summary' ] );
+    tag_text( 'h' . $heading_level, 'John\'s Blog', [ 'id' => 'blog-summary' ] );
 
     tag_text( 'p', 'I usually write up show notes on my blog, which is over here:' );
 
