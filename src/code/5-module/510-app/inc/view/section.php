@@ -1897,7 +1897,7 @@ function render_section_about_mini_project( int $heading_level = 2 ) {
         ]
       );
 
-      out_text( ' shows we will be working through the new ' );
+      out_text( ' we will be working through the new ' );
 
       tag_text(
         'a',
