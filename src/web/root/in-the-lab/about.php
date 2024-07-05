@@ -494,7 +494,7 @@ function render_shortcut( string $key, string $page, string $link, string $title
 
     tag_open( 'td' );
 
-      $rel = ( $link === '/debug.php' ) ? 'nofollow' : 'follow';
+      $rel = ( $page === 'Debug' ) ? 'nofollow' : 'follow';
 
       tag_text(
         'a',
