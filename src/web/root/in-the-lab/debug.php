@@ -4,7 +4,11 @@ require_once __DIR__ . '/../../../../inc/framework.php';
 
 function render() {
 
-  if ( is_prod() ) { die(); }
+  if ( is_prod() ) {
+    
+    return render_500();
+
+  }
 
   //return app_stash()->render();
 
