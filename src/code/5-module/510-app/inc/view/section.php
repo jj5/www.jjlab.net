@@ -2936,7 +2936,20 @@ function render_section_about_next( int $heading_level = 2 ) {
 
         tag_text(
           'a',
-          'old book teardown videos',
+          'electronics project',
+          [
+            'href' => url_base() . '/feature.php/electronics-project',
+            'class' => 'internal',
+            'rel' => 'follow',
+            'title' => TITLE_FEATURE_ELECTRONICS_PROJECT,
+          ]
+        );
+
+        out_text( ' and ' );
+
+        tag_text(
+          'a',
+          'old book teardown',
           [
             'href' => url_base() . '/feature.php/old-book-teardown',
             'class' => 'internal',
@@ -2945,7 +2958,7 @@ function render_section_about_next( int $heading_level = 2 ) {
           ]
         );
 
-        out_text( '.' );
+        out_text( ' videos.' );
 
       tag_shut( 'li' );
 
