@@ -104,6 +104,7 @@ define( 'TITLE_LINK_SEGMENT', 'Click here to watch this feature.' );
 define( 'TITLE_LINK_VIDEO', 'Click here to watch this video.' );
 define( 'TITLE_LINK_YOUTUBE', 'Click here to watch this video on YouTube.' );
 define( 'TITLE_LINK_WEB', 'Click here to visit the website.' );
+define( 'TITLE_LINK_DROIDS', 'Click here for an old classic.' );
 
 define( 'TITLE_LINK_HACKER_EMBLEM', 'Click here to learn more about the hacker emblem.' );
 define( 'TITLE_LINK_GAME_OF_LIFE', 'Click here to learn more about the glider in Conway\'s Game of Life.' );

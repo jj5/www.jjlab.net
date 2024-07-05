@@ -35,10 +35,24 @@ function render_blog_template_main() {
 
         tag_text( 'h1', 'Blog Template' );
 
-        tag_text(
-          'p',
-          "This is a template blog post.",
-        );
+        tag_open( 'p' );
+
+          out_text( "This is a template blog post. " );
+
+          tag_text(
+            'a',
+            "This isn't the webpage you're looking for",
+            [
+              'href' => 'https://www.youtube.com/watch?v=ihyjXd2C-E8',
+              'class' => 'external',
+              'rel' => 'noopener follow',
+              'title' => TITLE_LINK_DROIDS,
+            ]
+          );
+
+          out_text( "..." );
+
+        tag_shut( 'p' );
 
       tag_shut( 'section' );
 
