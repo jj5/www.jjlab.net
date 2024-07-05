@@ -90,7 +90,10 @@ function render_500( $message = null, $form = null, $issue = null, $exit = null,
 
   http_response_code( 500 );
 
-  $title = '500 - Internal Server Error';
+  // 2024-07-05 jj5 - NOTE: I was "Internal Error" rather than "Internal Server Error" because I don't want the user to
+  // misread as "Internal Severe Error" and freak out...
+  //
+  $title = '500 - Internal Error';
 
   render_head( $title, [ 'robots' => 'noindex' ] );
 
