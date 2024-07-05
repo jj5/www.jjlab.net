@@ -121,7 +121,7 @@ function render_sponsor_main() {
           'a',
           "let's talk",
           [
-            'href' => url_base() . '/#contact-info',
+            'href' => url_base() . '/contact.php',
             'class' => 'internal',
             'title' => TITLE_CONTACT,
           ]

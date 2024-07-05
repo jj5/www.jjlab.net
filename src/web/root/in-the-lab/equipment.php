@@ -173,7 +173,7 @@ function render_equipment_main() {
           'a',
           'let me know',
           [
-            'href' => url_base() . '/#contact-info',
+            'href' => url_base() . '/contact.php',
             'class' => 'internal',
             'rel' => 'follow',
             'title' => TITLE_CONTACT,
