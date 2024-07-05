@@ -9,6 +9,15 @@ function render() { render_xslt_headers(); }
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class="xslt feed">
 	<head>
 		<title><xsl:value-of select="/rss/channel/title"/> RSS Feed</title>
+
+<script>
+window.MUD_SERVER_VERSION = <?= json_encode( MUD_VERSION ) ?>;
+window.APP_SERVER_VERSION = <?= json_encode( APP_VERSION ) ?>;
+window.IS_JOHN = <?= json_encode( is_john() ) ?>;
+window.URL_BASE = <?= json_encode( url_base() ) ?>;
+window.DEBUG = <?= json_encode( DEBUG ) ?>;
+</script>
+
 <?php
       render_xslt_head();
 ?>
@@ -60,11 +69,6 @@ function render() { render_xslt_headers(); }
 		<footer>
 			<div>© Copyright 2024 John Elliot V. All rights reserved.</div></footer>
 		<script type="text/javascript">window.g_mud_html_options = {"autoxsrf":true,"max-length":32};</script>
-<script>
-window.IS_JOHN = <?= json_encode( is_john() ) ?>;
-window.URL_BASE = <?= json_encode( url_base() ) ?>;
-window.DEBUG = <?= json_encode( DEBUG ) ?>;
-</script>
   </body>
 </html>
 

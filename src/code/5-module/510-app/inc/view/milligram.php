@@ -336,16 +336,11 @@ function render_head( $heading, array $options = [] ) {
 
       tag_open( 'script' );
 
-        if ( is_dev() ) {
-
-          out_text( 'var DEBUG = true;' );
-
-        }
-        else {
-
-          out_text( 'var DEBUG = false;' );
-
-        }
+        out_code( "\nconst MUD_SERVER_VERSION = " . json_encode( MUD_VERSION ) . ";\n");
+        out_code( "\nconst APP_SERVER_VERSION = " . json_encode( APP_VERSION ) . ";\n");
+        out_code( "\nconst URL_BASE = " . json_encode( url_base() ) . ";\n");
+        out_code( "\nconst DEBUG = " . json_encode( DEBUG ) . ";\n");
+        out_code( "\nconst IS_JOHN = " . json_encode( is_john() ) . ";\n");
 
       tag_shut( 'script' );
 
@@ -541,24 +536,6 @@ function render_foot() {
         tag_html( 'div', '&copy; Copyright ' . date( 'Y' ) . ' John Elliot V. All rights reserved.' );
 
       tag_shut( 'footer' );
-
-      tag_open( 'script' );
-
-        if ( is_john() ) {
-
-          out_code( "\nwindow.IS_JOHN = true;\n" );
-
-        }
-        else {
-
-          out_code( "\nwindow.IS_JOHN = false;\n" );
-
-        }
-
-        out_code( "\nwindow.DEBUG = " . json_encode( DEBUG ) . ";\n");
-        out_code( "\nwindow.URL_BASE = " . json_encode( url_base() ) . ";\n");
-
-      tag_shut( 'script' );
 
       if ( strpos( $_SERVER[ 'HTTP_USER_AGENT' ] ?? '', 'QtWebEngine' ) !== false ) {
 

@@ -150,6 +150,18 @@ function handle_window_load( ev, el ) {
 
   scroll_into_view();
 
+  if ( MUD_SERVER_VERSION !== MUD_CLIENT_VERSION ) {
+
+    console.error( 'MUD_SERVER_VERSION !== MUD_CLIENT_VERSION' );
+
+  }
+
+  if ( APP_SERVER_VERSION !== APP_CLIENT_VERSION ) {
+
+    console.error( 'APP_SERVER_VERSION !== APP_CLIENT_VERSION' );
+
+  }
+
 };
 
 function handle_window_resize( ev, el ) {
