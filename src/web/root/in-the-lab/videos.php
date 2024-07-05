@@ -114,6 +114,7 @@ function render_video_list( $video_list ) {
             tag_text( 'th', 'Show Type' );
             tag_text( 'th', 'Feature' );
             tag_text( 'th', 'Video' );
+            tag_text( 'th', 'Duration' );
             tag_text( 'th', 'Silly Job Title' );
             tag_text( 'th', 'YouTube Video Title' );
             tag_text( 'th', 'YouTube Video Link' );
@@ -161,6 +162,12 @@ function render_video_list( $video_list ) {
 
               tag_shut( 'td' );
 
+              tag_open( 'td', [ 'class' => 'right' ] );
+
+                out_text( $video->get_duration() );
+
+              tag_shut( 'td' );
+
               tag_open( 'td' );
 
                 if ( $video->get_show_type()->get_slug() === ShowEnum::MainShow->value ) {
@@ -170,7 +177,10 @@ function render_video_list( $video_list ) {
                 }
                 else {
 
-                  $video->get_show()->get_silly_job_title()->render( null, [ 'style' => 'text-decoration: line-through;' ] );
+                  // 2024-07-05 jj5 - NEW:
+                  $video->get_show()->get_silly_job_title()->render();
+                  // 2024-07-05 jj5 - OLD: I used to distinguish the silly job title with a line-through if it wasn't a main show...
+                  //$video->get_show()->get_silly_job_title()->render( null, [ 'style' => 'text-decoration: line-through;' ] );
 
                 }
 
