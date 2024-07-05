@@ -5,6 +5,8 @@
 
 var WINDOW_SIZE_COOKIE = 'sz';
 
+var TITLE_HEADING_LINK = 'Click here to link to this heading.';
+
 // 2024-06-29 jj5 - 'DOMContentLoaded' happens before 'load'...
 //
 document.addEventListener( 'DOMContentLoaded', handle_content_loaded );
@@ -121,7 +123,7 @@ function handle_window_load( ev, el ) {
     const link = document.createElement("a");
     link.setAttribute( 'href', `#${id}` );
     link.setAttribute( 'class', 'heading-link' );
-    link.setAttribute( 'title', 'Click here to link to this heading.' );
+    link.setAttribute( 'title', TITLE_HEADING_LINK );
     link.innerHTML = '#';
 
     //const referenceNode = heading;
@@ -520,6 +522,7 @@ function make_toc() {
 
       element = document.createElement( 'a' );
       element.setAttribute( 'href', '#' + node.id );
+      element.setAttribute( 'title', TITLE_HEADING_LINK );
       element.textContent = node.text;
 
     }
