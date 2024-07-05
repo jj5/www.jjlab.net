@@ -42,12 +42,13 @@ function handle_keydown( ev ) {
   }
 
   // 2024-07-05 jj5 - support for link to table of contents...
-  //
+  /*
   if ( ev.key === '\\' ) {
 
     window.location = '#contents';
 
   }
+  */
 
 
   const spec = {
