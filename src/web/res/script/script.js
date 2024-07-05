@@ -19,9 +19,19 @@ function handle_keydown( ev ) {
   // 2024-07-05 jj5 - Thank You, GitHub Copilot! :)
   //window.location.href = 'https://www.youtube.com/watch?v=ZnHmskwqCCQ';
 
+  // 2024-07-05 jj5 - support for link to top of page...
+  //
   if ( ev.key === 'o' || ev.key === 'O' || ev.key === '0' ) {
 
     window.location = '#';
+
+  }
+
+  // 2024-07-05 jj5 - support for link to table of contents...
+  //
+  if ( ev.key === '\\' ) {
+
+    window.location = '#contents';
 
   }
 
