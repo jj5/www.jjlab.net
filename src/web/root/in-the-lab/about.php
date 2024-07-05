@@ -447,6 +447,7 @@ function render_section_about_shortcuts( int $heading_level = 2 ) {
 
         render_shortcut( '?', 'Shortcuts',          '/about.php#shortcuts',       TITLE_ABOUT_SHORTCUTS   );
         render_shortcut( 'H', 'Homepage',           '/#heading',                  TITLE_HOMEPAGE          );
+        render_shortcut( 'L', 'Latest Video',       '/#latest',                   TITLE_LATEST            );
         render_shortcut( 'M', 'Main Channel',       $main_channel,                TITLE_CHANNEL_MAIN      );
         render_shortcut( '2', '2nd Channel',        $extra_channel,               TITLE_CHANNEL_EXTRA     );
         render_shortcut( 'S', 'Sponsors',           '/sponsor.php#heading',       TITLE_SPONSOR           );

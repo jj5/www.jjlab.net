@@ -58,6 +58,7 @@ define( 'TITLE_FEATURE_EXTRA', "Click here to watch extra content which didn't m
 
 define( 'TITLE_MAIN', "Click here to visit the show's home page. [Hotkey: H]" );
 define( 'TITLE_HOMEPAGE', TITLE_MAIN );
+define( 'TITLE_LATEST', 'Click here to watch the latest main channel video on the homepage. [Hotkey: L]' );
 define( 'TITLE_RSS_INFO', 'Click here for the RSS feed info.' );
 define( 'TITLE_RSS', 'Click here for the RSS feed for these types of videos.' );
 define( 'TITLE_SPONSOR', 'Click here to learn more about my generous sponsors. [Hotkey: S]' );

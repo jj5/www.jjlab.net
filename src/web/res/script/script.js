@@ -22,6 +22,7 @@ function handle_keydown( ev ) {
   const spec = {
     '?': '/about.php#shortcuts',
     'h': '/#heading',
+    'l': '/#latest',
     'm': '/channel.php/@InTheLabWithJayJay#heading',
     '2': '/channel.php/@ElliotsExtras#heading',
     's': '/sponsor.php#heading',
