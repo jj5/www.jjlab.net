@@ -335,6 +335,23 @@ abstract class Segment extends Item {
           }
         }
 
+        tag_text( 'dt', 'Permanent Link' );
+
+        tag_open( 'dd' );
+
+          tag_text(
+            'a',
+            'Permanent Link',
+            [
+              'href' => $this->get_video()->get_internal_url(),
+              'class' => 'internal',
+              'rel' => 'follow',
+              'title' => TITLE_PERMALINK,
+            ]
+          );
+
+        tag_shut( 'dd' );
+
       tag_shut( 'dl' );
 
     tag_shut( 'section' );

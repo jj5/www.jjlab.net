@@ -73,6 +73,8 @@ define( 'TITLE_COSTUME', 'Click here to find out about my costume.' );
 define( 'TITLE_VIDEO_INDEX', 'Click here to see the "secret" index of all videos.' );
 define( 'TITLE_BOOK_INDEX', 'Click here to see the "secret" index of all books.' );
 
+define( 'TITLE_PERMALINK', 'Click here for the permanent link to this video.' );
+
 define( 'TITLE_LINK_EMAIL', 'Click here to send me an email.' );
 
 define( 'TITLE_LINK_LIGHT_BLUE', 'Clicking on a light blue link will take you to another page on this website.' );
@@ -737,6 +739,22 @@ function render_section_about_video_content( int $heading_level = 2 ) {
       );
 
       out_text( ' page.' );
+
+    tag_shut( 'p' );
+
+  tag_shut( 'section' );
+
+  tag_open( 'section' );
+
+    tag_text( 'h' . ( $heading_level + 1 ), 'Taglines', [ 'id' => 'taglines' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'My format has been evolving since I started, but these days when I start a video I say ' );
+      out_text( '"Hi there! You\'re in the lab with your mate Jay Jay!" and when I close a video I say ' );
+      out_text( '"Thanks very much for watching, and please remember to click like and subscribe!" ' );
+      out_text( 'I guess this is fairly straight bat and boring, but that\'s okay. ' );
+      out_text( 'Another thing that I like to say is "It never hurts to test!"' );
 
     tag_shut( 'p' );
 
