@@ -522,7 +522,7 @@ function render_section_summary_thanks( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'Thanks for checking out the show! If you would like to help me out there are various ways you can' );
+      out_text( 'Thanks for checking out the show! If you would like to help me out there are various ways you can ' );
 
       tag_text(
         'a',
