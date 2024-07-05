@@ -14,7 +14,7 @@ window.addEventListener( 'resize', handle_window_resize );
 document.addEventListener( 'click', handle_document_click );
 window.addEventListener( 'hashchange', handle_hashchange );
 document.addEventListener( 'keydown', handle_keydown );
-window.addEventListener( 'error', handle_error );
+//window.addEventListener( 'error', handle_error );
 
 function handle_error( ev ) {
   console.error("Error message: " + ev.message);
@@ -73,8 +73,8 @@ function handle_keydown( ev ) {
     'x': '/sitemap.php',
     'r': '/feed.php',
     't': '/blog-template.php#heading',
-    'd': '/debug.php',
-  }
+    'd': '/debug.php'
+  };
 
   for ( const key in spec ) {
 

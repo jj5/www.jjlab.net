@@ -424,6 +424,13 @@ function render_section_about_shortcuts( int $heading_level = 2 ) {
 
     tag_shut( 'p' );
 
+    // 2024-07-05 jj5 - TEMP: need to resolve the error and remove this...
+    tag_open( 'p' );
+
+      out_text( 'NOTE: there seems to be an issue with this feature not working properly. I will get this fixed as soon as I can.' );
+
+    tag_shut( 'p' );
+
     tag_open( 'table' );
 
       tag_open( 'thead' );
