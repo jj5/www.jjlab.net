@@ -32,7 +32,7 @@ function render_404() {
 
   $title = '404 - Page Not Found';
 
-  render_head( $title );
+  render_head( $title, [ 'robots' => 'noindex' ] );
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
@@ -92,7 +92,7 @@ function render_500( $message = null, $form = null, $issue = null, $exit = null,
 
   $title = '500 - Internal Server Error';
 
-  render_head( $title );
+  render_head( $title, [ 'robots' => 'noindex' ] );
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 

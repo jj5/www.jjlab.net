@@ -79,7 +79,7 @@ define( 'TITLE_RSS_FEED', 'Click here for the RSS feed.' );
 define( 'TITLE_VIDEO_INDEX', 'Click here to see the "secret" index of all videos.' );
 define( 'TITLE_BOOK_INDEX', 'Click here to see the "secret" index of all books.' );
 define( 'TITLE_BLOG_TEMPLATE', 'Click here to the template blog post that John uses for the show notes.' );
-define( 'TITLE_DEBUG', 'Click here at your peril.' );
+define( 'TITLE_DEBUG', 'Click here at your peril. :)' );
 
 define( 'TITLE_PERMALINK', 'Click here for the permanent link to this video.' );
 
