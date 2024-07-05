@@ -11,8 +11,8 @@ function render() { render_xslt_headers(); }
 		<title><xsl:value-of select="/rss/channel/title"/> RSS Feed</title>
 
 <script>
-window.MUD_SERVER_VERSION = <?= json_encode( MUD_VERSION ) ?>;
-window.APP_SERVER_VERSION = <?= json_encode( APP_VERSION ) ?>;
+window.MUD_SERVER_VERSION = <?= json_encode( MUDBALL_VERSION ) ?>;
+window.APP_SERVER_VERSION = <?= json_encode( JJLAB_VERSION ) ?>;
 window.IS_JOHN = <?= json_encode( is_john() ) ?>;
 window.URL_BASE = <?= json_encode( url_base() ) ?>;
 window.DEBUG = <?= json_encode( DEBUG ) ?>;

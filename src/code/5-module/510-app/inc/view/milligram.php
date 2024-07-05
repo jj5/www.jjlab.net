@@ -336,8 +336,8 @@ function render_head( $heading, array $options = [] ) {
 
       tag_open( 'script' );
 
-        out_code( "\nconst MUD_SERVER_VERSION = " . json_encode( MUD_VERSION ) . ";\n");
-        out_code( "\nconst APP_SERVER_VERSION = " . json_encode( APP_VERSION ) . ";\n");
+        out_code( "\nconst MUD_SERVER_VERSION = " . json_encode( MUDBALL_VERSION ) . ";\n");
+        out_code( "\nconst APP_SERVER_VERSION = " . json_encode( JJLAB_VERSION ) . ";\n");
         out_code( "\nconst URL_BASE = " . json_encode( url_base() ) . ";\n");
         out_code( "\nconst DEBUG = " . json_encode( DEBUG ) . ";\n");
         out_code( "\nconst IS_JOHN = " . json_encode( is_john() ) . ";\n");
