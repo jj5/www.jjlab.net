@@ -39,23 +39,24 @@ function handle_keydown( ev ) {
 
     window.location = '#';
 
+    return;
+
   }
 
   // 2024-07-05 jj5 - support for link to table of contents...
-  /*
-  if ( ev.key === '\\' ) {
+  if ( ev.key === '.' ) {
 
     window.location = '#contents';
 
-  }
-  */
+    return;
 
+  }
 
   const spec = {
     '?': '/about.php#shortcuts',
     'h': '/#heading',
     'l': '/#latest',
-    '/': '/#costume',
+    '!': '/#costume',
     'i': '/#silly-job-title',
     'm': '/channel.php/@InTheLabWithJayJay#heading',
     '1': '/channel.php/@InTheLabWithJayJay#heading',

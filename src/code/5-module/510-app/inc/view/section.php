@@ -74,7 +74,7 @@ define( 'TITLE_ABOUT_SHORTCUTS', 'Click here for a list of supported hotkeys. [H
 define( 'TITLE_TOP', 'Click here to return to the top of the current page. [Hotkey: 0]' );
 define( 'TITLE_TOC', 'Click here to navigate to the table of contents (if it\'s available). [Hotkey: \\]' );
 define( 'TITLE_SILLY_JOB_TITLE', 'Click here to read about the silly job title. [Hotkey: I]' );
-define( 'TITLE_COSTUME', 'Click here to find out about my costume. [Hotkey: /]' );
+define( 'TITLE_COSTUME', 'Click here to find out about my costume. [Hotkey: !]' );
 define( 'TITLE_SITEMAP_XML', 'Click here for the sitemap.xml file. [Hotkey: X]' );
 define( 'TITLE_RSS_FEED', TITLE_NAV_FEED );
 
