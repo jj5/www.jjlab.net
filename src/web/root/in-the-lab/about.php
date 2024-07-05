@@ -51,6 +51,8 @@ function render_about_main() {
 
     render_section_about_secrets();
 
+    render_section_about_shortcuts();
+
     render_section_summary_thanks();
 
   render_foot();
@@ -407,6 +409,79 @@ function render_section_about_secrets( int $heading_level = 2 ) {
     tag_shut( 'ul' );
 
   tag_shut( 'section' );
+
+}
+
+function render_section_about_shortcuts( int $heading_level = 2 ) {
+
+  tag_open( 'section' );
+
+    tag_text( 'h' . $heading_level, 'Shortcut Keys', [ 'id' => 'shortcuts' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'There are some hotkeys you can use to speed your navigation. Just press the key for the page you want.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'table' );
+
+      tag_open( 'thead' );
+
+        tag_open( 'tr' );
+
+          tag_text( 'th', 'Key' );
+
+          tag_text( 'th', 'Page' );
+
+        tag_shut( 'tr' );
+
+      tag_shut( 'thead' );
+
+      tag_open( 'tbody' );
+
+        render_shortcut( 'H', 'Homepage',           '/',                    TITLE_HOMEPAGE    );
+        render_shortcut( 'C', 'Contact Info',       '/contact.php',         TITLE_CONTACT     );
+        render_shortcut( 'A', 'About the Website',  '/about.php',           TITLE_ABOUT       );
+        render_shortcut( 'S', 'Shortcuts',          '/about.php#shortcuts', TITLE_ABOUT       );
+        render_shortcut( 'V', 'Video Index',        '/videos.php',          TITLE_VIDEO_INDEX );
+        render_shortcut( 'B', 'Book Index',         '/books.php',           TITLE_BOOK_INDEX  );
+        render_shortcut( 'T', 'Blog Template',      '/blog-template.php',   TITLE_BOOK_INDEX  );
+
+      tag_shut( 'tbody' );
+
+    tag_shut( 'table' );
+
+  tag_shut( 'section' );
+
+}
+
+function render_shortcut( string $key, string $page, string $link, string $title ) {
+
+  tag_open( 'tr' );
+
+    tag_open( 'td', [ 'style' => 'text-align:center;' ] );
+
+      out_text( $key );
+
+    tag_shut( 'td' );
+
+    tag_open( 'td' );
+
+      tag_text(
+        'a',
+        $page,
+        [
+          'href' => url_base() . $link,
+          'class' => 'internal',
+          'rel' => 'follow',
+          'title' => $title,
+        ]
+      );
+
+    tag_shut( 'td' );
+
+  tag_shut( 'tr' );
 
 }
 

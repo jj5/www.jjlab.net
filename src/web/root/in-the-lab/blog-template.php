@@ -25,7 +25,7 @@ function render_blog_template_main() {
 
   $count = number_format( count( $equipment_list ) );
 
-  render_head( 'Blog Template' );
+  render_head( 'Blog Template', [ 'robots' => 'noindex' ] );
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 

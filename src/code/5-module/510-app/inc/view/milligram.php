@@ -156,7 +156,7 @@ function render_500( $message = null, $form = null, $issue = null, $exit = null,
 
 
 
-function render_head( $heading ) {
+function render_head( $heading, array $options = [] ) {
 
   static $nav_link = [
     [
@@ -258,7 +258,12 @@ function render_head( $heading ) {
 
       tag_bare( 'meta', [ 'name' => 'viewport',     'content' => 'width=device-width, initial-scale=1.0, minimal-ui' ] );
 
-      if ( isset( $_GET[ 'sort' ] ) || isset( $_GET[ 'currency' ] ) ) {
+      if ( isset( $options[ 'robots' ] ) ) {
+
+        tag_bare( 'meta', [ 'name' => 'robots', 'content' => $options[ 'robots' ] ] );
+
+      }
+      elseif ( isset( $_GET[ 'sort' ] ) || isset( $_GET[ 'currency' ] ) ) {
 
         tag_bare( 'meta', [ 'name' => 'robots', 'content' => 'noindex, nofollow' ] );
 
@@ -538,14 +543,17 @@ function render_foot() {
 
         if ( is_john() ) {
 
-          out_text( "\nwindow.IS_JOHN = true;\n" );
+          out_code( "\nwindow.IS_JOHN = true;\n" );
 
         }
         else {
 
-          out_text( "\nwindow.IS_JOHN = false;\n" );
+          out_code( "\nwindow.IS_JOHN = false;\n" );
 
         }
+
+        out_code( "\nwindow.DEBUG = " . json_encode( DEBUG ) . ";\n");
+        out_code( "\nwindow.URL_BASE = " . json_encode( url_base() ) . ";\n");
 
       tag_shut( 'script' );
 
@@ -553,7 +561,7 @@ function render_foot() {
 
         tag_open( 'script' );
 
-        out_html("
+        out_code("
 
 // 2024-06-29 jj5 - NOTE: this is to fix a problem with the page not scrolling to the right place when opened in
 // Akregator. It's a hack, but it works...

@@ -12,6 +12,33 @@ window.addEventListener( 'load', handle_window_load );
 window.addEventListener( 'resize', handle_window_resize );
 document.addEventListener( 'click', handle_document_click );
 window.addEventListener( 'hashchange', handle_hashchange );
+document.addEventListener( 'keydown', handle_keydown );
+
+function handle_keydown( ev ) {
+
+  // 2024-07-05 jj5 - Thank You, GitHub Copilot! :)
+  //window.location.href = 'https://www.youtube.com/watch?v=ZnHmskwqCCQ';
+
+  const spec = {
+    'h': '/',
+    'c': '/contact.php',
+    'a': '/about.php',
+    's': '/about.php#shortcuts',
+    '?': '/about.php#shortcuts',
+    'v': '/videos.php',
+    'b': '/books.php',
+    't': '/blog-template.php'
+  }
+
+  for ( const key in spec ) {
+
+    if ( ev.key === key || ev.key === key.toLowerCase() ) {
+
+      window.location = ( window.URL_BASE + spec[ key ] );
+
+    }
+  }
+}
 
 function hook_all() {
 

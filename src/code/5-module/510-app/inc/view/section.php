@@ -57,6 +57,7 @@ define( 'TITLE_FEATURE_EARLY_CONTENT', "Click here to watch early content from t
 define( 'TITLE_FEATURE_EXTRA', "Click here to watch extra content which didn't make it to the main channel." );
 
 define( 'TITLE_MAIN', "Click here to visit the show's home page." );
+define( 'TITLE_HOMEPAGE', TITLE_MAIN );
 define( 'TITLE_RSS_INFO', 'Click here for the RSS feed info.' );
 define( 'TITLE_RSS', 'Click here for the RSS feed for these types of videos.' );
 define( 'TITLE_SPONSOR', 'Click here to learn more about my generous sponsors.' );
