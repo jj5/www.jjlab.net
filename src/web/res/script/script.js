@@ -101,6 +101,7 @@ function handle_window_load( ev, el ) {
     const link = document.createElement("a");
     link.setAttribute( 'href', `#${id}` );
     link.setAttribute( 'class', 'heading-link' );
+    link.setAttribute( 'title', 'Click here to link to this section.' );
     link.innerHTML = '#';
 
     //const referenceNode = heading;
