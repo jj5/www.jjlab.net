@@ -447,6 +447,7 @@ function render_section_about_shortcuts( int $heading_level = 2 ) {
         $maxitronix = '/feature.php/maxitronix#heading';
 
         render_shortcut( '?', 'Shortcuts',          '/about.php#shortcuts',       TITLE_ABOUT_SHORTCUTS   );
+        render_shortcut( '0', 'Return to Top',      '#',                          TITLE_TOP               );
         render_shortcut( 'H', 'Homepage',           '/#heading',                  TITLE_HOMEPAGE          );
         render_shortcut( 'L', 'Latest Video',       '/#latest',                   TITLE_LATEST            );
         render_shortcut( 'M', 'Main Channel',       $main_channel,                TITLE_CHANNEL_MAIN      );

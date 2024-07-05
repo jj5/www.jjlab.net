@@ -71,6 +71,7 @@ define( 'TITLE_BLOG', 'Click here to visit my blog!' );
 define( 'TITLE_SUPPORT', 'Click here to find out how you can support the show. [Hotkey: U]' );
 define( 'TITLE_ABOUT', 'Click here for more info about the show and this website. [Hotkey: A]' );
 define( 'TITLE_ABOUT_SHORTCUTS', 'Click here for a list of supported hotkeys. [Hotkey: ?]' );
+define( 'TITLE_TOP', 'Click here to return to the top of the current page. [Hotkey: 0]' );
 define( 'TITLE_SILLY_JOB_TITLE', 'Click here to read about the silly job title.' );
 define( 'TITLE_COSTUME', 'Click here to find out about my costume.' );
 define( 'TITLE_SITEMAP_XML', 'Click here for the sitemap.xml file. [Hotkey: X]' );
