@@ -33,6 +33,7 @@ function handle_keydown( ev ) {
     '/': '/#costume',
     'i': '/#silly-job-title',
     'm': '/channel.php/@InTheLabWithJayJay#heading',
+    '1': '/channel.php/@InTheLabWithJayJay#heading',
     '2': '/channel.php/@ElliotsExtras#heading',
     's': '/sponsor.php#heading',
     'e': '/equipment.php#heading',
