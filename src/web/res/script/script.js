@@ -80,7 +80,7 @@ function handle_keydown( ev ) {
 
     if ( ev.key === key || ev.key === key.toUpperCase() ) {
 
-      window.location = ( window.URL_BASE + spec[ key ] );
+      window.location = ( URL_BASE + spec[ key ] );
 
     }
   }
@@ -459,7 +459,7 @@ function is_john() {
 
   try {
       
-    return ( typeof window.IS_JOHN ) === 'boolean' && window.IS_JOHN === true;
+    return ( typeof IS_JOHN ) === 'boolean' && IS_JOHN === true;
 
   }
   catch ( ex ) {
