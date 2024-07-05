@@ -1,4 +1,3 @@
-
 "use strict";
 
 //alert( 'Just testing...' );
@@ -18,16 +17,18 @@ document.addEventListener( 'keydown', handle_keydown );
 window.addEventListener( 'error', handle_error );
 
 function handle_error( ev ) {
-    console.error("Error message: " + ev.message);
-    console.error("Source: " + ev.filename);
-    console.error("Line number: " + ev.lineno);
-    console.error("Column number: " + ev.colno);
-    console.error("Error object: " + ev.error);
-    // Return true to suppress the default browser error handler
-    return true;
+  console.error("Error message: " + ev.message);
+  console.error("Source: " + ev.filename);
+  console.error("Line number: " + ev.lineno);
+  console.error("Column number: " + ev.colno);
+  console.error("Error object: " + ev.error);
+  // 2024-07-05 jj5 - return true to suppress the default browser error handler...
+  return true;
 }
 
 function handle_keydown( ev ) {
+
+  console.log( ev.key );
 
   // 2024-07-05 jj5 - Thank You, GitHub Copilot! :)
   //window.location.href = 'https://www.youtube.com/watch?v=ZnHmskwqCCQ';
