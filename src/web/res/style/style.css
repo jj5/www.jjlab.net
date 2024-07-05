@@ -1,4 +1,10 @@
 
+.sortable th {
+
+  cursor: pointer;
+
+}
+
 textarea {
 
   margin-top: 50px;
