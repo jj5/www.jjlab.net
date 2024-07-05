@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /in-the-lab/debug.php
+Disallow: /in-the-lab/blog-template.php
 
 Sitemap: https://www.inthelabwithjayjay.com/in-the-lab/sitemap.php
