@@ -433,7 +433,7 @@ function render_section_about_shortcuts( int $heading_level = 2 ) {
     tag_shut( 'p' );
     */
 
-    tag_open( 'table' );
+    tag_open( 'table', [ 'class' => 'sortable' ] );
 
       tag_open( 'thead' );
 
