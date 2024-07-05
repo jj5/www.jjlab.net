@@ -452,7 +452,7 @@ function render_section_about_shortcuts( int $heading_level = 2 ) {
         render_shortcut( 'S', 'Sponsors',           '/sponsor.php#heading',       TITLE_SPONSOR           );
         render_shortcut( 'E', 'Equipment',          '/equipment.php#heading',     TITLE_EQUIPMENT         );
         render_shortcut( 'A', 'About the Website',  '/about.php#heading',         TITLE_ABOUT             );
-        render_shortcut( 'u', 'Support the Show!',  '/support.php#heading',       TITLE_SUPPORT           );
+        render_shortcut( 'U', 'Support the Show!',  '/support.php#heading',       TITLE_SUPPORT           );
         render_shortcut( 'C', 'Contact Info',       '/contact.php#heading',       TITLE_CONTACT           );
         render_shortcut( 'J', 'Mini Projects',      $mini_projects,               TITLE_SHOW_MINI_PROJECT );
         render_shortcut( 'K', 'Maxitronix Kits',    $maxitronix,                  TITLE_SHOW_MAXITRONIX   );
