@@ -201,7 +201,7 @@ function render_head( $heading, array $options = [] ) {
     ],
     [
       'href' => '/support.php',
-      'text' => 'Support The Show!',
+      'text' => 'Support the Show!',
       'title' => TITLE_NAV_SUPPORT,
     ],
     [

@@ -440,13 +440,14 @@ function render_section_about_shortcuts( int $heading_level = 2 ) {
 
       tag_open( 'tbody' );
 
-        render_shortcut( 'H', 'Homepage',           '/',                    TITLE_HOMEPAGE    );
-        render_shortcut( 'C', 'Contact Info',       '/contact.php',         TITLE_CONTACT     );
-        render_shortcut( 'A', 'About the Website',  '/about.php',           TITLE_ABOUT       );
-        render_shortcut( 'S', 'Shortcuts',          '/about.php#shortcuts', TITLE_ABOUT       );
-        render_shortcut( 'V', 'Video Index',        '/videos.php',          TITLE_VIDEO_INDEX );
-        render_shortcut( 'B', 'Book Index',         '/books.php',           TITLE_BOOK_INDEX  );
-        render_shortcut( 'T', 'Blog Template',      '/blog-template.php',   TITLE_BOOK_INDEX  );
+        render_shortcut( '?', 'Shortcuts',          '/about.php#shortcuts',       TITLE_ABOUT_SHORTCUTS );
+        render_shortcut( 'H', 'Homepage',           '/#heading',                  TITLE_HOMEPAGE        );
+        render_shortcut( 'C', 'Contact Info',       '/contact.php#heading',       TITLE_CONTACT         );
+        render_shortcut( 'A', 'About the Website',  '/about.php#heading',         TITLE_ABOUT           );
+        render_shortcut( 'S', 'Support the Show!',  '/support.php#heading',       TITLE_SUPPORT         );
+        render_shortcut( 'V', 'Video Index',        '/videos.php#heading',        TITLE_VIDEO_INDEX     );
+        render_shortcut( 'B', 'Book Index',         '/books.php#heading',         TITLE_BOOK_INDEX      );
+        render_shortcut( 'T', 'Blog Template',      '/blog-template.php#heading', TITLE_BLOG_TEMPLATE  );
 
       tag_shut( 'tbody' );
 

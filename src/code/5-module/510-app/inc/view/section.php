@@ -69,11 +69,13 @@ define( 'TITLE_AFFILIATE', "Click here to read about the show's affiliates." );
 define( 'TITLE_BLOG', 'Click here to visit my blog!' );
 define( 'TITLE_SUPPORT', 'Click here to find out how you can support the show.' );
 define( 'TITLE_ABOUT', 'Click here for more info about the show and this website.' );
+define( 'TITLE_ABOUT_SHORTCUTS', 'Click here for a list of supported hotkeys.' );
 define( 'TITLE_SILLY_JOB_TITLE', 'Click here to read about the silly job title.' );
 define( 'TITLE_COSTUME', 'Click here to find out about my costume.' );
 
 define( 'TITLE_VIDEO_INDEX', 'Click here to see the "secret" index of all videos.' );
 define( 'TITLE_BOOK_INDEX', 'Click here to see the "secret" index of all books.' );
+define( 'TITLE_BLOG_TEMPLATE', 'Click here to the template blog post that John uses for the show notes.' );
 
 define( 'TITLE_PERMALINK', 'Click here for the permanent link to this video.' );
 

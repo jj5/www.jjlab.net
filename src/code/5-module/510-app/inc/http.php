@@ -185,7 +185,7 @@ function render_xslt_nav_header() {
 									<li class="popover-item">
 										<a href="<?= $url_base ?>/about.php" class="internal popover-link" title="<?= TITLE_NAV_ABOUT ?>">About</a></li>
 									<li class="popover-item">
-										<a href="<?= $url_base ?>/support.php" class="internal popover-link" title="<?= TITLE_NAV_SUPPORT ?>">Support The Show!</a></li>
+										<a href="<?= $url_base ?>/support.php" class="internal popover-link" title="<?= TITLE_NAV_SUPPORT ?>">Support the Show!</a></li>
 									<li class="popover-item">
 										<a class="internal popover-link" href="<?= $url_base ?>/feed.php" title="<?= TITLE_NAV_FEED ?>">
 											<img src="<?= $cdn_base ?>/res/img.php/rss/rss-40674_50.png?v=<?= get_resource_version() ?>" style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" alt="" /></a></li></ul></div></li></ul>
@@ -195,7 +195,7 @@ function render_xslt_nav_header() {
 						<a href="<?= $url_base ?>/sponsor.php" class="internal" title="<?= TITLE_NAV_SPONSORS ?>">Sponsors</a> | 
 						<a href="<?= $url_base ?>/equipment.php" class="internal" title="<?= TITLE_NAV_EQUIPMENT ?>">Equipment</a> | 
 						<a href="<?= $url_base ?>/about.php" class="internal" title="<?= TITLE_NAV_ABOUT ?>">About</a> | 
-						<a href="<?= $url_base ?>/support.php" class="internal" title="<?= TITLE_NAV_SUPPORT ?>">Support The Show!</a>
+						<a href="<?= $url_base ?>/support.php" class="internal" title="<?= TITLE_NAV_SUPPORT ?>">Support the Show!</a>
 						<a class="internal" href="<?= $url_base ?>/feed.php" title="<?= TITLE_NAV_FEED ?>">
 							<img src="<?= $cdn_base ?>/res/img.php/rss/rss-40674_50.png?v=<?= get_resource_version() ?>" style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" alt="" /></a></div></div></nav>
 			<header id="banner">

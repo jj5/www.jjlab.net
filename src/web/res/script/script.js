@@ -20,19 +20,19 @@ function handle_keydown( ev ) {
   //window.location.href = 'https://www.youtube.com/watch?v=ZnHmskwqCCQ';
 
   const spec = {
-    'h': '/',
-    'c': '/contact.php',
-    'a': '/about.php',
-    's': '/about.php#shortcuts',
     '?': '/about.php#shortcuts',
-    'v': '/videos.php',
-    'b': '/books.php',
-    't': '/blog-template.php'
+    'h': '/#heading',
+    'c': '/contact.php#heading',
+    'a': '/about.php#heading',
+    's': '/support.php#heading',
+    'v': '/videos.php#heading',
+    'b': '/books.php#heading',
+    't': '/blog-template.php#heading'
   }
 
   for ( const key in spec ) {
 
-    if ( ev.key === key || ev.key === key.toLowerCase() ) {
+    if ( ev.key === key || ev.key === key.toUpperCase() ) {
 
       window.location = ( window.URL_BASE + spec[ key ] );
 

@@ -41,16 +41,34 @@ function render_blog_template_main() {
 
           tag_text(
             'a',
-            "This isn't the webpage you're looking for",
+            "This isn't the webpage you're looking for...",
             [
               'href' => 'https://www.youtube.com/watch?v=ihyjXd2C-E8',
               'class' => 'external',
+              'target' => '_blank',
               'rel' => 'noopener follow',
               'title' => TITLE_LINK_DROIDS,
             ]
           );
 
-          out_text( "..." );
+        tag_shut( 'p' );
+
+        tag_open( 'p' );
+
+          out_text( "Maybe you would like to " );
+
+          tag_text(
+            'a',
+            "support the show",
+            [
+              'href' => url_base() . '/support.php',
+              'class' => 'internal',
+              'rel' => 'follow',
+              'title' => TITLE_SUPPORT,
+            ]
+          );
+
+          out_text( '? :)' );
 
         tag_shut( 'p' );
 

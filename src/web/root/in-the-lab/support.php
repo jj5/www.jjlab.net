@@ -21,7 +21,7 @@ function render() {
 
 function render_support_main() {
 
-  render_head( 'Support The Show!' );
+  render_head( 'Support the Show!' );
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
@@ -29,7 +29,7 @@ function render_support_main() {
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
-        tag_text( 'h1', "Support The Show!" );
+        tag_text( 'h1', "Support the Show!" );
         
         tag_text( 'p', 'Super big shout out to all the people who have supported the show!' );
 
