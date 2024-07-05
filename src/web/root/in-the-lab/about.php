@@ -459,7 +459,7 @@ function render_section_about_shortcuts( int $heading_level = 2 ) {
         render_shortcut( 'V', 'Video Index',        '/videos.php#videos',         TITLE_VIDEO_INDEX       );
         render_shortcut( 'B', 'Book Index',         '/books.php#books',           TITLE_BOOK_INDEX        );
         render_shortcut( 'X', 'sitemap.xml',        '/sitemap.php',               TITLE_SITEMAP_XML       );
-        render_shortcut( 'F', 'RSS Feed',           '/feed.php',                  TITLE_RSS_FEED          );
+        render_shortcut( 'R', 'RSS Feed',           '/feed.php',                  TITLE_RSS_FEED          );
         render_shortcut( 'T', 'Blog Template',      '/blog-template.php#heading', TITLE_BLOG_TEMPLATE     );
         render_shortcut( 'D', 'Debug',              '/debug.php',                 TITLE_DEBUG             );
 

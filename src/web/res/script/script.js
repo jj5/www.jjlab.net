@@ -34,7 +34,7 @@ function handle_keydown( ev ) {
     'v': '/videos.php#videos',
     'b': '/books.php#books',
     'x': '/sitemap.php',
-    'f': '/feed.php',
+    'r': '/feed.php',
     't': '/blog-template.php#heading',
     'd': '/debug.php',
   }
