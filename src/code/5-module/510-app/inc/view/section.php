@@ -26,7 +26,7 @@ define( 'TITLE_CHANNEL_EXTRA', "Click here for extra content on my 2nd YouTube c
 define( 'TITLE_SHOW_MAIN', 'Click here to watch videos recorded for the main show.' );
 define( 'TITLE_SHOW_SPECIAL', 'Click here to watch special shows which air on the main channel.' );
 define( 'TITLE_SHOW_MAXITRONIX', 'Click here to watch the special feature videos where I work through old Maxitronix electronic project labs. [Hotkey: K]' );
-define( 'TITLE_SHOW_MINI_PROJECT', 'Click here to watch the special feature videos where I work through Mini Projects from Silicon Chip and Jaycar. [Hotkey: J]' );
+define( 'TITLE_SHOW_MINI_PROJECT', 'Click here to watch the videos where I work through Mini Projects from Silicon Chip / Jaycar. [Hotkey: J]' );
 define( 'TITLE_SHOW_EXTRA', "Click here to watch extra content which didn't make it to the main channel." );
 
 define( 'TITLE_ABOUT_SHOW_NOTES', 'Click here to read about the show notes.' );
