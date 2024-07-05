@@ -944,7 +944,7 @@ function render_blog_template( $equipment_list ) {
 
       out_text( "\n\nIn this video I ...\n\n" );
 
-      out_text( "Thanks very much for watching, and please remember to click like and subscribe!\n\n" );
+      out_text( "Thanks very much for watching! And please remember to click like and subscribe!\n\n" );
 
       mud_html_set_opt( MUD_HTML_OPT_SPACE, false );
 
