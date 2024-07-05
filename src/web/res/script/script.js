@@ -52,6 +52,14 @@ function handle_keydown( ev ) {
 
   }
 
+  if ( typeof URL_BASE !== 'string' ) {
+
+    console.error( 'URL_BASE is not a string' );
+
+    return;
+
+  }
+
   const spec = {
     '?': '/about.php#shortcuts',
     'h': '/#heading',
