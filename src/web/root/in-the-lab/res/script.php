@@ -10,6 +10,8 @@ function render() {
 
   if ( DEBUG ) { $script_list[] = 'debug.js'; }
 
+  echo "\"use strict\";\n\n";
+
   foreach ( $script_list as $script ) {
 
     readfile( __DIR__ . '/../../../res/script/' . $script );
