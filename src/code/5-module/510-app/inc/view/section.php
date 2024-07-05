@@ -13,7 +13,7 @@ define( 'TITLE_NAV_AFFILIATES', "Click here to Learn more about how affiliate li
 define( 'TITLE_NAV_EQUIPMENT', "Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]" );
 define( 'TITLE_NAV_ABOUT', 'Click here to find out more about the show and this website. [Hotkey: A]' );
 define( 'TITLE_NAV_SUPPORT', "Click here to see how you can support the show. Thanks for thinking of me! [Hotkey: U]" );
-define( 'TITLE_NAV_FEED', "Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: F]" );
+define( 'TITLE_NAV_FEED', "Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" );
 
 define( 'TITLE_YOUTUBE_MAIN', "Click here to visit my main channel known as @InTheLabWithJayJay over on YouTube. Thanks very much for watching! And please remember to click like and subscribe!" );
 define( 'TITLE_YOUTUBE_EXTRA', "Click here to visit my 2nd channel known as @ElliotsExtras over on YouTube." );
