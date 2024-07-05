@@ -25,8 +25,8 @@ function handle_keydown( ev ) {
     'c': '/contact.php#heading',
     'a': '/about.php#heading',
     's': '/support.php#heading',
-    'v': '/videos.php#heading',
-    'b': '/books.php#heading',
+    'v': '/videos.php#videos',
+    'b': '/books.php#books',
     't': '/blog-template.php#heading'
   }
 
