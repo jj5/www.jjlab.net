@@ -142,6 +142,8 @@ function handle_window_load( ev, el ) {
     
     if ( ! id ) { return; }
 
+    const space = document.createTextNode( ' ' );
+
     const link = document.createElement("a");
     link.setAttribute( 'href', `#${id}` );
     link.setAttribute( 'class', 'heading-link' );
@@ -152,6 +154,7 @@ function handle_window_load( ev, el ) {
     //const newNode = link;
     //referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 
+    heading.appendChild( space );
     heading.appendChild( link );
 
   });
