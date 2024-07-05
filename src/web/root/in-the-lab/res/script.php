@@ -12,6 +12,9 @@ function render() {
 
   echo "\"use strict\";\n\n";
 
+  echo "var MUD_VERSION = " . json_encode( MUD_VERSION ) . ";\n";
+  echo "var APP_VERSION = " . json_encode( APP_VERSION ) . ";\n\n";
+
   foreach ( $script_list as $script ) {
 
     readfile( __DIR__ . '/../../../res/script/' . $script );
