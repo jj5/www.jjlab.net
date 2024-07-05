@@ -30,6 +30,7 @@ function handle_keydown( ev ) {
     '?': '/about.php#shortcuts',
     'h': '/#heading',
     'l': '/#latest',
+    'i': '/#silly-job-title',
     'm': '/channel.php/@InTheLabWithJayJay#heading',
     '2': '/channel.php/@ElliotsExtras#heading',
     's': '/sponsor.php#heading',
