@@ -19,6 +19,7 @@ define( 'TITLE_YOUTUBE_MAIN', "Click here to visit my main channel known as In T
 define( 'TITLE_YOUTUBE_EXTRA', "Click here to visit my 2nd channel known as Elliot's Extras over on YouTube." );
 define( 'TITLE_YOUTUBE_VIDEO', "Click here to watch this video on YouTube." );
 
+define( 'TITLE_CHANNEL_INDEX', "Click here for info about my YouTube channels." );
 define( 'TITLE_CHANNEL_MAIN', "Click here for high quality content on my main YouTube channel known as In The Lab With Jay Jay." );
 define( 'TITLE_CHANNEL_EXTRA', "Click here for extra content on my second YouTube channel known as Elliot's Extras." );
 
@@ -754,7 +755,7 @@ function render_section_about_video_content( int $heading_level = 2 ) {
       out_text( '"Hi there! You\'re in the lab with your mate Jay Jay!" and when I close a video I say ' );
       out_text( '"Thanks very much for watching, and please remember to click like and subscribe!" ' );
       out_text( 'I guess this is fairly straight bat and boring, but that\'s okay. ' );
-      out_text( 'Another thing that I like to say is "It never hurts to test!"' );
+      out_text( 'Other things that I like to say include "It never hurts to test!" and "Let\'s make a cable!"' );
 
     tag_shut( 'p' );
 
@@ -886,6 +887,12 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
         out_text( ' (this website)' );
 
         tag_open( 'ul' );
+
+          tag_open( 'li' );
+
+            tag_text( 'a', 'Contact Info', [ 'href' => url_base() . '/contact.php', 'class' => 'internal', 'title' => TITLE_CONTACT ] );
+
+          tag_shut( 'li' );
 
           tag_open( 'li' );
 

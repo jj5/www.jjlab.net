@@ -28,7 +28,79 @@ function render_video_list( $video_list ) {
 
     tag_open( 'section', [ 'class' => 'table' ] );
 
-      tag_text( 'h2', 'Videos' );
+      tag_text( 'h2', 'Videos', [ 'id' => 'videos' ] );
+
+      tag_open( 'p' );
+
+        out_text( "This page is secret. Shhh! It's a list of all the videos I make across both my " );
+
+        tag_text(
+          'a',
+          'channels',
+          [
+            'href' => url_base() . '/channel.php',
+            'class' => 'internal',
+            'rel' => 'follow',
+            'title' => TITLE_CHANNEL_INDEX,
+          ]
+        );
+
+        out_text( ". " );
+        out_text( "It's secret because it's a hack and only looks good on a 4K monitor. It won't work well on a small screen. " );
+        out_text( "There is also a " );
+
+        tag_text(
+          'a',
+          'books index',
+          [
+            'href' => url_base() . '/books.php',
+            'class' => 'internal',
+            'rel' => 'follow',
+            'title' => TITLE_BOOK_INDEX,
+          ]
+        );
+
+        out_text( "." );
+
+      tag_shut( 'p' );
+
+      /*
+      tag_open( 'ul' );
+
+        tag_open( 'li' );
+
+          tag_text(
+            'a',
+            'youtube.com/@InTheLabWithJayJay',
+            [
+              'href' => 'https://www.youtube.com/@InTheLabWithJayJay',
+              'class' => 'external',
+              'target' => '_blank',
+              'rel' => 'noopener follow',
+              'title' => TITLE_YOUTUBE_MAIN,
+            ]
+          );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          tag_text(
+            'a',
+            'youtube.com/@ElliotsExtras',
+            [
+              'href' => 'https://www.youtube.com/@ElliotsExtras',
+              'class' => 'external',
+              'target' => '_blank',
+              'rel' => 'noopener follow',
+              'title' => TITLE_YOUTUBE_EXTRA,
+            ]
+          );
+
+        tag_shut( 'li' );
+      
+      tag_shut( 'ul' );
+      */
 
       tag_open( 'table', [ 'class' => 'sortable' ] );
 
