@@ -111,7 +111,7 @@ function render_video_list( $video_list ) {
             tag_text( 'th', '#' );
             tag_text( 'th', 'Date' );
             tag_text( 'th', 'Channel' );
-            tag_text( 'th', 'Show' );
+            tag_text( 'th', 'Show Type' );
             tag_text( 'th', 'Feature' );
             tag_text( 'th', 'Video' );
             tag_text( 'th', 'Silly Job Title' );
