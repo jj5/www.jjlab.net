@@ -431,7 +431,7 @@ function render_section_about_shortcuts( int $heading_level = 2 ) {
         tag_open( 'tr' );
 
           tag_text( 'th', '#' );
-          tag_text( 'th', 'Key' );
+          tag_text( 'th', 'Hotkey' );
           tag_text( 'th', 'Page' );
           tag_text( 'th', 'Description' );
 
