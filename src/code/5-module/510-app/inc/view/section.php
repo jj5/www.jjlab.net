@@ -4,16 +4,16 @@ define( 'TITLE_LOGO', 'In The Lab With Jay Jay is the video blog of John Elliot 
 
 define( 'TITLE_NAV_HAMBURGER', 'Click here to access the website navigation.' );
 
-define( 'TITLE_NAV_HOME', 'Click here to visit the homepage for this website.' );
-define( 'TITLE_NAV_MAIN', "Click here to access the main channel @InTheLabWithJayJay." );
-define( 'TITLE_NAV_MAXITRONIX', "Click here to access the videos for the Maxitronix electronic project labs." );
-define( 'TITLE_NAV_EXTRA', "Click here to access the 2nd channel @ElliotsExtras." );
-define( 'TITLE_NAV_SPONSORS', "Click here to find out more about our very generous sponsors!" );
+define( 'TITLE_NAV_HOME', 'Click here to visit the homepage for this website. [Hotkey: H]' );
+define( 'TITLE_NAV_MAIN', "Click here to access the main channel @InTheLabWithJayJay. [Hotkey: M]" );
+define( 'TITLE_NAV_MAXITRONIX', "Click here to access the videos for the Maxitronix electronic project labs. [Hotkey: K]" );
+define( 'TITLE_NAV_EXTRA', "Click here to access the 2nd channel @ElliotsExtras. [Hotkey: 2]" );
+define( 'TITLE_NAV_SPONSORS', "Click here to find out more about our very generous sponsors! [Hotkey: S]" );
 define( 'TITLE_NAV_AFFILIATES', "Click here to Learn more about how affiliate links work on this website." );
-define( 'TITLE_NAV_EQUIPMENT', "Click here to see the lab equipment that I own along with affiliate links to buy." );
-define( 'TITLE_NAV_ABOUT', 'Click here to find out more about the show and this website.' );
-define( 'TITLE_NAV_SUPPORT', "Click here to see how you can support the show. Thanks for thinking of me!" );
-define( 'TITLE_NAV_FEED', "Click here to subscribe to the full RSS feed which includes all videos." );
+define( 'TITLE_NAV_EQUIPMENT', "Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]" );
+define( 'TITLE_NAV_ABOUT', 'Click here to find out more about the show and this website. [Hotkey: A]' );
+define( 'TITLE_NAV_SUPPORT', "Click here to see how you can support the show. Thanks for thinking of me! [Hotkey: U]" );
+define( 'TITLE_NAV_FEED', "Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: F]" );
 
 define( 'TITLE_YOUTUBE_MAIN', "Click here to visit my main channel known as @InTheLabWithJayJay over on YouTube. Thanks very much for watching! And please remember to click like and subscribe!" );
 define( 'TITLE_YOUTUBE_EXTRA', "Click here to visit my 2nd channel known as @ElliotsExtras over on YouTube." );
