@@ -37,11 +37,12 @@ function render_blog_template_main() {
 
         tag_open( 'p' );
 
-          out_text( "This is a template blog post. " );
+          out_text( "This is a template blog post that John uses as the basis of the show notes. " );
+          out_text( "That's cool that you're poking around, but " );
 
           tag_text(
             'a',
-            "This isn't the webpage you're looking for...",
+            "this isn't the webpage you're looking for...",
             [
               'href' => 'https://www.youtube.com/watch?v=ihyjXd2C-E8',
               'class' => 'external',

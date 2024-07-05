@@ -431,8 +431,8 @@ function render_section_about_shortcuts( int $heading_level = 2 ) {
         tag_open( 'tr' );
 
           tag_text( 'th', 'Key' );
-
           tag_text( 'th', 'Page' );
+          tag_text( 'th', 'Description' );
 
         tag_shut( 'tr' );
 
@@ -440,14 +440,28 @@ function render_section_about_shortcuts( int $heading_level = 2 ) {
 
       tag_open( 'tbody' );
 
-        render_shortcut( '?', 'Shortcuts',          '/about.php#shortcuts',       TITLE_ABOUT_SHORTCUTS );
-        render_shortcut( 'H', 'Homepage',           '/#heading',                  TITLE_HOMEPAGE        );
-        render_shortcut( 'C', 'Contact Info',       '/contact.php#heading',       TITLE_CONTACT         );
-        render_shortcut( 'A', 'About the Website',  '/about.php#heading',         TITLE_ABOUT           );
-        render_shortcut( 'S', 'Support the Show!',  '/support.php#heading',       TITLE_SUPPORT         );
-        render_shortcut( 'V', 'Video Index',        '/videos.php#videos',         TITLE_VIDEO_INDEX     );
-        render_shortcut( 'B', 'Book Index',         '/books.php#books',           TITLE_BOOK_INDEX      );
-        render_shortcut( 'T', 'Blog Template',      '/blog-template.php#heading', TITLE_BLOG_TEMPLATE   );
+        $main_channel = '/channel.php/@InTheLabWithJayJay#heading';
+        $extra_channel = '/channel.php/@ElliotsExtras#heading';
+        $mini_projects = '/feature.php/mini-project#heading';
+        $maxitronix = '/feature.php/maxitronix#heading';
+
+        render_shortcut( '?', 'Shortcuts',          '/about.php#shortcuts',       TITLE_ABOUT_SHORTCUTS   );
+        render_shortcut( 'H', 'Homepage',           '/#heading',                  TITLE_HOMEPAGE          );
+        render_shortcut( 'M', 'Main Channel',       $main_channel,                TITLE_CHANNEL_MAIN      );
+        render_shortcut( '2', '2nd Channel',        $extra_channel,               TITLE_CHANNEL_EXTRA     );
+        render_shortcut( 'S', 'Sponsors',           '/sponsor.php#heading',       TITLE_SPONSOR           );
+        render_shortcut( 'E', 'Equipment',          '/equipment.php#heading',     TITLE_EQUIPMENT         );
+        render_shortcut( 'A', 'About the Website',  '/about.php#heading',         TITLE_ABOUT             );
+        render_shortcut( 'u', 'Support the Show!',  '/support.php#heading',       TITLE_SUPPORT           );
+        render_shortcut( 'C', 'Contact Info',       '/contact.php#heading',       TITLE_CONTACT           );
+        render_shortcut( 'J', 'Mini Projects',      $mini_projects,               TITLE_SHOW_MINI_PROJECT );
+        render_shortcut( 'K', 'Maxitronix Kits',    $maxitronix,                  TITLE_SHOW_MAXITRONIX   );
+        render_shortcut( 'V', 'Video Index',        '/videos.php#videos',         TITLE_VIDEO_INDEX       );
+        render_shortcut( 'B', 'Book Index',         '/books.php#books',           TITLE_BOOK_INDEX        );
+        render_shortcut( 'X', 'sitemap.xml',        '/sitemap.php',               TITLE_SITEMAP_XML       );
+        render_shortcut( 'F', 'RSS Feed',           '/feed.php',                  TITLE_RSS_FEED          );
+        render_shortcut( 'T', 'Blog Template',      '/blog-template.php#heading', TITLE_BLOG_TEMPLATE     );
+        render_shortcut( 'D', 'Debug',              '/debug.php',                 TITLE_DEBUG             );
 
       tag_shut( 'tbody' );
 
@@ -479,6 +493,12 @@ function render_shortcut( string $key, string $page, string $link, string $title
           'title' => $title,
         ]
       );
+
+    tag_shut( 'td' );
+
+    tag_open( 'td' );
+
+      out_text( $title );
 
     tag_shut( 'td' );
 

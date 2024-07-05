@@ -60,7 +60,11 @@ function render() { render_xslt_headers(); }
 		<footer>
 			<div>© Copyright 2024 John Elliot V. All rights reserved.</div></footer>
 		<script type="text/javascript">window.g_mud_html_options = {"autoxsrf":true,"max-length":32};</script>
-
+<script>
+window.IS_JOHN = <?= json_encode( is_john() ) ?>;
+window.URL_BASE = <?= json_encode( url_base() ) ?>;
+window.DEBUG = <?= json_encode( DEBUG ) ?>;
+</script>
   </body>
 </html>
 

@@ -15,13 +15,13 @@ define( 'TITLE_NAV_ABOUT', 'Click here to find out more about the show and this 
 define( 'TITLE_NAV_SUPPORT', "Click here to see how you can support the show. Thanks for thinking of me!" );
 define( 'TITLE_NAV_FEED', "Click here to subscribe to the full RSS feed which includes all videos." );
 
-define( 'TITLE_YOUTUBE_MAIN', "Click here to visit my main channel known as In The Lab With Jay Jay over on YouTube. Don't forget to like and subscribe!" );
-define( 'TITLE_YOUTUBE_EXTRA', "Click here to visit my 2nd channel known as Elliot's Extras over on YouTube." );
+define( 'TITLE_YOUTUBE_MAIN', "Click here to visit my main channel known as @InTheLabWithJayJay over on YouTube. Thanks very much for watching! And please remember to click like and subscribe!" );
+define( 'TITLE_YOUTUBE_EXTRA', "Click here to visit my 2nd channel known as @ElliotsExtras over on YouTube." );
 define( 'TITLE_YOUTUBE_VIDEO', "Click here to watch this video on YouTube." );
 
 define( 'TITLE_CHANNEL_INDEX', "Click here for info about my YouTube channels." );
-define( 'TITLE_CHANNEL_MAIN', "Click here for high quality content on my main YouTube channel known as In The Lab With Jay Jay." );
-define( 'TITLE_CHANNEL_EXTRA', "Click here for extra content on my second YouTube channel known as Elliot's Extras." );
+define( 'TITLE_CHANNEL_MAIN', "Click here for high quality content on my main YouTube channel @InTheLabWithJayJay." );
+define( 'TITLE_CHANNEL_EXTRA', "Click here for extra content on my 2nd YouTube channel @ElliotsExtras." );
 
 define( 'TITLE_SHOW_MAIN', 'Click here to watch videos recorded for the main show.' );
 define( 'TITLE_SHOW_SPECIAL', 'Click here to watch special shows which air on the main channel.' );
@@ -72,10 +72,14 @@ define( 'TITLE_ABOUT', 'Click here for more info about the show and this website
 define( 'TITLE_ABOUT_SHORTCUTS', 'Click here for a list of supported hotkeys.' );
 define( 'TITLE_SILLY_JOB_TITLE', 'Click here to read about the silly job title.' );
 define( 'TITLE_COSTUME', 'Click here to find out about my costume.' );
+define( 'TITLE_SITEMAP_XML', 'Click here for the sitemap.xml file.' );
+define( 'TITLE_RSS_FEED', 'Click here for the RSS feed.' );
+
 
 define( 'TITLE_VIDEO_INDEX', 'Click here to see the "secret" index of all videos.' );
 define( 'TITLE_BOOK_INDEX', 'Click here to see the "secret" index of all books.' );
 define( 'TITLE_BLOG_TEMPLATE', 'Click here to the template blog post that John uses for the show notes.' );
+define( 'TITLE_DEBUG', 'Click here at your peril.' );
 
 define( 'TITLE_PERMALINK', 'Click here for the permanent link to this video.' );
 

@@ -22,12 +22,21 @@ function handle_keydown( ev ) {
   const spec = {
     '?': '/about.php#shortcuts',
     'h': '/#heading',
-    'c': '/contact.php#heading',
+    'm': '/channel.php/@InTheLabWithJayJay#heading',
+    '2': '/channel.php/@ElliotsExtras#heading',
+    's': '/sponsor.php#heading',
+    'e': '/equipment.php#heading',
     'a': '/about.php#heading',
-    's': '/support.php#heading',
+    'u': '/support.php#heading',
+    'c': '/contact.php#heading',
+    'j': '/feature.php/mini-project#heading',
+    'k': '/feature.php/maxitronix#heading',
     'v': '/videos.php#videos',
     'b': '/books.php#books',
-    't': '/blog-template.php#heading'
+    'x': '/sitemap.php',
+    'f': '/feed.php',
+    't': '/blog-template.php#heading',
+    'd': '/debug.php',
   }
 
   for ( const key in spec ) {
