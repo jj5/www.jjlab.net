@@ -15,6 +15,17 @@ window.addEventListener( 'resize', handle_window_resize );
 document.addEventListener( 'click', handle_document_click );
 window.addEventListener( 'hashchange', handle_hashchange );
 document.addEventListener( 'keydown', handle_keydown );
+window.addEventListener( 'error', handle_error );
+
+function handle_error( ev ) {
+    console.error("Error message: " + ev.message);
+    console.error("Source: " + ev.filename);
+    console.error("Line number: " + ev.lineno);
+    console.error("Column number: " + ev.colno);
+    console.error("Error object: " + ev.error);
+    // Return true to suppress the default browser error handler
+    return true;
+}
 
 function handle_keydown( ev ) {
 
