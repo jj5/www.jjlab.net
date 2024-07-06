@@ -41,7 +41,11 @@ abstract class Video extends Item {
 
     if ( $weeks_old < 12 ) { return ChangeFreq::Weekly; }
 
-    return ChangeFreq::Monthly;
+    // 2024-07-06 jj5 - NEW: I think we should update everything at least weekly, just for when the software changes and
+    // thus the content changes too...
+    return ChangeFreq::Weekly;
+    // 2024-07-06 jj5 - OLD:
+    //return ChangeFreq::Monthly;
 
   }
 
