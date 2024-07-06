@@ -2,7 +2,7 @@
 
 main() {
 
-  jjlab_run_dev jjlab_sync;
+  jjlab_run_dev jjlab_push;
 
 }
 

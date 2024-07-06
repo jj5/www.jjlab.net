@@ -14,7 +14,7 @@ jjlab_version() {
 
 }
 
-jjlab_sync() {
+jjlab_push() {
 
   jjlab_validate_dev_environment;
 
