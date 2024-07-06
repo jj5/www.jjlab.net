@@ -458,7 +458,7 @@ function render_section_about_shortcuts( int $heading_level = 2 ) {
         render_shortcut( '?', 'Shortcuts',          '/about.php#shortcuts',       TITLE_ABOUT_SHORTCUTS   );
         render_shortcut( '0', 'Return to Top',      '#',                          TITLE_TOP               );
         render_shortcut( '.', 'Table of Contents',  '#contents',                  TITLE_TOC               );
-        render_shortcut( 'H', 'Homepage',           '/#heading',                  TITLE_HOMEPAGE          );
+        render_shortcut( 'H', 'Homepage',           '/',                          TITLE_HOMEPAGE          );
         render_shortcut( 'L', 'Latest Video',       '/#latest',                   TITLE_LATEST            );
         render_shortcut( '!', 'Lab Costume',        '/#costume',                  TITLE_COSTUME           );
         render_shortcut( 'I', 'Silly Job Title',    '/#silly-job-title',          TITLE_SILLY_JOB_TITLE   );

@@ -62,7 +62,7 @@ function handle_keydown( ev ) {
 
   const spec = {
     '?': '/about.php#shortcuts',
-    'h': '/#heading',
+    'h': '/',
     'l': '/#latest',
     '!': '/#costume',
     'i': '/#silly-job-title',
