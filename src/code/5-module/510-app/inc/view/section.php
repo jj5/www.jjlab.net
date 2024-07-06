@@ -23,6 +23,8 @@ define( 'TITLE_CHANNEL_INDEX', "Click here for info about my YouTube channels." 
 define( 'TITLE_CHANNEL_MAIN', "Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]" );
 define( 'TITLE_CHANNEL_EXTRA', "Click here for extra content on my 2nd YouTube channel @ElliotsExtras. [Hotkey: 2]" );
 
+define( 'TITLE_SECRET', 'Click here to learn more about the secret pages I use for testing.' );
+
 define( 'TITLE_SHOW_MAIN', 'Click here to watch videos recorded for the main show.' );
 define( 'TITLE_SHOW_SPECIAL', 'Click here to watch special shows which air on the main channel.' );
 define( 'TITLE_SHOW_MAXITRONIX', 'Click here to watch the videos where I work through old Maxitronix electronic project labs. [Hotkey: K]' );
@@ -947,7 +949,7 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
 
           tag_open( 'li' );
 
-            tag_text( 'span', 'Secret Tables', [ 'title' => 'These are "secret" tables that I use for testing.' ] );
+            tag_text( 'a', 'Secret Tables', [ 'href' => url_base() . '/secret.php', 'class' => 'internal', 'title' => TITLE_SECRET ] );
 
             tag_open( 'ul' );
 

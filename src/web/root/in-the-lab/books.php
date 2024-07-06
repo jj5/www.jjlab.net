@@ -31,7 +31,21 @@ function render_books( $books ) {
 
       tag_open( 'p' );
 
-        out_text( "This page is secret. Shhh! It's a list of all the books I've covered. " );
+        out_text( "This page is " );
+
+        tag_text(
+          'a',
+          'secret',
+          [
+            'href' => url_base() . '/secret.php',
+            'class' => 'internal',
+            'rel' => 'follow',
+            'title' => TITLE_SECRET,
+          ]
+        );
+
+        out_text( ". Shhh! It's a list of all the books I've covered. " );
+
         out_text( "It's secret because it's a hack and only looks good on a 4K monitor. It won't work well on a small screen. " );
         out_text( "There is also a " );
 

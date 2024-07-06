@@ -32,7 +32,20 @@ function render_video_list( $video_list ) {
 
       tag_open( 'p' );
 
-        out_text( "This page is secret. Shhh! It's a list of all the videos I make across both my " );
+        out_text( "This page is " );
+
+        tag_text(
+          'a',
+          'secret',
+          [
+            'href' => url_base() . '/secret.php',
+            'class' => 'internal',
+            'rel' => 'follow',
+            'title' => TITLE_SECRET,
+          ]
+        );
+
+        out_text( ". Shhh! It's a list of all the videos I make across both my " );
 
         tag_text(
           'a',
