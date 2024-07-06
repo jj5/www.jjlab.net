@@ -1,6 +1,10 @@
 #!/bin/bash
 
-LX_LOCK_FILE='/var/lock/jjlab-dev.lock';
+if [ -z "${LX_LOCK_FILE:-}" ]; then
+
+  LX_LOCK_FILE='/var/lock/jjlab-dev.lock';
+
+fi
 
 jjlab_version() {
 
