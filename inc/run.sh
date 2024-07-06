@@ -10,11 +10,11 @@ jjlab_load_libexec_and_run() {
   #
   local default_libexec="$( realpath "$( dirname "${BASH_SOURCE[0]}" )/../ext/libexec" )";
 
-  if [
+  if [[
     "$USER" == 'jj5' &&
     "$HOSTNAME" == 'charisma' && 
     -d /home/jj5/repo/git/github/jj5/kickass-libexec
-  ]; then
+  ]]; then
 
     echo source /home/jj5/repo/git/github/jj5/kickass-libexec/inc/run.sh
 
