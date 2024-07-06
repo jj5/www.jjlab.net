@@ -48,6 +48,37 @@ class IntervalValue extends Value {
 
   }
 
+  public function get_seconds() {
+
+    // Create a DateTime object representing the start time (epoch)
+    $start = new DateTime('@0'); // The epoch time (Unix timestamp 0)
+
+    // Create a DateTime object representing the end time by adding the interval to the start time
+    $end = clone $start;
+
+    $end->add( $this->get_value() );
+
+    // Calculate the difference in seconds
+    $seconds = $end->getTimestamp() - $start->getTimestamp();
+
+    return $seconds;
+
+  }
+
+  public function get_minutes() {
+
+    return $this->get_seconds() / 60.0;
+
+  }
+
+  public function get_hours() {
+
+    return $this->get_minutes() / 60.0;
+
+  }
+
+  public function get_sort_value() { return $this->get_seconds(); }
+
   protected static function format_xx( int $value ) {
 
     if ( $value < 10 ) { return "0$value"; }

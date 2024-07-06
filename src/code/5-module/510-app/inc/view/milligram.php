@@ -2081,3 +2081,21 @@ function render_equipment_options() {
   tag_shut( 'div' );
 
 }
+
+function get_data_sort_value_for_changefreq( $changefreq ) {
+
+  $enum = is_string( $changefreq ) ? ChangeFreq::from( $changefreq ) : $changefreq;
+
+  switch ( $enum ) {
+
+    case ChangeFreq::Always:  return 8;
+    case ChangeFreq::Hourly:  return 7;
+    case ChangeFreq::Daily:   return 6;
+    case ChangeFreq::Weekly:  return 5;
+    case ChangeFreq::Monthly: return 4;
+    case ChangeFreq::Yearly:  return 3;
+    case ChangeFreq::Never:   return 2;
+    default :                 return 1;
+
+  }
+}

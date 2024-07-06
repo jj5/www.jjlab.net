@@ -366,14 +366,14 @@ function render_channel_shows( $channel ) {
           ]
         );
 
-        if ( $show_type->video_count() === 1 ) {
+        if ( $show_type->get_video_count() === 1 ) {
 
-          out_text( ' (' . $show_type->video_count() . ' video)' );
+          out_text( ' (' . $show_type->get_video_count() . ' video)' );
 
         }
         else {
 
-          out_text( ' (' . $show_type->video_count() . ' videos)' );
+          out_text( ' (' . $show_type->get_video_count() . ' videos)' );
 
         }
 
@@ -383,7 +383,7 @@ function render_channel_shows( $channel ) {
 
           foreach ( $feature_list as $feature ) {
 
-            if ( $feature->video_count() === 0 ) { continue; }
+            if ( $feature->get_video_count() === 0 ) { continue; }
 
             tag_open( 'li' );
 
@@ -397,14 +397,14 @@ function render_channel_shows( $channel ) {
                 ]
               );
 
-              if ( $feature->video_count() === 1 ) {
+              if ( $feature->get_video_count() === 1 ) {
 
-                out_text( ' (' . $feature->video_count() . ' video)' );
+                out_text( ' (' . $feature->get_video_count() . ' video)' );
 
               }
               else {
 
-                out_text( ' (' . $feature->video_count() . ' videos)' );
+                out_text( ' (' . $feature->get_video_count() . ' videos)' );
 
               }
 

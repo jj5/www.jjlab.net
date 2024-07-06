@@ -305,6 +305,14 @@ function format_duration( ms, inc_zero, inc_unit ) {
 
     case 'number' :
 
+      // 2024-07-06 jj5 - NEW: support for 'data-sort-value' attribute...
+      //
+      if ( td.hasAttribute( 'data-sort-value' ) ) {
+
+        return parseFloat( td.getAttribute( 'data-sort-value' ) );
+
+      }
+
       var parts = text.split( /\s/ );
 
       var value = parts[ 0 ].replace( /[\$,]+/g, '' );
@@ -315,6 +323,14 @@ function format_duration( ms, inc_zero, inc_unit ) {
     case 'datetime' :
 
       //console.log( 'text.length', text.length );
+
+      // 2024-07-06 jj5 - NEW: support for 'data-sort-value' attribute...
+      //
+      if ( td.hasAttribute( 'data-sort-value' ) ) {
+
+        return td.getAttribute( 'data-sort-value' );
+
+      }
 
       if ( text ) {
 
@@ -331,6 +347,14 @@ function format_duration( ms, inc_zero, inc_unit ) {
 
     case 'version' :
 
+      // 2024-07-06 jj5 - NEW: support for 'data-sort-value' attribute...
+      //
+      if ( td.hasAttribute( 'data-sort-value' ) ) {
+
+        return parseFloat( td.getAttribute( 'data-sort-value' ) );
+
+      }
+
       var result = text.substring( 1 ).split( /[\.\-]+/ );
 
       for ( var i in result ) {
@@ -341,7 +365,17 @@ function format_duration( ms, inc_zero, inc_unit ) {
 
       return result;
 
-    default : return text;
+    default :
+    
+      // 2024-07-06 jj5 - NEW: support for 'data-sort-value' attribute...
+      //
+      if ( td.hasAttribute( 'data-sort-value' ) ) {
+
+        return parseFloat( td.getAttribute( 'data-sort-value' ) );
+
+      }
+
+      return text;
 
     }
   }

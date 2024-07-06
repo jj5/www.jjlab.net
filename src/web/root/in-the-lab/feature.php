@@ -84,7 +84,7 @@ function render_feature_index() {
 
         foreach ( $list as $feature ) {
 
-          $video_count = $feature->video_count();
+          $video_count = $feature->get_video_count();
 
           if ( $video_count === 0 ) { continue; }
 

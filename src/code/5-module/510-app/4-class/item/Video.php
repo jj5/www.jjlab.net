@@ -2,6 +2,58 @@
 
 abstract class Video extends Item {
 
+  public function get_priority() {
+
+    // 2024-07-06 jj5 - all videos are high priority content, it's only the change frequency that varies...
+    //
+    return '0.9';
+
+    /*
+    switch ( $this->get_changefreq() ) {
+
+      case ChangeFreq::Always: return '1.0';
+      case ChangeFreq::Hourly: return '0.9';
+      case ChangeFreq::Daily: return '0.5';
+      case ChangeFreq::Weekly: return '0.4';
+      case ChangeFreq::Monthly: return '0.3';
+      case ChangeFreq::Yearly: return '0.2';
+      case ChangeFreq::Never: return '0.1';
+      default : mud_not_supported();
+
+    }
+    */
+  }
+
+  public function get_changefreq() {
+    
+    $weeks_old = $this->get_weeks_old();
+
+    if ( $weeks_old < 1 ) { return ChangeFreq::Hourly; }
+
+    if ( $weeks_old < 4 ) { return ChangeFreq::Daily; }
+
+    if ( $weeks_old < 12 ) { return ChangeFreq::Weekly; }
+
+    return ChangeFreq::Monthly;
+
+  }
+
+  public function get_weeks_old() : float {
+
+    static $now = null;
+
+    if ( $now === null ) { $now = new DateTime(); }
+
+    $publication_date = $this->get_publication_date()->get_value();
+
+    $interval = $now->diff( $publication_date );
+
+    // 2024-07-06 jj5 - return with decimal places...
+    //
+    return $interval->days / 7.0;
+
+  }
+
   public function is_live() {
 
     return $this->get_segment()->is_live();

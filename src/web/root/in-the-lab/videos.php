@@ -115,6 +115,8 @@ function render_video_list( $video_list ) {
             tag_text( 'th', 'Feature' );
             tag_text( 'th', 'Video' );
             tag_text( 'th', 'Duration' );
+            tag_text( 'th', 'Changes' );
+            tag_text( 'th', 'Priority' );
             tag_text( 'th', 'Silly Job Title' );
             tag_text( 'th', 'YouTube Video Title' );
             tag_text( 'th', 'YouTube Video Link' );
@@ -162,9 +164,36 @@ function render_video_list( $video_list ) {
 
               tag_shut( 'td' );
 
-              tag_open( 'td', [ 'class' => 'right' ] );
+              $sort_value = $video->get_duration()->get_sort_value();
+
+              tag_open(
+                'td',
+                [
+                  'class' => 'right',
+                  'data-sort-value' => $sort_value,
+                ]
+              );
 
                 out_text( $video->get_duration() );
+
+              tag_shut( 'td' );
+
+              $sort_value = get_data_sort_value_for_changefreq( $video->get_changefreq() );
+
+              tag_open(
+                'td',
+                [
+                  'data-sort-value' => $sort_value,
+                ]
+              );
+
+                out_text( $video->get_changefreq()->value );
+
+              tag_shut( 'td' );
+
+              tag_open( 'td', [ 'class' => 'right' ] );
+
+                out_text( $video->get_priority() );
 
               tag_shut( 'td' );
 

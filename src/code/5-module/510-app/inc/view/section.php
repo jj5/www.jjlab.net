@@ -792,7 +792,7 @@ function render_section_about_structure( int $heading_level = 2 ) {
 
       foreach ( $channel_list as $channel ) {
 
-        if ( $channel->video_count() === 0 ) { continue; }
+        if ( $channel->get_video_count() === 0 ) { continue; }
 
         tag_open( 'li' );
 
@@ -800,7 +800,7 @@ function render_section_about_structure( int $heading_level = 2 ) {
 
           //$channel->render_rss_link();
 
-          render_video_count( $channel->video_count() );
+          render_video_stats( $channel->get_video_count(), $channel->get_total_hours() );
 
           tag_open( 'ul' );
 
@@ -808,7 +808,7 @@ function render_section_about_structure( int $heading_level = 2 ) {
 
             foreach ( $show_type_list as $show_type ) {
 
-              if ( $show_type->video_count() === 0 ) { continue; }
+              if ( $show_type->get_video_count() === 0 ) { continue; }
 
               tag_open( 'li' );
 
@@ -816,7 +816,7 @@ function render_section_about_structure( int $heading_level = 2 ) {
 
                 //$show_type->render_rss_link();
 
-                render_video_count( $show_type->video_count() );
+                render_video_stats( $show_type->get_video_count(), $show_type->get_total_hours() );
 
                 tag_open( 'ul' );
 
@@ -824,7 +824,7 @@ function render_section_about_structure( int $heading_level = 2 ) {
 
                   foreach ( $feature_list as $feature ) {
 
-                    if ( $feature->video_count() === 0 ) { continue; }
+                    if ( $feature->get_video_count() === 0 ) { continue; }
 
                     tag_open( 'li' );
 
@@ -832,7 +832,7 @@ function render_section_about_structure( int $heading_level = 2 ) {
 
                       //$feature->render_rss_link();
 
-                      render_video_count( $feature->video_count() );
+                      render_video_stats( $feature->get_video_count(), $feature->get_total_hours() );
 
                     tag_shut( 'li' );
 
@@ -1022,7 +1022,7 @@ function render_section_about_rss_feeds( int $heading_level = 2 ) {
 
           foreach ( $channel_list as $channel ) {
 
-            if ( $channel->video_count() === 0 ) { continue; }
+            if ( $channel->get_video_count() === 0 ) { continue; }
 
             tag_open( 'li' );
 
@@ -1052,7 +1052,7 @@ function render_section_about_rss_feeds( int $heading_level = 2 ) {
 
                 foreach ( $show_type_list as $show_type ) {
 
-                  if ( $show_type->video_count() === 0 ) { continue; }
+                  if ( $show_type->get_video_count() === 0 ) { continue; }
 
                   tag_open( 'li' );
 
@@ -1066,7 +1066,7 @@ function render_section_about_rss_feeds( int $heading_level = 2 ) {
 
                       foreach ( $feature_list as $feature ) {
 
-                        if ( $feature->video_count() === 0 ) { continue; }
+                        if ( $feature->get_video_count() === 0 ) { continue; }
 
                         tag_open( 'li' );
 
@@ -1100,19 +1100,35 @@ function render_section_about_rss_feeds( int $heading_level = 2 ) {
 
 }
 
-function render_video_count( $count ) {
+function render_video_stats( $count, $hours ) {
 
-  if ( $count === 1 ) {
+  if ( $count == 1 ) {
 
-    out_text( ' (1 video)' );
+    out_text( ' (1 video' );
 
   }
   else {
 
-    out_text( " ($count videos)" );
+    out_text( " ($count videos" );
 
   }
 
+  out_text( ', ' );
+
+  $hours = round( $hours );
+
+  $hours_formatted = number_format( $hours );
+
+  if ( $hours == 1 ) {
+
+    out_text( '1 hour)' );
+
+  }
+  else {
+
+    out_text( "$hours_formatted hours)" );
+
+  }
 }
 
 

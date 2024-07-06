@@ -72,7 +72,7 @@ class ShowType extends Item {
 
   private $video_count = null;
 
-  public function video_count() {
+  public function get_video_count() {
 
     if ( $this->video_count === null ) {
 
@@ -100,6 +100,38 @@ class ShowType extends Item {
     return $result;
 
   }
+
+  private $total_hours = null;
+
+  public function get_total_hours() {
+
+    if ( $this->total_hours === null ) {
+
+      $this->total_hours = $this->calculate_total_hours();
+
+    }
+
+    return $this->total_hours;
+
+  }
+
+  public function calculate_total_hours() {
+
+    $seconds = 0;
+
+    foreach ( get_list( Video::class ) as $video ) {
+
+      if ( $video->get_show_type() === $this ) {
+
+        $seconds += $video->get_duration()->get_seconds();
+
+      }
+    }
+
+    return $seconds / 3600.0;
+
+  }
+
 
   public function get_thing_list() {
 

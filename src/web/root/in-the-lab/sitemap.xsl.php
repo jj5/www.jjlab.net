@@ -2,7 +2,12 @@
 require_once __DIR__ . '/../../../../inc/framework.php';
 function render() { render_xslt_headers(); }
 ?>
-<xsl:stylesheet version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:s="http://www.sitemaps.org/schemas/sitemap/0.9">
+<xsl:stylesheet
+  version="3.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:s="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:jjlab="https://www.jjlab.net/schema/sitemap/0.1"
+>
     <xsl:output method="html" encoding="UTF-8" indent="yes"/>
     <xsl:template match="/">
 <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
@@ -36,7 +41,7 @@ var DEBUG = <?= json_encode( DEBUG ) ?>;
       </header>
       <section class="container">
         <h1>Sitemap</h1>
-        <table class="table">
+        <table class="table sortable">
           <thead>
             <tr>
               <th>#</th>
@@ -51,7 +56,9 @@ var DEBUG = <?= json_encode( DEBUG ) ?>;
               <tr>
                 <td><xsl:number value="position()"/></td>
                 <td><xsl:value-of select="s:lastmod"/></td>
-                <td><xsl:value-of select="s:changefreq"/></td>
+                <td data-sort-value="{jjlab:changefreq_sort_value}">
+                  <xsl:value-of select="s:changefreq"/>
+                </td>
                 <td><xsl:value-of select="s:priority"/></td>
                 <td><a href="{s:loc}"><xsl:value-of select="s:loc"/></a></td>
               </tr>

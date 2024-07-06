@@ -222,7 +222,7 @@ function render_feature_list() {
 
       foreach ( $list as $feature ) {
 
-        if ( $feature->video_count() === 0 ) { continue; }
+        if ( $feature->get_video_count() === 0 ) { continue; }
 
         tag_open( 'li' );
 
