@@ -8,7 +8,7 @@ jjlab_run_admin() {
 
   lx_script_dir;
 
-  cd "../../";
+  cd "../../../";
 
   lx_run "$task";
 
