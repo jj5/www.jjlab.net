@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail;
+
 jjlab_load_libexec_and_run() {
 
   #echo "${BASH_SOURCE[@]}";
