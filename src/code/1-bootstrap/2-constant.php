@@ -5,6 +5,19 @@ require_once __DIR__ . '/1-library.php';
 require_once __DIR__ . '/../../../inc/version.php';
 
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 2024-07-06 jj5 - name and code...
+//
+
+// 2024-07-06 jj5 - changing the code is not supported, please don't change it...
+//
+define( 'JJLAB_CODE', 'jjlab' );
+
+// 2024-07-06 jj5 - you can change the name if you want...
+//
+define( 'JJLAB_NAME', 'www.jjlab.net' );
+
+
 /////////////////////////////////////////////////////////////////////////////////////////////////
 // 2023-11-05 jj5 - path info...
 //

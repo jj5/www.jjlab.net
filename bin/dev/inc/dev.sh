@@ -2,6 +2,14 @@
 
 LX_LOCK_FILE='/var/lock/jjlab-dev.lock';
 
+jjlab_version() {
+
+  jjlab_validate_dev_environment;
+
+  php bin/dev/libexec/version.php;
+
+}
+
 jjlab_sync() {
 
   jjlab_validate_dev_environment;
@@ -26,7 +34,17 @@ jjlab_commit() {
 
   jjlab_validate_dev_environment;
 
+  lx_run jjlab_version_patch_increment;
+
   lx_run "$LX_DIR_BIN/lx-gui.sh";
+
+}
+
+jjlab_version_patch_increment() {
+
+  jjlab_validate_dev_environment;
+
+  php bin/dev/libexec/version-patch-increment.php;
 
 }
 
