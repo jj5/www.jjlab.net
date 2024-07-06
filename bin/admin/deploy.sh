@@ -4,7 +4,18 @@ LX_LOCK_FILE='/var/lock/jjlab-deploy.lock';
 
 main() {
 
-  lx_ssh grace /srv/libexec/bin/lx-update-web.sh /var/www/bk-web-1-www.jjlab.net;
+  deploy grace /var/www/bk-web-1-www.jjlab.net;
+
+}
+
+deploy() {
+
+  local host="${1}";
+  local path="${2}";
+
+  lx_ssh "$host" /srv/libexec/bin/lx-update-web.sh "$path";
+
+  lx_note "deployed to $host:$path";
 
 }
 
