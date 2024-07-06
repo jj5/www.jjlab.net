@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LX_LOCK_FILE='/var/lock/jjlab.lock';
+LX_LOCK_FILE='/var/lock/jjlab-admin.lock';
 
 jjlab_run_admin() {
 
@@ -14,27 +14,9 @@ jjlab_run_admin() {
 
 }
 
-jjlab_sync() {
-
-  jjlab_validate_environment;
-
-  lx_run jjlab_commit;
-
-  lx_run jjlab_deploy_all;
-
-}
-
-jjlab_commit() {
-
-  jjlab_validate_environment;
-
-  lx_run "$LX_DIR_BIN/lx-gui.sh";
-
-}
-
 jjlab_deploy_all() {
 
-  jjlab_validate_environment;
+  jjlab_validate_admin_environment;
 
   lx_run jjlab_deploy grace /var/www/bk-web-1-www.jjlab.net;
 
@@ -45,7 +27,7 @@ jjlab_deploy() {
   local host="${1}";
   local path="${2}";
 
-  jjlab_validate_environment;
+  jjlab_validate_admin_environment;
 
   lx_ssh "$host" /srv/libexec/bin/lx-update-web.sh "$path";
 
@@ -57,7 +39,7 @@ jjlab_deploy() {
 
 }
 
-jjlab_validate_environment() {
+jjlab_validate_admin_environment() {
 
   [ -d bin/admin ] || lx_fail $LX_EXIT_FILE_MISSING "please run from base directory.";
 
