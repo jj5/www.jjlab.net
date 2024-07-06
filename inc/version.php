@@ -2,11 +2,11 @@
 // these version numbers are managed by bin/dev/version.sh...
 define( 'JJLAB_VERSION_MAJOR', 0 );
 define( 'JJLAB_VERSION_MINOR', 2 );
-define( 'JJLAB_VERSION_PATCH', 507 );
+define( 'JJLAB_VERSION_PATCH', 509 );
 define(
   'JJLAB_SVN_DATE',
-  '$Date: 2024-07-06 21:14:26 +1000 (Sat, 06 Jul 2024) $'
+  '$Date: 2024-07-06 21:15:04 +1000 (Sat, 06 Jul 2024) $'
 );
-define( 'JJLAB_SVN_REVISION', '$Revision: 192520539 $' );
+define( 'JJLAB_SVN_REVISION', '$Revision: 76121138 $' );
 define( 'JJLAB_SVN_AUTHOR', '$Author: jj5 $' );
-define( 'JJLAB_GIT_DATE', '2024-07-06 21:14:26 +1000 (Sat, 06 Jul 2024)' );
+define( 'JJLAB_GIT_DATE', '2024-07-06 21:15:04 +1000 (Sat, 06 Jul 2024)' );
