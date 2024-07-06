@@ -366,16 +366,7 @@ function render_channel_shows( $channel ) {
           ]
         );
 
-        if ( $show_type->get_video_count() === 1 ) {
-
-          out_text( ' (' . $show_type->get_video_count() . ' video)' );
-
-        }
-        else {
-
-          out_text( ' (' . $show_type->get_video_count() . ' videos)' );
-
-        }
+        render_video_stats( $show_type->get_video_count(), $show_type->get_total_hours() );
 
         tag_open( 'ul' );
 
@@ -397,16 +388,7 @@ function render_channel_shows( $channel ) {
                 ]
               );
 
-              if ( $feature->get_video_count() === 1 ) {
-
-                out_text( ' (' . $feature->get_video_count() . ' video)' );
-
-              }
-              else {
-
-                out_text( ' (' . $feature->get_video_count() . ' videos)' );
-
-              }
+              render_video_stats( $feature->get_video_count(), $feature->get_total_hours() );
 
             tag_shut( 'li' );
 

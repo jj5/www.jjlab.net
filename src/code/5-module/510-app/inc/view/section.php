@@ -1131,7 +1131,6 @@ function render_video_stats( $count, $hours ) {
   }
 }
 
-
 function render_section_about_show_notes( int $heading_level = 2 ) {
 
   tag_open( 'section' );

@@ -92,16 +92,7 @@ function render_feature_index() {
 
             $feature->render_internal_link();
 
-            if ( $video_count === 1 ) {
-
-              out_text( ' (1 video)' );
-
-            }
-            else {
-
-              out_text( " ($video_count videos)" );
-
-            }
+            render_video_stats( $feature->get_video_count(), $feature->get_total_hours() );
 
           tag_shut( 'li' );
 
