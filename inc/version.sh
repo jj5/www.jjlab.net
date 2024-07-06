@@ -1,0 +1,9 @@
+#!/bin/bash
+
+export JJLAB_VERSION_MAJOR=
+export JJLAB_VERSION_MINOR=2
+export JJLAB_VERSION_PATCH=557
+export JJLAB_SVN_DATE='Date: 2024-07-07 09:55:27 +1000 (Sun, 07 Jul 2024)'
+export JJLAB_SVN_REVISION='Revision: 31379994'
+export JJLAB_SVN_AUTHOR='Author: jj5'
+export JJLAB_GIT_DATE='2024-07-07 09:55:27 +1000 (Sun, 07 Jul 2024)'
