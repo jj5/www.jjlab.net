@@ -122,7 +122,13 @@ jjlab_git_submodule_update() {
 
   jjlab_validate_dev_environment;
 
-  git submodule update --init --recursive
+  # 2024-07-07 jj5 - can you tell I don't know what I'm doing?
+
+  lx_run git pull --recurse-submodules
+
+  lx_run git submodule update --remote;
+
+  lx_run git pull --recurse-submodules
 
 }
 
