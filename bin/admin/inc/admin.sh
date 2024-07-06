@@ -17,6 +17,8 @@ jjlab_deploy() {
 
   jjlab_validate_admin_environment;
 
+  lx_ssh "$host" 'cd /srv/libexec && git pull --recurse-submodules';
+
   lx_ssh "$host" /srv/libexec/bin/lx-update-web.sh "$path";
 
   lx_note "deployed to $host:$path";
