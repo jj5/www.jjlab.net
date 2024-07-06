@@ -2,18 +2,6 @@
 
 LX_LOCK_FILE='/var/lock/jjlab-admin.lock';
 
-jjlab_run_admin() {
-
-  local task="$1";
-
-  lx_script_dir;
-
-  cd "../../";
-
-  lx_run "$task";
-
-}
-
 jjlab_deploy_all() {
 
   jjlab_validate_admin_environment;
@@ -24,8 +12,8 @@ jjlab_deploy_all() {
 
 jjlab_deploy() {
 
-  local host="${1}";
-  local path="${2}";
+  local host="$1";
+  local path="$2";
 
   jjlab_validate_admin_environment;
 
@@ -36,6 +24,20 @@ jjlab_deploy() {
   lx_ssh lore sudo /srv/admin/bin/lore-archive-import.sh "$host";
 
   lx_note "deployed to $host:$path then imported archives from '$host'.";
+
+}
+
+jjlab_run_admin() {
+
+  local task="$1";
+
+  lx_script_dir;
+
+  cd "../../";
+
+  jjlab_validate_admin_environment;
+
+  lx_run "$task";
 
 }
 

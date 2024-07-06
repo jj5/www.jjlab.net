@@ -2,6 +2,24 @@
 
 LX_LOCK_FILE='/var/lock/jjlab-dev.lock';
 
+jjlab_sync() {
+
+  jjlab_validate_dev_environment;
+
+  lx_run jjlab_commit;
+
+  lx_run bin/admin/deploy.sh;
+
+}
+
+jjlab_commit() {
+
+  jjlab_validate_dev_environment;
+
+  lx_run "$LX_DIR_BIN/lx-gui.sh";
+
+}
+
 jjlab_run_dev() {
 
   local task="$1";
@@ -13,24 +31,6 @@ jjlab_run_dev() {
   jjlab_validate_dev_environment;
 
   lx_run "$task";
-
-}
-
-jjlab_sync() {
-
-  jjlab_validate_dev_environment;
-
-  lx_run jjlab_commit;
-
-  lx_run jjlab_deploy_all;
-
-}
-
-jjlab_commit() {
-
-  jjlab_validate_dev_environment;
-
-  lx_run "$LX_DIR_BIN/lx-gui.sh";
 
 }
 
