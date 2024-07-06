@@ -6,7 +6,14 @@ abstract class Video extends Item {
 
     // 2024-07-06 jj5 - all videos are high priority content, it's only the change frequency that varies...
     //
-    return '0.9';
+    switch ( $this->get_changefreq() ) {
+
+      case ChangeFreq::Always:
+      case ChangeFreq::Hourly: return '1.0';
+
+      default : return '0.9';
+
+    }
 
     /*
     switch ( $this->get_changefreq() ) {
