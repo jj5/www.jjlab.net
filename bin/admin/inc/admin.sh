@@ -1,6 +1,10 @@
 #!/bin/bash
 
-LX_LOCK_FILE='/var/lock/jjlab-admin.lock';
+if [ -z "${LX_LOCK_FILE:-}" ]; then
+
+  LX_LOCK_FILE='/var/lock/jjlab-admin.lock';
+
+fi
 
 jjlab_deploy_all() {
 

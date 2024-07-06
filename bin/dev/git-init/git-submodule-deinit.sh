@@ -8,7 +8,7 @@ main() {
 
   set -euo pipefail;
 
-  cd "$( dirname "${BASH_SOURCE[0]}" )/../../";
+  cd "$( dirname "${BASH_SOURCE[0]}" )/../../../";
 
   [ -d bin/dev ] || lx_fail $LX_EXIT_FILE_MISSING "please run from base directory.";
 

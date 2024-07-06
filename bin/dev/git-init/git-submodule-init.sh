@@ -8,14 +8,16 @@ main() {
 
   set -euo pipefail;
 
-  cd "$( dirname "${BASH_SOURCE[0]}" )/../../";
+  cd "$( dirname "${BASH_SOURCE[0]}" )/../../../";
 
   [ -d bin/dev ] || lx_fail $LX_EXIT_FILE_MISSING "please run from base directory.";
+
+  git pull --recurse-submodules;
 
   git submodule add git@github.com:jj5/kickass-libexec.git ext/libexec;
   git submodule add git@github.com:jj5/mudball.git ext/mudball;
 
-  git submodule update --init --recursive
+  git submodule update --init --recursive;
 
   pushd ext/libexec;
 
@@ -33,7 +35,7 @@ main() {
 
   popd;
 
-  git add .gitmodules ext;
+  git add .gitmodules ext/libexec ext/mudball;
 
   git commit -m 'Work, work...';
 

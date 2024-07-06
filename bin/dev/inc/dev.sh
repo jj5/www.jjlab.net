@@ -6,14 +6,6 @@ if [ -z "${LX_LOCK_FILE:-}" ]; then
 
 fi
 
-jjlab_version() {
-
-  jjlab_validate_dev_environment;
-
-  php bin/dev/libexec/version.php;
-
-}
-
 jjlab_push() {
 
   jjlab_validate_dev_environment;
