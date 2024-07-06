@@ -18,13 +18,15 @@ jjlab_load_libexec_and_run() {
     -d /home/jj5/repo/git/github/jj5/kickass-libexec
   ]]; then
 
-    echo source /home/jj5/repo/git/github/jj5/kickass-libexec/inc/run.sh
+    source /home/jj5/repo/git/github/jj5/kickass-libexec/inc/run.sh
 
     return $?;
 
   fi;
 
   source "${default_libexec}/inc/run.sh";
+
+  return $?;
 
 }
 
