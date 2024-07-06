@@ -8,7 +8,7 @@ jjlab_run_admin() {
 
   lx_script_dir;
 
-  cd "../../../";
+  cd "../../";
 
   lx_run "$task";
 
@@ -59,7 +59,7 @@ jjlab_deploy() {
 
 jjlab_validate_environment() {
 
-  [ -d bin/admin/sync.sh ] || lx_fail $LX_EXIT_FILE_MISSING "please run from base directory.";
+  [ -d bin/admin ] || lx_fail $LX_EXIT_FILE_MISSING "please run from base directory.";
 
 }
 
