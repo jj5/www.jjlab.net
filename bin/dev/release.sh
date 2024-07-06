@@ -1,9 +1,9 @@
 #!/bin/bash
 
-set -euo pipefail
+main() {
 
-# 2024-06-15 jj5 - TODO: run custom release process here...
-#
-bin/dev/gen.sh || exit 1;
-svnman release || exit 2;
+  jjlab_run_dev jjlab_release;
 
+}
+
+source "$( dirname "${BASH_SOURCE[0]}" )/inc/dev.sh";

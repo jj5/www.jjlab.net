@@ -2,14 +2,8 @@
 
 main() {
 
-  set -euo pipefail;
-
-  cd "$( dirname "$0" )/../../";
-
-  [ -d bin ] || { echo "please run from base directory."; exit 1; }
-
-  git submodule update --init --recursive
+  jjlab_run_dev jjlab_git_submodule_update;
 
 }
 
-main "$@";
+source "$( dirname "${BASH_SOURCE[0]}" )/inc/dev.sh";
