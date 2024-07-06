@@ -1,14 +1,8 @@
 #!/bin/bash
 
-LX_LOCK_FILE='/var/lock/jjlab-deploy.lock';
-
 main() {
 
-  lx_script_dir;
-
-  cd "../../";
-
-  lx_run deploy_all;
+  jjlab_run_admin jjlab_deploy_all;
 
 }
 
