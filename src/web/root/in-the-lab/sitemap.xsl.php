@@ -23,6 +23,14 @@ var URL_BASE = <?= json_encode( url_base() ) ?>;
 var DEBUG = <?= json_encode( DEBUG ) ?>;
 </script>
 
+<style>
+.sortable th {
+
+  cursor: pointer;
+
+}
+</style>
+
 <?php
       render_xslt_head();
 ?>
