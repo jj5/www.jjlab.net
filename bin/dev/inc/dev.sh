@@ -10,6 +10,8 @@ jjlab_run_dev() {
 
   cd "../../";
 
+  jjlab_validate_dev_environment;
+
   lx_run "$task";
 
 }

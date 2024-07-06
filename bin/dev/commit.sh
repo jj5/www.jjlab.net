@@ -2,7 +2,7 @@
 
 main() {
 
-  jjlab_run_admin jjlab_commit;
+  jjlab_run_dev jjlab_commit;
 
 }
 
