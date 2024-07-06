@@ -34,17 +34,18 @@ jjlab_commit() {
 
   jjlab_validate_dev_environment;
 
-  lx_run jjlab_version_patch_increment;
+  # 2024-07-06 jj5 - OLD: lx-gui.sh will call the script which does this...
+  #lx_run jjlab_version_increment_patch;
 
   lx_run "$LX_DIR_BIN/lx-gui.sh";
 
 }
 
-jjlab_version_patch_increment() {
+jjlab_version_increment_patch() {
 
   jjlab_validate_dev_environment;
 
-  php bin/dev/libexec/version-patch-increment.php;
+  php bin/dev/libexec/version-increment-patch.php;
 
 }
 
