@@ -8,7 +8,7 @@ main() {
 
   cd "../../";
 
-  deploy grace /var/www/bk-web-1-www.jjlab.net;
+  lx_run deploy grace /var/www/bk-web-1-www.jjlab.net;
 
 }
 
