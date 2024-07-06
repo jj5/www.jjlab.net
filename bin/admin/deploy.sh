@@ -27,4 +27,7 @@ deploy() {
 
 }
 
-source "$( dirname "${BASH_SOURCE[0]}" )/../../ext/libexec/inc/run.sh";
+# 2024-07-06 jj5 - NEW: just one little indirection so I can use a different libexec on 'charisma'
+source "$( dirname "${BASH_SOURCE[0]}" )/../../inc/run.sh";
+# 2024-07-06 jj5 - OLD:
+#source "$( dirname "${BASH_SOURCE[0]}" )/../../ext/libexec/inc/run.sh";
