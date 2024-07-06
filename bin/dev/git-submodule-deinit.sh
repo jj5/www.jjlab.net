@@ -20,7 +20,7 @@ main() {
 
   git commit -m 'Work, work...';
 
-  archive .gitmodules;
+  archive .gitmodules ext;
 
   lx-gui.sh;
 
