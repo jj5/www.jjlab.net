@@ -4,6 +4,10 @@ LX_LOCK_FILE='/var/lock/jjlab-deploy.lock';
 
 main() {
 
+  lx_script_dir;
+
+  cd "../../";
+
   deploy grace /var/www/bk-web-1-www.jjlab.net;
 
 }
