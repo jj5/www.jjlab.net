@@ -6,7 +6,7 @@
 define( 'JJLAB_NAME', 'www.jjlab.net' );
 define( 'JJLAB_CODE', 'jjlab' );
 
-define( 'JJLAB_VERSION', '0.2.573' );
+//define( 'JJLAB_VERSION', '0.2.573' );
 define( 'JJLAB_VERSION_MAJOR', 0 );
 define( 'JJLAB_VERSION_MINOR', 2 );
 define( 'JJLAB_VERSION_PATCH', 573 );
