@@ -1,5 +1,10 @@
 <?php
 
+define( 'TAGLINE_HI_THERE', "Hi there! You're in the lab with your mate Jay Jay." );
+define( 'TAGLINE_THANKS', "Thanks very much for watching! And please remember to hit like and subscribe! :)" );
+define( 'TAGLINE_TESTING', "It never hurts to test!" );
+define( 'TAGLINE_CABLES', "Let's make a cable!" );
+
 define( 'TITLE_LOGO', 'In The Lab With Jay Jay is the video blog of John Elliot V' );
 
 define( 'TITLE_NAV_HAMBURGER', 'Click here to access the website navigation.' );
@@ -15,7 +20,7 @@ define( 'TITLE_NAV_ABOUT', 'Click here to find out more about the show and this 
 define( 'TITLE_NAV_SUPPORT', "Click here to see how you can support the show. Thanks for thinking of me! [Hotkey: U]" );
 define( 'TITLE_NAV_FEED', "Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" );
 
-define( 'TITLE_YOUTUBE_MAIN', "Click here to visit my main channel known as @InTheLabWithJayJay over on YouTube. Thanks very much for watching! And please remember to click like and subscribe!" );
+define( 'TITLE_YOUTUBE_MAIN', "Click here to visit my main channel known as @InTheLabWithJayJay over on YouTube. " . TAGLINE_THANKS);
 define( 'TITLE_YOUTUBE_EXTRA', "Click here to visit my 2nd channel known as @ElliotsExtras over on YouTube." );
 define( 'TITLE_YOUTUBE_VIDEO', "Click here to watch this video on YouTube." );
 
@@ -774,10 +779,10 @@ function render_section_about_video_content( int $heading_level = 2 ) {
     tag_open( 'p' );
 
       out_text( 'My format has been evolving since I started, but these days when I start a video I say ' );
-      out_text( '"Hi there! You\'re in the lab with your mate Jay Jay!" and when I close a video I say ' );
-      out_text( '"Thanks very much for watching! And please remember to hit like and subscribe!" ' );
+      out_text( '"' . TAGLINE_HI_THERE . '" and when I close a video I say ' );
+      out_text( '"' . TAGLINE_THANKS . '" ' );
       out_text( 'I guess this is fairly straight bat and boring, but that\'s okay. ' );
-      out_text( 'Other things that I like to say include "It never hurts to test!" and "Let\'s make a cable!"' );
+      out_text( 'Other things that I like to say include "' . TAGLINE_TESTING . '" and "' . TAGLINE_CABLES . '"' );
 
     tag_shut( 'p' );
 

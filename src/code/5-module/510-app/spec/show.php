@@ -873,10 +873,8 @@ show(
   interlude(
     publication_date( '2024-07-08' ),
     title( "ElectroneX 2024 Debriefing" ),
-    youtube_video( '' ),
-    blog_url( '' ),
-    patreon_url( 'https://www.patreon.com/posts/' ),
+    youtube_video( '9J8L6PBh2Ks' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/07/08/interlude-electronex-2024-debriefing-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/107688092' ),
   ),
 );
-
-// 2024-07-02 jj5 - SEE: https://dev.blackbrick.com.au/wiki/In_The_Lab#When_releasing_a_video

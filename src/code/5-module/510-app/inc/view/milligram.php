@@ -852,7 +852,7 @@ Following is a list of products I use which may appear in my videos. Clicking th
   out_text("
 If you have any questions about any of the products I use please do ask in the comments section. I'm always happy to help.
 
-Thanks very much for watching! And please remember to hit like and subscribe! :)");
+" . TAGLINE_THANKS );
 
   tag_shut( 'textarea' );
 
@@ -951,7 +951,9 @@ function render_blog_template( $equipment_list ) {
 
       out_text( "\n\nIn this video I ...\n\n" );
 
-      out_text( "Thanks very much for watching! And please remember to hit like and subscribe!\n\n" );
+      out_text( TAGLINE_THANKS );
+
+      out_text( "\n\n" );
 
       mud_html_set_opt( MUD_HTML_OPT_SPACE, false );
 

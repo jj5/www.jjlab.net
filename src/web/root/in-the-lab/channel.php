@@ -430,7 +430,7 @@ function render_video_header() {
 
   tag_text( 'h1', $video->get_title() );
 
-  tag_text( 'p', "Thanks very much for watching! And please remember to click like and subscribe!" );
+  tag_text( 'p', TAGLINE_THANKS );
 
 }
 
@@ -617,6 +617,6 @@ function render_show_info() {
 
   }
 
-  tag_text( 'p', "Thanks very much for watching! And please remember to click like and subscribe!" );
+  tag_text( 'p', TAGLINE_THANKS );
 
 }
