@@ -37,7 +37,7 @@ function render_blog_template_main() {
 
         tag_open( 'p' );
 
-          out_text( "This is a template blog post that John uses as the basis of the show notes. " );
+          out_text( "This is a template blog post that I use as the basis of the show notes. " );
           out_text( "That's cool that you're poking around, but " );
 
           tag_text(

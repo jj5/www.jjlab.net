@@ -50,10 +50,43 @@ function render_equipment_main() {
 
         tag_text( 'h1', 'YouTube Template' );
 
-        tag_text(
-          'p',
-          "This is the template I use for you YouTube videos.",
-        );
+        tag_open( 'p' );
+
+          out_text( "This is a template YouTube post that I use as the basis of description in my YouTube videos. " );
+          out_text( "That's cool that you're poking around, but " );
+
+          tag_text(
+            'a',
+            "this isn't the webpage you're looking for...",
+            [
+              'href' => 'https://www.youtube.com/watch?v=ihyjXd2C-E8',
+              'class' => 'external',
+              'target' => '_blank',
+              'rel' => 'noopener follow',
+              'title' => TITLE_LINK_DROIDS,
+            ]
+          );
+
+        tag_shut( 'p' );
+
+        tag_open( 'p' );
+
+          out_text( "Maybe you would like to " );
+
+          tag_text(
+            'a',
+            "support the show",
+            [
+              'href' => url_base() . '/support.php',
+              'class' => 'internal',
+              'rel' => 'follow',
+              'title' => TITLE_SUPPORT,
+            ]
+          );
+
+          out_text( '? :)' );
+
+        tag_shut( 'p' );
 
       tag_shut( 'section' );
 
