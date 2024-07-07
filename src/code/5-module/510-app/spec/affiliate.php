@@ -29,3 +29,8 @@ affiliate(
   affiliate_name( 'Altronics' ),
   affiliate_url( 'https://www.altronics.com.au/' ),
 );
+
+affiliate(
+  affiliate_name( 'Jaycar' ),
+  affiliate_url( 'https://www.jaycar.com.au/' ),
+);
