@@ -84,6 +84,7 @@ define( 'TITLE_RSS_FEED', TITLE_NAV_FEED );
 define( 'TITLE_VIDEO_INDEX', 'Click here to see the "secret" index of all videos. [Hotkey: V]' );
 define( 'TITLE_BOOK_INDEX', 'Click here to see the "secret" index of all books. [Hotkey: B]' );
 define( 'TITLE_BLOG_TEMPLATE', 'Click here to see the template blog post that John uses for the show notes. [Hotkey: T]' );
+define( 'TITLE_SOFTWARE_VERSION', 'Click here for information about the website software [Hotkey: Z]' );
 define( 'TITLE_DEBUG', 'Click here at your peril. :) [Hotkey: D]' );
 
 define( 'TITLE_PERMALINK', 'Click here for the permanent link to this video.' );
