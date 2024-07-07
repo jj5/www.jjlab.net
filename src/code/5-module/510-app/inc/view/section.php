@@ -2041,7 +2041,7 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
         'a',
         'Maxitronix',
         [
-          'href' => url_base() . '/feature.php/maxitronix',
+          'href' => url_base() . '/manufacturer.php/Maxitronix',
           'class' => 'internal',
           'rel' => 'follow',
           'title' => TITLE_MAXITRONIX_EQUIPMENT,
