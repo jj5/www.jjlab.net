@@ -934,7 +934,7 @@ function render_blog_template( $equipment_list ) {
 
       out_text( "\n\nIn this video I ...\n\n" );
 
-      out_text( "Thanks very much for watching! And please remember to click like and subscribe!\n\n" );
+      out_text( "Thanks very much for watching! And please remember to hit like and subscribe!\n\n" );
 
       mud_html_set_opt( MUD_HTML_OPT_SPACE, false );
 
@@ -946,7 +946,7 @@ function render_blog_template( $equipment_list ) {
       out_text( "Clicking through on these links before purchasing from Amazon, eBay, or AliExpress is a great way " );
       out_text( "to support the channel at no cost to you. Thanks!\n" );
 
-      tag_open( 'table', [ 'class' => 'table' ] );
+      tag_open( 'table', [ 'class' => 'table equipment' ] );
 
         tag_open( 'body' );
 
@@ -961,7 +961,7 @@ function render_blog_template( $equipment_list ) {
 
             tag_open( 'tr' );
 
-              tag_open( 'td' );
+              tag_open( 'td', [ 'class' => 'product' ] );
 
                 tag_open(
                   'a',
@@ -973,14 +973,22 @@ function render_blog_template( $equipment_list ) {
                   ]
                 );
 
-                  tag_text( 'span', $product, [ 'style' => 'font-size:2rem;' ] );
+                  tag_text(
+                    'span',
+                    $product,
+                    [
+                      'class' => 'product-name',
+                      //'style' => 'font-size:2rem;',
+                    ]
+                  );
 
                   tag_bare(
                     'img',
                     [
+                      'class' => 'thumb',
                       'src' => $thumb,
                       'alt' => 'This is an image of the product.',
-                      'style' => 'max-height:400px',
+                      //'style' => 'max-height:400px',
                       'loading' => 'lazy',
                     ]
                   );
@@ -992,6 +1000,7 @@ function render_blog_template( $equipment_list ) {
                   tag_open(
                     'a',
                     [
+                      'class' => 'notes',
                       'href' => $notes,
                       'title' => mud_format_string( TITLE_TEMPLATE_BLOG_PRODUCT_NOTES, [ 'product' => $product ] ),
                       'target' => '_blank',
