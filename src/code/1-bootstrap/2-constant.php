@@ -11,11 +11,11 @@ require_once __DIR__ . '/../../../inc/version.php';
 
 // 2024-07-06 jj5 - changing the code is not supported, please don't change it...
 //
-define( 'JJLAB_CODE', 'jjlab' );
+//define( 'JJLAB_CODE', 'jjlab' );
 
 // 2024-07-06 jj5 - you can change the name if you want...
 //
-define( 'JJLAB_NAME', 'www.jjlab.net' );
+//define( 'JJLAB_NAME', 'www.jjlab.net' );
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
