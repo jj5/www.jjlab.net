@@ -326,7 +326,7 @@ function render_section_about_colophon( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . ( $heading_level + 1 ), 'Sitemap.xml', [ 'id' => 'sitemap.xml' ] );
+    tag_text( 'h' . ( $heading_level + 1 ), 'XML Files', [ 'id' => 'xml-files' ] );
 
     tag_open( 'p' );
 
@@ -339,6 +339,18 @@ function render_section_about_colophon( int $heading_level = 2 ) {
           'href' => url_base() . '/sitemap.php',
           'class' => 'internal',
           'title' => TITLE_LINK_SITEMAP_XML,
+        ]
+      );
+
+      out_text( ' file and a ' );
+
+      tag_text(
+        'a',
+        'rss.xml',
+        [
+          'href' => url_base() . '/feed.php',
+          'class' => 'internal',
+          'title' => TITLE_LINK_RSS_FEED,
         ]
       );
 
