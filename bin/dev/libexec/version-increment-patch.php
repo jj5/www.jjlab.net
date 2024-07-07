@@ -82,19 +82,20 @@ function main( $argv ) {
 
       $const_prefix = $matches[ 1 ];
 
-      $result[] = $line;
-
-      continue;
-
     }
-    elseif ( preg_match( $version_major_regex, $line, $matches ) ) {
+
+    if ( preg_match( $version_major_regex, $line, $matches ) ) {
 
       $version_major = intval( $matches[ 1 ] );
+
+      $result[] = $line;
 
     }
     elseif ( preg_match( $version_minor_regex, $line, $matches ) ) {
 
       $version_minor = intval( $matches[ 1 ] );
+
+      $result[] = $line;
 
     }
     elseif ( preg_match( $version_patch_regex, $line, $matches ) ) {

@@ -1,6 +1,7 @@
 <?php
 // these version numbers are managed by bin/dev/version-*.sh scripts...
 define( 'JJLAB_VERSION_MAJOR', 0 );
+define( 'JJLAB_VERSION_MINOR', 2 );
 define( 'JJLAB_VERSION_PATCH', 559 );
 define(
   'JJLAB_SVN_DATE',
