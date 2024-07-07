@@ -80,6 +80,13 @@ class Category extends StringValue {
 
     static $category_list = [
 
+      'Electronics Project Lab',
+      'Electronics Project',
+      'Electronics Kit',
+
+      'Radio',
+      'Metal Detector',
+
       'Mixed Signal Oscilloscope',
       'Oscilloscope',
       'Logic Analyzer',

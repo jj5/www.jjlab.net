@@ -7227,6 +7227,493 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2021-08-14' ),
+  equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2216.jpg' ),
+  equipment_info(
+    manufacturer_name ( "Maxitronix" ),
+    model_name        ( "Crystal Radio Kit" ),
+    equipment_type    ( "Electronics Project" ),
+    category          ( 'Electronics Project' ),
+    category          ( 'Electronics Kit' ),
+    category          ( 'Radio' ),
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2216-maxitronix-crystal-radio-kit/' ),
+      link_text       ( 'Maxitronix Crystal Radio Kit' ),
+    ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
+  affiliate_link(
+    equipment_url ( 'https://www.altronics.com.au/p/k2216-maxitronix-crystal-radio-kit/' ),
+    listing_name  ( "Maxitronix Crystal Radio Kit" ),
+    item_price    ( 'AU$27.95' ),
+  ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_nkw=Maxitronix+Crystal+Radio&_sacat=0' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com/sch/i.html?_from=R40&_nkw=Maxitronix+Crystal+Radio&_sacat=0' ),
+    affiliate_url ( 'https://ebay.us/aSmrmy' ),
+    listing_name  ( "Maxitronix Crystal Radio Kit" ),
+  ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Crystal+Radio&_sacat=0' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Crystal+Radio&_sacat=0' ),
+    affiliate_url ( 'https://ebay.us/zc1TLF' ),
+    listing_name  ( "Maxitronix Crystal Radio Kit" ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.altronics.com.au/p/k2216-maxitronix-crystal-radio-kit/' ),
+    order_url       ( 'https://www.altronics.com.au/myaccount/ordlist/?oid=172245' ),
+    order_id        ( '172245' ),
+    order_date      ( '2021-08-14' ),
+    order_item_name ( 'K2216: Crystal Radio Kit' ),
+    order_price     ( 'AU$27.95' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$11.00' ),
+    order_gst       ( 'AU$2.80' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2021-08-14' ),
+  equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2212_1.jpg' ),
+  equipment_info(
+    manufacturer_name ( "Maxitronix" ),
+    model_name        ( "AM/FM Radio Kit" ),
+    equipment_type    ( "Electronics Project" ),
+    category          ( 'Electronics Project' ),
+    category          ( 'Electronics Kit' ),
+    category          ( 'Radio' ),
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2212-maxitronix-am-fm-radio-kit/' ),
+      link_text       ( 'Maxitronix AM/FM Radio Kit' ),
+    ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_nkw=Maxitronix+Radio&_sacat=0' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com/sch/i.html?_from=R40&_nkw=Maxitronix+Radio&_sacat=0' ),
+    affiliate_url ( 'https://ebay.us/1DCBIm' ),
+    listing_name  ( "Maxitronix AM/FM Radio Kit" ),
+    item_price    ( 'AU$27.95' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.altronics.com.au/p/k2212-maxitronix-am-fm-radio-kit/' ),
+    order_url       ( 'https://www.altronics.com.au/myaccount/ordlist/?oid=172245' ),
+    order_id        ( '172245' ),
+    order_date      ( '2021-08-14' ),
+    order_item_name ( 'Maxitronix AM/FM Radio Kit' ),
+    order_price     ( 'AU$27.95' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$11.00' ),
+    order_gst       ( 'AU$2.80' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/393246904325' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=20-07522-10637#/' ),
+    order_id        ( '20-07522-10637' ),
+    order_date      ( '27 Aug 2021' ),
+    order_item_name ( 'Maxitronix AM/FM Radio Kit' ),
+    order_price     ( 'AU$32.00' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$10.00' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2021-08-19' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/ABgAAOSwol5YxnoQ/s-l1600.jpg' ),
+  equipment_info(
+    manufacturer_name ( "Maxitronix" ),
+    model_name        ( "Electronic Metal Detector Kit" ),
+    equipment_type    ( "Electronics Project" ),
+    category          ( 'Electronics Project' ),
+    category          ( 'Electronics Kit' ),
+    category          ( 'Metal Detector' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Metal+Detector&_sacat=0' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/401290152496' ),
+    affiliate_url ( 'https://ebay.us/bECYsY' ),
+    listing_name  ( "NEW Maxitronix ELMD - Electronic Metal Detector Kit MX-800 Build It Science Kit" ),
+    item_price    ( 'AU$24.95' ),
+    item_shipping ( 'AU$12.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/401290152496' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=23-07488-57620#/' ),
+    order_id        ( '23-07488-57620' ),
+    order_date      ( '19 Aug 2021' ),
+    order_item_name ( ' NEW Maxitronix ELMD - Electronic Metal Detector Kit MX-800 Build It Science Kit' ),
+    order_price     ( 'AU$24.95' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$12.00' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2021-08-09' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/81aRcMQ-0rL._AC_SL1500_.jpg' ),
+  equipment_info(
+    manufacturer_name ( "Maxitronix" ),
+    model_name        ( "10 In 1 (10in1)" ),
+    equipment_type    ( "Electronics Project Lab Kit" ),
+    category          ( 'Electronics Project Lab' ),
+    category          ( 'Electronics Project' ),
+    category          ( 'Electronics Kit' ),
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2200-maxitronix-10-in-1-electronics-lab-kit/' ),
+      link_text       ( '10 In 1 Electronics Project Lab Kit (10in1)' ),
+    ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&LH_ItemCondition=1000&rt=nc&LH_BIN=1&_nkw=Maxitronix+Crystal+Radio+Kit+Electronics+Project' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/262530007000' ),
+    affiliate_url ( 'https://ebay.us/cIilFj' ),
+    listing_name  ( " Maxitronix Crystal Radio Kit Designed for Children Aged 10 and Over " ),
+    item_price    ( 'AU$37.90' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B07L8K6DRJ' ),
+    order_url       ( 'https://www.amazon.com.au/gp/legacy/order-history?ij=&opt=ab&search=503-1823734-6368600&ref_=&ie=UTF8' ),
+    order_id        ( '503-1823734-6368600' ),
+    order_date      ( '9 August 2021' ),
+    order_item_name ( 'Generic 10 in 1 Electronics Lab Kit' ),
+    order_price     ( 'AU$49.00' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2021-08-10' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/0sAAAOSwbN9g40AJ/s-l200.webp' ),
+  equipment_info(
+    manufacturer_name ( "Maxitronix" ),
+    model_name        ( "Sensor Robot 20 (20in1)" ),
+    equipment_type    ( "Electronics Project Lab Kit" ),
+    category          ( 'Electronics Project Lab' ),
+    category          ( 'Electronics Project' ),
+    category          ( 'Electronics Kit' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Sensor+Robot+20&_sacat=0' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Sensor+Robot+20&_sacat=0' ),
+    affiliate_url ( 'https://ebay.us/ujlqAR' ),
+    listing_name  ( "Maxitronix Sensor Robot 20 Electronics Project Lab Kit" ),
+    item_price    ( 'AU$48.45' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/194267593891' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=22-07448-53020#/' ),
+    order_id        ( '22-07448-53020' ),
+    order_date      ( '10 Aug 2021' ),
+    order_item_name ( 'Sensor Robot 20. Action Science Electronic Project Lab.' ),
+    order_price     ( 'AU$48.45' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2021-08-09' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/GXcAAOSwOzld5Fxx/s-l1600.jpg' ),
+  equipment_info(
+    manufacturer_name ( "Maxitronix" ),
+    model_name        ( "30 In 1 (30in1)" ),
+    equipment_type    ( "Electronics Project Lab Kit" ),
+    category          ( 'Electronics Project Lab' ),
+    category          ( 'Electronics Project' ),
+    category          ( 'Electronics Kit' ),
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2204-maxitronix-30-in-1-electronics-lab-kit/' ),
+      link_text       ( 'Maxitronix 30 In 1 Electronics Project Lab Kit (30in1)' ),
+    ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
+  affiliate_link(
+    equipment_url ( 'https://www.altronics.com.au/p/k2204-maxitronix-30-in-1-electronics-lab-kit/' ),
+    listing_name  ( "Maxitronix 30 In 1 Electronics Project Lab Kit (30in1)" ),
+    item_price    ( 'AU$56.36' ),
+  ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+30&_sacat=0' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+30&_sacat=0' ),
+    affiliate_url ( 'https://ebay.us/12nDbe' ),
+    listing_name  ( "Maxitronix 30 In 1 Electronics Project Lab Kit (30in1)" ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/111242419519' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=11-07445-39591#/' ),
+    order_id        ( '11-07445-39591' ),
+    order_date      ( '9 Aug 2021' ),
+    order_item_name ( '30 In 1 Electronics Project Lab Learning Kit Kids Learn Electronics XMAS GIFT' ),
+    order_price     ( 'AU$69.95' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+
+equipment(
+  equipment_date( '2021-08-14' ),
+  equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2220.jpg' ),
+  equipment_info(
+    manufacturer_name ( "Maxitronix" ),
+    model_name        ( "Electronic Digital Recording Laboratory (59in1)" ),
+    equipment_type    ( "Electronics Project Lab Kit" ),
+    category          ( 'Electronics Project Lab' ),
+    category          ( 'Electronics Project' ),
+    category          ( 'Electronics Kit' ),
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2220-maxitronix-digital-recording-lab-kit/' ),
+      link_text       ( 'Maxitronix Electronic Digital Recording Laboratory (59in1)' ),
+    ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
+  affiliate_link(
+    equipment_url ( 'https://www.altronics.com.au/p/k2220-maxitronix-digital-recording-lab-kit/' ),
+    listing_name  ( "Maxitronix Electronic Digital Recording Laboratory" ),
+    item_price    ( 'AU$83.59' ),
+  ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Digital+Recording&_sacat=0' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Digital+Recording&_sacat=0' ),
+    affiliate_url ( 'https://ebay.us/jz2phY' ),
+    listing_name  ( "Maxitronix Electronic Digital Recording Laboratory" ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.altronics.com.au/p/k2220-maxitronix-digital-recording-lab-kit/' ),
+    order_url       ( 'https://www.altronics.com.au/myaccount/ordlist/?oid=172245' ),
+    order_id        ( '172245' ),
+    order_date      ( '2021-08-14' ),
+    order_item_name ( 'K2220: Digital Recording Lab Kit' ),
+    order_price     ( 'AU$91.95' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$11.00' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2021-08-09' ),
+  equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2206.jpg' ),
+  equipment_info(
+    manufacturer_name ( "Maxitronix" ),
+    model_name        ( "60 In 1 (60in1)" ),
+    equipment_type    ( "Electronics Project Lab Kit" ),
+    category          ( 'Electronics Project Lab' ),
+    category          ( 'Electronics Project' ),
+    category          ( 'Electronics Kit' ),
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2206-maxitronix-60-in-1-electronics-lab-kit/' ),
+      link_text       ( 'Maxitronix 60 In 1 Electronics Project Lab Kit' ),
+    ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
+  affiliate_link(
+    equipment_url ( 'https://www.altronics.com.au/p/k2206-maxitronix-60-in-1-electronics-lab-kit/' ),
+    listing_name  ( "Maxitronix 60 In 1 Electronics Project Lab Kit" ),
+    item_price    ( 'AU$99.09' ),
+  ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+60&_sacat=0' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/113287895499' ),
+    affiliate_url ( 'https://ebay.us/J5iLIE' ),
+    listing_name  ( "60 In 1 Electronics Lab Kit teach kids about the fundamentals of electronics" ),
+    item_price    ( 'AU$109.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/113287895499' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=11-07445-39591#/' ),
+    order_id        ( '11-07445-39591' ),
+    order_date      ( '9 Aug 2021' ),
+    order_item_name ( '60 In 1 Electronics Lab Kit teach kids about the fundamentals of electronics' ),
+    order_price     ( 'AU$109.00' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2021-08-09' ),
+  equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2208.jpg' ),
+  equipment_info(
+    manufacturer_name ( "Maxitronix" ),
+    model_name        ( "130 In 1 (130in1)" ),
+    equipment_type    ( "Electronics Project Lab Kit" ),
+    category          ( 'Electronics Project Lab' ),
+    category          ( 'Electronics Project' ),
+    category          ( 'Electronics Kit' ),
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2208-maxitronix-130-in-1-electronics-lab-kit/' ),
+      link_text       ( 'Maxitronix 130 In 1 Electronics Project Lab Kit' ),
+    ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
+  affiliate_link(
+    equipment_url ( 'https://www.altronics.com.au/p/k2208-maxitronix-130-in-1-electronics-lab-kit/' ),
+    listing_name  ( "Maxitronix 130 In 1 Electronics Project Lab Kit" ),
+    item_price    ( 'AU$145.45' ),
+  ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+130&_sacat=0' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/313210818748' ),
+    affiliate_url ( 'https://ebay.us/TwxsqJ' ),
+    listing_name  ( "Maxitronix 130 In 1 Electronics Project Lab Kit" ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/313210818748' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=11-07445-39591#/' ),
+    order_id        ( '11-07445-39591' ),
+    order_date      ( '2021-08-09' ),
+    order_item_name ( '130 in 1 Electronics Lab Kit for Ideal for any inquisitive mind aged 10 & over' ),
+    order_price     ( 'AU$139.98' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+
+equipment(
+  equipment_date( '2021-08-09' ),
+  equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2209.jpg' ),
+  equipment_info(
+    manufacturer_name ( "Maxitronix" ),
+    model_name        ( "200 In 1 (200in1)" ),
+    equipment_type    ( "Electronics Project Lab Kit" ),
+    category          ( 'Electronics Project Lab' ),
+    category          ( 'Electronics Project' ),
+    category          ( 'Electronics Kit' ),
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2209-maxitronix-200-in-1-electronics-lab-kit/' ),
+      link_text       ( 'Maxitronix 200 In 1 Electronics Project Lab Kit' ),
+    ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
+  affiliate_link(
+    equipment_url ( 'https://www.altronics.com.au/p/k2209-maxitronix-200-in-1-electronics-lab-kit/' ),
+    listing_name  ( "Maxitronix 200 In 1 Electronics Project Lab Kit" ),
+    item_price    ( 'AU$186.36' ),
+  ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+200&_sacat=0' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B07J34ZYVY/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1' ),
+    listing_name  ( "200 in 1 Electronics Lab Learning Kit Kids Learn Electronics Xmas Gift" ),
+    item_price    ( 'AU$216.95' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B07J34ZYVY/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1' ),
+    order_url       ( 'https://www.amazon.com.au/gp/legacy/order-history?ij=&opt=ab&search=503-7019939-8059006&ref_=&ie=UTF8' ),
+    order_id        ( '503-7019939-8059006' ),
+    order_date      ( '9 August 2021' ),
+    order_item_name ( '200 in 1 Electronics Lab Learning Kit Kids Learn Electronics Xmas Gift' ),
+    order_price     ( 'AU$216.95' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+
+equipment(
+  equipment_date( '2021-08-16' ),
+  equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2222.jpg' ),
+  equipment_info(
+    manufacturer_name ( "Maxitronix" ),
+    model_name        ( "300 In 1 (300in1)" ),
+    equipment_type    ( "Electronics Project Lab Kit" ),
+    category          ( 'Electronics Project Lab' ),
+    category          ( 'Electronics Project' ),
+    category          ( 'Electronics Kit' ),
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2222-maxitronix-300-in-1-electronics-lab-kit/' ),
+      link_text       ( 'Maxitronix 300 In 1 Electronics Project Lab Kit' ),
+    ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
+  affiliate_link(
+    equipment_url ( 'https://www.altronics.com.au/p/k2222-maxitronix-300-in-1-electronics-lab-kit/' ),
+    listing_name  ( "Maxitronix 300 In 1 Electronics Project Lab Kit" ),
+    item_price    ( 'AU$290.91' ),
+  ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=maxitronix+300&_sacat=0' ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/284398509127' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=05-07478-66621#/' ),
+    order_id        ( '05-07478-66621' ),
+    order_date      ( '16 Aug 2021' ),
+    order_item_name ( 'BRAND NEW MAXITRONIX ELECTRONIC LAB SOLDER FREE 300 IN 1 EXPERIMENT KIT' ),
+    order_price     ( 'AU$150.00' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$20.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/185223305299' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=20-08164-77215#/' ),
+    order_id        ( '20-08164-77215' ),
+    order_date      ( '23 Jan 2022' ),
+    order_item_name ( 'Maxitronix 300 In 1 Electronics Lab Kit' ),
+    order_price     ( 'AU$120.00' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$17.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/154830785545' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=24-08243-59512#/' ),
+    order_id        ( '24-08243-59512' ),
+    order_date      ( '7 Feb 2022' ),
+    order_item_name ( 'Maxitronix 300 In 1 Electronics Lab Kit untested selling as parts read descript' ),
+    order_price     ( 'AU$45.00' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$22.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/175159458198' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=05-08268-05619#/' ),
+    order_id        ( '05-08268-05619' ),
+    order_date      ( '15 Feb 2022' ),
+    order_item_name ( 'MAXITRONIX 300 IN 1 ELECTRONIC LAB MX-9 ,COMPLETE IN ORIGINAL BOX,LEARNING TOY' ),
+    order_price     ( 'AU$65.00' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$21.90' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2021-06-25' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/plQAAOSwFNhgRD5O/s-l200.webp' ),
+  equipment_info(
+    manufacturer_name ( "Maxitronix" ),
+    model_name        ( "500 In 1 (500in1)" ),
+    equipment_type    ( "Electronics Project Lab Kit" ),
+    category          ( 'Electronics Project Lab' ),
+    category          ( 'Electronics Project' ),
+    category          ( 'Electronics Kit' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=maxitronix+500&_sacat=0' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=maxitronix+500&_sacat=0' ),
+    affiliate_url ( 'https://ebay.us/AXdPh8' ),
+    listing_name  ( "Maxitronix 500 In 1 Electronics Project Lab Kit" ),
+    item_price    ( 'AU$250.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/254898266591' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=27-07189-69518#/' ),
+    order_id        ( '27-07189-69518' ),
+    order_date      ( '11 Jun 2021' ),
+    order_item_name ( 'Maxitronix 500-in-one Electronic Project Lab' ),
+    order_price     ( 'AU$250.00' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/125160305942' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=04-08308-47836#/' ),
+    order_id        ( '04-08308-47836' ),
+    order_date      ( '25 Feb 2022' ),
+    order_item_name ( 'Maxitronix 500 in 1 Electronic Lab *NO BOOKS/ELECTRONIC PARTS/WIRES*' ),
+    order_price     ( 'US$94.95' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'US$36.76' ),
+  ),
+);
+
 /*
 
 equipment(

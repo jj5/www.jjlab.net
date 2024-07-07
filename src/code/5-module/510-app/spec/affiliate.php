@@ -24,3 +24,8 @@ affiliate(
   affiliate_name( 'AliExpress' ),
   affiliate_url( 'https://www.aliexpress.com/' ),
 );
+
+affiliate(
+  affiliate_name( 'Altronics' ),
+  affiliate_url( 'https://www.altronics.com.au/' ),
+);
