@@ -14,7 +14,7 @@ function render() {
 
     default :
 
-      default_redirect( url_base() . '/equipment-text.php' );
+      default_redirect( url_base() . '/youtube-template.php' );
 
   }
 }
@@ -40,9 +40,7 @@ function render_equipment_main() {
 
   verify_equipment( $equipment_list );
 
-  $count = number_format( count( $equipment_list ) );
-
-  render_head( 'Equipment' );
+  render_head( 'YouTube Template' );
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
@@ -50,11 +48,11 @@ function render_equipment_main() {
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
-        tag_text( 'h1', 'Equipment' );
+        tag_text( 'h1', 'YouTube Template' );
 
         tag_text(
           'p',
-          "Here is a list of $count products I use which may appear in my videos.",
+          "This is the template I use for you YouTube videos.",
         );
 
       tag_shut( 'section' );

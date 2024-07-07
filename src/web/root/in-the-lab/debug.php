@@ -64,9 +64,9 @@ function render_menu() {
 
           tag_text(
             'a',
-            'Equipment Text',
+            'YouTube Template',
             [
-              'href' => url_base() . '/equipment-text.php',
+              'href' => url_base() . '/youtube-template.php',
               'class' => 'internal',
             ]
           );
