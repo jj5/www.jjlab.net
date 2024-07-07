@@ -125,6 +125,9 @@ define( 'TITLE_LINK_HACKER_EMBLEM', 'Click here to learn more about the hacker e
 define( 'TITLE_LINK_GAME_OF_LIFE', 'Click here to learn more about the glider in Conway\'s Game of Life.' );
 define( 'TITLE_LINK_GITHUB_SOURCE', 'Click here to find the source code for this website.' );
 define( 'TITLE_LINK_SITEMAP_XML', 'Click here to view the sitemap.xml file.' );
+define( 'TITLE_LINK_HUMANS_TXT', 'Click here to view the humans.txt file.' );
+define( 'TITLE_LINK_ROBOTS_TXT', 'Click here to view the robots.txt file.' );
+define( 'TITLE_LINK_SITEMAP_XML', 'Click here to view the sitemap.xml file.' );
 define( 'TITLE_LINK_SILICON_CHIP_MINI_PROJECTS_ANNOUNCEMENT', 'Click here to read the Mini Projects announcement from Nicholas Vinen the Editor of Silicon Chip magazine.' );
 define( 'TITLE_LINK_SILICON_CHIP_MINI_PROJECTS_LIST', 'Click here for the full list of Mini Projects published by Silicon Chip magazine.' );
 

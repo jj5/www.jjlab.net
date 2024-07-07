@@ -330,11 +330,11 @@ function render_section_about_colophon( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'This website has a sitemap.xml file which is ' );
+      out_text( 'This website has a ' );
 
       tag_text(
         'a',
-        'here',
+        'sitemap.xml',
         [
           'href' => url_base() . '/sitemap.php',
           'class' => 'internal',
@@ -342,7 +342,45 @@ function render_section_about_colophon( int $heading_level = 2 ) {
         ]
       );
 
-      out_text( '.' );
+      out_text( ' file.' );
+
+    tag_shut( 'p' );
+
+  tag_shut( 'section' );
+
+  tag_open( 'section' );
+
+    tag_text( 'h' . ( $heading_level + 1 ), 'Text Files', [ 'id' => 'text-files' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'This website has a ' );
+
+      tag_text(
+        'a',
+        'humans.txt',
+        [
+          'href' => '/humans.txt',
+          'class' => 'internal',
+          'rel' => 'follow',
+          'title' => TITLE_LINK_HUMANS_TXT,
+        ]
+      );
+
+      out_text( ' file and a ' );
+
+      tag_text(
+        'a',
+        'robots.txt',
+        [
+          'href' => '/robots.txt',
+          'class' => 'internal',
+          'rel' => 'follow',
+          'title' => TITLE_LINK_ROBOTS_TXT,
+        ]
+      );
+
+      out_text( ' file.' );
 
     tag_shut( 'p' );
 
