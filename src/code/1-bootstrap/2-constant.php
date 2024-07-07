@@ -26,6 +26,8 @@ define( 'JJLAB_PATH', realpath( __DIR__ . '/../../../' ) );
 define( 'JJLAB_CONFIG_FILE', 'config.php' );
 define( 'JJLAB_CONFIG_PATH', JJLAB_PATH . '/' . JJLAB_CONFIG_FILE );
 
+if ( file( JJLAB_CONFIG_PATH ) ) { require_once JJLAB_CONFIG_PATH; }
+
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 // 2021-08-24 jj5 - maintainer info...
