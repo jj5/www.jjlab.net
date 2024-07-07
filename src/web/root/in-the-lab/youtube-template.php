@@ -52,7 +52,7 @@ function render_equipment_main() {
 
         tag_open( 'p' );
 
-          out_text( "This is a template YouTube post that I use as the basis of description in my YouTube videos. " );
+          out_text( "This is a template YouTube post that I use as the basis of the description of my YouTube videos. " );
           out_text( "That's cool that you're poking around, but " );
 
           tag_text(
