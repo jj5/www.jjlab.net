@@ -37,14 +37,6 @@ jjlab_commit() {
 
 }
 
-jjlab_version_increment_patch() {
-
-  jjlab_validate_dev_environment;
-
-  php bin/dev/libexec/version-increment-patch.php;
-
-}
-
 jjlab_gen() {
 
   jjlab_validate_dev_environment;
