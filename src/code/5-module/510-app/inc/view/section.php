@@ -31,6 +31,8 @@ define( 'TITLE_SHOW_MAXITRONIX', 'Click here to watch the videos where I work th
 define( 'TITLE_SHOW_MINI_PROJECT', 'Click here to watch the videos where I work through Mini Projects from Silicon Chip and Jaycar. [Hotkey: J]' );
 define( 'TITLE_SHOW_EXTRA', "Click here to watch extra content which didn't make it to the main channel." );
 
+define( 'TITLE_ID_BADGE', 'Click here to read about my ID badge and my costume.' );
+
 define( 'TITLE_MAXITRONIX_EQUIPMENT', 'Click here to see the various Maxitronix equipment which I own.' );
 
 define( 'TITLE_ABOUT_SHOW_NOTES', 'Click here to read about the show notes.' );
@@ -2543,7 +2545,20 @@ function render_section_about_silly_job_title( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'On my ID badge is a silly job title which I change for each ' );
+      out_text( 'On my ' );
+
+      tag_text(
+        'a',
+        'ID badge',
+        [
+          'href' => url_base() . '/#costume',
+          'class' => 'internal',
+          'rel' => 'follow',
+          'title' => TITLE_ID_BADGE,
+        ]
+      );
+
+      out_text( ' is a silly job title which I change for each ' );
 
       tag_text(
         'a',
