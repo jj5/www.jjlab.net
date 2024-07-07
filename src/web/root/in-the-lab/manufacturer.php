@@ -62,6 +62,35 @@ function render_equipment_list_for_manufacturer( $manufacturer, $equipment_list 
 
     tag_shut( 'header' );
 
+    if ( $manufacturer_name === 'Maxitronix' ) {
+
+      tag_open( 'section' );
+
+        tag_text( 'h2', "Maxitronix Xin1 Kits", [ 'id' => 'maxitronix-kits' ] );
+
+        tag_open( 'p' );
+
+          out_text( "If you're interested in the Maxitronix kits you might like to check out " );
+
+          tag_text(
+            'a',
+            'my Maxitronix Xin1 videos',
+            [
+              'href' => url_base() . '/feature.php/maxitronix',
+              'class' => 'internal',
+              'rel' => 'follow',
+              'title' => TITLE_FEATURE_MAXITRONIX,
+            ]
+          );
+
+          out_text( '.' );
+
+        tag_shut( 'p' );
+
+      tag_shut( 'section' );
+
+    }
+
     render_equipment( $equipment_list );
 
   render_foot();

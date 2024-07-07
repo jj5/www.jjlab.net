@@ -7453,7 +7453,6 @@ equipment(
   ),
 );
 
-
 equipment(
   equipment_date( '2021-08-14' ),
   equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2220.jpg' ),
@@ -7570,7 +7569,6 @@ equipment(
   ),
 );
 
-
 equipment(
   equipment_date( '2021-08-09' ),
   equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2209.jpg' ),
@@ -7608,7 +7606,6 @@ equipment(
     order_quantity  ( 1 ),
   ),
 );
-
 
 equipment(
   equipment_date( '2021-08-16' ),
