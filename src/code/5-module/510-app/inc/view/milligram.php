@@ -852,7 +852,7 @@ Following is a list of products I use which may appear in my videos. Clicking th
   out_text("
 If you have any questions about any of the products I use please do ask in the comments section. I'm always happy to help.
 
-Thank you! Don't forget to hit subscribe! :)");
+Thanks very much for watching! And please remember to hit like and subscribe! :)");
 
   tag_shut( 'textarea' );
 
@@ -915,7 +915,9 @@ function render_blog_template( $equipment_list ) {
         ]
       );
 
-      out_text( "You can support this channel on Patreon: " );
+      tag_shut( 'iframe' );
+
+      out_text( "\n\nYou can support this channel on Patreon: " );
       
       tag_text(
         'a',
