@@ -7363,7 +7363,7 @@ equipment(
     category          ( 'Electronics Kit' ),
     manufacturer_link (
       link_href       ( 'https://www.altronics.com.au/p/k2200-maxitronix-10-in-1-electronics-lab-kit/' ),
-      link_text       ( '10 In 1 Electronics Project Lab Kit (10in1)' ),
+      link_text       ( '10 In 1 Electronics Project Lab Kit' ),
     ),
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
@@ -7427,20 +7427,20 @@ equipment(
     category          ( 'Electronics Kit' ),
     manufacturer_link (
       link_href       ( 'https://www.altronics.com.au/p/k2204-maxitronix-30-in-1-electronics-lab-kit/' ),
-      link_text       ( 'Maxitronix 30 In 1 Electronics Project Lab Kit (30in1)' ),
+      link_text       ( 'Maxitronix 30 In 1 Electronics Project Lab Kit' ),
     ),
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
   affiliate_link(
     equipment_url ( 'https://www.altronics.com.au/p/k2204-maxitronix-30-in-1-electronics-lab-kit/' ),
-    listing_name  ( "Maxitronix 30 In 1 Electronics Project Lab Kit (30in1)" ),
+    listing_name  ( "Maxitronix 30 In 1 Electronics Project Lab Kit" ),
     item_price    ( 'AU$56.36' ),
   ),
   search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+30&_sacat=0' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+30&_sacat=0' ),
     affiliate_url ( 'https://ebay.us/12nDbe' ),
-    listing_name  ( "Maxitronix 30 In 1 Electronics Project Lab Kit (30in1)" ),
+    listing_name  ( "Maxitronix 30 In 1 Electronics Project Lab Kit" ),
   ),
   purchase(
     equipment_url   ( 'https://www.ebay.com.au/itm/111242419519' ),
@@ -7465,7 +7465,7 @@ equipment(
     category          ( 'Electronics Kit' ),
     manufacturer_link (
       link_href       ( 'https://www.altronics.com.au/p/k2220-maxitronix-digital-recording-lab-kit/' ),
-      link_text       ( 'Maxitronix Electronic Digital Recording Laboratory (59in1)' ),
+      link_text       ( 'Maxitronix Electronic Digital Recording Laboratory' ),
     ),
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
