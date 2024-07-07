@@ -871,7 +871,7 @@ show(
 
 show(
   interlude(
-    publication_date( '2024-07-07' ),
+    publication_date( '2024-07-08' ),
     title( "ElectroneX 2024 Debriefing" ),
     youtube_video( '' ),
     blog_url( '' ),
