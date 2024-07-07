@@ -932,6 +932,23 @@ function render_blog_template( $equipment_list ) {
         ]
       );
 
+      out_text( "\n\n" );
+      
+      tag_text(
+        'a',
+        'Silly Job Title',
+        [
+          'href' => url_base() . '/#silly-job-title',
+          'target' => '_blank',
+          'rel' => 'follow',
+          'title' => TITLE_SILLY_JOB_TITLE,
+          MUD_HTML_OPT_SPACE => false,
+          MUD_HTML_OPT_BREAK => false,
+        ]
+      );
+
+      out_text( ": ..." );
+
       out_text( "\n\nIn this video I ...\n\n" );
 
       out_text( "Thanks very much for watching! And please remember to hit like and subscribe!\n\n" );
