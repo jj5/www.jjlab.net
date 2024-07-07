@@ -941,7 +941,7 @@ function render_blog_template( $equipment_list ) {
           'href' => url_base() . '/#silly-job-title',
           'target' => '_blank',
           'rel' => 'follow',
-          'title' => TITLE_SILLY_JOB_TITLE,
+          'title' => 'Click here to read about the silly job title.',
           MUD_HTML_OPT_SPACE => false,
           MUD_HTML_OPT_BREAK => false,
         ]
