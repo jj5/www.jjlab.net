@@ -15,6 +15,8 @@ abstract class Segment extends Item {
 
   public abstract function get_feature();
 
+  public function get_patreon_url() { return $this->get_closest( PatreonUrl::class ); }
+
   public function render_extra_video_attributes() { ; }
 
   public function get_book() { return $this->get( Book::class ); }
@@ -347,6 +349,25 @@ abstract class Segment extends Item {
               'class' => 'internal',
               'rel' => 'follow',
               'title' => TITLE_PERMALINK,
+            ]
+          );
+
+        tag_shut( 'dd' );
+
+
+        tag_text( 'dt', 'Patreon Link' );
+
+        tag_open( 'dd' );
+
+          tag_text(
+            'a',
+            'www.patreon.com',
+            [
+              'href' => $this->get_video()->get_segment()->get_patreon_url()->to_string(),
+              'class' => 'external',
+              'target' => '_blank',
+              'rel' => 'noopener follow',
+              'title' => TITLE_PATREON_POST,
             ]
           );
 

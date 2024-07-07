@@ -98,6 +98,7 @@ define( 'TITLE_SOFTWARE_VERSION', 'Click here for information about the website 
 define( 'TITLE_DEBUG', 'Click here at your peril. :) [Hotkey: D]' );
 
 define( 'TITLE_PERMALINK', 'Click here for the permanent link to this video.' );
+define( 'TITLE_PATREON_POST', "Click here to see the announcement for this video on Patreon. You could subscribe while you're there! :)" );
 
 define( 'TITLE_LINK_EMAIL', 'Click here to send me an email.' );
 
