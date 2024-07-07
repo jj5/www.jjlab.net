@@ -31,6 +31,8 @@ define( 'TITLE_SHOW_MAXITRONIX', 'Click here to watch the videos where I work th
 define( 'TITLE_SHOW_MINI_PROJECT', 'Click here to watch the videos where I work through Mini Projects from Silicon Chip and Jaycar. [Hotkey: J]' );
 define( 'TITLE_SHOW_EXTRA', "Click here to watch extra content which didn't make it to the main channel." );
 
+define( 'TITLE_MAXITRONIX_EQUIPMENT', 'Click here to see the various Maxitronix equipment which I own.' );
+
 define( 'TITLE_ABOUT_SHOW_NOTES', 'Click here to read about the show notes.' );
 define( 'TITLE_SHOW_NOTES', 'Click here to read the show notes published with this video.' );
 
@@ -84,6 +86,7 @@ define( 'TITLE_RSS_FEED', TITLE_NAV_FEED );
 define( 'TITLE_VIDEO_INDEX', 'Click here to see the "secret" index of all videos. [Hotkey: V]' );
 define( 'TITLE_BOOK_INDEX', 'Click here to see the "secret" index of all books. [Hotkey: B]' );
 define( 'TITLE_BLOG_TEMPLATE', 'Click here to see the template blog post that John uses for the show notes. [Hotkey: T]' );
+define( 'TITLE_YOUTUBE_TEMPLATE', 'Click here to see my YouTube video comment template. [Hotkey: Q]' );
 define( 'TITLE_SOFTWARE_VERSION', 'Click here for information about the website software [Hotkey: Z]' );
 define( 'TITLE_DEBUG', 'Click here at your peril. :) [Hotkey: D]' );
 
@@ -2027,6 +2030,25 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
         );
 
       tag_shut( 'a' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( "If you're interested in these kits you can find some information about where to buy them on my " );
+
+      tag_text(
+        'a',
+        'Maxitronix',
+        [
+          'href' => url_base() . '/feature.php/maxitronix',
+          'class' => 'internal',
+          'rel' => 'follow',
+          'title' => TITLE_MAXITRONIX_EQUIPMENT,
+        ]
+      );
+
+      out_text( ' page.' );
 
     tag_shut( 'p' );
 

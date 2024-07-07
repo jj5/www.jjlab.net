@@ -94,6 +94,7 @@ function handle_keydown( ev ) {
     'x': '/sitemap.php',
     'r': '/feed.php',
     't': '/blog-template.php#heading',
+    'q': '/equipment-text.php#heading',
     'z': '/about.php#software-version',
     'd': '/debug.php'
   };

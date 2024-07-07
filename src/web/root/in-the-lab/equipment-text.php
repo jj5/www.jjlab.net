@@ -63,15 +63,6 @@ function render_equipment_main() {
 
     tag_open( 'section' );
 
-?>
-  <p>Let's go shopping!</p>
-
-<?php
-
-    tag_shut( 'section' );
-
-    tag_open( 'section' );
-
       render_equipment_text( $equipment_list );
 
     tag_shut( 'section' );
