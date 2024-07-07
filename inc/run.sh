@@ -2,32 +2,36 @@
 
 set -euo pipefail;
 
-jjlab_load_libexec_and_run() {
+#echo "${BASH_SOURCE[@]}";
+#echo "${BASH_SOURCE[0]}";
+#echo "${BASH_SOURCE[1]}";
 
-  #echo "${BASH_SOURCE[@]}";
-  #echo "${BASH_SOURCE[0]}";
-  #echo "${BASH_SOURCE[1]}";
+if [[
+  "$USER" == 'jj5' &&
+  "$HOSTNAME" == 'charisma' && 
+  -d /home/jj5/repo/git/github/jj5/kickass-libexec
+]]; then
 
-  # 2024-07-06 jj5 - this is the location of the libexec which ships with jjlab, but on 'charisma' I use a different one
-  #
-  local default_libexec="$( realpath "$( dirname "${BASH_SOURCE[0]}" )/../ext/libexec" )";
+  source /home/jj5/repo/git/github/jj5/kickass-libexec/inc/run.sh
 
-  if [[
-    "$USER" == 'jj5' &&
-    "$HOSTNAME" == 'charisma' && 
-    -d /home/jj5/repo/git/github/jj5/kickass-libexec
-  ]]; then
+  exit $?;
 
-    source /home/jj5/repo/git/github/jj5/kickass-libexec/inc/run.sh
+fi;
 
-    return $?;
+# 2024-07-06 jj5 - this is the location of the libexec which ships with jjlab, but on 'charisma' I use a different one
+#
+default_libexec="$( realpath "$( dirname "${BASH_SOURCE[0]}" )/../ext/libexec" )";
 
-  fi;
+if [[ -d "${default_libexec}" ]]; then
 
   source "${default_libexec}/inc/run.sh";
 
-  return $?;
+  exit $?;
 
-}
+fi;
 
-jjlab_load_libexec_and_run;
+LX_EXIT_FILE_MISSING=41;
+
+echo "no libexec found." >&2;
+
+exit $LX_EXIT_FILE_MISSING;
