@@ -938,7 +938,7 @@ function render_blog_template( $equipment_list ) {
         'a',
         'Silly Job Title',
         [
-          'href' => url_base() . '/#silly-job-title',
+          'href' => 'https://www.inthelabwithjayjay.com/in-the-lab/#silly-job-title',
           'target' => '_blank',
           'rel' => 'follow',
           'title' => 'Click here to read about the silly job title.',
