@@ -767,7 +767,7 @@ function render_section_about_video_content( int $heading_level = 2 ) {
 
       out_text( 'My format has been evolving since I started, but these days when I start a video I say ' );
       out_text( '"Hi there! You\'re in the lab with your mate Jay Jay!" and when I close a video I say ' );
-      out_text( '"Thanks very much for watching! And please remember to click like and subscribe!" ' );
+      out_text( '"Thanks very much for watching! And please remember to hit like and subscribe!" ' );
       out_text( 'I guess this is fairly straight bat and boring, but that\'s okay. ' );
       out_text( 'Other things that I like to say include "It never hurts to test!" and "Let\'s make a cable!"' );
 
