@@ -56,7 +56,11 @@ class IntervalValue extends Value {
     // Create a DateTime object representing the end time by adding the interval to the start time
     $end = clone $start;
 
-    $end->add( $this->get_value() );
+    $date_interval = $this->get_value();
+
+    if ( ! $date_interval ) { return 0; }
+
+    $end->add( $date_interval );
 
     // Calculate the difference in seconds
     $seconds = $end->getTimestamp() - $start->getTimestamp();

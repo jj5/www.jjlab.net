@@ -7121,6 +7121,112 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2023-10-20' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/S9521977181be4b90a8ffdbd1bbeed0027.jpg' ),
+  equipment_info(
+    model_name        ( 'Aokin' ),
+    equipment_type    ( 'Wire Cutter' ),
+    category          ( 'Wire Cutter' ),
+    category          ( 'Hand Tool' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Aokin1PC_Wire_Cutter' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005004748524842.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_Dmniw3Z' ),
+    listing_name  ( 'Aokin1PC 170 Universal Pliers DIY Electronic Diagonal Side Cutting Nippers Wire Cable Cutter 3D Printer Parts Hand Tools' ),
+    item_options  ( 'Color: 1pcs' ),
+    item_price    ( 'AU$3.60' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005004748524842.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.22.1de31802quIOg1&orderId=8177641878953938' ),
+    order_id        ( '8177641878953938' ),
+    order_date      ( 'Oct 20, 2023' ),
+    order_item_name ( 'Aokin1PC 170 Universal Pliers DIY Electronic Diagonal Side Cutting Nippers Wire Cable Cutter 3D Printer Parts Hand Tools' ),
+    order_options   ( 'Color: 1pcs' ),
+    order_price     ( 'AU$3.20' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-09-07' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/Sf47b9596e1cf4e6483e10539dba899bcL/Chip-Test-Clip-Multimeter-Probe-Tweezers-Patch-For-Capacitance-Inductance-SMD-Resistor-Capacitor-Tester-Meter-Pen.jpeg_.webp' ),
+  equipment_info(
+    model_name        ( 'Yum Cha' ),
+    equipment_type    ( 'Probe Tweezers' ),
+    category          ( 'Probe Tweezers' ),
+    category          ( 'Test Tweezers' ),
+    category          ( 'Tweezers' ),
+    category          ( 'Hand Tool' ),
+    category          ( 'Test Clip' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Probe_Tweezers' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005277270043.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DDxvnvv' ),
+    listing_name  ( 'Chip Test Clip Multimeter Probe Tweezers Patch For Capacitance Inductance SMD Resistor Capacitor Tester Meter Pen Testing Tool' ),
+    item_price    ( 'AU$4.71' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/4000866582347.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DkrRfbN' ),
+    listing_name  ( 'Multimeter Test Leads Digital Multimeter SMD Inductor Test Clip Meter Lead Probe Tweezers for Resistor Multimeter Capacitor' ),
+    item_price    ( 'AU$5.85' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005001644954.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_Dm4WGYx' ),
+    listing_name  ( 'LCR Digital Multimeter Probe Tweezers SMD Inductor Test Leads Clip Needle Tip Meter Cable Set for Resistor Capacitor Test Pen' ),
+    item_options  ( 'Color: as shown' ),
+    item_price    ( 'AU$6.46' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005004658588816.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DClaesL' ),
+    listing_name  ( 'Clip Test Pen SMD Multimeter Probe Tweezers Patch For Capacitance Inductance Resistor Measurement Multi-Use Electric Tool' ),
+    item_price    ( 'AU$5.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005277270043.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.16.35b91802hDZRrh&orderId=8174938836193938' ),
+    order_id        ( '8174938836193938' ),
+    order_date      ( 'Sep 7, 2023' ),
+    order_item_name ( 'Chip Test Clip Multimeter Probe Tweezers Patch For Capacitance Inductance SMD Resistor Capacitor Tester Meter Pen Testing Tool' ),
+    order_price     ( 'AU$4.84' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/4000866582347.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.11.35b91802hDZRrh&orderId=8174938836173938' ),
+    order_id        ( '8174938836173938' ),
+    order_date      ( 'Sep 7, 2023' ),
+    order_item_name ( 'Multimeter Test Leads Digital Multimeter SMD Inductor Test Clip Meter Lead Probe Tweezers for Resistor Multimeter Capacitor' ),
+    order_price     ( 'AU$5.30' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005001644954.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.1.35b91802hDZRrh&orderId=8174938836113938' ),
+    order_id        ( '8174938836113938' ),
+    order_date      ( 'Sep 7, 2023' ),
+    order_item_name ( 'LCR Digital Multimeter Probe Tweezers SMD Inductor Test Leads Clip Needle Tip Meter Cable Set for Resistor Capacitor Test Pen' ),
+    order_options   ( 'Color: as shown' ),
+    order_price     ( 'AU$6.46' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005004658588816.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.6.35b91802hDZRrh&orderId=8174938836133938' ),
+    order_id        ( '8174938836133938' ),
+    order_date      ( 'Sep 7, 2023' ),
+    order_item_name ( 'Clip Test Pen SMD Multimeter Probe Tweezers Patch For Capacitance Inductance Resistor Measurement Multi-Use Electric Tool' ),
+    order_price     ( 'AU$5.75' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
 /*
 
 equipment(

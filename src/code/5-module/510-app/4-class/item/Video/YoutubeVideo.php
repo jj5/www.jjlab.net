@@ -118,7 +118,7 @@ class YoutubeVideo extends Video {
     }
     catch ( Throwable $ex ) {
 
-      return 0.0;
+      return NullDuration::Instance();
 
     }
   }

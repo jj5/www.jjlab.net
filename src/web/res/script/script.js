@@ -26,12 +26,25 @@ function handle_error( ev ) {
   return true;
 }
 
+function is_focus_on_input() {
+
+  const active = document.activeElement;
+
+  return active.tagName === 'INPUT' || active.tagName === 'TEXTAREA';
+
+}
+
 function handle_keydown( ev ) {
 
   console.log( ev.key );
 
   // 2024-07-05 jj5 - Thank You, GitHub Copilot! :)
   //window.location.href = 'https://www.youtube.com/watch?v=ZnHmskwqCCQ';
+
+  //ev.shiftKey;
+  if ( ev.ctrlKey || ev.altKey || ev.metaKey ) { return; }
+
+  if ( is_focus_on_input() ) { return; }
 
   // 2024-07-05 jj5 - support for link to top of page...
   //

@@ -144,6 +144,7 @@ class Category extends StringValue {
       'Telescopic Tool',
       'Pickup Tool',
       'Hand Tool',
+      'Wire Cutter',
 
       'Thermal Imager',
       'Barcode Scanner',
@@ -168,6 +169,8 @@ class Category extends StringValue {
       'Clamp',
 
       'Probe',
+      'Probe Tweezers',
+      'Test Tweezers',
       'Test Clip',
 
       'Cutting Disc',
