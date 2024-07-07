@@ -355,7 +355,7 @@ abstract class Segment extends Item {
         tag_shut( 'dd' );
 
 
-        tag_text( 'dt', 'Patreon Link' );
+        tag_text( 'dt', 'Patreon Announcement' );
 
         tag_open( 'dd' );
 
