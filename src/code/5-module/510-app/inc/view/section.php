@@ -1171,7 +1171,7 @@ function render_section_about_rss_feeds( int $heading_level = 2 ) {
       );
 
       out_text( '. ' );
-      out_text( 'If you subscribe to the RSS feed on my blog you will get posts about everything I publish across my ' );
+      out_text( 'If you subscribe to the RSS feed on my blog you will get posts about all the videos I publish across my ' );
       out_text( 'channels, but you will also get everything else that I blog about too! ' );
       out_text( 'This is either a good thing or a bad thing, depending on your inclinations. :)' );
 
