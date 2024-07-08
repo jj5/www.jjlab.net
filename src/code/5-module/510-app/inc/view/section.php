@@ -76,6 +76,7 @@ define( 'TITLE_SPONSOR', 'Click here to learn more about my generous sponsors. [
 define( 'TITLE_PATREON', 'Click here to see my generous supporters on Patreon, and maybe join them?' );
 define( 'TITLE_EQUIPMENT', 'Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]' );
 define( 'TITLE_STETMANN', 'Click here to see the Egon Stetmann page on the StarCraft Wiki.' );
+define( 'TITLE_STARCRAFT2', 'Click here for more info about my favorite computer game: StarCraft II.' );
 define( 'TITLE_CONTACT', 'Click here to find my contact details. [Hotkey: C]' );
 define( 'TITLE_AFFILIATE', "Click here to read about the show's affiliates." );
 define( 'TITLE_BLOG', 'Click here to visit my blog!' );
@@ -2617,7 +2618,21 @@ function render_section_about_costume( int $heading_level = 2 ) {
         ]
       );
 
-      out_text( ', the Chief Scientist from StarCraft II:' );
+      out_text( ', the Chief Scientist from ' );
+
+      tag_text(
+        'a',
+        'StarCraft II',
+        [
+          'href' => 'https://starcraft2.blizzard.com/',
+          'class' => 'external',
+          'target' => '_blank',
+          'rel' => 'noopener follow',
+          'title' => TITLE_STARCRAFT2,
+        ]
+      );
+
+      out_text( ':' );
 
     tag_shut( 'p' );
 
