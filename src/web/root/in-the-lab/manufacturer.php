@@ -34,8 +34,9 @@ function render_equipment_list_for_manufacturer( $manufacturer, $equipment_list 
 
   $manufacturer_name = $manufacturer->to_string();
   $count = count( $equipment_list );
+  $title = "Equipment from $manufacturer_name";
 
-  render_head( "Equipment From $manufacturer_name" );
+  render_head( $title );
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
@@ -43,7 +44,7 @@ function render_equipment_list_for_manufacturer( $manufacturer, $equipment_list 
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
-        tag_text( 'h1', "Equipment From $manufacturer_name" );
+        tag_text( 'h1', $title );
 
         if ( $count === 1 ) {
 
@@ -57,6 +58,8 @@ function render_equipment_list_for_manufacturer( $manufacturer, $equipment_list 
           tag_text( 'p', "I have $number pieces of equipment from $manufacturer_name."  );
 
         }
+
+        render_equipment_header( $equipment_list );
 
       tag_shut( 'section' );
 

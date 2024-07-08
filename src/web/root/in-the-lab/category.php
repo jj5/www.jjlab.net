@@ -34,8 +34,9 @@ function render_equipment_list_for_category( $category, $equipment_list ) {
 
   $category_name = $category->to_string();
   $count = count( $equipment_list );
+  $title = "Equipment Category: $category_name";
 
-  render_head( $category_name );
+  render_head( $title );
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
@@ -43,7 +44,7 @@ function render_equipment_list_for_category( $category, $equipment_list ) {
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
-        tag_text( 'h1', $category_name );
+        tag_text( 'h1', $title );
 
         if ( $count === 1 ) {
 
@@ -57,6 +58,8 @@ function render_equipment_list_for_category( $category, $equipment_list ) {
           tag_text( 'p', "I have $number pieces of equipment in this category."  );
 
         }
+
+        render_equipment_header( $equipment_list );
 
       tag_shut( 'section' );
 
