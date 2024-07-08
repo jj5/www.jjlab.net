@@ -2662,7 +2662,7 @@ function render_section_about_costume( int $heading_level = 2 ) {
         [
           'style' => 'width:500px',
           'src' => url_base( $use_cdn = true ) . '/res/img.php/JohnElliotV-500-2.jpg?v=' . get_resource_version(),
-          'alt' => 'A picture of John wearing his costume.',
+          'alt' => 'A picture of Jay Jay wearing his costume.',
         ]
       );
 
