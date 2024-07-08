@@ -133,9 +133,9 @@ function render_equipment_page( $equipment_list ) {
 
     render_equipment( $equipment_list );
 
-    if ( $item ) {
+    tag_bare( 'hr', [ 'style' => 'border: 1px solid gray;' ] );
 
-      tag_bare( 'hr', [ 'style' => 'border: 1px solid gray;' ] );
+    if ( $item ) {
 
       tag_open( 'section' );
 
@@ -148,6 +148,8 @@ function render_equipment_page( $equipment_list ) {
       render_equipment_disclaimer( $count );
 
     }
+
+    render_section_contents();
 
   render_foot();
 
@@ -334,7 +336,7 @@ function render_equipment_disclaimer( $count ) {
 
       tag_open( 'li' );
 
-        out_text( "Shipping costs and sales tax are (usually) not included in the prices listed here." );
+        out_text( "Shipping costs and sales tax are not always included in the prices listed here." );
 
       tag_shut( 'li' );
 
