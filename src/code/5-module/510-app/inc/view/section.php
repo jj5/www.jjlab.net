@@ -1172,7 +1172,7 @@ function render_section_about_rss_feeds( int $heading_level = 2 ) {
 
       out_text( '. ' );
       out_text( 'If you subscribe to the RSS feed on my blog you will get posts about everything I publish across my ' );
-      out_text( 'channels, but you will get everything else that I blog about too! ' );
+      out_text( 'channels, but you will also get everything else that I blog about too! ' );
       out_text( 'This is either a good thing or a bad thing, depending on your inclinations. :)' );
 
     tag_shut( 'p' );
@@ -2504,7 +2504,20 @@ function render_section_about_costume( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'When I make main channel content ' );
+      out_text( 'When I make ' );
+
+      tag_text(
+        'a',
+        'main channel',
+        [
+          'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
+          'class' => 'internal',
+          'rel' => 'follow',
+          'title' => TITLE_SHOW_MAIN,
+        ]
+      );
+
+      out_text( ' content ' );
 
       tag_text( 'b', 'I wear my costume' );
 
