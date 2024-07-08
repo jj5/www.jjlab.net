@@ -113,6 +113,8 @@ function render_equipment_page( $equipment_list ) {
 
         tag_text( 'p', 'Click through on the green affiliate links to buy!' );
 
+        render_equipment_notes( $item );
+
       tag_shut( 'section' );
 
     tag_shut( 'header' );
@@ -129,11 +131,109 @@ function render_equipment_page( $equipment_list ) {
 
       tag_bare( 'hr', [ 'style' => 'border: 1px solid gray;' ] );
 
+      tag_open( 'section' );
+
+        tag_text( 'h2', 'More Information', [ 'id' => 'more-info' ] );
+
+        render_equipment_notes( $item );
+
+      tag_shut( 'section' );
+
       render_equipment_disclaimer( $count );
 
     }
 
   render_foot();
+
+}
+
+function render_equipment_notes( $item ) {
+
+  if ( ! $item ) { return; }
+
+  tag_open( 'p' );
+
+  $wiki_link = $item->get_sixsigma_url()->to_string();
+
+  if ( $wiki_link ) {
+
+    out_text( "If you would like more information about the " );
+
+    tag_text(
+      'a',
+      $item->get_equipment_name()->to_string(),
+      [
+        'href' => '#' . $item->get_equipment_id(),
+        'class' => 'internal',
+        'rel' => 'follow',
+        'title' => TITLE_LINK_EQUIPMENT,
+      ]
+    );
+
+    out_text( " you might like to check out " );
+
+    tag_text(
+      'a',
+      'my notes',
+      [
+        'href' => $wiki_link,
+        'class' => 'external',
+        'target' => '_blank',
+        'rel' => 'noopener follow',
+        'title' => TITLE_LINK_SIXSIGMA,
+      ]
+    );
+
+    out_text( '.' );
+
+  }
+
+  tag_shut( 'p' );
+
+  tag_open( 'p' );
+
+    out_text( "If you would like to see all of my equipment check out the " );
+
+    tag_text(
+      'a',
+      'equipment',
+      [
+        'href' => url_base() . '/equipment.php',
+        'class' => 'internal',
+        'rel' => 'follow',
+        'title' => TITLE_LINK_EQUIPMENT,
+      ]
+    );
+
+    out_text( " page. You can also get my equipment indexed by " );
+
+    tag_text(
+      'a',
+      'category',
+      [
+        'href' => url_base() . '/category.php',
+        'class' => 'internal',
+        'rel' => 'follow',
+        'title' => TITLE_LINK_CATEGORY,
+      ]
+    );
+
+    out_text( ' or by ' );
+
+    tag_text(
+      'a',
+      'manufacturer',
+      [
+        'href' => url_base() . '/manufacturer.php',
+        'class' => 'internal',
+        'rel' => 'follow',
+        'title' => TITLE_LINK_MANUFACTURER,
+      ]
+    );
+
+    out_text( '.' );
+
+  tag_shut( 'p' );
 
 }
 
