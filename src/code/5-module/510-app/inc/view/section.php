@@ -2043,6 +2043,7 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
         tag_bare(
           'img',
           [
+            'loading' => 'lazy',
             'src' => 'https://d297fd4gt7t5lv.cloudfront.net/file/2021-08-26-153328/IMG_1490.JPG?v=' . get_resource_version(),
             'alt' => henc( ALT_MAXITRONIX_LABS ),
             'style' => 'width:500px',
@@ -2641,6 +2642,7 @@ function render_section_about_costume( int $heading_level = 2 ) {
       tag_bare(
         'img',
         [
+          'loading' => 'lazy',
           'style' => 'width:500px',
           'src' => url_base( $use_cdn = true ) . '/res/img.php/EgonStetmann_SC2-WoL_Story1.webp?v=' . get_resource_version(),
           'alt' => 'Egon Stetmann, the Chief Scientist from StarCraft II.',
@@ -2660,6 +2662,7 @@ function render_section_about_costume( int $heading_level = 2 ) {
       tag_bare(
         'img',
         [
+          'loading' => 'lazy',
           'style' => 'width:500px',
           'src' => url_base( $use_cdn = true ) . '/res/img.php/JohnElliotV-500-2.jpg?v=' . get_resource_version(),
           'alt' => 'A picture of Jay Jay wearing his costume.',
