@@ -1681,11 +1681,11 @@ function render_equipment_list( $equipment_list ) {
 
       $short_link = $equipment->get_short_link();
 
-      tag_open( 'section', [ 'id' => $id, 'class' => 'container' ] );
+      tag_open( 'section', [ 'class' => 'container' ] );
 
         //tag_bare( 'br', [ 'style' => 'clear:both' ] );
 
-        tag_open( 'h2', [ 'class' => 'equipment clearfix' ] );
+        tag_open( 'h2', [ 'id' => $id, 'class' => 'equipment clearfix' ] );
 
           out_text( $equipment_text );
 
