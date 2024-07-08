@@ -80,6 +80,7 @@ define( 'TITLE_STARCRAFT2', 'Click here for more info about my favorite computer
 define( 'TITLE_CONTACT', 'Click here to find my contact details. [Hotkey: C]' );
 define( 'TITLE_AFFILIATE', "Click here to read about the show's affiliates." );
 define( 'TITLE_BLOG', 'Click here to visit my blog!' );
+define( 'TITLE_BLOG_FEED', 'Click here for the RSS feed from my blog.' );
 define( 'TITLE_SUPPORT', 'Click here to find out how you can support the show. [Hotkey: U]' );
 define( 'TITLE_ABOUT', 'Click here for more info about the show and this website. [Hotkey: A]' );
 define( 'TITLE_ABOUT_SHORTCUTS', 'Click here for a list of supported hotkeys. [Hotkey: ?]' );
@@ -696,9 +697,8 @@ function render_section_about_announcements( int $heading_level = 2 ) {
           'InTheLabWithJayJay.com',
           [
             'href' => 'https://www.InTheLabWithJayJay.com/',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
+            'class' => 'internal',
+            'rel' => 'follow',
             'title' => TITLE_MAIN,
           ]
         );
@@ -717,11 +717,29 @@ function render_section_about_announcements( int $heading_level = 2 ) {
           ]
         );
 
-        out_text( ', with videos and links to everything else)' );
+        out_text( ')' );
 
       tag_shut( 'li' );
   
     tag_shut( 'ul' );
+
+    tag_open( 'p' );
+
+      out_text( "If you're interested in getting notifications about new videos you can subscribe to an " );
+
+      tag_text(
+        'a',
+        'RSS feed',
+        [
+          'href' => url_base() . '/#feeds',
+          'class' => 'internal',
+          'title' => TITLE_RSS,
+        ]
+      );
+
+      out_text( '.' );
+
+    tag_shut( 'p' );
 
   tag_shut( 'section' );
 
@@ -1121,6 +1139,42 @@ function render_section_about_rss_feeds( int $heading_level = 2 ) {
       tag_shut( 'li' );
 
     tag_shut( 'ul' );
+
+    tag_open( 'p' );
+
+      out_text( 'My ' );
+
+      tag_text(
+        'a',
+        'blog',
+        [
+          'href' => 'https://blog.jj5.net/',
+          'class' => 'external',
+          'target' => '_blank',
+          'rel' => 'noopener follow',
+          'title' => TITLE_BLOG,
+        ]
+      );
+
+      out_text( ' also has an ' );
+
+      tag_text(
+        'a',
+        'RSS feed',
+        [
+          'href' => 'https://blog.jj5.net/blog/feed/',
+          'class' => 'external',
+          'target' => '_blank',
+          'rel' => 'noopener follow',
+          'title' => TITLE_BLOG_FEED,
+        ]
+      );
+
+      out_text( '. If you subscribe to the RSS feed on my blog you will get posts about everything I publish across my ' );
+      out_text( 'channels, but you will get everything else that I blog about too! This is either a good or bad thing, ' );
+      out_text( 'depending on your inclinations. :)' );
+
+    tag_shut( 'p' );
 
   tag_shut( 'section' );
 
