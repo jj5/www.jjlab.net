@@ -1170,9 +1170,10 @@ function render_section_about_rss_feeds( int $heading_level = 2 ) {
         ]
       );
 
-      out_text( '. If you subscribe to the RSS feed on my blog you will get posts about everything I publish across my ' );
-      out_text( 'channels, but you will get everything else that I blog about too! This is either a good or bad thing, ' );
-      out_text( 'depending on your inclinations. :)' );
+      out_text( '. ' );
+      out_text( 'If you subscribe to the RSS feed on my blog you will get posts about everything I publish across my ' );
+      out_text( 'channels, but you will get everything else that I blog about too! ' );
+      out_text( 'This is either a good thing or a bad thing, depending on your inclinations. :)' );
 
     tag_shut( 'p' );
 
