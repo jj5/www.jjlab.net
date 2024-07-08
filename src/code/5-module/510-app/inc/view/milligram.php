@@ -887,11 +887,11 @@ function render_blog_template( $equipment_list ) {
         ]
       );
 
-      out_text( " and you can find more information about this video on this show's homepage which is " );
+      out_text( " and you can find more information about this video on " );
 
       tag_text(
         'a',
-        'here',
+        "this show's homepage",
         [
           'href' => '#',
           'target' => '_blank',
