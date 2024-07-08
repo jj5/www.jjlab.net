@@ -392,7 +392,7 @@ function render_section_about_main( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'If you need more info or contact details you can find them on the ' );
+      out_text( 'You can find more info about this website on the ' );
 
       tag_text(
         'a',
@@ -404,7 +404,19 @@ function render_section_about_main( int $heading_level = 2 ) {
         ]
       );
 
-      out_text( ' page.' );
+      out_text( ' page and you can find contact details on the ' );
+
+      tag_text(
+        'a',
+        'contact',
+        [
+          'href' => url_base() . '/contact.php',
+          'class' => 'internal',
+          'title' => TITLE_CONTACT,
+        ]
+      );
+
+      out_text( ' page, feel free to get in touch!' );
 
     tag_shut( 'p' );
 
@@ -780,9 +792,9 @@ function render_section_about_video_content( int $heading_level = 2 ) {
 
       out_text( 'If you have any suggestions concerning how I might improve either the content or the video quality ' );
 
-      tag_text( 'b', 'I would be very happy to hear from you' );
+      tag_text( 'b', 'I would be very happy to hear from you!' );
 
-      out_text( '! You can find my contact details on the ' );
+      out_text( ' You can find my contact details on the ' );
 
       tag_text(
         'a',
@@ -1233,7 +1245,7 @@ function render_section_about_show_notes( int $heading_level = 2 ) {
         ]
       );
 
-      out_text( ' or ' );
+      out_text( ' (main channel) or ' );
 
       tag_text(
         'a',
@@ -1245,7 +1257,7 @@ function render_section_about_show_notes( int $heading_level = 2 ) {
         ]
       );
 
-      out_text( ' I also write up show notes which get published on my blog: ' );
+      out_text( ' (2nd channel) I also write up show notes which get published on my blog: ' );
 
       tag_text(
         'a',
@@ -2574,7 +2586,7 @@ function render_section_about_costume( int $heading_level = 2 ) {
           ]
         );
 
-        out_text( ' with ' );
+        out_text( ' (with ' );
 
         tag_text(
           'a',
@@ -2585,6 +2597,8 @@ function render_section_about_costume( int $heading_level = 2 ) {
             'title' => TITLE_SILLY_JOB_TITLE,
           ]
         );
+
+        out_text( ')' );
 
       tag_shut( 'li' );
 
@@ -2602,7 +2616,7 @@ function render_section_about_costume( int $heading_level = 2 ) {
           ]
         );
 
-        out_text( ' with tools' );
+        out_text( ' (with tools)' );
 
         tag_open( 'ul' );
 
