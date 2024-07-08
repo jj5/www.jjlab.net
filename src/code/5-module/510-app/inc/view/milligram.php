@@ -159,7 +159,7 @@ function render_500( $message = null, $form = null, $issue = null, $exit = null,
 
 
 
-function render_head( $heading, array $options = [] ) {
+function render_head( string $heading, array $options = [] ) {
 
   static $nav_link = [
     [

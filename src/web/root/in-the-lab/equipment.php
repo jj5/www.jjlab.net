@@ -75,7 +75,7 @@ function render_equipment_page( $equipment_list ) {
 
   $count_formatted = number_format( $count );
 
-  render_head( 'Equipment' );
+  render_head( $count === 1 ? $item->get_equipment_name() : 'Equipment' );
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
