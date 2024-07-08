@@ -106,7 +106,7 @@ function render_support_main() {
 
       tag_open( 'p' );
 
-        out_text( "A great way to support the show at no cost to you is to click-through on any of the green affiliate links on my " );
+        out_text( "A great way to support the show at no cost to you is to click through on any of the green affiliate links on my " );
 
         tag_text(
           'a',

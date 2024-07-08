@@ -1030,7 +1030,7 @@ function render_equipment_disclaimer( $count ) {
 
       tag_open( 'li' );
 
-        out_text( "Prices are indicative only and can and will go out of date; click-through for the latest " );
+        out_text( "Prices are indicative only and can and will go out of date; click through for the latest " );
         out_text( "price." );
 
       tag_shut( 'li' );
