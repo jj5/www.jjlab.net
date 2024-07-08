@@ -357,11 +357,15 @@ abstract class Segment extends Item {
 
         tag_open( 'dd' );
 
+          $patreon_url = $this->get_video()->get_segment()->get_patreon_url()->to_string();
+
+          $patreon_link_text = str_replace( 'https://www.', '', $patreon_url );
+
           tag_text(
             'a',
-            'www.patreon.com',
+            $patreon_link_text,
             [
-              'href' => $this->get_video()->get_segment()->get_patreon_url()->to_string(),
+              'href' => $patreon_url,
               'class' => 'external',
               'target' => '_blank',
               'rel' => 'noopener follow',
