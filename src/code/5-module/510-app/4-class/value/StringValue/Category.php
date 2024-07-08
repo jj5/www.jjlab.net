@@ -129,6 +129,7 @@ class Category extends StringValue {
       'Tray',
       'Bench Equipment',
 
+      'Sonic Screwdriver',
       'Screwdriver',
       'Tweezers',
       'Rotary Tool',
@@ -150,6 +151,8 @@ class Category extends StringValue {
       'Claw Tool',
       'Telescopic Tool',
       'Pickup Tool',
+      'Stylus Pen',
+      'Ruler',
       'Hand Tool',
       'Wire Cutter',
 
@@ -210,7 +213,13 @@ class Category extends StringValue {
       'Magnifying Glass',
 
       'Head-Mounted',
+
+      'Safety Equipment',
+      'Safety Goggles',
       'Gloves',
+      'Lab Coat',
+      'Pocket Protector',
+      'Badge Holder',
 
       'Step Ladder',
       'Book Holder',

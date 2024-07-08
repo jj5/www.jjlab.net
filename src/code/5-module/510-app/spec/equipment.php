@@ -5102,6 +5102,7 @@ equipment(
     manufacturer_name ( "nmsafety" ),
     equipment_type    ( "Gloves" ),
     category          ( 'Gloves' ),
+    category          ( 'Safety Equipment' ),
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Nitrile_Gloves' ),
   search_url    ( 'https://www.aliexpress.com/w/wholesale-nmsafety-Gloves.html' ),
@@ -7711,6 +7712,232 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2023-09-16' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/S084127bd6e564973aa2ebf6abbb021d07/Universal-Stylus-Pen-Drawing-Tablet-Sensetive-Capacitive-Screen-Touch-Pen-for-Apple-Android-iPad-iPhone-Samsung.png_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Asometech" ),
+    model_name        ( "Universal" ),
+    equipment_type    ( "Stylus Pen" ),
+    category          ( 'Stylus Pen' ),
+    category          ( 'Hand Tool' ),
+    manufacturer_link (
+      link_href       ( 'https://www.aliexpress.com/store/3106086' ),
+      link_text       ( 'Asometech' ),
+    ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Asometech_Stylus_Pen' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005002346357482.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DeNKM5z' ),
+    listing_name  ( "Universal Stylus Pen Drawing Tablet Sensetive Capacitive Screen Touch Pen for Apple Android iPad iPhone Samsung Kindle Phone" ),
+    item_options  ( '10PCS Multi Color' ),
+    item_price    ( 'AU$2.72' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005002346357482.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.27.2a3e1802rX0V2p&orderId=8175943331763938' ),
+    order_id        ( '8175943331763938' ),
+    order_date      ( 'Sep 16, 2023' ),
+    order_item_name ( 'Universal Stylus Pen Drawing Tablet Sensetive Capacitive Screen Touch Pen for Apple Android iPad iPhone Samsung Kindle Phone' ),
+    order_options   ( '10PCS Multi Color, China' ),
+    order_price     ( 'AU$2.72' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  // 2024-07-09 jj5 - I'm not sure when I got mine...
+  equipment_date( '2022-10-25' ),
+  equipment_icon( 'https://cdn-blog.adafruit.com/uploads/2014/09/1554iso_ORIG.jpg' ),
+  equipment_info(
+    manufacturer_name ( "Adafruit" ),
+    model_name        ( "One PCB to Ruler Them All" ),
+    equipment_type    ( "Ruler" ),
+    category          ( 'Ruler' ),
+    category          ( 'Hand Tool' ),
+    manufacturer_link (
+      link_href       ( 'https://blog.adafruit.com/2014/09/15/one-pcb-to-ruler-them-all/' ),
+      link_text       ( 'Adafruit One PCB to Ruler Them All' ),
+    ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Adafruit_Ruler' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com/gp/product/B00KGEMW74' ),
+    listing_name  ( 'Adafruit PCB Ruler v2-6" [ADA1554]' ),
+    item_price    ( 'US$8.10' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-18' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/41Q8OGEeh5L._AC_SL1000_.jpg' ),
+  equipment_info(
+    manufacturer_name ( "Klein Tools" ),
+    model_name        ( "32614 4-in-1 Multi-bit Precision" ),
+    equipment_type    ( "Pocket Screwdriver" ),
+    category          ( 'Screwdriver' ),
+    category          ( 'Hand Tool' ),
+    category          ( 'Sonic Screwdriver' ),
+    manufacturer_link (
+      link_href       ( 'https://www.kleintools.com.au/catalogue/multi-bit-screwdrivers/multi-bit-electronics-pocket-screwdriver-4-1-ph-sl-bits' ),
+      link_text       ( 'Multi-Bit Electronics Pocket Screwdriver, 4-in-1, Ph., Sl. Bits (32614)' ),
+    ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Klein_Tools_Pocket_Screwdriver' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B07PNC5MPB' ),
+    listing_name  ( "Klein Tools 32614 4-in-1 Multi-bit Precision Pocket Screwdriver Set" ),
+    item_options  ( 'Multi-Bit Screwdriver' ),
+    item_price    ( 'AU$32.08' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B07PNC5MPB' ),
+    order_url       ( 'https://www.amazon.com.au/gp/legacy/order-history?ij=&opt=ab&search=249-1152558-2077436&ref_=&ie=UTF8' ),
+    order_id        ( '249-1152558-2077436' ),
+    order_date      ( '18 August 2023' ),
+    order_item_name ( 'Klein Tools 32614 4-in-1 Multi-bit Precision Pocket Screwdriver Set' ),
+    order_options   ( 'Multi-Bit Screwdriver' ),
+    order_price     ( 'AU$39.01' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-18' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/51vXRv3nUFL._AC_SL1500_.jpg' ),
+  equipment_info(
+    manufacturer_name ( "Portwest" ),
+    model_name        ( "Standard" ),
+    equipment_type    ( "Lab Coat" ),
+    category          ( 'Lab Coat' ),
+    category          ( 'Safety Equipment' ),
+    manufacturer_link (
+      link_href       ( 'https://www.portwest.com/products/view/2852/WHR' ),
+      link_text       ( '2852 - Standard Coat' ),
+    ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Portwest_Lab_Coat' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B006ITB06U' ),
+    listing_name  ( "Portwest 2852 Standard Lab Coat Hard Wearing Workwear Lab Coat White, 3X-Large" ),
+    item_options  ( '3X-Large; White' ),
+    item_price    ( 'AU$34.95' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B006ITB06U' ),
+    order_url       ( 'https://www.amazon.com.au/gp/legacy/order-history?ij=&opt=ab&search=249-2227622-6404632&ref_=&ie=UTF8' ),
+    order_id        ( '249-2227622-6404632' ),
+    order_date      ( '18 August 2023' ),
+    order_item_name ( 'Portwest 2852 Standard Lab Coat Hard Wearing Workwear Lab Coat White, 3X-Large' ),
+    order_options   ( 'Size: 3X-Large; Colour: White' ),
+    order_price     ( 'AU$29.71' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-18' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/61TtZnvED8L._AC_SL1000_.jpg' ),
+  equipment_info(
+    manufacturer_name ( "Diodrio" ),
+    model_name        ( "Leather" ),
+    equipment_type    ( "Pocket Protector" ),
+    category          ( 'Pocket Protector' ),
+    category          ( 'Safety Equipment' ),
+    manufacturer_link (
+      link_href       ( 'https://www.amazon.com.au/s?k=diodrio' ),
+      link_text       ( 'See diodrio on Amazon' ),
+    ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Diodrio_Pocket_Protector' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B07S6NWMGX' ),
+    listing_name  ( "Pocket Protector, Leather Pen EDC Pouch Holder Organizer, for Shirts Lab Coats, Hold 5 Pens, New Design to Keep Pens Inside When Bend Down. No Breaking of Pen Clip. Thick PU Leather, 2 Per Pack." ),
+    item_options  ( 'Brown' ),
+    item_price    ( 'AU$23.11' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B07S6NWMGX' ),
+    order_url       ( 'https://www.amazon.com.au/gp/legacy/order-history?ij=&opt=ab&search=249-5975425-8293401&ref_=&ie=UTF8' ),
+    order_id        ( '249-5975425-8293401' ),
+    order_date      ( '18 August 2023' ),
+    order_item_name ( "Pocket Protector, Leather Pen EDC Pouch Holder Organizer, for Shirts Lab Coats, Hold 5 Pens, New Design to Keep Pens Inside When Bend Down. No Breaking of Pen Clip. Thick PU Leather, 2 Per Pack." ),
+    order_options   ( 'Brown' ),
+    order_price     ( 'AU$27.20' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-10-05' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/H84035dcfa98348149299fbd0633c2425H/Safety-Goggles-Anti-Laser-infrared-Protective-glasses-PC-lenses-Anti-fog-Anti-UV-Anti-impact-Industrial.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Oloey" ),
+    //model_name        ( "" ),
+    equipment_type    ( "Safety Goggles" ),
+    category          ( 'Safety Equipment' ),
+    category          ( 'Safety Goggles' ),
+    manufacturer_link (
+      link_href       ( 'https://www.aliexpress.com/store/5085361' ),
+      link_text       ( 'See store on AliExpress' ),
+    ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Oloey_Safety_Goggles' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/4000700099287.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_Ddy4JRH' ),
+    listing_name  ( "Safety Goggles Anti Laser infrared Protective glasses PC lenses Anti-fog Anti-UV Anti-impact Industrial Labor Protection Goggles" ),
+    item_options  ( 'Color: transparent yellow' ),
+    item_price    ( 'AU$3.77' ),
+    item_shipping ( 'AU$6.45' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/4000700099287.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.31.513e1802NxuF6x&orderId=8177186299683938' ),
+    order_id        ( '8177186299683938' ),
+    order_date      ( 'Oct 5, 2023' ),
+    order_item_name ( 'Safety Goggles Anti Laser infrared Protective glasses PC lenses Anti-fog Anti-UV Anti-impact Industrial Labor Protection Goggles' ),
+    order_options   ( 'Color: transparent yellow' ),
+    order_price     ( 'AU$16.85' ),
+    order_quantity  ( 3 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2020-08-18' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71PeT5hDzpL._AC_SL1200_.jpg' ),
+  equipment_info(
+    manufacturer_name ( "YOUOWO" ),
+    //model_name        ( "" ),
+    equipment_type    ( "ID Badge Holder" ),
+    category          ( 'Badge Holder' ),
+    manufacturer_link (
+      link_href       ( 'https://www.amazon.com.au/s?k=YOUOWO' ),
+      link_text       ( 'See YOUOWO on Amazon' ),
+    ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/YOUOWO_ID_Badge_Holder' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B07Y2SH1KV' ),
+    //affiliate_url ( '' ),
+    listing_name  ( "YOUOWO 5 pack Cruise Lanyard retractable with ID badges holder for ship card keys lanyards with Retractable Badge Reel clip for ID holder Breakaway lanyard Office Neck office lanyards with reel holder" ),
+    item_options  ( 'Colour Name: 5 Colors-lanyard With Badge Holder&badge Reel' ),
+    item_price    ( 'AU$23.44' ),
+  ),
+  purchase(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B07Y2SH1KV' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=249-6147080-4367006' ),
+    order_id        ( '249-6147080-4367006' ),
+    order_date      ( '18 August 2023' ),
+    order_item_name ( 'YOUOWO 5 pack Cruise Lanyard retractable with ID badges holder for ship card keys lanyards with Retractable Badge Reel clip for ID holder Breakaway lanyard Office Neck office lanyards with reel holder' ),
+    order_options   ( 'Colour Name: 5 Colors-lanyard With Badge Holder&badge Reel' ),
+    order_price     ( 'AU$27.22' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+
 /*
 
 equipment(
@@ -7727,33 +7954,6 @@ equipment(
     ),
   ),
   sixsigma_url  ( '' ),
-  search_url    ( '' ),
-  affiliate_link(
-    equipment_url ( '' ),
-    affiliate_url ( '' ),
-    listing_name  ( "" ),
-    item_options  ( '' ),
-    item_price    ( '' ),
-    item_shipping ( '' ),
-  ),
-  search_url    ( '' ),
-  affiliate_link(
-    equipment_url ( '' ),
-    affiliate_url ( '' ),
-    listing_name  ( "" ),
-    item_options  ( '' ),
-    item_price    ( '' ),
-    item_shipping ( '' ),
-  ),
-  search_url    ( '' ),
-  affiliate_link(
-    equipment_url ( '' ),
-    affiliate_url ( '' ),
-    listing_name  ( "" ),
-    item_options  ( '' ),
-    item_price    ( '' ),
-    item_shipping ( '' ),
-  ),
   search_url    ( '' ),
   affiliate_link(
     equipment_url ( '' ),

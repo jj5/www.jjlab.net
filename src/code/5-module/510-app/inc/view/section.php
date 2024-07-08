@@ -89,6 +89,14 @@ define( 'TITLE_COSTUME', 'Click here to find out about my costume. [Hotkey: !]' 
 define( 'TITLE_SITEMAP_XML', 'Click here for the sitemap.xml file. [Hotkey: X]' );
 define( 'TITLE_RSS_FEED', TITLE_NAV_FEED );
 
+define( 'TITLE_BUY_LAB_COAT', 'Click here to find out more about my lab coat.' );
+define( 'TITLE_BUY_GOGGLES', 'Click here to find out more about my safety goggles.' );
+define( 'TITLE_BUY_ID_BADGE', 'Click here to find out more about my ID badge holder.' );
+define( 'TITLE_BUY_POCKET_PROTECTOR', 'Click here to find out more about my pocket protector.' );
+define( 'TITLE_BUY_STYLUS_PEN', 'Click here to find out more about my stylus pen.' );
+define( 'TITLE_BUY_SONIC_SCREWDRIVER', 'Click here to find out more about my Sonic Screwdriver!' );
+define( 'TITLE_BUY_ADAFUIT_RULER', 'Click here to find out more about my Adafruit ruler.' );
+
 
 define( 'TITLE_VIDEO_INDEX', 'Click here to see the "secret" index of all videos. [Hotkey: V]' );
 define( 'TITLE_BOOK_INDEX', 'Click here to see the "secret" index of all books. [Hotkey: B]' );
@@ -2451,25 +2459,51 @@ function render_section_about_costume( int $heading_level = 2 ) {
 
       tag_open( 'li' );
 
-        out_text( 'Lab coat' );
+        tag_text(
+          'a',
+          'Lab coat',
+          [
+            'href' => 'https://jj5.net/26225',
+            'class' => 'external',
+            'target' => '_blank',
+            'rel' => 'noopener follow',
+            'title' => TITLE_BUY_LAB_COAT,
+          ]
+        );
 
       tag_shut( 'li' );
 
       tag_open( 'li' );
 
-        out_text( 'Pocket protector with tools' );
+        tag_text(
+          'a',
+          'Safety goggles',
+          [
+            'href' => 'https://jj5.net/73769',
+            'class' => 'external',
+            'target' => '_blank',
+            'rel' => 'noopener follow',
+            'title' => TITLE_BUY_GOGGLES,
+          ]
+        );
 
       tag_shut( 'li' );
 
       tag_open( 'li' );
 
-        out_text( 'Orange safety goggles' );
+        tag_text(
+          'a',
+          'ID badge',
+          [
+            'href' => 'https://jj5.net/19439',
+            'class' => 'external',
+            'target' => '_blank',
+            'rel' => 'noopener follow',
+            'title' => TITLE_BUY_ID_BADGE,
+          ]
+        );
 
-      tag_shut( 'li' );
-
-      tag_open( 'li' );
-
-        out_text( 'ID badge with ' );
+        out_text( ' with ' );
 
         tag_text(
           'a',
@@ -2480,6 +2514,88 @@ function render_section_about_costume( int $heading_level = 2 ) {
             'title' => TITLE_SILLY_JOB_TITLE,
           ]
         );
+
+      tag_shut( 'li' );
+
+      tag_open( 'li' );
+
+        tag_text(
+          'a',
+          'Pocket protector',
+          [
+            'href' => 'https://jj5.net/63431',
+            'class' => 'external',
+            'target' => '_blank',
+            'rel' => 'noopener follow',
+            'title' => TITLE_BUY_POCKET_PROTECTOR,
+          ]
+        );
+
+        out_text( ' with tools' );
+
+        tag_open( 'ul' );
+
+          tag_open( 'li' );
+
+            out_text( 'Green felt-tipped pen' );
+
+          tag_shut( 'li' );
+
+          tag_open( 'li' );
+
+            tag_text(
+              'a',
+              'Stylus pen',
+              [
+                'href' => 'https://jj5.net/36703',
+                'class' => 'external',
+                'target' => '_blank',
+                'rel' => 'noopener follow',
+                'title' => TITLE_BUY_STYLUS_PEN,
+              ]
+            );
+
+          tag_shut( 'li' );
+
+          tag_open( 'li' );
+
+            tag_text(
+              'a',
+              'Sonic screwdriver',
+              [
+                'href' => 'https://jj5.net/85030',
+                'class' => 'external',
+                'target' => '_blank',
+                'rel' => 'noopener follow',
+                'title' => TITLE_BUY_SONIC_SCREWDRIVER,
+              ]
+            );
+
+          tag_shut( 'li' );
+
+          tag_open( 'li' );
+
+            out_text( 'Orange ballpoint pen' );
+
+          tag_shut( 'li' );
+
+          tag_open( 'li' );
+
+            tag_text(
+              'a',
+              'Adafruit One PCB to Ruler Them All',
+              [
+                'href' => 'https://jj5.net/86923',
+                'class' => 'external',
+                'target' => '_blank',
+                'rel' => 'noopener follow',
+                'title' => TITLE_BUY_ADAFUIT_RULER,
+              ]
+            );
+
+          tag_shut( 'li' );
+
+        tag_shut( 'ul' );
 
       tag_shut( 'li' );
 

@@ -142,7 +142,6 @@ class Feature extends Item {
     return AppStash::get_thing_list( $list );
 
   }
-
 }
 
 class NullFeature extends Feature {

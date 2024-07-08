@@ -827,7 +827,7 @@ If you like my stuff please consider supporting me on Patreon: https://www.patre
 
 Super big thank you to my subscribers and my Patreon supporters! ❤️
 
-The show notes for this video are here: https://www.jjlab.net/in-the-lab/
+The show notes for this video are here: https://blog.jj5.net/
 
 If you enjoyed this video don't forget to hit subscribe so you don't miss the next one. If you have any questions or suggestions please do hit me up in the comments section.
 

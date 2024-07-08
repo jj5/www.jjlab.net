@@ -8,7 +8,6 @@ abstract class Segment extends Item {
 
   }
 
-
   public abstract function get_channel();
 
   public abstract function get_show_type();
@@ -354,7 +353,6 @@ abstract class Segment extends Item {
 
         tag_shut( 'dd' );
 
-
         tag_text( 'dt', 'Patreon Announcement' );
 
         tag_open( 'dd' );
@@ -378,8 +376,6 @@ abstract class Segment extends Item {
     tag_shut( 'section' );
 
   }
-
-
 }
 
 class NullSegment extends Segment {
