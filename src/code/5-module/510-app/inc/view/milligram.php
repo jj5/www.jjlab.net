@@ -948,7 +948,7 @@ function render_equipment_header( $equipment_list ) {
   tag_open( 'p' );
 
     out_text( 'Click through on the green affiliate links to buy! ' );
-    out_text( "(If I don't have an affiliate link for a product I will give you a normal link in blue. " );
+    out_text( "(If I don't have an affiliate link for a product I will give you a normal link in dark blue. " );
     out_text( "You can click through on that to buy too.)" );
 
   tag_shut( 'p' );
@@ -1005,7 +1005,7 @@ function render_equipment_disclaimer( $count ) {
 
       out_text( 'Clicking through on these affiliate links (in green) is a good way to support the channel at no cost to you. ' );
 
-      out_text( 'If an affiliate link is unavailble I will give you a normal link (in blue) which you can also click through on to buy. ' );
+      out_text( 'If an affiliate link is unavailble I will give you a normal link (in dark blue) which you can also click through on to buy. ' );
 
       out_text( 'I may receive a small commission if you buy through these links. ' );
 
