@@ -1055,7 +1055,7 @@ function render_equipment_table( $equipment_list ) {
 
   tag_open( 'div', [ 'class' => 'equipment equipment-table' ] );
 
-    render_equipment_options();
+    render_equipment_options( count( $equipment_list ) );
 
     tag_open( 'table', [ 'id' => 'equipment', 'class' => 'main' ] );
 
@@ -1664,7 +1664,7 @@ function render_equipment_list( $equipment_list ) {
 
   tag_open( 'div', [ 'class' => 'equipment equipment-list' ] );
 
-    render_equipment_options();
+    render_equipment_options( count( $equipment_list ) );
 
     $row_number = 0;
 
@@ -1981,7 +1981,7 @@ function render_list( $label, $list, $class ) {
 
 }
 
-function render_equipment_options() {
+function render_equipment_options( int $count ) {
 
   tag_open( 'div', [ 'id' => 'options' ] );
 
@@ -2026,85 +2026,89 @@ function render_equipment_options() {
         ]
       );
 
-      out_html( ' &mdash; ' );
+      if ( $count > 1 ) {
 
-      out_text( 'Sort: ' );
+        out_html( ' &mdash; ' );
 
-      tag_text(
-        'a',
-        'cheap first',
-        [
-          'href' => '?' . get_link( [ 'sort' => 'cheap-first' ] ) . '#options',
-          'class' => 'internal',
-          'title' => TITLE_SORT_CHEAP_FIRST,
-          'rel' => 'nofollow',
-        ]
-      );
+        out_text( 'Sort: ' );
 
-      out_text( ' | ' );
+        tag_text(
+          'a',
+          'cheap first',
+          [
+            'href' => '?' . get_link( [ 'sort' => 'cheap-first' ] ) . '#options',
+            'class' => 'internal',
+            'title' => TITLE_SORT_CHEAP_FIRST,
+            'rel' => 'nofollow',
+          ]
+        );
 
-      tag_text(
-        'a',
-        'expensive first',
-        [
-          'href' => '?' . get_link( [ 'sort' => 'expensive-first' ] ) . '#options',
-          'class' => 'internal',
-          'title' => TITLE_SORT_EXPENSIVE_FIRST,
-          'rel' => 'nofollow',
-        ]
-      );
+        out_text( ' | ' );
 
-      out_text( ' | ' );
+        tag_text(
+          'a',
+          'expensive first',
+          [
+            'href' => '?' . get_link( [ 'sort' => 'expensive-first' ] ) . '#options',
+            'class' => 'internal',
+            'title' => TITLE_SORT_EXPENSIVE_FIRST,
+            'rel' => 'nofollow',
+          ]
+        );
 
-      tag_text(
-        'a',
-        'newest first',
-        [
-          'href' => '?' . get_link( [ 'sort' => 'new-first' ] ) . '#options',
-          'class' => 'internal',
-          'title' => TITLE_SORT_NEW_FIRST,
-          'rel' => 'nofollow',
-        ]
-      );
+        out_text( ' | ' );
 
-      out_text( ' | ' );
+        tag_text(
+          'a',
+          'newest first',
+          [
+            'href' => '?' . get_link( [ 'sort' => 'new-first' ] ) . '#options',
+            'class' => 'internal',
+            'title' => TITLE_SORT_NEW_FIRST,
+            'rel' => 'nofollow',
+          ]
+        );
 
-      tag_text(
-        'a',
-        'oldest first',
-        [
-          'href' => '?' . get_link( [ 'sort' => 'old-first' ] ) . '#options',
-          'class' => 'internal',
-          'title' => TITLE_SORT_OLD_FIRST,
-          'rel' => 'nofollow',
-        ]
-      );
+        out_text( ' | ' );
 
-      out_text( ' | ' );
+        tag_text(
+          'a',
+          'oldest first',
+          [
+            'href' => '?' . get_link( [ 'sort' => 'old-first' ] ) . '#options',
+            'class' => 'internal',
+            'title' => TITLE_SORT_OLD_FIRST,
+            'rel' => 'nofollow',
+          ]
+        );
 
-      tag_text(
-        'a',
-        'random',
-        [
-          'href' => '?' . get_link( [ 'sort' => 'random' ] ) . '#options',
-          'class' => 'internal',
-          'title' => TITLE_SORT_RANDOM,
-          'rel' => 'nofollow',
-        ]
-      );
+        out_text( ' | ' );
 
-      out_text( ' | ' );
+        tag_text(
+          'a',
+          'random',
+          [
+            'href' => '?' . get_link( [ 'sort' => 'random' ] ) . '#options',
+            'class' => 'internal',
+            'title' => TITLE_SORT_RANDOM,
+            'rel' => 'nofollow',
+          ]
+        );
 
-      tag_text(
-        'a',
-        'default',
-        [
-          'href' => '?' . get_link_without( 'sort' ) . '#options',
-          'class' => 'internal',
-          'title' => TITLE_SORT_DEFAULT,
-          'rel' => 'nofollow',
-        ]
-      );
+        out_text( ' | ' );
+
+        tag_text(
+          'a',
+          'default',
+          [
+            'href' => '?' . get_link_without( 'sort' ) . '#options',
+            'class' => 'internal',
+            'title' => TITLE_SORT_DEFAULT,
+            'rel' => 'nofollow',
+          ]
+        );
+
+      }
 
     tag_shut( 'p' );
 
