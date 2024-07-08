@@ -12,6 +12,16 @@ function render() {
 
     $link = itl()->get_long_link( $path_info ) ?? 'https://www.jjlab.net/';
 
+    if ( strpos( $link, 'equipment.php#' ) !== false ) {
+
+      $parts = explode( '#', $link );
+
+      assert( count( $parts ) === 2 );
+
+      $link = $parts[ 0 ] . '/' . $parts[ 1 ] . '#' . $parts[ 1 ];
+
+    }
+
     http_redirect( $link );
 
   }

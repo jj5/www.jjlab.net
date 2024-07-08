@@ -121,7 +121,7 @@ function render_index( $manufacturer_list ) {
 
     tag_open( 'section' );
 
-      tag_text( 'h2', 'Equipment Manufacturers' );
+      tag_text( 'h2', 'Equipment Manufacturers', [ 'id' => 'manufacturers' ] );
 
       tag_open( 'p' );
 

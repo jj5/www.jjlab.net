@@ -92,7 +92,7 @@ function render_index( $category_list ) {
 
     tag_open( 'section' );
 
-      tag_text( 'h2', 'Equipment Categories' );
+      tag_text( 'h2', 'Equipment Categories', [ 'id' => 'categories' ] );
 
       tag_open( 'p' );
 
