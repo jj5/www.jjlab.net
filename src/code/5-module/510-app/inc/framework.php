@@ -114,7 +114,7 @@ function get_link( $query ) {
 
   }
 
-  return henc( http_build_query( $new_query ) );
+  return http_build_query( $new_query );
 
 }
 
@@ -124,7 +124,7 @@ function get_link_without( $remove_key ) {
 
   unset( $new_query[ $remove_key ] );
 
-  return henc( http_build_query( $new_query ) );
+  return http_build_query( $new_query );
 
 }
 
