@@ -817,6 +817,12 @@ function render_equipment( $equipment_list ) {
 
   $count = count( $equipment_list );
 
+  tag_open( 'div', [ 'class' => 'container', 'style' => 'text-align:center;' ] );
+
+    render_equipment_options( $count, $include_id = false );
+
+  tag_shut( 'div' );
+
   $item = $count === 1 ? $equipment_list[ 0 ] : null;
 
   render_equipment_notes_section( $item );
@@ -2311,9 +2317,11 @@ function render_list( $label, $list, $class ) {
 
 }
 
-function render_equipment_options( int $count ) {
+function render_equipment_options( int $count, bool $indclude_id = true ) {
 
-  tag_open( 'div', [ 'id' => 'options' ] );
+  $attrs = $indclude_id ? [ 'id' => 'options' ] : [];
+
+  tag_open( 'div', $attrs );
 
     tag_open( 'p' );
 
