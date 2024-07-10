@@ -70,29 +70,35 @@ class ShowType extends Item {
 
   }
 
-  private $video_count = null;
-
   public function get_video_count() {
 
-    if ( $this->video_count === null ) {
-
-      $this->video_count = $this->calculate_video_count();
-
-    }
-
-    return $this->video_count;
+    return count( $this->get_video_list() );
 
   }
 
-  private function calculate_video_count() {
+  private $video_list = null;
 
-    $result = 0;
+  public function get_video_list() {
+
+    if ( $this->video_list === null ) {
+
+      $this->video_list = $this->calculate_video_list();
+
+    }
+
+    return $this->video_list;
+
+  }
+
+  private function calculate_video_list() {
+
+    $result = [];
 
     foreach ( get_list( Video::class ) as $video ) {
 
-      if ( $video->get_show_type() === $this ) {
+      if ( $video->get_show_type() === $this && $video->is_live() ) {
 
-        $result++;
+        $result[] = $video;
 
       }
     }

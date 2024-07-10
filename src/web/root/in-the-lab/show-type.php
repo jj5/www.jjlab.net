@@ -212,6 +212,8 @@ function render_show_type_main() {
 
     tag_shut( 'section' );
 
+    render_section_stats( 2, $show_type->get_video_list() );
+
     $show_type->get_thing_list()->render();
 
     render_section_about_next();
@@ -295,6 +297,8 @@ function render_show_type_special() {
 
     tag_shut( 'section' );
 
+    render_section_stats( 2, $show_type->get_video_list() );
+
     $show_type->get_thing_list()->render();
 
     render_section_about_next();
@@ -350,6 +354,8 @@ function render_show_type_extra() {
     tag_shut( 'header' );
 
     $show_type = app_stash()->get_item_by_slug( ShowType::class, ShowEnum::ExtraShow->value );
+
+    render_section_stats( 2, $show_type->get_video_list() );
 
     $show_type->get_thing_list()->render();
 

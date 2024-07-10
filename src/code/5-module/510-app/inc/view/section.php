@@ -3218,7 +3218,20 @@ function date_interval_to_seconds( DateInterval $interval ) : int {
 
 }
 
-function render_section_stats( int $heading_level = 2 ) {
+function render_section_stats( int $heading_level = 2, $video_list = null ) {
+
+  if ( $video_list ) {
+
+    $say = 'these';
+
+  }
+  else {
+
+    $say = 'my';
+
+    $video_list = get_list( Video::class );
+
+  }
 
   tag_open( 'section' );
 
@@ -3226,7 +3239,7 @@ function render_section_stats( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'Here are some stats about how long my videos usually play for. ' );
+      out_text( "Here are some stats about how long $say videos usually play for. " );
       out_text( 'The durations are given as hours:minutes:seconds.' );
 
     tag_shut( 'p' );
@@ -3238,8 +3251,6 @@ function render_section_stats( int $heading_level = 2 ) {
       out_text( 'The average is the arithmetic mean.' );
 
     tag_shut( 'p' );
-
-    $video_list = get_list( Video::class );
 
     $duration_list = [];
 

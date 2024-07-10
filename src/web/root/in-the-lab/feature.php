@@ -199,6 +199,8 @@ function render_feature_generic( $feature ) {
 
     tag_shut( 'header' );
 
+    render_section_stats( 2, $feature->get_video_list() );
+
     //app_stash()->get_main_show_selection()->render();
 
     $feature->get_thing_list()->render();
