@@ -123,8 +123,6 @@ function render_index_main() {
 
     render_section_about_affiliates();
 
-    render_section_about_thanks();
-
     render_section_about_next();
 
   render_foot();

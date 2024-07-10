@@ -103,7 +103,8 @@ function render_sponsor_main() {
 
       tag_open( 'p' );
 
-        out_text( "If you have high-quality products or services which would be of interest to electronics hobbyists and you'd like me to demo, unbox, or teardown on the show," );
+        out_text( "If you have high-quality products or services which would be of interest to electronics hobbyists " );
+        out_text( "that you would like me to demo, unbox, teardown, or mention on the show, " );
 
         render_link_internal(
           "let's talk",

@@ -41,9 +41,7 @@ function render_about_main() {
 
     render_section_about_contact();
 
-    //render_section_summary_channels();
-
-    render_section_summary_blog();
+    render_section_about_blog();
 
     render_section_about_announcements();
 
@@ -53,67 +51,13 @@ function render_about_main() {
 
     render_section_about_shortcuts();
 
-    render_section_summary_thanks();
-
     render_section_about_next();
 
   render_foot();
 
 }
 
-function render_section_summary_channels( int $heading_level = 2 ) {
-
-  tag_open( 'section' );
-
-    tag_text( 'h' . $heading_level, 'Channels', [ 'id' => 'channel-summary' ] );
-
-    tag_text( 'p', 'The show is published across two YouTube channels:' );
-
-    tag_open( 'ul' );
-
-      tag_open( 'li' );
-
-        render_link_internal(
-          'Main Channel',
-          url_base() . '/channel.php/@InTheLabWithJayJay',
-          TITLE_CHANNEL_MAIN,
-        );
-
-        out_text( ': ' );
-
-        render_link_external(
-          'youtube.com/@InTheLabWithJayJay',
-          'https://www.youtube.com/@InTheLabWithJayJay',
-          TITLE_CHANNEL_MAIN,
-        );
-
-      tag_shut( 'li' );
-
-      tag_open( 'li' );
-
-        render_link_internal(
-          '2nd Channel',
-          url_base() . '/channel.php/@ElliotsExtras',
-          TITLE_CHANNEL_EXTRA,
-        );
-
-        out_text( ': ' );
-
-        render_link_external(
-          'youtube.com/@ElliotsExtras',
-          'https://www.youtube.com/@ElliotsExtras',
-          TITLE_CHANNEL_MAIN,
-        );
-
-      tag_shut( 'li' );
-
-    tag_shut( 'ul' );
-
-  tag_shut( 'section' );
-
-}
-
-function render_section_summary_blog( int $heading_level = 2 ) {
+function render_section_about_blog( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
@@ -515,29 +459,5 @@ function render_shortcut( string $key, string $page, string $link, string $title
     tag_shut( 'td' );
 
   tag_shut( 'tr' );
-
-}
-
-function render_section_summary_thanks( int $heading_level = 2 ) {
-
-  tag_open( 'section' );
-
-    tag_text( 'h' . $heading_level, 'Thank You!', [ 'id' => 'thanks' ] );
-
-    tag_open( 'p' );
-
-      out_text( 'Thanks for checking out the website! If you would like to help me out there are various ways you can ' );
-
-      render_link_internal(
-        'support the show',
-        url_base() . '/support.php',
-        TITLE_SUPPORT,
-      );
-
-      out_text( '.' );
-
-    tag_shut( 'p' );
-
-  tag_shut( 'section' );
 
 }

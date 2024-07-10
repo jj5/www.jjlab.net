@@ -43,19 +43,7 @@ function render_contact_main() {
 
     render_section_contact_info();
 
-    tag_open( 'section' );
-
-      tag_text( 'h2', 'Thank You!', [ 'id' => 'thanks' ] );
-
-      tag_open( 'p' );
-
-        out_text( "Thanks for looking me up, I look forward to hearing from you!" );
-
-      tag_shut( 'p' );
-
-    tag_shut( 'section' );
-
-    render_section_about_next();
+    render_section_about_next( 2, "Thanks for looking me up, I look forward to hearing from you!" );
 
   render_foot();
 

@@ -2856,7 +2856,7 @@ function render_section_about_affiliates( int $heading_level = 2 ) {
 
 }
 
-function render_section_about_thanks( int $heading_level = 2 ) {
+function render_section_about_thanks( int $heading_level = 2, $thanks = null ) {
 
   tag_open( 'section' );
 
@@ -2864,9 +2864,18 @@ function render_section_about_thanks( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'Thanks very much for your interest and ' );
+      if ( $thanks ) {
 
-      tag_text( 'b', 'I hope you enjoy the show!' );
+        out_text( $thanks );
+
+      }
+      else {
+
+        out_text( 'Thanks very much for your interest and ' );
+
+        tag_text( 'b', 'I hope you enjoy the show!' );
+
+      }
 
     tag_shut( 'p' );
 
@@ -2874,7 +2883,9 @@ function render_section_about_thanks( int $heading_level = 2 ) {
 
 }
 
-function render_section_about_next( int $heading_level = 2 ) {
+function render_section_about_next( int $heading_level = 2, $thanks = null ) {
+
+  render_section_about_thanks( $heading_level, $thanks );
 
   tag_open( 'section' );
 
