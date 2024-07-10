@@ -2509,7 +2509,11 @@ function render_section_about_homies( int $heading_level = 2 ) {
         TITLE_SPONSOR,
       );
 
-      out_text( ' who I support on Patreon and follow on YouTube.' );
+      out_text( ' ' );
+      
+      tag_text( 'b', 'who I support on Patreon' );
+
+      out_text( ' and follow on YouTube. ' );
 
       out_text( 'These are other people who have a video blog about electronics, all of them much more famous than me!' );
 
