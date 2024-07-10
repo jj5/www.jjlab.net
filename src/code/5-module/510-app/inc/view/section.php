@@ -3264,7 +3264,7 @@ function render_section_stats( int $heading_level = 2, $video_list = null ) {
 
     tag_open( 'p' );
 
-      out_text( 'Note: where there are more than one value for the median the longest value is given. ' );
+      out_text( 'Note: when there is more than one value for the median the longest value is given. ' );
 
       out_text( 'The average is the arithmetic mean.' );
 
