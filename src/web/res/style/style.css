@@ -69,13 +69,6 @@ html.xslt .hamburger {
 
 }
 
-/* 2024-06-15 jj5 - this is for the automatic heading links */
-.heading-link {
-  /* 2024-07-05 jj5 - OLD: we do this with a space now, looks better in reader view.
-  margin-left: 10px;
-  */
-}
-
 /* 2024-06-15 jj5 - this will add a little space above the heading */
 :target::before {
   content: "";
