@@ -205,7 +205,7 @@ abstract class Segment extends Item {
         tag_text( 'dt', 'Date Published' );
         tag_text( 'dd', $this->get_publication_date() );
 
-        if ( $youtube_video->get_duration() ) {
+        if ( ! $youtube_video->get_duration()->is_null() ) {
 
           tag_text( 'dt', 'Video Duration' );
           tag_text( 'dd', $youtube_video->get_duration() );
