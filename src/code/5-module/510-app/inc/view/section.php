@@ -3264,7 +3264,7 @@ function render_section_stats( int $heading_level = 2, $video_list = null ) {
 
     tag_open( 'p' );
 
-      out_text( 'Note: where there are more than one value for median or mode the longest is given. ' );
+      out_text( 'Note: where there are more than one value for the median the longest value is given. ' );
 
       out_text( 'The average is the arithmetic mean.' );
 
@@ -3309,7 +3309,7 @@ function render_section_stats( int $heading_level = 2, $video_list = null ) {
         render_stat_val( 'Minimum Duration',    $stats[ 'min' ] );
         render_stat_val( 'Maximum Duration',    $stats[ 'max' ] );
         render_stat_val( 'Median Duration',     $stats[ 'medians' ] );
-        render_stat_val( 'Mode Duration',       $stats[ 'modes' ] );
+        //render_stat_val( 'Mode Duration',       $stats[ 'modes' ] );
         render_stat_val( 'Average Duration',    $stats[ 'a_mean' ] );
         render_stat_val( 'Standard Deviation',  $stats[ 'std_dev_pop' ] );
 
