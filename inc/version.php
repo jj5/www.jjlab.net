@@ -6,16 +6,16 @@
 define( 'JJLAB_NAME', 'www.jjlab.net' );
 define( 'JJLAB_CODE', 'jjlab' );
 
-//define( 'JJLAB_VERSION', '0.2.713' );
+//define( 'JJLAB_VERSION', '0.2.715' );
 define( 'JJLAB_VERSION_MAJOR', 0 );
 define( 'JJLAB_VERSION_MINOR', 2 );
-define( 'JJLAB_VERSION_PATCH', 713 );
+define( 'JJLAB_VERSION_PATCH', 715 );
 
 define(
   'JJLAB_SVN_DATE',
-  '$Date: 2024-07-10 17:18:12 +1000 (Wed, 10 Jul 2024) $'
+  '$Date: 2024-07-10 17:26:57 +1000 (Wed, 10 Jul 2024) $'
 );
-define( 'JJLAB_SVN_REVISION', '$Revision: 239167349 $' );
+define( 'JJLAB_SVN_REVISION', '$Revision: 199675290 $' );
 define( 'JJLAB_SVN_AUTHOR', '$Author: jj5 $' );
 
-define( 'JJLAB_GIT_DATE', '2024-07-10 17:18:12 +1000 (Wed, 10 Jul 2024)' );
+define( 'JJLAB_GIT_DATE', '2024-07-10 17:26:57 +1000 (Wed, 10 Jul 2024)' );
