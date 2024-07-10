@@ -292,7 +292,7 @@ abstract class Segment extends Item {
           if ( ! $book->get_copyright_year()->is_null() ) {
 
             tag_text( 'dt', 'Book Copyright' );
-            tag_text( 'dd', $book->get_copyright_year() );
+            tag_text( 'dd', "© " . $book->get_copyright_year() );
 
             tag_text( 'dt', 'Book Age' );
 
