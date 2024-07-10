@@ -195,47 +195,9 @@ define( 'TITLE_TEMPLATE_LINK_SOFTWARE', 'Click here to learn more about the {nam
 define( 'ALT_MAXITRONIX_LABS', "John's set of Maxitronix electronic project labs." );
 define( 'ALT_LOGO', "The show's logo is a version of the Hacker Emblem which is the Glider from Conway's Game of Life." );
 
-function render_section_contents() {
-
-  tag_open( 'section' );
-
-    tag_text( 'h2', 'Table of Contents', [ 'id' => 'contents' ] );
-
-    tag_text( 'p', 'The contents of this page are organized into the following sections:' );
-
-    tag_text( 'div', 'Contents will go here (if you have Javascript enabled).', [ 'id' => 'contents_div' ] );
-
-  tag_shut( 'section' );
-
-}
-
 function render_section_latest() {
 
   return render_section_latest_main();
-
-}
-
-function get_latest_show() {
-
-  $result = null;
-
-  foreach ( get_list( Show::class ) as $show ) {
-
-    $segment = $show->get_first_segment();
-
-    if ( $show->get_channel()->get_channel_slug()->to_string() !== '@InTheLabWithJayJay' ) { continue; }
-
-    if ( $segment->is_live() ) { $result = $segment; }
-
-  }
-
-  return $result;
-
-}
-
-function get_latest_video() {
-
-  return app_stash()->get_live_video_list()[ 0 ];
 
 }
 
@@ -267,11 +229,49 @@ function render_section_latest_main() {
 
 }
 
+function get_latest_video() {
+
+  return app_stash()->get_live_video_list()[ 0 ];
+
+}
+
+function render_section_contents() {
+
+  tag_open( 'section' );
+
+    tag_text( 'h2', 'Table of Contents', [ 'id' => 'contents' ] );
+
+    tag_text( 'p', 'The contents of this page are organized into the following sections:' );
+
+    tag_text( 'div', 'Contents will go here (if you have Javascript enabled).', [ 'id' => 'contents_div' ] );
+
+  tag_shut( 'section' );
+
+}
+
 function render_show_main( $show ) {
 
   if ( $show === null ) { return; }
 
   return $show->render();
+
+}
+
+function get_latest_show() {
+
+  $result = null;
+
+  foreach ( get_list( Show::class ) as $show ) {
+
+    $segment = $show->get_first_segment();
+
+    if ( $show->get_channel()->get_channel_slug()->to_string() !== '@InTheLabWithJayJay' ) { continue; }
+
+    if ( $segment->is_live() ) { $result = $segment; }
+
+  }
+
+  return $result;
 
 }
 
@@ -418,10 +418,10 @@ function render_section_about_conventions( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'On this website internal links are ' );
+      out_text( 'On this website ' );
 
       render_link_internal(
-        'light blue',
+        'internal links are light blue',
         url_base() . '/#conventions',
         TITLE_LINK_LIGHT_BLUE,
         [
@@ -429,10 +429,10 @@ function render_section_about_conventions( int $heading_level = 2 ) {
         ],
       );
 
-      out_text( ', external links are ' );
+      out_text( ', ' );
 
       render_link_external(
-        'dark blue',
+        'external links are dark blue',
         url_base() . '/#conventions',
         TITLE_LINK_DARK_BLUE,
         [
@@ -440,10 +440,10 @@ function render_section_about_conventions( int $heading_level = 2 ) {
         ],
       );
 
-      out_text( ', and affiliate links are ' );
+      out_text( ', and ' );
 
       render_link_external(
-        'green',
+        'affiliate links are green',
         url_base() . '/#conventions',
         TITLE_LINK_GREEN,
         [
@@ -700,6 +700,219 @@ function render_section_about_video_content( int $heading_level = 2 ) {
 
 }
 
+function render_section_about_stats( int $heading_level = 2, $video_list = null ) {
+
+  if ( $video_list ) {
+
+    $say = 'these';
+
+  }
+  else {
+
+    $say = 'my';
+
+    $video_list = get_list( Video::class );
+
+  }
+
+  tag_open( 'section' );
+
+    tag_text( 'h' . $heading_level, 'Video Statistics', [ 'id' => 'video-stats' ] );
+
+    tag_open( 'p' );
+
+      out_text( "Here are some stats about how long $say videos usually play for." );
+
+    tag_shut( 'p' );
+
+    render_stats_notes();
+
+    tag_open( 'p' );
+
+      out_text( "You can get stats for all of my videos on the " );
+
+      render_link_internal(
+        'stats',
+        url_base() . '/stats.php',
+        TITLE_STATS,
+      );
+
+      out_text( " page." );
+
+    tag_shut( 'p' );
+
+    $duration_list = [];
+
+    foreach ( $video_list as $video ) {
+
+      $duration = $video->get_duration();
+
+      if ( $duration->is_null() ) { continue; }
+
+      $interval = $duration->get_value();
+
+      if ( $interval === null ) { continue; }
+
+      $duration_list[] = date_interval_to_seconds( $interval );
+
+    }
+
+    $stats = mud_get_stats( $duration_list, MUD_STATS_TYPE_FLOAT );
+
+    tag_open( 'table' );
+
+      tag_open( 'tbody' );
+
+        render_stat_def( 'Videos Published',    $stats[ 'count' ] );
+        render_stat_val( 'Minimum Duration',    $stats[ 'min' ] );
+        render_stat_val( 'Maximum Duration',    $stats[ 'max' ] );
+        render_stat_val( 'Median Duration',     $stats[ 'medians' ] );
+        render_stat_val( 'Average Duration',    $stats[ 'a_mean' ] );
+        render_stat_val( 'Standard Deviation',  $stats[ 'std_dev_pop' ] );
+
+      tag_shut( 'tbody' );
+
+    tag_shut( 'table' );
+
+  tag_shut( 'section' );
+
+}
+
+function render_stats_notes() {
+
+  tag_open( 'p' );
+
+    out_text( 'The durations are given as hours:minutes:seconds.' );
+
+  tag_shut( 'p' );
+
+  tag_open( 'p' );
+
+    out_text( 'Note: when there is more than one value for the median the longest value is given. ' );
+
+    out_text( 'The average is the arithmetic mean and the standard deviation is the population standard deviation.' );
+
+  tag_shut( 'p' );
+
+}
+
+function render_stat_def( $dt, $dd ) {
+
+  tag_open( 'tr' );
+
+    tag_text( 'th', "$dt:", [ 'class' => 'right' ] );
+
+    tag_open( 'td', [ 'class' => 'right' ] );
+
+      out_text( $dd );
+
+    tag_shut( 'td' );
+
+  tag_shut( 'tr' );
+
+}
+
+function render_stat_val( $dt, $arg ) {
+
+  tag_open( 'tr' );
+
+    tag_text( 'th', "$dt:", [ 'class' => 'right' ] );
+
+    tag_open( 'td', [ 'class' => 'right' ] );
+
+      $dd = is_array( $arg ) ? get_stat_max( $arg ) : $arg;
+
+      if ( $dd < 60 ) {
+
+        out_text( number_format( $dd ) . ' seconds' );
+
+      }
+      elseif ( $dd < 60 * 60 ) {
+
+        out_text( convert_minutes_to_minutes_and_seconds( $dd / 60 ) );
+
+      }
+      else {
+
+        out_text( convert_hours_to_hours_minutes_seconds( $dd / 60 / 60 ) );
+
+      }
+
+    tag_shut( 'td' );
+
+  tag_shut( 'tr' );
+
+}
+
+function get_stat_max( $array ) {
+
+  $result = null;
+
+  foreach ( $array as $value ) {
+
+    if ( $result === null || $value > $result ) {
+
+      $result = $value;
+
+    }
+
+  }
+
+  return $result;
+
+}
+
+function convert_minutes_to_minutes_and_seconds($totalMinutes) {
+  $minutes = floor($totalMinutes);
+  $seconds = round(($totalMinutes - $minutes) * 60);
+  return ltrim( sprintf("%02d:%02d", $minutes, $seconds), '0' );
+}
+
+function convert_hours_to_hours_minutes_seconds($totalHours) {
+  $hours = floor($totalHours);
+  $minutes = floor(($totalHours - $hours) * 60);
+  $seconds = round((($totalHours - $hours) * 60 - $minutes) * 60);
+  return ltrim( sprintf("%02d:%02d:%02d", $hours, $minutes, $seconds), '0' );
+}
+
+function date_interval_to_seconds( DateInterval $interval ) : int {
+
+  $seconds = 0;
+
+  // Convert years to seconds (assuming 365 days per year)
+  if ($interval->y) {
+      $seconds += $interval->y * 365 * 24 * 60 * 60;
+  }
+
+  // Convert months to seconds (assuming 30 days per month)
+  if ($interval->m) {
+      $seconds += $interval->m * 30 * 24 * 60 * 60;
+  }
+
+  // Convert days to seconds
+  if ($interval->d) {
+      $seconds += $interval->d * 24 * 60 * 60;
+  }
+
+  // Convert hours to seconds
+  if ($interval->h) {
+      $seconds += $interval->h * 60 * 60;
+  }
+
+  // Convert minutes to seconds
+  if ($interval->i) {
+      $seconds += $interval->i * 60;
+  }
+
+  // Add seconds
+  if ($interval->s) {
+      $seconds += $interval->s;
+  }
+
+  return intval( round( $seconds, 2 ) );
+
+}
+
 function render_section_about_structure( int $heading_level = 2 ) {
 
   tag_open( 'section' );
@@ -813,6 +1026,37 @@ function render_section_about_structure( int $heading_level = 2 ) {
   tag_shut( 'section' );
 
 
+}
+
+function render_video_stats( $count, $hours ) {
+
+  if ( $count == 1 ) {
+
+    out_text( ' (1 video' );
+
+  }
+  else {
+
+    out_text( " ($count videos" );
+
+  }
+
+  out_text( ', ' );
+
+  $hours = round( $hours );
+
+  $hours_formatted = number_format( $hours );
+
+  if ( $hours == 1 ) {
+
+    out_text( '1 hour)' );
+
+  }
+  else {
+
+    out_text( "$hours_formatted hours)" );
+
+  }
 }
 
 function render_section_about_sitemap( int $heading_level = 2 ) {
@@ -1095,37 +1339,6 @@ function render_section_about_rss_feeds( int $heading_level = 2 ) {
 
   tag_shut( 'section' );
 
-}
-
-function render_video_stats( $count, $hours ) {
-
-  if ( $count == 1 ) {
-
-    out_text( ' (1 video' );
-
-  }
-  else {
-
-    out_text( " ($count videos" );
-
-  }
-
-  out_text( ', ' );
-
-  $hours = round( $hours );
-
-  $hours_formatted = number_format( $hours );
-
-  if ( $hours == 1 ) {
-
-    out_text( '1 hour)' );
-
-  }
-  else {
-
-    out_text( "$hours_formatted hours)" );
-
-  }
 }
 
 function render_section_about_show_notes( int $heading_level = 2 ) {
@@ -2545,6 +2758,43 @@ function render_section_about_homies( int $heading_level = 2 ) {
 
 }
 
+function render_section_about_equipment( int $heading_level = 2 ) {
+
+  tag_open( 'section' );
+
+    tag_text( 'h' . $heading_level, 'Equipment', [ 'id' => 'equipment' ] );
+
+    tag_open( 'p' );
+
+      tag_text( 'b', 'I try to keep detailed notes about the equipment I own' );
+
+      out_text( ' on my ' );
+
+      render_link_internal(
+        'equipment',
+        url_base() . '/equipment.php',
+        TITLE_EQUIPMENT,
+      );
+
+      out_text( ' page. ' );
+      
+      out_text( 'If you see something in one of my videos that you like you can probably find more info about it on the equipment page. ' );
+      out_text( "If there's something you're looking for in particular and you can't find, please feel free to " );
+
+      render_link_internal(
+        'let me know',
+        url_base() . '/contact.php',
+        TITLE_CONTACT,
+      );
+
+      out_text( '!' );
+
+    tag_shut( 'p' );
+
+  tag_shut( 'section' );
+
+}
+
 function render_section_about_affiliates( int $heading_level = 2 ) {
 
   tag_open( 'section' );
@@ -2606,41 +2856,6 @@ function render_section_about_affiliates( int $heading_level = 2 ) {
 
 }
 
-function render_section_about_equipment( int $heading_level = 2 ) {
-
-  tag_open( 'section' );
-
-    tag_text( 'h' . $heading_level, 'Equipment', [ 'id' => 'equipment' ] );
-
-    tag_open( 'p' );
-
-      out_text( 'I try to keep detailed notes about the equipment I own on my ' );
-
-      render_link_internal(
-        'equipment',
-        url_base() . '/equipment.php',
-        TITLE_EQUIPMENT,
-      );
-
-      out_text( ' page. ' );
-      
-      out_text( 'If you see something in one of my videos that you like you can probably find more info about it on the equipment page. ' );
-      out_text( "If there's something you're looking for in particular and you can't find, please feel free to " );
-
-      render_link_internal(
-        'let me know',
-        url_base() . '/contact.php',
-        TITLE_CONTACT,
-      );
-
-      out_text( '!' );
-
-    tag_shut( 'p' );
-
-  tag_shut( 'section' );
-
-}
-
 function render_section_about_thanks( int $heading_level = 2 ) {
 
   tag_open( 'section' );
@@ -2656,233 +2871,6 @@ function render_section_about_thanks( int $heading_level = 2 ) {
     tag_shut( 'p' );
 
   tag_shut( 'section' );
-
-}
-
-function render_stat_def( $dt, $dd ) {
-
-  tag_open( 'tr' );
-
-    tag_text( 'th', "$dt:", [ 'class' => 'right' ] );
-
-    tag_open( 'td', [ 'class' => 'right' ] );
-
-      out_text( $dd );
-
-    tag_shut( 'td' );
-
-  tag_shut( 'tr' );
-
-}
-
-function render_stat_val( $dt, $arg ) {
-
-  tag_open( 'tr' );
-
-    tag_text( 'th', "$dt:", [ 'class' => 'right' ] );
-
-    tag_open( 'td', [ 'class' => 'right' ] );
-
-      $dd = is_array( $arg ) ? get_stat_max( $arg ) : $arg;
-
-      if ( $dd < 60 ) {
-
-        out_text( number_format( $dd ) . ' seconds' );
-
-      }
-      elseif ( $dd < 60 * 60 ) {
-
-        out_text( convert_minutes_to_minutes_and_seconds( $dd / 60 ) );
-
-      }
-      else {
-
-        out_text( convert_hours_to_hours_minutes_seconds( $dd / 60 / 60 ) );
-
-      }
-
-    tag_shut( 'td' );
-
-  tag_shut( 'tr' );
-
-}
-
-function get_stat_max( $array ) {
-
-  $result = null;
-
-  foreach ( $array as $value ) {
-
-    if ( $result === null || $value > $result ) {
-
-      $result = $value;
-
-    }
-
-  }
-
-  return $result;
-
-}
-
-function convert_minutes_to_minutes_and_seconds($totalMinutes) {
-  $minutes = floor($totalMinutes);
-  $seconds = round(($totalMinutes - $minutes) * 60);
-  return ltrim( sprintf("%02d:%02d", $minutes, $seconds), '0' );
-}
-
-function convert_hours_to_hours_minutes_seconds($totalHours) {
-  $hours = floor($totalHours);
-  $minutes = floor(($totalHours - $hours) * 60);
-  $seconds = round((($totalHours - $hours) * 60 - $minutes) * 60);
-  return ltrim( sprintf("%02d:%02d:%02d", $hours, $minutes, $seconds), '0' );
-}
-
-function date_interval_to_seconds( DateInterval $interval ) : int {
-
-  $seconds = 0;
-
-  // Convert years to seconds (assuming 365 days per year)
-  if ($interval->y) {
-      $seconds += $interval->y * 365 * 24 * 60 * 60;
-  }
-
-  // Convert months to seconds (assuming 30 days per month)
-  if ($interval->m) {
-      $seconds += $interval->m * 30 * 24 * 60 * 60;
-  }
-
-  // Convert days to seconds
-  if ($interval->d) {
-      $seconds += $interval->d * 24 * 60 * 60;
-  }
-
-  // Convert hours to seconds
-  if ($interval->h) {
-      $seconds += $interval->h * 60 * 60;
-  }
-
-  // Convert minutes to seconds
-  if ($interval->i) {
-      $seconds += $interval->i * 60;
-  }
-
-  // Add seconds
-  if ($interval->s) {
-      $seconds += $interval->s;
-  }
-
-  return intval( round( $seconds, 2 ) );
-
-}
-
-function render_section_stats( int $heading_level = 2, $video_list = null ) {
-
-  if ( $video_list ) {
-
-    $say = 'these';
-
-  }
-  else {
-
-    $say = 'my';
-
-    $video_list = get_list( Video::class );
-
-  }
-
-  tag_open( 'section' );
-
-    tag_text( 'h' . $heading_level, 'Video Statistics', [ 'id' => 'video-stats' ] );
-
-    tag_open( 'p' );
-
-      out_text( "Here are some stats about how long $say videos usually play for." );
-
-    tag_shut( 'p' );
-
-    render_stats_notes();
-
-    tag_open( 'p' );
-
-      out_text( "You can get stats for all of my videos on the " );
-
-      render_link_internal(
-        'stats',
-        url_base() . '/stats.php',
-        TITLE_STATS,
-      );
-
-      out_text( " page." );
-
-    tag_shut( 'p' );
-
-    $duration_list = [];
-
-    foreach ( $video_list as $video ) {
-
-      $duration = $video->get_duration();
-
-      if ( $duration->is_null() ) { continue; }
-
-      $interval = $duration->get_value();
-
-      if ( $interval === null ) { continue; }
-
-      $duration_list[] = date_interval_to_seconds( $interval );
-
-    }
-
-    $stats = mud_get_stats( $duration_list, MUD_STATS_TYPE_FLOAT );
-
-    tag_open( 'table' );
-
-      /*
-      tag_open( 'thead' );
-
-        tag_open( 'tr' );
-
-          tag_text( 'th', 'Statistic' );
-          tag_text( 'th', 'Value' );
-
-        tag_shut( 'tr' );
-
-      tag_shut( 'thead' );
-      */
-
-      tag_open( 'tbody' );
-
-        render_stat_def( 'Videos Published',    $stats[ 'count' ] );
-        render_stat_val( 'Minimum Duration',    $stats[ 'min' ] );
-        render_stat_val( 'Maximum Duration',    $stats[ 'max' ] );
-        render_stat_val( 'Median Duration',     $stats[ 'medians' ] );
-        //render_stat_val( 'Mode Duration',       $stats[ 'modes' ] );
-        render_stat_val( 'Average Duration',    $stats[ 'a_mean' ] );
-        render_stat_val( 'Standard Deviation',  $stats[ 'std_dev_pop' ] );
-
-      tag_shut( 'tbody' );
-
-    tag_shut( 'table' );
-
-  tag_shut( 'section' );
-
-}
-
-function render_stats_notes() {
-
-  tag_open( 'p' );
-
-    out_text( 'The durations are given as hours:minutes:seconds.' );
-
-  tag_shut( 'p' );
-
-  tag_open( 'p' );
-
-    out_text( 'Note: when there is more than one value for the median the longest value is given. ' );
-
-    out_text( 'The average is the arithmetic mean and the standard deviation is the population standard deviation.' );
-
-  tag_shut( 'p' );
 
 }
 

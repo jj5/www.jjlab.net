@@ -91,7 +91,7 @@ function render_index_main() {
 
     render_section_about_video_content();
 
-    render_section_stats();
+    render_section_about_stats();
 
     render_section_about_structure();
 

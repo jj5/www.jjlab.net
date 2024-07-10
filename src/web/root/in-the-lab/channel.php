@@ -175,7 +175,7 @@ function render_channel_one() {
 
     $channel = app_stash()->get_item_by_slug( Channel::class, '@InTheLabWithJayJay' );
 
-    render_section_stats( 2, $channel->get_video_list() );
+    render_section_about_stats( 2, $channel->get_video_list() );
 
     $channel->get_thing_list()->render();
 
@@ -282,7 +282,7 @@ function render_channel_two() {
 
     $channel = app_stash()->get_item_by_slug( Channel::class, '@ElliotsExtras' );
 
-    render_section_stats( 2, $channel->get_video_list() );
+    render_section_about_stats( 2, $channel->get_video_list() );
 
     $channel->get_thing_list()->render();
 

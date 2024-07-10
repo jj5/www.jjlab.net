@@ -45,7 +45,7 @@ function render_main_old() {
 
     render_section_contents();
 
-    render_section_stats();
+    render_section_about_stats();
 
     render_section_about_next();
 

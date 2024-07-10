@@ -215,7 +215,7 @@ function render_feature_generic( $feature ) {
 
     render_section_contents();
 
-    render_section_stats( 2, $feature->get_video_list() );
+    render_section_about_stats( 2, $feature->get_video_list() );
 
     //app_stash()->get_main_show_selection()->render();
 
