@@ -2902,9 +2902,9 @@ function render_section_about_contact( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( "If you’d like to get interactive with me or my community, you have a bunch of options. " );
+      //out_text( "If you’d like to get interactive with me or my community, you have a bunch of options. " );
 
-      out_text( "You can always find this information on the " );
+      out_text( "You can always find my contact information on the " );
 
       tag_text(
         'a',
@@ -2923,7 +2923,7 @@ function render_section_about_contact( int $heading_level = 2 ) {
 
   tag_shut( 'section' );
 
-  render_section_contact_info( $heading_level + 1 );
+  //render_section_contact_info( $heading_level + 1 );
 
 }
 
