@@ -95,10 +95,19 @@ function render_sitemap() {
     $changefreq = 'daily';
     $priority = '0.8';
 
-    $pages = [ 'contact.php', 'about.php', 'affiliate.php', 'sponsor.php', 'support.php' ];
+    $pages = [
+      'about.php',
+      'affiliate.php',
+      'contact.php',
+      'homies.php',
+      'secret.php',
+      'sponsor.php',
+      'stats.php',
+      'support.php',
+      'youtube-hacks.php',
+    ];
 
     render_pages( $pages, $latest_software_date, $changefreq, $priority );
-
 
     //
     // 2024-07-03 jj5 - important category pages
