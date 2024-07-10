@@ -107,6 +107,7 @@ define( 'TITLE_BLOG_TEMPLATE', 'Click here to see the template blog post that Jo
 define( 'TITLE_YOUTUBE_TEMPLATE', 'Click here to see my YouTube video comment template. [Hotkey: Q]' );
 define( 'TITLE_SOFTWARE_VERSION', 'Click here for information about the website software [Hotkey: Z]' );
 define( 'TITLE_DEBUG', 'Click here at your peril. :) [Hotkey: D]' );
+define( 'TITLE_YOUTUBE_HACKS', 'Click here to read about YouTube hacks. [Hotkey: 3]' );
 
 define( 'TITLE_PERMALINK', 'Click here for the permanent link to this video.' );
 define( 'TITLE_PATREON_POST', "Click here to see the announcement for this video on Patreon. You could subscribe while you're there! :)" );

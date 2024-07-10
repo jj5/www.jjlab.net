@@ -1,4 +1,11 @@
 
+pre {
+
+  color: black;
+  padding: 20px;
+
+}
+
 .sortable th {
 
   cursor: pointer;

@@ -94,6 +94,7 @@ function handle_keydown( ev ) {
     'x': '/sitemap.php',
     'r': '/feed.php',
     't': '/blog-template.php#heading',
+    '3': '/youtube-hacks.php#heading',
     'q': '/youtube-template.php#heading',
     'z': '/about.php#software-version',
     'd': '/debug.php'

@@ -460,6 +460,25 @@ function render_section_about_secrets( int $heading_level = 2 ) {
 
     tag_shut( 'ul' );
 
+    tag_open( 'p' );
+
+      out_text( 'I also have some notes about YouTube hacks over here: ' );
+
+      tag_text(
+        'a',
+        'YouTube Hacks',
+        [
+          'href' => url_base() . '/youtube-hacks.php',
+          'class' => 'internal',
+          'rel' => 'follow',
+          'title' => TITLE_YOUTUBE_HACKS,
+        ]
+      );
+
+      out_text( '.' );
+
+    tag_shut( 'p' );
+
   tag_shut( 'section' );
 
 }
@@ -528,6 +547,7 @@ function render_section_about_shortcuts( int $heading_level = 2 ) {
         render_shortcut( 'X', 'sitemap.xml',        '/sitemap.php',                   TITLE_SITEMAP_XML       );
         render_shortcut( 'R', 'RSS Feed',           '/feed.php',                      TITLE_RSS_FEED          );
         render_shortcut( 'T', 'Blog Template',      '/blog-template.php#heading',     TITLE_BLOG_TEMPLATE     );
+        render_shortcut( '3', 'YouTube Hacks',      '/youtube-hacks.php#heading',     TITLE_YOUTUBE_HACKS     );
         render_shortcut( 'Q', 'YouTube Template',   '/youtube-template.php#heading',  TITLE_YOUTUBE_TEMPLATE  );
         render_shortcut( 'Z', 'Software Version',   '/about.php#software-version',    TITLE_SOFTWARE_VERSION  );
         render_shortcut( 'D', 'Debug',              '/debug.php',                     TITLE_DEBUG             );
