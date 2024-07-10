@@ -313,7 +313,7 @@ abstract class Segment extends Item {
           if ( ! $book->get_page_count()->is_null() ) {
 
             tag_text( 'dt', 'Book Pages' );
-            tag_text( 'dd', $book->get_page_count() );
+            tag_text( 'dd', number_format( $book->get_page_count()->get_value() ) . ' pages' );
 
           }
 
