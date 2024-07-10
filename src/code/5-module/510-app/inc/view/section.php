@@ -76,6 +76,7 @@ define( 'TITLE_LATEST', 'Click here to watch the latest main channel video on th
 define( 'TITLE_RSS_INFO', 'Click here for the RSS feed info.' );
 define( 'TITLE_RSS', 'Click here for the RSS feed for these types of videos.' );
 define( 'TITLE_SPONSOR', 'Click here to learn more about my generous sponsors. [Hotkey: S]' );
+define( 'TITLE_HOMIES', 'Click here to see who I follow on YouTube and support on Patreon.' );
 define( 'TITLE_PATREON', 'Click here to see my generous supporters on Patreon, and maybe join them?' );
 define( 'TITLE_EQUIPMENT', 'Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]' );
 define( 'TITLE_STETMANN', 'Click here to see the Egon Stetmann page on the StarCraft Wiki.' );
@@ -862,7 +863,19 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
 
           tag_open( 'li' );
 
+            render_link_internal( 'Video Statistics', url_base() . '/stats.php', TITLE_STATS );
+
+          tag_shut( 'li' );
+
+          tag_open( 'li' );
+
             render_link_internal( 'Sponsors', url_base() . '/sponsor.php', TITLE_SPONSOR );
+
+          tag_shut( 'li' );
+
+          tag_open( 'li' );
+
+            render_link_internal( 'Homies', url_base() . '/homies.php', TITLE_HOMIES );
 
           tag_shut( 'li' );
 
