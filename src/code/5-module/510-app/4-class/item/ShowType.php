@@ -51,15 +51,11 @@ class ShowType extends Item {
     $url = $this->get_internal_url();
     $text = $text ?? $this->get_name();
 
-    tag_text(
-      'a',
+    render_link_internal(
       $text,
-      $attrs + [
-        'href' => $url,
-        'class' => 'internal show',
-        'rel' => 'follow',
-        'title' => $this->get_show_text()->to_string(),
-      ]
+      $url,
+      $this->get_show_text()->to_string(),
+      $attrs,
     );
 
   }
@@ -149,7 +145,6 @@ class ShowType extends Item {
         if ( ! $show->get_first_segment()->is_live() ) { return false; }
         $a = $show->get_show_type()->get_slug();
         $b = $this->get_slug();
-        //dump([ 'a' => $a, 'b' => $b ]);
         return $a === $b;
       }
     );

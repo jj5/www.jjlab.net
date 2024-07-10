@@ -73,58 +73,36 @@ function render_section_summary_channels( int $heading_level = 2 ) {
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'Main Channel',
-          [
-            'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-            'class' => 'internal',
-            'rel' => 'follow',
-            'title' => TITLE_CHANNEL_MAIN,
-          ]
+          url_base() . '/channel.php/@InTheLabWithJayJay',
+          TITLE_CHANNEL_MAIN,
         );
 
         out_text( ': ' );
 
-        tag_text(
-          'a',
+        render_link_external(
           'youtube.com/@InTheLabWithJayJay',
-          [
-            'href' => 'https://www.youtube.com/@InTheLabWithJayJay',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => TITLE_CHANNEL_MAIN,
-          ]
+          'https://www.youtube.com/@InTheLabWithJayJay',
+          TITLE_CHANNEL_MAIN,
         );
 
       tag_shut( 'li' );
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           '2nd Channel',
-          [
-            'href' => url_base() . '/channel.php/@ElliotsExtras',
-            'class' => 'internal',
-            'rel' => 'follow',
-            'title' => TITLE_CHANNEL_EXTRA,
-          ]
+          url_base() . '/channel.php/@ElliotsExtras',
+          TITLE_CHANNEL_EXTRA,
         );
 
         out_text( ': ' );
 
-        tag_text(
-          'a',
+        render_link_external(
           'youtube.com/@ElliotsExtras',
-          [
-            'href' => 'https://www.youtube.com/@ElliotsExtras',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => TITLE_CHANNEL_MAIN,
-          ]
+          'https://www.youtube.com/@ElliotsExtras',
+          TITLE_CHANNEL_MAIN,
         );
 
       tag_shut( 'li' );
@@ -145,16 +123,10 @@ function render_section_summary_blog( int $heading_level = 2 ) {
 
     tag_open( 'p', [ 'class' => 'indent' ] );
 
-      tag_text(
-        'a',
+      render_link_external(
         'blog.jj5.net',
-        [
-          'href' => 'https://blog.jj5.net/',
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => TITLE_BLOG,
-        ]
+        'https://blog.jj5.net/',
+        TITLE_BLOG,
       );
 
     tag_shut( 'p' );
@@ -192,30 +164,18 @@ function render_section_about_colophon( int $heading_level = 2 ) {
 
       out_text( 'The show\'s logo (shown right) is a version of the ' );
 
-      tag_text(
-        'a',
+      render_link_external(
         'Hacker Emblem',
-        [
-          'href' => 'http://www.catb.org/hacker-emblem/',
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => TITLE_LINK_HACKER_EMBLEM,
-        ]
+        'http://www.catb.org/hacker-emblem/',
+        TITLE_LINK_HACKER_EMBLEM,
       );
 
       out_text( '. As all good nerds will know the ' );
 
-      tag_text(
-        'a',
+      render_link_external(
         'glider',
-        [
-          'href' => 'https://en.wikipedia.org/wiki/Glider_(Conway%27s_Game_of_Life)',
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => TITLE_LINK_GAME_OF_LIFE,
-        ]
+        'https://en.wikipedia.org/wiki/Glider_(Conway%27s_Game_of_Life)',
+        TITLE_LINK_GAME_OF_LIFE,
       );
 
       out_text( ' which Eric S. Raymond chose for the hacker emblem can be in any of four different states, so I ' );
@@ -238,16 +198,10 @@ function render_section_about_colophon( int $heading_level = 2 ) {
 
     tag_open( 'p', [ 'class' => 'indent' ] );
 
-      tag_text(
-        'a',
+      render_link_external(
         'github.com/jj5/www.jjlab.net',
-        [
-          'href' => 'https://github.com/jj5/www.jjlab.net',
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => TITLE_LINK_GITHUB_SOURCE,
-        ]
+        'https://github.com/jj5/www.jjlab.net',
+        TITLE_LINK_GITHUB_SOURCE,
       );
 
     tag_shut( 'p' );
@@ -300,16 +254,10 @@ function render_section_about_colophon( int $heading_level = 2 ) {
 
             tag_open( 'td', [ 'class' => 'right' ] );
 
-              tag_text(
-                'a',
+              render_link_external(
                 $code,
-                [
-                  'href' => $version[ 'link' ],
-                  'class' => 'external',
-                  'target' => '_blank',
-                  'rel' => 'noopener follow',
-                  'title' => mud_format_string( TITLE_TEMPLATE_LINK_SOFTWARE, [ 'name' => $version[ 'name' ] ] )
-                ]
+                $version[ 'link' ],
+                mud_format_string( TITLE_TEMPLATE_LINK_SOFTWARE, [ 'name' => $version[ 'name' ] ] )
               );
 
             tag_shut( 'td' );
@@ -334,26 +282,18 @@ function render_section_about_colophon( int $heading_level = 2 ) {
 
       out_text( 'This website has a ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'sitemap.xml',
-        [
-          'href' => url_base() . '/sitemap.php',
-          'class' => 'internal',
-          'title' => TITLE_LINK_SITEMAP_XML,
-        ]
+        url_base() . '/sitemap.php',
+        TITLE_LINK_SITEMAP_XML,
       );
 
       out_text( ' file and a ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'rss.xml',
-        [
-          'href' => url_base() . '/feed.php',
-          'class' => 'internal',
-          'title' => TITLE_LINK_RSS_FEED,
-        ]
+        url_base() . '/feed.php',
+        TITLE_LINK_RSS_FEED,
       );
 
       out_text( ' file.' );
@@ -370,28 +310,18 @@ function render_section_about_colophon( int $heading_level = 2 ) {
 
       out_text( 'This website has a ' );
 
-      tag_text(
-        'a',
+      render_link_internal_root(
         'humans.txt',
-        [
-          'href' => '/humans.txt',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_LINK_HUMANS_TXT,
-        ]
+        '/humans.txt',
+        TITLE_LINK_HUMANS_TXT,
       );
 
       out_text( ' file and a ' );
 
-      tag_text(
-        'a',
+      render_link_internal_root(
         'robots.txt',
-        [
-          'href' => '/robots.txt',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_LINK_ROBOTS_TXT,
-        ]
+        '/robots.txt',
+        TITLE_LINK_ROBOTS_TXT,
       );
 
       out_text( ' file.' );
@@ -432,28 +362,20 @@ function render_section_about_secrets( int $heading_level = 2 ) {
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'Videos Index',
-          [
-            'href' => url_base() . '/videos.php',
-            'class' => 'internal',
-            'title' => TITLE_VIDEO_INDEX,
-          ]
+          url_base() . '/videos.php',
+          TITLE_VIDEO_INDEX,
         );
 
       tag_shut( 'li' );
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'Books Index',
-          [
-            'href' => url_base() . '/books.php',
-            'class' => 'internal',
-            'title' => TITLE_BOOK_INDEX,
-          ]
+          url_base() . '/books.php',
+          TITLE_BOOK_INDEX,
         );
 
       tag_shut( 'li' );
@@ -464,15 +386,10 @@ function render_section_about_secrets( int $heading_level = 2 ) {
 
       out_text( 'I also have some notes about YouTube hacks over here: ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'YouTube Hacks',
-        [
-          'href' => url_base() . '/youtube-hacks.php',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_YOUTUBE_HACKS,
-        ]
+        url_base() . '/youtube-hacks.php',
+        TITLE_YOUTUBE_HACKS,
       );
 
       out_text( '.' );
@@ -578,18 +495,16 @@ function render_shortcut( string $key, string $page, string $link, string $title
 
     tag_open( 'td' );
 
-      $rel = ( $page === 'Debug' ) ? 'nofollow' : 'follow';
+      if ( $page === 'Debug' ) {
 
-      tag_text(
-        'a',
-        $page,
-        [
-          'href' => url_base() . $link,
-          'class' => 'internal',
-          'rel' => $rel,
-          'title' => $title,
-        ]
-      );
+        render_link_internal_nofollow( $page, url_base() . $link, $title );
+      
+      }
+      else {
+
+        render_link_internal( $page, url_base() . $link, $title );
+
+      }
 
     tag_shut( 'td' );
 
@@ -613,14 +528,10 @@ function render_section_summary_thanks( int $heading_level = 2 ) {
 
       out_text( 'Thanks for checking out the website! If you would like to help me out there are various ways you can ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'support the show',
-        [
-          'href' => url_base() . '/support.php',
-          'class' => 'internal',
-          'title' => TITLE_SUPPORT,
-        ]
+        url_base() . '/support.php',
+        TITLE_SUPPORT,
       );
 
       out_text( '.' );

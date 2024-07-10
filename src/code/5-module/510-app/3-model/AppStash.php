@@ -43,7 +43,7 @@ class AppStash {
 
         tag_open( 'li' );
 
-          tag_text( 'a', 'Home', [ 'href' => url_base() . '/' ] );
+          render_link_internal( 'Home', url_base() . '/', TITLE_HOMEPAGE );
 
         tag_shut( 'li' );
 

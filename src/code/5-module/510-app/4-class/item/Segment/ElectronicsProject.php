@@ -67,42 +67,30 @@ class ElectronicsProject extends Segment {
 
     tag_open( 'p' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'Main Channel',
-        [
-          'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-          'class' => 'internal',
-          'title' => TITLE_CHANNEL_MAIN,
-        ]
+        url_base() . '/channel.php/@InTheLabWithJayJay',
+        TITLE_CHANNEL_MAIN,
       );
 
       //$this->get_channel()->render_rss_link();
 
       out_text( ' > ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'Main Show',
-        [
-          'href' => url_base() . '/show-type.php/main-show',
-          'class' => 'internal',
-          'title' => TITLE_SHOW_MAIN,
-        ]
+        url_base() . '/show-type.php/main-show',
+        TITLE_SHOW_MAIN,
       );
 
       //$this->get_show_type()->render_rss_link();
 
       out_text( ' > ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'Electronics Project',
-        [
-          'href' => url_base() . '/feature.php/electronics-project',
-          'class' => 'internal',
-          'title' => TITLE_FEATURE_ELECTRONICS_PROJECT,
-        ]
+        url_base() . '/feature.php/electronics-project',
+        TITLE_FEATURE_ELECTRONICS_PROJECT,
       );
 
       //$this->get_feature()->render_rss_link();

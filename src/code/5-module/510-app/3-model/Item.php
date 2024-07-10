@@ -53,6 +53,9 @@ class Item extends MudGadget implements INullable {
 
   }
 
+  function get_rss_info( &$title, &$url ) { $title = null; $url = null; }
+
+
   // 2024-06-28 jj5 - this probably shouldn't be in this class... oh well.
   //
   public function render_rss_link() {
@@ -62,24 +65,14 @@ class Item extends MudGadget implements INullable {
 
     $this->get_rss_info( $title, $url );
 
-    tag_open(
-      'a',
+    render_link_internal_img(
+      url_base() . '/res/img.php/rss/rss-40674_50.png?v=' . get_resource_version(),
+      $url,
+      $title,
       [
-        'href' => $url,
-        'class' => 'rss',
-        'title' => $title,
+        'style' => 'height: 24px; display: inline-block; margin: 0px 2px; vertical-align: top;',
       ]
     );
-
-      tag_bare(
-        'img',
-        [
-          'src' => url_base() . '/res/img.php/rss/rss-40674_50.png?v=' . get_resource_version(),
-          'style' => 'height: 24px; display: inline-block; margin: 0px 2px; vertical-align: top;',
-        ]
-      );
-
-    tag_shut( 'a' );
 
   }
 
@@ -227,5 +220,7 @@ class Item extends MudGadget implements INullable {
 class NullItem extends Item {
 
   use NullItemMixin;
+
+  function get_rss_info( &$title, &$url ) { $title = null; $url = null; }
 
 }

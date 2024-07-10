@@ -51,14 +51,13 @@ class Channel extends Item {
     $slug = $this->get_channel_slug()->to_string();
     //$name = $this->get_channel_name()->to_string();
 
-    tag_text(
-      'a',
+    render_link_internal(
       $slug,
+      $url,
+      self::$title_map[ $slug ],
       [
-        'href' => $url,
         'class' => 'internal channel',
-        'title' => self::$title_map[ $slug ],
-      ]
+      ],
     );
 
   }
@@ -71,14 +70,13 @@ class Channel extends Item {
     $slug = $this->get_channel_slug()->to_string();
     $name = $this->get_channel_name()->to_string();
 
-    tag_text(
-      'a',
+    render_link_internal(
       $this->text_map[ $slug ],
+      $url,
+      $this->title_map[ $slug ],
       [
-        'href' => $url,
         'class' => 'internal channel',
-        'title' => $this->title_map[ $slug ],
-      ]
+      ],
     );
 
     out_text( ': ' );
@@ -98,14 +96,10 @@ class Channel extends Item {
     $slug = $this->get_slug();
     $text = $text ?? $slug;
 
-    tag_text(
-      'a',
+    render_link_internal(
       $text,
-      $attrs + [
-        'href' => $this->get_internal_url(),
-        'class' => 'internal',
-        'title' => $this->get_title_attr(),
-      ]
+      $this->get_internal_url(),
+      $this->get_title_attr(),
     );
 
   }
@@ -129,7 +123,6 @@ class Channel extends Item {
         if ( ! $show->get_first_segment()->is_live() ) { return false; }
         $a = $show->get_channel()->get_slug();
         $b = $this->get_slug();
-        //dump([ 'a' => $a, 'b' => $b ]);
         return $a === $b;
       }
     );

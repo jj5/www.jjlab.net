@@ -138,15 +138,11 @@ abstract class Video extends Item {
     $url = $this->get_internal_url();
     $text = $text ?? $this->get_segment()->get_name();
 
-    tag_text(
-      'a',
+    render_link_internal(
       $text,
-      $attrs + [
-        'href' => $url,
-        'class' => 'internal',
-        'rel' => 'follow',
-        'title' => TITLE_LINK_VIDEO
-      ]
+      $url,
+      TITLE_LINK_VIDEO,
+      $attrs,
     );
 
   }

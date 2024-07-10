@@ -37,14 +37,10 @@ function render_sponsor_main() {
 
           out_text( 'Would you like to sponsor the show? You can ' );
 
-          tag_text(
-            'a',
+          render_link_internal(
             'support the show',
-            [
-              'href' => url_base() . '/support.php',
-              'class' => 'internal',
-              'title' => TITLE_SUPPORT,
-            ]
+            url_base() . '/support.php',
+            TITLE_SUPPORT,
           );
 
           out_text( ' too!' );
@@ -85,14 +81,10 @@ function render_sponsor_main() {
 
         out_text( 'If you would like to ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'support the show',
-          [
-            'href' => url_base() . '/support.php',
-            'class' => 'internal',
-            'title' => TITLE_SUPPORT,
-          ]
+          url_base() . '/support.php',
+          TITLE_SUPPORT,
         );
 
         out_text( ' I would very much appreciate it and the best place to do so is over here:' );
@@ -101,16 +93,10 @@ function render_sponsor_main() {
 
       tag_open( 'p', [ 'class' => 'indent' ] );
 
-        tag_text(
-          'a',
+        render_link_external(
           'patreon.com/JohnElliotV',
-          [
-            'href' => 'https://www.patreon.com/JohnElliotV',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => TITLE_PATREON,
-          ]
+          'https://www.patreon.com/JohnElliotV',
+          TITLE_PATREON,
         );
 
       tag_shut( 'p' );
@@ -119,14 +105,10 @@ function render_sponsor_main() {
 
         out_text( "If you have high-quality products or services which would be of interest to electronics hobbyists and you'd like me to demo, unbox, or teardown on the show," );
 
-        tag_text(
-          'a',
+        render_link_internal(
           "let's talk",
-          [
-            'href' => url_base() . '/contact.php',
-            'class' => 'internal',
-            'title' => TITLE_CONTACT,
-          ]
+          url_base() . '/contact.php',
+          TITLE_CONTACT,
         );
 
         out_text( '.' );
@@ -137,26 +119,18 @@ function render_sponsor_main() {
 
         out_text( "In addition to the sponsors above I also have " );
 
-        tag_text(
-          'a',
+        render_link_internal(
           "affiliates",
-          [
-            'href' => url_base() . '/affiliate.php',
-            'class' => 'internal',
-            'title' => TITLE_AFFILIATE,
-          ]
+          url_base() . '/affiliate.php',
+          TITLE_AFFILIATE,
         );
 
         out_text( " whose products I promote on my " );
 
-        tag_text(
-          'a',
+        render_link_internal(
           "equipment",
-          [
-            'href' => url_base() . '/equipment.php',
-            'class' => 'internal',
-            'title' => TITLE_EQUIPMENT,
-          ]
+          url_base() . '/equipment.php',
+          TITLE_EQUIPMENT,
         );
 
         out_text( ' page.' );

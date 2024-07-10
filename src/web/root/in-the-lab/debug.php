@@ -36,78 +36,60 @@ function render_menu() {
 
         tag_open( 'li' );
 
-          tag_text(
-            'a',
+          render_link_internal(
             'Books',
-            [
-              'href' => url_base() . '/books.php',
-              'class' => 'internal',
-            ]
+            url_base() . '/books.php',
+            TITLE_BOOK_INDEX,
           );
 
         tag_shut( 'li' );
 
         tag_open( 'li' );
 
-          tag_text(
-            'a',
+          render_link_internal(
             'Videos',
-            [
-              'href' => url_base() . '/videos.php',
-              'class' => 'internal',
-            ]
+            url_base() . '/videos.php',
+            TITLE_VIDEO_INDEX,
           );
 
         tag_shut( 'li' );
 
         tag_open( 'li' );
 
-          tag_text(
-            'a',
+          render_link_internal(
             'YouTube Template',
-            [
-              'href' => url_base() . '/youtube-template.php',
-              'class' => 'internal',
-            ]
+            url_base() . '/youtube-template.php',
+            TITLE_YOUTUBE_TEMPLATE,
           );
 
         tag_shut( 'li' );
 
         tag_open( 'li' );
 
-          tag_text(
-            'a',
+          render_link_internal(
             'Blog Template',
-            [
-              'href' => url_base() . '/blog-template.php',
-              'class' => 'internal',
-            ]
+            url_base() . '/blog-template.php',
+            TITLE_BLOG_TEMPLATE,
           );
 
         tag_shut( 'li' );
 
         tag_open( 'li' );
 
-          tag_text(
-            'a',
+          render_link_internal(
             'Feed',
-            [
-              'href' => url_base() . '/feed.php',
-              'class' => 'internal',
-            ]
+            url_base() . '/feed.php',
+            TITLE_RSS_FEED,
           );
 
         tag_shut( 'li' );
 
         tag_open( 'li' );
 
-          tag_text(
-            'a',
+          render_link_internal(
             'Sitemap',
-            [
-              'href' => url_base() . '/sitemap.php',
-              'class' => 'internal',
-            ]
+            url_base() . '/sitemap.php',
+            TITLE_SITEMAP_XML,
           );
 
         tag_shut( 'li' );
@@ -129,13 +111,10 @@ function render_channel_list() {
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'Channel Index',
-          [
-            'href' => url_base() . '/channel.php',
-            'class' => 'internal',
-          ]
+          url_base() . '/channel.php',
+          TITLE_CHANNEL_INDEX,
         );
 
       tag_shut( 'li' );
@@ -168,13 +147,10 @@ function render_show_list() {
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'Show Index',
-          [
-            'href' => url_base() . '/show-type.php',
-            'class' => 'internal',
-          ]
+          url_base() . '/show-type.php',
+          TITLE_SHOW_TYPE_INDEX,
         );
 
       tag_shut( 'li' );
@@ -207,13 +183,10 @@ function render_feature_list() {
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'Feature Index',
-          [
-            'href' => url_base() . '/feature.php',
-            'class' => 'internal',
-          ]
+          url_base() . '/feature.php',
+          TITLE_FEATURE_INDEX,
         );
 
       tag_shut( 'li' );

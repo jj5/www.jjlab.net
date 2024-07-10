@@ -78,7 +78,9 @@ function render_equipment_list_for_category( $category, $equipment_list ) {
 
 function render_index( $category_list ) {
 
-  render_head( 'Category Index' );
+  $title = 'Equipment Category Index';
+
+  render_head( $title );
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
@@ -86,7 +88,7 @@ function render_index( $category_list ) {
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
-        tag_text( 'h1', "Category Index" );
+        tag_text( 'h1', $title );
 
         tag_open( 'p' );
 
@@ -108,14 +110,10 @@ function render_index( $category_list ) {
 
         out_text( 'In addition to these categories you can also get a report by ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'manufacturer',
-          [
-            'href' => url_base() . '/manufacturer.php',
-            'class' => 'internal',
-            'title' => TITLE_LINK_MANUFACTURER,
-          ]
+          url_base() . '/manufacturer.php',
+          TITLE_LINK_MANUFACTURER,
         );
 
         out_text( '.' );
@@ -150,14 +148,10 @@ function render_index( $category_list ) {
 
               tag_open( 'td' );
 
-                tag_text(
-                  'a',
+                render_link_internal(
                   $category->get_category_name(),
-                  [
-                    'href' => url_base() . '/category.php/' . $category->get_category_id(),
-                    'class' => 'internal',
-                    'title' => TITLE_LINK_CATEGORY,
-                  ]
+                  url_base() . '/category.php/' . $category->get_category_id(),
+                  TITLE_LINK_CATEGORY,
                 );
 
               tag_shut( 'td' );

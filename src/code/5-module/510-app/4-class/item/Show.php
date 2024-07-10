@@ -130,14 +130,10 @@ class Show extends Item {
 
       $link = '?' . get_link( [ 'from' => $video_id ] ) . '#' . $video_id;
 
-      tag_text(
-        'a',
+      render_link_internal_nofollow(
         'Load More Videos',
-        [
-          'href' => $link,
-          'class' => 'internal',
-          'title' => TITLE_LOAD_MORE,
-        ]
+        $link,
+        TITLE_LOAD_MORE,
       );
 
     tag_shut( 'div' );
@@ -154,26 +150,18 @@ class Show extends Item {
 
         out_text( 'You can return to the' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'home page',
-          [
-            'href' => url_base() . '/',
-            'class' => 'internal',
-            'title' => TITLE_LINK_HOME,
-          ]
+          url_base() . '/',
+          TITLE_LINK_HOME,
         );
 
         out_text( ' or maybe check out my ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'equipment',
-          [
-            'href' => url_base() . '/equipment.php',
-            'class' => 'internal',
-            'title' => TITLE_EQUIPMENT
-          ]
+          url_base() . '/equipment.php',
+          TITLE_EQUIPMENT,
         );
 
         out_text( '. I will publish more videos soon!' );
@@ -184,16 +172,10 @@ class Show extends Item {
 
         out_text( 'Head over to ' );
 
-        tag_text(
-          'a',
+        render_link_external(
           '@InTheLabWithJayJay',
-          [
-            'href' => 'https://www.youtube.com/@InTheLabWithJayJay',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => TITLE_YOUTUBE_MAIN,
-          ]
+          'https://www.youtube.com/@InTheLabWithJayJay',
+          TITLE_YOUTUBE_MAIN,
         );
 
         out_text( ' and subscribe in order to be notified when there are new videos.' );
@@ -214,26 +196,18 @@ class Show extends Item {
 
         out_text( 'You can return to the' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'home page',
-          [
-            'href' => url_base() . '/',
-            'class' => 'internal',
-            'title' => TITLE_LINK_HOME,
-          ]
+          url_base() . '/',
+          TITLE_LINK_HOME,
         );
 
         out_text( ' or maybe check out my ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'equipment',
-          [
-            'href' => url_base() . '/equipment.php',
-            'class' => 'internal',
-            'title' => TITLE_EQUIPMENT,
-          ]
+          url_base() . '/equipment.php',
+          TITLE_EQUIPMENT,
         );
 
         out_text( '. I will publish more videos soon!' );
@@ -244,16 +218,10 @@ class Show extends Item {
 
         out_text( 'Head over to ' );
 
-        tag_text(
-          'a',
+        render_link_external(
           '@InTheLabWithJayJay',
-          [
-            'href' => 'https://www.youtube.com/@InTheLabWithJayJay',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => TITLE_YOUTUBE_MAIN,
-          ]
+          'https://www.youtube.com/@InTheLabWithJayJay',
+          TITLE_YOUTUBE_MAIN,
         );
 
         out_text( ' and subscribe in order to be notified when there are new videos.' );

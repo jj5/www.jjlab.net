@@ -60,7 +60,7 @@ function render_404() {
 
           out_text( 'Return to the ' );
 
-          tag_text( 'a', 'homepage', [ 'href' => url_base() . '/', 'class' => 'internal' ] );
+          render_link_internal( 'homepage', url_base() . '/', TITLE_HOMEPAGE );
 
           out_text( '.' );
 
@@ -70,7 +70,7 @@ function render_404() {
 
           out_text( 'If you believe this is an error, please ' );
 
-          tag_text( 'a', 'contact us', [ 'href' => url_base() . '/contact.php', 'class' => 'internal' ] );
+          render_link_internal( 'contact us', url_base() . '/contact.php', TITLE_CONTACT );
 
           out_text( '.' );
 
@@ -133,7 +133,7 @@ function render_500( $message = null, $form = null, $issue = null, $exit = null,
 
           out_text( 'Return to the ' );
 
-          tag_text( 'a', 'homepage', [ 'href' => url_base() . '/', 'class' => 'internal' ] );
+          render_link_internal( 'homepage', url_base() . '/', TITLE_HOMEPAGE );
 
           out_text( '.' );
 
@@ -145,7 +145,7 @@ function render_500( $message = null, $form = null, $issue = null, $exit = null,
 
         out_text( 'If the problem persists, please ' );
 
-        tag_text( 'a', 'contact us', [ 'href' => url_base() . '/contact.php', 'class' => 'internal' ] );
+        render_link_internal( 'contact us', url_base() . '/contact.php', TITLE_CONTACT );
 
         out_text( ' to let us know.' );
 
@@ -453,14 +453,13 @@ function render_head( string $heading, array $options = [] ) {
 
                       tag_open( 'li', [ 'class' => 'popover-item' ] );
 
-                        tag_text(
-                          'a',
+                        render_link_internal(
                           $link[ 'text' ],
+                          url_base() . $link[ 'href' ],
+                          $link[ 'title' ],
                           [
-                            'href' => url_base() . $link[ 'href' ],
                             'class' => 'internal popover-link',
-                            'title' => $link[ 'title' ],
-                          ]
+                          ],
                         );
 
                       tag_shut( 'li' );
@@ -491,14 +490,10 @@ function render_head( string $heading, array $options = [] ) {
 
                 if ( $index !== 0 ) { out_text( ' | ' ); }
 
-                tag_text(
-                  'a',
+                render_link_internal(
                   $link[ 'text' ],
-                  [
-                    'href' => url_base() . $link[ 'href' ],
-                    'class' => 'internal',
-                    'title' => $link[ 'title' ],
-                  ]
+                  url_base() . $link[ 'href' ],
+                  $link[ 'title' ],
                 );
 
               }
@@ -624,34 +619,17 @@ function render_rss_link() {
 
 function render_rss_anchor( $attrs = [] ) {
 
-  // 2024-07-03 jj5 - NOTE: I'm not going to keep the RSS links as context affinitive, instead the RSS link in the header
-  // will always link to the main feed...
+  // 2024-07-10 jj5 - NOTE: this RSS feed (which is in the nav header) is to the full thing, it is no longer context
+  // affinitve.
 
-  $url = url_base() . '/feed.php';
-  $title = TITLE_NAV_FEED;
-
-  // 2024-07-03 jj5 - OLD: this was context affinitive...
-  //get_rss_link( $title, $url );
-
-  tag_open(
-    'a',
-    $attrs + [
-      'href' => $url,
-      'title' => $title,
+  render_link_internal_img(
+    url_base( $use_cdn = true ) . '/res/img.php/rss/rss-40674_50.png?v=' . get_resource_version(),
+    url_base() . '/feed.php',
+    TITLE_NAV_FEED,
+    [
+      'style' => 'display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;',
     ]
   );
-
-    //out_text( 'RSS' );
-
-    tag_bare(
-      'img',
-      [
-        'src' => url_base( $use_cdn = true ) . '/res/img.php/rss/rss-40674_50.png?v=' . get_resource_version(),
-        'style' => 'display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;',
-      ]
-    );
-
-  tag_shut( 'a' );
 
 }
 
@@ -725,15 +703,10 @@ function list_maxitronix_kits() {
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'Maxitronix ' . $kit_name,
-          [
-            'href' => url_base() . '/show-type.php/maxitronix-' . $kit_name,
-            'class' => 'internal',
-            'rel' => 'follow',
-            'title' => MaxitronixKit::get_html_title( $kit_name ),
-          ]
+          url_base() . '/show-type.php/maxitronix-' . $kit_name,
+          MaxitronixKit::get_html_title( $kit_name ),
         );
 
       tag_shut( 'li' );
@@ -865,29 +838,18 @@ function render_equipment_notes( $item ) {
 
         out_text( "If you would like more information about the " );
 
-        tag_text(
-          'a',
+        render_link_internal(
           $item->get_equipment_name()->to_string(),
-          [
-            'href' => '#' . $item->get_equipment_id(),
-            'class' => 'internal',
-            'rel' => 'follow',
-            'title' => TITLE_LINK_EQUIPMENT,
-          ]
+          $item->get_equipment_id(),
+          TITLE_LINK_EQUIPMENT,
         );
 
         out_text( " you might like to check out " );
 
-        tag_text(
-          'a',
+        render_link_external(
           'my notes',
-          [
-            'href' => $wiki_link,
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => TITLE_LINK_SIXSIGMA,
-          ]
+          $wiki_link,
+          TITLE_LINK_SIXSIGMA,
         );
 
         out_text( '.' );
@@ -902,41 +864,26 @@ function render_equipment_notes( $item ) {
 
     out_text( "If you would like to see all of my equipment check out the " );
 
-    tag_text(
-      'a',
+    render_link_internal(
       'equipment',
-      [
-        'href' => url_base() . '/equipment.php',
-        'class' => 'internal',
-        'rel' => 'follow',
-        'title' => TITLE_LINK_EQUIPMENT,
-      ]
+      url_base() . '/equipment.php',
+      TITLE_LINK_EQUIPMENT,
     );
 
     out_text( " page. You can also get my equipment indexed by " );
 
-    tag_text(
-      'a',
+    render_link_internal(
       'category',
-      [
-        'href' => url_base() . '/category.php',
-        'class' => 'internal',
-        'rel' => 'follow',
-        'title' => TITLE_LINK_CATEGORY,
-      ]
+      url_base() . '/category.php',
+      TITLE_LINK_CATEGORY,
     );
 
     out_text( ' or by ' );
 
-    tag_text(
-      'a',
+    render_link_internal(
       'manufacturer',
-      [
-        'href' => url_base() . '/manufacturer.php',
-        'class' => 'internal',
-        'rel' => 'follow',
-        'title' => TITLE_LINK_MANUFACTURER,
-      ]
+      url_base() . '/manufacturer.php',
+      TITLE_LINK_MANUFACTURER,
     );
 
     out_text( '.' );
@@ -963,14 +910,10 @@ function render_equipment_header( $equipment_list ) {
 
     out_text( 'This page does have a ' );
 
-    tag_text(
-      'a',
+    render_link_internal(
       'Table of Contents',
-      [
-        'href' => '#contents',
-        'class' => 'internal',
-        'title' => TITLE_TOC,
-      ]
+      '#contents',
+      TITLE_TOC,
     );
 
     out_text( " but it's at the bottom of the page." );
@@ -1094,28 +1037,18 @@ function render_equipment_disclaimer( $count ) {
 
       }
 
-      tag_text(
-        'a',
+      render_link_internal(
         'category',
-        [
-          'href' => url_base() . '/category.php',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_LINK_CATEGORY,
-        ]
+        url_base() . '/category.php',
+        TITLE_LINK_CATEGORY,
       );
 
       out_text( ' or by ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'manufacturer',
-        [
-          'href' => url_base() . '/manufacturer.php',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_LINK_MANUFACTURER,
-        ]
+        url_base() . '/manufacturer.php',
+        TITLE_LINK_MANUFACTURER,
       );
 
     tag_shut( 'p' );
@@ -1124,17 +1057,11 @@ function render_equipment_disclaimer( $count ) {
 
       out_text( 'If you have thoughts or questions please feel free to ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'let me know',
-        [
-          'href' => url_base() . '/contact.php',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_CONTACT,
-        ]
+        url_base() . '/contact.php',
+        TITLE_CONTACT,
       );
-
 
       out_text( '.' );
 
@@ -1210,32 +1137,26 @@ function render_blog_template( $equipment_list ) {
       out_text( "\n" );
       out_text( "This post is part of my " );
       
-      tag_text(
-        'a',
+      render_link_external(
         'video blog',
+        'https://www.inthelabwithjayjay.com/',
+        TITLE_BLOG_JJLAB,
         [
-          'href' => 'https://www.inthelabwithjayjay.com/',
-          'target' => '_blank',
-          'rel' => 'follow',
-          'title' => TITLE_BLOG_JJLAB,
           MUD_HTML_OPT_SPACE => false,
           MUD_HTML_OPT_BREAK => false,
-        ]
+        ],
       );
 
       out_text( " and you can find more information about this video on " );
 
-      tag_text(
-        'a',
+      render_link_external(
         "this show's homepage",
+        '#',
+        TITLE_BLOG_VIDEO_LINK,
         [
-          'href' => '#',
-          'target' => '_blank',
-          'rel' => 'follow',
-          'title' => TITLE_BLOG_VIDEO_LINK,
           MUD_HTML_OPT_SPACE => false,
           MUD_HTML_OPT_BREAK => true,
-        ]
+        ],
       );
 
       out_text( ".\n" );
@@ -1255,32 +1176,26 @@ function render_blog_template( $equipment_list ) {
 
       out_text( "\n\nYou can support this channel on Patreon: " );
       
-      tag_text(
-        'a',
+      render_link_external(
         'patreon.com/JohnElliotV',
+        'https://www.patreon.com/JohnElliotV',
+        TITLE_BLOG_PATREON,
         [
-          'href' => 'https://www.patreon.com/JohnElliotV',
-          'target' => '_blank',
-          'rel' => 'follow',
-          'title' => TITLE_BLOG_PATREON,
           MUD_HTML_OPT_SPACE => false,
           MUD_HTML_OPT_BREAK => false,
-        ]
+        ],
       );
 
       out_text( "\n\n" );
       
-      tag_text(
-        'a',
+      render_link_external(
         'Silly Job Title',
+        'https://www.inthelabwithjayjay.com/in-the-lab/#silly-job-title',
+        'Click here to read about the silly job title.',
         [
-          'href' => 'https://www.inthelabwithjayjay.com/in-the-lab/#silly-job-title',
-          'target' => '_blank',
-          'rel' => 'follow',
-          'title' => 'Click here to read about the silly job title.',
           MUD_HTML_OPT_SPACE => false,
           MUD_HTML_OPT_BREAK => false,
-        ]
+        ],
       );
 
       out_text( ": ..." );
@@ -1321,10 +1236,11 @@ function render_blog_template( $equipment_list ) {
                 tag_open(
                   'a',
                   [
+                    'class' => 'external',
+                    'target' => '_blank',
+                    'rel' => 'noopener follow',
                     'href' => $link,
                     'title' => mud_format_string( TITLE_TEMPLATE_BLOG_PRODUCT, [ 'product' => $product ] ),
-                    'target' => '_blank',
-                    'rel' => 'follow',
                   ]
                 );
 
@@ -1333,7 +1249,6 @@ function render_blog_template( $equipment_list ) {
                     $product,
                     [
                       'class' => 'product-name',
-                      //'style' => 'font-size:2rem;',
                     ]
                   );
 
@@ -1341,10 +1256,9 @@ function render_blog_template( $equipment_list ) {
                     'img',
                     [
                       'class' => 'thumb',
+                      'loading' => 'lazy',
                       'src' => $thumb,
                       'alt' => 'This is an image of the product.',
-                      //'style' => 'max-height:400px',
-                      'loading' => 'lazy',
                     ]
                   );
 
@@ -1356,10 +1270,10 @@ function render_blog_template( $equipment_list ) {
                     'a',
                     [
                       'class' => 'notes',
+                      'target' => '_blank',
+                      'rel' => 'noopener follow',
                       'href' => $notes,
                       'title' => mud_format_string( TITLE_TEMPLATE_BLOG_PRODUCT_NOTES, [ 'product' => $product ] ),
-                      'target' => '_blank',
-                      'rel' => 'follow',
                     ]
                   );
 
@@ -1445,9 +1359,9 @@ function render_equipment_table( $equipment_list ) {
                 tag_open(
                   'a',
                   [
-                    'href' => url_base() . '/equipment.php#' . $id,
                     'class' => 'internal equipment-link',
                     'rel' => 'follow',
+                    'href' => url_base() . '/equipment.php#' . $id,
                     'title' => TITLE_LINK_ITEM,
                   ]
                 );
@@ -1477,16 +1391,10 @@ function render_equipment_table( $equipment_list ) {
 
                 tag_open( 'div' );
 
-                  tag_text(
-                    'a',
+                  render_link_external(
                     $short_link,
-                    [
-                      'href' => $short_link,
-                      'class' => 'external',
-                      'target' => '_blank',
-                      'rel' => 'noopener follow',
-                      'title' => TITLE_LINK_SHORT,
-                    ]
+                    $short_link,
+                    TITLE_LINK_SHORT,
                   );
 
                 tag_shut( 'div' );
@@ -1502,18 +1410,10 @@ function render_equipment_table( $equipment_list ) {
 
                     tag_open( 'div' );
 
-                      tag_text(
-                        'a',
+                      render_link_external(
                         $text,
-                        [
-                          'href' => $href,
-                          'class' => 'external',
-                          'target' => '_blank',
-                          // 2024-07-04 jj5 - OLD: I don't think this was working? it's not important anyway...
-                          //'target' => 'search',
-                          'rel' => 'noopener follow',
-                          'title' => TITLE_SEARCH_AFFILIATE,
-                        ]
+                        $href,
+                        TITLE_SEARCH_AFFILIATE,
                       );
 
                     tag_shut( 'div' );
@@ -1546,29 +1446,19 @@ function render_equipment_table( $equipment_list ) {
 
                   if ( is_a( $link, Category::class ) ) {
 
-                    tag_text(
-                      'a',
+                    render_link_internal(
                       $link,
-                      [
-                        'href' => url_base() . '/category.php/' . $link->get_category_id(),
-                        'class' => 'internal',
-                        'rel' => 'follow',
-                        'title' => TITLE_LINK_CATEGORY_SELECTION,
-                      ]
+                      url_base() . '/category.php/' . $link->get_category_id(),
+                      TITLE_LINK_CATEGORY_SELECTION,
                     );
 
                   }
                   else {
 
-                    tag_text(
-                      'a',
+                    render_link_internal(
                       $link,
-                      [
-                        'href' => url_base() . '/manufacturer.php/' . $link->get_manufacturer_id(),
-                        'class' => 'internal',
-                        'rel' => 'follow',
-                        'title' => TITLE_LINK_MANUFACTURER_SELECTION,
-                      ]
+                      url_base() . '/manufacturer.php/' . $link->get_manufacturer_id(),
+                      TITLE_LINK_MANUFACTURER_SELECTION,
                     );
 
                   }
@@ -1667,16 +1557,10 @@ function render_equipment_table( $equipment_list ) {
                     ]
                   );
 
-                    tag_text(
-                      'a',
+                    render_link_external(
                       'notes',
-                      [
-                        'href' => $notes_url,
-                        'class' => 'external',
-                        'target' => '_blank',
-                        'rel' => 'noopener follow',
-                        'title' => TITLE_LINK_SIXSIGMA,
-                      ]
+                      $notes_url,
+                      TITLE_LINK_SIXSIGMA,
                     );
 
                   tag_shut( 'td' );
@@ -1913,20 +1797,11 @@ function render_equipment_table( $equipment_list ) {
 
                   out_text( 'I purchased ' );
 
-                  tag_open(
-                    'a',
-                    [
-                      'href' => $href,
-                      'class' => 'external',
-                      'target' => '_blank',
-                      'rel' => 'noopener follow',
-                      'title' => $order_item_name,
-                    ]
+                  render_link_external(
+                    "$number of these",
+                    $href,
+                    $order_item_name,
                   );
-
-                    out_text( "$number of these" );
-
-                  tag_shut( 'a' );
 
                   out_text( " on $date for $price $each" );
 
@@ -1957,20 +1832,11 @@ function render_equipment_table( $equipment_list ) {
 
                   if ( is_dev() ) {
 
-                    tag_open(
-                      'a',
-                      [
-                        'href' => $order_url,
-                        'class' => 'external',
-                        'target' => '_blank',
-                        'rel' => 'noopener follow',
-                        'title' => TITLE_LINK_ORDER,
-                      ]
+                    render_link_external(
+                      $order_id,
+                      $order_url,
+                      TITLE_LINK_ORDER,
                     );
-
-                      out_text( $order_id );
-
-                    tag_shut( 'a' );
 
                   }
 
@@ -2037,24 +1903,19 @@ function render_equipment_list( $equipment_list ) {
 
             $short_link_url = $short_link;
 
+            /*
             if ( is_dev() ) {
 
               $short_link_url = "#$id";
 
             }
+            */
 
-            tag_open(
-              'a',
-              [
-                'href' => $short_link_url,
-                'class' => 'internal',
-                'title' => TITLE_LINK_SHORT,
-              ]
+            render_link_external(
+              $short_link,
+              $short_link_url,
+              TITLE_LINK_SHORT,
             );
-
-              out_text( $short_link );
-
-            tag_shut( 'a' );
 
           tag_shut( 'dd' );
 
@@ -2154,18 +2015,11 @@ function render_equipment_list( $equipment_list ) {
 
               out_text( 'I have ' );
 
-              tag_open(
-                'a',
-                [
-                  'href' => $notes_url,
-                  'class' => 'internal',
-                  'title' => TITLE_LINK_SIXSIGMA,
-                ]
+              render_link_internal(
+                'notes',
+                $notes_url,
+                TITLE_LINK_SIXSIGMA,
               );
-
-                out_text( 'notes' );
-
-              tag_shut( 'a' );
 
               out_text( ' about this product on my personal wiki.' );
 
@@ -2238,24 +2092,11 @@ function render_equipment_list( $equipment_list ) {
 
               out_text( 'I purchased ' );
 
-              tag_open(
-                'a',
-                [
-                  'href' => $href,
-                  'class' => 'external',
-                  'target' => '_blank',
-                  'rel' => 'noopener follow',
-                  'title' => TITLE_LINK_PURCHASED,
-                ]
+              render_link_external(
+                "$number_name of these",
+                $href,
+                TITLE_LINK_PURCHASED,
               );
-
-                $quantity = $purchase->get_order_quantity()->to_string();
-
-                out_text( $number_name );
-
-                out_text( ' of these' );
-
-              tag_shut( 'a' );
 
               out_text( ' from ' );
 
@@ -2327,41 +2168,26 @@ function render_equipment_options( int $count, bool $indclude_id = true ) {
 
       out_text( 'Prices in: ' );
 
-      tag_text(
-        'a',
+      render_link_internal_nofollow(
         'USD',
-        [
-          'href' => '?' . get_link( [ 'currency' => 'USD' ] ) . '#options',
-          'class' => 'internal',
-          'title' => TITLE_PRICE_USD,
-          'rel' => 'nofollow',
-        ]
+        '?' . get_link( [ 'currency' => 'USD' ] ) . '#options',
+        TITLE_PRICE_USD,
       );
 
       out_text( ' | ' );
 
-      tag_text(
-        'a',
+      render_link_internal_nofollow(
         'AUD',
-        [
-          'href' => '?' . get_link( [ 'currency' => 'AUD' ] ) . '#options',
-          'class' => 'internal',
-          'title' => TITLE_PRICE_AUD,
-          'rel' => 'nofollow',
-        ]
+        '?' . get_link( [ 'currency' => 'AUD' ] ) . '#options',
+        TITLE_PRICE_AUD,
       );
 
       out_text( ' | ' );
 
-      tag_text(
-        'a',
+      render_link_internal_nofollow(
         'default',
-        [
-          'href' => '?' . get_link_without( 'currency' ) . '#options',
-          'class' => 'internal',
-          'title' => TITLE_PRICE_DEFAULT,
-          'rel' => 'nofollow',
-        ]
+        '?' . get_link_without( 'currency' ) . '#options',
+        TITLE_PRICE_DEFAULT,
       );
 
       if ( $count > 1 ) {
@@ -2370,80 +2196,50 @@ function render_equipment_options( int $count, bool $indclude_id = true ) {
 
         out_text( 'Sort: ' );
 
-        tag_text(
-          'a',
+        render_link_internal_nofollow(
           'cheap first',
-          [
-            'href' => '?' . get_link( [ 'sort' => 'cheap-first' ] ) . '#options',
-            'class' => 'internal',
-            'title' => TITLE_SORT_CHEAP_FIRST,
-            'rel' => 'nofollow',
-          ]
+          '?' . get_link( [ 'sort' => 'cheap-first' ] ) . '#options',
+          TITLE_SORT_CHEAP_FIRST,
         );
 
         out_text( ' | ' );
 
-        tag_text(
-          'a',
+        render_link_internal_nofollow(
           'expensive first',
-          [
-            'href' => '?' . get_link( [ 'sort' => 'expensive-first' ] ) . '#options',
-            'class' => 'internal',
-            'title' => TITLE_SORT_EXPENSIVE_FIRST,
-            'rel' => 'nofollow',
-          ]
+          '?' . get_link( [ 'sort' => 'expensive-first' ] ) . '#options',
+          TITLE_SORT_EXPENSIVE_FIRST,
         );
 
         out_text( ' | ' );
 
-        tag_text(
-          'a',
+        render_link_internal_nofollow(
           'newest first',
-          [
-            'href' => '?' . get_link( [ 'sort' => 'new-first' ] ) . '#options',
-            'class' => 'internal',
-            'title' => TITLE_SORT_NEW_FIRST,
-            'rel' => 'nofollow',
-          ]
+          '?' . get_link( [ 'sort' => 'new-first' ] ) . '#options',
+          TITLE_SORT_NEW_FIRST,
         );
 
         out_text( ' | ' );
 
-        tag_text(
-          'a',
+        render_link_internal_nofollow(
           'oldest first',
-          [
-            'href' => '?' . get_link( [ 'sort' => 'old-first' ] ) . '#options',
-            'class' => 'internal',
-            'title' => TITLE_SORT_OLD_FIRST,
-            'rel' => 'nofollow',
-          ]
+          '?' . get_link( [ 'sort' => 'old-first' ] ) . '#options',
+          TITLE_SORT_OLD_FIRST,
         );
 
         out_text( ' | ' );
 
-        tag_text(
-          'a',
+        render_link_internal_nofollow(
           'random',
-          [
-            'href' => '?' . get_link( [ 'sort' => 'random' ] ) . '#options',
-            'class' => 'internal',
-            'title' => TITLE_SORT_RANDOM,
-            'rel' => 'nofollow',
-          ]
+          '?' . get_link( [ 'sort' => 'random' ] ) . '#options',
+          TITLE_SORT_RANDOM,
         );
 
         out_text( ' | ' );
 
-        tag_text(
-          'a',
+        render_link_internal_nofollow(
           'default',
-          [
-            'href' => '?' . get_link_without( 'sort' ) . '#options',
-            'class' => 'internal',
-            'title' => TITLE_SORT_DEFAULT,
-            'rel' => 'nofollow',
-          ]
+          '?' . get_link_without( 'sort' ) . '#options',
+          TITLE_SORT_DEFAULT,
         );
 
       }

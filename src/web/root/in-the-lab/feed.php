@@ -239,7 +239,14 @@ function render_feed_for_list( $video_list, $topic = null ) {
 
                 out_text( 'Click through to see my ' );
 
-                tag_text( 'a', 'latest video', [ 'href' => $domain . $video->get_internal_url() ] );
+                tag_text(
+                  'a',
+                  'latest video',
+                  [
+                    'href' => $domain . $video->get_internal_url(),
+                    'title' => 'Click here to see my latest video!',
+                  ]
+                );
 
                 out_text( '!' );
 

@@ -126,7 +126,9 @@ function render_channel_one() {
 
   global $g_video_id;
 
-  render_head( 'Main Channel' );
+  $title = 'Main Channel: @InTheLabWithJayJay';
+
+  render_head( $title );
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
@@ -141,22 +143,16 @@ function render_channel_one() {
         }
         else {
 
-          tag_text( 'h1', 'Main Channel', [ 'id' => 'heading' ] );
+          tag_text( 'h1', $title, [ 'id' => 'heading' ] );
 
           tag_open( 'p' );
 
             out_text( 'The main YouTube channel is: ' );
 
-            tag_text(
-              'a',
+            render_link_external(
               'youtube.com/@InTheLabWithJayJay',
-              [
-                'href' => 'https://www.youtube.com/@InTheLabWithJayJay',
-                'class' => 'external',
-                'target' => '_blank',
-                'rel' => 'noopener follow',
-                'title' => TITLE_YOUTUBE_MAIN,
-              ]
+              'https://www.youtube.com/@InTheLabWithJayJay',
+              TITLE_YOUTUBE_MAIN,
             );
 
             //out_text( '.' );
@@ -199,14 +195,10 @@ function render_channel_one_main() {
 
       out_text( 'The ' );
       
-      tag_text(
-        'a',
+      render_link_internal(
         'main channel',
-        [
-          'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-          'class' => 'internal',
-          'title' => TITLE_CHANNEL_MAIN,
-        ]
+        url_base() . '/channel.php/@InTheLabWithJayJay',
+        TITLE_CHANNEL_MAIN,
       );
       
       out_text( ' is known as ' );
@@ -219,16 +211,10 @@ function render_channel_one_main() {
 
     tag_open( 'p', [ 'class' => 'indent' ] );
 
-      tag_text(
-        'a',
+      render_link_external(
         'youtube.com/@InTheLabWithJayJay',
-        [
-          'href' => 'https://www.youtube.com/@InTheLabWithJayJay',
-          'class' => 'external youtube',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => TITLE_YOUTUBE_MAIN,
-        ]
+        'https://www.youtube.com/@InTheLabWithJayJay',
+        TITLE_YOUTUBE_MAIN,
       );
 
     tag_shut( 'p' );
@@ -247,7 +233,9 @@ function render_channel_two() {
 
   global $g_video_id;
 
-  render_head( "2nd Channel" );
+  $title = '2nd Channel: @ElliotsExtras';
+
+  render_head( $title );
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
@@ -262,22 +250,16 @@ function render_channel_two() {
         }
         else {
 
-          tag_text( 'h1', "2nd Channel" );
+          tag_text( 'h1', $title );
 
           tag_open( 'p' );
 
             out_text( 'The second YouTube channel is: ' );
 
-            tag_text(
-              'a',
+            render_link_external(
               'youtube.com/@ElliotsExtras',
-              [
-                'href' => 'https://www.youtube.com/@ElliotsExtras',
-                'class' => 'external',
-                'target' => '_blank',
-                'rel' => 'noopener follow',
-                'title' => TITLE_YOUTUBE_EXTRA,
-              ]
+              'https://www.youtube.com/@ElliotsExtras',
+              TITLE_YOUTUBE_EXTRA,
             );
 
             //out_text( '.' );
@@ -320,14 +302,10 @@ function render_channel_two_main() {
 
       out_text( 'There is also a ' );
       
-      tag_text(
-        'a',
+      render_link_internal(
         '2nd channel',
-        [
-          'href' => url_base() . '/channel.php/@ElliotsExtras',
-          'class' => 'internal',
-          'title' => TITLE_CHANNEL_EXTRA,
-        ]
+        url_base() . '/channel.php/@ElliotsExtras',
+        TITLE_CHANNEL_EXTRA,
       );
       
       out_text( ' known as ' );
@@ -340,16 +318,10 @@ function render_channel_two_main() {
 
     tag_open( 'p', [ 'class' => 'indent' ] );
 
-      tag_text(
-        'a',
+      render_link_external(
         'youtube.com/@ElliotsExtras',
-        [
-          'href' => 'https://www.youtube.com/@ElliotsExtras',
-          'class' => 'external youtube',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => TITLE_YOUTUBE_EXTRA,
-        ]
+        'https://www.youtube.com/@ElliotsExtras',
+        TITLE_YOUTUBE_EXTRA,
       );
 
     tag_shut( 'p' );
@@ -372,14 +344,10 @@ function render_channel_shows( $channel ) {
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           $show_type->get_title(),
-          [
-            'href' => url_base() . '/show-type.php/' . $show_type->get_slug(),
-            'class' => 'internal',
-            'title' => $show_type->get_title(),
-          ]
+          url_base() . '/show-type.php/' . $show_type->get_slug(),
+          $show_type->get_title(),
         );
 
         render_video_stats( $show_type->get_video_count(), $show_type->get_total_hours() );
@@ -394,14 +362,10 @@ function render_channel_shows( $channel ) {
 
             tag_open( 'li' );
 
-              tag_text(
-                'a',
+              render_link_internal(
                 $feature->get_title(),
-                [
-                  'href' => url_base() . '/feature.php/' . $feature->get_slug(),
-                  'class' => 'internal',
-                  'title' => $feature->get_title(),
-                ]
+                url_base() . '/feature.php/' . $feature->get_slug(),
+                $feature->get_title(),
               );
 
               render_video_stats( $feature->get_video_count(), $feature->get_total_hours() );
@@ -486,40 +450,6 @@ function render_show_info() {
 
     tag_shut( 'p' );
 
-    /*
-    tag_open( 'ul' );
-
-      foreach ( $video_list as $video ) {
-
-        $title = 'This video was published on ' . $publication_date->format_for_user() . ' and is ' . $video->get_duration()->to_string() . ' long.';
-
-        tag_open( 'li', [ 'title' => $title ] );
-
-          $feature = $video->get_feature();
-
-          //$feature->render_internal_link();
-
-          out_text( $feature->get_name() . ': ' );
-
-          tag_text(
-            'a',
-            $video->get_title(),
-            [
-              'href' => $video->get_internal_url(),
-              'class' => 'internal',
-              'title' => $video->get_title(),
-            ]
-          );
-
-          out_text( ' [' . $video->get_duration()->to_string() . ']' );
-
-        tag_shut( 'li' );
-
-      }
-
-    tag_shut( 'ul' );
-    */
-
     tag_open( 'div', [ 'style' => 'text-align:center' ] );
 
       tag_open( 'table', [ 'style' => 'display:inline-block' ] );
@@ -570,14 +500,10 @@ function render_show_info() {
 
               tag_open( 'td' );
 
-                tag_text(
-                  'a',
+                render_link_internal(
                   $video->get_title(),
-                  [
-                    'href' => $video->get_internal_url(),
-                    'class' => 'internal',
-                    'title' => $video->get_title(),
-                  ]
+                  $video->get_internal_url(),
+                  $video->get_title(),
                 );
 
               tag_shut( 'td' );

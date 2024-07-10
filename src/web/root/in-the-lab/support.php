@@ -54,16 +54,10 @@ function render_support_main() {
 
       tag_open( 'p', [ 'class' => 'indent' ] );
 
-        tag_text(
-          'a',
+        render_link_external(
           'patreon.com/JohnElliotV',
-          [
-            'href' => 'https://www.patreon.com/JohnElliotV',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => TITLE_PATREON,
-          ]
+          'https://www.patreon.com/JohnElliotV',
+          TITLE_PATREON,
         );
 
       tag_shut( 'p' );
@@ -78,16 +72,10 @@ function render_support_main() {
 
       tag_open( 'p', [ 'class' => 'indent' ] );
 
-        tag_text(
-          'a',
+        render_link_external(
           'youtube.com/@InTheLabWithJayJay',
-          [
-            'href' => 'https://www.youtube.com/@InTheLabWithJayJay',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => TITLE_YOUTUBE_MAIN,
-          ]
+          'https://www.youtube.com/@InTheLabWithJayJay',
+          TITLE_YOUTUBE_MAIN,
         );
 
       tag_shut( 'p' );
@@ -110,15 +98,10 @@ function render_support_main() {
 
         out_text( "A great way to support the show at no cost to you is to click through on any of the green affiliate links on my " );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'equipment',
-          [
-            'href' => url_base() . '/equipment.php',
-            'class' => 'internal',
-            'rel' => 'follow',
-            'title' => TITLE_EQUIPMENT,
-          ]
+          url_base() . '/equipment.php',
+          TITLE_EQUIPMENT,
         );
 
         out_text( " page before shopping at Amazon, eBay, or AliExpress." );
@@ -135,57 +118,36 @@ function render_support_main() {
 
         out_text( "As detailed on my " );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'sponsors',
-          [
-            'href' => url_base() . '/sponsor.php',
-            'class' => 'internal',
-            'rel' => 'follow',
-            'title' => TITLE_SPONSOR,
-          ]
+          url_base() . '/sponsor.php',
+          TITLE_SPONSOR,
         );
 
         out_text( " page my friends at " );
 
-        tag_text(
-          'a',
+        render_link_external(
           'PCBWay',
-          [
-            'href' => 'https://www.pcbway.com/',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => TITLE_PCBWAY,
-          ]
+          'https://www.pcbway.com/',
+          TITLE_PCBWAY,
         );
 
         out_text( " send me free stuff in exchange for a mention in my videos, and my friends at " );
 
-        tag_text(
-          'a',
+        render_link_external(
           'Silicon Chip',
-          [
-            'href' => 'https://www.siliconchip.com.au/',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => TITLE_SILICON_CHIP,
-          ]
+          'https://www.siliconchip.com.au/',
+          TITLE_SILICON_CHIP,
         );
 
         out_text( " give me free advertising in the back of their magazine because they are awesome. " );
         out_text( "If you have quality products or services of interest to the electronics hobbyist that wouldn't " );
         out_text( " embarrass me to promote, " );
 
-        tag_text(
-          'a',
+        render_link_internal(
           "let's talk",
-          [
-            'href' => url_base() . '/contact.php',
-            'class' => 'internal',
-            'title' => TITLE_CONTACT,
-          ]
+          url_base() . '/contact.php',
+          TITLE_CONTACT,
         );
 
         out_text( '.' );
@@ -208,30 +170,18 @@ function render_support_main() {
 
         out_text( 'You can use the short link ' );
 
-        tag_text(
-          'a',
+        render_link_external(
           'jjlab.net',
-          [
-            'href' => 'https://jjlab.net',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => "jjlab.net",
-          ]
+          'https://jjlab.net',
+          "jjlab.net",
         );
 
         out_text( ' or the longer link ' );
 
-        tag_text(
-          'a',
+        render_link_external(
           'InTheLabWithJayJay.com',
-          [
-            'href' => 'https://www.inthelabwithjayjay.com/',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => "InTheLabWithJayJay.com",
-          ]
+          'https://www.inthelabwithjayjay.com/',
+          "InTheLabWithJayJay.com",
         );
 
         out_text( '.' );

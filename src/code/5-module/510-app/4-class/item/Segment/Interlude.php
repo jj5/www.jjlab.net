@@ -30,42 +30,30 @@ class Interlude extends Segment {
 
     tag_open( 'p' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'Main Channel',
-        [
-          'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-          'class' => 'internal',
-          'title' => TITLE_CHANNEL_MAIN,
-        ]
+        url_base() . '/channel.php/@InTheLabWithJayJay',
+        TITLE_CHANNEL_MAIN,
       );
 
       //$this->get_channel()->render_rss_link();
 
       out_text( ' > ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'Special Show',
-        [
-          'href' => url_base() . '/show-type.php/special-show',
-          'class' => 'internal',
-          'title' => TITLE_SHOW_SPECIAL,
-        ]
+        url_base() . '/show-type.php/special-show',
+        TITLE_SHOW_SPECIAL,
       );
 
       //$this->get_show_type()->render_rss_link();
 
       out_text( ' > ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'Interlude',
-        [
-          'href' => url_base() . '/feature.php/interlude',
-          'class' => 'internal',
-          'title' => TITLE_FEATURE_INTERLUDE,
-        ]
+        url_base() . '/feature.php/interlude',
+        TITLE_FEATURE_INTERLUDE,
       );
 
       //$this->get_feature()->render_rss_link();

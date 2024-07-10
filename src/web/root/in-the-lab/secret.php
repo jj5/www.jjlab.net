@@ -57,30 +57,20 @@ function render_secret_main() {
 
         tag_open( 'li' );
 
-          tag_text(
-            'a',
+          render_link_internal(
             'Video Index',
-            [
-              'href' => url_base() . '/videos.php',
-              'class' => 'internal',
-              'rel' => 'follow',
-              'title' => TITLE_VIDEO_INDEX,
-            ]
+            url_base() . '/videos.php',
+            TITLE_VIDEO_INDEX,
           );
 
         tag_shut( 'li' );
 
         tag_open( 'li' );
 
-          tag_text(
-            'a',
+          render_link_internal(
             'Book Index',
-            [
-              'href' => url_base() . '/books.php',
-              'class' => 'internal',
-              'rel' => 'follow',
-              'title' => TITLE_BOOK_INDEX,
-            ]
+            url_base() . '/books.php',
+            TITLE_BOOK_INDEX,
           );
 
         tag_shut( 'li' );

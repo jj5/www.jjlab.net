@@ -144,31 +144,136 @@ function get_client_width() {
 
 function render_link_external( string $text, string $href, string $title, array $attrs = [] ) {
 
-  tag_text(
-    'a',
-    $text,
-    $attrs + [
-      'class' => 'external',
-      'target' => '_blank',
-      'rel' => 'noopener follow',
-      'href' => $href,
-      'title' => $title,
-    ]
-  );
+  $attrs += [
+    'class' => 'external',
+    'target' => '_blank',
+    'rel' => 'noopener follow',
+    'href' => $href,
+    'title' => $title,
+  ];
+
+  assert( $attrs[ 'target' ] === '_blank' );
+  assert( $attrs[ 'rel' ] === 'noopener follow' );
+
+  tag_text( 'a', $text, $attrs );
 
 }
 
-function render_link_internal( string $text, string $href, string $title, array $attrs ) {
+function render_link_external_img( string $img_src, string $href, string $title, array $img_attrs = [] ) {
 
-  tag_text(
-    'a',
-    $text,
-    $attrs + [
-      'class' => 'internal',
-      'rel' => 'follow',
-      'href' => $href,
-      'title' => $title,
-    ]
+  $a_attrs = [
+    'class' => 'external',
+    'target' => '_blank',
+    'rel' => 'noopener follow',
+    'href' => $href,
+    'title' => $title,
+  ];
+
+  assert( $a_attrs[ 'target' ] === '_blank' );
+  assert( $a_attrs[ 'rel' ] === 'noopener follow' );
+
+  $img_attrs += [
+    'loading' => 'lazy',
+    'src' => $img_src,
+  ];
+
+  if ( ! isset( $img_attrs[ 'alt' ] ) ) { $img_attrs[ 'alt' ] = $title; }
+
+  tag_open( 'a', $a_attrs );
+
+    tag_bare( 'img', $img_attrs );
+
+  tag_shut( 'a' );
+
+}
+
+function render_link_internal( string $text, string $href, string $title, array $attrs = [] ) {
+
+  $attrs += [
+    'class' => 'internal',
+    'rel' => 'follow',
+    'href' => $href,
+    'title' => $title,
+  ];
+
+  assert( $attrs[ 'rel' ] === 'follow' );
+
+  assert( strlen( $attrs[ 'href' ] ) > 0 );
+
+  assert(
+    $attrs[ 'href' ][ 0 ] === '#' ||
+    strpos( $attrs[ 'href' ], url_base() ) === 0 ||
+    strpos( $attrs[ 'href' ], 'https://www.inthelabwithjayjay.com/' ) === 0
   );
+
+  tag_text( 'a', $text, $attrs );
+
+}
+
+function render_link_internal_root( string $text, string $href, string $title, array $attrs = [] ) {
+
+  $attrs += [
+    'class' => 'internal',
+    'rel' => 'follow',
+    'href' => $href,
+    'title' => $title,
+  ];
+
+  assert( $attrs[ 'rel' ] === 'follow' );
+
+  assert( strlen( $attrs[ 'href' ] ) > 0 );
+
+  assert( $attrs[ 'href' ][ 0 ] === '/' );
+
+  tag_text( 'a', $text, $attrs );
+
+}
+
+function render_link_internal_nofollow( string $text, string $href, string $title, array $attrs = [] ) {
+
+  $attrs += [
+    'class' => 'internal',
+    'rel' => 'nofollow',
+    'href' => $href,
+    'title' => $title,
+  ];
+
+  assert( $attrs[ 'rel' ] === 'nofollow' );
+
+  assert( strlen( $attrs[ 'href' ] ) > 0 );
+
+  assert(
+    $attrs[ 'href' ][ 0 ] === '?' ||
+    $attrs[ 'href' ][ 0 ] === '#' ||
+    strpos( $attrs[ 'href' ], url_base() ) === 0
+  );
+
+  tag_text( 'a', $text, $attrs );
+
+}
+
+function render_link_internal_img( string $img_src, string $href, string $title, array $img_attrs = [] ) {
+
+  $a_attrs = [
+    'class' => 'internal',
+    'rel' => 'follow',
+    'href' => $href,
+    'title' => $title,
+  ];
+
+  assert( $a_attrs[ 'rel' ] === 'follow' );
+
+  tag_open( 'a', $a_attrs );
+
+    tag_bare(
+      'img',
+      $img_attrs + [
+        'loading' => 'lazy',
+        'src' => $img_src,
+        'alt' => $title,
+      ]
+    );
+
+  tag_shut( 'a' );
 
 }

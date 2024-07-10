@@ -45,42 +45,30 @@ class OldBookTeardown extends BookSegment {
 
     tag_open( 'p' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'Main Channel',
-        [
-          'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-          'class' => 'internal',
-          'title' => TITLE_CHANNEL_MAIN,
-        ]
+        url_base() . '/channel.php/@InTheLabWithJayJay',
+        TITLE_CHANNEL_MAIN,
       );
 
       //$this->get_channel()->render_rss_link();
 
       out_text( ' > ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'Main Show',
-        [
-          'href' => url_base() . '/show-type.php/main-show',
-          'class' => 'internal',
-          'title' => TITLE_SHOW_MAIN,
-        ]
+        url_base() . '/show-type.php/main-show',
+        TITLE_SHOW_MAIN,
       );
 
       //$this->get_show_type()->render_rss_link();
 
       out_text( ' > ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'Old Book Teardown',
-        [
-          'href' => url_base() . '/feature.php/old-book-teardown',
-          'class' => 'internal',
-          'title' => TITLE_FEATURE_OLD_BOOK_TEARDOWN,
-        ]
+        url_base() . '/feature.php/old-book-teardown',
+        TITLE_FEATURE_OLD_BOOK_TEARDOWN,
       );
 
       //$this->get_feature()->render_rss_link();

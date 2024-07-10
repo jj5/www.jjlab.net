@@ -51,16 +51,10 @@ function render_index_main() {
 
         tag_open( 'p' );
 
-          tag_text(
-            'a',
+          render_link_external(
             'youtube.com/@InTheLabWithJayJay',
-            [
-              'href' => 'https://www.youtube.com/@InTheLabWithJayJay',
-              'class' => 'external',
-              'target' => '_blank',
-              'rel' => 'noopener follow',
-              'title' => "Subscribe to my YouTube channel!",
-            ]
+            'https://www.youtube.com/@InTheLabWithJayJay',
+            "Subscribe to my YouTube channel!",
           );
 
         tag_shut( 'p' );
@@ -73,16 +67,10 @@ function render_index_main() {
 
         tag_open( 'p' );
 
-          tag_text(
-            'a',
+          render_link_external(
             'patreon.com/JohnElliotV',
-            [
-              'href' => 'https://www.patreon.com/JohnElliotV',
-              'class' => 'external',
-              'target' => '_blank',
-              'rel' => 'noopener follow',
-              'title' => "Super big shout out to my Patreon supporters for supporting the channel!",
-            ]
+            'https://www.patreon.com/JohnElliotV',
+            "Super big shout out to my Patreon supporters for supporting the channel!",
           );
 
         tag_shut( 'p' );
@@ -128,6 +116,8 @@ function render_index_main() {
     render_section_about_contact();
 
     render_section_about_sponsors();
+
+    render_section_about_homies();
 
     render_section_about_equipment();
 

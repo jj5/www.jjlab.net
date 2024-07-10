@@ -55,20 +55,7 @@ abstract class BookFeature extends Feature {
     }
     else {
 
-      tag_open(
-        'a',
-        $attrs + [
-          'href' => $url->to_string(),
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => $tooltip,
-        ]
-      );
-
-        out_text( $text );
-
-      tag_shut( 'a' );
+      render_link_external( $text, $url, $tooltip, $attrs );
 
     }
   }
@@ -123,18 +110,7 @@ abstract class BookFeature extends Feature {
 
     if ( $copyright_year ) { $tooltip .= " published in $copyright_year"; }
 
-    tag_open(
-      'a',
-      $attrs + [
-        'href' => $url,
-        'class' => 'internal',
-        'title' => $tooltip,
-      ]
-    );
-
-      out_text( $text );
-
-    tag_shut( 'a' );
+    render_link_internal( $text, $url, $tooltip, $attrs );
 
   }
 

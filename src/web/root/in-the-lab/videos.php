@@ -34,86 +34,33 @@ function render_video_list( $video_list ) {
 
         out_text( "This page is " );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'secret',
-          [
-            'href' => url_base() . '/secret.php',
-            'class' => 'internal',
-            'rel' => 'follow',
-            'title' => TITLE_SECRET,
-          ]
+          url_base() . '/secret.php',
+          TITLE_SECRET,
         );
 
         out_text( ". Shhh! It's a list of all the videos I make across both my " );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'channels',
-          [
-            'href' => url_base() . '/channel.php',
-            'class' => 'internal',
-            'rel' => 'follow',
-            'title' => TITLE_CHANNEL_INDEX,
-          ]
+          url_base() . '/channel.php',
+          TITLE_CHANNEL_INDEX,
         );
 
         out_text( ". " );
         out_text( "It's secret because it's a hack and only looks good on a 4K monitor. It won't work well on a small screen. " );
         out_text( "There is also a " );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'books index',
-          [
-            'href' => url_base() . '/books.php',
-            'class' => 'internal',
-            'rel' => 'follow',
-            'title' => TITLE_BOOK_INDEX,
-          ]
+          url_base() . '/books.php',
+          TITLE_BOOK_INDEX,
         );
 
         out_text( "." );
 
       tag_shut( 'p' );
-
-      /*
-      tag_open( 'ul' );
-
-        tag_open( 'li' );
-
-          tag_text(
-            'a',
-            'youtube.com/@InTheLabWithJayJay',
-            [
-              'href' => 'https://www.youtube.com/@InTheLabWithJayJay',
-              'class' => 'external',
-              'target' => '_blank',
-              'rel' => 'noopener follow',
-              'title' => TITLE_YOUTUBE_MAIN,
-            ]
-          );
-
-        tag_shut( 'li' );
-
-        tag_open( 'li' );
-
-          tag_text(
-            'a',
-            'youtube.com/@ElliotsExtras',
-            [
-              'href' => 'https://www.youtube.com/@ElliotsExtras',
-              'class' => 'external',
-              'target' => '_blank',
-              'rel' => 'noopener follow',
-              'title' => TITLE_YOUTUBE_EXTRA,
-            ]
-          );
-
-        tag_shut( 'li' );
-      
-      tag_shut( 'ul' );
-      */
 
       tag_open( 'table', [ 'class' => 'sortable' ] );
 
@@ -155,25 +102,25 @@ function render_video_list( $video_list ) {
 
               tag_open( 'td' );
 
-                $video->get_channel()->render_internal_link( null, [ 'rel ' => 'follow' ] );
+                $video->get_channel()->render_internal_link();
 
               tag_shut( 'td' );
 
               tag_open( 'td' );
 
-                $video->get_show_type()->render_internal_link( null, [ 'rel ' => 'follow' ] );
+                $video->get_show_type()->render_internal_link();
 
               tag_shut( 'td' );
 
               tag_open( 'td' );
 
-                $video->get_feature()->render_internal_link( null, [ 'rel ' => 'follow' ] );
+                $video->get_feature()->render_internal_link();
 
               tag_shut( 'td' );
 
               tag_open( 'td' );
 
-                $video->render_internal_link( null, [ 'rel ' => 'follow' ] );
+                $video->render_internal_link();
 
               tag_shut( 'td' );
 
@@ -236,7 +183,7 @@ function render_video_list( $video_list ) {
 
               tag_open( 'td' );
 
-                $video->render_external_link( null, [ 'rel ' => 'follow' ] );
+                $video->render_external_link();
 
               tag_shut( 'td' );
 
@@ -244,13 +191,13 @@ function render_video_list( $video_list ) {
 
                 $url = $video->get_segment()->get_blog_url();
 
-                $url->render_external_link( $url->get_domain(), [ 'rel ' => 'follow' ] );
+                $url->render_external_link( $url->get_domain() );
 
               tag_shut( 'td' );
 
               tag_open( 'td' );
 
-                out_html( $video->get_segment()->get_sponsor_list_html( null, [ 'rel' => 'follow' ] ) );
+                out_html( $video->get_segment()->get_sponsor_list_html() );
 
               tag_shut( 'td' );
 

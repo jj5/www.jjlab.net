@@ -19,16 +19,10 @@ class WebLink extends Item {
 
   public function render() {
 
-    tag_text(
-      'a',
+    render_link_external(
       $this->get_link_text()->to_string(),
-      [
-        'href' => $this->get_link_href()->to_string(),
-        'class' => 'external',
-        'target' => '_blank',
-        'rel' => 'noopener follow',
-        'title' => TITLE_LINK_EXTERNAL,
-      ]
+      $this->get_link_href()->to_string(),
+      TITLE_LINK_EXTERNAL,
     );
 
   }

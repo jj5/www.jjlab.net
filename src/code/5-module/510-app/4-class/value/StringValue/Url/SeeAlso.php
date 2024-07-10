@@ -12,14 +12,10 @@ class SeeAlso extends Url {
 
     $href = url_base() . '/equipment.php#' . get_html_id( $this->to_string() );
 
-    tag_text(
-      'a',
+    render_link_internal(
       $this->to_string(),
-      [
-        'href' => $href,
-        'class' => 'internal',
-        'title' => TITLE_LINK_EQUIPMENT,
-      ]
+      $href,
+      TITLE_LINK_EQUIPMENT,
     );
 
   }

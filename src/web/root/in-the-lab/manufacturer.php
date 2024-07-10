@@ -78,15 +78,10 @@ function render_equipment_list_for_manufacturer( $manufacturer, $equipment_list 
 
           out_text( "If you're interested in the Maxitronix kits you might like to check out " );
 
-          tag_text(
-            'a',
+          render_link_internal(
             'my Maxitronix Xin1 videos',
-            [
-              'href' => url_base() . '/feature.php/maxitronix',
-              'class' => 'internal',
-              'rel' => 'follow',
-              'title' => TITLE_FEATURE_MAXITRONIX,
-            ]
+            url_base() . '/feature.php/maxitronix',
+            TITLE_FEATURE_MAXITRONIX,
           );
 
           out_text( '.' );
@@ -107,7 +102,9 @@ function render_equipment_list_for_manufacturer( $manufacturer, $equipment_list 
 
 function render_index( $manufacturer_list ) {
 
-  render_head( "Manufacturer Index" );
+  $title = 'Equipment Manufacturer Index';
+
+  render_head( $title );
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
 
@@ -115,7 +112,7 @@ function render_index( $manufacturer_list ) {
 
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
-        tag_text( 'h1', "Manufacturer Index" );
+        tag_text( 'h1', $title );
 
         tag_open( 'p' );
 
@@ -137,14 +134,10 @@ function render_index( $manufacturer_list ) {
 
         out_text( 'In addition to these manufacturers you can also get a report by ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'category',
-          [
-            'href' => url_base() . '/category.php',
-            'class' => 'internal',
-            'title' => TITLE_LINK_CATEGORY,
-          ]
+          url_base() . '/category.php',
+          TITLE_LINK_CATEGORY,
         );
 
         out_text( '.' );
@@ -179,14 +172,10 @@ function render_index( $manufacturer_list ) {
 
               tag_open( 'td' );
 
-                tag_text(
-                  'a',
+                render_link_internal(
                   $manufacturer->get_manufacturer_name(),
-                  [
-                    'href' => url_base() . '/manufacturer.php/' . $manufacturer->get_manufacturer_id(),
-                    'class' => 'internal',
-                    'title' => TITLE_LINK_MANUFACTURER,
-                  ]
+                  url_base() . '/manufacturer.php/' . $manufacturer->get_manufacturer_id(),
+                  TITLE_LINK_MANUFACTURER,
                 );
 
               tag_shut( 'td' );

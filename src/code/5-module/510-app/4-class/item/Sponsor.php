@@ -27,17 +27,7 @@ class Sponsor extends Item {
     $url = $this->get_sponsor_url()->to_string();
     $tooltip = "Super big shout out to $sponsor_name for supporting the channel!";
 
-    tag_text(
-      'a',
-      $text,
-      $attrs + [
-        'href' => $url,
-        'class' => 'external',
-        'target' => '_blank',
-        'rel' => 'noopener follow',
-        'title' => $tooltip,
-      ]
-    );
+    render_link_external( $text, $url, $tooltip, $attrs );
 
   }
 

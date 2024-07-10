@@ -91,6 +91,12 @@ function render_show_type_index() {
 
       tag_text( 'h2', 'List of Shows', [ 'id' => 'shows' ] );
 
+      tag_open( 'p' );
+
+        out_text( 'The shows are divided into a few different categories:' );
+
+      tag_shut( 'p' );
+
       tag_open( 'ul' );
 
         $channel_list = get_list( Channel::class );
@@ -119,14 +125,10 @@ function render_channel_shows( $channel ) {
 
     tag_open( 'li' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         $show_type->get_title(),
-        [
-          'href' => url_base() . '/show-type.php/' . $show_type->get_slug(),
-          'class' => 'internal',
-          'title' => $show_type->get_title(),
-        ]
+        url_base() . '/show-type.php/' . $show_type->get_slug(),
+        $show_type->get_title(),
       );
 
       render_video_stats( $show_type->get_video_count(), $show_type->get_total_hours() );
@@ -146,14 +148,10 @@ function render_show_type_features( $show_type ) {
 
     tag_open( 'li' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         $feature->get_title(),
-        [
-          'href' => url_base() . '/feature.php/' . $feature->get_slug(),
-          'class' => 'internal',
-          'title' => $feature->get_title(),
-        ]
+        url_base() . '/feature.php/' . $feature->get_slug(),
+        $feature->get_title(),
       );
 
       render_video_stats( $feature->get_video_count(), $feature->get_total_hours() );
@@ -198,14 +196,10 @@ function render_show_type_main() {
 
         out_text( 'The main show airs on the ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'main channel',
-          [
-            'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-            'class' => 'internal channel',
-            'title' => TITLE_CHANNEL_MAIN,
-          ]
+          url_base() . '/channel.php/@InTheLabWithJayJay',
+          TITLE_CHANNEL_MAIN,
         );
 
         out_text( ' and includes these regular features:' );
@@ -245,26 +239,18 @@ function render_show_type_special() {
 
           out_text( 'Special shows air on the ' );
 
-          tag_text(
-            'a',
+          render_link_internal(
             'main channel',
-            [
-              'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-              'class' => 'internal channel',
-              'title' => TITLE_CHANNEL_MAIN,
-            ]
+            url_base() . '/channel.php/@InTheLabWithJayJay',
+            TITLE_CHANNEL_MAIN,
           );
 
           out_text( ' in addition to the ' );
 
-          tag_text(
-            'a',
+          render_link_internal(
             'main show',
-            [
-              'href' => url_base() . '/show-type.php/main-show',
-              'class' => 'internal channel',
-              'title' => TITLE_SHOW_MAIN,
-            ]
+            url_base() . '/show-type.php/main-show',
+            TITLE_SHOW_MAIN,
           );
 
           out_text( '.' );
@@ -285,14 +271,10 @@ function render_show_type_special() {
 
         out_text( 'The special shows air on the ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'main channel',
-          [
-            'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-            'class' => 'internal channel',
-            'title' => TITLE_CHANNEL_MAIN,
-          ]
+          url_base() . '/channel.php/@InTheLabWithJayJay',
+          TITLE_CHANNEL_MAIN,
         );
 
         out_text( ' and include these semi-regular features:' );
@@ -329,26 +311,18 @@ function render_show_type_extra() {
 
           out_text( 'Extra shows are for ' );
 
-          tag_text(
-            'a',
+          render_link_internal(
             'extra content',
-            [
-              'href' => url_base() . '/feature.php/extra-content',
-              'class' => 'internal',
-              'title' => TITLE_FEATURE_EXTRA,
-            ]
+            url_base() . '/feature.php/extra-content',
+            TITLE_FEATURE_EXTRA,
           );
 
           out_text( ' which airs on the ' );
 
-          tag_text(
-            'a',
+          render_link_internal(
             '2nd channel',
-            [
-              'href' => url_base() . '/channel.php/@ElliotsExtras',
-              'class' => 'internal channel',
-              'title' => TITLE_CHANNEL_EXTRA,
-            ]
+            url_base() . '/channel.php/@ElliotsExtras',
+            TITLE_CHANNEL_EXTRA,
           );
 
           out_text( '.' );

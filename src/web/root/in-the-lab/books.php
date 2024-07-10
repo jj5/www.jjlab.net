@@ -33,15 +33,10 @@ function render_books( $books ) {
 
         out_text( "This page is " );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'secret',
-          [
-            'href' => url_base() . '/secret.php',
-            'class' => 'internal',
-            'rel' => 'follow',
-            'title' => TITLE_SECRET,
-          ]
+          url_base() . '/secret.php',
+          TITLE_SECRET,
         );
 
         out_text( ". Shhh! It's a list of all the books I've covered. " );
@@ -49,15 +44,10 @@ function render_books( $books ) {
         out_text( "It's secret because it's a hack and only looks good on a 4K monitor. It won't work well on a small screen. " );
         out_text( "There is also a " );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'videos index',
-          [
-            'href' => url_base() . '/videos.php',
-            'class' => 'internal',
-            'rel' => 'follow',
-            'title' => TITLE_VIDEO_INDEX,
-          ]
+          url_base() . '/videos.php',
+          TITLE_VIDEO_INDEX,
         );
 
         out_text( "." );
@@ -106,13 +96,10 @@ function render_books( $books ) {
                 }
                 else {
 
-                  tag_text(
-                    'a',
+                  render_link_internal(
                     $book->get_video_date(),
-                    [
-                      'href' => $book->get_youtube_video()->get_internal_url(),
-                      'class' => 'internal',
-                    ]
+                    $book->get_youtube_video()->get_internal_url(),
+                    'Click here to watch the video.'
                   );
 
                 }
@@ -132,8 +119,6 @@ function render_books( $books ) {
                 foreach ( $book->get_affiliate_link_list() as $link ) {
 
                   if ( $is_first ) { $is_first = false; } else { out_text( ', ' ); }
-
-                  //tag_text( 'a', $link->get_link_text(), [ 'href' => $link->get_link_href() ] );
 
                   $link->render();
 

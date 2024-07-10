@@ -49,16 +49,11 @@ class YoutubeVideo extends Video {
 
     $text = $text ?? $url;
 
-    tag_text(
-      'a',
+    render_link_external(
       $text,
-      $attrs + [
-        'href' => $url,
-        'class' => 'external',
-        'target' => '_blank',
-        'rel' => 'noopener follow',
-        'title' => TITLE_LINK_YOUTUBE,
-      ]
+      $url,
+      TITLE_LINK_YOUTUBE,
+      $attrs,
     );
 
   }

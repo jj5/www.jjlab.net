@@ -35,14 +35,10 @@ function render_affiliate_main() {
 
           out_text( 'When possible ' );
 
-          tag_text(
-            'a',
+          render_link_internal(
             'equipment',
-            [
-              'href' => url_base() . '/equipment.php',
-              'class' => 'internal',
-              'title' => TITLE_EQUIPMENT,
-            ]
+            url_base() . '/equipment.php',
+            TITLE_EQUIPMENT,
           );
 
           out_text( " links are to affiliated vendors." );
@@ -63,39 +59,27 @@ function render_affiliate_main() {
 
         out_text( 'Following is a list of my affiliates. When possible ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'equipment',
-          [
-            'href' => url_base() . '/equipment.php',
-            'class' => 'internal',
-            'title' => TITLE_EQUIPMENT,
-          ]
+          url_base() . '/equipment.php',
+          TITLE_EQUIPMENT,
         );
 
         out_text( ' links are to affiliates. I may earn a small commission if you purchase after clicking-through ' );
         out_text( 'on an affiliate link. Clicking-through on the green links on the ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'equipment',
-          [
-            'href' => url_base() . '/equipment.php',
-            'class' => 'internal',
-            'title' => TITLE_EQUIPMENT,
-          ]
+          url_base() . '/equipment.php',
+          TITLE_EQUIPMENT,
         );
 
         out_text( ' page is a great way to ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'support the show',
-          [
-            'href' => url_base() . '/support.php',
-            'class' => 'internal',
-            'title' => TITLE_SUPPORT,
-          ]
+          url_base() . '/support.php',
+          TITLE_SUPPORT,
         );
 
         out_text( ' at no cost to you.' );
@@ -111,16 +95,10 @@ function render_affiliate_main() {
 
           tag_open( 'li' );
 
-            tag_text(
-              'a',
+            render_link_external(
               $text,
-              [
-                'href' => $href,
-                'class' => 'external',
-                'target' => '_blank',
-                'rel' => 'noopener follow',
-                'title' => TITLE_LINK_AFFILIATE,
-              ]
+              $href,
+              TITLE_LINK_AFFILIATE,
             );
 
           tag_shut( 'li' );

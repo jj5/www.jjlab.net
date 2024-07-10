@@ -28,14 +28,10 @@ class Category extends StringValue {
 
     $href = url_base() . '/category.php/' . $this->get_category_id();
 
-    tag_text(
-      'a',
+    render_link_internal(
       $this->to_string(),
-      [
-        'href' => $href,
-        'class' => 'internal',
-        'title' => TITLE_LINK_CATEGORY,
-      ]
+      $href,
+      TITLE_LINK_CATEGORY,
     );
 
   }

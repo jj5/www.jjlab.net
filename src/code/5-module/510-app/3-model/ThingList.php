@@ -85,26 +85,18 @@ class ThingList {
 
         out_text( 'You can return to the' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'home page',
-          [
-            'href' => url_base() . '/',
-            'class' => 'internal',
-            'title' => TITLE_LINK_HOME,
-          ]
+          url_base() . '/',
+          TITLE_LINK_HOME,
         );
 
         out_text( ' or maybe check out my ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'equipment',
-          [
-            'href' => url_base() . '/equipment.php',
-            'class' => 'internal',
-            'title' => TITLE_EQUIPMENT,
-          ]
+          url_base() . '/equipment.php',
+          TITLE_EQUIPMENT,
         );
 
         out_text( '. I will publish more videos soon!' );
@@ -139,26 +131,18 @@ class ThingList {
 
         out_text( 'You can return to the' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'home page',
-          [
-            'href' => url_base() . '/',
-            'class' => 'internal',
-            'title' => TITLE_LINK_HOME,
-          ]
+          url_base() . '/',
+          TITLE_LINK_HOME,
         );
 
         out_text( ' or maybe check out my ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'equipment',
-          [
-            'href' => url_base() . '/equipment.php',
-            'class' => 'internal',
-            'title' => TITLE_EQUIPMENT
-          ]
+          url_base() . '/equipment.php',
+          TITLE_EQUIPMENT,
         );
 
         out_text( '. I will publish more videos soon!' );

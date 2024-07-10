@@ -120,14 +120,10 @@ abstract class Segment extends Item {
 
       $link = '?' . get_link( [ 'from' => $video_id ] ) . '#' . $video_id;
 
-      tag_text(
-        'a',
+      render_link_internal_nofollow(
         'Load More Videos',
-        [
-          'href' => $link,
-          'class' => 'internal',
-          'title' => TITLE_LOAD_MORE,
-        ]
+        $link,
+        TITLE_LOAD_MORE,
       );
 
     tag_shut( 'section' );
@@ -185,16 +181,10 @@ abstract class Segment extends Item {
 
           tag_open( 'dd' );
 
-            tag_text(
-              'a',
+            render_link_external(
               'Show Notes',
-              [
-                'href' => $this->get_blog_url()->to_string(),
-                'class' => 'external',
-                'target' => '_blank',
-                'rel' => 'noopener follow',
-                'title' => TITLE_SHOW_NOTES,
-              ]
+              $this->get_blog_url()->to_string(),
+              TITLE_SHOW_NOTES,
             );
 
           tag_shut( 'dd' );
@@ -236,14 +226,10 @@ abstract class Segment extends Item {
 
           tag_open( 'dt' );
 
-            tag_text(
-              'a',
+            render_link_internal(
               'Silly Job Title',
-              [
-                'href' => url_base() . '/#silly-job-title',
-                'class' => 'internal',
-                'title' => TITLE_SILLY_JOB_TITLE,
-              ]
+              url_base() . '/#silly-job-title',
+              TITLE_SILLY_JOB_TITLE,
             );
 
           tag_shut( 'dt' );
@@ -348,15 +334,10 @@ abstract class Segment extends Item {
 
         tag_open( 'dd' );
 
-          tag_text(
-            'a',
+          render_link_internal(
             'Permanent Link',
-            [
-              'href' => $this->get_video()->get_internal_url(),
-              'class' => 'internal',
-              'rel' => 'follow',
-              'title' => TITLE_PERMALINK,
-            ]
+            $this->get_video()->get_internal_url(),
+            TITLE_PERMALINK,
           );
 
         tag_shut( 'dd' );
@@ -369,16 +350,10 @@ abstract class Segment extends Item {
 
           $patreon_link_text = str_replace( 'https://www.', '', $patreon_url );
 
-          tag_text(
-            'a',
+          render_link_external(
             $patreon_link_text,
-            [
-              'href' => $patreon_url,
-              'class' => 'external',
-              'target' => '_blank',
-              'rel' => 'noopener follow',
-              'title' => TITLE_PATREON_POST,
-            ]
+            $patreon_url,
+            TITLE_PATREON_POST,
           );
 
         tag_shut( 'dd' );

@@ -85,16 +85,11 @@ abstract class Url extends StringValue {
 
     if ( ! $href ) { return; }
 
-    tag_text(
-      'a',
+    render_link_external(
       $text,
-      $attrs + [
-        'href' => $href,
-        'class' => 'external',
-        'target' => '_blank',
-        'rel' => 'noopener follow',
-        'title' => TITLE_LINK_WEB,
-      ]
+      $href,
+      TITLE_LINK_WEB,
+      $attrs,
     );
 
   }

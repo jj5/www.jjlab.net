@@ -13,14 +13,10 @@ function render_maxitronix_kit_list() {
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_internal(
            $kit->get_name(),
-           [
-              'href' => url_base() . '/feature.php/maxitronix-' . $kit->get_name(),
-              'class' => 'internal',
-              'title' => $kit->get_title(),
-           ]
+           url_base() . '/feature.php/maxitronix-' . $kit->get_name(),
+           $kit->get_title(),
         );
 
       tag_shut( 'li' );

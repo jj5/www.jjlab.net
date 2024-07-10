@@ -28,6 +28,9 @@ define( 'TITLE_CHANNEL_INDEX', "Click here for info about my YouTube channels." 
 define( 'TITLE_CHANNEL_MAIN', "Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]" );
 define( 'TITLE_CHANNEL_EXTRA', "Click here for extra content on my 2nd YouTube channel @ElliotsExtras. [Hotkey: 2]" );
 
+define( 'TITLE_SHOW_TYPE_INDEX', 'Click here for info about the types of shows I make.' );
+define( 'TITLE_FEATURE_INDEX', 'Click here to learn about the features of the show.' );
+
 define( 'TITLE_SECRET', 'Click here to learn more about the secret pages I use for testing.' );
 
 define( 'TITLE_SHOW_MAIN', 'Click here to watch videos recorded for the main show.' );
@@ -78,6 +81,7 @@ define( 'TITLE_EQUIPMENT', 'Click here to see the lab equipment that I own along
 define( 'TITLE_STETMANN', 'Click here to see the Egon Stetmann page on the StarCraft Wiki.' );
 define( 'TITLE_STARCRAFT2', 'Click here for more info about my favorite computer game: StarCraft II.' );
 define( 'TITLE_CONTACT', 'Click here to find my contact details. [Hotkey: C]' );
+define( 'TITLE_STRUCTURE', 'Click here to read about how the content is structured.' );
 define( 'TITLE_AFFILIATE', "Click here to read about the show's affiliates." );
 define( 'TITLE_BLOG', 'Click here to visit my blog!' );
 define( 'TITLE_BLOG_FEED', 'Click here for the RSS feed from my blog.' );
@@ -243,15 +247,10 @@ function render_section_latest_main() {
 
       out_text( 'The latest video published to the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'main channel',
-        [
-          'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_CHANNEL_MAIN,
-        ]
+        url_base() . '/channel.php/@InTheLabWithJayJay',
+        TITLE_CHANNEL_MAIN,
       );
 
       out_text( " is:" );
@@ -355,26 +354,18 @@ function render_section_about_main( int $heading_level = 2 ) {
 
       out_text( 'On my ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'main channel',
-        [
-          'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-          'class' => 'internal',
-          'title' => TITLE_CHANNEL_MAIN,
-        ]
+        url_base() . '/channel.php/@InTheLabWithJayJay',
+        TITLE_CHANNEL_MAIN,
       );
 
       out_text( ' and my ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         '2nd channel',
-        [
-          'href' => url_base() . '/channel.php/@ElliotsExtras',
-          'class' => 'internal',
-          'title' => TITLE_CHANNEL_EXTRA,
-        ]
+        url_base() . '/channel.php/@ElliotsExtras',
+        TITLE_CHANNEL_EXTRA,
       );
 
       out_text( ' I publish videos about electronics.' );
@@ -395,26 +386,18 @@ function render_section_about_main( int $heading_level = 2 ) {
 
       out_text( 'You can find more info about this website on the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'about',
-        [
-          'href' => url_base() . '/about.php',
-          'class' => 'internal',
-          'title' => TITLE_ABOUT,
-        ]
+        url_base() . '/about.php',
+        TITLE_ABOUT,
       );
 
       out_text( ' page and you can find contact details on the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'contact',
-        [
-          'href' => url_base() . '/contact.php',
-          'class' => 'internal',
-          'title' => TITLE_CONTACT,
-        ]
+        url_base() . '/contact.php',
+        TITLE_CONTACT,
       );
 
       out_text( ' page, feel free to get in touch!' );
@@ -435,85 +418,40 @@ function render_section_about_conventions( int $heading_level = 2 ) {
 
       out_text( 'On this website internal links are ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'light blue',
+        url_base() . '/#conventions',
+        TITLE_LINK_LIGHT_BLUE,
         [
-          'href' => url_base() . '/#conventions',
-          'class' => 'internal',
-          'title' => TITLE_LINK_LIGHT_BLUE,
           'style' => 'color: #1E90FF !important;',
-        ]
+        ],
       );
 
       out_text( ', external links are ' );
 
-      tag_text(
-        'a',
+      render_link_external(
         'dark blue',
+        url_base() . '/#conventions',
+        TITLE_LINK_DARK_BLUE,
         [
-          'href' => url_base() . '/#conventions',
-          'class' => 'external',
-          'target' => '_blank',
-          'title' => TITLE_LINK_DARK_BLUE,
           'style' => 'color: blue !important;',
-        ]
+        ],
       );
 
       out_text( ', and affiliate links are ' );
 
-      tag_text(
-        'a',
+      render_link_external(
         'green',
+        url_base() . '/#conventions',
+        TITLE_LINK_GREEN,
         [
-          'href' => url_base() . '/#conventions',
-          'class' => 'affiliate',
-          'target' => '_blank',
-          'title' => TITLE_LINK_GREEN,
           'style' => 'color: green !important;',
-        ]
+        ],
       );
 
       out_text( '.' );
 
     tag_shut( 'p' );
-
-    // 2024-07-04 jj5 - OLD: visited links aren't indicated any more...
-    /*
-    tag_open( 'p' );
-
-      out_text( 'Visited internal and external links are ' );
-
-      tag_text(
-        'a',
-        'purple',
-        [
-          'href' => url_base() . '/#conventions',
-          'class' => 'affiliate',
-          'target' => '_blank',
-          'title' => TITLE_LINK_GREEN,
-          'style' => 'color: purple !important;',
-        ]
-      );
-
-      out_text( ' and affiliate links are always ' );
-
-      tag_text(
-        'a',
-        'green',
-        [
-          'href' => url_base() . '/#conventions',
-          'class' => 'affiliate',
-          'target' => '_blank',
-          'title' => TITLE_LINK_GREEN,
-          'style' => 'color: green !important;',
-        ]
-      );
-
-      out_text( ' whether you have visited them or not.' );
-
-    tag_shut( 'p' );
-    */
 
     tag_open( 'p' );
 
@@ -550,40 +488,26 @@ function render_section_about_announcements( int $heading_level = 2 ) {
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_external(
           'patreon.com/JohnElliotV',
-          [
-            'href' => 'https://www.patreon.com/JohnElliotV',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => TITLE_PATREON,
-          ]
+          'https://www.patreon.com/JohnElliotV',
+          TITLE_PATREON,
         );
 
         out_text( ' (for both ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'main channel',
-          [
-            'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-            'class' => 'internal',
-            'title' => TITLE_CHANNEL_MAIN,
-          ]
+          url_base() . '/channel.php/@InTheLabWithJayJay',
+          TITLE_CHANNEL_MAIN,
         );
 
         out_text( ' and ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           '2nd channel',
-          [
-            'href' => url_base() . '/channel.php/@ElliotsExtras',
-            'class' => 'internal',
-            'title' => TITLE_CHANNEL_EXTRA,
-          ]
+          url_base() . '/channel.php/@ElliotsExtras',
+          TITLE_CHANNEL_EXTRA,
         );
 
         out_text( ' videos)' );
@@ -592,28 +516,18 @@ function render_section_about_announcements( int $heading_level = 2 ) {
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_external(
           'youtube.com/@InTheLabWithJayJay',
-          [
-            'href' => 'https://www.youtube.com/@InTheLabWithJayJay',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => TITLE_YOUTUBE_MAIN,
-          ]
+          'https://www.youtube.com/@InTheLabWithJayJay',
+          TITLE_YOUTUBE_MAIN,
         );
 
         out_text( ' (for ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'main channel',
-          [
-            'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-            'class' => 'internal',
-            'title' => TITLE_CHANNEL_MAIN,
-          ]
+          url_base() . '/channel.php/@InTheLabWithJayJay',
+          TITLE_CHANNEL_MAIN,
         );
 
         out_text( ' videos)' );
@@ -622,28 +536,18 @@ function render_section_about_announcements( int $heading_level = 2 ) {
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_external(
           'youtube.com/@ElliotsExtras',
-          [
-            'href' => 'https://www.youtube.com/@ElliotsExtras',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => TITLE_YOUTUBE_EXTRA,
-          ]
+          'https://www.youtube.com/@ElliotsExtras',
+          TITLE_YOUTUBE_EXTRA,
         );
 
         out_text( ' (for ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           '2nd channel',
-          [
-            'href' => url_base() . '/channel.php/@ElliotsExtras',
-            'class' => 'internal',
-            'title' => TITLE_CHANNEL_EXTRA,
-          ]
+          url_base() . '/channel.php/@ElliotsExtras',
+          TITLE_CHANNEL_EXTRA,
         );
 
         out_text( ' videos)' );
@@ -652,52 +556,34 @@ function render_section_about_announcements( int $heading_level = 2 ) {
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_external(
           'blog.jj5.net',
-          [
-            'href' => 'https://blog.jj5.net/',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => TITLE_BLOG,
-          ]
+          'https://blog.jj5.net/',
+          TITLE_BLOG,
         );
 
         out_text( ' (for both ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'main channel',
-          [
-            'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-            'class' => 'internal',
-            'title' => TITLE_CHANNEL_MAIN,
-          ]
+          url_base() . '/channel.php/@InTheLabWithJayJay',
+          TITLE_CHANNEL_MAIN,
         );
 
         out_text( ' and ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           '2nd channel',
-          [
-            'href' => url_base() . '/channel.php/@ElliotsExtras',
-            'class' => 'internal',
-            'title' => TITLE_CHANNEL_EXTRA,
-          ]
+          url_base() . '/channel.php/@ElliotsExtras',
+          TITLE_CHANNEL_EXTRA,
         );
 
         out_text( ' videos with ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'show notes',
-          [
-            'href' => url_base() . '/#show-notes',
-            'class' => 'internal',
-            'title' => TITLE_SHOW_NOTES,
-          ]
+          url_base() . '/#show-notes',
+          TITLE_SHOW_NOTES,
         );
 
         out_text( ')' );
@@ -706,29 +592,18 @@ function render_section_about_announcements( int $heading_level = 2 ) {
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'InTheLabWithJayJay.com',
-          [
-            'href' => 'https://www.InTheLabWithJayJay.com/',
-            'class' => 'internal',
-            'rel' => 'follow',
-            'title' => TITLE_MAIN,
-          ]
+          'https://www.inthelabwithjayjay.com/',
+          TITLE_MAIN,
         );
 
         out_text( ' (this website, aka ' );
 
-        tag_text(
-          'a',
+        render_link_external(
           'jjlab.net',
-          [
-            'href' => 'https://jjlab.net/',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => TITLE_MAIN,
-          ]
+          'https://jjlab.net/',
+          TITLE_MAIN,
         );
 
         out_text( ')' );
@@ -741,14 +616,10 @@ function render_section_about_announcements( int $heading_level = 2 ) {
 
       out_text( "If you're interested in getting notifications about new videos you can subscribe to an " );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'RSS feed',
-        [
-          'href' => url_base() . '/#feeds',
-          'class' => 'internal',
-          'title' => TITLE_RSS,
-        ]
+        url_base() . '/#feeds',
+        TITLE_RSS,
       );
 
       out_text( '.' );
@@ -797,15 +668,10 @@ function render_section_about_video_content( int $heading_level = 2 ) {
 
       out_text( ' You can find my contact details on the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'contact',
-        [
-          'href' => url_base() . '/contact.php',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_CONTACT,
-        ]
+        url_base() . '/contact.php',
+        TITLE_CONTACT,
       );
 
       out_text( ' page.' );
@@ -840,7 +706,31 @@ function render_section_about_structure( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'The various channels, shows, and features are organized roughly like this:' );
+      out_text( 'The various ' );
+
+      render_link_internal(
+        'channels',
+        url_base() . '/channel.php',
+        TITLE_CHANNEL_INDEX,
+      );
+
+      out_text( ', ' );
+
+      render_link_internal(
+        'shows',
+        url_base() . '/show-type.php',
+        TITLE_SHOW_TYPE_INDEX,
+      );
+
+      out_text( ', and ' );
+
+      render_link_internal(
+        'features',
+        url_base() . '/feature.php',
+        TITLE_FEATURE_INDEX,
+      );
+
+      out_text( ' are organized roughly like this:' );
 
     tag_shut( 'p' );
 
@@ -933,14 +823,14 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
 
       out_text( 'Beyond the channels, shows, and features (' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'given above',
+        url_base() . '/#structure',
+        TITLE_STRUCTURE,
         [
-          'href' => url_base() . '/#structure',
           'class' => 'internal',
           'opt-space' => false,
-        ]
+        ],
       );
 
       out_text( ') the rest of this website is arranged roughly like this:' );
@@ -951,7 +841,7 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
 
       tag_open( 'li' );
 
-        tag_text( 'a', 'InTheLabWithJayJay.com', [ 'href' => url_base() . '/', 'class' => 'internal', 'title' => TITLE_MAIN ] );
+        render_link_internal( 'InTheLabWithJayJay.com', url_base() . '/', TITLE_MAIN );
 
         out_text( ' (this website)' );
 
@@ -959,43 +849,43 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
 
           tag_open( 'li' );
 
-            tag_text( 'a', 'Contact Info', [ 'href' => url_base() . '/contact.php', 'class' => 'internal', 'title' => TITLE_CONTACT ] );
+            render_link_internal( 'Contact Info', url_base() . '/contact.php', TITLE_CONTACT );
 
           tag_shut( 'li' );
 
           tag_open( 'li' );
 
-            tag_text( 'a', 'About the Website', [ 'href' => url_base() . '/about.php', 'class' => 'internal', 'title' => TITLE_ABOUT ] );
+            render_link_internal( 'About the Website', url_base() . '/about.php', TITLE_ABOUT );
 
           tag_shut( 'li' );
 
           tag_open( 'li' );
 
-            tag_text( 'a', 'Sponsors', [ 'href' => url_base() . '/sponsor.php', 'class' => 'internal', 'title' => TITLE_SPONSOR ] );
+            render_link_internal( 'Sponsors', url_base() . '/sponsor.php', TITLE_SPONSOR );
 
           tag_shut( 'li' );
 
           tag_open( 'li' );
 
-            tag_text( 'a', 'Affiliates', [ 'href' => url_base() . '/affiliate.php', 'class' => 'internal', 'title' => TITLE_AFFILIATE ] );
+            render_link_internal( 'Affiliates', url_base() . '/affiliate.php', TITLE_AFFILIATE );
 
           tag_shut( 'li' );
 
           tag_open( 'li' );
 
-            tag_text( 'a', 'Equipment', [ 'href' => url_base() . '/equipment.php', 'class' => 'internal', 'title' => TITLE_EQUIPMENT ] );
+            render_link_internal( 'Equipment', url_base() . '/equipment.php', TITLE_EQUIPMENT );
 
             tag_open( 'ul' );
 
               tag_open( 'li' );
 
-                tag_text( 'a', 'Equipment Manufacturers', [ 'href' => url_base() . '/manufacturer.php', 'class' => 'internal', 'title' => TITLE_LINK_MANUFACTURER ] );
+                render_link_internal( 'Equipment Manufacturers', url_base() . '/manufacturer.php', TITLE_LINK_MANUFACTURER );
 
               tag_shut( 'li' );
 
               tag_open( 'li' );
 
-                tag_text( 'a', 'Equipment Categories', [ 'href' => url_base() . '/category.php', 'class' => 'internal', 'title' => TITLE_LINK_CATEGORY ] );
+                render_link_internal( 'Equipment Categories', url_base() . '/category.php', TITLE_LINK_CATEGORY );
 
               tag_shut( 'li' );
 
@@ -1005,19 +895,19 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
 
           tag_open( 'li' );
 
-            tag_text( 'a', 'Secret Tables', [ 'href' => url_base() . '/secret.php', 'class' => 'internal', 'title' => TITLE_SECRET ] );
+            render_link_internal( 'Secret Tables', url_base() . '/secret.php', TITLE_SECRET );
 
             tag_open( 'ul' );
 
               tag_open( 'li' );
 
-                tag_text( 'a', 'Video Index', [ 'href' => url_base() . '/videos.php', 'class' => 'internal', 'title' => TITLE_VIDEO_INDEX ] );
+                render_link_internal( 'Video Index', url_base() . '/videos.php', TITLE_VIDEO_INDEX );
 
               tag_shut( 'li' );
 
               tag_open( 'li' );
 
-                tag_text( 'a', 'Book Index', [ 'href' => url_base() . '/books.php', 'class' => 'internal', 'title' => TITLE_BOOK_INDEX ] );
+                render_link_internal( 'Book Index', url_base() . '/books.php', TITLE_BOOK_INDEX );
 
               tag_shut( 'li' );
 
@@ -1027,13 +917,13 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
 
           tag_open( 'li' );
 
-            tag_text( 'a', 'RSS Feeds', [ 'href' => url_base() . '/#feeds', 'class' => 'internal', 'title' => TITLE_RSS_INFO ] );
+            render_link_internal( 'RSS Feeds', url_base() . '/#feeds', TITLE_RSS_INFO );
 
           tag_shut( 'li' );
 
           tag_open( 'li' );
 
-            tag_text( 'a', 'Support the Show!', [ 'href' => url_base() . '/support.php', 'class' => 'internal', 'title' => TITLE_SUPPORT ] );
+            render_link_internal( 'Support the Show!', url_base() . '/support.php', TITLE_SUPPORT );
 
           tag_shut( 'li' );
 
@@ -1070,7 +960,11 @@ function render_section_about_rss_feeds( int $heading_level = 2 ) {
 
       tag_open( 'li' );
 
-        tag_text( 'a', 'RSS » In The Lab With Jay Jay', [ 'href' => url_base() . '/feed.php', 'class' => 'internal', 'title' => TITLE_RSS ] );
+        render_link_internal(
+          'RSS » In The Lab With Jay Jay',
+          url_base() . '/feed.php',
+          TITLE_RSS,
+        );
 
         out_text( ' (All Videos)' );
 
@@ -1086,7 +980,7 @@ function render_section_about_rss_feeds( int $heading_level = 2 ) {
 
               $channel->get_rss_info( $title, $url );
 
-              tag_text( 'a', $title, [ 'href' => $url, 'class' => 'internal', 'title' => TITLE_RSS ] );
+              render_link_internal( $title, $url, TITLE_RSS );
 
               switch ( $channel->get_slug() ) {
 
@@ -1116,7 +1010,7 @@ function render_section_about_rss_feeds( int $heading_level = 2 ) {
 
                     $show_type->get_rss_info( $title, $url );
 
-                    tag_text( 'a', $title, [ 'href' => $url, 'class' => 'internal', 'title' => TITLE_RSS ] );
+                    render_link_internal( $title, $url, TITLE_RSS );
 
                     tag_open( 'ul' );
 
@@ -1130,7 +1024,7 @@ function render_section_about_rss_feeds( int $heading_level = 2 ) {
 
                           $feature->get_rss_info( $title, $url );
 
-                          tag_text( 'a', $title, [ 'href' => $url, 'class' => 'internal', 'title' => TITLE_RSS ] );
+                          render_link_internal( $title, $url, TITLE_RSS );
 
                         tag_shut( 'li' );
 
@@ -1158,30 +1052,18 @@ function render_section_about_rss_feeds( int $heading_level = 2 ) {
 
       out_text( 'My ' );
 
-      tag_text(
-        'a',
+      render_link_external(
         'blog',
-        [
-          'href' => 'https://blog.jj5.net/',
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => TITLE_BLOG,
-        ]
+        'https://blog.jj5.net/',
+        TITLE_BLOG,
       );
 
       out_text( ' also has an ' );
 
-      tag_text(
-        'a',
+      render_link_external(
         'RSS feed',
-        [
-          'href' => 'https://blog.jj5.net/blog/feed/',
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => TITLE_BLOG_FEED,
-        ]
+        'https://blog.jj5.net/blog/feed/',
+        TITLE_BLOG_FEED,
       );
 
       out_text( '. ' );
@@ -1236,40 +1118,26 @@ function render_section_about_show_notes( int $heading_level = 2 ) {
 
       out_text( 'When I publish a YouTube video to ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         '@InTheLabWithJayJay',
-        [
-          'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-          'class' => 'internal',
-          'title' => TITLE_CHANNEL_MAIN,
-        ]
+        url_base() . '/channel.php/@InTheLabWithJayJay',
+        TITLE_CHANNEL_MAIN,
       );
 
       out_text( ' (main channel) or ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         '@ElliotsExtras',
-        [
-          'href' => url_base() . '/channel.php/@ElliotsExtras',
-          'class' => 'internal',
-          'title' => TITLE_CHANNEL_EXTRA,
-        ]
+        url_base() . '/channel.php/@ElliotsExtras',
+        TITLE_CHANNEL_EXTRA,
       );
 
       out_text( ' (2nd channel) I also write up show notes which get published on my blog: ' );
 
-      tag_text(
-        'a',
+      render_link_external(
         'blog.jj5.net',
-        [
-          'href' => 'https://blog.jj5.net/',
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => TITLE_BLOG,
-        ]
+        'https://blog.jj5.net/',
+        TITLE_BLOG,
       );
 
       out_text( '. You will be able to find the link to the show notes in the description accompanying the YouTube video.' );
@@ -1298,14 +1166,10 @@ function render_section_about_channels( int $heading_level = 2 ) {
 
       out_text( 'The ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'main channel',
-        [
-          'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-          'class' => 'internal',
-          'title' => TITLE_CHANNEL_MAIN,
-        ]
+        url_base() . '/channel.php/@InTheLabWithJayJay',
+        TITLE_CHANNEL_MAIN,
       );
 
       out_text( ' is known as ' );
@@ -1318,16 +1182,10 @@ function render_section_about_channels( int $heading_level = 2 ) {
 
     tag_open( 'p', [ 'class' => 'indent' ] );
 
-      tag_text(
-        'a',
+      render_link_external(
         'youtube.com/@InTheLabWithJayJay',
-        [
-          'href' => 'https://www.youtube.com/@InTheLabWithJayJay',
-          'class' => 'external youtube',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => TITLE_YOUTUBE_MAIN,
-        ]
+        'https://www.youtube.com/@InTheLabWithJayJay',
+        TITLE_YOUTUBE_MAIN,
       );
 
     tag_shut( 'p' );
@@ -1346,14 +1204,10 @@ function render_section_about_channels( int $heading_level = 2 ) {
 
       out_text( 'For a list of main channel content visit the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'main channel',
-        [
-          'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-          'class' => 'internal',
-          'title' => TITLE_CHANNEL_MAIN,
-        ]
+        url_base() . '/channel.php/@InTheLabWithJayJay',
+        TITLE_CHANNEL_MAIN,
       );
 
       out_text( ' page.' );
@@ -1370,14 +1224,10 @@ function render_section_about_channels( int $heading_level = 2 ) {
 
       out_text( 'The ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         '2nd channel',
-        [
-          'href' => url_base() . '/channel.php/@ElliotsExtras',
-          'class' => 'internal',
-          'title' => TITLE_CHANNEL_EXTRA,
-        ]
+        url_base() . '/channel.php/@ElliotsExtras',
+        TITLE_CHANNEL_EXTRA,
       );
 
       out_text( ' is known as ' );
@@ -1390,16 +1240,10 @@ function render_section_about_channels( int $heading_level = 2 ) {
 
     tag_open( 'p', [ 'class' => 'indent' ] );
 
-      tag_text(
-        'a',
+      render_link_external(
         'youtube.com/@ElliotsExtras',
-        [
-          'href' => 'https://www.youtube.com/@ElliotsExtras',
-          'class' => 'external youtube',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => TITLE_YOUTUBE_EXTRA,
-        ]
+        'https://www.youtube.com/@ElliotsExtras',
+        TITLE_YOUTUBE_EXTRA,
       );
 
     tag_shut( 'p' );
@@ -1418,14 +1262,10 @@ function render_section_about_channels( int $heading_level = 2 ) {
 
       out_text( 'For a list of 2nd channel content visit the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         '2nd channel',
-        [
-          'href' => url_base() . '/channel.php/@ElliotsExtras',
-          'class' => 'internal',
-          'title' => TITLE_CHANNEL_EXTRA,
-        ]
+        url_base() . '/channel.php/@ElliotsExtras',
+        TITLE_CHANNEL_EXTRA,
       );
 
       out_text( ' page.' );
@@ -1446,26 +1286,18 @@ function render_section_about_main_show( int $heading_level = 2 ) {
 
       out_text( 'The ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'main show',
-        [
-          'href' => url_base() . '/show-type.php/main-show',
-          'class' => 'internal',
-          'title' => TITLE_SHOW_MAIN,
-        ]
+        url_base() . '/show-type.php/main-show',
+        TITLE_SHOW_MAIN,
       );
 
       out_text( ' on the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'main channel',
-        [
-          'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-          'class' => 'internal',
-          'title' => TITLE_CHANNEL_MAIN,
-        ]
+        url_base() . '/channel.php/@InTheLabWithJayJay',
+        TITLE_CHANNEL_MAIN,
       );
 
       out_text( ' covers ' );
@@ -1493,28 +1325,20 @@ function render_section_about_main_show( int $heading_level = 2 ) {
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'Electronics Projects',
-          [
-            'href' => url_base() . '/#electronics-projects',
-            'class' => 'internal',
-            'title' => TITLE_FEATURE_ELECTRONICS_PROJECT,
-          ]
+          url_base() . '/#electronics-projects',
+          TITLE_FEATURE_ELECTRONICS_PROJECT,
         );
 
       tag_shut( 'li' );
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'Old Book Teardowns',
-          [
-            'href' => url_base() . '/#old-book-teardowns',
-            'class' => 'internal',
-            'title' => TITLE_FEATURE_OLD_BOOK_TEARDOWN,
-          ]
+          url_base() . '/#old-book-teardowns',
+          TITLE_FEATURE_OLD_BOOK_TEARDOWN,
         );
 
       tag_shut( 'li' );
@@ -1539,27 +1363,18 @@ function render_section_about_electronics_project( int $heading_level = 2 ) {
 
       out_text( 'In the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'electronics project videos',
-        [
-          'href' => url_base() . '/feature.php/electronics-project',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_FEATURE_ELECTRONICS_PROJECT,
-        ]
+        url_base() . '/feature.php/electronics-project',
+        TITLE_FEATURE_ELECTRONICS_PROJECT,
       );
 
       out_text( ' on the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'main show',
-        [
-          'href' => url_base() . '/show-type.php/main-show',
-          'class' => 'internal',
-          'title' => TITLE_SHOW_MAIN,
-        ]
+        url_base() . '/show-type.php/main-show',
+        TITLE_SHOW_MAIN,
       );
 
       out_text( ' I do some miscellaneous and interesting electronics project. The subject matter can vary widely, and might ' );
@@ -1628,27 +1443,18 @@ function render_section_about_old_book_teardown( int $heading_level = 2 ) {
 
       out_text( 'In the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'old book teardown videos',
-        [
-          'href' => url_base() . '/feature.php/old-book-teardown',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_FEATURE_OLD_BOOK_TEARDOWN,
-        ]
+        url_base() . '/feature.php/old-book-teardown',
+        TITLE_FEATURE_OLD_BOOK_TEARDOWN,
       );
 
       out_text( ' on the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'main show',
-        [
-          'href' => url_base() . '/show-type.php/main-show',
-          'class' => 'internal',
-          'title' => TITLE_SHOW_MAIN,
-        ]
+        url_base() . '/show-type.php/main-show',
+        TITLE_SHOW_MAIN,
       );
 
       out_text( ' ' );
@@ -1728,28 +1534,18 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
 
       out_text( 'In addition to the regular content on the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'main show',
-        [
-          'href' => url_base() . '/show-type.php/main-show',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_SHOW_MAIN,
-        ]
+        url_base() . '/show-type.php/main-show',
+        TITLE_SHOW_MAIN,
       );
 
       out_text( ' I do some ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'special shows',
-        [
-          'href' => url_base() . '/show-type.php/special-show',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_SHOW_SPECIAL,
-        ]
+        url_base() . '/show-type.php/special-show',
+        TITLE_SHOW_SPECIAL,
       );
 
       out_text( '. Special shows include:' );
@@ -1760,98 +1556,70 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'New Book Teardowns',
-          [
-            'href' => url_base() . '/#new-book-teardowns',
-            'class' => 'internal',
-            'title' => TITLE_FEATURE_NEW_BOOK_TEARDOWN,
-          ]
+          url_base() . '/#new-book-teardowns',
+          TITLE_FEATURE_NEW_BOOK_TEARDOWN,
         );
 
       tag_shut( 'li' );
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'Mini Projects',
-          [
-            'href' => url_base() . '/#mini-projects',
-            'class' => 'internal',
-            'title' => TITLE_FEATURE_MINI_PROJECT,
-          ]
+          url_base() . '/#mini-projects',
+          TITLE_FEATURE_MINI_PROJECT,
         );
 
       tag_shut( 'li' );
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'Maxitronix Xin1 Kits',
-          [
-            'href' => url_base() . '/#maxitronix-kits',
-            'class' => 'internal',
-            'title' => TITLE_SHOW_MAXITRONIX,
-          ]
+          url_base() . '/#maxitronix-kits',
+          TITLE_SHOW_MAXITRONIX,
         );
 
       tag_shut( 'li' );
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'Interludes',
-          [
-            'href' => url_base() . '/#interludes',
-            'class' => 'internal',
-            'title' => TITLE_FEATURE_INTERLUDE,
-          ]
+          url_base() . '/#interludes',
+          TITLE_FEATURE_INTERLUDE,
         );
 
       tag_shut( 'li' );
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'Unboxings',
-          [
-            'href' => url_base() . '/#unboxings',
-            'class' => 'internal',
-            'title' => TITLE_FEATURE_UNBOXING,
-          ]
+          url_base() . '/#unboxings',
+          TITLE_FEATURE_UNBOXING,
         );
 
       tag_shut( 'li' );
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'Channel News',
-          [
-            'href' => url_base() . '/#channel-news',
-            'class' => 'internal',
-            'title' => TITLE_FEATURE_EARLY_CONTENT,
-          ]
+          url_base() . '/#channel-news',
+          TITLE_FEATURE_EARLY_CONTENT,
         );
 
       tag_shut( 'li' );
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'Early Content',
-          [
-            'href' => url_base() . '/#early-content',
-            'class' => 'internal',
-            'title' => TITLE_FEATURE_EARLY_CONTENT,
-          ]
+          url_base() . '/#early-content',
+          TITLE_FEATURE_EARLY_CONTENT,
         );
 
       tag_shut( 'li' );
@@ -1862,44 +1630,26 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
 
       out_text( 'In future I will hopefully also be doing some other collections of projects such as the ' );
 
-      tag_text(
-        'a',
+      render_link_external(
         'Learning the Art of Electronics',
-        [
-          'href' => 'https://www.youtube.com/watch?v=UBPZuOjWT0A',
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => TITLE_LINK_LEARNING_THE_ART_OF_ELECTRONICS,
-        ]
+        'https://www.youtube.com/watch?v=UBPZuOjWT0A',
+        TITLE_LINK_LEARNING_THE_ART_OF_ELECTRONICS,
       );
 
       out_text( ' projects, ' );
 
-      tag_text(
-        'a',
+      render_link_external(
         'Jaycar Short Circuits',
-        [
-          'href' => 'https://www.jaycar.com.au/short-circuits',
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => TITLE_LINK_JAYCAR_SHORT_CIRCUITS,
-        ]
+        'https://www.jaycar.com.au/short-circuits',
+        TITLE_LINK_JAYCAR_SHORT_CIRCUITS,
       );
 
       out_text( ' projects, and the other ' );
 
-      tag_text(
-        'a',
+      render_link_external(
         'Jaycar Projects',
-        [
-          'href' => 'https://www.jaycar.com.au/projects',
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => TITLE_LINK_JAYCAR_PROJECTS,
-        ]
+        'https://www.jaycar.com.au/projects',
+        TITLE_LINK_JAYCAR_PROJECTS,
       );
 
       out_text( ', so standby for those (fingers crossed!).' );
@@ -1934,26 +1684,18 @@ function render_section_about_new_book_teardown( int $heading_level = 2 ) {
 
       out_text( 'The ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'new book teardown videos',
-        [
-          'href' => url_base() . '/feature.php/new-book-teardown',
-          'class' => 'internal',
-          'title' => TITLE_FEATURE_NEW_BOOK_TEARDOWN,
-        ]
+        url_base() . '/feature.php/new-book-teardown',
+        TITLE_FEATURE_NEW_BOOK_TEARDOWN,
       );
 
       out_text( ' are just like the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'old book teardowns',
-        [
-          'href' => url_base() . '/#old-book-teardowns',
-          'class' => 'internal',
-          'title' => TITLE_FEATURE_OLD_BOOK_TEARDOWN,
-        ]
+        url_base() . '/#old-book-teardowns',
+        TITLE_FEATURE_OLD_BOOK_TEARDOWN,
       );
 
       out_text( ' except that they are for new books, not old ones.' );
@@ -1964,28 +1706,18 @@ function render_section_about_new_book_teardown( int $heading_level = 2 ) {
 
       out_text( "The new book teardowns are " );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'special shows',
-        [
-          'href' => url_base() . '/show-type.php/special-show',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_SHOW_SPECIAL,
-        ]
+        url_base() . '/show-type.php/special-show',
+        TITLE_SHOW_SPECIAL,
       );
       
       out_text( " and not a regular part of the " );
       
-      tag_text(
-        'a',
+      render_link_internal(
         'main show',
-        [
-          'href' => url_base() . '/show-type.php/main-show',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_SHOW_MAIN,
-        ]
+        url_base() . '/show-type.php/main-show',
+        TITLE_SHOW_MAIN,
       );
 
       out_text( " because " );
@@ -2008,56 +1740,34 @@ function render_section_about_mini_project( int $heading_level = 2 ) {
 
       out_text( 'In the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'mini project videos',
-        [
-          'href' => url_base() . '/feature.php/mini-project',
-          'class' => 'internal',
-          'title' => TITLE_SHOW_MINI_PROJECT,
-        ]
+        url_base() . '/feature.php/mini-project',
+        TITLE_SHOW_MINI_PROJECT,
       );
 
       out_text( ' we will be working through the new ' );
 
-      tag_text(
-        'a',
+      render_link_external(
         'Mini Projects',
-        [
-          'href' => 'https://www.siliconchip.com.au/Series/417',
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => TITLE_LINK_SILICON_CHIP_MINI_PROJECTS_LIST,
-        ]
+        'https://www.siliconchip.com.au/Series/417',
+        TITLE_LINK_SILICON_CHIP_MINI_PROJECTS_LIST,
       );
 
       out_text( ' published by ' );
 
-      tag_text(
-        'a',
+      render_link_external(
         'Silicon Chip',
-        [
-          'href' => 'https://www.siliconchip.com.au/',
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => TITLE_SILICON_CHIP,
-        ]
+        'https://www.siliconchip.com.au/',
+        TITLE_SILICON_CHIP,
       );
 
       out_text( ' and sponsored by ' );
 
-      tag_text(
-        'a',
+      render_link_external(
         'Jaycar',
-        [
-          'href' => 'https://www.jaycar.com.au/',
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => TITLE_JAYCAR,
-        ]
+        'https://www.jaycar.com.au/',
+        TITLE_JAYCAR,
       );
 
       out_text( '.' );
@@ -2078,14 +1788,10 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
 
       out_text( 'The ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'Maxitronix Xin1 Kits',
-        [
-          'href' => url_base() . '/feature.php/maxitronix',
-          'class' => 'internal',
-          'title' => TITLE_SHOW_MAXITRONIX,
-        ]
+        url_base() . '/feature.php/maxitronix',
+        TITLE_SHOW_MAXITRONIX,
       );
 
       out_text( ' are ' );
@@ -2098,28 +1804,14 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      tag_open(
-        'a',
+      render_link_external_img(
+        'https://d297fd4gt7t5lv.cloudfront.net/file/2021-08-26-153328/IMG_1490.JPG?v=' . get_resource_version(),
+        'https://www.jj5.net/file/2021-08-26-153328/IMG_1490.JPG',
+        ALT_MAXITRONIX_LABS,
         [
-          'href' => 'https://www.jj5.net/file/2021-08-26-153328/IMG_1490.JPG',
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => ALT_MAXITRONIX_LABS,
+            'style' => 'width:500px',
         ]
       );
-
-        tag_bare(
-          'img',
-          [
-            'loading' => 'lazy',
-            'style' => 'width:500px',
-            'src' => 'https://d297fd4gt7t5lv.cloudfront.net/file/2021-08-26-153328/IMG_1490.JPG?v=' . get_resource_version(),
-            'alt' => ALT_MAXITRONIX_LABS,
-          ]
-        );
-
-      tag_shut( 'a' );
 
     tag_shut( 'p' );
 
@@ -2127,15 +1819,10 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
 
       out_text( "If you're interested in these kits you can find some information about where to buy them on my " );
 
-      tag_text(
-        'a',
-        'Maxitronix',
-        [
-          'href' => url_base() . '/manufacturer.php/Maxitronix',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_MAXITRONIX_EQUIPMENT,
-        ]
+      render_link_internal(
+        'Maxitronix equipment',
+        url_base() . '/manufacturer.php/Maxitronix',
+        TITLE_MAXITRONIX_EQUIPMENT,
       );
 
       out_text( ' page.' );
@@ -2158,14 +1845,10 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
 
       out_text( 'For an introduction to the Maxitronix Xin1 kits see the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'announcement video',
-        [
-          'href' => url_base() . '/feature.php/maxitronix#announcement',
-          'class' => 'internal',
-          'title' => TITLE_SHOW_MAXITRONIX,
-        ]
+        url_base() . '/feature.php/maxitronix#announcement',
+        TITLE_SHOW_MAXITRONIX,
       );
 
       out_text( ' page.' );
@@ -2194,26 +1877,18 @@ function render_section_about_interlude( int $heading_level = 2 ) {
 
       out_text( 'Occassionaly we have an ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'interlude video',
-        [
-          'href' => url_base() . '/feature.php/interlude',
-          'class' => 'internal',
-          'title' => TITLE_FEATURE_INTERLUDE,
-        ]
+        url_base() . '/feature.php/interlude',
+        TITLE_FEATURE_INTERLUDE,
       );
 
       out_text( ' on the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'main channel',
-        [
-          'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-          'class' => 'internal',
-          'title' => TITLE_CHANNEL_MAIN,
-        ]
+        url_base() . '/channel.php/@InTheLabWithJayJay',
+        TITLE_CHANNEL_MAIN,
       );
 
       out_text( '.' );
@@ -2236,26 +1911,18 @@ function render_section_about_unboxing( int $heading_level = 2 ) {
 
       out_text( 'Occassionaly I do an ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'unboxing video',
-        [
-          'href' => url_base() . '/feature.php/unboxing',
-          'class' => 'internal',
-          'title' => TITLE_FEATURE_UNBOXING,
-        ]
+        url_base() . '/feature.php/unboxing',
+        TITLE_FEATURE_UNBOXING,
       );
 
       out_text( ' on the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'main channel',
-        [
-          'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-          'class' => 'internal',
-          'title' => TITLE_CHANNEL_MAIN,
-        ]
+        url_base() . '/channel.php/@InTheLabWithJayJay',
+        TITLE_CHANNEL_MAIN,
       );
 
       out_text( '.' );
@@ -2278,26 +1945,18 @@ function render_section_about_channel_news( int $heading_level = 2 ) {
 
       out_text( 'The ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'channel news videos',
-        [
-          'href' => url_base() . '/feature.php/channel-news',
-          'class' => 'internal',
-          'title' => TITLE_FEATURE_CHANNEL_NEWS,
-        ]
+        url_base() . '/feature.php/channel-news',
+        TITLE_FEATURE_CHANNEL_NEWS,
       );
 
       out_text( ' air occassionally on the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'main channel',
-        [
-          'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-          'class' => 'internal',
-          'title' => TITLE_CHANNEL_MAIN,
-        ]
+        url_base() . '/channel.php/@InTheLabWithJayJay',
+        TITLE_CHANNEL_MAIN,
       );
 
       out_text( '.' );
@@ -2318,14 +1977,10 @@ function render_section_about_early_content( int $heading_level = 2 ) {
 
       out_text( 'Some of my content is classified as an ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'early content video',
-        [
-          'href' => url_base() . '/feature.php/early-content',
-          'class' => 'internal',
-          'title' => TITLE_FEATURE_EARLY_CONTENT,
-        ]
+        url_base() . '/feature.php/early-content',
+        TITLE_FEATURE_EARLY_CONTENT,
       );
 
       out_text( ". Early content was recorded back in the early days when I was just getting started, " );
@@ -2333,50 +1988,34 @@ function render_section_about_early_content( int $heading_level = 2 ) {
 
       out_text( "The format now includes the regular " );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'electronics project videos',
-        [
-          'href' => url_base() . '/feature.php/electronics-project',
-          'class' => 'internal',
-          'title' => TITLE_FEATURE_ELECTRONICS_PROJECT,
-        ]
+        url_base() . '/feature.php/electronics-project',
+        TITLE_FEATURE_ELECTRONICS_PROJECT,
       );
 
       out_text( " and the " );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'old book teardown videos',
-        [
-          'href' => url_base() . '/feature.php/old-book-teardown',
-          'class' => 'internal',
-          'title' => TITLE_FEATURE_OLD_BOOK_TEARDOWN,
-        ]
+        url_base() . '/feature.php/old-book-teardown',
+        TITLE_FEATURE_OLD_BOOK_TEARDOWN,
       );
 
       out_text( ", I have the " );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'silly job title',
-        [
-          'href' => url_base() . '/#silly-job-title',
-          'class' => 'internal',
-          'title' => TITLE_SILLY_JOB_TITLE,
-        ]
+        url_base() . '/#silly-job-title',
+        TITLE_SILLY_JOB_TITLE,
       );
 
-      out_text( ", and I " );
+      out_text( ', and I wear my ' );
 
-      tag_text(
-        'a',
-        'wear my costume',
-        [
-          'href' => url_base() . '/#costume',
-          'class' => 'internal',
-          'title' => TITLE_COSTUME,
-        ]
+      render_link_internal(
+        'costume',
+        url_base() . '/#costume',
+        TITLE_COSTUME,
       );
 
       out_text( ". I didn't do any of that in the beginning so you won't see any of that in these old videos." );
@@ -2398,15 +2037,10 @@ function render_section_about_extra_content( int $heading_level = 2 ) {
 
       out_text( 'In addition to the main channel content I also sometimes release content on the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         '2nd channel',
-        [
-          'href' => url_base() . '/channel.php/@ElliotsExtras',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_CHANNEL_EXTRA,
-        ]
+        url_base() . '/channel.php/@ElliotsExtras',
+        TITLE_CHANNEL_EXTRA,
       );
 
       out_text( '. This is lower quality content which ' );
@@ -2421,28 +2055,18 @@ function render_section_about_extra_content( int $heading_level = 2 ) {
 
       out_text( 'I keep this ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'extra content',
-        [
-          'href' => url_base() . '/show-type.php/extra-show',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_SHOW_EXTRA,
-        ]
+        url_base() . '/show-type.php/extra-show',
+        TITLE_SHOW_EXTRA,
       );
 
       out_text( ' on the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         '2nd channel',
-        [
-          'href' => url_base() . '/channel.php/@ElliotsExtras',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_CHANNEL_EXTRA,
-        ]
+        url_base() . '/channel.php/@ElliotsExtras',
+        TITLE_CHANNEL_EXTRA,
       );
 
       out_text( ' so that people who only want the best content don\'t need to give it their attention.' );
@@ -2477,15 +2101,10 @@ function render_section_about_video_quality( int $heading_level = 2 ) {
 
       out_text( '. If you want to help out on that front you could consider ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'sponsoring me',
-        [
-          'href' => url_base() . '/sponsor.php',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_SPONSOR,
-        ]
+        url_base() . '/sponsor.php',
+        TITLE_SPONSOR,
       );
 
       out_text( '. :)' );
@@ -2520,15 +2139,10 @@ function render_section_about_costume( int $heading_level = 2 ) {
 
       out_text( 'When I make ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'main channel',
-        [
-          'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_SHOW_MAIN,
-        ]
+        url_base() . '/channel.php/@InTheLabWithJayJay',
+        TITLE_SHOW_MAIN,
       );
 
       out_text( ' content ' );
@@ -2543,60 +2157,38 @@ function render_section_about_costume( int $heading_level = 2 ) {
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_external(
           'Lab coat',
-          [
-            'href' => 'https://jj5.net/26225',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => TITLE_BUY_LAB_COAT,
-          ]
+          'https://jj5.net/26225',
+          TITLE_BUY_LAB_COAT,
         );
 
       tag_shut( 'li' );
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_external(
           'Safety goggles',
-          [
-            'href' => 'https://jj5.net/73769',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => TITLE_BUY_GOGGLES,
-          ]
+          'https://jj5.net/73769',
+          TITLE_BUY_GOGGLES,
         );
 
       tag_shut( 'li' );
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_external(
           'ID badge',
-          [
-            'href' => 'https://jj5.net/19439',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => TITLE_BUY_ID_BADGE,
-          ]
+          'https://jj5.net/19439',
+          TITLE_BUY_ID_BADGE,
         );
 
         out_text( ' (with ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'silly job title',
-          [
-            'href' => url_base() . '/#silly-job-title',
-            'class' => 'internal',
-            'title' => TITLE_SILLY_JOB_TITLE,
-          ]
+          url_base() . '/#silly-job-title',
+          TITLE_SILLY_JOB_TITLE,
         );
 
         out_text( ')' );
@@ -2605,16 +2197,10 @@ function render_section_about_costume( int $heading_level = 2 ) {
 
       tag_open( 'li' );
 
-        tag_text(
-          'a',
+        render_link_external(
           'Pocket protector',
-          [
-            'href' => 'https://jj5.net/63431',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => TITLE_BUY_POCKET_PROTECTOR,
-          ]
+          'https://jj5.net/63431',
+          TITLE_BUY_POCKET_PROTECTOR,
         );
 
         out_text( ' (with tools)' );
@@ -2629,32 +2215,20 @@ function render_section_about_costume( int $heading_level = 2 ) {
 
           tag_open( 'li' );
 
-            tag_text(
-              'a',
+            render_link_external(
               'Stylus pen',
-              [
-                'href' => 'https://jj5.net/36703',
-                'class' => 'external',
-                'target' => '_blank',
-                'rel' => 'noopener follow',
-                'title' => TITLE_BUY_STYLUS_PEN,
-              ]
+              'https://jj5.net/36703',
+              TITLE_BUY_STYLUS_PEN,
             );
 
           tag_shut( 'li' );
 
           tag_open( 'li' );
 
-            tag_text(
-              'a',
+            render_link_external(
               'Sonic screwdriver',
-              [
-                'href' => 'https://jj5.net/85030',
-                'class' => 'external',
-                'target' => '_blank',
-                'rel' => 'noopener follow',
-                'title' => TITLE_BUY_SONIC_SCREWDRIVER,
-              ]
+              'https://jj5.net/85030',
+              TITLE_BUY_SONIC_SCREWDRIVER,
             );
 
           tag_shut( 'li' );
@@ -2667,16 +2241,10 @@ function render_section_about_costume( int $heading_level = 2 ) {
 
           tag_open( 'li' );
 
-            tag_text(
-              'a',
+            render_link_external(
               'Adafruit One PCB to Ruler Them All',
-              [
-                'href' => 'https://jj5.net/86923',
-                'class' => 'external',
-                'target' => '_blank',
-                'rel' => 'noopener follow',
-                'title' => TITLE_BUY_ADAFUIT_RULER,
-              ]
+              'https://jj5.net/86923',
+              TITLE_BUY_ADAFUIT_RULER,
             );
 
           tag_shut( 'li' );
@@ -2691,30 +2259,18 @@ function render_section_about_costume( int $heading_level = 2 ) {
 
       out_text( 'This is cosplay and my costume is inspired by ' );
 
-      tag_text(
-        'a',
+      render_link_external(
         'Egon Stetmann',
-        [
-          'href' => 'https://starcraft.fandom.com/wiki/Egon_Stetmann',
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => TITLE_STETMANN,
-        ]
+        'https://starcraft.fandom.com/wiki/Egon_Stetmann',
+        TITLE_STETMANN,
       );
 
       out_text( ', the Chief Scientist from ' );
 
-      tag_text(
-        'a',
+      render_link_external(
         'StarCraft II',
-        [
-          'href' => 'https://starcraft2.blizzard.com/',
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => TITLE_STARCRAFT2,
-        ]
+        'https://starcraft2.blizzard.com/',
+        TITLE_STARCRAFT2,
       );
 
       out_text( ':' );
@@ -2771,41 +2327,26 @@ function render_section_about_silly_job_title( int $heading_level = 2 ) {
 
       out_text( 'On my ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'ID badge',
-        [
-          'href' => url_base() . '/#costume',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_ID_BADGE,
-        ]
+        url_base() . '/#costume',
+        TITLE_ID_BADGE,
       );
 
       out_text( ' is a silly job title which I change for each ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'main show',
-        [
-          'href' => url_base() . '/show-type.php/main-show',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_SHOW_MAIN,
-        ]
+        url_base() . '/show-type.php/main-show',
+        TITLE_SHOW_MAIN,
       );
 
       out_text( ' on the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'main channel',
-        [
-          'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_CHANNEL_MAIN,
-        ]
+        url_base() . '/channel.php/@InTheLabWithJayJay',
+        TITLE_CHANNEL_MAIN,
       );
 
       out_text( '.' );
@@ -2816,28 +2357,18 @@ function render_section_about_silly_job_title( int $heading_level = 2 ) {
 
       out_text( 'I don\'t change the silly job title for ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'special shows',
-        [
-          'href' => url_base() . '/show-type.php/special-show',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_SHOW_SPECIAL,
-        ]
+        url_base() . '/show-type.php/special-show',
+        TITLE_SHOW_SPECIAL,
       );
 
       out_text( ' or for content on the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         '2nd channel',
-        [
-          'href' => url_base() . '/channel.php/@ElliotsExtras',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_CHANNEL_EXTRA,
-        ]
+        url_base() . '/channel.php/@ElliotsExtras',
+        TITLE_CHANNEL_EXTRA,
       );
 
       out_text( '.' );
@@ -2848,15 +2379,10 @@ function render_section_about_silly_job_title( int $heading_level = 2 ) {
 
       out_text( 'The silly job title can be hard to read, so I will usually try to mention it in the video, and it should be in the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'show notes',
-        [
-          'href' => url_base() . '/#show-notes',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_ABOUT_SHOW_NOTES,
-        ]
+        url_base() . '/#show-notes',
+        TITLE_ABOUT_SHOW_NOTES,
       );
 
       out_text( '.' );
@@ -2907,15 +2433,10 @@ function render_section_about_contact( int $heading_level = 2 ) {
 
       out_text( "You can always find my contact information on the " );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'contact',
-        [
-          'href' => url_base() . '/contact.php',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_CONTACT,
-        ]
+        url_base() . '/contact.php',
+        TITLE_CONTACT,
       );
 
       out_text( ' page.' );
@@ -2940,15 +2461,10 @@ function render_section_about_sponsors( int $heading_level = 2 ) {
 
       out_text( ' by ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'my sponsors',
-        [
-          'href' => url_base() . '/sponsor.php',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_SPONSOR,
-        ]
+        url_base() . '/sponsor.php',
+        TITLE_SPONSOR,
       );
 
       out_text( '.' );
@@ -2965,17 +2481,35 @@ function render_section_about_sponsors( int $heading_level = 2 ) {
 
     tag_open( 'p', [ 'class' => 'indent' ] );
 
-      tag_text(
-        'a',
+      render_link_external(
         'patreon.com/JohnElliotV',
-        [
-          'href' => 'https://www.patreon.com/JohnElliotV',
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => TITLE_PATREON,
-        ]
+        'https://www.patreon.com/JohnElliotV',
+        TITLE_PATREON,
       );
+
+    tag_shut( 'p' );
+
+  tag_shut( 'section' );
+
+}
+
+function render_section_about_homies( int $heading_level = 2 ) {
+
+  tag_open( 'section' );
+
+    tag_text( 'h' . $heading_level, 'Homies', [ 'id' => 'homies' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'I keep a list of ' );
+
+      render_link_internal(
+        'homies',
+        url_base() . '/homies.php',
+        TITLE_SPONSOR,
+      );
+
+      out_text( ' who I support on Patreon and follow on YouTube.' );
 
     tag_shut( 'p' );
 
@@ -2993,26 +2527,18 @@ function render_section_about_affiliates( int $heading_level = 2 ) {
 
       out_text( 'When I link to ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'equipment',
-        [
-          'href' => url_base() . '/equipment.php',
-          'class' => 'internal',
-          'title' => TITLE_EQUIPMENT,
-        ]
+        url_base() . '/equipment.php',
+        TITLE_EQUIPMENT,
       );
 
       out_text( ' which can be purchased on the web I try to do so with an ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'affiliate',
-        [
-          'href' => url_base() . '/affiliate.php',
-          'class' => 'internal',
-          'title' => TITLE_AFFILIATE,
-        ]
+        url_base() . '/affiliate.php',
+        TITLE_AFFILIATE,
       );
 
       out_text( ' link.' );
@@ -3037,14 +2563,10 @@ function render_section_about_affiliates( int $heading_level = 2 ) {
 
       out_text( 'Click through to the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'equipment',
-        [
-          'href' => url_base() . '/equipment.php',
-          'class' => 'internal',
-          'title' => TITLE_EQUIPMENT,
-        ]
+        url_base() . '/equipment.php',
+        TITLE_EQUIPMENT,
       );
 
       out_text( ' page for a list ' );
@@ -3066,15 +2588,10 @@ function render_section_about_equipment( int $heading_level = 2 ) {
 
       out_text( 'I try to keep detailed notes about the equipment I own on my ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'equipment',
-        [
-          'href' => url_base() . '/equipment.php',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_EQUIPMENT,
-        ]
+        url_base() . '/equipment.php',
+        TITLE_EQUIPMENT,
       );
 
       out_text( ' page. ' );
@@ -3082,15 +2599,10 @@ function render_section_about_equipment( int $heading_level = 2 ) {
       out_text( 'If you see something in one of my videos that you like you can probably find more info about it on the equipment page. ' );
       out_text( "If there's something you're looking for in particular and you can't find, please feel free to " );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'let me know',
-        [
-          'href' => url_base() . '/contact.php',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_CONTACT,
-        ]
+        url_base() . '/contact.php',
+        TITLE_CONTACT,
       );
 
       out_text( '!' );
@@ -3337,15 +2849,10 @@ function render_section_about_next( int $heading_level = 2 ) {
 
         out_text( 'If you\'re enjoying my content you could consider ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'supporting the show',
-          [
-            'href' => url_base() . '/support.php',
-            'class' => 'internal',
-            'rel' => 'follow',
-            'title' => TITLE_SUPPORT,
-          ]
+          url_base() . '/support.php',
+          TITLE_SUPPORT,
         );
 
         out_text( '.' );
@@ -3356,15 +2863,10 @@ function render_section_about_next( int $heading_level = 2 ) {
 
         out_text( 'My ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'new book teardown videos',
-          [
-            'href' => url_base() . '/feature.php/new-book-teardown',
-            'class' => 'internal',
-            'rel' => 'follow',
-            'title' => TITLE_FEATURE_NEW_BOOK_TEARDOWN,
-          ]
+          url_base() . '/feature.php/new-book-teardown',
+          TITLE_FEATURE_NEW_BOOK_TEARDOWN,
         );
 
         out_text( ' are quite popular, you might enjoy watching those.' );
@@ -3375,28 +2877,18 @@ function render_section_about_next( int $heading_level = 2 ) {
 
         out_text( 'Visit the ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'main channel',
-          [
-            'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-            'class' => 'internal',
-            'rel' => 'follow',
-            'title' => TITLE_CHANNEL_MAIN,
-          ]
+          url_base() . '/channel.php/@InTheLabWithJayJay',
+          TITLE_CHANNEL_MAIN,
         );
 
         out_text( ', for all my high quality content including my ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'special shows',
-          [
-            'href' => url_base() . '/show-type.php/special-show',
-            'class' => 'internal',
-            'rel' => 'follow',
-            'title' => TITLE_SHOW_SPECIAL,
-          ]
+          url_base() . '/show-type.php/special-show',
+          TITLE_SHOW_SPECIAL,
         );
 
         out_text( '.' );
@@ -3407,41 +2899,26 @@ function render_section_about_next( int $heading_level = 2 ) {
 
         out_text( 'Visit the ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'main show',
-          [
-            'href' => url_base() . '/show-type.php/main-show',
-            'class' => 'internal',
-            'rel' => 'follow',
-            'title' => TITLE_SHOW_MAIN,
-          ]
+          url_base() . '/show-type.php/main-show',
+          TITLE_SHOW_MAIN,
         );
 
         out_text( ', for my main show videos, which include the ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'electronics project',
-          [
-            'href' => url_base() . '/feature.php/electronics-project',
-            'class' => 'internal',
-            'rel' => 'follow',
-            'title' => TITLE_FEATURE_ELECTRONICS_PROJECT,
-          ]
+          url_base() . '/feature.php/electronics-project',
+          TITLE_FEATURE_ELECTRONICS_PROJECT,
         );
 
         out_text( ' and ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'old book teardown',
-          [
-            'href' => url_base() . '/feature.php/old-book-teardown',
-            'class' => 'internal',
-            'rel' => 'follow',
-            'title' => TITLE_FEATURE_OLD_BOOK_TEARDOWN,
-          ]
+          url_base() . '/feature.php/old-book-teardown',
+          TITLE_FEATURE_OLD_BOOK_TEARDOWN,
         );
 
         out_text( ' videos.' );
@@ -3452,15 +2929,10 @@ function render_section_about_next( int $heading_level = 2 ) {
 
         out_text( 'Visit the ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'equipment',
-          [
-            'href' => url_base() . '/equipment.php',
-            'class' => 'internal',
-            'rel' => 'follow',
-            'title' => TITLE_EQUIPMENT,
-          ]
+          url_base() . '/equipment.php',
+          TITLE_EQUIPMENT,
         );
 
         out_text( " page, if you're interested in any of the equipment I use. " );
@@ -3473,15 +2945,10 @@ function render_section_about_next( int $heading_level = 2 ) {
 
         out_text( 'Did I mention that you can ' );
 
-        tag_text(
-          'a',
+        render_link_internal(
           'support the show',
-          [
-            'href' => url_base() . '/support.php',
-            'class' => 'internal',
-            'rel' => 'follow',
-            'title' => TITLE_SUPPORT,
-          ]
+          url_base() . '/support.php',
+          TITLE_SUPPORT,
         );
 
         out_text( '? :)' );
@@ -3504,14 +2971,10 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
       out_text( "If you just want to get in touch with me then email to " );
 
-      tag_text(
-        'a',
+      render_link_external(
         'jj5@jj5.net',
-        [
-          'href' => 'mailto:jj5@jj5.net?subject=Hi%20John',
-          'class' => 'external',
-          'title' => TITLE_LINK_EMAIL,
-        ]
+        'mailto:jj5@jj5.net?subject=Hi%20John',
+        TITLE_LINK_EMAIL,
       );
 
       out_text( " is a good option. Put 'Hi John' in the subject line and you will have a better chance of making it past my spam filter." );
@@ -3535,58 +2998,36 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
       out_text( 'I publish the ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'show notes',
-        [
-          'href' => url_base() . '/#show-notes',
-          'class' => 'internal',
-          'title' => 'Click here to read about the show notes.',
-        ]
+        url_base() . '/#show-notes',
+        'Click here to read about the show notes.',
       );
 
       out_text( ' for each video on my blog: ' );
 
-      tag_text(
-        'a',
+      render_link_external(
         'blog.jj5.net',
-        [
-          'href' => 'https://blog.jj5.net/',
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => 'Click here to navigate to my blog.',
-        ]
+        'https://blog.jj5.net/',
+        TITLE_BLOG,
       );
 
       out_text( ' (which is running' );
 
-      tag_text(
-        'a',
+      render_link_external(
         'WordPress',
-        [
-          'href' => 'https://wordpress.org/',
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => 'Click here to navigate to WordPress.',
-        ]
+        'https://wordpress.org/',
+        'Click here to navigate to WordPress.',
       );
 
       out_text( '). You need an account to comment on the blog, but you can read it without one. An account on the blog ' );
 
       out_text( 'is a perk for some of the people who ' );
 
-      tag_text(
-        'a',
+      render_link_external(
         'support me on Patreon',
-        [
-          'href' => 'https://www.patreon.com/JohnElliotV/membership',
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => 'Click here to read about paid membership tier options.',
-        ]
+        'https://www.patreon.com/JohnElliotV/membership',
+        'Click here to read about paid membership tier options on Patreon.',
       );
 
       out_text( ' including Priority Access and Inner Circle subscribers.' );
@@ -3603,28 +3044,18 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
       out_text( "You can respond to any of my videos by commenting through YouTube. I operate a " );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'main channel',
-        [
-          'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_CHANNEL_MAIN,
-        ]
+        url_base() . '/channel.php/@InTheLabWithJayJay',
+        TITLE_CHANNEL_MAIN,
       );
 
       out_text( " and a " );
 
-      tag_text(
-        'a',
+      render_link_internal(
         '2nd channel',
-        [
-          'href' => url_base() . '/channel.php/@ElliotsExtras',
-          'class' => 'internal',
-          'rel' => 'follow',
-          'title' => TITLE_CHANNEL_EXTRA,
-        ]
+        url_base() . '/channel.php/@ElliotsExtras',
+        TITLE_CHANNEL_EXTRA,
       );
 
       out_text( ", which you can find here:" );
@@ -3651,15 +3082,10 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
           tag_open( 'td', [ 'class' => 'right' ] );
 
-            tag_text(
-              'a',
+            render_link_internal(
               'Main Channel',
-              [
-                'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-                'class' => 'internal',
-                'rel' => 'follow',
-                'title' => TITLE_CHANNEL_MAIN,
-              ]
+              url_base() . '/channel.php/@InTheLabWithJayJay',
+              TITLE_CHANNEL_MAIN,
             );
 
             out_text( ':' );
@@ -3668,16 +3094,10 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
           tag_open( 'td', [ 'class' => 'right' ] );
 
-            tag_text(
-              'a',
+            render_link_external(
               'youtube.com/@InTheLabWithJayJay',
-              [
-                'href' => 'https://www.youtube.com/channel/UC9k8QIYlZUg2l4YvZbX9zVg',
-                'class' => 'external',
-                'target' => '_blank',
-                'rel' => 'noopener follow',
-                'title' => TITLE_CHANNEL_MAIN,
-              ]
+              'https://www.youtube.com/channel/UC9k8QIYlZUg2l4YvZbX9zVg',
+              TITLE_CHANNEL_MAIN,
             );
 
           tag_shut( 'td' );
@@ -3688,15 +3108,10 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
           tag_open( 'td', [ 'class' => 'right' ] );
 
-            tag_text(
-              'a',
+            render_link_internal(
               '2nd Channel',
-              [
-                'href' => url_base() . '/channel.php/@ElliotsExtras',
-                'class' => 'internal',
-                'rel' => 'follow',
-                'title' => TITLE_CHANNEL_EXTRA,
-              ]
+              url_base() . '/channel.php/@ElliotsExtras',
+              TITLE_CHANNEL_EXTRA,
             );
 
             out_text( ':' );
@@ -3705,16 +3120,10 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
           tag_open( 'td', [ 'class' => 'right' ] );
 
-            tag_text(
-              'a',
+            render_link_external(
               'youtube.com/@ElliotsExtras',
-              [
-                'href' => 'https://www.youtube.com/channel/UC9k8QIYlZUg2l4YvZbX9zVg',
-                'class' => 'external',
-                'target' => '_blank',
-                'rel' => 'noopener follow',
-                'title' => TITLE_CHANNEL_EXTRA,
-              ]
+              'https://www.youtube.com/channel/UC9k8QIYlZUg2l4YvZbX9zVg',
+              TITLE_CHANNEL_EXTRA,
             );
 
           tag_shut( 'td' );
@@ -3769,32 +3178,20 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
             tag_open( 'td', [ 'class' => 'right' ] );
 
-              tag_text(
-                'a',
+              render_link_external(
                 $server['name'],
-                [
-                  'href' => $server['url'],
-                  'class' => 'external',
-                  'target' => '_blank',
-                  'rel' => 'noopener follow',
-                  'title' => mud_format_string( TITLE_TEMPLATE_LINK_IRC, $server ),
-                ]
+                $server['url'],
+                mud_format_string( TITLE_TEMPLATE_LINK_IRC, $server ),
               );
 
             tag_shut( 'td' );
 
             tag_open( 'td', [ 'class' => 'right' ] );
 
-              tag_text(
-                'a',
+              render_link_external(
                 $server['website'],
-                [
-                  'href' => $server['website'],
-                  'class' => 'external',
-                  'target' => '_blank',
-                  'rel' => 'noopener follow',
-                  'title' => mud_format_string( TITLE_TEMPLATE_LINK_IRC_WEB, $server ),
-                ]
+                $server['website'],
+                mud_format_string( TITLE_TEMPLATE_LINK_IRC_WEB, $server ),
               );
 
             tag_shut( 'td' );
@@ -3817,16 +3214,10 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
       out_text( "If you " );
       
-      tag_text(
-        'a',
+      render_link_external(
         'support me on Patreon',
-        [
-          'href' => 'https://www.patreon.com/JohnElliotV/membership',
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => TITLE_LINK_PATREON_MEMBERSHIP_OPTIONS,
-        ]
+        'https://www.patreon.com/JohnElliotV/membership',
+        TITLE_LINK_PATREON_MEMBERSHIP_OPTIONS,
       );
 
       out_text( ", you will also be able to get in contact with me through there. " );

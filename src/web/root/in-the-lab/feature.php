@@ -80,6 +80,18 @@ function render_feature_index() {
 
     tag_open( 'section' );
 
+      tag_text( 'h2', 'List of Features', [ 'id' => 'features' ] );
+
+      tag_open( 'p' );
+
+        out_text( 'Here is a list of the features you will see on the ' );
+
+        render_link_internal( 'shows', url_base() . '/show-type.php', TITLE_SHOW_TYPE_INDEX );
+
+        out_text( ':' );
+
+      tag_shut( 'p' );
+
       tag_open( 'ul' );
 
         $list = get_list( Feature::class );
@@ -249,26 +261,18 @@ function render_feature_maxitronix_index() {
 
           out_text( 'The Maxitronix Xin1 videos are ' );
 
-          tag_text(
-            'a',
+          render_link_internal(
             'special shows',
-            [
-              'href' => url_base() . '/show-type.php/special-show',
-              'class' => 'internal channel',
-              'title' => TITLE_SHOW_SPECIAL,
-            ]
+            url_base() . '/show-type.php/special-show',
+            TITLE_SHOW_SPECIAL,
           );
 
           out_text( ' which air on the ' );
 
-          tag_text(
-            'a',
+          render_link_internal(
             'main channel',
-            [
-              'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-              'class' => 'internal channel',
-              'title' => TITLE_CHANNEL_MAIN,
-            ]
+            url_base() . '/channel.php/@InTheLabWithJayJay',
+            TITLE_CHANNEL_MAIN,
           );
 
           out_text( '.' );
@@ -315,14 +319,10 @@ function render_feature_maxitronix_kit( $kit ) {
 
           out_text( "In this Maxitronix $kit Kit special feature on the " );
 
-          tag_text(
-            'a',
+          render_link_internal(
             'main channel',
-            [
-              'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-              'class' => 'internal',
-              'title' => TITLE_CHANNEL_MAIN,
-            ]
+            url_base() . '/channel.php/@InTheLabWithJayJay',
+            TITLE_CHANNEL_MAIN,
           );
             
           out_text( " I work my way through the projects in this old electronics " .
@@ -330,14 +330,10 @@ function render_feature_maxitronix_kit( $kit ) {
               "to the "
           );
 
-          tag_text(
-            'a',
+          render_link_internal(
             'next one',
-            [
-              'href' => url_base() . '/show-type.php/maxitronix',
-              'class' => 'internal',
-              'title' => TITLE_SHOW_MAXITRONIX,
-            ]
+            url_base() . '/show-type.php/maxitronix',
+            TITLE_SHOW_MAXITRONIX,
           );
 
           out_text( '!' );
@@ -374,26 +370,18 @@ function render_feature_mini_project() {
 
           out_text( 'Mini Projects are ' );
 
-          tag_text(
-            'a',
+          render_link_internal(
             'special shows',
-            [
-              'href' => url_base() . '/show-type.php/special-show',
-              'class' => 'internal channel',
-              'title' => TITLE_SHOW_SPECIAL,
-            ]
+            url_base() . '/show-type.php/special-show',
+            TITLE_SHOW_SPECIAL,
           );
 
           out_text( ' which air on the ' );
 
-          tag_text(
-            'a',
+          render_link_internal(
             'main channel',
-            [
-              'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-              'class' => 'internal channel',
-              'title' => TITLE_CHANNEL_MAIN,
-            ]
+            url_base() . '/channel.php/@InTheLabWithJayJay',
+            TITLE_CHANNEL_MAIN,
           );
 
           out_text( '.' );
@@ -404,30 +392,18 @@ function render_feature_mini_project() {
 
           out_text( 'The Mini Projects are published by ' );
 
-          tag_text(
-            'a',
+          render_link_external(
             'Silicon Chip magazine',
-            [
-              'href' => 'https://www.siliconchip.com.au/',
-              'class' => 'external',
-              'target' => '_blank',
-              'rel' => 'noopener follow',
-              'title' => TITLE_SILICON_CHIP,
-            ]
+            'https://www.siliconchip.com.au/',
+            TITLE_SILICON_CHIP,
           );
 
           out_text( ' and sponsored by ' );
 
-          tag_text(
-            'a',
+          render_link_external(
             'Jaycar',
-            [
-              'href' => 'https://www.jaycar.com.au/',
-              'class' => 'external',
-              'target' => '_blank',
-              'rel' => 'noopener follow',
-              'title' => TITLE_JAYCAR,
-            ]
+            'https://www.jaycar.com.au/',
+            TITLE_JAYCAR,
           );
 
           out_text( '.' );
@@ -468,80 +444,50 @@ function render_feature_mini_project() {
 
         tag_open( 'li' );
 
-          tag_text(
-            'a',
+          render_link_external(
             'Channel News: Announcing Mini Projects | In The Lab With Jay Jay',
-            [
-              'href' => 'https://blog.jj5.net/blog/2024/06/14/channel-news-announcing-mini-projects-in-the-lab-with-jay-jay/',
-              'class' => 'external',
-              'target' => '_blank',
-              'rel' => 'noopener follow',
-              'title' => TITLE_ANNOUNCEMENT_MINI_PROJECTS,
-            ]
+            'https://blog.jj5.net/blog/2024/06/14/channel-news-announcing-mini-projects-in-the-lab-with-jay-jay/',
+            TITLE_ANNOUNCEMENT_MINI_PROJECTS,
           );
 
         tag_shut( 'li' );
 
         tag_open( 'li' );
 
-          tag_text(
-            'a',
+          render_link_external(
             'Our new Mini Projects - May 2024 - Silicon Chip Online',
-            [
-              'href' => 'https://www.siliconchip.com.au/Issue/2024/May/Our+new+Mini+Projects',
-              'class' => 'external',
-              'target' => '_blank',
-              'rel' => 'noopener follow',
-              'title' => TITLE_LINK_SILICON_CHIP_MINI_PROJECTS_ANNOUNCEMENT,
-            ]
+            'https://www.siliconchip.com.au/Issue/2024/May/Our+new+Mini+Projects',
+            TITLE_LINK_SILICON_CHIP_MINI_PROJECTS_ANNOUNCEMENT,
           );
 
         tag_shut( 'li' );
 
         tag_open( 'li' );
 
-          tag_text(
-            'a',
+          render_link_external(
             'List of Mini Project articles published by Silicon Chip magazine',
-            [
-              'href' => 'https://www.siliconchip.com.au/Series/417',
-              'class' => 'external',
-              'target' => '_blank',
-              'rel' => 'noopener follow',
-              'title' => TITLE_LINK_SILICON_CHIP_MINI_PROJECTS_LIST,
-            ]
+            'https://www.siliconchip.com.au/Series/417',
+            TITLE_LINK_SILICON_CHIP_MINI_PROJECTS_LIST,
           );
 
         tag_shut( 'li' );
 
         tag_open( 'li' );
 
-          tag_text(
-            'a',
+          render_link_external(
             'Silicon Chip',
-            [
-              'href' => 'https://www.siliconchip.com.au/',
-              'class' => 'external',
-              'target' => '_blank',
-              'rel' => 'noopener follow',
-              'title' => TITLE_SILICON_CHIP,
-            ]
+            'https://www.siliconchip.com.au/',
+            TITLE_SILICON_CHIP,
           );
 
         tag_shut( 'li' );
 
         tag_open( 'li' );
 
-          tag_text(
-            'a',
+          render_link_external(
             'Jaycar',
-            [
-              'href' => 'https://www.jaycar.com.au/',
-              'class' => 'external',
-              'target' => '_blank',
-              'rel' => 'noopener follow',
-              'title' => TITLE_JAYCAR,
-            ]
+            'https://www.jaycar.com.au/',
+            TITLE_JAYCAR,
           );
 
         tag_shut( 'li' );

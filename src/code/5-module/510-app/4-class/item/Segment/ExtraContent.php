@@ -30,42 +30,30 @@ class ExtraContent extends Segment {
 
     tag_open( 'p' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         '2nd Channel',
-        [
-          'href' => url_base() . '/channel.php/@ElliotsExtras',
-          'class' => 'internal',
-          'title' => TITLE_CHANNEL_EXTRA,
-        ]
+        url_base() . '/channel.php/@ElliotsExtras',
+        TITLE_CHANNEL_EXTRA,
       );
 
       //$this->get_channel()->render_rss_link();
 
       out_text( ' > ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'Extra Show',
-        [
-          'href' => url_base() . '/show-type.php/extra-show',
-          'class' => 'internal',
-          'title' => TITLE_SHOW_EXTRA,
-        ]
+        url_base() . '/show-type.php/extra-show',
+        TITLE_SHOW_EXTRA,
       );
 
       //$this->get_show_type()->render_rss_link();
 
       out_text( ' > ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'Extra Content',
-        [
-          'href' => url_base() . '/feature.php/extra-content',
-          'class' => 'internal',
-          'title' => TITLE_FEATURE_EXTRA,
-        ]
+        url_base() . '/feature.php/extra-content',
+        TITLE_FEATURE_EXTRA,
       );
 
       //$this->get_feature()->render_rss_link();

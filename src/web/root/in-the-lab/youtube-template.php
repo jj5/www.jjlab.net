@@ -55,16 +55,10 @@ function render_equipment_main() {
           out_text( "This is a template YouTube post that I use as the basis of the description of my YouTube videos. " );
           out_text( "That's cool that you're poking around, but " );
 
-          tag_text(
-            'a',
+          render_link_external(
             "this isn't the webpage you're looking for...",
-            [
-              'href' => 'https://www.youtube.com/watch?v=ihyjXd2C-E8',
-              'class' => 'external',
-              'target' => '_blank',
-              'rel' => 'noopener follow',
-              'title' => TITLE_LINK_DROIDS,
-            ]
+            'https://www.youtube.com/watch?v=ihyjXd2C-E8',
+            TITLE_LINK_DROIDS,
           );
 
         tag_shut( 'p' );
@@ -73,15 +67,10 @@ function render_equipment_main() {
 
           out_text( "Maybe you would like to " );
 
-          tag_text(
-            'a',
+          render_link_internal(
             "support the show",
-            [
-              'href' => url_base() . '/support.php',
-              'class' => 'internal',
-              'rel' => 'follow',
-              'title' => TITLE_SUPPORT,
-            ]
+            url_base() . '/support.php',
+            TITLE_SUPPORT,
           );
 
           out_text( '? :)' );

@@ -47,14 +47,13 @@ class Feature extends Item {
     $url = $this->get_internal_url();
     $text = $text ?? $this->get_name();
 
-    tag_text(
-      'a',
+    render_link_internal(
       $text,
-      $attrs + [
-        'href' => $url,
+      $url,
+      $this->get_feature_text()->to_string(),
+      [
         'class' => 'internal feature',
-        'title' => $this->get_feature_text()->to_string(),
-      ]
+      ],
     );
 
   }
@@ -139,7 +138,6 @@ class Feature extends Item {
         if ( ! $segment->is_live() ) { return false; }
         $a = $segment->get_feature()->get_slug();
         $b = $this->get_slug();
-        //dump([ 'a' => $a, 'b' => $b ]);
         return $a === $b;
       }
     );

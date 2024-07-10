@@ -55,14 +55,10 @@ class MaxitronixSegment extends Segment {
 
       $title = MaxitronixKit::get_html_title( $kit );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'Maxitronix ' . $kit,
-        [
-          'href' => url_base() . '/feature.php/maxitronix-' . $kit,
-          'class' => 'internal',
-          'title' => $title,
-        ]
+        url_base() . '/feature.php/maxitronix-' . $kit,
+        $title,
       );
 
     tag_shut( 'dd' );
@@ -73,56 +69,40 @@ class MaxitronixSegment extends Segment {
 
     tag_open( 'p' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'Main Channel',
-        [
-          'href' => url_base() . '/channel.php/@InTheLabWithJayJay',
-          'class' => 'internal',
-          'title' => TITLE_CHANNEL_MAIN,
-        ]
+        url_base() . '/channel.php/@InTheLabWithJayJay',
+        TITLE_CHANNEL_MAIN,
       );
 
       //$this->get_channel()->render_rss_link();
 
       out_text( ' > ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         'Special Show',
-        [
-          'href' => url_base() . '/show-type.php/special-show',
-          'class' => 'internal',
-          'title' => TITLE_SHOW_MAIN,
-        ]
+        url_base() . '/show-type.php/special-show',
+        TITLE_SHOW_MAIN,
       );
 
       //$this->get_show_type())->render_rss_link();
 
       out_text( ' > ' );
 
-      tag_text(
-        'a',
+      render_link_internal(
         "Maxitronix Xin1 Kits",
-        [
-          'href' => url_base() . "/feature.php/maxitronix",
-          'class' => 'internal',
-          'title' => TITLE_FEATURE_MAXITRONIX_KITS,
-        ]
+        url_base() . "/feature.php/maxitronix",
+        TITLE_FEATURE_MAXITRONIX_KITS,
       );
 
       out_text( ' > ' );
 
       $kit = $this->get_maxitronix_kit_name()->to_string();
 
-      tag_text(
-        'a',
+      render_link_internal(
         "Maxitronix $kit",
-        [
-          'href' => url_base() . "/feature.php/maxitronix-$kit",
-          'class' => 'internal',
-          'title' => TITLE_FEATURE_MAXITRONIX,
-        ]
+        url_base() . "/feature.php/maxitronix-$kit",
+        TITLE_FEATURE_MAXITRONIX,
       );
 
       //$this->get_feature()->render_rss_link();
