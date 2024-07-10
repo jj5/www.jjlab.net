@@ -102,25 +102,25 @@ function render_video_list( $video_list ) {
 
               tag_open( 'td' );
 
-                $video->get_channel()->render_internal_link();
+                $video->get_channel()->render_link_internal();
 
               tag_shut( 'td' );
 
               tag_open( 'td' );
 
-                $video->get_show_type()->render_internal_link();
+                $video->get_show_type()->render_link_internal();
 
               tag_shut( 'td' );
 
               tag_open( 'td' );
 
-                $video->get_feature()->render_internal_link();
+                $video->get_feature()->render_link_internal();
 
               tag_shut( 'td' );
 
               tag_open( 'td' );
 
-                $video->render_internal_link();
+                $video->render_link_internal();
 
               tag_shut( 'td' );
 

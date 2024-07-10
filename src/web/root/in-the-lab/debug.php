@@ -125,7 +125,7 @@ function render_channel_list() {
 
         tag_open( 'li' );
 
-          $channel->render_internal_link();
+          $channel->render_link_internal();
 
         tag_shut( 'li');
 
@@ -161,7 +161,7 @@ function render_show_list() {
 
         tag_open( 'li' );
 
-          $show_type->render_internal_link();
+          $show_type->render_link_internal();
 
         tag_shut( 'li');
 
@@ -199,7 +199,7 @@ function render_feature_list() {
 
         tag_open( 'li' );
 
-          $feature->render_internal_link();
+          $feature->render_link_internal();
 
         tag_shut( 'li');
 

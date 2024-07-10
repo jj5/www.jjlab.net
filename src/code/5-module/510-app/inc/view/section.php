@@ -86,6 +86,7 @@ define( 'TITLE_AFFILIATE', "Click here to read about the show's affiliates." );
 define( 'TITLE_BLOG', 'Click here to visit my blog!' );
 define( 'TITLE_BLOG_FEED', 'Click here for the RSS feed from my blog.' );
 define( 'TITLE_SUPPORT', 'Click here to find out how you can support the show. [Hotkey: U]' );
+define( 'TITLE_STATS', 'Click here for stats about my videos.' );
 define( 'TITLE_ABOUT', 'Click here for more info about the show and this website. [Hotkey: A]' );
 define( 'TITLE_ABOUT_SHORTCUTS', 'Click here for a list of supported hotkeys. [Hotkey: ?]' );
 define( 'TITLE_TOP', 'Click here to return to the top of the current page. [Hotkey: 0]' );
@@ -744,7 +745,7 @@ function render_section_about_structure( int $heading_level = 2 ) {
 
         tag_open( 'li' );
 
-          $channel->render_internal_link();
+          $channel->render_link_internal();
 
           //$channel->render_rss_link();
 
@@ -760,7 +761,7 @@ function render_section_about_structure( int $heading_level = 2 ) {
 
               tag_open( 'li' );
 
-                $show_type->render_internal_link();
+                $show_type->render_link_internal();
 
                 //$show_type->render_rss_link();
 
@@ -776,7 +777,7 @@ function render_section_about_structure( int $heading_level = 2 ) {
 
                     tag_open( 'li' );
 
-                      $feature->render_internal_link( $feature->get_title() . ' Videos' );
+                      $feature->render_link_internal( $feature->get_title() . ' Videos' );
 
                       //$feature->render_rss_link();
 
@@ -2777,16 +2778,23 @@ function render_section_stats( int $heading_level = 2, $video_list = null ) {
 
     tag_open( 'p' );
 
-      out_text( "Here are some stats about how long $say videos usually play for. " );
-      out_text( 'The durations are given as hours:minutes:seconds.' );
+      out_text( "Here are some stats about how long $say videos usually play for." );
 
     tag_shut( 'p' );
 
+    render_stats_notes();
+
     tag_open( 'p' );
 
-      out_text( 'Note: when there is more than one value for the median the longest value is given. ' );
+      out_text( "You can get stats for all of my videos on the " );
 
-      out_text( 'The average is the arithmetic mean and the standard deviation is the population standard deviation.' );
+      render_link_internal(
+        'stats',
+        url_base() . '/stats.php',
+        TITLE_STATS,
+      );
+
+      out_text( " page." );
 
     tag_shut( 'p' );
 
@@ -2838,6 +2846,24 @@ function render_section_stats( int $heading_level = 2, $video_list = null ) {
     tag_shut( 'table' );
 
   tag_shut( 'section' );
+
+}
+
+function render_stats_notes() {
+
+  tag_open( 'p' );
+
+    out_text( 'The durations are given as hours:minutes:seconds.' );
+
+  tag_shut( 'p' );
+
+  tag_open( 'p' );
+
+    out_text( 'Note: when there is more than one value for the median the longest value is given. ' );
+
+    out_text( 'The average is the arithmetic mean and the standard deviation is the population standard deviation.' );
+
+  tag_shut( 'p' );
 
 }
 

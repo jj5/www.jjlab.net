@@ -35,7 +35,7 @@ class OldBookTeardown extends BookSegment {
 
     tag_open( 'dd' );
 
-      $show->get_first_segment()->render_internal_link();
+      $show->get_first_segment()->render_link_internal();
 
     tag_shut( 'dd' );
 

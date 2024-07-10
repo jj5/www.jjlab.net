@@ -133,7 +133,7 @@ abstract class Video extends Item {
 
   }
 
-  public function render_internal_link( $text = null, $attrs = [] ) {
+  public function render_link_internal( $text = null, $attrs = [] ) {
 
     $url = $this->get_internal_url();
     $text = $text ?? $this->get_segment()->get_name();

@@ -39,7 +39,7 @@ class ElectronicsProject extends Segment {
 
       tag_open( 'dd' );
 
-        $old_book->render_internal_link();
+        $old_book->render_link_internal();
 
       tag_shut( 'dd' );
 
@@ -54,7 +54,7 @@ class ElectronicsProject extends Segment {
 
       tag_open( 'dd' );
 
-        $new_book->render_internal_link();
+        $new_book->render_link_internal();
 
       tag_shut( 'dd' );
 

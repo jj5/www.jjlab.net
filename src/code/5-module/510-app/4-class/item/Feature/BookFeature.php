@@ -60,7 +60,7 @@ abstract class BookFeature extends Feature {
     }
   }
 
-  public function render_internal_link( $text = null, $attrs = [] ) {
+  public function render_link_internal( $text = null, $attrs = [] ) {
 
     $book = $this->get_book();
 

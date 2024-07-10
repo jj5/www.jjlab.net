@@ -440,11 +440,11 @@ function render_show_info() {
 
       out_text( 'This ' );
       
-      $show_type->render_internal_link( strtolower( $show_type->get_name() ) );
+      $show_type->render_link_internal( strtolower( $show_type->get_name() ) );
 
       out_text( ' was published to ' );
 
-      $video->get_channel()->render_internal_link();
+      $video->get_channel()->render_link_internal();
 
       out_text( ' and includes these features:' );
 
@@ -492,7 +492,7 @@ function render_show_info() {
 
                 $feature = $video->get_feature();
 
-                //$feature->render_internal_link();
+                //$feature->render_link_internal();
 
                 out_text( $feature->get_name() . ': ' );
 
@@ -531,11 +531,11 @@ function render_show_info() {
 
       out_text( 'This ' );
 
-      $show_type->render_internal_link( strtolower( $show_type->get_name() ) );
+      $show_type->render_link_internal( strtolower( $show_type->get_name() ) );
 
       out_text( ' was published to ' );
 
-      $video->get_channel()->render_internal_link();
+      $video->get_channel()->render_link_internal();
 
       out_text( ' on ' );
 

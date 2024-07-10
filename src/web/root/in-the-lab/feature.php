@@ -104,7 +104,7 @@ function render_feature_index() {
 
           tag_open( 'li' );
 
-            $feature->render_internal_link();
+            $feature->render_link_internal();
 
             render_video_stats( $feature->get_video_count(), $feature->get_total_hours() );
 
@@ -153,15 +153,15 @@ function render_feature_generic( $feature ) {
 
               out_text( 'The ' );
 
-              $feature->render_internal_link( $feature_title );
+              $feature->render_link_internal( $feature_title );
 
               out_text( ' is a regular feature of the ' );
 
-              $feature->get_show_type()->render_internal_link( $show_title );
+              $feature->get_show_type()->render_link_internal( $show_title );
 
               out_text( ' which airs on ' );
 
-              $feature->get_channel()->render_internal_link();
+              $feature->get_channel()->render_link_internal();
 
               out_text( '.' );
 
@@ -171,15 +171,15 @@ function render_feature_generic( $feature ) {
 
               out_text( 'The ' );
 
-              $feature->render_internal_link( $feature_title );
+              $feature->render_link_internal( $feature_title );
 
               out_text( ' is one of the ' );
 
-              $feature->get_show_type()->render_internal_link( $show_title );
+              $feature->get_show_type()->render_link_internal( $show_title );
 
               out_text( ' features which airs occasionally on ' );
 
-              $feature->get_channel()->render_internal_link();
+              $feature->get_channel()->render_link_internal();
 
               out_text( '.' );
 
@@ -189,15 +189,15 @@ function render_feature_generic( $feature ) {
 
               out_text( 'The ' );
 
-              $feature->render_internal_link( $feature_title );
+              $feature->render_link_internal( $feature_title );
 
               out_text( ' is a ' );
 
-              $feature->get_show_type()->render_internal_link( $show_title );
+              $feature->get_show_type()->render_link_internal( $show_title );
 
               out_text( ' feature which airs occasionally on ' );
 
-              $feature->get_channel()->render_internal_link();
+              $feature->get_channel()->render_link_internal();
 
               out_text( '.' );
 

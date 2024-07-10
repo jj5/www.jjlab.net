@@ -98,9 +98,9 @@ abstract class Segment extends Item {
 
   }
 
-  public function render_internal_link( $text = null, $attrs = [] ) {
+  public function render_link_internal( $text = null, $attrs = [] ) {
 
-    $this->get_youtube_video()->render_internal_link( $text, $attrs );
+    $this->get_youtube_video()->render_link_internal( $text, $attrs );
 
   }
 
@@ -150,7 +150,7 @@ abstract class Segment extends Item {
 
         $this->render_title_prefix();
 
-        $this->render_internal_link();
+        $this->render_link_internal();
 
         $this->render_title_suffix();
 
