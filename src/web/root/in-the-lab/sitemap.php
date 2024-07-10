@@ -79,8 +79,9 @@ function render_sitemap() {
 
     foreach ( app_stash()->get_live_video_list() as $video ) {
 
-      render_url(
-        '/show.php/' . $video->get_channel()->get_slug() . '/' . $video->get_slug(),
+      render_page(
+        'show.php',
+        '/' . $video->get_channel()->get_slug() . '/' . $video->get_slug(),
         $video->get_publication_date()->format_for_sitemap(),
         $video->get_changefreq()->value,
         $video->get_priority(),
@@ -138,19 +139,19 @@ function render_sitemap() {
 
     foreach ( app_stash()->get_list( Channel::class ) as $channel ) {
         
-      render_url( '/channel.php/' . $channel->get_slug(), $latest_date, $changefreq, $priority );
+      render_page( 'channel.php', '/' . $channel->get_slug(), $latest_date, $changefreq, $priority );
 
     }
 
     foreach ( app_stash()->get_list( ShowType::class ) as $show_type ) {
         
-      render_url( '/show-type.php/' . $show_type->get_slug(), $latest_date, $changefreq, $priority );
+      render_page( 'show-type.php', '/' . $show_type->get_slug(), $latest_date, $changefreq, $priority );
 
     }
 
     foreach ( app_stash()->get_list( Feature::class ) as $feature ) {
         
-      render_url( '/feature.php/' . $feature->get_slug(), $latest_date, $changefreq, $priority );
+      render_page( 'feature.php', '/' . $feature->get_slug(), $latest_date, $changefreq, $priority );
 
     }
 
@@ -158,7 +159,7 @@ function render_sitemap() {
 
     foreach ( $manufacturer_list as $manufacturer ) {
 
-      render_url( '/manufacturer.php/' . $manufacturer->get_manufacturer_id(), $latest_date, $changefreq, $priority );
+      render_page( 'manufacturer.php', '/' . $manufacturer->get_manufacturer_id(), $latest_date, $changefreq, $priority );
 
     }
 
@@ -166,7 +167,7 @@ function render_sitemap() {
 
     foreach ( $category_list as $category ) {
 
-      render_url( '/category.php/' . $category->get_category_id(), $latest_date, $changefreq, $priority );
+      render_page( 'category.php', '/' . $category->get_category_id(), $latest_date, $changefreq, $priority );
 
     }
 
@@ -197,8 +198,8 @@ function render_sitemap() {
 
     // 2024-07-03 jj5 - NOTE: this is still high priority but I put it out last because it's not HTML content...
 
-    render_url( '/feed.php', $latest_date, 'hourly', '1.0' );
-    render_url( '/sitemap.php', $latest_date, 'hourly', '1.0' );
+    render_page( 'feed.php', '', $latest_date, 'hourly', '1.0' );
+    render_page( 'sitemap.php', '', $latest_date, 'hourly', '1.0' );
 
 
   tag_shut( 'urlset' );
@@ -209,9 +210,25 @@ function render_pages( $pages, $lastmod = null, $changefreq = null, $priority = 
 
   foreach ( $pages as $page ) {
 
-    render_url( "/$page", $lastmod, $changefreq, $priority );
+    render_page( $page, '', $lastmod, $changefreq, $priority );
 
   }
+}
+
+function render_page( $page, $path, $lastmod = null, $changefreq = null, $priority = null ) {
+
+  render_url( "/{$page}{$path}", $lastmod, $changefreq, $priority );
+
+}
+
+function get_page_date( $path ) {
+
+  $file = __DIR__ . "/$path";
+
+  if ( ! file_exists( $file ) ) { return null; }
+
+  return gmdate( DATE_FORMAT_FOR_SITEMAP, filemtime( $file ) );
+
 }
 
 function render_url( $loc, $lastmod = null, $changefreq = null, $priority = null ) {
