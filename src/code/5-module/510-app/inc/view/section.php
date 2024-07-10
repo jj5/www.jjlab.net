@@ -2927,6 +2927,20 @@ function render_section_about_next( int $heading_level = 2, $thanks = null ) {
 
       tag_open( 'li' );
 
+        out_text( 'My personal favorite is the ' );
+
+        render_link_internal(
+          'old book teardown videos',
+          url_base() . '/feature.php/old-book-teardown',
+          TITLE_FEATURE_OLD_BOOK_TEARDOWN,
+        );
+
+        out_text( '.' );
+
+      tag_shut( 'li' );
+
+      tag_open( 'li' );
+
         out_text( 'Visit the ' );
 
         render_link_internal(
