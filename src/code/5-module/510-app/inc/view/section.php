@@ -2104,7 +2104,7 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
           'class' => 'external',
           'target' => '_blank',
           'rel' => 'noopener follow',
-          'title' => henc( ALT_MAXITRONIX_LABS )
+          'title' => ALT_MAXITRONIX_LABS,
         ]
       );
 
@@ -2112,9 +2112,9 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
           'img',
           [
             'loading' => 'lazy',
-            'src' => 'https://d297fd4gt7t5lv.cloudfront.net/file/2021-08-26-153328/IMG_1490.JPG?v=' . get_resource_version(),
-            'alt' => henc( ALT_MAXITRONIX_LABS ),
             'style' => 'width:500px',
+            'src' => 'https://d297fd4gt7t5lv.cloudfront.net/file/2021-08-26-153328/IMG_1490.JPG?v=' . get_resource_version(),
+            'alt' => ALT_MAXITRONIX_LABS,
           ]
         );
 
