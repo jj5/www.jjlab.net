@@ -220,7 +220,6 @@ function render_show_type_main() {
 
 }
 
-
 function render_show_type_special() {
 
   $show_type = app_stash()->get_item_by_slug( ShowType::class, ShowEnum::SpecialShow->value );

@@ -26,81 +26,11 @@ function render() {
 
   }
 
-  return render_index( array_values( $manufacturer_map ) );
+  return render_manufacturer_index( array_values( $manufacturer_map ) );
 
 }
 
-function render_equipment_list_for_manufacturer( $manufacturer, $equipment_list ) {
-
-  $manufacturer_name = $manufacturer->to_string();
-  $count = count( $equipment_list );
-  $title = "Equipment from $manufacturer_name";
-
-  render_head( $title );
-
-    tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
-
-      tag_open( 'section' );
-
-        tag_bare( 'img', [ 'src' => LOGO_URL ] );
-
-        tag_text( 'h1', $title );
-
-        if ( $count === 1 ) {
-
-          tag_text( 'p', "I have one piece of equipment from $manufacturer_name."  );
-
-        }
-        else {
-
-          $number = NUMBER_MAP[ $count ] ?? $count;
-
-          tag_text( 'p', "I have $number pieces of equipment from $manufacturer_name."  );
-
-        }
-
-        render_equipment_header( $equipment_list );
-
-      tag_shut( 'section' );
-
-    tag_shut( 'header' );
-
-    // 2024-07-10 jj5 - NOTE: this is done at bottom of page...
-    //render_section_contents();
-
-    if ( $manufacturer_name === 'Maxitronix' ) {
-
-      tag_open( 'section' );
-
-        tag_text( 'h2', "Maxitronix Xin1 Kits", [ 'id' => 'maxitronix-kits' ] );
-
-        tag_open( 'p' );
-
-          out_text( "If you're interested in the Maxitronix kits you might like to check out " );
-
-          render_link_internal(
-            'my Maxitronix Xin1 videos',
-            url_base() . '/feature.php/maxitronix',
-            TITLE_FEATURE_MAXITRONIX,
-          );
-
-          out_text( '.' );
-
-        tag_shut( 'p' );
-
-      tag_shut( 'section' );
-
-    }
-
-    render_equipment( $equipment_list );
-
-    render_section_about_next();
-
-  render_foot();
-
-}
-
-function render_index( $manufacturer_list ) {
+function render_manufacturer_index( $manufacturer_list ) {
 
   $title = 'Equipment Manufacturer Index';
 
@@ -191,6 +121,73 @@ function render_index( $manufacturer_list ) {
       tag_shut( 'table' );
 
     tag_shut( 'section' );
+
+    render_section_about_next();
+
+  render_foot();
+
+}
+
+function render_equipment_list_for_manufacturer( $manufacturer, $equipment_list ) {
+
+  $manufacturer_name = $manufacturer->to_string();
+  $count = count( $equipment_list );
+  $title = "Equipment from $manufacturer_name";
+
+  render_head( $title );
+
+    tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
+
+      tag_open( 'section' );
+
+        tag_bare( 'img', [ 'src' => LOGO_URL ] );
+
+        tag_text( 'h1', $title );
+
+        if ( $count === 1 ) {
+
+          tag_text( 'p', "I have one piece of equipment from $manufacturer_name."  );
+
+        }
+        else {
+
+          $number = NUMBER_MAP[ $count ] ?? $count;
+
+          tag_text( 'p', "I have $number pieces of equipment from $manufacturer_name."  );
+
+        }
+
+        render_equipment_header( $equipment_list );
+
+      tag_shut( 'section' );
+
+    tag_shut( 'header' );
+
+    if ( $manufacturer_name === 'Maxitronix' ) {
+
+      tag_open( 'section' );
+
+        tag_text( 'h2', "Maxitronix Xin1 Kits", [ 'id' => 'maxitronix-kits' ] );
+
+        tag_open( 'p' );
+
+          out_text( "If you're interested in the Maxitronix kits you might like to check out " );
+
+          render_link_internal(
+            'my Maxitronix Xin1 videos',
+            url_base() . '/feature.php/maxitronix',
+            TITLE_FEATURE_MAXITRONIX,
+          );
+
+          out_text( '.' );
+
+        tag_shut( 'p' );
+
+      tag_shut( 'section' );
+
+    }
+
+    render_equipment( $equipment_list );
 
     render_section_about_next();
 

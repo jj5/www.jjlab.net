@@ -14,19 +14,19 @@ function render() {
 
   render_head( 'Debug' );
 
-    render_menu();
+    render_debug_menu();
 
-    render_channel_list();
+    render_debug_channel_list();
 
-    render_show_list();
+    render_debug_show_list();
 
-    render_feature_list();
+    render_debug_feature_list();
 
   render_foot();
 
 }
 
-function render_menu() {
+function render_debug_menu() {
 
   tag_open( 'section' );
 
@@ -101,7 +101,7 @@ function render_menu() {
 
 }
 
-function render_channel_list() {
+function render_debug_channel_list() {
 
   tag_open( 'section' );
 
@@ -137,7 +137,7 @@ function render_channel_list() {
 
 }
 
-function render_show_list() {
+function render_debug_show_list() {
 
   tag_open( 'section' );
 
@@ -173,7 +173,7 @@ function render_show_list() {
 
 }
 
-function render_feature_list() {
+function render_debug_feature_list() {
 
   tag_open( 'section' );
 

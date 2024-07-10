@@ -1077,7 +1077,7 @@ function render_equipment_disclaimer( $count ) {
 
 }
 
-function render_equipment_text( $equipment_list ) {
+function render_youtube_template( $equipment_list ) {
 
   sort_equipment_list( $equipment_list );
 

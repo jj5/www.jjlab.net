@@ -12,7 +12,7 @@ function render() {
 
     case '' :
       
-      return render_books( $books );
+      return render_books_main( $books );
 
     default :
 
@@ -21,7 +21,7 @@ function render() {
   }
 }
 
-function render_books( $books ) {
+function render_books_main( $books ) {
 
   render_head( 'Books' );
 
@@ -90,11 +90,7 @@ function render_books( $books ) {
               
               tag_open( 'td', [ 'class' => 'right' ] );
 
-                if ( $book->get_youtube_video()->is_null() ) {
-
-
-                }
-                else {
+                if ( ! $book->get_youtube_video()->is_null() ) {
 
                   render_link_internal(
                     $book->get_video_date(),

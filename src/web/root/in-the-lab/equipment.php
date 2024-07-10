@@ -10,7 +10,7 @@ function render() {
 
     case '' :
 
-      return render_equipment_main();
+      return render_equipment_index();
 
     default :
 
@@ -32,23 +32,6 @@ function render() {
   }
 }
 
-function verify_equipment( $equipment_list ) {
-
-  if ( ! DEBUG ) { return; }
-
-  $id_map = [];
-
-  foreach ( $equipment_list as $equipment ) {
-
-    $id = $equipment->get_equipment_id();
-
-    if ( array_key_exists( $id, $id_map ) ) { throw new Exception( "Duplicate equipment ID: '$id'" ); }
-
-    $id_map[ $id ] = true;
-
-  }
-}
-
 function get_equipment() {
 
   $equipment_list = get_list( Equipment::class );
@@ -59,7 +42,7 @@ function get_equipment() {
 
 }
 
-function render_equipment_main() {
+function render_equipment_index() {
 
   $equipment_list = get_equipment();
 

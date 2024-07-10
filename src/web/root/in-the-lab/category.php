@@ -26,57 +26,11 @@ function render() {
 
   }
 
-  return render_index( array_values( $category_map ) );
+  return render_category_index( array_values( $category_map ) );
 
 }
 
-function render_equipment_list_for_category( $category, $equipment_list ) {
-
-  $category_name = $category->to_string();
-  $count = count( $equipment_list );
-  $title = "Equipment Category: $category_name";
-
-  render_head( $title );
-
-    tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
-
-      tag_open( 'section' );
-
-        tag_bare( 'img', [ 'src' => LOGO_URL ] );
-
-        tag_text( 'h1', $title );
-
-        if ( $count === 1 ) {
-
-          tag_text( 'p', "I have one piece of equipment in this category."  );
-
-        }
-        else {
-
-          $number = NUMBER_MAP[ $count ] ?? $count;
-
-          tag_text( 'p', "I have $number pieces of equipment in this category."  );
-
-        }
-
-        render_equipment_header( $equipment_list );
-
-      tag_shut( 'section' );
-
-    tag_shut( 'header' );
-
-    // 2024-07-10 jj5 - NOTE: this is done at the bottom of the page
-    //render_section_contents();
-
-    render_equipment( $equipment_list );
-
-    render_section_about_next();
-
-  render_foot();
-
-}
-
-function render_index( $category_list ) {
+function render_category_index( $category_list ) {
 
   $title = 'Equipment Category Index';
 
@@ -167,6 +121,49 @@ function render_index( $category_list ) {
       tag_shut( 'table' );
 
     tag_shut( 'section' );
+
+    render_section_about_next();
+
+  render_foot();
+
+}
+
+function render_equipment_list_for_category( $category, $equipment_list ) {
+
+  $category_name = $category->to_string();
+  $count = count( $equipment_list );
+  $title = "Equipment Category: $category_name";
+
+  render_head( $title );
+
+    tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
+
+      tag_open( 'section' );
+
+        tag_bare( 'img', [ 'src' => LOGO_URL ] );
+
+        tag_text( 'h1', $title );
+
+        if ( $count === 1 ) {
+
+          tag_text( 'p', "I have one piece of equipment in this category."  );
+
+        }
+        else {
+
+          $number = NUMBER_MAP[ $count ] ?? $count;
+
+          tag_text( 'p', "I have $number pieces of equipment in this category."  );
+
+        }
+
+        render_equipment_header( $equipment_list );
+
+      tag_shut( 'section' );
+
+    tag_shut( 'header' );
+
+    render_equipment( $equipment_list );
 
     render_section_about_next();
 

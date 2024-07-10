@@ -10,7 +10,7 @@ function render() {
 
     case '' :
 
-      return render_main();
+      return render_stats_main();
 
     default :
 
@@ -19,41 +19,7 @@ function render() {
   }
 }
 
-function render_main_old() {
-
-  $title = 'Video Stats';
-
-  render_head( $title );
-
-    tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
-
-      tag_open( 'section' );
-
-        tag_bare( 'img', [ 'src' => LOGO_URL ] );
-
-        tag_text( 'h1', $title );
-
-        tag_open( 'p' );
-
-          out_text( "On this page you can find some statistics about my videos." );
-
-        tag_shut( 'p' );
-
-      tag_shut( 'section' );
-
-    tag_shut( 'header' );
-
-    render_section_contents();
-
-    render_section_about_stats();
-
-    render_section_about_next();
-
-  render_foot();
-
-}
-
-function render_main() {
+function render_stats_main() {
 
   $title = 'Video Stats';
 

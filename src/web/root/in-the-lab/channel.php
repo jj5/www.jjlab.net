@@ -155,8 +155,6 @@ function render_channel_one() {
               TITLE_YOUTUBE_MAIN,
             );
 
-            //out_text( '.' );
-
           tag_shut( 'p' );
 
         }
@@ -261,8 +259,6 @@ function render_channel_two() {
               'https://www.youtube.com/@ElliotsExtras',
               TITLE_YOUTUBE_EXTRA,
             );
-
-            //out_text( '.' );
 
           tag_shut( 'p' );
 
@@ -484,15 +480,18 @@ function render_show_info() {
 
           foreach ( $video_list as $video ) {
 
-            $title = 'This video was published on ' . $publication_date->format_for_user() . ' and is ' . $video->get_duration()->to_string() . ' long.';
+            $title =
+              'This video was published on ' .
+              $publication_date->format_for_user() .
+              ' and is ' .
+              $video->get_duration()->to_string() .
+              ' long.';
 
             tag_open( 'tr', [ 'title' => $title ] );
 
               tag_open( 'td', [ 'style' => 'text-align:right' ] );
 
                 $feature = $video->get_feature();
-
-                //$feature->render_link_internal();
 
                 out_text( $feature->get_name() . ': ' );
 

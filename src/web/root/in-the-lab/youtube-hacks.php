@@ -10,7 +10,7 @@ function render() {
 
     case '' :
 
-      return render_main();
+      return render_youtube_hacks_main();
 
     default :
 
@@ -19,7 +19,7 @@ function render() {
   }
 }
 
-function render_main() {
+function render_youtube_hacks_main() {
 
   $title = 'YouTube Hacks';
 

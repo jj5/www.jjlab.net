@@ -277,3 +277,20 @@ function render_link_internal_img( string $img_src, string $href, string $title,
   tag_shut( 'a' );
 
 }
+
+function verify_equipment( $equipment_list ) {
+
+  if ( ! DEBUG ) { return; }
+
+  $id_map = [];
+
+  foreach ( $equipment_list as $equipment ) {
+
+    $id = $equipment->get_equipment_id();
+
+    if ( array_key_exists( $id, $id_map ) ) { throw new Exception( "Duplicate equipment ID: '$id'" ); }
+
+    $id_map[ $id ] = true;
+
+  }
+}

@@ -356,15 +356,6 @@ function render_section_about_shortcuts( int $heading_level = 2 ) {
 
     tag_shut( 'p' );
 
-    // 2024-07-05 jj5 - OLD: needed to resolve the error and remove this... it was a caching gremlin from CloudFront.
-    /*
-    tag_open( 'p' );
-
-      out_text( 'NOTE: there seems to be an issue with this feature not working properly. I will get this fixed as soon as I can.' );
-
-    tag_shut( 'p' );
-    */
-
     tag_open( 'table', [ 'class' => 'sortable' ] );
 
       tag_open( 'thead' );

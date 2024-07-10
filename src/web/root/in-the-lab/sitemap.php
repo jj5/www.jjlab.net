@@ -19,7 +19,6 @@ function render_sitemap() {
   $video_list = app_stash()->get_live_video_list();
 
   header( 'Content-Type: text/xml; charset=utf-8' );
-  //header( 'Content-Disposition: inline' );
 
   doc_init(
     MUD_DOCTYPE_XML,

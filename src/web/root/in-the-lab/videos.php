@@ -12,7 +12,7 @@ function render() {
 
     case '' :
 
-      return render_video_list( $video_list );
+      return render_videos_main( $video_list );
 
 
     default :
@@ -22,7 +22,7 @@ function render() {
   }
 }
 
-function render_video_list( $video_list ) {
+function render_videos_main( $video_list ) {
 
   render_head( 'Videos' );
 

@@ -41,9 +41,6 @@ function render_support_main() {
 
     render_section_contents();
 
-    // 2024-07-03 jj5 - OLD: there's not enough content on this page to warrant a section_contents block.
-    //render_section_contents();
-
     $heading_level = 2;
 
     tag_open( 'section' );

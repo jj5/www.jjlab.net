@@ -134,21 +134,10 @@ function render_feed_for_list( $video_list, $topic = null ) {
     'rss',
     [
       'version' => '2.0',
-
       'xmlns:content' => 'http://purl.org/rss/1.0/modules/content/',
-      //'xmlns:wfw' => 'http://wellformedweb.org/CommentAPI/',
       'xmlns:dc' => 'http://purl.org/dc/elements/1.1/',
       'xmlns:atom' => 'http://www.w3.org/2005/Atom',
       'xmlns:sy' => 'http://purl.org/rss/1.0/modules/syndication/',
-      //'xmlns:slash' => 'http://purl.org/rss/1.0/modules/slash/',
-
-      // 2024-07-01 jj5 - OLD: I couldn't get this to work...
-      // 2024-07-01 jj5 - SEE: https://validator.w3.org/nu/?doc=https%3A%2F%2Fwww.inthelabwithjayjay.com%2Fin-the-lab%2Ffeed.php
-      // 2024-07-01 jj5 - SEE: https://chatgpt.com/share/cd28dea6-a5c1-48ae-95ee-4ffa80848912
-      //'xmlns:xsi' => 'http://www.w3.org/2001/XMLSchema-instance',
-      //'xsi:schemaLocation' => 'https://www.inthelabwithjayjay.com/in-the-lab/feed.xsd',
-      //'xsi:noNamespaceSchemaLocation' => 'https://www.inthelabwithjayjay.com/in-the-lab/feed.xsd',
-
     ]
   );
 

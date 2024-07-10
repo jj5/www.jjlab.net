@@ -2927,7 +2927,7 @@ function render_section_about_next( int $heading_level = 2, $thanks = null ) {
 
       tag_open( 'li' );
 
-        out_text( 'My personal favorite is the ' );
+        out_text( 'My personal favorites are the ' );
 
         render_link_internal(
           'old book teardown videos',

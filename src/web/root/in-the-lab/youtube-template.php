@@ -10,7 +10,7 @@ function render() {
 
     case '' :
 
-      return render_equipment_main();
+      return render_youtube_template_main();
 
     default :
 
@@ -19,22 +19,7 @@ function render() {
   }
 }
 
-function verify_equipment( $equipment_list ) {
-
-  $id_map = [];
-
-  foreach ( $equipment_list as $equipment ) {
-
-    $id = $equipment->get_equipment_id();
-
-    if ( array_key_exists( $id, $id_map ) ) { throw new Exception( "Duplicate equipment ID: '$id'" ); }
-
-    $id_map[ $id ] = true;
-
-  }
-}
-
-function render_equipment_main() {
+function render_youtube_template_main() {
 
   $equipment_list = get_list( Equipment::class );
 
@@ -93,7 +78,7 @@ function render_equipment_main() {
 
       tag_shut( 'p' );
 
-      render_equipment_text( $equipment_list );
+      render_youtube_template( $equipment_list );
 
     tag_shut( 'section' );
 

@@ -10,7 +10,7 @@ function render() {
 
     case '' :
 
-      return render_main();
+      return render_homies_main();
 
     default :
 
@@ -19,7 +19,7 @@ function render() {
   }
 }
 
-function render_main() {
+function render_homies_main() {
 
   $title = 'Shoutout to My Homies';
 
