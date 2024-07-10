@@ -43,6 +43,8 @@ function render_main() {
 
     tag_shut( 'header' );
 
+    render_section_contents();
+
     tag_open( 'section' );
 
       tag_text( 'h2', 'Increase Playback Speed More Than 2x', [ 'id' => 'playback-speed' ] );
