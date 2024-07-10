@@ -96,6 +96,8 @@ function render_equipment_list_for_manufacturer( $manufacturer, $equipment_list 
 
     render_equipment( $equipment_list );
 
+    render_section_about_next();
+
   render_foot();
 
 }
@@ -195,6 +197,8 @@ function render_index( $manufacturer_list ) {
       tag_shut( 'table' );
 
     tag_shut( 'section' );
+
+    render_section_about_next();
 
   render_foot();
 

@@ -55,6 +55,8 @@ function render_about_main() {
 
     render_section_summary_thanks();
 
+    render_section_about_next();
+
   render_foot();
 
 }
@@ -585,7 +587,7 @@ function render_section_summary_thanks( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Thanks!', [ 'id' => 'thanks' ] );
+    tag_text( 'h' . $heading_level, 'Thank You!', [ 'id' => 'thanks' ] );
 
     tag_open( 'p' );
 

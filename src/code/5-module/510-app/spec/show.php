@@ -802,19 +802,24 @@ show(
     blog_url( 'https://blog.jj5.net/blog/2024/05/14/electronics-project-piezoelectric-buzzer-volume-control-in-the-lab-with-jay-jay/' ),
     patreon_url( 'https://www.patreon.com/posts/104209741' ),
   ),
-  /*
   old_book_teardown(
-    publication_date( '2024-04-27' ),
-    youtube_video( 'HPc3LlLlpbU' ),
-    blog_url( 'https://blog.jj5.net/blog/2024/04/27/old-book-teardown-engineering-electronics-with-industrial-applications-and-control-in-the-lab-with-jay-jay/' ),
-    patreon_url( 'https://www.patreon.com/posts/103024587' ),
+    publication_date( '2024-07-11' ),
+    youtube_video( '7qUCJVdsGD8' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/07/11/old-book-teardown-radio-engineering-3rd-edition-1947-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/107853309' ),
     old_book(
-      title( "Engineering Electronics with Industrial Applications and Control" ),
-      author( 'John D. Ryder' ),
-      copyright_year( '1957' ),
-      page_count( 666 ),
+      title( "Radio Engineering" ),
+      edition( 3 ),
+      author( 'Frederick Emmons Terman' ),
+      copyright_year( '1947' ),
+      page_count( 953 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/dp/B0007JUUAO' ),
+        item_price    ( 'US$19.99' ),
+      ),
     ),
   ),
+  /*
   new_book_teardown(
     publication_date( '2024-04-30' ),
     youtube_video( 'uliqFAcrAxY' ),
@@ -878,3 +883,5 @@ show(
     patreon_url( 'https://www.patreon.com/posts/107688092' ),
   ),
 );
+
+

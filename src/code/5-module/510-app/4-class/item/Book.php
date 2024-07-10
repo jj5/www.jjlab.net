@@ -11,7 +11,9 @@ class NullBook extends Book {
   use NullItemMixin;
 
   public function get_type() { return ''; }
+
   public function is_new() { return false; }
+
   public function is_old() { return false; }
 
 }
@@ -40,11 +42,41 @@ class Book extends Item {
 
   }
 
-  public function get_title() { return $this->get( Name::class ); }
+  public function get_name() { return $this->get_title(); }
+
+  public function get_title() {
+
+    /*
+    if ( $this->title === null ) {
+
+      $edition = $this->get_edition();
+
+      if ( $edition->is_null() || $edition->get_value() === 1 ) {
+
+        $edition_name = '';
+
+      }
+      else {
+
+        $edition_name = " $edition";
+
+      }
+
+      $name = 
+
+      $this->title = title( "{$name}{$edition_name}" );
+
+    }
+    */
+
+    return $this->get( Name::class );
+
+  }
 
   public function get_edition() { return $this->get( Edition::class ); }
   
   public function get_author() { return $this->get( Author::class ); }
+
   public function get_copyright_year() { return $this->get( CopyrightYear::class ); }
 
   public function get_age() {

@@ -102,6 +102,8 @@ function render_feature_index() {
 
     tag_shut( 'section' );
 
+    render_section_about_next();
+
   render_foot();
 
 }
@@ -201,6 +203,8 @@ function render_feature_generic( $feature ) {
 
     $feature->get_thing_list()->render();
 
+    render_section_about_next();
+
   render_foot();
 
 }
@@ -281,6 +285,8 @@ function render_feature_maxitronix_index() {
 
     tag_shut( 'section' );
 
+    render_section_about_next();
+
   render_foot();
 
 }
@@ -335,6 +341,8 @@ function render_feature_maxitronix_kit( $kit ) {
     tag_shut( 'header' );
 
     app_stash()->get_maxitronix_kit_selection( $kit )->render();
+
+    render_section_about_next();
 
   render_foot();
 
@@ -529,6 +537,8 @@ function render_feature_mini_project() {
       tag_shut( 'ul' );
 
     tag_shut( 'section' );
+
+    render_section_about_next();
 
   render_foot();
 

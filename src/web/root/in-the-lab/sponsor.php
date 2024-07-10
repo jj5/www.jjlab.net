@@ -163,6 +163,8 @@ function render_sponsor_main() {
 
     tag_shut( 'section' );
 
+    render_section_about_next();
+
   render_foot();
 
 }

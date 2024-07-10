@@ -114,6 +114,8 @@ function render_channel_index() {
 
     render_channel_two_main();
 
+    render_section_about_next();
+
   render_foot();
 
 }
@@ -174,6 +176,8 @@ function render_channel_one() {
     $channel = app_stash()->get_item_by_slug( Channel::class, '@InTheLabWithJayJay' );
 
     $channel->get_thing_list()->render();
+
+    render_section_about_next();
 
   render_foot();
 
@@ -289,6 +293,8 @@ function render_channel_two() {
     $channel = app_stash()->get_item_by_slug( Channel::class, '@ElliotsExtras' );
 
     $channel->get_thing_list()->render();
+
+    render_section_about_next();
 
   render_foot();
 

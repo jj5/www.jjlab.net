@@ -3124,7 +3124,7 @@ function render_section_about_next( int $heading_level = 2 ) {
 
     tag_text( 'h' . $heading_level, 'Where to from Here?', [ 'id' => 'next' ] );
 
-    tag_text( 'p', 'You made it to the bottom of the homepage, huh? Well done! I\'m a bit of a scroller myself. :)' );
+    tag_text( 'p', 'You made it to the bottom of the page, huh? Well done! I\'m a bit of a scroller myself. :)' );
 
     tag_text( 'p', 'Where you go next depends on what you\'re interested in. Here are some suggestions:' );
 

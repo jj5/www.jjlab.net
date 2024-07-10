@@ -53,60 +53,83 @@ function render_affiliate_main() {
 
     tag_shut( 'header' );
 
-?>
-<section>
+    tag_open( 'section' );
 
-  <h2>Affiliated Vendors</h2>
-  <p>Following is a list of my affiliates. When possible
-    <a
-      href="<?= url_base() ?>/equipment.php"
-      class="internal"
-      title="<?= TITLE_EQUIPMENT ?>"
-    >equipment</a>
-    links are to affiliates. I may earn a small commission if you purchase after clicking-through on an
-    affiliate link. Clicking-through on the green links on the 
-    <a
-      href="<?= url_base() ?>/equipment.php"
-      class="internal"
-      title="<?= TITLE_EQUIPMENT ?>"
-    >equipment</a> page
-    is a great way to
-    <a
-      href="<?= url_base() ?>/support.php"
-      class="internal"
-      title="<?= TITLE_SUPPORT ?>"
-    >support the show</a>
-    at no cost to you.</p>
+      tag_text( 'h2', 'Affiliated Vendors', [ 'id' => 'affiliates' ] );
 
-<ul>
-<?php
+      tag_open( 'p' );
 
-  foreach ( get_list( Affiliate::class ) as $affiliate ) {
+        out_text( 'Following is a list of my affiliates. When possible ' );
 
-    $text = $affiliate->get_affiliate_name()->to_string();
-    $href = $affiliate->get_affiliate_url()->to_string();
+        tag_text(
+          'a',
+          'equipment',
+          [
+            'href' => url_base() . '/equipment.php',
+            'class' => 'internal',
+            'title' => TITLE_EQUIPMENT,
+          ]
+        );
 
-    tag_open( 'li' );
+        out_text( ' links are to affiliates. I may earn a small commission if you purchase after clicking-through ' );
+        out_text( 'on an affiliate link. Clicking-through on the green links on the ' );
 
-      tag_text(
-        'a',
-        $text,
-        [
-          'href' => $href,
-          'class' => 'external',
-          'target' => '_blank',
-          'rel' => 'noopener follow',
-          'title' => TITLE_LINK_AFFILIATE,
-        ]
-      );
+        tag_text(
+          'a',
+          'equipment',
+          [
+            'href' => url_base() . '/equipment.php',
+            'class' => 'internal',
+            'title' => TITLE_EQUIPMENT,
+          ]
+        );
 
-    tag_shut( 'li' );
+        out_text( ' page is a great way to ' );
 
-  }
-?>
-</ul>
-</section>
-<?php
+        tag_text(
+          'a',
+          'support the show',
+          [
+            'href' => url_base() . '/support.php',
+            'class' => 'internal',
+            'title' => TITLE_SUPPORT,
+          ]
+        );
+
+        out_text( ' at no cost to you.' );
+
+      tag_shut( 'p' );
+
+      tag_open( 'ul' );
+
+        foreach ( get_list( Affiliate::class ) as $affiliate ) {
+
+          $text = $affiliate->get_affiliate_name()->to_string();
+          $href = $affiliate->get_affiliate_url()->to_string();
+
+          tag_open( 'li' );
+
+            tag_text(
+              'a',
+              $text,
+              [
+                'href' => $href,
+                'class' => 'external',
+                'target' => '_blank',
+                'rel' => 'noopener follow',
+                'title' => TITLE_LINK_AFFILIATE,
+              ]
+            );
+
+          tag_shut( 'li' );
+
+        }
+
+      tag_shut( 'ul' );
+
+    tag_shut( 'section' );
+
+    render_section_about_next();
 
   render_foot();
 

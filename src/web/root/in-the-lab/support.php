@@ -238,6 +238,8 @@ function render_support_main() {
 
     tag_shut( 'section' );
 
+    render_section_about_next();
+
   render_foot();
 
 }

@@ -80,6 +80,14 @@ abstract class Segment extends Item {
 
     }
 
+    if ( is_john() ) {
+
+      $this->is_live = true;
+
+      return true;
+
+    }
+
     $pub_date = new DateTime( $this->get_publication_date()->to_string() );
 
     $publish = ( new DateTime( $pub_date->format( 'Y-m-d 23:45:37' ) ) )->getTimestamp();

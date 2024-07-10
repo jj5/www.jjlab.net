@@ -125,6 +125,8 @@ function render_equipment_page( $equipment_list ) {
 
     render_equipment( $equipment_list );
 
+    render_section_about_next();
+
   render_foot();
 
 }

@@ -164,6 +164,8 @@ abstract class Video extends Item {
 
     if ( is_a( $segment, ExtraContent::class ) ) { return $this->get_extra_content_video_title(); }
 
+    //if ( is_a( $segment, BookSegment::class ) ) { return $this->get_book_video_title(); }
+
     $segment_name = strval( $segment->get_segment_name() );
     $video_name = strval( $this->get_video_name() );
 
@@ -277,7 +279,6 @@ abstract class Video extends Item {
     return $name;
 
   }
-
 }
 
 class NullVideo extends Video {

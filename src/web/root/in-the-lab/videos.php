@@ -264,6 +264,8 @@ function render_video_list( $video_list ) {
 
     tag_shut( 'section' );
 
+    render_section_about_next();
+
   render_foot();
 
 }

@@ -103,6 +103,8 @@ function render_show_type_index() {
 
     tag_shut( 'section' );
 
+    render_section_about_next();
+
   render_foot();
 
 }
@@ -212,6 +214,8 @@ function render_show_type_main() {
 
     $show_type->get_thing_list()->render();
 
+    render_section_about_next();
+
   render_foot();
 
 }
@@ -293,6 +297,8 @@ function render_show_type_special() {
 
     $show_type->get_thing_list()->render();
 
+    render_section_about_next();
+
   render_foot();
 
 }
@@ -346,6 +352,8 @@ function render_show_type_extra() {
     $show_type = app_stash()->get_item_by_slug( ShowType::class, ShowEnum::ExtraShow->value );
 
     $show_type->get_thing_list()->render();
+
+    render_section_about_next();
 
   render_foot();
 
