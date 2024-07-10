@@ -195,7 +195,7 @@ class Channel extends Item {
 
     $seconds = 0;
 
-    foreach ( get_list( Video::class ) as $video ) {
+    foreach ( $this->get_video_list() as $video ) {
 
       if ( $video->get_channel() === $this ) {
 
