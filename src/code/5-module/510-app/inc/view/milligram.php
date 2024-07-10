@@ -172,26 +172,11 @@ function render_head( string $heading, array $options = [] ) {
       'text' => 'Main Channel',
       'title' => TITLE_NAV_MAIN,
     ],
-    /*
-    [
-      'href' => '/feature.php/maxitronix',
-      'text' => 'Maxitronix Kits',
-      'title' => TITLE_NAV_MAXITRONIX,
-    ],
-    */
     [
       'href' => '/sponsor.php',
       'text' => 'Sponsors',
       'title' => TITLE_NAV_SPONSORS,
     ],
-    // 2024-06-16 jj5 - OLD: this is mostly just taking up space...
-    /*
-    [
-      'href' => '/affiliate.php',
-      'text' => 'Affiliates',
-      'title' => TITLE_NAV_AFFILIATES,
-    ],
-    */
     [
       'href' => '/equipment.php',
       'text' => 'Equipment',
@@ -221,7 +206,11 @@ function render_head( string $heading, array $options = [] ) {
 
   tag_open(
     'html',
-    [ 'xmlns' => 'http://www.w3.org/1999/xhtml', 'lang' => 'en', 'xml:lang' => 'en' ]
+    [
+      'xmlns' => 'http://www.w3.org/1999/xhtml',
+      'lang' => 'en',
+      'xml:lang' => 'en',
+    ]
   );
 
     tag_open( 'head' );
@@ -261,12 +250,16 @@ function render_head( string $heading, array $options = [] ) {
 
       tag_bare( 'meta', [ 'name' => 'viewport',     'content' => 'width=device-width, initial-scale=1.0, minimal-ui' ] );
 
+      // 2024-07-11 jj5 - NOTE: we don't count 'from' as a query string, it's a special case for back-compatability...
+      $query = $_GET;
+      unset( $query[ 'from' ] );
+
       if ( isset( $options[ 'robots' ] ) ) {
 
         tag_bare( 'meta', [ 'name' => 'robots', 'content' => $options[ 'robots' ] ] );
 
       }
-      elseif ( isset( $_GET[ 'sort' ] ) || isset( $_GET[ 'currency' ] ) ) {
+      elseif ( $query ) {
 
         tag_bare( 'meta', [ 'name' => 'robots', 'content' => 'noindex, nofollow' ] );
 
