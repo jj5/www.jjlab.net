@@ -881,12 +881,6 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
 
           tag_open( 'li' );
 
-            render_link_internal( 'Affiliates', url_base() . '/affiliate.php', TITLE_AFFILIATE );
-
-          tag_shut( 'li' );
-
-          tag_open( 'li' );
-
             render_link_internal( 'Equipment', url_base() . '/equipment.php', TITLE_EQUIPMENT );
 
             tag_open( 'ul' );
@@ -909,6 +903,12 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
 
           tag_open( 'li' );
 
+            render_link_internal( 'Affiliates', url_base() . '/affiliate.php', TITLE_AFFILIATE );
+
+          tag_shut( 'li' );
+
+          tag_open( 'li' );
+
             render_link_internal( 'Secret Tables', url_base() . '/secret.php', TITLE_SECRET );
 
             tag_open( 'ul' );
@@ -926,6 +926,12 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
               tag_shut( 'li' );
 
             tag_shut( 'ul' );
+
+          tag_shut( 'li' );
+
+          tag_open( 'li' );
+
+            render_link_internal( 'YouTube Hacks', url_base() . '/youtube-hacks.php', TITLE_YOUTUBE_HACKS );
 
           tag_shut( 'li' );
 
