@@ -2257,7 +2257,9 @@ function render_section_about_costume( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'This is cosplay and my costume is inspired by ' );
+      tag_text( 'b', 'This is cosplay' );
+
+      out_text( ' and my costume is inspired by ' );
 
       render_link_external(
         'Egon Stetmann',
