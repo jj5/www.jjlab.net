@@ -49,13 +49,13 @@ class AppStash {
 
         tag_open( 'li' );
 
-          tag_text( 'a', 'Value Map', [ 'href' => '#value-map' ] );
+          render_link_internal( 'Value Map', '#value-map', 'Value Map' );
 
         tag_shut( 'li' );
 
         tag_open( 'li' );
 
-          tag_text( 'a', 'Item Map', [ 'href' => '#item-map' ] );
+          render_link_internal( 'Item Map', '#item-map', 'Item Map' );
 
         tag_shut( 'li' );
 

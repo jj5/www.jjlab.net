@@ -115,16 +115,10 @@ class ThingList {
 
         out_text( 'Head over to ' );
 
-        tag_text(
-          'a',
+        render_link_external(
           '@InTheLabWithJayJay',
-          [
-            'href' => 'https://www.youtube.com/@InTheLabWithJayJay',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => TITLE_YOUTUBE_MAIN,
-          ]
+          'https://www.youtube.com/@InTheLabWithJayJay',
+          TITLE_YOUTUBE_MAIN,
         );
 
         out_text( ' and subscribe in order to be notified when there are new videos.' );
@@ -175,16 +169,10 @@ class ThingList {
 
         out_text( 'Head over to ' );
 
-        tag_text(
-          'a',
+        render_link_external(
           '@InTheLabWithJayJay',
-          [
-            'href' => 'https://www.youtube.com/@InTheLabWithJayJay',
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'title' => TITLE_YOUTUBE_MAIN,
-          ]
+          'https://www.youtube.com/@InTheLabWithJayJay',
+          TITLE_YOUTUBE_MAIN,
         );
 
         out_text( ' and subscribe in order to be notified when there are new videos.' );

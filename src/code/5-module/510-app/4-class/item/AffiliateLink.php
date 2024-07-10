@@ -90,16 +90,13 @@ class AffiliateLink extends Item implements ILink {
 
   public function render() {
 
-    tag_text(
-      'a',
+    render_link_external(
       $this->get_link_text(),
+      $this->get_link_href(),
+      TITLE_AFFILIATE_LINK,
       [
-        'href' => $this->get_link_href(),
         'class' => $this->get_link_class(),
-        'target' => '_blank',
-        'rel' => 'noopener follow',
-        'title' => TITLE_AFFILIATE_LINK,
-      ]
+      ],
     );
 
   }

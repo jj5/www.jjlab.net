@@ -29,16 +29,11 @@ class Affiliate extends Item {
 
     ob_start();
 
-    tag_text(
-      'a',
+    render_link_external(
       $text,
-      $attrs + [
-        'href' => $url,
-        'class' => 'affiliate external',
-        'target' => '_blank',
-        'rel' => 'noopener follow',
-        'title' => TITLE_LINK_AFFILIATE,
-      ]
+      $url,
+      TITLE_LINK_AFFILIATE,
+      $attrs,
     );
 
     return ob_get_clean();

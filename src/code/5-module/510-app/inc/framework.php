@@ -141,3 +141,34 @@ function get_client_width() {
   return (int)$parts[ 0 ];
 
 }
+
+function render_link_external( string $text, string $href, string $title, array $attrs = [] ) {
+
+  tag_text(
+    'a',
+    $text,
+    $attrs + [
+      'class' => 'external',
+      'target' => '_blank',
+      'rel' => 'noopener follow',
+      'href' => $href,
+      'title' => $title,
+    ]
+  );
+
+}
+
+function render_link_internal( string $text, string $href, string $title, array $attrs ) {
+
+  tag_text(
+    'a',
+    $text,
+    $attrs + [
+      'class' => 'internal',
+      'rel' => 'follow',
+      'href' => $href,
+      'title' => $title,
+    ]
+  );
+
+}
