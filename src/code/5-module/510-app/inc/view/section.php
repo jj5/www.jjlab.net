@@ -478,7 +478,7 @@ function render_section_about_announcements( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Announcements', [ 'id' => 'announcements' ] );
+    tag_text( "h{$heading_level}", 'Announcements', [ 'id' => 'announcements' ] );
 
     tag_open( 'p' );
 
@@ -636,7 +636,7 @@ function render_section_about_video_content( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Video Content', [ 'id' => 'video-content' ] );
+    tag_text( "h{$heading_level}", 'Video Content', [ 'id' => 'video-content' ] );
 
     tag_open( 'p' );
 
@@ -717,7 +717,7 @@ function render_section_about_stats( int $heading_level = 2, $video_list = null 
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Video Statistics', [ 'id' => 'video-stats' ] );
+    tag_text( "h{$heading_level}", 'Video Statistics', [ 'id' => 'video-stats' ] );
 
     tag_open( 'p' );
 
@@ -917,7 +917,7 @@ function render_section_about_structure( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Content Structure', [ 'id' => 'structure' ] );
+    tag_text( "h{$heading_level}", 'Content Structure', [ 'id' => 'structure' ] );
 
     tag_open( 'p' );
 
@@ -1063,7 +1063,7 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Sitemap', [ 'id' => 'sitemap' ] );
+    tag_text( "h{$heading_level}", 'Sitemap', [ 'id' => 'sitemap' ] );
 
     tag_open( 'p' );
 
@@ -1208,7 +1208,7 @@ function render_section_about_rss_feeds( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'RSS Feeds', [ 'id' => 'feeds' ] );
+    tag_text( "h{$heading_level}", 'RSS Feeds', [ 'id' => 'feeds' ] );
 
     tag_open( 'p' );
 
@@ -1345,7 +1345,7 @@ function render_section_about_show_notes( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Show Notes', [ 'id' => 'show-notes' ] );
+    tag_text( "h{$heading_level}", 'Show Notes', [ 'id' => 'show-notes' ] );
 
     tag_open( 'p' );
 
@@ -1385,7 +1385,7 @@ function render_section_about_channels( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'YouTube Channels', [ 'id' => 'channels' ] );
+    tag_text( "h{$heading_level}", 'YouTube Channels', [ 'id' => 'channels' ] );
 
     tag_text( 'p', 'The show is delivered across two separate YouTube channels.' );
 
@@ -1513,7 +1513,7 @@ function render_section_about_main_show( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Main Show', [ 'id' => 'main-show' ] );
+    tag_text( "h{$heading_level}", 'Main Show', [ 'id' => 'main-show' ] );
 
     tag_open( 'p' );
 
@@ -1590,7 +1590,7 @@ function render_section_about_electronics_project( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Electronics Projects', [ 'id' => 'electronics-projects' ] );
+    tag_text( "h{$heading_level}", 'Electronics Projects', [ 'id' => 'electronics-projects' ] );
 
     tag_open( 'p' );
 
@@ -1670,7 +1670,7 @@ function render_section_about_old_book_teardown( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Old Book Teardowns', [ 'id' => 'old-book-teardowns' ] );
+    tag_text( "h{$heading_level}", 'Old Book Teardowns', [ 'id' => 'old-book-teardowns' ] );
 
     tag_open( 'p' );
 
@@ -1761,7 +1761,7 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Special Shows', [ 'id' => 'special-shows' ] );
+    tag_text( "h{$heading_level}", 'Special Shows', [ 'id' => 'special-shows' ] );
 
     tag_open( 'p' );
 
@@ -1911,7 +1911,7 @@ function render_section_about_new_book_teardown( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'New Book Teardowns', [ 'id' => 'new-book-teardowns' ] );
+    tag_text( "h{$heading_level}", 'New Book Teardowns', [ 'id' => 'new-book-teardowns' ] );
 
     tag_open( 'p' );
 
@@ -1967,7 +1967,7 @@ function render_section_about_mini_project( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Mini Projects', [ 'id' => 'mini-projects' ] );
+    tag_text( "h{$heading_level}", 'Mini Projects', [ 'id' => 'mini-projects' ] );
 
     tag_open( 'p' );
 
@@ -2015,7 +2015,7 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Maxitronix Xin1 Kits', [ 'id' => 'maxitronix-kits' ] );
+    tag_text( "h{$heading_level}", 'Maxitronix Xin1 Kits', [ 'id' => 'maxitronix-kits' ] );
 
     tag_open( 'p' );
 
@@ -2104,7 +2104,7 @@ function render_section_about_interlude( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Interludes', [ 'id' => 'interludes' ] );
+    tag_text( "h{$heading_level}", 'Interludes', [ 'id' => 'interludes' ] );
 
     tag_open( 'p' );
 
@@ -2138,7 +2138,7 @@ function render_section_about_unboxing( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Unboxings', [ 'id' => 'unboxings' ] );
+    tag_text( "h{$heading_level}", 'Unboxings', [ 'id' => 'unboxings' ] );
 
     tag_open( 'p' );
 
@@ -2172,7 +2172,7 @@ function render_section_about_channel_news( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Channel News', [ 'id' => 'channel-news' ] );
+    tag_text( "h{$heading_level}", 'Channel News', [ 'id' => 'channel-news' ] );
 
     tag_open( 'p' );
 
@@ -2204,7 +2204,7 @@ function render_section_about_early_content( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Early Content', [ 'id' => 'early-content' ] );
+    tag_text( "h{$heading_level}", 'Early Content', [ 'id' => 'early-content' ] );
 
     tag_open( 'p' );
 
@@ -2264,7 +2264,7 @@ function render_section_about_extra_content( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Extra Content', [ 'id' => 'extra-content' ] );
+    tag_text( "h{$heading_level}", 'Extra Content', [ 'id' => 'extra-content' ] );
 
     tag_open( 'p' );
 
@@ -2314,7 +2314,7 @@ function render_section_about_video_quality( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Video Quality', [ 'id' => 'video-quality' ] );
+    tag_text( "h{$heading_level}", 'Video Quality', [ 'id' => 'video-quality' ] );
 
     tag_open( 'p' );
 
@@ -2366,7 +2366,7 @@ function render_section_about_costume( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Lab Costume', [ 'id' => 'costume' ] );
+    tag_text( "h{$heading_level}", 'Lab Costume', [ 'id' => 'costume' ] );
 
     tag_open( 'p' );
 
@@ -2556,7 +2556,7 @@ function render_section_about_silly_job_title( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Silly Job Title', [ 'id' => 'silly-job-title' ] );
+    tag_text( "h{$heading_level}", 'Silly Job Title', [ 'id' => 'silly-job-title' ] );
 
     tag_open( 'p' );
 
@@ -2688,7 +2688,7 @@ function render_section_about_sponsors( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Sponsors', [ 'id' => 'sponsors' ] );
+    tag_text( "h{$heading_level}", 'Sponsors', [ 'id' => 'sponsors' ] );
 
     tag_open( 'p' );
 
@@ -2732,7 +2732,7 @@ function render_section_about_homies( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Homies', [ 'id' => 'homies' ] );
+    tag_text( "h{$heading_level}", 'Homies', [ 'id' => 'homies' ] );
 
     tag_open( 'p' );
 
@@ -2762,7 +2762,7 @@ function render_section_about_equipment( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Equipment', [ 'id' => 'equipment' ] );
+    tag_text( "h{$heading_level}", 'Equipment', [ 'id' => 'equipment' ] );
 
     tag_open( 'p' );
 
@@ -2799,7 +2799,7 @@ function render_section_about_affiliates( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Affiliate Links', [ 'id' => 'affiliate-links' ] );
+    tag_text( "h{$heading_level}", 'Affiliate Links', [ 'id' => 'affiliate-links' ] );
 
     tag_open( 'p' );
 
@@ -2860,7 +2860,7 @@ function render_section_about_thanks( int $heading_level = 2, $thanks = null ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Thank You!', [ 'id' => 'thanks' ] );
+    tag_text( "h{$heading_level}", 'Thank You!', [ 'id' => 'thanks' ] );
 
     tag_open( 'p' );
 
@@ -2889,11 +2889,11 @@ function render_section_about_next( int $heading_level = 2, $thanks = null ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Where to from Here?', [ 'id' => 'next' ] );
+    tag_text( "h{$heading_level}", 'Where to from Here?', [ 'id' => 'next' ] );
 
-    tag_text( 'p', 'You made it to the bottom of the page, huh? Well done! I\'m a bit of a scroller myself. :)' );
+    tag_text( 'p', "You made it to the bottom of the page, huh? Well done! I'm a bit of a scroller myself. :)" );
 
-    tag_text( 'p', 'Where you go next depends on what you\'re interested in. Here are some suggestions:' );
+    tag_text( 'p', "Where you go next depends on what you're interested in. Here are some suggestions:" );
 
     tag_open( 'ul' );
 

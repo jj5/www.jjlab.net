@@ -123,7 +123,7 @@ function render_stats( int $heading_level, string $id, string $heading, array $v
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, $heading, [ 'id' => $id ] );
+    tag_text( "h{$heading_level}", $heading, [ 'id' => $id ] );
 
     tag_open( 'p' );
 

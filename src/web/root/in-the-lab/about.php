@@ -61,7 +61,7 @@ function render_section_about_blog( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'John\'s Blog', [ 'id' => 'blog-summary' ] );
+    tag_text( "h{$heading_level}", 'John\'s Blog', [ 'id' => 'blog-summary' ] );
 
     tag_text( 'p', 'I usually write up show notes on my blog, which is over here:' );
 
@@ -83,7 +83,7 @@ function render_section_about_colophon( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Colophon', [ 'id' => 'colophon' ] );
+    tag_text( "h{$heading_level}", 'Colophon', [ 'id' => 'colophon' ] );
 
     tag_text( 'p', 'Here are some notes about how this website is made.' );
 
@@ -290,7 +290,7 @@ function render_section_about_secrets( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Secret Links', [ 'id' => 'secret-links' ] );
+    tag_text( "h{$heading_level}", 'Secret Links', [ 'id' => 'secret-links' ] );
 
     tag_open( 'p' );
 
@@ -348,7 +348,7 @@ function render_section_about_shortcuts( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h' . $heading_level, 'Shortcut Keys', [ 'id' => 'shortcuts' ] );
+    tag_text( "h{$heading_level}", 'Shortcut Keys', [ 'id' => 'shortcuts' ] );
 
     tag_open( 'p' );
 
