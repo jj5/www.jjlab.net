@@ -35,7 +35,13 @@ function render_index_main() {
 
         tag_text( 'p', "My name is Jay Jay, I'll be your host." );
 
-        tag_text( 'p', "I am a computer programmer by day and a maker by night. I'm here to share my passion for electronics and technology with you. I hope you enjoy the content I create and find it helpful." );
+        tag_open( 'p' );
+
+          out_text( "I am a computer programmer by day and a maker by night. " );
+          out_text( "I'm here to share my passion for electronics and technology with you. " );
+          out_text( "I hope you enjoy the content I create and find it helpful and interesting." );
+
+        tag_shut( 'p' );
 
         tag_open( 'p' );
 
