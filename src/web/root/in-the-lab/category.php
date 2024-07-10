@@ -65,6 +65,9 @@ function render_equipment_list_for_category( $category, $equipment_list ) {
 
     tag_shut( 'header' );
 
+    // 2024-07-10 jj5 - NOTE: this is done at the bottom of the page
+    //render_section_contents();
+
     render_equipment( $equipment_list );
 
     render_section_about_next();
@@ -94,6 +97,8 @@ function render_index( $category_list ) {
       tag_shut( 'section' );
 
     tag_shut( 'header' );
+
+    render_section_contents();
 
     tag_open( 'section' );
 

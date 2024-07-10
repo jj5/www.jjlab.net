@@ -85,6 +85,8 @@ function render_show_type_index() {
 
     tag_shut( 'header' );
 
+    render_section_contents();
+
     tag_open( 'section' );
 
       tag_text( 'h2', 'List of Shows', [ 'id' => 'shows' ] );
@@ -186,6 +188,8 @@ function render_show_type_main() {
 
     tag_shut( 'header' );
 
+    render_section_contents();
+
     tag_open( 'section' );
 
       tag_text( 'h2', 'Main Show', [ 'id' => 'main-show' ] );
@@ -271,6 +275,8 @@ function render_show_type_special() {
 
     tag_shut( 'header' );
 
+    render_section_contents();
+
     tag_open( 'section' );
 
       tag_text( 'h2', 'Show Features', [ 'id' => 'features' ] );
@@ -352,6 +358,8 @@ function render_show_type_extra() {
       tag_shut( 'section' );
 
     tag_shut( 'header' );
+
+    render_section_contents();
 
     $show_type = app_stash()->get_item_by_slug( ShowType::class, ShowEnum::ExtraShow->value );
 

@@ -92,11 +92,23 @@ function render_equipment_main() {
 
     tag_shut( 'header' );
 
+    render_section_contents();
+
     tag_open( 'section' );
+
+      tag_text( 'h2', 'YouTube Template', [ 'id' => 'template' ] );
+
+      tag_open( 'p' );
+
+        out_text( 'This is a template YouTube post that I use as the basis of the description of my YouTube videos.' );
+
+      tag_shut( 'p' );
 
       render_equipment_text( $equipment_list );
 
     tag_shut( 'section' );
+
+    render_section_about_next();
 
   render_foot();
 

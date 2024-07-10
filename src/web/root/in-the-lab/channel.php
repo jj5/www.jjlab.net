@@ -110,6 +110,8 @@ function render_channel_index() {
 
     tag_shut( 'header' );
 
+    render_section_contents();
+
     render_channel_one_main();
 
     render_channel_two_main();
@@ -166,6 +168,8 @@ function render_channel_one() {
       tag_shut( 'section' );
 
     tag_shut( 'header' );
+
+    render_section_contents();
 
     if ( ! $g_video_id ) {
 
@@ -285,6 +289,8 @@ function render_channel_two() {
       tag_shut( 'section' );
 
     tag_shut( 'header' );
+
+    render_section_contents();
 
     if ( ! $g_video_id ) {
 

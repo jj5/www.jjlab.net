@@ -76,6 +76,8 @@ function render_feature_index() {
 
     tag_shut( 'header' );
 
+    render_section_contents();
+
     tag_open( 'section' );
 
       tag_open( 'ul' );
@@ -199,6 +201,8 @@ function render_feature_generic( $feature ) {
 
     tag_shut( 'header' );
 
+    render_section_contents();
+
     render_section_stats( 2, $feature->get_video_list() );
 
     //app_stash()->get_main_show_selection()->render();
@@ -275,6 +279,8 @@ function render_feature_maxitronix_index() {
 
     tag_shut( 'header' );
 
+    render_section_contents();
+
     render_section_about_maxitronix_kits();
 
     tag_open( 'section' );
@@ -341,6 +347,8 @@ function render_feature_maxitronix_kit( $kit ) {
       tag_shut( 'section' );
 
     tag_shut( 'header' );
+
+    render_section_contents();
 
     app_stash()->get_maxitronix_kit_selection( $kit )->render();
 
@@ -429,6 +437,8 @@ function render_feature_mini_project() {
       tag_shut( 'section' );
 
     tag_shut( 'header' );
+
+    render_section_contents();
 
     tag_open( 'section' );
 

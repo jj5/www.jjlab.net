@@ -65,6 +65,9 @@ function render_equipment_list_for_manufacturer( $manufacturer, $equipment_list 
 
     tag_shut( 'header' );
 
+    // 2024-07-10 jj5 - NOTE: this is done at bottom of page...
+    //render_section_contents();
+
     if ( $manufacturer_name === 'Maxitronix' ) {
 
       tag_open( 'section' );
@@ -123,6 +126,8 @@ function render_index( $manufacturer_list ) {
       tag_shut( 'section' );
 
     tag_shut( 'header' );
+
+    render_section_contents();
 
     tag_open( 'section' );
 

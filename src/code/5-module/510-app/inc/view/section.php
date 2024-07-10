@@ -3143,7 +3143,7 @@ function render_stat_val( $dt, $arg ) {
 
     tag_open( 'td', [ 'class' => 'right' ] );
 
-      $dd = is_array( $arg ) ? $arg[ count( $arg ) -1 ] : $arg;
+      $dd = is_array( $arg ) ? get_stat_max( $arg ) : $arg;
 
       if ( $dd < 60 ) {
 
@@ -3164,6 +3164,24 @@ function render_stat_val( $dt, $arg ) {
     tag_shut( 'td' );
 
   tag_shut( 'tr' );
+
+}
+
+function get_stat_max( $array ) {
+
+  $result = null;
+
+  foreach ( $array as $value ) {
+
+    if ( $result === null || $value > $result ) {
+
+      $result = $value;
+
+    }
+
+  }
+
+  return $result;
 
 }
 

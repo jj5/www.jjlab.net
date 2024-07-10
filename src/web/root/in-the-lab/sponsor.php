@@ -55,6 +55,8 @@ function render_sponsor_main() {
 
     tag_shut( 'header' );
 
+    render_section_contents();
+
     tag_open( 'section' );
 
       tag_text( 'h2', 'Show Sponsors', [ 'id' => 'sponsors' ] );
