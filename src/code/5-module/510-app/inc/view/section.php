@@ -2784,7 +2784,7 @@ function render_section_stats( int $heading_level = 2, $video_list = null ) {
 
       out_text( 'Note: when there is more than one value for the median the longest value is given. ' );
 
-      out_text( 'The average is the arithmetic mean.' );
+      out_text( 'The average is the arithmetic mean and the standard deviation is the population standard deviation.' );
 
     tag_shut( 'p' );
 
