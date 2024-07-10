@@ -3119,6 +3119,179 @@ function render_section_about_thanks( int $heading_level = 2 ) {
 
 }
 
+function render_stat_def( $dt, $dd ) {
+
+  tag_open( 'tr' );
+
+    tag_text( 'th', "$dt:", [ 'class' => 'right' ] );
+
+    tag_open( 'td', [ 'class' => 'right' ] );
+
+      out_text( $dd );
+
+    tag_shut( 'td' );
+
+  tag_shut( 'tr' );
+
+}
+
+function render_stat_val( $dt, $arg ) {
+
+  tag_open( 'tr' );
+
+    tag_text( 'th', "$dt:", [ 'class' => 'right' ] );
+
+    tag_open( 'td', [ 'class' => 'right' ] );
+
+      $dd = is_array( $arg ) ? $arg[ count( $arg ) -1 ] : $arg;
+
+      if ( $dd < 60 ) {
+
+        out_text( number_format( $dd ) . ' seconds' );
+
+      }
+      elseif ( $dd < 60 * 60 ) {
+
+        out_text( convert_minutes_to_minutes_and_seconds( $dd / 60 ) );
+
+      }
+      else {
+
+        out_text( convert_hours_to_hours_minutes_seconds( $dd / 60 / 60 ) );
+
+      }
+
+    tag_shut( 'td' );
+
+  tag_shut( 'tr' );
+
+}
+
+function convert_minutes_to_minutes_and_seconds($totalMinutes) {
+  $minutes = floor($totalMinutes);
+  $seconds = round(($totalMinutes - $minutes) * 60);
+  return ltrim( sprintf("%02d:%02d", $minutes, $seconds), '0' );
+}
+
+function convert_hours_to_hours_minutes_seconds($totalHours) {
+  $hours = floor($totalHours);
+  $minutes = floor(($totalHours - $hours) * 60);
+  $seconds = round((($totalHours - $hours) * 60 - $minutes) * 60);
+  return ltrim( sprintf("%02d:%02d:%02d", $hours, $minutes, $seconds), '0' );
+}
+
+function date_interval_to_seconds( DateInterval $interval ) : int {
+
+  $seconds = 0;
+
+  // Convert years to seconds (assuming 365 days per year)
+  if ($interval->y) {
+      $seconds += $interval->y * 365 * 24 * 60 * 60;
+  }
+
+  // Convert months to seconds (assuming 30 days per month)
+  if ($interval->m) {
+      $seconds += $interval->m * 30 * 24 * 60 * 60;
+  }
+
+  // Convert days to seconds
+  if ($interval->d) {
+      $seconds += $interval->d * 24 * 60 * 60;
+  }
+
+  // Convert hours to seconds
+  if ($interval->h) {
+      $seconds += $interval->h * 60 * 60;
+  }
+
+  // Convert minutes to seconds
+  if ($interval->i) {
+      $seconds += $interval->i * 60;
+  }
+
+  // Add seconds
+  if ($interval->s) {
+      $seconds += $interval->s;
+  }
+
+  return intval( round( $seconds, 2 ) );
+
+}
+
+function render_section_stats( int $heading_level = 2 ) {
+
+  tag_open( 'section' );
+
+    tag_text( 'h' . $heading_level, 'Video Statistics', [ 'id' => 'video-stats' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'Here are some stats about how long my videos usually play for. ' );
+      out_text( 'The durations are given as hours:minutes:seconds.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'Note: where there are more than one value for median or mode the longest is given. ' );
+
+      out_text( 'The average is the arithmetic mean.' );
+
+    tag_shut( 'p' );
+
+    $video_list = get_list( Video::class );
+
+    $duration_list = [];
+
+    foreach ( $video_list as $video ) {
+
+      $duration = $video->get_duration();
+
+      if ( $duration->is_null() ) { continue; }
+
+      $interval = $duration->get_value();
+
+      if ( $interval === null ) { continue; }
+
+      $duration_list[] = date_interval_to_seconds( $interval );
+
+    }
+
+    $stats = mud_get_stats( $duration_list, MUD_STATS_TYPE_FLOAT );
+
+    tag_open( 'table' );
+
+      /*
+      tag_open( 'thead' );
+
+        tag_open( 'tr' );
+
+          tag_text( 'th', 'Statistic' );
+          tag_text( 'th', 'Value' );
+
+        tag_shut( 'tr' );
+
+      tag_shut( 'thead' );
+      */
+
+      tag_open( 'tbody' );
+
+        render_stat_def( 'Videos Published',    $stats[ 'count' ] );
+        render_stat_val( 'Minimum Duration',    $stats[ 'min' ] );
+        render_stat_val( 'Maximum Duration',    $stats[ 'max' ] );
+        render_stat_val( 'Median Duration',     $stats[ 'medians' ] );
+        render_stat_val( 'Mode Duration',       $stats[ 'modes' ] );
+        render_stat_val( 'Average Duration',    $stats[ 'a_mean' ] );
+        render_stat_val( 'Standard Deviation',  $stats[ 'std_dev_pop' ] );
+
+      tag_shut( 'tbody' );
+
+    tag_shut( 'table' );
+
+  tag_shut( 'section' );
+
+}
+
 function render_section_about_next( int $heading_level = 2 ) {
 
   tag_open( 'section' );
