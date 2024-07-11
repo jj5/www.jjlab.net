@@ -2072,7 +2072,7 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
 
     tag_shut( 'p' );
 
-    list_maxitronix_kits();
+    render_maxitronix_kit_list();
 
     tag_open( 'p' );
 

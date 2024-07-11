@@ -90,7 +90,7 @@ function render_500( $message = null, $form = null, $issue = null, $exit = null,
 
   http_response_code( 500 );
 
-  // 2024-07-05 jj5 - NOTE: I was "Internal Error" rather than "Internal Server Error" because I don't want the user to
+  // 2024-07-05 jj5 - NOTE: I say "Internal Error" rather than "Internal Server Error" because I don't want the user to
   // misread as "Internal Severe Error" and freak out...
   //
   $title = '500 - Internal Error';
@@ -157,8 +157,6 @@ function render_500( $message = null, $form = null, $issue = null, $exit = null,
 
 }
 
-
-
 function render_head( string $heading, array $options = [] ) {
 
   static $nav_link = [
@@ -202,8 +200,6 @@ function render_head( string $heading, array $options = [] ) {
 
   doc_init();
 
-  $heading_html = henc( $heading );
-
   tag_open(
     'html',
     [
@@ -215,11 +211,13 @@ function render_head( string $heading, array $options = [] ) {
 
     tag_open( 'head' );
 
+      $heading_html = henc( $heading );
       $title_html = "In The Lab With Jay Jay &mdash; $heading_html";
       $title_text = html_entity_decode( $title_html );
 
       tag_text( 'title', $title_text );
 
+      /*
       $script_filename = $_SERVER[ 'SCRIPT_FILENAME' ] ?? null;
 
       if ( $script_filename && file_exists( $script_filename ) ) {
@@ -233,22 +231,25 @@ function render_head( string $heading, array $options = [] ) {
         tag_bare( 'meta', [ 'name' => 'date', 'content' => $date ] );
 
       }
+      */
 
-      $description = 'In The Lab With Jay Jay is the video blog of John Elliot V';
+      tag_bare( 'meta', [ 'name' => 'date', 'content' => get_version_date() ] );
 
-      tag_bare( 'meta', [ 'name' => 'author',       'content' => 'John Elliot V' ] );
+      tag_bare( 'meta', [ 'name' => 'author', 'content' => 'John Elliot V' ] );
 
       tag_bare(
         'meta',
         [
           'name' => 'keywords',
-          'content' => 'electronics videos, electronics lab, electronics kits, electronics experiments, video blog',
+          'content' => 'electronics videos, electronics lab, electronics kits, electronics experiments, video blog, In The Lab With Jay Jay, John Elliot V',
         ]
       );
 
-      tag_bare( 'meta', [ 'name' => 'description',  'content' => $description ] );
+      $description = 'In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.';
 
-      tag_bare( 'meta', [ 'name' => 'viewport',     'content' => 'width=device-width, initial-scale=1.0, minimal-ui' ] );
+      tag_bare( 'meta', [ 'name' => 'description', 'content' => $description ] );
+
+      tag_bare( 'meta', [ 'name' => 'viewport', 'content' => 'width=device-width, initial-scale=1.0, minimal-ui' ] );
 
       // 2024-07-11 jj5 - NOTE: we don't count 'from' as a query string, it's a special case for back-compatability...
       $query = $_GET;
@@ -287,43 +288,9 @@ function render_head( string $heading, array $options = [] ) {
 
       render_rss_link();
 
-      // 2024-01-24 jj5 - Roboto font...
-      //
       tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => 'https://fonts.googleapis.com/css?family=Roboto' ] );
-      //tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => 'https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic' ] );
-      //tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap' ] );
 
       $version = get_resource_version();
-
-      // 2024-07-03 jj5 - OLD: this stuff has been consolidated now...
-      /*
-      // 2024-01-24 jj5 - CSS reset...
-      //
-      tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => url_base( $use_cdn = true ) . '/res/style/milligram/normalize.css' ] );
-      //tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => 'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css' ] );
-
-
-      tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => "https://d27cckvuinr11o.cloudfront.net/global/table.css?v=$version" ] );
-      //tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => 'https://www.staticmagic.net/global/table.css?v=2024-01-12-123831' ] );
-
-      // 2024-01-24 jj5 - Milligram CSS...
-      //
-      tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => url_base( $use_cdn = true ) . '/res/style/milligram/milligram.css' ] );
-      //tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => 'https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css' ] );
-
-      //$hash = md5_file( __DIR__ . '/../../../../../web/root/in-the-lab/res/style/main.css' );
-
-      tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => url_base( $use_cdn = true ) . "/res/style/main.css?v=$version" ] );
-
-      tag_bare(
-        'link',
-        [
-          'rel' => 'stylesheet',
-          'href' => url_base( $use_cdn = true ) . '/res/style/milligram/print.css',
-          'media' => 'print',
-        ]
-      );
-      */
 
       tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => url_base( $use_cdn = true ) . "/res/style.php?v=$version" ] );
 
@@ -337,34 +304,14 @@ function render_head( string $heading, array $options = [] ) {
 
       tag_shut( 'script' );
 
-      // 2024-07-03 jj5 - OLD: this stuff has been consolidated now...
-      /*
-      tag_bare( 'script', [ 'src' => "https://d27cckvuinr11o.cloudfront.net/global/default.js?v=$version" ] );
-      //tag_bare( 'script', [ 'src' => 'https://www.staticmagic.net/global/default.js?v=2024-01-12-123831' ] );
-
-      //$hash = md5_file( __DIR__ . '/../../../../../web/root/in-the-lab/res/script/common.js' );
-
-      tag_bare( 'script', [ 'src' => url_base( $use_cdn = true ) . "/res/script/common.js?v=$version" ] );
-      */
-
       tag_bare( 'script', [ 'src' => url_base( $use_cdn = true ) . "/res/script.php?v=$version" ] );
 
-
-      $img_dir = realpath( __DIR__ . '/../../../../../web/root/in-the-lab/img' );
-
-      //foreach ( scandir( $img_dir ) as $filename ) {
       foreach ([
         'banner-base.jpg',
         'banner-0640.jpg',
         'banner.jpg',
         'logo.png',
         'rss/rss-40674_50.png',
-        //'itl-logo.svg',
-        //'JohnElliotV-100.jpg',
-        //'JohnElliotV-500-2.jpg',
-        //'JohnElliotV-500-2.xcf',
-        //'JohnElliotV-500.jpg',
-        //'EgonStetmann_SC2-WoL_Story1.webp',
       ] as $filename ) {
 
         $ext = pathinfo( $filename, PATHINFO_EXTENSION );
@@ -375,7 +322,7 @@ function render_head( string $heading, array $options = [] ) {
           'link',
           [
             'rel' => 'preload',
-            'href' => url_base( $use_cdn = true ) . '/res/img.php/' . $filename . '?v=' . get_resource_version(),
+            'href' => url_base( $use_cdn = true ) . '/res/img.php/' . $filename . '?v=' . $version,
             'as' => 'image',
           ]
         );
@@ -387,14 +334,6 @@ function render_head( string $heading, array $options = [] ) {
     tag_open( 'body' );
 
       tag_open( 'main', [ 'class' => 'wrapper' ] );
-
-        /*
-        tag_open( 'div', [ 'style' => 'position:fixed;z-index:100;top:1px;right:1px;' ] );
-
-          render_rss_anchor();
-
-        tag_shut( 'div' );
-        */
 
         tag_open( 'nav', [ 'class' => 'navigation' ] );
 
@@ -409,7 +348,7 @@ function render_head( string $heading, array $options = [] ) {
               ]
             );
 
-              tag_bare( 'img', [ 'src' => url_base( $use_cdn = true ) . '/res/img.php/logo.png?v=' . get_resource_version() ] );
+              tag_bare( 'img', [ 'src' => url_base( $use_cdn = true ) . '/res/img.php/logo.png?v=' . $version ] );
 
               tag_text( 'header', 'In The Lab With Jay Jay', [ 'class' => 'title' ] );
 
@@ -529,10 +468,10 @@ function render_foot() {
 
         tag_open( 'script' );
 
-        out_code("
+        // 2024-06-29 jj5 - NOTE: this is to fix a problem with the page not scrolling to the right place when opened in
+        // Akregator. It's a hack, but it works...
 
-// 2024-06-29 jj5 - NOTE: this is to fix a problem with the page not scrolling to the right place when opened in
-// Akregator. It's a hack, but it works...
+        out_code("
 
 function scroll_hack() {
 
@@ -610,7 +549,7 @@ function render_rss_link() {
 
 }
 
-function render_rss_anchor( $attrs = [] ) {
+function render_rss_anchor() {
 
   // 2024-07-10 jj5 - NOTE: this RSS feed (which is in the nav header) is to the full thing, it is no longer context
   // affinitve.
@@ -683,30 +622,6 @@ function get_rss_link( &$feed_title, &$feed_url ) {
   $feed_url = url_base() . '/feed.php';
 
   return true;
-
-}
-
-function list_maxitronix_kits() {
-
-  tag_open( 'ul' );
-
-    foreach ( get_list( MaxitronixKit::class ) as $kit ) {
-
-      $kit_name = $kit->get_maxitronix_kit_name()->to_string();
-
-      tag_open( 'li' );
-
-        render_link_internal(
-          'Maxitronix ' . $kit_name,
-          url_base() . '/show-type.php/maxitronix-' . $kit_name,
-          MaxitronixKit::get_html_title( $kit_name ),
-        );
-
-      tag_shut( 'li' );
-
-    }
-
-  tag_shut( 'ul' );
 
 }
 
@@ -1095,9 +1010,7 @@ Following is a list of products I use which may appear in my videos. Clicking th
 
     $row_number++;
 
-    //out_text( '* ' );
     out_text( $equipment->get_short_link() );
-    //out_text( ' - ' );
     out_text( ' ' );
     out_text( $equipment->get_equipment_name() );
     out_text( "\n" );
@@ -1631,9 +1544,6 @@ function render_equipment_table( $equipment_list ) {
 
               $web_link_list = $equipment->get_web_link_list();
 
-              // 2024-01-18 jj5 - I'm gonna leave this out for now, less is more.
-              //$web_link_list[] = $equipment->get_search_link();
-
               if ( $web_link_list ) {
 
                 tag_text( 'p', 'Links:' );
@@ -1713,11 +1623,7 @@ function render_equipment_table( $equipment_list ) {
               $vendor_html = henc( $purchase->get_vendor() );
 
               $quantity = $purchase->get_order_quantity();
-              $quantity_html = $quantity->to_html();
-
               $price = $purchase->get_order_price();
-              $price_html = $price->to_html();
-
               $subtotal = $price->multiply( $quantity->get_value() );
               $subtotal_html = $subtotal->to_html();
 
@@ -1782,7 +1688,11 @@ function render_equipment_table( $equipment_list ) {
 
                 tag_html( 'td', "$vendor_html:", [ 'class' => 'vendor' ] );
 
-                tag_html( 'td', "$subtotal_html", [ 'class' => 'subtotal price' ] );
+                tag_open( 'td', [ 'class' => 'subtotal price' ] );
+
+                  $subtotal->render();
+
+                tag_shut( 'td' );
 
                 tag_html( 'td', "$ancillary_charges_html", [ 'class' => 'ancillary price' ] );
 
@@ -2259,4 +2169,39 @@ function get_data_sort_value_for_changefreq( $changefreq ) {
     default :                 return 1;
 
   }
+}
+
+function get_version_date() {
+
+  static $result = null;
+  static $datetime = null;
+  static $utc = null;
+
+  if ( $result ) { return $result; }
+
+  if ( ! $utc ) { $utc = new DateTimeZone( 'UTC' ); }
+
+  //'$Date: 2024-06-29 03:10:16 +1000 (Sat, 29 Jun 2024) $'
+
+  if ( preg_match( '/(\d{4}-\d{2}-\d{2}) ([^ ]*) ([^ ]*)/', JJLAB_SVN_DATE, $matches ) ) {
+
+    $date = $matches[ 1 ];
+    $time = $matches[ 2 ];
+    $zone = $matches[ 3 ];
+
+    $datetime = new DateTime( $date . ' ' . $time . ' ' . $zone );
+
+  }
+  else {
+
+    $datetime = new DateTime();
+
+  }
+
+  $datetime->setTimezone( $utc );
+
+  $result = $datetime->format( DATE_FORMAT_FOR_SITEMAP );
+
+  return $result;
+
 }

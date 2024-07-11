@@ -7937,6 +7937,782 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/Sae49d749526943ca9f58bea838cccad3i/50Pcs-Painting-Brushes-Set-Art-Round-Flat-Hair-Nylon-Hair-Paint-Brush-for-Oil-Acrylic-Watercolor.jpg_640x640.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Yutiars" ),
+    model_name        ( "Round" ),
+    equipment_type    ( "Paint Brush Set" ),
+    category          ( 'Paint Brush' ),
+    category          ( 'Brush' ),
+    category          ( 'Hand Tool' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Yutiars_Round_Paint_Brush_Set' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007250364880.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DciBNdh' ),
+    listing_name  ( "50Pcs Painting Brushes Set Art Round Flat Hair Nylon Hair Paint Brush for Oil Acrylic Watercolor Kids/Artists/Beginners/Students" ),
+    item_options  ( 'Color: 50pcs round' ),
+    item_price    ( 'AU$5.01' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007250364880.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.1.53651802LMoqC2&orderId=8190382506963938' ),
+    order_id        ( '8190382506963938' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( '50Pcs Painting Brushes Set Art Round Flat Hair Nylon Hair Paint Brush for Oil Acrylic Watercolor Kids/Artists/Beginners/Students' ),
+    order_options   ( 'Color: 50pcs round' ),
+    order_price     ( 'AU$3.29' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.48' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/S85fb88309d6f4baf8855a9ad40052b05W/3pcs-Drill-Brush-Attachment-Set-Power-Scrubber-Brush-With-Drill-Scrub-Brush-For-Cleaning-Showers-Tubs.jpeg_640x640.jpeg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( "3pcs" ),
+    equipment_type    ( "Drill Scrub Brush" ),
+    category          ( 'Brush' ),
+    category          ( 'Drill Bit' ),
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006888412238.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DBqxYRt' ),
+    listing_name  ( "3pcs Drill Brush Attachment Set Power Scrubber Brush With Drill Scrub Brush For Cleaning Showers Tubs Bathroom Tile Grout Carpet" ),
+    item_options  ( 'Color: 3pc-yellow' ),
+    item_price    ( 'AU$7.68' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006888412238.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.6.53651802LMoqC2&orderId=8190382506983938' ),
+    order_id        ( '8190382506983938' ),
+    order_date      ( '2024-07-11' ),
+    order_item_name ( '3pcs Drill Brush Attachment Set Power Scrubber Brush With Drill Scrub Brush For Cleaning Showers Tubs Bathroom Tile Grout Carpet' ),
+    order_options   ( 'Color: 3pc-yellow' ),
+    order_price     ( 'AU$5.99' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.74' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/S1b5fdfc88f7d46cfbc7ac7b44e9e7fafG/500pcs-100pcs-Per-Pack-5-Packs-Double-ended-Cotton-Swabs-Baby-Cotton-Swabs-Ear-Cleaning-Sticks.jpg_640x640.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( "Double-ended" ),
+    equipment_type    ( "Cotton Swabs" ),
+    category          ( 'Cleaning' ),
+    category          ( 'Disposable' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006407439762.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DFwzGLh' ),
+    listing_name  ( "500pcs ,100pcs Per Pack, 5 Packs, Double-ended Cotton Swabs, Baby Cotton Swabs, Ear Cleaning Sticks, Healthy Cleaning Tools" ),
+    item_options  ( 'Color: 300PCs' ),
+    item_price    ( 'AU$3.19' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006407439762.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.11.53651802LMoqC2&orderId=8190382507003938' ),
+    order_id        ( '8190382507003938' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( '500pcs ,100pcs Per Pack, 5 Packs, Double-ended Cotton Swabs, Baby Cotton Swabs, Ear Cleaning Sticks, Healthy Cleaning Tools' ),
+    order_options   ( 'Color: 300PCs' ),
+    order_price     ( 'AU$2.09' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.33' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/S3311b3bda6a84f3cb3fbd5b43ca9debeW/Small-Screwdriver-Set-30-Mini-Magnetic-Precision-Screwdriver-Drill-Set-Star-Y-Club-Triangle-Cross-Slotted.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( "Mini Magnetic Precision" ),
+    equipment_type    ( "Screwdriver Set" ),
+    category          ( 'Screwdriver' ),
+    category          ( 'Drill Bit' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Mini_Magnetic_Precision_Screwdriver_Set' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007187681360.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DduOEoF' ),
+    listing_name  ( "Small Screwdriver Set,30 Mini Magnetic Precision Screwdriver Drill Set (Star, Y, Club, Triangle, Cross, Slotted, U, Hexagonal He" ),
+    item_options  ( 'Color: Package 1' ),
+    item_price    ( 'AU$4.75' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007187681360.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.16.53651802LMoqC2&orderId=8190382507023938' ),
+    order_id        ( '8190382507023938' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( 'Small Screwdriver Set,30 Mini Magnetic Precision Screwdriver Drill Set (Star, Y, Club, Triangle, Cross, Slotted, U, Hexagonal He' ),
+    order_options   ( 'Color: Package 1' ),
+    order_price     ( 'AU$3.29' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.46' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/S844c5cc3670848f9a899d95800b649544/29-In-1-Mini-Precision-Screwdriver-Tool-Kit-Portable-Screwdriver-Bits-Tool-Set-Pocket-Tools-Professional.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( "29 In 1 Mini Precision" ),
+    equipment_type    ( "Screwdriver Set" ),
+    category          ( 'Screwdriver' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Mini_Magnetic_Precision_Screwdriver_Set' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006310779162.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DlDg9L5' ),
+    listing_name  ( "29 In 1 Mini Precision Screwdriver Tool Kit Portable Screwdriver Bits Tool Set Pocket Tools Professional Electronics Repair Tool" ),
+    item_options  ( 'Color: 29 PCS' ),
+    item_price    ( 'AU$5.75' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006310779162.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.21.53651802LMoqC2&orderId=8190382507043938' ),
+    order_id        ( '8190382507043938' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( '29 In 1 Mini Precision Screwdriver Tool Kit Portable Screwdriver Bits Tool Set Pocket Tools Professional Electronics Repair Tool' ),
+    order_options   ( 'Color: 29 PCS' ),
+    order_price     ( 'AU$3.29' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.52' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/Sdcd112c1a41f45189877fb5a73fda5b6F/2pcs-Magnetic-Soft-Jaw-Pads-4-5-6-Inch-For-Metal-Vise-Bench-Machine-Tools-Vise.jpeg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( "2pcs Magnetic Soft" ),
+    equipment_type    ( "Vise Jaw Pads" ),
+    category          ( 'Vise' ),
+    category          ( 'Attachment' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_2pcs_Magnetic_Soft_Vise_Jaw_Pads' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006358554010.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DB4AanD' ),
+    listing_name  ( "2pcs Magnetic Soft Jaw Pads 4.5/6 Inch For Metal Vise Bench Machine Tools Vise Softs Metal Wood Fixing Protection Parts Tool" ),
+    item_options  ( 'Color: 4inch' ),
+    item_price    ( 'AU$5.44' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006358554010.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.26.53651802LMoqC2&orderId=8190382507063938' ),
+    order_id        ( '8190382507063938' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( '2pcs Magnetic Soft Jaw Pads 4.5/6 Inch For Metal Vise Bench Machine Tools Vise Softs Metal Wood Fixing Protection Parts Tool' ),
+    order_options   ( 'Color: 4inch' ),
+    order_price     ( 'AU$4.79' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.53' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/S7c2e77628d1a401b8a487d6ce4f4ea09w/10pcs-Magic-Sponge-Wipe-Melamine-Foam-Sponge-Household-Cleaning-Sponge-Kitchen-Cleaning-Sponge-Car-Wash-Sponge.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( "10pcs Magic" ),
+    equipment_type    ( "Foam Sponge" ),
+    category          ( 'Cleaning' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_10pcs_Magic_Foam_Sponge' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007069120339.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DBB5ZtZ' ),
+    listing_name  ( "10pcs Magic Sponge Wipe, Melamine Foam Sponge, Household Cleaning Sponge Kitchen Cleaning Sponge, Car Wash Sponge" ),
+    item_options  ( 'Color: 10PCs' ),
+    item_price    ( 'AU$4.83' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007069120339.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.31.53651802LMoqC2&orderId=8190382507083938' ),
+    order_id        ( '8190382507083938' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( '10pcs Magic Sponge Wipe, Melamine Foam Sponge, Household Cleaning Sponge Kitchen Cleaning Sponge, Car Wash Sponge' ),
+    order_options   ( 'Color: 10PCs' ),
+    order_price     ( 'AU$1.79' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.22' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/Sd3c7b9c0fa7f41688e526630a7fb0f10d/1-5-Stain-Grease-Cleaner-Grill-Cleaning-Bricks-Grill-Cleaning-Stone-Grill-Grill-Grill-Tools-Kitchen.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( "2pcs Grease Cleaner" ),
+    equipment_type    ( "Cleaning Bricks" ),
+    category          ( 'Cleaning' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_2pcs_Grease_Cleaner_Cleaning_Bricks' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006754273035.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DC6Bh9h' ),
+    listing_name  ( "1-5 Stain Grease Cleaner Grill Cleaning Bricks Grill Cleaning Stone Grill Grill Grill Tools Kitchen Cleaning Gadgets" ),
+    item_options  ( 'Color: 2pcs' ),
+    item_price    ( 'AU$5.62' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006754273035.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.36.53651802LMoqC2&orderId=8190382507103938' ),
+    order_id        ( '8190382507103938' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( '1-5 Stain Grease Cleaner Grill Cleaning Bricks Grill Cleaning Stone Grill Grill Grill Tools Kitchen Cleaning Gadgets' ),
+    order_options   ( 'Color: 2pcs' ),
+    order_price     ( 'AU$2.99' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.51' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/Sde6e8781d1c642149a798d746fc85ca95/Gold-Silver-Metallic-Marker-Pen-Waterproof-Permanent-Paint-Marker-Pen-for-Rock-Mug-Ceramic-Glass-DIY.jpg_640x640.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( "Metallic" ),
+    equipment_type    ( "Craftwork Pen" ),
+    category          ( 'Pen' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Metallic_Craftwork_Pen' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005664056137.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DElxWar' ),
+    listing_name  ( "Gold Silver Metallic Marker Pen Waterproof Permanent Paint Marker Pen for Rock, Mug, Ceramic, Glass DIY Painting Supplies" ),
+    item_options  ( 'Hard & Soft' ),
+    item_price    ( 'AU$3.24' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005664056137.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.41.53651802LMoqC2&orderId=8190382507123938' ),
+    order_id        ( '8190382507123938' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( 'Gold Silver Metallic Marker Pen Waterproof Permanent Paint Marker Pen for Rock, Mug, Ceramic, Glass DIY Painting Supplies' ),
+    order_options   ( 'Hard-1Gold 1Silver' ),
+    order_price     ( 'AU$2.99' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.32' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005664056137.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.41.53651802LMoqC2&orderId=8190382507123938' ),
+    order_id        ( '8190382507123938' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( 'Gold Silver Metallic Marker Pen Waterproof Permanent Paint Marker Pen for Rock, Mug, Ceramic, Glass DIY Painting Supplies' ),
+    order_options   ( 'Soft-Gold (2pcs)' ),
+    order_price     ( 'AU$2.99' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.32' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/Sc67f481627db457c9e35e4f6f6f5b630Q/Multi-function-Tool-Wire-Brush-Copper-Plated-Stainless-Steel-Brush-1PCS-Long-Handle-Kitchen-Grill-Special.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( "Long Handle" ),
+    equipment_type    ( "Wire Brush" ),
+    category          ( 'Brush' ),
+    category          ( 'Cleaning' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Long_Handle_Wire_Brush' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006926432587.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_Dm5LBzD' ),
+    listing_name  ( "Multi-function Tool Wire Brush Copper Plated (Stainless Steel Brush, 1PCS) Long Handle Kitchen Grill Special Plate Rust Removal" ),
+    item_options  ( 'Color: Yellow' ),
+    item_price    ( 'AU$4.08' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006926432587.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.56.53651802LMoqC2&orderId=8190468597143938' ),
+    order_id        ( '8190468597143938' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( 'Multi-function Tool Wire Brush Copper Plated (Stainless Steel Brush, 1PCS) Long Handle Kitchen Grill Special Plate Rust Removal' ),
+    order_options   ( 'Color: Yellow' ),
+    order_price     ( 'AU$2.99' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.37' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/S40fcdcfbe62e4223890bdc28a2e9a4930/Multifunctional-HDMI-Compatible-HD-Tester-Network-Cable-RJ45-Lan-8P8C-POE-Anti-Burn-RJ11-Telephone-Line.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "OULLX" ),
+    model_name        ( "NSS-681HDMI-RJ45" ),
+    equipment_type    ( "Cable Tester" ),
+    category          ( 'Cable Tester' ),
+    category          ( 'Test Equipment' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/OULLX_NSS-681HDMI-RJ45_Cable_Tester' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005754974142.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DmnAZAL' ),
+    listing_name  ( "Multifunctional HDMI-Compatible HD Tester Network Cable RJ45 Lan 8P8C POE Anti Burn RJ11 Telephone Line Protection" ),
+    item_price    ( 'AU$6.79' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005754974142.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.71.53651802LMoqC2&orderId=8190468597243938' ),
+    order_id        ( '8190468597243938' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( 'Multifunctional HDMI-Compatible HD Tester Network Cable RJ45 Lan 8P8C POE Anti Burn RJ11 Telephone Line Protection' ),
+    order_price     ( 'AU$6.29' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.64' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/S9cca1ce2e5114e7080552b06f37ff4d3k/5pcs-Crevice-Cleaning-Brush-Multifunctional-Gap-Cleaning-Brush-Tool-Bathroom-Gap-Brush-Grout-Cleaner-Brush-Hard.png_640x640.png_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Damotk" ),
+    model_name        ( "5pcs Crevice Cleaning" ),
+    equipment_type    ( "Brush" ),
+    category          ( 'Brush' ),
+    category          ( 'Cleaning' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Damotk_5pcs_Crevice_Cleaning_Brush' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006842332119.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DeLIM9z' ),
+    listing_name  ( "5pcs Crevice Cleaning Brush, Multifunctional Gap Cleaning Brush Tool, Bathroom Gap Brush, Grout Cleaner Brush Hard Bristle" ),
+    item_options  ( 'Color: Black' ),
+    item_price    ( 'AU$4.85' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006842332119.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.76.53651802LMoqC2&orderId=8190468597263938' ),
+    order_id        ( '8190468597263938' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( '5pcs Crevice Cleaning Brush, Multifunctional Gap Cleaning Brush Tool, Bathroom Gap Brush, Grout Cleaner Brush Hard Bristle' ),
+    order_options   ( 'Color: Black' ),
+    order_price     ( 'AU$3.59' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.45' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/S0d96c3033c0e4feb9cb58f47aa361e1aK/1-20Pcs-Microfiber-Towels-Car-Wash-Drying-Cloth-Towel-Household-Cleaning-Cloths-Auto-Detailing-Polishing-Cloth.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( "10pcs Blue" ),
+    equipment_type    ( "Microfiber Cloth" ),
+    category          ( 'Cloth' ),
+    category          ( 'Cleaning' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_10pcs_Blue_Microfiber_Cloth' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006938264843.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_De4e5QF' ),
+    listing_name  ( "1-20Pcs Microfiber Towels Car Wash Drying Cloth Towel Household Cleaning Cloths Auto Detailing Polishing Cloth Home Clean Tools" ),
+    item_options  ( 'Color: 10pcs blue' ),
+    item_price    ( 'AU$7.11' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006938264843.html' ),
+    order_url       ( '' ),
+    order_id        ( '' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( '1-20Pcs Microfiber Towels Car Wash Drying Cloth Towel Household Cleaning Cloths Auto Detailing Polishing Cloth Home Clean Tools' ),
+    order_options   ( 'Color: 10pcs blue' ),
+    order_price     ( 'AU$3.89' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.67' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/Se9c2ba08e97f46f49346ed74eab274ddi/Heavy-Duty-Stainless-Steel-Wire-Brush-with-Comfortable-Plastic-Handle-Perfect-for-Removing-Rust-Welding-Slag.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( "Heavy Duty Stainless Steel" ),
+    equipment_type    ( "Wire Brush" ),
+    category          ( 'Hand Tool' ),
+    category          ( 'Brush' ),
+    category          ( 'Cleaning' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Heavy_Duty_Stainless_Steel_Wire_Brush' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006941935938.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DkB0f8P' ),
+    listing_name  ( "Heavy Duty Stainless Steel Wire Brush with Comfortable Plastic Handle - Perfect for Removing Rust, Welding Slag, Dirt, and Paint" ),
+    item_options  ( 'Color: Blue' ),
+    item_price    ( 'AU$3.79' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006941935938.html' ),
+    order_url       ( '' ),
+    order_id        ( '' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( 'Heavy Duty Stainless Steel Wire Brush with Comfortable Plastic Handle - Perfect for Removing Rust, Welding Slag, Dirt, and Paint' ),
+    order_options   ( 'Color: Blue' ),
+    order_price     ( 'AU$2.39' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.36' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/S783ed641adb54e68b7520655e4327670u/Deburring-External-Chamfer-Tool-Metal-Hex-Triangle-Trimming-Drill-Bit-for-Stainless-Steel-Copper-Screw-Fast.jpg_640x640.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "aToolTour" ),
+    model_name        ( "Black Hexagon" ),
+    equipment_type    ( "Deburring Drill Bit" ),
+    category          ( 'Drill Bit' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/AToolTour_Black_Hexagon_Deburring_Drill_Bit' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005591119302.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DldOAhz' ),
+    listing_name  ( "Deburring External Chamfer Tool Metal Hex Triangle Trimming Drill Bit for Stainless Steel Copper Screw Fast Remove Burr Removal" ),
+    item_options  ( 'Color: Black Hexagon' ),
+    item_price    ( 'AU$2.56' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005591119302.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.101.53651802LMoqC2&orderId=8191002457703938' ),
+    order_id        ( '8191002457703938' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( 'Deburring External Chamfer Tool Metal Hex Triangle Trimming Drill Bit for Stainless Steel Copper Screw Fast Remove Burr Removal' ),
+    order_options   ( 'Color: Black Hexagon' ),
+    order_price     ( 'AU$2.09' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.32' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/Sa25722e8ddcc471b84c57ca38dc9f5b74/4Pcs-Set-30mm-Deep-Hole-Long-Nib-Head-Markers-For-Metal-Perforating-Pen-Waterproof-Bathroom-Woodworking.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( "4pcs 30mm Deep Hole" ),
+    equipment_type    ( "Pen" ),
+    category          ( 'Pen' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_4pcs_30mm_Deep_Hole_Pen' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006974182914.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DE6kVKj' ),
+    listing_name  ( "4Pcs/Set 30mm Deep Hole Long Nib Head Markers For Metal Perforating Pen Waterproof Bathroom Woodworking Decoration Multi-Purpose" ),
+    item_options  ( 'Color: Pink' ),
+    item_price    ( 'AU$4.37' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006974182914.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.106.53651802LMoqC2&orderId=8191002457723938' ),
+    order_id        ( '8191002457723938' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( '4Pcs/Set 30mm Deep Hole Long Nib Head Markers For Metal Perforating Pen Waterproof Bathroom Woodworking Decoration Multi-Purpose' ),
+    order_options   ( 'Color: Pink' ),
+    order_price     ( 'AU$3.89' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.43' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/Scc7a14aa198b48e9bcb8c0d15335cd7dp/6-Or12-Pcs-Industrial-Toothbrush-Mini-Copper-Steel-Wire-Brush-Stainless-Steel-Wire-Brush-Dirt-Hard.jpg_640x640.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( "6pcs" ),
+    equipment_type    ( "Wire Brush" ),
+    category          ( 'Brush' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_6pcs_Wire_Brush' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005867110367.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DdtbXkJ' ),
+    listing_name  ( "6 Or12 Pcs Industrial Toothbrush Mini Copper Steel Wire Brush Stainless Steel Wire Brush Dirt Hard Cleaning Toothbrush" ),
+    item_options  ( 'Color: 6PCS' ),
+    item_price    ( 'AU$5.04' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005867110367.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.116.53651802LMoqC2&orderId=8191002457763938' ),
+    order_id        ( '8191002457763938' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( '6 Or12 Pcs Industrial Toothbrush Mini Copper Steel Wire Brush Stainless Steel Wire Brush Dirt Hard Cleaning Toothbrush' ),
+    order_options   ( 'Color: 6PCS' ),
+    order_price     ( 'AU$2.99' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.52' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/S3355beb69e274afba2d4998ffea50000E/1-Set-Precision-Screwdriver-Set-25-In-1-Repair-Tool-Kit-Small-Screwdriver-Set-Star-Y.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Ausum" ),
+    model_name        ( "25 In 1 Precision" ),
+    equipment_type    ( "Screwdriver Set" ),
+    category          ( 'Screwdriver' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Ausum_25_In_1_Precision_Screwdriver_Set' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006630216063.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DET3aUL' ),
+    listing_name  ( "1 Set, Precision Screwdriver Set, 25 In 1 Repair Tool Kit, Small Screwdriver Set, Star/Y-type/Flat-blade/Triangle Screwdrivers F" ),
+    item_options  ( 'Color: black' ),
+    item_price    ( 'AU$4.68' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006630216063.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.127.53651802LMoqC2&orderId=8191002457843938' ),
+    order_id        ( '8191002457843938' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( '1 Set, Precision Screwdriver Set, 25 In 1 Repair Tool Kit, Small Screwdriver Set, Star/Y-type/Flat-blade/Triangle Screwdrivers F' ),
+    order_options   ( 'Color: black' ),
+    order_price     ( 'AU$3.29' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.45' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/S6d35e58c861f417a90fe58133a13a8135/3-4-6-Magnetic-Tray-Circular-Magnetic-Parts-Bowl-Screw-Storage-Tray-Stainless-Steel-Tools-Tray.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "MOKIN" ),
+    model_name        ( "CMO-346" ),
+    equipment_type    ( "3 inch Magnetic Tray" ),
+    category          ( 'Tray' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/MOKIN_CMO-346_3_inch_Magnetic_Tray' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005812766509.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DcGN0ft' ),
+    listing_name  ( '3"/4"/6" Magnetic Tray Circular Magnetic Parts Bowl Screw Storage Tray Stainless Steel Tools Tray For Auto Suction Pad Tools' ),
+    item_options  ( 'Specification: 3 Inch' ),
+    item_price    ( 'AU$4.08' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005812766509.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.147.53651802LMoqC2&orderId=8190852628583938' ),
+    order_id        ( '8190852628583938' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( '3"/4"/6" Magnetic Tray Circular Magnetic Parts Bowl Screw Storage Tray Stainless Steel Tools Tray For Auto Suction Pad Tools' ),
+    order_options   ( 'Specification: 3 Inch' ),
+    order_price     ( 'AU$4.19' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.61' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/Saa732a0b4eb54f22b37c2a86ddacf3dc0/HZY-3D-Printer-Parts-ABS-Welding-Wire-Fixture-with-Two-Large-Suction-Magnets-Bracket-Welding-Clamp.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "TOOKKS" ),
+    model_name        ( "HZY ABS" ),
+    equipment_type    ( "Wire Fixture" ),
+    category          ( 'Vise' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/TOOKKS_HZY_ABS_Wire_Fixture' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006618522459.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DcHTdej' ),
+    listing_name  ( "HZY 3D Printer Parts ABS Welding Wire Fixture with Two Large Suction Magnets Bracket Welding Clamp For Motherboard Soldering" ),
+    item_options  ( 'Color: HZY ABS Welding Wire' ),
+    item_price    ( 'AU$5.77' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006618522459.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.135.5edd1802oqOygp&orderId=8190852628563938' ),
+    order_id        ( '8190852628563938' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( 'HZY 3D Printer Parts ABS Welding Wire Fixture with Two Large Suction Magnets Bracket Welding Clamp For Motherboard Soldering' ),
+    order_options   ( 'Color: HZY ABS Welding Wire' ),
+    order_price     ( 'AU$3.29' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.52' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/S2adf64d8fc254c1aadf00e92a91d88c6s/Wood-Metal-Engraving-Power-Sanding-Engraving-Accessories-Dremel-Sanding-Tools-Power-Rotary-Tool-Accessories-for-Dremel.jpg_640x640.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Tungfull" ),
+    model_name        ( "TH-161" ),
+    equipment_type    ( "Rotary Tool Bits" ),
+    category          ( 'Accessory' ),
+    category          ( 'Attachment' ),
+    category          ( 'Drill Bit' ),
+    category          ( 'Cutting Disc' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Tungfull_TH-161_Rotary_Tool_Bits' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006746448701.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DDW7iLt' ),
+    listing_name  ( "Wood Metal Engraving Power Sanding Engraving Accessories Dremel Sanding Tools Power Rotary Tool Accessories for Dremel Bits" ),
+    item_options  ( 'Color: 161PCs' ),
+    item_price    ( 'AU$12.42' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006746448701.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.146.5edd1802oqOygp&orderId=8190852628603938' ),
+    order_id        ( '8190852628603938' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( 'Wood Metal Engraving Power Sanding Engraving Accessories Dremel Sanding Tools Power Rotary Tool Accessories for Dremel Bits' ),
+    order_options   ( 'Color: 161PCs' ),
+    order_price     ( 'AU$10.50' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$1.21' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/S250e65aed7274e958322b8992f4c5b5b4/100pc-Twist-Drill-1-3mm-Hand-Electric-Drill-DIY-Woodwork-Drill-Titanium-Plated-Natural-Color-Drill.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( "100pc Titanium Plated" ),
+    equipment_type    ( "Drill Bits" ),
+    category          ( 'Drill Bit' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_100pc_Titanium_Plated_Drill_Bits' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006432042066.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_Dmyb58n' ),
+    listing_name  ( "100pc Twist Drill 1-3mm Hand Electric Drill DIY Woodwork Drill Titanium Plated Natural Color Drill Bit Tool Accessories Set" ),
+    item_options  ( 'Shank Shape: Round; Color: 100pc twist drill' ),
+    item_price    ( 'AU$5.58' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006432042066.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.156.5edd1802oqOygp&orderId=8190852628543938' ),
+    order_id        ( '8190852628543938' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( '100pc Twist Drill 1-3mm Hand Electric Drill DIY Woodwork Drill Titanium Plated Natural Color Drill Bit Tool Accessories Set' ),
+    order_options   ( 'Shank Shape: Round; Color: 100pc twist drill' ),
+    order_price     ( 'AU$4.49' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.60' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/S19656387bcff498ab677b07d7fb05be6t/Universal-170-Mini-Diagonal-Pliers-Cutting-Pliers-Multifunctional-Pliers-Electricity-Wire-Stripper-Hand-Tools.jpg_640x640.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Plato" ),
+    model_name        ( "Model 170" ),
+    equipment_type    ( "Wire Cutters" ),
+    category          ( 'Hand Tool' ),
+    category          ( 'Wire Cutter' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Plato_Model_170_Wire_Cutters' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006082115374.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DdyxCNV' ),
+    listing_name  ( "Universal 170 Mini Diagonal Pliers Cutting Pliers Multifunctional Pliers Electricity Wire Stripper Hand Tools" ),
+    item_options  ( 'Color: 5pcs' ),
+    item_price    ( 'AU$10.68' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006082115374.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.202.5edd1802oqOygp&orderId=8191201591173938' ),
+    order_id        ( '8191201591173938' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( 'Universal 170 Mini Diagonal Pliers Cutting Pliers Multifunctional Pliers Electricity Wire Stripper Hand Tools' ),
+    order_options   ( 'Color: 5pcs' ),
+    order_price     ( 'AU$9.00' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$1.36' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/S816e862d4c5b49c5bcb65e72322daa8be/Universal-Handheld-Quick-Stripper-Decrustation-Plier-Adjustable-Electric-Wire-Cable-Peel-Wire-Cable-Cutter-Stripping-hand.jpg_640x640.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( "Universal Handheld" ),
+    equipment_type    ( "Wire Stripper" ),
+    category          ( 'Wire Stripper' ),
+    category          ( 'Hand Tool' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Universal_Handheld_Wire_Stripper' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006185901339.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DECM0h5' ),
+    listing_name  ( "Universal Handheld Quick Stripper Decrustation Plier Adjustable Electric Wire Cable Peel Wire Cable Cutter Stripping hand Tool" ),
+    item_options  ( 'Color: Silver and blade' ),
+    item_price    ( 'AU$10.61' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006185901339.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.207.5edd1802oqOygp&orderId=8191201591193938' ),
+    order_id        ( '8191201591193938' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( 'Universal Handheld Quick Stripper Decrustation Plier Adjustable Electric Wire Cable Peel Wire Cable Cutter Stripping hand Tool' ),
+    order_options   ( 'Color: Silver and blade' ),
+    order_price     ( 'AU$7.50' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.95' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-11-23' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/S9fda97b66ffc4727b5e3496809becea9u/high-quality-M469D-RJ45-Cable-lan-tester-Network-Cable-Tester-RJ45-RJ11-RJ12-CAT5-UTP-LAN.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "ANENG" ),
+    model_name        ( "M469D" ),
+    equipment_type    ( "Network Cable Tester" ),
+    category          ( 'Cable Tester' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/ANENG_M469D_Network_Cable_Tester' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005288246731.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_Dlq8FHh' ),
+    listing_name  ( "high-quality M469D RJ45 Cable lan tester Network Cable Tester RJ45 RJ11 RJ12 CAT5 UTP LAN Cable Tester Networking Repair Tool" ),
+    item_price    ( 'AU$7.30' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005288246731.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.232.5edd1802oqOygp&orderId=8180079761953938' ),
+    order_id        ( '' ),
+    order_date      ( 'Nov 23, 2023' ),
+    order_item_name ( 'high-quality M469D RJ45 Cable lan tester Network Cable Tester RJ45 RJ11 RJ12 CAT5 UTP LAN Cable Tester Networking Repair Tool' ),
+    order_options   ( '8180079761953938' ),
+    order_price     ( 'AU$2.59' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$4.54' ),
+    order_gst       ( 'AU$0.71' ),
+  ),
+);
+
+
 
 /*
 

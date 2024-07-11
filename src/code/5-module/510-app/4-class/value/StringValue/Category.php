@@ -97,6 +97,7 @@ class Category extends StringValue {
       'SMD Tester',
       'Transistor Tester',
       'Power Supply Tester',
+      'Cable Tester',
       'Test Equipment',
 
       'Multimeter',
@@ -151,6 +152,7 @@ class Category extends StringValue {
       'Ruler',
       'Hand Tool',
       'Wire Cutter',
+      'Wire Stripper',
 
       'Thermal Imager',
       'Barcode Scanner',
@@ -170,6 +172,7 @@ class Category extends StringValue {
       'Pre-crimped',
 
       'Drill Extension',
+      'Drill Bit',
       'Adapter',
 
       'Clamp',
@@ -202,6 +205,7 @@ class Category extends StringValue {
 
       'Keyboard Drawer',
       'Drawer',
+      'Tray',
 
       'UV Light',
       'Torch/Light',
@@ -220,6 +224,12 @@ class Category extends StringValue {
       'Step Ladder',
       'Book Holder',
       'Mirror',
+
+      'Cloth',
+      'Cleaning',
+      'Disposable',
+
+      'Pen',
 
     ];
 

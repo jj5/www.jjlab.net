@@ -280,38 +280,3 @@ function get_latest_date_for_sitemap( $version_date, $latest_video_date ) {
   return $latest_video_date;
 
 }
-
-function get_version_date() {
-
-  static $result = null;
-  static $datetime = null;
-  static $utc = null;
-
-  if ( $result ) { return $result; }
-
-  if ( ! $utc ) { $utc = new DateTimeZone( 'UTC' ); }
-
-  //'$Date: 2024-06-29 03:10:16 +1000 (Sat, 29 Jun 2024) $'
-
-  if ( preg_match( '/(\d{4}-\d{2}-\d{2}) ([^ ]*) ([^ ]*)/', JJLAB_SVN_DATE, $matches ) ) {
-
-    $date = $matches[ 1 ];
-    $time = $matches[ 2 ];
-    $zone = $matches[ 3 ];
-
-    $datetime = new DateTime( $date . ' ' . $time . ' ' . $zone );
-
-  }
-  else {
-
-    $datetime = new DateTime();
-
-  }
-
-  $datetime->setTimezone( $utc );
-
-  $result = $datetime->format( DATE_FORMAT_FOR_SITEMAP );
-
-  return $result;
-
-}
