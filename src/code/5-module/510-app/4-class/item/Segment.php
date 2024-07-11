@@ -80,7 +80,7 @@ abstract class Segment extends Item {
 
     }
 
-    if ( is_dev() ) {
+    if ( is_john() ) {
 
       $this->is_live = true;
 
