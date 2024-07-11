@@ -749,7 +749,8 @@ function render_equipment_notes( $item ) {
         render_link_internal(
           $item->get_equipment_name()->to_string(),
           //$item->get_equipment_id(),
-          $item->get_internal_url()->to_string(),
+          //$item->get_internal_url()->to_string(),
+          url_base() . '/equipment.php#' . $item->get_equipment_id(),
           TITLE_LINK_EQUIPMENT,
         );
 
