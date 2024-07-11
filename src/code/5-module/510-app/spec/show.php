@@ -885,3 +885,12 @@ show(
 );
 
 
+show(
+  unboxing(
+    publication_date( '2024-07-12' ),
+    title( 'Unboxing of Ampcom Automatic Network Cable Tester' ),
+    youtube_video( 'O7QeCa2G9RE' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/07/12/unboxing-of-ampcom-automatic-network-cable-tester-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/107964719' ),
+  ),
+);
