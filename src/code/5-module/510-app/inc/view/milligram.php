@@ -1918,7 +1918,7 @@ function render_equipment_list( $equipment_list ) {
 
               out_text( 'I have ' );
 
-              render_link_internal(
+              render_link_external(
                 'notes',
                 $notes_url,
                 TITLE_LINK_SIXSIGMA,

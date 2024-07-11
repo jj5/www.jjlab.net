@@ -200,11 +200,17 @@ function render_link_internal( string $text, string $href, string $title, array 
 
   assert( strlen( $attrs[ 'href' ] ) > 0 );
 
-  assert(
-    $attrs[ 'href' ][ 0 ] === '#' ||
-    strpos( $attrs[ 'href' ], url_base() ) === 0 ||
-    strpos( $attrs[ 'href' ], 'https://www.inthelabwithjayjay.com/' ) === 0
-  );
+  if (
+    $attrs[ 'href' ][ 0 ] !== '#' &&
+    strpos( $attrs[ 'href' ], url_base() ) !== 0 &&
+    strpos( $attrs[ 'href' ], 'https://www.inthelabwithjayjay.com/' ) !== 0
+  ) {
+
+    //var_dump( $attrs ); exit;
+
+    mud_fail( 'Internal link not on this site', $attrs );
+
+  }
 
   tag_text( 'a', $text, $attrs );
 

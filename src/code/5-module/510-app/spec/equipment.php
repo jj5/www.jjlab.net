@@ -7131,7 +7131,8 @@ equipment(
     category          ( 'Wire Cutter' ),
     category          ( 'Hand Tool' ),
   ),
-  sixsigma_url  ( 'https://www.jj5.net/wiki/Aokin1PC_Wire_Cutter' ),
+  sixsigma_url    ( 'https://www.jj5.net/wiki/Aokin1PC_Wire_Cutter' ),
+  see_also        ( 'Plato Model 170 Wire Cutters' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005004748524842.html' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_Dmniw3Z' ),
@@ -8630,7 +8631,8 @@ equipment(
     category          ( 'Hand Tool' ),
     category          ( 'Wire Cutter' ),
   ),
-  sixsigma_url  ( 'https://www.jj5.net/wiki/Plato_Model_170_Wire_Cutters' ),
+  sixsigma_url    ( 'https://www.jj5.net/wiki/Plato_Model_170_Wire_Cutters' ),
+  see_also        ( 'Aokin Wire Cutter' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006082115374.html' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DdyxCNV' ),
@@ -8686,8 +8688,10 @@ equipment(
   equipment_date( '2023-11-23' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S9fda97b66ffc4727b5e3496809becea9u/high-quality-M469D-RJ45-Cable-lan-tester-Network-Cable-Tester-RJ45-RJ11-RJ12-CAT5-UTP-LAN.jpg_.webp' ),
   equipment_info(
-    manufacturer_name ( "ANENG" ),
-    model_name        ( "M469D" ),
+    //manufacturer_name ( "ANENG" ),
+    //model_name        ( "M469D" ),
+    manufacturer_name ( "Ampcom" ),
+    model_name        ( "Automatic" ),
     equipment_type    ( "Network Cable Tester" ),
     category          ( 'Cable Tester' ),
   ),
