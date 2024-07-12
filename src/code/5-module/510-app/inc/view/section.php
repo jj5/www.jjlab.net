@@ -1714,7 +1714,7 @@ function render_section_about_electronics_project( int $heading_level = 2 ) {
     tag_open( 'p' );
 
       out_text( "I'm pretty interested in " );
-      tag_text( 'b', 'old gaming consoles' );
+      out_text( 'old gaming consoles' );
       out_text( ', particularly OG Xbox, so you can expect to see a fair bit of that.' );
 
     tag_shut( 'p' );
@@ -1729,7 +1729,11 @@ function render_section_about_electronics_project( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'Basically the electronics project is and will be a mixed bag. The only rule is that the ' );
+      out_text( 'Basically the electronics project is and will be ' );
+
+      tag_text( 'b', 'a mixed bag' );
+
+      out_text( '. The only rule is that the ' );
 
       out_text( 'content be ' );
 
