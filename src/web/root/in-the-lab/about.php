@@ -98,7 +98,7 @@ function render_section_about_colophon( int $heading_level = 2 ) {
       [
         'src'   => LOGO_URL,
         'class' => 'logo',
-        'style' => 'width:50px; height:50px; float:right; margin:6px 20px;',
+        'style' => 'width:70px; height:70px; float:right; margin: 0px 10px;',
         'alt'   => ALT_LOGO,
         'title' => ALT_LOGO,
       ]
@@ -373,10 +373,10 @@ function render_section_about_shortcuts( int $heading_level = 2 ) {
 
       tag_open( 'tbody' );
 
-        $main_channel = '/channel.php/@InTheLabWithJayJay#heading';
-        $extra_channel = '/channel.php/@ElliotsExtras#heading';
-        $mini_projects = '/feature.php/mini-project#heading';
-        $maxitronix = '/feature.php/maxitronix#heading';
+        $main_channel   = '/channel.php/@InTheLabWithJayJay#heading';
+        $extra_channel  = '/channel.php/@ElliotsExtras#heading';
+        $mini_projects  = '/feature.php/mini-project#heading';
+        $maxitronix     = '/feature.php/maxitronix#heading';
 
         render_shortcut( '?', 'Shortcuts',          '/about.php#shortcuts',           TITLE_ABOUT_SHORTCUTS   );
         render_shortcut( '0', 'Return to Top',      '#',                              TITLE_TOP               );
