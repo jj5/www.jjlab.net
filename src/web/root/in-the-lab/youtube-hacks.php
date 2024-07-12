@@ -72,6 +72,23 @@ function render_youtube_hacks_main() {
 
       tag_shut( 'p' );
 
+      tag_open( 'p' );
+
+        out_text( 'You can drag and drop the following bookmarklet link to your bookmarks bar to create a bookmarklet: ' );
+
+        tag_text(
+          'a',
+          '3x',
+          [
+            'href' => 'javascript:(function(){document.querySelector("video").playbackRate = 3.0;})();',
+            'title' => 'Click here to increase YouTube video playback speed to 3x',
+          ]
+        );
+
+        out_text( '.' );
+
+      tag_shut( 'p' );
+
     tag_shut( 'section' );
 
     render_section_about_next();
