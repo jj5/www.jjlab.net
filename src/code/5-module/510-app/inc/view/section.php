@@ -1830,7 +1830,11 @@ function render_section_about_old_book_teardown( int $heading_level = 2 ) {
 
       out_text( 'and then go through the table of contents in detail. Usually I will also take a close look at some specific thing ' );
 
-      out_text( 'which takes my interest as I\'m reading out the contents. So these are not simply book reviews, they are book ' );
+      out_text( 'which takes my interest as I\'m reading out the contents. ' );
+      
+      out_text( 'Other times I flip through and have a quick look at each page. ' );
+
+      out_text( 'So these are not simply book reviews, they are book ' );
 
       out_text( 'teardowns, which is a particular and specific type of examination.' );
 
