@@ -3035,7 +3035,7 @@ function render_section_about_affiliates( int $heading_level = 2 ) {
 
 }
 
-function render_section_about_thanks( int $heading_level = 2, $thanks = null ) {
+function render_section_about_thanks( int $heading_level = 2, $thanks = null, $thanks_bold = null ) {
 
   tag_open( 'section' );
 
@@ -3046,6 +3046,8 @@ function render_section_about_thanks( int $heading_level = 2, $thanks = null ) {
       if ( $thanks ) {
 
         out_text( $thanks );
+
+        tag_text( 'b', $thanks_bold );
 
       }
       else {
@@ -3062,9 +3064,9 @@ function render_section_about_thanks( int $heading_level = 2, $thanks = null ) {
 
 }
 
-function render_section_about_next( int $heading_level = 2, $thanks = null ) {
+function render_section_about_next( int $heading_level = 2, $thanks = null, $thanks_bold = null) {
 
-  render_section_about_thanks( $heading_level, $thanks );
+  render_section_about_thanks( $heading_level, $thanks, $thanks_bold );
 
   tag_open( 'section' );
 

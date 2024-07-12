@@ -43,7 +43,7 @@ function render_contact_main() {
 
     render_section_contact_info();
 
-    render_section_about_next( 2, "Thanks for looking me up, I look forward to hearing from you!" );
+    render_section_about_next( 2, "Thanks for looking me up, ", "I look forward to hearing from you!" );
 
   render_foot();
 
