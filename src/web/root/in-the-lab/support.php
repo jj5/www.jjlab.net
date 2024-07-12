@@ -75,7 +75,8 @@ function render_support_main() {
           TITLE_EQUIPMENT,
         );
 
-        out_text( " page before shopping at Amazon, eBay, or AliExpress." );
+        out_text( " page before shopping at Amazon, eBay, or AliExpress. Even if you buy something other than the product " );
+        out_text( "I linked to I may still get a small commission. It's a great way to support the show without spending any extra money." );
 
       tag_shut( 'p' );
 
