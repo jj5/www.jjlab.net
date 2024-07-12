@@ -185,6 +185,28 @@ function render_support_main() {
 
       tag_shut( 'p' );
 
+      tag_open( 'p' );
+
+        out_text( 'Or you could refer people directly to YouTube: ' );
+
+        render_link_external(
+          'youtube.com/@InTheLabWithJayJay',
+          'https://www.youtube.com/@InTheLabWithJayJay',
+          TITLE_YOUTUBE_MAIN,
+        );
+
+        out_text( ' or to my blog: ' );
+
+        render_link_external(
+          'blog.jj5.net',
+          'https://blog.jj5.net/',
+          TITLE_BLOG,
+        );
+
+        out_text( '.' );
+
+      tag_shut( 'p' );
+
     tag_shut( 'section' );
 
     tag_open( 'section' );
