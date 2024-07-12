@@ -182,8 +182,6 @@ function render_support_main() {
           "InTheLabWithJayJay.com",
         );
 
-        out_text( '.' );
-
       tag_shut( 'p' );
 
       tag_open( 'p' );
@@ -204,7 +202,17 @@ function render_support_main() {
           TITLE_BLOG,
         );
 
-        out_text( '.' );
+      tag_shut( 'p' );
+
+      tag_open( 'p' );
+
+        out_text( 'Or, perhaps best of all, you could refer people to Patreon: ' );
+
+        render_link_external(
+          'patreon.com/JohnElliotV',
+          'https://www.patreon.com/JohnElliotV',
+          TITLE_PATREON,
+        );
 
       tag_shut( 'p' );
 
