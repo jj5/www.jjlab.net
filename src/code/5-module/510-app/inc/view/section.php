@@ -1793,7 +1793,7 @@ function render_section_about_old_book_teardown( int $heading_level = 2 ) {
 
       out_text( 'To count as "old" the book needs to have been ' );
 
-      tag_text( 'b', 'published more than ten years ago' );
+      tag_text( 'b', 'published before the year 2000' );
 
       out_text( '.' );
 

@@ -30,15 +30,17 @@ class Book extends Item {
 
   public function is_new() {
 
-    if ( $this->get_age() <= 10 ) { return true; }
-
-    return false;
+    return ! $this->is_old();
 
   }
 
   public function is_old() {
 
-    return ! $this->is_new();
+    $copyright_year = $this->get_copyright_year()->get_value();
+
+    if ( $copyright_year < 2000 ) { return true; }
+
+    return false;
 
   }
 
