@@ -240,7 +240,7 @@ function render_section_contents() {
 
     tag_text( 'h2', 'Table of Contents', [ 'id' => 'contents' ] );
 
-    tag_text( 'p', 'The contents of this page are organized into the following sections:' );
+    tag_text( 'p', 'The contents of this page are organised into the following sections:' );
 
     tag_text( 'div', 'Contents will go here (if you have Javascript enabled).', [ 'id' => 'contents_div' ] );
 
@@ -1015,7 +1015,7 @@ function render_section_about_structure( int $heading_level = 2 ) {
         TITLE_FEATURE_INDEX,
       );
 
-      out_text( ' are organized roughly like this:' );
+      out_text( ' are organised roughly like this:' );
 
     tag_shut( 'p' );
 
