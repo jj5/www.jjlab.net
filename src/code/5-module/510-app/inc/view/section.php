@@ -1704,9 +1704,14 @@ function render_section_about_electronics_project( int $heading_level = 2 ) {
         TITLE_SHOW_MAIN,
       );
 
-      out_text( ' I do some miscellaneous and interesting electronics project. The subject matter can vary widely, and might ' );
-      out_text( 'include OG Xbox repairs, microcontroller builds and programming, unboxings or teardowns, and of course my ' );
-      out_text( 'favourite: making cables!' );
+      out_text( ' I do some miscellaneous and interesting electronics project. The subject matter can vary widely, ' );
+      out_text( 'and might include ' );
+      out_text( 'OG Xbox examinations and repairs, ' );
+      out_text( 'microcontroller builds and programming, ' );
+      out_text( 'circuit design and construction, ' );
+      out_text( 'repairs and investigations, ' );
+      out_text( 'reverse engineering and analysis, ' );
+      out_text( 'and of course my favourite: making cables!' );
 
     tag_shut( 'p' );
 
