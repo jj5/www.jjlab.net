@@ -1729,14 +1729,6 @@ function render_section_about_electronics_project( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'I love doing ' );
-      tag_text( 'b', 'unboxings and teardowns' );
-      out_text( ', so I will do that whenever I can.' );
-
-    tag_shut( 'p' );
-
-    tag_open( 'p' );
-
       out_text( 'Basically the electronics project is and will be a mixed bag. The only rule is that the ' );
 
       out_text( 'content be ' );
