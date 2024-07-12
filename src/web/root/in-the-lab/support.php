@@ -166,7 +166,7 @@ function render_support_main() {
 
       tag_open( 'p' );
 
-        out_text( 'You can use the short link ' );
+        out_text( 'You can use the short link: ' );
 
         render_link_external(
           'jjlab.net',
@@ -174,7 +174,7 @@ function render_support_main() {
           "jjlab.net",
         );
 
-        out_text( ' or the longer link ' );
+        out_text( ' or the longer link: ' );
 
         render_link_external(
           'InTheLabWithJayJay.com',
