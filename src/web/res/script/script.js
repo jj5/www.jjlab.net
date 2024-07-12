@@ -85,6 +85,7 @@ function handle_keydown( ev ) {
     's': '/sponsor.php#heading',
     'e': '/equipment.php#heading',
     'a': '/about.php#heading',
+    '3': '/youtube-hacks.php#heading',
     'u': '/support.php#heading',
     'c': '/contact.php#heading',
     'n': '/stats.php#heading',
@@ -95,7 +96,6 @@ function handle_keydown( ev ) {
     'x': '/sitemap.php',
     'r': '/feed.php',
     't': '/blog-template.php#heading',
-    '3': '/youtube-hacks.php#heading',
     'q': '/youtube-template.php#heading',
     'z': '/about.php#software-version',
     'd': '/debug.php'

@@ -390,9 +390,10 @@ function render_section_about_shortcuts( int $heading_level = 2 ) {
         render_shortcut( 'S', 'Sponsors',           '/sponsor.php#heading',           TITLE_SPONSOR           );
         render_shortcut( 'E', 'Equipment',          '/equipment.php#heading',         TITLE_EQUIPMENT         );
         render_shortcut( 'A', 'About the Website',  '/about.php#heading',             TITLE_ABOUT             );
+        render_shortcut( '3', 'YouTube Hacks',      '/youtube-hacks.php#heading',     TITLE_YOUTUBE_HACKS     );
         render_shortcut( 'U', 'Support the Show!',  '/support.php#heading',           TITLE_SUPPORT           );
         render_shortcut( 'C', 'Contact Info',       '/contact.php#heading',           TITLE_CONTACT           );
-        render_shortcut( 'N', 'Statistics',         '/stats.php#heading',             TITLE_STATS           );
+        render_shortcut( 'N', 'Statistics',         '/stats.php#heading',             TITLE_STATS             );
         render_shortcut( 'J', 'Mini Projects',      $mini_projects,                   TITLE_SHOW_MINI_PROJECT );
         render_shortcut( 'K', 'Maxitronix Kits',    $maxitronix,                      TITLE_SHOW_MAXITRONIX   );
         render_shortcut( 'V', 'Video Index',        '/videos.php#videos',             TITLE_VIDEO_INDEX       );
@@ -400,7 +401,6 @@ function render_section_about_shortcuts( int $heading_level = 2 ) {
         render_shortcut( 'X', 'sitemap.xml',        '/sitemap.php',                   TITLE_SITEMAP_XML       );
         render_shortcut( 'R', 'RSS Feed',           '/feed.php',                      TITLE_RSS_FEED          );
         render_shortcut( 'T', 'Blog Template',      '/blog-template.php#heading',     TITLE_BLOG_TEMPLATE     );
-        render_shortcut( '3', 'YouTube Hacks',      '/youtube-hacks.php#heading',     TITLE_YOUTUBE_HACKS     );
         render_shortcut( 'Q', 'YouTube Template',   '/youtube-template.php#heading',  TITLE_YOUTUBE_TEMPLATE  );
         render_shortcut( 'Z', 'Software Version',   '/about.php#software-version',    TITLE_SOFTWARE_VERSION  );
         render_shortcut( 'D', 'Debug',              '/debug.php',                     TITLE_DEBUG             );
