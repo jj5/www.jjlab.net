@@ -1514,7 +1514,23 @@ function render_section_about_channels( int $heading_level = 2 ) {
         TITLE_CHANNEL_MAIN,
       );
 
-      out_text( ' page.' );
+      out_text( ' page. The ' );
+
+      render_link_internal(
+        'main show',
+        url_base() . '/#main-show',
+        TITLE_SHOW_MAIN,
+      );
+
+      out_text( ' and the ' );
+
+      render_link_internal(
+        'special shows',
+        url_base() . '/#special-shows',
+        TITLE_SHOW_MAIN,
+      );
+
+      out_text( ' air on the main channel.' );
 
     tag_shut( 'p' );
 
@@ -1572,8 +1588,16 @@ function render_section_about_channels( int $heading_level = 2 ) {
         TITLE_CHANNEL_EXTRA,
       );
 
-      out_text( ' page.' );
-      
+      out_text( ' page. The ' );
+
+      render_link_internal(
+        'extra content',
+        url_base() . '/#extra-content',
+        TITLE_FEATURE_EXTRA,
+      );
+
+      out_text( ' airs on the 2nd channel.' );
+
     tag_shut( 'p' );
 
   tag_shut( 'section' );
