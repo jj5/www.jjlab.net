@@ -16,8 +16,6 @@ function render() {
 
 function render_sitemap() {
 
-  $video_list = app_stash()->get_live_video_list();
-
   header( 'Content-Type: text/xml; charset=utf-8' );
 
   doc_init(
@@ -178,7 +176,7 @@ function render_sitemap() {
     $priority = '0.4';
 
     //
-    // 2024-06-29 jj5 - supplmentary pages
+    // 2024-06-29 jj5 - supplementary pages
     //
 
     $changefreq = 'weekly';

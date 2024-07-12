@@ -298,7 +298,7 @@ function render_section_about_secrets( int $heading_level = 2 ) {
 
       out_text( 'massive HTML tables' );
 
-      out_text( ' so the pages aren\'t responsive (i.e. they don\'t look good on mobilde devices). But if you\'re brave you can find them here:' );
+      out_text( ' so the pages aren\'t responsive (i.e. they don\'t look good on mobile devices). But if you\'re brave you can find them here:' );
 
     tag_shut( 'p' );
 

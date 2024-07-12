@@ -80,7 +80,7 @@ define( 'TITLE_HOMIES', 'Click here to see who I follow on YouTube and support o
 define( 'TITLE_PATREON', 'Click here to see my generous supporters on Patreon, and maybe join them?' );
 define( 'TITLE_EQUIPMENT', 'Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]' );
 define( 'TITLE_STETMANN', 'Click here to see the Egon Stetmann page on the StarCraft Wiki.' );
-define( 'TITLE_STARCRAFT2', 'Click here for more info about my favorite computer game: StarCraft II.' );
+define( 'TITLE_STARCRAFT2', 'Click here for more info about my favourite computer game: StarCraft II.' );
 define( 'TITLE_CONTACT', 'Click here to find my contact details. [Hotkey: C]' );
 define( 'TITLE_STRUCTURE', 'Click here to read about how the content is structured.' );
 define( 'TITLE_AFFILIATE', "Click here to read about the show's affiliates." );
@@ -104,8 +104,7 @@ define( 'TITLE_BUY_ID_BADGE', 'Click here to find out more about my ID badge hol
 define( 'TITLE_BUY_POCKET_PROTECTOR', 'Click here to find out more about my pocket protector.' );
 define( 'TITLE_BUY_STYLUS_PEN', 'Click here to find out more about my stylus pen.' );
 define( 'TITLE_BUY_SONIC_SCREWDRIVER', 'Click here to find out more about my Sonic Screwdriver!' );
-define( 'TITLE_BUY_ADAFUIT_RULER', 'Click here to find out more about my Adafruit ruler.' );
-
+define( 'TITLE_BUY_ADAFRUIT_RULER', 'Click here to find out more about my Adafruit ruler.' );
 
 define( 'TITLE_VIDEO_INDEX', 'Click here to see the "secret" index of all videos. [Hotkey: V]' );
 define( 'TITLE_BOOK_INDEX', 'Click here to see the "secret" index of all books. [Hotkey: B]' );
@@ -138,7 +137,7 @@ define( 'TITLE_LINK_ITEM', 'Click here for a link to this item, or copy the shor
 define( 'TITLE_LINK_SIXSIGMA', 'Click here for notes about this equipment which I keep on my personal wiki.' );
 define( 'TITLE_LINK_PURCHASED', "Click here to see the item I actually purchased, if it's still there." );
 define( 'TITLE_LINK_SHORT', 'You can use this short link to link to this equipment.' );
-define( 'TITLE_LINK_AFFILIATE', "Click here to visit this affliiate's main website." );
+define( 'TITLE_LINK_AFFILIATE', "Click here to visit this affiliate's main website." );
 define( 'TITLE_LINK_SEE_ALSO', 'Click here to see other equipment that might be of interest.' );
 define( 'TITLE_LINK_ORDER', 'Click here to view the order of this equipment.' );
 define( 'TITLE_LINK_SEGMENT', 'Click here to watch this feature.' );
@@ -1707,7 +1706,7 @@ function render_section_about_electronics_project( int $heading_level = 2 ) {
 
       out_text( ' I do some miscellaneous and interesting electronics project. The subject matter can vary widely, and might ' );
       out_text( 'include OG Xbox repairs, microcontroller builds and programming, unboxings or teardowns, and of course my ' );
-      out_text( 'favorite: making cables!' );
+      out_text( 'favourite: making cables!' );
 
     tag_shut( 'p' );
 
@@ -2211,7 +2210,7 @@ function render_section_about_interlude( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'Occassionaly we have an ' );
+      out_text( 'Occasionally we have an ' );
 
       render_link_internal(
         'interlude video',
@@ -2245,7 +2244,7 @@ function render_section_about_unboxing( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'Occassionaly I do an ' );
+      out_text( 'Occasionally I do an ' );
 
       render_link_internal(
         'unboxing video',
@@ -2287,7 +2286,7 @@ function render_section_about_channel_news( int $heading_level = 2 ) {
         TITLE_FEATURE_CHANNEL_NEWS,
       );
 
-      out_text( ' air occassionally on the ' );
+      out_text( ' air occasionally on the ' );
 
       render_link_internal(
         'main channel',
@@ -2580,7 +2579,7 @@ function render_section_about_costume( int $heading_level = 2 ) {
             render_link_external(
               'Adafruit One PCB to Ruler Them All',
               'https://jj5.net/86923',
-              TITLE_BUY_ADAFUIT_RULER,
+              TITLE_BUY_ADAFRUIT_RULER,
             );
 
           tag_shut( 'li' );
@@ -3037,7 +3036,7 @@ function render_section_about_next( int $heading_level = 2, $thanks = null ) {
 
       tag_open( 'li' );
 
-        out_text( 'My personal favorites are the ' );
+        out_text( 'My personal favourites are the ' );
 
         render_link_internal(
           'old book teardown videos',
