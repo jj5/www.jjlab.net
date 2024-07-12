@@ -45,7 +45,7 @@ function render_support_main() {
 
     tag_open( 'section' );
 
-      tag_text( "h{$heading_level}", 'Sponsor on Patreon', [ 'id' => 'sponsor-on-patreon' ] );
+      tag_text( "h{$heading_level}", 'Sponsor on Patreon!', [ 'id' => 'sponsor-on-patreon' ] );
 
       tag_text( 'p', 'If you can send me a few dollars a month via Patreon that would really help me to continue making content for the show:' );
 
@@ -63,7 +63,7 @@ function render_support_main() {
 
     tag_open( 'section' );
 
-      tag_text( "h{$heading_level}", 'Subscribe on YouTube', [ 'id' => 'subscribe-on-youtube' ] );
+      tag_text( "h{$heading_level}", 'Subscribe on YouTube!', [ 'id' => 'subscribe-on-youtube' ] );
 
       tag_text( 'p', 'Another way to support the channel is to subscribe to the main YouTube channel:' );
 
@@ -81,7 +81,7 @@ function render_support_main() {
 
     tag_open( 'section' );
 
-      tag_text( "h{$heading_level}", 'Click Like or Comment on YouTube Videos', [ 'id' => 'like-or-comment' ] );
+      tag_text( "h{$heading_level}", 'Click Like or Comment on YouTube Videos!', [ 'id' => 'like-or-comment' ] );
 
       tag_text( 'p', "It's always nice to get some positive feedback and your likes help me (and YouTube!) know what people consider quality content." );
 
@@ -89,7 +89,7 @@ function render_support_main() {
 
     tag_open( 'section' );
 
-      tag_text( "h{$heading_level}", 'Click Through on Affiliate Links', [ 'id' => 'click-affiliate-links' ] );
+      tag_text( "h{$heading_level}", 'Click Through on Affiliate Links!', [ 'id' => 'click-affiliate-links' ] );
 
       tag_open( 'p' );
 
@@ -109,7 +109,7 @@ function render_support_main() {
 
     tag_open( 'section' );
 
-      tag_text( "h{$heading_level}", 'Make a Custom Sponsorship Deal', [ 'id' => 'sponsor-me' ] );
+      tag_text( "h{$heading_level}", 'Make a Custom Sponsorship Deal!', [ 'id' => 'sponsor-me' ] );
 
       tag_open( 'p' );
 
