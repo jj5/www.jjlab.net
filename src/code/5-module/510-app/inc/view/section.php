@@ -87,7 +87,7 @@ define( 'TITLE_AFFILIATE', "Click here to read about the show's affiliates." );
 define( 'TITLE_BLOG', 'Click here to visit my blog!' );
 define( 'TITLE_BLOG_FEED', 'Click here for the RSS feed from my blog.' );
 define( 'TITLE_SUPPORT', 'Click here to find out how you can support the show. [Hotkey: U]' );
-define( 'TITLE_STATS', 'Click here for stats about my videos. [Hotkey: N]' );
+define( 'TITLE_STATS', 'Click here for stats about my videos and equipment. [Hotkey: N]' );
 define( 'TITLE_ABOUT', 'Click here for more info about the show and this website. [Hotkey: A]' );
 define( 'TITLE_ABOUT_SHORTCUTS', 'Click here for a list of supported hotkeys. [Hotkey: ?]' );
 define( 'TITLE_TOP', 'Click here to return to the top of the current page. [Hotkey: 0]' );
@@ -717,7 +717,7 @@ function render_section_about_stats( int $heading_level = 2, $video_list = null 
 
   tag_open( 'section' );
 
-    tag_text( "h{$heading_level}", 'Video Statistics', [ 'id' => 'video-stats' ] );
+    tag_text( "h{$heading_level}", 'Statistics', [ 'id' => 'stats' ] );
 
     tag_open( 'p' );
 
@@ -1107,7 +1107,7 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
 
           tag_open( 'li' );
 
-            render_link_internal( 'Video Statistics', url_base() . '/stats.php', TITLE_STATS );
+            render_link_internal( 'Statistics', url_base() . '/stats.php', TITLE_STATS );
 
           tag_shut( 'li' );
 

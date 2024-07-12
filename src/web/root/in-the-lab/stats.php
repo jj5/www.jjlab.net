@@ -21,7 +21,7 @@ function render() {
 
 function render_stats_main() {
 
-  $title = 'Video Stats';
+  $title = 'Statistics';
 
   render_head( $title );
 
@@ -35,7 +35,7 @@ function render_stats_main() {
 
         tag_open( 'p' );
 
-          out_text( "On this page you can find some statistics about my videos." );
+          out_text( "On this page you can find some statistics about my videos and equipment." );
 
         tag_shut( 'p' );
 
@@ -78,6 +78,8 @@ function render_stats_main() {
         }
       }
     }
+
+    // 2024-07-12 jj5 - TODO: output equipment stats
 
     render_section_about_next();
 
