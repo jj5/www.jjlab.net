@@ -63,6 +63,26 @@ function render_support_main() {
 
     tag_open( 'section' );
 
+      tag_text( "h{$heading_level}", 'Click Through on Affiliate Links!', [ 'id' => 'click-affiliate-links' ] );
+
+      tag_open( 'p' );
+
+        out_text( "A great way to support the show at no cost to you is to click through on any of the green affiliate links on my " );
+
+        render_link_internal(
+          'equipment',
+          url_base() . '/equipment.php',
+          TITLE_EQUIPMENT,
+        );
+
+        out_text( " page before shopping at Amazon, eBay, or AliExpress." );
+
+      tag_shut( 'p' );
+
+    tag_shut( 'section' );
+
+    tag_open( 'section' );
+
       tag_text( "h{$heading_level}", 'Subscribe on YouTube!', [ 'id' => 'subscribe-on-youtube' ] );
 
       tag_text( 'p', 'Another way to support the channel is to subscribe to the main YouTube channel:' );
@@ -84,26 +104,6 @@ function render_support_main() {
       tag_text( "h{$heading_level}", 'Click Like or Comment on YouTube Videos!', [ 'id' => 'like-or-comment' ] );
 
       tag_text( 'p', "It's always nice to get some positive feedback and your likes help me (and YouTube!) know what people consider quality content." );
-
-    tag_shut( 'section' );
-
-    tag_open( 'section' );
-
-      tag_text( "h{$heading_level}", 'Click Through on Affiliate Links!', [ 'id' => 'click-affiliate-links' ] );
-
-      tag_open( 'p' );
-
-        out_text( "A great way to support the show at no cost to you is to click through on any of the green affiliate links on my " );
-
-        render_link_internal(
-          'equipment',
-          url_base() . '/equipment.php',
-          TITLE_EQUIPMENT,
-        );
-
-        out_text( " page before shopping at Amazon, eBay, or AliExpress." );
-
-      tag_shut( 'p' );
 
     tag_shut( 'section' );
 

@@ -45,7 +45,7 @@ function render_index_main() {
 
         tag_open( 'p' );
 
-          out_text( 'You can find my YouTube channel here:' );
+          out_text( 'You can find my main YouTube channel here:' );
 
         tag_shut( 'p' );
 
