@@ -1730,7 +1730,7 @@ function render_section_about_electronics_project( int $heading_level = 2 ) {
     tag_open( 'p' );
 
       out_text( 'I love doing ' );
-      out_text( 'b', 'unboxings and teardowns' );
+      tag_text( 'b', 'unboxings and teardowns' );
       out_text( ', so I will do that whenever I can.' );
 
     tag_shut( 'p' );
