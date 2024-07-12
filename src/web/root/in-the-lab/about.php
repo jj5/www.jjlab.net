@@ -352,7 +352,11 @@ function render_section_about_shortcuts( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'There are some hotkeys you can use to speed your navigation. Just press the key for the page you want.' );
+      out_text( 'There are some hotkeys you can use to speed your navigation. Just press the key for the page you want. ' );
+      out_text( "I added this support for hotkeys because I use this website quite a lot while I'm working on the show. " );
+      out_text( "It's mostly just here for my use but it would be cool if someone else found it useful too! " );
+      out_text( "I'm not sure if it will work on all browsers, but it works on recent versions of Firefox and Chromium. " );
+      out_text( "The main hotkey you have to remember is '?' for this section of this page, then you can take it from there." );
 
     tag_shut( 'p' );
 
