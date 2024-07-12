@@ -87,6 +87,7 @@ function handle_keydown( ev ) {
     'a': '/about.php#heading',
     'u': '/support.php#heading',
     'c': '/contact.php#heading',
+    'n': '/stats.php#heading',
     'j': '/feature.php/mini-project#heading',
     'k': '/feature.php/maxitronix#heading',
     'v': '/videos.php#videos',
