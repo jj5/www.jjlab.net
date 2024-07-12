@@ -763,18 +763,80 @@ function render_section_about_stats( int $heading_level = 2, $video_list = null 
 
       tag_open( 'tbody' );
 
-        render_stat_def( 'Videos Published',    $stats[ 'count' ] );
-        render_stat_val( 'Minimum Duration',    $stats[ 'min' ] );
-        render_stat_val( 'Maximum Duration',    $stats[ 'max' ] );
-        render_stat_val( 'Median Duration',     $stats[ 'medians' ] );
-        render_stat_val( 'Average Duration',    $stats[ 'a_mean' ] );
-        render_stat_val( 'Standard Deviation',  $stats[ 'std_dev_pop' ] );
+        render_stats_rows( $stats );
 
       tag_shut( 'tbody' );
 
     tag_shut( 'table' );
 
   tag_shut( 'section' );
+
+}
+
+function render_stats_rows( $stats ) {
+
+  render_stat_def( 'Videos Published',    $stats[ 'count' ] );
+  render_stat_def( 'Total Duration',      format_stats_hours( $stats[ 'total' ] ) );
+  render_stat_val( 'Minimum Duration',    $stats[ 'min' ] );
+  render_stat_val( 'Maximum Duration',    $stats[ 'max' ] );
+  render_stat_val( 'Median Duration',     $stats[ 'medians' ] );
+  render_stat_val( 'Average Duration',    $stats[ 'a_mean' ] );
+  render_stat_val( 'Standard Deviation',  $stats[ 'std_dev_pop' ] );
+
+}
+
+function format_stats_hours( $seconds ) {
+
+  if ( $seconds < 3600 ) {
+
+    return format_stats_minutes( $seconds );
+
+  }
+
+  $hours = intval( round( $seconds / 3600 ) );
+
+  if ( $hours === 1 ) {
+
+    return "$hours hour";
+
+  }
+
+  return "$hours hours";
+
+}
+
+function format_stats_minutes( $seconds ) {
+
+  if ( $seconds < 60 ) {
+
+    return format_stats_seconds( $seconds );
+
+  }
+
+  $minutes = intval( round( $seconds / 60 ) );
+
+  if ( $minutes === 1 ) {
+
+    return "$minutes minute";
+
+  }
+
+  return "$minutes minutes";
+
+}
+
+
+function format_stats_seconds( $seconds ) {
+
+  $seconds = intval( round( $seconds ) );
+
+  if ( $seconds === 1 ) {
+
+    return "$seconds second";
+
+  }
+
+  return "$seconds seconds";
 
 }
 
