@@ -2037,7 +2037,7 @@ function render_section_about_new_book_teardown( int $heading_level = 2 ) {
     tag_open( 'p' );
 
       out_text( 'The criteria for a book to be considered "new" used to be that it was published in the last ten years, ' );
-      out_text( 'but this has been changed to anything published during or since the year 2000. ' );
+      out_text( 'but this has been changed to include anything published during or since the year 2000. ' );
       out_text( 'So some of these "new" books aren\'t quite so new at all!' );
 
     tag_shut( 'p' );
