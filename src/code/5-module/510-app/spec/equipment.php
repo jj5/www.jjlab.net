@@ -7971,6 +7971,38 @@ equipment(
 );
 
 equipment(
+  equipment_date( '2024-07-12' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/S82f8e3c86a1b40aab3335dd06a9b6ac0q/50Pcs-Painting-Brushes-Set-Art-Round-Flat-Hair-Nylon-Hair-Paint-Brush-for-Oil-Acrylic-Watercolor.jpg_640x640.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Yutiars" ),
+    model_name        ( "Flat" ),
+    equipment_type    ( "Paint Brush Set" ),
+    category          ( 'Paint Brush' ),
+    category          ( 'Brush' ),
+    category          ( 'Hand Tool' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Yutiars_Flat_Paint_Brush_Set' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007250364880.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DciBNdh' ),
+    listing_name  ( "50Pcs Painting Brushes Set Art Round Flat Hair Nylon Hair Paint Brush for Oil Acrylic Watercolor Kids/Artists/Beginners/Students" ),
+    item_options  ( 'Color: 50pcs flat' ),
+    item_price    ( 'AU$5.77' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007250364880.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.16.21ef1802fDX5nM&orderId=8190506672713938' ),
+    order_id        ( '8190506672713938' ),
+    order_date      ( 'Jul 12, 2024' ),
+    order_item_name ( '50Pcs Painting Brushes Set Art Round Flat Hair Nylon Hair Paint Brush for Oil Acrylic Watercolor Kids/Artists/Beginners/Students' ),
+    order_options   ( 'Color: 50pcs flat' ),
+    order_price     ( 'AU$8.22' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.82' ),
+  ),
+);
+
+equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S85fb88309d6f4baf8855a9ad40052b05W/3pcs-Drill-Brush-Attachment-Set-Power-Scrubber-Brush-With-Drill-Scrub-Brush-For-Cleaning-Showers-Tubs.jpeg_640x640.jpeg_.webp' ),
   equipment_info(

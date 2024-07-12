@@ -648,7 +648,16 @@ function render_section_about_video_content( int $heading_level = 2 ) {
 
       tag_text( 'b', 'I am not an expert!' );
 
-      out_text( ' I am a beginning electronics hobbyist and in my videos you will see me fumble around and make a lot of mistakes as I go about learning this dark art.' );
+      out_text( ' I am a beginning electronics hobbyist and in my videos you will see me fumble around and make a lot ' );
+      out_text( 'of mistakes as I go about learning this dark art. (If you are looking for an expert check out ' );
+
+      render_link_internal(
+        'my homies',
+        url_base() . '/homies.php',
+        TITLE_HOMIES,
+      );
+
+      out_text( '.)' );
 
     tag_shut( 'p' );
 

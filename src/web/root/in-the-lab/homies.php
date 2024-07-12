@@ -21,7 +21,7 @@ function render() {
 
 function render_homies_main() {
 
-  $title = 'Shoutout to My Homies';
+  $title = 'Shoutout to My Homies!';
 
   render_head( $title );
 
@@ -41,7 +41,7 @@ function render_homies_main() {
 
         tag_open( 'p' );
         
-          out_text( "On this page I let you know who I support on Patreon." );
+          out_text( "On this page I let you know who I watch on YouTube and support on Patreon." );
 
         tag_shut( 'p' );
 
@@ -244,7 +244,7 @@ function render_homies_main() {
 
       tag_open( 'p' );
 
-        out_text( "Dave also runs the " );
+        out_text( "Dave runs the " );
 
         render_link_external(
           'EEVblog Forum',
@@ -255,6 +255,67 @@ function render_homies_main() {
         out_text( " which is an excellent resource, check it out!" );
 
       tag_shut( 'p' );
+
+      tag_open( 'p' );
+
+        out_text( "Dave makes a line of multimeters. I am saving my pennies so I can get the full set! " );
+
+        out_text( "Here are the multimeters Dave makes:" );
+
+      tag_shut( 'p' );
+
+      tag_open( 'ul' );
+
+        tag_open( 'li' );
+
+          render_link_external(
+            'EEVblog 121GW Multimeter',
+            'https://eevblog.store/products/121gw-multimeter',
+            'Click here to buy the EEVblog 121GW Multimeter.'
+          );
+
+          out_text( ' (AU$325.00)' );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          render_link_external(
+            'EEVblog BM786 Multimeter',
+            'https://eevblog.store/products/eevblog-bm786-multimeter',
+            'Click here to buy the EEVblog BM786 Multimeter.'
+          );
+
+          out_text( ' (AU$215.00)' );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          render_link_external(
+            'EEVblog BM235 Multimeter',
+            'https://eevblog.store/products/eevblog-bm235-multimeter',
+            'Click here to buy the EEVblog BM235 Multimeter.'
+          );
+
+          out_text( ' (AU$170.00)' );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          render_link_external(
+            'EEVblog BM036 AC/DC Clamp Meter',
+            'https://eevblog.store/products/eevblog-bm036-ac-dc-clamp-meter',
+            'Click here to buy the EEVblog BM036 AC/DC Clamp Meter.'
+          );
+
+          out_text( ' (AU$149.00)' );
+
+        tag_shut( 'li' );
+
+      tag_shut( 'ul' );
+
 
     tag_shut( 'section' );
 
