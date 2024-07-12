@@ -187,6 +187,19 @@ function render_support_main() {
 
     tag_shut( 'section' );
 
+    tag_open( 'section' );
+
+      tag_text( "h{$heading_level}", 'Be Interested and Enthusiastic About Electronics!', [ 'id' => 'be-interested' ] );
+
+      tag_open( 'p' );
+
+        out_text( 'Just taking an interest in electronics and being enthusiastic about electronics content is something ' );
+        out_text( 'that strengthens our community and promotes our cause.' );
+
+      tag_shut( 'p' );
+
+    tag_shut( 'section' );
+
     render_section_about_next();
 
   render_foot();
