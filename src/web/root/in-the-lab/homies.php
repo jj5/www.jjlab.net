@@ -53,7 +53,7 @@ function render_homies_main() {
 
     tag_open( 'section' );
 
-      tag_text( 'h2', 'Shoutout to My Homies!', [ 'id' => 'shoutout' ] );
+      tag_text( 'h2', 'My Homies', [ 'id' => 'homies' ] );
 
       tag_open( 'p' );
 
