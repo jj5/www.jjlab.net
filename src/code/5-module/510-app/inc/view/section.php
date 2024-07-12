@@ -2809,7 +2809,15 @@ function render_section_about_sponsors( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'If you would like to support the show I would ' );
+      out_text( 'If you would like to ' );
+
+      render_link_internal(
+        'support the show',
+        url_base() . '/support.php',
+        TITLE_SUPPORT,
+      );
+
+      out_text( ' I would ' );
       tag_text( 'b', 'very much appreciate it' );
       out_text( ' and the best place to do so is over here:' );
 
