@@ -2868,6 +2868,12 @@ function render_section_about_homies( int $heading_level = 2 ) {
 
     tag_shut( 'p' );
 
+    tag_open( 'p' );
+
+      out_text( 'I also call the people who support me (or follow me) on Patreon my "homies" as well.' );
+
+    tag_shut( 'p' );
+
   tag_shut( 'section' );
 
 }
