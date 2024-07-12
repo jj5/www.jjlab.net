@@ -194,7 +194,8 @@ function render_support_main() {
       tag_open( 'p' );
 
         out_text( 'Just taking an interest in electronics and being enthusiastic about electronics content is something ' );
-        out_text( 'that strengthens our community and promotes our cause.' );
+        out_text( 'that strengthens our community and promotes our cause. ' );
+        out_text( 'When our community succeeds we can succeed too.' );
 
       tag_shut( 'p' );
 
