@@ -139,7 +139,7 @@ function render_support_main() {
         );
 
         out_text( " give me free advertising in the back of their magazine because they are awesome. " );
-        out_text( "If you have quality products or services of interest to the electronics hobbyist that wouldn't " );
+        out_text( "If you have quality products or services of interest to the electronics hobbyist that it wouldn't " );
         out_text( " embarrass me to promote, " );
 
         render_link_internal(
