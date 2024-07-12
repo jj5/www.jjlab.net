@@ -2300,7 +2300,7 @@ function render_section_about_channel_news( int $heading_level = 2 ) {
       );
 
       out_text( '. In the channel news I can tell you about changes to the format of the show, announce new features, ' );
-      out_text( 'talk about the website, and things like that.' );
+      out_text( 'talk about the website, tell you about new sponsors or affiliates, and things like that.' );
 
     tag_shut( 'p' );
 
