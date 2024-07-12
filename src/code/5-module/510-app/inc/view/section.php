@@ -2859,7 +2859,8 @@ function render_section_about_homies( int $heading_level = 2 ) {
 
       out_text( ' and follow on YouTube. ' );
 
-      out_text( 'These are other people who have a video blog about electronics, all of them much more famous than me!' );
+      out_text( 'These are other people who have a video blog about electronics, all of them much more famous ' );
+      out_text( 'and knowledgeable than me!' );
 
     tag_shut( 'p' );
 
