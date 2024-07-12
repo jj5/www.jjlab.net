@@ -257,17 +257,17 @@ function render_show_main( $show ) {
 
 }
 
-function get_latest_show() {
+function get_latest_silly_job_title() {
 
   $result = null;
 
   foreach ( get_list( Show::class ) as $show ) {
 
-    $segment = $show->get_first_segment();
+    $silly_job_title = $show->get_first_segment()->get_silly_job_title();
 
-    if ( $show->get_channel()->get_channel_slug()->to_string() !== '@InTheLabWithJayJay' ) { continue; }
+    if ( $silly_job_title->is_null() ) { continue; }
 
-    if ( $segment->is_live() ) { $result = $segment; }
+    $result = $silly_job_title;
 
   }
 
@@ -2727,11 +2727,9 @@ function render_section_about_silly_job_title( int $heading_level = 2 ) {
 
 function render_silly_job_title() {
 
-  $latest = get_latest_show();
+  $latest = get_latest_silly_job_title();
 
-  if ( $latest === null ) { return; }
-
-  $job_title = strval( $latest->get_silly_job_title() );
+  $job_title = strval( $latest );
 
   if ( ! $job_title ) { return; }
 
