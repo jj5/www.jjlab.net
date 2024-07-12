@@ -1055,10 +1055,10 @@ function render_blog_template( $equipment_list ) {
         ],
       );
 
-      out_text( " and you can find more information about this video on " );
+      out_text( " and you can find more information about this video " );
 
       render_link_external(
-        "this show's homepage",
+        "over here",
         '#',
         TITLE_BLOG_VIDEO_LINK,
         [
