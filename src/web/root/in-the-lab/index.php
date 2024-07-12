@@ -109,7 +109,7 @@ function render_index_main() {
 
     render_section_about_extra_content();
 
-    render_section_about_video_quality();
+    render_section_about_recording_quality();
 
     render_section_about_costume();
 

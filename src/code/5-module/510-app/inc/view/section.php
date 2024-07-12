@@ -2418,6 +2418,26 @@ function render_section_about_extra_content( int $heading_level = 2 ) {
 
 }
 
+function render_section_about_recording_quality( int $heading_level = 2 ) {
+
+  tag_open( 'section' );
+
+    tag_text( "h{$heading_level}", 'Recording and Production Quality', [ 'id' => 'quality' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'Following are some notes about the quality of the audiovisual content that I produce.' );
+
+    tag_shut( 'p' );
+
+  tag_shut( 'section' );
+
+  render_section_about_video_quality( $heading_level + 1 );
+
+  render_section_about_audio_quality( $heading_level + 1 );
+
+}
+
 function render_section_about_video_quality( int $heading_level = 2 ) {
 
   tag_open( 'section' );
@@ -2436,24 +2456,6 @@ function render_section_about_video_quality( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'The framerate doesn\'t make much difference for the sort of content that I make, but the resolution certainly can. ' );
-
-      tag_text( 'b', 'I will get better recording equipment as soon as I can afford it' );
-
-      out_text( '. If you want to help out on that front you could consider ' );
-
-      render_link_internal(
-        'sponsoring me',
-        url_base() . '/sponsor.php',
-        TITLE_SPONSOR,
-      );
-
-      out_text( '. :)' );
-
-    tag_shut( 'p' );
-
-    tag_open( 'p' );
-
       out_text( '4K is ' );
 
       tag_text( 'b', '3840 x 2160' );
@@ -2463,6 +2465,62 @@ function render_section_about_video_quality( int $heading_level = 2 ) {
       tag_text( 'b', 'four times the resolution of 1080p' );
 
       out_text( '.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'The framerate doesn\'t make much difference for the sort of content that I make, but the resolution certainly can. ' );
+
+      tag_text( 'b', 'I will get better recording equipment as soon as I can afford it' );
+
+      out_text( '. If you want to help out on that front you could consider ' );
+
+      render_link_internal(
+        'supporting the show',
+        url_base() . '/support.php',
+        TITLE_SUPPORT,
+      );
+
+      out_text( '. :)' );
+
+    tag_shut( 'p' );
+
+  tag_shut( 'section' );
+
+}
+
+function render_section_about_audio_quality( int $heading_level = 2 ) {
+
+  tag_open( 'section' );
+
+    tag_text( "h{$heading_level}", 'Audio Quality', [ 'id' => 'audio-quality' ] );
+
+    tag_open( 'p' );
+
+      // 2024-07-13 jj5 - copilot suggested this: https://www.rode.com/microphones/nt1-a
+
+      out_text( 'I use a number of microphones when I record the show and they have different performance and ' );
+      out_text( 'environmental characteristics which means you can detect (particularly through volume) when I switch ' );
+      out_text( 'between recording platforms. This is annoying and I am aware of the issue. During post production I do ' );
+      out_text( "two pass audio normalization but this doesn't completely address the problem. " );
+      out_text( "Ultimately I aim to fix this problem by using " );
+
+      render_link_external(
+        'RØDE Wireless GO II microphones',
+        'https://www.amazon.com.au/dp/B08XFQ6KP9',
+        'Click here to read about the RØDE Wireless GO II microphones.',
+      );
+
+      out_text( " for audio, but I can't afford those just yet. If you want to help out on that front you could consider " );
+
+      render_link_internal(
+        'supporting the show',
+        url_base() . '/support.php',
+        TITLE_SUPPORT,
+      );
+
+      out_text( '. Otherwise just hold tight, I will get this fixed as soon as I can.' );
 
     tag_shut( 'p' );
 
