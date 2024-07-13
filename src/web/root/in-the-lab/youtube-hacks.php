@@ -81,11 +81,21 @@ function render_youtube_hacks_main() {
           '3x',
           [
             'href' => 'javascript:(function(){document.querySelector("video").playbackRate = 3.0;})();',
-            'title' => 'Click here to increase YouTube video playback speed to 3x',
+            'title' => 'Drag and drop the link to your bookmarks bar to create a bookmarklet.',
           ]
         );
 
-        out_text( '.' );
+        out_text( '. ' );
+
+        out_text( 'Then when you are watching a YouTube video you can click the bookmarklet to increase the playback speed to 3x. ' );
+
+        out_text( 'You can edit the bookmarklet to change the speed to a different value. ' );
+
+        out_text( 'The bookmarklet will only work on the current YouTube video page. ' );
+        
+        out_text( 'If you navigate to a different page you will need to click the bookmarklet again. ' );
+
+        out_text( 'If you refresh the page you will need to click the bookmarklet again.' );
 
       tag_shut( 'p' );
 
