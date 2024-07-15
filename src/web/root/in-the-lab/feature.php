@@ -289,6 +289,94 @@ function render_feature_maxitronix_index() {
 
     tag_open( 'section' );
 
+      tag_text( 'h2', 'Format of an Xin1 Project Video', [ 'id' => 'format' ] );
+
+      tag_open( 'p' );
+
+        out_text( 'In an Xin1 project video I have the following sections:' );
+
+      tag_shut( 'p' );
+
+      tag_open( 'ul' );
+
+        tag_open( 'li' );
+
+          out_text( 'welcome and introduction (welcome cam)' );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          out_text( 'read instructions (book cam)' );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          out_text( 'LTspice build and simulation (computer)' );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          out_text( 'kit construction (booth cam)' );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          out_text( 'kit test and measure with oscilloscope (bench cam)' );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          out_text( 'kit thermal examination (bench cam)' );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          out_text( 'KiCad PCB design (computer)' );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          out_text( 'PCBWay PCB order (computer)' );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          out_text( 'PCB build (bench cam)' );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          out_text( 'PCB test and measure with oscilloscope (bench cam)' );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          out_text( 'PCB thermal examination (bench cam)' );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          out_text( 'conclusion (farewell cam)' );
+
+        tag_shut( 'li' );
+
+      tag_shut( 'ul' );
+
+    tag_shut( 'section' );
+
+    tag_open( 'section' );
+
       tag_text( 'h2', 'Announcing Maxitronix Xin1 Projects Feature', [ 'id' => 'announcement' ] );
 
       tag_text( 'p', 'In this video I announce the Maxitronix Xin1 projects feature.' );

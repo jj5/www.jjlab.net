@@ -8748,6 +8748,65 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2021-07-30' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/UcgAAOSwrjtfSNEU/s-l1600.jpg' ),
+  equipment_info(
+    manufacturer_name ( "oz_gear" ),
+    //model_name        ( "" ),
+    equipment_type    ( "Calipers" ),
+    category          ( 'Hand Tool' ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Oz_gear_Calipers' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/256037179868' ),
+    affiliate_url ( 'https://ebay.us/uPBFVm' ),
+    listing_name  ( '150mm Stainless Steel Digital Electronic Gauge Vernier Caliper Micrometer Tool' ),
+    item_price    ( 'AU$31.99' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com/itm/256037179868' ),
+    affiliate_url ( 'https://ebay.us/ydAL7A' ),
+    listing_name  ( "150mm Stainless Steel Digital Electronic Gauge Vernier Caliper Micrometer Tool" ),
+    item_price    ( 'AU$31.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/324276062412' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=01-07405-77011#/' ),
+    order_id        ( '01-07405-77011' ),
+    order_date      ( '30 Jul 2021' ),
+    order_item_name ( 'Stainless Steel LCD Digital Electronic Vernier Caliper Micrometer 6" Inch/150mm' ),
+    order_price     ( 'AU$21.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-10-20' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/S18878a02f03a4a23b85f94bb814331c30/1PC-Digital-Depth-Gauge-Caliper-Tread-Depth-Gauge-LCD-Tire-Tread-Gauge-For-Car-Tire-0.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Yum Cha" ),
+    //model_name        ( "" ),
+    equipment_type    ( "Depth Gauge" ),
+    category          ( 'Hand Tool' ),
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005631574196.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DlE1wH5' ),
+    listing_name  ( '1PC Digital Depth Gauge Caliper Tread Depth Gauge LCD Tire Tread Gauge For Car Tire 0-25mm Measurer Tool Caliper Repair Tools' ),
+    item_price    ( 'AU$4.83' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005631574196.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.1.18e61802Dv4VsQ&orderId=8177641878953938' ),
+    order_id        ( '8177641878953938' ),
+    order_date      ( 'Oct 20, 2023' ),
+    order_item_name ( '1PC Digital Depth Gauge Caliper Tread Depth Gauge LCD Tire Tread Gauge For Car Tire 0-25mm Measurer Tool Caliper Repair Tools' ),
+    order_price     ( 'AU$3.20' ),
+    order_quantity  ( 1 ),
+  ),
+);
 
 
 /*
