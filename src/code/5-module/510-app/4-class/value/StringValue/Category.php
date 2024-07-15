@@ -215,6 +215,10 @@ class Category extends StringValue {
       'Head-Mounted',
 
       'Safety Equipment',
+      'Safety Switch',
+      'Surge Protector',
+      'Residual Current Device',
+
       'Safety Goggles',
       'Gloves',
       'Lab Coat',
@@ -230,6 +234,8 @@ class Category extends StringValue {
       'Disposable',
 
       'Pen',
+
+      'Funnel',
 
     ];
 

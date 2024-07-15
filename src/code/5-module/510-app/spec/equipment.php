@@ -8808,6 +8808,69 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2023-03-16' ),
+  equipment_icon( 'https://media.prod.bunnings.com.au/api/public/content/738e8d4eb7484be8bf7ad3c22873f93f?v=70a30896&t=w500dpr1' ),
+  equipment_info(
+    manufacturer_name ( "Arlec" ),
+    model_name        ( "PB91" ),
+    equipment_type    ( "Plug-In RCD Safety Switch with Surge Protector" ),
+    category          ( 'Safety Equipment' ),
+    category          ( 'Safety Switch' ),
+    category          ( 'Surge Protector' ),
+    category          ( 'Residual Current Device' ),
+    manufacturer_link (
+      link_href       ( 'https://www.arlec.com.au/wp-content/files/PB91.pdf' ),
+      link_text       ( 'Arlec PB91 (PDF)' ),
+    ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Arlec_PB91' ),
+  affiliate_link(
+    equipment_url ( 'https://www.bunnings.com.au/arlec-single-outlet-safety-switch_p7050029' ),
+    listing_name  ( "Arlec Single Outlet Safety Switch" ),
+    item_price    ( 'AU$34.55' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.bunnings.com.au/arlec-single-outlet-safety-switch_p7050029' ),
+    order_url       ( 'https://www.bunnings.com.au/my-account/previous-orders/order-details?orderId=5056548185' ),
+    order_id        ( '5056548185' ),
+    order_date      ( '16 March 2023' ),
+    order_item_name ( 'ADAPTOR ARLEC SGL OUTLET RCD SAFETY PB91' ),
+    order_price     ( 'AU$33.56' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-03-16' ),
+  equipment_icon( 'https://media.prod.bunnings.com.au/api/public/content/44b5a972407c42e38d2e9b2a7501a0ba?v=7af707bd&t=w500dpr1' ),
+  equipment_info(
+    manufacturer_name ( "Sandleford" ),
+    model_name        ( "4 Piece" ),
+    equipment_type    ( "Funnel Set" ),
+    category          ( 'Funnel' ),
+    manufacturer_link (
+      link_href       ( 'https://www.sandleford.com.au/funnel-set-4-pc' ),
+      link_text       ( 'Sandleford Funnel Set 4 PC' ),
+    ),
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Sandleford_4_Piece_Funnel_Set' ),
+  affiliate_link(
+    equipment_url ( 'https://www.bunnings.com.au/sandleford-4-piece-funnel-set_p3400421' ),
+    listing_name  ( "Sandleford 4 Piece Funnel Set" ),
+    item_price    ( 'AU$4.49' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.bunnings.com.au/sandleford-4-piece-funnel-set_p3400421' ),
+    order_url       ( 'https://www.bunnings.com.au/my-account/previous-orders/order-details?orderId=5056548185' ),
+    order_id        ( '5056548185' ),
+    order_date      ( '16 March 2023' ),
+    order_item_name ( 'FUNNEL SET SANDLEFORD 4 PIECE SET PFK4' ),
+    order_price     ( 'AU$4.49' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
 
 /*
 

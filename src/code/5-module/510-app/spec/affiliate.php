@@ -34,3 +34,8 @@ affiliate(
   affiliate_name( 'Jaycar' ),
   affiliate_url( 'https://www.jaycar.com.au/' ),
 );
+
+affiliate(
+  affiliate_name( 'Bunnings' ),
+  affiliate_url( 'https://www.bunnings.com.au/' ),
+);
