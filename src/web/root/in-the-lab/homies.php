@@ -66,20 +66,6 @@ function render_homies_main() {
 
       tag_shut( 'p' );
 
-      tag_open( 'p' );
-
-        out_text( 'You can find this same list of video bloggers on my ' );
-
-        render_link_external(
-          'Patreon Recommendations',
-          'https://www.patreon.com/JohnElliotV/recommendations',
-          'Click here to see my Patreon Recommendations.'
-        );
-
-        out_text( ' page.' );
-
-      tag_shut( 'p' );
-
       tag_open( 'table' );
 
         tag_open( 'thead' );
@@ -227,6 +213,20 @@ function render_homies_main() {
         tag_shut( 'tbody' );
 
       tag_shut( 'table' );
+
+      tag_open( 'p' );
+
+        out_text( 'You can find this same list of video bloggers on my ' );
+
+        render_link_external(
+          'Patreon Recommendations',
+          'https://www.patreon.com/JohnElliotV/recommendations',
+          'Click here to see my Patreon Recommendations.'
+        );
+
+        out_text( ' page.' );
+
+      tag_shut( 'p' );
 
     tag_shut( 'section' );
 
