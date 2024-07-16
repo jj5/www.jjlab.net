@@ -72,7 +72,7 @@ function render_homies_main() {
 
         render_link_external(
           'Patreon Recommendations',
-          'https://www.patreon.com/johnelliotv/recommendations',
+          'https://www.patreon.com/JohnElliotV/recommendations',
           'Click here to see my Patreon Recommendations.'
         );
 
