@@ -58,6 +58,19 @@ class Channel extends Item {
 
   }
 
+  public function render_link_external( $text = null, $attrs = [] ) {
+
+    $slug = $this->get_slug();
+    $text = $text ?? $slug;
+
+    render_link_internal(
+      $text,
+      $this->get_external_url(),
+      $this->get_title_attr(),
+    );
+
+  }
+
   public function render() {
 
     $url = $this->get_internal_url();
@@ -101,6 +114,14 @@ class Channel extends Item {
     $slug = $this->get_channel_slug()->to_string();
 
     return url_base() . '/channel.php/' . $slug;
+
+  }
+
+  public function get_external_url() {
+
+    $slug = $this->get_channel_slug()->to_string();
+
+    return APP_URL_BASE . '/channel.php/' . $slug;
 
   }
 

@@ -1,6 +1,11 @@
 <?php
 
 define(
+  'APP_URL_BASE',
+  'https://www.inthelabwithjayjay.com/in-the-lab'
+);
+
+define(
   'LOGO_URL',
   'https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=' . get_resource_version()
 );

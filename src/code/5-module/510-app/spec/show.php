@@ -884,7 +884,6 @@ show(
   ),
 );
 
-
 show(
   unboxing(
     publication_date( '2024-07-12' ),
@@ -892,5 +891,15 @@ show(
     youtube_video( 'O7QeCa2G9RE' ),
     blog_url( 'https://blog.jj5.net/blog/2024/07/12/unboxing-of-ampcom-automatic-network-cable-tester-learning-electronics-in-the-lab-with-jay-jay/' ),
     patreon_url( 'https://www.patreon.com/posts/107964719' ),
+  ),
+);
+
+show(
+  unboxing(
+    publication_date( '2024-07-18' ),
+    title( 'Unboxing and Installation of Horusdy 39-Drawer Component Drawers' ),
+    youtube_video( '3OyLUr513es' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/07/18/unboxing-and-installation-of-horusdy-39-drawer-component-drawers-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/108324179' ),
   ),
 );

@@ -125,11 +125,23 @@ abstract class Video extends Item {
 
   public function get_internal_url() {
 
+    return $this->get_url_with_base( url_base() );
+
+  }
+
+  public function get_external_url() {
+
+    return $this->get_url_with_base( APP_URL_BASE );
+
+  }
+
+  protected function get_url_with_base( $base ) {
+
     $channel_slug = $this->get_channel()->get_slug();
     $show_slug = $this->get_show()->get_first_segment()->get_youtube_video()->get_slug()->to_string();
     $slug = $this->get_slug()->to_string();
 
-    return url_base() . '/show.php/' . $channel_slug . '/' . $show_slug . '#' . $slug;
+    return $base . '/show.php/' . $channel_slug . '/' . $show_slug . '#' . $slug;
 
   }
 
@@ -147,6 +159,19 @@ abstract class Video extends Item {
 
   }
 
+  public function render_link_external( $text = null, $attrs = [] ) {
+
+    $url = $this->get_external_url();
+    $text = $text ?? $this->get_segment()->get_name();
+
+    render_link_internal(
+      $text,
+      $url,
+      TITLE_LINK_VIDEO,
+      $attrs,
+    );
+
+  }
 
   public function get_youtube_video_title() {
 

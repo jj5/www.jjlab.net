@@ -46,9 +46,29 @@ class ShowType extends Item {
 
   }
 
+  public function get_external_url() {
+
+    return APP_URL_BASE . '/show-type.php/' . $this->get_slug();
+
+  }
+
   public function render_link_internal( $text = null, $attrs = [] ) {
 
     $url = $this->get_internal_url();
+    $text = $text ?? $this->get_name();
+
+    render_link_internal(
+      $text,
+      $url,
+      $this->get_show_text()->to_string(),
+      $attrs,
+    );
+
+  }
+
+  public function render_link_external( $text = null, $attrs = [] ) {
+
+    $url = $this->get_external_url();
     $text = $text ?? $this->get_name();
 
     render_link_internal(
