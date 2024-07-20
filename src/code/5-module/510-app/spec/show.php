@@ -913,3 +913,13 @@ show(
     patreon_url( 'https://www.patreon.com/posts/108469876' ),
   ),
 );
+
+show(
+  extra_content(
+    publication_date( '2024-07-20' ),
+    title( "The Great Resistor Clean of 2024" ),
+    youtube_video( 'kr51mNmdoL4' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/07/20/extra-content-the-great-resistor-clean-of-2024-elliots-extras/' ),
+    patreon_url( 'https://www.patreon.com/posts/108476588' ),
+  ),
+);
