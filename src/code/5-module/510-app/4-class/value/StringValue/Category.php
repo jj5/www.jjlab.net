@@ -237,6 +237,8 @@ class Category extends StringValue {
 
       'Funnel',
 
+      'Cable Tidy',
+
     ];
 
     if ( $category_order === null ) { $category_order = array_flip( $category_list ); }

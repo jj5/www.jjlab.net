@@ -84,6 +84,11 @@ channel(
       feature_text( 'In the interlude videos we take a small digression into something interesting.' ),
     ),
     feature(
+      feature_slug( 'mail-call' ),
+      feature_name( 'Mail Call' ),
+      feature_text( 'In the mail call videos we open a recently arrived package.' ),
+    ),
+    feature(
       feature_slug( 'unboxing' ),
       feature_name( 'Unboxing' ),
       feature_text( 'In the unboxing videos we open the box and take a look at a new item, such as tools or components.' ),

@@ -8872,6 +8872,34 @@ equipment(
 );
 
 
+equipment(
+  equipment_date( '2024-07-11' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/Sdeb0d4d3e98c4abfa49275bf01e84b06r/100pcs-Releasable-Cable-Organizer-Ties-Mouse-Earphones-Wire-Management-Nylon-Cable-Ties-Reusable-Loop-Hoop-Tape.png_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( "100pcs Releasable" ),
+    equipment_type    ( "Cable Organizer" ),
+    category          ( 'Cable Tidy' ),
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006956572734.html' ),
+    listing_name  ( "100pcs Releasable Cable Organizer Ties Mouse Earphones Wire Management Nylon Cable Ties Reusable Loop Hoop Tape Straps Tie" ),
+    item_price    ( 'AU$4.83' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006956572734.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.218.fae11802fpXIz3&orderId=8191201591103938' ),
+    order_id        ( '8191201591103938' ),
+    order_date      ( 'Jul 11, 2024' ),
+    order_item_name ( '100pcs Releasable Cable Organizer Ties Mouse Earphones Wire Management Nylon Cable Ties Reusable Loop Hoop Tape Straps Tie' ),
+    order_price     ( 'AU$3.43' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.44' ),
+  ),
+);
+
+
 /*
 
 equipment(

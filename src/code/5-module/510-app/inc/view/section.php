@@ -53,7 +53,8 @@ define( 'TITLE_FEATURE_NEW_BOOK_TEARDOWN', 'Click here to watch the videos where
 define( 'TITLE_FEATURE_MINI_PROJECT', 'Click here to watch the videos where I work through Mini Projects from Silicon Chip and Jaycar.' );
 define( 'TITLE_FEATURE_CHANNEL_NEWS', 'Click here to see channel news.' );
 define( 'TITLE_FEATURE_INTERLUDE', 'Click here to watch the videos where I take a break from the main show.' );
-define( 'TITLE_FEATURE_UNBOXING', "Click here to watch this this unboxing video." );
+define( 'TITLE_FEATURE_MAIL_CALL', "Click here to watch videos of recently arrived packages." );
+define( 'TITLE_FEATURE_UNBOXING', "Click here to watch the unboxing videos." );
 
 define( 'TITLE_FEATURE_MAXITRONIX_KITS', 'Click here to learn about the Maxitronix Xin1 electronic project labs.' );
 define( 'TITLE_FEATURE_MAXITRONIX', 'Click here to watch the videos where I work through a Maxitronix Xin1 electronic project kit.' );
@@ -1929,6 +1930,16 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
       tag_open( 'li' );
 
         render_link_internal(
+          'Mail Call',
+          url_base() . '/#mail-call',
+          TITLE_FEATURE_MAIL_CALL,
+        );
+
+      tag_shut( 'li' );
+
+      tag_open( 'li' );
+
+        render_link_internal(
           'Unboxings',
           url_base() . '/#unboxings',
           TITLE_FEATURE_UNBOXING,
@@ -1997,6 +2008,8 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
   render_section_about_maxitronix_kits( $heading_level + 1 );
 
   render_section_about_interlude( $heading_level + 1 );
+
+  render_section_about_mail_call( $heading_level + 1 );
 
   render_section_about_unboxing( $heading_level + 1 );
 
@@ -2236,6 +2249,40 @@ function render_section_about_interlude( int $heading_level = 2 ) {
     tag_shut( 'p' );
 
     tag_text( 'p', 'Interludes are some sort of interesting diversion from the regular content.' );
+
+  tag_shut( 'section' );
+
+}
+
+function render_section_about_mail_call( int $heading_level = 2 ) {
+
+  tag_open( 'section' );
+
+    tag_text( "h{$heading_level}", 'Mail Call', [ 'id' => 'mail-call' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'Occasionally I do a ' );
+
+      render_link_internal(
+        'mail call video',
+        url_base() . '/feature.php/mail-call',
+        TITLE_FEATURE_MAIL_CALL,
+      );
+
+      out_text( ' on the ' );
+
+      render_link_internal(
+        'main channel',
+        url_base() . '/channel.php/@InTheLabWithJayJay',
+        TITLE_CHANNEL_MAIN,
+      );
+
+      out_text( '.' );
+
+    tag_shut( 'p' );
+
+    tag_text( 'p', 'Whenever a package arrives in the mail I try to record a mail call video.' );
 
   tag_shut( 'section' );
 
