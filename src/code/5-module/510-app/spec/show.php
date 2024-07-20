@@ -910,6 +910,6 @@ show(
     title( 'Cheap Stuff from China! Thanks AliExpress!' ),
     youtube_video( 'PaQvIUeh2qE' ),
     blog_url( 'https://blog.jj5.net/blog/2024/07/20/mail-call-cheap-stuff-from-china-thanks-aliexpress-learning-electronics-in-the-lab-with-jay-jay/' ),
-    patreon_url( 'https://www.patreon.com/posts/' ),
+    patreon_url( 'https://www.patreon.com/posts/108469876' ),
   ),
 );
