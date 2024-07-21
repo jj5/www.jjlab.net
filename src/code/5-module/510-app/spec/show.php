@@ -953,3 +953,14 @@ show(
     patreon_url( 'https://www.patreon.com/posts/108534696' ),
   ),
 );
+
+show(
+  extra_content(
+    publication_date( '2024-07-22' ),
+    title( "Cleaning, Testing, and Filing Through-Hole Resistors and Capacitors" ),
+    youtube_video( 'zsWnndRJ5v0' ),
+    blog_url( '' ),
+    patreon_url( 'https://www.patreon.com/posts/' ),
+  ),
+);
+
