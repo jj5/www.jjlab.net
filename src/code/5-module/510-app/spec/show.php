@@ -933,3 +933,23 @@ show(
     patreon_url( 'https://www.patreon.com/posts/108526193' ),
   ),
 );
+
+show(
+  extra_content(
+    publication_date( '2024-07-21' ),
+    title( "Unboxing and Organising New Mini Screwdriver Kits from AliExpress" ),
+    youtube_video( 'LIFft7Ujhdc' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/07/21/extra-content-unboxing-and-organising-new-mini-screwdriver-kits-from-aliexpress-elliots-extras' ),
+    patreon_url( 'https://www.patreon.com/posts/108531041' ),
+  ),
+);
+
+show(
+  unboxing(
+    publication_date( '2024-07-22' ),
+    title( 'Unboxing and Demo of OULLX NSS-681HDMI-RJ45 Cable Tester from AliExpress' ),
+    youtube_video( 'fSudL_qOBRA' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/07/22/unboxing-and-demo-of-oullx-nss-681hdmi-rj45-cable-tester-from-aliexpress-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/108534696' ),
+  ),
+);

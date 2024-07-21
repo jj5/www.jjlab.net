@@ -1002,7 +1002,7 @@ Super big thank you to my subscribers and my Patreon supporters! ❤️
 
 The show notes for this video are here: https://blog.jj5.net/
 
-If you enjoyed this video don't forget to hit subscribe so you don't miss the next one. If you have any questions or suggestions please do hit me up in the comments section.
+If you enjoyed this video please remember to hit subscribe so you don't miss the next one. If you have any questions or suggestions please do hit me up in the comments section.
 
 Following is a list of products I use which may appear in my videos. Clicking through on these links before purchasing from Amazon, eBay, or AliExpress is a great way to support the channel at no cost to you. Thanks!
 
@@ -1019,6 +1019,11 @@ If you have any questions about any of the products I use please do ask in the c
 
   $length = strlen( $header ) + strlen( $footer );
 
+  // 2024-07-21 jj5 - the description limit is 5,000 characters and the URL length for the show notes is maximum 100
+  // characters in addition to the URL base "https://blog.jj5.net/" given above...
+  //
+  $limit = 5000 - 100 - strlen( 'blog/yyyy/mm/dd/' );
+
   foreach ( $equipment_list as $equipment ) {
 
     if ( $equipment->is_manufactured_by( 'Maxitronix' ) ) { continue; }
@@ -1031,7 +1036,7 @@ If you have any questions about any of the products I use please do ask in the c
 
     $length += strlen( $link ) + strlen( $name ) + 2;
 
-    if ( $length > 5000 ) { break; }
+    if ( $length > $limit ) { break; }
 
     out_text( $link );
     out_text( ' ' );
@@ -1144,7 +1149,7 @@ function render_blog_template( $equipment_list ) {
 
       tag_open( 'table', [ 'class' => 'table equipment' ] );
 
-        tag_open( 'body' );
+        tag_open( 'tbody' );
 
           foreach ( $equipment_list as $equipment ) {
 
@@ -1215,7 +1220,7 @@ function render_blog_template( $equipment_list ) {
 
           }
 
-        tag_shut( 'body' );
+        tag_shut( 'tbody' );
 
       tag_shut( 'table' );
 
