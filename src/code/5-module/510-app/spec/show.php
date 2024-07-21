@@ -923,3 +923,13 @@ show(
     patreon_url( 'https://www.patreon.com/posts/108476588' ),
   ),
 );
+
+show(
+  mail_call(
+    publication_date( '2024-07-21' ),
+    title( 'More Cheap Stuff from China! Thanks AliExpress!' ),
+    youtube_video( 'ELnBBwibbTI' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/07/21/mail-call-more-cheap-stuff-from-china-thanks-aliexpress-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/108526193' ),
+  ),
+);

@@ -8254,6 +8254,36 @@ equipment(
     order_quantity  ( 1 ),
     order_gst       ( 'AU$0.32' ),
   ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005664056137.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.1.21ef1802pevaIx&orderId=8191436298513938' ),
+    order_id        ( '8191436298513938' ),
+    order_date      ( 'Jul 21, 2024' ),
+    order_item_name ( 'Gold Silver Metallic Marker Pen Waterproof Permanent Paint Marker Pen for Rock, Mug, Ceramic, Glass DIY Painting Supplies' ),
+    order_options   ( 'Soft-Silver (2pcs)' ),
+    order_price     ( 'AU$2.94' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005664056137.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.1.21ef1802pevaIx&orderId=8191436298513938' ),
+    order_id        ( '8191436298513938' ),
+    order_date      ( 'Jul 21, 2024' ),
+    order_item_name ( 'Gold Silver Metallic Marker Pen Waterproof Permanent Paint Marker Pen for Rock, Mug, Ceramic, Glass DIY Painting Supplies' ),
+    order_options   ( 'Hard-Gold (2pcs)' ),
+    order_price     ( 'AU$3.03' ),
+    order_quantity  ( 3 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005664056137.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.1.21ef1802pevaIx&orderId=8191436298513938' ),
+    order_id        ( '8191436298513938' ),
+    order_date      ( 'Jul 21, 2024' ),
+    order_item_name ( 'Gold Silver Metallic Marker Pen Waterproof Permanent Paint Marker Pen for Rock, Mug, Ceramic, Glass DIY Painting Supplies' ),
+    order_options   ( 'Hard-Silver (2pcs)' ),
+    order_price     ( 'AU$2.87' ),
+    order_quantity  ( 3 ),
+  ),
 );
 
 equipment(
