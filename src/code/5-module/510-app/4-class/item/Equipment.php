@@ -165,7 +165,11 @@ class Equipment extends Item {
 
   }
 
+  public function is_manufactured_by( $manufacturer_name ) {
 
+    return $this->get_equipment_info()->get_manufacturer_name()->to_string() === $manufacturer_name;
+
+  }
 
   public static function sort_cheap_first( &$equipment_list ) {
 

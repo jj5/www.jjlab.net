@@ -995,7 +995,7 @@ function render_youtube_template( $equipment_list ) {
 
   tag_open( 'textarea', [ 'style' => 'height:400px;' ] );
 
-  out_text("
+  $header = "
 If you like my stuff please consider supporting me on Patreon: https://www.patreon.com/JohnElliotV
 
 Super big thank you to my subscribers and my Patreon supporters! ❤️
@@ -1006,24 +1006,42 @@ If you enjoyed this video don't forget to hit subscribe so you don't miss the ne
 
 Following is a list of products I use which may appear in my videos. Clicking through on these links before purchasing from Amazon, eBay, or AliExpress is a great way to support the channel at no cost to you. Thanks!
 
-");
+https://jj5.net/14480 Maxitronix Electronics Project Labs
+https://jj5.net/30977 Dremel Rotary Tool and Accessories
+";
+
+  $footer = "
+If you have any questions about any of the products I use please do ask in the comments section. I'm always happy to help.
+
+" . TAGLINE_THANKS;
+
+  out_text( $header );
+
+  $length = strlen( $header ) + strlen( $footer );
 
   foreach ( $equipment_list as $equipment ) {
 
+    if ( $equipment->is_manufactured_by( 'Maxitronix' ) ) { continue; }
+    if ( $equipment->is_manufactured_by( 'Dremel' ) ) { continue; }
+
     $row_number++;
 
-    out_text( $equipment->get_short_link() );
+    $link = $equipment->get_short_link();
+    $name = $equipment->get_equipment_name();
+
+    $length += strlen( $link ) + strlen( $name ) + 2;
+
+    if ( $length > 5000 ) { break; }
+
+    out_text( $link );
     out_text( ' ' );
-    out_text( $equipment->get_equipment_name() );
+    out_text( $name );
     out_text( "\n" );
 
 
   }
 
-  out_text("
-If you have any questions about any of the products I use please do ask in the comments section. I'm always happy to help.
-
-" . TAGLINE_THANKS );
+  out_text( $footer );
 
   tag_shut( 'textarea' );
 
