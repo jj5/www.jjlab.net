@@ -959,8 +959,8 @@ show(
     publication_date( '2024-07-22' ),
     title( "Cleaning, Testing, and Filing Through-Hole Resistors and Capacitors" ),
     youtube_video( 'zsWnndRJ5v0' ),
-    blog_url( '' ),
-    patreon_url( 'https://www.patreon.com/posts/' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/07/22/extra-content-cleaning-testing-and-filing-through-hole-resistors-and-capacitors-elliots-extras/' ),
+    patreon_url( 'https://www.patreon.com/posts/108544084' ),
   ),
 );
 
