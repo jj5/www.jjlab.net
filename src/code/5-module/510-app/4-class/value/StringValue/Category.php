@@ -188,7 +188,8 @@ class Category extends StringValue {
       'Attachment',
 
       'Router',
-      'Vise',
+      'Vise', // US English
+      'Vice', // UK English
       'Drill Press',
 
       'XH2.54',
@@ -238,6 +239,8 @@ class Category extends StringValue {
       'Funnel',
 
       'Cable Tidy',
+
+      'Abrasive',
 
     ];
 

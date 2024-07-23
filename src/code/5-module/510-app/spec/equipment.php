@@ -8929,8 +8929,207 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2024-07-22' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/Hcb751e5dcab04de6b91e5c9d9e30bc6bS/50mm-2-Inch-Polishing-Mix-Grit-Sanding-Disc-Polish-Pad-Backer-Sander-Plate-with-3mm-Shank.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "OOTDTY" ),
+    model_name        ( "K9FA1E0555" ),
+    equipment_type    ( "Sanding Disc" ),
+    category          ( 'Attachment' ),
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005002669079984.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DD89YZt' ),
+    listing_name  ( "50mm 2 Inch Polishing Mix Grit Sanding Disc Polish Pad Backer Sander Plate with 3mm Shank For Electric Grinder Rotary Tool" ),
+    item_price    ( 'AU$3.35' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005002669079984.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.1.21ef1802nljgOa&orderId=8191346704913938' ),
+    order_id        ( '8191346704913938' ),
+    order_date      ( 'Jul 22, 2024' ),
+    order_item_name ( '50mm 2 Inch Polishing Mix Grit Sanding Disc Polish Pad Backer Sander Plate with 3mm Shank For Electric Grinder Rotary Tool' ),
+    order_price     ( 'AU$10.43' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$0.01' ),
+    order_gst       ( 'AU$0.94' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-22' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/S7430719a9bbb4a868aae9c87e03b2261o/DSPIAE-CFB-S01-CFB-S02-CFB-S03-Lrregular-Carbon-Fiber-Sanding-Stick-Black-3Pcs-set-Abrasive.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( "J1091302" ),
+    equipment_type    ( "Sanding Stick" ),
+    category          ( 'Abrasive' ),
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005003288036885.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DFqrJNH' ),
+    listing_name  ( "DSPIAE CFB-S01 CFB-S02 CFB-S03 Lrregular Carbon Fiber Sanding Stick Black 3Pcs/set Abrasive Tools" ),
+    item_price    ( 'AU$6.08' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005003288036885.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.6.21ef1802nljgOa&orderId=8191346704933938' ),
+    order_id        ( '8191346704933938' ),
+    order_date      ( 'Jul 22, 2024' ),
+    order_item_name ( 'DSPIAE CFB-S01 CFB-S02 CFB-S03 Lrregular Carbon Fiber Sanding Stick Black 3Pcs/set Abrasive Tools' ),
+    order_options   ( 'CFB-S01, CN' ),
+    order_price     ( 'AU$6.05' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.61' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005003288036885.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.6.21ef1802nljgOa&orderId=8191346704933938' ),
+    order_id        ( '8191346704933938' ),
+    order_date      ( 'Jul 22, 2024' ),
+    order_item_name ( 'DSPIAE CFB-S01 CFB-S02 CFB-S03 Lrregular Carbon Fiber Sanding Stick Black 3Pcs/set Abrasive Tools' ),
+    order_options   ( 'CFB-S02, CN' ),
+    order_price     ( 'AU$6.19' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.62' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005003288036885.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.12.21ef1802nljgOa&orderId=8191346704963938' ),
+    order_id        ( '8191346704963938' ),
+    order_date      ( 'Jul 22, 2024' ),
+    order_item_name ( 'DSPIAE CFB-S01 CFB-S02 CFB-S03 Lrregular Carbon Fiber Sanding Stick Black 3Pcs/set Abrasive Tools' ),
+    order_options   ( 'CFB-S03, CN' ),
+    order_price     ( 'AU$6.19' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.62' ),
+  ),
+);
+
+
+equipment(
+  equipment_date( '2024-07-22' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/S573df8e86d3b4058893c22f50821c590z/1-Pack-Nylon-Mini-Drill-Abrasive-Brush-2-35mm-3mm-Shank-Buffing-Polishing-Wheel-Rust-Remover.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( "Nylon" ),
+    equipment_type    ( "Abrasive Brush" ),
+    category          ( 'Abrasive' ),
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005687549688.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DeX7bKn' ),
+    listing_name  ( "1 Pack Nylon Mini Drill Abrasive Brush 2.35mm 3mm Shank Buffing Polishing Wheel Rust Remover for Dremel Rotary Tool Accessories" ),
+    item_options  ( 'With 3mm Shank, Mixed, 20pcs' ),
+    item_price    ( 'AU$7.55' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005687549688.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.17.21ef1802nljgOa&orderId=8191346704983938' ),
+    order_id        ( '8191346704983938' ),
+    order_date      ( 'Jul 22, 2024' ),
+    order_item_name ( '1 Pack Nylon Mini Drill Abrasive Brush 2.35mm 3mm Shank Buffing Polishing Wheel Rust Remover for Dremel Rotary Tool Accessories' ),
+    order_options   ( 'With 3mm Shank, Mixed, 20pcs' ),
+    order_price     ( 'AU$7.55' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.76' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-22' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/S38760e1018a349bda6b67eb97cedf68f9/20Pcs-5mm-Brass-Wire-Brushes-Rotary-Wire-Wheel-Pencil-Polising-Brushes-For-Power-Drill-Tool-Foredom.jpeg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "VIBRATITE" ),
+    model_name        ( "5mm Brass" ),
+    equipment_type    ( "Rotary Wire Brush" ),
+    category          ( 'Abrasive' ),
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007127462026.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DdL3f3h' ),
+    listing_name  ( "20Pcs 5mm Brass Wire Brushes Rotary Wire Wheel Pencil Polising Brushes For Power Drill Tool Foredom Machine Metal Polishing Tool" ),
+    item_price    ( 'AU$6.23' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007127462026.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.22.21ef1802nljgOa&orderId=8191346705003938' ),
+    order_id        ( '8191346705003938' ),
+    order_date      ( 'Jul 22, 2024' ),
+    order_item_name ( '20Pcs 5mm Brass Wire Brushes Rotary Wire Wheel Pencil Polising Brushes For Power Drill Tool Foredom Machine Metal Polishing Tool' ),
+    order_price     ( 'AU$6.20' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.62' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-07-22' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/Sa77e352cbc1a457aa65d72e613fb1aa2p/10-20pc-Dual-Purpose-Sanding-Sticks-Precision-Frosted-Tips-Flat-Head-Ideal-for-Crafts-Model-Making.jpg_.webp' ),
+  equipment_info(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( "Dual-Purpose" ),
+    equipment_type    ( "Sanding Sticks" ),
+    category          ( 'Abrasive' ),
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006821734079.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DDYk0un' ),
+    listing_name  ( "10/20pc Dual-Purpose Sanding Sticks - Precision Frosted Tips & Flat Head - Ideal for Crafts & Model Making" ),
+    item_options  ( '20pcs' ),
+    item_price    ( 'AU$3.36' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006821734079.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.27.21ef1802nljgOa&orderId=8191346704893938' ),
+    order_id        ( '8191346704893938' ),
+    order_date      ( 'Jul 22, 2024' ),
+    order_item_name ( '10/20pc Dual-Purpose Sanding Sticks - Precision Frosted Tips & Flat Head - Ideal for Crafts & Model Making' ),
+    order_options   ( '20pcs' ),
+    order_price     ( 'AU$3.36' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$0.34' ),
+  ),
+);
 
 /*
+
+equipment(
+  equipment_date( '2024-07-22' ),
+  equipment_icon( '' ),
+  equipment_info(
+    manufacturer_name ( "" ),
+    model_name        ( "" ),
+    equipment_type    ( "" ),
+    category          ( '' ),
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( '' ),
+    affiliate_url ( '' ),
+    listing_name  ( "" ),
+    item_options  ( '' ),
+    item_price    ( '' ),
+  ),
+  purchase(
+    equipment_url   ( '' ),
+    order_url       ( '' ),
+    order_id        ( '' ),
+    order_date      ( 'Jul 22, 2024' ),
+    order_item_name ( '' ),
+    order_options   ( '' ),
+    order_price     ( '' ),
+    order_quantity  ( 1 ),
+    order_gst       ( '' ),
+  ),
+);
+
 
 equipment(
   equipment_date( '2024-??-??' ),

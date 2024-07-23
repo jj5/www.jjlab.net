@@ -1145,7 +1145,15 @@ function render_blog_template( $equipment_list ) {
 
       out_text( "Following is a list of products I use which may appear in my videos. " );
       out_text( "Clicking through on these links before purchasing from Amazon, eBay, or AliExpress is a great way " );
-      out_text( "to support the channel at no cost to you. Thanks!\n" );
+      out_text( "to support the channel at no cost to you. Thanks!\n\n" );
+
+      $end_id = date( 'Y-m-d-His' );
+
+      out_text( 'Note: you can ' );
+
+      render_link_internal( 'skip this', '#' . $end_id, 'Click here to skip the product list.' );
+
+      out_text( " if you would prefer.\n\n" );
 
       tag_open( 'table', [ 'class' => 'table equipment' ] );
 
@@ -1224,7 +1232,9 @@ function render_blog_template( $equipment_list ) {
 
       tag_shut( 'table' );
 
-      out_text( "\n\nLet's go shopping!" );
+      out_text( "\n\n" );
+
+      tag_text( 'p', "Let's go shopping!", [ 'id' => $end_id ] );
 
     nip_done( $html, $echo = true );
 
@@ -1327,6 +1337,15 @@ function render_equipment_table( $equipment_list ) {
                     $short_link,
                     TITLE_LINK_SHORT,
                   );
+
+                tag_shut( 'div' );
+
+                tag_open( 'div' );
+
+                  $short_link_parts = explode( '/', $short_link );
+                  $jjcode = $short_link_parts[ 3 ];
+
+                  out_text( "JJCODE: $jjcode" );
 
                 tag_shut( 'div' );
 
