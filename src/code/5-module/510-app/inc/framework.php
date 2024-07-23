@@ -73,6 +73,10 @@ function is_john() {
 
   if ( is_dev() ) { return true; }
 
+  // 2024-07-23 jj5 - NOTE: we can use the IP address if we need to, but it's not necessary for now.
+
+  return false;
+
   return $_SERVER[ 'REMOTE_ADDR' ] === '139.216.80.100';
 
 }
