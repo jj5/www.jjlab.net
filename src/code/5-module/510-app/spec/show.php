@@ -973,3 +973,13 @@ show(
     patreon_url( 'https://www.patreon.com/posts/108647369' ),
   ),
 );
+
+show(
+  extra_content(
+    publication_date( '2024-07-23' ),
+    title( "Cleaning Rust Off Handheld Wire Stripper Using Dremel Rotary Tool and WD-40" ),
+    youtube_video( 'lxf7SyPAXCo' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/07/23/extra-content-cleaning-rust-off-handheld-wire-stripper-using-dremel-rotary-tool-and-wd-40/' ),
+    patreon_url( 'https://www.patreon.com/posts/108653970' ),
+  ),
+);
