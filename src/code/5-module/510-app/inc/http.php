@@ -147,9 +147,9 @@ function render_xslt_head() {
 		<link rel="icon" href="<?= $cdn_base ?>/res/img.php/logo.png?v=<?= $version ?>" />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
 
-		<link rel="stylesheet" href="<?= $cdn_base ?>/res/style.php?v=<?= $version ?>" />
+		<link rel="stylesheet" href="<?= $cdn_base ?>/res/style.php/<?= $version ?>/style.css" />
 		<script>var DEBUG = false;</script>
-		<script src="<?= $cdn_base ?>/res/script.php?v=<?= $version ?>"></script>
+		<script src="<?= $cdn_base ?>/res/script.php/<?= $version ?>/script.js"></script>
 
 		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/banner-base.jpg?v=<?= $version ?>" as="image" />
 		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/banner-0640.jpg?v=<?= $version ?>" as="image" />

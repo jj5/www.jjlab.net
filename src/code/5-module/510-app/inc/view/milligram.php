@@ -292,7 +292,7 @@ function render_head( string $heading, array $options = [] ) {
 
       $version = get_resource_version();
 
-      tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => url_base( $use_cdn = true ) . "/res/style.php?v=$version" ] );
+      tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => url_base( $use_cdn = true ) . "/res/style.php/$version/style.css" ] );
 
       tag_open( 'script' );
 
@@ -304,7 +304,7 @@ function render_head( string $heading, array $options = [] ) {
 
       tag_shut( 'script' );
 
-      tag_bare( 'script', [ 'src' => url_base( $use_cdn = true ) . "/res/script.php?v=$version" ] );
+      tag_bare( 'script', [ 'src' => url_base( $use_cdn = true ) . "/res/script.php/$version/script.js" ] );
 
       foreach ([
         'banner-base.jpg',
