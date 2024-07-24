@@ -985,18 +985,6 @@ show(
 );
 
 show(
-  maxitronix_segment(
-    publication_date( '2024-04-03' ),
-    title( "Shot In The Dark II" ),
-    project( 8, 20 ),
-    maxitronix_kit_name( '20in1' ),
-    youtube_video( 'yrvngScUyro' ),
-    blog_url( 'https://blog.jj5.net/blog/2024/04/03/shot-in-the-dark-ii-project-8-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
-    patreon_url( 'https://www.patreon.com/posts/101592766' ),
-  ),
-);
-
-show(
   new_book_teardown(
     publication_date( '2024-07-24' ),
     youtube_video( 'X1iF1KgdqkU' ),
