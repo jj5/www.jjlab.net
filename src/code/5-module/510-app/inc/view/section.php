@@ -110,7 +110,7 @@ define( 'TITLE_BUY_ADAFRUIT_RULER', 'Click here to find out more about my Adafru
 define( 'TITLE_VIDEO_INDEX', 'Click here to see the "secret" index of all videos. [Hotkey: V]' );
 define( 'TITLE_BOOK_INDEX', 'Click here to see the "secret" index of all books. [Hotkey: B]' );
 define( 'TITLE_BLOG_TEMPLATE', 'Click here to see the template blog post that John uses for the show notes. [Hotkey: T]' );
-define( 'TITLE_YOUTUBE_TEMPLATE', 'Click here to see my YouTube video comment template. [Hotkey: Q]' );
+define( 'TITLE_YOUTUBE_TEMPLATE', 'Click here to see my YouTube video comment template. [Hotkey: Y]' );
 define( 'TITLE_SOFTWARE_VERSION', 'Click here for information about the website software [Hotkey: Z]' );
 define( 'TITLE_DEBUG', 'Click here at your peril. :) [Hotkey: D]' );
 define( 'TITLE_YOUTUBE_HACKS', 'Click here to read about YouTube hacks. [Hotkey: 3]' );
