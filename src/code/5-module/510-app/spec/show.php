@@ -983,3 +983,39 @@ show(
     patreon_url( 'https://www.patreon.com/posts/108653970' ),
   ),
 );
+
+show(
+  maxitronix_segment(
+    publication_date( '2024-04-03' ),
+    title( "Shot In The Dark II" ),
+    project( 8, 20 ),
+    maxitronix_kit_name( '20in1' ),
+    youtube_video( 'yrvngScUyro' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/04/03/shot-in-the-dark-ii-project-8-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/101592766' ),
+  ),
+);
+
+show(
+  new_book_teardown(
+    publication_date( '2024-07-24' ),
+    youtube_video( 'X1iF1KgdqkU' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/07/24/electrical-engineering-101-everything-you-should-have-learned-in-school-but-probably-didnt-3rd-edition-2011/' ),
+    patreon_url( 'https://www.patreon.com/posts/108715597' ),
+    new_book(
+      // 2024-07-24 jj5 - NEW:
+      title( "Electrical Engineering 101" ),
+      subtitle( "Everything You Should Have Learned in School...but Probably Didn't" ),
+      // 2024-07-24 jj5 - OLD: this was too long:
+      //title( "Electrical Engineering 101: Everything You Should Have Learned in School...but Probably Didn't" ),
+      edition( 3 ),
+      author( 'Darren Ashby' ),
+      copyright_year( '2011' ),
+      page_count( 304 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/dp/0123860016' ),
+        item_price    ( 'US$34.95' ),
+      ),
+    ),
+  ),
+);
