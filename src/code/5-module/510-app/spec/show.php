@@ -1007,3 +1007,13 @@ show(
     ),
   ),
 );
+
+show(
+  mail_call(
+    publication_date( '2024-07-25' ),
+    title( 'More Loot from AliExpress and eBay!' ),
+    youtube_video( 'RatZAdFHRb0' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/07/25/mail-call-more-loot-from-aliexpress-and-ebay-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/108788336' ),
+  ),
+);

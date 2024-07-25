@@ -9098,6 +9098,34 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2024-07-22' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/Mk8AAOSwqR1l84Gk/s-l1600.jpg' ),
+  equipment_info(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( "Bootlace" ),
+    equipment_type    ( "Ferrule Crimper Kit" ),
+    category          ( 'Hand Tool' ),
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/166648223438' ),
+    affiliate_url ( 'https://ebay.us/AKGAQo' ),
+    listing_name  ( "1200 Ferrule Crimper Plier Kit 0.25-10mm²Wire End Terminal Ratchet Crimping Tool" ),
+    item_price    ( 'AU$22.35' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/166648223438' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=21-11836-88885#/' ),
+    order_id        ( '21-11836-88885' ),
+    order_date      ( '22 Jul 2024' ),
+    order_item_name ( '1200 Ferrule Crimper Plier Kit 0.25-10mm²Wire End Terminal Ratchet Crimping Tool' ),
+    order_price     ( 'AU$19.35' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+
 /*
 
 equipment(
