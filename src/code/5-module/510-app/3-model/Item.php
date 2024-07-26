@@ -6,9 +6,12 @@ class Item extends MudGadget implements INullable {
 
   protected $debug_string = null;
 
-  protected $item_id = null;
+  private $item_id = null;
+
   protected $property_list = [];
+
   protected $property_map = [];
+
   protected $parent = null;
 
   public function __construct( int $item_id = 0, array $args = [] ) {

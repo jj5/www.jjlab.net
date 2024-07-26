@@ -703,7 +703,10 @@ show(
 show(
   extra_content(
     publication_date( '2024-04-03' ),
-    title( "The SCSI Bus and IDE Interface: Protocols, Applications and Programming (2nd Edition)" ),
+    // 2024-07-26 jj5 - NEW:
+    title( "The SCSI Bus and IDE Interface: Protocols, Applications and Programming" ),
+    // 2024-07-26 jj5 - OLD: this was too long...
+    //title( "The SCSI Bus and IDE Interface: Protocols, Applications and Programming (2nd Edition)" ),
     youtube_video( 'rtDf9n6SW3c' ),
     blog_url( 'https://blog.jj5.net/blog/2024/04/03/the-scsi-bus-and-ide-interface-protocols-applications-and-programming-2nd-edition/' ),
     book(
@@ -1016,4 +1019,44 @@ show(
     blog_url( 'https://blog.jj5.net/blog/2024/07/25/mail-call-more-loot-from-aliexpress-and-ebay-learning-electronics-in-the-lab-with-jay-jay/' ),
     patreon_url( 'https://www.patreon.com/posts/108788336' ),
   ),
+);
+
+show(
+  silly_job_title( 'Buzz Boss' ),
+  electronics_project(
+    publication_date( '2024-07-26' ),
+    title( "ICL8038 Monolithic Function/Signal Generator Kit Build and Test" ),
+    youtube_video( 'sWDw9Ttd_W8' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/07/26/electronics-project-icl8038-monolithic-function-signal-generator-kit-build-and-test-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/108839807' ),
+  ),
+  /*
+  old_book_teardown(
+    publication_date( '2024-07-11' ),
+    youtube_video( '7qUCJVdsGD8' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/07/11/old-book-teardown-radio-engineering-3rd-edition-1947-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/107853309' ),
+    old_book(
+      title( "Radio Engineering" ),
+      edition( 3 ),
+      author( 'Frederick Emmons Terman' ),
+      copyright_year( '1947' ),
+      page_count( 953 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/dp/B0007JUUAO' ),
+        item_price    ( 'US$19.99' ),
+      ),
+    ),
+  ),
+  */
+);
+
+show(
+  channel_news(
+    publication_date( '2024-07-27' ),
+    title( "I Am Altering the Deal, Pray I Don't Alter It Any Further" ),
+    youtube_video( 'J58WnvCobx0' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/07/27/channel-news-4-i-am-altering-the-deal-pray-i-dont-alter-it-any-further-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/108853037' ),
+  )
 );

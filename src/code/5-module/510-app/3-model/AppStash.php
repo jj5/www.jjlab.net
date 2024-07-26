@@ -11,6 +11,7 @@ class AppStash {
   private $item_id_map = [];
 
   private $item_slug_map = [];
+
   private $item_name_map = [];
 
   public function get_channel( $slug ) {

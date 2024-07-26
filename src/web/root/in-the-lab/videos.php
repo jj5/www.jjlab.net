@@ -81,6 +81,7 @@ function render_videos_main( $video_list ) {
             tag_text( 'th', 'YouTube Video Title' );
             tag_text( 'th', 'YouTube Video Link' );
             tag_text( 'th', 'Show Notes' );
+            tag_text( 'th', 'Patreon' );
             tag_text( 'th', 'Sponsors' );
 
           tag_shut( 'tr' );
@@ -192,6 +193,24 @@ function render_videos_main( $video_list ) {
                 $url = $video->get_segment()->get_blog_url();
 
                 $url->render_external_link( $url->get_domain() );
+
+              tag_shut( 'td' );
+
+              tag_open( 'td' );
+
+                $url = $video->get_segment()->get_patreon_url();
+
+                $href  = $url->to_string();
+
+                if ( preg_match( '|[/-](\d+)$|', $href, $matches ) ) {
+
+                  $text = $matches[ 1 ];
+
+                  render_link_external( $text, "$href/edit", 'Click here to edit Patreon announcement.' );
+
+                }
+
+                //$url->render_external_link( $text );
 
               tag_shut( 'td' );
 

@@ -23,6 +23,7 @@ equipment(
     category          ( 'Test Equipment' ),
     category          ( 'BNC' ),
     category          ( 'USB' ),
+    category          ( '❤️' ),
     manufacturer_link (
       link_href       ( 'https://www.rigolna.com/products/digital-oscilloscopes/MSO5000/MSO5074/' ),
       link_text       ( 'MSO5000 Mixed Signal Oscilloscopes | RIGOL - RIGOL Technologies' ),
@@ -8072,6 +8073,7 @@ equipment(
     equipment_type    ( "Screwdriver Set" ),
     category          ( 'Screwdriver' ),
     category          ( 'Drill Bit' ),
+    category          ( '❤️' ),
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Mini_Magnetic_Precision_Screwdriver_Set' ),
   affiliate_link(
@@ -8692,6 +8694,7 @@ equipment(
     equipment_type    ( "Wire Cutters" ),
     category          ( 'Hand Tool' ),
     category          ( 'Wire Cutter' ),
+    category          ( '❤️' ),
   ),
   sixsigma_url    ( 'https://www.jj5.net/wiki/Plato_Model_170_Wire_Cutters' ),
   see_also        ( 'Aokin Wire Cutter' ),

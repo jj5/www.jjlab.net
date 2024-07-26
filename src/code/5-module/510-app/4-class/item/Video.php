@@ -177,17 +177,17 @@ abstract class Video extends Item {
 
     $segment = $this->get_segment();
 
+    /*
     if ( is_a( $segment, EarlyContent::class ) ) { return $this->get_video_title_without_prefix(); }
-
     if ( is_a( $segment, Unboxing::class ) ) { return $this->get_video_title_without_prefix(); }
+    if ( is_a( $segment, ExtraContent::class ) ) { return $this->get_extra_content_video_title(); }
+    */
 
     if ( is_a( $segment, MaxitronixSegment::class ) ) { return $this->get_maxitronix_video_title(); }
 
-    if ( is_a( $segment, ExtraContent::class ) ) { return $this->get_extra_content_video_title(); }
-
     //if ( is_a( $segment, BookSegment::class ) ) { return $this->get_book_video_title(); }
 
-    $segment_name = strval( $segment->get_segment_name() );
+    $segment_name = strval( $segment->get_segment_name() ) . ' #' . $segment->get_item_id();
     $video_name = strval( $this->get_video_name() );
 
     $name = "$segment_name: $video_name | Learning Electronics In The Lab With Jay Jay";
@@ -211,29 +211,6 @@ abstract class Video extends Item {
     return $name;
 
   }
-
-  public function get_video_title_without_prefix() {
-
-    $video_name = strval( $this->get_video_name() );
-
-    $name = "$video_name | Learning Electronics In The Lab With Jay Jay";
-
-    if ( strlen( $name ) <= 100 ) { return $name; }
-
-    $name = "$video_name | In The Lab With Jay Jay";
-
-    if ( strlen( $name ) <= 100 ) { return $name; }
-
-    $name = "$video_name | In The Lab";
-
-    if ( strlen( $name ) <= 100 ) { return $name; }
-
-    $name = "$video_name";
-
-    return $name;
-
-  }
-
 
   public function get_maxitronix_video_title() {
 
@@ -281,6 +258,30 @@ abstract class Video extends Item {
 
   }
 
+
+  /*
+  public function get_video_title_without_prefix() {
+
+    $video_name = strval( $this->get_video_name() );
+
+    $name = "$video_name | Learning Electronics In The Lab With Jay Jay";
+
+    if ( strlen( $name ) <= 100 ) { return $name; }
+
+    $name = "$video_name | In The Lab With Jay Jay";
+
+    if ( strlen( $name ) <= 100 ) { return $name; }
+
+    $name = "$video_name | In The Lab";
+
+    if ( strlen( $name ) <= 100 ) { return $name; }
+
+    $name = "$video_name";
+
+    return $name;
+
+  }
+
   public function get_extra_content_video_title() {
 
     $segment = $this->get_segment();
@@ -300,6 +301,8 @@ abstract class Video extends Item {
     return $name;
 
   }
+  */
+
 }
 
 class NullVideo extends Video {

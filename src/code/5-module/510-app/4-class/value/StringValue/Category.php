@@ -242,6 +242,8 @@ class Category extends StringValue {
 
       'Abrasive',
 
+      '❤️',
+
     ];
 
     if ( $category_order === null ) { $category_order = array_flip( $category_list ); }
