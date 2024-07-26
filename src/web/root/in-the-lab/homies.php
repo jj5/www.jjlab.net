@@ -61,8 +61,16 @@ function render_homies_main() {
           "Man, I love the long tail. There is so much interesting stuff on the web theses days, including on YouTube, " .
           "wouldn't you agree? On this page I wanted to let you know about some of the people who I follow. I can't list " .
           "everyone who I follow on YouTube, so the criteria for this list is whether I sponsor them on Patreon or not. " .
-          "Yes, I do sponsor people on Patreon! Don't you? :)"
+          "Yes, I do sponsor people on Patreon! "
         );
+
+        render_link_external(
+          "Don't you?",
+          'https://www.patreon.com/JohnElliotV',
+          TITLE_PATREON
+        );
+
+        out_text( ' :)' );
 
       tag_shut( 'p' );
 
