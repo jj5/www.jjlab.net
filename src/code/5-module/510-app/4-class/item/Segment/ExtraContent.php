@@ -63,8 +63,10 @@ class ExtraContent extends Segment {
   }
 
   public function render_title_prefix() {
-    
-    out_text( 'Extra Content: ' );
+
+    $id = $this->get_item_id();
+
+    out_text( "Extra Content #$id: " );
     
   }
 

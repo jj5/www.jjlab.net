@@ -63,8 +63,10 @@ class EarlyContent extends Segment {
   }
 
   public function render_title_prefix() {
-    
-    out_text( 'Early Content: ' );
+
+    $id = $this->get_item_id();
+
+    out_text( "Early Content #$id: " );
     
   }
 

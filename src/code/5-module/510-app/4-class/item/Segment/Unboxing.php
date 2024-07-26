@@ -46,7 +46,9 @@ class Unboxing extends Segment {
 
   public function render_title_prefix() {
     
-    out_text( 'Unboxing: ' );
+    $id = $this->get_item_id();
+
+    out_text( "Unboxing #$id: " );
     
   }
 

@@ -79,7 +79,9 @@ class NewBookTeardown extends BookSegment {
 
   public function render_title_prefix() {
     
-    out_text( 'New Book Teardown: ' );
+    $id = $this->get_item_id();
+
+    out_text( "New Book Teardown #$id: " );
     
   }
 

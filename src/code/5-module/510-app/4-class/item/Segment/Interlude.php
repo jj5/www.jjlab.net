@@ -63,8 +63,10 @@ class Interlude extends Segment {
   }
 
   public function render_title_prefix() {
-    
-    out_text( 'Interlude: ' );
+
+    $id = $this->get_item_id();
+
+    out_text( "Interlude #$id: " );
     
   }
 

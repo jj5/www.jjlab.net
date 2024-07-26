@@ -40,7 +40,9 @@ class MailCall extends Segment {
 
   public function render_title_prefix() {
     
-    out_text( 'Mail Call: ' );
+    $id = $this->get_item_id();
+
+    out_text( "Mail Call #$id: " );
     
   }
 

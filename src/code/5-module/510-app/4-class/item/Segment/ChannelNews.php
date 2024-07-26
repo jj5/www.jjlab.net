@@ -64,7 +64,10 @@ class ChannelNews extends Segment {
 
   public function render_title_prefix() {
     
-    out_text( 'Channel News: ' );
+
+    $id = $this->get_item_id();
+
+    out_text( "Channel News #$id: " );
     
   }
 

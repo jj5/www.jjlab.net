@@ -101,7 +101,9 @@ class ElectronicsProject extends Segment {
 
   public function render_title_prefix() {
     
-    out_text( 'Electronics Project: ' );
+    $id = $this->get_item_id();
+
+    out_text( "Electronics Project #$id: " );
     
   }
 
