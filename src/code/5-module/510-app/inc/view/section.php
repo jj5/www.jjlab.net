@@ -2976,7 +2976,15 @@ function render_section_about_homies( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'I also call the people who support me (or follow me) on Patreon my "homies" as well.' );
+      out_text( 'I also call the people who support me (or follow me) ' );
+
+      render_link_external(
+        'on Patreon',
+        'https://www.patreon.com/JohnElliotV',
+        TITLE_PATREON,
+      );
+
+      out_text( ' my "homies" as well.' );
 
     tag_shut( 'p' );
 
