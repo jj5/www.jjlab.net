@@ -1174,7 +1174,7 @@ function render_blog_template( $equipment_list ) {
                 'td',
                 [
                   'class' => 'product',
-                  'style' => 'text-align: center !important;',
+                  'style' => 'text-align: center !important; border-top: 1px solid #ddd;',
                 ]
                 );
 
@@ -1195,7 +1195,7 @@ function render_blog_template( $equipment_list ) {
                     $product,
                     [
                       'class' => 'product-name',
-                      'style' => 'display: block !important; color: #1982d1; text-decoration: none; font-size: 30px;',
+                      'style' => 'display: block !important; color: #1982d1; text-decoration: none; font-size: 30px; margin: 20px auto;',
                     ]
                   );
 
@@ -1206,7 +1206,10 @@ function render_blog_template( $equipment_list ) {
                       'loading' => 'lazy',
                       'src' => $thumb,
                       'alt' => 'This is an image of the product.',
-                      'style' => 'display: block !important; border: 1px solid black; border-radius: 10px; margin: 20px auto; min-width: 50% !important; height: auto !important; width: 150px;',
+                      // 2024-07-29 jj5 - NEW:
+                      'style' => 'display: block !important; border: 1px solid black; border-radius: 10px; margin: 20px auto; height: auto !important; width: 150px;',
+                      // 2024-07-29 jj5 - OLD:
+                      //'style' => 'display: block !important; border: 1px solid black; border-radius: 10px; margin: 20px auto; min-width: 50% !important; height: auto !important; width: 150px;',
                     ]
                   );
 
