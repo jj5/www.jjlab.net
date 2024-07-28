@@ -8,17 +8,23 @@ var TITLE_HEADING_LINK = 'Click here to link to this heading.';
 
 (function() {
 
-  if ( window.DEV ) { return; }
-
   var canonical_domain = "www.inthelabwithjayjay.com";
   var current_domain = window.location.hostname;
+
+  console.log( 'canonical_domain: ' + canonical_domain );
+  console.log( 'current_domain: ' + current_domain );
 
   if ( current_domain === canonical_domain ) { return; }
 
   // 2024-07-29 JJ5 - redirect to the canonical domain, preserving the path and query parameters
+  //
   var new_url = window.location.protocol + "//" + canonical_domain + window.location.pathname + window.location.search;
 
-  window.location.replace( new_url );
+  console.log( 'new_url: ' + new_url );
+
+  if ( window.DEV ) { return; }
+
+  window.location = new_url;
 
 })();
 
