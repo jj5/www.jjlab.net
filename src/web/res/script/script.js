@@ -8,7 +8,7 @@ var TITLE_HEADING_LINK = 'Click here to link to this heading.';
 
 (function() {
 
-  if ( window.DEBUG ) { return; }
+  if ( window.DEV ) { return; }
 
   var canonical_domain = "www.inthelabwithjayjay.com";
   var current_domain = window.location.hostname;
@@ -16,7 +16,8 @@ var TITLE_HEADING_LINK = 'Click here to link to this heading.';
   if ( current_domain === canonical_domain ) { return; }
 
   // 2024-07-29 JJ5 - redirect to the canonical domain, preserving the path and query parameters
-  var new_url = window.location.protocol + "//" + canonicalDomain + window.location.pathname + window.location.search;
+  var new_url = window.location.protocol + "//" + canonical_domain + window.location.pathname + window.location.search;
+
   window.location.replace( new_url );
 
 })();

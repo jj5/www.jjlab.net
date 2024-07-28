@@ -296,11 +296,14 @@ function render_head( string $heading, array $options = [] ) {
 
       tag_open( 'script' );
 
-        out_code( "\nvar MUD_SERVER_VERSION = " . json_encode( MUDBALL_VERSION ) . ";\n");
-        out_code( "\nvar APP_SERVER_VERSION = " . json_encode( JJLAB_VERSION ) . ";\n");
-        out_code( "\nvar URL_BASE = " . json_encode( url_base() ) . ";\n");
-        out_code( "\nvar DEBUG = " . json_encode( DEBUG ) . ";\n");
-        out_code( "\nvar IS_JOHN = " . json_encode( is_john() ) . ";\n");
+        out_code( "\nvar MUD_SERVER_VERSION = " . json_encode( MUDBALL_VERSION ) . ";");
+        out_code( "\nvar APP_SERVER_VERSION = " . json_encode( JJLAB_VERSION ) . ";");
+        out_code( "\nvar URL_BASE = " . json_encode( url_base() ) . ";");
+        out_code( "\nvar DEBUG = " . json_encode( DEBUG ) . ";");
+        out_code( "\nvar DEV = " . json_encode( DEV ) . ";");
+        out_code( "\nvar BETA = " . json_encode( BETA ) . ";");
+        out_code( "\nvar IS_JOHN = " . json_encode( is_john() ) . ";");
+        out_code( "\n" );
 
       tag_shut( 'script' );
 
