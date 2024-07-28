@@ -8,7 +8,7 @@ var TITLE_HEADING_LINK = 'Click here to link to this heading.';
 
 (function() {
 
-  if ( window.DEV ) { return; }
+  if ( window.DEBUG ) { return; }
 
   var canonical_domain = "www.inthelabwithjayjay.com";
   var current_domain = window.location.hostname;
