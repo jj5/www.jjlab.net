@@ -1,12 +1,12 @@
 <?php
 
-function maxitronix_segment() {
+function mini_project() {
 
-  return new_item( MaxitronixSegment::class, func_get_args() );
+  return new_item( MiniProject::class, func_get_args() );
 
 }
 
-class MaxitronixSegment extends Segment {
+class MiniProject extends Segment {
 
   public function get_channel() {
 
@@ -22,15 +22,7 @@ class MaxitronixSegment extends Segment {
 
   public function get_feature() {
 
-    return get_item_by_slug( Feature::class, $this->get_slug() );
-
-  }
-
-  public function get_slug() {
-
-    $kit = $this->get_maxitronix_kit_name()->to_string();
-
-    return "maxitronix-$kit";
+    return get_item_by_slug( Feature::class, 'mini-project' );
 
   }
 
@@ -40,54 +32,55 @@ class MaxitronixSegment extends Segment {
 
   }
 
-  public function get_maxitronix_kit_name() {
+  public function get_mini_project_number() {
 
-    return $this->get( MaxitronixKitName::class );
+    return $this->get( MiniProjectNumber::class );
 
   }
 
   public function get_youtube_video_title() {
 
     $segment = $this;
-    $video = $this->get_video();
+    $video = $this->get_youtube_video();
 
     $video_name = strval( $video->get_video_name() );
-    $kit = $segment->get_maxitronix_kit_name()->to_string();
-    $project = $segment->get_project()->to_string();
+    $number = $segment->get_mini_project_number()->to_string();
 
-    if ( $project ) {
+    if ( $number ) {
 
-      $name = "$video_name | Project $project | Maxitronix $kit | Learning Electronics In The Lab With Jay Jay";
-
-      if ( strlen( $name ) <= 100 ) { return $name; }
-
-      $name = "$video_name | Project $project | Maxitronix $kit | In The Lab With Jay Jay";
+      $name = "$video_name | Mini Project $number | Learning Electronics In The Lab With Jay Jay";
 
       if ( strlen( $name ) <= 100 ) { return $name; }
 
-      $name = "$video_name | Project $project | Maxitronix $kit | In The Lab";
+      $name = "$video_name | Mini Project $number | In The Lab With Jay Jay";
 
       if ( strlen( $name ) <= 100 ) { return $name; }
 
-      $name = "$video_name | Project $project | Maxitronix $kit";
+      $name = "$video_name | Mini Project $number | In The Lab";
+
+      if ( strlen( $name ) <= 100 ) { return $name; }
+
+      $name = "$video_name | $number | In The Lab";
+
+      if ( strlen( $name ) <= 100 ) { return $name; }
+
+      $name = "$video_name | $number";
 
       return $name;
 
     }
 
-    $name = "$video_name | Maxitronix $kit | Learning Electronics In The Lab With Jay Jay";
+    $name = "$video_name | Learning Electronics In The Lab With Jay Jay";
 
     if ( strlen( $name ) <= 100 ) { return $name; }
 
-    $name = "$video_name | Maxitronix $kit | In The Lab With Jay Jay";
+    $name = "$video_name | In The Lab With Jay Jay";
 
     if ( strlen( $name ) <= 100 ) { return $name; }
 
-    $name = "$video_name | Maxitronix $kit | In The Lab";
+    $name = "$video_name | In The Lab";
 
     if ( strlen( $name ) <= 100 ) { return $name; }
-
-    $name = "$video_name | Maxitronix $kit";
 
     return $name;
 
@@ -95,9 +88,10 @@ class MaxitronixSegment extends Segment {
 
   public function render_extra_video_attributes() {
 
-    tag_text( 'dt', 'Maxitronix Kit' );
+    tag_text( 'dt', 'Mini Project' );
     tag_open( 'dd' );
 
+/*
       $kit = $this->get_maxitronix_kit_name()->to_string();
 
       $title = MaxitronixKit::get_html_title( $kit );
@@ -107,6 +101,7 @@ class MaxitronixSegment extends Segment {
         url_base() . '/feature.php/maxitronix-' . $kit,
         $title,
       );
+*/
 
     tag_shut( 'dd' );
 
@@ -122,8 +117,6 @@ class MaxitronixSegment extends Segment {
         TITLE_CHANNEL_MAIN,
       );
 
-      //$this->get_channel()->render_rss_link();
-
       out_text( ' > ' );
 
       render_link_internal(
@@ -132,16 +125,15 @@ class MaxitronixSegment extends Segment {
         TITLE_SHOW_MAIN,
       );
 
-      //$this->get_show_type())->render_rss_link();
-
       out_text( ' > ' );
 
       render_link_internal(
-        "Maxitronix Xin1 Kits",
-        url_base() . "/feature.php/maxitronix",
-        TITLE_FEATURE_MAXITRONIX_KITS,
+        "Mini Project",
+        url_base() . "/feature.php/mini-project",
+        TITLE_FEATURE_MINI_PROJECT,
       );
 
+/*
       out_text( ' > ' );
 
       $kit = $this->get_maxitronix_kit_name()->to_string();
@@ -151,8 +143,7 @@ class MaxitronixSegment extends Segment {
         url_base() . "/feature.php/maxitronix-$kit",
         TITLE_FEATURE_MAXITRONIX,
       );
-
-      //$this->get_feature()->render_rss_link();
+*/
 
     tag_shut( 'p' );
 
@@ -160,25 +151,27 @@ class MaxitronixSegment extends Segment {
 
   public function render_title_prefix() {
 
-    $kit = $this->get_maxitronix_kit_name()->to_string();
+    $number = $this->get_mini_project_number()->to_string();
 
-    out_text( "Maxitronix $kit: " );
+    out_text( "Mini Project $number: " );
     
   }
 
   public function render_title_suffix() {
 
+/*
     $project = $this->get_project();
 
     if ( $project->is_null() ) { return; }
 
     out_text( " ({$project->to_string()})" );
+*/
 
   }
 
 }
 
-class NullMaxitronixSegment extends MaxitronixSegment {
+class NullMiniProject extends MiniProject {
 
   use NullItemMixin;
 

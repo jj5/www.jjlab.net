@@ -66,6 +66,36 @@ abstract class Segment extends Item {
 
   public function get_blog_url() { return $this->get( BlogUrl::class ); }
 
+  public function get_youtube_video_title() {
+
+    $segment = $this;
+    $video = $this->get_youtube_video();
+
+    $segment_name = strval( $segment->get_segment_name() ) . ' #' . $segment->get_item_id();
+    $video_name = strval( $video->get_video_name() );
+
+    $name = "$segment_name: $video_name | Learning Electronics In The Lab With Jay Jay";
+
+    if ( strlen( $name ) <= 100 ) { return $name; }
+
+    $name = "$segment_name: $video_name | In The Lab With Jay Jay";
+
+    if ( strlen( $name ) <= 100 ) { return $name; }
+
+    $name = "$segment_name: $video_name | In The Lab";
+
+    if ( strlen( $name ) <= 100 ) { return $name; }
+
+    $name = "$segment_name: $video_name";
+
+    if ( strlen( $name ) <= 100 ) { return $name; }
+
+    $name = "$video_name";
+
+    return $name;
+
+  }
+
   private $is_live = null;
 
   public function is_live() {

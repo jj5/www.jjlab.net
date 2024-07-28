@@ -1060,3 +1060,23 @@ show(
     patreon_url( 'https://www.patreon.com/posts/108853037' ),
   )
 );
+
+show(
+  mini_project(
+    publication_date( '2024-07-28' ),
+    title( "Introducing Silicon Chip and Jaycar Mini Projects" ),
+    youtube_video( 'UHEtOUDU2-I' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/07/28/introducing-silicon-chip-and-jaycar-mini-projects-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/108964831' ),
+  )
+);
+
+show(
+  extra_content(
+    publication_date( '2024-07-29' ),
+    title( "Fixing the Family Sunbeam Kettle" ),
+    youtube_video( 'PY_e0wWGIOc' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/07/29/extra-content-12-fixing-the-family-sunbeam-kettle-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/108970565' ),
+  ),
+);

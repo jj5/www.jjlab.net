@@ -1170,7 +1170,13 @@ function render_blog_template( $equipment_list ) {
 
             tag_open( 'tr' );
 
-              tag_open( 'td', [ 'class' => 'product' ] );
+              tag_open(
+                'td',
+                [
+                  'class' => 'product',
+                  'style' => 'text-align: center !important;',
+                ]
+                );
 
                 tag_open(
                   'a',
@@ -1180,6 +1186,7 @@ function render_blog_template( $equipment_list ) {
                     'rel' => 'noopener follow',
                     'href' => $link,
                     'title' => mud_format_string( TITLE_TEMPLATE_BLOG_PRODUCT, [ 'product' => $product ] ),
+                    'style' => 'display: block !important; color: #1982d1; text-decoration: none;',
                   ]
                 );
 
@@ -1188,6 +1195,7 @@ function render_blog_template( $equipment_list ) {
                     $product,
                     [
                       'class' => 'product-name',
+                      'style' => 'display: block !important; color: #1982d1; text-decoration: none; font-size: 30px;',
                     ]
                   );
 
@@ -1198,6 +1206,7 @@ function render_blog_template( $equipment_list ) {
                       'loading' => 'lazy',
                       'src' => $thumb,
                       'alt' => 'This is an image of the product.',
+                      'style' => 'display: block !important; border: 1px solid black; border-radius: 10px; margin: 20px auto; min-width: 50% !important; height: auto !important; width: 150px;',
                     ]
                   );
 
@@ -1213,6 +1222,7 @@ function render_blog_template( $equipment_list ) {
                       'rel' => 'noopener follow',
                       'href' => $notes,
                       'title' => mud_format_string( TITLE_TEMPLATE_BLOG_PRODUCT_NOTES, [ 'product' => $product ] ),
+                      'style' => 'display: block !important; color: #1982d1; text-decoration: none;',
                     ]
                   );
 
