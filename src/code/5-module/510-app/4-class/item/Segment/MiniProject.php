@@ -153,8 +153,16 @@ class MiniProject extends Segment {
 
     $number = $this->get_mini_project_number()->to_string();
 
-    out_text( "Mini Project $number: " );
-    
+    if ( $number ) {
+
+      out_text( "Mini Project $number: " );
+
+    }
+    else {
+
+      //out_text( "Mini Project: " );
+
+    }  
   }
 
   public function render_title_suffix() {

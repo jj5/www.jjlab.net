@@ -444,6 +444,8 @@ function render_feature_maxitronix_kit( $kit ) {
 
 function render_feature_mini_project() {
 
+  $feature = app_stash()->get_item_by_slug( Feature::class, 'mini-project' );
+
   render_head( 'Mini Projects' );
 
     tag_open( 'header', [ 'id' => 'home', 'class' => 'header' ] );
@@ -583,6 +585,12 @@ function render_feature_mini_project() {
       tag_shut( 'ul' );
 
     tag_shut( 'section' );
+
+    render_section_about_stats( 2, $feature->get_video_list() );
+
+    //app_stash()->get_main_show_selection()->render();
+
+    $feature->get_thing_list()->render();
 
     render_section_about_next();
 
