@@ -2092,6 +2092,18 @@ function render_section_about_mini_project( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
+      out_text( 'Notes about the Mini Projects are kept on my wiki: ' );
+
+      render_link_external(
+        'John\'s Wiki § Mini Projects',
+        'https://www.jj5.net/wiki/Mini_Projects',
+        TITLE_WIKI,
+      );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
       out_text( 'In the ' );
 
       render_link_internal(
@@ -2128,18 +2140,6 @@ function render_section_about_mini_project( int $heading_level = 2 ) {
 
     tag_shut( 'p' );
 
-    tag_open( 'p' );
-
-      out_text( 'Notes about the Mini Projects are kept on my wiki: ' );
-
-      render_link_external(
-        'John\'s Wiki § Mini Projects',
-        'https://www.jj5.net/wiki/Mini_Projects',
-        TITLE_WIKI,
-      );
-
-    tag_shut( 'p' );
-
   tag_shut( 'section' );
 
 }
@@ -2149,6 +2149,18 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
   tag_open( 'section' );
 
     tag_text( "h{$heading_level}", 'Maxitronix Xin1 Kits', [ 'id' => 'maxitronix-kits' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'Notes about the Maxitronix projects are kept on my wiki: ' );
+
+      render_link_external(
+        'John\'s Wiki § Maxitronix',
+        'https://www.jj5.net/wiki/Maxitronix',
+        TITLE_WIKI,
+      );
+
+    tag_shut( 'p' );
 
     tag_open( 'p' );
 
@@ -2226,18 +2238,6 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
       out_text( 'The Maxitronix Xin1 Kits are electronic project labs with projects designed to teach people about electronics. ' );
       out_text( 'They are a great way to learn electronics and are a lot of fun. ' );
       out_text( 'I would highly recommend them to anyone interested in electronics.' );
-
-    tag_shut( 'p' );
-
-    tag_open( 'p' );
-
-      out_text( 'Notes about the Maxitronix projects are kept on my wiki: ' );
-
-      render_link_external(
-        'John\'s Wiki § Maxitronix',
-        'https://www.jj5.net/wiki/Maxitronix',
-        TITLE_WIKI,
-      );
 
     tag_shut( 'p' );
 
