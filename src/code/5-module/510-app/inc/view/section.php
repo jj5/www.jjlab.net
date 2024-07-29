@@ -2229,6 +2229,18 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
 
     tag_shut( 'p' );
 
+    tag_open( 'p' );
+
+      out_text( 'Notes about the Maxitronix projects are kept on my wiki: ' );
+
+      render_link_external(
+        'Maxitronix',
+        'https://www.jj5.net/wiki/Maxitronix',
+        TITLE_WIKI,
+      );
+
+    tag_shut( 'p' );
+
   tag_shut( 'section' );
 
 }
