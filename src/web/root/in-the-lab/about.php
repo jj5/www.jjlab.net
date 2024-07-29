@@ -43,6 +43,8 @@ function render_about_main() {
 
     render_section_about_blog();
 
+    render_section_about_wiki();
+
     render_section_about_announcements();
 
     render_section_about_colophon();
@@ -68,12 +70,36 @@ function render_section_about_blog( int $heading_level = 2 ) {
     tag_open( 'p', [ 'class' => 'indent' ] );
 
       render_link_external(
-        'blog.jj5.net',
+        'https://blog.jj5.net/',
         'https://blog.jj5.net/',
         TITLE_BLOG,
       );
 
     tag_shut( 'p' );
+
+  tag_shut( 'section' );
+
+}
+
+function render_section_about_wiki( int $heading_level = 2 ) {
+
+  tag_open( 'section' );
+
+    tag_text( "h{$heading_level}", 'John\'s Wiki', [ 'id' => 'wiki-summary' ] );
+
+    tag_text( 'p', 'I often make notes on my wiki, which is over here:' );
+
+    tag_open( 'p', [ 'class' => 'indent' ] );
+
+      render_link_external(
+        'https://www.jj5.net/wiki/',
+        'https://www.jj5.net/wiki/',
+        TITLE_WIKI,
+      );
+
+    tag_shut( 'p' );
+
+    tag_text( 'p', 'You might occasionally see my wiki referred to as "sixsigma" which is its codename.' );
 
   tag_shut( 'section' );
 

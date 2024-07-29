@@ -86,6 +86,7 @@ define( 'TITLE_CONTACT', 'Click here to find my contact details. [Hotkey: C]' );
 define( 'TITLE_STRUCTURE', 'Click here to read about how the content is structured.' );
 define( 'TITLE_AFFILIATE', "Click here to read about the show's affiliates." );
 define( 'TITLE_BLOG', 'Click here to visit my blog!' );
+define( 'TITLE_WIKI', 'Click here to visit my wiki!' );
 define( 'TITLE_BLOG_FEED', 'Click here for the RSS feed from my blog.' );
 define( 'TITLE_SUPPORT', 'Click here to find out how you can support the show. [Hotkey: U]' );
 define( 'TITLE_STATS', 'Click here for stats about my videos and equipment. [Hotkey: N]' );
@@ -2124,6 +2125,18 @@ function render_section_about_mini_project( int $heading_level = 2 ) {
       );
 
       out_text( '.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'Notes about the Mini Project videos are kept on my wiki: ' );
+
+      render_link_external(
+        'Mini Projects',
+        'https://www.jj5.net/wiki/Mini_Projects',
+        TITLE_WIKI,
+      );
 
     tag_shut( 'p' );
 
