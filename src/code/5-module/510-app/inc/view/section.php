@@ -2130,10 +2130,10 @@ function render_section_about_mini_project( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'Notes about the Mini Project videos are kept on my wiki: ' );
+      out_text( 'Notes about the Mini Projects are kept on my wiki: ' );
 
       render_link_external(
-        'Mini Projects',
+        'John\'s Wiki § Mini Projects',
         'https://www.jj5.net/wiki/Mini_Projects',
         TITLE_WIKI,
       );
@@ -2234,7 +2234,7 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
       out_text( 'Notes about the Maxitronix projects are kept on my wiki: ' );
 
       render_link_external(
-        'Maxitronix',
+        'John\'s Wiki § Maxitronix',
         'https://www.jj5.net/wiki/Maxitronix',
         TITLE_WIKI,
       );
