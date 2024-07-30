@@ -165,7 +165,7 @@ class Show extends AppThing {
 
       tag_open( 'p', [ 'class' => 'small' ] );
 
-        out_text( 'You can return to the' );
+        out_text( 'You can return to the ' );
 
         render_link_internal(
           'home page',
