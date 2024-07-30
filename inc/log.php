@@ -24,7 +24,7 @@ if ( false ) {
 
     register_shutdown_function( 'jj_shutdown' );
 
-    //jj_log_this();
+    jj_log_this();
 
   }
   catch ( Throwable $ex ) {
@@ -51,7 +51,7 @@ function jj_shutdown() {
     //
     $data = ob_get_contents();
 
-    //jj_log_done( $data );
+    jj_log_done( $ob_level, $data );
 
   }
   catch ( Throwable $ex ) {
@@ -78,7 +78,7 @@ function jj_log_this() {
 
 }
 
-function jj_log_done( $data ) {
+function jj_log_done( $ob_level, $data ) {
 
   global $g_jj_start_time;
 

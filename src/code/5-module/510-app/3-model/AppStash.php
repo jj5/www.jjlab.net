@@ -75,17 +75,6 @@ class AppStash {
       $this->render_document_foot();
 
     }
-
-    return;
-
-    dump([
-      'value_map' => $this->value_map,
-      'item_map' => $this->item_map,
-      'item_id_map' => $this->item_id_map,
-      'item_slug_map' => $this->item_slug_map,
-      'item_name_map' => $this->item_name_map,
-    ]);
-
   }
 
   private $render_document = null;
@@ -307,7 +296,7 @@ class AppStash {
 
     $list = $this->item_map[ $class ] ?? [];
 
-    if ( $list ) { return end( $list ); }
+    if ( $list ) { return $list[ count( $list ) - 1 ]; }
 
     return self::get_null( $class );
 
@@ -345,8 +334,6 @@ class AppStash {
 
     return mud_null_object();
 
-    return AppThing::get_null( $class );
-
   }
 
   private $channel_one = null;
@@ -358,8 +345,6 @@ class AppStash {
       $this->channel_one = $this->get_item_by_slug( Channel::class, '@InTheLabWithJayJay' );
 
     }
-
-    dump( $this->channel_one );
 
     return $this->channel_one;
 
@@ -612,6 +597,4 @@ class AppStash {
     return $list;
 
   }
-
-
 }
