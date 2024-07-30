@@ -1,7 +1,8 @@
 <?php
 
-class IntValue extends Value {
+class IntValue extends MudInteger {
 
+  /*
   public function __construct( int $item_id = 0, array $args = [] ) {
 
     $value = null;
@@ -15,8 +16,9 @@ class IntValue extends Value {
     parent::__construct( $item_id, $args, $value );
 
   }
+  */
 
-  public function to_string() {
+  public function to_string() : string {
 
     return number_format( $this->get_value() );
     

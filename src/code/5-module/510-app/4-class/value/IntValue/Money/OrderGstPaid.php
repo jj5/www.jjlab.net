@@ -10,9 +10,9 @@ function order_gst_paid() {
 
 class OrderGstPaid extends Money {
 
-  protected function copy( $money_string ) {
+  protected function copy_price( IMudMoney $money ) {
 
-    return order_gst_paid( $money_string );
+    return order_gst_paid( $money );
 
   }
 }

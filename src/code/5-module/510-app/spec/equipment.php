@@ -44,7 +44,7 @@ equipment(
     equipment_url ( 'https://www.ebay.com/itm/195572945470?hash=item2d890e523e:g:nq8AAOSwsg9j0t20&amdata=enc%3AAQAIAAAA4MjuBQq3oPNyUnLRImZKkRNYahVqlnvj65Ck33A34W%2BO9TH5UT8%2Fhz2gB4%2BvN5JcYwZF%2Boale6B2IFigSYPrJtX%2BwBkRDcjUYorYiX8OUPSNVPZa58uxHDsPibVCnf%2BAEe26mk%2Fhe3%2BXdsm4jFu5lrFIuC8YSGdp7V1qjLn8m6Xg97JdGpnvfFkSnrTVH5ppxWwFlYXlf%2FQ0AOlZtnw%2FxiGIEU0DfVDn4GTjj02LN%2FUp%2FP2o8PAiK5VFviviVrRc%2B8DQ8vg0GC3nQbYaUw9Sxng2g77dv16WF3dFi1eHJpZW%7Ctkp%3ABk9SR9r244OhYw' ),
     affiliate_url ( 'https://ebay.us/zWteZL' ),
     listing_name  ( "RIGOL MSO5074 70 MHz Mixed Signal Oscilloscope with 4 Analog Channels" ),
-    item_price    ( 'US$999.00' ),
+    item_price    ( 'US$999.01' ),
   ),
   search_url    ( 'https://www.ebay.com.au/sch/i.html?_sop=15&_nkw=Rigol+MSO5074+Mixed+Signal+Oscilloscope' ),
   search_url    ( 'https://www.aliexpress.com/w/wholesale-MSO5074.html?spm=a2g0o.productlist.search.0' ),
@@ -2094,7 +2094,7 @@ equipment(
     listing_name  ( "Bench Voice Multimeter Bluetooth Tester Digital Smart Multimeter 19999 Counts" ),
     item_options  ( 'Choose: AN999S battery' ),
     item_price    ( 'AU$161.98' ),
-    item_shipping ( 'AU $1.53' ),
+    item_shipping ( 'AU$1.53' ),
   ),
   search_url    ( 'https://www.aliexpress.com/w/wholesale-ANENG-AN-999S-Bench-Multimeter.html' ),
   affiliate_link(
@@ -3936,7 +3936,7 @@ equipment(
     equipment_url ( 'https://www.ebay.com.au/itm/372043457508?epid=1176999293&hash=item569f84a3e4%3Ag%3AQ8sAAOSwIStgR0%7ET&amdata=enc%3AAQAIAAAA0A8uCFRo6771fKAgSy%2B5P1MO3aASwz9P18HgdUVivSuAAJjhgT49NLUv3JWxrMS1ZDbGmt6a4oaokMuyMVCvQugKZkTiNsXA4OI%2BTFxvy39SR7La6FxboUWCI%2BOwWTdAajWKJQxyVpdEiSnmoexa2YlNZlo%2FY0HFPkgMgE2jyGjk1i%2By%2FX7JKS9516yfPZdPLTGFwbtirLLQ53%2FOmoOPFcIu2r7VFsANhIA7mvRN969J%2FLBH4fjkTZRE8U1O%2FLLjsT9Omk18PrXoKkh53jpZTbc%3D%7Ctkp%3ABk9SR6LFr5-hYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/tmJeRI' ),
     listing_name  ( "Digitech Cat III 600V Multimeter with Temperature K-type probe Woven Nylon Pouch" ),
-    item_price    ( 'AU $72.9' ),
+    item_price    ( 'AU$72.9' ),
   ),
   search_url    ( 'https://www.aliexpress.com/w/wholesale-DigiTech-QM1323-Multimeter.html' ),
 );
@@ -4104,7 +4104,7 @@ equipment(
     equipment_url ( 'https://www.ebay.com.au/itm/155675627300?hash=item243efd8f24%3Ag%3AftMAAOSwUtxkCGby&amdata=enc%3AAQAIAAAA0IyPg%2BqjlqNSWdtLD9nk%2B8ze64ThKquCj7npnidrLGsBSv4gJ7A%2BjCK98ofHWkzZXuFdZkDA9MH%2BIaKuoInjAtjDVEOl9oUDAaMWhTfFOPR7%2FBWC5fcOS%2BK%2BRSMf2ayNAAbZsl8adu4ifnu%2F2yEFwvoZ1uyKo8Rc%2FDKa9Ik4JJbhna%2F1evRrgpZjpuuqCH1wSwHWvOWc%2Fjn6w7nFgYSOgvMeLs1bDc%2Bc1wJiRK%2F8KguHeDkymsGBLAkdcb1sQ5uszJ8bxMNToCLCBOl0N1lQk3c%3D%7Ctkp%3ABk9SR97X76ChYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/pkuIna' ),
     listing_name  ( "PCB trace repair RELIFE RL-007GA 1400pc  (AU Stock)" ),
-    item_price    ( 'AU $15.00' ),
+    item_price    ( 'AU$15.00' ),
   ),
   search_url    ( 'https://www.aliexpress.com/w/wholesale-RELIFE-RL-007GA-Solder-Lugs.html' ),
   affiliate_link(
@@ -4476,7 +4476,7 @@ equipment(
     equipment_url ( 'https://www.ebay.com.au/itm/266001325093?hash=item3deeea1c25%3Ag%3A16MAAOSw2l1je0VJ&amdata=enc%3AAQAIAAAA8Cj62YUURkAdXBTG04DifFkY%2Fc9Dk%2FjkSxMJDcKOpS1JGTtrfwfxwqZ%2Fm%2FqK0ij96WpYXuX9GL%2FGT4Pme%2FQoMqY1C8KFH%2F1ELCCmIs3PJwhYZE1COaEd3ci1GEH2VoHGzhL3ZCBztnIWebwj2oaLCpj7VZ2cb7aQKjcMvV4mEIOzU%2FyekGvOCQG2%2BfgpG4ZTUMX6Kgpn6ScwpQP%2Bg9%2B8HjJTmYAEVNSSArR1nkxrMujBpepXAbCabKtiNavOo9WOAVxbrMnW48WFvkI3JEqTRC2UCljGVWMspk6hIdbFMnbept8Mm6ngQvNRLT1OOxWZdw%3D%3D%7Ctkp%3ABk9SR4Kz0qOhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/r5BUzF' ),
     listing_name  ( "M6013 High Capacitor Meter Professional Measuring Capacitance R5M8" ),
-    item_price    ( 'AU $45.38' ),
+    item_price    ( 'AU$45.38' ),
   ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/235270584083?hash=item36c7383713%3Ag%3ADNwAAOSwsNdlOgiy&amdata=enc%3AAQAIAAAA8BkFdi1PXYC2%2BWjK5V7vzjYsUi9ml5B6cc2dMtmyfZ7H%2FglZnv2gd%2BkxG6yTvGo71l%2Fb70b3h2fPxRMDIIFCwHAeuD2i62MDvwBXJ%2Fu8WqxaStYlgBweX7%2BqLR%2BjdgOn5KsEH8Kwm2C6avTmD5eHTFYUTcR6laRbrYDp0Pzs%2F%2Bw5aFqYLzHfRMua%2Fz7y%2BQMtYiguUE22IuonDjG9NeJB0R5nKWonprO3%2FYN%2BMR2c9bHWYmZoSlX2zBERHbAXwZanPVvGdC1C4SrX8d7HG2fsC7mLrtm03NfjmYWDuzsLVBouTBC48YdKpmwrlkTj1L5X%2Bg%3D%3D%7Ctkp%3ABk9SR4Kz0qOhYw&LH_ItemCondition=1000' ),
@@ -5595,7 +5595,7 @@ equipment(
     affiliate_url ( 'https://ebay.us/1xcbm2' ),
     listing_name  ( "Anti Static Heat Insulation Silicone Pad Mat Soldering Mat for Phone PC Repair" ),
     item_options  ( 'Choose: 45*30cm+ S160' ),
-    item_price    ( 'AU $29.69' ),
+    item_price    ( 'AU$29.69' ),
   ),
   search_url    ( 'https://www.aliexpress.com/w/wholesale-Kaisi-45x30cm-Repair-Mat.html' ),
   affiliate_link(
@@ -6302,7 +6302,7 @@ equipment(
     equipment_url ( 'https://www.ebay.com.au/itm/145547659096?hash=item21e3510758%3Ag%3AL%7EIAAOSwGgBln9F4&amdata=enc%3AAQAIAAAA0NuzhSoU3c7wkrQN8sozGKaKPndfc4gJPxkekEOpHcU%2FwZjz3FUkBHCgAX4fccJr9azehanZ15fMMzWvmsb0CtRh3agb3EMTWGbnS6Umk3ZE3gu37vOHq4JVgk0ziRy9TyUL1lnCOZkgs%2BZkq8AHNEHidFOBhVKKBeTeGzsEeLm7QrC2sQT2Y9xW%2BUgsmKm0yUnUMDOA%2FSDXU%2B7GOgeJNRLmkYxG7ZG7Cd83SSUMhtpGmMVk%2FageED%2FXZ6UZjrAXnBNbu4HWUtC1MQO9tWBlr1U%3D%7Ctkp%3ABk9SR_DpgbKhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/R4Ov98' ),
     listing_name  ( "10pcs/set SDK08 Test Clips with Jumper Wires Ultra Small Clip 2A Chip Foot Clip" ),
-    item_price    ( 'AU $20.59' ),
+    item_price    ( 'AU$20.59' ),
   ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/404591547017?hash=item5e33891289%3Ag%3AnsUAAOSwW4ZlQwSH&amdata=enc%3AAQAIAAAA0EZiM%2BIQq3KvfYZ0Xv2yxCPl8ip3baTDASGI1bMK77kv8m%2FmrqNWWSnFBAJ5quU59beh7zGjoSMUHVtkhGtOKnGB%2FLNYDvo8jH%2FSSRjeg8xDzaSaH%2Fk5lJi6mwfPYiYVbBEmN1ODMn9yjMJTj%2BujqER%2Bxe2IiHFe%2FTvTx3S4RdKZp10TfGOHFRCCbWJjq%2F0DJWRy7p%2BONrZyCL2vpZZNheK7qQsoabepnJd4H%2BRNDg%2BcZPLyItQmMVU6hoYdjlAUYrfu2SeG2z5gFVG959DzaD8%3D%7Ctkp%3ABk9SR_DpgbKhYw&LH_ItemCondition=1000' ),

@@ -3,6 +3,7 @@
 class DataFile {
 
   public $file;
+
   public $data;
 
   public function __construct( $path ) {

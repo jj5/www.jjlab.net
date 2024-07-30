@@ -8,9 +8,9 @@ function order_discount() {
 
 class OrderDiscount extends Money {
 
-  protected function copy( $money_string ) {
+  protected function copy_price( IMudMoney $money ) {
 
-    return order_discount( $money_string );
+    return order_discount( $money );
 
   }
 }

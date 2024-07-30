@@ -226,7 +226,9 @@ function render_section_latest_main() {
 
   $latest = get_latest_video();
 
-  $latest->get_segment()->render( 'h3' );
+  $segment = $latest->get_segment();
+
+  $segment->render( 'h3' );
 
 }
 
@@ -896,7 +898,7 @@ function render_stat_val( $dt, $arg ) {
 
       if ( $dd < 60 ) {
 
-        out_text( number_format( $dd ) . ' seconds' );
+        out_text( number_format( $dd ?? 0 ) . ' seconds' );
 
       }
       elseif ( $dd < 60 * 60 ) {

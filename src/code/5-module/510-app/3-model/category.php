@@ -21,7 +21,7 @@ class CategoryContainer {
 
   public function add_equipment( $equipment ) { $this->equipment_list[] = $equipment; }
 
-  public function to_string() { return $this->category_name; }
+  public function to_string() : string { return $this->category_name; }
 
 }
 

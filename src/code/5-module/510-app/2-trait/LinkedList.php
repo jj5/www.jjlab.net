@@ -3,6 +3,7 @@
 trait LinkedList {
 
   private $next = null;
+  
   private $prev = null;
 
   public function get_next() {

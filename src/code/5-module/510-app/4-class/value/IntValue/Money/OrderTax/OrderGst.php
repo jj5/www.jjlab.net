@@ -8,9 +8,9 @@ function order_gst() {
 
 class OrderGst extends OrderTax {
 
-  protected function copy( $money_string ) {
+  protected function copy_price( IMudMoney $money ) {
 
-    return order_gst( $money_string );
+    return order_gst( $money );
 
   }
 }

@@ -43,7 +43,7 @@ class ManufacturerContainer {
 
   public function add_equipment( $equipment ) { $this->equipment_list[] = $equipment; }
 
-  public function to_string() { return $this->manufacturer_name; }
+  public function to_string() : string { return $this->manufacturer_name; }
 
 }
 

@@ -1,24 +1,18 @@
 <?php
 
-class DateValue extends Value {
+class DateValue extends MudDate {
 
-  public function __construct( int $item_id = 0, array $args = [] ) {
+  public function __construct( DateTimeInterface|string|null $arg = null ) {
 
-    $value = null;
+    if ( $arg === null ) { $arg = '@0'; }
 
-    if ( count( $args ) ) {
+    $value = is_a( $arg, DateTimeImmutable::class ) ? $arg : new DateTimeImmutable( $arg );
 
-      $arg = $args[ 0 ];
-
-      $value = is_a( $arg, DateTime::class ) ? $arg : new DateTime( $arg );
-
-    }
-
-    parent::__construct( $item_id, $args, $value );
+    parent::__construct( $value );
 
   }
 
-  public function get_sort_value() {
+  public function get_sort_value() : int|float|string|null {
 
     return $this->is_null() ?
       0 :
@@ -26,7 +20,7 @@ class DateValue extends Value {
 
   }
 
-  public function to_string() {
+  public function to_string() : string {
 
     if ( $this->is_null() ) { return ''; }
 
@@ -40,7 +34,7 @@ class DateValue extends Value {
 
   }
 
-  public function format_for_web() {
+  public function format_for_web() : string {
 
     static $utc = null;
 
@@ -54,7 +48,7 @@ class DateValue extends Value {
 
   }
 
-  public function format_for_sitemap() {
+  public function format_for_sitemap() : string {
 
     static $utc = null;
 

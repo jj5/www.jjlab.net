@@ -22,7 +22,7 @@ class ManufacturerName extends Name {
 
   }
 
-  public function render() {
+  public function render( mixed $format = null, array $attrs = [] ): void {
 
     $href = url_base() . '/manufacturer.php/' . $this->get_manufacturer_id();
 

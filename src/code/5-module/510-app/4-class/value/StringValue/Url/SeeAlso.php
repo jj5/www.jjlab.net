@@ -8,7 +8,7 @@ function see_also() {
 
 class SeeAlso extends Url {
 
-  public function render() {
+  public function render( mixed $format = null, array $attrs = [] ): void {
 
     $href = url_base() . '/equipment.php#' . get_html_id( $this->to_string() );
 

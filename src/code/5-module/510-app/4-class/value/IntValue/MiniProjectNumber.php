@@ -14,7 +14,7 @@ class MiniProjectNumber extends IntValue {
 
   }
 
-  public function to_string() {
+  public function to_string() : string {
 
     return 'JMP' . str_pad( $this->get_value(), 3, '0', STR_PAD_LEFT );
     

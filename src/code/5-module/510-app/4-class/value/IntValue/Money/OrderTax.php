@@ -8,9 +8,9 @@ function order_tax() {
 
 class OrderTax extends Money {
 
-  protected function copy( $money_string ) {
+  protected function copy_price( IMudMoney $money ) {
 
-    return order_tax( $money_string );
+    return order_tax( $money );
 
   }
 }

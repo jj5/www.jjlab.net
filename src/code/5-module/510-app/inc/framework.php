@@ -14,7 +14,7 @@ function main() {
     require_once __DIR__ . '/framework.php';
     require_once __DIR__ . '/spec.php';
 
-    render();
+    app_render();
 
     itl()->save();
 

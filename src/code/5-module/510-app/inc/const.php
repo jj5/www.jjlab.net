@@ -54,14 +54,6 @@ define(
 );
 
 define(
-  'CURRENCY_COUNTRY_MAP',
-  [
-    'AU' => 'AUD',
-    'US' => 'USD',
-  ]
-);
-
-define(
   'NUMBER_MAP',
   [
     'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten',

@@ -8,9 +8,9 @@ function item_total() {
 
 class ItemTotal extends Money {
 
-  protected function copy( $money_string ) {
+  protected function copy_price( IMudMoney $money ) {
 
-    return item_total( $money_string );
+    return item_total( $money );
 
   }
 }

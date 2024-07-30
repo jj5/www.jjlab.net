@@ -8,7 +8,7 @@ function silly_job_title() {
 
 class SillyJobTitle extends Name {
 
-  public function render( $text = null, $attrs = [] ) {
+  public function render( $text = null, $attrs = [] ) : void {
       
     $text = $text ?? $this->to_string();
 

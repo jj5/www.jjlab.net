@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/../../../../inc/framework.php';
 
-function render() {
+function app_render() {
 
   $path_info = $_SERVER[ 'PATH_INFO' ] ?? null;
 
@@ -105,6 +105,8 @@ function render_equipment_page( $equipment_list ) {
       render_equipment_disclaimer( $count );
 
     }
+
+    //mud_dump( $equipment_list );
 
     render_equipment( $equipment_list );
 

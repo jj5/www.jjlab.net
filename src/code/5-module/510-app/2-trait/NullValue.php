@@ -2,10 +2,10 @@
 
 trait NullValue {
 
-  use NullItemMixin;
+  use NullThingMixin;
 
-  public function get_value() { return null; }
+  //public function get_value() : mixed { return null; }
 
-  public function to_string() { return ''; }
+  public function to_string() : string { return ''; }
 
 }

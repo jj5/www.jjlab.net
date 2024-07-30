@@ -2,11 +2,19 @@
 
 require_once __DIR__ . '/../../../../inc/framework.php';
 
-function render() {
+function app_render() {
 
   $path_info = $_SERVER[ 'PATH_INFO' ] ?? null;
 
-  $books = array_reverse( get_list( Book::class ) );
+  $books = get_list( Book::class );
+
+  foreach ( get_list( BookSegment::class ) as $segment ) {
+
+    $books[] = $segment->get_book();
+
+  }
+
+  Book::sort( $books );
 
   switch ( $path_info ) {
 
@@ -81,7 +89,7 @@ function render_books_main( $books ) {
 
           foreach( $books as $book ) {
 
-            if ( $book->is_null() ) { continue; }
+            //if ( $book->is_null() ) { continue; }
 
             tag_open( 'tr' );
 
@@ -105,7 +113,7 @@ function render_books_main( $books ) {
               tag_text( 'td', $book->get_title() );
               tag_text( 'td', $book->get_edition() );
               tag_text( 'td', $book->get_author() );
-              tag_text( 'td', $book->get_copyright_year(), [ 'class' => 'right' ] );
+              tag_text( 'td', $book->get_copyright_year()->format(), [ 'class' => 'right' ] );
               tag_text( 'td', $book->get_age(), [ 'class' => 'right' ] );
               tag_text( 'td', $book->get_page_count(), [ 'class' => 'right' ]  );
               tag_open( 'td' );

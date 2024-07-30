@@ -8,9 +8,9 @@ function order_shipping() {
 
 class OrderShipping extends Money {
 
-  protected function copy( $money_string ) {
+  protected function copy_price( IMudMoney $money ) {
 
-    return order_shipping( $money_string );
+    return order_shipping( $money );
 
   }
 }

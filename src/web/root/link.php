@@ -4,7 +4,7 @@ define( 'RUNNING', true );
 
 require_once __DIR__ . '/../../../inc/framework.php';
 
-function render() {
+function app_render() {
 
   try {
 

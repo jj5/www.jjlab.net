@@ -32,7 +32,7 @@ class ThingList {
 
   }
 
-  public function render() {
+  public function render( mixed $format = null, array $attrs = [] ): void {
 
     if ( $this->list ) {
 

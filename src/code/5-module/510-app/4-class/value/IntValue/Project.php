@@ -26,7 +26,7 @@ class Project extends IntValue {
 
   }
 
-  public function to_string() { return $this->get_value() . '/' . $this->total; }
+  public function to_string() : string { return $this->get_value() . '/' . $this->total; }
 
 }
 

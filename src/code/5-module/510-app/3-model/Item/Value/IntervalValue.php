@@ -1,7 +1,8 @@
 <?php
 
-class IntervalValue extends Value {
+class IntervalValue extends MudDateInterval {
 
+  /*
   public function __construct( int $item_id = 0, array $args = [] ) {
 
     $value = null;
@@ -17,8 +18,9 @@ class IntervalValue extends Value {
     parent::__construct( $item_id, $args, $value );
 
   }
+  */
 
-  public function to_string() {
+  public function to_string() : string {
 
     $interval = $this->get_value();
 
@@ -81,7 +83,7 @@ class IntervalValue extends Value {
 
   }
 
-  public function get_sort_value() { return $this->get_seconds(); }
+  public function get_sort_value() : int|float|string|null { return $this->get_seconds(); }
 
   protected static function format_xx( int $value ) {
 

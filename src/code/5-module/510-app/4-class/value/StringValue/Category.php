@@ -24,7 +24,7 @@ class Category extends StringValue {
 
   public function get_category_name() { return $this->to_string(); }
 
-  public function render() {
+  public function render( mixed $format = null, array $attrs = [] ) : void {
 
     $href = url_base() . '/category.php/' . $this->get_category_id();
 

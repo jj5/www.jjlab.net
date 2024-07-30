@@ -1,5 +1,6 @@
 <?php
 
+/*
 class Value extends Item implements INullable {
 
   private $value;
@@ -22,15 +23,16 @@ class Value extends Item implements INullable {
 
   public function get_sort_value() { return $this->get_value(); }
 
-  public function to_string() {
+  public function to_string() : string {
 
     return strval( $this->get_value() );
 
   }
 
-  public function render() {
+  public function render( mixed $format = null, array $attrs = [] ): void {
 
     tag_text( 'span', $this->to_string(), [ 'class' => 'value ' . get_class( $this ) ] );
 
   }
 }
+*/

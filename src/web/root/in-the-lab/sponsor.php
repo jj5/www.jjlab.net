@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/../../../../inc/framework.php';
 
-function render() {
+function app_render() {
 
   $path_info = $_SERVER[ 'PATH_INFO' ] ?? null;
 

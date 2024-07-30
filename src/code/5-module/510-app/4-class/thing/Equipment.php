@@ -1,0 +1,279 @@
+<?php
+
+function equipment() {
+
+  return new_thing( Equipment::class, func_get_args() );
+
+}
+
+class Equipment extends AppThing {
+
+  public function format( mixed $spec = null ) : string { return $this->get_equipment_name()->to_string(); }
+
+  public function get_equipment_date() { return $this->get( EquipmentDate::class ); }
+  public function get_equipment_icon() { return $this->get( EquipmentIcon::class ); }
+  public function get_equipment_name() { return $this->get( EquipmentName::class ); }
+
+  public function get_affiliate_link_list() {
+
+    return $this->get_list( AffiliateLink::class );
+
+  }
+
+  public function get_purchase_list() { return $this->get_list( Purchase::class ); }
+
+  public function get_equipment_info() { return $this->get( EquipmentInfo::class ); }
+  public function get_sixsigma_url() { return $this->get( SixsigmaUrl::class ); }
+
+  public function get_warning_list() { return $this->get_list( Warning::class ); }
+  public function get_see_also_list() { return $this->get_list( SeeAlso::class ); }
+  public function get_web_link_list() { return $this->get_list( WebLink::class ); }
+
+  public function get_category_list() {
+
+    $result = $this->get_equipment_info()->get_list( Category::class );
+
+    Category::sort_natural( $result );
+
+    return $result;
+
+  }
+
+  private $sort_value = null;
+
+  public function get_sort_value() {
+
+    if ( $this->sort_value === null ) {
+
+      $result = null;
+
+      foreach ( $this->get_affiliate_link_list() as $affiliate_link ) {
+
+        $value = $affiliate_link->get_item_price()->to_USD()->get_sort_value();
+
+        if ( $result === null || $value > $result ) {
+
+          $result = $value;
+
+        }
+      }
+
+      $this->sort_value = $result;
+
+    }
+
+    return $this->sort_value;
+
+  }
+
+  public function get_min_USD() {
+
+    $result = null;
+
+    foreach ( $this->get_affiliate_link_list() as $affiliate_link ) {
+
+      $value = $affiliate_link->get_item_price()->to_USD();
+
+      if ( $result === null || $value->get_value() > $result->get_value() ) {
+
+        $result = $value;
+
+      }
+    }
+
+    return $result;
+
+  }
+
+  private $equipment_id = null;
+
+  public function get_equipment_id() {
+
+    if ( $this->equipment_id === null ) {
+
+      $this->equipment_id = get_html_id( $this->get_equipment_name()->to_string() );
+
+    }
+
+    return $this->equipment_id;
+
+  }
+
+  private $first_purchase_date;
+
+  public function get_first_purchase_date() {
+
+    if ( $this->first_purchase_date ) { return $this->first_purchase_date; }
+
+    $purchase_list = $this->get_list( Purchase::class );
+
+    if ( ! $purchase_list ) {
+
+      $this->first_purchase_date = NullFirstPurchaseDate::Instance();
+
+    }
+    else {
+
+      usort(
+        $purchase_list,
+        function( $a, $b ) {
+
+          $a_date = $a->get_order_date();
+          $b_date = $b->get_order_date();
+
+          if ( $a_date->is_empty() ) {
+
+            if ( $b_date->is_empty() ) { return -1; }
+
+            return -1;
+
+          }
+
+          if ( $b_date->is_empty() ) { return -1; }
+
+          return
+            $a_date->get_value()->getTimestamp() -
+            $b_date->get_value()->getTimestamp();
+        }
+      );
+
+      $this->first_purchase_date = first_purchase_date( $purchase_list[ 0 ]->get_order_date() );
+
+    }
+
+    return $this->first_purchase_date;
+
+  }
+
+  public function get_search_link() {
+
+    // 2024-01-17 jj5 - format: https://duckduckgo.com/?q=Rigol+MSO5000+PLA2216+Custom+16+Channel+Logic+Probe+with+Cable&t=ftsa&atb=v379-1&ia=web
+
+    $name = $this->get_equipment_name()->to_string();
+
+    $query = urlencode( $name );
+
+    $href = 'https://duckduckgo.com/?t=ftsa&atb=v379-1&ia=web&q=' . $query;
+    $text = "Search: $name";
+
+    return web_link(
+      link_href( $href ),
+      link_text( $text ),
+    );
+
+  }
+
+  public function get_manufacturer_id() {
+
+    return get_html_id( $this->get_equipment_info()->get_manufacturer_name() );
+
+  }
+
+  public function is_manufactured_by( $manufacturer_name ) {
+
+    return $this->get_equipment_info()->get_manufacturer_name()->to_string() === $manufacturer_name;
+
+  }
+
+  public static function sort_cheap_first( &$equipment_list ) {
+
+    usort(
+      $equipment_list,
+      function ( $a, $b ) { return $a->get_sort_value() - $b->get_sort_value(); }
+    );
+
+  }
+
+  public static function sort_expensive_first( &$equipment_list ) {
+
+    usort(
+      $equipment_list,
+      function ( $a, $b ) {
+
+        return $b->get_sort_value() - $a->get_sort_value();
+        
+      }
+    );
+
+  }
+
+  public static function sort_new_first( &$equipment_list ) {
+
+    usort(
+      $equipment_list,
+      function ( $a, $b ) {
+
+        $a_date = $a->get_first_purchase_date();
+
+        $b_date = $b->get_first_purchase_date();
+
+        if ( $a_date->is_empty() ) {
+
+          if ( $b_date->is_empty() ) { return 0; }
+
+          return 1;
+
+        }
+
+        if ( $b_date->is_empty() ) { return -1; }
+
+        $a_value = $a_date->get_value();
+        $b_value = $b_date->get_value();
+
+        if ( $a_value === null ) { dump( $a_date ); }
+        if ( $b_value === null ) { dump( $b_date ); }
+
+        return $b_value->get_timestamp() - $a_value->get_timestamp();
+
+      }
+    );
+
+  }
+
+  public static function sort_old_first( &$equipment_list ) {
+
+    usort(
+      $equipment_list,
+      function ( $a, $b ) {
+
+        $a_date = $a->get_first_purchase_date();
+
+        $b_date = $b->get_first_purchase_date();
+
+        if ( $a_date->is_empty() ) {
+
+          if ( $b_date->is_empty() ) { return 0; }
+
+          return 1;
+
+        }
+
+        if ( $b_date->is_empty() ) { return -1; }
+
+        $a_value = $a_date->get_value();
+        $b_value = $b_date->get_value();
+
+        if ( $a_value === null ) { dump( $a_date ); }
+        if ( $b_value === null ) { dump( $b_date ); }
+
+        return $a_value->get_timestamp() - $b_value->get_timestamp();
+
+      }
+    );
+
+  }
+
+  public function get_short_link() {
+
+    $url = 'https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#' . $this->get_equipment_id();
+
+    return itl()->get_short_link( $url );
+
+  }
+}
+
+class NullEquipment extends Equipment {
+
+  use NullThingMixin;
+
+}

@@ -8,9 +8,9 @@ function order_price() {
 
 class OrderPrice extends Money {
 
-  protected function copy( $money_string ) {
+  protected function copy_price( IMudMoney $money ) {
 
-    return order_price( $money_string );
+    return order_price( $money );
 
   }
 }

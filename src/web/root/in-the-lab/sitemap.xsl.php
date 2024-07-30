@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/../../../../inc/framework.php';
-function render() { render_xslt_headers(); }
+function app_render() { render_xslt_headers(); }
 ?>
 <xsl:stylesheet
   version="3.0"

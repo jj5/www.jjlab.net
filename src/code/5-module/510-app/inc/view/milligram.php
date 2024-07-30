@@ -632,14 +632,14 @@ function sort_equipment_list( &$equipment_list ) {
 
   $sort = $_GET[ 'sort' ] ?? 'expensive-first';
 
-  if ( $sort === 'cheap-first' ) {
-
-    Equipment::sort_cheap_first( $equipment_list );
-
-  }
-  elseif ( $sort === 'expensive-first' ) {
+  if ( $sort === 'expensive-first' ) {
 
     Equipment::sort_expensive_first( $equipment_list );
+
+  }
+  elseif ( $sort === 'cheap-first' ) {
+
+    Equipment::sort_cheap_first( $equipment_list );
 
   }
   elseif ( $sort === 'new-first' ) {
@@ -1297,7 +1297,6 @@ function render_equipment_table( $equipment_list ) {
           if ( count( $affiliate_link_list ) ) {
 
             $img_url = $equipment->get_equipment_icon()->get_auto_url();
-            $equipment_text_html = henc( $equipment->get_equipment_name() );
 
             $id = $equipment->get_equipment_id();
 
@@ -1323,7 +1322,11 @@ function render_equipment_table( $equipment_list ) {
                   ]
                 );
 
-                  tag_html( 'div', $equipment_text_html );
+                  tag_open( 'div' );
+
+                    $equipment->render();
+
+                  tag_shut( 'div' );
 
                   tag_open( 'div' );
 
@@ -1342,7 +1345,7 @@ function render_equipment_table( $equipment_list ) {
 
                 tag_open( 'div' );
 
-                  out_html( $equipment->get_first_purchase_date()->to_html() );
+                  $equipment->get_first_purchase_date()->render();
 
                 tag_shut( 'div' );
 
@@ -1372,7 +1375,7 @@ function render_equipment_table( $equipment_list ) {
                   foreach ( get_list( Affiliate::class ) as $affiliate ) {
 
                     $href = $affiliate->get_search_url( $equipment->get_equipment_name()->to_string() );
-                    $text = $affiliate->get_affiliate_name()->to_string();
+                    $text = $affiliate->get_affiliate_name()->format();
 
                     tag_open( 'div' );
 
@@ -1393,7 +1396,7 @@ function render_equipment_table( $equipment_list ) {
 
                 tag_open( 'h2', [ 'id' => $id ] );
 
-                  out_html( $equipment_text_html );
+                  $equipment->render();
 
                 tag_shut( 'h2' );
 
@@ -1474,7 +1477,7 @@ function render_equipment_table( $equipment_list ) {
               $equipment_date = $equipment->get_equipment_date();
               $title = "Price current as of $equipment_date";
 
-              $text = $affiliate_link->get_item_price()->to_string();
+              $text = $affiliate_link->get_item_price()->format();
 
               tag_text( 'td', "$text", [ 'colspan' => 2, 'class' => 'price', 'title' => $title ] );
 
@@ -1684,43 +1687,37 @@ function render_equipment_table( $equipment_list ) {
 
               $quantity = $purchase->get_order_quantity();
               $price = $purchase->get_order_price();
-              $subtotal = $price->multiply( $quantity->get_value() );
-              $subtotal_html = $subtotal->to_html();
+              $subtotal = $price->multiply_price( $quantity->get_number() );
 
               $date = $purchase->get_order_date();
-              $date_html = $date->to_html();
 
               $shipping = $purchase->get_order_shipping();
-              $shipping_html = $shipping->to_html();
 
               $tax = $purchase->get_order_tax();
-              $tax_html = $tax->to_html();
 
               $discount = $purchase->get_order_discount();
-              $discount_html = $discount->to_html();
 
               $ancillary_charges = null;
 
               if ( ! $shipping->is_null() ) {
 
-                $ancillary_charges = $shipping->add( $tax )->subtract( $discount );
+                $ancillary_charges = $shipping->add_price( $tax )->subtract_price( $discount );
 
               }
               elseif ( ! $tax->is_null() ) {
 
-                $ancillary_charges = $tax->subtract( $discount );
+                $ancillary_charges = $tax->subtract_price( $discount );
 
               }
               elseif ( ! $discount->is_null() ) {
 
-                $ancillary_charges = $discount->invert();
+                $ancillary_charges = $discount->invert_price();
 
               }
 
               $ancillary_charges_html = $ancillary_charges ? $ancillary_charges->to_html() : '';
 
-              $total = $subtotal->add( $ancillary_charges );
-              $total_html = $total->to_html();
+              $total = $subtotal->add_price( $ancillary_charges );
 
               $number = $quantity->get_value();
 
@@ -1735,7 +1732,7 @@ function render_equipment_table( $equipment_list ) {
               if ( ! $vendor_url->is_null() ) { $href = $vendor_url->to_html(); }
 
               $each = $number === 1 ? '' : 'each';
-              $plus = $shipping->get_value() > 0 ? 'and' : 'plus';
+              $plus = $shipping->get_value()->get_value() > 0 ? 'and' : 'plus';
 
               $order_url = $purchase->get_order_url()->to_string();
               $order_id = $purchase->get_order_id()->to_string();
@@ -1766,11 +1763,15 @@ function render_equipment_table( $equipment_list ) {
                     $order_item_name,
                   );
 
-                  out_text( " on $date for $price $each" );
+                  $price_string = $price->format();
 
-                  if ( $shipping->get_value() > 0 ) {
+                  out_text( " on $date for $price_string $each" );
 
-                    out_text( " plus shipping of $shipping" );
+                  if ( $shipping->get_money()->get_value() > 0 ) {
+
+                    $shipping_string = $shipping->format();
+
+                    out_text( " plus shipping of $shipping_string" );
 
                   }
                   else {
@@ -1779,19 +1780,25 @@ function render_equipment_table( $equipment_list ) {
 
                   }
 
-                  if ( $tax->get_value() > 0 ) {
+                  if ( $tax->get_money()->get_value() > 0 ) {
 
-                    out_text( " $plus tax of $tax" );
+                    $tax_string = $tax->format();
 
-                  }
-
-                  if ( $discount->get_value() > 0 ) {
-
-                    out_text( " and a discount of $discount" );
+                    out_text( " $plus tax of $tax_string" );
 
                   }
 
-                  out_text( " for a total of $total." );
+                  if ( $discount->get_money()->get_value() > 0 ) {
+
+                    $discount_string = $discount->format();
+
+                    out_text( " and a discount of $discount_string" );
+
+                  }
+
+                  $total_string = $total->format();
+
+                  out_text( " for a total of $total_string." );
 
                   if ( is_dev() ) {
 
@@ -1937,7 +1944,7 @@ function render_equipment_list( $equipment_list ) {
 
                 tag_open( 'b' );
 
-                  out_text( $affiliate_link->get_item_price()->to_string() );
+                  out_text( $affiliate_link->get_item_price()->format() );
 
                 tag_shut( 'b' );
 
@@ -2012,7 +2019,7 @@ function render_equipment_list( $equipment_list ) {
 
             $quantity = $purchase->get_order_quantity();
             $price = $purchase->get_order_price();
-            $subtotal = $price->multiply( $quantity->get_value() );
+            $subtotal = $price->multiply_price( $quantity->get_number() );
             $date = $purchase->get_order_date();
             $shipping = $purchase->get_order_shipping();
             $tax = $purchase->get_order_tax();
@@ -2021,17 +2028,17 @@ function render_equipment_list( $equipment_list ) {
 
             if ( ! $shipping->is_null() ) {
 
-              $ancillary_charges = $shipping->add( $tax )->subtract( $discount );
+              $ancillary_charges = $shipping->add( $tax )->subtract_price( $discount );
 
             }
             elseif ( ! $tax->is_null() ) {
 
-              $ancillary_charges = $tax->subtract( $discount );
+              $ancillary_charges = $tax->subtract_price( $discount );
 
             }
             elseif ( ! $discount->is_null() ) {
 
-              $ancillary_charges = $discount->invert();
+              $ancillary_charges = $discount->invert_price();
 
             }
 
@@ -2067,11 +2074,11 @@ function render_equipment_list( $equipment_list ) {
 
               out_text( ' on ' );
 
-              out_text( $purchase->get_order_date()->to_string() );
+              out_text( $purchase->get_order_date()->format() );
 
               out_text( ' for ' );
 
-              out_text( $purchase->get_order_price()->to_string() );
+              out_text( $purchase->get_order_price()->format() );
 
               out_text( $each );
 

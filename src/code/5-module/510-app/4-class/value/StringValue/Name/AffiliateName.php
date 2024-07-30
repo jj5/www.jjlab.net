@@ -12,6 +12,6 @@ class NullAffiliateName extends AffiliateName {
 
   use NullValue;
 
-  public function to_string() { return NULL_AFFILIATE_NAME; }
+  public function to_string() : string { return NULL_AFFILIATE_NAME; }
 
 }

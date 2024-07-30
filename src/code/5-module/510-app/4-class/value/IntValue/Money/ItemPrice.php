@@ -8,9 +8,9 @@ function item_price() {
 
 class ItemPrice extends Money {
 
-  protected function copy( $money_string ) {
+  protected function copy_price( IMudMoney $money ) {
 
-    return item_price( $money_string );
+    return item_price( $money );
 
   }
 }

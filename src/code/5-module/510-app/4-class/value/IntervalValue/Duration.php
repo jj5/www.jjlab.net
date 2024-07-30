@@ -14,4 +14,9 @@ class NullDuration extends Duration {
 
   use NullValue;
 
+  public function __construct() {
+    
+    parent::__construct( new DateInterval(' PT0S' ) );
+    
+  }
 }

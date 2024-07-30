@@ -52,7 +52,7 @@ class FirstPurchaseDate extends ValueWrapper {
 
   }
 
-  public function to_html() {
+  public function to_html( mixed $format = null ) : string {
 
     nip_init();
 

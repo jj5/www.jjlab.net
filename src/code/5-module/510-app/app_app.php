@@ -67,9 +67,9 @@ function new_value( string $class, array $args ) {
 
 }
 
-function new_item( string $class, array $args ) {
+function new_thing( string $class, array $args ) {
 
-  return app_stash()->new_item( $class, $args );
+  return app_stash()->new_thing( $class, $args );
 
 }
 

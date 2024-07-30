@@ -4,7 +4,7 @@ require_once __DIR__ . '/../../../../inc/framework.php';
 
 global $g_video_id;
 
-function render() {
+function app_render() {
 
   global $g_video_id;
 

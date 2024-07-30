@@ -32,7 +32,7 @@ class AppStash {
 
   }
 
-  public function render() {
+  public function render( mixed $format = null, array $attrs = [] ): void {
 
     if (  $this->render_document() ) {
 
@@ -177,7 +177,6 @@ class AppStash {
 
   protected function render_document_foot() {
 
-          
       tag_shut( 'body' );
 
     tag_shut( 'html' );
@@ -188,7 +187,18 @@ class AppStash {
 
     $args = $this->trim_args( $args );
 
-    $value = new $class( 0, $args );
+    $value = new $class( $args[ 0 ] );
+
+    if ( is_a( $value, IMudPrice::class ) ) {
+
+      $currency_override = $_GET[ 'currency' ] ?? null;
+
+      if ( $currency_override ) {
+
+        $value = $value->get_price_in_currency( $currency_override );
+
+      }
+    }
 
     $this->value_map[ $class ][] = $value;
 
@@ -196,7 +206,7 @@ class AppStash {
 
   }
 
-  public function new_item( string $class, array $args ) {
+  public function new_thing( string $class, array $args ) {
 
     $args = $this->trim_args( $args );
 
@@ -273,9 +283,9 @@ class AppStash {
 
   public function get_list( string $class ) {
 
-    //$class_list = $this->item_map[ $class ] ?? null;
+    $result = $this->item_map[ $class ] ?? null;
 
-    //if ( $class_list ) { return $class_list; }
+    if ( $result !== null ) { return $result; }
 
     $result = [];
 
@@ -284,6 +294,8 @@ class AppStash {
       if ( is_a( $item, $class ) ) { $result[] = $item; }
 
     }
+
+    $this->item_map[ $class ] = $result;
 
     return $result;
 
@@ -329,7 +341,9 @@ class AppStash {
 
   public static function get_null( $class ) {
 
-    return Item::get_null( $class );
+    return mud_null_object();
+
+    return AppThing::get_null( $class );
 
   }
 
@@ -471,7 +485,7 @@ class AppStash {
 
   public function get_new_book_selection() {
 
-    $list = app_stash()->get_list( NewBookFeature::class );
+    $list = app_stash()->get_list( NewBookTeardown::class );
 
     $list = array_filter(
       $list,

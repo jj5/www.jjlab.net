@@ -1,7 +1,8 @@
 <?php
 
-class StringValue extends Value {
+class StringValue extends MudString {
 
+  /*
   public function __construct( int $item_id = 0, array $args = [] ) {
 
     $value = null;
@@ -15,4 +16,6 @@ class StringValue extends Value {
     parent::__construct( $item_id, $args, $value );
 
   }
+  */
+
 }

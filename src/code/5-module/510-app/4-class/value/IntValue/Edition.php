@@ -8,7 +8,7 @@ function edition() {
 
 class Edition extends IntValue {
 
-  public function to_string() {
+  public function to_string() : string {
 
     static $map = [
       1 => '',
