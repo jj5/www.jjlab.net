@@ -1080,3 +1080,13 @@ show(
     patreon_url( 'https://www.patreon.com/posts/108970565' ),
   ),
 );
+
+show(
+  extra_content(
+    publication_date( '2024-07-30' ),
+    title( "Failing to Attach Banana Plugs to Microphone Cables" ),
+    youtube_video( 'OWAYIqxYkN4' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/07/30/extra-content-13-failing-to-attach-banana-plugs-to-microphone-cables-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/109088850' ),
+  ),
+);
