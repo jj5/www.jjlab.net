@@ -312,7 +312,7 @@ abstract class Segment extends AppThing {
           if ( ! $book->get_copyright_year()->is_null() ) {
 
             tag_text( 'dt', 'Book Copyright' );
-            tag_text( 'dd', "© " . $book->get_copyright_year() );
+            tag_text( 'dd', "© " . $book->get_copyright_year()->format() );
 
             tag_text( 'dt', 'Book Age' );
 

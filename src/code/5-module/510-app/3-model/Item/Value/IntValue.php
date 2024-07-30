@@ -20,6 +20,12 @@ class IntValue extends MudInteger {
 
   public function to_string() : string {
 
+    return strval( $this->get_int() );
+    
+  }
+
+  public function format( mixed $spec = null ) : string {
+
     return number_format( $this->get_value() );
     
   }
