@@ -6,22 +6,22 @@ class AppThing extends MudThing implements INullable {
 
   //protected $debug_string = null;
 
-  private $item_id = null;
+  private $item_id;
 
-  protected $property_list = [];
+  protected $property_list;
 
-  protected $property_map = [];
+  protected $property_map;
 
-  protected $parent = null;
+  protected $parent;
 
   public function __construct( int $item_id = 0, array $args = [] ) {
+
+    parent::__construct();
 
     $property_list = [];
     $property_map = [];
 
     foreach ( $args as $property ) {
-
-      //if ( ! is_a( $property, AppThing::class ) ) { continue; }
 
       $property->set_parent( $this );
 
@@ -33,16 +33,11 @@ class AppThing extends MudThing implements INullable {
     $this->item_id = $item_id;
     $this->property_list = $property_list;
     $this->property_map = $property_map;
-
-    $class = get_class( $this );
-    $slug = self::find_string( $property_list, Slug::class );
-    $name = self::find_string( $property_list, Name::class );
-
-    //$this->debug_string = "$class-$item_id-$slug-$name";
-
-    parent::__construct( $property_list );
+    $this->parent = null;
 
   }
+
+  public function get_child_list() : array { return $this->property_list; }
 
   //public function __toString() { return $this->to_string(); }
 

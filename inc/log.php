@@ -68,6 +68,8 @@ function jj_shutdown() {
 
 function jj_log_this() {
 
+  return false;
+
   $globals = jj_data_encode( $GLOBALS );
 
   $sql = "insert into weblog ( weblog_globals ) values ( :globals )";
@@ -79,6 +81,8 @@ function jj_log_this() {
 }
 
 function jj_log_done( $ob_level, $data ) {
+
+  return false;
 
   global $g_jj_start_time;
 
@@ -137,6 +141,8 @@ function jj_request_id( $set = null ) {
 
 function jj_run_sql( $sql, $params = [] ) {
 
+  return false;
+
   $pdo = jj_get_pdo();
 
   $stmt = $pdo->prepare( $sql );
@@ -151,6 +157,8 @@ function jj_run_sql( $sql, $params = [] ) {
 
 function jj_data_encode( $data ) {
 
+  return false;
+
   static $flags = JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE;
 
   $json = json_encode( $data, $flags );
@@ -160,6 +168,8 @@ function jj_data_encode( $data ) {
 }
 
 function jj_get_pdo() {
+
+  return false;
 
   static $pdo = null;
 
