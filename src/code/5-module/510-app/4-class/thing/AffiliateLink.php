@@ -27,16 +27,12 @@ class AffiliateLink extends AppThing implements ILink {
 
       if ( $shipping === '0' ) {
 
-        $money = $this->get_item_price()->to_string();
-
-        $this->item_total = item_total( $money );
+        $this->item_total = $this->get_item_price();
 
       }
       else {
 
-        $money = $this->get_item_price()->add( $this->get_item_shipping() )->to_string();
-
-        $this->item_total = item_total( $money );
+        $this->item_total = $this->get_item_price()->add_price( $this->get_item_shipping() );
 
       }
     }

@@ -2018,31 +2018,7 @@ function render_equipment_list( $equipment_list ) {
           foreach ( $purchase_list as $purchase ) {
 
             $quantity = $purchase->get_order_quantity();
-            $price = $purchase->get_order_price();
-            $subtotal = $price->multiply_price( $quantity->get_number() );
-            $date = $purchase->get_order_date();
-            $shipping = $purchase->get_order_shipping();
-            $tax = $purchase->get_order_tax();
-            $discount = $purchase->get_order_discount();
-            $ancillary_charges = null;
 
-            if ( ! $shipping->is_null() ) {
-
-              $ancillary_charges = $shipping->add( $tax )->subtract_price( $discount );
-
-            }
-            elseif ( ! $tax->is_null() ) {
-
-              $ancillary_charges = $tax->subtract_price( $discount );
-
-            }
-            elseif ( ! $discount->is_null() ) {
-
-              $ancillary_charges = $discount->invert_price();
-
-            }
-
-            $total = $subtotal->add( $ancillary_charges );
             $number = $quantity->get_value();
             $number_name = NUMBER_MAP[ $number ] ?? $number;
             $href = '#' . $purchase->get_parent()->get_equipment_id();
@@ -2051,12 +2027,6 @@ function render_equipment_list( $equipment_list ) {
             if ( ! $vendor_url->is_null() ) { $href = $vendor_url->to_html(); }
 
             $each = $number === 1 ? '' : ' each';
-            $plus = $shipping->get_value() > 0 ? 'and' : 'plus';
-
-            $order_url_html = $purchase->get_order_url()->to_html();
-            $order_id_html = $purchase->get_order_id()->to_html();
-
-            $order_item_name_html = $purchase->get_order_item_name()->to_html();
 
             tag_open( 'dt' );
 
