@@ -302,7 +302,7 @@ class Show extends AppThing {
 
   }
 
-  public function get_first_segment() {
+  public function get_first_segment() : Segment {
 
     return $this->get( Segment::class );
 
