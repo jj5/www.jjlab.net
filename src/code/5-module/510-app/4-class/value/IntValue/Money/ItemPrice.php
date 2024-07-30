@@ -1,8 +1,8 @@
 <?php
 
-function item_price() {
+function item_price( $arg ) {
 
-  return new_value( ItemPrice::class, func_get_args() );
+  return new_value( ItemPrice::class, $arg );
 
 }
 

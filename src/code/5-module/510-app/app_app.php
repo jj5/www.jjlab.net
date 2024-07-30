@@ -61,9 +61,9 @@ function app_stash() : AppStash {
 //
 
 
-function new_value( string $class, array $args ) {
+function new_value( string $class, mixed $arg ) {
 
-  return app_stash()->new_value( $class, $args );
+  return app_stash()->new_value( $class, $arg );
 
 }
 

@@ -1,8 +1,8 @@
 <?php
 
-function order_date() {
+function order_date( $arg ) {
 
-  return new_value( OrderDate::class, func_get_args() );
+  return new_value( OrderDate::class, $arg );
 
 }
 

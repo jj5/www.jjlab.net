@@ -1,8 +1,8 @@
 <?php
 
-function author() {
+function author( $arg ) {
 
-  return new_value( Author::class, func_get_args() );
+  return new_value( Author::class, $arg );
 
 }
 

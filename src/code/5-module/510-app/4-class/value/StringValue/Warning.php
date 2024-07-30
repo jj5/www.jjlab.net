@@ -1,8 +1,8 @@
 <?php
 
-function warning() {
+function warning( $arg ) {
 
-  return new_value( Warning::class, func_get_args() );
+  return new_value( Warning::class, $arg );
 
 }
 

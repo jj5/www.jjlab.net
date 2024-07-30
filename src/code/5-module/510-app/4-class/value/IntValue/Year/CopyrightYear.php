@@ -1,8 +1,8 @@
 <?php
 
-function copyright_year() {
+function copyright_year( $arg ) {
 
-  return new_value( CopyrightYear::class, func_get_args() );
+  return new_value( CopyrightYear::class, $arg );
 
 }
 

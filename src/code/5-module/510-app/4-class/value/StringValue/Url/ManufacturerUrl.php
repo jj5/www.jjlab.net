@@ -1,8 +1,8 @@
 <?php
 
-function manufacturer_url() {
+function manufacturer_url( $arg ) {
 
-  return new_value( ManufacturerUrl::class, func_get_args() );
+  return new_value( ManufacturerUrl::class, $arg );
 
 }
 

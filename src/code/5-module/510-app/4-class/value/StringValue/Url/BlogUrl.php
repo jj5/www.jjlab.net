@@ -1,8 +1,8 @@
 <?php
 
-function blog_url() {
+function blog_url( $arg ) {
 
-  return new_value( BlogUrl::class, func_get_args() );
+  return new_value( BlogUrl::class, $arg );
 
 }
 

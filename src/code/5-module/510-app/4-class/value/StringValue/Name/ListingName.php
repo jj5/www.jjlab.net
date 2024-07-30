@@ -1,8 +1,8 @@
 <?php
 
-function listing_name() {
+function listing_name( $arg ) {
 
-  return new_value( ListingName::class, func_get_args() );
+  return new_value( ListingName::class, $arg );
 
 }
 

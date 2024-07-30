@@ -1,8 +1,8 @@
 <?php
 
-function item_total() {
+function item_total( $arg ) {
 
-  return new_value( ItemTotal::class, func_get_args() );
+  return new_value( ItemTotal::class, $arg );
 
 }
 

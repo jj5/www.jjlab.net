@@ -1,8 +1,8 @@
 <?php
 
-function affiliate_url() {
+function affiliate_url( $arg ) {
 
-  return new_value( AffiliateUrl::class, func_get_args() );
+  return new_value( AffiliateUrl::class, $arg );
 
 }
 

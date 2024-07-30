@@ -1,8 +1,8 @@
 <?php
 
-function equipment_url() {
+function equipment_url( $arg ) {
 
-  return new_value( EquipmentUrl::class, func_get_args() );
+  return new_value( EquipmentUrl::class, $arg );
 
 }
 

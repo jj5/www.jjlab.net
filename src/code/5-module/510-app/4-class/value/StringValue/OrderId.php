@@ -1,8 +1,8 @@
 <?php
 
-function order_id() {
+function order_id( $arg ) {
 
-  return new_value( OrderId::class, func_get_args() );
+  return new_value( OrderId::class, $arg );
 
 }
 

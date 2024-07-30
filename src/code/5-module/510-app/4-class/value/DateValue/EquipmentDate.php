@@ -1,8 +1,8 @@
 <?php
 
-function equipment_date() {
+function equipment_date( $arg ) {
 
-  return new_value( EquipmentDate::class, func_get_args() );
+  return new_value( EquipmentDate::class, $arg );
 
 }
 

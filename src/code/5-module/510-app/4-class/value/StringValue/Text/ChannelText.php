@@ -1,8 +1,8 @@
 <?php
 
-function channel_text() {
+function channel_text( $arg ) {
 
-  return new_value( ChannelText::class, func_get_args() );
+  return new_value( ChannelText::class, $arg );
 
 }
 

@@ -1,8 +1,8 @@
 <?php
 
-function mini_project_number() {
+function mini_project_number( $arg ) {
 
-  return new_value( MiniProjectNumber::class, func_get_args() );
+  return new_value( MiniProjectNumber::class, $arg );
 
 }
 

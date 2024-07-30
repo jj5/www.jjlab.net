@@ -1,8 +1,8 @@
 <?php
 
-function feature_name() {
+function feature_name( $arg ) {
 
-  return new_value( FeatureName::class, func_get_args() );
+  return new_value( FeatureName::class, $arg );
 
 }
 

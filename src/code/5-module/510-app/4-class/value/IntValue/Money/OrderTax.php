@@ -1,8 +1,8 @@
 <?php
 
-function order_tax() {
+function order_tax( $arg ) {
 
-  return new_value( OrderTax::class, func_get_args() );
+  return new_value( OrderTax::class, $arg );
 
 }
 

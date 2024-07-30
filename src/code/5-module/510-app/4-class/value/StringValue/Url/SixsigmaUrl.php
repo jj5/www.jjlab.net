@@ -1,8 +1,8 @@
 <?php
 
-function sixsigma_url() {
+function sixsigma_url( $arg ) {
 
-  return new_value( SixsigmaUrl::class, func_get_args() );
+  return new_value( SixsigmaUrl::class, $arg );
 
 }
 

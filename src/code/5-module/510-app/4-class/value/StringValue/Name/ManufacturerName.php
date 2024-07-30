@@ -1,8 +1,8 @@
 <?php
 
-function manufacturer_name() {
+function manufacturer_name( $arg ) {
 
-  return new_value( ManufacturerName::class, func_get_args() );
+  return new_value( ManufacturerName::class, $arg );
 
 }
 

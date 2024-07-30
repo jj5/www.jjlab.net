@@ -2,9 +2,9 @@
 
 // 2024-01-25 jj5 - TODO: rename to ProjectNumber
 
-function project() {
+function project( $arg ) {
 
-  return new_value( Project::class, func_get_args() );
+  return new_value( Project::class, $arg );
 
 }
 

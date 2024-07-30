@@ -1,8 +1,8 @@
 <?php
 
-function link_href() {
+function link_href( $arg ) {
 
-  return new_value( LinkHref::class, func_get_args() );
+  return new_value( LinkHref::class, $arg );
 
 }
 

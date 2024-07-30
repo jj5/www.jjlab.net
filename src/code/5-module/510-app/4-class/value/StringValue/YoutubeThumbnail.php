@@ -1,8 +1,8 @@
 <?php
 
-function youtube_thumbnail() {
+function youtube_thumbnail( $arg ) {
 
-  return new_value( YoutubeThumbnail::class, func_get_args() );
+  return new_value( YoutubeThumbnail::class, $arg );
 
 }
 

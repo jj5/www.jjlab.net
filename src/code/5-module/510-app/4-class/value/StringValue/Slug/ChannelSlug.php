@@ -1,8 +1,8 @@
 <?php
 
-function channel_slug() {
+function channel_slug( $arg ) {
 
-  return new_value( ChannelSlug::class, func_get_args() );
+  return new_value( ChannelSlug::class, $arg );
 
 }
 

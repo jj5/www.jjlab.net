@@ -1,8 +1,8 @@
 <?php
 
-function sponsor_url() {
+function sponsor_url( $arg ) {
 
-  return new_value( SponsorUrl::class, func_get_args() );
+  return new_value( SponsorUrl::class, $arg );
 
 }
 

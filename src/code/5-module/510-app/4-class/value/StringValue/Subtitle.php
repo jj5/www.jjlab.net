@@ -1,8 +1,8 @@
 <?php
 
-function subtitle() {
+function subtitle( $arg ) {
 
-  return new_value( Subtitle::class, func_get_args() );
+  return new_value( Subtitle::class, $arg );
 
 }
 

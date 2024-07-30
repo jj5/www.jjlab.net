@@ -1,8 +1,8 @@
 <?php
 
-function slug() {
+function slug( $arg ) {
 
-  return new_value( Slug::class, func_get_args() );
+  return new_value( Slug::class, $arg );
 
 }
 

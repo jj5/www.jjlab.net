@@ -1,8 +1,8 @@
 <?php
 
-function category() {
+function category( $arg ) {
 
-  return new_value( Category::class, func_get_args() );
+  return new_value( Category::class, $arg );
 
 }
 

@@ -1,8 +1,8 @@
 <?php
 
-function search_url() {
+function search_url( $arg ) {
 
-  return new_value( SearchUrl::class, func_get_args() );
+  return new_value( SearchUrl::class, $arg );
 
 }
 

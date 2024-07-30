@@ -1,8 +1,8 @@
 <?php
 
-function item_shipping() {
+function item_shipping( $arg ) {
 
-  return new_value( ItemShipping::class, func_get_args() );
+  return new_value( ItemShipping::class, $arg );
 
 }
 

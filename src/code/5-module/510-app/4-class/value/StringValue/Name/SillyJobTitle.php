@@ -1,8 +1,8 @@
 <?php
 
-function silly_job_title() {
+function silly_job_title( $arg ) {
 
-  return new_value( SillyJobTitle::class, func_get_args() );
+  return new_value( SillyJobTitle::class, $arg );
 
 }
 

@@ -1,8 +1,8 @@
 <?php
 
-function order_note() {
+function order_note( $arg ) {
 
-  return new_value( OrderNote::class, func_get_args() );
+  return new_value( OrderNote::class, $arg );
 
 }
 

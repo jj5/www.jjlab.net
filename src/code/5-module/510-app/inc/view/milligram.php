@@ -351,7 +351,13 @@ function render_head( string $heading, array $options = [] ) {
               ]
             );
 
-              tag_bare( 'img', [ 'src' => url_base( $use_cdn = true ) . '/res/img.php/logo.png?v=' . $version ] );
+              tag_bare(
+                'img',
+                [
+                  'src' => url_base( $use_cdn = true ) . '/res/img.php/logo.png?v=' . $version,
+                  'loading' => 'eager',
+                ]
+              );
 
               tag_text( 'header', 'In The Lab With Jay Jay', [ 'class' => 'title' ] );
 
@@ -443,15 +449,50 @@ function render_head( string $heading, array $options = [] ) {
 
         tag_open( 'header', [ 'id' => 'banner' ] );
 
-          tag_bare( 'img', [ 'class' => 'rc-base', 'src' => url_base( $use_cdn = true ) . '/res/img.php/banner-base.jpg?v=' . get_resource_version() ] );
+          tag_bare(
+            'img',
+            [
+              'loading' => 'eager',
+              'class' => 'rc-base',
+              'src' => url_base( $use_cdn = true ) . '/res/img.php/banner-base.jpg?v=' . get_resource_version()
+            ]
+          );
 
-          tag_bare( 'img', [ 'class' => 'rc-0320', 'src' => url_base( $use_cdn = true ) . '/res/img.php/banner-base.jpg?v=' . get_resource_version() ] );
+          tag_bare(
+            'img',
+            [
+              'loading' => 'eager',
+              'class' => 'rc-0320',
+              'src' => url_base( $use_cdn = true ) . '/res/img.php/banner-base.jpg?v=' . get_resource_version()
+            ]
+          );
 
-          tag_bare( 'img', [ 'class' => 'rc-0640', 'src' => url_base( $use_cdn = true ) . '/res/img.php/banner-0640.jpg?v=' . get_resource_version() ] );
+          tag_bare(
+            'img',
+            [
+              'loading' => 'eager',
+              'class' => 'rc-0640',
+              'src' => url_base( $use_cdn = true ) . '/res/img.php/banner-0640.jpg?v=' . get_resource_version()
+            ]
+          );
 
-          tag_bare( 'img', [ 'class' => 'rc-1280', 'src' => url_base( $use_cdn = true ) . '/res/img.php/banner.jpg?v=' . get_resource_version() ] );
+          tag_bare(
+            'img',
+            [
+              'loading' => 'eager',
+              'class' => 'rc-1280',
+              'src' => url_base( $use_cdn = true ) . '/res/img.php/banner.jpg?v=' . get_resource_version()
+            ]
+          );
 
-          tag_bare( 'img', [ 'class' => 'rc-1920', 'src' => url_base( $use_cdn = true ) . '/res/img.php/banner.jpg?v=' . get_resource_version() ] );
+          tag_bare(
+            'img',
+            [
+              'loading' => 'eager',
+              'class' => 'rc-1920',
+              'src' => url_base( $use_cdn = true ) . '/res/img.php/banner.jpg?v=' . get_resource_version()
+            ]
+          );
 
         tag_shut( 'header' );
 

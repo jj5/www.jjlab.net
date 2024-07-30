@@ -1,8 +1,8 @@
 <?php
 
-function order_url() {
+function order_url( $arg ) {
 
-  return new_value( OrderUrl::class, func_get_args() );
+  return new_value( OrderUrl::class, $arg );
 
 }
 

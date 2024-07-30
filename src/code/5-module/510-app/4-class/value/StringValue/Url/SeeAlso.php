@@ -1,8 +1,8 @@
 <?php
 
-function see_also() {
+function see_also( $arg ) {
 
-  return new_value( SeeAlso::class, func_get_args() );
+  return new_value( SeeAlso::class, $arg );
 
 }
 

@@ -1,8 +1,8 @@
 <?php
 
-function show_text() {
+function show_text( $arg ) {
 
-  return new_value( ShowText::class, func_get_args() );
+  return new_value( ShowText::class, $arg );
 
 }
 

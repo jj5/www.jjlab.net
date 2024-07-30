@@ -1,8 +1,8 @@
 <?php
 
-function first_purchase_date() {
+function first_purchase_date( $arg ) {
 
-  return new_value( FirstPurchaseDate::class, func_get_args() );
+  return new_value( FirstPurchaseDate::class, $arg );
 
 }
 

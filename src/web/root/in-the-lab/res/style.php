@@ -4,6 +4,8 @@ require_once __DIR__ . '/../../../../../inc/framework.php';
 
 function app_render() {
   
+  mud_http_cache_forever();
+
   render_style_headers();
 
   $style_list = [ 'milligram/normalize.css', 'milligram/milligram.css', 'style.css' ];

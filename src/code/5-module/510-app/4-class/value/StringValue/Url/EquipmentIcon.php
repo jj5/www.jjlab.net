@@ -1,8 +1,8 @@
 <?php
 
-function equipment_icon() {
+function equipment_icon( $arg ) {
 
-  return new_value( EquipmentIcon::class, func_get_args() );
+  return new_value( EquipmentIcon::class, $arg );
 
 }
 

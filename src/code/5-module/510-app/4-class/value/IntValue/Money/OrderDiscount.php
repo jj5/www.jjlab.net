@@ -1,8 +1,8 @@
 <?php
 
-function order_discount() {
+function order_discount( $arg ) {
 
-  return new_value( OrderDiscount::class, func_get_args() );
+  return new_value( OrderDiscount::class, $arg );
 
 }
 

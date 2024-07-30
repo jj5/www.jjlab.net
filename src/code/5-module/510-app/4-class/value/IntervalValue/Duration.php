@@ -1,8 +1,8 @@
 <?php
 
-function duration() {
+function duration( $arg ) {
 
-  return new_value( Duration::class, func_get_args() );
+  return new_value( Duration::class, $arg );
 
 }
 

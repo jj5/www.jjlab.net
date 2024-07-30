@@ -1,8 +1,8 @@
 <?php
 
-function equipment_type() {
+function equipment_type( $arg ) {
 
-  return new_value( EquipmentType::class, func_get_args() );
+  return new_value( EquipmentType::class, $arg );
 
 }
 

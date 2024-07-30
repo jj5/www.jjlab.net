@@ -1,8 +1,8 @@
 <?php
 
-function patreon_url() {
+function patreon_url( $arg ) {
 
-  return new_value( PatreonUrl::class, func_get_args() );
+  return new_value( PatreonUrl::class, $arg );
 
 }
 

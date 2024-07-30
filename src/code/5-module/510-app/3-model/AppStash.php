@@ -183,11 +183,13 @@ class AppStash {
 
   }
 
-  public function new_value( string $class, array $args ) {
+  public function new_value( string $class, mixed $arg ) {
 
-    $args = $this->trim_args( $args );
+    //$args = $this->trim_args( $args );
 
-    $value = new $class( $args[ 0 ] );
+    if ( is_string( $arg ) ) { $arg = trim( $arg ); }
+
+    $value = new $class( $arg );
 
     if ( is_a( $value, IMudPrice::class ) ) {
 

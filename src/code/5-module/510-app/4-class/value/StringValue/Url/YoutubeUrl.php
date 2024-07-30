@@ -1,8 +1,8 @@
 <?php
 
-function youtube_url() {
+function youtube_url( $arg ) {
 
-  return new_value( YoutubeUrl::class, func_get_args() );
+  return new_value( YoutubeUrl::class, $arg );
 
 }
 

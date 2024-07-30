@@ -1,8 +1,8 @@
 <?php
 
-function order_total() {
+function order_total( $arg ) {
 
-  return new_value( OrderTotal::class, func_get_args() );
+  return new_value( OrderTotal::class, $arg );
 
 }
 

@@ -1,8 +1,8 @@
 <?php
 
-function link_text() {
+function link_text( $arg ) {
 
-  return new_value( LinkText::class, func_get_args() );
+  return new_value( LinkText::class, $arg );
 
 }
 

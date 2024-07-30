@@ -1,8 +1,8 @@
 <?php
 
-function item_options() {
+function item_options( $arg ) {
 
-  return new_value( ItemOptions::class, func_get_args() );
+  return new_value( ItemOptions::class, $arg );
 
 }
 

@@ -1,8 +1,8 @@
 <?php
 
-function edition() {
+function edition( $arg ) {
 
-  return new_value( Edition::class, func_get_args() );
+  return new_value( Edition::class, $arg );
 
 }
 

@@ -1,8 +1,8 @@
 <?php
 
-function maxitronix_kit_name() {
+function maxitronix_kit_name( $arg ) {
 
-  return new_value( MaxitronixKitName::class, func_get_args() );
+  return new_value( MaxitronixKitName::class, $arg );
 
 }
 

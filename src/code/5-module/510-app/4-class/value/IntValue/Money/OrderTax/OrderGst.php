@@ -1,8 +1,8 @@
 <?php
 
-function order_gst() {
+function order_gst( $arg ) {
 
-  return new_value( OrderGst::class, func_get_args() );
+  return new_value( OrderGst::class, $arg );
 
 }
 

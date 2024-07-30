@@ -1,14 +1,14 @@
 <?php
 
-function title() {
+function title( $arg ) {
 
-  return new_value( Name::class, func_get_args() );
+  return new_value( Name::class, $arg );
 
 }
 
-function name() {
+function name( $arg ) {
 
-  return new_value( Name::class, func_get_args() );
+  return new_value( Name::class, $arg );
 
 }
 

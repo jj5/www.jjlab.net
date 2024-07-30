@@ -1,8 +1,8 @@
 <?php
 
-function sponsor_reason() {
+function sponsor_reason( $arg ) {
 
-  return new_value( SponsorReason::class, func_get_args() );
+  return new_value( SponsorReason::class, $arg );
 
 }
 

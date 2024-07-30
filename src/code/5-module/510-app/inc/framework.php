@@ -278,7 +278,7 @@ function render_link_internal_img( string $img_src, string $href, string $title,
     tag_bare(
       'img',
       $img_attrs + [
-        'loading' => 'lazy',
+        'loading' => 'eager',
         'src' => $img_src,
         'alt' => $title,
       ]

@@ -1,8 +1,8 @@
 <?php
 
-function model_name() {
+function model_name( $arg ) {
 
-  return new_value( ModelName::class, func_get_args() );
+  return new_value( ModelName::class, $arg );
 
 }
 

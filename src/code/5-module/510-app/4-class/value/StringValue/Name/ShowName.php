@@ -1,8 +1,8 @@
 <?php
 
-function show_name() {
+function show_name( $arg ) {
 
-  return new_value( ShowName::class, func_get_args() );
+  return new_value( ShowName::class, $arg );
 
 }
 

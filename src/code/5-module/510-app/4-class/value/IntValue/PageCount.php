@@ -1,8 +1,8 @@
 <?php
 
-function page_count() {
+function page_count( $arg ) {
 
-  return new_value( PageCount::class, func_get_args() );
+  return new_value( PageCount::class, $arg );
 
 }
 

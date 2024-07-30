@@ -1,8 +1,8 @@
 <?php
 
-function affiliate_name() {
+function affiliate_name( $arg ) {
 
-  return new_value( AffiliateName::class, func_get_args() );
+  return new_value( AffiliateName::class, $arg );
 
 }
 

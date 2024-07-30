@@ -1,8 +1,8 @@
 <?php
 
-function text() {
+function text( $arg ) {
 
-  return new_value( Text::class, func_get_args() );
+  return new_value( Text::class, $arg );
 
 }
 

@@ -3,7 +3,9 @@
 require_once __DIR__ . '/../../../../../inc/framework.php';
 
 function app_render() {
-  
+
+  mud_http_cache_forever();
+
   render_script_headers();
 
   $script_list = [ 'global/default.js', 'script.js' ];

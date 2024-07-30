@@ -1,8 +1,8 @@
 <?php
 
-function show_slug() {
+function show_slug( $arg ) {
 
-  return new_value( ShowSlug::class, func_get_args() );
+  return new_value( ShowSlug::class, $arg );
 
 }
 

@@ -23,6 +23,8 @@ function app_render() {
 
       if ( ! $path || ! file_exists( $path ) ) { return render_404(); }
 
+      mud_http_cache_forever();
+
       render_image_headers( $extension );
 
       readfile( $path );
