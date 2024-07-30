@@ -8,7 +8,8 @@ var TITLE_HEADING_LINK = 'Click here to link to this heading.';
 
 (function() {
 
-  var canonical_domain = "www.inthelabwithjayjay.com";
+  //var canonical_domain = "www.inthelabwithjayjay.com";
+  var canonical_domain = window.APP_CANONICAL_DOMAIN || "www.inthelabwithjayjay.com";
   var current_domain = window.location.hostname;
 
   console.log( 'canonical_domain: ' + canonical_domain );

@@ -16,6 +16,7 @@ function app_render() {
 
   echo "var MUD_CLIENT_VERSION = " . json_encode( MUDBALL_VERSION ) . ";\n";
   echo "var APP_CLIENT_VERSION = " . json_encode( JJLAB_VERSION ) . ";\n\n";
+  echo "var APP_CANONICAL_DOMAIN = " . json_encode( APP_CANONICAL_DOMAIN ) . ";\n\n";
 
   foreach ( $script_list as $script ) {
 

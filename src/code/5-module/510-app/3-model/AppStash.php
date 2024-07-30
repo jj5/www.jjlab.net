@@ -174,9 +174,7 @@ class AppStash {
 
   public function new_value( string $class, mixed $arg ) {
 
-    //$args = $this->trim_args( $args );
-
-    if ( is_string( $arg ) ) { $arg = trim( $arg ); }
+    //if ( is_string( $arg ) ) { $arg = trim( $arg ); }
 
     $value = new $class( $arg );
 
