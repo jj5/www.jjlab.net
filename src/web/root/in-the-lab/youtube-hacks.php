@@ -74,20 +74,106 @@ function render_youtube_hacks_main() {
 
       tag_open( 'p' );
 
-        out_text( 'You can drag and drop the following bookmarklet link to your bookmarks bar to create a bookmarklet: ' );
+        out_text( 'You can drag and drop the following bookmarklet links to your bookmarks bar to create a bookmarklet: ' );
 
-        tag_text(
-          'a',
-          '3x',
-          [
-            'href' => 'javascript:(function(){document.querySelector("video").playbackRate = 3.0;})();',
-            'title' => 'Drag and drop the link to your bookmarks bar to create a bookmarklet.',
-          ]
-        );
+      tag_shut( 'p' );
 
-        out_text( '. ' );
+      tag_open( 'ul' );
 
-        out_text( 'Then when you are watching a YouTube video you can click the bookmarklet to increase the playback speed to 3x. ' );
+        tag_open( 'li' );
+
+          tag_text(
+            'a',
+            '1x',
+            [
+              'href' => 'javascript:(function(){document.querySelector("video").playbackRate = 1.0;})();',
+              'title' => 'Drag and drop the link to your bookmarks bar to create a bookmarklet.',
+            ]
+          );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          tag_text(
+            'a',
+            '1.5x',
+            [
+              'href' => 'javascript:(function(){document.querySelector("video").playbackRate = 1.5;})();',
+              'title' => 'Drag and drop the link to your bookmarks bar to create a bookmarklet.',
+            ]
+          );
+
+        tag_shut( 'li' );
+
+          tag_text(
+            'a',
+            '2x',
+            [
+              'href' => 'javascript:(function(){document.querySelector("video").playbackRate = 2.0;})();',
+              'title' => 'Drag and drop the link to your bookmarks bar to create a bookmarklet.',
+            ]
+          );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          tag_text(
+            'a',
+            '2.5x',
+            [
+              'href' => 'javascript:(function(){document.querySelector("video").playbackRate = 2.5;})();',
+              'title' => 'Drag and drop the link to your bookmarks bar to create a bookmarklet.',
+            ]
+          );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          tag_text(
+            'a',
+            '3x',
+            [
+              'href' => 'javascript:(function(){document.querySelector("video").playbackRate = 3.0;})();',
+              'title' => 'Drag and drop the link to your bookmarks bar to create a bookmarklet.',
+            ]
+          );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          tag_text(
+            'a',
+            '3.5x',
+            [
+              'href' => 'javascript:(function(){document.querySelector("video").playbackRate = 3.5;})();',
+              'title' => 'Drag and drop the link to your bookmarks bar to create a bookmarklet.',
+            ]
+          );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          tag_text(
+            'a',
+            '4x',
+            [
+              'href' => 'javascript:(function(){document.querySelector("video").playbackRate = 4.0;})();',
+              'title' => 'Drag and drop the link to your bookmarks bar to create a bookmarklet.',
+            ]
+          );
+
+        tag_shut( 'li' );
+
+      tag_shut( 'ul' );
+
+      tag_open( 'p' );
+
+        out_text( 'Then when you are watching a YouTube video you can click the bookmarklet to set the playback speed. ' );
 
         out_text( 'You can edit the bookmarklet to change the speed to a different value. ' );
 
