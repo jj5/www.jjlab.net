@@ -106,6 +106,8 @@ function render_youtube_hacks_main() {
 
         tag_shut( 'li' );
 
+        tag_open( 'li' );
+
           tag_text(
             'a',
             '2x',
