@@ -1102,3 +1102,14 @@ show(
     patreon_url( 'https://www.patreon.com/posts/109161060' ),
   ),
 );
+
+show(
+  mini_project(
+    publication_date( '2024-08-01' ),
+    title( "Symbol Keyboard" ),
+    mini_project_number( 1 ),
+    youtube_video( 'uHc-zOEWSzk' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/08/01/symbol-keyboard-mini-project-jmp001-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/109176758' ),
+  )
+);
