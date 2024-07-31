@@ -1090,3 +1090,15 @@ show(
     patreon_url( 'https://www.patreon.com/posts/109088850' ),
   ),
 );
+
+show(
+  maxitronix_segment(
+    publication_date( '2024-07-31' ),
+    title( "Speech Conductor" ),
+    project( 10, 20 ),
+    maxitronix_kit_name( '20in1' ),
+    youtube_video( 'mD_femGmv9g' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/07/31/speech-conductor-project-10-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/109161060' ),
+  ),
+);

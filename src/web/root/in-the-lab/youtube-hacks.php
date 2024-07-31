@@ -80,96 +80,36 @@ function render_youtube_hacks_main() {
 
       tag_open( 'ul' );
 
-        tag_open( 'li' );
+        $setting = [
+          '1x'    => '1.0',
+          '1.25x' => '1.25',
+          '1.5x'  => '1.5',
+          '1.75x' => '1.75',
+          '2x'    => '2.0',
+          '2.5x'  => '2.5',
+          '3x'    => '3.0',
+          '3.5x'  => '3.5',
+          '4x'    => '4.0',
+          '4.5x'  => '4.5',
+          '5x'    => '5.0',
+        ];
 
-          tag_text(
-            'a',
-            '1x',
-            [
-              'href' => 'javascript:(function(){document.querySelector("video").playbackRate = 1.0;})();',
-              'title' => 'Drag and drop the link to your bookmarks bar to create a bookmarklet.',
-            ]
-          );
+        foreach ( $setting as $label => $speed ) {
 
-        tag_shut( 'li' );
+          tag_open( 'li' );
 
-        tag_open( 'li' );
+            tag_text(
+              'a',
+              $label,
+              [
+                'href' => "javascript:(function(){document.querySelector('video').playbackRate = $speed;})();",
+                'title' => "Drag and drop the link to your bookmarks bar to create a bookmarklet for $speed speed.",
+              ]
+            );
 
-          tag_text(
-            'a',
-            '1.5x',
-            [
-              'href' => 'javascript:(function(){document.querySelector("video").playbackRate = 1.5;})();',
-              'title' => 'Drag and drop the link to your bookmarks bar to create a bookmarklet.',
-            ]
-          );
+          tag_shut( 'li' );
 
-        tag_shut( 'li' );
-
-        tag_open( 'li' );
-
-          tag_text(
-            'a',
-            '2x',
-            [
-              'href' => 'javascript:(function(){document.querySelector("video").playbackRate = 2.0;})();',
-              'title' => 'Drag and drop the link to your bookmarks bar to create a bookmarklet.',
-            ]
-          );
-
-        tag_shut( 'li' );
-
-        tag_open( 'li' );
-
-          tag_text(
-            'a',
-            '2.5x',
-            [
-              'href' => 'javascript:(function(){document.querySelector("video").playbackRate = 2.5;})();',
-              'title' => 'Drag and drop the link to your bookmarks bar to create a bookmarklet.',
-            ]
-          );
-
-        tag_shut( 'li' );
-
-        tag_open( 'li' );
-
-          tag_text(
-            'a',
-            '3x',
-            [
-              'href' => 'javascript:(function(){document.querySelector("video").playbackRate = 3.0;})();',
-              'title' => 'Drag and drop the link to your bookmarks bar to create a bookmarklet.',
-            ]
-          );
-
-        tag_shut( 'li' );
-
-        tag_open( 'li' );
-
-          tag_text(
-            'a',
-            '3.5x',
-            [
-              'href' => 'javascript:(function(){document.querySelector("video").playbackRate = 3.5;})();',
-              'title' => 'Drag and drop the link to your bookmarks bar to create a bookmarklet.',
-            ]
-          );
-
-        tag_shut( 'li' );
-
-        tag_open( 'li' );
-
-          tag_text(
-            'a',
-            '4x',
-            [
-              'href' => 'javascript:(function(){document.querySelector("video").playbackRate = 4.0;})();',
-              'title' => 'Drag and drop the link to your bookmarks bar to create a bookmarklet.',
-            ]
-          );
-
-        tag_shut( 'li' );
+        }
 
       tag_shut( 'ul' );
 
