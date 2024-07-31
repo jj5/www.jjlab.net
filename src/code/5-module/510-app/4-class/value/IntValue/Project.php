@@ -7,6 +7,10 @@ function project( $arg ) {
   // 2024-08-01 jj5 - HACK! I need to do it this way because I have since made values single-valued only, and I'm still
   // thinking about what we should do here...
 
+  // 2024-08-01 jj5 - NOTE: to support composite values I think we want to pass either a list or a map as the $arg here.
+  // Do it that way so that the implementation of the typical case (single-valued) is efficient and doesn't need to use
+  // fung_get_args() et al.
+
   $args = func_get_args();
 
   $result = new_value( Project::class, $arg );
