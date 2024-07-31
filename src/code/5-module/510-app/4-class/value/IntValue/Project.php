@@ -25,20 +25,6 @@ class Project extends IntValue {
 
   public $total = null;
 
-  public function __construct( int $value_id = 0, array $args = [] ) {
-
-    if ( count( $args ) ) {
-
-      $total = intval( $args[ 1 ] );
-
-      $this->total = $total;
-
-    }
-
-    parent::__construct( $value_id, $args );
-
-  }
-
   public function to_string() : string { return $this->get_value() . '/' . $this->total; }
 
   public function format( mixed $spec = null ) : string {
