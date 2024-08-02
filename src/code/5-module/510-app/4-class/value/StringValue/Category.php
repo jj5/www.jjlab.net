@@ -109,6 +109,7 @@ class Category extends StringValue {
       'Stud Finder',
       'Voltage Detector',
       'Meter',
+      'Scale',
 
       'Calculator',
       'Label Maker',
@@ -150,6 +151,9 @@ class Category extends StringValue {
       'Pickup Tool',
       'Stylus Pen',
       'Ruler',
+      'Gauge',
+      'Pliers',
+      'Wrench',
       'Hand Tool',
       'Wire Cutter',
       'Wire Stripper',
@@ -175,8 +179,6 @@ class Category extends StringValue {
       'Drill Bit',
       'Adapter',
 
-      'Clamp',
-
       'Probe',
       'Probe Tweezers',
       'Test Tweezers',
@@ -188,8 +190,11 @@ class Category extends StringValue {
       'Attachment',
 
       'Router',
+
+      'Clamp',
       'Vise', // US English
       'Vice', // UK English
+
       'Drill Press',
 
       'XH2.54',
