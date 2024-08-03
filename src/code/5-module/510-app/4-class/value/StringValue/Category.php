@@ -10,6 +10,16 @@ class Category extends StringValue {
 
   private $category_id = null;
 
+  private static $category_list = [];
+
+  public function __construct( string $value ) {
+
+    parent::__construct( $value );
+
+    self::$category_list[] = $value;
+
+  }
+
   public function get_category_id() {
 
     if ( $this->category_id === null ) {
@@ -39,6 +49,9 @@ class Category extends StringValue {
   public static function sort_natural( &$category_list ) {
 
     $category_order = self::get_category_order();
+
+    // 2024-08-03 jj5 - HACK! just leave it as defined...
+    return;
 
     usort(
       $category_list,
@@ -251,7 +264,17 @@ class Category extends StringValue {
 
     ];
 
-    if ( $category_order === null ) { $category_order = array_flip( $category_list ); }
+    if ( $category_order === null ) {
+      
+      //$category_order = array_flip( self::$category_list );
+      
+      $category_list = self::$category_list;
+
+      sort( $category_list );
+
+      $category_order = array_flip( $category_list );
+
+    }
 
     return $category_order;
 

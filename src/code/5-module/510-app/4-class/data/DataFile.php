@@ -23,6 +23,14 @@ class DataFile {
 
     static $flags = JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE;
 
+    if ( ! $this->data ) {
+
+      error_log( 'DataFile::save() - no data to save' );
+
+      return false;
+
+    }
+
     $json = json_encode( $this->data, $flags );
 
     if ( is_string( $json ) && ! json_last_error() ) {

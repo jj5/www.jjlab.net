@@ -2,9 +2,97 @@
 
 // 2024-01-16 JJ5 - NOTE: put new equipment at bottom of file.
 
+equipment_class_alias( EquipmentClass::WRENCH, 'spanner' );
+
+equipment_define(
+  EquipmentFeature::OSCILLOSCOPE,
+  EquipmentClass::SCOPE,
+  Measure::VOLTAGE,
+  Measure::TIME,
+  Measure::FREQUENCY,
+);
+
+equipment_define(
+  EquipmentFeature::MIXED_SIGNAL_OSCILLOSCOPE,
+  EquipmentFeature::OSCILLOSCOPE,
+);
+
+equipment_define(
+  EquipmentFeature::DIGITAL_STORAGE_OSCILLOSCOPE,
+  EquipmentFeature::OSCILLOSCOPE,
+);
+
+equipment_define(
+  EquipmentFeature::SPECTRUM_ANALYZER,
+  EquipmentClass::SPECTRUM_ANALYZER,
+  Measure::FREQUENCY,
+);
+
+equipment_define(
+  EquipmentFeature::LOGIC_ANALYZER,
+  EquipmentClass::LOGIC_ANALYZER,
+);
+
+equipment_define(
+  EquipmentFeature::PROTOCOL_ANALYZER,
+  EquipmentClass::PROTOCOL_ANALYZER,
+);
+
+equipment_define(
+  EquipmentFeature::SIGNAL_GENERATOR,
+  EquipmentClass::SIGNAL_GENERATOR,
+);
+
+equipment_define(
+  EquipmentFeature::WAVEFORM_GENERATOR,
+  EquipmentFeature::SIGNAL_GENERATOR,
+);
+
+equipment_define(
+  EquipmentFeature::FUNCTION_GENERATOR,
+  EquipmentFeature::WAVEFORM_GENERATOR,
+);
+
+equipment_define(
+  EquipmentFeature::METER,
+  EquipmentClass::METER,
+);
+
+equipment_define(
+  EquipmentFeature::VOLTMETER,
+  EquipmentFeature::METER,
+  Measure::VOLTAGE,
+);
+
+equipment_define(
+  EquipmentFeature::COUNTER_TOTALIZER,
+  EquipmentFeature::METER,
+  Measure::COUNT,
+);
+
 equipment(
   equipment_date( '2024-01-13' ),
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-03-173435/MSO5074-70MHz-4-Channel-MIXED-SIGNAL-OSCILLOSCOPES.png' ),
+  equipment_item(
+    manufacturer_name ( 'Rigol' ),
+    model_name        ( 'MSO5074' ),
+    manufacturer_link (
+      link_href       ( 'https://www.rigolna.com/products/digital-oscilloscopes/MSO5000/MSO5074/' ),
+      link_text       ( 'MSO5000 Mixed Signal Oscilloscopes | RIGOL - RIGOL Technologies' ),
+    ),
+    EquipmentFeature::MIXED_SIGNAL_OSCILLOSCOPE,
+    EquipmentFeature::SPECTRUM_ANALYZER,
+    EquipmentFeature::LOGIC_ANALYZER,
+    EquipmentFeature::PROTOCOL_ANALYZER,
+    EquipmentFeature::FUNCTION_GENERATOR,
+    EquipmentFeature::VOLTMETER,
+    EquipmentFeature::COUNTER_TOTALIZER,
+    Connectivity::BNC,
+    Connectivity::ETHERNET,
+    Connectivity::USB,
+    EquipmentAttribute::HEART,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Rigol' ),
     model_name        ( 'MSO5074' ),
@@ -29,6 +117,7 @@ equipment(
       link_text       ( 'MSO5000 Mixed Signal Oscilloscopes | RIGOL - RIGOL Technologies' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Rigol_MSO5074' ),
   warning       ( 'I have linked an MSO5072 option as well, I have an MSO5074' ),
   see_also      ( 'Rigol PLA2216 Logic Probe' ),
