@@ -396,6 +396,7 @@ equipment_define(
 
   equipment_define(
     EquipmentFeature::MULTIMETER,
+    EquipmentClass::MULTIMETER,
     EquipmentFeature::METER,
   );
 
@@ -14019,6 +14020,7 @@ equipment(
   equipment_item(
     manufacturer_name ( 'NBD' ),
     EquipmentFeature::VIDEO_CAMERA,
+    EquipmentConnectivity::USB,
   ),
   sixsigma_url  ( '' ),
   affiliate_link(
