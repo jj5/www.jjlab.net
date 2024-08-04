@@ -527,6 +527,17 @@ equipment_define(
     );
 
 //
+// 2024-08-04 jj5 - CHUMBY
+//
+
+equipment_define(
+  EquipmentFeature::CHUMBY,
+  EquipmentClass::CHUMBY,
+  EquipmentAttribute::COMPUTER_EQUIPMENT,
+  EquipmentAttribute::PERIPHERAL,
+);
+
+//
 // 2024-08-04 jj5 - ROTARY_TOOL
 //
 
@@ -14047,6 +14058,29 @@ equipment(
     manufacturer_name ( 'TEAC' ),
     model_name        ( '19"' ),
     EquipmentFeature::TELEVISION,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/225003146967' ),
+    listing_name  ( 'TEAC 19" HD DIGITAL FHD LED LCD TV & DVD PLAYER COMBO 12/240v LEV19A119' ),
+    item_price    ( 'AU$199.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/225003146967' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=14-08736-26211#/' ),
+    order_id        ( '14-08736-26211' ),
+    order_date      ( '12 Jun 2022' ),
+    order_item_name ( 'TEAC 19" HD DIGITAL FHD LED LCD TV & DVD PLAYER COMBO 12/240v LEV19A119' ),
+    order_price     ( 'AU$199.00' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2022-07-08' ),
+  equipment_icon( 'https://o.aolcdn.com/images/dims?resize=2000%2C2000%2Cshrink&image_uri=https:%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-03%2F8ea3fbd0-5d80-11ea-bfff-ae32ad81d2d0&client=a1acac3e1b3290917d92&signature=e402b2877de2758d00d84a8f22bd93e9bf938c7c' ),
+  equipment_item(
+    EquipmentFeature::CHUMBY,
   ),
   sixsigma_url  ( '' ),
   affiliate_link(

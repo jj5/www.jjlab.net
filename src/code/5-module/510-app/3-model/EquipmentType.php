@@ -427,6 +427,12 @@ enum EquipmentFeature : string {
       case THERMAL_IMAGER = 'thermal-imager';
 
   //
+  // 2024-08-04 jj5 - CHUMBY
+  //
+
+  case CHUMBY = 'chumby';
+
+  //
   // 2024-08-04 jj5 - ROTARY_TOOL
   //
 
