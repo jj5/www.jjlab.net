@@ -8,7 +8,11 @@ function equipment() {
 
 class Equipment extends AppThing {
 
-  public function format( mixed $spec = null ) : string { return $this->get_equipment_name()->to_string(); }
+  public function format( mixed $spec = null ) : string {
+    
+    return $this->get_equipment_name()->to_string();
+    
+  }
 
   public function get_directory_name() {
 

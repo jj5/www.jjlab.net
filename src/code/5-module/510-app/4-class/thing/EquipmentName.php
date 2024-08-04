@@ -16,19 +16,25 @@ class EquipmentName extends AppThing {
 
     $result = [];
 
-    $part = $this->get_manufacturer_name()->to_string();
+    $part = self::clean( $this->get_manufacturer_name()->to_string() );
 
     if ( $part ) { $result[] = $part; }
 
-    $part = $this->get_model_name()->to_string();
+    $part = self::clean( $this->get_model_name()->to_string() );
 
     if ( $part ) { $result[] = $part; }
 
-    $part = $this->get_equipment_type()->to_string();
+    $part = self::clean( $this->get_equipment_type()->to_string() );
 
     if ( $part ) { $result[] = $part; }
 
     return implode( ' ', $result );
+
+  }
+
+  private static function clean( string $string ) : string {
+
+    return str_replace( "'", '', $string );
 
   }
 
