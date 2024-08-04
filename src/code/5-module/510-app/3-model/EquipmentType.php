@@ -66,7 +66,7 @@ enum EquipmentConnectivity : string {
   //
   case COMPOSITE_VIDEO_RCA = 'composite-video-RCA';
 
-  case DISPLAY_PORT = 'display-port';
+  case DISPLAY_PORT = 'DisplayPort';
 
   case ETHERNET = 'ethernet';
 
@@ -394,7 +394,7 @@ enum EquipmentFeature : string {
 
     case KVM = 'KVM';
 
-      case DISPLAY_PORT_KVM = 'display-port-KVM';
+      case DISPLAY_PORT_KVM = 'DisplayPort-KVM';
 
   //
   // 2024-08-04 jj5 - KEYBOARD
