@@ -1451,6 +1451,12 @@ enum EquipmentFeature : string {
   case AIR_PURIFIER = 'air-purifier';
 
   //
+  // 2024-08-04 jj5 - E_READER
+  //
+
+  case E_READER = 'e-reader';
+
+  //
   // 2024-08-04 jj5 - FEATURE
   //
 

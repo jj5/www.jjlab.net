@@ -2605,6 +2605,15 @@ equipment_define(
 );
 
 //
+// 2024-08-04 jj5 - E_READER
+//
+
+equipment_define(
+  EquipmentFeature::E_READER,
+  EquipmentClass::E_READER,
+);
+
+//
 // 2024-08-04 jj5 - FEATURE
 //
 
@@ -13964,6 +13973,22 @@ equipment(
     equipment_url ( 'https://www.dyson.com/air-treatment/fans-heaters/hot-cool-jet-focus-am09-satin-black-nickel' ),
     listing_name  ( 'Dyson Hot+Cool™ Jet Focus fan heater AM09 (Satin Black/Nickel)' ),
     item_price    ( 'US$319.99' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2018-12-14' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71m6uTXiwSL._AC_SL1000_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Amazon' ),
+    model_name        ( 'Kindle Oasis' ),
+    EquipmentFeature::E_READER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B06XDK92KS' ),
+    listing_name  ( 'Kindle Oasis E-reader (Previous Generation), Waterproof, 7" High-Resolution Display (300 ppi), 8 GB Wi-Fi' ),
+    item_price    ( 'AU$559.00' ),
   ),
 );
 

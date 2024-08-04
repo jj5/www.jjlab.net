@@ -132,6 +132,10 @@ function get_string( $thing ) {
     
       return 'Counter/Totalizer';
 
+    case EquipmentFeature::E_READER->value:
+
+      return 'E-Reader';
+
   }
 
   $parts = explode( '-', $value );
