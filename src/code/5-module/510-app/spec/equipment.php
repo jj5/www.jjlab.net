@@ -414,6 +414,7 @@ equipment_define(
 
     equipment_define(
       EquipmentFeature::OSCILLOSCOPE_SIGNAL_GENERATOR_COMPONENT_TESTER,
+      EquipmentClass::SCOPE,
       EquipmentFeature::MULTIMETER,
       EquipmentFeature::DIGITAL_STORAGE_OSCILLOSCOPE,
       EquipmentFeature::SIGNAL_GENERATOR,
