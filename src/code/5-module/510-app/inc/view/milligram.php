@@ -1709,6 +1709,10 @@ function render_equipment_table( $equipment_list ) {
 
               }
 
+              tag_text( 'p', 'Wiki name:' );
+
+              tag_text( 'p', $equipment->format(), [ 'class' => 'indent' ] );
+
             tag_shut( 'td' );
 
           tag_shut( 'tr' );
