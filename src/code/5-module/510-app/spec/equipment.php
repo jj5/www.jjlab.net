@@ -14166,7 +14166,7 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/5CYAAOSwe~VfMJ~w/s-l1600.jpg' ),
   equipment_item(
     manufacturer_name ( 'Swann & Morten' ),
-    model_name        ( 'Handle For # 10 10A 11 15 15A' ),
+    model_name        ( 'Handle For No. 10 10A 11 15 15A' ),
     EquipmentFeature::SCALPEL_HANDLE,
   ),
   sixsigma_url  ( '' ),
