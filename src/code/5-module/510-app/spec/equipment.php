@@ -1690,6 +1690,7 @@ equipment_define(
 
   equipment_define(
     EquipmentFeature::KNIFE,
+    EquipmentClass::KNIFE,
     EquipmentFeature::CUTTING_IMPLEMENT,
     EquipmentAttribute::HAND_TOOL,
   );
