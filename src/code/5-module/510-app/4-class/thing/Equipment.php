@@ -20,7 +20,7 @@ class Equipment extends AppThing {
 
     $equipment_class = $equipment->equipment_class;
 
-    return $equipment_class->value . '-' . $this->get_equipment_id();
+    return strtolower( $equipment_class->value ) . '-' . $this->get_equipment_id();
 
   }
 
