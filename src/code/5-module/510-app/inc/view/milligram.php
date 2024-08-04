@@ -1705,15 +1705,7 @@ function render_equipment_table( $equipment_list ) {
 
                 tag_text( 'p', 'Directory name:' );
 
-                tag_open( 'ul' );
-
-                  tag_open( 'li' );
-
-                    out_text( $directory_name );
-
-                  tag_shut( 'li' );
-
-                tag_shut( 'ul' );
+                tag_text( 'p', $directory_name, [ 'class' => 'indent' ] );
 
               }
 
