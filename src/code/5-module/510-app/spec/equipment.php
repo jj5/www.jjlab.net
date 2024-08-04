@@ -13938,7 +13938,7 @@ equipment(
 equipment(
   equipment_date( '2023-05-30' ),
   equipment_icon( 'https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/309428-01.png?$responsive$&cropPathE=desktop&fit=stretch,1&wid=960' ),
-  equipment_info(
+  equipment_item(
     manufacturer_name ( 'Dyson' ),
     model_name        ( 'HP02' ),
     EquipmentFeature::AIR_PURIFIER,
@@ -13954,7 +13954,7 @@ equipment(
 equipment(
   equipment_date( '2023-05-30' ),
   equipment_icon( 'https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/464810-01.png?$responsive$&cropPathE=desktop&fit=stretch,1&wid=960' ),
-  equipment_info(
+  equipment_item(
     manufacturer_name ( 'Dyson' ),
     model_name        ( 'AM09' ),
     EquipmentFeature::AIR_PURIFIER,
@@ -13973,7 +13973,7 @@ equipment(
 equipment(
   equipment_date( '2024-08-02' ),
   equipment_icon( '' ),
-  equipment_info(
+  equipment_item(
     manufacturer_name ( '' ),
     model_name        ( '' ),
     equipment_type    ( '' ),
@@ -14004,7 +14004,7 @@ equipment(
 equipment(
   equipment_date( '2024-??-??' ),
   equipment_icon( '' ),
-  equipment_info(
+  equipment_item(
     manufacturer_name ( '' ),
     model_name        ( '' ),
     equipment_type    ( '' ),

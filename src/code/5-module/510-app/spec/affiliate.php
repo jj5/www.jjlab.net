@@ -39,3 +39,8 @@ affiliate(
   affiliate_name( 'Bunnings' ),
   affiliate_url( 'https://www.bunnings.com.au/' ),
 );
+
+affiliate(
+  affiliate_name( 'Dyson' ),
+  affiliate_url( 'https://www.dyson.com/' ),
+);
