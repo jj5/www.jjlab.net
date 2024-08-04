@@ -515,10 +515,15 @@ equipment_define(
 );
 
   equipment_define(
-    EquipmentFeature::THERMAL_IMAGER,
-    EquipmentClass::THERMAL_IMAGER,
+    EquipmentFeature::VIDEO_CAMERA,
     EquipmentFeature::CAMERA,
   );
+
+    equipment_define(
+      EquipmentFeature::THERMAL_IMAGER,
+      EquipmentClass::THERMAL_IMAGER,
+      EquipmentFeature::CAMERA,
+    );
 
 //
 // 2024-08-04 jj5 - ROTARY_TOOL
@@ -14005,6 +14010,30 @@ equipment(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B08MVKKSLY' ),
     listing_name  ( 'TOMLOV 8.5" Digital Microscope 50X-1300X Soldering Microscope, UHD Video Microscope with 12MP Ultra-Precise Camera Sensor for Adults, SD Card Included, Model-DM10' ),
     item_price    ( 'AU$422.74' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-09' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71Pxn9kjwPL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'NBD' ),
+    EquipmentFeature::VIDEO_CAMERA,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B0BD4SZ9CZ' ),
+    listing_name  ( ' 4K 48MP Compact Camera Digital Camera HD Vlogging Camera 16x Zoom Camera for Beginner Photography with 32GB SD Card ' ),
+    item_price    ( 'AU$199.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B0BD4SZ9CZ' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=249-5809880-4993438' ),
+    order_id        ( '249-5809880-4993438' ),
+    order_date      ( '9 August 2023' ),
+    order_item_name ( '4K 48MP Compact Camera Digital Camera HD Vlogging Camera 16x Zoom Camera for Beginner Photography with 32GB SD Card' ),
+    order_price     ( 'AU$199.00' ),
+    order_quantity  ( 1 ),
   ),
 );
 

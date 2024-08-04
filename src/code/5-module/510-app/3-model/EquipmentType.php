@@ -422,7 +422,9 @@ enum EquipmentFeature : string {
 
   case CAMERA = 'camera';
 
-    case THERMAL_IMAGER = 'thermal-imager';
+    case VIDEO_CAMERA = 'video-camera';
+
+      case THERMAL_IMAGER = 'thermal-imager';
 
   //
   // 2024-08-04 jj5 - ROTARY_TOOL
