@@ -1445,6 +1445,12 @@ enum EquipmentFeature : string {
     case ELECTRONIC_SCALE = 'electronic-scale';
 
   //
+  // 2024-08-04 jj5 - AIR_PURIFIER
+  //
+
+  case AIR_PURIFIER = 'air-purifier';
+
+  //
   // 2024-08-04 jj5 - FEATURE
   //
 

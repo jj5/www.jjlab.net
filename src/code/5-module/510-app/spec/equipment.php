@@ -2596,6 +2596,15 @@ equipment_define(
   );
 
 //
+// 2024-08-04 jj5 - AIR_PURIFIER
+//
+
+equipment_define(
+  EquipmentFeature::AIR_PURIFIER,
+  EquipmentClass::AIR_PURIFIER,
+);
+
+//
 // 2024-08-04 jj5 - FEATURE
 //
 
@@ -13923,6 +13932,38 @@ equipment(
     order_price     ( 'AU$3.09' ),
     order_quantity  ( 1 ),
     order_tax       ( 'AU$0.45' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-05-30' ),
+  equipment_icon( 'https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/309428-01.png?$responsive$&cropPathE=desktop&fit=stretch,1&wid=960' ),
+  equipment_info(
+    manufacturer_name ( 'Dyson' ),
+    model_name        ( 'HP02' ),
+    EquipmentFeature::AIR_PURIFIER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.dyson.com/air-treatment/air-purifier-heaters/pure-hot-cool-link-hp02/white-silver' ),
+    listing_name  ( 'Dyson Pure Hot + Cool Link™ HP02 purifier heater (White/Silver)' ),
+    item_price    ( 'US$629.99' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-05-30' ),
+  equipment_icon( 'https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/464810-01.png?$responsive$&cropPathE=desktop&fit=stretch,1&wid=960' ),
+  equipment_info(
+    manufacturer_name ( 'Dyson' ),
+    model_name        ( 'AM09' ),
+    EquipmentFeature::AIR_PURIFIER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.dyson.com/air-treatment/fans-heaters/hot-cool-jet-focus-am09-satin-black-nickel' ),
+    listing_name  ( 'Dyson Hot+Cool™ Jet Focus fan heater AM09 (Satin Black/Nickel)' ),
+    item_price    ( 'US$319.99' ),
   ),
 );
 
