@@ -247,7 +247,11 @@ class EquipmentObject extends MudObject{
     public array $connectivity_list = [],
     public array $measure_list = [],
     public array $function_list = [],
-  ) {}
+  ) {
+
+    parent::__construct( $item_id, $args );
+
+  }
 
   public function set_parent( IMudNode $parent ) : void { $this->parent = $parent; }
 
