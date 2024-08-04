@@ -14116,11 +14116,12 @@ equipment(
   equipment_item(
     manufacturer_name ( 'Swann & Morten' ),
     model_name        ( 'No.15' ),
-    EquipmentFeature::SCALPEL_BLADE,
+    EquipmentFeature::SCALPEL_HANDLE,
   ),
   sixsigma_url  ( '' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/164639362848' ),
+    affiliate_url ( 'https://ebay.us/HwmtSX' ),
     listing_name  ( 'Retractable No.15 Swann Morton Scalpel & Handle Surgical Blade Retract Pull Back' ),
     item_price    ( 'AU$13.95' ),
   ),
@@ -14171,6 +14172,7 @@ equipment(
   sixsigma_url  ( '' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/154040209003' ),
+    affiliate_url ( 'https://ebay.us/pemlat' ),
     listing_name  ( 'Retractaway Swann & Morton Scalpel Handle For # 10 10A 11 15 15A Surgical Blades' ),
     item_price    ( 'AU$30.95' ),
   ),
@@ -14196,6 +14198,7 @@ equipment(
   sixsigma_url  ( '' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/175674142283' ),
+    affiliate_url ( 'https://ebay.us/u2TBln' ),
     listing_name  ( 'Swann Morton Surgical Scalpel Blades Sterile Carbon Steel Available In 7 Size' ),
     item_price    ( 'AU$19.90' ),
   ),
@@ -14221,6 +14224,7 @@ equipment(
   sixsigma_url  ( '' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/175674142283' ),
+    affiliate_url ( 'https://ebay.us/u2TBln' ),
     listing_name  ( 'Swann Morton Surgical Scalpel Blades Sterile Carbon Steel Available In 7 Size' ),
     item_price    ( 'AU$19.90' ),
   ),
@@ -14246,6 +14250,7 @@ equipment(
   sixsigma_url  ( '' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/175674142283' ),
+    affiliate_url ( 'https://ebay.us/u2TBln' ),
     listing_name  ( 'Swann Morton Surgical Scalpel Blades Sterile Carbon Steel Available In 7 Size' ),
     item_price    ( 'AU$19.90' ),
   ),
