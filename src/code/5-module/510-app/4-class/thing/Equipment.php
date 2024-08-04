@@ -10,6 +10,20 @@ class Equipment extends AppThing {
 
   public function format( mixed $spec = null ) : string { return $this->get_equipment_name()->to_string(); }
 
+  public function get_directory_name() {
+
+    $info = $this->get_equipment_info();
+
+    $equipment = $info->get_equipment_object();
+
+    if ( $equipment->is_null() ) { return null; }
+
+    $equipment_class = $equipment->equipment_class;
+
+    return $equipment_class->value . '-' . $this->get_equipment_id();
+
+  }
+
   public function get_equipment_date() { return $this->get( EquipmentDate::class ); }
   public function get_equipment_icon() { return $this->get( EquipmentIcon::class ); }
   public function get_equipment_name() { return $this->get( EquipmentName::class ); }

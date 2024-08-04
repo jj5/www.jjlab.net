@@ -673,7 +673,12 @@ function sort_equipment_list( &$equipment_list ) {
 
   $sort = $_GET[ 'sort' ] ?? 'expensive-first';
 
-  if ( $sort === 'expensive-first' ) {
+  if ( $sort === 'none' ) {
+
+    // 2024-01-15 jj5 - just leave the array in the order it's in...
+
+  }
+  elseif ( $sort === 'expensive-first' ) {
 
     Equipment::sort_expensive_first( $equipment_list );
 
@@ -1689,6 +1694,24 @@ function render_equipment_table( $equipment_list ) {
                     tag_shut( 'li' );
 
                   }
+
+                tag_shut( 'ul' );
+
+              }
+
+              $directory_name = $equipment->get_directory_name();
+
+              if ( $directory_name ) {
+
+                tag_text( 'p', 'Directory name:' );
+
+                tag_open( 'ul' );
+
+                  tag_open( 'li' );
+
+                    out_text( $directory_name );
+
+                  tag_shut( 'li' );
 
                 tag_shut( 'ul' );
 

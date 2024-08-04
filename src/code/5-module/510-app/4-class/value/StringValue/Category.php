@@ -51,7 +51,8 @@ class Category extends StringValue {
     $category_order = self::get_category_order();
 
     // 2024-08-03 jj5 - HACK! just leave it as defined...
-    return;
+
+    return self::sort_alphabetical( $category_list );
 
     usort(
       $category_list,

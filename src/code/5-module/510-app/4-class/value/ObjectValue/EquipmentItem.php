@@ -18,7 +18,9 @@ function equipment_item( ...$args ) {
 
   $equipment_type = $feature_list[ 0 ];
 
-  $new_args = $map[ 'other' ];
+  $new_args = [ $g_equipment_map[ $equipment_type->value ] ];
+
+  $new_args = array_merge( $new_args, $map[ 'other' ] ?? [] );
 
   unset( $map[ 'other' ] );
 
@@ -41,6 +43,8 @@ function equipment_item( ...$args ) {
   foreach ( $map as $key => $list ) {
 
     foreach ( $list as $value ) {
+
+      if ( array_key_exists( $value->value, $category_map ) ) { continue; }
 
       $new_args[] = category( get_string( $value ) );
 
@@ -88,21 +92,41 @@ function get_string( $thing ) {
 
   switch ( $value ) {
 
-    case Connectivity::BNC->value:
-
-      return 'BNC';
-
-    case Connectivity::USB->value:
-
-      return 'USB';
-
-    case Connectivity::WIFI->value:
+    case EquipmentConnectivity::WIFI->value:
 
       return 'Wi-Fi';
 
     case EquipmentAttribute::HEART->value:
     
       return '❤️';
+
+    case EquipmentAttribute::HEAD_MOUNTED->value:
+    
+      return 'Head-Mounted';
+
+    case EquipmentFeature::VOLTMETER_AC->value:
+    
+      return 'Voltmeter (AC)';
+
+    case EquipmentFeature::VOLTMETER_DC->value:
+    
+      return 'Voltmeter (DC)';
+
+    case EquipmentFeature::AMMETER_AC->value:
+    
+      return 'Ammeter (AC)';
+
+    case EquipmentFeature::AMMETER_DC->value:
+    
+      return 'Ammeter (DC)';
+
+    case EquipmentFeature::HEAD_MOUNTED_MAGNIFIER->value:
+    
+      return 'Head-Mounted Magnifier';
+
+    case EquipmentFeature::MULTI_VISE->value:
+    
+      return 'Multi-Vise';
 
     case EquipmentFeature::COUNTER_TOTALIZER->value:
     
@@ -144,17 +168,21 @@ function equipment_define(
 
   $enums = read_enums( $args );
 
-  $feature_list = array_merge( [ $equipment_feature ], $enums[ EquipmentFeature::class ] ?? [] );
-  $connectivity_list = $enums[ Connectivity::class ] ?? [];
-  $measure_list = $enums[ Measure::class ] ?? [];
+  $feature_list = merge_enum_list( [ $equipment_feature ], $enums[ EquipmentFeature::class ] ?? [] );
+  $attribute_list = $enums[ EquipmentAttribute::class ] ?? [];
+  $connectivity_list = $enums[ EquipmentConnectivity::class ] ?? [];
+  $measure_list = $enums[ EquipmentMeasure::class ] ?? [];
   $function_list = $enums[ EquipmentFunction::class ] ?? [];
 
   if ( is_a( $inherits, EquipmentClass::class ) ) {
 
     $result = new EquipmentObject(
+      0,
+      [],
       $equipment_feature,
       $inherits,
       $feature_list,
+      $attribute_list,
       $connectivity_list,
       $measure_list,
       $function_list,
@@ -168,12 +196,15 @@ function equipment_define(
     $feature_list[] = $inherits_feature->equipment_feature;
 
     $result = new EquipmentObject(
+      0,
+      [],
       $equipment_feature,
       $inherits_feature->equipment_class,
-      array_merge( $inherits_feature->feature_list, $feature_list ),
-      array_merge( $inherits_feature->connectivity_list, $connectivity_list ),
-      array_merge( $inherits_feature->measure_list, $measure_list ),
-      array_merge( $inherits_feature->function_list, $function_list ),
+      merge_enum_list( $inherits_feature->feature_list, $feature_list ),
+      merge_enum_list( $inherits_feature->attribute_list, $attribute_list ),
+      merge_enum_list( $inherits_feature->connectivity_list, $connectivity_list ),
+      merge_enum_list( $inherits_feature->measure_list, $measure_list ),
+      merge_enum_list( $inherits_feature->function_list, $function_list ),
     );
 
   }
@@ -184,22 +215,60 @@ function equipment_define(
 
 }
 
-class EquipmentObject {
+function merge_enum_list( ...$args ) {
 
+  $result = [];
+
+  foreach ( $args as $list ) {
+
+    foreach ( $list as $enum ) {
+
+      $result[ $enum->value ] = $enum;
+
+    }
+  }
+
+  return array_values( $result );
+
+}
+
+class EquipmentObject extends MudObject{
+
+  public $parent = null;
+
+  public $value = null;
   public function __construct(
-    public EquipmentFeature $equipment_feature,
-    public EquipmentClass $equipment_class,
+    int $item_id = 0,
+    array $args = [],
+    public EquipmentFeature|null $equipment_feature = null,
+    public EquipmentClass|null $equipment_class = null,
     public array $feature_list = [],
+    public array $attribute_list = [],
     public array $connectivity_list = [],
     public array $measure_list = [],
     public array $function_list = [],
   ) {}
 
+  public function set_parent( IMudNode $parent ) : void { $this->parent = $parent; }
+
   public function build_category_map( &$map ) {
+
+    global $g_equipment_map;
+
+    foreach ( $this->feature_list as $feature ) {
+
+      $equipment = $g_equipment_map[ $feature->value ];
+
+      if ( $equipment === $this ) { continue; }
+
+      $equipment->build_category_map( $map );
+
+    }
 
     foreach(
       [
         $this->feature_list,
+        $this->attribute_list,
         $this->connectivity_list,
         //$this->measure_list,
         //$this->function_list,
@@ -210,9 +279,20 @@ class EquipmentObject {
 
       foreach ( $list as $enum ) {
 
+        // 2024-08-04 jj5 - NOTE: an equipment feature of "feature" is just for grouping...
+        // 2024-08-04 jj5 - NOTE: we don't want to show it in the category list...
+        //
+        if ( $enum === EquipmentFeature::FEATURE ) { continue; }
+
         $map[ $enum->value ] = category( get_string( $enum ) );
 
       }
     }
   }  
+}
+
+class NullEquipmentObject extends EquipmentObject {
+
+  use NullThingMixin;
+
 }

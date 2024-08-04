@@ -4,82 +4,2630 @@
 
 equipment_class_alias( EquipmentClass::WRENCH, 'spanner' );
 
+//
+// 2024-08-04 jj5 - ADAPTER
+//
+
+equipment_define(
+  EquipmentFeature::ADAPTER,
+  EquipmentClass::ADAPTER,
+  EquipmentAttribute::ACCESSORY,
+  EquipmentAttribute::ATTACHMENT,
+);
+
+  equipment_define(
+    EquipmentFeature::ANGLE_SCREW_ADAPTER,
+    EquipmentFeature::ADAPTER,
+  );
+
+//
+// 2024-08-04 jj5 - MISC_TOOL
+//
+
+equipment_define(
+  EquipmentFeature::REAMER,
+  EquipmentClass::TOOL,
+);
+
+equipment_define(
+  EquipmentFeature::PUNCH,
+  EquipmentClass::TOOL,
+);
+
+equipment_define(
+  EquipmentFeature::CAN_OPENER,
+  EquipmentClass::TOOL,
+);
+
+equipment_define(
+  EquipmentFeature::BOTTLE_OPENER,
+  EquipmentClass::TOOL,
+);
+
+equipment_define(
+  EquipmentFeature::WIRE_BENDER,
+  EquipmentClass::TOOL,
+);
+
+equipment_define(
+  EquipmentFeature::FISH_SCALER,
+  EquipmentClass::TOOL,
+);
+
+equipment_define(
+  EquipmentFeature::HOOK_DISGORGER,
+  EquipmentClass::TOOL,
+);
+
+equipment_define(
+  EquipmentFeature::NAIL_CLEANER,
+  EquipmentClass::TOOL,
+);
+
+equipment_define(
+  EquipmentFeature::CHISEL,
+  EquipmentClass::TOOL,
+);
+
+equipment_define(
+  EquipmentFeature::TOOTHPICK,
+  EquipmentClass::TOOL,
+);
+
+equipment_define(
+  EquipmentFeature::PIN,
+  EquipmentClass::TOOL,
+);
+
+equipment_define(
+  EquipmentFeature::KEY_RING,
+  EquipmentClass::TOOL,
+);
+
+equipment_define(
+  EquipmentFeature::CORKSCREW,
+  EquipmentClass::TOOL,
+);
+
+//
+// 2024-08-04 jj5 - AWL
+//
+
+equipment_define(
+  EquipmentFeature::AWL,
+  EquipmentClass::TOOL,
+);
+
+  equipment_define(
+    EquipmentFeature::SEWING_AWL,
+    EquipmentFeature::AWL,
+  );
+
+//
+// 2024-08-04 jj5 - SAW
+//
+
+equipment_define(
+  EquipmentFeature::SAW,
+  EquipmentClass::SAW,
+);
+
+  equipment_define(
+    EquipmentFeature::WOOD_SAW,
+    EquipmentFeature::SAW,
+  );
+
+  equipment_define(
+    EquipmentFeature::METAL_SAW,
+    EquipmentFeature::SAW,
+  );
+
+//
+// 2024-08-04 jj5 - FILE
+//
+
+equipment_define(
+  EquipmentFeature::FILE,
+  EquipmentClass::TOOL,
+);
+
+  equipment_define(
+    EquipmentFeature::NAIL_FILE,
+    EquipmentFeature::FILE,
+  );
+
+  equipment_define(
+    EquipmentFeature::METAL_FILE,
+    EquipmentFeature::FILE,
+  );
+
+//
+// 2024-08-04 jj5 - ABRASIVE
+//
+
+equipment_define(
+  EquipmentFeature::ABRASIVE,
+  EquipmentClass::ABRASIVE,
+  EquipmentAttribute::CLEANING_EQUIPMENT,
+);
+
+  equipment_define(
+    EquipmentFeature::SANDING_STICK,
+    EquipmentFeature::ABRASIVE,
+    // 2024-08-04 jj5 - THINK: are these consumable?
+    //EquipmentAttribute::CONSUMABLE,
+    EquipmentAttribute::HAND_TOOL,
+  );
+
+//
+// 2024-08-04 jj5 - LIGHT
+//
+
+equipment_define(
+  EquipmentFeature::LIGHT,
+  EquipmentClass::LIGHT,
+);
+
+  equipment_define(
+    EquipmentFeature::LED_LIGHT,
+    EquipmentFeature::LIGHT,
+  );
+
+    equipment_define(
+      EquipmentFeature::USB_LED_LIGHT,
+      EquipmentFeature::LED_LIGHT,
+    );
+
+  equipment_define(
+    EquipmentFeature::TORCH,
+    EquipmentFeature::LIGHT,
+    EquipmentAttribute::HAND_TOOL,
+  );
+
+    equipment_define(
+      EquipmentFeature::LED_TORCH,
+      EquipmentFeature::TORCH,
+    );
+
+    equipment_define(
+      EquipmentFeature::UV_LAMP,
+      EquipmentFeature::TORCH,
+    );
+
+      equipment_define(
+        EquipmentFeature::UV_CURING_LIGHT,
+        EquipmentFeature::UV_LAMP,
+      );
+
+//
+// 2024-08-03 jj5 - OSCILLOSCOPE
+//
+
 equipment_define(
   EquipmentFeature::OSCILLOSCOPE,
   EquipmentClass::SCOPE,
-  Measure::VOLTAGE,
-  Measure::TIME,
-  Measure::FREQUENCY,
+  EquipmentAttribute::TEST_EQUIPMENT,
+  EquipmentAttribute::MEASURING_EQUIPMENT,
+  EquipmentMeasure::VOLTAGE_DC,
+  EquipmentMeasure::VOLTAGE_AC,
+  EquipmentMeasure::TIME,
+  EquipmentMeasure::FREQUENCY,
 );
 
-equipment_define(
-  EquipmentFeature::MIXED_SIGNAL_OSCILLOSCOPE,
-  EquipmentFeature::OSCILLOSCOPE,
-);
+  equipment_define(
+    EquipmentFeature::MIXED_SIGNAL_OSCILLOSCOPE,
+    EquipmentFeature::OSCILLOSCOPE,
+  );
 
-equipment_define(
-  EquipmentFeature::DIGITAL_STORAGE_OSCILLOSCOPE,
-  EquipmentFeature::OSCILLOSCOPE,
-);
+  equipment_define(
+    EquipmentFeature::DIGITAL_STORAGE_OSCILLOSCOPE,
+    EquipmentFeature::OSCILLOSCOPE,
+  );
+
+//
+// 2024-08-03 jj5 - ANALYZER
+//
 
 equipment_define(
   EquipmentFeature::SPECTRUM_ANALYZER,
   EquipmentClass::SPECTRUM_ANALYZER,
-  Measure::FREQUENCY,
+  EquipmentAttribute::TEST_EQUIPMENT,
+  EquipmentAttribute::MEASURING_EQUIPMENT,
+  EquipmentMeasure::FREQUENCY,
 );
 
 equipment_define(
   EquipmentFeature::LOGIC_ANALYZER,
   EquipmentClass::LOGIC_ANALYZER,
+  EquipmentAttribute::TEST_EQUIPMENT,
 );
+
+  equipment_define(
+    EquipmentFeature::USB_LOGIC_ANALYZER,
+    EquipmentFeature::LOGIC_ANALYZER,
+    EquipmentConnectivity::USB,
+  );
 
 equipment_define(
   EquipmentFeature::PROTOCOL_ANALYZER,
   EquipmentClass::PROTOCOL_ANALYZER,
+  EquipmentAttribute::TEST_EQUIPMENT,
 );
+
+//
+// 2024-08-03 jj5 - GENERATOR
+//
 
 equipment_define(
   EquipmentFeature::SIGNAL_GENERATOR,
   EquipmentClass::SIGNAL_GENERATOR,
+  EquipmentAttribute::TEST_EQUIPMENT,
 );
 
-equipment_define(
-  EquipmentFeature::WAVEFORM_GENERATOR,
-  EquipmentFeature::SIGNAL_GENERATOR,
-);
+  equipment_define(
+    EquipmentFeature::WAVEFORM_GENERATOR,
+    EquipmentFeature::SIGNAL_GENERATOR,
+  );
 
-equipment_define(
-  EquipmentFeature::FUNCTION_GENERATOR,
-  EquipmentFeature::WAVEFORM_GENERATOR,
-);
+    equipment_define(
+      EquipmentFeature::FUNCTION_GENERATOR,
+      EquipmentFeature::WAVEFORM_GENERATOR,
+    );
+
+//
+// 2024-08-03 jj5 - METER
+//
 
 equipment_define(
   EquipmentFeature::METER,
   EquipmentClass::METER,
+  EquipmentAttribute::TEST_EQUIPMENT,
+  EquipmentAttribute::MEASURING_EQUIPMENT,
+);
+
+  equipment_define(
+    EquipmentFeature::DIGITAL_METER,
+    EquipmentFeature::METER,
+  );
+
+  equipment_define(
+    EquipmentFeature::VOLTMETER_AC,
+    EquipmentFeature::METER,
+    EquipmentMeasure::VOLTAGE_AC,
+  );
+
+  equipment_define(
+    EquipmentFeature::VOLTMETER_DC,
+    EquipmentFeature::METER,
+    EquipmentMeasure::VOLTAGE_DC,
+  );
+
+    equipment_define(
+      EquipmentFeature::VOLTMETER,
+      EquipmentFeature::METER,
+      EquipmentFeature::VOLTMETER_AC,
+      EquipmentFeature::VOLTMETER_DC,
+    );
+
+  equipment_define(
+    EquipmentFeature::AMMETER_AC,
+    EquipmentFeature::METER,
+    EquipmentMeasure::CURRENT_AC,
+  );
+
+  equipment_define(
+    EquipmentFeature::AMMETER_DC,
+    EquipmentFeature::METER,
+    EquipmentMeasure::CURRENT_DC,
+  );
+
+    equipment_define(
+      EquipmentFeature::AMMETER,
+      EquipmentFeature::METER,
+      EquipmentFeature::AMMETER_AC,
+      EquipmentFeature::AMMETER_DC,
+    );
+
+  equipment_define(
+    EquipmentFeature::OHMMETER,
+    EquipmentFeature::METER,
+    EquipmentMeasure::RESISTANCE,
+  );
+
+  equipment_define(
+    EquipmentFeature::CAPACITANCE_METER,
+    EquipmentFeature::METER,
+    EquipmentMeasure::CAPACITANCE,
+  );
+
+  equipment_define(
+    EquipmentFeature::FREQUENCY_COUNTER,
+    EquipmentFeature::METER,
+    EquipmentMeasure::FREQUENCY,
+  );
+
+  equipment_define(
+    EquipmentFeature::CONTINUITY_TESTER,
+    EquipmentFeature::METER,
+    EquipmentMeasure::CONTINUITY,
+  );
+
+  equipment_define(
+    EquipmentFeature::DIODE_TESTER,
+    EquipmentFeature::METER,
+  );
+
+  equipment_define(
+    EquipmentFeature::TRANSISTOR_TESTER,
+    EquipmentFeature::METER,
+  );
+
+  equipment_define(
+    EquipmentFeature::THERMOMETER,
+    EquipmentFeature::METER,
+    EquipmentMeasure::TEMPERATURE,
+  );
+
+  equipment_define(
+    EquipmentFeature::COUNTER_TOTALIZER,
+    EquipmentFeature::METER,
+    EquipmentMeasure::COUNT,
+  );
+
+  equipment_define(
+    EquipmentFeature::COMPONENT_TESTER,
+    EquipmentFeature::METER,
+  );
+
+  equipment_define(
+    EquipmentFeature::SMD_TESTER,
+    EquipmentFeature::METER,
+  );
+
+  equipment_define(
+    EquipmentFeature::LCR_METER,
+    EquipmentFeature::METER,
+  );
+
+  equipment_define(
+    EquipmentFeature::ESR_METER,
+    EquipmentFeature::METER,
+  );
+
+  equipment_define(
+    EquipmentFeature::MULTIMETER,
+    EquipmentFeature::METER,
+  );
+
+    equipment_define(
+      EquipmentFeature::HANDHELD_MULTIMETER,
+      EquipmentFeature::MULTIMETER,
+      EquipmentAttribute::HAND_TOOL,
+    );
+
+    equipment_define(
+      EquipmentFeature::BENCH_MULTIMETER,
+      EquipmentFeature::MULTIMETER,
+      EquipmentAttribute::BENCH_EQUIPMENT,
+    );
+
+    equipment_define(
+      EquipmentFeature::OSCILLOSCOPE_SIGNAL_GENERATOR_COMPONENT_TESTER,
+      EquipmentFeature::MULTIMETER,
+      EquipmentFeature::DIGITAL_STORAGE_OSCILLOSCOPE,
+      EquipmentFeature::SIGNAL_GENERATOR,
+      EquipmentFeature::WAVEFORM_GENERATOR,
+      EquipmentFeature::COMPONENT_TESTER,
+      EquipmentFeature::TRANSISTOR_TESTER,
+      EquipmentFeature::LCR_METER,
+    );
+
+//
+// 2024-08-03 jj5 - PROBE
+//
+
+equipment_define(
+  EquipmentFeature::PROBE,
+  EquipmentClass::PROBE,
+  EquipmentAttribute::ACCESSORY,
+  EquipmentAttribute::ATTACHMENT,
+  EquipmentAttribute::MEASURING_EQUIPMENT,
+  EquipmentAttribute::TEST_EQUIPMENT,
+);
+
+  equipment_define(
+    EquipmentFeature::LOGIC_PROBE,
+    EquipmentFeature::PROBE,
+  );
+
+//
+// 2024-08-04 jj5 - SWITCH
+//
+
+equipment_define(
+  EquipmentFeature::SWITCH,
+  EquipmentClass::SWITCH,
+  EquipmentAttribute::BENCH_EQUIPMENT,
+  EquipmentAttribute::COMPUTER_EQUIPMENT,
+);
+
+  equipment_define(
+    EquipmentFeature::KVM,
+    EquipmentClass::KVM,
+    EquipmentFeature::SWITCH,
+    EquipmentAttribute::PERIPHERAL,
+  );
+
+    equipment_define(
+      EquipmentFeature::DISPLAY_PORT_KVM,
+      EquipmentFeature::KVM,
+    );
+
+//
+// 2024-08-04 jj5 - KEYBOARD
+//
+
+equipment_define(
+  EquipmentFeature::KEYBOARD,
+  EquipmentClass::KEYBOARD,
+  EquipmentAttribute::ACCESSORY,
+  EquipmentAttribute::COMPUTER_EQUIPMENT,
+  EquipmentAttribute::PERIPHERAL,
+);
+
+  equipment_define(
+    EquipmentFeature::MECHANICAL_KEYBOARD,
+    EquipmentFeature::KEYBOARD,
+  );
+
+//
+// 2024-08-04 jj5 - FURNITURE
+//
+
+equipment_define(
+  EquipmentFeature::FURNITURE,
+  EquipmentClass::FURNITURE,
+);
+
+  equipment_define(
+    EquipmentFeature::DRAWER,
+    EquipmentClass::DRAWER,
+    EquipmentFeature::FURNITURE,
+  );
+
+    equipment_define(
+      EquipmentFeature::KEYBOARD_DRAWER,
+      EquipmentFeature::DRAWER,
+    );
+
+  equipment_define(
+    EquipmentFeature::STEP_LADDER,
+    EquipmentFeature::FURNITURE,
+  );
+
+//
+// 2024-08-04 jj5 - CAMERA
+//
+
+equipment_define(
+  EquipmentFeature::CAMERA,
+  EquipmentClass::CAMERA,
+);
+
+  equipment_define(
+    EquipmentFeature::THERMAL_IMAGER,
+    EquipmentClass::THERMAL_IMAGER,
+    EquipmentFeature::CAMERA,
+  );
+
+//
+// 2024-08-04 jj5 - ROTARY_TOOL
+//
+
+equipment_define(
+  EquipmentFeature::ROTARY_TOOL,
+  EquipmentClass::ROTARY_TOOL,
+  EquipmentAttribute::HAND_TOOL,
+);
+
+//
+// 2024-08-04 jj5 - ROTARY_TOOL_ACCESSORY
+//
+
+equipment_define(
+  EquipmentFeature::ROTARY_TOOL_ACCESSORY,
+  EquipmentClass::ROTARY_TOOL,
+  EquipmentAttribute::ACCESSORY,
+  EquipmentAttribute::ATTACHMENT,
+);
+
+  equipment_define(
+    EquipmentFeature::ROTARY_TOOL_ACCESSORY_SET,
+    EquipmentFeature::ROTARY_TOOL_ACCESSORY,
+  );
+
+  equipment_define(
+    EquipmentFeature::ROTARY_DRILL_CHUCK,
+    EquipmentFeature::ROTARY_TOOL_ACCESSORY,
+  );
+
+  equipment_define(
+    EquipmentFeature::DREMEL_PIVOT_LIGHT,
+    EquipmentFeature::ROTARY_TOOL_ACCESSORY,
+    EquipmentFeature::LED_LIGHT,
+  );
+
+  equipment_define(
+    EquipmentFeature::DREMEL_421_POLISHING_COMPOUND,
+    EquipmentFeature::ROTARY_TOOL_ACCESSORY,
+  );
+
+  equipment_define(
+    EquipmentFeature::ROTARY_TOOL_BIT,
+    EquipmentFeature::ROTARY_TOOL_ACCESSORY,
+  );
+
+    equipment_define(
+      EquipmentFeature::DRILL_BIT,
+      EquipmentFeature::ROTARY_TOOL_BIT,
+    );
+
+      equipment_define(
+        EquipmentFeature::DRILL_BITS,
+        EquipmentFeature::DRILL_BIT,
+      );
+
+      equipment_define(
+        EquipmentFeature::HSS_DRILL_BIT,
+        EquipmentFeature::DRILL_BIT,
+      );
+
+      equipment_define(
+        EquipmentFeature::DREMEL_150_DRILL_BIT,
+        EquipmentFeature::DRILL_BIT,
+      );
+
+      equipment_define(
+        EquipmentFeature::DRILL_EXTENSION,
+        EquipmentFeature::DRILL_BIT,
+      );
+
+        equipment_define(
+          EquipmentFeature::DRILL_BIT_EXTENSION,
+          EquipmentFeature::DRILL_EXTENSION,
+          EquipmentFeature::ADAPTER,
+        );
+
+      equipment_define(
+        EquipmentFeature::DEBURRING_DRILL_BIT,
+        EquipmentFeature::DRILL_BIT,
+      );
+
+    equipment_define(
+      EquipmentFeature::ROTARY_ENGRAVING_BIT,
+      EquipmentFeature::ROTARY_TOOL_BIT,
+    );
+
+      equipment_define(
+        EquipmentFeature::DREMEL_107_ENGRAVING_BIT,
+        EquipmentFeature::ROTARY_ENGRAVING_BIT,
+      );
+
+    equipment_define(
+      EquipmentFeature::ROTARY_CARVING_BIT,
+      EquipmentFeature::ROTARY_TOOL_BIT,
+    );
+
+      equipment_define(
+        EquipmentFeature::DREMEL_191_CARVING_BIT,
+        EquipmentFeature::ROTARY_CARVING_BIT,
+      );
+
+    equipment_define(
+      EquipmentFeature::ROTARY_CUTTING_ACCESSORY,
+      EquipmentFeature::ROTARY_TOOL_BIT,
+    );
+
+      equipment_define(
+        EquipmentFeature::ROTARY_CUTTING_ACCESSORY_SET,
+        EquipmentFeature::ROTARY_CUTTING_ACCESSORY,
+      );
+
+      equipment_define(
+        EquipmentFeature::ROTARY_MILLING_CUTTER,
+        EquipmentFeature::ROTARY_CUTTING_ACCESSORY,
+      );
+
+      equipment_define(
+        EquipmentFeature::DREMEL_561_MULTI_PURPOSE_CUTTING_BIT,
+        EquipmentFeature::ROTARY_CUTTING_ACCESSORY,
+      );
+
+      equipment_define(
+        EquipmentFeature::DREMEL_565_MULTI_PURPOSE_CUTTING_KIT,
+        EquipmentFeature::ROTARY_CUTTING_ACCESSORY,
+      );
+
+      equipment_define(
+        EquipmentFeature::ROTARY_CUTTING_DISC,
+        EquipmentFeature::ROTARY_CUTTING_ACCESSORY,
+      );
+
+        equipment_define(
+          EquipmentFeature::DREMEL_EZ456_METAL_CUT_OFF_WHEEL,
+          EquipmentFeature::ROTARY_CUTTING_DISC,
+        );
+
+        equipment_define(
+          EquipmentFeature::DREMEL_EZ476_PLASTIC_CUT_OFF_WHEEL,
+          EquipmentFeature::ROTARY_CUTTING_DISC,
+        );
+
+        equipment_define(
+          EquipmentFeature::DREMEL_EZ409_THIN_CUT_OFF_WHEEL,
+          EquipmentFeature::ROTARY_CUTTING_DISC,
+        );
+
+        equipment_define(
+          EquipmentFeature::CARBIDE_CUTTING_WHEEL,
+          EquipmentFeature::ROTARY_CUTTING_DISC,
+        );
+
+          equipment_define(
+            EquipmentFeature::DREMEL_EZ544_CARBIDE_CUTTING_WHEEL,
+            EquipmentFeature::CARBIDE_CUTTING_WHEEL,
+          );
+
+        equipment_define(
+          EquipmentFeature::DIAMOND_CUTTING_WHEEL,
+          EquipmentFeature::ROTARY_CUTTING_DISC,
+        );
+
+          equipment_define(
+            EquipmentFeature::DREMEL_EZ545_DIAMOND_CUTTING_WHEEL,
+            EquipmentFeature::DIAMOND_CUTTING_WHEEL,
+          );
+
+        equipment_define(
+          EquipmentFeature::HSS_WOOD_CUTTING_SAW_BLADE_DISC,
+          EquipmentFeature::ROTARY_CUTTING_DISC,
+        );
+
+        equipment_define(
+          EquipmentFeature::RESIN_CUTTING_WHEEL,
+          EquipmentFeature::ROTARY_CUTTING_DISC,
+        );
+
+        equipment_define(
+          EquipmentFeature::RED_RESIN_CUTTING_WHEEL,
+          EquipmentFeature::ROTARY_CUTTING_DISC,
+        );
+
+    equipment_define(
+      EquipmentFeature::ROTARY_POLISHING_ACCESSORY,
+      EquipmentFeature::ROTARY_TOOL_BIT,
+    );
+
+      equipment_define(
+        EquipmentFeature::ROTARY_POLISHING_WOOL_WHEEL,
+        EquipmentFeature::ROTARY_POLISHING_ACCESSORY,
+      );
+
+      equipment_define(
+        EquipmentFeature::ROTARY_POLISHING_CLOTH_WHEEL,
+        EquipmentFeature::ROTARY_POLISHING_ACCESSORY,
+      );
+
+        equipment_define(
+          EquipmentFeature::DREMEL_432E_CLOTH_POLISHING_WHEEL,
+          EquipmentFeature::ROTARY_POLISHING_CLOTH_WHEEL,
+        );
+
+      equipment_define(
+        EquipmentFeature::ROTARY_POLISHING_FELT_WHEEL,
+        EquipmentFeature::ROTARY_POLISHING_ACCESSORY,
+      );
+
+        equipment_define(
+          EquipmentFeature::DREMEL_414_FELT_POLISHING_WHEEL,
+          EquipmentFeature::ROTARY_POLISHING_FELT_WHEEL,
+        );
+
+        equipment_define(
+          EquipmentFeature::DREMEL_429_FELT_POLISHING_WHEEL,
+          EquipmentFeature::ROTARY_POLISHING_FELT_WHEEL,
+        );
+
+    equipment_define(
+      EquipmentFeature::ROTARY_BRUSH_ACCESSORY,
+      EquipmentFeature::ROTARY_TOOL_BIT,
+    );
+
+      equipment_define(
+        EquipmentFeature::ROTARY_NYLON_BRUSH,
+        EquipmentFeature::ROTARY_BRUSH_ACCESSORY,
+      );
+
+        equipment_define(
+          EquipmentFeature::ROTARY_NYLON_ABRASIVE_BRUSH,
+          EquipmentFeature::ROTARY_NYLON_BRUSH,
+          EquipmentFeature::ABRASIVE,
+        );
+
+        equipment_define(
+          EquipmentFeature::DREMEL_403_NYLON_BRUSH,
+          EquipmentFeature::ROTARY_NYLON_BRUSH,
+        );
+
+      equipment_define(
+        EquipmentFeature::ROTARY_WIRE_BRUSH,
+        EquipmentFeature::ROTARY_BRUSH_ACCESSORY,
+        EquipmentFeature::ABRASIVE,
+      );
+
+        equipment_define(
+          EquipmentFeature::DREMEL_428_CARBON_STEEL_BRUSH,
+          EquipmentFeature::ROTARY_WIRE_BRUSH,
+        );
+
+    equipment_define(
+      EquipmentFeature::ROTARY_GRINDING_ACCESSORY,
+      EquipmentFeature::ROTARY_TOOL_BIT,
+    );
+
+      equipment_define(
+        EquipmentFeature::ROTARY_GRINDING_RUBBER,
+        EquipmentFeature::ROTARY_GRINDING_ACCESSORY,
+      );
+
+      equipment_define(
+        EquipmentFeature::ROTARY_GRINDING_BURR,
+        EquipmentFeature::ROTARY_GRINDING_ACCESSORY,
+      );
+
+      equipment_define(
+        EquipmentFeature::ROTARY_GRINDING_STONE,
+        EquipmentFeature::ROTARY_GRINDING_ACCESSORY,
+      );
+
+        equipment_define(
+          EquipmentFeature::DREMEL_8193_ALUMINUM_OXIDE_GRINDING_STONE,
+          EquipmentFeature::ROTARY_GRINDING_STONE,
+        );
+
+        equipment_define(
+          EquipmentFeature::DREMEL_84922_SILICON_CARBIDE_GRINDING_STONE,
+          EquipmentFeature::ROTARY_GRINDING_STONE,
+        );
+
+        equipment_define(
+          EquipmentFeature::DREMEL_932_ALUMINUM_OXIDE_GRINDING_STONE,
+          EquipmentFeature::ROTARY_GRINDING_STONE,
+        );
+
+        equipment_define(
+          EquipmentFeature::ROTARY_SHARPENING_STONE,
+          EquipmentFeature::ROTARY_GRINDING_STONE,
+        );
+
+    equipment_define(
+      EquipmentFeature::ROTARY_SANDING_ACCESSORY,
+      EquipmentFeature::ROTARY_TOOL_BIT,
+    );
+
+      equipment_define(
+        EquipmentFeature::ROTARY_SANDING_DISC,
+        EquipmentFeature::ROTARY_SANDING_ACCESSORY,
+      );
+
+        equipment_define(
+          EquipmentFeature::DREMEL_EZ411_SANDING_DISC,
+          EquipmentFeature::ROTARY_SANDING_DISC,
+        );
+
+        equipment_define(
+          EquipmentFeature::DREMEL_EZ411SA_SANDING_DISC,
+          EquipmentFeature::ROTARY_SANDING_DISC,
+        );
+
+        equipment_define(
+          EquipmentFeature::DREMEL_EZ412_SANDING_DISC,
+          EquipmentFeature::ROTARY_SANDING_DISC,
+        );
+
+        equipment_define(
+          EquipmentFeature::DREMEL_EZ412SA_SANDING_DISC,
+          EquipmentFeature::ROTARY_SANDING_DISC,
+        );
+
+        equipment_define(
+          EquipmentFeature::DREMEL_EZ413_SANDING_DISC,
+          EquipmentFeature::ROTARY_SANDING_DISC,
+        );
+
+        equipment_define(
+          EquipmentFeature::DREMEL_EZ413SA_SANDING_DISC,
+          EquipmentFeature::ROTARY_SANDING_DISC,
+        );
+
+      equipment_define(
+        EquipmentFeature::ROTARY_SANDING_BAND,
+        EquipmentFeature::ROTARY_SANDING_ACCESSORY,
+      );
+
+        equipment_define(
+          EquipmentFeature::DREMEL_407_60_GRIT_SANDING_BAND,
+          EquipmentFeature::ROTARY_SANDING_BAND,
+        );
+
+        equipment_define(
+          EquipmentFeature::DREMEL_408_60_GRIT_SANDING_BAND,
+          EquipmentFeature::ROTARY_SANDING_BAND,
+        );
+
+        equipment_define(
+          EquipmentFeature::DREMEL_432_120_GRIT_SANDING_BAND,
+          EquipmentFeature::ROTARY_SANDING_BAND,
+        );
+
+        equipment_define(
+          EquipmentFeature::DREMEL_445_240_GRIT_SANDING_BAND,
+          EquipmentFeature::ROTARY_SANDING_BAND,
+        );
+
+      equipment_define(
+        EquipmentFeature::FINISHING_ABRASIVE_BUFF,
+        EquipmentFeature::ROTARY_SANDING_ACCESSORY,
+        EquipmentFeature::ABRASIVE,
+      );
+
+        equipment_define(
+          EquipmentFeature::DREMEL_511E_FINISHING_ABRASIVE_BUFF,
+          EquipmentFeature::FINISHING_ABRASIVE_BUFF,
+        );
+
+        equipment_define(
+          EquipmentFeature::DREMEL_512E_FINISHING_ABRASIVE_BUFF,
+          EquipmentFeature::FINISHING_ABRASIVE_BUFF,
+        );
+
+      equipment_define(
+        EquipmentFeature::ROTARY_SANDPAPER_WHEEL,
+        EquipmentFeature::ROTARY_SANDING_ACCESSORY,
+      );
+
+    equipment_define(
+      EquipmentFeature::ROTARY_TOOL_MANDREL,
+      EquipmentFeature::ROTARY_TOOL_BIT,
+    );
+
+      equipment_define(
+        EquipmentFeature::DREMEL_401_POLISHING_BIT_MANDREL,
+        EquipmentFeature::ROTARY_TOOL_MANDREL,
+      );
+
+      equipment_define(
+        EquipmentFeature::DREMEL_EZ402_EZ_LOCK_MANDREL,
+        EquipmentFeature::ROTARY_TOOL_MANDREL,
+      );
+
+      equipment_define(
+        EquipmentFeature::DRUM_SANDING_MANDREL,
+        EquipmentFeature::ROTARY_TOOL_MANDREL,
+      );
+
+        equipment_define(
+          EquipmentFeature::DREMEL_EZ407_EZ_DRUM_MANDREL,
+          EquipmentFeature::DRUM_SANDING_MANDREL,
+        );
+
+      equipment_define(
+        EquipmentFeature::CUTTING_WHEEL_MANDREL,
+        EquipmentFeature::ROTARY_TOOL_MANDREL,
+      );
+
+  equipment_define(
+    EquipmentFeature::ROTARY_TOOL_DUST_BLOWER,
+    EquipmentFeature::ROTARY_TOOL_ACCESSORY,
+  );
+
+
+//
+// 2024-08-04 jj5 - ROUTER
+//
+
+equipment_define(
+  EquipmentFeature::ROUTER,
+  EquipmentClass::ROUTER,
+);
+
+  equipment_define(
+    EquipmentFeature::PLUNGE_ROUTER,
+    EquipmentFeature::ROUTER,
+  );
+
+//
+// 2024-08-04 jj5 - CLAMP
+//
+
+equipment_define(
+  EquipmentFeature::CLAMP,
+  EquipmentClass::CLAMP,
+);
+
+  equipment_define(
+    EquipmentFeature::PCB_CLAMP,
+    EquipmentFeature::CLAMP,
+  );
+
+  equipment_define(
+    EquipmentFeature::VISE,
+    EquipmentFeature::CLAMP,
+  );
+
+    equipment_define(
+      EquipmentFeature::MULTI_VISE,
+      EquipmentFeature::VISE,
+    );
+
+    equipment_define(
+      EquipmentFeature::BENCH_VISE,
+      EquipmentFeature::VISE,
+    );
+
+//
+// 2024-08-04 jj5 - DRILL_PRESS
+//
+
+equipment_define(
+  EquipmentFeature::DRILL_PRESS,
+  EquipmentClass::DRILL_PRESS,
+  EquipmentAttribute::BENCH_EQUIPMENT,
+);
+
+//
+// 2024-08-04 jj5 - DISPLAY
+//
+
+equipment_define(
+  EquipmentFeature::DISPLAY,
+  EquipmentClass::DISPLAY,
+);
+
+  equipment_define(
+    EquipmentFeature::MONITOR,
+    EquipmentFeature::DISPLAY,
+    EquipmentAttribute::COMPUTER_EQUIPMENT,
+    EquipmentAttribute::PERIPHERAL,
+  );
+
+    equipment_define(
+      EquipmentFeature::HDMI_LCD,
+      EquipmentFeature::MONITOR,
+      EquipmentFeature::LCD,
+      EquipmentConnectivity::HDMI,
+    );
+
+  equipment_define(
+    EquipmentFeature::TELEVISION,
+    EquipmentClass::TV,
+    EquipmentFeature::DISPLAY,
+  );
+
+    equipment_define(
+      EquipmentFeature::TV,
+      EquipmentClass::TV,
+      EquipmentFeature::TELEVISION,
+    );
+
+      equipment_define(
+        EquipmentFeature::LCD_TV,
+        EquipmentFeature::TV,
+      );
+
+//
+// 2024-08-04 jj5 - MICROSCOPE
+//
+
+equipment_define(
+  EquipmentFeature::MICROSCOPE,
+  EquipmentClass::MICROSCOPE,
+  EquipmentAttribute::BENCH_EQUIPMENT,
+  EquipmentAttribute::TEST_EQUIPMENT,
+);
+
+  equipment_define(
+    EquipmentFeature::DIGITAL_MICROSCOPE,
+    EquipmentFeature::MICROSCOPE,
+  );
+
+//
+// 2024-08-04 jj5 - POWER_SUPPLY
+//
+
+equipment_define(
+  EquipmentFeature::POWER_SUPPLY,
+  EquipmentClass::POWER_SUPPLY,
+);
+
+  equipment_define(
+    EquipmentFeature::BENCH_POWER_SUPPLY,
+    EquipmentFeature::POWER_SUPPLY,
+    EquipmentAttribute::BENCH_EQUIPMENT,
+  );
+
+//
+// 2024-08-04 jj5 - SCANNER
+//
+
+equipment_define(
+  EquipmentFeature::SCANNER,
+  EquipmentClass::SCANNER,
+  EquipmentAttribute::ACCESSORY,
+  EquipmentAttribute::COMPUTER_EQUIPMENT,
+  EquipmentAttribute::PERIPHERAL,
+);
+
+  equipment_define(
+    EquipmentFeature::FLATBED_SCANNER,
+    EquipmentFeature::SCANNER,
+  );
+
+  equipment_define(
+    EquipmentFeature::BARCODE_SCANNER,
+    EquipmentFeature::SCANNER,
+  );
+
+//
+// 2024-08-04 jj5 - SOLDERING_TOOL
+//
+
+equipment_define(
+  EquipmentFeature::SOLDERING_TOOL,
+  EquipmentClass::SOLDERING_TOOL,
+);
+
+  equipment_define(
+    EquipmentFeature::SOLDERING_STAND,
+    EquipmentFeature::SOLDERING_TOOL,
+    EquipmentAttribute::BENCH_EQUIPMENT,
+  );
+
+  equipment_define(
+    EquipmentFeature::SOLDERING_IRON,
+    EquipmentFeature::SOLDERING_TOOL,
+    EquipmentAttribute::BENCH_EQUIPMENT,
+    EquipmentAttribute::HAND_TOOL,
+  );
+
+  equipment_define(
+    EquipmentFeature::HOT_AIR_GUN,
+    EquipmentFeature::SOLDERING_TOOL,
+    EquipmentAttribute::BENCH_EQUIPMENT,
+    EquipmentAttribute::HAND_TOOL,
+  );
+
+    equipment_define(
+      EquipmentFeature::SOLDERING_STATION,
+      EquipmentFeature::SOLDERING_IRON,
+      EquipmentFeature::HOT_AIR_GUN,
+    );
+
+//
+// 2024-08-04 jj5 - DESOLDERING_TOOL
+//
+
+equipment_define(
+  EquipmentFeature::DESOLDERING_TOOL,
+  EquipmentClass::DESOLDERING_TOOL,
+  EquipmentFeature::SOLDERING_TOOL,
+);
+
+  equipment_define(
+    EquipmentFeature::DESOLDERING_PUMP,
+    EquipmentFeature::DESOLDERING_TOOL,
+    EquipmentAttribute::HAND_TOOL,
+  );
+
+//
+// 2024-08-04 jj5 - ELECTRONIC_LOAD
+//
+
+equipment_define(
+  EquipmentFeature::ELECTRONIC_LOAD,
+  EquipmentClass::ELECTRONIC_LOAD,
+  EquipmentAttribute::BENCH_EQUIPMENT,
+  EquipmentAttribute::MEASURING_EQUIPMENT,
+  EquipmentAttribute::TEST_EQUIPMENT,
+);
+
+  equipment_define(
+    EquipmentFeature::PROGRAMMABLE_LOAD,
+    EquipmentFeature::ELECTRONIC_LOAD,
+  );
+
+//
+// 2024-08-04 jj5 - TWEEZERS
+//
+
+equipment_define(
+  EquipmentFeature::TWEEZERS,
+  EquipmentClass::TWEEZERS,
+  EquipmentAttribute::HAND_TOOL,
+);
+
+  equipment_define(
+    EquipmentFeature::PRECISION_TWEEZERS,
+    EquipmentFeature::TWEEZERS,
+  );
+
+  equipment_define(
+    EquipmentFeature::DIGITAL_TWEEZERS,
+    EquipmentFeature::TWEEZERS,
+  );
+
+  equipment_define(
+    EquipmentFeature::SOLDERING_TWEEZERS,
+    EquipmentFeature::TWEEZERS,
+    EquipmentFeature::SOLDERING_IRON,
+    EquipmentFeature::DESOLDERING_TOOL,
+    EquipmentAttribute::HAND_TOOL,
+    EquipmentAttribute::BENCH_EQUIPMENT,
+  );
+
+//
+// 2024-08-04 jj5 - SCREWDRIVER
+//
+
+equipment_define(
+  EquipmentFeature::SCREWDRIVER,
+  EquipmentClass::SCREWDRIVER,
+  EquipmentAttribute::HAND_TOOL,
+);
+
+  equipment_define(
+    EquipmentFeature::ELECTRIC_SCREWDRIVER,
+    EquipmentFeature::SCREWDRIVER,
+  );
+
+  equipment_define(
+    EquipmentFeature::RATCHET_SCREWDRIVER,
+    EquipmentFeature::SCREWDRIVER,
+    EquipmentAttribute::RATCHET,
+  );
+
+  equipment_define(
+    EquipmentFeature::MINI_SCREWDRIVER,
+    EquipmentFeature::SCREWDRIVER,
+  );
+
+    equipment_define(
+      EquipmentFeature::MINI_SCREWDRIVER_SET,
+      EquipmentFeature::MINI_SCREWDRIVER,
+    );
+
+  equipment_define(
+    EquipmentFeature::PRECISION_SCREWDRIVER,
+    EquipmentFeature::SCREWDRIVER,
+  );
+
+    equipment_define(
+      EquipmentFeature::PRECISION_SCREWDRIVER_SET,
+      EquipmentFeature::PRECISION_SCREWDRIVER,
+    );
+
+  equipment_define(
+    EquipmentFeature::POCKET_SCREWDRIVER,
+    EquipmentFeature::SCREWDRIVER,
+  );
+
+  equipment_define(
+    EquipmentFeature::SONIC_SCREWDRIVER,
+    EquipmentFeature::SCREWDRIVER,
+    EquipmentAttribute::HEART,
+  );
+
+  equipment_define(
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER,
+    EquipmentFeature::SCREWDRIVER,
+  );
+
+    equipment_define(
+      EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH0000,
+      EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH1_2,
+      EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH000,
+      EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH00,
+      EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH0,
+      EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH1,
+      EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH2,
+      EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH3,
+      EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH4,
+      EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER,
+    );
+
+  equipment_define(
+    EquipmentFeature::FLATHEAD_SCREWDRIVER,
+    EquipmentFeature::SCREWDRIVER,
+  );
+
+    equipment_define(
+      EquipmentFeature::FLATHEAD_SCREWDRIVER_SL1,
+      EquipmentFeature::FLATHEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::FLATHEAD_SCREWDRIVER_SL1_2,
+      EquipmentFeature::FLATHEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::FLATHEAD_SCREWDRIVER_SL1_4,
+      EquipmentFeature::FLATHEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::FLATHEAD_SCREWDRIVER_SL1_5,
+      EquipmentFeature::FLATHEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::FLATHEAD_SCREWDRIVER_SL1_8,
+      EquipmentFeature::FLATHEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::FLATHEAD_SCREWDRIVER_SL2,
+      EquipmentFeature::FLATHEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::FLATHEAD_SCREWDRIVER_SL2_4,
+      EquipmentFeature::FLATHEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::FLATHEAD_SCREWDRIVER_SL2_5,
+      EquipmentFeature::FLATHEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::FLATHEAD_SCREWDRIVER_SL3,
+      EquipmentFeature::FLATHEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::FLATHEAD_SCREWDRIVER_SL4,
+      EquipmentFeature::FLATHEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::FLATHEAD_SCREWDRIVER_SL5,
+      EquipmentFeature::FLATHEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::FLATHEAD_SCREWDRIVER_SL5_5,
+      EquipmentFeature::FLATHEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::FLATHEAD_SCREWDRIVER_SL6,
+      EquipmentFeature::FLATHEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::FLATHEAD_SCREWDRIVER_SL6_5,
+      EquipmentFeature::FLATHEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::FLATHEAD_SCREWDRIVER_SL8,
+      EquipmentFeature::FLATHEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::FLATHEAD_SCREWDRIVER_SL10,
+      EquipmentFeature::FLATHEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::FLATHEAD_SCREWDRIVER_SL12,
+      EquipmentFeature::FLATHEAD_SCREWDRIVER,
+    );
+
+  equipment_define(
+    EquipmentFeature::POZIDRIV_SCREWDRIVER,
+    EquipmentFeature::SCREWDRIVER,
+  );
+
+    equipment_define(
+      EquipmentFeature::POZIDRIV_SCREWDRIVER_PZ000,
+      EquipmentFeature::POZIDRIV_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::POZIDRIV_SCREWDRIVER_PZ00,
+      EquipmentFeature::POZIDRIV_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::POZIDRIV_SCREWDRIVER_PZ0,
+      EquipmentFeature::POZIDRIV_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::POZIDRIV_SCREWDRIVER_PZ1,
+      EquipmentFeature::POZIDRIV_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::POZIDRIV_SCREWDRIVER_PZ2,
+      EquipmentFeature::POZIDRIV_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::POZIDRIV_SCREWDRIVER_PZ3,
+      EquipmentFeature::POZIDRIV_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::POZIDRIV_SCREWDRIVER_PZ4,
+      EquipmentFeature::POZIDRIV_SCREWDRIVER,
+    );
+
+  equipment_define(
+    EquipmentFeature::TORX_SCREWDRIVER,
+    EquipmentFeature::SCREWDRIVER,
+  );
+
+    equipment_define(
+      EquipmentFeature::TORX_SCREWDRIVER_T1,
+      EquipmentFeature::TORX_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::TORX_SCREWDRIVER_T2,
+      EquipmentFeature::TORX_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::TORX_SCREWDRIVER_T3,
+      EquipmentFeature::TORX_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::TORX_SCREWDRIVER_T4,
+      EquipmentFeature::TORX_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::TORX_SCREWDRIVER_T5,
+      EquipmentFeature::TORX_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::TORX_SCREWDRIVER_T6,
+      EquipmentFeature::TORX_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::TORX_SCREWDRIVER_T7,
+      EquipmentFeature::TORX_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::TORX_SCREWDRIVER_T8,
+      EquipmentFeature::TORX_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::TORX_SCREWDRIVER_T9,
+      EquipmentFeature::TORX_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::TORX_SCREWDRIVER_T10,
+      EquipmentFeature::TORX_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::TORX_SCREWDRIVER_T15,
+      EquipmentFeature::TORX_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::TORX_SCREWDRIVER_T20,
+      EquipmentFeature::TORX_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::TORX_SCREWDRIVER_T25,
+      EquipmentFeature::TORX_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::TORX_SCREWDRIVER_T30,
+      EquipmentFeature::TORX_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::TORX_SCREWDRIVER_T40,
+      EquipmentFeature::TORX_SCREWDRIVER,
+    );
+
+  equipment_define(
+    EquipmentFeature::HEX_SCREWDRIVER,
+    EquipmentFeature::SCREWDRIVER,
+  );
+
+    equipment_define(
+      EquipmentFeature::HEX_SCREWDRIVER_H1_5,
+      EquipmentFeature::HEX_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::HEX_SCREWDRIVER_H2,
+      EquipmentFeature::HEX_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::HEX_SCREWDRIVER_H2_5,
+      EquipmentFeature::HEX_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::HEX_SCREWDRIVER_H3,
+      EquipmentFeature::HEX_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::HEX_SCREWDRIVER_H4,
+      EquipmentFeature::HEX_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::HEX_SCREWDRIVER_H5,
+      EquipmentFeature::HEX_SCREWDRIVER,
+    );
+
+  equipment_define(
+    EquipmentFeature::RESET_PIN_SCREWDRIVER,
+    EquipmentFeature::SCREWDRIVER,
+  );
+
+  equipment_define(
+    EquipmentFeature::TRI_POINT_Y_SCREWDRIVER,
+    EquipmentFeature::SCREWDRIVER,
+  );
+
+    equipment_define(
+      EquipmentFeature::TRI_POINT_Y_SCREWDRIVER_Y000,
+      EquipmentFeature::TRI_POINT_Y_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::TRI_POINT_Y_SCREWDRIVER_Y00,
+      EquipmentFeature::TRI_POINT_Y_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::TRI_POINT_Y_SCREWDRIVER_Y0,
+      EquipmentFeature::TRI_POINT_Y_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::TRI_POINT_Y_SCREWDRIVER_Y1,
+      EquipmentFeature::TRI_POINT_Y_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::TRI_POINT_Y_SCREWDRIVER_Y2,
+      EquipmentFeature::TRI_POINT_Y_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::TRI_POINT_Y_SCREWDRIVER_Y3,
+      EquipmentFeature::TRI_POINT_Y_SCREWDRIVER,
+    );
+
+  equipment_define(
+    EquipmentFeature::PENTALOBE_SCREWDRIVER,
+    EquipmentFeature::SCREWDRIVER,
+  );
+
+    equipment_define(
+      EquipmentFeature::PENTALOBE_SCREWDRIVER_P2,
+      EquipmentFeature::PENTALOBE_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::PENTALOBE_SCREWDRIVER_P5,
+      EquipmentFeature::PENTALOBE_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::PENTALOBE_SCREWDRIVER_P6,
+      EquipmentFeature::PENTALOBE_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::PENTALOBE_SCREWDRIVER_P7,
+      EquipmentFeature::PENTALOBE_SCREWDRIVER,
+    );
+
+  equipment_define(
+    EquipmentFeature::TRIANGULAR_SCREWDRIVER,
+    EquipmentFeature::SCREWDRIVER,
+  );
+
+    equipment_define(
+      EquipmentFeature::TRIANGULAR_SCREWDRIVER_2_0,
+      EquipmentFeature::TRIANGULAR_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::TRIANGULAR_SCREWDRIVER_2_3,
+      EquipmentFeature::TRIANGULAR_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::TRIANGULAR_SCREWDRIVER_3_0,
+      EquipmentFeature::TRIANGULAR_SCREWDRIVER,
+    );
+
+  equipment_define(
+    EquipmentFeature::U_DRIVE_SCREWDRIVER,
+    EquipmentFeature::SCREWDRIVER,
+  );
+
+    equipment_define(
+      EquipmentFeature::U_DRIVE_SCREWDRIVER_U2_3,
+      EquipmentFeature::U_DRIVE_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::U_DRIVE_SCREWDRIVER_U2_6,
+      EquipmentFeature::U_DRIVE_SCREWDRIVER,
+    );
+
+//
+// 2024-08-04 jj5 - CRIMPING_TOOL
+//
+
+equipment_define(
+  EquipmentFeature::CRIMPING_TOOL,
+  EquipmentClass::CRIMPING_TOOL,
+  EquipmentAttribute::HAND_TOOL,
+);
+
+//
+// 2024-08-04 jj5 - VOLTAGE_DETECTOR
+//
+
+equipment_define(
+  EquipmentFeature::VOLTAGE_DETECTOR,
+  EquipmentClass::VOLTAGE_DETECTOR,
+  EquipmentAttribute::MEASURING_EQUIPMENT,
+  EquipmentAttribute::SAFETY_EQUIPMENT,
+  EquipmentAttribute::TEST_EQUIPMENT,
+);
+
+  equipment_define(
+    EquipmentFeature::STUD_FINDER,
+    EquipmentClass::STUD_FINDER,
+    EquipmentFeature::VOLTAGE_DETECTOR,
+  );
+
+//
+// 2024-08-04 jj5 - CUTTING_IMPLEMENT
+//
+
+equipment_define(
+  EquipmentFeature::CUTTING_IMPLEMENT,
+  EquipmentClass::CUTTER,
+);
+
+  equipment_define(
+    EquipmentFeature::SCISSORS,
+    EquipmentClass::SCISSORS,
+    EquipmentAttribute::HAND_TOOL,
+  );
+
+    equipment_define(
+      EquipmentFeature::ELECTRIC_SCISSORS,
+      EquipmentFeature::SCISSORS,
+    );
+
+  equipment_define(
+    EquipmentFeature::BLADE,
+    EquipmentFeature::CUTTING_IMPLEMENT,
+    EquipmentAttribute::ACCESSORY,
+    EquipmentAttribute::ATTACHMENT,
+  );
+
+    equipment_define(
+      EquipmentFeature::BLADES,
+      EquipmentFeature::BLADE,
+    );
+
+  equipment_define(
+    EquipmentFeature::KNIFE,
+    EquipmentFeature::CUTTING_IMPLEMENT,
+    EquipmentAttribute::HAND_TOOL,
+  );
+
+    equipment_define(
+      EquipmentFeature::SWISS_ARMY_KNIFE,
+      EquipmentFeature::KNIFE,
+    );
+
+    equipment_define(
+      EquipmentFeature::CRAFT_KNIFE,
+      EquipmentFeature::KNIFE,
+    );
+
+      equipment_define(
+        EquipmentFeature::CRAFT_KNIFE_SET,
+        EquipmentFeature::CRAFT_KNIFE,
+      );
+
+  equipment_define(
+    EquipmentFeature::SCALPEL,
+    EquipmentFeature::CUTTING_IMPLEMENT,
+    EquipmentAttribute::HAND_TOOL,
+  );
+
+  equipment_define(
+    EquipmentFeature::WIRE_CUTTER,
+    EquipmentClass::WIRE_CUTTER,
+    EquipmentFeature::CUTTING_IMPLEMENT,
+    EquipmentAttribute::HAND_TOOL,
+  );
+
+  equipment_define(
+    EquipmentFeature::WIRE_STRIPPER,
+    EquipmentClass::WIRE_STRIPPER,
+    EquipmentFeature::CUTTING_IMPLEMENT,
+    EquipmentAttribute::HAND_TOOL,
+  );
+
+
+//
+// 2024-08-04 jj5 - PRINTER
+//
+
+equipment_define(
+  EquipmentFeature::PRINTER,
+  EquipmentClass::PRINTER,
+);
+
+  equipment_define(
+    EquipmentFeature::LABEL_MAKER,
+    EquipmentClass::LABEL_MAKER,
+    EquipmentFeature::PRINTER,
+  );
+
+//
+// 2024-08-04 jj5 - CALCULATOR
+//
+
+equipment_define(
+  EquipmentFeature::CALCULATOR,
+  EquipmentClass::CALCULATOR,
+);
+
+  equipment_define(
+    EquipmentFeature::SCIENTIFIC_CALCULATOR,
+    EquipmentFeature::CALCULATOR,
+  );
+
+//
+// 2024-08-04 jj5 - SOLDER_LUGS
+//
+
+equipment_define(
+  EquipmentFeature::SOLDER_LUGS,
+  EquipmentClass::SOLDER_LUGS,
+  EquipmentAttribute::CONSUMABLE,
+);
+
+//
+// 2024-08-04 jj5 - FLUX
+//
+
+equipment_define(
+  EquipmentFeature::FLUX,
+  EquipmentClass::FLUX,
+  EquipmentAttribute::CONSUMABLE,
+);
+
+//
+// 2024-08-04 jj5 - DISPENSER
+//
+
+equipment_define(
+  EquipmentFeature::DISPENSER,
+  EquipmentClass::DISPENSER,
+);
+
+  equipment_define(
+    EquipmentFeature::TAPE_DISPENSER,
+    EquipmentFeature::DISPENSER,
+  );
+
+//
+// 2024-08-04 jj5 - MAGNIFIER
+//
+
+equipment_define(
+  EquipmentFeature::MAGNIFIER,
+  EquipmentClass::MAGNIFIER,
+);
+
+  equipment_define(
+    EquipmentFeature::MAGNIFYING_GLASS,
+    EquipmentFeature::MAGNIFIER,
+  );
+
+    equipment_define(
+      EquipmentFeature::HEAD_MOUNTED_MAGNIFIER,
+      EquipmentFeature::MAGNIFYING_GLASS,
+      EquipmentAttribute::HEAD_MOUNTED,
+    );
+
+//
+// 2024-08-04 jj5 - THIRD_HAND
+//
+
+equipment_define(
+  EquipmentFeature::THIRD_HAND,
+  EquipmentClass::THIRD_HAND,
+);
+
+
+//
+// 2024-08-04 jj5 - CAPACITOR_DISCHARGE_PEN
+//
+
+equipment_define(
+  EquipmentFeature::CAPACITOR_DISCHARGE_PEN,
+  EquipmentClass::CAPACITOR_DISCHARGE_PEN,
+);
+
+//
+// 2024-08-04 jj5 - BRUSH
+//
+
+equipment_define(
+  EquipmentFeature::BRUSH,
+  EquipmentClass::BRUSH,
+);
+
+  equipment_define(
+    EquipmentFeature::HARD_BRUSH,
+    EquipmentFeature::BRUSH,
+    EquipmentAttribute::CLEANING_EQUIPMENT,
+  );
+
+  equipment_define(
+    EquipmentFeature::SCRUB_BRUSH,
+    EquipmentFeature::BRUSH,
+    EquipmentAttribute::CLEANING_EQUIPMENT,
+  );
+
+  equipment_define(
+    EquipmentFeature::WIRE_BRUSH,
+    EquipmentFeature::BRUSH,
+    EquipmentAttribute::CLEANING_EQUIPMENT,
+  );
+
+  equipment_define(
+    EquipmentFeature::CLEANING_BRUSH,
+    EquipmentFeature::BRUSH,
+    EquipmentAttribute::CLEANING_EQUIPMENT,
+  );
+
+  equipment_define(
+    EquipmentFeature::BRUSH_SET,
+    EquipmentFeature::BRUSH,
+  );
+
+    equipment_define(
+      EquipmentFeature::HARD_BRUSH_SET,
+      EquipmentFeature::BRUSH_SET,
+      EquipmentFeature::HARD_BRUSH,
+    );
+
+  equipment_define(
+    EquipmentFeature::PAINT_BRUSH,
+    EquipmentFeature::BRUSH,
+  );
+
+    equipment_define(
+      EquipmentFeature::PAINT_BRUSHES,
+      EquipmentFeature::PAINT_BRUSH,
+      EquipmentFeature::BRUSH_SET,
+    );
+
+//
+// 2024-08-04 jj5 - GLOVES
+//
+
+equipment_define(
+  EquipmentFeature::GLOVES,
+  EquipmentClass::GLOVES,
+  EquipmentAttribute::SAFETY_EQUIPMENT,
+  EquipmentAttribute::WEARABLE,
+);
+
+  equipment_define(
+    EquipmentFeature::NITRILE_GLOVES,
+    EquipmentFeature::GLOVES,
+  );
+
+  equipment_define(
+    EquipmentFeature::LATEX_GLOVES,
+    EquipmentFeature::GLOVES,
+  );
+
+//
+// 2024-08-04 jj5 - BLOW_TORCH
+//
+
+equipment_define(
+  EquipmentFeature::BLOW_TORCH,
+  EquipmentClass::BLOW_TORCH,
+);
+
+//
+// 2024-08-04 jj5 - GAS
+//
+
+equipment_define(
+  EquipmentFeature::GAS,
+  EquipmentClass::GAS,
+  EquipmentAttribute::CONSUMABLE,
+);
+
+  equipment_define(
+    EquipmentFeature::BUTANE,
+    EquipmentFeature::GAS,
+  );
+
+//
+// 2024-08-04 jj5 - POWER_SUPPLY_TESTER
+//
+
+equipment_define(
+  EquipmentFeature::POWER_SUPPLY_TESTER,
+  EquipmentClass::POWER_SUPPLY_TESTER,
+  EquipmentAttribute::TEST_EQUIPMENT,
 );
 
 equipment_define(
-  EquipmentFeature::VOLTMETER,
-  EquipmentFeature::METER,
-  Measure::VOLTAGE,
+  EquipmentFeature::ATX_POWER_SUPPLY_TESTER,
+  EquipmentFeature::POWER_SUPPLY_TESTER,
 );
 
+//
+// 2024-08-04 jj5 - MAT
+//
+
 equipment_define(
-  EquipmentFeature::COUNTER_TOTALIZER,
-  EquipmentFeature::METER,
-  Measure::COUNT,
+  EquipmentFeature::MAT,
+  EquipmentClass::MAT,
 );
+
+  equipment_define(
+    EquipmentFeature::REPAIR_MAT,
+    EquipmentFeature::MAT,
+  );
+
+//
+// 2024-08-04 jj5 - TEST_CLIP
+//
+
+equipment_define(
+  EquipmentFeature::TEST_CLIP,
+  EquipmentClass::TEST_CLIP,
+);
+
+  equipment_define(
+    EquipmentFeature::TEST_CLIPS,
+    EquipmentFeature::TEST_CLIP,
+  );
+
+//
+// 2024-08-04 jj5 - PICKUP_TOOL
+//
+
+equipment_define(
+  EquipmentFeature::PICKUP_TOOL,
+  EquipmentClass::PICKUP_TOOL,
+  EquipmentAttribute::HAND_TOOL,
+);
+
+  equipment_define(
+    EquipmentFeature::MAGNETIC_PICKUP_TOOL,
+    EquipmentFeature::PICKUP_TOOL,
+    EquipmentAttribute::MAGNETIC,
+  );
+
+  equipment_define(
+    EquipmentFeature::TELESCOPIC_PICKUP_TOOL,
+    EquipmentFeature::PICKUP_TOOL,
+  );
+
+  equipment_define(
+    EquipmentFeature::CLAW_TOOL,
+    EquipmentFeature::PICKUP_TOOL,
+  );
+
+    equipment_define(
+      EquipmentFeature::IC_CHIP_PICKUP_TOOL,
+      EquipmentFeature::CLAW_TOOL,
+    );
+
+//
+// 2024-08-04 jj5 - MIRROR
+//
+
+equipment_define(
+  EquipmentFeature::MIRROR,
+  EquipmentClass::MIRROR,
+);
+
+  equipment_define(
+    EquipmentFeature::INSPECTION_MIRROR,
+    EquipmentFeature::MIRROR,
+  );
+
+//
+// 2024-08-04 jj5 - BOOK_HOLDER
+//
+
+equipment_define(
+  EquipmentFeature::BOOK_HOLDER,
+  EquipmentClass::BOOK_HOLDER,
+);
+
+//
+// 2024-08-04 jj5 - HEAT_SHRINK
+//
+
+equipment_define(
+  EquipmentFeature::HEAT_SHRINK,
+  EquipmentClass::HEAT_SHRINK,
+  EquipmentAttribute::CONSUMABLE,
+);
+
+//
+// 2024-08-04 jj5 - CONNECTOR
+//
+
+equipment_define(
+  EquipmentFeature::CONNECTOR,
+  EquipmentClass::CONNECTOR,
+  EquipmentAttribute::CONSUMABLE,
+);
+
+  equipment_define(
+    EquipmentFeature::CONNECTOR_KIT,
+    EquipmentFeature::CONNECTOR,
+  );
+
+  equipment_define(
+    EquipmentFeature::WIRE_CONNECTOR,
+    EquipmentFeature::CONNECTOR,
+  );
+
+    equipment_define(
+      EquipmentFeature::WIRE_CONNECTORS,
+      EquipmentFeature::WIRE_CONNECTOR,
+    );
+
+//
+// 2024-08-04 jj5 - CROWBAR
+//
+
+equipment_define(
+  EquipmentFeature::CROWBAR,
+  EquipmentClass::CROWBAR,
+  EquipmentAttribute::HAND_TOOL,
+);
+
+//
+// 2024-08-04 jj5 - SPUDGER
+//
+
+equipment_define(
+  EquipmentFeature::SPUDGER,
+  EquipmentClass::SPUDGER,
+  EquipmentAttribute::HAND_TOOL,
+);
+
+  equipment_define(
+    EquipmentFeature::SPUDGERS,
+    EquipmentFeature::SPUDGER,
+  );
+
+  equipment_define(
+    EquipmentFeature::BOX_OPENER,
+    EquipmentFeature::SPUDGER,
+  );
+
+//
+// 2024-08-04 jj5 - HOOK
+//
+
+equipment_define(
+  EquipmentFeature::HOOK,
+  EquipmentClass::HOOK,
+);
+
+  equipment_define(
+    EquipmentFeature::HOOKS,
+    EquipmentFeature::HOOK,
+  );
+
+  equipment_define(
+    EquipmentFeature::MULTI_PURPOSE_HOOK,
+    EquipmentFeature::HOOK,
+  );
+
+//
+// 2024-08-04 jj5 - TRAY
+//
+
+equipment_define(
+  EquipmentFeature::TRAY,
+  EquipmentClass::TRAY,
+);
+
+  equipment_define(
+    EquipmentFeature::STAINLESS_STEEL_TRAY,
+    EquipmentFeature::TRAY,
+  );
+
+  equipment_define(
+    EquipmentFeature::MAGNETIC_TRAY,
+    EquipmentFeature::TRAY,
+    EquipmentAttribute::MAGNETIC,
+  );
+
+//
+// 2024-08-04 jj5 - ELECTRONICS_PROJECT
+//
+
+equipment_define(
+  EquipmentFeature::ELECTRONICS_PROJECT,
+  EquipmentClass::PROJECT,
+);
+
+//
+// 2024-08-04 jj5 - ELECTRONICS_KIT
+//
+
+equipment_define(
+  EquipmentFeature::ELECTRONICS_KIT,
+  EquipmentClass::KIT,
+);
+
+//
+// 2024-08-04 jj5 - ELECTRONICS_PROJECT_LAB
+//
+
+equipment_define(
+  EquipmentFeature::ELECTRONICS_PROJECT_LAB,
+  EquipmentFeature::ELECTRONICS_PROJECT,
+  EquipmentFeature::ELECTRONICS_KIT,
+);
+
+//
+// 2024-08-04 jj5 - ELECTRONICS_PROJECT_LAB_KIT
+//
+
+equipment_define(
+  EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
+  EquipmentFeature::ELECTRONICS_PROJECT_LAB,
+);
+
+//
+// 2024-08-04 jj5 - RADIO
+//
+
+equipment_define(
+  EquipmentFeature::RADIO,
+  EquipmentClass::RADIO,
+);
+
+  equipment_define(
+    EquipmentFeature::AM_RADIO,
+    EquipmentFeature::RADIO,
+  );
+
+  equipment_define(
+    EquipmentFeature::FM_RADIO,
+    EquipmentFeature::RADIO,
+  );
+
+//
+// 2024-08-04 jj5 - METAL_DETECTOR
+//
+
+equipment_define(
+  EquipmentFeature::METAL_DETECTOR,
+  EquipmentClass::METAL_DETECTOR,
+);
+
+//
+// 2024-08-04 jj5 - STYLUS
+//
+
+equipment_define(
+  EquipmentFeature::STYLUS,
+  EquipmentClass::STYLUS,
+  EquipmentAttribute::HAND_TOOL,
+);
+
+  equipment_define(
+    EquipmentFeature::STYLUS_PEN,
+    EquipmentFeature::STYLUS,
+  );
+
+//
+// 2024-08-04 jj5 - RULER
+//
+
+equipment_define(
+  EquipmentFeature::RULER,
+  EquipmentClass::RULER,
+  EquipmentAttribute::HAND_TOOL,
+);
+
+  equipment_define(
+    EquipmentFeature::STEEL_RULER,
+    EquipmentFeature::RULER,
+  );
+
+  equipment_define(
+    EquipmentFeature::RULER_CM,
+    EquipmentFeature::RULER,
+  );
+
+  equipment_define(
+    EquipmentFeature::RULER_INCH,
+    EquipmentFeature::RULER,
+  );
+
+//
+// 2024-08-04 jj5 - CLOTHING
+//
+
+equipment_define(
+  EquipmentFeature::CLOTHING,
+  EquipmentClass::CLOTHING,
+);
+
+  equipment_define(
+    EquipmentFeature::LAB_COAT,
+    EquipmentFeature::CLOTHING,
+    EquipmentAttribute::SAFETY_EQUIPMENT,
+  );
+
+//
+// 2024-08-04 jj5 - POCKET_PROTECTOR
+//
+
+equipment_define(
+  EquipmentFeature::POCKET_PROTECTOR,
+  EquipmentClass::POCKET_PROTECTOR,
+  EquipmentAttribute::SAFETY_EQUIPMENT,
+);
+
+//
+// 2024-08-04 jj5 - GOGGLES
+//
+
+equipment_define(
+  EquipmentFeature::GOGGLES,
+  EquipmentClass::GOGGLES,
+  EquipmentAttribute::SAFETY_EQUIPMENT,
+);
+
+  equipment_define(
+    EquipmentFeature::SAFETY_GOGGLES,
+    EquipmentFeature::GOGGLES,
+  );
+  
+//
+// 2024-08-04 jj5 - BADGE_HOLDER
+//
+
+equipment_define(
+  EquipmentFeature::BADGE_HOLDER,
+  EquipmentClass::BADGE_HOLDER,
+);
+
+//
+// 2024-08-04 jj5 - COTTON_SWABS
+//
+
+equipment_define(
+  EquipmentFeature::COTTON_SWABS,
+  EquipmentClass::COTTON_SWABS,
+  EquipmentAttribute::CONSUMABLE,
+  EquipmentAttribute::CLEANING_EQUIPMENT,
+);
+
+//
+// 2024-08-04 jj5 - JAW_PADS
+//
+
+equipment_define(
+  EquipmentFeature::JAW_PADS,
+  EquipmentClass::JAW_PADS,
+);
+
+//
+// 2024-08-04 jj5 - SPONGE
+//
+
+equipment_define(
+  EquipmentFeature::SPONGE,
+  EquipmentClass::SPONGE,
+  EquipmentAttribute::CONSUMABLE,
+  EquipmentAttribute::CLEANING_EQUIPMENT,
+);
+
+  equipment_define(
+    EquipmentFeature::FOAM_SPONGE,
+    EquipmentFeature::SPONGE,
+  );
+
+//
+// 2024-08-04 jj5 - CLEANING_BRICKS
+//
+
+equipment_define(
+  EquipmentFeature::CLEANING_BRICKS,
+  EquipmentClass::CLEANING_BRICKS,
+  EquipmentAttribute::CONSUMABLE,
+  EquipmentAttribute::CLEANING_EQUIPMENT,
+);
+
+//
+// 2024-08-04 jj5 - PEN
+//
+
+equipment_define(
+  EquipmentFeature::PEN,
+  EquipmentClass::PEN,
+  EquipmentAttribute::CONSUMABLE,
+);
+
+  equipment_define(
+    EquipmentFeature::CRAFTWORK_PEN,
+    EquipmentFeature::PEN,
+  );
+
+  equipment_define(
+    EquipmentFeature::DEEP_HOLE_PEN,
+    EquipmentFeature::PEN,
+  );
+
+  equipment_define(
+    EquipmentFeature::BALLPOINT_PEN,
+    EquipmentFeature::PEN,
+  );
+
+//
+// 2024-08-04 jj5 - CABLE_TESTER
+//
+
+equipment_define(
+  EquipmentFeature::CABLE_TESTER,
+  EquipmentClass::CABLE_TESTER,
+  EquipmentAttribute::TEST_EQUIPMENT,
+);
+
+  equipment_define(
+    EquipmentFeature::NETWORK_CABLE_TESTER,
+    EquipmentFeature::CABLE_TESTER,
+  );
+
+//
+// 2024-08-04 jj5 - CLOTH
+//
+
+equipment_define(
+  EquipmentFeature::CLOTH,
+  EquipmentClass::CLOTH,
+  EquipmentAttribute::CONSUMABLE,
+  EquipmentAttribute::CLEANING_EQUIPMENT,
+);
+
+  equipment_define(
+    EquipmentFeature::MICROFIBER_CLOTH,
+    EquipmentFeature::CLOTH,
+  );
+
+//
+// 2024-08-04 jj5 - WIRE_FIXTURE
+//
+
+equipment_define(
+  EquipmentFeature::WIRE_FIXTURE,
+  EquipmentClass::WIRE_FIXTURE,
+  EquipmentFeature::CLAMP,
+);
+
+//
+// 2024-08-04 jj5 - WRENCH
+//
+
+equipment_define(
+  EquipmentFeature::WRENCH,
+  EquipmentClass::WRENCH,
+  EquipmentAttribute::HAND_TOOL,
+);
+
+  equipment_define(
+    EquipmentFeature::ADJUSTABLE_WRENCH,
+    EquipmentFeature::WRENCH,
+  );
+
+  equipment_define(
+    EquipmentFeature::TIGER_WRENCH,
+    EquipmentFeature::WRENCH,
+  );
+
+//
+// 2024-08-04 jj5 - CALIPERS
+//
+
+equipment_define(
+  EquipmentFeature::CALIPERS,
+  EquipmentClass::CALIPERS,
+  EquipmentAttribute::HAND_TOOL,
+  EquipmentAttribute::MEASURING_EQUIPMENT,
+);
+
+  equipment_define(
+    EquipmentFeature::DIGITAL_CALIPERS,
+    EquipmentFeature::CALIPERS,
+  );
+
+//
+// 2024-08-04 jj5 - GAUGE
+//
+
+equipment_define(
+  EquipmentFeature::GAUGE,
+  EquipmentClass::GAUGE,
+  EquipmentAttribute::MEASURING_EQUIPMENT,
+);
+
+  equipment_define(
+    EquipmentFeature::DEPTH_GAUGE,
+    EquipmentClass::DEPTH_GAUGE,
+    EquipmentFeature::GAUGE,
+    EquipmentAttribute::HAND_TOOL,
+  );
+
+  equipment_define(
+    EquipmentFeature::THREAD_PITCH_GAUGE,
+    EquipmentFeature::GAUGE,
+    EquipmentAttribute::HAND_TOOL,
+  );
+
+  equipment_define(
+    EquipmentFeature::FEELER_GAUGE,
+    EquipmentFeature::GAUGE,
+    EquipmentAttribute::HAND_TOOL,
+  );
+
+//
+// 2024-08-04 jj5 - CIRCUIT_BREAKER
+//
+
+equipment_define(
+  EquipmentFeature::CIRCUIT_BREAKER,
+  EquipmentClass::CIRCUIT_BREAKER,
+  EquipmentAttribute::SAFETY_EQUIPMENT,
+);
+
+  equipment_define(
+    EquipmentFeature::SURGE_PROTECTOR,
+    EquipmentFeature::CIRCUIT_BREAKER,
+  );
+
+    equipment_define(
+      EquipmentFeature::RESIDUAL_CURRENT_DEVICE,
+      EquipmentFeature::SURGE_PROTECTOR,
+    );
+
+//
+// 2024-08-04 jj5 - FUNNEL
+//
+
+equipment_define(
+  EquipmentFeature::FUNNEL,
+  EquipmentClass::FUNNEL,
+);
+
+  equipment_define(
+    EquipmentFeature::FUNNEL_SET,
+    EquipmentFeature::FUNNEL,
+  );
+
+//
+// 2024-08-04 jj5 - CABLE_TIDY
+//
+
+equipment_define(
+  EquipmentFeature::CABLE_TIDY,
+  EquipmentClass::CABLE_TIDY,
+);
+
+  equipment_define(
+    EquipmentFeature::CABLE_ORGANIZER,
+    EquipmentFeature::CABLE_TIDY,
+  );
+
+//
+// 2024-08-04 jj5 - CRIMP_TERMINAL
+//
+
+equipment_define(
+  EquipmentFeature::CRIMP_TERMINAL,
+  EquipmentClass::CRIMP,
+  EquipmentAttribute::CONSUMABLE,
+);
+
+  equipment_define(
+    EquipmentFeature::FERRULE,
+    EquipmentFeature::CRIMP_TERMINAL,
+  );
+
+//
+// 2024-08-04 jj5 - CRIMPER
+//
+
+equipment_define(
+  EquipmentFeature::CRIMPER,
+  EquipmentClass::CRIMPER,
+  EquipmentAttribute::HAND_TOOL,
+);
+
+  equipment_define(
+    EquipmentFeature::FERRULE_CRIMPER,
+    EquipmentFeature::CRIMPER,
+  );
+
+  equipment_define(
+    EquipmentFeature::WIRE_CRIMPER,
+    EquipmentFeature::CRIMPER,
+  );
+
+//
+// 2024-08-04 jj5 - CRIMPER_KIT
+//
+
+equipment_define(
+  EquipmentFeature::CRIMPER_KIT,
+  EquipmentClass::CRIMPER,
+  EquipmentFeature::CRIMPER,
+  EquipmentFeature::CRIMP_TERMINAL,
+);
+
+  equipment_define(
+    EquipmentFeature::FERRULE_CRIMPER_KIT,
+    EquipmentFeature::CRIMPER_KIT,
+    EquipmentFeature::FERRULE_CRIMPER,
+    EquipmentFeature::FERRULE,
+  );
+
+//
+// 2024-08-04 jj5 - PLIERS
+//
+
+equipment_define(
+  EquipmentFeature::PLIERS,
+  EquipmentClass::PLIERS,
+  EquipmentAttribute::HAND_TOOL,
+);
+
+  equipment_define(
+    EquipmentFeature::NEEDLE_NOSE_PLIERS,
+    EquipmentFeature::PLIERS,
+  );
+
+  equipment_define(
+    EquipmentFeature::LOCKING_PLIERS,
+    EquipmentFeature::PLIERS,
+  );
+
+//
+// 2024-08-04 jj5 - SCALE
+//
+
+equipment_define(
+  EquipmentFeature::SCALE,
+  EquipmentClass::SCALE,
+  EquipmentAttribute::MEASURING_EQUIPMENT,
+);
+
+  equipment_define(
+    EquipmentFeature::ELECTRONIC_SCALE,
+    EquipmentFeature::SCALE,
+  );
+
+//
+// 2024-08-04 jj5 - FEATURE
+//
+
+equipment_define(
+  EquipmentFeature::FEATURE,
+  EquipmentClass::FEATURE,
+);
+
+  equipment_define(
+    EquipmentFeature::LCD,
+    EquipmentFeature::FEATURE,
+  );
+
+  equipment_define(
+    EquipmentFeature::REMOTE_CONTROL,
+    EquipmentFeature::FEATURE,
+  );
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 2024-08-03 jj5 - equipment...
+//
 
 equipment(
   equipment_date( '2024-01-13' ),
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-03-173435/MSO5074-70MHz-4-Channel-MIXED-SIGNAL-OSCILLOSCOPES.png' ),
   equipment_item(
-    manufacturer_name ( 'Rigol' ),
-    model_name        ( 'MSO5074' ),
     manufacturer_link (
       link_href       ( 'https://www.rigolna.com/products/digital-oscilloscopes/MSO5000/MSO5074/' ),
       link_text       ( 'MSO5000 Mixed Signal Oscilloscopes | RIGOL - RIGOL Technologies' ),
     ),
+    manufacturer_name ( 'Rigol' ),
+    model_name        ( 'MSO5074' ),
     EquipmentFeature::MIXED_SIGNAL_OSCILLOSCOPE,
     EquipmentFeature::SPECTRUM_ANALYZER,
     EquipmentFeature::LOGIC_ANALYZER,
@@ -87,9 +2635,11 @@ equipment(
     EquipmentFeature::FUNCTION_GENERATOR,
     EquipmentFeature::VOLTMETER,
     EquipmentFeature::COUNTER_TOTALIZER,
-    Connectivity::BNC,
-    Connectivity::ETHERNET,
-    Connectivity::USB,
+    EquipmentConnectivity::BNC,
+    EquipmentConnectivity::ETHERNET,
+    EquipmentConnectivity::USB,
+    EquipmentAttribute::BENCH_EQUIPMENT,
+    EquipmentAttribute::TEST_EQUIPMENT,
     EquipmentAttribute::HEART,
   ),
   /*
@@ -182,6 +2732,14 @@ equipment(
 equipment(
   equipment_date( '2024-01-13' ),
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-03-175518/RIGOL-PLA2216-Logic-Probe-for-MSO5000-Series-Oscilloscopes-Includes-Cable-Leads-and-Grabber-Clips.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Rigol' ),
+    model_name        ( 'PLA2216' ),
+    EquipmentFeature::LOGIC_PROBE,
+    EquipmentAttribute::ACCESSORY,
+    EquipmentAttribute::ATTACHMENT,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Rigol' ),
     model_name        ( 'PLA2216' ),
@@ -190,6 +2748,7 @@ equipment(
     category          ( 'Accessory' ),
     category          ( 'Attachment' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Rigol_MSO5074' ),
   see_also      ( 'Rigol PLA2216 Compatible Logic Probe' ),
   see_also      ( 'Rigol MSO5074 Mixed Signal Oscilloscope' ),
@@ -268,6 +2827,14 @@ equipment(
 equipment(
   equipment_date( '2024-01-13' ),
   equipment_icon( 'https://i.ebayimg.com/images/g/AqAAAOSwHwdjcLMS/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Rigol' ),
+    model_name        ( 'PLA2216 Compatible' ),
+    EquipmentFeature::LOGIC_PROBE,
+    EquipmentAttribute::ACCESSORY,
+    EquipmentAttribute::ATTACHMENT,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Rigol' ),
     model_name        ( 'PLA2216' ),
@@ -276,6 +2843,7 @@ equipment(
     category          ( 'Accessory' ),
     category          ( 'Attachment' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Rigol_MSO5074' ),
   see_also      ( 'Rigol PLA2216 Logic Probe' ),
   see_also      ( 'Rigol MSO5074 Mixed Signal Oscilloscope' ),
@@ -307,6 +2875,18 @@ equipment(
 equipment(
   equipment_date( '2024-01-13' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/61WzxMS3zSL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.diatec.co.jp/en/Maje2SS/' ),
+      link_text       ( 'Majestouch 2SS Edition Product Introduction' ),
+    ),
+    manufacturer_name ( 'FILCO' ),
+    model_name        ( 'Majestouch 2SS 104-key' ),
+    EquipmentFeature::MECHANICAL_KEYBOARD,
+    EquipmentAttribute::COMPUTER_EQUIPMENT,
+    EquipmentConnectivity::USB,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'FILCO' ),
     model_name        ( 'Majestouch 2SS' ),
@@ -319,6 +2899,7 @@ equipment(
       link_text       ( 'Majestouch 2SS Edition Product Introduction' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Keyboard' ),
   see_also      ( 'FILCO Majestouch 2SS 87-key Mechanical Keyboard' ),
   search_url    ( 'https://www.amazon.com/s?k=FILCO+Majestouch+2SS+104-key+mechanical+keyboard&s=price-asc-rank' ),
@@ -354,6 +2935,18 @@ equipment(
 equipment(
   equipment_date( '2024-01-13' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/61iUE9S8ZpL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.diatec.co.jp/en/Maje2SS/' ),
+      link_text       ( 'Majestouch 2SS Edition Product Introduction' ),
+    ),
+    manufacturer_name ( 'FILCO' ),
+    model_name        ( 'Majestouch 2SS 87-key' ),
+    EquipmentFeature::MECHANICAL_KEYBOARD,
+    EquipmentAttribute::COMPUTER_EQUIPMENT,
+    EquipmentConnectivity::USB,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'FILCO' ),
     model_name        ( 'Majestouch 2SS' ),
@@ -366,6 +2959,7 @@ equipment(
       link_text       ( 'Majestouch 2SS Edition Product Introduction' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Keyboard' ),
   see_also      ( 'FILCO Majestouch 2SS 104-key Mechanical Keyboard' ),
   see_also      ( 'gku AC1009 Underdesk Keyboard Drawer' ),
@@ -402,6 +2996,12 @@ equipment(
 equipment(
   equipment_date( '2024-01-13' ),
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-04-212314/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'gku' ),
+    model_name        ( 'AC1009 Underdesk' ),
+    EquipmentFeature::KEYBOARD_DRAWER,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'gku' ),
     model_name        ( 'AC1009' ),
@@ -409,6 +3009,7 @@ equipment(
     category          ( 'Keyboard Drawer' ),
     category          ( 'Drawer' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Keyboard' ),
   see_also      ( 'FILCO Majestouch 2SS 87-key Mechanical Keyboard' ),
   search_url    ( 'https://www.amazon.com/s?k=gku+Underdesk+Keyboard+Drawer&s=price-asc-rank' ),
@@ -451,6 +3052,43 @@ equipment(
 equipment(
   equipment_date( '2024-01-13' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/81Bca5GkSnL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.dremel.com/us/en/p/4300-5-40-f0134300ad' ),
+      link_text       ( 'Dremel 4300 Rotary Tool' ),
+    ),
+    manufacturer_name ( 'Dremel' ),
+    model_name        ( '4300' ),
+    EquipmentFeature::ROTARY_TOOL,
+    EquipmentAttribute::HAND_TOOL,
+    EquipmentFeature::ROTARY_TOOL_ACCESSORY_SET,
+    EquipmentFeature::DREMEL_107_ENGRAVING_BIT,
+    EquipmentFeature::DREMEL_191_CARVING_BIT,
+    EquipmentFeature::DREMEL_EZ456_METAL_CUT_OFF_WHEEL,
+    EquipmentFeature::DREMEL_561_MULTI_PURPOSE_CUTTING_BIT,
+    EquipmentFeature::DREMEL_8193_ALUMINUM_OXIDE_GRINDING_STONE,
+    EquipmentFeature::DREMEL_84922_SILICON_CARBIDE_GRINDING_STONE,
+    EquipmentFeature::DREMEL_932_ALUMINUM_OXIDE_GRINDING_STONE,
+    EquipmentFeature::DREMEL_403_NYLON_BRUSH,
+    EquipmentFeature::DREMEL_428_CARBON_STEEL_BRUSH,
+    EquipmentFeature::DREMEL_414_FELT_POLISHING_WHEEL,
+    EquipmentFeature::DREMEL_421_POLISHING_COMPOUND,
+    EquipmentFeature::DREMEL_429_FELT_POLISHING_WHEEL,
+    EquipmentFeature::DREMEL_407_60_GRIT_SANDING_BAND,
+    EquipmentFeature::DREMEL_408_60_GRIT_SANDING_BAND,
+    EquipmentFeature::DREMEL_432_120_GRIT_SANDING_BAND,
+    EquipmentFeature::DREMEL_445_240_GRIT_SANDING_BAND,
+    EquipmentFeature::DREMEL_EZ411_SANDING_DISC,
+    EquipmentFeature::DREMEL_EZ412_SANDING_DISC,
+    EquipmentFeature::DREMEL_EZ413_SANDING_DISC,
+    EquipmentFeature::DREMEL_401_POLISHING_BIT_MANDREL,
+    EquipmentFeature::DREMEL_EZ402_EZ_LOCK_MANDREL,
+    EquipmentFeature::DREMEL_150_DRILL_BIT,
+    EquipmentFeature::DREMEL_PIVOT_LIGHT,
+    EquipmentFeature::DREMEL_565_MULTI_PURPOSE_CUTTING_KIT,
+    EquipmentFeature::WRENCH,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Dremel' ),
     model_name        ( '4300' ),
@@ -462,6 +3100,7 @@ equipment(
       link_text       ( 'Dremel 4300 Rotary Tool' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Dremel_4300' ),
   see_also      ( 'Dremel 335 Plunge Router' ),
   see_also      ( 'Dremel 2500 Multi-Vise' ),
@@ -550,6 +3189,19 @@ equipment(
 equipment(
   equipment_date( '2024-01-13' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/71QH+iLWzgL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.dremel.com/us/en/p/335-01-26150335aa' ),
+      link_text       ( 'Dremel Plunge Router Attachment (335)' ),
+    ),
+    manufacturer_name ( 'Dremel' ),
+    model_name        ( '335' ),
+    EquipmentFeature::PLUNGE_ROUTER,
+    EquipmentAttribute::ACCESSORY,
+    EquipmentAttribute::ATTACHMENT,
+    EquipmentAttribute::BENCH_EQUIPMENT,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Dremel' ),
     model_name        ( '335' ),
@@ -562,6 +3214,7 @@ equipment(
       link_text       ( 'Dremel Plunge Router Attachment (335)' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Dremel_4300' ),
   see_also      ( 'Dremel 4300 Rotary Tool' ),
   see_also      ( 'Dremel 2500 Multi-Vise' ),
@@ -650,6 +3303,19 @@ equipment(
 equipment(
   equipment_date( '2024-01-13' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/51tk519+NJL._AC_SL1000_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.dremel.com/us/en/p/2500-01-26152500aa' ),
+      link_text       ( 'Dremel 2500 Multi-Vise' ),
+    ),
+    manufacturer_name ( 'Dremel' ),
+    model_name        ( '2500' ),
+    EquipmentFeature::MULTI_VISE,
+    EquipmentAttribute::ACCESSORY,
+    EquipmentAttribute::ATTACHMENT,
+    EquipmentAttribute::BENCH_EQUIPMENT,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Dremel' ),
     model_name        ( '2500' ),
@@ -662,6 +3328,7 @@ equipment(
       link_text       ( 'Dremel 2500 Multi-Vise' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Dremel_4300' ),
   see_also      ( 'Dremel 4300 Rotary Tool' ),
   see_also      ( 'Dremel 335 Plunge Router' ),
@@ -760,6 +3427,19 @@ equipment(
 equipment(
   equipment_date( '2024-01-13' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/41r3ZlM6y0L._AC_SL1046_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.dremel.com/us/en/p/220-01-26150220aa' ),
+      link_text       ( 'Dremel 220 Drill Press' ),
+    ),
+    manufacturer_name ( 'Dremel' ),
+    model_name        ( '220' ),
+    EquipmentFeature::DRILL_PRESS,
+    EquipmentAttribute::ACCESSORY,
+    EquipmentAttribute::ATTACHMENT,
+    EquipmentAttribute::BENCH_EQUIPMENT,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Dremel' ),
     model_name        ( '220' ),
@@ -772,6 +3452,7 @@ equipment(
       link_text       ( 'Dremel 220 Drill Press' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Dremel_4300' ),
   see_also      ( 'Dremel 4300 Rotary Tool' ),
   see_also      ( 'Dremel 335 Plunge Router' ),
@@ -864,6 +3545,30 @@ equipment(
 equipment(
   equipment_date( '2024-01-13' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/71HCULgbzML._AC_SL1080_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.dremel.com/us/en/p/ez725-2615e725aa' ),
+      link_text       ( 'Dremel EZ725 Rotary Tool Accessory Set' ),
+    ),
+    manufacturer_name ( 'Dremel' ),
+    model_name        ( 'EZ725' ),
+    EquipmentFeature::ROTARY_TOOL_ACCESSORY_SET,
+    EquipmentFeature::DREMEL_EZ402_EZ_LOCK_MANDREL,
+    EquipmentFeature::DREMEL_EZ407_EZ_DRUM_MANDREL,
+    EquipmentFeature::DREMEL_EZ409_THIN_CUT_OFF_WHEEL,
+    EquipmentFeature::DREMEL_EZ456_METAL_CUT_OFF_WHEEL,
+    EquipmentFeature::DREMEL_EZ476_PLASTIC_CUT_OFF_WHEEL,
+    EquipmentFeature::DREMEL_EZ544_CARBIDE_CUTTING_WHEEL,
+    EquipmentFeature::DREMEL_EZ545_DIAMOND_CUTTING_WHEEL,
+    EquipmentFeature::DREMEL_432E_CLOTH_POLISHING_WHEEL,
+    EquipmentFeature::DREMEL_EZ411SA_SANDING_DISC,
+    EquipmentFeature::DREMEL_EZ413SA_SANDING_DISC,
+    EquipmentFeature::DREMEL_511E_FINISHING_ABRASIVE_BUFF,
+    EquipmentFeature::DREMEL_512E_FINISHING_ABRASIVE_BUFF,
+    EquipmentFeature::DREMEL_408_60_GRIT_SANDING_BAND,
+    EquipmentFeature::DREMEL_432_120_GRIT_SANDING_BAND,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Dremel' ),
     model_name        ( 'EZ725' ),
@@ -877,6 +3582,7 @@ equipment(
       link_text       ( 'Dremel EZ725 Rotary Tool Accessory Set' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Dremel_4300' ),
   see_also      ( 'Dremel 4300 Rotary Tool' ),
   see_also      ( 'Dremel 335 Plunge Router' ),
@@ -923,6 +3629,20 @@ equipment(
 equipment(
   equipment_date( '2024-01-13' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/61E5eUKaEXL._SL1080_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.dremel.com/us/en/product-categories/rotary/accessories-attachments' ),
+      link_text       ( 'Dremel Rotary Tool Accessories & Attachments' ),
+    ),
+    manufacturer_name ( 'Dremel' ),
+    EquipmentFeature::ROTARY_CUTTING_ACCESSORY_SET,
+    EquipmentFeature::HSS_WOOD_CUTTING_SAW_BLADE_DISC,
+    EquipmentFeature::DIAMOND_CUTTING_WHEEL,
+    EquipmentFeature::RESIN_CUTTING_WHEEL,
+    EquipmentFeature::RED_RESIN_CUTTING_WHEEL,
+    EquipmentFeature::ROTARY_TOOL_MANDREL,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Dremel' ),
     equipment_type    ( 'Cutting Discs for Rotary Tool' ),
@@ -935,6 +3655,7 @@ equipment(
       link_text       ( 'Dremel Rotary Tool Accessories & Attachments' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Dremel_4300' ),
   see_also      ( 'Dremel 4300 Rotary Tool' ),
   see_also      ( 'Dremel 335 Plunge Router' ),
@@ -974,6 +3695,16 @@ equipment(
 equipment(
   equipment_date( '2024-01-13' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/61kQtjpE0pL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.dremel.com/us/en/p/490-26150490aa' ),
+      link_text       ( 'Dremel 490 Rotary Tool Dust Blower' ),
+    ),
+    manufacturer_name ( 'Dremel' ),
+    model_name        ( '490' ),
+    EquipmentFeature::ROTARY_TOOL_DUST_BLOWER,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Dremel' ),
     model_name        ( '490' ),
@@ -987,6 +3718,7 @@ equipment(
       link_text       ( 'Dremel 490 Rotary Tool Dust Blower' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Dremel_4300' ),
   see_also      ( 'Dremel 4300 Rotary Tool' ),
   see_also      ( 'Dremel 335 Plunge Router' ),
@@ -1081,6 +3813,19 @@ equipment(
 equipment(
   equipment_date( '2024-01-13' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/71iSotbSPCL._SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.aten.com/global/en/products/kvm/desktop-kvm-switches/cs1922/' ),
+      link_text       ( 'ATEN CS1922 2-Port DisplayPort KVM' ),
+    ),
+    manufacturer_name ( 'ATEN' ),
+    model_name        ( 'CS1922 2-Port' ),
+    EquipmentFeature::DISPLAY_PORT_KVM,
+    EquipmentAttribute::COMPUTER_EQUIPMENT,
+    EquipmentConnectivity::DISPLAY_PORT,
+    EquipmentConnectivity::USB,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'ATEN' ),
     model_name        ( 'CS1922' ),
@@ -1093,6 +3838,7 @@ equipment(
       link_text       ( 'ATEN CS1922 2-Port DisplayPort KVM' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Aten_CS1922' ),
   warning( 'I have the CS1922 but the CS1922M is newer and better, I\'ve included links to both.' ),
   search_url    ( 'https://www.amazon.com/s?k=ATEN+CS1922+2-Port+DisplayPort+KVM&s=price-asc-rank' ),
@@ -1177,6 +3923,18 @@ equipment(
 equipment(
   equipment_date( '2024-01-13' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Hb4214d8fb356492fa77b565e8e230dbfJ/UNI-T-UTi260B-Infrared-Thermal-Imager-256-x192-Industrial-Handheld-Testing-Thermometer-For-Repaire-Floor-Heating.jpg_.webp' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://thermal.uni-trend.com/product/uti260b/' ),
+      link_text       ( 'UNI-T UTi260B Thermal Imager' ),
+    ),
+    manufacturer_name ( 'UNI-T' ),
+    model_name        ( 'UTi260B' ),
+    EquipmentFeature::THERMAL_IMAGER,
+    EquipmentAttribute::HAND_TOOL,
+    EquipmentConnectivity::USB,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'UNI-T' ),
     model_name        ( 'UTi260B' ),
@@ -1190,6 +3948,7 @@ equipment(
       link_text       ( 'UNI-T UTi260B Thermal Imager' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/UNI-T_UTi260B' ),
   see_also      ( 'NOYAFA NF-521 Thermal Imager' ),
   search_url    ( 'https://www.amazon.com/s?k=UNI-T+UTi260B+Thermal+Imager&s=price-asc-rank' ),
@@ -1274,6 +4033,19 @@ equipment(
 equipment(
   equipment_date( '2024-01-13' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/81wZQpUd9LL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Leadstar' ),
+    model_name        ( '12"' ),
+    //equipment_type    ( '12" LCD TV' ),
+    EquipmentFeature::LCD_TV,
+    EquipmentFeature::LCD,
+    EquipmentFeature::REMOTE_CONTROL,
+    EquipmentConnectivity::COMPOSITE_VIDEO_RCA,
+    EquipmentConnectivity::HDMI,
+    EquipmentConnectivity::RF,
+    EquipmentConnectivity::SD_CARD,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Leadstar' ),
     equipment_type    ( '12" LCD TV' ),
@@ -1283,6 +4055,7 @@ equipment(
     category          ( 'LCD' ),
     category          ( 'Remote Control' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Leadstar_TV' ),
   see_also      ( 'UPERFECT 15.6" HDMI LCD' ),
   search_url    ( 'https://www.amazon.com/s?k=Leadstar+12%22+LCD+TV&s=price-asc-rank' ),
@@ -1356,6 +4129,16 @@ equipment(
 equipment(
   equipment_date( '2024-01-13' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/61RUIBSxnJL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.uperfectmonitor.com/products/15-6-inch-uhd-4k-portable-monitor-uperfect' ),
+      link_text       ( 'UPERFECT 15.6" HDMI LCD' ),
+    ),
+    manufacturer_name ( 'UPERFECT' ),
+    model_name        ( '15.6"' ),
+    EquipmentFeature::HDMI_LCD,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'UPERFECT' ),
     equipment_type    ( '15.6" HDMI LCD' ),
@@ -1367,6 +4150,7 @@ equipment(
       link_text       ( 'UPERFECT 15.6" HDMI LCD' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/UPERFECT_156J08' ),
   see_also      ( 'Leadstar 12" LCD TV' ),
   search_url    ( 'https://www.amazon.com/s?k=UPERFECT+15.6%22+HDMI+LCD&s=price-asc-rank' ),
@@ -1459,6 +4243,21 @@ equipment(
 equipment(
   equipment_date( '2024-01-13' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/71hf8J4rkQL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://tomlov.com/products/tomlov-dm602-pro-10-1-inch-hdmi-digital-microscope' ),
+      link_text       ( 'TOMLOV DM602 Pro Digital Microscope' ),
+    ),
+    manufacturer_name ( 'TOMLOV' ),
+    model_name        ( 'DM602 Pro' ),
+    EquipmentFeature::DIGITAL_MICROSCOPE,
+    EquipmentFeature::LCD,
+    EquipmentFeature::REMOTE_CONTROL,
+    EquipmentAttribute::BENCH_EQUIPMENT,
+    EquipmentConnectivity::HDMI,
+    EquipmentConnectivity::USB,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'TOMLOV' ),
     model_name        ( 'DM602 Pro' ),
@@ -1474,6 +4273,7 @@ equipment(
       link_text       ( 'TOMLOV DM602 Pro Digital Microscope' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/TOMLOV_DM602_Pro' ),
   see_also      ( 'Yizhan Microscope' ),
   search_url    ( 'https://www.amazon.com/s?k=TOMLOV+DM602+Pro+Digital+Microscope&s=price-asc-rank' ),
@@ -1554,6 +4354,15 @@ equipment(
 equipment(
   equipment_date( '2024-01-14' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/H761f62d1526e4624bc10c2560a27c0c6n/RD6018-RD6018W-USB-WiFi-Digital-Control-Power-Supply-DC-to-DC-Voltage-Step-Down-Module-Buck.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Riden' ),
+    model_name        ( 'RD6006' ),
+    EquipmentFeature::BENCH_POWER_SUPPLY,
+    EquipmentFeature::VOLTMETER,
+    EquipmentFeature::AMMETER,
+    EquipmentConnectivity::USB,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Riden' ),
     model_name        ( 'RD6006' ),
@@ -1563,6 +4372,7 @@ equipment(
     category          ( 'Meter' ),
     category          ( 'USB' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/RIDEN_RD6006' ),
   see_also      ( 'Tenma 72-10505 Bench Power Supply' ),
   search_url    ( 'https://www.amazon.com/s?k=Riden+RD6006+Bench+Power+Supply&s=price-asc-rank' ),
@@ -1662,6 +4472,18 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-03-162856/s-l500.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://au.element14.com/tenma/72-10505/power-supply-3ch-30v-3a-adjustable/dp/225194902?st=Tenma%2072-10505' ),
+      link_text       ( 'Tenma 72-10505 Bench Power Supply @ element14' ),
+    ),
+    manufacturer_name ( 'Tenma' ),
+    model_name        ( '72-10505' ),
+    EquipmentFeature::BENCH_POWER_SUPPLY,
+    EquipmentFeature::VOLTMETER,
+    EquipmentFeature::AMMETER,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Tenma' ),
     model_name        ( '72-10505' ),
@@ -1674,6 +4496,7 @@ equipment(
       link_text       ( 'Tenma 72-10505 Bench Power Supply @ element14' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/TENMA_72-10505' ),
   see_also      ( 'Riden RD6006 Bench Power Supply' ),
   search_url    ( 'https://www.amazon.com/s?k=Tenma+72-10505+Bench+Power+Supply&s=price-asc-rank' ),
@@ -1713,6 +4536,17 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/51S26iMXlIL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://epson.com/For-Home/Scanners/Photo-Scanners/Epson-Perfection-V39-Scanner/p/B11B232201' ),
+      link_text       ( 'Epson Perfection V39 Flatbed Scanner' ),
+    ),
+    manufacturer_name ( 'Epson' ),
+    model_name        ( 'Perfection V39' ),
+    EquipmentFeature::FLATBED_SCANNER,
+    EquipmentConnectivity::USB,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Epson' ),
     model_name        ( 'Perfection V39' ),
@@ -1724,6 +4558,7 @@ equipment(
       link_text       ( 'Epson Perfection V39 Flatbed Scanner' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Epson_V39' ),
   warning       ( 'Consider the new model: Perfection V39 II' ),
   search_url    ( 'https://www.amazon.com/s?k=Epson+Perfection+V39+Flatbed+Scanner&s=price-asc-rank' ),
@@ -1796,6 +4631,18 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Hdfdab4a8df164b1fbe29c52f10cd7337f/Electric-Solder-Suction-Gun-SS-331-SS-331H-ESD-LCD-Digital-BGA-Tin-Pump-Suction-Absorb.jpg_.webp' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://pro-skit.ru/image/catalog/instructions/manual_ss_331.pdf' ),
+      link_text       ( 'Pro\'sKit SS-331 LCD Desoldering Station (PDF)' ),
+    ),
+    manufacturer_name ( 'Pro\'sKit' ),
+    model_name        ( 'SS-331H' ),
+    EquipmentFeature::DESOLDERING_PUMP,
+    EquipmentAttribute::HAND_TOOL,
+    EquipmentAttribute::BENCH_EQUIPMENT,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Pro\'sKit' ),
     model_name        ( 'SS-331H' ),
@@ -1808,6 +4655,7 @@ equipment(
       link_text       ( 'Pro\'sKit SS-331 LCD Desoldering Station (PDF)' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Pro%27sKit_SS-331H' ),
   search_url    ( 'https://www.amazon.com/s?k=Pro%27sKit+SS-331H+Desoldering+Pump&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Pro%27sKit+SS-331H+Desoldering+Pump&s=price-asc-rank' ),
@@ -1893,6 +4741,25 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S2f7129208ab747b7a3b4deba1a7baad8v/UNI-T-UTG932E-UTG962E-Function-Arbitrary-Waveform-Signal-Generator-DDS-Support-Frequency-Sweep-Output-Gerador-De.jpg_.webp' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://uni-trendus.com/products/utg962e-60mhz-2ch-classic-series-arbitrary-waveform-generator' ),
+      link_text       ( 'UTG962E 60MHz 2Ch Classic-Series Arbitrary Waveform Generator' ),
+    ),
+    manufacturer_link (
+      link_href       ( 'https://instruments.uni-trend.com/static/upload/file/20210609/UTG900.pdf' ),
+      link_text       ( 'UNI-T UTG900E Series Function Arbitrary Waveform Generators (PDF)' ),
+    ),
+    manufacturer_name ( 'UNI-T' ),
+    model_name        ( 'UTG962E' ),
+    EquipmentFeature::SIGNAL_GENERATOR,
+    EquipmentFeature::WAVEFORM_GENERATOR,
+    EquipmentFeature::FUNCTION_GENERATOR,
+    EquipmentAttribute::BENCH_EQUIPMENT,
+    EquipmentConnectivity::BNC,
+    EquipmentConnectivity::USB,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'UNI-T' ),
     model_name        ( 'UTG962E' ),
@@ -1911,6 +4778,7 @@ equipment(
       link_text       ( 'UNI-T UTG900E Series Function Arbitrary Waveform Generators (PDF)' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/UNI-T_UTG962E' ),
   see_also      ( 'Rigol MSO5074 Mixed Signal Oscilloscope' ),
   search_url    ( 'https://www.amazon.com/s?k=UNI-T+UTG962E&crid=3VQA4KZV0J748&sprefix=uni-t+utg962e+signal+generator%2Caps%2C262&ref=nb_sb_noss_1' ),
@@ -2008,6 +4876,29 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Sf0052a55857442dda1671c54914e2fe4S/Owon-XDM1041-XDM1241-Digital-Multimeter-55000-Counts-High-Accuracy-Desktop-Multimeters-AC-DC-Tester-True-RMS.jpg_.webp' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.owontechnology.eu/product/4703647/owon-xdm1041-55-000-counts-bench-type-digital-multimeter' ),
+      link_text       ( 'OWON XDM1041 Bench Multimeter' ),
+    ),
+    manufacturer_name ( 'OWON' ),
+    model_name        ( 'XDM1041' ),
+    EquipmentFeature::BENCH_MULTIMETER,
+    EquipmentFeature::VOLTMETER,
+    EquipmentFeature::AMMETER,
+    EquipmentFeature::OHMMETER,
+    EquipmentFeature::CAPACITANCE_METER,
+    EquipmentFeature::FREQUENCY_COUNTER,
+    EquipmentFeature::CONTINUITY_TESTER,
+    EquipmentFeature::DIODE_TESTER,
+    EquipmentFeature::THERMOMETER,
+    EquipmentFeature::LCD,
+    EquipmentAttribute::CAT_I,
+    EquipmentAttribute::CAT_II,
+    EquipmentConnectivity::BANANA_PLUG,
+    EquipmentConnectivity::USB,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'OWON' ),
     model_name        ( 'XDM1041' ),
@@ -2021,6 +4912,7 @@ equipment(
       link_text       ( 'OWON XDM1041 Bench Multimeter' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/OWON_XDM1041' ),
   warning       ( 'You might like to check out the XDM1241 or XDM2041' ),
   see_also      ( 'ANENG AN-999S Bench Multimeter' ),
@@ -2148,6 +5040,21 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Sba8921efd2ae4354b0d75c36638b51a4k/ANENG-AN-999S-Desktop-Voice-Multimeter-Digital-19999-Counts-Professional-Bluetooth-Tester-True-RMS-AC-DC.jpg_640x640.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'ANENG' ),
+    model_name        ( 'AN-999S' ),
+    EquipmentFeature::BENCH_MULTIMETER,
+    EquipmentFeature::VOLTMETER,
+    EquipmentFeature::AMMETER,
+    EquipmentFeature::OHMMETER,
+    EquipmentFeature::CAPACITANCE_METER,
+    EquipmentFeature::FREQUENCY_COUNTER,
+    EquipmentFeature::CONTINUITY_TESTER,
+    EquipmentFeature::DIODE_TESTER,
+    EquipmentConnectivity::BANANA_PLUG,
+    EquipmentConnectivity::BLUETOOTH,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'ANENG' ),
     model_name        ( 'AN-999S' ),
@@ -2157,6 +5064,7 @@ equipment(
     category          ( 'Meter' ),
     category          ( 'Bluetooth' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/ANENG_AN-999S' ),
   see_also      ( 'OWON XDM1041 Bench Multimeter' ),
   search_url    ( 'https://www.amazon.com/s?k=ANENG+AN-999S+Bench+Multimeter&s=price-asc-rank' ),
@@ -2228,6 +5136,14 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S77acdb10bfe847ce8c6b4114002304cc6/48MP-4K-1080P-HDMI-USB-Industrial-Video-Microscope-Camera-1X-150X-Zoom-C-Mount-Lens-Remote.jpg_640x640.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yizhan' ),
+    EquipmentFeature::DIGITAL_MICROSCOPE,
+    EquipmentAttribute::BENCH_EQUIPMENT,
+    EquipmentConnectivity::HDMI,
+    EquipmentConnectivity::USB,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Yizhan' ),
     equipment_type    ( 'Microscope' ),
@@ -2236,6 +5152,7 @@ equipment(
     category          ( 'USB' ),
     category          ( 'HDMI' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yizhan_Microscope' ),
   see_also      ( 'TOMLOV DM602 Pro Digital Microscope' ),
   search_url    ( 'https://www.amazon.com/s?k=Yizhan+Microscope&s=price-asc-rank' ),
@@ -2267,6 +5184,20 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/H4dce7d3ad1a5420ab45667b20f8f2f05K/EBD-A20H-Electronic-Load-Battery-Capacity-Power-Supply-Charging-Head-Tester-Discharging-Equipment-Discharge-Meter-Instrument.jpg_.webp' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://media.digikey.com/pdf/Data%20Sheets/Seeed%20Technology/106990329_Web.pdf' ),
+      link_text       ( 'ZKETECH EBD-A20H DC Electronic Load/Battery Capacity & Discharge Tester/Power Supply Tester 30V 20A 200W (PDF)' ),
+    ),
+    manufacturer_name ( 'ZKETECH' ),
+    model_name        ( 'EBD-A20H' ),
+    EquipmentFeature::ELECTRONIC_LOAD,
+    EquipmentFeature::PROGRAMMABLE_LOAD,
+    EquipmentAttribute::BENCH_EQUIPMENT,
+    EquipmentConnectivity::BANANA_PLUG,
+    EquipmentConnectivity::USB,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'ZKETECH' ),
     model_name        ( 'EBD-A20H' ),
@@ -2280,6 +5211,7 @@ equipment(
       link_text       ( 'ZKETECH EBD-A20H DC Electronic Load/Battery Capacity & Discharge Tester/Power Supply Tester 30V 20A 200W (PDF)' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/EBD-A20H' ),
   search_url    ( 'https://www.amazon.com/s?k=ZKETECH+EBD-A20H+Programmable+Load&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=ZKETECH+EBD-A20H+Programmable+Load&s=price-asc-rank' ),
@@ -2364,6 +5296,17 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/51+Gunc3-cS._AC_SL1200_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.noyafa.com/products/nf-521-infrared-thermometer' ),
+      link_text       ( 'NOYAFA NF-521 Contactless Thermal Imaging Device Industry & Science Infrared Thermometer' ),
+    ),
+    manufacturer_name ( 'NOYAFA' ),
+    model_name        ( 'NF-521' ),
+    EquipmentFeature::THERMAL_IMAGER,
+    EquipmentAttribute::HAND_TOOL,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'NOYAFA' ),
     model_name        ( 'NF-521' ),
@@ -2376,6 +5319,7 @@ equipment(
       link_text       ( 'NOYAFA NF-521 Contactless Thermal Imaging Device Industry & Science Infrared Thermometer' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/NOYAFA_NF-521' ),
   see_also      ( 'UNI-T UTi260B Thermal Imager' ),
   search_url    ( 'https://www.amazon.com/s?k=NOYAFA+NF-521+Thermal+Imager&s=price-asc-rank' ),
@@ -2456,6 +5400,16 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/51yAJ4rslUL._AC_SL1000_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://hakkousa.com/chp-3c-sa-very-fine-point-tweezers.html' ),
+      link_text       ( 'CHP 3C-SA Very Fine Point Tweezers' ),
+    ),
+    manufacturer_name ( 'Hakko CHP' ),
+    model_name        ( '3C-SA' ),
+    EquipmentFeature::PRECISION_TWEEZERS,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Hakko CHP' ),
     model_name        ( '3C-SA' ),
@@ -2467,6 +5421,7 @@ equipment(
       link_text       ( 'CHP 3C-SA Very Fine Point Tweezers' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Hakko_CHP_3C-SA_Tweezers' ),
   warning       ( 'Some of these are single, others are 3 packs or 5 packs; I recommend at least two, one for each hand' ),
   search_url    ( 'https://www.amazon.com/s?k=Hakko+CHP+3C-SA+Precision+Tweezers&s=price-asc-rank' ),
@@ -2516,6 +5471,27 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/71diYxrqVzL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.bosch-diy.com/au/en/p/ixo-6-06039c7150' ),
+      link_text       ( 'Bosch IXO VI Electric Screwdriver' ),
+    ),
+    manufacturer_name ( 'Bosch' ),
+    model_name        ( 'IXO VI' ),
+    EquipmentFeature::ELECTRIC_SCREWDRIVER,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH1,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH2,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH3,
+    EquipmentFeature::POZIDRIV_SCREWDRIVER_PZ1,
+    EquipmentFeature::POZIDRIV_SCREWDRIVER_PZ2,
+    EquipmentFeature::POZIDRIV_SCREWDRIVER_PZ3,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL4,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL6,
+    EquipmentFeature::TORX_SCREWDRIVER_T20,
+    EquipmentFeature::TORX_SCREWDRIVER_T25,
+    EquipmentAttribute::CORDLESS,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Bosch' ),
     model_name        ( 'IXO VI' ),
@@ -2528,6 +5504,7 @@ equipment(
       link_text       ( 'Bosch IXO VI Electric Screwdriver' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Bosch_IXO' ),
   warning       ( 'I got the 6th generation but the 7th generation is out now, I have linked to both' ),
   see_also      ( 'Bosch IXO Angle Screw Adapter' ),
@@ -2624,6 +5601,16 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/71hysBRxcbL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.bosch-diy.com/au/en/p/ixo-collection-angle-screw-adapter-1600a001y8' ),
+      link_text       ( 'Bosch IXO Angle Screw Adapter' ),
+    ),
+    manufacturer_name ( 'Bosch' ),
+    model_name        ( 'IXO' ),
+    EquipmentFeature::ANGLE_SCREW_ADAPTER,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Bosch' ),
     model_name        ( 'IXO' ),
@@ -2637,6 +5624,7 @@ equipment(
       link_text       ( 'Bosch IXO Angle Screw Adapter' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Bosch_IXO' ),
   see_also      ( 'Bosch IXO VI Electric Screwdriver' ),
   affiliate_link(
@@ -2662,6 +5650,23 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/51YE45AQ3zL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Amazon Basics' ),
+    EquipmentFeature::RATCHET_SCREWDRIVER,
+    EquipmentFeature::TORX_SCREWDRIVER_T15,
+    EquipmentFeature::TORX_SCREWDRIVER_T20,
+    EquipmentFeature::TORX_SCREWDRIVER_T25,
+    EquipmentFeature::HEX_SCREWDRIVER_H3,
+    EquipmentFeature::HEX_SCREWDRIVER_H4,
+    EquipmentFeature::HEX_SCREWDRIVER_H5,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL4,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL5,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL6,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH1,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH2,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH3,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Amazon Basics' ),
     equipment_type    ( 'Ratchet Screwdriver' ),
@@ -2669,6 +5674,7 @@ equipment(
     category          ( 'Ratchet' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Bosch_IXO' ),
   search_url    ( 'https://www.amazon.com/s?k=Amazon+Basics+Ratchet+Screwdriver&s=price-asc-rank' ),
   affiliate_link(
@@ -2710,6 +5716,20 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Sb83c4bc2623b4bc4ba4b7abe3d4bc5ecr/DT71-Mini-Digital-Tweezers-Smart-SMD-LCRDVF-Tester-Multimeter-Signal-Generator-for-Measuring-Components.jpg_640x640.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Miniware' ),
+    model_name        ( 'DT71' ),
+    EquipmentFeature::DIGITAL_TWEEZERS,
+    EquipmentFeature::HANDHELD_MULTIMETER,
+    EquipmentFeature::SIGNAL_GENERATOR,
+    EquipmentFeature::WAVEFORM_GENERATOR,
+    EquipmentFeature::COMPONENT_TESTER,
+    EquipmentFeature::SMD_TESTER,
+    EquipmentFeature::LCR_METER,
+    EquipmentFeature::ESR_METER,
+    EquipmentAttribute::TEST_EQUIPMENT,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Miniware' ),
     model_name        ( 'DT71' ),
@@ -2726,6 +5746,7 @@ equipment(
     category          ( 'Hand Tool' ),
     category          ( 'Tweezers' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/DT71_Mini_Digital_Tweezers' ),
   search_url    ( 'https://www.amazon.com/s?k=Miniware+DT71+Digital+Tweezers&s=price-asc-rank' ),
   affiliate_link(
@@ -2826,6 +5847,11 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/615k78zAAqL._AC_SL1001_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Horusdy' ),
+    EquipmentFeature::SOLDERING_STATION,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Horusdy' ),
     equipment_type    ( 'Soldering Station' ),
@@ -2834,6 +5860,7 @@ equipment(
     category          ( 'Bench Equipment' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Horusdy_Soldering_Station' ),
   search_url    ( 'https://www.amazon.com/s?k=Horusdy+Soldering+Station&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Horusdy+Soldering+Station&s=price-asc-rank' ),
@@ -2896,6 +5923,19 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/61paJu6EmfL._AC_SL1274_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://tera-digital.com/products/2d-barcode-scanner-hw0006' ),
+      link_text       ( 'HW0006Pro 2D Wireless Barcode Scanner with Display Screen' ),
+    ),
+    manufacturer_name ( 'Tera' ),
+    model_name        ( 'HW0006 Pro' ),
+    EquipmentFeature::BARCODE_SCANNER,
+    EquipmentAttribute::CORDLESS,
+    EquipmentAttribute::HAND_TOOL,
+    EquipmentConnectivity::USB,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Tera' ),
     model_name        ( 'HW0006 Pro' ),
@@ -2910,6 +5950,7 @@ equipment(
       link_text       ( 'HW0006Pro 2D Wireless Barcode Scanner with Display Screen' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Tera_Barcode_Scanner' ),
   warning       ( 'Some of these links/prices are for used goods' ),
   search_url    ( 'https://www.amazon.com/s?k=Tera+HW0006+Pro+Barcode+Scanner&s=price-asc-rank' ),
@@ -2950,6 +5991,18 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-03-163704/s-l1600.png' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.ryobi.com.au/products/details/stud-finder-with-ac-detection-rysf5003' ),
+      link_text       ( 'Stud Finder with AC Detection | RYOBI' ),
+    ),
+    manufacturer_name ( 'Ryobi' ),
+    model_name        ( 'RYSF5003' ),
+    EquipmentFeature::STUD_FINDER,
+    EquipmentAttribute::CORDLESS,
+    EquipmentAttribute::HAND_TOOL,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Ryobi' ),
     model_name        ( 'RYSF5003' ),
@@ -2963,6 +6016,7 @@ equipment(
       link_text       ( 'Stud Finder with AC Detection | RYOBI' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Ryobi_RYSF5003' ),
   search_url    ( 'https://www.amazon.com/s?k=Ryobi+RYSF5003+Stud+Finder&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Ryobi+RYSF5003&crid=PE2YE777SR4J&sprefix=ryobi+rysf5003+stud+finder%2Caps%2C242&ref=nb_sb_noss_2' ),
@@ -3027,6 +6081,16 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/61tiRddWRSL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.engineertools-jp.com/pa092021' ),
+      link_text       ( 'PA-09 / PA-20 / PA-21  Connector Crimping Pliers' ),
+    ),
+    manufacturer_name ( 'ENGINEER' ),
+    model_name        ( 'PA-21' ),
+    EquipmentFeature::CRIMPING_TOOL,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'ENGINEER' ),
     model_name        ( 'PA-21' ),
@@ -3038,6 +6102,7 @@ equipment(
       link_text       ( 'PA-09 / PA-20 / PA-21  Connector Crimping Pliers' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/ENGINEER_PA-21' ),
   see_also      ( 'ENGINEER PA-09 Crimping Tool' ),
   search_url    ( 'https://www.amazon.com/s?k=ENGINEER+PA-21+Crimping+Tool&s=price-asc-rank' ),
@@ -3110,6 +6175,16 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/71H5KDb6+iL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.engineertools-jp.com/pa092021' ),
+      link_text       ( 'PA-09 / PA-20 / PA-21  Connector Crimping Pliers' ),
+    ),
+    manufacturer_name ( 'ENGINEER' ),
+    model_name        ( 'PA-09' ),
+    EquipmentFeature::CRIMPING_TOOL,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'ENGINEER' ),
     model_name        ( 'PA-09' ),
@@ -3121,6 +6196,7 @@ equipment(
       link_text       ( 'PA-09 / PA-20 / PA-21  Connector Crimping Pliers' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/ENGINEER_PA-09' ),
   see_also      ( 'ENGINEER PA-21 Crimping Tool' ),
   search_url    ( 'https://www.amazon.com/s?k=ENGINEER+PA-09+Crimping+Tool&s=price-asc-rank' ),
@@ -3203,6 +6279,12 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S1926ecb425ff47b3a0460fa621ad03e23/DSO-TC3-Digital-Oscilloscope-Transistor-Tester-10MS-s-Sampling-Rate-500kHz-Bandwidth-Support-Diode-LCR-Detect.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'FNIRSI' ),
+    model_name        ( 'DSO-TC3 3 in 1' ),
+    EquipmentFeature::OSCILLOSCOPE_SIGNAL_GENERATOR_COMPONENT_TESTER,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'FNIRSI' ),
     model_name        ( 'DSO-TC3' ),
@@ -3217,6 +6299,7 @@ equipment(
     category          ( 'Meter' ),
     category          ( 'Test Equipment' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/FNIRSI_DSO-TC3' ),
   see_also      ( 'Rigol MSO5074 Mixed Signal Oscilloscope' ),
   see_also      ( 'Kingst LA1010 USB Logic Analyzer' ),
@@ -3313,6 +6396,12 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/615T3s6PZyL._AC_SL1000_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Jackcat' ),
+    EquipmentFeature::ELECTRIC_SCISSORS,
+    EquipmentAttribute::CORDLESS,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Jackcat' ),
     equipment_type    ( 'Electric Scissors' ),
@@ -3321,6 +6410,7 @@ equipment(
     category          ( 'Hand Tool' ),
     category          ( 'Cordless' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Jackcat_Mini_Cutter' ),
   search_url    ( 'https://www.amazon.com/s?k=Jackcat+Electric+Scissors&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Jackcat+Electric+Scissors&s=price-asc-rank' ),
@@ -3360,6 +6450,16 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/71nYA4phpmL._SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.qdkingst.com/en/products/LA1010' ),
+      link_text       ( 'Product Selection of Logic Analyzer' ),
+    ),
+    manufacturer_name ( 'Kingst' ),
+    model_name        ( 'LA1010' ),
+    EquipmentFeature::USB_LOGIC_ANALYZER,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Kingst' ),
     model_name        ( 'LA1010' ),
@@ -3372,6 +6472,7 @@ equipment(
       link_text       ( 'Product Selection of Logic Analyzer' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Kingst_LA1010' ),
   see_also      ( 'Rigol MSO5074 Mixed Signal Oscilloscope' ),
   see_also      ( 'FNIRSI DSO-TC3 3 in 1 Oscilloscope, Signal Generator, Component Tester' ),
@@ -3497,6 +6598,17 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-03-164011/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.brother.com.au/en/products/all-labellers/labellers/pt-d210' ),
+      link_text       ( 'Portable Desktop Label Maker PT-D210' ),
+    ),
+    manufacturer_name ( 'Brother' ),
+    model_name        ( 'P-Touch D210' ),
+    EquipmentFeature::LABEL_MAKER,
+    EquipmentAttribute::HAND_TOOL,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Brother' ),
     model_name        ( 'P-Touch D210' ),
@@ -3507,6 +6619,7 @@ equipment(
       link_text       ( 'Portable Desktop Label Maker PT-D210' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Brother_PT-D210' ),
   see_also      ( 'Brother P-touch H105 Label Maker' ),
   search_url    ( 'https://www.amazon.com/s?k=Brother+D210&crid=20GU3GJJ3EECX&sprefix=brother+d210%2Caps%2C305&ref=nb_sb_noss_1' ),
@@ -3585,6 +6698,17 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://i.ebayimg.com/images/g/B-UAAOSwlsNfgBFW/s-l1600.png' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.brother.com.au/en/products/all-labellers/labellers/pt-h105' ),
+      link_text       ( 'Handheld Portable Label Printer PT-H105' ),
+    ),
+    manufacturer_name ( 'Brother' ),
+    model_name        ( 'P-touch H105' ),
+    EquipmentFeature::LABEL_MAKER,
+    EquipmentAttribute::HAND_TOOL,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Brother' ),
     model_name        ( 'P-touch H105' ),
@@ -3595,6 +6719,7 @@ equipment(
       link_text       ( 'Handheld Portable Label Printer PT-H105' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Brother_PT-H105' ),
   see_also      ( 'Brother P-Touch D210 Label Maker' ),
   search_url    ( 'https://www.amazon.com/s?k=Brother+P-touch+H105+Label+Maker&s=relevanceblender&qid=1705261141&ref=sr_st_relevanceblender&ds=v1%3Aj2UvMnK8xV4GzNVYhHL3ebObCXAu9GBOCYPuK2mDPHs' ),
@@ -3666,6 +6791,13 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Scd2566ef870e4c52b2aa69b5497aa43cf/MESR-100-ESR-Multimeter-Capacitance-Ohm-Meter-Professional-Measuring-Internal-Resistance-of-Capacitor-Capacitance-Circuit-Tester.jpg_640x640.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'MESR-100' ),
+    EquipmentFeature::ESR_METER,
+    EquipmentAttribute::HAND_TOOL,
+  ),
+  /*
   equipment_info(
     model_name        ( 'MESR-100' ),
     equipment_type    ( 'ESR Meter' ),
@@ -3673,6 +6805,7 @@ equipment(
     category          ( 'Meter' ),
     category          ( 'Test Equipment' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/MESR-100_ESR_Meter' ),
   search_url    ( 'https://www.amazon.com/s?k=MESR-100+ESR+Meter&s=price-asc-rank' ),
   affiliate_link(
@@ -3793,12 +6926,19 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/719f+uTtPuL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'TOWOT' ),
+    model_name        ( 'Industrial' ),
+    EquipmentFeature::TWEEZERS,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'TOWOT' ),
     equipment_type    ( 'Industrial Tweezers' ),
     category          ( 'Tweezers' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/TOWOT_Tweezers' ),
   search_url    ( 'https://www.amazon.com/s?k=TOWOT+Industrial+Tweezers&s=price-asc-rank' ),
   affiliate_link(
@@ -3836,6 +6976,16 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S0708a35f9d644feb81088df888d04a4a6/YIHUA-938D-Portable-Tweezers-Soldering-Station-110V-220V-Soldering-Iron-Station-Chip-Desoldering-Kit-Set-SMD.jpg_640x640.jpg_.webp' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'http://yihua-soldering.com/11-7-yihua-938d-hot-tweezers-mini-soldering-iron.html' ),
+      link_text       ( 'YIHUA 938D Hot Tweezers / Mini Soldering Iron' ),
+    ),
+    manufacturer_name ( 'YIHUA' ),
+    model_name        ( '938D' ),
+    EquipmentFeature::SOLDERING_TWEEZERS,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'YIHUA' ),
     model_name        ( '938D' ),
@@ -3849,6 +6999,7 @@ equipment(
       link_text       ( 'YIHUA 938D Hot Tweezers / Mini Soldering Iron' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/YIHUA_938D' ),
   search_url    ( 'https://www.amazon.com/s?k=YIHUA+938D+Soldering+Tweezers&s=price-asc-rank' ),
   affiliate_link(
@@ -3946,12 +7097,19 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-03-164250/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Sharp' ),
+    model_name        ( 'EL-546L' ),
+    EquipmentFeature::SCIENTIFIC_CALCULATOR,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Sharp' ),
     model_name        ( 'EL-546L' ),
     equipment_type    ( 'Scientific Calculator' ),
     category          ( 'Calculator' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Sharp_EL-546L' ),
   search_url    ( 'https://www.amazon.com/s?k=Sharp+EL-546L+Scientific+Calculator&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Sharp+EL-546L+Scientific+Calculator&s=price-asc-rank' ),
@@ -3968,6 +7126,24 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-03-164352/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'DigiTech' ),
+    model_name        ( 'QM1323' ),
+    EquipmentFeature::MULTIMETER,
+    EquipmentFeature::HANDHELD_MULTIMETER,
+    EquipmentFeature::VOLTMETER,
+    EquipmentFeature::AMMETER,
+    EquipmentFeature::OHMMETER,
+    EquipmentFeature::CAPACITANCE_METER,
+    EquipmentFeature::FREQUENCY_COUNTER,
+    EquipmentFeature::CONTINUITY_TESTER,
+    EquipmentFeature::DIODE_TESTER,
+    EquipmentFeature::THERMOMETER,
+    EquipmentAttribute::HAND_TOOL,
+    EquipmentAttribute::CORDLESS,
+    EquipmentConnectivity::BANANA_PLUG,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'DigiTech' ),
     model_name        ( 'QM1323' ),
@@ -3978,6 +7154,7 @@ equipment(
     category          ( 'Meter' ),
     category          ( 'Test Equipment' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Digitech_QM1323' ),
   search_url    ( 'https://www.amazon.com/s?k=DigiTech+QM1323+Multimeter&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=DigiTech+QM1323+Multimeter&s=price-asc-rank' ),
@@ -4033,6 +7210,20 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/A0e8c6420aaf64af5a95266b80c811a52F/UNI-T-UT116A-UT116C-Digital-Tweezers-Smart-SMD-Tester-Electrical-Multimeter-Resistance-Capacitance-Continuity-Diode-Test.jpg_640x640.jpg_.webp' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://meters.uni-trend.com/product/ut116-series/' ),
+      link_text       ( 'UT116 Series SMD Testers' ),
+    ),
+    manufacturer_name ( 'UNI-T' ),
+    model_name        ( 'UT116A' ),
+    EquipmentFeature::DIGITAL_TWEEZERS,
+    EquipmentFeature::SMD_TESTER,
+    EquipmentFeature::COMPONENT_TESTER,
+    EquipmentFeature::HANDHELD_MULTIMETER,
+    EquipmentAttribute::CORDLESS,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'UNI-T' ),
     model_name        ( 'UT116A' ),
@@ -4049,6 +7240,7 @@ equipment(
       link_text       ( 'UT116 Series SMD Testers' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/UNI-T_UT116A' ),
   search_url    ( 'https://www.amazon.com/s?k=UNI-T+UT116A+Digital+Tweezers&s=price-asc-rank' ),
   affiliate_link(
@@ -4142,12 +7334,19 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-03-172222/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'RELIFE' ),
+    model_name        ( 'RL-007GA' ),
+    EquipmentFeature::SOLDER_LUGS,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'RELIFE' ),
     model_name        ( 'RL-007GA' ),
     equipment_type    ( 'Solder Lugs' ),
     category          ( 'Solder Lugs' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/RELIFE_Dot' ),
   search_url    ( 'https://www.amazon.com/s?k=RELIFE+RL-007GA+Solder+Lugs&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=RELIFE+RL-007GA+Solder+Lugs&s=price-asc-rank' ),
@@ -4217,12 +7416,19 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Sf268d56c073f4067832db58f013b13e1T/100-AMTECH-NC-559-ASM-flux-10pcs-cleaning-free-low-smoke-BGA-soldering-station-commonly-used.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'AMTECH' ),
+    model_name        ( 'NC-559-ASM' ),
+    EquipmentFeature::FLUX,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'AMTECH' ),
     model_name        ( 'NC-559-ASM' ),
     equipment_type    ( 'Flux' ),
     category          ( 'Flux' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/AMTECH_NC-559-ASM_flux' ),
   search_url    ( 'https://www.amazon.com/s?k=AMTECH+NC-559-ASM+Flux&s=price-asc-rank' ),
   affiliate_link(
@@ -4348,11 +7554,18 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/615vpiu1tFL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'SHDSL' ),
+    EquipmentFeature::TAPE_DISPENSER,
+    EquipmentAttribute::BENCH_EQUIPMENT,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'SHDSL' ),
     equipment_type    ( 'Tape Dispenser' ),
     category          ( 'Tape Dispenser' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/SHDSL_Tape_Dispenser' ),
   search_url    ( 'https://www.amazon.com/s?k=SHDSL+Tape+Dispenser&s=price-asc-rank' ),
   affiliate_link(
@@ -4407,11 +7620,18 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/61+qntzskqL._AC_SL1000_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'OZSTOCK' ),
+    model_name        ( 'Small Folding' ),
+    EquipmentFeature::STEP_LADDER,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'OZSTOCK' ),
     equipment_type    ( 'Small Folding Step Ladder' ),
     category          ( 'Step Ladder' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Folding_Step_Ladder' ),
   search_url    ( 'https://www.amazon.com/s?k=OZSTOCK+Folding+Step+Ladder&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=OZSTOCK+Folding+Step+Ladder&s=price-asc-rank' ),
@@ -4440,6 +7660,16 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/71pFrjt7HoL._AC_SL1332_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.ozstock.com.au/27556/Portable-39cm-Folding-Step-Stool-Plastic-Chair-Flat-Outdoor-Camping-Seat-Ladder.html' ),
+      link_text       ( 'Portable 39cm Folding Step Stool Plastic Chair Flat Outdoor Camping Seat Ladder' ),
+    ),
+    manufacturer_name ( 'OZSTOCK' ),
+    model_name        ( 'Large Folding' ),
+    EquipmentFeature::STEP_LADDER,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'OZSTOCK' ),
     equipment_type    ( 'Large Folding Step Ladder' ),
@@ -4449,6 +7679,7 @@ equipment(
       link_text       ( 'Portable 39cm Folding Step Stool Plastic Chair Flat Outdoor Camping Seat Ladder' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Folding_Step_Ladder' ),
   search_url    ( 'https://www.amazon.com/s?k=OZSTOCK+Folding+Step+Ladder&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=OZSTOCK+Folding+Step+Ladder&s=price-asc-rank' ),
@@ -4483,6 +7714,13 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S699c62e253c647578da9e826632ebaf6k/MESR-100-ESR-Multimeter-Capacitance-Ohm-Meter-Professional-Measuring-Internal-Resistance-of-Capacitor-Capacitance-Circuit-Tester.jpg_640x640.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'M6013' ),
+    EquipmentFeature::CAPACITANCE_METER,
+    EquipmentAttribute::HAND_TOOL,
+  ),
+  /*
   equipment_info(
     model_name        ( 'M6013' ),
     equipment_type    ( 'Capactance Meter' ),
@@ -4491,6 +7729,7 @@ equipment(
     category          ( 'Hand Tool' ),
     category          ( 'Test Equipment' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/M6013_Capacitance_Meter' ),
   warning       ( 'Make sure to order the M6013' ),
   search_url    ( 'https://www.amazon.com/s?k=M6013+Capactance+Meter&s=price-asc-rank' ),
@@ -4614,6 +7853,18 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-03-172702/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.fluke.com/en-us/product/electrical-testing/basic-testers/fluke-1ac-ii' ),
+      link_text       ( 'Fluke 1AC II Non-Contact Voltage Tester' ),
+    ),
+    manufacturer_name ( 'Fluke' ),
+    model_name        ( '1AC-C2-II VoltAlert' ),
+    EquipmentFeature::VOLTAGE_DETECTOR,
+    EquipmentAttribute::CORDLESS,
+    EquipmentAttribute::HAND_TOOL,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Fluke' ),
     model_name        ( '1AC-C2-II' ),
@@ -4627,6 +7878,7 @@ equipment(
       link_text       ( 'Fluke 1AC II Non-Contact Voltage Tester' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Fluke_VoltAlert_1AC' ),
   search_url    ( 'https://www.amazon.com/s?k=Fluke+1AC-C2-II+VoltAlert+Voltage+Detector&s=price-asc-rank' ),
   affiliate_link(
@@ -4721,12 +7973,20 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-03-172747/s-l1600.png' ),
+  equipment_item(
+    manufacturer_name ( 'Duratech' ),
+    model_name        ( 'TH-1980' ),
+    EquipmentFeature::PCB_CLAMP,
+    EquipmentAttribute::BENCH_EQUIPMENT,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Duratech' ),
     model_name        ( 'TH-1980' ),
     equipment_type    ( 'PCB Clamp' ),
     category          ( 'Clamp' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Duratech_TH-1980' ),
   search_url    ( 'https://www.amazon.com/s?k=Duratech+TH-1980+PCB+Clamp&s=price-asc-rank' ),
   affiliate_link(
@@ -4810,12 +8070,18 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S1eca90faa8fb49f48c32e0020eb583574/3PCS-MECHANIC-10ML-UV-3S-Quick-drying-Solder-Mask-Ink-for-Mobile-Phone-Repair-Jumping-Wire.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'MECHANIC' ),
+    EquipmentFeature::UV_CURING_LIGHT,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'MECHANIC' ),
     equipment_type    ( 'UV Curing Light' ),
     category          ( 'UV Light' ),
     category          ( 'Torch/Light' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/UV_curing_light' ),
   search_url    ( 'https://www.amazon.com/s?k=MECHANIC+UV+Curing+Light&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=MECHANIC+UV+Curing+Light&s=price-asc-rank' ),
@@ -4862,6 +8128,17 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/61zYVFmSi+L._SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.bysameyee.com/head-mount-magnifier-bysameyee-lighted-magnifying-headband-glass-loupe-visor-with-2-led-light-for-close-work-jewelry-work-watch-repair-arts-amp-crafts-reading-aid-p00095p1.html' ),
+      link_text       ( 'Head Mount Magnifier, Bysameyee Lighted Magnifying Headband Glass Loupe Visor with 2 LED Light for Close Work, Jewelry Work, Watch Repair, Arts & Crafts, Reading Aid' ),
+    ),
+    manufacturer_name ( 'Bysameyee' ),
+    EquipmentFeature::HEAD_MOUNTED_MAGNIFIER,
+    EquipmentFeature::TORCH,
+    EquipmentAttribute::RECHARGEABLE,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Bysameyee' ),
     equipment_type    ( 'Head-Mounted Magnifier' ),
@@ -4874,6 +8151,7 @@ equipment(
       link_text       ( 'Head Mount Magnifier, Bysameyee Lighted Magnifying Headband Glass Loupe Visor with 2 LED Light for Close Work, Jewelry Work, Watch Repair, Arts & Crafts, Reading Aid' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Bysameyee_Head-Mounted_Magnifier' ),
   search_url    ( 'https://www.amazon.com/s?k=Bysameyee+Head-Mounted+Magnifier&s=price-asc-rank' ),
   affiliate_link(
@@ -4910,11 +8188,19 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/51YEsVdZjsL._AC_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'Super Bright 90000LM' ),
+    EquipmentFeature::LED_TORCH,
+    EquipmentAttribute::HAND_TOOL,
+  ),
+  /*
   equipment_info(
     model_name         ( 'Super Bright 90000LM' ),
     equipment_type     ( 'LED Torch' ),
     category          ( 'Torch/Light' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/LED_Torch' ),
   search_url    ( 'https://www.amazon.com.au/s?s=price-asc-rank&k=Super+Bright+90000LM+LED+Torch' ),
   affiliate_link(
@@ -4937,10 +8223,19 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Sdf76767d6be74951b869694bbe158d3cG/3-Hand-Soldering-Iron-Stand-Welding-Tool-With-Magnifying-Glass-Illuminated-LED-Alligator-Clip-Holder-Clamp.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    EquipmentFeature::THIRD_HAND,
+    EquipmentFeature::MAGNIFYING_GLASS,
+    EquipmentFeature::LED_LIGHT,
+    EquipmentFeature::SOLDERING_STAND,
+  ),
+  /*
   equipment_info(
     equipment_type     ( 'Third Hand' ),
     category          ( 'Third Hand' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/TE-801_Third_Hand' ),
   search_url    ( 'https://www.aliexpress.com/w/wholesale-Third-Hand.html' ),
   affiliate_link(
@@ -4975,6 +8270,14 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/41+jZTLBEjL._AC_SL1004_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    EquipmentFeature::CAPACITOR_DISCHARGE_PEN,
+    EquipmentFeature::TWEEZERS,
+    EquipmentAttribute::HAND_TOOL,
+    EquipmentAttribute::CORDLESS,
+  ),
+  /*
   equipment_info(
     equipment_type     ( 'Capactior Discharge Pen' ),
     category          ( 'Capactior Discharge Pen' ),
@@ -4982,6 +8285,7 @@ equipment(
     category          ( 'Cordless' ),
     category          ( 'Tweezers' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/ALKOY_Capacitor_Discharge_Pen' ),
   search_url    ( 'https://www.amazon.com/s?k=Capactior+Discharge+Pen&crid=2XWP8HKS23BPC&sprefix=capactior+discharge+pen%2Caps%2C277&ref=nb_sb_noss_2' ),
   affiliate_link(
@@ -5088,6 +8392,16 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/71MUcZjyFoL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://fuumuuiart.com/collections/brush?currency=USD' ),
+      link_text       ( 'Fuumuuiart brushes' ),
+    ),
+    manufacturer_name  ( 'Fuumuui' ),
+    EquipmentFeature::PAINT_BRUSHES,
+    EquipmentAttribute::HAND_TOOL,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Fuumuui' ),
     equipment_type     ( 'Paint Brushes' ),
@@ -5099,6 +8413,7 @@ equipment(
       link_text       ( 'Fuumuuiart brushes' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Fuumuui_Paint_Brushes' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Fuumuui+Paint+Brushes&s=price-asc-rank' ),
   affiliate_link(
@@ -5121,6 +8436,13 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Ha2fb32dfb66b4f299f2436e2c20b47a50/Digital-4-20mA-0-10V-Voltage-Signal-Generator-0-20mA-Current-Transmitter-Professional-Electronic-Measuring-Instruments.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'FNIRSI' ),
+    model_name         ( 'SG-002' ),
+    EquipmentFeature::SIGNAL_GENERATOR,
+    EquipmentFeature::WAVEFORM_GENERATOR,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'FNIRSI' ),
     model_name         ( 'SG-002' ),
@@ -5128,6 +8450,7 @@ equipment(
     category          ( 'Signal Generator' ),
     category          ( 'Waveform Generator' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/FNIRSI_SG-002' ),
   search_url    ( 'https://www.amazon.com/s?k=FNIRSI+Signal+Generator&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=FNIRSI+Signal+Generator&s=price-asc-rank' ),
@@ -5188,12 +8511,19 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/HTB1tkP_X42rK1RkSnhJq6ykdpXa8/24Pieces-12-Pairs-Work-Gloves-For-PU-Palm-Coating-Safety-Protective-Glove-Nitrile-Professional-Safety-Suppliers.jpg_640x640.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'nmsafety' ),
+    EquipmentFeature::GLOVES,
+    EquipmentFeature::NITRILE_GLOVES,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'nmsafety' ),
     equipment_type     ( 'Gloves' ),
     category          ( 'Gloves' ),
     category          ( 'Safety Equipment' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Nitrile_Gloves' ),
   search_url    ( 'https://www.aliexpress.com/w/wholesale-nmsafety-Gloves.html' ),
   affiliate_link(
@@ -5221,11 +8551,17 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/H1a4a2dade6f64256bb016af27fe77432N/B-R-Quickly-Dot-Repairing-Soldering-Lug-Fly-Free-to-Jump-Wire-Spot-Fixing-Soldering-Lug.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Wozniak' ),
+    EquipmentFeature::SOLDER_LUGS,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Wozniak' ),
     equipment_type     ( 'Solder Lugs' ),
     category          ( 'Solder Lugs' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Wozniak_Dot' ),
   search_url    ( 'https://www.amazon.com/s?k=Wozniak+Solder+Lugs&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Wozniak+Solder+Lugs&s=price-asc-rank' ),
@@ -5256,12 +8592,19 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/61-cGonrNRL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name  ( 'Kaqiwze' ),
+    EquipmentFeature::BLOW_TORCH,
+    EquipmentAttribute::HAND_TOOL,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Kaqiwze' ),
     equipment_type     ( 'Blow Torch' ),
     category          ( 'Blow Torch' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Kaqiwze_KLD-988C' ),
   search_url    ( 'https://www.amazon.com/s?k=Kaqiwze+Blow+Torch&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Kaqiwze+Blow+Torch&s=price-asc-rank' ),
@@ -5288,6 +8631,15 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-03-174207/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.gasmate.com.au/accessories/cylinders/butane-range-fuel' ),
+      link_text       ( 'Gasmate Butane Fuel Range' ),
+    ),
+    manufacturer_name  ( 'Gasmate' ),
+    EquipmentFeature::BUTANE,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Gasmate' ),
     equipment_type     ( 'Butane' ),
@@ -5297,6 +8649,7 @@ equipment(
       link_text       ( 'Gasmate Butane Fuel Range' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Kaqiwze_KLD-988C' ),
   search_url    ( 'https://www.amazon.com/s?k=Gasmate+Butane&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Gasmate+Butane&s=price-asc-rank' ),
@@ -5342,12 +8695,19 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-03-174240/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( '395nm' ),
+    EquipmentFeature::UV_LAMP,
+  ),
+  /*
   equipment_info(
     model_name         ( '395nm' ),
     equipment_type     ( 'UV Lamp' ),
     category          ( 'UV Light' ),
     category          ( 'Torch/Light' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/UV_Lamp_395nm' ),
   search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=UV+Lamp+395nm' ),
   affiliate_link(
@@ -5377,12 +8737,19 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-03-174310/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( '365nm' ),
+    EquipmentFeature::UV_LAMP,
+  ),
+  /*
   equipment_info(
     model_name         ( '365nm' ),
     equipment_type     ( 'UV Lamp' ),
     category          ( 'UV Light' ),
     category          ( 'Torch/Light' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/UV_Lamp_365nm' ),
   search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=365nm+UV+Lamp' ),
   affiliate_link(
@@ -5412,12 +8779,18 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-03-174501/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Comidox' ),
+    EquipmentFeature::ATX_POWER_SUPPLY_TESTER,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Comidox' ),
     equipment_type     ( 'ATX Power Supply Tester' ),
     category          ( 'Power Supply Tester' ),
     category          ( 'Test Equipment' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/ATX_Power_Supply_Tester' ),
   search_url    ( 'https://www.amazon.com/s?k=ATX+Power+Supply+Tester&s=price-asc-rank&page=2&qid=1705279904&ref=sr_pg_1' ),
   affiliate_link(
@@ -5464,6 +8837,11 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/619wsd01FbL._SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name  ( 'HiLetGo' ),
+    EquipmentFeature::USB_LOGIC_ANALYZER,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'HiLetGo' ),
     equipment_type     ( 'USB Logic Analyzer' ),
@@ -5471,6 +8849,7 @@ equipment(
     category          ( 'USB' ),
     category          ( 'Test Equipment' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/HiLetGo_Logic_Analyzer' ),
   search_url    ( 'https://www.amazon.com/s?k=HiLetGo+USB+Logic+Analyzer&s=price-asc-rank' ),
   affiliate_link(
@@ -5545,11 +8924,18 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S5521e4cb81914d3796fd63211fda7942G/SUNSHINE-Double-Head-Anti-Static-ESD-Safe-Hard-Brush-For-Phone-Motherboard-Circuit-Board-Cleaner-for.jpg_640x640.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'SUNSHINE' ),
+    model_name         ( 'Hard' ),
+    EquipmentFeature::HARD_BRUSH_SET,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'SUNSHINE' ),
     equipment_type     ( 'Hard Brush Set' ),
     category          ( 'Brush' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Hard_Brush' ),
   search_url    ( 'https://www.aliexpress.com/w/wholesale-SUNSHINE-Hard-Brush-Set.html' ),
   affiliate_link(
@@ -5577,6 +8963,12 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/H17c1c322c3e8497e8643ead0fbe4b134E/DC-9-12V-XR2206-Function-Signal-Generator-DIY-Kit-Sine-Triangle-Square-Output-1Hz-1MHz-Signal.png_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'EXAR' ),
+    EquipmentFeature::SIGNAL_GENERATOR,
+    EquipmentFeature::WAVEFORM_GENERATOR,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'EXAR' ),
     equipment_type     ( 'Signal Generator' ),
@@ -5584,6 +8976,7 @@ equipment(
     category          ( 'Waveform Generator' ),
     category          ( 'Test Equipment' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/EXAR_XR2206' ),
   search_url    ( 'https://www.aliexpress.com/w/wholesale-EXAR-Signal-Generator.html' ),
   affiliate_link(
@@ -5598,12 +8991,19 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/71xPUsEOFDL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name  ( 'Kaisi' ),
+    model_name         ( '45x30cm' ),
+    EquipmentFeature::REPAIR_MAT,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Kaisi' ),
     model_name         ( '45x30cm' ),
     equipment_type     ( 'Repair Mat' ),
     category          ( 'Repair Mat' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Kaisi_S-160_Repair_Mat_45x30cm' ),
   search_url    ( 'https://www.amazon.com/s?k=Kaisi+45x30cm+Repair+Mat&s=price-asc-rank' ),
   affiliate_link(
@@ -5736,12 +9136,19 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/61HY+qheVsL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name  ( 'Kaisi' ),
+    model_name         ( '35x25cm' ),
+    EquipmentFeature::REPAIR_MAT,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Kaisi' ),
     model_name         ( '35x25cm' ),
     equipment_type     ( 'Repair Mat' ),
     category          ( 'Repair Mat' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Kaisi_S-130_Repair_Mat_35x25cm' ),
   search_url    ( 'https://www.amazon.com/s?k=Kaisi+35x25cm+Repair+Mat&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Kaisi+35x25cm+Repair+Mat&s=price-asc-rank' ),
@@ -5835,6 +9242,18 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/61InFODP23L._AC_SL1000_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.mmobiel.com/heavy-duty-helping-hand-magnifier-station-2.5x-4x-led-light-magnifying-glass' ),
+      link_text       ( 'Heavy Duty Helping Hand Magnifier Station 2.5X 4X LED Light Magnifying Glass' ),
+    ),
+    manufacturer_name  ( 'MMOBIEL' ),
+    EquipmentFeature::THIRD_HAND,
+    EquipmentFeature::MAGNIFYING_GLASS,
+    EquipmentFeature::LED_LIGHT,
+    EquipmentFeature::SOLDERING_STAND,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'MMOBIEL' ),
     equipment_type     ( 'Helping Hands' ),
@@ -5846,6 +9265,7 @@ equipment(
       link_text       ( 'Heavy Duty Helping Hand Magnifier Station 2.5X 4X LED Light Magnifying Glass' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/MMOBIEL_Helping_Hands' ),
   search_url    ( 'https://www.amazon.com/s?k=MMOBIEL+Helping+Hands&s=price-asc-rank' ),
   affiliate_link(
@@ -5923,11 +9343,19 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/61IiPi++htL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name  ( 'QWORK' ),
+    EquipmentFeature::THIRD_HAND,
+    EquipmentFeature::MAGNIFYING_GLASS,
+    EquipmentFeature::USB_LED_LIGHT,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'QWORK' ),
     equipment_type     ( 'Helping Hands' ),
     category          ( 'Third Hand' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/QWORK_Helping_Hands' ),
   search_url    ( 'https://www.amazon.com/s?k=QWORK+Helping+Hands&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=QWORK+Helping+Hands&s=price-asc-rank' ),
@@ -6013,6 +9441,26 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-03-174856/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.legionwarehouse.com.au/products/precision-mini-screwdriver-set-11pc-jeweller-laptop-phone-watch-repair-tool?pr_prod_strat=e5_desc&pr_rec_id=3cb54501d&pr_rec_pid=7216010789019&pr_ref_pid=7448981602459&pr_seq=uniform' ),
+      link_text       ( 'Precision Mini Screwdriver Set 11PCS' ),
+    ),
+    manufacturer_name  ( 'Legion Tools' ),
+    EquipmentFeature::MINI_SCREWDRIVER_SET,
+    EquipmentFeature::RESET_PIN_SCREWDRIVER,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH00,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH0,
+    EquipmentFeature::AWL,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH1,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL3,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL2_4,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL1_8,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL1_4,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL1_2,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL1,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Legion Tools' ),
     equipment_type     ( 'Mini Screwdriver Set' ),
@@ -6023,6 +9471,7 @@ equipment(
       link_text       ( 'Precision Mini Screwdriver Set 11PCS' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Precision_Mini_Screwdriver_Set' ),
   search_url    ( 'https://www.amazon.com/s?k=Legion+Tools+Mini+Screwdriver+Set&s=price-asc-rank' ),
   affiliate_link(
@@ -6090,12 +9539,22 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/71fS8QH8WHL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name  ( 'Kaisi' ),
+    model_name        ( 'Soldering Tools w/' ),
+    EquipmentFeature::DESOLDERING_PUMP,
+    EquipmentFeature::AWL,
+    EquipmentFeature::WIRE_BRUSH,
+    EquipmentAttribute::HAND_TOOL,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Kaisi' ),
     equipment_type     ( 'Soldering Tools w/ Desoldering Pump' ),
     category          ( 'Hand Tool' ),
     category          ( 'Desoldering Pump' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Kaisi_Professional_Solder_Auxiliary_Tool' ),
   search_url    ( 'https://www.amazon.com/s?k=Kaisi+Soldering+Tools+w%2F+Desoldering+Pump&s=price-asc-rank' ),
   affiliate_link(
@@ -6136,10 +9595,18 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-03-174935/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    EquipmentFeature::CRAFT_KNIFE_SET,
+    EquipmentFeature::BLADE,
+    EquipmentFeature::SCALPEL,
+  ),
+  /*
   equipment_info(
     equipment_type     ( 'Craft Knife Set' ),
     category          ( 'Knife/Blade' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Precision_Craft_Knife_Set_52pcs#Documentation' ),
   search_url    ( 'https://www.amazon.com/s?k=Craft+Knife+Set&s=price-asc-rank' ),
   affiliate_link(
@@ -6282,6 +9749,13 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Sa1953af6b20c4af0a763185195d59d746/10X-Universal-Chip-clamp-micro-IC-clamp-SOP-SOIC-TSOP-MSOP-SSOP-SMD-IC-Test-Clip.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Sudake' ),
+    model_name         ( 'SDK07' ),
+    EquipmentFeature::TEST_CLIPS,
+    EquipmentFeature::CLAW_TOOL,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Sudake' ),
     model_name         ( 'SDK07' ),
@@ -6289,6 +9763,7 @@ equipment(
     category          ( 'Test Clip' ),
     category          ( 'Claw Tool' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/SDK07_test_clips' ),
   see_also      ( 'Sudake SDK08 Test Clips' ),
   search_url    ( 'https://www.amazon.com/s?k=Sudake+SDK07+Test+Clips&s=price-asc-rank' ),
@@ -6336,6 +9811,13 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S8ead2bfaa2dc443e93c82491dc33a2a2u/10pcs-x-Universal-Chip-IC-clamp-SOP-SOIC-TSOP-MSOP-SSOP-SMD-IC-Test-Clip-Socket.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Sudake' ),
+    model_name         ( 'SDK08' ),
+    EquipmentFeature::TEST_CLIPS,
+    EquipmentFeature::CLAW_TOOL,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Sudake' ),
     model_name         ( 'SDK08' ),
@@ -6343,6 +9825,7 @@ equipment(
     category          ( 'Test Clip' ),
     category          ( 'Claw Tool' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/SDK08_test_clips' ),
    see_also      ( 'Sudake SDK07 Test Clips' ),
  search_url    ( 'https://www.amazon.com/s?k=Sudake+SDK08+Test+Clips&s=price-asc-rank' ),
@@ -6455,6 +9938,14 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-03-175245/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'Magnetic/Claw' ),
+    EquipmentFeature::PICKUP_TOOL,
+    EquipmentFeature::MAGNETIC_PICKUP_TOOL,
+    EquipmentFeature::CLAW_TOOL,
+  ),
+  /*
   equipment_info(
     equipment_type     ( 'Magnetic/Claw Pickup Tool' ),
     category          ( 'Magnetic Tool' ),
@@ -6462,6 +9953,7 @@ equipment(
     category          ( 'Pickup Tool' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Pickup_Tool' ),
   search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Magnetic%2FClaw+Pickup+Tool' ),
   affiliate_link(
@@ -6484,6 +9976,13 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/51jz5T1nI+S._AC_SL1000_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'Telescopic' ),
+    EquipmentFeature::MAGNETIC_PICKUP_TOOL,
+    EquipmentFeature::MIRROR,
+  ),
+  /*
   equipment_info(
     equipment_type     ( 'Telescopic Magnetic Pickup Tool' ),
     category          ( 'Magnetic Tool' ),
@@ -6492,6 +9991,7 @@ equipment(
     category          ( 'Hand Tool' ),
     category          ( 'Mirror' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Telescopic_Magnetic_Pick_Up_Tool' ),
   search_url    ( 'https://www.amazon.com.au/gp/product/B093L7SKXK?ie=UTF8&psc=1&linkCode=sl1&tag=johnelliotv-22&linkId=e2002fc542f0c44f6ba6aa4b92f9792b&language=en_AU&ref_=as_li_ss_tl' ),
   affiliate_link(
@@ -6514,11 +10014,18 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/71Brd3NkZ7L._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name  ( 'ZZWS' ),
+    EquipmentFeature::BOOK_HOLDER,
+    EquipmentFeature::LED_LIGHT,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'ZZWS' ),
     equipment_type     ( 'Book Holder' ),
     category          ( 'Book Holder' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/ZZWS_Book_Holder' ),
   search_url    ( 'https://www.amazon.com/s?k=ZZWS+Book+Holder&s=price-asc-rank' ),
   affiliate_link(
@@ -6551,12 +10058,20 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Sb97dd194f9b640a39804d3b8e1a75354S/Digital-Voltmeter-Ammeter-DC-100V-10A-Amp-Voltage-Current-Meter-Tester-0-28-Inch-Dual-LED.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    EquipmentFeature::DIGITAL_METER,
+    EquipmentFeature::VOLTMETER_DC,
+    EquipmentFeature::AMMETER_DC,
+  ),
+  /*
   equipment_info(
     equipment_type     ( 'Digital Meter' ),
     category          ( 'Voltmeter' ),
     category          ( 'Ammeter' ),
     category          ( 'Meter' ),
   ),
+  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005631605113.html' ),
     listing_name   ( 'Digital Voltmeter Ammeter DC 100V 10A Amp Voltage Current Meter Tester 0.28 Inch Dual LED Display Panel with Connect Wires' ),
@@ -6589,12 +10104,20 @@ equipment(
 equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S9404032dc66545d298486ca1d7c15622A/100pcs-Heat-Shrink-Wire-Connectors-Red-Heat-Shrink-AWG-22-To-18-Butt-Electrical-Connectors-Tinned.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( '100pcs Heat Shrink' ),
+    EquipmentFeature::WIRE_CONNECTORS,
+    EquipmentFeature::HEAT_SHRINK,
+  ),
+  /*
   equipment_info(
     model_name        ( '100pcs' ),
     equipment_type     ( 'Heat Shrink Wire Connectors' ),
     category          ( 'Heat Shrink' ),
     category          ( 'Connector' ),
   ),
+  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005209348279.html' ),
     listing_name   ( '100pcs Heat Shrink Wire Connectors Red Heat Shrink AWG 22 To 18 Butt Electrical Connectors Tinned Solder Sealed Terminals' ),
@@ -6617,12 +10140,20 @@ equipment(
 equipment(
   equipment_date( '2024-01-16' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Sf809a2dbbcda44c7952561a77a235c84l/300pcs-Box-Solder-Sealed-Wire-Connectors-Heat-Shrink-Solder-Butt-Connectors-Solder-Connector-Kit-Automotive-Marine.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( '300pcs Heat Shrink' ),
+    EquipmentFeature::WIRE_CONNECTORS,
+    EquipmentFeature::HEAT_SHRINK,
+  ),
+  /*
   equipment_info(
     model_name        ( '300pcs' ),
     equipment_type     ( 'Heat Shrink Wire Connectors' ),
     category          ( 'Heat Shrink' ),
     category          ( 'Connector' ),
   ),
+  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005600885714.html' ),
     listing_name   ( '300pcs Box Solder Sealed Wire Connectors Heat Shrink Solder Butt Connectors Solder Connector Kit Automotive Marine Insulation' ),
@@ -6645,6 +10176,21 @@ equipment(
 equipment(
   equipment_date( '2024-01-16' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S11d7167b4f3f4aa78ea46020103ee6fbG/230-Pcs-XH2-54-2p-3p-4p-5pin-2-54mm-Pitch-Terminal-Male-And-Female-Housing.jpg_.webp' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.jst.com/' ),
+      link_text       ( 'JST' ),
+    ),
+    manufacturer_link (
+      link_href       ( 'https://www.jst.com/wp-content/uploads/2021/01/eXH.pdf' ),
+      link_text       ( 'XH Connector (PDF)' ),
+    ),
+    manufacturer_name  ( 'JST' ),
+    model_name         ( 'XH2.54' ),
+    EquipmentFeature::CONNECTOR_KIT,
+    EquipmentConnectivity::XH2_54,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'JST' ),
     model_name         ( 'XH2.54' ),
@@ -6660,6 +10206,7 @@ equipment(
       link_text       ( 'XH Connector (PDF)' ),
     ),
   ),
+  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005183951296.html' ),
     listing_name   ( '230 Pcs XH2.54 2p 3p 4p 5pin 2.54mm Pitch Terminal Male And Female Housing Kit Pin Connector Terminal Connector Kit' ),
@@ -6693,11 +10240,17 @@ equipment(
 equipment(
   equipment_date( '2024-01-16' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S18dc215c358343d6aebd972e55a50e24A/Car-Audio-Disassembly-Tool-Stainless-Steel-PryClip-Rocker-Crowbar-Bar-Door-Panel-Disassembly-Pry-Panel-Interior.png_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    EquipmentFeature::CROWBAR,
+  ),
+  /*
   equipment_info(
     equipment_type     ( 'Crowbar' ),
     category          ( 'Crowbar' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005004441856320.html' ),
     listing_name   ( 'Car Audio Disassembly Tool Stainless Steel PryClip Rocker Crowbar Bar Door Panel Disassembly Pry Panel Interior' ),
@@ -6720,12 +10273,19 @@ equipment(
 equipment(
   equipment_date( '2024-01-16' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S6b37b041ab664ed093b1f2bd703446f7u/3PC-Hexagonal-Quick-Release-Self-locking-Extension-Rod-Electric-Drill-Driver-Quick-Transfer-Rod-Screwdriver-Extension.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    EquipmentFeature::DRILL_EXTENSION,
+    EquipmentFeature::DRILL_BIT_EXTENSION,
+  ),
+  /*
   equipment_info(
     equipment_type     ( 'Drill Extension' ),
     category          ( 'Drill Extension' ),
     category          ( 'Accessory' ),
     category          ( 'Attachment' ),
   ),
+  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005566480825.html' ),
     listing_name   ( '3PC Hexagonal Quick Release Self-locking Extension Rod Electric Drill Driver Quick Transfer Rod Screwdriver Extension Rod Tool' ),
@@ -6748,12 +10308,20 @@ equipment(
 equipment(
   equipment_date( '2024-01-16' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Sbd26149f448543319f6b7703326600d3t/1pc-8lb-Orange-Red-Handle-Magnetic-Pickup-Stainless-Steel-Antenna-Retractable-Suction-Iron-Rod-Strong-Magnetic.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'Orange Telescopic' ),
+    EquipmentFeature::MAGNETIC_PICKUP_TOOL,
+    EquipmentFeature::TELESCOPIC_PICKUP_TOOL,
+  ),
+  /*
   equipment_info(
     equipment_type     ( 'Telescopic Magnet' ),
     category          ( 'Telescopic Tool' ),
     category          ( 'Magnetic Tool' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005557294461.html' ),
     listing_name   ( '1pc 8lb Orange Red Handle Magnetic Pickup Stainless Steel Antenna Retractable Suction Iron Rod Strong Magnetic Suction Rod Tools' ),
@@ -6776,11 +10344,23 @@ equipment(
 equipment(
   equipment_date( '2024-01-16' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S2f0dbbafa0474ebb99082ce7586215bd7/22-In-1-Multifunctional-Disassembly-Tool-Mobile-Phone-iPad-Laptop-Screwdriver-Maintenance-Kit-Repair-Tools-Opening.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    EquipmentFeature::SPUDGERS,
+    EquipmentFeature::BOX_OPENER,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH000,
+    EquipmentFeature::TRI_POINT_Y_SCREWDRIVER_Y000,
+    EquipmentFeature::PENTALOBE_SCREWDRIVER_P2,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL1_5,
+    EquipmentFeature::TORX_SCREWDRIVER_T2,
+  ),
+  /*
   equipment_info(
     equipment_type     ( 'Spudgers' ),
     category          ( 'Spudger' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005561010038.html' ),
     listing_name   ( '22 In 1 Multifunctional Disassembly Tool Mobile Phone iPad Laptop Screwdriver Maintenance Kit Repair Tools Opening Set For Hand' ),
@@ -6803,12 +10383,22 @@ equipment(
 equipment(
   equipment_date( '2024-01-16' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Sfbc74765a3324ebea5e98898dc5e29ebJ/Telescopic-Pickup-Magnetic-Iron-Rod-Household-Automotive-Repair-And-Inspection-Tool-Strong-Magnetic-Metal-Screw-Suction.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'Telescopic Magnetic Pickup w/' ),
+    EquipmentFeature::LIGHT,
+    EquipmentFeature::TELESCOPIC_PICKUP_TOOL,
+    EquipmentFeature::MAGNETIC_PICKUP_TOOL,
+    EquipmentFeature::LED_LIGHT,
+  ),
+  /*
   equipment_info(
     equipment_type     ( 'Telescopic Magnetic Pickup w/ Light' ),
     category          ( 'Telescopic Tool' ),
     category          ( 'Magnetic Tool' ),
     category          ( 'Torch/Light' ),
   ),
+  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005943657824.html' ),
     listing_name   ( 'Telescopic Pickup Magnetic Iron Rod Household Automotive Repair And Inspection Tool Strong Magnetic Metal Screw Suction Rod' ),
@@ -6831,10 +10421,17 @@ equipment(
 equipment(
   equipment_date( '2024-01-16' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S3f7538ec8ffa4e3c88fbf618a20d488eJ/100-50pcs-Knife-DIY-Wood-Carving-Fruit-Food-Scalpel-Craft-Sculpture-Cutting-Tool-Metal-Engraving-Blades.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'Knife' ),
+    EquipmentFeature::BLADES,
+  ),
+  /*
   equipment_info(
     equipment_type     ( 'Knife Blades' ),
     category          ( 'Knife/Blade' ),
   ),
+  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005608437382.html' ),
     listing_name   ( '100/50pcs Knife DIY Wood Carving Fruit Food Scalpel Craft Sculpture Cutting Tool Metal Engraving Blades Knifes Wood Carving Disc' ),
@@ -6857,11 +10454,19 @@ equipment(
 equipment(
   equipment_date( '2024-01-16' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Sdb463fd4cf7e4498b655cfc47a8934666/100pcs-Waterproof-Solder-Seal-Heat-Connector-Shrink-Butt-Connectors-Lug-Terminals-Electrical-Wire-Car-Insulated-Terminal.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'Heat Shrink' ),
+    EquipmentFeature::WIRE_CONNECTORS,
+    EquipmentFeature::HEAT_SHRINK,
+  ),
+  /*
   equipment_info(
     equipment_type     ( 'Heat Shrink Wire Connectors' ),
     category          ( 'Heat Shrink' ),
     category          ( 'Connector' ),
   ),
+  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005585832638.html' ),
     listing_name   ( '100pcs Waterproof Solder Seal Heat Connector Shrink Butt Connectors Lug Terminals Electrical Wire Car Insulated Terminal' ),
@@ -6895,6 +10500,22 @@ equipment(
 equipment(
   equipment_date( '2024-01-16' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Sa9ec9a8ef9124a78b3f6f47c4b00d4b53/2-54mm-XH-Connector-Socket-Pre-crimped-Cable-Wire-2-3-4-5-6-7-Pin.jpg_.webp' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.jst.com/' ),
+      link_text       ( 'JST' ),
+    ),
+    manufacturer_link (
+      link_href       ( 'https://www.jst.com/wp-content/uploads/2021/01/eXH.pdf' ),
+      link_text       ( 'XH Connector (PDF)' ),
+    ),
+    manufacturer_name  ( 'JST' ),
+    model_name         ( 'XH2.54 Pre-crimped' ),
+    EquipmentFeature::CONNECTOR_KIT,
+    EquipmentAttribute::PRE_CRIMPED,
+    EquipmentConnectivity::XH2_54,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'JST' ),
     model_name         ( 'XH2.54' ),
@@ -6911,6 +10532,7 @@ equipment(
       link_text       ( 'XH Connector (PDF)' ),
     ),
   ),
+  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006126557275.html' ),
     listing_name   ( '2.54mm XH Connector Socket + Pre-crimped Cable Wire 2/3/4/5/6/7 Pin Housing JST Adapter Cable Male Female for JST-XH Connector' ),
@@ -6933,11 +10555,19 @@ equipment(
 equipment(
   equipment_date( '2024-01-16' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S050b8aeeddae41fda1bb2e056d6d9be1V/4Pcs-160mm-Car-Auto-Vehicle-Oil-Seal-Screwdrivers-Set-O-Ring-Gasket-Puller-Remover-Pick-Hooks.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'Multifunction' ),
+    EquipmentFeature::HOOKS,
+    EquipmentAttribute::HAND_TOOL,
+  ),
+  /*
   equipment_info(
     equipment_type     ( 'Multifunction Hooks' ),
     category          ( 'Hook' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005277090135.html' ),
     listing_name   ( '4Pcs 160mm Car Auto Vehicle Oil Seal Screwdrivers Set O Ring Gasket Puller Remover Pick Hooks Multifunction Tools' ),
@@ -6960,10 +10590,16 @@ equipment(
 equipment(
   equipment_date( '2024-01-16' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Sa1e2a2601f1a497cb2be2b9e2786fd26S/1PC-Stainless-Steel-Cosmetic-Storage-Tray-Tattoo-Equipment-Tray-Doctor-Surgery-Dental-Tray-Fake-Nail-Tray.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    EquipmentFeature::STAINLESS_STEEL_TRAY,
+  ),
+  /*
   equipment_info(
     equipment_type     ( 'Stainless Steel Tray' ),
     category          ( 'Tray' ),
   ),
+  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005100436804.html' ),
     listing_name   ( '1PC Stainless Steel Cosmetic Storage Tray Tattoo Equipment Tray Doctor Surgery Dental Tray Fake Nail Tray Tool' ),
@@ -6986,11 +10622,18 @@ equipment(
 equipment(
   equipment_date( '2024-01-16' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S8049f00eae0746a58cb5ac8c26fa99e9c/5PCs-Car-Audio-Trim-Removal-Tool-Kit-Anti-Scratch-Pry-Applicable-Car-Door-Panel-and-Audio.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name( 'Blue' ),
+    EquipmentFeature::SPUDGERS,
+  ),
+  /*
   equipment_info(
     equipment_type     ( 'Spudger Set' ),
     category          ( 'Spudger' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005004658294061.html' ),
     listing_name   ( '5PCs Car Audio Trim Removal Tool Kit Anti-Scratch Pry Applicable Car Door Panel and Audio Dashboard' ),
@@ -7013,11 +10656,17 @@ equipment(
 equipment(
   equipment_date( '2024-01-16' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Sd329ed55754e4fdb9a272f19aba1a3b0N/IC-Chip-Pickup-Tools-Pen-Extractor-Electronic-Parts-Gripper-Electronic-Repair-Tools.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    EquipmentFeature::IC_CHIP_PICKUP_TOOL,
+  ),
+  /*
   equipment_info(
     equipment_type     ( 'IC Chip Pickup Tool' ),
     category          ( 'Hand Tool' ),
     category          ( 'Pickup Tool' ),
   ),
+  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005100436159.html' ),
     listing_name   ( 'Multi-functional Ic Chip Remover Electronic Component Jewelry Picking Tool Bga Chip Clip Cross Screwdriver Aluminum Alloy Handle' ),
@@ -7040,6 +10689,22 @@ equipment(
 equipment(
   equipment_date( '2024-01-16' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Sc43db8edaf8944efad3523b0dc5cc507a/2-54mm-JST-Connector-with-22AWG-Pre-Crimped-Wire-2-3-4-5-6-Pin-Housing.jpg_.webp' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.jst.com/' ),
+      link_text       ( 'JST' ),
+    ),
+    manufacturer_link (
+      link_href       ( 'https://www.jst.com/wp-content/uploads/2021/01/eXH.pdf' ),
+      link_text       ( 'XH Connector (PDF)' ),
+    ),
+    manufacturer_name  ( 'JST' ),
+    model_name         ( 'XH2.54 6pin Pre-crimped' ),
+    EquipmentFeature::CONNECTOR,
+    EquipmentAttribute::PRE_CRIMPED,
+    EquipmentConnectivity::XH2_54,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'JST' ),
     model_name         ( 'XH2.54 6pin' ),
@@ -7056,6 +10721,7 @@ equipment(
       link_text       ( 'XH Connector (PDF)' ),
     ),
   ),
+  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005906832879.html' ),
     listing_name   ( '2.54mm JST Connector with 22AWG Pre-Crimped Wire, 2/3/4/5/6 Pin Housing JST Adapter Cable Connector 20cm Wire' ),
@@ -7089,11 +10755,18 @@ equipment(
 equipment(
   equipment_date( '2024-01-16' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Scd875ba859e84bde9dc96d4ba64adee3n/6PCS-Metal-Crowbar-with-Two-Ends-Universal-Mobile-Phone-Digital-Home-Appliance-Product-Dismantling-Stick-Shell.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'Metal' ),
+    EquipmentFeature::SPUDGERS,
+  ),
+  /*
   equipment_info(
     equipment_type     ( 'Metal Spudgers' ),
     category          ( 'Spudger' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005004718989394.html' ),
     listing_name   ( '6PCS Metal Crowbar with Two Ends Universal Mobile Phone Digital Home Appliance Product Dismantling Stick Shell Opening Tool' ),
@@ -7116,6 +10789,46 @@ equipment(
 equipment(
   equipment_date( '2024-01-16' ),
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-21-153608/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.victorinox.com/global/en/Products/Swiss-Army-Knives/Medium-Pocket-Knives/Swiss-Champ/p/1.6795' ),
+      link_text       ( 'Victorinox Swiss Champ in red' ),
+    ),
+    manufacturer_name  ( 'Victorinox' ),
+    model_name         ( 'Swiss Champ Red' ),
+    EquipmentFeature::SWISS_ARMY_KNIFE,
+    EquipmentFeature::KNIFE,
+    EquipmentFeature::REAMER,
+    EquipmentFeature::PUNCH,
+    EquipmentFeature::SEWING_AWL,
+    EquipmentFeature::CAN_OPENER,
+    EquipmentFeature::SCREWDRIVER,
+    EquipmentFeature::BOTTLE_OPENER,
+    EquipmentFeature::WIRE_STRIPPER,
+    EquipmentFeature::SCISSORS,
+    EquipmentFeature::PLIERS,
+    EquipmentFeature::WIRE_BENDER,
+    EquipmentFeature::WIRE_CRIMPER,
+    EquipmentFeature::FISH_SCALER,
+    EquipmentFeature::HOOK_DISGORGER,
+    EquipmentFeature::RULER_CM,
+    EquipmentFeature::RULER_INCH,
+    EquipmentFeature::WOOD_SAW,
+    EquipmentFeature::NAIL_FILE,
+    EquipmentFeature::METAL_SAW,
+    EquipmentFeature::METAL_FILE,
+    EquipmentFeature::NAIL_CLEANER,
+    EquipmentFeature::MAGNIFYING_GLASS,
+    EquipmentFeature::CHISEL,
+    EquipmentFeature::MULTI_PURPOSE_HOOK,
+    EquipmentFeature::TOOTHPICK,
+    EquipmentFeature::TWEEZERS,
+    EquipmentFeature::BALLPOINT_PEN,
+    EquipmentFeature::PIN,
+    EquipmentFeature::KEY_RING,
+    EquipmentFeature::CORKSCREW,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Victorinox' ),
     model_name         ( 'Swiss Champ Red' ),
@@ -7127,6 +10840,7 @@ equipment(
       link_text       ( 'Victorinox Swiss Champ in red' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Victorinox_Swiss_Champ_Red' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/351576617765?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339019639&customid=&toolid=20012&mkevt=1' ),
@@ -7145,6 +10859,16 @@ equipment(
 equipment(
   equipment_date( '2024-01-16' ),
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-21-193844/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.scotchbrand.com.au/3M/en_AU/p/d/v000453838/' ),
+      link_text       ( 'Scotch™ Precision Ultra Edge Scissors, Blue, Green and Lavender, 8 in, 6/box, 6 boxes/Ctn, 1458TU-MIX' ),
+    ),
+    manufacturer_name ( 'Scotch' ),
+    model_name        ( 'Titanium' ),
+    EquipmentFeature::SCISSORS,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Scotch' ),
     equipment_type     ( 'Titanium Scissors' ),
@@ -7154,6 +10878,7 @@ equipment(
       link_text       ( 'Scotch™ Precision Ultra Edge Scissors, Blue, Green and Lavender, 8 in, 6/box, 6 boxes/Ctn, 1458TU-MIX' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Scotch_Titanium_Scissors' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/255183709704?var=555175576658&amdata=enc%3AAQAIAAAAkHemIjt9U%2F15Nhx9DVflc0mrH1HA9TJKm3bh3ixc0AhatR2d24gbPnH3xsTLpvM7mlR8JBA1100ufbAaBxoAPY9BTKXAbgKmHnhYQZhkUV6lohSq8QylzL185EeVgHytTQRG5L45oJbaMNAOZmw0pApkpLwgyfOdQLyu2pYdI9ck5l1NOrtCqIdYiKkccTE6yA%3D%3D&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339019639&customid=&toolid=20012&mkevt=1' ),
@@ -7184,6 +10909,19 @@ equipment(
 equipment(
   equipment_date( '2024-01-16' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S389cbffabb9441dea910ebde8f7cd5ae0/DT830B-AC-DC-LCD-Digital-Multimeter-750-1000V-Voltmeter-Ammeter-Ohm-Tester-High-Safety-Handheld-Meter.jpg_640x640.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'DT830B Digital' ),
+    EquipmentFeature::MULTIMETER,
+    EquipmentFeature::HANDHELD_MULTIMETER,
+    EquipmentFeature::VOLTMETER,
+    EquipmentFeature::AMMETER_DC,
+    EquipmentFeature::OHMMETER,
+    EquipmentFeature::DIODE_TESTER,
+    EquipmentFeature::TRANSISTOR_TESTER,
+    EquipmentConnectivity::BANANA_PLUG,
+  ),
+  /*
   equipment_info(
     model_name         ( 'DT830B' ),
     equipment_type     ( 'Digital Multimeter' ),
@@ -7192,6 +10930,7 @@ equipment(
     category          ( 'Meter' ),
     category          ( 'Test Equipment' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/DT830B_Digital_Multimeter' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005004951791846.html' ),
@@ -7215,12 +10954,18 @@ equipment(
 equipment(
   equipment_date( '2023-10-20' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S9521977181be4b90a8ffdbd1bbeed0027.jpg' ),
+  equipment_item(
+    model_name        ( 'Aokin' ),
+    EquipmentFeature::WIRE_CUTTER,
+  ),
+  /*
   equipment_info(
     model_name        ( 'Aokin' ),
     equipment_type    ( 'Wire Cutter' ),
     category          ( 'Wire Cutter' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   sixsigma_url    ( 'https://www.jj5.net/wiki/Aokin1PC_Wire_Cutter' ),
   see_also        ( 'Plato Model 170 Wire Cutters' ),
   affiliate_link(
@@ -7245,6 +10990,14 @@ equipment(
 equipment(
   equipment_date( '2023-09-07' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Sf47b9596e1cf4e6483e10539dba899bcL/Chip-Test-Clip-Multimeter-Probe-Tweezers-Patch-For-Capacitance-Inductance-SMD-Resistor-Capacitor-Tester-Meter-Pen.jpeg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'Probe' ),
+    EquipmentFeature::TWEEZERS,
+    EquipmentFeature::PROBE,
+    EquipmentAttribute::HAND_TOOL,
+  ),
+  /*
   equipment_info(
     model_name        ( 'Yum Cha' ),
     equipment_type    ( 'Probe Tweezers' ),
@@ -7254,6 +11007,7 @@ equipment(
     category          ( 'Hand Tool' ),
     category          ( 'Test Clip' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Probe_Tweezers' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005277270043.html' ),
@@ -7322,6 +11076,18 @@ equipment(
 equipment(
   equipment_date( '2021-08-14' ),
   equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2216.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2216-maxitronix-crystal-radio-kit/' ),
+      link_text       ( 'Maxitronix Crystal Radio Kit' ),
+    ),
+    manufacturer_name  ( 'Maxitronix' ),
+    model_name         ( 'Crystal Radio Kit' ),
+    EquipmentFeature::ELECTRONICS_PROJECT,
+    EquipmentFeature::ELECTRONICS_KIT,
+    EquipmentFeature::AM_RADIO,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Maxitronix' ),
     model_name         ( 'Crystal Radio Kit' ),
@@ -7334,6 +11100,7 @@ equipment(
       link_text       ( 'Maxitronix Crystal Radio Kit' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
   affiliate_link(
     equipment_url ( 'https://www.altronics.com.au/p/k2216-maxitronix-crystal-radio-kit/' ),
@@ -7368,6 +11135,19 @@ equipment(
 equipment(
   equipment_date( '2021-08-14' ),
   equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2212_1.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2212-maxitronix-am-fm-radio-kit/' ),
+      link_text       ( 'Maxitronix AM/FM Radio Kit' ),
+    ),
+    manufacturer_name  ( 'Maxitronix' ),
+    model_name         ( 'AM/FM Radio Kit' ),
+    EquipmentFeature::ELECTRONICS_PROJECT,
+    EquipmentFeature::ELECTRONICS_KIT,
+    EquipmentFeature::AM_RADIO,
+    EquipmentFeature::FM_RADIO,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Maxitronix' ),
     model_name         ( 'AM/FM Radio Kit' ),
@@ -7380,6 +11160,7 @@ equipment(
       link_text       ( 'Maxitronix AM/FM Radio Kit' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
   search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_nkw=Maxitronix+Radio&_sacat=0' ),
   affiliate_link(
@@ -7414,6 +11195,14 @@ equipment(
 equipment(
   equipment_date( '2021-08-19' ),
   equipment_icon( 'https://i.ebayimg.com/images/g/ABgAAOSwol5YxnoQ/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name  ( 'Maxitronix' ),
+    model_name         ( 'Electronic Metal Detector Kit' ),
+    EquipmentFeature::ELECTRONICS_PROJECT,
+    EquipmentFeature::ELECTRONICS_KIT,
+    EquipmentFeature::METAL_DETECTOR,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Maxitronix' ),
     model_name         ( 'Electronic Metal Detector Kit' ),
@@ -7422,6 +11211,7 @@ equipment(
     category          ( 'Electronics Kit' ),
     category          ( 'Metal Detector' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
   search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Metal+Detector&_sacat=0' ),
   affiliate_link(
@@ -7480,6 +11270,12 @@ equipment(
 equipment(
   equipment_date( '2021-08-10' ),
   equipment_icon( 'https://i.ebayimg.com/images/g/0sAAAOSwbN9g40AJ/s-l200.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Maxitronix' ),
+    model_name         ( 'Sensor Robot 20 (20in1)' ),
+    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Maxitronix' ),
     model_name         ( 'Sensor Robot 20 (20in1)' ),
@@ -7488,6 +11284,7 @@ equipment(
     category          ( 'Electronics Project' ),
     category          ( 'Electronics Kit' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
   search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Sensor+Robot+20&_sacat=0' ),
   affiliate_link(
@@ -7510,6 +11307,16 @@ equipment(
 equipment(
   equipment_date( '2021-08-09' ),
   equipment_icon( 'https://i.ebayimg.com/images/g/GXcAAOSwOzld5Fxx/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2204-maxitronix-30-in-1-electronics-lab-kit/' ),
+      link_text       ( 'Maxitronix 30 In 1 Electronics Project Lab Kit' ),
+    ),
+    manufacturer_name  ( 'Maxitronix' ),
+    model_name         ( '30 In 1 (30in1)' ),
+    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Maxitronix' ),
     model_name         ( '30 In 1 (30in1)' ),
@@ -7522,6 +11329,7 @@ equipment(
       link_text       ( 'Maxitronix 30 In 1 Electronics Project Lab Kit' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
   affiliate_link(
     equipment_url ( 'https://www.altronics.com.au/p/k2204-maxitronix-30-in-1-electronics-lab-kit/' ),
@@ -7548,6 +11356,16 @@ equipment(
 equipment(
   equipment_date( '2021-08-14' ),
   equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2220.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2220-maxitronix-digital-recording-lab-kit/' ),
+      link_text       ( 'Maxitronix Electronic Digital Recording Laboratory' ),
+    ),
+    manufacturer_name  ( 'Maxitronix' ),
+    model_name         ( 'Electronic Digital Recording Laboratory (59in1)' ),
+    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Maxitronix' ),
     model_name         ( 'Electronic Digital Recording Laboratory (59in1)' ),
@@ -7560,6 +11378,7 @@ equipment(
       link_text       ( 'Maxitronix Electronic Digital Recording Laboratory' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
   affiliate_link(
     equipment_url ( 'https://www.altronics.com.au/p/k2220-maxitronix-digital-recording-lab-kit/' ),
@@ -7587,6 +11406,16 @@ equipment(
 equipment(
   equipment_date( '2021-08-09' ),
   equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2206.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2206-maxitronix-60-in-1-electronics-lab-kit/' ),
+      link_text       ( 'Maxitronix 60 In 1 Electronics Project Lab Kit' ),
+    ),
+    manufacturer_name  ( 'Maxitronix' ),
+    model_name         ( '60 In 1 (60in1)' ),
+    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Maxitronix' ),
     model_name         ( '60 In 1 (60in1)' ),
@@ -7599,6 +11428,7 @@ equipment(
       link_text       ( 'Maxitronix 60 In 1 Electronics Project Lab Kit' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
   affiliate_link(
     equipment_url ( 'https://www.altronics.com.au/p/k2206-maxitronix-60-in-1-electronics-lab-kit/' ),
@@ -7626,6 +11456,16 @@ equipment(
 equipment(
   equipment_date( '2021-08-09' ),
   equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2208.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2208-maxitronix-130-in-1-electronics-lab-kit/' ),
+      link_text       ( 'Maxitronix 130 In 1 Electronics Project Lab Kit' ),
+    ),
+    manufacturer_name  ( 'Maxitronix' ),
+    model_name         ( '130 In 1 (130in1)' ),
+    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Maxitronix' ),
     model_name         ( '130 In 1 (130in1)' ),
@@ -7638,6 +11478,7 @@ equipment(
       link_text       ( 'Maxitronix 130 In 1 Electronics Project Lab Kit' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
   affiliate_link(
     equipment_url ( 'https://www.altronics.com.au/p/k2208-maxitronix-130-in-1-electronics-lab-kit/' ),
@@ -7664,6 +11505,16 @@ equipment(
 equipment(
   equipment_date( '2021-08-09' ),
   equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2209.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2209-maxitronix-200-in-1-electronics-lab-kit/' ),
+      link_text       ( 'Maxitronix 200 In 1 Electronics Project Lab Kit' ),
+    ),
+    manufacturer_name  ( 'Maxitronix' ),
+    model_name         ( '200 In 1 (200in1)' ),
+    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Maxitronix' ),
     model_name         ( '200 In 1 (200in1)' ),
@@ -7676,6 +11527,7 @@ equipment(
       link_text       ( 'Maxitronix 200 In 1 Electronics Project Lab Kit' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
   affiliate_link(
     equipment_url ( 'https://www.altronics.com.au/p/k2209-maxitronix-200-in-1-electronics-lab-kit/' ),
@@ -7702,6 +11554,16 @@ equipment(
 equipment(
   equipment_date( '2021-08-16' ),
   equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2222.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2222-maxitronix-300-in-1-electronics-lab-kit/' ),
+      link_text       ( 'Maxitronix 300 In 1 Electronics Project Lab Kit' ),
+    ),
+    manufacturer_name  ( 'Maxitronix' ),
+    model_name         ( '300 In 1 (300in1)' ),
+    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Maxitronix' ),
     model_name         ( '300 In 1 (300in1)' ),
@@ -7714,6 +11576,7 @@ equipment(
       link_text       ( 'Maxitronix 300 In 1 Electronics Project Lab Kit' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
   affiliate_link(
     equipment_url ( 'https://www.altronics.com.au/p/k2222-maxitronix-300-in-1-electronics-lab-kit/' ),
@@ -7766,6 +11629,12 @@ equipment(
 equipment(
   equipment_date( '2021-06-25' ),
   equipment_icon( 'https://i.ebayimg.com/images/g/plQAAOSwFNhgRD5O/s-l200.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Maxitronix' ),
+    model_name         ( '500 In 1 (500in1)' ),
+    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Maxitronix' ),
     model_name         ( '500 In 1 (500in1)' ),
@@ -7774,6 +11643,7 @@ equipment(
     category          ( 'Electronics Project' ),
     category          ( 'Electronics Kit' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
   search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=maxitronix+500&_sacat=0' ),
   affiliate_link(
@@ -7806,6 +11676,16 @@ equipment(
 equipment(
   equipment_date( '2023-09-16' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S084127bd6e564973aa2ebf6abbb021d07/Universal-Stylus-Pen-Drawing-Tablet-Sensetive-Capacitive-Screen-Touch-Pen-for-Apple-Android-iPad-iPhone-Samsung.png_.webp' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.aliexpress.com/store/3106086' ),
+      link_text       ( 'Asometech' ),
+    ),
+    manufacturer_name  ( 'Asometech' ),
+    model_name         ( 'Universal' ),
+    EquipmentFeature::STYLUS_PEN,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Asometech' ),
     model_name         ( 'Universal' ),
@@ -7817,6 +11697,7 @@ equipment(
       link_text       ( 'Asometech' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Asometech_Stylus_Pen' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005002346357482.html' ),
@@ -7841,6 +11722,16 @@ equipment(
   // 2024-07-09 jj5 - I'm not sure when I got mine...
   equipment_date( '2022-10-25' ),
   equipment_icon( 'https://cdn-blog.adafruit.com/uploads/2014/09/1554iso_ORIG.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://blog.adafruit.com/2014/09/15/one-pcb-to-ruler-them-all/' ),
+      link_text       ( 'Adafruit One PCB to Ruler Them All' ),
+    ),
+    manufacturer_name  ( 'Adafruit' ),
+    model_name         ( 'One PCB to Ruler Them All' ),
+    EquipmentFeature::RULER,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Adafruit' ),
     model_name         ( 'One PCB to Ruler Them All' ),
@@ -7852,6 +11743,7 @@ equipment(
       link_text       ( 'Adafruit One PCB to Ruler Them All' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Adafruit_Ruler' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/gp/product/B00KGEMW74' ),
@@ -7863,6 +11755,20 @@ equipment(
 equipment(
   equipment_date( '2023-08-18' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/41Q8OGEeh5L._AC_SL1000_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.kleintools.com.au/catalogue/multi-bit-screwdrivers/multi-bit-electronics-pocket-screwdriver-4-1-ph-sl-bits' ),
+      link_text       ( 'Multi-Bit Electronics Pocket Screwdriver, 4-in-1, Ph., Sl. Bits (32614)' ),
+    ),
+    manufacturer_name  ( 'Klein Tools' ),
+    model_name         ( '32614 4-in-1 Multi-bit Precision' ),
+    EquipmentFeature::POCKET_SCREWDRIVER,
+    EquipmentFeature::SONIC_SCREWDRIVER,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH0,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH00,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Klein Tools' ),
     model_name         ( '32614 4-in-1 Multi-bit Precision' ),
@@ -7875,6 +11781,7 @@ equipment(
       link_text       ( 'Multi-Bit Electronics Pocket Screwdriver, 4-in-1, Ph., Sl. Bits (32614)' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Klein_Tools_Pocket_Screwdriver' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B07PNC5MPB' ),
@@ -7897,6 +11804,16 @@ equipment(
 equipment(
   equipment_date( '2023-08-18' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/51vXRv3nUFL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.portwest.com/products/view/2852/WHR' ),
+      link_text       ( '2852 - Standard Coat' ),
+    ),
+    manufacturer_name  ( 'Portwest' ),
+    model_name         ( 'Standard' ),
+    EquipmentFeature::LAB_COAT,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Portwest' ),
     model_name         ( 'Standard' ),
@@ -7908,6 +11825,7 @@ equipment(
       link_text       ( '2852 - Standard Coat' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Portwest_Lab_Coat' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B006ITB06U' ),
@@ -7930,6 +11848,16 @@ equipment(
 equipment(
   equipment_date( '2023-08-18' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/61TtZnvED8L._AC_SL1000_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.amazon.com.au/s?k=diodrio' ),
+      link_text       ( 'See diodrio on Amazon' ),
+    ),
+    manufacturer_name  ( 'Diodrio' ),
+    model_name         ( 'Leather' ),
+    EquipmentFeature::POCKET_PROTECTOR,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Diodrio' ),
     model_name         ( 'Leather' ),
@@ -7941,6 +11869,7 @@ equipment(
       link_text       ( 'See diodrio on Amazon' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Diodrio_Pocket_Protector' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B07S6NWMGX' ),
@@ -7963,6 +11892,15 @@ equipment(
 equipment(
   equipment_date( '2023-10-05' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/H84035dcfa98348149299fbd0633c2425H/Safety-Goggles-Anti-Laser-infrared-Protective-glasses-PC-lenses-Anti-fog-Anti-UV-Anti-impact-Industrial.jpg_.webp' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.aliexpress.com/store/5085361' ),
+      link_text       ( 'See store on AliExpress' ),
+    ),
+    manufacturer_name  ( 'Oloey' ),
+    EquipmentFeature::SAFETY_GOGGLES,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Oloey' ),
     //model_name        ( '' ),
@@ -7974,6 +11912,7 @@ equipment(
       link_text       ( 'See store on AliExpress' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Oloey_Safety_Goggles' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/4000700099287.html' ),
@@ -7998,6 +11937,16 @@ equipment(
 equipment(
   equipment_date( '2020-08-18' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/71PeT5hDzpL._AC_SL1200_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.amazon.com.au/s?k=YOUOWO' ),
+      link_text       ( 'See YOUOWO on Amazon' ),
+    ),
+    manufacturer_name  ( 'YOUOWO' ),
+    model_name         ( 'ID' ),
+    EquipmentFeature::BADGE_HOLDER,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'YOUOWO' ),
     //model_name        ( '' ),
@@ -8008,6 +11957,7 @@ equipment(
       link_text       ( 'See YOUOWO on Amazon' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/YOUOWO_ID_Badge_Holder' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B07Y2SH1KV' ),
@@ -8031,6 +11981,12 @@ equipment(
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Sae49d749526943ca9f58bea838cccad3i/50Pcs-Painting-Brushes-Set-Art-Round-Flat-Hair-Nylon-Hair-Paint-Brush-for-Oil-Acrylic-Watercolor.jpg_640x640.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Yutiars' ),
+    model_name         ( 'Round' ),
+    EquipmentFeature::PAINT_BRUSHES,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Yutiars' ),
     model_name         ( 'Round' ),
@@ -8039,6 +11995,7 @@ equipment(
     category          ( 'Brush' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yutiars_Round_Paint_Brush_Set' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005007250364880.html' ),
@@ -8063,6 +12020,12 @@ equipment(
 equipment(
   equipment_date( '2024-07-12' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S82f8e3c86a1b40aab3335dd06a9b6ac0q/50Pcs-Painting-Brushes-Set-Art-Round-Flat-Hair-Nylon-Hair-Paint-Brush-for-Oil-Acrylic-Watercolor.jpg_640x640.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Yutiars' ),
+    model_name         ( 'Flat' ),
+    EquipmentFeature::PAINT_BRUSHES,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Yutiars' ),
     model_name         ( 'Flat' ),
@@ -8071,6 +12034,7 @@ equipment(
     category          ( 'Brush' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yutiars_Flat_Paint_Brush_Set' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005007250364880.html' ),
@@ -8095,6 +12059,13 @@ equipment(
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S85fb88309d6f4baf8855a9ad40052b05W/3pcs-Drill-Brush-Attachment-Set-Power-Scrubber-Brush-With-Drill-Scrub-Brush-For-Cleaning-Showers-Tubs.jpeg_640x640.jpeg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( '3pcs Drill' ),
+    EquipmentFeature::SCRUB_BRUSH,
+    EquipmentFeature::DRILL_BIT,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( '3pcs' ),
@@ -8102,6 +12073,7 @@ equipment(
     category          ( 'Brush' ),
     category          ( 'Drill Bit' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_3pcs_Drill_Scrub_Brush' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006888412238.html' ),
@@ -8126,6 +12098,12 @@ equipment(
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S1b5fdfc88f7d46cfbc7ac7b44e9e7fafG/500pcs-100pcs-Per-Pack-5-Packs-Double-ended-Cotton-Swabs-Baby-Cotton-Swabs-Ear-Cleaning-Sticks.jpg_640x640.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'Double-ended' ),
+    EquipmentFeature::COTTON_SWABS,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( 'Double-ended' ),
@@ -8133,6 +12111,7 @@ equipment(
     category          ( 'Cleaning' ),
     category          ( 'Disposable' ),
   ),
+  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006407439762.html' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DFwzGLh' ),
@@ -8156,6 +12135,46 @@ equipment(
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S3311b3bda6a84f3cb3fbd5b43ca9debeW/Small-Screwdriver-Set-30-Mini-Magnetic-Precision-Screwdriver-Drill-Set-Star-Y-Club-Triangle-Cross-Slotted.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Yum Cha' ),
+    model_name         ( 'Mini Magnetic' ),
+    EquipmentFeature::PRECISION_SCREWDRIVER_SET,
+    EquipmentFeature::MINI_SCREWDRIVER_SET,
+    EquipmentFeature::DRILL_BIT,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH000,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH00,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH0,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH1,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH2,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL1_5,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL2,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL2_5,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL3,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL4,
+    EquipmentFeature::TORX_SCREWDRIVER_T3,
+    EquipmentFeature::TORX_SCREWDRIVER_T4,
+    EquipmentFeature::TORX_SCREWDRIVER_T5,
+    EquipmentFeature::TORX_SCREWDRIVER_T6,
+    EquipmentFeature::TORX_SCREWDRIVER_T8,
+    EquipmentFeature::TORX_SCREWDRIVER_T10,
+    EquipmentFeature::TRI_POINT_Y_SCREWDRIVER_Y2,
+    EquipmentFeature::TRI_POINT_Y_SCREWDRIVER_Y3,
+    EquipmentFeature::TRIANGULAR_SCREWDRIVER_2_0,
+    EquipmentFeature::TRIANGULAR_SCREWDRIVER_2_3,
+    EquipmentFeature::HEX_SCREWDRIVER_H1_5,
+    EquipmentFeature::HEX_SCREWDRIVER_H2,
+    EquipmentFeature::HEX_SCREWDRIVER_H2_5,
+    EquipmentFeature::HEX_SCREWDRIVER_H3,
+    EquipmentFeature::HEX_SCREWDRIVER_H4,
+    EquipmentFeature::HEX_SCREWDRIVER_H5,
+    EquipmentFeature::U_DRIVE_SCREWDRIVER_U2_3,
+    EquipmentFeature::PENTALOBE_SCREWDRIVER_P2,
+    EquipmentFeature::PENTALOBE_SCREWDRIVER_P5,
+    EquipmentFeature::PENTALOBE_SCREWDRIVER_P7,
+    EquipmentAttribute::MAGNETIC,
+    EquipmentAttribute::HEART,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( 'Mini Magnetic Precision' ),
@@ -8164,6 +12183,7 @@ equipment(
     category          ( 'Drill Bit' ),
     category          ( '❤️' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Mini_Magnetic_Precision_Screwdriver_Set' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005007187681360.html' ),
@@ -8188,12 +12208,53 @@ equipment(
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S844c5cc3670848f9a899d95800b649544/29-In-1-Mini-Precision-Screwdriver-Tool-Kit-Portable-Screwdriver-Bits-Tool-Set-Pocket-Tools-Professional.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Yum Cha' ),
+    model_name         ( '29 In 1 Mini' ),
+    EquipmentFeature::PRECISION_SCREWDRIVER_SET,
+    EquipmentFeature::MINI_SCREWDRIVER_SET,
+
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH0000,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH1_2,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH000,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH00,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH1,
+    EquipmentFeature::PENTALOBE_SCREWDRIVER_P2,
+    EquipmentFeature::PENTALOBE_SCREWDRIVER_P5,
+
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL1,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL1_5,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL2,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL3,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL4,
+    EquipmentFeature::TRI_POINT_Y_SCREWDRIVER_Y000,
+    EquipmentFeature::TRI_POINT_Y_SCREWDRIVER_Y1,
+
+    EquipmentFeature::TORX_SCREWDRIVER_T2,
+    EquipmentFeature::TORX_SCREWDRIVER_T3,
+    EquipmentFeature::TORX_SCREWDRIVER_T4,
+    EquipmentFeature::TORX_SCREWDRIVER_T5,
+    EquipmentFeature::TORX_SCREWDRIVER_T6,
+    EquipmentFeature::TORX_SCREWDRIVER_T7,
+    EquipmentFeature::TORX_SCREWDRIVER_T8,
+
+    EquipmentFeature::TORX_SCREWDRIVER_T10,
+    EquipmentFeature::TORX_SCREWDRIVER_T15,
+    EquipmentFeature::TRIANGULAR_SCREWDRIVER_2_0,
+    EquipmentFeature::TRIANGULAR_SCREWDRIVER_2_3,
+    EquipmentFeature::TRIANGULAR_SCREWDRIVER_3_0,
+    EquipmentFeature::U_DRIVE_SCREWDRIVER_U2_6,
+    EquipmentFeature::RESET_PIN_SCREWDRIVER,
+
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( '29 In 1 Mini Precision' ),
     equipment_type     ( 'Screwdriver Set' ),
     category          ( 'Screwdriver' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Mini_Magnetic_Precision_Screwdriver_Set' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006310779162.html' ),
@@ -8218,6 +12279,15 @@ equipment(
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Sdcd112c1a41f45189877fb5a73fda5b6F/2pcs-Magnetic-Soft-Jaw-Pads-4-5-6-Inch-For-Metal-Vise-Bench-Machine-Tools-Vise.jpeg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Yum Cha' ),
+    model_name         ( '2pcs Magnetic Soft Vise' ),
+    EquipmentFeature::JAW_PADS,
+    EquipmentFeature::VISE,
+    EquipmentAttribute::MAGNETIC,
+    EquipmentAttribute::ATTACHMENT,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( '2pcs Magnetic Soft' ),
@@ -8225,6 +12295,7 @@ equipment(
     category          ( 'Vise' ),
     category          ( 'Attachment' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_2pcs_Magnetic_Soft_Vise_Jaw_Pads' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006358554010.html' ),
@@ -8249,12 +12320,19 @@ equipment(
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S7c2e77628d1a401b8a487d6ce4f4ea09w/10pcs-Magic-Sponge-Wipe-Melamine-Foam-Sponge-Household-Cleaning-Sponge-Kitchen-Cleaning-Sponge-Car-Wash-Sponge.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Yum Cha' ),
+    model_name         ( '10pcs Magic' ),
+    EquipmentFeature::FOAM_SPONGE,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( '10pcs Magic' ),
     equipment_type     ( 'Foam Sponge' ),
     category          ( 'Cleaning' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_10pcs_Magic_Foam_Sponge' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005007069120339.html' ),
@@ -8279,12 +12357,19 @@ equipment(
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Sd3c7b9c0fa7f41688e526630a7fb0f10d/1-5-Stain-Grease-Cleaner-Grill-Cleaning-Bricks-Grill-Cleaning-Stone-Grill-Grill-Grill-Tools-Kitchen.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Yum Cha' ),
+    model_name         ( '2pcs Grease Cleaner' ),
+    EquipmentFeature::CLEANING_BRICKS,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( '2pcs Grease Cleaner' ),
     equipment_type     ( 'Cleaning Bricks' ),
     category          ( 'Cleaning' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_2pcs_Grease_Cleaner_Cleaning_Bricks' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006754273035.html' ),
@@ -8309,12 +12394,19 @@ equipment(
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Sde6e8781d1c642149a798d746fc85ca95/Gold-Silver-Metallic-Marker-Pen-Waterproof-Permanent-Paint-Marker-Pen-for-Rock-Mug-Ceramic-Glass-DIY.jpg_640x640.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Yum Cha' ),
+    model_name         ( 'Metallic' ),
+    EquipmentFeature::CRAFTWORK_PEN,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( 'Metallic' ),
     equipment_type     ( 'Craftwork Pen' ),
     category          ( 'Pen' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Metallic_Craftwork_Pen' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005664056137.html' ),
@@ -8380,6 +12472,15 @@ equipment(
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Sc67f481627db457c9e35e4f6f6f5b630Q/Multi-function-Tool-Wire-Brush-Copper-Plated-Stainless-Steel-Brush-1PCS-Long-Handle-Kitchen-Grill-Special.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Yum Cha' ),
+    model_name         ( 'Long Handle' ),
+    EquipmentFeature::WIRE_BRUSH,
+    equipment_type     ( 'Wire Brush' ),
+    category          ( 'Brush' ),
+    category          ( 'Cleaning' ),
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( 'Long Handle' ),
@@ -8387,6 +12488,7 @@ equipment(
     category          ( 'Brush' ),
     category          ( 'Cleaning' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Long_Handle_Wire_Brush' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006926432587.html' ),
@@ -8411,6 +12513,12 @@ equipment(
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S40fcdcfbe62e4223890bdc28a2e9a4930/Multifunctional-HDMI-Compatible-HD-Tester-Network-Cable-RJ45-Lan-8P8C-POE-Anti-Burn-RJ11-Telephone-Line.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'OULLX' ),
+    model_name         ( 'NSS-681HDMI-RJ45' ),
+    EquipmentFeature::CABLE_TESTER,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'OULLX' ),
     model_name         ( 'NSS-681HDMI-RJ45' ),
@@ -8418,6 +12526,7 @@ equipment(
     category          ( 'Cable Tester' ),
     category          ( 'Test Equipment' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/OULLX_NSS-681HDMI-RJ45_Cable_Tester' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005754974142.html' ),
@@ -8440,6 +12549,12 @@ equipment(
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S9cca1ce2e5114e7080552b06f37ff4d3k/5pcs-Crevice-Cleaning-Brush-Multifunctional-Gap-Cleaning-Brush-Tool-Bathroom-Gap-Brush-Grout-Cleaner-Brush-Hard.png_640x640.png_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Damotk' ),
+    model_name         ( '5pcs Crevice' ),
+    EquipmentFeature::CLEANING_BRUSH,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Damotk' ),
     model_name         ( '5pcs Crevice Cleaning' ),
@@ -8447,6 +12562,7 @@ equipment(
     category          ( 'Brush' ),
     category          ( 'Cleaning' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Damotk_5pcs_Crevice_Cleaning_Brush' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006842332119.html' ),
@@ -8471,6 +12587,12 @@ equipment(
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S0d96c3033c0e4feb9cb58f47aa361e1aK/1-20Pcs-Microfiber-Towels-Car-Wash-Drying-Cloth-Towel-Household-Cleaning-Cloths-Auto-Detailing-Polishing-Cloth.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Yum Cha' ),
+    model_name         ( '10pcs Blue' ),
+    EquipmentFeature::MICROFIBER_CLOTH,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( '10pcs Blue' ),
@@ -8478,6 +12600,7 @@ equipment(
     category          ( 'Cloth' ),
     category          ( 'Cleaning' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_10pcs_Blue_Microfiber_Cloth' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006938264843.html' ),
@@ -8502,13 +12625,10 @@ equipment(
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Se9c2ba08e97f46f49346ed74eab274ddi/Heavy-Duty-Stainless-Steel-Wire-Brush-with-Comfortable-Plastic-Handle-Perfect-for-Removing-Rust-Welding-Slag.jpg_.webp' ),
-  equipment_info(
+  equipment_item(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( 'Heavy Duty Stainless Steel' ),
-    equipment_type     ( 'Wire Brush' ),
-    category          ( 'Hand Tool' ),
-    category          ( 'Brush' ),
-    category          ( 'Cleaning' ),
+    EquipmentFeature::WIRE_BRUSH,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Heavy_Duty_Stainless_Steel_Wire_Brush' ),
   affiliate_link(
@@ -8534,12 +12654,19 @@ equipment(
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S783ed641adb54e68b7520655e4327670u/Deburring-External-Chamfer-Tool-Metal-Hex-Triangle-Trimming-Drill-Bit-for-Stainless-Steel-Copper-Screw-Fast.jpg_640x640.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'aToolTour' ),
+    model_name         ( 'Black Hexagon' ),
+    EquipmentFeature::DEBURRING_DRILL_BIT,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'aToolTour' ),
     model_name         ( 'Black Hexagon' ),
     equipment_type     ( 'Deburring Drill Bit' ),
     category          ( 'Drill Bit' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/AToolTour_Black_Hexagon_Deburring_Drill_Bit' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005591119302.html' ),
@@ -8564,12 +12691,19 @@ equipment(
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Sa25722e8ddcc471b84c57ca38dc9f5b74/4Pcs-Set-30mm-Deep-Hole-Long-Nib-Head-Markers-For-Metal-Perforating-Pen-Waterproof-Bathroom-Woodworking.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Yum Cha' ),
+    model_name         ( '4pcs 30mm' ),
+    EquipmentFeature::DEEP_HOLE_PEN,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( '4pcs 30mm Deep Hole' ),
     equipment_type     ( 'Pen' ),
     category          ( 'Pen' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_4pcs_30mm_Deep_Hole_Pen' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006974182914.html' ),
@@ -8594,12 +12728,19 @@ equipment(
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Scc7a14aa198b48e9bcb8c0d15335cd7dp/6-Or12-Pcs-Industrial-Toothbrush-Mini-Copper-Steel-Wire-Brush-Stainless-Steel-Wire-Brush-Dirt-Hard.jpg_640x640.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Yum Cha' ),
+    model_name         ( '6pcs' ),
+    EquipmentFeature::WIRE_BRUSH,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( '6pcs' ),
     equipment_type     ( 'Wire Brush' ),
     category          ( 'Brush' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_6pcs_Wire_Brush' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005867110367.html' ),
@@ -8624,12 +12765,49 @@ equipment(
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S3355beb69e274afba2d4998ffea50000E/1-Set-Precision-Screwdriver-Set-25-In-1-Repair-Tool-Kit-Small-Screwdriver-Set-Star-Y.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Ausum' ),
+    model_name         ( '25 In 1' ),
+    EquipmentFeature::PRECISION_SCREWDRIVER_SET,
+    EquipmentFeature::MINI_SCREWDRIVER_SET,
+
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH0000,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH1_2,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH000,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH00,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH1,
+    EquipmentFeature::RESET_PIN_SCREWDRIVER,
+
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL1,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL1_5,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL2,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL3,
+    EquipmentFeature::PENTALOBE_SCREWDRIVER_P2,
+    EquipmentFeature::PENTALOBE_SCREWDRIVER_P5,
+
+    EquipmentFeature::TORX_SCREWDRIVER_T2,
+    EquipmentFeature::TORX_SCREWDRIVER_T3,
+    EquipmentFeature::TORX_SCREWDRIVER_T4,
+    EquipmentFeature::TORX_SCREWDRIVER_T5,
+    EquipmentFeature::TORX_SCREWDRIVER_T6,
+    EquipmentFeature::TORX_SCREWDRIVER_T7,
+
+    EquipmentFeature::TORX_SCREWDRIVER_T8,
+    EquipmentFeature::TORX_SCREWDRIVER_T10,
+    EquipmentFeature::TORX_SCREWDRIVER_T15,
+    EquipmentFeature::TRI_POINT_Y_SCREWDRIVER_Y000,
+    EquipmentFeature::TRI_POINT_Y_SCREWDRIVER_Y1,
+    EquipmentFeature::TRIANGULAR_SCREWDRIVER_2_3,
+
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Ausum' ),
     model_name         ( '25 In 1 Precision' ),
     equipment_type     ( 'Screwdriver Set' ),
     category          ( 'Screwdriver' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Ausum_25_In_1_Precision_Screwdriver_Set' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006630216063.html' ),
@@ -8654,11 +12832,10 @@ equipment(
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S6d35e58c861f417a90fe58133a13a8135/3-4-6-Magnetic-Tray-Circular-Magnetic-Parts-Bowl-Screw-Storage-Tray-Stainless-Steel-Tools-Tray.jpg_.webp' ),
-  equipment_info(
+  equipment_item(
     manufacturer_name  ( 'MOKIN' ),
-    model_name         ( 'CMO-346' ),
-    equipment_type     ( '3 inch Magnetic Tray' ),
-    category          ( 'Tray' ),
+    model_name         ( 'CMO-346 3-inch' ),
+    EquipmentFeature::MAGNETIC_TRAY,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/MOKIN_CMO-346_3_inch_Magnetic_Tray' ),
   affiliate_link(
@@ -8684,12 +12861,19 @@ equipment(
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Saa732a0b4eb54f22b37c2a86ddacf3dc0/HZY-3D-Printer-Parts-ABS-Welding-Wire-Fixture-with-Two-Large-Suction-Magnets-Bracket-Welding-Clamp.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'TOOKKS' ),
+    model_name         ( 'HZY ABS' ),
+    EquipmentFeature::WIRE_FIXTURE,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'TOOKKS' ),
     model_name         ( 'HZY ABS' ),
     equipment_type     ( 'Wire Fixture' ),
     category          ( 'Vise' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/TOOKKS_HZY_ABS_Wire_Fixture' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006618522459.html' ),
@@ -8714,6 +12898,28 @@ equipment(
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S2adf64d8fc254c1aadf00e92a91d88c6s/Wood-Metal-Engraving-Power-Sanding-Engraving-Accessories-Dremel-Sanding-Tools-Power-Rotary-Tool-Accessories-for-Dremel.jpg_640x640.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Tungfull' ),
+    model_name         ( 'TH-161' ),
+    EquipmentFeature::ROTARY_TOOL_ACCESSORY_SET,
+    EquipmentFeature::ROTARY_WIRE_BRUSH,
+    EquipmentFeature::ROTARY_NYLON_BRUSH,
+    EquipmentFeature::ROTARY_SANDPAPER_WHEEL,
+    EquipmentFeature::ROTARY_GRINDING_STONE,
+    EquipmentFeature::ROTARY_SHARPENING_STONE,
+    EquipmentFeature::ROTARY_SANDING_BAND,
+    EquipmentFeature::DRUM_SANDING_MANDREL,
+    EquipmentFeature::WRENCH,
+    EquipmentFeature::ROTARY_CUTTING_DISC,
+    EquipmentFeature::CUTTING_WHEEL_MANDREL,
+    EquipmentFeature::ROTARY_POLISHING_WOOL_WHEEL,
+    EquipmentFeature::ROTARY_DRILL_CHUCK,
+    EquipmentFeature::ROTARY_GRINDING_RUBBER,
+    EquipmentFeature::HSS_DRILL_BIT,
+    EquipmentFeature::ROTARY_GRINDING_BURR,
+    EquipmentFeature::ROTARY_MILLING_CUTTER,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Tungfull' ),
     model_name         ( 'TH-161' ),
@@ -8723,6 +12929,7 @@ equipment(
     category          ( 'Drill Bit' ),
     category          ( 'Cutting Disc' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Tungfull_TH-161_Rotary_Tool_Bits' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006746448701.html' ),
@@ -8747,12 +12954,19 @@ equipment(
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S250e65aed7274e958322b8992f4c5b5b4/100pc-Twist-Drill-1-3mm-Hand-Electric-Drill-DIY-Woodwork-Drill-Titanium-Plated-Natural-Color-Drill.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Yum Cha' ),
+    model_name         ( '100pc Titanium Plated' ),
+    EquipmentFeature::DRILL_BITS,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( '100pc Titanium Plated' ),
     equipment_type     ( 'Drill Bits' ),
     category          ( 'Drill Bit' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_100pc_Titanium_Plated_Drill_Bits' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006432042066.html' ),
@@ -8777,6 +12991,13 @@ equipment(
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S19656387bcff498ab677b07d7fb05be6t/Universal-170-Mini-Diagonal-Pliers-Cutting-Pliers-Multifunctional-Pliers-Electricity-Wire-Stripper-Hand-Tools.jpg_640x640.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Plato' ),
+    model_name         ( 'Model 170' ),
+    EquipmentFeature::WIRE_CUTTER,
+    EquipmentAttribute::HEART,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Plato' ),
     model_name         ( 'Model 170' ),
@@ -8785,6 +13006,7 @@ equipment(
     category          ( 'Wire Cutter' ),
     category          ( '❤️' ),
   ),
+  */
   sixsigma_url    ( 'https://www.jj5.net/wiki/Plato_Model_170_Wire_Cutters' ),
   see_also        ( 'Aokin Wire Cutter' ),
   affiliate_link(
@@ -8810,6 +13032,12 @@ equipment(
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S816e862d4c5b49c5bcb65e72322daa8be/Universal-Handheld-Quick-Stripper-Decrustation-Plier-Adjustable-Electric-Wire-Cable-Peel-Wire-Cable-Cutter-Stripping-hand.jpg_640x640.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Yum Cha' ),
+    model_name         ( 'Universal Handheld' ),
+    EquipmentFeature::WIRE_STRIPPER,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( 'Universal Handheld' ),
@@ -8817,6 +13045,7 @@ equipment(
     category          ( 'Wire Stripper' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Universal_Handheld_Wire_Stripper' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006185901339.html' ),
@@ -8841,6 +13070,14 @@ equipment(
 equipment(
   equipment_date( '2023-11-23' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S9fda97b66ffc4727b5e3496809becea9u/high-quality-M469D-RJ45-Cable-lan-tester-Network-Cable-Tester-RJ45-RJ11-RJ12-CAT5-UTP-LAN.jpg_.webp' ),
+  equipment_item(
+    //manufacturer_name  ( 'ANENG' ),
+    //model_name         ( 'M469D' ),
+    manufacturer_name  ( 'Ampcom' ),
+    model_name         ( 'Automatic' ),
+    EquipmentFeature::NETWORK_CABLE_TESTER,
+  ),
+  /*
   equipment_info(
     //manufacturer_name  ( 'ANENG' ),
     //model_name         ( 'M469D' ),
@@ -8849,6 +13086,7 @@ equipment(
     equipment_type     ( 'Network Cable Tester' ),
     category          ( 'Cable Tester' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/ANENG_M469D_Network_Cable_Tester' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005288246731.html' ),
@@ -8873,12 +13111,18 @@ equipment(
 equipment(
   equipment_date( '2021-07-30' ),
   equipment_icon( 'https://i.ebayimg.com/images/g/UcgAAOSwrjtfSNEU/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name  ( 'oz_gear' ),
+    EquipmentFeature::CALIPERS,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'oz_gear' ),
     //model_name        ( '' ),
     equipment_type     ( 'Calipers' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Oz_gear_Calipers' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/256037179868' ),
@@ -8906,12 +13150,18 @@ equipment(
 equipment(
   equipment_date( '2023-10-20' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S18878a02f03a4a23b85f94bb814331c30/1PC-Digital-Depth-Gauge-Caliper-Tread-Depth-Gauge-LCD-Tire-Tread-Gauge-For-Car-Tire-0.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Yum Cha' ),
+    EquipmentFeature::DEPTH_GAUGE,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Yum Cha' ),
     //model_name        ( '' ),
     equipment_type     ( 'Depth Gauge' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Depth_Gauge' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005631574196.html' ),
@@ -8933,6 +13183,17 @@ equipment(
 equipment(
   equipment_date( '2023-03-16' ),
   equipment_icon( 'https://media.prod.bunnings.com.au/api/public/content/738e8d4eb7484be8bf7ad3c22873f93f?v=70a30896&t=w500dpr1' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.arlec.com.au/wp-content/files/PB91.pdf' ),
+      link_text       ( 'Arlec PB91 (PDF)' ),
+    ),
+    manufacturer_name  ( 'Arlec' ),
+    model_name         ( 'PB91 Plug-In RCD Safety Switch with' ),
+    EquipmentFeature::SURGE_PROTECTOR,
+    EquipmentFeature::RESIDUAL_CURRENT_DEVICE,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Arlec' ),
     model_name         ( 'PB91' ),
@@ -8946,6 +13207,7 @@ equipment(
       link_text       ( 'Arlec PB91 (PDF)' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Arlec_PB91' ),
   affiliate_link(
     equipment_url ( 'https://www.bunnings.com.au/arlec-single-outlet-safety-switch_p7050029' ),
@@ -8966,6 +13228,16 @@ equipment(
 equipment(
   equipment_date( '2023-03-16' ),
   equipment_icon( 'https://media.prod.bunnings.com.au/api/public/content/44b5a972407c42e38d2e9b2a7501a0ba?v=7af707bd&t=w500dpr1' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.sandleford.com.au/funnel-set-4-pc' ),
+      link_text       ( 'Sandleford Funnel Set 4 PC' ),
+    ),
+    manufacturer_name  ( 'Sandleford' ),
+    model_name         ( '4 Piece' ),
+    EquipmentFeature::FUNNEL_SET,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Sandleford' ),
     model_name         ( '4 Piece' ),
@@ -8976,6 +13248,7 @@ equipment(
       link_text       ( 'Sandleford Funnel Set 4 PC' ),
     ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Sandleford_4_Piece_Funnel_Set' ),
   affiliate_link(
     equipment_url ( 'https://www.bunnings.com.au/sandleford-4-piece-funnel-set_p3400421' ),
@@ -8993,16 +13266,22 @@ equipment(
   ),
 );
 
-
 equipment(
   equipment_date( '2024-07-11' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Sdeb0d4d3e98c4abfa49275bf01e84b06r/100pcs-Releasable-Cable-Organizer-Ties-Mouse-Earphones-Wire-Management-Nylon-Cable-Ties-Reusable-Loop-Hoop-Tape.png_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Yum Cha' ),
+    model_name         ( '100pcs Releasable' ),
+    EquipmentFeature::CABLE_ORGANIZER,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( '100pcs Releasable' ),
     equipment_type     ( 'Cable Organizer' ),
     category          ( 'Cable Tidy' ),
   ),
+  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006956572734.html' ),
     listing_name   ( '100pcs Releasable Cable Organizer Ties Mouse Earphones Wire Management Nylon Cable Ties Reusable Loop Hoop Tape Straps Tie' ),
@@ -9023,12 +13302,19 @@ equipment(
 equipment(
   equipment_date( '2024-07-22' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Hcb751e5dcab04de6b91e5c9d9e30bc6bS/50mm-2-Inch-Polishing-Mix-Grit-Sanding-Disc-Polish-Pad-Backer-Sander-Plate-with-3mm-Shank.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'OOTDTY' ),
+    model_name         ( 'K9FA1E0555' ),
+    EquipmentFeature::ROTARY_SANDING_DISC,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'OOTDTY' ),
     model_name         ( 'K9FA1E0555' ),
     equipment_type     ( 'Sanding Disc' ),
     category          ( 'Attachment' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/OOTDTY_K9FA1E0555_Sanding_Disc' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005002669079984.html' ),
@@ -9052,12 +13338,19 @@ equipment(
 equipment(
   equipment_date( '2024-07-22' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S7430719a9bbb4a868aae9c87e03b2261o/DSPIAE-CFB-S01-CFB-S02-CFB-S03-Lrregular-Carbon-Fiber-Sanding-Stick-Black-3Pcs-set-Abrasive.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Yum Cha' ),
+    model_name         ( 'J1091302' ),
+    EquipmentFeature::SANDING_STICK,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( 'J1091302' ),
     equipment_type     ( 'Sanding Stick' ),
     category          ( 'Abrasive' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_J1091302_Sanding_Stick' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005003288036885.html' ),
@@ -9104,12 +13397,18 @@ equipment(
 equipment(
   equipment_date( '2024-07-22' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S573df8e86d3b4058893c22f50821c590z/1-Pack-Nylon-Mini-Drill-Abrasive-Brush-2-35mm-3mm-Shank-Buffing-Polishing-Wheel-Rust-Remover.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Yum Cha' ),
+    EquipmentFeature::ROTARY_NYLON_ABRASIVE_BRUSH,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( 'Nylon' ),
     equipment_type     ( 'Abrasive Brush' ),
     category          ( 'Abrasive' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Nylon_Abrasive_Brush' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005687549688.html' ),
@@ -9134,12 +13433,19 @@ equipment(
 equipment(
   equipment_date( '2024-07-22' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S38760e1018a349bda6b67eb97cedf68f9/20Pcs-5mm-Brass-Wire-Brushes-Rotary-Wire-Wheel-Pencil-Polising-Brushes-For-Power-Drill-Tool-Foredom.jpeg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'VIBRATITE' ),
+    model_name         ( '5mm Brass' ),
+    EquipmentFeature::ROTARY_WIRE_BRUSH,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'VIBRATITE' ),
     model_name         ( '5mm Brass' ),
     equipment_type     ( 'Rotary Wire Brush' ),
     category          ( 'Abrasive' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/VIBRATITE_5mm_Brass_Rotary_Wire_Brush' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005007127462026.html' ),
@@ -9162,12 +13468,19 @@ equipment(
 equipment(
   equipment_date( '2024-07-22' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Sa77e352cbc1a457aa65d72e613fb1aa2p/10-20pc-Dual-Purpose-Sanding-Sticks-Precision-Frosted-Tips-Flat-Head-Ideal-for-Crafts-Model-Making.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Yum Cha' ),
+    model_name         ( 'Dual-Purpose' ),
+    EquipmentFeature::SANDING_STICK,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( 'Dual-Purpose' ),
     equipment_type     ( 'Sanding Sticks' ),
     category          ( 'Abrasive' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Dual-Purpose_Sanding_Sticks' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006821734079.html' ),
@@ -9192,12 +13505,19 @@ equipment(
 equipment(
   equipment_date( '2024-07-22' ),
   equipment_icon( 'https://i.ebayimg.com/images/g/Mk8AAOSwqR1l84Gk/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name  ( 'Yum Cha' ),
+    model_name         ( 'HSC8 6-4A' ),
+    EquipmentFeature::FERRULE_CRIMPER_KIT,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( 'HSC8 6-4A' ),
     equipment_type     ( 'Ferrule Crimper Kit' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_HSC8_6-4A_Ferrule_Crimper_Kit' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/166648223438' ),
@@ -9219,6 +13539,12 @@ equipment(
 equipment(
   equipment_date( '2024-08-02' ),
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Se16f3cab1d944ce6ae32ecdb33c1309bg/Drill-Bit-Holder-Extension-Magnetic-Extra-Long-Shank-Quick-Release-Driver-1-4inch-Bar-attachment-Adapter.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'aToolTour' ),
+    model_name         ( 'Extra Long Magnetic' ),
+    EquipmentFeature::DRILL_BIT_EXTENSION,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'aToolTour' ),
     model_name         ( 'Extra Long Magnetic' ),
@@ -9227,6 +13553,7 @@ equipment(
     category          ( 'Drill Bit' ),
     category          ( 'Adapter' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/AToolTour_Extra_Long_Magnetic_Drill_Bit_Extension' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006333115273.html' ),
@@ -9251,6 +13578,12 @@ equipment(
 equipment(
   equipment_date( '2024-08-02' ),
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sd8787a2a58404b148fc43f93d71a86f5D/Steel-Wire-Pliers-Multifunctional-Industrial-Grade-Pointed-Nose-Pliers-Diagonal-Pliers-Cable-Pliers-Electrical-Pliers.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Yum Cha' ),
+    model_name         ( '9-Inch' ),
+    EquipmentFeature::NEEDLE_NOSE_PLIERS,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( '9-Inch' ),
@@ -9258,6 +13591,7 @@ equipment(
     category          ( 'Pliers' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_9-Inch_Needle_Nose_Pliers' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006741723890.html' ),
@@ -9282,12 +13616,19 @@ equipment(
 equipment(
   equipment_date( '2024-08-02' ),
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sf4e51e80dbd0476baeddd95d85c85968H/500g-0-01g-Portable-mini-jewelry-scale-Personal-pocket-scale-high-precision-electronic-scale-500g-0.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Yum Cha' ),
+    model_name         ( 'Mini High-Precision' ),
+    EquipmentFeature::ELECTRONIC_SCALE,
+  ),
+  /*
   equipment_info(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( 'Mini High-Precision' ),
     equipment_type     ( 'Electronic Scale' ),
     category          ( 'Scale' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Mini_High-Precision_Electronic_Scale' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005007086202868.html' ),
@@ -9312,6 +13653,12 @@ equipment(
 equipment(
   equipment_date( '2024-08-02' ),
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S271901349ce04d6a99af4f99f7d2d9b9T/52-in-1-Tools-Socket-Works-Universal-Ratchet-Spline-Bolts-Sleeve-Rotation-Hand-Tools-360-Degree.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( '52 in 1' ),
+    EquipmentFeature::TIGER_WRENCH,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Yum Cha' ),
     model_name        ( '52 in 1' ),
@@ -9319,6 +13666,7 @@ equipment(
     category          ( 'Wrench' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_52_in_1_Tiger_Wrench' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005007038778668.html' ),
@@ -9343,6 +13691,12 @@ equipment(
 equipment(
   equipment_date( '2024-08-02' ),
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S43e701a1bd22424c823f5930b8aba2ccP/AIRAJ-3-Pcs-Locking-Pliers-Welding-Tools-7-Carbon-Steel-Pliers-Industry-Round-Mouth-Vise-High.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'AIRAJ' ),
+    model_name        ( '3-Pcs 7-inch' ),
+    EquipmentFeature::LOCKING_PLIERS,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'AIRAJ' ),
     model_name        ( '3-Pcs 7-inch' ),
@@ -9350,6 +13704,7 @@ equipment(
     category          ( 'Pliers' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/AIRAJ_3-Pcs_7-inch_Locking_Pliers' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005868390844.html' ),
@@ -9374,6 +13729,12 @@ equipment(
 equipment(
   equipment_date( '2024-08-02' ),
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S9daa7b36c156444b94702536241f2d55j/58PCS-Stainless-Steel-Pitch-Scale-High-Precision-Measuring-Tool-Insert-U-S-Screw-Gauge-Metric-Inch.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( '58-pcs Stainless Steel' ),
+    EquipmentFeature::THREAD_PITCH_GAUGE,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Yum Cha' ),
     model_name        ( '58-pcs Stainless Steel' ),
@@ -9381,6 +13742,7 @@ equipment(
     category          ( 'Gauge' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_58-pcs_Stainless_Steel_Thread_Pitch_Gauge' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005892860793.html' ),
@@ -9405,6 +13767,12 @@ equipment(
 equipment(
   equipment_date( '2024-08-02' ),
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S9271a8406da743d8bda06fc68be998cc8/1pc-Multifunctional-Wire-Strippers-Electrician-Crimping-Wire-Stripping-Pliers-Hardware-Tools-Universal-Wire-Cutting-Pliers.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Oudisi' ),
+    model_name        ( '9-inch 16 in 1' ),
+    EquipmentFeature::WIRE_STRIPPER,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Oudisi' ),
     model_name        ( '9-inch 16 in 1' ),
@@ -9412,6 +13780,7 @@ equipment(
     category          ( 'Wire Stripper' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Oudisi_9-inch_16_in_1_Wire_Strippers' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005007025925612.html' ),
@@ -9436,6 +13805,12 @@ equipment(
 equipment(
   equipment_date( '2024-08-02' ),
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S6a108f393d5f416f928807cd623ea1b2Z/32-Piece-Combination-Feeler-Gauge.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( '32 Piece' ),
+    EquipmentFeature::FEELER_GAUGE,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Yum Cha' ),
     model_name        ( '32 Piece' ),
@@ -9443,6 +13818,7 @@ equipment(
     category          ( 'Gauge' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_32_Piece_Feeler_Gauge' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006707746977.html' ),
@@ -9467,6 +13843,11 @@ equipment(
 equipment(
   equipment_date( '2024-08-02' ),
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Scfc3c522a4054cd5a80cec6525806b08G/Mini-Table-Vise-Aluminium-Alloy-Multifunctional-Bench-Vise-For-DIY-Craft-Mold-Fixed-Repair-Tools-Jewelry.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    EquipmentFeature::BENCH_VISE,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Yum Cha' ),
     model_name        ( 'Bench' ),
@@ -9474,6 +13855,7 @@ equipment(
     category          ( 'Vise' ),
     category          ( 'Clamp' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Bench_Vise' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005007117549189.html' ),
@@ -9498,6 +13880,23 @@ equipment(
 equipment(
   equipment_date( '2024-08-02' ),
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Se88597c1ae964d509c0f53a6ff0bb5bc5/L-shaped-1-4-Hexagonal-Screwdriver-Bit-90-Degree-Double-Head-Handle-Black-6-35-Wrench.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'L-shaped' ),
+    EquipmentFeature::SCREWDRIVER,
+    EquipmentFeature::ADAPTER,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL4,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL6,
+    EquipmentFeature::FLATHEAD_SCREWDRIVER_SL4,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH0,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH1,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH2,
+    EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH3,
+    EquipmentFeature::TORX_SCREWDRIVER_T15,
+    EquipmentFeature::TORX_SCREWDRIVER_T20,
+    EquipmentFeature::TORX_SCREWDRIVER_T25,
+  ),
+  /*
   equipment_info(
     manufacturer_name ( 'Yum Cha' ),
     model_name        ( 'L-shaped' ),
@@ -9505,6 +13904,7 @@ equipment(
     category          ( 'Screwdriver' ),
     category          ( 'Hand Tool' ),
   ),
+  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_L-shaped_Screwdriver' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006327782997.html' ),
