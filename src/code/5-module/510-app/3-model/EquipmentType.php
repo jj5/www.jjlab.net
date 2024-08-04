@@ -982,6 +982,8 @@ enum EquipmentFeature : string {
 
       case BLADES = 'blades';
 
+      case SCALPEL_BLADE = 'scalpel-blade';
+
     case KNIFE = 'knife';
 
       case SWISS_ARMY_KNIFE = 'swiss-army-knife';
@@ -991,6 +993,8 @@ enum EquipmentFeature : string {
         case CRAFT_KNIFE_SET = 'craft-knife-set';
 
     case SCALPEL = 'scalpel';
+
+      case SCALPEL_HANDLE = 'scalpel-handle';
 
     case WIRE_CUTTER = 'wire-cutter';
 

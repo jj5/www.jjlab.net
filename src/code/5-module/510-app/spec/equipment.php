@@ -1688,6 +1688,17 @@ equipment_define(
     );
 
   equipment_define(
+    EquipmentFeature::SCALPEL,
+    EquipmentFeature::CUTTING_IMPLEMENT,
+    EquipmentAttribute::HAND_TOOL,
+  );
+
+    equipment_define(
+      EquipmentFeature::SCALPEL_HANDLE,
+      EquipmentFeature::SCALPEL,
+    );
+
+  equipment_define(
     EquipmentFeature::BLADE,
     EquipmentFeature::CUTTING_IMPLEMENT,
     EquipmentAttribute::ACCESSORY,
@@ -1697,6 +1708,12 @@ equipment_define(
     equipment_define(
       EquipmentFeature::BLADES,
       EquipmentFeature::BLADE,
+    );
+
+    equipment_define(
+      EquipmentFeature::SCALPEL_BLADE,
+      EquipmentFeature::BLADE,
+      EquipmentFeature::SCALPEL,
     );
 
   equipment_define(
@@ -1720,12 +1737,6 @@ equipment_define(
         EquipmentFeature::CRAFT_KNIFE_SET,
         EquipmentFeature::CRAFT_KNIFE,
       );
-
-  equipment_define(
-    EquipmentFeature::SCALPEL,
-    EquipmentFeature::CUTTING_IMPLEMENT,
-    EquipmentAttribute::HAND_TOOL,
-  );
 
   equipment_define(
     EquipmentFeature::WIRE_CUTTER,
@@ -14099,6 +14110,155 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2023-08-28' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/dBsAAOSwzARf~Rls/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Swann & Morten' ),
+    model_name        ( 'No.15' ),
+    EquipmentFeature::SCALPEL_BLADE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/164639362848' ),
+    listing_name  ( 'Retractable No.15 Swann Morton Scalpel & Handle Surgical Blade Retract Pull Back' ),
+    item_price    ( 'AU$13.95' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/164639362848' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=25-10458-81975#/' ),
+    order_id        ( '25-10458-81975' ),
+    order_date      ( '28 Aug 2023' ),
+    order_item_name ( 'Retractable No.15 Swann Morton Scalpel & Handle Surgical Blade Retract Pull Back' ),
+    order_price     ( 'AU$13.95' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-21' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/NzQAAOSwzRZfMJ2z/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Swann & Morten' ),
+    model_name        ( 'No.4' ),
+    EquipmentFeature::SCALPEL_HANDLE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/154040191522' ),
+    listing_name  ( 'No. 4 Swann & Morton Scalpel Handle For # 18 19 20 21 22 24 25 26 Surgical Blade' ),
+    item_price    ( 'AU$29.95' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/154040191522' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=13-10438-25114#/' ),
+    order_id        ( '13-10438-25114' ),
+    order_date      ( '21 Aug 2023' ),
+    order_item_name ( 'No. 4 Swann & Morton Scalpel Handle For # 18 19 20 21 22 24 25 26 Surgical Blade' ),
+    order_price     ( 'AU$16.95' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-21' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/5CYAAOSwe~VfMJ~w/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Swann & Morten' ),
+    model_name        ( 'Handle For # 10 10A 11 15 15A' ),
+    EquipmentFeature::SCALPEL_HANDLE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/154040209003' ),
+    listing_name  ( 'Retractaway Swann & Morton Scalpel Handle For # 10 10A 11 15 15A Surgical Blades' ),
+    item_price    ( 'AU$30.95' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/154040209003' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=13-10438-25114#/' ),
+    order_id        ( '13-10438-25114' ),
+    order_date      ( '21 Aug 2023' ),
+    order_item_name ( 'Retractaway Swann & Morton Scalpel Handle For # 10 10A 11 15 15A Surgical Blades' ),
+    order_price     ( 'AU$26.95' ),
+    order_quantity  ( 2 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-21' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/AXkAAOSwLo1iZjsn/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Swann & Morten' ),
+    model_name        ( '20pcs #15' ),
+    EquipmentFeature::SCALPEL_BLADE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/175674142283' ),
+    listing_name  ( 'Swann Morton Surgical Scalpel Blades Sterile Carbon Steel Available In 7 Size' ),
+    item_price    ( 'AU$19.90' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/175674142283' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=13-10438-25114#/' ),
+    order_id        ( '13-10438-25114' ),
+    order_date      ( '21 Aug 2023' ),
+    order_item_name ( 'Swann Morton Surgical Scalpel Blades Sterile Carbon Steel Available In 7 Size' ),
+    order_price     ( 'AU$19.90' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-21' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/AXkAAOSwLo1iZjsn/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Swann & Morten' ),
+    model_name        ( '20pcs #15C' ),
+    EquipmentFeature::SCALPEL_BLADE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/175674142283' ),
+    listing_name  ( 'Swann Morton Surgical Scalpel Blades Sterile Carbon Steel Available In 7 Size' ),
+    item_price    ( 'AU$19.90' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/175674142283' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=13-10438-25114#/' ),
+    order_id        ( '13-10438-25114' ),
+    order_date      ( '21 Aug 2023' ),
+    order_item_name ( 'Swann Morton Surgical Scalpel Blades Sterile Carbon Steel Available In 7 Size' ),
+    order_price     ( 'AU$19.90' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-21' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/AXkAAOSwLo1iZjsn/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Swann & Morten' ),
+    model_name        ( '20pcs #10' ),
+    EquipmentFeature::SCALPEL_BLADE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/175674142283' ),
+    listing_name  ( 'Swann Morton Surgical Scalpel Blades Sterile Carbon Steel Available In 7 Size' ),
+    item_price    ( 'AU$19.90' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/175674142283' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=13-10438-25114#/' ),
+    order_id        ( '13-10438-25114' ),
+    order_date      ( '21 Aug 2023' ),
+    order_item_name ( 'Swann Morton Surgical Scalpel Blades Sterile Carbon Steel Available In 7 Size' ),
+    order_price     ( 'AU$19.90' ),
+    order_quantity  ( 1 ),
+  ),
+);
 
 /*
 
