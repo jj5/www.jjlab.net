@@ -109,7 +109,7 @@ class Equipment extends AppThing {
 
     if ( $this->equipment_id === null ) {
 
-      $this->equipment_id = get_html_id( $this->get_equipment_name()->to_string() );
+      $this->equipment_id = get_html_id( $this->get_equipment_name()->to_id() );
 
     }
 

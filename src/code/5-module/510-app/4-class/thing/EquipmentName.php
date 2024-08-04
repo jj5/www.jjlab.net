@@ -16,6 +16,26 @@ class EquipmentName extends AppThing {
 
     $result = [];
 
+    $part = $this->get_manufacturer_name()->to_string();
+
+    if ( $part ) { $result[] = $part; }
+
+    $part = $this->get_model_name()->to_string();
+
+    if ( $part ) { $result[] = $part; }
+
+    $part = $this->get_equipment_type()->to_string();
+
+    if ( $part ) { $result[] = $part; }
+
+    return implode( ' ', $result );
+
+  }
+
+  public function to_id() : string {
+
+    $result = [];
+
     $part = self::clean( $this->get_manufacturer_name()->to_string() );
 
     if ( $part ) { $result[] = $part; }

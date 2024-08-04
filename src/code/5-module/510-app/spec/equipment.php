@@ -13992,6 +13992,22 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2022-05-29' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71PugBu6zOL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'TOMLOV' ),
+    model_name        ( 'DM10' ),
+    EquipmentFeature::DIGITAL_MICROSCOPE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B08MVKKSLY' ),
+    listing_name  ( 'TOMLOV 8.5" Digital Microscope 50X-1300X Soldering Microscope, UHD Video Microscope with 12MP Ultra-Precise Camera Sensor for Adults, SD Card Included, Model-DM10' ),
+    item_price    ( 'AU$422.74' ),
+  ),
+);
+
 
 /*
 
