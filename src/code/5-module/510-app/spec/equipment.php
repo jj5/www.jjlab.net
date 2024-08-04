@@ -14039,6 +14039,31 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2022-07-07' ),
+  equipment_icon( 'https://cdn.shopify.com/s/files/1/0362/9223/1306/products/store_5bcbbce1-4a4e-4478-9b23-007e4368e81f.jpg?v=1585570145' ),
+  equipment_item(
+    manufacturer_name ( 'TEAC' ),
+    model_name        ( '19"' ),
+    EquipmentFeature::TELEVISION,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/225003146967' ),
+    listing_name  ( 'TEAC 19" HD DIGITAL FHD LED LCD TV & DVD PLAYER COMBO 12/240v LEV19A119' ),
+    item_price    ( 'AU$199.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/225003146967' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=14-08736-26211#/' ),
+    order_id        ( '14-08736-26211' ),
+    order_date      ( '12 Jun 2022' ),
+    order_item_name ( 'TEAC 19" HD DIGITAL FHD LED LCD TV & DVD PLAYER COMBO 12/240v LEV19A119' ),
+    order_price     ( 'AU$199.00' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
 
 /*
 
