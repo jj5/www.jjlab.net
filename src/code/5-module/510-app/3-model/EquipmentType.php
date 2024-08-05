@@ -360,6 +360,8 @@ enum EquipmentFeature : string {
 
     case THERMOMETER = 'thermometer';
 
+      case DIGITAL_THERMOMETER = 'digital-thermometer';
+
     case COUNTER_TOTALIZER = 'counter-totalizer';
 
     case COMPONENT_TESTER = 'component-tester';

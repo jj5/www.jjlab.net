@@ -364,9 +364,15 @@ equipment_define(
 
   equipment_define(
     EquipmentFeature::THERMOMETER,
+    EquipmentClass::THERMOMETER,
     EquipmentFeature::METER,
     EquipmentMeasure::TEMPERATURE,
   );
+
+    equipment_define(
+      EquipmentFeature::DIGITAL_THERMOMETER,
+      EquipmentFeature::THERMOMETER,
+    );
 
   equipment_define(
     EquipmentFeature::COUNTER_TOTALIZER,
@@ -14694,6 +14700,41 @@ equipment(
     order_price     ( 'AU$21.69' ),
     order_quantity  ( 1 ),
     order_tax       ( 'AU$2.17' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2021-07-14' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/F7AAAOSw7U5Y9w7v/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'KT-908' ),
+    EquipmentFeature::DIGITAL_THERMOMETER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/174131252214' ),
+    affiliate_url ( 'https://ebay.us/Kz7YAg' ),
+    listing_name  ( 'Digital Thermometer Hygrometer Temperature Indoor Outdoor LCD Humidity Meter' ),
+    item_price    ( 'AU$8.45' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/174131252214' ),
+    order_url       ( 'https://www.ebay.com.au/vod/FetchOrderDetails?orderId=03-07339-49489' ),
+    order_id        ( '03-07339-49489' ),
+    order_date      ( '14 Jul, 2021' ),
+    order_item_name ( 'Digital Thermometer Hygrometer Temperature Indoor Outdoor LCD Humidity Meter' ),
+    order_price     ( 'AU$8.03' ),
+    order_quantity  ( 2 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/174131252214' ),
+    order_url       ( 'https://www.ebay.com.au/vod/FetchOrderDetails?orderId=14-07306-61787' ),
+    order_id        ( '14-07306-61787' ),
+    order_date      ( '07 Jul, 2021' ),
+    order_item_name ( 'Digital Thermometer Hygrometer Temperature Indoor Outdoor LCD Humidity Meter' ),
+    order_price     ( 'AU$8.45' ),
+    order_quantity  ( 1 ),
   ),
 );
 
