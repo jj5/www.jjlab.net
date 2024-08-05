@@ -1214,7 +1214,7 @@ enum EquipmentFeature : string {
 
     case STAINLESS_STEEL_TRAY = 'stainless-steel-tray';
 
-    case MAGNETIC_TRAY = 'maginetic-tray';
+    case MAGNETIC_TRAY = 'magnetic-tray';
 
   //
   // 2024-08-04 jj5 - ELECTRONICS_PROJECT
