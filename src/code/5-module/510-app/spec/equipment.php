@@ -8334,6 +8334,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/Sdf76767d6be74951b869694bbe158d3cG/3-Hand-Soldering-Iron-Stand-Welding-Tool-With-Magnifying-Glass-Illuminated-LED-Alligator-Clip-Holder-Clamp.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'TE-801' ),
     EquipmentFeature::THIRD_HAND,
     EquipmentFeature::MAGNIFYING_GLASS,
     EquipmentFeature::LED_LIGHT,
