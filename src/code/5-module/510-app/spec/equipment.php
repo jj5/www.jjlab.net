@@ -5437,6 +5437,14 @@ equipment(
       link_href       ( 'https://www.noyafa.com/products/nf-521-infrared-thermometer' ),
       link_text       ( 'NOYAFA NF-521 Contactless Thermal Imaging Device Industry & Science Infrared Thermometer' ),
     ),
+    manufacturer_link (
+      link_href       ( 'https://www.noyafa.com/products/thermal-imaging-device-nf-521.html' ),
+      link_text       ( 'NOYAFA NF-521 Cheap Thermal Imaging Camera For House Inspection ' ),
+    ),
+    manufacturer_link (
+      link_href       ( 'https://store.noyafa.com/products/noyafa-nf-521-infrared-thermometer' ),
+      link_text       ( 'Buy Noyafa NF-521 Infrared Visual Thermometer' ),
+    ),
     manufacturer_name ( 'NOYAFA' ),
     model_name        ( 'NF-521' ),
     EquipmentFeature::THERMAL_IMAGER,
@@ -5885,6 +5893,7 @@ equipment(
   */
   sixsigma_url  ( 'https://www.jj5.net/wiki/DT71_Mini_Digital_Tweezers' ),
   search_url    ( 'https://www.amazon.com/s?k=Miniware+DT71+Digital+Tweezers&s=price-asc-rank' ),
+  warning       ( 'I got one without a storage bag, I don\'t need that.' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/MINIWARE-DT71-Recognition-Multimeterm-Multitester/dp/B08N69CRKV/ref=sr_1_1?dib=eyJ2IjoiMSJ9.x6INYz08PkPd65H87JOe1BoNiVzNGBE4XP1i86W78rU.YI9lkLQ0-iS72Vh7I1hNaDTVeJ9D46F5VbFf4u7691I&dib_tag=se&keywords=Miniware+DT71+Digital+Tweezers&qid=1705251812&sr=8-1' ),
     affiliate_url ( 'https://amzn.to/3SeeLAB' ),
@@ -14303,7 +14312,7 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/ecUAAOSwsuxiZjsA/s-l1600.jpg' ),
   equipment_item(
     manufacturer_name ( 'Swann & Morten' ),
-    model_name        ( '20pcs #10' ),
+    model_name        ( '20pcs No.10' ),
     EquipmentFeature::SCALPEL_BLADE,
   ),
   sixsigma_url  ( '' ),
@@ -14329,7 +14338,7 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/AXkAAOSwLo1iZjsn/s-l1600.jpg' ),
   equipment_item(
     manufacturer_name ( 'Swann & Morten' ),
-    model_name        ( '20pcs #15' ),
+    model_name        ( '20pcs No.15' ),
     EquipmentFeature::SCALPEL_BLADE,
   ),
   sixsigma_url  ( '' ),
@@ -14355,7 +14364,7 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/neEAAOSwXlNiZjs3/s-l1600.jpg' ),
   equipment_item(
     manufacturer_name ( 'Swann & Morten' ),
-    model_name        ( '20pcs #15C' ),
+    model_name        ( '20pcs No.15C' ),
     EquipmentFeature::SCALPEL_BLADE,
   ),
   sixsigma_url  ( '' ),
