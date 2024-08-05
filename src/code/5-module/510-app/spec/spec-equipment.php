@@ -12318,7 +12318,7 @@ equipment(
   equipment_date( '2023-04-09' ),
   equipment_icon( 'https://i.ebayimg.com/images/g/MZoAAOSwNCNkDZ7D/s-l1600.jpg' ),
   equipment_item(
-    manufacturer_name ( 'Yumn Cha' ),
+    manufacturer_name ( 'Yum Cha' ),
     model_name        ( 'HD Webcam with Mic' ),
     EquipmentFeature::USB_CAMERA,
   ),
