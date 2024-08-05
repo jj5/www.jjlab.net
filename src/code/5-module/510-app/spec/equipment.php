@@ -11532,7 +11532,7 @@ equipment(
   ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B07L8K6DRJ' ),
-    order_url       ( 'https://www.amazon.com.au/gp/legacy/order-history?ij=&opt=ab&search=503-1823734-6368600&ref_=&ie=UTF8' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=503-1823734-6368600' ),
     order_id        ( '503-1823734-6368600' ),
     order_date      ( '9 August 2021' ),
     order_item_name ( 'Generic 10 in 1 Electronics Lab Kit' ),
@@ -11816,7 +11816,7 @@ equipment(
   ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B07J34ZYVY/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1' ),
-    order_url       ( 'https://www.amazon.com.au/gp/legacy/order-history?ij=&opt=ab&search=503-7019939-8059006&ref_=&ie=UTF8' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=503-7019939-8059006' ),
     order_id        ( '503-7019939-8059006' ),
     order_date      ( '9 August 2021' ),
     order_item_name ( '200 in 1 Electronics Lab Learning Kit Kids Learn Electronics Xmas Gift' ),
@@ -12069,7 +12069,7 @@ equipment(
   ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B07PNC5MPB' ),
-    order_url       ( 'https://www.amazon.com.au/gp/legacy/order-history?ij=&opt=ab&search=249-1152558-2077436&ref_=&ie=UTF8' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=249-1152558-2077436' ),
     order_id        ( '249-1152558-2077436' ),
     order_date      ( '18 August 2023' ),
     order_item_name ( 'Klein Tools 32614 4-in-1 Multi-bit Precision Pocket Screwdriver Set' ),
@@ -12113,7 +12113,7 @@ equipment(
   ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B006ITB06U' ),
-    order_url       ( 'https://www.amazon.com.au/gp/legacy/order-history?ij=&opt=ab&search=249-2227622-6404632&ref_=&ie=UTF8' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=249-2227622-6404632' ),
     order_id        ( '249-2227622-6404632' ),
     order_date      ( '18 August 2023' ),
     order_item_name ( 'Portwest 2852 Standard Lab Coat Hard Wearing Workwear Lab Coat White, 3X-Large' ),
@@ -12157,7 +12157,7 @@ equipment(
   ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B07S6NWMGX' ),
-    order_url       ( 'https://www.amazon.com.au/gp/legacy/order-history?ij=&opt=ab&search=249-5975425-8293401&ref_=&ie=UTF8' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=249-5975425-8293401' ),
     order_id        ( '249-5975425-8293401' ),
     order_date      ( '18 August 2023' ),
     order_item_name  ( 'Pocket Protector, Leather Pen EDC Pouch Holder Organizer, for Shirts Lab Coats, Hold 5 Pens, New Design to Keep Pens Inside When Bend Down. No Breaking of Pen Clip. Thick PU Leather, 2 Per Pack.' ),
@@ -14919,7 +14919,7 @@ equipment(
   ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B07GVJMWFF' ),
-    order_url       ( 'https://www.amazon.com.au/gp/legacy/order-history?ij=&opt=ab&search=249-4017065-3427025&ref_=&ie=UTF8' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=249-4017065-3427025' ),
     order_id        ( '249-4017065-3427025' ),
     order_date      ( '14 August 2023' ),
     order_item_name ( 'Webcam Wall Mount, C920s Stand Holder Compatible with Logitech C920s StreamCam C922x C920 C930e C615 Brio C925e - Acetaken' ),
@@ -14928,7 +14928,7 @@ equipment(
   ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B07GVJMWFF' ),
-    order_url       ( 'https://www.amazon.com.au/gp/legacy/order-history?ij=&opt=ab&search=249-9920529-0060600&ref_=&ie=UTF8' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=249-9920529-0060600' ),
     order_id        ( '249-9920529-0060600' ),
     order_date      ( '13 August 2023' ),
     order_item_name ( 'Webcam Wall Mount, C920s Stand Holder Compatible with Logitech C920s StreamCam C922x C920 C930e C615 Brio C925e - Acetaken' ),
@@ -14937,7 +14937,7 @@ equipment(
   ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B07GVJMWFF' ),
-    order_url       ( 'https://www.amazon.com.au/gp/legacy/order-history?ij=&opt=ab&search=249-5809880-4993438&ref_=&ie=UTF8' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=249-5809880-4993438' ),
     order_id        ( '249-5809880-4993438' ),
     order_date      ( '9 August 2023' ),
     order_item_name ( 'Webcam Wall Mount, C920s Stand Holder Compatible with Logitech C920s StreamCam C922x C920 C930e C615 Brio C925e - Acetaken' ),
