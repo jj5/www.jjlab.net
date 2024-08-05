@@ -28,7 +28,8 @@ require_once realpath( __DIR__ ) . '/../../../../vendor/autoload.php';
 mud_load_deep_breadth_first( __DIR__ . '/1-interface' );
 mud_load_deep_breadth_first( __DIR__ . '/2-trait' );
 mud_load_deep_breadth_first( __DIR__ . '/3-model' );
-mud_load_deep_breadth_first( __DIR__ . '/4-class' );
+mud_load_deep_breadth_first( __DIR__ . '/4-define' );
+mud_load_deep_breadth_first( __DIR__ . '/5-class' );
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
