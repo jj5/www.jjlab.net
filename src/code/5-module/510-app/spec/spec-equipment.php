@@ -12097,6 +12097,7 @@ equipment(
     EquipmentFeature::WEBCAM_WALL_MOUNT,
   ),
   sixsigma_url  ( '' ),
+  see_also( 'ARKON CMPHD006 Webcam Wall Mount' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B07GVJMWFF' ),
     affiliate_url ( 'https://amzn.to/3SV1v4T' ),
@@ -12141,6 +12142,7 @@ equipment(
     EquipmentFeature::WEBCAM_WALL_MOUNT,
   ),
   sixsigma_url  ( '' ),
+  see_also( 'Acetaken C920WM-001 Webcam Wall Mount' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B00CMLX1O2' ),
     affiliate_url ( 'https://amzn.to/3SDGzPw' ),
@@ -12377,6 +12379,7 @@ equipment(
     EquipmentFeature::HDMI_TO_USB_ADAPTER,
   ),
   sixsigma_url  ( '' ),
+  see_also      ( 'Yum Cha 4K HDMI USB 3.0 HDMI To USB Adapter' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/dp/B0772LLPMD' ),
     listing_name  ( 'AVerMedia Forty7 BU110 ExtremeCap UVC, Multi-Colour' ),
@@ -12402,6 +12405,7 @@ equipment(
     EquipmentFeature::HDMI_TO_USB_ADAPTER,
   ),
   sixsigma_url  ( '' ),
+  see_also      ( 'AVerMedia BU110 HDMI To USB Adapter' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/125822891428' ),
     affiliate_url ( 'https://ebay.us/7y0Cr5' ),
