@@ -9053,7 +9053,6 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/S5521e4cb81914d3796fd63211fda7942G/SUNSHINE-Double-Head-Anti-Static-ESD-Safe-Hard-Brush-For-Phone-Motherboard-Circuit-Board-Cleaner-for.jpg_640x640.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'SUNSHINE' ),
-    model_name         ( 'Hard' ),
     EquipmentFeature::HARD_BRUSH_SET,
   ),
   /*
