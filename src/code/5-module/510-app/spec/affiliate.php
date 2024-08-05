@@ -44,3 +44,8 @@ affiliate(
   affiliate_name( 'Dyson' ),
   affiliate_url( 'https://www.dyson.com/' ),
 );
+
+affiliate(
+  affiliate_name( 'WASD Keyboards' ),
+  affiliate_url( 'https://www.wasdkeyboards.com/' ),
+);

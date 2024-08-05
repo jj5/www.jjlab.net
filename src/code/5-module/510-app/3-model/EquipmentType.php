@@ -1479,6 +1479,14 @@ enum EquipmentFeature : string {
       case VESA_WALL_MOUNT = 'VESA-wall-mount';
 
   //
+  // 2024-08-05 jj5 - WRIST_PAD
+  //
+
+  case WRIST_PAD = 'wrist-pad';
+
+    case KEYBOARD_WRIST_PAD = 'keyboard-wrist-pad';
+
+  //
   // 2024-08-04 jj5 - FEATURE
   //
 
@@ -1587,6 +1595,8 @@ enum EquipmentClass : string {
   case SCOPE = 'scope';
   case SCREWDRIVER = 'screwdriver';
   case SIGNAL_GENERATOR = 'signal-generator';
+  case SOLDERING_IRON = 'soldering-iron';
+  case SOLDERING_STATION = 'soldering-station';
   case SOLDERING_TOOL = 'soldering-tool';
   case SOLDER_LUGS = 'solder-lugs';
   case SPECTRUM_ANALYZER = 'spectrum-analyzer';
@@ -1611,5 +1621,6 @@ enum EquipmentClass : string {
   case WIRE_FIXTURE = 'wire-fixture';
   case WIRE_STRIPPER = 'wire-stripper';
   case WRENCH = 'wrench';
+  case WRIST_PAD = 'wrist-pad';
 
 }

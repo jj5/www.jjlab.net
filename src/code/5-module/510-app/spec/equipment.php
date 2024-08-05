@@ -1113,6 +1113,7 @@ equipment_define(
 
   equipment_define(
     EquipmentFeature::SOLDERING_IRON,
+    EquipmentClass::SOLDERING_IRON,
     EquipmentFeature::SOLDERING_TOOL,
     EquipmentAttribute::BENCH_EQUIPMENT,
     EquipmentAttribute::HAND_TOOL,
@@ -1127,6 +1128,7 @@ equipment_define(
 
     equipment_define(
       EquipmentFeature::SOLDERING_STATION,
+      EquipmentClass::SOLDERING_STATION,
       EquipmentFeature::SOLDERING_IRON,
       EquipmentFeature::HOT_AIR_GUN,
     );
@@ -1186,8 +1188,8 @@ equipment_define(
 
   equipment_define(
     EquipmentFeature::SOLDERING_TWEEZERS,
+    EquipmentFeature::SOLDERING_STATION,
     EquipmentFeature::TWEEZERS,
-    EquipmentFeature::SOLDERING_IRON,
     EquipmentFeature::DESOLDERING_TOOL,
     EquipmentAttribute::HAND_TOOL,
     EquipmentAttribute::BENCH_EQUIPMENT,
@@ -2661,6 +2663,21 @@ equipment_define(
       EquipmentFeature::VESA_WALL_MOUNT,
       EquipmentFeature::WALL_MOUNT,
     );
+
+//
+// 2024-08-05 jj5 - WRIST_PAD
+//
+
+equipment_define(
+  EquipmentFeature::WRIST_PAD,
+  EquipmentClass::WRIST_PAD,
+);
+
+  equipment_define(
+    EquipmentFeature::KEYBOARD_WRIST_PAD,
+    EquipmentFeature::WRIST_PAD,
+    EquipmentFeature::KEYBOARD,
+  );
 
 //
 // 2024-08-04 jj5 - FEATURE
@@ -4706,6 +4723,7 @@ equipment(
     manufacturer_name ( 'Pro\'sKit' ),
     model_name        ( 'SS-331H' ),
     EquipmentFeature::DESOLDERING_PUMP,
+    EquipmentFeature::SOLDERING_STATION,
     EquipmentAttribute::HAND_TOOL,
     EquipmentAttribute::BENCH_EQUIPMENT,
   ),
@@ -14422,7 +14440,133 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2018-03-25' ),
+  equipment_icon( 'https://www.wasdkeyboards.com/media/catalog/product/cache/cee7a71fd82c474592eb38179a21d892/c/o/code-104-2_1.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'WASD Keyboards' ),
+    model_name        ( 'CODE 104-Key' ),
+    EquipmentFeature::MECHANICAL_KEYBOARD,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.wasdkeyboards.com/wasd-v3-104-key-custom-mechanical-keyboard.html' ),
+    listing_name  ( 'CODE 104-Key Mechanical Keyboard - Cherry MX Green' ),
+    item_options  ( 'Cherry MX Green; Black Case; No Sound Dampeners' ),
+    item_price    ( 'US$150.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.wasdkeyboards.com/wasd-v3-104-key-custom-mechanical-keyboard.html' ),
+    order_url       ( 'https://www.wasdkeyboards.com/sales/order/view/order_id/119152/' ),
+    order_id        ( '119152' ),
+    order_date      ( '2018-03-25' ),
+    order_item_name ( 'CODE 104-Key Mechanical Keyboard - Cherry MX Green' ),
+    order_options   ( 'Cherry MX Green; Black Case; No Sound Dampeners' ),
+    order_price     ( 'US$165.00' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'US$70.70' ),
+  ),
+);
 
+equipment(
+  equipment_date( '2018-03-25' ),
+  equipment_icon( 'https://www.wasdkeyboards.com/media/catalog/product/cache/cee7a71fd82c474592eb38179a21d892/1/0/104-1.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'WASD Keyboards' ),
+    model_name        ( '17" Soft Foam' ),
+    EquipmentFeature::KEYBOARD_WRIST_PAD,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.wasdkeyboards.com/17-wrist-pad.html' ),
+    listing_name  ( '17" Soft Foam Wrist Pad' ),
+    item_price    ( 'US$14.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.wasdkeyboards.com/17-wrist-pad.html' ),
+    order_url       ( 'https://www.wasdkeyboards.com/sales/order/view/order_id/119152/' ),
+    order_id        ( '119152' ),
+    order_date      ( '2018-03-25' ),
+    order_item_name ( '17" Soft Foam Wrist Pad' ),
+    order_price     ( 'US$14.00' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.wasdkeyboards.com/17-wrist-pad.html' ),
+    order_url       ( 'https://www.wasdkeyboards.com/sales/order/view/order_id/138103/' ),
+    order_id        ( '138103' ),
+    order_date      ( '2019-03-20' ),
+    order_item_name ( '17" Soft Foam Wrist Pad' ),
+    order_price     ( 'US$14.00' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.wasdkeyboards.com/17-wrist-pad.html' ),
+    order_url       ( 'https://www.wasdkeyboards.com/sales/order/view/order_id/184063/' ),
+    order_id        ( '184063' ),
+    order_date      ( '2021-08-25' ),
+    order_item_name ( '17" Soft Foam Wrist Pad' ),
+    order_price     ( 'US$14.00' ),
+    order_quantity  ( 2 ),
+    order_shipping  ( 'US$70.70' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2019-03-20' ),
+  equipment_icon( 'https://www.wasdkeyboards.com/media/catalog/product/cache/cee7a71fd82c474592eb38179a21d892/c/o/code-104-2_1.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'WASD Keyboards' ),
+    model_name        ( 'CODE V3 104-Key' ),
+    EquipmentFeature::MECHANICAL_KEYBOARD,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.wasdkeyboards.com/wasd-v3-104-key-custom-mechanical-keyboard.html' ),
+    listing_name  ( 'CODE V3 104-Key Mechanical Keyboard - Cherry MX Green' ),
+    item_options  ( 'Cherry MX Green; Black Case; No Sound Dampeners' ),
+    item_price    ( 'US$150.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.wasdkeyboards.com/wasd-v3-104-key-custom-mechanical-keyboard.html' ),
+    order_url       ( 'https://www.wasdkeyboards.com/sales/order/view/order_id/119152/' ),
+    order_id        ( '119152' ),
+    order_date      ( '2019-03-20' ),
+    order_item_name ( 'CODE V3 104-Key Mechanical Keyboard - Cherry MX Green' ),
+    order_options   ( 'Cherry MX Green; Black Case; No Sound Dampeners' ),
+    order_price     ( 'US$175.00' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'US$69.50' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2020-09-20' ),
+  equipment_icon( 'https://www.wasdkeyboards.com/media/catalog/product/cache/cee7a71fd82c474592eb38179a21d892/d/e/default.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'WASD Keyboards' ),
+    model_name        ( 'VIM by Skeletor 104-Key V3 Custom' ),
+    EquipmentFeature::MECHANICAL_KEYBOARD,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.wasdkeyboards.com/vim-by-skeletor-104-key-v3-custom-mechanical-keyboard.html' ),
+    listing_name  ( 'VIM by Skeletor 104-Key V3 Custom Mechanical Keyboard' ),
+    item_options  ( 'Cherry MX Silver; Black Case; Black QWERTY Layout; No Sound Dampeners' ),
+    item_price    ( 'US$155.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.wasdkeyboards.com/vim-by-skeletor-104-key-v3-custom-mechanical-keyboard.html' ),
+    order_url       ( 'https://www.wasdkeyboards.com/sales/order/view/order_id/167515/' ),
+    order_id        ( '167515' ),
+    order_date      ( '2020-09-20' ),
+    order_item_name ( 'VIM by Skeletor 104-Key V3 Custom Mechanical Keyboard' ),
+    order_options   ( 'Cherry MX Silver; Black Case; Black QWERTY Layout; No Sound Dampeners' ),
+    order_price     ( 'US$190.00' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'US$68.85' ),
+  ),
+);
 
 /*
 
