@@ -84,7 +84,7 @@ function render_manufacturer_index( $manufacturer_list ) {
 
             tag_text( 'th', '#' );
             tag_text( 'th', 'Manufacturer' );
-            tag_text( 'th', 'Items From This Manufacturer' );
+            tag_text( 'th', 'Types of Equipment From This Manufacturer' );
 
           tag_shut( 'tr' );
 
@@ -146,14 +146,14 @@ function render_equipment_list_for_manufacturer( $manufacturer, $equipment_list 
 
         if ( $count === 1 ) {
 
-          tag_text( 'p', "I have one piece of equipment from $manufacturer_name."  );
+          tag_text( 'p', "I have one type of equipment from $manufacturer_name."  );
 
         }
         else {
 
           $number = NUMBER_MAP[ $count ] ?? $count;
 
-          tag_text( 'p', "I have $number pieces of equipment from $manufacturer_name."  );
+          tag_text( 'p', "I have $number types of of equipment from $manufacturer_name."  );
 
         }
 

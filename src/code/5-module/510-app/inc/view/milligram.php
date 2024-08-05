@@ -777,7 +777,7 @@ function render_equipment( $equipment_list ) {
         $total_formatted = format_aud_cents( $total );
         $count_formatted = number_format( $stats[ 'count' ] );
 
-        out_text( "Total paid for the $count_formatted items on this page: $total_formatted." );
+        out_text( "Total paid for the $count_formatted types of item on this page: $total_formatted." );
 
       tag_shut( 'p' );
 

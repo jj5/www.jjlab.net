@@ -146,14 +146,14 @@ function render_equipment_list_for_category( $category, $equipment_list ) {
 
         if ( $count === 1 ) {
 
-          tag_text( 'p', "I have one piece of equipment in this category."  );
+          tag_text( 'p', "I have one type of equipment in this category."  );
 
         }
         else {
 
           $number = NUMBER_MAP[ $count ] ?? $count;
 
-          tag_text( 'p', "I have $number pieces of equipment in this category."  );
+          tag_text( 'p', "I have $number types of equipment in this category."  );
 
         }
 
