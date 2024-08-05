@@ -8392,7 +8392,7 @@ equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/41+jZTLBEjL._AC_SL1004_.jpg' ),
   equipment_item(
-    manufacturer_name ( 'Yum Cha' ),
+    manufacturer_name ( 'ALKOY' ),
     EquipmentFeature::CAPACITOR_DISCHARGE_PEN,
     EquipmentFeature::TWEEZERS,
     EquipmentAttribute::HAND_TOOL,
@@ -14666,6 +14666,34 @@ equipment(
     order_item_name ( 'BM800 Condenser Microphone Kit Studio Suspension Boom Scissor Arm Stand AU SHIP' ),
     order_price     ( 'AU$27.99' ),
     order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2022-02-10' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/H02dc4992105a4022b9227737c9805ed8b/M328-Transistor-Tester-Automatic-Identified-Diode-Thyristor-Capacitance-Resistor-Inductor-Capacitor-ESR-Meter-Checker-Detector.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'FNIRSI' ),
+    model_name        ( 'M328' ),
+    EquipmentFeature::COMPONENT_TESTER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/4001339256348.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_Dks9fOr' ),
+    listing_name  ( 'M328 Transistor Tester Automatic Identified Diode Thyristor Capacitance Resistor Inductor Capacitor ESR Meter Checker Detector' ),
+    item_options  ( 'Color: black' ),
+    item_price    ( 'AU$32.41' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/4001339256348.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.46.16dd1802S0KWpb&orderId=8146116604733938' ),
+    order_id        ( '8146116604733938' ),
+    order_date      ( 'Feb 10, 2022' ),
+    order_item_name ( 'Multi-purpose Transistor Tester 128*160 Diode Thyristor Capacitance Resistor Inductance MOSFET ESR LCR Meter TFT Color Display' ),
+    order_price     ( 'AU$21.69' ),
+    order_quantity  ( 1 ),
+    order_tax       ( 'AU$2.17' ),
   ),
 );
 
