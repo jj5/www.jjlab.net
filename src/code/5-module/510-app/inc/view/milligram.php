@@ -1345,17 +1345,32 @@ function render_blog_template( $equipment_list ) {
 
       mud_html_set_opt( MUD_HTML_OPT_BREAK, true );
 
-      out_text( "Following is a list of products I use which may appear in my videos. " );
-      out_text( "Clicking through on these links before purchasing from Amazon, eBay, or AliExpress is a great way " );
+      out_text( 'Following is a product I use picked at random from ' );
+
+        tag_text(
+          'a',
+          'my collection',
+          [
+            'class' => 'external',
+            'target' => '_blank',
+            'rel' => 'noopener follow',
+            'href' => 'https://www.inthelabwithjayjay.com/in-the-lab/equipment.php',
+            'title' => 'Click here to see all of my equipment.',
+          ]
+        );
+
+      out_text( ' which may appear in my videos. ' );
+
+      out_text( 'Clicking through on this before purchasing from Amazon, eBay, or AliExpress is a great way ' );
       out_text( "to support the channel at no cost to you. Thanks!\n\n" );
 
       $end_id = date( 'Y-m-d-His' );
 
+      /*
       out_text( 'Note: you can ' );
-
       render_link_internal( 'skip this', '#' . $end_id, 'Click here to skip the product list.' );
-
       out_text( " if you would prefer.\n\n" );
+      */
 
       tag_open( 'table', [ 'class' => 'table equipment' ] );
 

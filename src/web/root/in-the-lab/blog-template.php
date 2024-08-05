@@ -78,6 +78,8 @@ function render_blog_template_main() {
 
       tag_shut( 'p' );
 
+      $equipment_list = [ $equipment_list[ random_int( 0, count( $equipment_list ) - 1 ) ] ];
+
       render_blog_template( $equipment_list );
 
     tag_shut( 'section' );

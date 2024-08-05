@@ -54,6 +54,7 @@ enum EquipmentClass : string {
   case GAUGE = 'gauge';
   case GLOVES = 'gloves';
   case GOGGLES = 'goggles';
+  case HEADPHONES = 'headphones';
   case HEAT_SHRINK = 'heat-shrink';
   case HOLDER = 'holder';
   case HOOK = 'hook';

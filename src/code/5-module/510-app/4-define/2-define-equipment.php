@@ -192,6 +192,11 @@ equipment_define(
       EquipmentConnectivity::HDMI,
     );
 
+  equipment_define(
+    EquipmentFeature::UNIVERSAL_AC_ADAPER,
+    EquipmentFeature::ADAPTER,
+  );
+
 //
 // 2024-08-04 jj5 - MISC_TOOL
 //
@@ -625,6 +630,17 @@ equipment_define(
     EquipmentFeature::PROBE,
     EquipmentFeature::TWEEZERS,
   );
+
+//
+// 2024-08-06 jj5 - HEADPHONES
+//
+
+equipment_define(
+  EquipmentFeature::HEADPHONES,
+  EquipmentClass::HEADPHONES,
+  EquipmentAttribute::COMPUTER_EQUIPMENT,
+  EquipmentAttribute::PERIPHERAL,
+);
 
 //
 // 2024-08-06 jj5 - DRIVE
@@ -1664,36 +1680,6 @@ equipment_define(
     EquipmentFeature::DIGITAL_MICROSCOPE,
     EquipmentFeature::MICROSCOPE,
   );
-
-//
-// 2024-08-04 jj5 - POWER
-//
-
-equipment_define(
-  EquipmentFeature::POWER,
-  EquipmentClass::POWER,
-);
-
-  equipment_define(
-    EquipmentFeature::POWER_BOARD,
-    EquipmentClass::POWER_BOARD,
-  );
-
-  equipment_define(
-    EquipmentFeature::POWER_SUPPLY,
-    EquipmentClass::POWER_SUPPLY,
-  );
-
-    equipment_define(
-      EquipmentFeature::BENCH_POWER_SUPPLY,
-      EquipmentFeature::POWER_SUPPLY,
-      EquipmentAttribute::BENCH_EQUIPMENT,
-    );
-
-    equipment_define(
-      EquipmentFeature::POWER_MODULE,
-      EquipmentFeature::POWER_SUPPLY,
-    );
 
 //
 // 2024-08-04 jj5 - SCANNER
@@ -3142,6 +3128,31 @@ equipment_define(
     EquipmentFeature::WRENCH,
   );
 
+    equipment_define(
+      EquipmentFeature::ADJUSTABLE_WRENCH_SET,
+      EquipmentFeature::ADJUSTABLE_WRENCH,
+    );
+
+    equipment_define(
+      EquipmentFeature::ADJUSTABLE_WRENCH_6_INCH,
+      EquipmentFeature::ADJUSTABLE_WRENCH,
+    );
+
+    equipment_define(
+      EquipmentFeature::ADJUSTABLE_WRENCH_8_INCH,
+      EquipmentFeature::ADJUSTABLE_WRENCH,
+    );
+
+    equipment_define(
+      EquipmentFeature::ADJUSTABLE_WRENCH_10_INCH,
+      EquipmentFeature::ADJUSTABLE_WRENCH,
+    );
+
+    equipment_define(
+      EquipmentFeature::ADJUSTABLE_WRENCH_12_INCH,
+      EquipmentFeature::ADJUSTABLE_WRENCH,
+    );
+
   equipment_define(
     EquipmentFeature::TIGER_WRENCH,
     EquipmentFeature::WRENCH,
@@ -3210,6 +3221,37 @@ equipment_define(
     equipment_define(
       EquipmentFeature::RESIDUAL_CURRENT_DEVICE,
       EquipmentFeature::SURGE_PROTECTOR,
+    );
+
+//
+// 2024-08-04 jj5 - POWER
+//
+
+equipment_define(
+  EquipmentFeature::POWER,
+  EquipmentClass::POWER,
+);
+
+  equipment_define(
+    EquipmentFeature::POWER_BOARD,
+    EquipmentClass::POWER_BOARD,
+    EquipmentFeature::SURGE_PROTECTOR,
+  );
+
+  equipment_define(
+    EquipmentFeature::POWER_SUPPLY,
+    EquipmentClass::POWER_SUPPLY,
+  );
+
+    equipment_define(
+      EquipmentFeature::BENCH_POWER_SUPPLY,
+      EquipmentFeature::POWER_SUPPLY,
+      EquipmentAttribute::BENCH_EQUIPMENT,
+    );
+
+    equipment_define(
+      EquipmentFeature::POWER_MODULE,
+      EquipmentFeature::POWER_SUPPLY,
     );
 
 //

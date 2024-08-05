@@ -82,6 +82,7 @@ enum EquipmentFeature : string {
 
       case HDMI_SPLITTER = 'HDMI-splitter';
 
+    case UNIVERSAL_AC_ADAPER = 'universal-AC-adapter';
 
   //
   // 2024-08-04 jj5 - MISC_TOOL
@@ -267,6 +268,12 @@ enum EquipmentFeature : string {
     case LOGIC_PROBE = 'logic-probe';
 
     case PROBE_TWEEZERS = 'probe-tweezers';
+
+  //
+  // 2024-08-06 jj5 - HEADPHONES
+  //
+
+  case HEADPHONES = 'headphones';
 
   //
   // 2024-08-06 jj5 - DRIVE
@@ -713,20 +720,6 @@ enum EquipmentFeature : string {
   case MICROSCOPE = 'microscope';
 
     case DIGITAL_MICROSCOPE = 'digital-microscope';
-
-  //
-  // 2024-08-04 jj5 - POWER_SUPPLY
-  //
-
-  case POWER = 'power';
-
-    case POWER_BOARD = 'power-board';
-
-    case POWER_SUPPLY = 'power-supply';
-
-      case BENCH_POWER_SUPPLY = 'bench-power-supply';
-
-      case POWER_MODULE = 'power-module';
 
   //
   // 2024-08-04 jj5 - SCANNER
@@ -1438,6 +1431,16 @@ enum EquipmentFeature : string {
 
     case ADJUSTABLE_WRENCH = 'adjustable-wrench';
 
+      case ADJUSTABLE_WRENCH_SET = 'adjustable-wrench-set';
+
+      case ADJUSTABLE_WRENCH_6_INCH = 'adjustable-wrench-6-inch';
+
+      case ADJUSTABLE_WRENCH_8_INCH = 'adjustable-wrench-8-inch';
+
+      case ADJUSTABLE_WRENCH_10_INCH = 'adjustable-wrench-10-inch';
+
+      case ADJUSTABLE_WRENCH_12_INCH = 'adjustable-wrench-12-inch';
+
     case TIGER_WRENCH = 'tiger-wrench';
 
   //
@@ -1469,6 +1472,21 @@ enum EquipmentFeature : string {
     case SURGE_PROTECTOR = 'surge-protector';
 
       case RESIDUAL_CURRENT_DEVICE = 'residual-current-device';
+
+  //
+  // 2024-08-04 jj5 - POWER_SUPPLY
+  //
+
+  case POWER = 'power';
+
+    case POWER_BOARD = 'power-board';
+
+    case POWER_SUPPLY = 'power-supply';
+
+      case BENCH_POWER_SUPPLY = 'bench-power-supply';
+
+      case POWER_MODULE = 'power-module';
+
 
   //
   // 2024-08-04 jj5 - FUNNEL

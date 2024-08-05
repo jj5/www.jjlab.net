@@ -13265,6 +13265,110 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2024-08-06' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/51DvBrCeKJL._AC_SL1200_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Sony' ),
+    model_name        ( 'MDRZX110B' ),
+    EquipmentFeature::HEADPHONES,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B01IEW8OE4' ),
+    listing_name  ( 'Sony MDRZX110B On-Ear Headphones, Black' ),
+    item_price    ( 'AU$24.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B01IEW8OE4' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=249-7646685-8392641' ),
+    order_id        ( '249-7646685-8392641' ),
+    order_date      ( '6 August 2024' ),
+    order_item_name ( 'Sony MDRZX110B On-Ear Headphones, Black' ),
+    order_price     ( 'AU$24.00' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-31' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71X2FB4e1ML._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'ZZBUY' ),
+    model_name        ( '' ),
+    EquipmentFeature::ADJUSTABLE_WRENCH_SET,
+    EquipmentFeature::ADJUSTABLE_WRENCH_6_INCH,
+    EquipmentFeature::ADJUSTABLE_WRENCH_8_INCH,
+    EquipmentFeature::ADJUSTABLE_WRENCH_10_INCH,
+    EquipmentFeature::ADJUSTABLE_WRENCH_12_INCH,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B0C1MZWT6Z' ),
+    listing_name  ( 'ZZBUY 4 Piece Adjustable Wrench Set CR-V Steel Multifunctional Crescent Wrenches Set Plumbers Spanner Wrench Tool 6-inch, 8-inch, 10-inch, 12-inch' ),
+    item_price    ( 'AU$39.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B0C1MZWT6Z' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=249-7046071-5453455&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '249-7046071-5453455' ),
+    order_date      ( '31 August 2023' ),
+    order_item_name ( 'ZZBUY 4 Piece Adjustable Wrench Set CR-V Steel Multifunctional Crescent Wrenches Set Plumbers Spanner Wrench Tool 6-inch, 8-inch, 10-inch, 12-inch' ),
+    order_price     ( 'AU$29.74' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-31' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/51opZ+CedzL._AC_SL1000_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'CREATMOR' ),
+    model_name        ( 'Universal AC 4-Outlet USB Power' ),
+    EquipmentFeature::POWER_BOARD,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B09WVWNHYR' ),
+    listing_name  ( 'Surge Protector 3M 4 AC Outlets/2 Type C Ports/4 USB Ports Power Strip Power Board 4.2A 3000W Surge Protection' ),
+    item_price    ( 'AU$43.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B09WVWNHYR' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=249-1122144-5091822&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '249-1122144-5091822' ),
+    order_date      ( '31 August 2023' ),
+    order_item_name ( 'Surge Protector 3M 4 AC Outlets/2 Type C Ports/4 USB Ports Power Strip Power Board 4.2A 3000W Surge Protection' ),
+    order_price     ( 'AU$43.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-31' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71BCnGuTuBL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'LESAAD' ),
+    model_name        ( 'WD-16 8-Pack' ),
+    EquipmentFeature::UNIVERSAL_AC_ADAPER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B09B5J3X4M' ),
+    listing_name  ( 'LESAAD (Pack of 8) Travel Adapter with Universal 2/3pin Input & I-Type Output for Travelling to AU, for International use (UK/US to AU)' ),
+    item_price    ( 'AU$22.22' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B09B5J3X4M' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=249-1122144-5091822&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '249-1122144-5091822' ),
+    order_date      ( '31 August 2023' ),
+    order_item_name ( 'LESAAD (Pack of 8) Travel Adapter with Universal 2/3pin Input & I-Type Output for Travelling to AU, for International use (UK/US to AU)' ),
+    order_price     ( 'AU$22.22' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
 
 /*
 
