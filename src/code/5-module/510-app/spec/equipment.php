@@ -10067,7 +10067,7 @@ equipment(
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-03-175245/s-l1600.jpg' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'Magnetic/Claw' ),
+    model_name        ( 'Magnetic and Claw' ),
     EquipmentFeature::PICKUP_TOOL,
     EquipmentFeature::MAGNETIC_PICKUP_TOOL,
     EquipmentFeature::CLAW_TOOL,
