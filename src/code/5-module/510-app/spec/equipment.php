@@ -9091,6 +9091,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/H17c1c322c3e8497e8643ead0fbe4b134E/DC-9-12V-XR2206-Function-Signal-Generator-DIY-Kit-Sine-Triangle-Square-Output-1Hz-1MHz-Signal.png_.webp' ),
   equipment_item(
     manufacturer_name  ( 'EXAR' ),
+    model_name         ( 'XR2206' ),
     EquipmentFeature::SIGNAL_GENERATOR,
     EquipmentFeature::WAVEFORM_GENERATOR,
   ),
