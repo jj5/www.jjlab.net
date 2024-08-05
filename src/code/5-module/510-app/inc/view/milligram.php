@@ -774,10 +774,21 @@ function render_equipment( $equipment_list ) {
 
       tag_open( 'p' );
 
-        $total_formatted = format_aud_cents( $total );
-        $count_formatted = number_format( $stats[ 'count' ] );
+        $count = $stats[ 'count' ];
 
-        out_text( "Total paid for the $count_formatted types of item on this page: $total_formatted." );
+        $total_formatted = format_aud_cents( $total );
+        $count_formatted = number_format( $count );
+
+        if ( $count === 1 ) {
+
+          out_text( "Total paid for the item on this page: $total_formatted." );
+
+        }
+        else {
+
+          out_text( "Total paid for the $count_formatted items on this page: $total_formatted." );
+
+        }
 
       tag_shut( 'p' );
 
@@ -887,13 +898,20 @@ function get_equipment_stats( $equipment_list, &$stats = null ) {
   $list = [];
   $total = 0;
 
-  foreach ( $equipment_list as $item ) {
+  foreach ( $equipment_list as $equipment ) {
 
-    $aud_cents = $item->get_sort_value();
+    foreach ( $equipment->get_purchase_list() as $purchase ) {
 
-    $list[] = $aud_cents;
-    $total += $aud_cents;
+      $quantity = $purchase->get_order_quantity()->to_int();
+      $adjusted_price = $purchase->get_adjusted_price();
 
+      for ( $n = 1; $n <= $quantity; $n++ ) {
+
+        $list[] = $adjusted_price;
+        $total += $adjusted_price;
+
+      }
+    }
   }
 
   $stats = mud_get_stats( $list );

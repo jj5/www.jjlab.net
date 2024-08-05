@@ -11391,8 +11391,19 @@ equipment(
     listing_name  ( 'Kindle Oasis E-reader (Previous Generation), Waterproof, 7" High-Resolution Display (300 ppi), 8 GB Wi-Fi' ),
     item_price    ( 'AU$559.00' ),
   ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B06XDK92KS' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=503-6000019-3360662' ),
+    order_id        ( '503-6000019-3360662' ),
+    order_date      ( '14 December 2018' ),
+    order_item_name ( 'All-New Kindle Oasis E-reader, Waterproof, 7" High-Resolution Display (300 ppi), 8 GB Wi-Fi ' ),
+    order_price     ( 'AU$389.00' ),
+    order_quantity  ( 1 ),
+  ),
 );
 
+// 2024-08-06 jj5 - OLD: this was wrong! see below.
+/*
 equipment(
   equipment_date( '2022-05-29' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/71PugBu6zOL._AC_SL1500_.jpg' ),
@@ -11406,6 +11417,32 @@ equipment(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B08MVKKSLY' ),
     listing_name  ( 'TOMLOV 8.5" Digital Microscope 50X-1300X Soldering Microscope, UHD Video Microscope with 12MP Ultra-Precise Camera Sensor for Adults, SD Card Included, Model-DM10' ),
     item_price    ( 'AU$422.74' ),
+  ),
+);
+*/
+
+equipment(
+  equipment_date( '2021-08-04' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71PugBu6zOL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'TOMLOV' ),
+    model_name        ( 'DM1S' ),
+    EquipmentFeature::DIGITAL_MICROSCOPE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com/gp/product/B08MVKKSLY' ),
+    listing_name  ( 'TOMLOV DM1S Wireless Digital Microscope [Easy and Fun] 50X-1000X 1080P HD WiFi Portable Handheld USB Trichome Mini Coin Microscope Camera Magnifier with Stand for iPhone iPad Android Phone & PC' ),
+    item_price    ( 'US$169.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com/gp/product/B08MVKKSLY' ),
+    order_url       ( 'https://www.amazon.com/gp/your-account/order-details/ref=dp_iou_view_this_order?ie=UTF8&orderID=111-9691738-2391413' ),
+    order_id        ( '111-9691738-2391413' ),
+    order_date      ( 'August 4, 2021' ),
+    order_item_name ( 'TOMLOV DM1S Wireless Digital Microscope [Easy and Fun] 50X-1000X 1080P HD WiFi Portable Handheld USB Trichome Mini Coin Microscope Camera Magnifier with Stand for iPhone iPad Android Phone & PC' ),
+    order_price     ( 'US$169.99' ),
+    order_quantity  ( 1 ),
   ),
 );
 

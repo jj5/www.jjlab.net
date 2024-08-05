@@ -104,6 +104,7 @@ class Equipment extends AppThing {
 
     if ( $this->sort_value === null ) {
 
+      /*
       $result = null;
 
       foreach ( $this->get_affiliate_link_list() as $affiliate_link ) {
@@ -114,6 +115,42 @@ class Equipment extends AppThing {
 
           $result = $value;
 
+        }
+      }
+      */
+
+      $result = 0;
+
+      foreach ( $this->get_purchase_list() as $purchase ) {
+
+        if ( $result === 0 ) {
+
+          $result = $purchase->get_adjusted_price();
+
+        }
+        else {
+
+          $result = min( $result, $purchase->get_adjusted_price() );
+
+        }
+      }
+
+      if ( $result === 0 ) {
+
+        foreach ( $this->get_affiliate_link_list() as $affiliate_link ) {
+
+          $value = $affiliate_link->get_item_price()->to_AUD()->get_sort_value();
+
+          if ( $result === 0 ) {
+
+            $result = $value;
+
+          }
+          else {
+
+            $result = min( $result, $value );
+
+          }
         }
       }
 

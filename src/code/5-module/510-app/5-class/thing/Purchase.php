@@ -70,6 +70,44 @@ class Purchase extends AppThing {
     return $equipment_url;
 
   }
+
+  private $adjusted_price = null;
+
+  public function get_adjusted_price() {
+
+    if ( $this->adjusted_price === null ) {
+
+      $price = $this->get_order_price()->to_AUD()->to_int();
+      $adjustment = $this->get_order_adjustment();
+      $adjusted_price = $price + $adjustment;
+
+      $this->adjusted_price = $adjusted_price;
+
+    }
+
+    return $this->adjusted_price;
+
+  }
+
+  private $adjustment = null;
+
+  public function get_order_adjustment() {
+
+    if ( $this->adjustment === null ) {
+
+      $shipping = $this->get_order_shipping()->to_AUD()->to_int();
+      $tax = $this->get_order_tax()->to_AUD()->to_int();
+      $discount = $this->get_order_discount()->to_AUD()->to_int();
+
+      $adjustment = $shipping + $tax - $discount;
+
+      $this->adjustment = intval( round( $adjustment / $this->get_order_quantity()->to_int() ) );
+
+    }
+
+    return $this->adjustment;
+
+  }
 }
 
 class NullPurchase extends Purchase {
