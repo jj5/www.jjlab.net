@@ -14343,7 +14343,7 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/oeoAAOSwAHFhUxMF/s-l1600.jpg' ),
   equipment_item(
     manufacturer_name ( '3ELIGHTING' ),
-    model_name        ( '14"-27" with 2 arms' ),
+    model_name        ( '14"-27" With 2 Arms' ),
     EquipmentFeature::VESA_WALL_MOUNT,
   ),
   sixsigma_url  ( '' ),

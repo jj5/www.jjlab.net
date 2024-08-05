@@ -53,6 +53,8 @@ function render_about_main() {
 
     render_section_about_secrets();
 
+    render_section_about_jjcode();
+
     render_section_about_shortcuts();
 
     render_section_about_next();
@@ -372,6 +374,31 @@ function render_section_about_secrets( int $heading_level = 2 ) {
 
 }
 
+function render_section_about_jjcode( int $heading_level = 2 ) {
+
+  tag_open( 'section' );
+
+    tag_text( "h{$heading_level}", 'New JJCODE', [ 'id' => 'jjcode' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'This is a facility for John. I use it to generate the five digit codes used in the short links. ' );
+      out_text( 'Usually this is an automated process, but sometimes I set it up manually.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      $jjcode = itl()->get_new_jjcode();
+
+      out_text( "Here is a new JJCODE: $jjcode" );
+
+    tag_shut( 'p' );
+
+  tag_shut( 'section' );
+
+}
+
 function render_section_about_shortcuts( int $heading_level = 2 ) {
 
   tag_open( 'section' );
@@ -410,6 +437,8 @@ function render_section_about_shortcuts( int $heading_level = 2 ) {
         $mini_projects  = '/feature.php/mini-project#heading';
         $maxitronix     = '/feature.php/maxitronix#heading';
 
+        $title_jjcode = 'This is a facility for John.';
+
         render_shortcut( '?', 'Shortcuts',          '/about.php#shortcuts',           TITLE_ABOUT_SHORTCUTS   );
         render_shortcut( '0', 'Return to Top',      '#',                              TITLE_TOP               );
         render_shortcut( '.', 'Table of Contents',  '#contents',                      TITLE_TOC               );
@@ -419,6 +448,7 @@ function render_section_about_shortcuts( int $heading_level = 2 ) {
         render_shortcut( 'I', 'Silly Job Title',    '/#silly-job-title',              TITLE_SILLY_JOB_TITLE   );
         render_shortcut( 'M', 'Main Channel',       $main_channel,                    TITLE_CHANNEL_MAIN      );
         render_shortcut( '2', '2nd Channel',        $extra_channel,                   TITLE_CHANNEL_EXTRA     );
+        render_shortcut( '5', 'New JJCODE',         '/about.php#jjcode',              $title_jjcode           );
         render_shortcut( 'S', 'Sponsors',           '/sponsor.php#heading',           TITLE_SPONSOR           );
         render_shortcut( 'E', 'Equipment',          '/equipment.php#heading',         TITLE_EQUIPMENT         );
         render_shortcut( 'A', 'About the Website',  '/about.php#heading',             TITLE_ABOUT             );

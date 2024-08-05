@@ -772,7 +772,15 @@ function render_equipment( $equipment_list ) {
 
       tag_open( 'p' );
 
-        out_text( 'Note: the values shown here are not exact, for a bunch of reasons.' );
+        out_text( 'Note: the values shown here are not exact, for ' );
+
+        render_link_internal(
+          'a bunch of reasons',
+          url_base() . '/about.php#records',
+          'Click here to read about price inaccuracies.',
+        );
+
+        out_text( '.' );
 
       tag_shut( 'p' );
 
@@ -1444,17 +1452,20 @@ function render_equipment_table( $equipment_list ) {
 
           if ( $purchase_list ) {
 
-            $adjust = 4;
+            $adjust = 5;
             $count += count( $purchase_list );
 
           }
           else {
 
-            $adjust = 3;
+            $adjust = 4;
 
           }
 
           $count = $count + $adjust;
+
+          $aud_total = 0;
+          $item_count = 0;
 
           if ( count( $affiliate_link_list ) ) {
 
@@ -1659,7 +1670,7 @@ function render_equipment_table( $equipment_list ) {
 
                 $item_options_html = $affiliate_link->get_item_options()->to_html();
 
-                tag_html( 'td', $item_options_html, [ 'class' => 'item_options' ] );
+                tag_html( 'td', $item_options_html, [ 'class' => 'item_options center' ] );
 
               }
               else {
@@ -1853,7 +1864,8 @@ function render_equipment_table( $equipment_list ) {
 
               tag_text( 'th', 'Option(s)' );
 
-              tag_text( 'th', 'Notes' );
+              //tag_text( 'th', 'Notes' );
+              tag_text( 'th', 'Total (AUD)', [ 'style' => 'width:125px' ] );
 
             tag_shut( 'tr' );
 
@@ -1894,6 +1906,9 @@ function render_equipment_table( $equipment_list ) {
               $ancillary_charges_html = $ancillary_charges ? $ancillary_charges->to_html() : '';
 
               $total = $subtotal->add_price( $ancillary_charges );
+
+              $aud_total += $total->to_AUD()->to_int();
+              $item_count += $quantity->get_number();
 
               $number = $quantity->get_value();
 
@@ -1988,15 +2003,33 @@ function render_equipment_table( $equipment_list ) {
 
                 tag_shut( 'td' );
 
-                tag_html( 'td', $options_html );
+                tag_html( 'td', $options_html, [ 'class' => 'center' ] );
 
-                tag_open( 'td' );
-
-                tag_shut( 'td' );
+                tag_text(
+                  'td',
+                  format_price_aud( $total ),
+                  [ 'class' => 'total right' ]
+                );
 
               tag_shut( 'tr' );
 
             }
+
+            tag_open( 'tr' );
+
+              tag_text(
+                'td',
+                "I purchased $item_count of these for total (AUD):",
+                [
+                  'class' => 'right',
+                  'colspan' => 5,
+                ]
+              );
+
+              tag_text( 'td', format_intprice_aud( $aud_total ), [ 'class' => 'right' ] );
+
+            tag_shut( 'tr' );
+
           }
         }
 
@@ -2005,6 +2038,18 @@ function render_equipment_table( $equipment_list ) {
     tag_shut( 'table' );
 
   tag_shut( 'div' );
+
+}
+
+function format_price_aud( $price ) {
+
+  return format_intprice_aud( $price->to_AUD()->to_int() );
+
+}
+
+function format_intprice_aud( $price ) {
+
+  return '$' . number_format( $price / 100.0, 2 );
 
 }
 

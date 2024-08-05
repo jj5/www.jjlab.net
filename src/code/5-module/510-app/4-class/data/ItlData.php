@@ -109,30 +109,65 @@ class ItlData {
 
   public function get_short_link( $url ) {
 
-    foreach ( $this->link_file->data as $key => $target ) {
+    foreach ( $this->link_file->data as $jjcode => $target ) {
 
-      if ( $target === $url ) { return 'https://jj5.net' . $key; }
+      if ( $target === $url ) { return "https://jj5.net/$jjcode"; }
 
     }
 
     do {
 
-      $key = '/' . random_int( 12345, 99999 );
+      $jjcode = $this->get_new_jjcode();
 
     }
-    while ( array_key_exists( $key, $this->link_file->data ) );
+    while ( array_key_exists( $jjcode, $this->link_file->data ) );
 
-    $this->link_file->data[ $key ] = $url;
+    $this->link_file->data[ $jjcode ] = $url;
 
     if ( is_dev() ) { $this->link_file->save(); }
 
-    return 'https://jj5.net' . $key;
+    return "https://jj5.net/$jjcode";
 
   }
 
   public function get_long_link( $key ) {
 
-    return $this->link_file->data[ $key ] ?? null;
+    return $this->link_file->data[ $this->get_jjcode( $key ) ] ?? null;
+
+  }
+
+  public function get_new_jjcode() {
+
+    static $jjcode_min = 12345;
+    static $jjcode_max = 99999;
+
+    for( $try = 1; $try <= 1000; $try++ ) {
+
+      $jjcode = random_int( $jjcode_min, $jjcode_max );
+
+      if ( ! array_key_exists( $jjcode, $this->link_file->data ) ) { return $jjcode; }
+
+    }
+
+    // 2024-08-05 jj5 - couldn't find one randomly? Maybe the list is getting full. Let's try a linear search.
+
+    for( $jjcode = $jjcode_min; $jjcode <= $jjcode_max; $jjcode++ ) {
+
+      if ( ! array_key_exists( $jjcode, $this->link_file->data ) ) { return $jjcode; }
+
+    }
+
+    throw new Exception( 'Failed to generate new jjcode' );
+
+  }
+
+  public function get_jjcode( string $key ) {
+
+    if ( strlen( $key ) === 0 ) { return null; }
+
+    if ( $key[ 0 ] === '/' ) { $key = substr( $key, 1 ); }
+
+    return substr( $key, 0, 5 );
 
   }
 }
