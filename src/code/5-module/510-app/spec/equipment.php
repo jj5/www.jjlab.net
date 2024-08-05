@@ -9078,7 +9078,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71xPUsEOFDL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name  ( 'Kaisi' ),
-    model_name         ( '45x30cm' ),
+    model_name         ( 'S-160 45x30cm' ),
     EquipmentFeature::REPAIR_MAT,
   ),
   /*
@@ -9223,7 +9223,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/61HY+qheVsL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name  ( 'Kaisi' ),
-    model_name         ( '35x25cm' ),
+    model_name         ( 'S-130 35x25cm' ),
     EquipmentFeature::REPAIR_MAT,
   ),
   /*
