@@ -1775,7 +1775,7 @@ function render_equipment_table( $equipment_list ) {
                         'a',
                         $text_html,
                         [
-                          'href' => "#$id",
+                          'href' => url_base() . "/equipment.php#$id",
                           'class' => 'internal',
                           'title' => TITLE_LINK_SEE_ALSO,
                         ]

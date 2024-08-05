@@ -1484,6 +1484,8 @@ enum EquipmentFeature : string {
 
       case VESA_WALL_MOUNT = 'VESA-wall-mount';
 
+      case WEBCAM_WALL_MOUNT = 'webcam-wall-mount';
+
   //
   // 2024-08-05 jj5 - WRIST_PAD
   //

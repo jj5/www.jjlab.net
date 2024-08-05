@@ -2682,6 +2682,11 @@ equipment_define(
       EquipmentFeature::WALL_MOUNT,
     );
 
+    equipment_define(
+      EquipmentFeature::WEBCAM_WALL_MOUNT,
+      EquipmentFeature::WALL_MOUNT,
+    );
+
 //
 // 2024-08-05 jj5 - WRIST_PAD
 //
@@ -3946,6 +3951,14 @@ equipment(
     EquipmentConnectivity::DISPLAY_PORT,
     EquipmentConnectivity::USB,
   ),
+  web_link(
+    link_text   ( 'Printer Cable 15FT(4.5m),AkoaDa USB 2.0 Printer Cable USB Type A to B Male Printer Cable' ),
+    link_href   ( 'https://www.amazon.com.au/gp/product/B087BZDQQS' ),
+  ),
+  web_link(
+    link_text   ( 'sweguard 4k dp Cable' ),
+    link_href   ( 'https://www.amazon.com.au/gp/product/B08HWRLRKP' ),
+  ),
   /*
   equipment_info(
     manufacturer_name ( 'ATEN' ),
@@ -4500,6 +4513,7 @@ equipment(
   search_url    ( 'https://www.amazon.com.au/s?k=Riden+RD6006+Bench+Power+Supply&s=price-asc-rank' ),
   warning         ( 'Make sure you get a shell and power-supply to go with the unit' ),
   warning         ( 'You might like to investigate other options: RD6006-W, RD6006P, and RD6006P-W; also: RD6018, RD6024, RK6006' ),
+  warning         ( 'I ordered mine with the S12D case' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/RD-RD6006W-Power-Supply-assembled/dp/B096548QH5/ref=sr_1_14?dib=eyJ2IjoiMSJ9.M3ZzSvvRBHAFaAXC0f6dS3isgvmIbjaCDX-UZ3NYtnOVokq5kAqg2k2dgP2qJwWwgoxpvmjosgWiOWXn3xzqxNr5F76QBOW54_6U6PQCR47beq9C6md4BrlTMkA8dwciiXZN_Nk50Yr2-UPA58kRQA.byd7reRahNEJ0HmV0pQ2kmFmzUmfcPM30lT4p50UIOg&dib_tag=se&keywords=Riden%2BRD6006%2BBench%2BPower%2BSupply&qid=1705236071&sr=8-14&th=1' ),
     affiliate_url ( 'https://amzn.to/41ZQW2X' ),
@@ -14130,6 +14144,18 @@ equipment(
     EquipmentFeature::VIDEO_CAMERA,
     EquipmentConnectivity::USB,
   ),
+  see_also( 'Acetaken C920WM-001 Webcam Wall Mount' ),
+  see_also( 'ARKON CMPHD006 Webcam Wall Mount' ),
+  /*
+  web_link(
+    link_text   ( 'Webcam Wall Mount, C920s Stand Holder Compatible with Logitech C920s StreamCam C922x C920 C930e C615 Brio C925e - Acetaken x4' ),
+    link_href   ( 'https://amzn.to/3SV1v4T' ),
+  ),
+  web_link(
+    link_text   ( 'ARKON CMPHD006 Camera Wall Mount for CCTV POV Camcorders Cameras, Black' ),
+    link_href   ( 'https://amzn.to/3SDGzPw' ),
+  ),
+  */
   sixsigma_url  ( '' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B0BD4SZ9CZ' ),
@@ -14743,6 +14769,76 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2023-08-14' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/51Km1SDWsgL._AC_SL1000_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Acetaken' ),
+    model_name        ( 'C920WM-001' ),
+    EquipmentFeature::WEBCAM_WALL_MOUNT,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B07GVJMWFF' ),
+    affiliate_url ( 'https://amzn.to/3SV1v4T' ),
+    listing_name  ( 'Webcam Wall Mount, C920s Stand Holder Compatible with Logitech C920s StreamCam C922x C920 C930e C615 Brio C925e - Acetaken' ),
+    item_price    ( 'AU$29.80' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B07GVJMWFF' ),
+    order_url       ( 'https://www.amazon.com.au/gp/legacy/order-history?ij=&opt=ab&search=249-4017065-3427025&ref_=&ie=UTF8' ),
+    order_id        ( '249-4017065-3427025' ),
+    order_date      ( '14 August 2023' ),
+    order_item_name ( 'Webcam Wall Mount, C920s Stand Holder Compatible with Logitech C920s StreamCam C922x C920 C930e C615 Brio C925e - Acetaken' ),
+    order_price     ( 'AU$29.80' ),
+    order_quantity  ( 2 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B07GVJMWFF' ),
+    order_url       ( 'https://www.amazon.com.au/gp/legacy/order-history?ij=&opt=ab&search=249-9920529-0060600&ref_=&ie=UTF8' ),
+    order_id        ( '249-9920529-0060600' ),
+    order_date      ( '13 August 2023' ),
+    order_item_name ( 'Webcam Wall Mount, C920s Stand Holder Compatible with Logitech C920s StreamCam C922x C920 C930e C615 Brio C925e - Acetaken' ),
+    order_price     ( 'AU$29.80' ),
+    order_quantity  ( 2 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B07GVJMWFF' ),
+    order_url       ( 'https://www.amazon.com.au/gp/legacy/order-history?ij=&opt=ab&search=249-5809880-4993438&ref_=&ie=UTF8' ),
+    order_id        ( '249-5809880-4993438' ),
+    order_date      ( '9 August 2023' ),
+    order_item_name ( 'Webcam Wall Mount, C920s Stand Holder Compatible with Logitech C920s StreamCam C922x C920 C930e C615 Brio C925e - Acetaken' ),
+    order_price     ( 'AU$29.80' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-09' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71teM9MLQ+L._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'ARKON' ),
+    model_name        ( 'CMPHD006' ),
+    EquipmentFeature::WEBCAM_WALL_MOUNT,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B00CMLX1O2' ),
+    affiliate_url ( 'https://amzn.to/3SDGzPw' ),
+    listing_name  ( 'ARKON CMPHD006 Camera Wall Mount for CCTV POV Camcorders Cameras, Black' ),
+    item_price    ( 'AU$60.43' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B00CMLX1O2' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=249-5809880-4993438' ),
+    order_id        ( '249-5809880-4993438' ),
+    order_date      ( '9 August 2023' ),
+    order_item_name ( 'ARKON CMPHD006 Camera Wall Mount for CCTV POV Camcorders Cameras, Black' ),
+    order_price     ( 'AU$60.43' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
 
 /*
 
@@ -14822,5 +14918,10 @@ equipment(
     order_discount  ( '' ),
   ),
 );
+
+  web_link(
+    link_text   ( '' ),
+    link_href   ( '' ),
+  ),
 
 */
