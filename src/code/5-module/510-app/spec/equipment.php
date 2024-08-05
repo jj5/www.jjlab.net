@@ -11905,6 +11905,10 @@ equipment(
     listing_name  ( 'Adafruit PCB Ruler v2-6" [ADA1554]' ),
     item_price    ( 'US$8.10' ),
   ),
+  web_link(
+    link_href   ( 'https://blog.adafruit.com/2014/09/15/one-pcb-to-ruler-them-all/' ),
+    link_text   ( 'One PCB to Ruler Them All' ),
+  ),
 );
 
 equipment(
@@ -12682,6 +12686,7 @@ equipment(
     category          ( 'Test Equipment' ),
   ),
   */
+  see_also      ( 'Ampcom Automatic Network Cable Tester' ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/OULLX_NSS-681HDMI-RJ45_Cable_Tester' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005754974142.html' ),
@@ -13242,6 +13247,7 @@ equipment(
     category          ( 'Cable Tester' ),
   ),
   */
+  see_also      ( 'OULLX NSS-681HDMI-RJ45 Cable Tester' ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/ANENG_M469D_Network_Cable_Tester' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005288246731.html' ),
@@ -14929,8 +14935,8 @@ equipment(
 );
 
   web_link(
-    link_text   ( '' ),
     link_href   ( '' ),
+    link_text   ( '' ),
   ),
 
 */

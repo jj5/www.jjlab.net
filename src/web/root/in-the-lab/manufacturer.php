@@ -186,6 +186,21 @@ function render_equipment_list_for_manufacturer( $manufacturer, $equipment_list 
       tag_shut( 'section' );
 
     }
+    elseif ( $manufacturer_name === 'Yum Cha' ) {
+
+      tag_open( 'section' );
+
+        tag_text( 'h2', "Yum Cha Brand", [ 'id' => 'yum-cha' ] );
+
+        tag_open( 'p' );
+
+          out_text( 'When I don\'t know the brand name I call the manufacturer "Yum Cha".' );
+
+        tag_shut( 'p' );
+
+      tag_shut( 'section' );
+
+    }
 
     render_equipment( $equipment_list );
 
