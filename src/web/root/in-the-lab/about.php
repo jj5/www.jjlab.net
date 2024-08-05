@@ -47,6 +47,8 @@ function render_about_main() {
 
     render_section_about_announcements();
 
+    render_section_about_records();
+
     render_section_about_colophon();
 
     render_section_about_secrets();

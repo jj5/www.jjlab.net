@@ -14432,8 +14432,7 @@ equipment(
   equipment_item(
     manufacturer_name ( '' ),
     model_name        ( '' ),
-    equipment_type    ( '' ),
-    category          ( '' ),
+    EquipmentFeature::
   ),
   sixsigma_url  ( '' ),
   affiliate_link(

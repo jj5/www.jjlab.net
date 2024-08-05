@@ -635,6 +635,49 @@ function render_section_about_announcements( int $heading_level = 2 ) {
 
 }
 
+function render_section_about_records( int $heading_level = 2 ) {
+
+  tag_open( 'section' );
+
+    tag_text( "h{$heading_level}", 'Prices and Other Records', [ 'id' => 'records' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'The prices and other information shown on this website can be imprecise for many reasons, including the following:' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'ul' );
+
+      tag_text( 'li', 'currency conversion' );
+      tag_text( 'li', 'tax included or not' );
+      tag_text( 'li', 'shipping included or not' );
+      tag_text( 'li', 'discounts included or not' );
+      tag_text( 'li', 'missing records' );
+      tag_text( 'li', 'incomplete records' );
+      tag_text( 'li', 'out of date records' );
+      tag_text( 'li', 'incorrect records' );
+
+    tag_shut( 'ul' );
+
+    tag_open( 'p' );
+
+      out_text( 'If you find something that is wrong or could be improved, please do ' );
+
+      render_link_internal(
+        'let me know',
+        url_base() . '/contact.php',
+        TITLE_CONTACT,
+      );
+
+      out_text( '.' );
+
+    tag_shut( 'p' );
+
+  tag_shut( 'section' );
+
+}
+
 function render_section_about_video_content( int $heading_level = 2 ) {
 
   tag_open( 'section' );
@@ -796,6 +839,7 @@ function render_stats_rows( $stats ) {
   render_stat_val( 'Standard Deviation',  $stats[ 'std_dev_pop' ] );
 
 }
+
 
 function format_stats_hours( $seconds ) {
 

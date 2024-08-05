@@ -753,6 +753,55 @@ function render_equipment( $equipment_list ) {
 
   tag_shut( 'div' );
 
+  $total = get_equipment_stats( $equipment_list, $stats );
+
+  if ( $total ) {
+
+    tag_open( 'section' );
+
+      tag_text( 'h2', 'Total Paid and Other Statistics', [ 'id' => 'total-paid' ] );
+
+      tag_open( 'p' );
+
+        $total_formatted = format_aud_cents( $total );
+        $count_formatted = number_format( $stats[ 'count' ] );
+
+        out_text( "Total paid for the $count_formatted items on this page: $total_formatted." );
+
+      tag_shut( 'p' );
+
+      tag_open( 'p' );
+
+        out_text( 'Note: the values shown here are not exact, for a bunch of reasons.' );
+
+      tag_shut( 'p' );
+
+      tag_open( 'table' );
+
+        tag_open( 'thead' );
+
+          tag_open( 'tr' );
+
+            tag_text( 'th', '' );
+            tag_text( 'th', 'USD' );
+            tag_text( 'th', 'AUD' );
+
+          tag_shut( 'tr' );
+
+        tag_shut( 'thead' );
+
+        tag_open( 'tbody' );
+
+          render_stats_rows_aud( $stats );
+
+        tag_shut( 'tbody' );
+
+      tag_shut( 'table' );
+
+    tag_shut( 'section' );
+
+  }
+
   $item = $count === 1 ? $equipment_list[ 0 ] : null;
 
   render_equipment_notes_section( $item );
@@ -764,6 +813,73 @@ function render_equipment( $equipment_list ) {
   }
 
   render_section_contents();
+
+}
+
+function render_stats_rows_aud( $stats ) {
+
+  //render_stat_def_aud( 'Number of Items',     $stats[ 'count' ] );
+
+  render_stat_val_aud( 'Total Paid',          $stats[ 'total' ] );
+  render_stat_val_aud( 'Minimum Paid',        $stats[ 'min' ] );
+  render_stat_val_aud( 'Maximum Paid',        $stats[ 'max' ] );
+  render_stat_val_aud( 'Median Paid',         $stats[ 'medians' ] );
+  render_stat_val_aud( 'Average Paid',        $stats[ 'a_mean' ] );
+  render_stat_val_aud( 'Standard Deviation',  $stats[ 'std_dev_pop' ] );
+
+}
+
+function render_stat_val_aud( $dt, $arg ) {
+
+  if ( is_array( $arg ) ) {
+
+    $arg = end( $arg );
+
+  }
+
+  tag_open( 'tr' );
+
+    tag_text( 'th', "$dt:", [ 'class' => 'right' ] );
+
+    $aud_formatted = format_aud_cents( $arg );
+    $price = new ItemTotal( $aud_formatted );
+    $usd = $price->to_USD();
+    $usd_formatted = $usd->format();
+
+    tag_text( 'td', $usd_formatted, [ 'class' => 'right' ] );
+    tag_text( 'td', $aud_formatted, [ 'class' => 'right' ] );
+
+  tag_shut( 'tr' );
+
+}
+function format_aud_cents( $aud_cents ) {
+
+
+  if ( ! is_numeric( $aud_cents ) ) { dump( $aud_cents ); }
+
+  $value = $aud_cents / 100.0;
+
+  return 'A$' . number_format( $value, 2 );
+
+}
+
+function get_equipment_stats( $equipment_list, &$stats = null ) {
+
+  $list = [];
+  $total = 0;
+
+  foreach ( $equipment_list as $item ) {
+
+    $aud_cents = $item->get_sort_value();
+
+    $list[] = $aud_cents;
+    $total += $aud_cents;
+
+  }
+
+  $stats = mud_get_stats( $list );
+
+  return $total;
 
 }
 
