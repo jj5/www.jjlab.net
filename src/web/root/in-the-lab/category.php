@@ -163,6 +163,22 @@ function render_equipment_list_for_category( $category, $equipment_list ) {
 
     tag_shut( 'header' );
 
+    if ( $category_name === '❤️' ) {
+
+      tag_open( 'section' );
+
+        tag_text( 'h2', "❤️ Category", [ 'id' => 'heart-category' ] );
+
+        tag_open( 'p' );
+
+          out_text( 'This category indicates my favourite equipment.' );
+
+        tag_shut( 'p' );
+
+      tag_shut( 'section' );
+
+    }
+
     render_equipment( $equipment_list );
 
     render_section_about_next();
