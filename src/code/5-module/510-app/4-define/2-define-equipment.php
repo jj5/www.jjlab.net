@@ -145,6 +145,11 @@ equipment_define(
     EquipmentFeature::FEATURE,
   );
 
+  equipment_define(
+    EquipmentFeature::COSTUME,
+    EquipmentFeature::FEATURE,
+  );
+
 //
 // 2024-08-04 jj5 - ADAPTER
 //

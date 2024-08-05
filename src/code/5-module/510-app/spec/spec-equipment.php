@@ -9107,6 +9107,7 @@ equipment(
     manufacturer_name  ( 'Asometech' ),
     model_name         ( 'Universal' ),
     EquipmentFeature::STYLUS_PEN,
+    EquipmentFeature::COSTUME,
   ),
   /*
   equipment_info(
@@ -9153,6 +9154,7 @@ equipment(
     manufacturer_name  ( 'Adafruit' ),
     model_name         ( 'One PCB to Ruler Them All' ),
     EquipmentFeature::RULER,
+    EquipmentFeature::COSTUME,
   ),
   /*
   equipment_info(
@@ -9194,6 +9196,7 @@ equipment(
     EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH0,
     EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH00,
     EquipmentFeature::FLATHEAD_SCREWDRIVER,
+    EquipmentFeature::COSTUME,
   ),
   /*
   equipment_info(
@@ -9239,6 +9242,7 @@ equipment(
     manufacturer_name  ( 'Portwest' ),
     model_name         ( 'Standard' ),
     EquipmentFeature::LAB_COAT,
+    EquipmentFeature::COSTUME,
   ),
   /*
   equipment_info(
@@ -9283,6 +9287,7 @@ equipment(
     manufacturer_name  ( 'Diodrio' ),
     model_name         ( 'Leather' ),
     EquipmentFeature::POCKET_PROTECTOR,
+    EquipmentFeature::COSTUME,
   ),
   /*
   equipment_info(
@@ -9326,6 +9331,7 @@ equipment(
     ),
     manufacturer_name  ( 'Oloey' ),
     EquipmentFeature::SAFETY_GOGGLES,
+    EquipmentFeature::COSTUME,
   ),
   /*
   equipment_info(
@@ -9372,6 +9378,7 @@ equipment(
     manufacturer_name  ( 'YOUOWO' ),
     model_name         ( 'ID' ),
     EquipmentFeature::BADGE_HOLDER,
+    EquipmentFeature::COSTUME,
   ),
   /*
   equipment_info(

@@ -64,6 +64,8 @@ enum EquipmentFeature : string {
 
     case STUDIO = 'studio';
 
+    case COSTUME = 'costume';
+
   //
   // 2024-08-04 jj5 - ADAPTER
   //
