@@ -113,9 +113,23 @@ enum EquipmentFeature : string {
 
   case PIN = 'pin';
 
+    case PINS = 'pins';
+
+      case SEWING_PINS = 'sewing-pins';
+
   case KEY_RING = 'key-ring';
 
   case CORKSCREW = 'corkscrew';
+
+  case DEMAGNETIZER = 'demagnetizer';
+
+  //
+  // 2024-08-06 jj5 - PEGBOARD_HOOK
+  //
+
+  case PEGBOARD_HOOK = 'pegboard-hook';
+
+    case PEGBOARD_HOOK_SET = 'pegboard-hook-set';
 
   //
   // 2024-08-04 jj5 - AWL
@@ -691,6 +705,16 @@ enum EquipmentFeature : string {
 
       case BENCH_VISE = 'bench-vise';
 
+      case VACUUM_VISE = 'vacuum-vise';
+
+  //
+  // 2024-08-06 jj5 - SIGN
+  //
+
+  case SIGN = 'sign';
+
+    case ON_AIR_SIGN = 'on-air-sign';
+
   //
   // 2024-08-04 jj5 - DRILL_PRESS
   //
@@ -921,6 +945,8 @@ enum EquipmentFeature : string {
 
       case TORX_SCREWDRIVER_T25 = 'torx-screwdriver-T25';
 
+      case TORX_SCREWDRIVER_T27 = 'torx-screwdriver-T27';
+
       case TORX_SCREWDRIVER_T30 = 'torx-screwdriver-T30';
 
       case TORX_SCREWDRIVER_T40 = 'torx-screwdriver-T40';
@@ -1061,6 +1087,8 @@ enum EquipmentFeature : string {
 
     case KNIFE = 'knife';
 
+      case BOX_CUTTER = 'box-cutter';
+
       case SWISS_ARMY_KNIFE = 'swiss-army-knife';
 
       case CRAFT_KNIFE = 'craft-knife';
@@ -1102,6 +1130,14 @@ enum EquipmentFeature : string {
   //
 
   case FLUX = 'flux';
+
+  //
+  // 2024-08-06 jj5 - TAPE
+  //
+
+  case TAPE = 'tape';
+
+    case GAFFER_TAPE = 'gaffer-tape';
 
   //
   // 2024-08-04 jj5 - DISPENSER
@@ -1236,6 +1272,22 @@ enum EquipmentFeature : string {
   //
 
   case HEAT_SHRINK = 'heat-shrink';
+
+  //
+  // 2024-08-06 jj5 - WIRE
+  //
+
+  case WIRE = 'wire';
+
+    case WIRE_SPOOL = 'wire-spool';
+
+    case HOOKUP_WIRE = 'hookup-wire';
+
+    case JUMPER_WIRE = 'jumper-wire';
+
+      case DUPONT_WIRE = 'dupont-wire';
+
+    case SOLDER_WIRE = 'solder-wire';
 
   //
   // 2024-08-04 jj5 - CONNECTOR
@@ -1485,7 +1537,13 @@ enum EquipmentFeature : string {
 
       case BENCH_POWER_SUPPLY = 'bench-power-supply';
 
+      case AC_POWER_ADAPTER = 'AC-power-adapter';
+
       case POWER_MODULE = 'power-module';
+
+    case POWER_CABLE = 'power-cable';
+
+      case USB_POWER_CABLE = 'USB-power-cable';
 
 
   //

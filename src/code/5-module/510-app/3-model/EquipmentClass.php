@@ -101,6 +101,7 @@ enum EquipmentClass : string {
   case SCISSORS = 'scissors';
   case SCOPE = 'scope';
   case SCREWDRIVER = 'screwdriver';
+  case SIGN = 'sign';
   case SIGNAL_GENERATOR = 'signal-generator';
   case SOLDERING_IRON = 'soldering-iron';
   case SOLDERING_STATION = 'soldering-station';
@@ -114,6 +115,7 @@ enum EquipmentClass : string {
   case STUD_FINDER = 'stud-finder';
   case STYLUS = 'stylus';
   case SWITCH = 'switch';
+  case TAPE = 'tape';
   case TEST_CLIP = 'test-clip';
   case THERMAL_IMAGER = 'thermal-imager';
   case THERMOMETER = 'thermometer';
@@ -125,6 +127,7 @@ enum EquipmentClass : string {
   case TWEEZERS = 'tweezers';
   case UV_LAMP = 'uv-lamp';
   case VOLTAGE_DETECTOR = 'voltage-detector';
+  case WIRE = 'wire';
   case WIRE_CUTTER = 'wire-cutter';
   case WIRE_FIXTURE = 'wire-fixture';
   case WIRE_STRIPPER = 'wire-stripper';

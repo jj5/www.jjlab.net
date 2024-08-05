@@ -13369,6 +13369,416 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2023-08-26' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/51BqtNKjzrL._SY1600_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'CLISPEED' ),
+    model_name        ( '11-Piece' ),
+    EquipmentFeature::SCREWDRIVER_SET,
+    EquipmentFeature::TORX_SCREWDRIVER_T7,
+    EquipmentFeature::TORX_SCREWDRIVER_T8,
+    EquipmentFeature::TORX_SCREWDRIVER_T10,
+    EquipmentFeature::TORX_SCREWDRIVER_T15,
+    EquipmentFeature::TORX_SCREWDRIVER_T20,
+    EquipmentFeature::TORX_SCREWDRIVER_T25,
+    EquipmentFeature::TORX_SCREWDRIVER_T27,
+    EquipmentFeature::TORX_SCREWDRIVER_T30,
+    EquipmentFeature::TORX_SCREWDRIVER_T40,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B095YBVBB9' ),
+    listing_name  ( 'CLISPEED Electric Screw Driver Head Screwdriver Bit Set, 11Pcs S2 Steel Tamper Proof Bit with 1/4 Inch Hex & 3 Inch Length- Magnetic- T40 Head Screw D' ),
+    item_price    ( 'AU$19.90' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B095YBVBB9' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=249-6676139-4134250&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '249-6676139-4134250' ),
+    order_date      ( '26 August 2023' ),
+    order_item_name ( 'CLISPEED Electric Screw Driver Head Screwdriver Bit Set, 11Pcs S2 Steel Tamper Proof Bit with 1/4 Inch Hex & 3 Inch Length- Magnetic- T40 Head Screw D' ),
+    order_price     ( 'AU$19.90' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-26' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71i1ENng-nL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'HORUSDY' ),
+    model_name        ( '12-Piece Magnetic Torx' ),
+    EquipmentFeature::SCREWDRIVER_SET,
+    EquipmentFeature::TORX_SCREWDRIVER_T6,
+    EquipmentFeature::TORX_SCREWDRIVER_T7,
+    EquipmentFeature::TORX_SCREWDRIVER_T8,
+    EquipmentFeature::TORX_SCREWDRIVER_T9,
+    EquipmentFeature::TORX_SCREWDRIVER_T10,
+    EquipmentFeature::TORX_SCREWDRIVER_T15,
+    EquipmentFeature::TORX_SCREWDRIVER_T20,
+    EquipmentFeature::TORX_SCREWDRIVER_T25,
+    EquipmentFeature::TORX_SCREWDRIVER_T27,
+    EquipmentFeature::TORX_SCREWDRIVER_T30,
+    EquipmentFeature::TORX_SCREWDRIVER_T40,
+    EquipmentFeature::DEMAGNETIZER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B083SBVLSX' ),
+    listing_name  ( 'HORUSDY 12-Piece Magnetic Torx Screwdrivers Set, S2 Steel T5 - T40 Torx Star Screwdrivers with Demagnetizer and Storage Pouch' ),
+    item_price    ( 'AU$27.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B083SBVLSX' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=249-0898240-8157454&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '249-0898240-8157454' ),
+    order_date      ( '26 August 2023' ),
+    order_item_name ( 'HORUSDY 12-Piece Magnetic Torx Screwdrivers Set, S2 Steel T5 - T40 Torx Star Screwdrivers with Demagnetizer and Storage Pouch' ),
+    order_price     ( 'AU$27.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-19' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/712Nzwtl9wL._SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'KETAKY Plus' ),
+    model_name        ( 'Multi Charger Cable 2-In 4-Out USB-A USB-C USB-Micro Lightning' ),
+    EquipmentFeature::USB_POWER_CABLE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B0BX371YXH' ),
+    listing_name  ( 'USB C Multi Charger Cable 4 in 2 Fast Charging 3M/10Ft [Apple MFi Certified] USB A/USB C to Micro USB+Type C+2 Lightning, Universal Charger Cable for iPhone/Android(Type C Not for i pad & iPhone15)' ),
+    item_price    ( 'AU$19.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B0BX371YXH' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=249-1961476-5254255&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '249-1961476-5254255' ),
+    order_date      ( '19 August 2023' ),
+    order_item_name ( 'USB C Multi Charger Cable 4 in 2 Fast Charging 3M/10Ft [Apple MFi Certified] USB A/USB C to Micro USB+Type C+2 Lightning, Universal Charger Cable for iPhone/Android(Type C Not for i pad & iPhone15)' ),
+    order_price     ( 'AU$19.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-19' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/31-AA07%2BjEL._SY1600_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'CANARY' ),
+    model_name        ( 'DC-190F' ),
+    EquipmentFeature::BOX_CUTTER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B075FP3JVP' ),
+    listing_name  ( 'CANARY Corrugated Cardboard Cutter Dan Chan, Safety Box Cutter Knife [Non-Stick Fluorine Coating Blade], Made in JAPAN, Yellow (DC-190F-1)' ),
+    item_price    ( 'AU$13.80' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B075FP3JVP' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=249-2519603-9994229&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '249-2519603-9994229' ),
+    order_date      ( '19 August 2023' ),
+    order_item_name ( 'CANARY Corrugated Cardboard Cutter Dan Chan [Non-Sticking Fluorine Coating], Yellow (DC-190F-1) (2 pcs)' ),
+    order_options   ( '2 pcs' ),
+    order_price     ( 'AU$13.80' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-17' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71Z5tW1jfKS._AC_SL1346_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'HORUSDY' ),
+    model_name        ( '120-Piece' ),
+    EquipmentFeature::PEGBOARD_HOOK_SET,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B0819G7QKH' ),
+    listing_name  ( 'HORUSDY 120-Piece PegBoard Hooks Set, Peg Board Assortment 12 Different Types of Hooks for Garage Organizer Bins Shop Display Hanging' ),
+    item_price    ( 'AU$29.69' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B0819G7QKH' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=249-3969626-9459027&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '249-3969626-9459027' ),
+    order_date      ( '17 August 2023' ),
+    order_item_name ( 'HORUSDY 120-Piece PegBoard Hooks Set, Peg Board Assortment 12 Different Types of Hooks for Garage Organizer Bins Shop Display Hanging' ),
+    order_price     ( 'AU$25.49' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-16' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/81-biNYnovL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'DFsucces' ),
+    model_name        ( '250-Piece' ),
+    EquipmentFeature::SEWING_PINS,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B09SFXFPY4' ),
+    listing_name  ( 'Sewing Pins for Fabric, Glass Ball Multicolored Head Pins,Straight Quilting Pins Long 1.5inch,for Quilting, Fabric, Silk, DIY,Dressmaker & Decoration(250pcs,with Case)' ),
+    item_price    ( 'AU$8.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B09SFXFPY4' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=249-6790350-5899814&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '249-6790350-5899814' ),
+    order_date      ( '16 August 2023' ),
+    order_item_name ( 'Sewing Pins for Fabric, Glass Ball Multicolored Head Pins,Straight Quilting Pins Long 1.5inch,for Quilting, Fabric, Silk, DIY,Dressmaker & Decoration(250pcs,with Case)' ),
+    order_price     ( 'AU$8.90' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-16' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71BMPC1rGBL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Phinus' ),
+    model_name        ( '1000-Piece Flat Head' ),
+    EquipmentFeature::SEWING_PINS,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B08FWZNCWJ' ),
+    listing_name  ( '1000PCS Fine Straight Pins, Durable Stainless Steel Dressmaker For Sewing with Plastic Boxes, Flat Head, Satin Pins for Jewelry Making, Sewing Crafts' ),
+    item_price    ( 'AU$7.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B08FWZNCWJ' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=249-6790350-5899814&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '249-6790350-5899814' ),
+    order_date      ( '16 August 2023' ),
+    order_item_name ( '1000PCS Fine Straight Pins, Durable Stainless Steel Dressmaker For Sewing with Plastic Boxes, Flat Head, Satin Pins for Jewelry Making, Sewing Crafts' ),
+    order_price     ( 'AU$8.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-02' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71QdIeLSHjL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'SABRENT' ),
+    model_name        ( 'USB Type-C Tool-Free Enclosure M.2 PCIe NVMe and SATA SSD' ),
+    EquipmentFeature::USB_DRIVE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B08RVC6F9Y' ),
+    listing_name  ( 'SABRENT USB 3.2 Type-C Tool-Free Enclosure for M.2 PCIe NVMe and SATA SSDs (EC-SNVE)' ),
+    item_price    ( 'AU$39.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B08RVC6F9Y' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=249-4364683-6934232&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '249-4364683-6934232' ),
+    order_date      ( '2 August 2023' ),
+    order_item_name ( 'SABRENT USB 3.2 Type-C Tool-Free Enclosure for M.2 PCIe NVMe and SATA SSDs (EC-SNVE)' ),
+    order_price     ( 'AU$39.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-07-19' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71r3VoULzIL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'TREE.NB' ),
+    model_name        ( 'LW-045-231-195-002 19.5V 2.31A' ),
+    EquipmentFeature::AC_POWER_ADAPTER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B085Y3PYZ6' ),
+    listing_name  ( '19.5V 2.31A AC Adapter Charger for HP Split 13 X2;HP Stream 11 13 14 Series;Pavilion x360 x2 11 11t 13 15;Elitebook Folio 1040 G1;P/N 721092-001 PA-1450-56HA Power Cord' ),
+    item_price    ( 'AU$19.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B085Y3PYZ6' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=503-2133862-8030239&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '503-2133862-8030239' ),
+    order_date      ( '19 July 2023' ),
+    order_item_name ( '19.5V 2.31A AC Adapter Charger for HP Split 13 X2;HP Stream 11 13 14 Series;Pavilion x360 x2 11 11t 13 15;Elitebook Folio 1040 G1;P/N 721092-001 PA-1450-56HA Power Cord' ),
+    order_price     ( 'AU$21.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-07-19' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/61zedGqz4RL._SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'BOMEI PACK' ),
+    model_name        ( '3-Roll Black' ),
+    EquipmentFeature::GAFFER_TAPE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B0BGMS1P5Q' ),
+    listing_name  ( 'BOMEI PACK Heavy Duty Black Duct Tape, Multi-Use Easy Tear Gaffer Waterproof Cloth Tape for Repairing, Maintenance and Industrial Use, 1.88 Inch x 32.8 Yards Per Roll, 7.5mil Thick,3 Rolls' ),
+    item_options  ( 'Colour Name: Black' ),
+    item_price    ( 'AU$25.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B0BGMS1P5Q' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=249-3560202-0763006&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '249-3560202-0763006' ),
+    order_date      ( '19 July 2023' ),
+    order_item_name ( 'BOMEI PACK Heavy Duty Black Duct Tape, Multi-Use Easy Tear Gaffer Waterproof Cloth Tape for Repairing, Maintenance and Industrial Use, 1.88 Inch x 32.8 Yards Per Roll, 7.5mil Thick,3 Rolls' ),
+    order_options   ( 'Colour Name: Black' ),
+    order_price     ( 'AU$25.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-07-19' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71h67wGvKNL._AC_SL1000_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'ELEGOO' ),
+    model_name        ( '120-Piece Multicolored' ),
+    EquipmentFeature::DUPONT_WIRE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B01EV70C78' ),
+    listing_name  ( 'Elegoo 120pcs Multicolored Dupont Wire 40pin Male to Female, 40pin Male to Male, 40pin Female to Female Breadboard Jumper Wires Ribbon Cables Kit for arduino' ),
+    item_price    ( 'AU$9.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B01EV70C78' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=249-4150102-9968607' ),
+    order_id        ( '249-4150102-9968607' ),
+    order_date      ( '19 July 2023' ),
+    order_item_name ( 'Elegoo 120pcs Multicolored Dupont Wire 40pin Male to Female, 40pin Male to Male, 40pin Female to Female Breadboard Jumper Wires Ribbon Cables Kit for arduino' ),
+    order_price     ( 'AU$9.96' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B01EV70C78' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=503-6408971-1771815' ),
+    order_id        ( '503-6408971-1771815' ),
+    order_date      ( '21 July 2021' ),
+    order_item_name ( 'Elegoo 120pcs Multicolored Dupont Wire 40pin Male to Female, 40pin Male to Male, 40pin Female to Female Breadboard Jumper Wires Ribbon Cables Kit for arduino' ),
+    order_price     ( 'AU$9.96' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-07-01' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/41Ww8-E7kpL._AC_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Radio Parts' ),
+    model_name        ( 'TH1766' ),
+    EquipmentFeature::BENCH_VISE,
+    EquipmentFeature::VACUUM_VISE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B0789CBDV9' ),
+    listing_name  ( 'VACUUM BENCH VICE WITH' ),
+    item_price    ( 'AU$35.95' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B0789CBDV9' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=249-3490786-9173410&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '249-3490786-9173410' ),
+    order_date      ( '1 July 2023' ),
+    order_item_name ( 'VACUUM BENCH VICE WITH' ),
+    order_price     ( 'AU$29.95' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-07-01' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/518YbrwU2+L._AC_SL1001_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Yakamoz' ),
+    model_name        ( 'Universal Mini Suction Vise Clamp 360 Degrees' ),
+    EquipmentFeature::BENCH_VISE,
+    EquipmentFeature::VACUUM_VISE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B08L3NTSN9' ),
+    listing_name  ( 'Yakamoz Universal Mini Suction Vise Clamp 360 Degrees Drill Press Vise Table Bench Vice with Suction Base for DIY Hobby Jewelry Watch Repairing Nuclear Sculpture Craft Carving Clip On Tool' ),
+    item_price    ( 'AU$15.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B08L3NTSN9' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=249-3490786-9173410&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '249-3490786-9173410' ),
+    order_date      ( '1 July 2023' ),
+    order_item_name ( 'Yakamoz Universal Mini Suction Vise Clamp 360 Degrees Drill Press Vise Table Bench Vice with Suction Base for DIY Hobby Jewelry Watch Repairing Nuclear Sculpture Craft Carving Clip On Tool' ),
+    order_price     ( 'AU$16.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-06-26' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71mP2Y3Mz3L._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'TP-Link' ),
+    model_name        ( 'TL-SG108S 1Gbps 8-Port' ),
+    EquipmentFeature::UNMANAGED_ETHERNET_SWITCH,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B07HKSXVN7' ),
+    listing_name  ( 'TP-Link 8-Port 10/100/1000Mbps Desktop Unmanaged Switch, Steel housing, Desktop Wall-mounting Design, Green Technology (TL-SG108S) AU Version' ),
+    item_price    ( 'AU$49.61' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B07HKSXVN7' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=249-3513022-2903021&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '249-3513022-2903021' ),
+    order_date      ( '26 June 2023' ),
+    order_item_name ( 'TP-Link 8-Port 10/100/1000Mbps Desktop Unmanaged Switch, Steel housing, Desktop Wall-mounting Design, Green Technology (TL-SG108S) AU Version' ),
+    order_price     ( 'AU$49.61' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-06-22' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71WHnANkkpL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'NPW' ),
+    model_name        ( 'LED Retro' ),
+    EquipmentFeature::ON_AIR_SIGN,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B0BHL1S1TC' ),
+    listing_name  ( 'NPW Gifts On Air Sign LED Retro Desk Light Board' ),
+    item_price    ( 'AU$39.95' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B0BHL1S1TC' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=250-6389196-5301438&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '250-6389196-5301438' ),
+    order_date      ( '22 June 2023' ),
+    order_item_name ( 'NPW Gifts On Air Sign LED Retro Desk Light Board' ),
+    order_price     ( 'AU$35.08' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
 
 /*
 

@@ -256,6 +256,16 @@ equipment_define(
   EquipmentClass::TOOL,
 );
 
+  equipment_define(
+    EquipmentFeature::PINS,
+    EquipmentFeature::PIN,
+  );
+
+    equipment_define(
+      EquipmentFeature::SEWING_PINS,
+      EquipmentFeature::PINS,
+    );
+
 equipment_define(
   EquipmentFeature::KEY_RING,
   EquipmentClass::TOOL,
@@ -265,6 +275,28 @@ equipment_define(
   EquipmentFeature::CORKSCREW,
   EquipmentClass::TOOL,
 );
+
+equipment_define(
+  EquipmentFeature::DEMAGNETIZER,
+  EquipmentClass::TOOL,
+  EquipmentAttribute::MAGNETIC,
+);
+
+//
+// 2024-08-06 jj5 - PEGBOARD_HOOK
+//
+
+equipment_define(
+  EquipmentFeature::PEGBOARD_HOOK,
+  EquipmentFeature::PEGBOARD,
+  EquipmentAttribute::ACCESSORY,
+  EquipmentAttribute::ATTACHMENT,
+);
+
+  equipment_define(
+    EquipmentFeature::PEGBOARD_HOOK_SET,
+    EquipmentFeature::PEGBOARD_HOOK,
+  );
 
 //
 // 2024-08-04 jj5 - AWL
@@ -1612,7 +1644,28 @@ equipment_define(
     equipment_define(
       EquipmentFeature::BENCH_VISE,
       EquipmentFeature::VISE,
+      EquipmentAttribute::BENCH_EQUIPMENT,
     );
+
+    equipment_define(
+      EquipmentFeature::VACUUM_VISE,
+      EquipmentFeature::VISE,
+    );
+
+//
+// 2024-08-06 jj5 - SIGN
+//
+
+equipment_define(
+  EquipmentFeature::SIGN,
+  EquipmentClass::SIGN,
+);
+
+  equipment_define(
+    EquipmentFeature::ON_AIR_SIGN,
+    EquipmentFeature::SIGN,
+    EquipmentFeature::STUDIO,
+  );
 
 //
 // 2024-08-04 jj5 - DRILL_PRESS
@@ -2124,6 +2177,11 @@ equipment_define(
     );
 
     equipment_define(
+      EquipmentFeature::TORX_SCREWDRIVER_T27,
+      EquipmentFeature::TORX_SCREWDRIVER,
+    );
+
+    equipment_define(
       EquipmentFeature::TORX_SCREWDRIVER_T30,
       EquipmentFeature::TORX_SCREWDRIVER,
     );
@@ -2434,6 +2492,11 @@ equipment_define(
   );
 
     equipment_define(
+      EquipmentFeature::BOX_CUTTER,
+      EquipmentFeature::KNIFE,
+    );
+
+    equipment_define(
       EquipmentFeature::SWISS_ARMY_KNIFE,
       EquipmentFeature::KNIFE,
     );
@@ -2513,6 +2576,21 @@ equipment_define(
 );
 
 //
+// 2024-08-06 jj5 - TAPE
+//
+
+equipment_define(
+  EquipmentFeature::TAPE,
+  EquipmentClass::TAPE,
+  EquipmentAttribute::CONSUMABLE,
+);
+
+  equipment_define(
+    EquipmentFeature::GAFFER_TAPE,
+    EquipmentFeature::TAPE,
+  );
+
+//
 // 2024-08-04 jj5 - DISPENSER
 //
 
@@ -2524,6 +2602,7 @@ equipment_define(
   equipment_define(
     EquipmentFeature::TAPE_DISPENSER,
     EquipmentFeature::DISPENSER,
+    EquipmentFeature::TAPE,
   );
 
 //
@@ -2771,6 +2850,41 @@ equipment_define(
   EquipmentClass::HEAT_SHRINK,
   EquipmentAttribute::CONSUMABLE,
 );
+
+//
+// 2024-08-06 jj5 - WIRE
+//
+
+equipment_define(
+  EquipmentFeature::WIRE,
+  EquipmentClass::WIRE,
+  EquipmentAttribute::CONSUMABLE,
+);
+
+  equipment_define(
+    EquipmentFeature::WIRE_SPOOL,
+    EquipmentFeature::WIRE,
+  );
+
+  equipment_define(
+    EquipmentFeature::HOOKUP_WIRE,
+    EquipmentFeature::WIRE,
+  );
+
+  equipment_define(
+    EquipmentFeature::JUMPER_WIRE,
+    EquipmentFeature::WIRE,
+  );
+
+    equipment_define(
+      EquipmentFeature::DUPONT_WIRE,
+      EquipmentFeature::JUMPER_WIRE,
+    );
+
+  equipment_define(
+    EquipmentFeature::SOLDER_WIRE,
+    EquipmentFeature::WIRE,
+  );
 
 //
 // 2024-08-04 jj5 - CONNECTOR
@@ -3250,8 +3364,25 @@ equipment_define(
     );
 
     equipment_define(
+      EquipmentFeature::AC_POWER_ADAPTER,
+      EquipmentFeature::POWER_SUPPLY,
+      EquipmentFeature::ADAPTER,
+    );
+
+    equipment_define(
       EquipmentFeature::POWER_MODULE,
       EquipmentFeature::POWER_SUPPLY,
+    );
+
+  equipment_define(
+    EquipmentFeature::POWER_CABLE,
+    EquipmentFeature::POWER,
+  );
+
+    equipment_define(
+      EquipmentFeature::USB_POWER_CABLE,
+      EquipmentFeature::POWER_CABLE,
+      EquipmentConnectivity::USB,
     );
 
 //
