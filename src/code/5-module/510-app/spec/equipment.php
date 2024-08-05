@@ -8331,7 +8331,7 @@ equipment(
 
 equipment(
   equipment_date( '2024-01-15' ),
-  equipment_icon( 'https://ae01.alicdn.com/kf/Sdf76767d6be74951b869694bbe158d3cG/3-Hand-Soldering-Iron-Stand-Welding-Tool-With-Magnifying-Glass-Illuminated-LED-Alligator-Clip-Holder-Clamp.jpg_.webp' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S4d0f1e51c0584e119ecff8aae3ab9859S.jpg_640x640.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
     model_name        ( 'TE-801' ),
@@ -8364,8 +8364,8 @@ equipment(
     item_shipping ( 'AU$2.99' ),
   ),
   purchase(
-    equipment_url   ( 'https://www.aliexpress.com/item/1005005518045978.html?spm=a2g0o.order_detail.order_detail_item.3.3345f19cutwl8d' ),
-    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.219.764218021V85h7&orderId=8174193325133938' ),
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005518045978.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.21.16dd1802S0KWpb&orderId=8174193325133938' ),
     order_id        ( '8174193325133938' ),
     order_date      ( 'Aug 25, 2023' ),
     order_item_name ( '3 Hand Soldering Iron Stand Welding Tool With Magnifying Glass Illuminated LED Alligator Clip Holder Clamp Helping Repair' ),
@@ -8374,6 +8374,17 @@ equipment(
     order_quantity  ( 1 ),
     order_gst       ( 'AU$1.19' ),
     order_discount  ( 'AU$0.76' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005499017037.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.26.16dd1802S0KWpb&orderId=8174193325153938' ),
+    order_id        ( '8174193325153938' ),
+    order_date      ( 'Aug 25, 2023' ),
+    order_item_name ( 'Desktop Soldering Holder Welding Equipment Auxiliary Tool Third Hand Helping Repair Tool Magnifier LED Lighting Soldering Stand' ),
+    order_price     ( 'AU$12.01' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$1.13' ),
+    order_discount  ( 'AU$0.71' ),
   ),
 );
 
