@@ -2644,6 +2644,25 @@ equipment_define(
 );
 
 //
+// 2024-08-05 jj5 - MOUNT
+//
+
+equipment_define(
+  EquipmentFeature::MOUNT,
+  EquipmentClass::MOUNT,
+);
+
+  equipment_define(
+    EquipmentFeature::WALL_MOUNT,
+    EquipmentFeature::MOUNT,
+  );
+
+    equipment_define(
+      EquipmentFeature::VESA_WALL_MOUNT,
+      EquipmentFeature::WALL_MOUNT,
+    );
+
+//
 // 2024-08-04 jj5 - FEATURE
 //
 
@@ -14266,6 +14285,145 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2022-06-12' ),
+  equipment_icon( 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fonline.laceys.tv%2Fproductimages%2FLCD212.jpg&f=1&nofb=1&ipt=9c312d6708ecd5508b59033c4639ee0741d6ed64bc54e816db140a6a08bda879&ipo=images' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( '100x100 200X200mm' ),
+    EquipmentFeature::VESA_WALL_MOUNT,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/174829510182' ),
+    listing_name  ( 'VESA 100x100 200X200mm TV Wall Mount Fixed Bracket LCD Monitor Holder 17-42" Tvs' ),
+    item_price    ( 'AU$19.93' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/174829510182' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=08-08737-78997#/' ),
+    order_id        ( '08-08737-78997' ),
+    order_date      ( '12 Jun 2022' ),
+    order_item_name ( 'VESA 100x100 200X200mm TV Wall Mount Fixed Bracket LCD Monitor Holder 17-42" Tvs' ),
+    order_price     ( 'AU$19.93' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-06-08' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/qFoAAOSwT2lhRUWh/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( '3ELIGHTING' ),
+    model_name        ( '14"-42"' ),
+    EquipmentFeature::VESA_WALL_MOUNT,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/323858125378?var=513800103314' ),
+    affiliate_url ( 'https://ebay.us/z8LgXl' ),
+    listing_name  ( 'Universal TV Wall Mount Bracket Swivel Full Motion Tilt VESA10 17 26 32 42 50 55' ),
+    item_options  ( '14"-42"' ),
+    item_price    ( 'AU$15.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/323858125378?var=513800103314' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=20-10143-00739#/' ),
+    order_id        ( '20-10143-00739' ),
+    order_date      ( '8 Jun 2023' ),
+    order_item_name ( 'Universal TV Wall Mount Bracket Swivel Full Motion Tilt VESA10 17 26 32 42 50 55' ),
+    order_options   ( '14"-42"' ),
+    order_price     ( 'AU$20.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-06-08' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/oeoAAOSwAHFhUxMF/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( '3ELIGHTING' ),
+    model_name        ( '14"-27" with 2 arms' ),
+    EquipmentFeature::VESA_WALL_MOUNT,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/323858125378?var=513813881049' ),
+    affiliate_url ( 'https://ebay.us/UT5N4c' ),
+    listing_name  ( 'Universal TV Wall Mount Bracket Swivel Full Motion Tilt VESA10 17 26 32 42 50 55' ),
+    item_options  ( '14"-27" with 2 arms' ),
+    item_price    ( 'AU$16.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/323858125378?var=513813881049' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=20-10143-00739#/' ),
+    order_id        ( '20-10143-00739' ),
+    order_date      ( '8 Jun 2023' ),
+    order_item_name ( 'Universal TV Wall Mount Bracket Swivel Full Motion Tilt VESA10 17 26 32 42 50 55' ),
+    order_options   ( '14"-27" with 2 arms' ),
+    order_price     ( 'AU$16.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-06-08' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/fjMAAOSwGGRhUxC4/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( '3ELIGHTING' ),
+    model_name        ( '14"-27"' ),
+    EquipmentFeature::VESA_WALL_MOUNT,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/323858125378?var=513732943159' ),
+    affiliate_url ( 'https://ebay.us/62NjZE' ),
+    listing_name  ( 'Universal TV Wall Mount Bracket Swivel Full Motion Tilt VESA10 17 26 32 42 50 55' ),
+    item_options  ( '14"-27"' ),
+    item_price    ( 'AU$15.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/323858125378?var=513732943159' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=20-10143-00739#/' ),
+    order_id        ( '20-10143-00739' ),
+    order_date      ( '8 Jun 2023' ),
+    order_item_name ( 'Universal TV Wall Mount Bracket Swivel Full Motion Tilt VESA10 17 26 32 42 50 55' ),
+    order_options   ( '14"-27"' ),
+    order_price     ( 'AU$15.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-06-08' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/zP0AAOSwGQpe9aDM/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( '3ELIGHTING' ),
+    model_name        ( '10"-26"' ),
+    EquipmentFeature::VESA_WALL_MOUNT,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/323858125378?var=512879825950' ),
+    affiliate_url ( 'https://ebay.us/diqoT8' ),
+    listing_name  ( 'Universal TV Wall Mount Bracket Swivel Full Motion Tilt VESA10 17 26 32 42 50 55' ),
+    item_options  ( '10"-26"' ),
+    item_price    ( 'AU$18.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/323858125378?var=512879825950' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=20-10143-00739#/' ),
+    order_id        ( '20-10143-00739' ),
+    order_date      ( '8 Jun 2023' ),
+    order_item_name ( 'Universal TV Wall Mount Bracket Swivel Full Motion Tilt VESA10 17 26 32 42 50 55' ),
+    order_options   ( '10"-26"' ),
+    order_price     ( 'AU$18.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+
+
 /*
 
 equipment(
@@ -14289,7 +14447,7 @@ equipment(
     equipment_url   ( '' ),
     order_url       ( '' ),
     order_id        ( '' ),
-    order_date      ( 'Aug 2, 2024' ),
+    order_date      ( '' ),
     order_item_name ( '' ),
     order_options   ( '' ),
     order_price     ( '' ),

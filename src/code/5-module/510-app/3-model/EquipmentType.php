@@ -1469,6 +1469,16 @@ enum EquipmentFeature : string {
   case E_READER = 'e-reader';
 
   //
+  // 2024-08-05 jj5 - MOUNT
+  //
+
+  case MOUNT = 'mount';
+
+    case WALL_MOUNT = 'wall-mount';
+
+      case VESA_WALL_MOUNT = 'VESA-wall-mount';
+
+  //
   // 2024-08-04 jj5 - FEATURE
   //
 
