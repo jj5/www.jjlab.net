@@ -1510,7 +1510,7 @@ equipment(
     order_url       ( 'https://order.ebay.com.au/ord/show?orderId=02-08673-26005#/' ),
     order_id        ( '02-08673-26005' ),
     order_date      ( '25 May 2022' ),
-    order_item_name ( '' ),
+    order_item_name ( 'Portable 12" /14" 1080P TFT HD Digital TV Car USB HDMI Video Player Television' ),
     order_options   ( '12"' ),
     order_price     ( 'AU$120.00' ),
     order_quantity  ( 1 ),
@@ -1629,6 +1629,16 @@ equipment(
     order_item_name ( '' ),
     order_price     ( 'AU$305.10' ),
     order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/403983086821' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=24-11372-00005#/' ),
+    order_id        ( '24-11372-00005' ),
+    order_date      ( '28 Mar 2024' ),
+    order_item_name ( 'UPERFECT 4K Monitor 15.6" Portable Gaming Monitor UHD PC Screen USB C Monitor' ),
+    order_price     ( 'AU$245.15' ),
+    order_quantity  ( 1 ),
+    order_discount  ( 'AU$15.00' ),
   ),
 );
 
