@@ -12259,6 +12259,7 @@ equipment(
     EquipmentFeature::XBOX_TO_HDMI_ADAPTER,
   ),
   sixsigma_url  ( '' ),
+  warning       ( 'ZUZONG Original Xbox to HDMI Converter, HD Link Cable for Original Xbox, Xbox to HDMI Support 1080P/720P, Compatible with Original Xbox' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/363655980628' ),
     listing_name  ( 'Original Xbox to HDMI Converter Adapter, HD Link Cable for Original Xbox 1080P' ),
@@ -12290,6 +12291,7 @@ equipment(
     EquipmentFeature::RCA_TO_HDMI_ADAPTER,
   ),
   sixsigma_url  ( '' ),
+  warning       ( 'SZJUNXIAO RCA to HDMI Adapter, 1080P AV RCA to HDMI Converter Composite CVBS Video Audio Converter Adapter for PS2 Wii Xbox SNES N64 VHS VCR Camera DVD, Supporting PAL/NTSC with USB Power Cable' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/dp/B099X8JK8N' ),
     affiliate_url ( 'https://amzn.to/3TLUrIc' ),
@@ -12542,6 +12544,7 @@ equipment(
     EquipmentFeature::HDMI_KVM,
   ),
   sixsigma_url  ( '' ),
+  warning       ( 'HDMI 2.0 KVM Switch 4 Port USB HDMI KVM Switcher Box 4K 60Hz HDR For PC Laptop' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/164322499589' ),
     affiliate_url ( 'https://ebay.us/rjlNhl' ),
@@ -12598,6 +12601,7 @@ equipment(
     EquipmentFeature::HDMI_SWITCH,
   ),
   sixsigma_url  ( '' ),
+  warning       ( '8K HDMI Switch 5-in-1 Output, HDMI 2.1 Switch 5-Port with IR Remote Control, HDMI Switch Selection 8K@60Hz/4K@120Hz for Xbox PS4 PC TV' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B0C7TBHBMZ' ),
     affiliate_url ( 'https://amzn.to/479h4do' ),
@@ -12730,6 +12734,7 @@ equipment(
     EquipmentFeature::USB_HUB,
   ),
   sixsigma_url  ( '' ),
+  warning       ( 'USB 3.0 Hub, Tendak USB Hub with 4 USB 3.0 Data Ports + 1 USB Smart Charging Port and Power Supply Adapter with Individual On/Off Port Switches for PS4 Pro PS4 Slim Xbox One' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B00VK9C24M' ),
     listing_name  ( 'Tendak USB 3.0 Hub with 4 USB 3.0 Data Ports + 1 USB Smart Charging Port and Power Supply Adapter with Individual On/Off Port Switches' ),
@@ -12769,7 +12774,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/61wRaJdxqML._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'ORICO' ),
-    model_name        ( 'ORICO-PW11-9P-RG-EP-US USB 3.0 Powered 4-Port' ),
+    model_name        ( 'PW11-9P-RG-EP-US USB 3.0 Powered 4-Port' ),
     EquipmentFeature::USB_HUB,
   ),
   sixsigma_url  ( '' ),
