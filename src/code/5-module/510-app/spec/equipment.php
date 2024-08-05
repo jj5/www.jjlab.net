@@ -8714,6 +8714,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/61-cGonrNRL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name  ( 'Kaqiwze' ),
+    model_name         ( 'KLD-988C' ),
     EquipmentFeature::BLOW_TORCH,
     EquipmentAttribute::HAND_TOOL,
   ),
