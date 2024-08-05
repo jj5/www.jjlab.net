@@ -9661,7 +9661,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71fS8QH8WHL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name  ( 'Kaisi' ),
-    model_name        ( 'Soldering Tools with' ),
+    model_name        ( 'Soldering Tools With' ),
     EquipmentFeature::DESOLDERING_PUMP,
     EquipmentFeature::AWL,
     EquipmentFeature::WIRE_BRUSH,
@@ -10505,7 +10505,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/Sfbc74765a3324ebea5e98898dc5e29ebJ/Telescopic-Pickup-Magnetic-Iron-Rod-Household-Automotive-Repair-And-Inspection-Tool-Strong-Magnetic-Metal-Screw-Suction.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'Telescopic Magnetic Pickup with' ),
+    model_name        ( 'Telescopic Magnetic Pickup With' ),
     EquipmentFeature::LIGHT,
     EquipmentFeature::TELESCOPIC_PICKUP_TOOL,
     EquipmentFeature::MAGNETIC_PICKUP_TOOL,
@@ -13309,7 +13309,7 @@ equipment(
       link_text       ( 'Arlec PB91 (PDF)' ),
     ),
     manufacturer_name  ( 'Arlec' ),
-    model_name         ( 'PB91 Plug-In RCD Safety Switch with' ),
+    model_name         ( 'PB91 Plug-In RCD Safety Switch With' ),
     EquipmentFeature::SURGE_PROTECTOR,
     EquipmentFeature::RESIDUAL_CURRENT_DEVICE,
   ),
