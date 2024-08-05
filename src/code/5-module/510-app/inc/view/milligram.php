@@ -212,7 +212,18 @@ function render_head( string $heading, array $options = [] ) {
     tag_open( 'head' );
 
       $heading_html = henc( $heading );
-      $title_html = "In The Lab With Jay Jay &mdash; $heading_html";
+
+      if ( $heading === 'Welcome' ) {
+
+        $title_html = "In The Lab With Jay Jay";
+
+      }
+      else {
+
+        $title_html = "$heading_html &mdash; In The Lab With Jay Jay";
+
+      }
+
       $title_text = html_entity_decode( $title_html );
 
       tag_text( 'title', $title_text );
