@@ -8634,7 +8634,6 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/HTB1tkP_X42rK1RkSnhJq6ykdpXa8/24Pieces-12-Pairs-Work-Gloves-For-PU-Palm-Coating-Safety-Protective-Glove-Nitrile-Professional-Safety-Suppliers.jpg_640x640.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'nmsafety' ),
-    EquipmentFeature::GLOVES,
     EquipmentFeature::NITRILE_GLOVES,
   ),
   /*
