@@ -1074,6 +1074,11 @@ equipment_define(
     EquipmentAttribute::BENCH_EQUIPMENT,
   );
 
+  equipment_define(
+    EquipmentFeature::POWER_MODULE,
+    EquipmentFeature::POWER_SUPPLY,
+  );
+
 //
 // 2024-08-04 jj5 - SCANNER
 //
@@ -2677,6 +2682,25 @@ equipment_define(
     EquipmentFeature::KEYBOARD_WRIST_PAD,
     EquipmentFeature::WRIST_PAD,
     EquipmentFeature::KEYBOARD,
+  );
+
+//
+// 2024-08-05 jj5 - MICROPHONE
+//
+
+equipment_define(
+  EquipmentFeature::MICROPHONE,
+  EquipmentClass::MICROPHONE,
+);
+
+  equipment_define(
+    EquipmentFeature::USB_MICROPHONE,
+    EquipmentFeature::MICROPHONE,
+  );
+
+  equipment_define(
+    EquipmentFeature::CONDENSER_MICROPHONE,
+    EquipmentFeature::MICROPHONE,
   );
 
 //
@@ -14567,6 +14591,72 @@ equipment(
     order_shipping  ( 'US$68.85' ),
   ),
 );
+
+equipment(
+  equipment_date( '2022-02-12' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/H74e4b1b0fb194c94a98b2f171d955c66m.jpg_220x220.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'FNIRSI' ),
+    model_name        ( 'DC580' ),
+    EquipmentFeature::POWER_MODULE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/4001193042134.html' ),
+    listing_name  ( 'DC DC Buck Converter CC CV Power Module 1.8-32V 5A Adjustable Regulated power supply Voltmeter ammeter CNC Color screen 80W' ),
+    item_options  ( 'DC580, China' ),
+    item_price    ( 'AU$25.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/4001193042134.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.6.16dd1802S0KWpb&orderId=8146215567143938' ),
+    order_id        ( '8146215567143938' ),
+    order_date      ( 'Feb 12, 2022' ),
+    order_item_name ( 'DC DC Buck Converter CC CV Power Module 1.8-32V 5A Adjustable Regulated power supply Voltmeter ammeter CNC Color screen 80W' ),
+    order_options   ( 'DC580, China' ),
+    order_price     ( 'AU$25.99' ),
+    order_quantity  ( 1 ),
+    order_tax       ( 'AU$2.60' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/4001193042134.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.11.16dd1802S0KWpb&orderId=8146214045643938' ),
+    order_id        ( '8146214045643938' ),
+    order_date      ( 'Feb 12, 2022' ),
+    order_item_name ( 'DC DC Buck Converter CC CV Power Module 1.8-32V 5A Adjustable Regulated power supply Voltmeter ammeter CNC Color screen 80W' ),
+    order_options   ( 'DC580, China' ),
+    order_price     ( 'AU$25.99' ),
+    order_quantity  ( 1 ),
+    order_tax       ( 'AU$2.60' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2021-06-25' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/qAsAAOSw3olfm3zK/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'BM800' ),
+    EquipmentFeature::CONDENSER_MICROPHONE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/233566083563' ),
+    affiliate_url ( 'https://ebay.us/Xo78nV' ),
+    listing_name  ( 'BM800 Condenser Microphone Kit Studio Suspension Boom Scissor Arm Stand AU SHIP' ),
+    item_price    ( 'AU$28.89' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/233566083563' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=05-07382-31172#/' ),
+    order_id        ( '05-07382-31172' ),
+    order_date      ( '25 Jul 2021' ),
+    order_item_name ( 'BM800 Condenser Microphone Kit Studio Suspension Boom Scissor Arm Stand AU SHIP' ),
+    order_price     ( 'AU$27.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
 
 /*
 

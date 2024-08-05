@@ -688,6 +688,8 @@ enum EquipmentFeature : string {
 
     case BENCH_POWER_SUPPLY = 'bench-power-supply';
 
+    case POWER_MODULE = 'power-module';
+
   //
   // 2024-08-04 jj5 - SCANNER
   //
@@ -1485,6 +1487,16 @@ enum EquipmentFeature : string {
   case WRIST_PAD = 'wrist-pad';
 
     case KEYBOARD_WRIST_PAD = 'keyboard-wrist-pad';
+
+  //
+  // 2024-08-05 jj5 - MICROPHONE
+  //
+
+  case MICROPHONE = 'microphone';
+
+    case USB_MICROPHONE = 'USB-microphone';
+
+    case CONDENSER_MICROPHONE = 'condenser-microphone';
 
   //
   // 2024-08-04 jj5 - FEATURE
