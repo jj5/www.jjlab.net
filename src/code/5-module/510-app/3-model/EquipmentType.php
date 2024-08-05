@@ -198,12 +198,37 @@ enum EquipmentFunction : string {
 enum EquipmentFeature : string {
 
   //
+  // 2024-08-04 jj5 - FEATURE
+  //
+
+  case FEATURE = 'feature';
+
+    case LCD = 'LCD';
+
+    case REMOTE_CONTROL = 'remote-control';
+
+    case XBOX = 'Xbox';
+
+    case STUDIO = 'studio';
+
+  //
   // 2024-08-04 jj5 - ADAPTER
   //
 
   case ADAPTER = 'adapter';
 
     case ANGLE_SCREW_ADAPTER = 'angle-screw-adapter';
+
+    case XBOX_TO_HDMI_ADAPTER = 'Xbox-to-HDMI-adapter';
+
+    case RCA_TO_HDMI_ADAPTER = 'RCA-to-HDMI-adapter';
+
+    case HDMI_TO_USB_ADAPTER = 'HDMI-to-USB-adapter';
+
+    case SPLITTER = 'splitter';
+
+      case HDMI_SPLITTER = 'HDMI-splitter';
+
 
   //
   // 2024-08-04 jj5 - MISC_TOOL
@@ -396,9 +421,31 @@ enum EquipmentFeature : string {
 
   case SWITCH = 'switch';
 
+    case ETHERNET_SWITCH = 'ethernet-switch';
+
+    case USB_SWITCH = 'USB-switch';
+
+    case HDMI_SWITCH = 'HDMI-switch';
+
+    case DISPLAY_PORT_SWITCH = 'DisplayPort-switch';
+
     case KVM = 'KVM';
 
-      case DISPLAY_PORT_KVM = 'DisplayPort-KVM';
+      case USB_KVM = 'USB-KVM';
+
+        case HDMI_KVM = 'HDMI-KVM';
+
+        case DISPLAY_PORT_KVM = 'DisplayPort-KVM';
+
+  //
+  // 2024-08-06 jj5 - HUB
+  //
+
+  case HUB = 'hub';
+
+    case USB_HUB = 'USB-hub';
+
+    case ETHERNET_HUB = 'ethernet-hub';
 
   //
   // 2024-08-04 jj5 - KEYBOARD
@@ -429,6 +476,8 @@ enum EquipmentFeature : string {
     case VIDEO_CAMERA = 'video-camera';
 
       case THERMAL_IMAGER = 'thermal-imager';
+
+      case USB_CAMERA = 'USB-camera';
 
   //
   // 2024-08-04 jj5 - CHUMBY
@@ -1486,6 +1535,10 @@ enum EquipmentFeature : string {
 
       case WEBCAM_WALL_MOUNT = 'webcam-wall-mount';
 
+    case STAND = 'stand';
+
+      case WEBCAM_STAND = 'webcam-stand';
+
   //
   // 2024-08-05 jj5 - WRIST_PAD
   //
@@ -1503,16 +1556,6 @@ enum EquipmentFeature : string {
     case USB_MICROPHONE = 'USB-microphone';
 
     case CONDENSER_MICROPHONE = 'condenser-microphone';
-
-  //
-  // 2024-08-04 jj5 - FEATURE
-  //
-
-  case FEATURE = 'feature';
-
-    case LCD = 'LCD';
-
-    case REMOTE_CONTROL = 'remote-control';
 
 }
 
@@ -1572,6 +1615,7 @@ enum EquipmentClass : string {
   case HEAT_SHRINK = 'heat-shrink';
   case HOLDER = 'holder';
   case HOOK = 'hook';
+  case HUB = 'hub';
   case JAW_PADS = 'jaw-pads';
   case KEYBOARD = 'keyboard';
   case KIT = 'kit';

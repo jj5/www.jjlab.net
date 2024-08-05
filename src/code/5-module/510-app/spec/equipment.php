@@ -5,6 +5,35 @@
 equipment_class_alias( EquipmentClass::WRENCH, 'spanner' );
 
 //
+// 2024-08-04 jj5 - FEATURE
+//
+
+equipment_define(
+  EquipmentFeature::FEATURE,
+  EquipmentClass::FEATURE,
+);
+
+  equipment_define(
+    EquipmentFeature::LCD,
+    EquipmentFeature::FEATURE,
+  );
+
+  equipment_define(
+    EquipmentFeature::REMOTE_CONTROL,
+    EquipmentFeature::FEATURE,
+  );
+
+  equipment_define(
+    EquipmentFeature::XBOX,
+    EquipmentFeature::FEATURE,
+  );
+
+  equipment_define(
+    EquipmentFeature::STUDIO,
+    EquipmentFeature::FEATURE,
+  );
+
+//
 // 2024-08-04 jj5 - ADAPTER
 //
 
@@ -19,6 +48,37 @@ equipment_define(
     EquipmentFeature::ANGLE_SCREW_ADAPTER,
     EquipmentFeature::ADAPTER,
   );
+
+  equipment_define(
+    EquipmentFeature::XBOX_TO_HDMI_ADAPTER,
+    EquipmentFeature::ADAPTER,
+    EquipmentFeature::XBOX,
+    EquipmentFeature::STUDIO,
+  );
+
+  equipment_define(
+    EquipmentFeature::RCA_TO_HDMI_ADAPTER,
+    EquipmentFeature::ADAPTER,
+    EquipmentFeature::STUDIO,
+  );
+
+  equipment_define(
+    EquipmentFeature::HDMI_TO_USB_ADAPTER,
+    EquipmentFeature::ADAPTER,
+    EquipmentFeature::STUDIO,
+  );
+
+  equipment_define(
+    EquipmentFeature::SPLITTER,
+    EquipmentFeature::ADAPTER,
+    EquipmentFeature::STUDIO,
+  );
+
+    equipment_define(
+      EquipmentFeature::HDMI_SPLITTER,
+      EquipmentFeature::SPLITTER,
+      EquipmentConnectivity::HDMI,
+    );
 
 //
 // 2024-08-04 jj5 - MISC_TOOL
@@ -461,9 +521,37 @@ equipment_define(
 equipment_define(
   EquipmentFeature::SWITCH,
   EquipmentClass::SWITCH,
+  EquipmentFeature::STUDIO,
   EquipmentAttribute::BENCH_EQUIPMENT,
   EquipmentAttribute::COMPUTER_EQUIPMENT,
 );
+
+  equipment_define(
+    EquipmentFeature::ETHERNET_SWITCH,
+    EquipmentFeature::SWITCH,
+    EquipmentConnectivity::ETHERNET,
+  );
+
+  equipment_define(
+    EquipmentFeature::USB_SWITCH,
+    EquipmentFeature::SWITCH,
+    EquipmentConnectivity::USB,
+    EquipmentAttribute::PERIPHERAL,
+  );
+
+  equipment_define(
+    EquipmentFeature::HDMI_SWITCH,
+    EquipmentFeature::SWITCH,
+    EquipmentConnectivity::HDMI,
+    EquipmentAttribute::PERIPHERAL,
+  );
+
+  equipment_define(
+    EquipmentFeature::DISPLAY_PORT_SWITCH,
+    EquipmentFeature::SWITCH,
+    EquipmentConnectivity::DISPLAY_PORT,
+    EquipmentAttribute::PERIPHERAL,
+  );
 
   equipment_define(
     EquipmentFeature::KVM,
@@ -473,9 +561,45 @@ equipment_define(
   );
 
     equipment_define(
-      EquipmentFeature::DISPLAY_PORT_KVM,
+      EquipmentFeature::USB_KVM,
       EquipmentFeature::KVM,
+      EquipmentFeature::USB_SWITCH,
     );
+
+      equipment_define(
+        EquipmentFeature::HDMI_KVM,
+        EquipmentFeature::USB_KVM,
+        EquipmentFeature::HDMI_SWITCH,
+      );
+
+      equipment_define(
+        EquipmentFeature::DISPLAY_PORT_KVM,
+        EquipmentFeature::USB_KVM,
+        EquipmentFeature::DISPLAY_PORT_SWITCH,
+      );
+
+//
+// 2024-08-06 jj5 - HUB
+//
+
+equipment_define(
+  EquipmentFeature::HUB,
+  EquipmentClass::HUB,
+  EquipmentFeature::STUDIO,
+  EquipmentAttribute::PERIPHERAL,
+);
+
+  equipment_define(
+    EquipmentFeature::USB_HUB,
+    EquipmentFeature::HUB,
+    EquipmentConnectivity::USB,
+  );
+
+  equipment_define(
+    EquipmentFeature::ETHERNET_HUB,
+    EquipmentFeature::HUB,
+    EquipmentConnectivity::ETHERNET,
+  );
 
 //
 // 2024-08-04 jj5 - KEYBOARD
@@ -536,7 +660,14 @@ equipment_define(
     equipment_define(
       EquipmentFeature::THERMAL_IMAGER,
       EquipmentClass::THERMAL_IMAGER,
-      EquipmentFeature::CAMERA,
+      EquipmentFeature::VIDEO_CAMERA,
+    );
+
+    equipment_define(
+      EquipmentFeature::USB_CAMERA,
+      EquipmentFeature::VIDEO_CAMERA,
+      EquipmentFeature::STUDIO,
+      EquipmentConnectivity::USB,
     );
 
 //
@@ -1022,6 +1153,7 @@ equipment_define(
 equipment_define(
   EquipmentFeature::DISPLAY,
   EquipmentClass::DISPLAY,
+  EquipmentFeature::STUDIO,
 );
 
   equipment_define(
@@ -2670,6 +2802,7 @@ equipment_define(
 equipment_define(
   EquipmentFeature::MOUNT,
   EquipmentClass::MOUNT,
+  EquipmentFeature::STUDIO,
 );
 
   equipment_define(
@@ -2685,6 +2818,16 @@ equipment_define(
     equipment_define(
       EquipmentFeature::WEBCAM_WALL_MOUNT,
       EquipmentFeature::WALL_MOUNT,
+    );
+
+  equipment_define(
+    EquipmentFeature::STAND,
+    EquipmentFeature::MOUNT,
+  );
+
+    equipment_define(
+      EquipmentFeature::WEBCAM_STAND,
+      EquipmentFeature::STAND,
     );
 
 //
@@ -2709,6 +2852,7 @@ equipment_define(
 equipment_define(
   EquipmentFeature::MICROPHONE,
   EquipmentClass::MICROPHONE,
+  EquipmentFeature::STUDIO,
 );
 
   equipment_define(
@@ -2719,25 +2863,6 @@ equipment_define(
   equipment_define(
     EquipmentFeature::CONDENSER_MICROPHONE,
     EquipmentFeature::MICROPHONE,
-  );
-
-//
-// 2024-08-04 jj5 - FEATURE
-//
-
-equipment_define(
-  EquipmentFeature::FEATURE,
-  EquipmentClass::FEATURE,
-);
-
-  equipment_define(
-    EquipmentFeature::LCD,
-    EquipmentFeature::FEATURE,
-  );
-
-  equipment_define(
-    EquipmentFeature::REMOTE_CONTROL,
-    EquipmentFeature::FEATURE,
   );
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -14150,8 +14275,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71Pxn9kjwPL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'NBD' ),
-    EquipmentFeature::VIDEO_CAMERA,
-    EquipmentConnectivity::USB,
+    EquipmentFeature::USB_CAMERA,
   ),
   see_also( 'Acetaken C920WM-001 Webcam Wall Mount' ),
   see_also( 'ARKON CMPHD006 Webcam Wall Mount' ),
@@ -14844,6 +14968,818 @@ equipment(
     order_date      ( '9 August 2023' ),
     order_item_name ( 'ARKON CMPHD006 Camera Wall Mount for CCTV POV Camcorders Cameras, Black' ),
     order_price     ( 'AU$60.43' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-06-26' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/61fatxy-GnL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Logitech' ),
+    model_name        ( 'C922' ),
+    EquipmentFeature::USB_CAMERA,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B01M35CNS8' ),
+    affiliate_url ( 'https://amzn.to/3MDtKkt' ),
+    listing_name  ( 'Logitech C922 Pro Stream Webcam 1080P Camera for HD Video Streaming & Recording 720P at 60Fps with Tripod Included' ),
+    item_price    ( 'AU$109.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B01M35CNS8' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=249-6010857-5322201' ),
+    order_id        ( '249-6010857-5322201' ),
+    order_date      ( '26 July 2024' ),
+    order_item_name ( 'Logitech C922 Pro Stream Webcam 1080P Camera for HD Video Streaming & Recording 720P at 60Fps with Tripod Included' ),
+    order_price     ( 'AU$119.99' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B01M35CNS8' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=250-9855331-0138256' ),
+    order_id        ( '250-9855331-0138256' ),
+    order_date      ( '8 June 2023' ),
+    order_item_name ( 'Logitech C922 Pro Stream Webcam' ),
+    order_price     ( 'AU$99.00' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B01M35CNS8' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=250-8654299-8289454' ),
+    order_id        ( '250-8654299-8289454' ),
+    order_date      ( '12 April 2023' ),
+    order_item_name ( 'Logitech C922 Pro Stream Webcam' ),
+    order_price     ( 'AU$99.00' ),
+    order_quantity  ( 2 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-06-10' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/61OQP2+yqML._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Logitech' ),
+    model_name        ( 'Brio' ),
+    EquipmentFeature::USB_CAMERA,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/184424588573' ),
+    affiliate_url ( 'https://ebay.us/Mvj09V' ),
+    listing_name  ( 'Logitech Brio 4K Ultra HD Webcam' ),
+    item_price    ( 'AU$279.00' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B0B1LHXPH1' ),
+    listing_name  ( 'Logitech Brio Stream Webcam - Ultra 4K HD Video Calling, Noise-Cancelling Mic, HD Auto Light Correction, Wide Angle, Compatible with Microsoft Teams, Zoom, Google Meet on PC / Mac' ),
+    item_price    ( 'AU$249.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/325686156340' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=13-10156-08010#/' ),
+    order_id        ( '13-10156-08010' ),
+    order_date      ( '10 Jun 2023' ),
+    order_item_name ( 'Logitech Brio ULTRA HD 4K Webcam - Black - NEW' ),
+    order_price     ( 'AU$199.00' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/155618908223' ),
+    order_url       ( 'https://www.ebay.com.au/vod/FetchOrderDetails?orderId=03-10432-96827' ),
+    order_id        ( '03-10432-96827' ),
+    order_date      ( '19 Aug 2023' ),
+    order_item_name ( 'Logitech Brio 4K Ultra HD Pro Recording Webcam, HDR & Windows Hello - NEW IN BOX' ),
+    order_price     ( 'AU$200.00' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B0B1LHXPH1' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=249-1822317-9632663' ),
+    order_id        ( '249-1822317-9632663' ),
+    order_date      ( '28 March 2024' ),
+    order_item_name ( 'Logitech Brio Stream Webcam - Ultra 4K HD Video Calling, Noise-Cancelling Mic, HD Auto Light Correction, Wide Angle, Compatible with Microsoft Teams, Zoom, Google Meet on PC / Mac' ),
+    order_price     ( 'AU$249.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2022-05-31' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/K0wAAOSwtzNhuBhG/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    EquipmentFeature::XBOX_TO_HDMI_ADAPTER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/363655980628' ),
+    listing_name  ( 'Original Xbox to HDMI Converter Adapter, HD Link Cable for Original Xbox 1080P' ),
+    item_price    ( 'AU$24.84' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com/dp/B07V73764F' ),
+    affiliate_url ( 'https://amzn.to/41KqdHa' ),
+    listing_name  ( 'Original Xbox to HDMI Converter, HDMI 1080p/720p Output, Compatible with Original Xbox' ),
+    item_price    ( 'US$29.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/363655980628' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=01-08694-76839#/' ),
+    order_id        ( '01-08694-76839' ),
+    order_date      ( '31 May 2022' ),
+    order_item_name ( 'Original Xbox to HDMI Converter Adapter, HD Link Cable for Original Xbox 1080P' ),
+    order_price     ( 'AU$59.79' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-08-02' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71SfBNsFB9L._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'GANA' ),
+    model_name        ( 'Mini AV2HDMI Up Scaler 1080p' ),
+    EquipmentFeature::RCA_TO_HDMI_ADAPTER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com/dp/B099X8JK8N' ),
+    affiliate_url ( 'https://amzn.to/3TLUrIc' ),
+    listing_name  ( 'RCA to HDMI Adapter, 1080P AV RCA to HDMI Converter Composite CVBS Video Audio Converter Adapter for PS2 Wii Xbox SNES N64 VHS VCR Camera DVD, Supporting PAL/NTSC with USB Power Cable' ),
+    item_price    ( 'US$12.23' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B01L8GG6PW' ),
+    listing_name  ( 'RCA to HDMI, GANA 1080P Mini RCA Composite CVBS AV to HDMI Video Audio Converter Adapter Supporting PAL/NTSC with USB Charge Cable for PC Laptop Xbox PS4 PS3 TV STB VHS VCR Camera DVD' ),
+    item_price    ( 'AU$18.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B01L8GG6PW' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=250-0351716-7775860' ),
+    order_id        ( '250-0351716-7775860' ),
+    order_date      ( '2 June 2022' ),
+    order_item_name ( 'RCA to HDMI, GANA 1080P Mini RCA Composite CVBS AV to HDMI Video Audio Converter Adapter Supporting PAL/NTSC with USB Charge Cable for PC Laptop Xbox' ),
+    order_price     ( 'AU$17.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-04-09' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/MZoAAOSwNCNkDZ7D/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Yumn Cha' ),
+    model_name        ( 'HD Webcam with Mic' ),
+    EquipmentFeature::USB_CAMERA,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/394508906969' ),
+    affiliate_url ( 'https://ebay.us/O94qce' ),
+    listing_name  ( 'HD USB Webcam Camera Video Calling Web Cam with Mic for PC Desktop Laptop' ),
+    item_price    ( 'AU$15.17' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/394508906969' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=25-09913-20471#/' ),
+    order_id        ( '25-09913-20471' ),
+    order_date      ( '9 Apr 2023' ),
+    order_item_name ( 'HD USB Webcam Camera Video Calling Web Cam with Mic for PC Desktop Laptop' ),
+    order_price     ( 'AU$15.17' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-11' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/sSEAAOSw8YtjmCKT/s-l500.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( '13MP HD Webcam With Mic' ),
+    EquipmentFeature::USB_CAMERA,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/265075712029' ),
+    affiliate_url ( 'https://ebay.us/NY9onu' ),
+    listing_name  ( 'USB 2.0 13MP HD Webcam Camera Web Cam With Mic For Computer PC Laptop LED #T' ),
+    item_options  ( 'No light' ),
+    item_price    ( 'AU$14.64' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/265075712029' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=17-10396-40506#/' ),
+    order_id        ( '17-10396-40506' ),
+    order_date      ( '11 Aug 2023' ),
+    order_item_name ( 'USB 2.0 13MP HD Webcam Camera Web Cam With Mic For Computer PC Laptop LED #T' ),
+    order_options   ( 'No light' ),
+    order_price     ( 'AU$14.64' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-05-31' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/51R-NqaCbuL._AC_SL1000_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'AVerMedia' ),
+    model_name        ( 'BU110' ),
+    EquipmentFeature::HDMI_TO_USB_ADAPTER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/dp/B0772LLPMD' ),
+    listing_name  ( 'AVerMedia Forty7 BU110 ExtremeCap UVC, Multi-Colour' ),
+    item_price    ( 'AU$309.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/dp/B0772LLPMD' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=250-5854462-8412639' ),
+    order_id        ( '250-5854462-8412639' ),
+    order_date      ( '31 May 2023' ),
+    order_item_name ( 'AVerMedia Forty7 BU110 ExtremeCap UVC, Multi-Colour' ),
+    order_price     ( 'AU$108.56' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-19' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/GHMAAOSwRY5kEZkE/s-l500.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( '4K HDMI USB 3.0' ),
+    EquipmentFeature::HDMI_TO_USB_ADAPTER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/125822891428' ),
+    affiliate_url ( 'https://ebay.us/7y0Cr5' ),
+    listing_name  ( '4K Audio Video Capture Card USB 3.0 HDMI Video Capture Device for Live Streaming' ),
+    item_price    ( 'AU$36.49' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/125822891428' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=10-10429-15594#/' ),
+    order_id        ( '10-10429-15594' ),
+    order_date      ( '19 Aug 2023' ),
+    order_item_name ( '4K Audio Video Capture Card USB 3.0 HDMI Video Capture Device for Live Streaming' ),
+    order_price     ( 'AU$32.11' ),
+    order_quantity  ( 3 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-10-28' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71IPEXNXxuL._SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'AOOCOO' ),
+    model_name        ( '4K @60Hz USB 3.0 4-Port' ),
+    EquipmentFeature::HDMI_KVM,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/dp/B0B79Q6YFC' ),
+    listing_name  ( 'KVM Switch HDMI 4 Port, USB 3.0 KVM Switches 4K 60HZ HDMI and USB Switcher with EDID Simulator for 4 Computers Share Keyboard Mouse Printer Scanner and One HD Monitor with 1 External Button Switch' ),
+    item_options  ( 'USB 3.0 4 port KVM' ),
+    item_price    ( 'AU$75.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/dp/B0B79Q6YFC' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=249-4205740-4090235' ),
+    order_id        ( '249-4205740-4090235' ),
+    order_date      ( '28 October 2023' ),
+    order_item_name ( 'KVM Switch HDMI 4 Port, USB 3.0 KVM Switches 4K 60HZ HDMI and USB Switcher with EDID Simulator for 4 Computers Share Keyboard Mouse Printer Scanner and One HD Monitor with 1 External Button Switch' ),
+    order_options   ( 'USB 3.0 4 port KVM' ),
+    order_price     ( 'AU$84.14' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-10-28' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/61ZzhqNiVoL._SL1196_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'AOOCOO' ),
+    model_name        ( '4K @60Hz USB 2.0 4-Port' ),
+    EquipmentFeature::HDMI_KVM,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B09FXKJ3B3' ),
+    listing_name  ( 'KVM Switch HDMI, Kvm Switch 4 Port 4 in 1 Out USB KVM Switcher for 4 Computers Share one HD Monitor and 4 USB 2.0 Devices, Support UHB 4K@60Hz and Wireless Keyboard and Mouse' ),
+    item_options  ( 'Without audio function' ),
+    item_price    ( 'AU$75.96' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B09FXKJ3B3' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=249-4205740-4090235' ),
+    order_id        ( '249-4205740-4090235' ),
+    order_date      ( '28 October 2023' ),
+    order_item_name ( 'KVM Switch HDMI, Kvm Switch 4 Port 4 in 1 Out USB KVM Switcher for 4 Computers Share one HD Monitor and 4 USB 2.0 Devices, Support UHB 4K@60Hz and Wireless Keyboard and Mouse' ),
+    order_options   ( 'Without audio function' ),
+    order_price     ( 'AU$64.56' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-09' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/IycAAOSwrTVjFnHI/s-l500.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'USB 3.0 2-Port' ),
+    EquipmentFeature::USB_SWITCH,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/403869855778' ),
+    listing_name  ( 'USB 3.0 Switch Selector KVM Switch 2 in 1 Out USB Switcher For 2 Computers Share' ),
+    item_price    ( 'AU$23.05' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/403869855778' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=11-10391-24826#/' ),
+    order_id        ( '11-10391-24826' ),
+    order_date      ( '9 Aug 2023' ),
+    order_item_name ( 'USB 3.0 Switch Selector KVM Switch 2 in 1 Out USB Switcher For 2 Computers Share' ),
+    order_price     ( 'AU$27.39' ),
+    order_quantity  ( 2 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/403869855778' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=05-10160-54796#/' ),
+    order_id        ( '05-10160-54796' ),
+    order_date      ( '10 Jun 2023' ),
+    order_item_name ( 'USB 3.0 Switch Selector KVM Switch 2 in 1 Out USB Switcher For 2 Computers Share' ),
+    order_price     ( 'AU$26.02' ),
+    order_quantity  ( 2 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2021-08-12' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S3eb132a31ff34759839e09432bedfb23n.jpg_640x640.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'RV77' ),
+    model_name        ( '4K HDMI USB 2.0 4-Port' ),
+    EquipmentFeature::HDMI_KVM,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/4000849336545.html' ),
+    listing_name  ( '4 Port KVM Switch HD 4K Scanner USB KVM Switcher 4 in 1 Out Hot USB for Mouse Keyboard for Win7 Win10 for MAC for PlayStation 2' ),
+    item_options  ( 'Color: USB' ),
+    item_price    ( 'AU$72.97' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/4000849336545.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.1.2a901802oargGz&orderId=8136782041693938' ),
+    order_id        ( '8136782041693938' ),
+    order_date      ( 'Aug 12, 2021' ),
+    order_item_name ( '4 Port KVM Switch HD 4K Scanner USB KVM Switcher 4 in 1 Out Hot USB for Mouse Keyboard for Win7 Win10 for MAC for PlayStation 2' ),
+    order_options   ( 'Color: USB' ),
+    order_price     ( 'AU$40.83' ),
+    order_quantity  ( 1 ),
+    order_tax       ( 'AU$4.46' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2021-08-12' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/44sAAOSws0lihbt~/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'HDmatters' ),
+    model_name        ( '4K HDMI USB 2.0 4-Port' ),
+    EquipmentFeature::HDMI_KVM,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/164322499589' ),
+    affiliate_url ( 'https://ebay.us/rjlNhl' ),
+    listing_name  ( '4/2 Port HDMI 2.0 KVM Switch Box 4K 60Hz USB KVM Switcher Keyboard Mouse Sharing' ),
+    item_options  ( '4X1 Switcher' ),
+    item_price    ( 'AU$64.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/164322499589' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=27-10130-43453#/' ),
+    order_id        ( '27-10130-43453' ),
+    order_date      ( '5 Jun 2023' ),
+    order_item_name ( '4/2 Port HDMI 2.0 KVM Switch Box 4K 60Hz USB KVM Switcher Keyboard Mouse Sharing' ),
+    order_options   ( '4X1 Switcher' ),
+    order_price     ( 'AU$66.49' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-12' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/QBoAAOSwVOBfPhvs/s-l500.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( '4K 3-Way' ),
+    EquipmentFeature::HDMI_SWITCH,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/123323355984' ),
+    affiliate_url ( 'https://ebay.us/Wyx4Y5' ),
+    listing_name  ( '4K Ultra HD 3 Way HDMI Switch Box Splitter 1080P HDTV Auto 3 Port IN 1 OUT Cable' ),
+    item_options  ( '3 Way 4K HDMI Switch' ),
+    item_price    ( 'AU$8.95' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/123323355984' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=15-10398-27289#/' ),
+    order_id        ( '15-10398-27289' ),
+    order_date      ( '12 Aug 2023' ),
+    order_item_name ( '4K Ultra HD 3 Way HDMI Switch Box Splitter 1080P HDTV Auto 3 Port IN 1 OUT Cable' ),
+    order_options   ( '3 Way 4K HDMI Switch' ),
+    order_price     ( 'AU$8.95' ),
+    order_quantity  ( 5 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-31' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71NdzPCfOLL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'GKRONG' ),
+    model_name        ( '8K 5-In 1-Out' ),
+    EquipmentFeature::HDMI_SWITCH,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B0C7TBHBMZ' ),
+    affiliate_url ( 'https://amzn.to/479h4do' ),
+    listing_name  ( '8K HDMI 2.1 Switch 120Hz 4K 5 in 1 Out, 8K@60Hz HDMI 2.1 Splitter Switcher Selector Box 5-Port with Remote 4K 120Hz 2K 144Hz, HDMI 5x1 HDR, 48Gbps, CEC, Dolby Vision, for Xbox Series X PS5' ),
+    item_price    ( 'AU$55.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B0C7TBHBMZ' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=249-0981274-2700636' ),
+    order_id        ( '249-0981274-2700636' ),
+    order_date      ( '31 August 2023' ),
+    order_item_name ( '8K HDMI 2.1 Switch 120Hz 4K 5 in 1 Out, 8K@60Hz HDMI 2.1 Splitter Switcher Selector Box 5-Port with Remote 4K 120Hz 2K 144Hz, HDMI 5x1 HDR, 48Gbps, CEC, Dolby Vision, for Xbox Series X PS5' ),
+    order_price     ( 'AU$82.89' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2022-05-31' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/51TptXXPIKL._AC_SL1000_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Simplecom' ),
+    model_name        ( 'CH375PS' ),
+    EquipmentFeature::USB_HUB,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B07P8VZPMN' ),
+    listing_name  ( 'Simplecom CH375PS Aluminium 7 Port USB 3.0 Hub with Individual Switches and Power Adapter' ),
+    item_price    ( 'AU$50.93' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B07P8VZPMN' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=250-2430326-4965406' ),
+    order_id        ( '250-2430326-4965406' ),
+    order_date      ( '31 May 2022' ),
+    order_item_name ( 'Simplecom CH375PS Aluminium 7 Port USB 3.0 Hub with Individual Switches and Power Adapter' ),
+    order_price     ( 'AU$43.00' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B07P8VZPMN' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=503-7464066-6143067' ),
+    order_id        ( '503-7464066-6143067' ),
+    order_date      ( '3 February 2022' ),
+    order_item_name ( 'Simplecom CH375PS Aluminium 7 Port USB 3.0 Hub with Individual Switches and Power Adapter' ),
+    order_price     ( 'AU$38.37' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-06-10' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/u70AAOSwRa1kCYaN/s-l500.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( '11 in 1 USB-C Hub' ),
+    EquipmentFeature::USB_HUB,
+    EquipmentConnectivity::HDMI,
+    EquipmentConnectivity::VGA,
+    EquipmentConnectivity::SD_CARD,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/385514862649' ),
+    affiliate_url ( 'https://ebay.us/jye0b7' ),
+    listing_name  ( '11 in 1 USB C Hub 4K HDMI Adapter VGA Dongle 3 USB 3.0 Ports SD/TF Type C PD AUX' ),
+    item_price    ( 'AU$45.99' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/165974157305' ),
+    affiliate_url ( 'https://ebay.us/5C6rAv' ),
+    listing_name  ( '11 in 1 USB C Hub 4K HDMI Adapter VGA Dongle 3 USB 3.0 Ports SD/TF Type C PD AUX' ),
+    item_price    ( 'AU$53.39' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/385514862649' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=21-10151-87737#/' ),
+    order_id        ( '21-10151-87737' ),
+    order_date      ( '10 Jun 2023' ),
+    order_item_name ( '11 in 1 USB C Hub 4K HDMI Adapter VGA Dongle 3 USB 3.0 Ports SD/TF Type C PD AUX' ),
+    order_price     ( 'AU$43.69' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/165974157305' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=25-09913-20474#/' ),
+    order_id        ( '25-09913-20474' ),
+    order_date      ( '9 Apr 2023' ),
+    order_item_name ( '11 in 1 USB C Hub 4K HDMI Adapter VGA Dongle 3 USB 3.0 Ports SD/TF Type C PD AUX' ),
+    order_price     ( 'AU$50.34' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-06-10' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/02sAAOSwa6ZjRS~R/s-l500.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'USB 3.0 Powered 4-Port' ),
+    EquipmentFeature::USB_HUB,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/194329600581?var=494452525322' ),
+    affiliate_url ( 'https://ebay.us/CuwoFL' ),
+    listing_name  ( '4/7 Ports USB 3.0 HUB Powered +High Speed Splitter Extender PC AC Cable Adapter' ),
+    item_options  ( '4 Port USB 3.0 Hub' ),
+    item_price    ( 'AU$17.09' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/194329600581?var=494452525322' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=21-10151-87735#/' ),
+    order_id        ( '21-10151-87735' ),
+    order_date      ( '10 Jun 2023' ),
+    order_item_name ( '4/7 Ports USB 3.0 HUB Powered +High Speed Splitter Extender PC AC Cable Adapter' ),
+    order_options   ( '4 Port USB 3.0 Hub' ),
+    order_price     ( 'AU$17.99' ),
+    order_quantity  ( 3 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-10-28' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71hl5VqkhOL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Tendak' ),
+    model_name        ( 'USB 3.0 Powered 4-Port' ),
+    EquipmentFeature::USB_HUB,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B00VK9C24M' ),
+    listing_name  ( 'Tendak USB 3.0 Hub with 4 USB 3.0 Data Ports + 1 USB Smart Charging Port and Power Supply Adapter with Individual On/Off Port Switches' ),
+    item_price    ( 'AU$25.59' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B00VK9C24M' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=249-4620865-7008608' ),
+    order_id        ( '249-4620865-7008608' ),
+    order_date      ( '28 October 2023' ),
+    order_item_name ( 'Tendak USB 3.0 Hub with 4 USB 3.0 Data Ports + 1 USB Smart Charging Port and Power Supply Adapter with Individual On/Off Port Switches' ),
+    order_price     ( 'AU$32.99' ),
+    order_quantity  ( 2 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B00VK9C24M' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=250-9208850-4917434' ),
+    order_id        ( '250-9208850-4917434' ),
+    order_date      ( '8 June 2023' ),
+    order_item_name ( 'Tendak USB 3.0 Hub with 4 USB 3.0 Data Ports + 1 USB Smart Charging Port and Power Supply Adapter with Individual On/Off Port Switches' ),
+    order_price     ( 'AU$33.99' ),
+    order_quantity  ( 2 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B00VK9C24M' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=250-7007633-0705440' ),
+    order_id        ( '250-7007633-0705440' ),
+    order_date      ( '5 June 2023' ),
+    order_item_name ( 'Tendak USB 3.0 Hub with 4 USB 3.0 Data Ports + 1 USB Smart Charging Port and Power Supply Adapter with Individual On/Off Port Switches' ),
+    order_price     ( 'AU$32.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-06-05' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/61wRaJdxqML._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'ORICO' ),
+    model_name        ( 'ORICO-PW11-9P-RG-EP-US USB 3.0 Powered 4-Port' ),
+    EquipmentFeature::USB_HUB,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/dp/B09MS7S1R3' ),
+    listing_name  ( 'ORICO USB 3.0 Hub Clamp Adapter, Aluminum 4-Port USB Splitter with Extra Power Supply Port and 4.92 FT USB Data Cable, Ultra-Portable USB Expander for 2021 iMac/Laptop/PC' ),
+    item_options  ( 'Colour Name: Black' ),
+    item_price    ( 'AU$32.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/dp/B09MS7S1R3' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=250-7007633-0705440' ),
+    order_id        ( '250-7007633-0705440' ),
+    order_date      ( '5 June 2023' ),
+    order_item_name ( 'ORICO USB 3.0 Hub Clamp Adapter, Aluminum 4-Port USB Splitter with Extra Power Supply Port and 4.92 FT USB Data Cable, Ultra-Portable USB Expander for 2021 iMac/Laptop/PC' ),
+    order_options   ( 'Colour Name: Black' ),
+    order_price     ( 'AU$39.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-31' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/511OtQj+QxL._AC_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'TAVICE' ),
+    model_name        ( '1-In 2-Out' ),
+    EquipmentFeature::HDMI_SPLITTER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B0C4577969' ),
+    listing_name  ( 'TAVICE HDMI Splitter 1 in 2 Out Cable Adapter Converter 1080 Multi Display Duplicator HDMI Adapter Cable HDMI Male to Dual HDMI Female 1 to 2 Way, Support Two TVs Signal One in Two Out' ),
+    item_price    ( 'AU$8.95' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B0C4577969' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=249-2580349-4566214' ),
+    order_id        ( '249-2580349-4566214' ),
+    order_date      ( '31 August 2023' ),
+    order_item_name ( 'TAVICE HDMI Splitter 1 in 2 Out Cable Adapter Converter 1080 Multi Display Duplicator HDMI Adapter Cable HDMI Male to Dual HDMI Female 1 to 2 Way, Support Two TVs Signal One in Two Out' ),
+    order_price     ( 'AU$8.95' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-31' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/417EVUHy5QL.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'ZYa' ),
+    model_name        ( '1-In 2-Out' ),
+    EquipmentFeature::HDMI_SPLITTER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B09SB178WS' ),
+    listing_name  ( 'HDMI Splitter-HDMI Splitter 1 in 2 Out/HDMI Splitter Adapter Cable HDMI Male to Dual HDMI Female 1 to 2 Way,Support Two TVs at The Same Time (Black)' ),
+    item_price    ( 'AU$7.96' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B09SB178WS' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=249-2580349-4566214' ),
+    order_id        ( '249-2580349-4566214' ),
+    order_date      ( '31 August 2023' ),
+    order_item_name ( 'HDMI Splitter-HDMI Splitter 1 in 2 Out/HDMI Splitter Adapter Cable HDMI Male to Dual HDMI Female 1 to 2 Way,Support Two TVs at The Same Time (Black)' ),
+    order_price     ( 'AU$12.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-31' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/51P7dveQu3L._AC_SL1200_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Cablecc' ),
+    model_name        ( '1-In 2-Out' ),
+    EquipmentFeature::HDMI_SPLITTER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B015HLAMIG' ),
+    listing_name  ( 'cablecc HDMI Male to 2 HDMI Female 1 in 2 Out Splitter Cable Adapter Converter' ),
+    item_price    ( 'AU$8.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B015HLAMIG' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=249-2580349-4566214' ),
+    order_id        ( '249-2580349-4566214' ),
+    order_date      ( '31 August 2023' ),
+    order_item_name ( 'cablecc HDMI Male to 2 HDMI Female 1 in 2 Out Splitter Cable Adapter Converter' ),
+    order_price     ( 'AU$14.13' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-24' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/61x8aSIQpSL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'EXSHOW' ),
+    model_name        ( 'Long Arm' ),
+    EquipmentFeature::WEBCAM_WALL_MOUNT,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B0BFWSTY3L' ),
+    listing_name  ( 'Tablet Wall Mount for iPad, EXSHOW 35in Adjustable Arm Drill Base Tablet Mount for Kitchen Cabinet Desk, Camera Holder Webcam Stand for iPad Pro 12.9 Air Mini, Galaxy Tabs, Switch,iPhone,4-13" Tablets' ),
+    item_price    ( 'AU$69.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B0BFWSTY3L' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=249-2032237-9131023' ),
+    order_id        ( '249-2032237-9131023' ),
+    order_date      ( '24 August 2023' ),
+    order_item_name ( 'Tablet Wall Mount for iPad, EXSHOW 35in Adjustable Arm Drill Base Tablet Mount for Kitchen Cabinet Desk, Camera Holder Webcam Stand for iPad Pro 12.9 Air Mini, Galaxy Tabs, Switch,iPhone,4-13" Tablets' ),
+    order_price     ( 'AU$69.99' ),
+    order_quantity  ( 2 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B0BFWSTY3L' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=250-8721883-1782251' ),
+    order_id        ( '250-8721883-1782251' ),
+    order_date      ( '15 June 2023' ),
+    order_item_name ( 'Tablet Wall Mount for iPad, EXSHOW 35in Adjustable Arm Drill Base Tablet Mount for Kitchen Cabinet Desk, Camera Holder Webcam Stand for iPad Pro 12.9 Air Mini, Galaxy Tabs, Switch,iPhone,4-13" Tablets' ),
+    order_price     ( 'AU$69.99' ),
+    order_quantity  ( 3 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B0BFWSTY3L' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=250-8654299-8289454' ),
+    order_id        ( '250-8654299-8289454' ),
+    order_date      ( '12 April 2023' ),
+    order_item_name ( 'Tablet Wall Mount for iPad, EXSHOW 35in Adjustable Arm Drill Base Tablet Mount for Kitchen Cabinet Desk, Camera Holder Webcam Stand for iPad Pro 12.9 Air Mini, Galaxy Tabs, Switch,iPhone,4-13" Tablets' ),
+    order_price     ( 'AU$69.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-04-12' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/51me944heYL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Grestar' ),
+    model_name        ( 'Flexible' ),
+    EquipmentFeature::WEBCAM_STAND,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B099PZNGBN' ),
+    affiliate_url ( 'https://amzn.to/3MGUvEu' ),
+    listing_name  ( 'Webcam Stand, Upgraded Flexible Desktop Stand Gooseneck Stands Holder for Logitech Webcam C922 C930e C920S C920 C615 C960 and BRIO and Other Devices with 1/4" Thread' ),
+    item_price    ( 'AU$38.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B099PZNGBN' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=250-8654299-8289454' ),
+    order_id        ( '250-8654299-8289454' ),
+    order_date      ( '12 April 2023' ),
+    order_item_name ( 'Webcam Stand, Upgraded Flexible Desktop Stand Gooseneck Stands Holder for Logitech Webcam C922 C930e C920S C920 C615 C960 and BRIO and Other Devices with 1/4" Thread' ),
+    order_price     ( 'AU$38.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-08-02' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/61aWCGekJbL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Acetaken' ),
+    model_name        ( '25WMGRS-002 Gooseneck Clamp' ),
+    EquipmentFeature::WEBCAM_STAND,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B082F6TV77' ),
+    affiliate_url ( 'https://amzn.to/3MH342i' ),
+    listing_name  ( 'Webcam Stand - 25 inch Gooseneck Clamp Desk Webcam Mount Arm for Logitech Webcam C920s C920 C930e C922x C930 C922 C925e C615 Brio - Acetaken' ),
+    item_price    ( 'AU$31.50' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B082F6TV77' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=249-5426104-4667800' ),
+    order_id        ( '249-5426104-4667800' ),
+    order_date      ( '11 August 2023' ),
+    order_item_name ( 'Webcam Stand - 25 inch Gooseneck Clamp Desk Webcam Mount Arm for Logitech Webcam C920s C920 C930e C922x C930 C922 C925e C615 Brio - Acetaken' ),
+    order_price     ( 'AU$31.50' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B082F6TV77' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=250-8654299-8289454' ),
+    order_id        ( '250-8654299-8289454' ),
+    order_date      ( '12 April 2023' ),
+    order_item_name ( 'Webcam Stand - 25 inch Gooseneck Clamp Desk Webcam Mount Arm for Logitech Webcam C920s C920 C930e C922x C930 C922 C925e C615 Brio - Acetaken' ),
+    order_price     ( 'AU$31.50' ),
     order_quantity  ( 1 ),
   ),
 );
