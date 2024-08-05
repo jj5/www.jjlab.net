@@ -43,6 +43,7 @@ enum EquipmentClass : string {
   case DRAWER = 'drawer';
   case DRILL_BIT = 'drill-bit';
   case DRILL_PRESS = 'drill-press';
+  case DRIVE = 'drive';
   case ELECTRONIC_LOAD = 'electronic-load';
   case E_READER = 'e-reader';
   case FEATURE = 'feature';
@@ -80,6 +81,8 @@ enum EquipmentClass : string {
   case PICKUP_TOOL = 'pickup-tool';
   case PLIERS = 'pliers';
   case POCKET_PROTECTOR = 'pocket-protector';
+  case POWER = 'power';
+  case POWER_BOARD = 'power-board';
   case POWER_SUPPLY = 'power-supply';
   case POWER_SUPPLY_TESTER = 'power-supply-tester';
   case PRINTER = 'printer';

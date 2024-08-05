@@ -269,12 +269,46 @@ enum EquipmentFeature : string {
     case PROBE_TWEEZERS = 'probe-tweezers';
 
   //
+  // 2024-08-06 jj5 - DRIVE
+  //
+
+  case DRIVE = 'drive';
+
+    case USB_DRIVE = 'USB-drive';
+
+    case SSD_DRIVE = 'SSD-drive';
+
+      case USB_SSD_DRIVE = 'USB-SSD-drive';
+
+    case HDD_DRIVE = 'HDD-drive';
+
+      case USB_HDD_DRIVE = 'USB-HDD-drive';
+
+    case CDROM_DRIVE = 'CDROM-drive';
+
+      case USB_CDROM_DRIVE = 'USB-CDROM-drive';
+
+    case DVD_DRIVE = 'DVD-drive';
+
+      case USB_DVD_DRIVE = 'USB-DVD-drive';
+
+    case BLU_RAY_DRIVE = 'Blu-ray-drive';
+
+      case USB_BLU_RAY_DRIVE = 'USB-Blu-ray-drive';
+
+    case FLOPPY_DRIVE = 'floppy-drive';
+
+      case USB_FLOPPY_DRIVE = 'USB-floppy-drive';
+
+  //
   // 2024-08-04 jj5 - SWITCH
   //
 
   case SWITCH = 'switch';
 
     case ETHERNET_SWITCH = 'ethernet-switch';
+
+      case UNMANAGED_ETHERNET_SWITCH = 'unmanaged-ethernet-switch';
 
     case USB_SWITCH = 'USB-switch';
 
@@ -366,7 +400,101 @@ enum EquipmentFeature : string {
 
         case DRILL_BITS = 'drill-bits';
 
+        case DRILL_BIT_2 = 'drill-bit-2';
+
+        case DRILL_BIT_2_5 = 'drill-bit-2.5';
+
+        case DRILL_BIT_3 = 'drill-bit-3';
+
+        case DRILL_BIT_3_5 = 'drill-bit-3.5';
+
+        case DRILL_BIT_4 = 'drill-bit-4';
+
+        case DRILL_BIT_5 = 'drill-bit-5';
+
+        case DRILL_BIT_5_5 = 'drill-bit-5.5';
+
+        case DRILL_BIT_6 = 'drill-bit-6';
+
+        case DRILL_BIT_7 = 'drill-bit-7';
+
+        case DRILL_BIT_8 = 'drill-bit-8';
+
+        case DRILL_BIT_10 = 'drill-bit-10';
+
+        case WOOD_DRILL_BIT = 'wood-drill-bit';
+
+          case WOOD_DRILL_BIT_2 = 'wood-drill-bit-2';
+
+          case WOOD_DRILL_BIT_2_5 = 'wood-drill-bit-2.5';
+
+          case WOOD_DRILL_BIT_3 = 'wood-drill-bit-3';
+
+          case WOOD_DRILL_BIT_3_5 = 'wood-drill-bit-3.5';
+
+          case WOOD_DRILL_BIT_4 = 'wood-drill-bit-4';
+
+          case WOOD_DRILL_BIT_5 = 'wood-drill-bit-5';
+
+          case WOOD_DRILL_BIT_5_5 = 'wood-drill-bit-5.5';
+
+          case WOOD_DRILL_BIT_6 = 'wood-drill-bit-6';
+
+          case WOOD_DRILL_BIT_7 = 'wood-drill-bit-7';
+
+          case WOOD_DRILL_BIT_8 = 'wood-drill-bit-8';
+
+          case WOOD_DRILL_BIT_10 = 'wood-drill-bit-10';
+
+        case MASONRY_DRILL_BIT = 'masonry-drill-bit';
+
+          case MASONRY_DRILL_BIT_2 = 'masonry-drill-bit-2';
+
+          case MASONRY_DRILL_BIT_2_5 = 'masonry-drill-bit-2.5';
+
+          case MASONRY_DRILL_BIT_3 = 'masonry-drill-bit-3';
+
+          case MASONRY_DRILL_BIT_3_5 = 'masonry-drill-bit-3.5';
+
+          case MASONRY_DRILL_BIT_4 = 'masonry-drill-bit-4';
+
+          case MASONRY_DRILL_BIT_5 = 'masonry-drill-bit-5';
+
+          case MASONRY_DRILL_BIT_5_5 = 'masonry-drill-bit-5.5';
+
+          case MASONRY_DRILL_BIT_6 = 'masonry-drill-bit-6';
+
+          case MASONRY_DRILL_BIT_7 = 'masonry-drill-bit-7';
+
+          case MASONRY_DRILL_BIT_8 = 'masonry-drill-bit-8';
+
+          case MASONRY_DRILL_BIT_10 = 'masonry-drill-bit-10';
+
+        // 2024-08-06 jj5 - HSS = High Speed Steel
+
         case HSS_DRILL_BIT = 'HSS-drill-bit';
+
+          case HSS_DRILL_BIT_2 = 'HSS-drill-bit-2';
+
+          case HSS_DRILL_BIT_2_5 = 'HSS-drill-bit-2.5';
+
+          case HSS_DRILL_BIT_3 = 'HSS-drill-bit-3';
+
+          case HSS_DRILL_BIT_3_5 = 'HSS-drill-bit-3.5';
+
+          case HSS_DRILL_BIT_4 = 'HSS-drill-bit-4';
+
+          case HSS_DRILL_BIT_5 = 'HSS-drill-bit-5';
+
+          case HSS_DRILL_BIT_5_5 = 'HSS-drill-bit-5.5';
+
+          case HSS_DRILL_BIT_6 = 'HSS-drill-bit-6';
+
+          case HSS_DRILL_BIT_7 = 'HSS-drill-bit-7';
+
+          case HSS_DRILL_BIT_8 = 'HSS-drill-bit-8';
+
+          case HSS_DRILL_BIT_10 = 'HSS-drill-bit-10';
 
         // 2024-08-04 jj5 - SEE: https://www.dremel.com/au/en/p/drill-bit-2615015032
         case DREMEL_150_DRILL_BIT = 'Dremel-150-drill-bit';
@@ -590,11 +718,15 @@ enum EquipmentFeature : string {
   // 2024-08-04 jj5 - POWER_SUPPLY
   //
 
-  case POWER_SUPPLY = 'power-supply';
+  case POWER = 'power';
 
-    case BENCH_POWER_SUPPLY = 'bench-power-supply';
+    case POWER_BOARD = 'power-board';
 
-    case POWER_MODULE = 'power-module';
+    case POWER_SUPPLY = 'power-supply';
+
+      case BENCH_POWER_SUPPLY = 'bench-power-supply';
+
+      case POWER_MODULE = 'power-module';
 
   //
   // 2024-08-04 jj5 - SCANNER
@@ -611,6 +743,8 @@ enum EquipmentFeature : string {
   //
 
   case SOLDERING_TOOL = 'soldering-tool';
+
+    case SOLDER_POT = 'solder-pot';
 
     case SOLDERING_STAND = 'soldering-stand';
 
@@ -654,6 +788,8 @@ enum EquipmentFeature : string {
   //
 
   case SCREWDRIVER = 'screwdriver';
+
+    case SCREWDRIVER_SET = 'screwdriver-set';
 
     case ELECTRIC_SCREWDRIVER = 'electric-screwdriver';
 
@@ -737,6 +873,8 @@ enum EquipmentFeature : string {
 
       case FLATHEAD_SCREWDRIVER_SL6_5 = 'flathead-screwdriver-SL6.5';
 
+      case FLATHEAD_SCREWDRIVER_SL7 = 'flathead-screwdriver-SL7';
+
       // 2024-08-04 jj5 - NOTE: SL8 is 5/16"
       case FLATHEAD_SCREWDRIVER_SL8 = 'flathead-screwdriver-SL8';
 
@@ -810,9 +948,11 @@ enum EquipmentFeature : string {
 
       case HEX_SCREWDRIVER_H5 = 'hex-screwdriver-H5.0';
 
-    case RESET_PIN_SCREWDRIVER = 'reset-pin-screwdriver';
+      case HEX_SCREWDRIVER_H6 = 'hex-screwdriver-H6.0';
 
-    // 2024-08-04 jj5 - NOTE: the tri-point drivers are also known as Y drivers...
+    // 2024-08-04 jj5 - NOTE: the tri-point drivers are also known as Y drivers (sometimes called tri-wing)...
+
+    // 2024-08-06 jj5 - SEE: https://en.wikipedia.org/wiki/List_of_screw_drives#Tamper-resistant_types
 
     case TRI_POINT_Y_SCREWDRIVER = 'tri-point-Y-screwdriver';
 
@@ -856,11 +996,45 @@ enum EquipmentFeature : string {
 
       case TRIANGULAR_SCREWDRIVER_3_0 = 'triangular-screwdriver-3.0';
 
+    // 2024-08-06 jj5 - these are also called 'spanner bits' or 'spanner head drill bits'.
+    //
     case U_DRIVE_SCREWDRIVER = 'U-drive-screwdriver';
 
       case U_DRIVE_SCREWDRIVER_U2_3 = 'U-drive-screwdriver-U2.3';
 
       case U_DRIVE_SCREWDRIVER_U2_6 = 'U-drive-screwdriver-U2.6';
+
+    case HEX_NUT_DRIVER = 'hex-nut-driver';
+
+      case HEX_NUT_DRIVER_6 = 'hex-nut-driver-6';
+
+      case HEX_NUT_DRIVER_7 = 'hex-nut-driver-7';
+
+      case HEX_NUT_DRIVER_8 = 'hex-nut-driver-8';
+
+      case HEX_NUT_DRIVER_9 = 'hex-nut-driver-9';
+
+      case HEX_NUT_DRIVER_10 = 'hex-nut-driver-10';
+
+      case HEX_NUT_DRIVER_11 = 'hex-nut-driver-11';
+
+      case HEX_NUT_DRIVER_12 = 'hex-nut-driver-12';
+
+      case HEX_NUT_DRIVER_13 = 'hex-nut-driver-13';
+
+    case GAMEBIT_SCREWDRIVER = 'gamebit-screwdriver';
+
+      case GAMEBIT_SCREWDRIVER_3_8 = 'gamebit-screwdriver-3.8';
+
+      case GAMEBIT_SCREWDRIVER_4_5 = 'gamebit-screwdriver-4.5';
+
+    case SPECIAL_SCREWDRIVER = 'special-screwdriver';
+
+      case RESET_PIN_SCREWDRIVER = 'reset-pin-screwdriver';
+
+      case COUNTERSINK_SCREWDRIVER = 'countersink-screwdriver';
+
+      case HEX_ADAPTER_SCREWDRIVER = 'hex-6.25mm-to-7.25mm-adapter';
 
   //
   // 2024-08-04 jj5 - CRIMPING_TOOL

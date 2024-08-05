@@ -627,6 +627,88 @@ equipment_define(
   );
 
 //
+// 2024-08-06 jj5 - DRIVE
+//
+
+equipment_define(
+  EquipmentFeature::DRIVE,
+  EquipmentClass::DRIVE,
+  EquipmentAttribute::COMPUTER_EQUIPMENT,
+);
+
+  equipment_define(
+    EquipmentFeature::USB_DRIVE,
+    EquipmentFeature::DRIVE,
+    EquipmentConnectivity::USB,
+  );
+
+  equipment_define(
+    EquipmentFeature::SSD_DRIVE,
+    EquipmentFeature::DRIVE,
+  );
+
+    equipment_define(
+      EquipmentFeature::USB_SSD_DRIVE,
+      EquipmentFeature::SSD_DRIVE,
+      EquipmentFeature::USB_DRIVE,
+    );
+
+  equipment_define(
+    EquipmentFeature::HDD_DRIVE,
+    EquipmentFeature::DRIVE,
+  );
+
+    equipment_define(
+      EquipmentFeature::USB_HDD_DRIVE,
+      EquipmentFeature::HDD_DRIVE,
+      EquipmentFeature::USB_DRIVE,
+    );
+
+  equipment_define(
+    EquipmentFeature::CDROM_DRIVE,
+    EquipmentFeature::DRIVE,
+  );
+
+    equipment_define(
+      EquipmentFeature::USB_CDROM_DRIVE,
+      EquipmentFeature::CDROM_DRIVE,
+      EquipmentFeature::USB_DRIVE,
+    );
+
+  equipment_define(
+    EquipmentFeature::DVD_DRIVE,
+    EquipmentFeature::DRIVE,
+  );
+
+    equipment_define(
+      EquipmentFeature::USB_DVD_DRIVE,
+      EquipmentFeature::DVD_DRIVE,
+      EquipmentFeature::USB_DRIVE,
+    );
+
+  equipment_define(
+    EquipmentFeature::BLU_RAY_DRIVE,
+    EquipmentFeature::DRIVE,
+  );
+
+    equipment_define(
+      EquipmentFeature::USB_BLU_RAY_DRIVE,
+      EquipmentFeature::BLU_RAY_DRIVE,
+      EquipmentFeature::USB_DRIVE,
+    );
+
+  equipment_define(
+    EquipmentFeature::FLOPPY_DRIVE,
+    EquipmentFeature::DRIVE,
+  );
+
+    equipment_define(
+      EquipmentFeature::USB_FLOPPY_DRIVE,
+      EquipmentFeature::FLOPPY_DRIVE,
+      EquipmentFeature::USB_DRIVE,
+    );
+
+//
 // 2024-08-04 jj5 - SWITCH
 //
 
@@ -643,6 +725,11 @@ equipment_define(
     EquipmentFeature::SWITCH,
     EquipmentConnectivity::ETHERNET,
   );
+
+    equipment_define(
+      EquipmentFeature::UNMANAGED_ETHERNET_SWITCH,
+      EquipmentFeature::ETHERNET_SWITCH,
+    );
 
   equipment_define(
     EquipmentFeature::USB_SWITCH,
@@ -851,9 +938,272 @@ equipment_define(
       );
 
       equipment_define(
+        EquipmentFeature::DRILL_BIT_2,
+        EquipmentFeature::DRILL_BIT,
+      );
+
+      equipment_define(
+        EquipmentFeature::DRILL_BIT_2_5,
+        EquipmentFeature::DRILL_BIT,
+      );
+
+      equipment_define(
+        EquipmentFeature::DRILL_BIT_3,
+        EquipmentFeature::DRILL_BIT,
+      );
+
+      equipment_define(
+        EquipmentFeature::DRILL_BIT_3_5,
+        EquipmentFeature::DRILL_BIT,
+      );
+
+      equipment_define(
+        EquipmentFeature::DRILL_BIT_4,
+        EquipmentFeature::DRILL_BIT,
+      );
+
+      equipment_define(
+        EquipmentFeature::DRILL_BIT_5,
+        EquipmentFeature::DRILL_BIT,
+      );
+
+      equipment_define(
+        EquipmentFeature::DRILL_BIT_5_5,
+        EquipmentFeature::DRILL_BIT,
+      );
+
+      equipment_define(
+        EquipmentFeature::DRILL_BIT_6,
+        EquipmentFeature::DRILL_BIT,
+      );
+
+      equipment_define(
+        EquipmentFeature::DRILL_BIT_7,
+        EquipmentFeature::DRILL_BIT,
+      );
+
+      equipment_define(
+        EquipmentFeature::DRILL_BIT_8,
+        EquipmentFeature::DRILL_BIT,
+      );
+
+      equipment_define(
+        EquipmentFeature::DRILL_BIT_10,
+        EquipmentFeature::DRILL_BIT,
+      );
+
+      equipment_define(
+        EquipmentFeature::WOOD_DRILL_BIT,
+        EquipmentFeature::DRILL_BIT,
+      );
+
+        equipment_define(
+          EquipmentFeature::WOOD_DRILL_BIT_2,
+          EquipmentFeature::DRILL_BIT_2,
+          EquipmentFeature::WOOD_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::WOOD_DRILL_BIT_2_5,
+          EquipmentFeature::DRILL_BIT_2_5,
+          EquipmentFeature::WOOD_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::WOOD_DRILL_BIT_3,
+          EquipmentFeature::DRILL_BIT_3,
+          EquipmentFeature::WOOD_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::WOOD_DRILL_BIT_3_5,
+          EquipmentFeature::DRILL_BIT_3_5,
+          EquipmentFeature::WOOD_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::WOOD_DRILL_BIT_4,
+          EquipmentFeature::DRILL_BIT_4,
+          EquipmentFeature::WOOD_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::WOOD_DRILL_BIT_5,
+          EquipmentFeature::DRILL_BIT_5,
+          EquipmentFeature::WOOD_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::WOOD_DRILL_BIT_5_5,
+          EquipmentFeature::DRILL_BIT_5_5,
+          EquipmentFeature::WOOD_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::WOOD_DRILL_BIT_6,
+          EquipmentFeature::DRILL_BIT_6,
+          EquipmentFeature::WOOD_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::WOOD_DRILL_BIT_7,
+          EquipmentFeature::DRILL_BIT_7,
+          EquipmentFeature::WOOD_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::WOOD_DRILL_BIT_8,
+          EquipmentFeature::DRILL_BIT_8,
+          EquipmentFeature::WOOD_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::WOOD_DRILL_BIT_10,
+          EquipmentFeature::DRILL_BIT_10,
+          EquipmentFeature::WOOD_DRILL_BIT,
+        );
+
+      equipment_define(
+        EquipmentFeature::MASONRY_DRILL_BIT,
+        EquipmentFeature::DRILL_BIT,
+      );
+
+        equipment_define(
+          EquipmentFeature::MASONRY_DRILL_BIT_2,
+          EquipmentFeature::DRILL_BIT_2,
+          EquipmentFeature::MASONRY_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::MASONRY_DRILL_BIT_2_5,
+          EquipmentFeature::DRILL_BIT_2_5,
+          EquipmentFeature::MASONRY_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::MASONRY_DRILL_BIT_3,
+          EquipmentFeature::DRILL_BIT_3,
+          EquipmentFeature::MASONRY_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::MASONRY_DRILL_BIT_3_5,
+          EquipmentFeature::DRILL_BIT_3_5,
+          EquipmentFeature::MASONRY_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::MASONRY_DRILL_BIT_4,
+          EquipmentFeature::DRILL_BIT_4,
+          EquipmentFeature::MASONRY_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::MASONRY_DRILL_BIT_5,
+          EquipmentFeature::DRILL_BIT_5,
+          EquipmentFeature::MASONRY_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::MASONRY_DRILL_BIT_5_5,
+          EquipmentFeature::DRILL_BIT_5_5,
+          EquipmentFeature::MASONRY_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::MASONRY_DRILL_BIT_6,
+          EquipmentFeature::DRILL_BIT_6,
+          EquipmentFeature::MASONRY_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::MASONRY_DRILL_BIT_7,
+          EquipmentFeature::DRILL_BIT_7,
+          EquipmentFeature::MASONRY_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::MASONRY_DRILL_BIT_8,
+          EquipmentFeature::DRILL_BIT_8,
+          EquipmentFeature::MASONRY_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::MASONRY_DRILL_BIT_10,
+          EquipmentFeature::DRILL_BIT_10,
+          EquipmentFeature::MASONRY_DRILL_BIT,
+        );
+
+      equipment_define(
         EquipmentFeature::HSS_DRILL_BIT,
         EquipmentFeature::DRILL_BIT,
       );
+
+        equipment_define(
+          EquipmentFeature::HSS_DRILL_BIT_2,
+          EquipmentFeature::DRILL_BIT_2,
+          EquipmentFeature::HSS_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::HSS_DRILL_BIT_2_5,
+          EquipmentFeature::DRILL_BIT_2_5,
+          EquipmentFeature::HSS_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::HSS_DRILL_BIT_3,
+          EquipmentFeature::DRILL_BIT_3,
+          EquipmentFeature::HSS_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::HSS_DRILL_BIT_3_5,
+          EquipmentFeature::DRILL_BIT_3_5,
+          EquipmentFeature::HSS_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::HSS_DRILL_BIT_4,
+          EquipmentFeature::DRILL_BIT_4,
+          EquipmentFeature::HSS_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::HSS_DRILL_BIT_5,
+          EquipmentFeature::DRILL_BIT_5,
+          EquipmentFeature::HSS_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::HSS_DRILL_BIT_5_5,
+          EquipmentFeature::DRILL_BIT_5_5,
+          EquipmentFeature::HSS_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::HSS_DRILL_BIT_6,
+          EquipmentFeature::DRILL_BIT_6,
+          EquipmentFeature::HSS_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::HSS_DRILL_BIT_7,
+          EquipmentFeature::DRILL_BIT_7,
+          EquipmentFeature::HSS_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::HSS_DRILL_BIT_8,
+          EquipmentFeature::DRILL_BIT_8,
+          EquipmentFeature::HSS_DRILL_BIT,
+        );
+
+        equipment_define(
+          EquipmentFeature::HSS_DRILL_BIT_10,
+          EquipmentFeature::DRILL_BIT_10,
+          EquipmentFeature::HSS_DRILL_BIT,
+        );
 
       equipment_define(
         EquipmentFeature::DREMEL_150_DRILL_BIT,
@@ -1316,24 +1666,34 @@ equipment_define(
   );
 
 //
-// 2024-08-04 jj5 - POWER_SUPPLY
+// 2024-08-04 jj5 - POWER
 //
 
 equipment_define(
-  EquipmentFeature::POWER_SUPPLY,
-  EquipmentClass::POWER_SUPPLY,
+  EquipmentFeature::POWER,
+  EquipmentClass::POWER,
 );
 
   equipment_define(
-    EquipmentFeature::BENCH_POWER_SUPPLY,
-    EquipmentFeature::POWER_SUPPLY,
-    EquipmentAttribute::BENCH_EQUIPMENT,
+    EquipmentFeature::POWER_BOARD,
+    EquipmentClass::POWER_BOARD,
   );
 
   equipment_define(
-    EquipmentFeature::POWER_MODULE,
     EquipmentFeature::POWER_SUPPLY,
+    EquipmentClass::POWER_SUPPLY,
   );
+
+    equipment_define(
+      EquipmentFeature::BENCH_POWER_SUPPLY,
+      EquipmentFeature::POWER_SUPPLY,
+      EquipmentAttribute::BENCH_EQUIPMENT,
+    );
+
+    equipment_define(
+      EquipmentFeature::POWER_MODULE,
+      EquipmentFeature::POWER_SUPPLY,
+    );
 
 //
 // 2024-08-04 jj5 - SCANNER
@@ -1365,6 +1725,12 @@ equipment_define(
   EquipmentFeature::SOLDERING_TOOL,
   EquipmentClass::SOLDERING_TOOL,
 );
+
+  equipment_define(
+    EquipmentFeature::SOLDER_POT,
+    EquipmentFeature::SOLDERING_TOOL,
+    EquipmentAttribute::BENCH_EQUIPMENT,
+  );
 
   equipment_define(
     EquipmentFeature::SOLDERING_STAND,
@@ -1468,6 +1834,11 @@ equipment_define(
 );
 
   equipment_define(
+    EquipmentFeature::SCREWDRIVER_SET,
+    EquipmentFeature::SCREWDRIVER,
+  );
+
+  equipment_define(
     EquipmentFeature::ELECTRIC_SCREWDRIVER,
     EquipmentFeature::SCREWDRIVER,
   );
@@ -1486,6 +1857,7 @@ equipment_define(
     equipment_define(
       EquipmentFeature::MINI_SCREWDRIVER_SET,
       EquipmentFeature::MINI_SCREWDRIVER,
+      EquipmentFeature::SCREWDRIVER_SET,
     );
 
   equipment_define(
@@ -1496,6 +1868,7 @@ equipment_define(
     equipment_define(
       EquipmentFeature::PRECISION_SCREWDRIVER_SET,
       EquipmentFeature::PRECISION_SCREWDRIVER,
+      EquipmentFeature::SCREWDRIVER_SET,
     );
 
   equipment_define(
@@ -1631,6 +2004,11 @@ equipment_define(
 
     equipment_define(
       EquipmentFeature::FLATHEAD_SCREWDRIVER_SL6_5,
+      EquipmentFeature::FLATHEAD_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::FLATHEAD_SCREWDRIVER_SL7,
       EquipmentFeature::FLATHEAD_SCREWDRIVER,
     );
 
@@ -1804,10 +2182,10 @@ equipment_define(
       EquipmentFeature::HEX_SCREWDRIVER,
     );
 
-  equipment_define(
-    EquipmentFeature::RESET_PIN_SCREWDRIVER,
-    EquipmentFeature::SCREWDRIVER,
-  );
+    equipment_define(
+      EquipmentFeature::HEX_SCREWDRIVER_H6,
+      EquipmentFeature::HEX_SCREWDRIVER,
+    );
 
   equipment_define(
     EquipmentFeature::TRI_POINT_Y_SCREWDRIVER,
@@ -1903,6 +2281,87 @@ equipment_define(
       EquipmentFeature::U_DRIVE_SCREWDRIVER_U2_6,
       EquipmentFeature::U_DRIVE_SCREWDRIVER,
     );
+
+  equipment_define(
+    EquipmentFeature::HEX_NUT_DRIVER,
+    EquipmentFeature::SCREWDRIVER,
+  );
+
+    equipment_define(
+    EquipmentFeature::HEX_NUT_DRIVER_6,
+    EquipmentFeature::HEX_NUT_DRIVER,
+    );
+
+    equipment_define(
+    EquipmentFeature::HEX_NUT_DRIVER_7,
+    EquipmentFeature::HEX_NUT_DRIVER,
+    );
+
+    equipment_define(
+    EquipmentFeature::HEX_NUT_DRIVER_8,
+    EquipmentFeature::HEX_NUT_DRIVER,
+    );
+
+    equipment_define(
+    EquipmentFeature::HEX_NUT_DRIVER_9,
+    EquipmentFeature::HEX_NUT_DRIVER,
+    );
+
+    equipment_define(
+    EquipmentFeature::HEX_NUT_DRIVER_10,
+    EquipmentFeature::HEX_NUT_DRIVER,
+    );
+
+    equipment_define(
+    EquipmentFeature::HEX_NUT_DRIVER_11,
+    EquipmentFeature::HEX_NUT_DRIVER,
+    );
+
+    equipment_define(
+    EquipmentFeature::HEX_NUT_DRIVER_12,
+    EquipmentFeature::HEX_NUT_DRIVER,
+    );
+
+    equipment_define(
+    EquipmentFeature::HEX_NUT_DRIVER_13,
+    EquipmentFeature::HEX_NUT_DRIVER,
+    );
+
+  equipment_define(
+    EquipmentFeature::GAMEBIT_SCREWDRIVER,
+    EquipmentFeature::SCREWDRIVER,
+  );
+
+    equipment_define(
+      EquipmentFeature::GAMEBIT_SCREWDRIVER_3_8,
+      EquipmentFeature::GAMEBIT_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::GAMEBIT_SCREWDRIVER_4_5,
+      EquipmentFeature::GAMEBIT_SCREWDRIVER,
+    );
+
+  equipment_define(
+    EquipmentFeature::SPECIAL_SCREWDRIVER,
+    EquipmentFeature::SCREWDRIVER,
+  );
+
+    equipment_define(
+      EquipmentFeature::RESET_PIN_SCREWDRIVER,
+      EquipmentFeature::SPECIAL_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::COUNTERSINK_SCREWDRIVER,
+      EquipmentFeature::SPECIAL_SCREWDRIVER,
+    );
+
+    equipment_define(
+      EquipmentFeature::HEX_ADAPTER_SCREWDRIVER,
+      EquipmentFeature::SPECIAL_SCREWDRIVER,
+    );
+
 
 //
 // 2024-08-04 jj5 - CRIMPING_TOOL
