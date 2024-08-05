@@ -13233,7 +13233,7 @@ equipment(
   equipment_date( '2021-07-30' ),
   equipment_icon( 'https://i.ebayimg.com/images/g/UcgAAOSwrjtfSNEU/s-l1600.jpg' ),
   equipment_item(
-    manufacturer_name  ( 'oz_gear' ),
+    manufacturer_name  ( 'Aussishop' ),
     EquipmentFeature::CALIPERS,
   ),
   /*
