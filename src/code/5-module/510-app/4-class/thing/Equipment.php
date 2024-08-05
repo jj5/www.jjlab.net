@@ -44,7 +44,48 @@ class Equipment extends AppThing {
   public function get_sixsigma_url() { return $this->get( SixsigmaUrl::class ); }
 
   public function get_warning_list() { return $this->get_list( Warning::class ); }
-  public function get_see_also_list() { return $this->get_list( SeeAlso::class ); }
+
+  public function get_see_also_list() {
+
+    static $equipment_map = null;
+
+    $see_also_list = $this->get_list( SeeAlso::class );
+
+    if ( DEBUG ) {
+
+      if ( $equipment_map === null ) {
+
+        $equipment_map = [];
+
+        foreach ( get_list( Equipment::class ) as $equipment ) {
+
+          $id = $equipment->get_equipment_name()->get_html_id();
+
+          $equipment_map[ $id ] = $equipment;
+
+        }
+
+      }
+
+      foreach ( $see_also_list as $see_also ) {
+
+        $id = $see_also->get_html_id();
+
+        if ( ! isset( $equipment_map[ $id ] ) ) {
+
+          dump( $id );
+
+        }
+
+      }
+
+
+    }
+
+    return $see_also_list;
+
+  }
+
   public function get_web_link_list() { return $this->get_list( WebLink::class ); }
 
   public function get_category_list() {

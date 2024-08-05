@@ -12,43 +12,73 @@ class EquipmentName extends AppThing {
   public function get_model_name() { return $this->get( ModelName::class ); }
   public function get_equipment_type() { return $this->get( EquipmentType::class ); }
 
+  private $string = null;
+
   public function to_string() : string {
 
-    $result = [];
+    if ( $this->string === null ) {
 
-    $part = $this->get_manufacturer_name()->to_string();
+      $result = [];
 
-    if ( $part ) { $result[] = $part; }
+      $part = $this->get_manufacturer_name()->to_string();
 
-    $part = $this->get_model_name()->to_string();
+      if ( $part ) { $result[] = $part; }
 
-    if ( $part ) { $result[] = $part; }
+      $part = $this->get_model_name()->to_string();
 
-    $part = $this->get_equipment_type()->to_string();
+      if ( $part ) { $result[] = $part; }
 
-    if ( $part ) { $result[] = $part; }
+      $part = $this->get_equipment_type()->to_string();
 
-    return implode( ' ', $result );
+      if ( $part ) { $result[] = $part; }
+
+      $this->string = implode( ' ', $result );
+
+    }
+
+    return $this->string;
 
   }
 
+  private $id = null;
+
   public function to_id() : string {
 
-    $result = [];
+    if ( $this->id === null ) {
 
-    $part = self::clean( $this->get_manufacturer_name()->to_string() );
+      $result = [];
 
-    if ( $part ) { $result[] = $part; }
+      $part = self::clean( $this->get_manufacturer_name()->to_string() );
 
-    $part = self::clean( $this->get_model_name()->to_string() );
+      if ( $part ) { $result[] = $part; }
 
-    if ( $part ) { $result[] = $part; }
+      $part = self::clean( $this->get_model_name()->to_string() );
 
-    $part = self::clean( $this->get_equipment_type()->to_string() );
+      if ( $part ) { $result[] = $part; }
 
-    if ( $part ) { $result[] = $part; }
+      $part = self::clean( $this->get_equipment_type()->to_string() );
 
-    return implode( ' ', $result );
+      if ( $part ) { $result[] = $part; }
+
+      $this->id = implode( ' ', $result );
+
+    }
+
+    return $this->id;
+
+  }
+
+  private $html_id = null;
+
+  function get_html_id() {
+
+    if ( $this->html_id === null ) {
+
+      $this->html_id = get_html_id( $this->to_id() );
+
+    }
+
+    return $this->html_id;
 
   }
 

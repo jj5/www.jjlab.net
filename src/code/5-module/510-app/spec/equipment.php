@@ -3232,7 +3232,6 @@ equipment(
   see_also      ( 'Dremel 2500 Multi-Vise' ),
   see_also      ( 'Dremel 220 Drill Press' ),
   see_also      ( 'Dremel EZ725 Rotary Tool Accessory Set' ),
-  see_also      ( 'Dremel Cutting Discs for Rotary Tool' ),
   see_also      ( 'Dremel 490 Rotary Tool Dust Blower' ),
   search_url    ( 'https://www.amazon.com/s?k=Dremel+4300&crid=3GF6DY905ZJF0&sprefix=dremel+4300%2Caps%2C1286&ref=nb_sb_noss_1' ),
   search_url    ( 'https://www.aliexpress.com/w/wholesale-Dremel-4300-Rotary-Tool.html' ),
@@ -3346,7 +3345,6 @@ equipment(
   see_also      ( 'Dremel 2500 Multi-Vise' ),
   see_also      ( 'Dremel 220 Drill Press' ),
   see_also      ( 'Dremel EZ725 Rotary Tool Accessory Set' ),
-  see_also      ( 'Dremel Cutting Discs for Rotary Tool' ),
   see_also      ( 'Dremel 490 Rotary Tool Dust Blower' ),
   search_url    ( 'https://www.amazon.com/s?k=Dremel+335+Plunge+Router&s=price-asc-rank' ),
   affiliate_link(
@@ -3460,7 +3458,6 @@ equipment(
   see_also      ( 'Dremel 335 Plunge Router' ),
   see_also      ( 'Dremel 220 Drill Press' ),
   see_also      ( 'Dremel EZ725 Rotary Tool Accessory Set' ),
-  see_also      ( 'Dremel Cutting Discs for Rotary Tool' ),
   see_also      ( 'Dremel 490 Rotary Tool Dust Blower' ),
   search_url    ( 'https://www.amazon.com/s?k=Dremel+2500+Multi-Vise&s=price-asc-rank' ),
   affiliate_link(
@@ -3584,7 +3581,6 @@ equipment(
   see_also      ( 'Dremel 335 Plunge Router' ),
   see_also      ( 'Dremel 2500 Multi-Vise' ),
   see_also      ( 'Dremel EZ725 Rotary Tool Accessory Set' ),
-  see_also      ( 'Dremel Cutting Discs for Rotary Tool' ),
   see_also      ( 'Dremel 490 Rotary Tool Dust Blower' ),
   search_url    ( 'https://www.amazon.com/s?k=Dremel+220+Drill+Press&s=price-asc-rank' ),
   affiliate_link(
@@ -3714,7 +3710,6 @@ equipment(
   see_also      ( 'Dremel 335 Plunge Router' ),
   see_also      ( 'Dremel 2500 Multi-Vise' ),
   see_also      ( 'Dremel 220 Drill Press' ),
-  see_also      ( 'Dremel Cutting Discs for Rotary Tool' ),
   see_also      ( 'Dremel 490 Rotary Tool Dust Blower' ),
   search_url    ( 'https://www.amazon.com/s?k=Dremel+EZ725+Rotary+Tool+Accessory+Set&s=price-asc-rank' ),
   affiliate_link(
@@ -3851,7 +3846,6 @@ equipment(
   see_also      ( 'Dremel 2500 Multi-Vise' ),
   see_also      ( 'Dremel 220 Drill Press' ),
   see_also      ( 'Dremel EZ725 Rotary Tool Accessory Set' ),
-  see_also      ( 'Dremel Cutting Discs for Rotary Tool' ),
   search_url    ( 'https://www.amazon.com/s?k=Dremel+490+Rotary+Tool+Dust+Blower&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/gp/product/B00CM5ZCW2?&linkCode=sl1&tag=johnelliotv-20&linkId=ffee9585c3cbcb6c72e8cbf9a6b78946&language=en_US&ref_=as_li_ss_tl' ),
@@ -4409,7 +4403,7 @@ equipment(
   ),
   */
   sixsigma_url  ( 'https://www.jj5.net/wiki/TOMLOV_DM602_Pro' ),
-  see_also      ( 'Yizhan Microscope' ),
+  see_also      ( 'Yizhan Digital Microscope' ),
   search_url    ( 'https://www.amazon.com/s?k=TOMLOV+DM602+Pro+Digital+Microscope&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/TOMLOV-DM602-Pro-Microscope-Electronics/dp/B0C2CY4FND/ref=psdc_2742273011_t1_B0CBLT82BK' ),
@@ -11124,7 +11118,7 @@ equipment(
   ),
   */
   sixsigma_url    ( 'https://www.jj5.net/wiki/Aokin1PC_Wire_Cutter' ),
-  see_also        ( 'Plato Model 170 Wire Cutters' ),
+  see_also        ( 'Plato Model 170 Wire Cutter' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005004748524842.html' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_Dmniw3Z' ),
