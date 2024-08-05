@@ -388,6 +388,8 @@ enum EquipmentFeature : string {
 
     case LOGIC_PROBE = 'logic-probe';
 
+    case PROBE_TWEEZERS = 'probe-tweezers';
+
   //
   // 2024-08-04 jj5 - SWITCH
   //

@@ -448,6 +448,12 @@ equipment_define(
     EquipmentFeature::PROBE,
   );
 
+  equipment_define(
+    EquipmentFeature::PROBE_TWEEZERS,
+    EquipmentFeature::PROBE,
+    EquipmentFeature::TWEEZERS,
+  );
+
 //
 // 2024-08-04 jj5 - SWITCH
 //
@@ -1194,6 +1200,7 @@ equipment_define(
 
   equipment_define(
     EquipmentFeature::DIGITAL_TWEEZERS,
+    EquipmentClass::MULTIMETER,
     EquipmentFeature::TWEEZERS,
   );
 
@@ -11119,9 +11126,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/Sf47b9596e1cf4e6483e10539dba899bcL/Chip-Test-Clip-Multimeter-Probe-Tweezers-Patch-For-Capacitance-Inductance-SMD-Resistor-Capacitor-Tester-Meter-Pen.jpeg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'Probe' ),
-    EquipmentFeature::TWEEZERS,
-    EquipmentFeature::PROBE,
+    EquipmentFeature::PROBE_TWEEZERS,
     EquipmentAttribute::HAND_TOOL,
   ),
   /*
