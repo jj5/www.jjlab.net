@@ -89,7 +89,7 @@ function render_equipment_page( $equipment_list ) {
 
           tag_text(
             'p',
-            "Here is a list of $count_formatted types of product I use. These products may appear in my videos.",
+            "Here is a list of $count_formatted types of product which I use. These products may appear in my videos.",
           );
 
         }
