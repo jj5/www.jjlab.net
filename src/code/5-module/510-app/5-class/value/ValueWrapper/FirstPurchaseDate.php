@@ -31,6 +31,12 @@ class FirstPurchaseDate extends ValueWrapper {
 
   }
 
+  public function render( mixed $format = null, array $attrs = [] ) : void {
+
+    $this->render_span();
+
+  }
+
   public function render_span() {
 
     if ( $this->is_empty() ) {
