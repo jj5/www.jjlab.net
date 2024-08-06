@@ -14011,6 +14011,271 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2023-01-25' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/410mNSAbUdL._AC_SL1280_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'ACCO Brands' ),
+    model_name        ( 'ESSELTE 45790  30-Litre Black' ),
+    EquipmentFeature::BIN,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B075ZY5W9F' ),
+    listing_name  ( 'Esselte SWS Plastic Waste Bin, Black, 30 litres' ),
+    item_price    ( 'AU$31.30' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B075ZY5W9F' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=250-5127108-6530246' ),
+    order_id        ( '250-5127108-6530246' ),
+    order_date      ( '25 January 2023' ),
+    order_item_name ( 'Esselte SWS Plastic Waste Bin, Black, 30 litres' ),
+    order_price     ( 'AU$35.68' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B075ZY5W9F' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=250-6975791-4913400' ),
+    order_id        ( '250-6975791-4913400' ),
+    order_date      ( '29 November 2022' ),
+    order_item_name ( 'Esselte SWS Plastic Waste Bin, Black, 30 litres' ),
+    order_price     ( 'AU$35.68' ),
+    order_quantity  ( 2 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B075ZY5W9F' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=250-2941175-1522238' ),
+    order_id        ( '250-2941175-1522238' ),
+    order_date      ( '21 June 2022' ),
+    order_item_name ( 'Esselte SWS Plastic Waste Bin, Black, 30 litres' ),
+    order_price     ( 'AU$27.69' ),
+    order_quantity  ( 2 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B075ZY5W9F' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=250-1503523-0850252' ),
+    order_id        ( '250-1503523-0850252' ),
+    order_date      ( '10 June 2022' ),
+    order_item_name ( 'Esselte SWS Plastic Waste Bin, Black, 30 litres' ),
+    order_price     ( 'AU$27.69' ),
+    order_quantity  ( 2 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B075ZY5W9F' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=249-7536552-7249458' ),
+    order_id        ( '249-7536552-7249458' ),
+    order_date      ( '27 March 2022' ),
+    order_item_name ( 'Esselte SWS Plastic Waste Bin, Black, 30 litres' ),
+    order_price     ( 'AU$22.25' ),
+    order_quantity  ( 2 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2022-06-21' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71m3UaZ0TOL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'OXO' ),
+    model_name        ( 'Good Grips Deep Clean' ),
+    EquipmentFeature::BRUSH_SET,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B003M8GMS6' ),
+    listing_name  ( 'OXO Good Grips Deep Clean Brush Set' ),
+    item_price    ( 'AU$8.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B003M8GMS6' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=249-6287094-6962228' ),
+    order_id        ( '249-6287094-6962228' ),
+    order_date      ( '14 August 2021' ),
+    order_item_name ( 'OXO Good Grips Deep Clean Brush Set' ),
+    order_price     ( 'AU$9.50' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B003M8GMS6' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=249-0374763-7061415' ),
+    order_id        ( '249-0374763-7061415' ),
+    order_date      ( '10 September 2021' ),
+    order_item_name ( 'OXO Good Grips Deep Clean Brush Set' ),
+    order_price     ( 'AU$12.57' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B003M8GMS6' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=250-9542106-0495013' ),
+    order_id        ( '250-9542106-0495013' ),
+    order_date      ( '17 June 2022' ),
+    order_item_name ( 'OXO Good Grips Deep Clean Brush Set' ),
+    order_price     ( 'AU$10.77' ),
+    order_quantity  ( 2 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B003M8GMS6' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=250-2941175-1522238' ),
+    order_id        ( '250-2941175-1522238' ),
+    order_date      ( '21 June 2022' ),
+    order_item_name ( 'OXO Good Grips Deep Clean Brush Set' ),
+    order_price     ( 'AU$10.77' ),
+    order_quantity  ( 2 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2022-07-16' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/61BNlQ96ajL._AC_SL1460_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'OXO' ),
+    model_name        ( 'All-Purpose' ),
+    EquipmentFeature::SCRUB_BRUSH,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B00004OCL3' ),
+    listing_name  ( 'OXO All-Purpose Scrub Brush, Black/White, One Size' ),
+    item_price    ( 'AU$9.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B00004OCL3' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=250-3317902-8890210' ),
+    order_id        ( '250-3317902-8890210' ),
+    order_date      ( '16 July 2022' ),
+    order_item_name ( 'OXO All-Purpose Scrub Brush, Black/White, One Size' ),
+    order_price     ( 'AU$9.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2022-07-16' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/714-ay7uH+L._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'OXO' ),
+    model_name        ( 'Good Grips Soap Dispensing' ),
+    EquipmentFeature::DISH_BRUSH,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B000CC91GK' ),
+    listing_name  ( 'OXO Good Grips Soap Dispensing Dish Brush, None, Black/White, 1067529, 15x10x5cm' ),
+    item_price    ( 'AU$23.35' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B000CC91GK' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=250-3317902-8890210' ),
+    order_id        ( '250-3317902-8890210' ),
+    order_date      ( '16 July 2022' ),
+    order_item_name ( 'OXO Good Grips Soap Dispensing Dish Brush, None, Black/White, 1067529, 15x10x5cm' ),
+    order_price     ( 'AU$14.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2022-07-16' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/61m1xt4ue+L._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'OXO' ),
+    model_name        ( 'Soap Dispensing' ),
+    EquipmentFeature::DISH_BRUSH_REFILLS,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B01F42RYP2' ),
+    listing_name  ( 'OXO Soap Dispensing Dish Brush Refills, 2 Piece, White' ),
+    item_price    ( 'AU$11.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B01F42RYP2' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=250-3317902-8890210' ),
+    order_id        ( '250-3317902-8890210' ),
+    order_date      ( '16 July 2022' ),
+    order_item_name ( 'OXO Soap Dispensing Dish Brush Refills, 2 Piece, White' ),
+    order_price     ( 'AU$11.00' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-06-07' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/61vJ2fd0b0L._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Furinno' ),
+    model_name        ( 'Jaya Simple Home 3-Shelf Black' ),
+    EquipmentFeature::BOOKCASE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/dp/B01BWZWDZG' ),
+    listing_name  ( '(3-Tier, Black) - FURINNO Jaya Simple Home 3-Shelf Bookcase, Black' ),
+    item_price    ( 'AU$301.44' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/dp/B01BWZWDZG' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=250-2548293-0859004' ),
+    order_id        ( '250-2548293-0859004' ),
+    order_date      ( '7 June 2023' ),
+    order_item_name ( '(3-Tier, Black) - FURINNO Jaya Simple Home 3-Shelf Bookcase, Black' ),
+    order_price     ( 'AU$282.62' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-06-08' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/81vmbJa-AHL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'IRIS USA' ),
+    model_name        ( 'Modular Storage 3-Tier Organizer' ),
+    EquipmentFeature::BOOKCASE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/dp/B074CTSKPC' ),
+    listing_name  ( 'IRIS USA Modular Storage 3-Tier Organizer, Off White' ),
+    item_price    ( 'AU$117.20' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/dp/B074CTSKPC' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=250-9700335-6767842' ),
+    order_id        ( '250-9700335-6767842' ),
+    order_date      ( '8 June 2023' ),
+    order_item_name ( 'IRIS USA Modular Storage 3-Tier Organizer, Off White' ),
+    order_price     ( 'AU$111.28' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-08-25' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/61yroV1GZaL._AC_SL1200_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'SAYEEC' ),
+    model_name        ( 'Collapsible File Organizer 4-Compartment Plastic Divider' ),
+    EquipmentFeature::MAGAZINE_HOLDER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B08C2MHK3B' ),
+    listing_name  ( 'SAYEEC Collapsible File Organizer Magazine Holder Desktop 4 Compartment File Holder Plastic Divider Sorter Adjustable Stand Office Document Organizer Storage Bins Home School File Box Grey' ),
+    item_options  ( 'Colour Name: Grey' ),
+    item_price    ( 'AU$26.49' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B08C2MHK3B' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=249-8349399-7015019' ),
+    order_id        ( '249-8349399-7015019' ),
+    order_date      ( '25 August 2023' ),
+    order_item_name ( 'SAYEEC Collapsible File Organizer Magazine Holder Desktop 4 Compartment File Holder Plastic Divider Sorter Adjustable Stand Office Document Organizer Storage Bins Home School File Box Grey' ),
+    order_options   ( 'Colour Name: Grey' ),
+    order_price     ( 'AU$25.49' ),
+    order_quantity  ( 2 ),
+  ),
+);
+
 /*
 
 equipment(

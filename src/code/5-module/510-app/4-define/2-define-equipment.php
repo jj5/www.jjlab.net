@@ -19,6 +19,11 @@ equipment_define(
     EquipmentFeature::STORAGE,
   );
 
+    equipment_define(
+      EquipmentFeature::BOOKCASE,
+      EquipmentFeature::SHELVES,
+    );
+
   equipment_define(
     EquipmentFeature::RACK,
     EquipmentFeature::STORAGE,
@@ -53,6 +58,11 @@ equipment_define(
     EquipmentFeature::ORGANIZER,
     EquipmentFeature::STORAGE,
   );
+
+    equipment_define(
+      EquipmentFeature::MAGAZINE_HOLDER,
+      EquipmentFeature::ORGANIZER,
+    );
 
   equipment_define(
     EquipmentFeature::TRAY,
@@ -2716,6 +2726,17 @@ equipment_define(
     EquipmentFeature::BRUSH,
     EquipmentAttribute::CLEANING_EQUIPMENT,
   );
+
+  equipment_define(
+    EquipmentFeature::DISH_BRUSH,
+    EquipmentFeature::BRUSH,
+    EquipmentAttribute::CLEANING_EQUIPMENT,
+  );
+
+    equipment_define(
+      EquipmentFeature::DISH_BRUSH_REFILLS,
+      EquipmentFeature::DISH_BRUSH,
+    );
 
   equipment_define(
     EquipmentFeature::WIRE_BRUSH,

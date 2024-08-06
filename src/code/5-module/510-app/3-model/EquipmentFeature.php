@@ -12,6 +12,8 @@ enum EquipmentFeature : string {
 
     case SHELVES = 'shelves';
 
+      case BOOKCASE = 'bookcase';
+
     case RACK = 'rack';
 
     case CABINET = 'cabinet';
@@ -25,6 +27,8 @@ enum EquipmentFeature : string {
     case CONTAINER = 'container';
 
     case ORGANIZER = 'organizer';
+
+      case MAGAZINE_HOLDER = 'magazine-holder';
 
     case TRAY = 'tray';
 
@@ -1199,6 +1203,10 @@ enum EquipmentFeature : string {
     case HARD_BRUSH = 'hard-brush';
 
     case SCRUB_BRUSH = 'scrub-brush';
+
+    case DISH_BRUSH = 'dish-brush';
+
+      case DISH_BRUSH_REFILLS = 'dish-brush-refills';
 
     case WIRE_BRUSH = 'wire-brush';
 
