@@ -25,7 +25,7 @@ class DataFile {
 
     if ( ! $this->data ) {
 
-      error_log( 'DataFile::save() - no data to save' );
+      //error_log( 'DataFile::save() - no data to save' );
 
       return false;
 
