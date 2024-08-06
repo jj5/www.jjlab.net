@@ -1517,6 +1517,10 @@ function render_equipment_table( $equipment_list ) {
 
             $id = $equipment->get_equipment_id();
 
+            // 2024-08-06 jj5 - HACK! I don't understand how this duplicate ID can happen...
+            //
+            if ( mud_html_has_id( $id ) ) { $id = $id . '-' . $row_number; }
+
             $short_link = $equipment->get_short_link();
 
             tag_open( 'tr', [ 'class' => "spacer row-$row_number" ] );
