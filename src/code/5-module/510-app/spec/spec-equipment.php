@@ -9919,9 +9919,11 @@ equipment(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( 'Long Handle' ),
     EquipmentFeature::WIRE_BRUSH,
+    /*
     equipment_type     ( 'Wire Brush' ),
     category          ( 'Brush' ),
     category          ( 'Cleaning' ),
+    */
   ),
   /*
   equipment_info(
