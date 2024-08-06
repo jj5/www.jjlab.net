@@ -41,8 +41,11 @@ class EquipmentIcon extends Url {
 
     if ( $ext === null ) {
 
-      $this->download( $ext );
+      if ( ! PROD ) {
 
+        $this->download( $ext );
+
+      }
     }
 
     return url_base( $use_cdn = true ) . "/res/img.php/auto/$hash.$ext?v=" . get_resource_version();
@@ -65,7 +68,7 @@ class EquipmentIcon extends Url {
 
   }
 
-  public function download( &$ext = null ) {
+  private function download( &$ext = null ) {
 
     $ext = null;
 
