@@ -273,8 +273,8 @@ equipment(
     manufacturer_name ( 'FILCO' ),
     model_name        ( 'Majestouch 2SS 104-key' ),
     EquipmentFeature::MECHANICAL_KEYBOARD,
+    EquipmentFeature::USB_KEYBOARD,
     EquipmentAttribute::COMPUTER_EQUIPMENT,
-    EquipmentConnectivity::USB,
   ),
   /*
   equipment_info(
@@ -334,7 +334,7 @@ equipment(
     model_name        ( 'Majestouch 2SS 87-key' ),
     EquipmentFeature::MECHANICAL_KEYBOARD,
     EquipmentAttribute::COMPUTER_EQUIPMENT,
-    EquipmentConnectivity::USB,
+    EquipmentFeature::USB_KEYBOARD,
   ),
   /*
   equipment_info(
@@ -1005,8 +1005,17 @@ equipment(
     order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=250-9754174-2638253' ),
     order_id        ( '250-9754174-2638253' ),
     order_date      ( '23 February 2023' ),
-    order_item_name ( '' ),
+    order_item_name ( 'Dremel EZ725 EZ All-Purpose Accessory 70 Piece Kit' ),
     order_price     ( 'AU$97.86' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B00TODY7YO/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=250-6408854-0744627' ),
+    order_id        ( '250-6408854-0744627' ),
+    order_date      ( '10 February 2023' ),
+    order_item_name ( 'Dremel EZ725 EZ All-Purpose Accessory 70 Piece Kit' ),
+    order_price     ( 'AU$84.30' ),
     order_quantity  ( 1 ),
   ),
 );
@@ -11846,6 +11855,7 @@ equipment(
     manufacturer_name ( 'WASD Keyboards' ),
     model_name        ( 'CODE 104-Key' ),
     EquipmentFeature::MECHANICAL_KEYBOARD,
+    EquipmentFeature::USB_KEYBOARD,
   ),
   sixsigma_url  ( '' ),
   affiliate_link(
@@ -11918,6 +11928,7 @@ equipment(
     manufacturer_name ( 'WASD Keyboards' ),
     model_name        ( 'CODE V3 104-Key' ),
     EquipmentFeature::MECHANICAL_KEYBOARD,
+    EquipmentFeature::USB_KEYBOARD,
   ),
   sixsigma_url  ( '' ),
   affiliate_link(
@@ -11946,6 +11957,7 @@ equipment(
     manufacturer_name ( 'WASD Keyboards' ),
     model_name        ( 'VIM by Skeletor 104-Key V3 Custom' ),
     EquipmentFeature::MECHANICAL_KEYBOARD,
+    EquipmentFeature::USB_KEYBOARD,
   ),
   sixsigma_url  ( '' ),
   affiliate_link(
@@ -13786,6 +13798,218 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2023-06-22' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/41bS6%2B--QaL._SX1600_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'ASUS' ),
+    model_name        ( 'ROG Gladius II Ergonomic Optical Gaming' ),
+    EquipmentFeature::USB_MOUSE,
+  ),
+  warning( 'I get the ROG Gladius II, not the newer ROG Gladius III' ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B06X158PYV' ),
+    listing_name  ( 'ASUS ROG Gladius II Ergonomic Optical Gaming Mouse Optimized for FPS Gaming Featuring Easy-Swap Switch Socket, Aura Sync RGB Lighting and DPI Target T' ),
+    item_price    ( 'AU$98.41' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B06X158PYV' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=250-2827618-8307035&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '250-2827618-8307035' ),
+    order_date      ( '22 June 2023' ),
+    order_item_name ( 'ASUS ROG Gladius II Ergonomic Optical Gaming Mouse Optimized for FPS Gaming Featuring Easy-Swap Switch Socket, Aura Sync RGB Lighting and DPI Target T' ),
+    order_price     ( 'AU$98.41' ),
+    order_quantity  ( 3 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-06-05' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/61-liuOVe0L._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Kensington' ),
+    model_name        ( 'Orbit' ),
+    EquipmentFeature::USB_TRACKBALL,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B002OOWB3O' ),
+    listing_name  ( 'Kensington Orbit' ),
+    item_price    ( 'AU$63.16' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B002OOWB3O' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=250-7745494-7270201&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '250-7745494-7270201' ),
+    order_date      ( '5 June 2023' ),
+    order_item_name ( 'Kensington Orbit' ),
+    order_price     ( 'AU$53.86' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-06-01' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71gZoP6CyBL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'ESSELTE' ),
+    model_name        ( '177039 Black 25-Sheet' ),
+    EquipmentFeature::HOLE_PUNCH,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B002BB6AH8' ),
+    listing_name  ( 'ESSELTE 177039 4 HOLE PUNCH,BLACK 25SHEET' ),
+    item_price    ( 'AU$40.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B002BB6AH8' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=503-1447427-7792647&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '503-1447427-7792647' ),
+    order_date      ( '1 June 2023' ),
+    order_item_name ( 'ESSELTE 177039 4 HOLE PUNCH,BLACK 25SHEET' ),
+    order_price     ( 'AU$40.00' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-02-17' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/31vTxgrfAkL._AC_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Yakamoz' ),
+    model_name        ( '1mm to 15mm' ),
+    EquipmentFeature::TAPER_GAUGE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B08GC4ZNWL' ),
+    listing_name  ( 'Yakamoz Taper Gage 1/32-5/8 Inch 1-15mm manganese steel Gap Hole Taper Welding Gauge Test Ulnar Inch & Metric' ),
+    item_price    ( 'AU$8.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B08GC4ZNWL' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=250-9301378-1299806&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '250-9301378-1299806' ),
+    order_date      ( '17 February 2023' ),
+    order_item_name ( 'Yakamoz Taper Gage 1/32-5/8 Inch 1-15mm manganese steel Gap Hole Taper Welding Gauge Test Ulnar Inch & Metric' ),
+    order_price     ( 'AU$6.49' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-02-15' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/51k5LSKF+LL._AC_SL1000_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Disenkelubo' ),
+    model_name        ( '30kg 1g' ),
+    EquipmentFeature::ELECTRONIC_SCALE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B087YXMJYS' ),
+    listing_name  ( 'Disenkelubo 30kg 1g Digital Kitchen Scales, Food Scales LCD Display Tare Function Electronic Cooking Scale Appliance for Home' ),
+    item_price    ( 'AU$79.49' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B087YXMJYS' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=250-6822133-6395003&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '250-6822133-6395003' ),
+    order_date      ( '15 February 2023' ),
+    order_item_name ( 'Disenkelubo 30kg 1g Digital Kitchen Scales, Food Scales LCD Display Tare Function Electronic Cooking Scale Appliance for Home' ),
+    order_price     ( 'AU$76.49' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-01-26' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/61v35EuN3ZL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'KFD' ),
+    model_name        ( '12V 5A' ),
+    EquipmentFeature::AC_POWER_ADAPTER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B0B6PJGCZN' ),
+    listing_name  ( 'KFD 12V 5A AC Adapter for YONGNUO YN600L Series YN300III YN168 YN216 YN1410 YN300Air YN160III YN360 YN308 YN300AIR LED601 YN608 5500K Pro LED Camera Video Light YUO905 FJ-SW20171205000D Power Supply' ),
+    item_price    ( 'AU$26.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B0B6PJGCZN' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=250-2764668-4430254&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '250-2764668-4430254' ),
+    order_date      ( '26 January 2023' ),
+    order_item_name ( 'KFD 12V 5A AC Adapter for YONGNUO YN600L Series YN300III YN168 YN216 YN1410 YN300Air YN160III YN360 YN308 YN300AIR LED601 YN608 5500K Pro LED Camera Video Light YUO905 FJ-SW20171205000D Power Supply' ),
+    order_price     ( 'AU$26.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-01-26' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/51SGLb+LdlL._AC_SL1000_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'COMBRITE' ),
+    model_name        ( 'M40' ),
+    EquipmentFeature::USB_MOUSE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B08V9DZ1M5' ),
+    listing_name  ( 'COMBRITE M40 USB Wired Optical Mouse with Comfort Rubber Scroll Wheel & Red LED-Black' ),
+    item_options  ( 'Style Name: M40' ),
+    item_price    ( 'AU$27.29' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B08V9DZ1M5' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=250-4309744-2701469&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '250-4309744-2701469' ),
+    order_date      ( '26 January 2023' ),
+    order_item_name ( 'COMBRITE M40 USB Wired Optical Mouse with Comfort Rubber Scroll Wheel & Red LED-Black' ),
+    order_options   ( 'Style Name: M40' ),
+    order_price     ( 'AU$20.53' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-01-26' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/51jttJrVpeL._AC_SL1024_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'freneci' ),
+    model_name        ( 'Mechanical Gaming Keyboard with 87-Keys RGB Backlit' ),
+    EquipmentFeature::USB_KEYBOARD,
+    EquipmentFeature::MECHANICAL_KEYBOARD,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B08N1KJHS3' ),
+    listing_name  ( 'freneci Mechanical Gaming Keyboard with USB 87 Keys RGB Backlit for' ),
+    item_price    ( 'AU$37.19' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B08N1KJHS3' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=503-1409681-5543026' ),
+    order_id        ( '503-1409681-5543026' ),
+    order_date      ( '28 June 2021' ),
+    order_item_name ( 'freneci Mechanical Gaming Keyboard with USB 87 Keys RGB Backlit for' ),
+    order_price     ( 'AU$28.99' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B08N1KJHS3' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=250-3166992-2575001' ),
+    order_id        ( '250-3166992-2575001' ),
+    order_date      ( '26 January 2023' ),
+    order_item_name ( 'freneci Mechanical Gaming Keyboard with USB 87 Keys RGB Backlit for' ),
+    order_price     ( 'AU$37.19' ),
+    order_quantity  ( 1 ),
+  ),
+);
 
 /*
 

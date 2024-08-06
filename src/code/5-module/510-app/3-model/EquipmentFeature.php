@@ -95,6 +95,8 @@ enum EquipmentFeature : string {
 
   case PUNCH = 'punch';
 
+    case HOLE_PUNCH = 'hole-punch';
+
   case CAN_OPENER = 'can-opener';
 
   case BOTTLE_OPENER = 'bottle-opener';
@@ -358,12 +360,29 @@ enum EquipmentFeature : string {
     case ETHERNET_HUB = 'ethernet-hub';
 
   //
+  // 2024-08-06 jj5 - POINTING_DEVICE
+  //
+
+  case POINTING_DEVICE = 'pointing-device';
+
+    case MOUSE = 'mouse';
+
+      case USB_MOUSE = 'USB-mouse';
+
+    case TRACKBALL = 'trackball';
+
+      case USB_TRACKBALL = 'USB-trackball';
+
+  //
   // 2024-08-04 jj5 - KEYBOARD
   //
 
   case KEYBOARD = 'keyboard';
 
     case MECHANICAL_KEYBOARD = 'mechanical-keyboard';
+
+    case USB_KEYBOARD = 'USB-keyboard';
+
 
   //
   // 2024-08-04 jj5 - DRAWER
@@ -1516,6 +1535,8 @@ enum EquipmentFeature : string {
     case THREAD_PITCH_GAUGE = 'thread-pitch-gauge';
 
     case FEELER_GAUGE = 'feeler-gauge';
+
+    case TAPER_GAUGE = 'taper-gauge';
 
   //
   // 2024-08-04 jj5 - CIRCUIT_BREAKER

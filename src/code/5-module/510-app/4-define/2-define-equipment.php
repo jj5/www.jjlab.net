@@ -216,6 +216,11 @@ equipment_define(
   EquipmentClass::TOOL,
 );
 
+  equipment_define(
+    EquipmentFeature::HOLE_PUNCH,
+    EquipmentFeature::PUNCH,
+  );
+
 equipment_define(
   EquipmentFeature::CAN_OPENER,
   EquipmentClass::TOOL,
@@ -854,6 +859,42 @@ equipment_define(
   );
 
 //
+// 2024-08-06 jj5 - POINTING_DEVICE
+//
+
+equipment_define(
+  EquipmentFeature::POINTING_DEVICE,
+  EquipmentClass::POINTING_DEVICE,
+  EquipmentFeature::STUDIO,
+  EquipmentAttribute::COMPUTER_EQUIPMENT,
+  EquipmentAttribute::PERIPHERAL,
+);
+
+  equipment_define(
+    EquipmentFeature::MOUSE,
+    EquipmentClass::MOUSE,
+    EquipmentFeature::POINTING_DEVICE,
+  );
+
+    equipment_define(
+      EquipmentFeature::USB_MOUSE,
+      EquipmentFeature::MOUSE,
+      EquipmentConnectivity::USB,
+    );
+
+  equipment_define(
+    EquipmentFeature::TRACKBALL,
+    EquipmentClass::TRACKBALL,
+    EquipmentFeature::POINTING_DEVICE,
+  );
+
+    equipment_define(
+      EquipmentFeature::USB_TRACKBALL,
+      EquipmentFeature::TRACKBALL,
+      EquipmentConnectivity::USB,
+    );
+
+//
 // 2024-08-04 jj5 - KEYBOARD
 //
 
@@ -868,6 +909,12 @@ equipment_define(
   equipment_define(
     EquipmentFeature::MECHANICAL_KEYBOARD,
     EquipmentFeature::KEYBOARD,
+  );
+
+  equipment_define(
+    EquipmentFeature::USB_KEYBOARD,
+    EquipmentFeature::KEYBOARD,
+    EquipmentConnectivity::USB,
   );
 
 //
@@ -3318,6 +3365,12 @@ equipment_define(
 
   equipment_define(
     EquipmentFeature::FEELER_GAUGE,
+    EquipmentFeature::GAUGE,
+    EquipmentAttribute::HAND_TOOL,
+  );
+
+  equipment_define(
+    EquipmentFeature::TAPER_GAUGE,
     EquipmentFeature::GAUGE,
     EquipmentAttribute::HAND_TOOL,
   );

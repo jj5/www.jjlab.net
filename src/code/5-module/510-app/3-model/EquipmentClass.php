@@ -77,11 +77,13 @@ enum EquipmentClass : string {
   case MIRROR = 'mirror';
   case MONITOR = 'monitor';
   case MOUNT = 'mount';
+  case MOUSE = 'mouse';
   case MULTIMETER = 'multimeter';
   case PEN = 'pen';
   case PICKUP_TOOL = 'pickup-tool';
   case PLIERS = 'pliers';
   case POCKET_PROTECTOR = 'pocket-protector';
+  case POINTING_DEVICE = 'pointing-device';
   case POWER = 'power';
   case POWER_BOARD = 'power-board';
   case POWER_SUPPLY = 'power-supply';
@@ -122,6 +124,7 @@ enum EquipmentClass : string {
   case THIRD_HAND = 'third-hand';
   case TOOL = 'tool';
   case TORCH = 'torch';
+  case TRACKBALL = 'trackball';
   case TRAY = 'tray';
   case TV = 'tv';
   case TWEEZERS = 'tweezers';
