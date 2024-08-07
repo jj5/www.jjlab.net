@@ -11495,6 +11495,7 @@ equipment(
   ),
   */
   sixsigma_url  ( '' ),
+  warning       ( 'It is advertized as 4K, but I think that is a lie.'),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B0BD4SZ9CZ' ),
     listing_name  ( ' 4K 48MP Compact Camera Digital Camera HD Vlogging Camera 16x Zoom Camera for Beginner Photography with 32GB SD Card ' ),
