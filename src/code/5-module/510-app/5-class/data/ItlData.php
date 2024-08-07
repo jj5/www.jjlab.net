@@ -40,7 +40,7 @@ class ItlData {
 
       $duration = $this->perm_file->data[ 'youtube_duration' ][ $video_id ] ?? null;
 
-      if ( $duration ) { return $duration; }
+      if ( $duration && $duration !== 'P0D' ) { return $duration; }
 
       $response = $this->get_youtube()->videos->listVideos( 'contentDetails', [ 'id' => $video_id ] );
 

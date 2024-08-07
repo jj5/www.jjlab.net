@@ -21,6 +21,9 @@ function app_render() {
 
 function render_youtube_template_main() {
 
+  // 2024-08-07 jj5 - space in the YouTube description is at a premium, so we only want to include equipment that we
+  // can link to with an affiliate link. At the moment that means eBay and AliExpress.
+
   static $ad_list = [
     'https://www.ebay.com/',
     'https://www.ebay.com.au/',
@@ -69,6 +72,8 @@ function render_youtube_template_main() {
 
           }
         }
+
+        // 2024-08-07 jj5 - if we find something we don't know about yet make some noise so I can add it to the list.
 
         dump( $url );
 
