@@ -21,7 +21,7 @@ function app_render() {
 
 function render_blog_template_main() {
 
-  $equipment_list = get_list( Equipment::class );
+  $equipment_list = Equipment::get_affiliated_list();
 
   $count = number_format( count( $equipment_list ) );
 

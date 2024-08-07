@@ -1361,8 +1361,9 @@ function render_blog_template( $equipment_list ) {
 
       out_text( ' which may appear in my videos. ' );
 
-      out_text( 'Clicking through on this before purchasing from Amazon, eBay, or AliExpress is a great way ' );
-      out_text( "to support the channel at no cost to you. Thanks!\n\n" );
+      out_text( 'Clicking through on this to find and click on the green affiliate links before purchasing from ' );
+      out_text( 'eBay or AliExpress is a great way to support the channel at no cost to you. Thanks!' );
+      out_text( "\n\n" );
 
       $end_id = date( 'Y-m-d-His' );
 

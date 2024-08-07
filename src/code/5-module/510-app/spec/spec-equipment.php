@@ -9841,6 +9841,7 @@ equipment(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( 'Metallic' ),
     EquipmentFeature::CRAFTWORK_PEN,
+    EquipmentFeature::BRUSH,
   ),
   /*
   equipment_info(

@@ -8,6 +8,89 @@ function equipment() {
 
 class Equipment extends AppThing {
 
+  public static function get_affiliated_list() {
+
+    static $equipment_list = null;
+
+    if ( $equipment_list === null ) {
+
+      $raw_equipment_list = get_list( Equipment::class );
+
+      $equipment_list = [];
+
+      foreach ( $raw_equipment_list as $equipment ) {
+
+        if ( $equipment->has_affiliate_link() ) {
+
+          $equipment_list[] = $equipment;
+
+        }
+      }
+
+      verify_equipment( $equipment_list );
+
+    }
+
+    return $equipment_list;
+
+  }
+
+  public function has_affiliate_link() {
+
+    // 2024-08-07 jj5 - space in the YouTube description is at a premium, so we only want to include equipment that we
+    // can link to with an affiliate link. At the moment that means eBay and AliExpress.
+
+    static $ad_list = [
+      'https://www.ebay.com/',
+      'https://www.ebay.com.au/',
+      'https://www.aliexpress.com/',
+    ];
+
+    static $ignore_list = [
+      'https://www.amazon.com/',
+      'https://www.amazon.com.au/',
+      'https://www.altronics.com.au/',
+      'https://www.bunnings.com.au/',
+      'https://www.dyson.com/',
+      'https://www.wasdkeyboards.com/',
+    ];
+
+    $affiliate_list = $equipment->get_affiliate_link_list();
+
+    foreach ( $affiliate_list as $affiliate_link ) {
+
+      $url = $affiliate_link->get_equipment_url()->to_string();
+
+      foreach ( $ad_list as $ad ) {
+
+        if ( strpos( $url, $ad ) === 0 ) {
+
+          $equipment_list[] = $equipment;
+
+          return true;
+
+        }
+      }
+
+      if ( DEBUG ) {
+
+        foreach ( $ignore_list as $ignore ) {
+
+          if ( strpos( $url, $ignore ) === 0 ) {
+
+            return false;
+
+          }
+        }
+
+        // 2024-08-07 jj5 - if we find something we don't know about yet make some noise so I can add it to the list.
+
+        dump( $url );
+
+      }
+    }
+  }
+
   public function format( mixed $spec = null ) : string {
     
     return $this->get_equipment_name()->to_string();
