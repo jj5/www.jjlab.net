@@ -621,7 +621,7 @@ enum EquipmentFeature : string {
 
         case ROTARY_NYLON_BRUSH = 'rotary-nylon-brush';
 
-          case ROTARY_NYLON_ABRASIVE_BRUSH = 'rotary-nylon-abrasive-brush';
+          case ROTARY_ABRASIVE_BRUSH = 'rotary-abrasive-brush';
 
           case DREMEL_403_NYLON_BRUSH = 'Dremel-403-nylon-brush';
 
@@ -1680,5 +1680,23 @@ enum EquipmentFeature : string {
     case USB_MICROPHONE = 'USB-microphone';
 
     case CONDENSER_MICROPHONE = 'condenser-microphone';
+
+  //
+  // 2024-08-07 jj5 - BREADBOARD
+  //
+
+  case BREADBOARD = 'breadboard';
+
+    case SOLDERLESS_BREADBOARD = 'solderless-breadboard';
+
+    case SOLDERABLE_BREADBOARD = 'solderable-breadboard';
+
+  //
+  // 2024-08-07 jj5 - CIRCUIT_BOARD
+  //
+
+  case CIRCUIT_BOARD = 'circuit-board';
+
+    case PCB = 'PCB';
 
 }

@@ -15,6 +15,7 @@ enum EquipmentClass : string {
   case BADGE_HOLDER = 'badge-holder';
   case BLOW_TORCH = 'blow-torch';
   case BOOK_HOLDER = 'book-holder';
+  case BREADBOARD = 'breadboard';
   case BRUSH = 'brush';
   case CABLE_TESTER = 'cable-tester';
   case CABLE_TIDY = 'cable-tidy';
@@ -23,6 +24,7 @@ enum EquipmentClass : string {
   case CAMERA = 'camera';
   case CAPACITOR_DISCHARGE_PEN = 'capacitor-discharge-pen';
   case CHUMBY = 'chumby';
+  case CIRCUIT_BOARD = 'circuit-board';
   case CIRCUIT_BREAKER = 'circuit-breaker';
   case CLAMP = 'clamp';
   case CLEANING_BRICKS = 'cleaning-bricks';

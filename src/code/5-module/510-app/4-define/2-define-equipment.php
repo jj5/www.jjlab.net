@@ -1482,7 +1482,7 @@ equipment_define(
       );
 
         equipment_define(
-          EquipmentFeature::ROTARY_NYLON_ABRASIVE_BRUSH,
+          EquipmentFeature::ROTARY_ABRASIVE_BRUSH,
           EquipmentFeature::ROTARY_NYLON_BRUSH,
           EquipmentFeature::ABRASIVE,
         );
@@ -3666,4 +3666,38 @@ equipment_define(
   equipment_define(
     EquipmentFeature::CONDENSER_MICROPHONE,
     EquipmentFeature::MICROPHONE,
+  );
+
+//
+// 2024-08-07 jj5 - CIRCUIT_BOARD
+//
+
+equipment_define(
+  EquipmentFeature::CIRCUIT_BOARD,
+  EquipmentClass::CIRCUIT_BOARD,
+);
+
+  equipment_define(
+    EquipmentFeature::PCB,
+    EquipmentFeature::CIRCUIT_BOARD,
+  );
+
+//
+// 2024-08-07 jj5 - BREADBOARD
+//
+
+equipment_define(
+  EquipmentFeature::BREADBOARD,
+  EquipmentClass::BREADBOARD,
+);
+
+  equipment_define(
+    EquipmentFeature::SOLDERLESS_BREADBOARD,
+    EquipmentFeature::BREADBOARD,
+  );
+
+  equipment_define(
+    EquipmentFeature::SOLDERABLE_BREADBOARD,
+    EquipmentFeature::BREADBOARD,
+    EquipmentFeature::PCB,
   );

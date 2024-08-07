@@ -10846,7 +10846,8 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/S573df8e86d3b4058893c22f50821c590z/1-Pack-Nylon-Mini-Drill-Abrasive-Brush-2-35mm-3mm-Shank-Buffing-Polishing-Wheel-Rust-Remover.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'Yum Cha' ),
-    EquipmentFeature::ROTARY_NYLON_ABRASIVE_BRUSH,
+    model_name         ( 'Nylon Buff' ),
+    EquipmentFeature::ROTARY_ABRASIVE_BRUSH,
   ),
   /*
   equipment_info(
@@ -13187,7 +13188,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/51WNT9MnDwL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'Mcbazel' ),
-    model_name        ( 'Tri-Wing and Philips' ),
+    model_name        ( 'Mini Tri-Wing and Philips' ),
     EquipmentFeature::SCREWDRIVER_SET,
     EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH000,
     EquipmentFeature::TRI_POINT_Y_SCREWDRIVER_Y00,
@@ -14277,6 +14278,84 @@ equipment(
     order_quantity  ( 2 ),
   ),
 );
+
+equipment(
+  equipment_date( '2024-08-07' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/91D5NKsFCaL._SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'ElectroCookie' ),
+    model_name        ( 'Multicolor PCB Prototype Board 9-Pack Plus 3-Mini' ),
+    EquipmentFeature::SOLDERABLE_BREADBOARD,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/dp/B07ZYPCXZ3' ),
+    listing_name  ( 'ElectroCookie Solderable Breadboard PCB Board for Electronics Projects Compatible for DIY Arduino Soldering Projects, Gold-Plated (9 Pack + 3 Mini, Multicolor Pack)' ),
+    item_options  ( 'Colour: 4.Multicolor 9Pack+3Mini' ),
+    item_price    ( 'AU$26.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/dp/B07ZYPCXZ3' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=249-0398058-0295061' ),
+    order_id        ( '249-0398058-0295061' ),
+    order_date      ( '29 July 2024' ),
+    order_item_name ( 'ElectroCookie Solderable Breadboard PCB Board for Electronics Projects Compatible for DIY Arduino Soldering Projects, Gold-Plated (9 Pack + 3 Mini, Multicolor Pack)' ),
+    order_options   ( 'Colour: 4.Multicolor 9Pack+3Mini' ),
+    order_price     ( 'AU$26.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-08-07' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/81QweK3ohaS._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'ElectroCookie' ),
+    model_name        ( 'Mini PCB Prototype Board 50-Pack' ),
+    EquipmentFeature::SOLDERABLE_BREADBOARD,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/dp/B093VWBH4Q' ),
+    listing_name  ( 'ElectroCookie Mini PCB Prototype Board Solderable Breadboard for DIY Electronics, Compatible for Mini Arduino Soldering Projects, Gold-Plated (50 Pack, Black)' ),
+    item_price    ( 'AU$73.50' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/dp/B093VWBH4Q' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=249-4911570-5943833' ),
+    order_id        ( '249-4911570-5943833' ),
+    order_date      ( '29 July 2024' ),
+    order_item_name ( 'ElectroCookie Mini PCB Prototype Board Solderable Breadboard for DIY Electronics, Compatible for Mini Arduino Soldering Projects, Gold-Plated (50 Pack, Black)' ),
+    order_price     ( 'AU$73.50' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-08-07' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/A19ytwyNc8L._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'ElectroCookie' ),
+    model_name        ( 'Large PCB Prototype Board 6 Multi-Pack' ),
+    EquipmentFeature::SOLDERABLE_BREADBOARD,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/dp/B07ZV9JQY2' ),
+    listing_name  ( 'ElectroCookie Large PCB Prototype Board Kit Solderable Breadboards for DIY Arduino and Soldering Projects, Gold-Plated (6 Multi-Pack, Blue)' ),
+    item_price    ( 'AU$27.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/dp/B07ZV9JQY2' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=249-7696204-1668642' ),
+    order_id        ( '249-7696204-1668642' ),
+    order_date      ( '29 July 2024' ),
+    order_item_name ( 'ElectroCookie Large PCB Prototype Board Kit Solderable Breadboards for DIY Arduino and Soldering Projects, Gold-Plated (6 Multi-Pack, Blue)' ),
+    order_price     ( 'AU$27.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
 
 /*
 

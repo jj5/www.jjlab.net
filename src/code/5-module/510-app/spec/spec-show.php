@@ -1113,3 +1113,13 @@ show(
     patreon_url( 'https://www.patreon.com/posts/109176758' ),
   )
 );
+
+show(
+  mail_call(
+    publication_date( '2024-08-07' ),
+    title( 'Loot from Amazon and AliExpress!' ),
+    youtube_video( 'bq0xjk_uEwQ' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/08/07/mail-call-5-loot-from-amazon-and-aliexpress-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/109630940' ),
+  ),
+);

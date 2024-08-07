@@ -21,7 +21,60 @@ function app_render() {
 
 function render_youtube_template_main() {
 
-  $equipment_list = get_list( Equipment::class );
+  static $ad_list = [
+    'https://www.ebay.com/',
+    'https://www.ebay.com.au/',
+    'https://www.aliexpress.com/',
+  ];
+
+  static $ignore_list = [
+    'https://www.amazon.com/',
+    'https://www.amazon.com.au/',
+    'https://www.altronics.com.au/',
+    'https://www.bunnings.com.au/',
+    'https://www.dyson.com/',
+    'https://www.wasdkeyboards.com/',
+  ];
+
+  $raw_equipment_list = get_list( Equipment::class );
+
+  $equipment_list = [];
+
+  foreach ( $raw_equipment_list as $equipment ) {
+
+    $affiliate_list = $equipment->get_affiliate_link_list();
+
+    foreach ( $affiliate_list as $affiliate_link ) {
+
+      $url = $affiliate_link->get_equipment_url()->to_string();
+
+      foreach ( $ad_list as $ad ) {
+
+        if ( strpos( $url, $ad ) === 0 ) {
+
+          $equipment_list[] = $equipment;
+
+          continue 3;
+
+        }
+      }
+
+      if ( DEBUG ) {
+
+        foreach ( $ignore_list as $ignore ) {
+
+          if ( strpos( $url, $ignore ) === 0 ) {
+
+            continue 3;
+
+          }
+        }
+
+        dump( $url );
+
+      }
+    }
+  }
 
   verify_equipment( $equipment_list );
 
