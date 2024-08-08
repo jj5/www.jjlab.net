@@ -1,5 +1,11 @@
 <?php
 
+if ( ! defined( 'APP_BASE' ) ) {
+
+  define( 'APP_BASE', realpath( __DIR__ . '/../' ) );
+
+}
+
 function get_resource_version() {
 
   static $version = JJLAB_CODE . '-' . JJLAB_VERSION_MAJOR . '.' . JJLAB_VERSION_MINOR . '.' . JJLAB_VERSION_PATCH;

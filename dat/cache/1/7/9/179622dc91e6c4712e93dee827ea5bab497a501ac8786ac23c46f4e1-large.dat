@@ -1,0 +1,22 @@
+<pre class='xdebug-var-dump' dir='ltr'>
+<small>/home/jj5/repo/git/github/jj5/www.jjlab.net/ext/mudball/src/code/5-module/1-critical/120-debug/class/MudModuleDebug.php:29:</small>
+<b>object</b>(<i>NullYoutubeVideo</i>)[<i>25622</i>]
+  <i>private</i> <i>bool</i> 'is_constructed' <small>(MudGadget)</small> <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>true</font>
+  <i>private</i> <i>array</i> 'child_list' <small>(MudHost)</small> <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=0)</i>
+      <i><font color='#888a85'>empty</font></i>
+  <i>private</i> <i>array</i> 'child_map' <small>(MudHost)</small> <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=0)</i>
+      <i><font color='#888a85'>empty</font></i>
+  <i>private</i> <i>?IMudNode</i> 'parent' <small>(MudNode)</small> <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>private</i> 'item_id' <small>(AppThing)</small> <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>0</font>
+  <i>protected</i> 'property_list' <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=0)</i>
+      <i><font color='#888a85'>empty</font></i>
+  <i>protected</i> 'property_map' <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=0)</i>
+      <i><font color='#888a85'>empty</font></i>
+  <i>protected</i> 'parent' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>protected</i> 'url' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>protected</i> 'duration' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+</pre>

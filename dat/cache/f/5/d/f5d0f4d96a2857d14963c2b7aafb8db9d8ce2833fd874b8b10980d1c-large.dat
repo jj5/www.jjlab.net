@@ -1,0 +1,1587 @@
+<!DOCTYPE html>
+
+<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Equipment Category: Flathead Screwdriver — In The Lab With Jay Jay</title>
+		<meta charset="UTF-8">
+		<meta name="date" content="2024-08-07T20:32:44+00:00">
+		<meta name="author" content="John Elliot V">
+		<meta name="keywords" content="electronics videos, electronics lab, electronics kits, electronics experiments, video blog, In The Lab With Jay Jay, John Elliot V">
+		<meta name="description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+		<meta name="robots" content="index, follow">
+		<meta property="og:title" content="Equipment Category: Flathead Screwdriver — In The Lab With Jay Jay">
+		<meta property="og:description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta property="og:image" content="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<meta property="og:url" content="http://localhost/in-the-lab/category.php/Flathead-Screwdriver">
+		<meta property="og:type" content="website">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:title" content="Equipment Category: Flathead Screwdriver — In The Lab With Jay Jay">
+		<meta name="twitter:description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta name="twitter:image" content="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<link rel="icon" href="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<link rel="canonical" href="http://localhost/in-the-lab/category.php/Flathead-Screwdriver">
+		<link rel="alternate" type="application/rss+xml" title="In The Lab With Jay Jay » Feed" href="/in-the-lab/feed.php">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		<link rel="stylesheet" href="/in-the-lab/res/style.php/jjlab-0.2.1115/style.css">
+		<script>
+			var MUD_SERVER_VERSION = "0.5.1623-211631354";
+		
+			var APP_SERVER_VERSION = "0.2.1115-211631354";
+		
+			var URL_BASE = "\/in-the-lab";
+		
+			var DEBUG = true;
+		
+			var DEV = true;
+		
+			var BETA = false;
+		
+			var IS_JOHN = true;
+		
+		</script>
+		<script src="/in-the-lab/res/script.php/jjlab-0.2.1115/script.js"></script>
+		<link rel="preload" href="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/banner-0640.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" as="image"></head>
+	<body>
+		<main class="wrapper">
+			<nav class="navigation">
+				<div class="container">
+					<a href="/in-the-lab/" class="navigation-title" title="In The Lab With Jay Jay is the video blog of John Elliot V">
+						<img src="/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" loading="eager" alt="">
+						<header class="title">In The Lab With Jay Jay</header></a>
+					<ul class="navigation-list">
+						<li class="navigation-item">
+							<button class="hamburger" onclick="handle_hamburger_click( event, this )" title="Click here to access the website navigation.">
+								<span class="bar"></span>
+								<span class="bar"></span>
+								<span class="bar"></span></button>
+							<div id="popover-grid" class="popover">
+								<ul class="popover-list">
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/" title="Click here to visit the homepage for this website. [Hotkey: H]">Home</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here to access the main channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/sponsor.php" title="Click here to find out more about our very generous sponsors! [Hotkey: S]">Sponsors</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">Equipment</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/about.php" title="Click here to find out more about the show and this website. [Hotkey: A]">About</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/support.php" title="Click here to see how you can support the show. Thanks for thinking of me! [Hotkey: U]">Support the Show!</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/debug.php" title="John&apos;s debug thing">Debug</a></li>
+									<li class="popover-item">
+										<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]">
+											<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a></li></ul></div></li></ul>
+					<div class="menu-list">
+						<a class="internal" rel="follow" href="/in-the-lab/" title="Click here to visit the homepage for this website. [Hotkey: H]">Home</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here to access the main channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/sponsor.php" title="Click here to find out more about our very generous sponsors! [Hotkey: S]">Sponsors</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">Equipment</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/about.php" title="Click here to find out more about the show and this website. [Hotkey: A]">About</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to see how you can support the show. Thanks for thinking of me! [Hotkey: U]">Support the Show!</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/debug.php" title="John&apos;s debug thing">Debug</a>
+						<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]">
+							<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a></div></div></nav>
+			<header id="banner">
+				<img loading="eager" class="rc-base" src="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-0320" src="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-0640" src="/in-the-lab/res/img.php/banner-0640.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-1280" src="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-1920" src="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" alt=""></header>
+			<header id="home" class="header">
+				<section>
+					<img src="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" alt="" loading="lazy">
+					<h1 id="heading">Equipment Category: Flathead Screwdriver</h1>
+					<p>I have ten types of equipment in this category.</p>
+					<p>Click through on the green affiliate links to buy! (If I don&apos;t have an affiliate link for a product I will give you a normal link in dark blue. You can click through on that to buy too.)</p>
+					<p>This page does have a 
+						<a class="internal" rel="follow" href="#contents" title="Click here to navigate to the table of contents (if it&apos;s available). [Hotkey: .]">Table of Contents</a> but it&apos;s at the bottom of the page.</p></section></header>
+			<div class="equipment equipment-table">
+				<div id="options">
+					<p>Prices in: 
+						<a class="internal" rel="nofollow" href="?currency=USD#options" title="Click here to get prices in United States Dollars.">USD</a> | 
+						<a class="internal" rel="nofollow" href="?currency=AUD#options" title="Click here to get prices in Australian Dollars.">AUD</a> | 
+						<a class="internal" rel="nofollow" href="?#options" title="Click here to get prices in the currency used on the affiliated page.">default</a> &mdash; Sort: 
+						<a class="internal" rel="nofollow" href="?sort=cheap-first#options" title="Click here to sort from cheapest to most expensive.">cheap first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=expensive-first#options" title="Click here to sort from most expensive to cheapest.">expensive first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=new-first#options" title="Click here to sort with most recently purchased first.">newest first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=old-first#options" title="Click here to sort with the least recently purchased first.">oldest first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=random#options" title="Click here to sort randomly.">random</a> | 
+						<a class="internal" rel="nofollow" href="?#options" title="Click here to use the default sort (expensive first).">default</a></p></div>
+				<table id="equipment" class="main">
+					<tbody>
+						<tr class="spacer row-1">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="17">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Bosch-IXO-VI-Electric-Screwdriver" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Bosch IXO VI Electric Screwdriver</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/14b4980bf9b6e5cf2445875e6957e78c.jpg?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Friday, September 8, 2023.">First purchase: Friday, September 8, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/53491" title="You can use this short link to link to this equipment.">https://jj5.net/53491</a></div>
+								<div>JJCODE: 53491</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Bosch+IXO+VI+Electric+Screwdriver" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Bosch+IXO+VI+Electric+Screwdriver" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Bosch+IXO+VI+Electric+Screwdriver" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Bosch+IXO+VI+Electric+Screwdriver" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Bosch-IXO-VI-Electric-Screwdriver.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Bosch+IXO+VI+Electric+Screwdriver" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Bosch+IXO+VI+Electric+Screwdriver" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Bosch+IXO+VI+Electric+Screwdriver" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Bosch+IXO+VI+Electric+Screwdriver" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Bosch+IXO+VI+Electric+Screwdriver" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Bosch-IXO-VI-Electric-Screwdriver">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Bosch IXO VI Electric Screwdriver</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Bosch" title="Click here to see other equipment from this manufacturer.">Bosch</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Cordless" title="Click here to see other equipment in this category.">Cordless</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Electric-Screwdriver" title="Click here to see other equipment in this category.">Electric Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver" title="Click here to see other equipment in this category.">Flathead Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL4" title="Click here to see other equipment in this category.">Flathead Screwdriver SL4</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL6" title="Click here to see other equipment in this category.">Flathead Screwdriver SL6</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver" title="Click here to see other equipment in this category.">Phillips Head Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH1" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH1</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH2" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH2</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH3" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH3</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pozidriv-Screwdriver" title="Click here to see other equipment in this category.">Pozidriv Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pozidriv-Screwdriver-PZ1" title="Click here to see other equipment in this category.">Pozidriv Screwdriver PZ1</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pozidriv-Screwdriver-PZ2" title="Click here to see other equipment in this category.">Pozidriv Screwdriver PZ2</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pozidriv-Screwdriver-PZ3" title="Click here to see other equipment in this category.">Pozidriv Screwdriver PZ3</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Screwdriver" title="Click here to see other equipment in this category.">Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver" title="Click here to see other equipment in this category.">Torx Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T20" title="Click here to see other equipment in this category.">Torx Screwdriver T20</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T25" title="Click here to see other equipment in this category.">Torx Screwdriver T25</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$65.00</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/48U9inU" title="Click here for the latest price from this affiliate and to buy!">Bosch Home &amp; Garden 3.6V Cordless Electric Screwdriver Gun Variable Speed with 10 Screwdriver Bits &amp; Storage Box (IXO 7)</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td>
+							<td colspan="1" rowspan="11" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Bosch_IXO" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$65.00</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/kGOFj4" title="Click here for the latest price from this affiliate and to buy!">Bosch 3.6 V Cordless Electric Screwdriver Screw Gun with 10 Bits &amp; Case IXO 7</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$43.55</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/aIY7x4" title="Click here for the latest price from this affiliate and to buy!">Bosch 3.6 V Cordless Electric Screwdriver Screw Gun with 10 Bits &amp; Case IXO 7</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$79.00</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/JJ2KnP" title="Click here for the latest price from this affiliate and to buy!">Bosch 3.6 V Cordless Electric Screwdriver Gun 2 Attachments 10 Bits &amp; Case IXO 7</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$52.93</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/ngr7EE" title="Click here for the latest price from this affiliate and to buy!">Bosch 3.6 V Cordless Electric Screwdriver Gun 2 Attachments 10 Bits &amp; Case IXO 7</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$58.90</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/3O54HYd" title="Click here for the latest price from this affiliate and to buy!">BOSCH IXO VI Screwdriver Professional | Cordless Electric Color 3.6V USB Rechargeble Lightweight Small Convenient Home Deco Li-ion Battery (Green)</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$99.67</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_Ddc2Jjx" title="Click here for the latest price from this affiliate and to buy!">Bosch IXO7 Portable Cordless Electric Drill Screwdriver Set USB Rechargeable Multi-Tool Magnetic Power Rotate Bits 360 Angle Led</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: Bosch IXO7</td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$101.05</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DmRPuNb" title="Click here for the latest price from this affiliate and to buy!">Bosch IXO 7 Cordless Electric Screwdriver USB Rechargeable IXO 7th Compact Screwdriver 5.5Nm Max Torque Portable Power Machine</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: Only ixo 7</td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$101.65</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DCDlwiH" title="Click here for the latest price from this affiliate and to buy!">Bosch IXO Cordless Screwdriver 3.6V Usb Rechargeable Multi-Function Mini Electric Drill Screw Driver Portable Power Tool Ixo 7/6</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: IXO 7 Only</td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$120.00</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/t2wWwZ" title="Click here for the latest price from this affiliate and to buy!">BOSCH IXO 6 Cordless Electric Screwdriver Screwdrivers electrical tools</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$125.00</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/4227De6" title="Click here for the latest price from this affiliate and to buy!">Bosch Compact Cordless Screwdriver IXO (7th Generation; 3.6 V; 2.0 Ah; 5.5 Nm; with Micro-USB Cable; Compatible with IXO-Collection Attachments; Screws up to 190 Screws; in Storage Box)</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Warning:</p>
+								<ul>
+									<li class="warning">I got the 6th generation but the 7th generation is out now, I have linked to both</li></ul>
+								<p>See also:</p>
+								<ul>
+									<li>
+										<a href="/in-the-lab/equipment.php#Bosch-IXO-Angle-Screw-Adapter" class="internal" title="Click here to see other equipment that might be of interest.">Bosch IXO Angle Screw Adapter</a></li></ul>
+								<p>Manufacturer links:</p>
+								<ul>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+									<li><!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/WebLink.php:28 WebLink::render() -->
+<a class="external" target="_blank" rel="noopener follow" href="https://www.bosch-diy.com/au/en/p/ixo-6-06039c7150" title="Click here to open a new tab for this external link.">Bosch IXO VI Electric Screwdriver</a></li></ul>
+								<p>Directory name:</p>
+								<p class="indent">screwdriver-Bosch-IXO-VI-Electric-Screwdriver</p>
+								<p>Wiki name:</p>
+								<p class="indent">Bosch IXO VI Electric Screwdriver</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">Amazon Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$79.00</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/product/B08KLPJ5BP/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&amp;amp;psc=1" title="Bosch Home &amp; Garden 3.6V Cordless Electric Screwdriver Gun Variable Speed with 10 Screwdriver Bits &amp; Case (IXO VI Green)">one of these</a> on Friday, September 8, 2023 for A$79.00 each with free shipping for a total of A$79.00.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&amp;orderID=249-7183773-5004638" title="Click here to view the order of this equipment.">249-7183773-5004638</a></td>
+							<td class="center">Colour Name: IXO VI Green; Style Name: Set</td>
+							<td class="total right">$79.00</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$79.00</td></tr>
+						<tr class="spacer row-2">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Klein-Tools-32614-4-in-1-Multi-bit-Precision-Pocket-Screwdriver" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Klein Tools 32614 4-in-1 Multi-bit Precision Pocket Screwdriver</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/1a7f4851e204a67da846447ae6a0d24b.jpg?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Friday, August 18, 2023.">First purchase: Friday, August 18, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/85030" title="You can use this short link to link to this equipment.">https://jj5.net/85030</a></div>
+								<div>JJCODE: 85030</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Klein+Tools+32614+4-in-1+Multi-bit+Precision+Pocket+Screwdriver" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Klein+Tools+32614+4-in-1+Multi-bit+Precision+Pocket+Screwdriver" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Klein+Tools+32614+4-in-1+Multi-bit+Precision+Pocket+Screwdriver" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Klein+Tools+32614+4-in-1+Multi-bit+Precision+Pocket+Screwdriver" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Klein-Tools-32614-4-in-1-Multi-bit-Precision-Pocket-Screwdriver.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Klein+Tools+32614+4-in-1+Multi-bit+Precision+Pocket+Screwdriver" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Klein+Tools+32614+4-in-1+Multi-bit+Precision+Pocket+Screwdriver" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Klein+Tools+32614+4-in-1+Multi-bit+Precision+Pocket+Screwdriver" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Klein+Tools+32614+4-in-1+Multi-bit+Precision+Pocket+Screwdriver" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Klein+Tools+32614+4-in-1+Multi-bit+Precision+Pocket+Screwdriver" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Klein-Tools-32614-4-in-1-Multi-bit-Precision-Pocket-Screwdriver">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Klein Tools 32614 4-in-1 Multi-bit Precision Pocket Screwdriver</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Klein-Tools" title="Click here to see other equipment from this manufacturer.">Klein Tools</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Costume" title="Click here to see other equipment in this category.">Costume</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver" title="Click here to see other equipment in this category.">Flathead Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver" title="Click here to see other equipment in this category.">Phillips Head Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH0" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH0</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH00" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH00</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pocket-Screwdriver" title="Click here to see other equipment in this category.">Pocket Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Screwdriver" title="Click here to see other equipment in this category.">Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Sonic-Screwdriver" title="Click here to see other equipment in this category.">Sonic Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/❤️" title="Click here to see other equipment in this category.">❤️</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Friday, August 18, 2023">A$32.08</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/product/B07PNC5MPB" title="Click here for the latest price from this affiliate and to buy!">Klein Tools 32614 4-in-1 Multi-bit Precision Pocket Screwdriver Set</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Multi-Bit Screwdriver</td>
+							<td colspan="1" rowspan="1" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Klein_Tools_Pocket_Screwdriver" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Manufacturer links:</p>
+								<ul>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+									<li><!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/WebLink.php:28 WebLink::render() -->
+<a class="external" target="_blank" rel="noopener follow" href="https://www.kleintools.com.au/catalogue/multi-bit-screwdrivers/multi-bit-electronics-pocket-screwdriver-4-1-ph-sl-bits" title="Click here to open a new tab for this external link.">Multi-Bit Electronics Pocket Screwdriver, 4-in-1, Ph., Sl. Bits (32614)</a></li></ul>
+								<p>Directory name:</p>
+								<p class="indent">screwdriver-Klein-Tools-32614-4-in-1-Multi-bit-Precision-Pocket-Screwdriver</p>
+								<p>Wiki name:</p>
+								<p class="indent">Klein Tools 32614 4-in-1 Multi-bit Precision Pocket Screwdriver</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">Amazon Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$39.01</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/product/B07PNC5MPB" title="Klein Tools 32614 4-in-1 Multi-bit Precision Pocket Screwdriver Set">one of these</a> on Friday, August 18, 2023 for A$39.01 each with free shipping for a total of A$39.01.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&amp;orderID=249-1152558-2077436" title="Click here to view the order of this equipment.">249-1152558-2077436</a></td>
+							<td class="center">Multi-Bit Screwdriver</td>
+							<td class="total right">$39.01</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$39.01</td></tr>
+						<tr class="spacer row-3">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Bosch-91-Piece-V-Line-Titanium-Drill-Bit-and-Screwdriver-Bit-Set-with-Ratcheting-Screwdriver-Rotary-Tool-Accessory-Set" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Bosch 91-Piece V-Line Titanium Drill Bit and Screwdriver Bit Set with Ratcheting Screwdriver Rotary Tool Accessory Set</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/cc075c617dc20e2415c8bdcbfb9642d8.jpg?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Friday, December 22, 2023.">First purchase: Friday, December 22, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/64955" title="You can use this short link to link to this equipment.">https://jj5.net/64955</a></div>
+								<div>JJCODE: 64955</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Bosch+91-Piece+V-Line+Titanium+Drill+Bit+and+Screwdriver+Bit+Set+with+Ratcheting+Screwdriver+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Bosch+91-Piece+V-Line+Titanium+Drill+Bit+and+Screwdriver+Bit+Set+with+Ratcheting+Screwdriver+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Bosch+91-Piece+V-Line+Titanium+Drill+Bit+and+Screwdriver+Bit+Set+with+Ratcheting+Screwdriver+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Bosch+91-Piece+V-Line+Titanium+Drill+Bit+and+Screwdriver+Bit+Set+with+Ratcheting+Screwdriver+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Bosch-91-Piece-V-Line-Titanium-Drill-Bit-and-Screwdriver-Bit-Set-with-Ratcheting-Screwdriver-Rotary-Tool-Accessory-Set.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Bosch+91-Piece+V-Line+Titanium+Drill+Bit+and+Screwdriver+Bit+Set+with+Ratcheting+Screwdriver+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Bosch+91-Piece+V-Line+Titanium+Drill+Bit+and+Screwdriver+Bit+Set+with+Ratcheting+Screwdriver+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Bosch+91-Piece+V-Line+Titanium+Drill+Bit+and+Screwdriver+Bit+Set+with+Ratcheting+Screwdriver+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Bosch+91-Piece+V-Line+Titanium+Drill+Bit+and+Screwdriver+Bit+Set+with+Ratcheting+Screwdriver+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Bosch+91-Piece+V-Line+Titanium+Drill+Bit+and+Screwdriver+Bit+Set+with+Ratcheting+Screwdriver+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Bosch-91-Piece-V-Line-Titanium-Drill-Bit-and-Screwdriver-Bit-Set-with-Ratcheting-Screwdriver-Rotary-Tool-Accessory-Set">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Bosch 91-Piece V-Line Titanium Drill Bit and Screwdriver Bit Set with Ratcheting Screwdriver Rotary Tool Accessory Set</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Bosch" title="Click here to see other equipment from this manufacturer.">Bosch</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Accessory" title="Click here to see other equipment in this category.">Accessory</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Attachment" title="Click here to see other equipment in this category.">Attachment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Countersink-Screwdriver" title="Click here to see other equipment in this category.">Countersink Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Drill-Bit" title="Click here to see other equipment in this category.">Drill Bit</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Drill-Bit-10" title="Click here to see other equipment in this category.">Drill Bit 10</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Drill-Bit-2" title="Click here to see other equipment in this category.">Drill Bit 2</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Drill-Bit-2.5" title="Click here to see other equipment in this category.">Drill Bit 2.5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Drill-Bit-3" title="Click here to see other equipment in this category.">Drill Bit 3</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Drill-Bit-3.5" title="Click here to see other equipment in this category.">Drill Bit 3.5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Drill-Bit-4" title="Click here to see other equipment in this category.">Drill Bit 4</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Drill-Bit-5" title="Click here to see other equipment in this category.">Drill Bit 5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Drill-Bit-5.5" title="Click here to see other equipment in this category.">Drill Bit 5.5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Drill-Bit-6" title="Click here to see other equipment in this category.">Drill Bit 6</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Drill-Bit-7" title="Click here to see other equipment in this category.">Drill Bit 7</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Drill-Bit-8" title="Click here to see other equipment in this category.">Drill Bit 8</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver" title="Click here to see other equipment in this category.">Flathead Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL3" title="Click here to see other equipment in this category.">Flathead Screwdriver SL3</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL5" title="Click here to see other equipment in this category.">Flathead Screwdriver SL5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL6" title="Click here to see other equipment in this category.">Flathead Screwdriver SL6</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL7" title="Click here to see other equipment in this category.">Flathead Screwdriver SL7</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-6.25mm-To-7.25mm-Adapter" title="Click here to see other equipment in this category.">Hex 6.25mm To 7.25mm Adapter</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-Nut-Driver" title="Click here to see other equipment in this category.">Hex Nut Driver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-Nut-Driver-10" title="Click here to see other equipment in this category.">Hex Nut Driver 10</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-Nut-Driver-11" title="Click here to see other equipment in this category.">Hex Nut Driver 11</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-Nut-Driver-12" title="Click here to see other equipment in this category.">Hex Nut Driver 12</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-Nut-Driver-13" title="Click here to see other equipment in this category.">Hex Nut Driver 13</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-Nut-Driver-6" title="Click here to see other equipment in this category.">Hex Nut Driver 6</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-Nut-Driver-7" title="Click here to see other equipment in this category.">Hex Nut Driver 7</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-Nut-Driver-8" title="Click here to see other equipment in this category.">Hex Nut Driver 8</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-Nut-Driver-9" title="Click here to see other equipment in this category.">Hex Nut Driver 9</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-Screwdriver" title="Click here to see other equipment in this category.">Hex Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-Screwdriver-H3.0" title="Click here to see other equipment in this category.">Hex Screwdriver H3.0</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-Screwdriver-H5.0" title="Click here to see other equipment in this category.">Hex Screwdriver H5.0</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-Screwdriver-H6.0" title="Click here to see other equipment in this category.">Hex Screwdriver H6.0</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/HSS-Drill-Bit" title="Click here to see other equipment in this category.">HSS Drill Bit</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/HSS-Drill-Bit-2" title="Click here to see other equipment in this category.">HSS Drill Bit 2</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/HSS-Drill-Bit-2.5" title="Click here to see other equipment in this category.">HSS Drill Bit 2.5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/HSS-Drill-Bit-3" title="Click here to see other equipment in this category.">HSS Drill Bit 3</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/HSS-Drill-Bit-3.5" title="Click here to see other equipment in this category.">HSS Drill Bit 3.5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/HSS-Drill-Bit-4" title="Click here to see other equipment in this category.">HSS Drill Bit 4</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/HSS-Drill-Bit-5" title="Click here to see other equipment in this category.">HSS Drill Bit 5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/HSS-Drill-Bit-6" title="Click here to see other equipment in this category.">HSS Drill Bit 6</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/HSS-Drill-Bit-7" title="Click here to see other equipment in this category.">HSS Drill Bit 7</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/HSS-Drill-Bit-8" title="Click here to see other equipment in this category.">HSS Drill Bit 8</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Magnetic" title="Click here to see other equipment in this category.">Magnetic</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Magnetic-Pickup-Tool" title="Click here to see other equipment in this category.">Magnetic Pickup Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Masonry-Drill-Bit" title="Click here to see other equipment in this category.">Masonry Drill Bit</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Masonry-Drill-Bit-10" title="Click here to see other equipment in this category.">Masonry Drill Bit 10</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Masonry-Drill-Bit-3" title="Click here to see other equipment in this category.">Masonry Drill Bit 3</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Masonry-Drill-Bit-4" title="Click here to see other equipment in this category.">Masonry Drill Bit 4</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Masonry-Drill-Bit-5" title="Click here to see other equipment in this category.">Masonry Drill Bit 5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Masonry-Drill-Bit-5.5" title="Click here to see other equipment in this category.">Masonry Drill Bit 5.5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Masonry-Drill-Bit-6" title="Click here to see other equipment in this category.">Masonry Drill Bit 6</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Masonry-Drill-Bit-7" title="Click here to see other equipment in this category.">Masonry Drill Bit 7</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Masonry-Drill-Bit-8" title="Click here to see other equipment in this category.">Masonry Drill Bit 8</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver" title="Click here to see other equipment in this category.">Phillips Head Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH0" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH0</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH1" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH1</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH2" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH2</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH3" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH3</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pickup-Tool" title="Click here to see other equipment in this category.">Pickup Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pozidriv-Screwdriver" title="Click here to see other equipment in this category.">Pozidriv Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pozidriv-Screwdriver-PZ0" title="Click here to see other equipment in this category.">Pozidriv Screwdriver PZ0</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pozidriv-Screwdriver-PZ1" title="Click here to see other equipment in this category.">Pozidriv Screwdriver PZ1</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pozidriv-Screwdriver-PZ2" title="Click here to see other equipment in this category.">Pozidriv Screwdriver PZ2</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pozidriv-Screwdriver-PZ3" title="Click here to see other equipment in this category.">Pozidriv Screwdriver PZ3</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Ratchet" title="Click here to see other equipment in this category.">Ratchet</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Ratchet-Screwdriver" title="Click here to see other equipment in this category.">Ratchet Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Tool-Accessory" title="Click here to see other equipment in this category.">Rotary Tool Accessory</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Tool-Accessory-Set" title="Click here to see other equipment in this category.">Rotary Tool Accessory Set</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Tool-Bit" title="Click here to see other equipment in this category.">Rotary Tool Bit</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Screwdriver" title="Click here to see other equipment in this category.">Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Special-Screwdriver" title="Click here to see other equipment in this category.">Special Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver" title="Click here to see other equipment in this category.">Torx Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T10" title="Click here to see other equipment in this category.">Torx Screwdriver T10</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T15" title="Click here to see other equipment in this category.">Torx Screwdriver T15</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T20" title="Click here to see other equipment in this category.">Torx Screwdriver T20</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T25" title="Click here to see other equipment in this category.">Torx Screwdriver T25</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T30" title="Click here to see other equipment in this category.">Torx Screwdriver T30</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T40" title="Click here to see other equipment in this category.">Torx Screwdriver T40</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Wood-Drill-Bit" title="Click here to see other equipment in this category.">Wood Drill Bit</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Wood-Drill-Bit-10" title="Click here to see other equipment in this category.">Wood Drill Bit 10</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Wood-Drill-Bit-3" title="Click here to see other equipment in this category.">Wood Drill Bit 3</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Wood-Drill-Bit-4" title="Click here to see other equipment in this category.">Wood Drill Bit 4</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Wood-Drill-Bit-5" title="Click here to see other equipment in this category.">Wood Drill Bit 5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Wood-Drill-Bit-6" title="Click here to see other equipment in this category.">Wood Drill Bit 6</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Wood-Drill-Bit-7" title="Click here to see other equipment in this category.">Wood Drill Bit 7</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Wood-Drill-Bit-8" title="Click here to see other equipment in this category.">Wood Drill Bit 8</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Friday, December 22, 2023">A$62.00</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/product/B00GGKMNTO" title="Click here for the latest price from this affiliate and to buy!">Bosch Accessories 91-Piece V-Line Titanium Drill Bit and Screwdriver Bit Set with Ratcheting Screwdriver (For Wood, Masonry, and Metal)</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">91 pcs. Set</td>
+							<td colspan="1" rowspan="1" class="notes"></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Manufacturer links:</p>
+								<ul>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+									<li><!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/WebLink.php:28 WebLink::render() -->
+<a class="external" target="_blank" rel="noopener follow" href="https://www.bosch-diy.com/au/en/p/v-line-drill-and-screwdriver-bit-set-tin-coated-91-pieces-with-ratchet-and-magnet-2763495" title="Click here to open a new tab for this external link.">V-Line Drill- and Screwdriver Bit Set TiN-coated 91 pieces with ratchet and magnet</a></li></ul>
+								<p>Directory name:</p>
+								<p class="indent">rotary-tool-Bosch-91-Piece-V-Line-Titanium-Drill-Bit-and-Screwdriver-Bit-Set-with-Ratcheting-Screwdriver-Rotary-Tool-Accessory-Set</p>
+								<p>Wiki name:</p>
+								<p class="indent">Bosch 91-Piece V-Line Titanium Drill Bit and Screwdriver Bit Set with Ratcheting Screwdriver Rotary Tool Accessory Set</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">Amazon Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$29.95</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/product/B00GGKMNTO" title="Bosch Accessories 91-Piece V-Line Titanium Drill Bit and Screwdriver Bit Set with Ratcheting Screwdriver (For Wood, Masonry, and Metal)">one of these</a> on Friday, December 22, 2023 for A$29.95 each with free shipping for a total of A$29.95.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&amp;orderID=249-7129184-0979066&amp;ref=ppx_yo2ov_dt_b_fed_order_details" title="Click here to view the order of this equipment.">249-7129184-0979066</a></td>
+							<td class="center">91 pcs. Set</td>
+							<td class="total right">$29.95</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$29.95</td></tr>
+						<tr class="spacer row-4">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="9">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Amazon-Basics-Ratchet-Screwdriver" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Amazon Basics Ratchet Screwdriver</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/5828d81dc2654e02d98f9f75e3387385.jpg?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Friday, September 8, 2023.">First purchase: Friday, September 8, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/77782" title="You can use this short link to link to this equipment.">https://jj5.net/77782</a></div>
+								<div>JJCODE: 77782</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Amazon+Basics+Ratchet+Screwdriver" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Amazon+Basics+Ratchet+Screwdriver" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Amazon+Basics+Ratchet+Screwdriver" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Amazon+Basics+Ratchet+Screwdriver" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Amazon-Basics-Ratchet-Screwdriver.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Amazon+Basics+Ratchet+Screwdriver" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Amazon+Basics+Ratchet+Screwdriver" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Amazon+Basics+Ratchet+Screwdriver" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Amazon+Basics+Ratchet+Screwdriver" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Amazon+Basics+Ratchet+Screwdriver" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Amazon-Basics-Ratchet-Screwdriver">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Amazon Basics Ratchet Screwdriver</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Amazon-Basics" title="Click here to see other equipment from this manufacturer.">Amazon Basics</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver" title="Click here to see other equipment in this category.">Flathead Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL4" title="Click here to see other equipment in this category.">Flathead Screwdriver SL4</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL5" title="Click here to see other equipment in this category.">Flathead Screwdriver SL5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL6" title="Click here to see other equipment in this category.">Flathead Screwdriver SL6</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-Screwdriver" title="Click here to see other equipment in this category.">Hex Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-Screwdriver-H3.0" title="Click here to see other equipment in this category.">Hex Screwdriver H3.0</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-Screwdriver-H4.0" title="Click here to see other equipment in this category.">Hex Screwdriver H4.0</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-Screwdriver-H5.0" title="Click here to see other equipment in this category.">Hex Screwdriver H5.0</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver" title="Click here to see other equipment in this category.">Phillips Head Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH1" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH1</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH2" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH2</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH3" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH3</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Ratchet" title="Click here to see other equipment in this category.">Ratchet</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Ratchet-Screwdriver" title="Click here to see other equipment in this category.">Ratchet Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Screwdriver" title="Click here to see other equipment in this category.">Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver" title="Click here to see other equipment in this category.">Torx Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T15" title="Click here to see other equipment in this category.">Torx Screwdriver T15</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T20" title="Click here to see other equipment in this category.">Torx Screwdriver T20</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T25" title="Click here to see other equipment in this category.">Torx Screwdriver T25</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$18.87</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/3RVdTzz" title="Click here for the latest price from this affiliate and to buy!">Amazon Basics 12-Piece Magnetic Screwdriver Set, 7 x 2 x 14.8 inches, Turquoise</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td>
+							<td colspan="1" rowspan="3" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Bosch_IXO" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$33.54</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/3tUhV37" title="Click here for the latest price from this affiliate and to buy!">Amazon Basics 12-in-1 Magnetic Ratchet Screwdriver</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$34.04</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/NMT7iJ" title="Click here for the latest price from this affiliate and to buy!">Magnetic Ratchet Driver 12 in 1 Set of 12</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Directory name:</p>
+								<p class="indent">screwdriver-Amazon-Basics-Ratchet-Screwdriver</p>
+								<p>Wiki name:</p>
+								<p class="indent">Amazon Basics Ratchet Screwdriver</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">Amazon Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$21.90</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://amzn.to/3tUhV37" title="Amazon Basics 12-in-1 Magnetic Ratchet Screwdriver">one of these</a> on Friday, September 8, 2023 for A$21.90 each with free shipping for a total of A$21.90.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&amp;orderID=249-7183773-5004638" title="Click here to view the order of this equipment.">249-7183773-5004638</a></td>
+							<td class="center"></td>
+							<td class="total right">$21.90</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$21.90</td></tr>
+						<tr class="spacer row-5">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Yum-Cha-Spudgers" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Yum Cha Spudgers</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/bd9890f5cdb157ad24c9da0e6f6f8b2b.webp?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Friday, November 10, 2023.">First purchase: Friday, November 10, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/17657" title="You can use this short link to link to this equipment.">https://jj5.net/17657</a></div>
+								<div>JJCODE: 17657</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Yum+Cha+Spudgers" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Yum+Cha+Spudgers" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Yum+Cha+Spudgers" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Yum+Cha+Spudgers" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Yum-Cha-Spudgers.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Yum+Cha+Spudgers" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Yum+Cha+Spudgers" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Yum+Cha+Spudgers" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Yum+Cha+Spudgers" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Yum+Cha+Spudgers" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Yum-Cha-Spudgers">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Yum Cha Spudgers</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Yum-Cha" title="Click here to see other equipment from this manufacturer.">Yum Cha</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Box-Opener" title="Click here to see other equipment in this category.">Box Opener</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver" title="Click here to see other equipment in this category.">Flathead Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL1.5" title="Click here to see other equipment in this category.">Flathead Screwdriver SL1.5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pentalobe-Screwdriver" title="Click here to see other equipment in this category.">Pentalobe Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pentalobe-Screwdriver-P2" title="Click here to see other equipment in this category.">Pentalobe Screwdriver P2</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver" title="Click here to see other equipment in this category.">Phillips Head Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH000" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH000</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Screwdriver" title="Click here to see other equipment in this category.">Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Spudger" title="Click here to see other equipment in this category.">Spudger</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Spudgers" title="Click here to see other equipment in this category.">Spudgers</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver" title="Click here to see other equipment in this category.">Torx Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T2" title="Click here to see other equipment in this category.">Torx Screwdriver T2</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Tri-Point-Y-Screwdriver" title="Click here to see other equipment in this category.">Tri Point Y Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Tri-Point-Y-Screwdriver-Y000" title="Click here to see other equipment in this category.">Tri Point Y Screwdriver Y000</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Tuesday, January 16, 2024">A$14.33</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/item/1005005561010038.html" title="Click here for the latest price from this affiliate and to buy!">22 In 1 Multifunctional Disassembly Tool Mobile Phone iPad Laptop Screwdriver Maintenance Kit Repair Tools Opening Set For Hand</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: GOLD</td>
+							<td colspan="1" rowspan="1" class="notes"></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Directory name:</p>
+								<p class="indent">spudger-Yum-Cha-Spudgers</p>
+								<p>Wiki name:</p>
+								<p class="indent">Yum Cha Spudgers</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">AliExpress:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$3.17</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price">A$5.28</td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/item/1005005561010038.html?spm=a2g0o.order_detail.order_detail_item.19.6c42f19ckFPFho" title="22 In 1 Multifunctional Disassembly Tool Mobile Phone iPad Laptop Screwdriver Maintenance Kit Repair Tools Opening Set For Hand">one of these</a> on Friday, November 10, 2023 for A$3.17 each with free shipping plus tax of A$5.28 for a total of A$8.45.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.305.8fbd1802tGdk33&amp;orderId=8179206442443938" title="Click here to view the order of this equipment.">8179206442443938</a></td>
+							<td class="center">Color: GOLD</td>
+							<td class="total right">$8.45</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$8.45</td></tr>
+						<tr class="spacer row-6">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="13">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Legion-Tools-Mini-Screwdriver-Set" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Legion Tools Mini Screwdriver Set</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/905f8510515afe87594a652ffa8a8a9d.jpg?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Tuesday, August 31, 2021.">First purchase: Tuesday, August 31, 2021</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/12786" title="You can use this short link to link to this equipment.">https://jj5.net/12786</a></div>
+								<div>JJCODE: 12786</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Legion+Tools+Mini+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Legion+Tools+Mini+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Legion+Tools+Mini+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Legion+Tools+Mini+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Legion-Tools-Mini-Screwdriver-Set.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Legion+Tools+Mini+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Legion+Tools+Mini+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Legion+Tools+Mini+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Legion+Tools+Mini+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Legion+Tools+Mini+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Legion-Tools-Mini-Screwdriver-Set">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Legion Tools Mini Screwdriver Set</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Legion-Tools" title="Click here to see other equipment from this manufacturer.">Legion Tools</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Awl" title="Click here to see other equipment in this category.">Awl</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver" title="Click here to see other equipment in this category.">Flathead Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL1" title="Click here to see other equipment in this category.">Flathead Screwdriver SL1</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL1.2" title="Click here to see other equipment in this category.">Flathead Screwdriver SL1.2</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL1.4" title="Click here to see other equipment in this category.">Flathead Screwdriver SL1.4</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL1.8" title="Click here to see other equipment in this category.">Flathead Screwdriver SL1.8</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL2.4" title="Click here to see other equipment in this category.">Flathead Screwdriver SL2.4</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL3" title="Click here to see other equipment in this category.">Flathead Screwdriver SL3</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Mini-Screwdriver" title="Click here to see other equipment in this category.">Mini Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Mini-Screwdriver-Set" title="Click here to see other equipment in this category.">Mini Screwdriver Set</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver" title="Click here to see other equipment in this category.">Phillips Head Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH0" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH0</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH00" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH00</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH1" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH1</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Reset-Pin-Screwdriver" title="Click here to see other equipment in this category.">Reset Pin Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Screwdriver" title="Click here to see other equipment in this category.">Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Screwdriver-Set" title="Click here to see other equipment in this category.">Screwdriver Set</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Special-Screwdriver" title="Click here to see other equipment in this category.">Special Screwdriver</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$4.95</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/fq6Z4z" title="Click here for the latest price from this affiliate and to buy!">11 Precision Mini Screwdriver Set Phone Watch Jewellery Electronic Repair Tool</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td>
+							<td colspan="1" rowspan="7" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Precision_Mini_Screwdriver_Set" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$5.90</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/ECGXjr" title="Click here for the latest price from this affiliate and to buy!">Precision Mini Screwdriver Set 11pc Jeweller Laptop Phone Watch Repair Tool </a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">QTY: 1 set (11pcs)</td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$4.85</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/5Jk7A6" title="Click here for the latest price from this affiliate and to buy!">11 PC SMALL MINI PRECISION SCREWDRIVER SET FOR WATCH JEWELRY ELECTRONIC REPAIR</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$4.95</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/hMQDPp" title="Click here for the latest price from this affiliate and to buy!">Small Mini Precision Screwdriver 11 PCs Set for Watch Jewelry Glasses Electronic</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$7.89</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/47IWcJy" title="Click here for the latest price from this affiliate and to buy!">Chivolona 11PCS Mini Precision Screwdriver Set,Small Screwdriver Set for Repair Computer,Small Screw Driver Kit Electronics,Toys,Watch</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$15.42</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/nUGQlA" title="Click here for the latest price from this affiliate and to buy!">Essential Precision Screwdriver Set for Watch Jewelry Electronics Repair</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$29.32</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/4aY0HTi" title="Click here for the latest price from this affiliate and to buy!">Chivolona 11PCS Mini Precision Screwdriver Set,Small Screwdriver Set for Repair Computer,Small Screw Driver Kit Electronics,Toys,Watch</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Manufacturer links:</p>
+								<ul>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+									<li><!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/WebLink.php:28 WebLink::render() -->
+<a class="external" target="_blank" rel="noopener follow" href="https://www.legionwarehouse.com.au/products/precision-mini-screwdriver-set-11pc-jeweller-laptop-phone-watch-repair-tool?pr_prod_strat=e5_desc&amp;pr_rec_id=3cb54501d&amp;pr_rec_pid=7216010789019&amp;pr_ref_pid=7448981602459&amp;pr_seq=uniform" title="Click here to open a new tab for this external link.">Precision Mini Screwdriver Set 11PCS</a></li></ul>
+								<p>Directory name:</p>
+								<p class="indent">screwdriver-Legion-Tools-Mini-Screwdriver-Set</p>
+								<p>Wiki name:</p>
+								<p class="indent">Legion Tools Mini Screwdriver Set</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">eBay Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$4.75</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://ebay.us/ECGXjr" title="Precision Mini Screwdriver Set 11pc Jeweller Laptop Phone Watch Repair Tool">one of these</a> on Tuesday, August 31, 2021 for A$4.75 each with free shipping for a total of A$4.75.
+								<a class="external" target="_blank" rel="noopener follow" href="https://order.ebay.com.au/ord/show?orderId=22-07540-18516#/" title="Click here to view the order of this equipment.">22-07540-18516</a></td>
+							<td class="center">QTY: 1 set (11pcs)</td>
+							<td class="total right">$4.75</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$4.75</td></tr>
+						<tr class="spacer row-7">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Yum-Cha-29-In-1-Mini-Precision-Screwdriver-Set" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Yum Cha 29 In 1 Mini Precision Screwdriver Set</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/30709e9dab31ec71219720df61745ddb.webp?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Thursday, July 11, 2024.">First purchase: Thursday, July 11, 2024</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/95707" title="You can use this short link to link to this equipment.">https://jj5.net/95707</a></div>
+								<div>JJCODE: 95707</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Yum+Cha+29+In+1+Mini+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Yum+Cha+29+In+1+Mini+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Yum+Cha+29+In+1+Mini+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Yum+Cha+29+In+1+Mini+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Yum-Cha-29-In-1-Mini-Precision-Screwdriver-Set.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Yum+Cha+29+In+1+Mini+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Yum+Cha+29+In+1+Mini+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Yum+Cha+29+In+1+Mini+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Yum+Cha+29+In+1+Mini+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Yum+Cha+29+In+1+Mini+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Yum-Cha-29-In-1-Mini-Precision-Screwdriver-Set">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Yum Cha 29 In 1 Mini Precision Screwdriver Set</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Yum-Cha" title="Click here to see other equipment from this manufacturer.">Yum Cha</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver" title="Click here to see other equipment in this category.">Flathead Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL1" title="Click here to see other equipment in this category.">Flathead Screwdriver SL1</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL1.5" title="Click here to see other equipment in this category.">Flathead Screwdriver SL1.5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL2" title="Click here to see other equipment in this category.">Flathead Screwdriver SL2</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL3" title="Click here to see other equipment in this category.">Flathead Screwdriver SL3</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL4" title="Click here to see other equipment in this category.">Flathead Screwdriver SL4</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Mini-Screwdriver" title="Click here to see other equipment in this category.">Mini Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Mini-Screwdriver-Set" title="Click here to see other equipment in this category.">Mini Screwdriver Set</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pentalobe-Screwdriver" title="Click here to see other equipment in this category.">Pentalobe Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pentalobe-Screwdriver-P2" title="Click here to see other equipment in this category.">Pentalobe Screwdriver P2</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pentalobe-Screwdriver-P5" title="Click here to see other equipment in this category.">Pentalobe Screwdriver P5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver" title="Click here to see other equipment in this category.">Phillips Head Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH00" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH00</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH000" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH000</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH0000" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH0000</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH1" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH1</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH1.2" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH1.2</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Precision-Screwdriver" title="Click here to see other equipment in this category.">Precision Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Precision-Screwdriver-Set" title="Click here to see other equipment in this category.">Precision Screwdriver Set</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Reset-Pin-Screwdriver" title="Click here to see other equipment in this category.">Reset Pin Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Screwdriver" title="Click here to see other equipment in this category.">Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Screwdriver-Set" title="Click here to see other equipment in this category.">Screwdriver Set</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Special-Screwdriver" title="Click here to see other equipment in this category.">Special Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver" title="Click here to see other equipment in this category.">Torx Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T10" title="Click here to see other equipment in this category.">Torx Screwdriver T10</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T15" title="Click here to see other equipment in this category.">Torx Screwdriver T15</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T2" title="Click here to see other equipment in this category.">Torx Screwdriver T2</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T3" title="Click here to see other equipment in this category.">Torx Screwdriver T3</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T4" title="Click here to see other equipment in this category.">Torx Screwdriver T4</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T5" title="Click here to see other equipment in this category.">Torx Screwdriver T5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T6" title="Click here to see other equipment in this category.">Torx Screwdriver T6</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T7" title="Click here to see other equipment in this category.">Torx Screwdriver T7</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T8" title="Click here to see other equipment in this category.">Torx Screwdriver T8</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Tri-Point-Y-Screwdriver" title="Click here to see other equipment in this category.">Tri Point Y Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Tri-Point-Y-Screwdriver-Y000" title="Click here to see other equipment in this category.">Tri Point Y Screwdriver Y000</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Tri-Point-Y-Screwdriver-Y1" title="Click here to see other equipment in this category.">Tri Point Y Screwdriver Y1</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Triangular-Screwdriver" title="Click here to see other equipment in this category.">Triangular Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Triangular-Screwdriver-2.0" title="Click here to see other equipment in this category.">Triangular Screwdriver 2.0</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Triangular-Screwdriver-2.3" title="Click here to see other equipment in this category.">Triangular Screwdriver 2.3</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Triangular-Screwdriver-3.0" title="Click here to see other equipment in this category.">Triangular Screwdriver 3.0</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/U-Drive-Screwdriver" title="Click here to see other equipment in this category.">U Drive Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/U-Drive-Screwdriver-U2.6" title="Click here to see other equipment in this category.">U Drive Screwdriver U2.6</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Thursday, July 11, 2024">A$5.75</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DlDg9L5" title="Click here for the latest price from this affiliate and to buy!">29 In 1 Mini Precision Screwdriver Tool Kit Portable Screwdriver Bits Tool Set Pocket Tools Professional Electronics Repair Tool</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: 29 PCS</td>
+							<td colspan="1" rowspan="1" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Yum_Cha_Mini_Magnetic_Precision_Screwdriver_Set" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Directory name:</p>
+								<p class="indent">screwdriver-Yum-Cha-29-In-1-Mini-Precision-Screwdriver-Set</p>
+								<p>Wiki name:</p>
+								<p class="indent">Yum Cha 29 In 1 Mini Precision Screwdriver Set</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">AliExpress:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$3.29</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price">A$0.52</td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DlDg9L5" title="29 In 1 Mini Precision Screwdriver Tool Kit Portable Screwdriver Bits Tool Set Pocket Tools Professional Electronics Repair Tool">one of these</a> on Thursday, July 11, 2024 for A$3.29 each with free shipping plus tax of A$0.52 for a total of A$3.81.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.21.53651802LMoqC2&amp;orderId=8190382507043938" title="Click here to view the order of this equipment.">8190382507043938</a></td>
+							<td class="center">Color: 29 PCS</td>
+							<td class="total right">$3.81</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$3.81</td></tr>
+						<tr class="spacer row-8">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Yum-Cha-Mini-Magnetic-Precision-Screwdriver-Set" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Yum Cha Mini Magnetic Precision Screwdriver Set</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/7eaf92e56f0e80d17b6f460ef430f718.webp?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Thursday, July 11, 2024.">First purchase: Thursday, July 11, 2024</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/58734" title="You can use this short link to link to this equipment.">https://jj5.net/58734</a></div>
+								<div>JJCODE: 58734</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Yum+Cha+Mini+Magnetic+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Yum+Cha+Mini+Magnetic+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Yum+Cha+Mini+Magnetic+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Yum+Cha+Mini+Magnetic+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Yum-Cha-Mini-Magnetic-Precision-Screwdriver-Set.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Yum+Cha+Mini+Magnetic+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Yum+Cha+Mini+Magnetic+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Yum+Cha+Mini+Magnetic+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Yum+Cha+Mini+Magnetic+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Yum+Cha+Mini+Magnetic+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Yum-Cha-Mini-Magnetic-Precision-Screwdriver-Set">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Yum Cha Mini Magnetic Precision Screwdriver Set</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Yum-Cha" title="Click here to see other equipment from this manufacturer.">Yum Cha</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Accessory" title="Click here to see other equipment in this category.">Accessory</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Attachment" title="Click here to see other equipment in this category.">Attachment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Drill-Bit" title="Click here to see other equipment in this category.">Drill Bit</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver" title="Click here to see other equipment in this category.">Flathead Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL1.5" title="Click here to see other equipment in this category.">Flathead Screwdriver SL1.5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL2" title="Click here to see other equipment in this category.">Flathead Screwdriver SL2</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL2.5" title="Click here to see other equipment in this category.">Flathead Screwdriver SL2.5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL3" title="Click here to see other equipment in this category.">Flathead Screwdriver SL3</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL4" title="Click here to see other equipment in this category.">Flathead Screwdriver SL4</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-Screwdriver" title="Click here to see other equipment in this category.">Hex Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-Screwdriver-H1.5" title="Click here to see other equipment in this category.">Hex Screwdriver H1.5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-Screwdriver-H2.0" title="Click here to see other equipment in this category.">Hex Screwdriver H2.0</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-Screwdriver-H2.5" title="Click here to see other equipment in this category.">Hex Screwdriver H2.5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-Screwdriver-H3.0" title="Click here to see other equipment in this category.">Hex Screwdriver H3.0</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-Screwdriver-H4.0" title="Click here to see other equipment in this category.">Hex Screwdriver H4.0</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hex-Screwdriver-H5.0" title="Click here to see other equipment in this category.">Hex Screwdriver H5.0</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Magnetic" title="Click here to see other equipment in this category.">Magnetic</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Mini-Screwdriver" title="Click here to see other equipment in this category.">Mini Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Mini-Screwdriver-Set" title="Click here to see other equipment in this category.">Mini Screwdriver Set</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pentalobe-Screwdriver" title="Click here to see other equipment in this category.">Pentalobe Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pentalobe-Screwdriver-P2" title="Click here to see other equipment in this category.">Pentalobe Screwdriver P2</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pentalobe-Screwdriver-P5" title="Click here to see other equipment in this category.">Pentalobe Screwdriver P5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pentalobe-Screwdriver-P7" title="Click here to see other equipment in this category.">Pentalobe Screwdriver P7</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver" title="Click here to see other equipment in this category.">Phillips Head Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH0" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH0</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH00" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH00</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH000" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH000</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH1" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH1</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH2" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH2</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Precision-Screwdriver" title="Click here to see other equipment in this category.">Precision Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Precision-Screwdriver-Set" title="Click here to see other equipment in this category.">Precision Screwdriver Set</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Tool-Accessory" title="Click here to see other equipment in this category.">Rotary Tool Accessory</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Tool-Bit" title="Click here to see other equipment in this category.">Rotary Tool Bit</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Screwdriver" title="Click here to see other equipment in this category.">Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Screwdriver-Set" title="Click here to see other equipment in this category.">Screwdriver Set</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver" title="Click here to see other equipment in this category.">Torx Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T10" title="Click here to see other equipment in this category.">Torx Screwdriver T10</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T3" title="Click here to see other equipment in this category.">Torx Screwdriver T3</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T4" title="Click here to see other equipment in this category.">Torx Screwdriver T4</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T5" title="Click here to see other equipment in this category.">Torx Screwdriver T5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T6" title="Click here to see other equipment in this category.">Torx Screwdriver T6</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T8" title="Click here to see other equipment in this category.">Torx Screwdriver T8</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Tri-Point-Y-Screwdriver" title="Click here to see other equipment in this category.">Tri Point Y Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Tri-Point-Y-Screwdriver-Y2" title="Click here to see other equipment in this category.">Tri Point Y Screwdriver Y2</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Tri-Point-Y-Screwdriver-Y3" title="Click here to see other equipment in this category.">Tri Point Y Screwdriver Y3</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Triangular-Screwdriver" title="Click here to see other equipment in this category.">Triangular Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Triangular-Screwdriver-2.0" title="Click here to see other equipment in this category.">Triangular Screwdriver 2.0</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Triangular-Screwdriver-2.3" title="Click here to see other equipment in this category.">Triangular Screwdriver 2.3</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/U-Drive-Screwdriver" title="Click here to see other equipment in this category.">U Drive Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/U-Drive-Screwdriver-U2.3" title="Click here to see other equipment in this category.">U Drive Screwdriver U2.3</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/❤️" title="Click here to see other equipment in this category.">❤️</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Thursday, July 11, 2024">A$4.75</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DduOEoF" title="Click here for the latest price from this affiliate and to buy!">Small Screwdriver Set,30 Mini Magnetic Precision Screwdriver Drill Set (Star, Y, Club, Triangle, Cross, Slotted, U, Hexagonal He</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: Package 1</td>
+							<td colspan="1" rowspan="1" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Yum_Cha_Mini_Magnetic_Precision_Screwdriver_Set" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Directory name:</p>
+								<p class="indent">screwdriver-Yum-Cha-Mini-Magnetic-Precision-Screwdriver-Set</p>
+								<p>Wiki name:</p>
+								<p class="indent">Yum Cha Mini Magnetic Precision Screwdriver Set</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">AliExpress:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$3.29</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price">A$0.46</td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DduOEoF" title="Small Screwdriver Set,30 Mini Magnetic Precision Screwdriver Drill Set (Star, Y, Club, Triangle, Cross, Slotted, U, Hexagonal He">one of these</a> on Thursday, July 11, 2024 for A$3.29 each with free shipping plus tax of A$0.46 for a total of A$3.75.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.16.53651802LMoqC2&amp;orderId=8190382507023938" title="Click here to view the order of this equipment.">8190382507023938</a></td>
+							<td class="center">Color: Package 1</td>
+							<td class="total right">$3.75</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$3.75</td></tr>
+						<tr class="spacer row-9">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Ausum-25-In-1-Precision-Screwdriver-Set" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Ausum 25 In 1 Precision Screwdriver Set</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/c2221c96672cb603d1617f607862960b.webp?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Thursday, July 11, 2024.">First purchase: Thursday, July 11, 2024</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/50253" title="You can use this short link to link to this equipment.">https://jj5.net/50253</a></div>
+								<div>JJCODE: 50253</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Ausum+25+In+1+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Ausum+25+In+1+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Ausum+25+In+1+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Ausum+25+In+1+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Ausum-25-In-1-Precision-Screwdriver-Set.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Ausum+25+In+1+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Ausum+25+In+1+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Ausum+25+In+1+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Ausum+25+In+1+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Ausum+25+In+1+Precision+Screwdriver+Set" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Ausum-25-In-1-Precision-Screwdriver-Set">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Ausum 25 In 1 Precision Screwdriver Set</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Ausum" title="Click here to see other equipment from this manufacturer.">Ausum</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver" title="Click here to see other equipment in this category.">Flathead Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL1" title="Click here to see other equipment in this category.">Flathead Screwdriver SL1</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL1.5" title="Click here to see other equipment in this category.">Flathead Screwdriver SL1.5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL2" title="Click here to see other equipment in this category.">Flathead Screwdriver SL2</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL3" title="Click here to see other equipment in this category.">Flathead Screwdriver SL3</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Mini-Screwdriver" title="Click here to see other equipment in this category.">Mini Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Mini-Screwdriver-Set" title="Click here to see other equipment in this category.">Mini Screwdriver Set</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pentalobe-Screwdriver" title="Click here to see other equipment in this category.">Pentalobe Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pentalobe-Screwdriver-P2" title="Click here to see other equipment in this category.">Pentalobe Screwdriver P2</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pentalobe-Screwdriver-P5" title="Click here to see other equipment in this category.">Pentalobe Screwdriver P5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver" title="Click here to see other equipment in this category.">Phillips Head Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH00" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH00</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH000" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH000</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH0000" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH0000</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH1" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH1</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH1.2" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH1.2</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Precision-Screwdriver" title="Click here to see other equipment in this category.">Precision Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Precision-Screwdriver-Set" title="Click here to see other equipment in this category.">Precision Screwdriver Set</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Reset-Pin-Screwdriver" title="Click here to see other equipment in this category.">Reset Pin Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Screwdriver" title="Click here to see other equipment in this category.">Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Screwdriver-Set" title="Click here to see other equipment in this category.">Screwdriver Set</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Special-Screwdriver" title="Click here to see other equipment in this category.">Special Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver" title="Click here to see other equipment in this category.">Torx Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T10" title="Click here to see other equipment in this category.">Torx Screwdriver T10</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T15" title="Click here to see other equipment in this category.">Torx Screwdriver T15</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T2" title="Click here to see other equipment in this category.">Torx Screwdriver T2</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T3" title="Click here to see other equipment in this category.">Torx Screwdriver T3</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T4" title="Click here to see other equipment in this category.">Torx Screwdriver T4</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T5" title="Click here to see other equipment in this category.">Torx Screwdriver T5</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T6" title="Click here to see other equipment in this category.">Torx Screwdriver T6</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T7" title="Click here to see other equipment in this category.">Torx Screwdriver T7</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T8" title="Click here to see other equipment in this category.">Torx Screwdriver T8</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Tri-Point-Y-Screwdriver" title="Click here to see other equipment in this category.">Tri Point Y Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Tri-Point-Y-Screwdriver-Y000" title="Click here to see other equipment in this category.">Tri Point Y Screwdriver Y000</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Tri-Point-Y-Screwdriver-Y1" title="Click here to see other equipment in this category.">Tri Point Y Screwdriver Y1</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Triangular-Screwdriver" title="Click here to see other equipment in this category.">Triangular Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Triangular-Screwdriver-2.3" title="Click here to see other equipment in this category.">Triangular Screwdriver 2.3</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Thursday, July 11, 2024">A$4.68</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DET3aUL" title="Click here for the latest price from this affiliate and to buy!">1 Set, Precision Screwdriver Set, 25 In 1 Repair Tool Kit, Small Screwdriver Set, Star/Y-type/Flat-blade/Triangle Screwdrivers F</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: black</td>
+							<td colspan="1" rowspan="1" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Ausum_25_In_1_Precision_Screwdriver_Set" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Directory name:</p>
+								<p class="indent">screwdriver-Ausum-25-In-1-Precision-Screwdriver-Set</p>
+								<p>Wiki name:</p>
+								<p class="indent">Ausum 25 In 1 Precision Screwdriver Set</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">AliExpress:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$3.29</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price">A$0.45</td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DET3aUL" title="1 Set, Precision Screwdriver Set, 25 In 1 Repair Tool Kit, Small Screwdriver Set, Star/Y-type/Flat-blade/Triangle Screwdrivers F">one of these</a> on Thursday, July 11, 2024 for A$3.29 each with free shipping plus tax of A$0.45 for a total of A$3.74.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.127.53651802LMoqC2&amp;orderId=8191002457843938" title="Click here to view the order of this equipment.">8191002457843938</a></td>
+							<td class="center">Color: black</td>
+							<td class="total right">$3.74</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$3.74</td></tr>
+						<tr class="spacer row-10">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Yum-Cha-L-shaped-Screwdriver" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Yum Cha L-shaped Screwdriver</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/7390d94460305adaf6cd7bbd5054f731.webp?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Friday, August 2, 2024.">First purchase: Friday, August 2, 2024</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/51560" title="You can use this short link to link to this equipment.">https://jj5.net/51560</a></div>
+								<div>JJCODE: 51560</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Yum+Cha+L-shaped+Screwdriver" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Yum+Cha+L-shaped+Screwdriver" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Yum+Cha+L-shaped+Screwdriver" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Yum+Cha+L-shaped+Screwdriver" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Yum-Cha-L-shaped-Screwdriver.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Yum+Cha+L-shaped+Screwdriver" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Yum+Cha+L-shaped+Screwdriver" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Yum+Cha+L-shaped+Screwdriver" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Yum+Cha+L-shaped+Screwdriver" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Yum+Cha+L-shaped+Screwdriver" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Yum-Cha-L-shaped-Screwdriver">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Yum Cha L-shaped Screwdriver</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Yum-Cha" title="Click here to see other equipment from this manufacturer.">Yum Cha</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Accessory" title="Click here to see other equipment in this category.">Accessory</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Adapter" title="Click here to see other equipment in this category.">Adapter</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Attachment" title="Click here to see other equipment in this category.">Attachment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver" title="Click here to see other equipment in this category.">Flathead Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL4" title="Click here to see other equipment in this category.">Flathead Screwdriver SL4</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Flathead-Screwdriver-SL6" title="Click here to see other equipment in this category.">Flathead Screwdriver SL6</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver" title="Click here to see other equipment in this category.">Phillips Head Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH0" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH0</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH1" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH1</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH2" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH2</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Phillips-Head-Screwdriver-PH3" title="Click here to see other equipment in this category.">Phillips Head Screwdriver PH3</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Screwdriver" title="Click here to see other equipment in this category.">Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver" title="Click here to see other equipment in this category.">Torx Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T15" title="Click here to see other equipment in this category.">Torx Screwdriver T15</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T20" title="Click here to see other equipment in this category.">Torx Screwdriver T20</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Torx-Screwdriver-T25" title="Click here to see other equipment in this category.">Torx Screwdriver T25</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Friday, August 2, 2024">A$4.62</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_Dex2Jb1" title="Click here for the latest price from this affiliate and to buy!">L-shaped 1/4 Hexagonal Screwdriver Bit 90 Degree Double Head Handle Black 6.35 Wrench 10pc Yellow Tape Screwdriver Bit Tool Set</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: 11pc screwdriver set</td>
+							<td colspan="1" rowspan="1" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Yum_Cha_L-shaped_Screwdriver" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Directory name:</p>
+								<p class="indent">screwdriver-Yum-Cha-L-shaped-Screwdriver</p>
+								<p>Wiki name:</p>
+								<p class="indent">Yum Cha L-shaped Screwdriver</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">AliExpress:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$3.09</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price">A$0.45</td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_Dex2Jb1" title="L-shaped 1/4 Hexagonal Screwdriver Bit 90 Degree Double Head Handle Black 6.35 Wrench 10pc Yellow Tape Screwdriver Bit Tool Set">one of these</a> on Friday, August 2, 2024 for A$3.09 each with free shipping plus tax of A$0.45 for a total of A$3.54.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.1.7fc71802wfWni0&amp;orderId=8191723740383938" title="Click here to view the order of this equipment.">8191723740383938</a></td>
+							<td class="center">11pc screwdriver set</td>
+							<td class="total right">$3.54</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$3.54</td></tr></tbody></table></div>
+			<hr style="border: 1px solid gray;">
+			<div class="container" style="text-align:center;">
+				<div>
+					<p>Prices in: 
+						<a class="internal" rel="nofollow" href="?currency=USD#options" title="Click here to get prices in United States Dollars.">USD</a> | 
+						<a class="internal" rel="nofollow" href="?currency=AUD#options" title="Click here to get prices in Australian Dollars.">AUD</a> | 
+						<a class="internal" rel="nofollow" href="?#options" title="Click here to get prices in the currency used on the affiliated page.">default</a> &mdash; Sort: 
+						<a class="internal" rel="nofollow" href="?sort=cheap-first#options" title="Click here to sort from cheapest to most expensive.">cheap first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=expensive-first#options" title="Click here to sort from most expensive to cheapest.">expensive first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=new-first#options" title="Click here to sort with most recently purchased first.">newest first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=old-first#options" title="Click here to sort with the least recently purchased first.">oldest first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=random#options" title="Click here to sort randomly.">random</a> | 
+						<a class="internal" rel="nofollow" href="?#options" title="Click here to use the default sort (expensive first).">default</a></p></div></div>
+			<section>
+				<h2 id="total-paid">Total Paid and Other Statistics</h2>
+				<p>Total paid for the 10 items on this page: A$197.90.</p>
+				<p>Note: the values shown here are not exact, for 
+					<a class="internal" rel="follow" href="/in-the-lab/about.php#records" title="Click here to read about price inaccuracies.">a bunch of reasons</a>.</p>
+				<table>
+					<thead>
+						<tr>
+							<th></th>
+							<th>USD</th>
+							<th>AUD</th></tr></thead>
+					<tbody>
+						<tr>
+							<th class="right">Total Paid:</th>
+							<td class="right">$129.43</td>
+							<td class="right">A$197.90</td></tr>
+						<tr>
+							<th class="right">Minimum Paid:</th>
+							<td class="right">$2.32</td>
+							<td class="right">A$3.54</td></tr>
+						<tr>
+							<th class="right">Maximum Paid:</th>
+							<td class="right">$51.67</td>
+							<td class="right">A$79.00</td></tr>
+						<tr>
+							<th class="right">Median Paid:</th>
+							<td class="right">$5.53</td>
+							<td class="right">A$8.45</td></tr>
+						<tr>
+							<th class="right">Average Paid:</th>
+							<td class="right">$12.94</td>
+							<td class="right">A$19.79</td></tr>
+						<tr>
+							<th class="right">Standard Deviation:</th>
+							<td class="right">$15.16</td>
+							<td class="right">A$23.18</td></tr></tbody></table></section>
+			<section>
+				<h2 id="more-info">More Information</h2>
+				<p>If you would like to see all of my equipment check out the 
+					<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see other equipment that might be of interest.">equipment</a> page. You can also get my equipment indexed by 
+					<a class="internal" rel="follow" href="/in-the-lab/category.php" title="Click here to see all the equipment in this category.">category</a> or by 
+					<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php" title="Click here to see all the equipment from this manufacturer.">manufacturer</a>.</p></section>
+			<section>
+				<h2 id="contents">Table of Contents</h2>
+				<p>The contents of this page are organised into the following sections:</p>
+				<div id="contents_div">Contents will go here (if you have Javascript enabled).</div></section>
+			<section>
+				<h2 id="thanks">Thank You!</h2>
+				<p>Thanks very much for your interest and 
+					<b>I hope you enjoy the show!</b></p></section>
+			<section>
+				<h2 id="next">Where to from Here?</h2>
+				<p>You made it to the bottom of the page, huh? Well done! I&apos;m a bit of a scroller myself. :)</p>
+				<p>Where you go next depends on what you&apos;re interested in. Here are some suggestions:</p>
+				<ul>
+					<li>If you&apos;re enjoying my content you could consider 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to find out how you can support the show. [Hotkey: U]">supporting the show</a>.</li>
+					<li>My 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/new-book-teardown" title="Click here to watch the videos where I review new technology related books.">new book teardown videos</a> are quite popular, you might enjoy watching those.</li>
+					<li>My personal favourites are the 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="Click here to watch the videos where I review old technology related books.">old book teardown videos</a>.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a>, for all my high quality content including my 
+						<a class="internal" rel="follow" href="/in-the-lab/show-type.php/special-show" title="Click here to watch special shows which air on the main channel.">special shows</a>.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/show-type.php/main-show" title="Click here to watch videos recorded for the main show.">main show</a>, for my main show videos, which include the 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/electronics-project" title="Click here to watch the electronics project videos.">electronics project</a> and 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="Click here to watch the videos where I review old technology related books.">old book teardown</a> videos.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">equipment</a> page, if you&apos;re interested in any of the equipment I use. If you&apos;re putting together your own electronics lab then I would certainly recommend checking this out!</li>
+					<li>Did I mention that you can 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to find out how you can support the show. [Hotkey: U]">support the show</a>? :)</li></ul></section></main>
+		<footer>
+			<div>&copy; Copyright 2024 John Elliot V. All rights reserved.</div></footer>
+		<script>window.g_mud_html_options = [];</script></body></html>

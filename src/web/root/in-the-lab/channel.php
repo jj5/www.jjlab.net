@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/../../../../inc/framework.php';
+require_once __DIR__ . '/../../../../run/run-web.php';
 
 global $g_video_id;
 

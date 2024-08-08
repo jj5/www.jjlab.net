@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+
+<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Equipment Category: Drum Sanding Mandrel — In The Lab With Jay Jay</title>
+		<meta charset="UTF-8">
+		<meta name="date" content="2024-08-07T20:32:44+00:00">
+		<meta name="author" content="John Elliot V">
+		<meta name="keywords" content="electronics videos, electronics lab, electronics kits, electronics experiments, video blog, In The Lab With Jay Jay, John Elliot V">
+		<meta name="description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+		<meta name="robots" content="index, follow">
+		<meta property="og:title" content="Equipment Category: Drum Sanding Mandrel — In The Lab With Jay Jay">
+		<meta property="og:description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta property="og:image" content="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<meta property="og:url" content="http://localhost/in-the-lab/category.php/Drum-Sanding-Mandrel">
+		<meta property="og:type" content="website">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:title" content="Equipment Category: Drum Sanding Mandrel — In The Lab With Jay Jay">
+		<meta name="twitter:description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta name="twitter:image" content="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<link rel="icon" href="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<link rel="canonical" href="http://localhost/in-the-lab/category.php/Drum-Sanding-Mandrel">
+		<link rel="alternate" type="application/rss+xml" title="In The Lab With Jay Jay » Feed" href="/in-the-lab/feed.php">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		<link rel="stylesheet" href="/in-the-lab/res/style.php/jjlab-0.2.1115/style.css">
+		<script>
+			var MUD_SERVER_VERSION = "0.5.1623-211631354";
+		
+			var APP_SERVER_VERSION = "0.2.1115-211631354";
+		
+			var URL_BASE = "\/in-the-lab";
+		
+			var DEBUG = true;
+		
+			var DEV = true;
+		
+			var BETA = false;
+		
+			var IS_JOHN = true;
+		
+		</script>
+		<script src="/in-the-lab/res/script.php/jjlab-0.2.1115/script.js"></script>
+		<link rel="preload" href="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/banner-0640.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" as="image"></head>
+	<body>
+		<main class="wrapper">
+			<nav class="navigation">
+				<div class="container">
+					<a href="/in-the-lab/" class="navigation-title" title="In The Lab With Jay Jay is the video blog of John Elliot V">
+						<img src="/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" loading="eager" alt="">
+						<header class="title">In The Lab With Jay Jay</header></a>
+					<ul class="navigation-list">
+						<li class="navigation-item">
+							<button class="hamburger" onclick="handle_hamburger_click( event, this )" title="Click here to access the website navigation.">
+								<span class="bar"></span>
+								<span class="bar"></span>
+								<span class="bar"></span></button>
+							<div id="popover-grid" class="popover">
+								<ul class="popover-list">
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/" title="Click here to visit the homepage for this website. [Hotkey: H]">Home</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here to access the main channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/sponsor.php" title="Click here to find out more about our very generous sponsors! [Hotkey: S]">Sponsors</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">Equipment</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/about.php" title="Click here to find out more about the show and this website. [Hotkey: A]">About</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/support.php" title="Click here to see how you can support the show. Thanks for thinking of me! [Hotkey: U]">Support the Show!</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/debug.php" title="John&apos;s debug thing">Debug</a></li>
+									<li class="popover-item">
+										<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]">
+											<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a></li></ul></div></li></ul>
+					<div class="menu-list">
+						<a class="internal" rel="follow" href="/in-the-lab/" title="Click here to visit the homepage for this website. [Hotkey: H]">Home</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here to access the main channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/sponsor.php" title="Click here to find out more about our very generous sponsors! [Hotkey: S]">Sponsors</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">Equipment</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/about.php" title="Click here to find out more about the show and this website. [Hotkey: A]">About</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to see how you can support the show. Thanks for thinking of me! [Hotkey: U]">Support the Show!</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/debug.php" title="John&apos;s debug thing">Debug</a>
+						<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]">
+							<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a></div></div></nav>
+			<header id="banner">
+				<img loading="eager" class="rc-base" src="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-0320" src="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-0640" src="/in-the-lab/res/img.php/banner-0640.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-1280" src="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-1920" src="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" alt=""></header>
+			<header id="home" class="header">
+				<section>
+					<img src="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" alt="" loading="lazy">
+					<h1 id="heading">Equipment Category: Drum Sanding Mandrel</h1>
+					<p>I have two types of equipment in this category.</p>
+					<p>Click through on the green affiliate links to buy! (If I don&apos;t have an affiliate link for a product I will give you a normal link in dark blue. You can click through on that to buy too.)</p>
+					<p>This page does have a 
+						<a class="internal" rel="follow" href="#contents" title="Click here to navigate to the table of contents (if it&apos;s available). [Hotkey: .]">Table of Contents</a> but it&apos;s at the bottom of the page.</p></section></header>
+			<div class="equipment equipment-table">
+				<div id="options">
+					<p>Prices in: 
+						<a class="internal" rel="nofollow" href="?currency=USD#options" title="Click here to get prices in United States Dollars.">USD</a> | 
+						<a class="internal" rel="nofollow" href="?currency=AUD#options" title="Click here to get prices in Australian Dollars.">AUD</a> | 
+						<a class="internal" rel="nofollow" href="?#options" title="Click here to get prices in the currency used on the affiliated page.">default</a> &mdash; Sort: 
+						<a class="internal" rel="nofollow" href="?sort=cheap-first#options" title="Click here to sort from cheapest to most expensive.">cheap first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=expensive-first#options" title="Click here to sort from most expensive to cheapest.">expensive first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=new-first#options" title="Click here to sort with most recently purchased first.">newest first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=old-first#options" title="Click here to sort with the least recently purchased first.">oldest first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=random#options" title="Click here to sort randomly.">random</a> | 
+						<a class="internal" rel="nofollow" href="?#options" title="Click here to use the default sort (expensive first).">default</a></p></div>
+				<table id="equipment" class="main">
+					<tbody>
+						<tr class="spacer row-1">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="10">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Dremel-EZ725-Rotary-Tool-Accessory-Set" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Dremel EZ725 Rotary Tool Accessory Set</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/d53545a21b0d5d1e4cf5a450c8cdaeb7.jpg?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Friday, February 10, 2023.">First purchase: Friday, February 10, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/68306" title="You can use this short link to link to this equipment.">https://jj5.net/68306</a></div>
+								<div>JJCODE: 68306</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Dremel+EZ725+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Dremel+EZ725+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Dremel+EZ725+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Dremel+EZ725+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Dremel-EZ725-Rotary-Tool-Accessory-Set.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Dremel+EZ725+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Dremel+EZ725+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Dremel+EZ725+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Dremel+EZ725+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Dremel+EZ725+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Dremel-EZ725-Rotary-Tool-Accessory-Set">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Dremel EZ725 Rotary Tool Accessory Set</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Dremel" title="Click here to see other equipment from this manufacturer.">Dremel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Abrasive" title="Click here to see other equipment in this category.">Abrasive</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Accessory" title="Click here to see other equipment in this category.">Accessory</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Attachment" title="Click here to see other equipment in this category.">Attachment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Carbide-Cutting-Wheel" title="Click here to see other equipment in this category.">Carbide Cutting Wheel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Cleaning-Equipment" title="Click here to see other equipment in this category.">Cleaning Equipment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Diamond-Cutting-Wheel" title="Click here to see other equipment in this category.">Diamond Cutting Wheel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Dremel-408-60-Grit-Sanding-Band" title="Click here to see other equipment in this category.">Dremel 408 60 Grit Sanding Band</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Dremel-432-120-Grit-Sanding-Band" title="Click here to see other equipment in this category.">Dremel 432 120 Grit Sanding Band</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Dremel-432E-Cloth-Polishing-Wheel" title="Click here to see other equipment in this category.">Dremel 432E Cloth Polishing Wheel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Dremel-511E-Finishing-Abrasive-Buff" title="Click here to see other equipment in this category.">Dremel 511E Finishing Abrasive Buff</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Dremel-512E-Finishing-Abrasive-Buff" title="Click here to see other equipment in this category.">Dremel 512E Finishing Abrasive Buff</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Dremel-EZ402-EZ-Lock-Mandrel" title="Click here to see other equipment in this category.">Dremel EZ402 EZ Lock Mandrel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Dremel-EZ407-EZ-Drum-Mandrel" title="Click here to see other equipment in this category.">Dremel EZ407 EZ Drum Mandrel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Dremel-EZ409-Thin-Cut-Off-Wheel" title="Click here to see other equipment in this category.">Dremel EZ409 Thin Cut Off Wheel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Dremel-EZ411SA-Sanding-Disc" title="Click here to see other equipment in this category.">Dremel EZ411SA Sanding Disc</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Dremel-EZ413SA-Sanding-Disc" title="Click here to see other equipment in this category.">Dremel EZ413SA Sanding Disc</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Dremel-EZ456-Metal-Cut-Off-Wheel" title="Click here to see other equipment in this category.">Dremel EZ456 Metal Cut Off Wheel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Dremel-EZ476-Plastic-Cut-Off-Wheel" title="Click here to see other equipment in this category.">Dremel EZ476 Plastic Cut Off Wheel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Dremel-EZ544-Carbide-Cutting-Wheel" title="Click here to see other equipment in this category.">Dremel EZ544 Carbide Cutting Wheel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Dremel-EZ545-Diamond-Cutting-Wheel" title="Click here to see other equipment in this category.">Dremel EZ545 Diamond Cutting Wheel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Drum-Sanding-Mandrel" title="Click here to see other equipment in this category.">Drum Sanding Mandrel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Finishing-Abrasive-Buff" title="Click here to see other equipment in this category.">Finishing Abrasive Buff</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Cutting-Accessory" title="Click here to see other equipment in this category.">Rotary Cutting Accessory</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Cutting-Disc" title="Click here to see other equipment in this category.">Rotary Cutting Disc</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Polishing-Accessory" title="Click here to see other equipment in this category.">Rotary Polishing Accessory</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Polishing-Cloth-Wheel" title="Click here to see other equipment in this category.">Rotary Polishing Cloth Wheel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Sanding-Accessory" title="Click here to see other equipment in this category.">Rotary Sanding Accessory</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Sanding-Band" title="Click here to see other equipment in this category.">Rotary Sanding Band</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Sanding-Disc" title="Click here to see other equipment in this category.">Rotary Sanding Disc</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Tool-Accessory" title="Click here to see other equipment in this category.">Rotary Tool Accessory</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Tool-Accessory-Set" title="Click here to see other equipment in this category.">Rotary Tool Accessory Set</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Tool-Bit" title="Click here to see other equipment in this category.">Rotary Tool Bit</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Tool-Mandrel" title="Click here to see other equipment in this category.">Rotary Tool Mandrel</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">A$86.55</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/47zd70I" title="Click here for the latest price from this affiliate and to buy!">Dremel EZ725 EZ All-Purpose Accessory 70 Piece Kit</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td>
+							<td colspan="1" rowspan="3" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Dremel_4300" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">$59.99</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/3vzLdVk" title="Click here for the latest price from this affiliate and to buy!">Dremel EZ725 All-Purpose Rotary Tool Accessory Set With Storage Kit, EZ-Lock And EZ Drum For Faster Accessory Changes, Accessories To Cut, Polish, Clean, And Sand, 70 Pieces</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Size: 70-Pieces</td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">$82.72</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/PQiNhc" title="Click here for the latest price from this affiliate and to buy!">Dremel EZ725 All-Purpose Rotary Tool Accessory Set With Storage Kit EZ-Lock EZ</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>See also:</p>
+								<ul>
+									<li>
+										<a href="/in-the-lab/equipment.php#Dremel-4300-Rotary-Tool" class="internal" title="Click here to see other equipment that might be of interest.">Dremel 4300 Rotary Tool</a></li>
+									<li>
+										<a href="/in-the-lab/equipment.php#Dremel-335-Plunge-Router" class="internal" title="Click here to see other equipment that might be of interest.">Dremel 335 Plunge Router</a></li>
+									<li>
+										<a href="/in-the-lab/equipment.php#Dremel-2500-Multi-Vise" class="internal" title="Click here to see other equipment that might be of interest.">Dremel 2500 Multi-Vise</a></li>
+									<li>
+										<a href="/in-the-lab/equipment.php#Dremel-220-Drill-Press" class="internal" title="Click here to see other equipment that might be of interest.">Dremel 220 Drill Press</a></li>
+									<li>
+										<a href="/in-the-lab/equipment.php#Dremel-490-Rotary-Tool-Dust-Blower" class="internal" title="Click here to see other equipment that might be of interest.">Dremel 490 Rotary Tool Dust Blower</a></li></ul>
+								<p>Manufacturer links:</p>
+								<ul>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+									<li><!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/WebLink.php:28 WebLink::render() -->
+<a class="external" target="_blank" rel="noopener follow" href="https://www.dremel.com/us/en/p/ez725-2615e725aa" title="Click here to open a new tab for this external link.">Dremel EZ725 Rotary Tool Accessory Set</a></li></ul>
+								<p>Directory name:</p>
+								<p class="indent">rotary-tool-Dremel-EZ725-Rotary-Tool-Accessory-Set</p>
+								<p>Wiki name:</p>
+								<p class="indent">Dremel EZ725 Rotary Tool Accessory Set</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">Amazon Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$97.86</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://amzn.to/47zd70I" title="Dremel EZ725 EZ All-Purpose Accessory 70 Piece Kit">one of these</a> on Thursday, February 23, 2023 for A$97.86 each with free shipping for a total of A$97.86.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&amp;orderID=250-9754174-2638253" title="Click here to view the order of this equipment.">250-9754174-2638253</a></td>
+							<td class="center"></td>
+							<td class="total right">$97.86</td></tr>
+						<tr style="height:20px">
+							<td class="vendor">Amazon Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$84.30</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://amzn.to/47zd70I" title="Dremel EZ725 EZ All-Purpose Accessory 70 Piece Kit">one of these</a> on Friday, February 10, 2023 for A$84.30 each with free shipping for a total of A$84.30.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&amp;orderID=250-6408854-0744627" title="Click here to view the order of this equipment.">250-6408854-0744627</a></td>
+							<td class="center"></td>
+							<td class="total right">$84.30</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 2 of these for total (AUD):</td>
+							<td class="right">$182.16</td></tr>
+						<tr class="spacer row-2">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Tungfull-TH-161-Rotary-Tool-Accessory-Set" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Tungfull TH-161 Rotary Tool Accessory Set</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/515d14e7d2acdb1d67b2fc7bd6af551f.webp?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Thursday, July 11, 2024.">First purchase: Thursday, July 11, 2024</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/64034" title="You can use this short link to link to this equipment.">https://jj5.net/64034</a></div>
+								<div>JJCODE: 64034</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Tungfull+TH-161+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Tungfull+TH-161+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Tungfull+TH-161+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Tungfull+TH-161+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Tungfull-TH-161-Rotary-Tool-Accessory-Set.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Tungfull+TH-161+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Tungfull+TH-161+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Tungfull+TH-161+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Tungfull+TH-161+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Tungfull+TH-161+Rotary+Tool+Accessory+Set" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Tungfull-TH-161-Rotary-Tool-Accessory-Set">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Tungfull TH-161 Rotary Tool Accessory Set</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Tungfull" title="Click here to see other equipment from this manufacturer.">Tungfull</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Abrasive" title="Click here to see other equipment in this category.">Abrasive</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Accessory" title="Click here to see other equipment in this category.">Accessory</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Attachment" title="Click here to see other equipment in this category.">Attachment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Cleaning-Equipment" title="Click here to see other equipment in this category.">Cleaning Equipment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Cutting-Wheel-Mandrel" title="Click here to see other equipment in this category.">Cutting Wheel Mandrel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Drill-Bit" title="Click here to see other equipment in this category.">Drill Bit</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Drum-Sanding-Mandrel" title="Click here to see other equipment in this category.">Drum Sanding Mandrel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/HSS-Drill-Bit" title="Click here to see other equipment in this category.">HSS Drill Bit</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Brush-Accessory" title="Click here to see other equipment in this category.">Rotary Brush Accessory</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Cutting-Accessory" title="Click here to see other equipment in this category.">Rotary Cutting Accessory</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Cutting-Disc" title="Click here to see other equipment in this category.">Rotary Cutting Disc</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Drill-Chuck" title="Click here to see other equipment in this category.">Rotary Drill Chuck</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Grinding-Accessory" title="Click here to see other equipment in this category.">Rotary Grinding Accessory</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Grinding-Burr" title="Click here to see other equipment in this category.">Rotary Grinding Burr</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Grinding-Rubber" title="Click here to see other equipment in this category.">Rotary Grinding Rubber</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Grinding-Stone" title="Click here to see other equipment in this category.">Rotary Grinding Stone</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Milling-Cutter" title="Click here to see other equipment in this category.">Rotary Milling Cutter</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Nylon-Brush" title="Click here to see other equipment in this category.">Rotary Nylon Brush</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Polishing-Accessory" title="Click here to see other equipment in this category.">Rotary Polishing Accessory</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Polishing-Wool-Wheel" title="Click here to see other equipment in this category.">Rotary Polishing Wool Wheel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Sanding-Accessory" title="Click here to see other equipment in this category.">Rotary Sanding Accessory</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Sanding-Band" title="Click here to see other equipment in this category.">Rotary Sanding Band</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Sandpaper-Wheel" title="Click here to see other equipment in this category.">Rotary Sandpaper Wheel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Sharpening-Stone" title="Click here to see other equipment in this category.">Rotary Sharpening Stone</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Tool-Accessory" title="Click here to see other equipment in this category.">Rotary Tool Accessory</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Tool-Accessory-Set" title="Click here to see other equipment in this category.">Rotary Tool Accessory Set</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Tool-Bit" title="Click here to see other equipment in this category.">Rotary Tool Bit</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Tool-Mandrel" title="Click here to see other equipment in this category.">Rotary Tool Mandrel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Rotary-Wire-Brush" title="Click here to see other equipment in this category.">Rotary Wire Brush</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Wrench" title="Click here to see other equipment in this category.">Wrench</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Thursday, July 11, 2024">A$12.42</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DDW7iLt" title="Click here for the latest price from this affiliate and to buy!">Wood Metal Engraving Power Sanding Engraving Accessories Dremel Sanding Tools Power Rotary Tool Accessories for Dremel Bits</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: 161PCs</td>
+							<td colspan="1" rowspan="1" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Tungfull_TH-161_Rotary_Tool_Bits" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Directory name:</p>
+								<p class="indent">rotary-tool-Tungfull-TH-161-Rotary-Tool-Accessory-Set</p>
+								<p>Wiki name:</p>
+								<p class="indent">Tungfull TH-161 Rotary Tool Accessory Set</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">AliExpress:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$10.50</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price">A$1.21</td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DDW7iLt" title="Wood Metal Engraving Power Sanding Engraving Accessories Dremel Sanding Tools Power Rotary Tool Accessories for Dremel Bits">one of these</a> on Thursday, July 11, 2024 for A$10.50 each with free shipping plus tax of A$1.21 for a total of A$11.71.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.146.5edd1802oqOygp&amp;orderId=8190852628603938" title="Click here to view the order of this equipment.">8190852628603938</a></td>
+							<td class="center">Color: 161PCs</td>
+							<td class="total right">$11.71</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$11.71</td></tr></tbody></table></div>
+			<hr style="border: 1px solid gray;">
+			<div class="container" style="text-align:center;">
+				<div>
+					<p>Prices in: 
+						<a class="internal" rel="nofollow" href="?currency=USD#options" title="Click here to get prices in United States Dollars.">USD</a> | 
+						<a class="internal" rel="nofollow" href="?currency=AUD#options" title="Click here to get prices in Australian Dollars.">AUD</a> | 
+						<a class="internal" rel="nofollow" href="?#options" title="Click here to get prices in the currency used on the affiliated page.">default</a> &mdash; Sort: 
+						<a class="internal" rel="nofollow" href="?sort=cheap-first#options" title="Click here to sort from cheapest to most expensive.">cheap first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=expensive-first#options" title="Click here to sort from most expensive to cheapest.">expensive first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=new-first#options" title="Click here to sort with most recently purchased first.">newest first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=old-first#options" title="Click here to sort with the least recently purchased first.">oldest first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=random#options" title="Click here to sort randomly.">random</a> | 
+						<a class="internal" rel="nofollow" href="?#options" title="Click here to use the default sort (expensive first).">default</a></p></div></div>
+			<section>
+				<h2 id="total-paid">Total Paid and Other Statistics</h2>
+				<p>Total paid for the 3 items on this page: A$193.87.</p>
+				<p>Note: the values shown here are not exact, for 
+					<a class="internal" rel="follow" href="/in-the-lab/about.php#records" title="Click here to read about price inaccuracies.">a bunch of reasons</a>.</p>
+				<table>
+					<thead>
+						<tr>
+							<th></th>
+							<th>USD</th>
+							<th>AUD</th></tr></thead>
+					<tbody>
+						<tr>
+							<th class="right">Total Paid:</th>
+							<td class="right">$126.79</td>
+							<td class="right">A$193.87</td></tr>
+						<tr>
+							<th class="right">Minimum Paid:</th>
+							<td class="right">$7.66</td>
+							<td class="right">A$11.71</td></tr>
+						<tr>
+							<th class="right">Maximum Paid:</th>
+							<td class="right">$64.00</td>
+							<td class="right">A$97.86</td></tr>
+						<tr>
+							<th class="right">Median Paid:</th>
+							<td class="right">$55.13</td>
+							<td class="right">A$84.30</td></tr>
+						<tr>
+							<th class="right">Average Paid:</th>
+							<td class="right">$42.26</td>
+							<td class="right">A$64.62</td></tr>
+						<tr>
+							<th class="right">Standard Deviation:</th>
+							<td class="right">$24.73</td>
+							<td class="right">A$37.82</td></tr></tbody></table></section>
+			<section>
+				<h2 id="more-info">More Information</h2>
+				<p>If you would like to see all of my equipment check out the 
+					<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see other equipment that might be of interest.">equipment</a> page. You can also get my equipment indexed by 
+					<a class="internal" rel="follow" href="/in-the-lab/category.php" title="Click here to see all the equipment in this category.">category</a> or by 
+					<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php" title="Click here to see all the equipment from this manufacturer.">manufacturer</a>.</p></section>
+			<section>
+				<h2 id="contents">Table of Contents</h2>
+				<p>The contents of this page are organised into the following sections:</p>
+				<div id="contents_div">Contents will go here (if you have Javascript enabled).</div></section>
+			<section>
+				<h2 id="thanks">Thank You!</h2>
+				<p>Thanks very much for your interest and 
+					<b>I hope you enjoy the show!</b></p></section>
+			<section>
+				<h2 id="next">Where to from Here?</h2>
+				<p>You made it to the bottom of the page, huh? Well done! I&apos;m a bit of a scroller myself. :)</p>
+				<p>Where you go next depends on what you&apos;re interested in. Here are some suggestions:</p>
+				<ul>
+					<li>If you&apos;re enjoying my content you could consider 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to find out how you can support the show. [Hotkey: U]">supporting the show</a>.</li>
+					<li>My 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/new-book-teardown" title="Click here to watch the videos where I review new technology related books.">new book teardown videos</a> are quite popular, you might enjoy watching those.</li>
+					<li>My personal favourites are the 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="Click here to watch the videos where I review old technology related books.">old book teardown videos</a>.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a>, for all my high quality content including my 
+						<a class="internal" rel="follow" href="/in-the-lab/show-type.php/special-show" title="Click here to watch special shows which air on the main channel.">special shows</a>.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/show-type.php/main-show" title="Click here to watch videos recorded for the main show.">main show</a>, for my main show videos, which include the 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/electronics-project" title="Click here to watch the electronics project videos.">electronics project</a> and 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="Click here to watch the videos where I review old technology related books.">old book teardown</a> videos.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">equipment</a> page, if you&apos;re interested in any of the equipment I use. If you&apos;re putting together your own electronics lab then I would certainly recommend checking this out!</li>
+					<li>Did I mention that you can 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to find out how you can support the show. [Hotkey: U]">support the show</a>? :)</li></ul></section></main>
+		<footer>
+			<div>&copy; Copyright 2024 John Elliot V. All rights reserved.</div></footer>
+		<script>window.g_mud_html_options = [];</script></body></html>

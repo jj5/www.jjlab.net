@@ -2,7 +2,7 @@
 
 define( 'DB_LOG_PATH', '/var/state/www.jjlab.net/log.sqlite' );
 
-ob_start( 'ob_gzhandler' );
+//ob_start( 'ob_gzhandler' );
 
 if ( false ) {
 

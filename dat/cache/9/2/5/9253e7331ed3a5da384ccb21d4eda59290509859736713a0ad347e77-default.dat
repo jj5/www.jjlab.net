@@ -1,0 +1,27 @@
+UNHANDLED EXCEPTION:
+
+    Date...........: Fri, 09 Aug 2024 01:31:37 +1000
+    Host...........: charisma
+    Type...........: AssertionError
+    Name...........: N/A
+    File...........: /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/channel.php
+    Line...........: 426
+    Code...........: 1
+    Text...........: assert($video === $video_list[0])
+
+#0  assert() called at [/home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/channel.php:426]
+#1  render_show_info() called at [/home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/channel.php:141]
+#2  render_channel_one() called at [/home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/channel.php:61]
+#3  app_render() called at [/home/jj5/repo/git/github/jj5/www.jjlab.net/run/run-web.php:15]
+#4  main() called at [/home/jj5/repo/git/github/jj5/www.jjlab.net/run/run-web.php:29]
+#5  require_once() called at [/home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/channel.php:3]
+#6  require_once() called at [/home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/show.php:3]
+
+
+
+HANDLED BY:
+
+#0  MudModulePclog::report_exception() called at [/home/jj5/repo/git/github/jj5/www.jjlab.net/ext/mudball/src/code/5-module/1-critical/190-pclog/class/MudModulePclog.php:418]
+#1  MudModulePclog::log_exception() called at [/home/jj5/repo/git/github/jj5/www.jjlab.net/ext/mudball/src/code/5-module/1-critical/190-pclog/class/MudModulePclog.php:103]
+#2  MudModulePclog::handle_exception() called at [/home/jj5/repo/git/github/jj5/www.jjlab.net/ext/mudball/src/code/5-module/1-critical/190-pclog/class/MudModulePclogDispatcher.php:74]
+#3  MudModulePclogDispatcher::handle_exception()

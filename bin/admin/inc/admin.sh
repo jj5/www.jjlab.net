@@ -53,4 +53,4 @@ jjlab_validate_admin_environment() {
 
 }
 
-source "$( dirname "${BASH_SOURCE[0]}" )/../../../inc/run.sh";
+source "$( dirname "${BASH_SOURCE[0]}" )/../../../run/run-cli.sh";

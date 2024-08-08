@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+
+<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Equipment Category: LCD — In The Lab With Jay Jay</title>
+		<meta charset="UTF-8">
+		<meta name="date" content="2024-08-07T20:32:44+00:00">
+		<meta name="author" content="John Elliot V">
+		<meta name="keywords" content="electronics videos, electronics lab, electronics kits, electronics experiments, video blog, In The Lab With Jay Jay, John Elliot V">
+		<meta name="description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+		<meta name="robots" content="index, follow">
+		<meta property="og:title" content="Equipment Category: LCD — In The Lab With Jay Jay">
+		<meta property="og:description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta property="og:image" content="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<meta property="og:url" content="http://localhost/in-the-lab/category.php/LCD">
+		<meta property="og:type" content="website">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:title" content="Equipment Category: LCD — In The Lab With Jay Jay">
+		<meta name="twitter:description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta name="twitter:image" content="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<link rel="icon" href="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<link rel="canonical" href="http://localhost/in-the-lab/category.php/LCD">
+		<link rel="alternate" type="application/rss+xml" title="In The Lab With Jay Jay » Feed" href="/in-the-lab/feed.php">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		<link rel="stylesheet" href="/in-the-lab/res/style.php/jjlab-0.2.1115/style.css">
+		<script>
+			var MUD_SERVER_VERSION = "0.5.1623-211631354";
+		
+			var APP_SERVER_VERSION = "0.2.1115-211631354";
+		
+			var URL_BASE = "\/in-the-lab";
+		
+			var DEBUG = true;
+		
+			var DEV = true;
+		
+			var BETA = true;
+		
+			var IS_JOHN = true;
+		
+		</script>
+		<script src="/in-the-lab/res/script.php/jjlab-0.2.1115/script.js"></script>
+		<link rel="preload" href="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/banner-0640.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" as="image"></head>
+	<body>
+		<main class="wrapper">
+			<nav class="navigation">
+				<div class="container">
+					<a href="/in-the-lab/" class="navigation-title" title="In The Lab With Jay Jay is the video blog of John Elliot V">
+						<img src="/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" loading="eager" alt="">
+						<header class="title">In The Lab With Jay Jay</header></a>
+					<ul class="navigation-list">
+						<li class="navigation-item">
+							<button class="hamburger" onclick="handle_hamburger_click( event, this )" title="Click here to access the website navigation.">
+								<span class="bar"></span>
+								<span class="bar"></span>
+								<span class="bar"></span></button>
+							<div id="popover-grid" class="popover">
+								<ul class="popover-list">
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/" title="Click here to visit the homepage for this website. [Hotkey: H]">Home</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here to access the main channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/sponsor.php" title="Click here to find out more about our very generous sponsors! [Hotkey: S]">Sponsors</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">Equipment</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/about.php" title="Click here to find out more about the show and this website. [Hotkey: A]">About</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/support.php" title="Click here to see how you can support the show. Thanks for thinking of me! [Hotkey: U]">Support the Show!</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/debug.php" title="John&apos;s debug thing">Debug</a></li>
+									<li class="popover-item">
+										<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]">
+											<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a></li></ul></div></li></ul>
+					<div class="menu-list">
+						<a class="internal" rel="follow" href="/in-the-lab/" title="Click here to visit the homepage for this website. [Hotkey: H]">Home</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here to access the main channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/sponsor.php" title="Click here to find out more about our very generous sponsors! [Hotkey: S]">Sponsors</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">Equipment</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/about.php" title="Click here to find out more about the show and this website. [Hotkey: A]">About</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to see how you can support the show. Thanks for thinking of me! [Hotkey: U]">Support the Show!</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/debug.php" title="John&apos;s debug thing">Debug</a>
+						<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]">
+							<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a></div></div></nav>
+			<header id="banner">
+				<img loading="eager" class="rc-base" src="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-0320" src="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-0640" src="/in-the-lab/res/img.php/banner-0640.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-1280" src="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-1920" src="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" alt=""></header>
+			<header id="home" class="header">
+				<section>
+					<img src="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" alt="" loading="lazy">
+					<h1 id="heading">Equipment Category: LCD</h1>
+					<p>I have four types of equipment in this category.</p>
+					<p>Click through on the green affiliate links to buy! (If I don&apos;t have an affiliate link for a product I will give you a normal link in dark blue. You can click through on that to buy too.)</p>
+					<p>This page does have a 
+						<a class="internal" rel="follow" href="#contents" title="Click here to navigate to the table of contents (if it&apos;s available). [Hotkey: .]">Table of Contents</a> but it&apos;s at the bottom of the page.</p></section></header>
+			<div class="equipment equipment-table">
+				<div id="options">
+					<p>Prices in: 
+						<a class="internal" rel="nofollow" href="?currency=USD#options" title="Click here to get prices in United States Dollars.">USD</a> | 
+						<a class="internal" rel="nofollow" href="?currency=AUD#options" title="Click here to get prices in Australian Dollars.">AUD</a> | 
+						<a class="internal" rel="nofollow" href="?#options" title="Click here to get prices in the currency used on the affiliated page.">default</a> &mdash; Sort: 
+						<a class="internal" rel="nofollow" href="?sort=cheap-first#options" title="Click here to sort from cheapest to most expensive.">cheap first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=expensive-first#options" title="Click here to sort from most expensive to cheapest.">expensive first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=new-first#options" title="Click here to sort with most recently purchased first.">newest first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=old-first#options" title="Click here to sort with the least recently purchased first.">oldest first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=random#options" title="Click here to sort randomly.">random</a> | 
+						<a class="internal" rel="nofollow" href="?#options" title="Click here to use the default sort (expensive first).">default</a></p></div>
+				<table id="equipment" class="main">
+					<tbody>
+						<tr class="spacer row-1">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="15">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#TOMLOV-DM602-Pro-Digital-Microscope" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>TOMLOV DM602 Pro Digital Microscope</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/74d5d78760df14696e43cb2b2f1a5c6d.jpg?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Tuesday, August 22, 2023.">First purchase: Tuesday, August 22, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/59598" title="You can use this short link to link to this equipment.">https://jj5.net/59598</a></div>
+								<div>JJCODE: 59598</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=TOMLOV+DM602+Pro+Digital+Microscope" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=TOMLOV+DM602+Pro+Digital+Microscope" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=TOMLOV+DM602+Pro+Digital+Microscope" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=TOMLOV+DM602+Pro+Digital+Microscope" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-TOMLOV-DM602-Pro-Digital-Microscope.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=TOMLOV+DM602+Pro+Digital+Microscope" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=TOMLOV+DM602+Pro+Digital+Microscope" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=TOMLOV+DM602+Pro+Digital+Microscope" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=TOMLOV+DM602+Pro+Digital+Microscope" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=TOMLOV+DM602+Pro+Digital+Microscope" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="TOMLOV-DM602-Pro-Digital-Microscope">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>TOMLOV DM602 Pro Digital Microscope</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/TOMLOV" title="Click here to see other equipment from this manufacturer.">TOMLOV</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Bench-Equipment" title="Click here to see other equipment in this category.">Bench Equipment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Digital-Microscope" title="Click here to see other equipment in this category.">Digital Microscope</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/HDMI" title="Click here to see other equipment in this category.">HDMI</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/LCD" title="Click here to see other equipment in this category.">LCD</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Microscope" title="Click here to see other equipment in this category.">Microscope</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Remote-Control" title="Click here to see other equipment in this category.">Remote Control</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Test-Equipment" title="Click here to see other equipment in this category.">Test Equipment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/USB" title="Click here to see other equipment in this category.">USB</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">A$255.00</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DET0BDB" title="Click here for the latest price from this affiliate and to buy!">TOMLOV DM602 Pro HDMI Microscope 2000X 3 Lens 10.1 Inch IPS LCD For PCB Soldering Phone Repair Digital Microscopio Coin View</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td>
+							<td colspan="1" rowspan="9" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/TOMLOV_DM602_Pro" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">A$370.00</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/ZjkFc5" title="Click here for the latest price from this affiliate and to buy!">TOMLOV DM602 Pro Digital Microscope 2000x Adult Microscope for Electronic Repair</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">$250.63</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/nuEYoH" title="Click here for the latest price from this affiliate and to buy!">TOMLOV DM602 Pro Digital Microscope 2000x Microscope for Electronic Repairing</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">A$387.07</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_Dkvjmdx" title="Click here for the latest price from this affiliate and to buy!">TOMLOV DM602 Pro HDMI Microscope 2000X 3 Lens 10.1 Inch IPS LCD For PCB Soldering Phone Repair Digital Microscopio Coin View</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">$253.30</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/J9y99B" title="Click here for the latest price from this affiliate and to buy!">TOMLOV DM602 Pro Digital Microscope Pro Boom Arm Stand Soldering USB Microscope</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">A$399.99</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/1tWZAg" title="Click here for the latest price from this affiliate and to buy!">TOMLOV DM602 Pro Digital Microscope 2000x 10.1&quot; LCD IPS Screen for Adults / Kids</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">A$400.99</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/8KHtft" title="Click here for the latest price from this affiliate and to buy!">TOMLOV DM602 Pro Digital Microscope Pro Boom Arm Stand Soldering Microscope 64G</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">$263.12</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/eENI4b" title="Click here for the latest price from this affiliate and to buy!">TOMLOV 10.1&quot; 2000x Digital Microscope Flexy Stand Soldering work bench +44 LED</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">$319.99</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/48yGl1l" title="Click here for the latest price from this affiliate and to buy!">TOMLOV DM602 Pro 10.1&quot; HDMI Digital Microscope 2000x, Pro Boom Arm Stand, LCD Soldering Microscope with 3 Lens, Adults Microscope for Electronics Repair, Coin Microscope Ring Light,PC Compatible, 64G</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>See also:</p>
+								<ul>
+									<li>
+										<a href="/in-the-lab/equipment.php#Yizhan-Digital-Microscope" class="internal" title="Click here to see other equipment that might be of interest.">Yizhan Digital Microscope</a></li></ul>
+								<p>Manufacturer links:</p>
+								<ul>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+									<li><!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/WebLink.php:28 WebLink::render() -->
+<a class="external" target="_blank" rel="noopener follow" href="https://tomlov.com/products/tomlov-dm602-pro-10-1-inch-hdmi-digital-microscope" title="Click here to open a new tab for this external link.">TOMLOV DM602 Pro Digital Microscope</a></li></ul>
+								<p>Directory name:</p>
+								<p class="indent">microscope-TOMLOV-DM602-Pro-Digital-Microscope</p>
+								<p>Wiki name:</p>
+								<p class="indent">TOMLOV DM602 Pro Digital Microscope</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">eBay Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$302.99</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price">A$13.80</td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/itm/256121779704" title="">one of these</a> on Tuesday, August 22, 2023 for A$302.99 each with free shipping plus tax of A$28.80 and a discount of A$15.00 for a total of A$316.79.
+								<a class="external" target="_blank" rel="noopener follow" href="https://order.ebay.com.au/ord/show?orderId=06-10444-11050#/" title="Click here to view the order of this equipment.">06-10444-11050</a></td>
+							<td class="center"></td>
+							<td class="total right">$316.79</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$316.79</td></tr>
+						<tr class="spacer row-2">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="18">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#UPERFECT-15.6-HDMI-LCD" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>UPERFECT 15.6&quot; HDMI LCD</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/4fe9ced7e14c5c86bc0194b597b7235d.jpg?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Thursday, June 8, 2023.">First purchase: Thursday, June 8, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/18087" title="You can use this short link to link to this equipment.">https://jj5.net/18087</a></div>
+								<div>JJCODE: 18087</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=UPERFECT+15.6%22+HDMI+LCD" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=UPERFECT+15.6%22+HDMI+LCD" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=UPERFECT+15.6%22+HDMI+LCD" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=UPERFECT+15.6%22+HDMI+LCD" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-UPERFECT-15.6%22-HDMI-LCD.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=UPERFECT+15.6%22+HDMI+LCD" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=UPERFECT+15.6%22+HDMI+LCD" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=UPERFECT+15.6%22+HDMI+LCD" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=UPERFECT+15.6%22+HDMI+LCD" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=UPERFECT+15.6%22+HDMI+LCD" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="UPERFECT-15.6-HDMI-LCD">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>UPERFECT 15.6&quot; HDMI LCD</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/UPERFECT" title="Click here to see other equipment from this manufacturer.">UPERFECT</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Computer-Equipment" title="Click here to see other equipment in this category.">Computer Equipment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Display" title="Click here to see other equipment in this category.">Display</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/HDMI" title="Click here to see other equipment in this category.">HDMI</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/HDMI-LCD" title="Click here to see other equipment in this category.">HDMI LCD</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/LCD" title="Click here to see other equipment in this category.">LCD</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Monitor" title="Click here to see other equipment in this category.">Monitor</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Peripheral" title="Click here to see other equipment in this category.">Peripheral</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Studio" title="Click here to see other equipment in this category.">Studio</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">$69.99</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/aNvPAB" title="Click here for the latest price from this affiliate and to buy!">UPERFECT 15.6&quot; Portable Monitor Mini HDMI 1080P LCD Display For Gaming Laptop PC</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td>
+							<td colspan="1" rowspan="11" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/UPERFECT_156J08" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">$89.99</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/MCquUe" title="Click here for the latest price from this affiliate and to buy!">15.6&quot; 1080P Portable Monitor IPS LCD Monitor HDMI Type-C Gaming Screen Travel</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">A$149.99</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/CPvwRy" title="Click here for the latest price from this affiliate and to buy!">UPERFECT 15.6&quot; Portable Monitor IPS LCD 1080P HDMI USB-C Type-C Display Screen</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">A$149.99</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/OUslyU" title="Click here for the latest price from this affiliate and to buy!">UPERFECT 15.6&quot; IPS Portable Monitor LCD FHD 1080P HDMI USB Type-C Display Screen</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">A$149.99</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/dC8czd" title="Click here for the latest price from this affiliate and to buy!">UPERFECT 15.6&quot; 1080P Portable Monitor IPS LCD Monitor HDMI Type-C Gaming Screen</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">$99.90</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/RCsZ8i" title="Click here for the latest price from this affiliate and to buy!">UPERFECT 15.6&quot; IPS Portable Monitor LCD FHD 1080P HDMI USB Type-C Display Screen</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">$99.99</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/3Hjoxve" title="Click here for the latest price from this affiliate and to buy!">UPERFECT Portable Monitor, 2023 [New Version] 15.6&quot; IPS HDR 1920X1080 FHD Eye Care Screen USB C Gaming Monitor, Dual Speaker Computer Display HDMI Type-C VESA for Laptop PC MAC Phone w/Smart Case</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">A$172.91</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DFfheOD" title="Click here for the latest price from this affiliate and to buy!">UPERFECT 15.6&quot; FHD HDR 1080P Portable Laptop Monitor Dual Type-C HDMI IPS Screen For PC/MacBook/Phone Xbox Switch PS4/5 Display</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">$119.99</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/3RP2Bww" title="Click here for the latest price from this affiliate and to buy!">UPERFECT Portable Monitor 15.6 inch, 1080P FHD USB-C Portable Laptop Monitor HDMI Travel Monitor w/VESA &amp; Smart Case, Matte IPS Display Eye Care External Screen for Switch/PS5/PC/Phone</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">$169.98</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/3TVx12T" title="Click here for the latest price from this affiliate and to buy!">UPERFECT Y Portable Monitor Freestanding Touchscreen, 15.6&quot;FHD 1080P IPS Screen with Adjust Kickstand, 2000:1 Contrast Ratio, 100% sRGB w/Standard HDMI/USB 3.0/Type C, Built-in Speaker/Ambient Light</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">A$329.63</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DDUL3BX" title="Click here for the latest price from this affiliate and to buy!">UPERFECT 4K Portable Monitor for Laptop PC 15.6 IPS 3840x2160 UHD External Screen Mobile LCD Display USB C Xbox PS4 Switch HDMI</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>See also:</p>
+								<ul>
+									<li>
+										<a href="/in-the-lab/equipment.php#Leadstar-12&quot;-LCD-TV" class="internal" title="Click here to see other equipment that might be of interest.">Leadstar 12&quot; LCD TV</a></li></ul>
+								<p>Manufacturer links:</p>
+								<ul>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+									<li><!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/WebLink.php:28 WebLink::render() -->
+<a class="external" target="_blank" rel="noopener follow" href="https://www.uperfectmonitor.com/products/15-6-inch-uhd-4k-portable-monitor-uperfect" title="Click here to open a new tab for this external link.">UPERFECT 15.6&quot; HDMI LCD</a></li></ul>
+								<p>Directory name:</p>
+								<p class="indent">display-UPERFECT-15.6-HDMI-LCD</p>
+								<p>Wiki name:</p>
+								<p class="indent">UPERFECT 15.6&quot; HDMI LCD</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">eBay Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$305.10</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/itm/403983086821" title="">one of these</a> on Thursday, June 8, 2023 for A$305.10 each with free shipping for a total of A$305.10.
+								<a class="external" target="_blank" rel="noopener follow" href="https://order.ebay.com.au/ord/show?orderId=20-10143-00740#/" title="Click here to view the order of this equipment.">20-10143-00740</a></td>
+							<td class="center"></td>
+							<td class="total right">$305.10</td></tr>
+						<tr style="height:20px">
+							<td class="vendor">eBay Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$245.15</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price">-A$15.00</td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/itm/403983086821" title="UPERFECT 4K Monitor 15.6&quot; Portable Gaming Monitor UHD PC Screen USB C Monitor">one of these</a> on Thursday, March 28, 2024 for A$245.15 each with free shipping and a discount of A$15.00 for a total of A$230.15.
+								<a class="external" target="_blank" rel="noopener follow" href="https://order.ebay.com.au/ord/show?orderId=24-11372-00005#/" title="Click here to view the order of this equipment.">24-11372-00005</a></td>
+							<td class="center"></td>
+							<td class="total right">$230.15</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 2 of these for total (AUD):</td>
+							<td class="right">$535.25</td></tr>
+						<tr class="spacer row-3">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="21">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#OWON-XDM1041-Bench-Multimeter" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>OWON XDM1041 Bench Multimeter</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/83a2bd15ac6f6bcebbfeeb9bc35f5da6.webp?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Saturday, February 12, 2022.">First purchase: Saturday, February 12, 2022</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/15985" title="You can use this short link to link to this equipment.">https://jj5.net/15985</a></div>
+								<div>JJCODE: 15985</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=OWON+XDM1041+Bench+Multimeter" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=OWON+XDM1041+Bench+Multimeter" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=OWON+XDM1041+Bench+Multimeter" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=OWON+XDM1041+Bench+Multimeter" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-OWON-XDM1041-Bench-Multimeter.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=OWON+XDM1041+Bench+Multimeter" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=OWON+XDM1041+Bench+Multimeter" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=OWON+XDM1041+Bench+Multimeter" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=OWON+XDM1041+Bench+Multimeter" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=OWON+XDM1041+Bench+Multimeter" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="OWON-XDM1041-Bench-Multimeter">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>OWON XDM1041 Bench Multimeter</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/OWON" title="Click here to see other equipment from this manufacturer.">OWON</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Ammeter" title="Click here to see other equipment in this category.">Ammeter</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Ammeter-AC-" title="Click here to see other equipment in this category.">Ammeter (AC)</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Ammeter-DC-" title="Click here to see other equipment in this category.">Ammeter (DC)</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Banana-Plug" title="Click here to see other equipment in this category.">Banana Plug</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Bench-Equipment" title="Click here to see other equipment in this category.">Bench Equipment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Bench-Multimeter" title="Click here to see other equipment in this category.">Bench Multimeter</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Capacitance-Meter" title="Click here to see other equipment in this category.">Capacitance Meter</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Cat-I" title="Click here to see other equipment in this category.">Cat I</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Cat-II" title="Click here to see other equipment in this category.">Cat II</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Continuity-Tester" title="Click here to see other equipment in this category.">Continuity Tester</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Diode-Tester" title="Click here to see other equipment in this category.">Diode Tester</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Frequency-Counter" title="Click here to see other equipment in this category.">Frequency Counter</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/LCD" title="Click here to see other equipment in this category.">LCD</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Measuring-Equipment" title="Click here to see other equipment in this category.">Measuring Equipment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Meter" title="Click here to see other equipment in this category.">Meter</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Multimeter" title="Click here to see other equipment in this category.">Multimeter</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Ohmmeter" title="Click here to see other equipment in this category.">Ohmmeter</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Test-Equipment" title="Click here to see other equipment in this category.">Test Equipment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Thermometer" title="Click here to see other equipment in this category.">Thermometer</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/USB" title="Click here to see other equipment in this category.">USB</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Voltmeter" title="Click here to see other equipment in this category.">Voltmeter</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Voltmeter-AC-" title="Click here to see other equipment in this category.">Voltmeter (AC)</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Voltmeter-DC-" title="Click here to see other equipment in this category.">Voltmeter (DC)</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$139.48</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_Dnn0Ga5" title="Click here for the latest price from this affiliate and to buy!">Owon XDM1041/XDM1241 Digital Multimeter 55000 Counts High Accuracy Desktop Multimeters AC/DC Tester True RMS USB Multimeter</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: XDM1041</td>
+							<td colspan="1" rowspan="15" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/OWON_XDM1041" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$159.00</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/3HkHBsS" title="Click here for the latest price from this affiliate and to buy!">OWON XDM1041 USB/RS232 Digital Multimeter 55000 Counts High Accuracy Universal Desktop Multimeters Meter with 3.7Inch LCD Screen</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$105.00</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/CfGTie" title="Click here for the latest price from this affiliate and to buy!">OWON 4 1/2 digits XDM1041 Bench-type Digital Multimeter 55000 Counts True RMS</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$109.00</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/56T3By" title="Click here for the latest price from this affiliate and to buy!">OWON 4 1/2 digits XDM1041 Bench-type Digital Multimeter 55000 Counts True RMS</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$109.98</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/yMxP8Z" title="Click here for the latest price from this affiliate and to buy!">OWON 4 1/2 digits XDM1041 Bench-type Digital Multimeter 55000 Counts True RMS</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$174.98</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/En07Co" title="Click here for the latest price from this affiliate and to buy!">OWON 4 1/2 digits XDM1041 Bench-type Digital Multimeter 55000 Counts True RMS</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$174.99</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/RJicNO" title="Click here for the latest price from this affiliate and to buy!">OWON 4 1/2 digits XDM1041 Bench-type Digital Multimeter 55000 Counts True RMS</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$174.99</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/xSrGQq" title="Click here for the latest price from this affiliate and to buy!">OWON 4 1/2 digits XDM1041 Bench-type Digital Multimeter 55000 Counts True RMS</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$179.35</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DmVBJcd" title="Click here for the latest price from this affiliate and to buy!">Oscilloscope XDM1041 Digital Multimeter 4 1/2 55000 CountsTrue RMS DC/AC Current Voltage USB Multimetro Tester Meter</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: XDM1041</td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$181.77</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DmDGwqd" title="Click here for the latest price from this affiliate and to buy!">OWON XDM1041 XDM1241 Digital Multimeter 55000 Counts 3.5inch SCPI Supports Dual Row Display of True Valid Values of Data Records</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: XDM1041</td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$129.00</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/41V5DUR" title="Click here for the latest price from this affiliate and to buy!">OWON XDM1041 USB/RS232 Digital Multimeter 55000 Counts High Accuracy Universal Desktop Temperature Multimeters Meter with 3.7Inch LCD Screen</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$129.00</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/3HgNlE7" title="Click here for the latest price from this affiliate and to buy!">OWON XDM1041 Bench-Type Digital Multimeter True RMS High Accuracy Universal Desktop Multimeters</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$235.80</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/48xgfvD" title="Click here for the latest price from this affiliate and to buy!">OWON XDM1041 Portable Digital Oscilloscopes Multimeter,3.5in Desktop Digital Multimeters Oscilloscope, 55000 Counts LCD True RMS Temperature Tester Meter for Instruments and Laboratories, Factories</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Style Name: XDM1041</td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$250.08</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/3HkVs2u" title="Click here for the latest price from this affiliate and to buy!">GuliTech Mini Bench Multimeters XDM1041 Digital Multimeter 55000 Counts High Accuracy Desktop Multimeters AC/DC Tester True RMS USB Multimeter(XDM1041 AC Power Supply)</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Size Name: XDM1041</td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$166.37</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/420jRDH" title="Click here for the latest price from this affiliate and to buy!">OWON Bench Multimeters OWON XDM1041 Digital Multimeter 55000 Counts High Accuracy Desktop Multimeters AC/DC Tester True RMS USB Multimeter(XDM1041 AC Power Supply)</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Size: XDM1041</td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Warning:</p>
+								<ul>
+									<li class="warning">You might like to check out the XDM1241 or XDM2041</li></ul>
+								<p>See also:</p>
+								<ul>
+									<li>
+										<a href="/in-the-lab/equipment.php#ANENG-AN-999S-Bench-Multimeter" class="internal" title="Click here to see other equipment that might be of interest.">ANENG AN-999S Bench Multimeter</a></li></ul>
+								<p>Manufacturer links:</p>
+								<ul>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+									<li><!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/WebLink.php:28 WebLink::render() -->
+<a class="external" target="_blank" rel="noopener follow" href="https://www.owontechnology.eu/product/4703647/owon-xdm1041-55-000-counts-bench-type-digital-multimeter" title="Click here to open a new tab for this external link.">OWON XDM1041 Bench Multimeter</a></li></ul>
+								<p>Directory name:</p>
+								<p class="indent">multimeter-OWON-XDM1041-Bench-Multimeter</p>
+								<p>Wiki name:</p>
+								<p class="indent">OWON XDM1041 Bench Multimeter</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">AliExpress:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$171.37</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price">A$17.13</td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/item/1005002679178996.html?spm=a2g0o.order_detail.order_detail_item.3.5e1df19c5Zh747" title="">one of these</a> on Saturday, February 12, 2022 for A$171.37 each with free shipping plus tax of A$17.13 for a total of A$188.50.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.51.764218021V85h7&amp;orderId=8146545198123938" title="Click here to view the order of this equipment.">8146545198123938</a></td>
+							<td class="center"></td>
+							<td class="total right">$188.50</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$188.50</td></tr>
+						<tr class="spacer row-4">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="14">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Leadstar-12-LCD-TV" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Leadstar 12&quot; LCD TV</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/621b9d313784a55e4b75374bc59f90dc.jpg?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Wednesday, May 25, 2022.">First purchase: Wednesday, May 25, 2022</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/23642" title="You can use this short link to link to this equipment.">https://jj5.net/23642</a></div>
+								<div>JJCODE: 23642</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Leadstar+12%22+LCD+TV" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Leadstar+12%22+LCD+TV" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Leadstar+12%22+LCD+TV" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Leadstar+12%22+LCD+TV" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Leadstar-12%22-LCD-TV.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Leadstar+12%22+LCD+TV" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Leadstar+12%22+LCD+TV" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Leadstar+12%22+LCD+TV" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Leadstar+12%22+LCD+TV" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Leadstar+12%22+LCD+TV" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Leadstar-12-LCD-TV">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Leadstar 12&quot; LCD TV</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Leadstar" title="Click here to see other equipment from this manufacturer.">Leadstar</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Composite-Video-RCA" title="Click here to see other equipment in this category.">Composite Video RCA</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Display" title="Click here to see other equipment in this category.">Display</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/HDMI" title="Click here to see other equipment in this category.">HDMI</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/LCD" title="Click here to see other equipment in this category.">LCD</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/LCD-TV" title="Click here to see other equipment in this category.">LCD TV</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Remote-Control" title="Click here to see other equipment in this category.">Remote Control</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/RF" title="Click here to see other equipment in this category.">RF</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/SD-Card" title="Click here to see other equipment in this category.">SD Card</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Studio" title="Click here to see other equipment in this category.">Studio</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Television" title="Click here to see other equipment in this category.">Television</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/TV" title="Click here to see other equipment in this category.">TV</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">$107.12</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/49lQ5P" title="Click here for the latest price from this affiliate and to buy!">LEADSTAR 12 1080P TFT LED HD Digital Analog Color TV Television AU Pl GDB</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td>
+							<td colspan="1" rowspan="8" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Leadstar_TV" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">$110.45</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/lGXF5O" title="Click here for the latest price from this affiliate and to buy!">LEADSTAR Portable 12 1080P TFT LED HD Digital Analog Color TV Televisi GOF</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">$110.59</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/Ka80qp" title="Click here for the latest price from this affiliate and to buy!">LEADSTAR Portable 12 1080P TFT LED HD Digital Analog Color TV Televisi ZZ1</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">A$176.91</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/KmGys9" title="Click here for the latest price from this affiliate and to buy!">LEADSTAR 12 1080P TFT LED HD Digital Analog Color TV Television AU Pl GDB</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">A$177.24</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/LkKB07" title="Click here for the latest price from this affiliate and to buy!">LEADSTAR Portable 12 1080P TFT LED HD Digital Analog Color TV Televisi FD5 BGI</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">A$178.85</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/r1PLdb" title="Click here for the latest price from this affiliate and to buy!">LEADSTAR 12 1080P TFT LED HD Digital Analog Color TV Television AU Pl HB0</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">$139.89</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/41VhEJI" title="Click here for the latest price from this affiliate and to buy!">12 Inch Portable Digital ATSC TFT HD Screen Freeview LED TV for Car,Caravan,Camping,Outdoor or Kitchen.Built-in Battery Television/Monitor with Multimedia Player Support USB Card LEADSTAR</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, January 13, 2024">A$410.86</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/48Thg0E" title="Click here for the latest price from this affiliate and to buy!">12 Inch Portable Digital ATSC TFT HD Screen Freeview LED TV for Car,Caravan,Camping,Outdoor or Kitchen.Built-in Battery Television/Monitor with Multimedia Player Support USB Card LEADSTAR</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Colour: 12inch</td></tr>
+						<tr>
+							<td colspan="7">
+								<p>See also:</p>
+								<ul>
+									<li>
+										<a href="/in-the-lab/equipment.php#UPERFECT-15.6&quot;-HDMI-LCD" class="internal" title="Click here to see other equipment that might be of interest.">UPERFECT 15.6&quot; HDMI LCD</a></li></ul>
+								<p>Directory name:</p>
+								<p class="indent">tv-Leadstar-12-LCD-TV</p>
+								<p>Wiki name:</p>
+								<p class="indent">Leadstar 12&quot; LCD TV</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">eBay Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$120.00</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price">A$45.10</td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/itm/373845017327?var=642874174994" title="Portable 12&quot; /14&quot; 1080P TFT HD Digital TV Car USB HDMI Video Player Television">one of these</a> on Wednesday, May 25, 2022 for A$120.00 each plus shipping of A$45.10 for a total of A$165.10.
+								<a class="external" target="_blank" rel="noopener follow" href="https://order.ebay.com.au/ord/show?orderId=02-08673-26005#/" title="Click here to view the order of this equipment.">02-08673-26005</a></td>
+							<td class="center">12&quot;</td>
+							<td class="total right">$165.10</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$165.10</td></tr></tbody></table></div>
+			<hr style="border: 1px solid gray;">
+			<div class="container" style="text-align:center;">
+				<div>
+					<p>Prices in: 
+						<a class="internal" rel="nofollow" href="?currency=USD#options" title="Click here to get prices in United States Dollars.">USD</a> | 
+						<a class="internal" rel="nofollow" href="?currency=AUD#options" title="Click here to get prices in Australian Dollars.">AUD</a> | 
+						<a class="internal" rel="nofollow" href="?#options" title="Click here to get prices in the currency used on the affiliated page.">default</a> &mdash; Sort: 
+						<a class="internal" rel="nofollow" href="?sort=cheap-first#options" title="Click here to sort from cheapest to most expensive.">cheap first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=expensive-first#options" title="Click here to sort from most expensive to cheapest.">expensive first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=new-first#options" title="Click here to sort with most recently purchased first.">newest first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=old-first#options" title="Click here to sort with the least recently purchased first.">oldest first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=random#options" title="Click here to sort randomly.">random</a> | 
+						<a class="internal" rel="nofollow" href="?#options" title="Click here to use the default sort (expensive first).">default</a></p></div></div>
+			<section>
+				<h2 id="total-paid">Total Paid and Other Statistics</h2>
+				<p>Total paid for the 5 items on this page: A$1,205.64.</p>
+				<p>Note: the values shown here are not exact, for 
+					<a class="internal" rel="follow" href="/in-the-lab/about.php#records" title="Click here to read about price inaccuracies.">a bunch of reasons</a>.</p>
+				<table>
+					<thead>
+						<tr>
+							<th></th>
+							<th>USD</th>
+							<th>AUD</th></tr></thead>
+					<tbody>
+						<tr>
+							<th class="right">Total Paid:</th>
+							<td class="right">$788.49</td>
+							<td class="right">A$1,205.64</td></tr>
+						<tr>
+							<th class="right">Minimum Paid:</th>
+							<td class="right">$107.98</td>
+							<td class="right">A$165.10</td></tr>
+						<tr>
+							<th class="right">Maximum Paid:</th>
+							<td class="right">$207.18</td>
+							<td class="right">A$316.79</td></tr>
+						<tr>
+							<th class="right">Median Paid:</th>
+							<td class="right">$150.52</td>
+							<td class="right">A$230.15</td></tr>
+						<tr>
+							<th class="right">Average Paid:</th>
+							<td class="right">$157.70</td>
+							<td class="right">A$241.13</td></tr>
+						<tr>
+							<th class="right">Standard Deviation:</th>
+							<td class="right">$39.77</td>
+							<td class="right">A$60.81</td></tr></tbody></table></section>
+			<section>
+				<h2 id="more-info">More Information</h2>
+				<p>If you would like to see all of my equipment check out the 
+					<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see other equipment that might be of interest.">equipment</a> page. You can also get my equipment indexed by 
+					<a class="internal" rel="follow" href="/in-the-lab/category.php" title="Click here to see all the equipment in this category.">category</a> or by 
+					<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php" title="Click here to see all the equipment from this manufacturer.">manufacturer</a>.</p></section>
+			<section>
+				<h2 id="contents">Table of Contents</h2>
+				<p>The contents of this page are organised into the following sections:</p>
+				<div id="contents_div">Contents will go here (if you have Javascript enabled).</div></section>
+			<section>
+				<h2 id="thanks">Thank You!</h2>
+				<p>Thanks very much for your interest and 
+					<b>I hope you enjoy the show!</b></p></section>
+			<section>
+				<h2 id="next">Where to from Here?</h2>
+				<p>You made it to the bottom of the page, huh? Well done! I&apos;m a bit of a scroller myself. :)</p>
+				<p>Where you go next depends on what you&apos;re interested in. Here are some suggestions:</p>
+				<ul>
+					<li>If you&apos;re enjoying my content you could consider 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to find out how you can support the show. [Hotkey: U]">supporting the show</a>.</li>
+					<li>My 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/new-book-teardown" title="Click here to watch the videos where I review new technology related books.">new book teardown videos</a> are quite popular, you might enjoy watching those.</li>
+					<li>My personal favourites are the 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="Click here to watch the videos where I review old technology related books.">old book teardown videos</a>.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a>, for all my high quality content including my 
+						<a class="internal" rel="follow" href="/in-the-lab/show-type.php/special-show" title="Click here to watch special shows which air on the main channel.">special shows</a>.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/show-type.php/main-show" title="Click here to watch videos recorded for the main show.">main show</a>, for my main show videos, which include the 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/electronics-project" title="Click here to watch the electronics project videos.">electronics project</a> and 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="Click here to watch the videos where I review old technology related books.">old book teardown</a> videos.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">equipment</a> page, if you&apos;re interested in any of the equipment I use. If you&apos;re putting together your own electronics lab then I would certainly recommend checking this out!</li>
+					<li>Did I mention that you can 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to find out how you can support the show. [Hotkey: U]">support the show</a>? :)</li></ul></section></main>
+		<footer>
+			<div>&copy; Copyright 2024 John Elliot V. All rights reserved.</div></footer>
+		<script>window.g_mud_html_options = [];</script></body></html>

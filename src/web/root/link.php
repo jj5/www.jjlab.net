@@ -2,7 +2,7 @@
 
 define( 'RUNNING', true );
 
-require_once __DIR__ . '/../../../inc/framework.php';
+require_once __DIR__ . '/../../../run/run-web.php';
 
 function app_render() {
 

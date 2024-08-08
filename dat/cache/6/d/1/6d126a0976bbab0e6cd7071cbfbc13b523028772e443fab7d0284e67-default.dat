@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/in-the-lab/feed.xsl.php?v=2024-08-09-012944" type="text/xsl"?>
+<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/feed.php:3 ::require_once() -->
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/">
+	<channel>
+		<title>In The Lab With Jay Jay § All Videos</title>
+		<atom:link href="http://localhost/in-the-lab/feed.php" rel="self" type="application/rss+xml" />
+		<link>https://www.inthelabwithjayjay.com/</link>
+		<description>A video blog of interest to the electronics hobbyist.</description>
+		<lastBuildDate>Wed, 07 Aug 2024 23:45:37 +1000</lastBuildDate>
+		<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+		<generator>jjlab-0.2</generator>
+		<image>
+			<url>https://www.inthelabwithjayjay.com/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115</url>
+			<title>In The Lab With Jay Jay § All Videos</title>
+			<link>https://www.inthelabwithjayjay.com/</link>
+			<width>144</width>
+			<height>144</height></image>
+		<item>
+			<title>Mail Call #5: Loot from Amazon and AliExpress! | Learning Electronics In The Lab With Jay Jay</title>
+			<link>http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/bq0xjk_uEwQ#bq0xjk_uEwQ</link>
+			<comments>http://localhost/in-the-lab/comment.php/bq0xjk_uEwQ</comments>
+			<dc:creator>John Elliot V</dc:creator>
+			<pubDate>Wed, 07 Aug 2024 23:45:37 +1000</pubDate>
+			<guid isPermaLink="true">http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/bq0xjk_uEwQ#bq0xjk_uEwQ</guid>
+			<description>Click through to see my latest video!</description>
+			<content:encoded><![CDATA[
+				<p>Click through to see my 
+					<a href="http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/bq0xjk_uEwQ#bq0xjk_uEwQ" title="Click here to see my latest video!">latest video</a>!</p>]]></content:encoded></item>
+		<item>
+			<title>Symbol Keyboard | Mini Project JMP001 | Learning Electronics In The Lab With Jay Jay</title>
+			<link>http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/uHc-zOEWSzk#uHc-zOEWSzk</link>
+			<comments>http://localhost/in-the-lab/comment.php/uHc-zOEWSzk</comments>
+			<dc:creator>John Elliot V</dc:creator>
+			<pubDate>Thu, 01 Aug 2024 23:45:37 +1000</pubDate>
+			<guid isPermaLink="true">http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/uHc-zOEWSzk#uHc-zOEWSzk</guid>
+			<description>Click through to see my latest video!</description>
+			<content:encoded><![CDATA[
+				<p>Click through to see my 
+					<a href="http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/uHc-zOEWSzk#uHc-zOEWSzk" title="Click here to see my latest video!">latest video</a>!</p>]]></content:encoded></item>
+		<item>
+			<title>Speech Conductor | Project 10/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay</title>
+			<link>http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/mD_femGmv9g#mD_femGmv9g</link>
+			<comments>http://localhost/in-the-lab/comment.php/mD_femGmv9g</comments>
+			<dc:creator>John Elliot V</dc:creator>
+			<pubDate>Wed, 31 Jul 2024 23:45:37 +1000</pubDate>
+			<guid isPermaLink="true">http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/mD_femGmv9g#mD_femGmv9g</guid>
+			<description>Click through to see my latest video!</description>
+			<content:encoded><![CDATA[
+				<p>Click through to see my 
+					<a href="http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/mD_femGmv9g#mD_femGmv9g" title="Click here to see my latest video!">latest video</a>!</p>]]></content:encoded></item>
+		<item>
+			<title>Extra Content #13: Failing to Attach Banana Plugs to Microphone Cables | In The Lab With Jay Jay</title>
+			<link>http://localhost/in-the-lab/show.php/@ElliotsExtras/OWAYIqxYkN4#OWAYIqxYkN4</link>
+			<comments>http://localhost/in-the-lab/comment.php/OWAYIqxYkN4</comments>
+			<dc:creator>John Elliot V</dc:creator>
+			<pubDate>Tue, 30 Jul 2024 23:45:37 +1000</pubDate>
+			<guid isPermaLink="true">http://localhost/in-the-lab/show.php/@ElliotsExtras/OWAYIqxYkN4#OWAYIqxYkN4</guid>
+			<description>Click through to see my latest video!</description>
+			<content:encoded><![CDATA[
+				<p>Click through to see my 
+					<a href="http://localhost/in-the-lab/show.php/@ElliotsExtras/OWAYIqxYkN4#OWAYIqxYkN4" title="Click here to see my latest video!">latest video</a>!</p>]]></content:encoded></item>
+		<item>
+			<title>Extra Content #12: Fixing the Family Sunbeam Kettle | Learning Electronics In The Lab With Jay Jay</title>
+			<link>http://localhost/in-the-lab/show.php/@ElliotsExtras/PY_e0wWGIOc#PY_e0wWGIOc</link>
+			<comments>http://localhost/in-the-lab/comment.php/PY_e0wWGIOc</comments>
+			<dc:creator>John Elliot V</dc:creator>
+			<pubDate>Mon, 29 Jul 2024 23:45:37 +1000</pubDate>
+			<guid isPermaLink="true">http://localhost/in-the-lab/show.php/@ElliotsExtras/PY_e0wWGIOc#PY_e0wWGIOc</guid>
+			<description>Click through to see my latest video!</description>
+			<content:encoded><![CDATA[
+				<p>Click through to see my 
+					<a href="http://localhost/in-the-lab/show.php/@ElliotsExtras/PY_e0wWGIOc#PY_e0wWGIOc" title="Click here to see my latest video!">latest video</a>!</p>]]></content:encoded></item>
+		<item>
+			<title>Introducing Silicon Chip and Jaycar Mini Projects | Learning Electronics In The Lab With Jay Jay</title>
+			<link>http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/UHEtOUDU2-I#UHEtOUDU2-I</link>
+			<comments>http://localhost/in-the-lab/comment.php/UHEtOUDU2-I</comments>
+			<dc:creator>John Elliot V</dc:creator>
+			<pubDate>Sun, 28 Jul 2024 23:45:37 +1000</pubDate>
+			<guid isPermaLink="true">http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/UHEtOUDU2-I#UHEtOUDU2-I</guid>
+			<description>Click through to see my latest video!</description>
+			<content:encoded><![CDATA[
+				<p>Click through to see my 
+					<a href="http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/UHEtOUDU2-I#UHEtOUDU2-I" title="Click here to see my latest video!">latest video</a>!</p>]]></content:encoded></item>
+		<item>
+			<title>Channel News #4: I Am Altering the Deal, Pray I Don&apos;t Alter It Any Further | In The Lab With Jay Jay</title>
+			<link>http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/J58WnvCobx0#J58WnvCobx0</link>
+			<comments>http://localhost/in-the-lab/comment.php/J58WnvCobx0</comments>
+			<dc:creator>John Elliot V</dc:creator>
+			<pubDate>Sat, 27 Jul 2024 23:45:37 +1000</pubDate>
+			<guid isPermaLink="true">http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/J58WnvCobx0#J58WnvCobx0</guid>
+			<description>Click through to see my latest video!</description>
+			<content:encoded><![CDATA[
+				<p>Click through to see my 
+					<a href="http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/J58WnvCobx0#J58WnvCobx0" title="Click here to see my latest video!">latest video</a>!</p>]]></content:encoded></item>
+		<item>
+			<title>Electronics Project #7: ICL8038 Monolithic Function/Signal Generator Kit Build and Test | In The Lab</title>
+			<link>http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/sWDw9Ttd_W8#sWDw9Ttd_W8</link>
+			<comments>http://localhost/in-the-lab/comment.php/sWDw9Ttd_W8</comments>
+			<dc:creator>John Elliot V</dc:creator>
+			<pubDate>Fri, 26 Jul 2024 23:45:37 +1000</pubDate>
+			<guid isPermaLink="true">http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/sWDw9Ttd_W8#sWDw9Ttd_W8</guid>
+			<description>Click through to see my latest video!</description>
+			<content:encoded><![CDATA[
+				<p>Click through to see my 
+					<a href="http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/sWDw9Ttd_W8#sWDw9Ttd_W8" title="Click here to see my latest video!">latest video</a>!</p>]]></content:encoded></item>
+		<item>
+			<title>Mail Call #4: More Loot from AliExpress and eBay! | Learning Electronics In The Lab With Jay Jay</title>
+			<link>http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/RatZAdFHRb0#RatZAdFHRb0</link>
+			<comments>http://localhost/in-the-lab/comment.php/RatZAdFHRb0</comments>
+			<dc:creator>John Elliot V</dc:creator>
+			<pubDate>Thu, 25 Jul 2024 23:45:37 +1000</pubDate>
+			<guid isPermaLink="true">http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/RatZAdFHRb0#RatZAdFHRb0</guid>
+			<description>Click through to see my latest video!</description>
+			<content:encoded><![CDATA[
+				<p>Click through to see my 
+					<a href="http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/RatZAdFHRb0#RatZAdFHRb0" title="Click here to see my latest video!">latest video</a>!</p>]]></content:encoded></item>
+		<item>
+			<title>New Book Teardown #5: Electrical Engineering 101 3rd Edition (2011) | In The Lab With Jay Jay</title>
+			<link>http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/X1iF1KgdqkU#X1iF1KgdqkU</link>
+			<comments>http://localhost/in-the-lab/comment.php/X1iF1KgdqkU</comments>
+			<dc:creator>John Elliot V</dc:creator>
+			<pubDate>Wed, 24 Jul 2024 23:45:37 +1000</pubDate>
+			<guid isPermaLink="true">http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/X1iF1KgdqkU#X1iF1KgdqkU</guid>
+			<description>Click through to see my latest video!</description>
+			<content:encoded><![CDATA[
+				<p>Click through to see my 
+					<a href="http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/X1iF1KgdqkU#X1iF1KgdqkU" title="Click here to see my latest video!">latest video</a>!</p>]]></content:encoded></item></channel></rss>

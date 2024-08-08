@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+
+<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Equipment Category: Safety Equipment — In The Lab With Jay Jay</title>
+		<meta charset="UTF-8">
+		<meta name="date" content="2024-08-07T20:32:44+00:00">
+		<meta name="author" content="John Elliot V">
+		<meta name="keywords" content="electronics videos, electronics lab, electronics kits, electronics experiments, video blog, In The Lab With Jay Jay, John Elliot V">
+		<meta name="description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+		<meta name="robots" content="index, follow">
+		<meta property="og:title" content="Equipment Category: Safety Equipment — In The Lab With Jay Jay">
+		<meta property="og:description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta property="og:image" content="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<meta property="og:url" content="http://localhost/in-the-lab/category.php/Safety-Equipment">
+		<meta property="og:type" content="website">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:title" content="Equipment Category: Safety Equipment — In The Lab With Jay Jay">
+		<meta name="twitter:description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta name="twitter:image" content="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<link rel="icon" href="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<link rel="canonical" href="http://localhost/in-the-lab/category.php/Safety-Equipment">
+		<link rel="alternate" type="application/rss+xml" title="In The Lab With Jay Jay » Feed" href="/in-the-lab/feed.php">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		<link rel="stylesheet" href="/in-the-lab/res/style.php/jjlab-0.2.1115/style.css">
+		<script>
+			var MUD_SERVER_VERSION = "0.5.1623-211631354";
+		
+			var APP_SERVER_VERSION = "0.2.1115-211631354";
+		
+			var URL_BASE = "\/in-the-lab";
+		
+			var DEBUG = true;
+		
+			var DEV = true;
+		
+			var BETA = true;
+		
+			var IS_JOHN = true;
+		
+		</script>
+		<script src="/in-the-lab/res/script.php/jjlab-0.2.1115/script.js"></script>
+		<link rel="preload" href="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/banner-0640.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" as="image"></head>
+	<body>
+		<main class="wrapper">
+			<nav class="navigation">
+				<div class="container">
+					<a href="/in-the-lab/" class="navigation-title" title="In The Lab With Jay Jay is the video blog of John Elliot V">
+						<img src="/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" loading="eager" alt="">
+						<header class="title">In The Lab With Jay Jay</header></a>
+					<ul class="navigation-list">
+						<li class="navigation-item">
+							<button class="hamburger" onclick="handle_hamburger_click( event, this )" title="Click here to access the website navigation.">
+								<span class="bar"></span>
+								<span class="bar"></span>
+								<span class="bar"></span></button>
+							<div id="popover-grid" class="popover">
+								<ul class="popover-list">
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/" title="Click here to visit the homepage for this website. [Hotkey: H]">Home</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here to access the main channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/sponsor.php" title="Click here to find out more about our very generous sponsors! [Hotkey: S]">Sponsors</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">Equipment</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/about.php" title="Click here to find out more about the show and this website. [Hotkey: A]">About</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/support.php" title="Click here to see how you can support the show. Thanks for thinking of me! [Hotkey: U]">Support the Show!</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/debug.php" title="John&apos;s debug thing">Debug</a></li>
+									<li class="popover-item">
+										<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]">
+											<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a></li></ul></div></li></ul>
+					<div class="menu-list">
+						<a class="internal" rel="follow" href="/in-the-lab/" title="Click here to visit the homepage for this website. [Hotkey: H]">Home</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here to access the main channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/sponsor.php" title="Click here to find out more about our very generous sponsors! [Hotkey: S]">Sponsors</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">Equipment</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/about.php" title="Click here to find out more about the show and this website. [Hotkey: A]">About</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to see how you can support the show. Thanks for thinking of me! [Hotkey: U]">Support the Show!</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/debug.php" title="John&apos;s debug thing">Debug</a>
+						<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]">
+							<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a></div></div></nav>
+			<header id="banner">
+				<img loading="eager" class="rc-base" src="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-0320" src="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-0640" src="/in-the-lab/res/img.php/banner-0640.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-1280" src="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-1920" src="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" alt=""></header>
+			<header id="home" class="header">
+				<section>
+					<img src="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" alt="" loading="lazy">
+					<h1 id="heading">Equipment Category: Safety Equipment</h1>
+					<p>I have nine types of equipment in this category.</p>
+					<p>Click through on the green affiliate links to buy! (If I don&apos;t have an affiliate link for a product I will give you a normal link in dark blue. You can click through on that to buy too.)</p>
+					<p>This page does have a 
+						<a class="internal" rel="follow" href="#contents" title="Click here to navigate to the table of contents (if it&apos;s available). [Hotkey: .]">Table of Contents</a> but it&apos;s at the bottom of the page.</p></section></header>
+			<div class="equipment equipment-table">
+				<div id="options">
+					<p>Prices in: 
+						<a class="internal" rel="nofollow" href="?currency=USD#options" title="Click here to get prices in United States Dollars.">USD</a> | 
+						<a class="internal" rel="nofollow" href="?currency=AUD#options" title="Click here to get prices in Australian Dollars.">AUD</a> | 
+						<a class="internal" rel="nofollow" href="?#options" title="Click here to get prices in the currency used on the affiliated page.">default</a> &mdash; Sort: 
+						<a class="internal" rel="nofollow" href="?sort=cheap-first#options" title="Click here to sort from cheapest to most expensive.">cheap first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=expensive-first#options" title="Click here to sort from most expensive to cheapest.">expensive first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=new-first#options" title="Click here to sort with most recently purchased first.">newest first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=old-first#options" title="Click here to sort with the least recently purchased first.">oldest first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=random#options" title="Click here to sort randomly.">random</a> | 
+						<a class="internal" rel="nofollow" href="?#options" title="Click here to use the default sort (expensive first).">default</a></p></div>
+				<table id="equipment" class="main">
+					<tbody>
+						<tr class="spacer row-1">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="13">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Ryobi-RYSF5003-Stud-Finder" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Ryobi RYSF5003 Stud Finder</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/73e81c76b1ea84363df603d2ce443b1a.png?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Wednesday, June 7, 2023.">First purchase: Wednesday, June 7, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/99721" title="You can use this short link to link to this equipment.">https://jj5.net/99721</a></div>
+								<div>JJCODE: 99721</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Ryobi+RYSF5003+Stud+Finder" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Ryobi+RYSF5003+Stud+Finder" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Ryobi+RYSF5003+Stud+Finder" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Ryobi+RYSF5003+Stud+Finder" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Ryobi-RYSF5003-Stud-Finder.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Ryobi+RYSF5003+Stud+Finder" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Ryobi+RYSF5003+Stud+Finder" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Ryobi+RYSF5003+Stud+Finder" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Ryobi+RYSF5003+Stud+Finder" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Ryobi+RYSF5003+Stud+Finder" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Ryobi-RYSF5003-Stud-Finder">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Ryobi RYSF5003 Stud Finder</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Ryobi" title="Click here to see other equipment from this manufacturer.">Ryobi</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Cordless" title="Click here to see other equipment in this category.">Cordless</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Measuring-Equipment" title="Click here to see other equipment in this category.">Measuring Equipment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Safety-Equipment" title="Click here to see other equipment in this category.">Safety Equipment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Stud-Finder" title="Click here to see other equipment in this category.">Stud Finder</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Test-Equipment" title="Click here to see other equipment in this category.">Test Equipment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Voltage-Detector" title="Click here to see other equipment in this category.">Voltage Detector</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$70.99</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/qB0kdG" title="Click here for the latest price from this affiliate and to buy!">Ryobi Stud Finder with AC Detection RYSF5003</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td>
+							<td colspan="1" rowspan="7" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Ryobi_RYSF5003" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$47.56</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/UrqOUk" title="Click here for the latest price from this affiliate and to buy!">Ryobi Stud Finder with AC Detection RYSF5003</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$73.00</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/f3NjLh" title="Click here for the latest price from this affiliate and to buy!">Ryobi Stud Finder with AC Detection - RYSF5003</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$74.41</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/3tUpyGS" title="Click here for the latest price from this affiliate and to buy!">RYOBI Stud Finder with multiple LEDs to indicate the full width of the stud. One-handed operation</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$48.91</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/gr6XOu" title="Click here for the latest price from this affiliate and to buy!">Ryobi Stud Finder with AC Detection - RYSF5003</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$89.95</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/jaXujI" title="Click here for the latest price from this affiliate and to buy!">Ryobi Stud Finder with AC Detection RYSF5003 - JAPAN BRAND</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$60.26</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/pOdmCW1" title="Click here for the latest price from this affiliate and to buy!">Ryobi Stud Finder with AC Detection RYSF5003 - JAPAN BRAND</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Manufacturer links:</p>
+								<ul>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+									<li><!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/WebLink.php:28 WebLink::render() -->
+<a class="external" target="_blank" rel="noopener follow" href="https://www.ryobi.com.au/products/details/stud-finder-with-ac-detection-rysf5003" title="Click here to open a new tab for this external link.">Stud Finder with AC Detection | RYOBI</a></li></ul>
+								<p>Directory name:</p>
+								<p class="indent">stud-finder-Ryobi-RYSF5003-Stud-Finder</p>
+								<p>Wiki name:</p>
+								<p class="indent">Ryobi RYSF5003 Stud Finder</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">eBay Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$87.95</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/itm/314570480726" title="Ryobi Stud Finder with AC Detection Outdoor Gyprock Plaster - JAPAN BRAND AU">one of these</a> on Wednesday, June 7, 2023 for A$87.95 each with free shipping for a total of A$87.95.
+								<a class="external" target="_blank" rel="noopener follow" href="https://order.ebay.com.au/ord/show?orderId=07-10148-42175#/" title="Click here to view the order of this equipment.">07-10148-42175</a></td>
+							<td class="center"></td>
+							<td class="total right">$87.95</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$87.95</td></tr>
+						<tr class="spacer row-2">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#CREATMOR-Universal-AC-4-Outlet-USB-Power-Power-Board" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>CREATMOR Universal AC 4-Outlet USB Power Power Board</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/3145ff84b44ed68c0394e37c398bcb24.jpg?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Thursday, August 31, 2023.">First purchase: Thursday, August 31, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/22871" title="You can use this short link to link to this equipment.">https://jj5.net/22871</a></div>
+								<div>JJCODE: 22871</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=CREATMOR+Universal+AC+4-Outlet+USB+Power+Power+Board" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=CREATMOR+Universal+AC+4-Outlet+USB+Power+Power+Board" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=CREATMOR+Universal+AC+4-Outlet+USB+Power+Power+Board" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=CREATMOR+Universal+AC+4-Outlet+USB+Power+Power+Board" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-CREATMOR-Universal-AC-4-Outlet-USB-Power-Power-Board.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=CREATMOR+Universal+AC+4-Outlet+USB+Power+Power+Board" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=CREATMOR+Universal+AC+4-Outlet+USB+Power+Power+Board" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=CREATMOR+Universal+AC+4-Outlet+USB+Power+Power+Board" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=CREATMOR+Universal+AC+4-Outlet+USB+Power+Power+Board" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=CREATMOR+Universal+AC+4-Outlet+USB+Power+Power+Board" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="CREATMOR-Universal-AC-4-Outlet-USB-Power-Power-Board">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>CREATMOR Universal AC 4-Outlet USB Power Power Board</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/CREATMOR" title="Click here to see other equipment from this manufacturer.">CREATMOR</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Circuit-Breaker" title="Click here to see other equipment in this category.">Circuit Breaker</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Power-Board" title="Click here to see other equipment in this category.">Power Board</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Safety-Equipment" title="Click here to see other equipment in this category.">Safety Equipment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Surge-Protector" title="Click here to see other equipment in this category.">Surge Protector</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Thursday, August 31, 2023">A$43.99</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/product/B09WVWNHYR" title="Click here for the latest price from this affiliate and to buy!">Surge Protector 3M 4 AC Outlets/2 Type C Ports/4 USB Ports Power Strip Power Board 4.2A 3000W Surge Protection</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td>
+							<td colspan="1" rowspan="1" class="notes"></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Directory name:</p>
+								<p class="indent">power-board-CREATMOR-Universal-AC-4-Outlet-USB-Power-Power-Board</p>
+								<p>Wiki name:</p>
+								<p class="indent">CREATMOR Universal AC 4-Outlet USB Power Power Board</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">Amazon Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$43.99</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/product/B09WVWNHYR" title="Surge Protector 3M 4 AC Outlets/2 Type C Ports/4 USB Ports Power Strip Power Board 4.2A 3000W Surge Protection">one of these</a> on Thursday, August 31, 2023 for A$43.99 each with free shipping for a total of A$43.99.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&amp;orderID=249-1122144-5091822&amp;ref=ppx_yo2ov_dt_b_fed_order_details" title="Click here to view the order of this equipment.">249-1122144-5091822</a></td>
+							<td class="center"></td>
+							<td class="total right">$43.99</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$43.99</td></tr>
+						<tr class="spacer row-3">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="17">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Fluke-1AC-C2-II-VoltAlert-Voltage-Detector" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Fluke 1AC-C2-II VoltAlert Voltage Detector</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/1439f1772c206142a9111622a0990474.jpg?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Wednesday, August 2, 2023.">First purchase: Wednesday, August 2, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/15274" title="You can use this short link to link to this equipment.">https://jj5.net/15274</a></div>
+								<div>JJCODE: 15274</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Fluke+1AC-C2-II+VoltAlert+Voltage+Detector" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Fluke+1AC-C2-II+VoltAlert+Voltage+Detector" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Fluke+1AC-C2-II+VoltAlert+Voltage+Detector" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Fluke+1AC-C2-II+VoltAlert+Voltage+Detector" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Fluke-1AC-C2-II-VoltAlert-Voltage-Detector.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Fluke+1AC-C2-II+VoltAlert+Voltage+Detector" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Fluke+1AC-C2-II+VoltAlert+Voltage+Detector" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Fluke+1AC-C2-II+VoltAlert+Voltage+Detector" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Fluke+1AC-C2-II+VoltAlert+Voltage+Detector" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Fluke+1AC-C2-II+VoltAlert+Voltage+Detector" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Fluke-1AC-C2-II-VoltAlert-Voltage-Detector">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Fluke 1AC-C2-II VoltAlert Voltage Detector</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Fluke" title="Click here to see other equipment from this manufacturer.">Fluke</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Cordless" title="Click here to see other equipment in this category.">Cordless</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Measuring-Equipment" title="Click here to see other equipment in this category.">Measuring Equipment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Safety-Equipment" title="Click here to see other equipment in this category.">Safety Equipment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Test-Equipment" title="Click here to see other equipment in this category.">Test Equipment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Voltage-Detector" title="Click here to see other equipment in this category.">Voltage Detector</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$23.86</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DEJMLcN" title="Click here for the latest price from this affiliate and to buy!">FLUKE 1AC-C2 II VoltAlert Sensor Non-contact 200~1000V AC tester electrical Detector Pen</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: 1 pieces</td>
+							<td colspan="1" rowspan="11" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Fluke_VoltAlert_1AC" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$24.63</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DFKlnUd" title="Click here for the latest price from this affiliate and to buy!">FLUKE 1AC-C2 II VoltAlert Sensor Non-contact 200~1000V AC tester electrical Detector Pen</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: 1pcs</td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$28.51</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_Dn1tSvj" title="Click here for the latest price from this affiliate and to buy!">Fluke 1AC C2 II 2AC 90V-1000V Electrical Test Pen VoltAlert Non Contact Voltage Detector Current Tester Stick Volt Alert Check</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: 1AC-C2II</td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$19.99</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/OLUCpk" title="Click here for the latest price from this affiliate and to buy!">Fluke 1AC-C2-II Electric Power Voltage Tester VoltAlert Pen Detector AC200-1000V</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$20.28</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/LgIdOV" title="Click here for the latest price from this affiliate and to buy!">1AC-C2-II Electric Power Voltage Tester VoltAlert Pen Detector AC200-1000V Fluke</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$32.99</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/kJnlRQ" title="Click here for the latest price from this affiliate and to buy!">Fluke 1AC-C2 II VoltAlert Non-contact 200~1000V AC Voltage Detector Pen Tester</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$33.30</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/S5T3sZ" title="Click here for the latest price from this affiliate and to buy!">1AC-C2-II Electric Power Voltage Tester VoltAlert Pen Detector AC200-1000V Fluke</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$23.00</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/UE1TW3" title="Click here for the latest price from this affiliate and to buy!">1AC-C2-II Electric Power Voltage Tester VoltAlert Pen Detector AC200-1000V Fluke</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$25.56</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/3ShTypj" title="Click here for the latest price from this affiliate and to buy!">Fluke 1AC-A1-II VoltAlert Non-Contact Voltage Tester, Pocket-Sized, Voltage Detection Range 90 V to 1000 V AC, Audible Beeper, Silent Mode, Includes Batteries And 2 Year Warranty, CAT IV Rating</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$49.50</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/hXKOKE" title="Click here for the latest price from this affiliate and to buy!">Fluke 1AC-C2 II VoltAlert Non-contact 200~1000V AC Voltage Detector Pen Tester</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$100.11</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/48UJAzK" title="Click here for the latest price from this affiliate and to buy!">Fluke 1AC II VoltAlert Non-Contact Voltage Tester</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Size Name: 1AC-A1-II, 90-1000V</td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Manufacturer links:</p>
+								<ul>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+									<li><!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/WebLink.php:28 WebLink::render() -->
+<a class="external" target="_blank" rel="noopener follow" href="https://www.fluke.com/en-us/product/electrical-testing/basic-testers/fluke-1ac-ii" title="Click here to open a new tab for this external link.">Fluke 1AC II Non-Contact Voltage Tester</a></li></ul>
+								<p>Directory name:</p>
+								<p class="indent">voltage-detector-Fluke-1AC-C2-II-VoltAlert-Voltage-Detector</p>
+								<p>Wiki name:</p>
+								<p class="indent">Fluke 1AC-C2-II VoltAlert Voltage Detector</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">eBay USA:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$35.40</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/itm/161025194014" title="Fluke 1AC-C-II VoltAlert Non-Contact AC Detector Pen AC Voltage tester Stick OZ">one of these</a> on Wednesday, August 2, 2023 for A$35.40 each with free shipping for a total of A$35.40.
+								<a class="external" target="_blank" rel="noopener follow" href="https://order.ebay.com/ord/show?orderId=20-10359-89546#/" title="Click here to view the order of this equipment.">20-10359-89546</a></td>
+							<td class="center"></td>
+							<td class="total right">$35.40</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$35.40</td></tr>
+						<tr class="spacer row-4">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Arlec-PB91-Plug-In-RCD-Safety-Switch-With-Surge-Protector" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Arlec PB91 Plug-In RCD Safety Switch With Surge Protector</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/5a8ba4122b69cf15e2e5b462155b6a7f.png?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Thursday, March 16, 2023.">First purchase: Thursday, March 16, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/47509" title="You can use this short link to link to this equipment.">https://jj5.net/47509</a></div>
+								<div>JJCODE: 47509</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Arlec+PB91+Plug-In+RCD+Safety+Switch+With+Surge+Protector" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Arlec+PB91+Plug-In+RCD+Safety+Switch+With+Surge+Protector" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Arlec+PB91+Plug-In+RCD+Safety+Switch+With+Surge+Protector" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Arlec+PB91+Plug-In+RCD+Safety+Switch+With+Surge+Protector" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Arlec-PB91-Plug-In-RCD-Safety-Switch-With-Surge-Protector.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Arlec+PB91+Plug-In+RCD+Safety+Switch+With+Surge+Protector" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Arlec+PB91+Plug-In+RCD+Safety+Switch+With+Surge+Protector" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Arlec+PB91+Plug-In+RCD+Safety+Switch+With+Surge+Protector" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Arlec+PB91+Plug-In+RCD+Safety+Switch+With+Surge+Protector" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Arlec+PB91+Plug-In+RCD+Safety+Switch+With+Surge+Protector" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Arlec-PB91-Plug-In-RCD-Safety-Switch-With-Surge-Protector">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Arlec PB91 Plug-In RCD Safety Switch With Surge Protector</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Arlec" title="Click here to see other equipment from this manufacturer.">Arlec</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Circuit-Breaker" title="Click here to see other equipment in this category.">Circuit Breaker</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Residual-Current-Device" title="Click here to see other equipment in this category.">Residual Current Device</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Safety-Equipment" title="Click here to see other equipment in this category.">Safety Equipment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Surge-Protector" title="Click here to see other equipment in this category.">Surge Protector</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Bunnings:</td>
+							<td colspan="2" class="price" title="Price current as of Thursday, March 16, 2023">A$34.55</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/arlec-single-outlet-safety-switch_p7050029" title="Click here for the latest price from this affiliate and to buy!">Arlec Single Outlet Safety Switch</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td>
+							<td colspan="1" rowspan="1" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Arlec_PB91" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Manufacturer links:</p>
+								<ul>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+									<li><!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/WebLink.php:28 WebLink::render() -->
+<a class="external" target="_blank" rel="noopener follow" href="https://www.arlec.com.au/wp-content/files/PB91.pdf" title="Click here to open a new tab for this external link.">Arlec PB91 (PDF)</a></li></ul>
+								<p>Directory name:</p>
+								<p class="indent">circuit-breaker-Arlec-PB91-Plug-In-RCD-Safety-Switch-With-Surge-Protector</p>
+								<p>Wiki name:</p>
+								<p class="indent">Arlec PB91 Plug-In RCD Safety Switch With Surge Protector</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">bunnings.com.au:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$33.56</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/arlec-single-outlet-safety-switch_p7050029" title="ADAPTOR ARLEC SGL OUTLET RCD SAFETY PB91">one of these</a> on Thursday, March 16, 2023 for A$33.56 each with free shipping for a total of A$33.56.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/my-account/previous-orders/order-details?orderId=5056548185" title="Click here to view the order of this equipment.">5056548185</a></td>
+							<td class="center"></td>
+							<td class="total right">$33.56</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$33.56</td></tr>
+						<tr class="spacer row-5">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="8">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Eversure-Hogdseirrs-10660192-4-Outlet-Power-Board" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Eversure Hogdseirrs 10660192 4-Outlet Power Board</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/05b7b89896bb07fe0568469fab57b5b2.jpg?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Tuesday, August 22, 2023.">First purchase: Tuesday, August 22, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/93941" title="You can use this short link to link to this equipment.">https://jj5.net/93941</a></div>
+								<div>JJCODE: 93941</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Eversure+Hogdseirrs+10660192+4-Outlet+Power+Board" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Eversure+Hogdseirrs+10660192+4-Outlet+Power+Board" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Eversure+Hogdseirrs+10660192+4-Outlet+Power+Board" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Eversure+Hogdseirrs+10660192+4-Outlet+Power+Board" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Eversure-Hogdseirrs-10660192-4-Outlet-Power-Board.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Eversure+Hogdseirrs+10660192+4-Outlet+Power+Board" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Eversure+Hogdseirrs+10660192+4-Outlet+Power+Board" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Eversure+Hogdseirrs+10660192+4-Outlet+Power+Board" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Eversure+Hogdseirrs+10660192+4-Outlet+Power+Board" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Eversure+Hogdseirrs+10660192+4-Outlet+Power+Board" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Eversure-Hogdseirrs-10660192-4-Outlet-Power-Board">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Eversure Hogdseirrs 10660192 4-Outlet Power Board</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Eversure" title="Click here to see other equipment from this manufacturer.">Eversure</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Circuit-Breaker" title="Click here to see other equipment in this category.">Circuit Breaker</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Power-Board" title="Click here to see other equipment in this category.">Power Board</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Safety-Equipment" title="Click here to see other equipment in this category.">Safety Equipment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Surge-Protector" title="Click here to see other equipment in this category.">Surge Protector</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Tuesday, May 21, 2024">A$30.99</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/product/B078WPGH8R" title="Click here for the latest price from this affiliate and to buy!">Eversure Wide Space Switched 4 Outlet Powerboard, Black</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td>
+							<td colspan="1" rowspan="1" class="notes"></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Directory name:</p>
+								<p class="indent">power-board-Eversure-Hogdseirrs-10660192-4-Outlet-Power-Board</p>
+								<p>Wiki name:</p>
+								<p class="indent">Eversure Hogdseirrs 10660192 4-Outlet Power Board</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">Amazon Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$30.99</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/product/B078WPGH8R" title="Eversure Wide Space Switched 4 Outlet Powerboard, Black">one of these</a> on Tuesday, May 21, 2024 for A$30.99 each with free shipping for a total of A$30.99.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&amp;orderID=249-0229126-8693473" title="Click here to view the order of this equipment.">249-0229126-8693473</a></td>
+							<td class="center"></td>
+							<td class="total right">$30.99</td></tr>
+						<tr style="height:20px">
+							<td class="vendor">Amazon Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$29.90</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/product/B078WPGH8R" title="Eversure Wide Space Switched 4 Outlet Powerboard, Black">one of these</a> on Tuesday, August 22, 2023 for A$29.90 each with free shipping for a total of A$29.90.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&amp;orderID=249-9645623-8263024" title="Click here to view the order of this equipment.">249-9645623-8263024</a></td>
+							<td class="center"></td>
+							<td class="total right">$29.90</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 2 of these for total (AUD):</td>
+							<td class="right">$60.89</td></tr>
+						<tr class="spacer row-6">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Portwest-Standard-Lab-Coat" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Portwest Standard Lab Coat</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/8240f11d401ce95948d3eb2ff6cfdbed.jpg?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Friday, August 18, 2023.">First purchase: Friday, August 18, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/26225" title="You can use this short link to link to this equipment.">https://jj5.net/26225</a></div>
+								<div>JJCODE: 26225</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Portwest+Standard+Lab+Coat" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Portwest+Standard+Lab+Coat" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Portwest+Standard+Lab+Coat" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Portwest+Standard+Lab+Coat" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Portwest-Standard-Lab-Coat.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Portwest+Standard+Lab+Coat" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Portwest+Standard+Lab+Coat" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Portwest+Standard+Lab+Coat" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Portwest+Standard+Lab+Coat" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Portwest+Standard+Lab+Coat" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Portwest-Standard-Lab-Coat">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Portwest Standard Lab Coat</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Portwest" title="Click here to see other equipment from this manufacturer.">Portwest</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Clothing" title="Click here to see other equipment in this category.">Clothing</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Costume" title="Click here to see other equipment in this category.">Costume</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Lab-Coat" title="Click here to see other equipment in this category.">Lab Coat</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Safety-Equipment" title="Click here to see other equipment in this category.">Safety Equipment</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Friday, August 18, 2023">A$34.95</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/product/B006ITB06U" title="Click here for the latest price from this affiliate and to buy!">Portwest 2852 Standard Lab Coat Hard Wearing Workwear Lab Coat White, 3X-Large</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">3X-Large; White</td>
+							<td colspan="1" rowspan="1" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Portwest_Lab_Coat" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Manufacturer links:</p>
+								<ul>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+									<li><!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/WebLink.php:28 WebLink::render() -->
+<a class="external" target="_blank" rel="noopener follow" href="https://www.portwest.com/products/view/2852/WHR" title="Click here to open a new tab for this external link.">2852 - Standard Coat</a></li></ul>
+								<p>Directory name:</p>
+								<p class="indent">clothing-Portwest-Standard-Lab-Coat</p>
+								<p>Wiki name:</p>
+								<p class="indent">Portwest Standard Lab Coat</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">Amazon Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$29.71</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/product/B006ITB06U" title="Portwest 2852 Standard Lab Coat Hard Wearing Workwear Lab Coat White, 3X-Large">one of these</a> on Friday, August 18, 2023 for A$29.71 each with free shipping for a total of A$29.71.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&amp;orderID=249-2227622-6404632" title="Click here to view the order of this equipment.">249-2227622-6404632</a></td>
+							<td class="center">Size: 3X-Large; Colour: White</td>
+							<td class="total right">$29.71</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$29.71</td></tr>
+						<tr class="spacer row-7">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Diodrio-Leather-Pocket-Protector" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Diodrio Leather Pocket Protector</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/b91469f7aa2ce00ab09b8a2b11a1e659.jpg?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Friday, August 18, 2023.">First purchase: Friday, August 18, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/63431" title="You can use this short link to link to this equipment.">https://jj5.net/63431</a></div>
+								<div>JJCODE: 63431</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Diodrio+Leather+Pocket+Protector" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Diodrio+Leather+Pocket+Protector" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Diodrio+Leather+Pocket+Protector" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Diodrio+Leather+Pocket+Protector" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Diodrio-Leather-Pocket-Protector.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Diodrio+Leather+Pocket+Protector" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Diodrio+Leather+Pocket+Protector" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Diodrio+Leather+Pocket+Protector" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Diodrio+Leather+Pocket+Protector" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Diodrio+Leather+Pocket+Protector" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Diodrio-Leather-Pocket-Protector">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Diodrio Leather Pocket Protector</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Diodrio" title="Click here to see other equipment from this manufacturer.">Diodrio</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Costume" title="Click here to see other equipment in this category.">Costume</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pocket-Protector" title="Click here to see other equipment in this category.">Pocket Protector</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Safety-Equipment" title="Click here to see other equipment in this category.">Safety Equipment</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Friday, August 18, 2023">A$23.11</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/product/B07S6NWMGX" title="Click here for the latest price from this affiliate and to buy!">Pocket Protector, Leather Pen EDC Pouch Holder Organizer, for Shirts Lab Coats, Hold 5 Pens, New Design to Keep Pens Inside When Bend Down. No Breaking of Pen Clip. Thick PU Leather, 2 Per Pack.</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Brown</td>
+							<td colspan="1" rowspan="1" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Diodrio_Pocket_Protector" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Manufacturer links:</p>
+								<ul>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+									<li><!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/WebLink.php:28 WebLink::render() -->
+<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?k=diodrio" title="Click here to open a new tab for this external link.">See diodrio on Amazon</a></li></ul>
+								<p>Directory name:</p>
+								<p class="indent">pocket-protector-Diodrio-Leather-Pocket-Protector</p>
+								<p>Wiki name:</p>
+								<p class="indent">Diodrio Leather Pocket Protector</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">Amazon Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$27.20</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/product/B07S6NWMGX" title="Pocket Protector, Leather Pen EDC Pouch Holder Organizer, for Shirts Lab Coats, Hold 5 Pens, New Design to Keep Pens Inside When Bend Down. No Breaking of Pen Clip. Thick PU Leather, 2 Per Pack.">one of these</a> on Friday, August 18, 2023 for A$27.20 each with free shipping for a total of A$27.20.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&amp;orderID=249-5975425-8293401" title="Click here to view the order of this equipment.">249-5975425-8293401</a></td>
+							<td class="center">Brown</td>
+							<td class="total right">$27.20</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$27.20</td></tr>
+						<tr class="spacer row-8">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#nmsafety-Nitrile-Gloves" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>nmsafety Nitrile Gloves</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/d32ce34bc8fb40869f0cbb25e175e94a.webp?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Friday, March 10, 2023.">First purchase: Friday, March 10, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/65611" title="You can use this short link to link to this equipment.">https://jj5.net/65611</a></div>
+								<div>JJCODE: 65611</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=nmsafety+Nitrile+Gloves" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=nmsafety+Nitrile+Gloves" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=nmsafety+Nitrile+Gloves" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=nmsafety+Nitrile+Gloves" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-nmsafety-Nitrile-Gloves.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=nmsafety+Nitrile+Gloves" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=nmsafety+Nitrile+Gloves" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=nmsafety+Nitrile+Gloves" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=nmsafety+Nitrile+Gloves" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=nmsafety+Nitrile+Gloves" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="nmsafety-Nitrile-Gloves">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>nmsafety Nitrile Gloves</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/nmsafety" title="Click here to see other equipment from this manufacturer.">nmsafety</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Gloves" title="Click here to see other equipment in this category.">Gloves</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Nitrile-Gloves" title="Click here to see other equipment in this category.">Nitrile Gloves</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Safety-Equipment" title="Click here to see other equipment in this category.">Safety Equipment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Wearable" title="Click here to see other equipment in this category.">Wearable</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$19.66</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DmefgBr" title="Click here for the latest price from this affiliate and to buy!">24Pieces/12 Pairs Work Gloves For PU Palm Coating Safety Protective Glove Nitrile Professional Safety Suppliers</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: PU1350NV -DMF; Size: S</td>
+							<td colspan="1" rowspan="1" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Nitrile_Gloves" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Directory name:</p>
+								<p class="indent">gloves-nmsafety-Nitrile-Gloves</p>
+								<p>Wiki name:</p>
+								<p class="indent">nmsafety Nitrile Gloves</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">AliExpress:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$18.79</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price">A$3.29</td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DmefgBr" title="24Pieces/12 Pairs Work Gloves For PU Palm Coating Safety Protective Glove Nitrile Professional Safety Suppliers">one of these</a> on Friday, March 10, 2023 for A$18.79 each plus shipping of A$1.29 and tax of A$2.00 for a total of A$22.08.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.249.764218021V85h7&amp;orderId=8164396471003938" title="Click here to view the order of this equipment.">8164396471003938</a></td>
+							<td class="center">Color: PU1350NV -DMF; Size: S</td>
+							<td class="total right">$22.08</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$22.08</td></tr>
+						<tr class="spacer row-9">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Oloey-Safety-Goggles" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Oloey Safety Goggles</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/6069e1e80cf79473603517e2c0150742.webp?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Thursday, October 5, 2023.">First purchase: Thursday, October 5, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/73769" title="You can use this short link to link to this equipment.">https://jj5.net/73769</a></div>
+								<div>JJCODE: 73769</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Oloey+Safety+Goggles" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Oloey+Safety+Goggles" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Oloey+Safety+Goggles" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Oloey+Safety+Goggles" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Oloey-Safety-Goggles.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Oloey+Safety+Goggles" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Oloey+Safety+Goggles" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Oloey+Safety+Goggles" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Oloey+Safety+Goggles" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Oloey+Safety+Goggles" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Oloey-Safety-Goggles">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Oloey Safety Goggles</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Oloey" title="Click here to see other equipment from this manufacturer.">Oloey</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Costume" title="Click here to see other equipment in this category.">Costume</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Goggles" title="Click here to see other equipment in this category.">Goggles</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Safety-Equipment" title="Click here to see other equipment in this category.">Safety Equipment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Safety-Goggles" title="Click here to see other equipment in this category.">Safety Goggles</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Thursday, October 5, 2023">A$3.77</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_Ddy4JRH" title="Click here for the latest price from this affiliate and to buy!">Safety Goggles Anti Laser infrared Protective glasses PC lenses Anti-fog Anti-UV Anti-impact Industrial Labor Protection Goggles</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: transparent yellow</td>
+							<td colspan="1" rowspan="1" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Oloey_Safety_Goggles" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Manufacturer links:</p>
+								<ul>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+									<li><!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/WebLink.php:28 WebLink::render() -->
+<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/store/5085361" title="Click here to open a new tab for this external link.">See store on AliExpress</a></li></ul>
+								<p>Directory name:</p>
+								<p class="indent">goggles-Oloey-Safety-Goggles</p>
+								<p>Wiki name:</p>
+								<p class="indent">Oloey Safety Goggles</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">AliExpress:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$50.55</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_Ddy4JRH" title="Safety Goggles Anti Laser infrared Protective glasses PC lenses Anti-fog Anti-UV Anti-impact Industrial Labor Protection Goggles">three of these</a> on Thursday, October 5, 2023 for A$16.85 each with free shipping for a total of A$50.55.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.31.513e1802NxuF6x&amp;orderId=8177186299683938" title="Click here to view the order of this equipment.">8177186299683938</a></td>
+							<td class="center">Color: transparent yellow</td>
+							<td class="total right">$50.55</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 3 of these for total (AUD):</td>
+							<td class="right">$50.55</td></tr></tbody></table></div>
+			<hr style="border: 1px solid gray;">
+			<div class="container" style="text-align:center;">
+				<div>
+					<p>Prices in: 
+						<a class="internal" rel="nofollow" href="?currency=USD#options" title="Click here to get prices in United States Dollars.">USD</a> | 
+						<a class="internal" rel="nofollow" href="?currency=AUD#options" title="Click here to get prices in Australian Dollars.">AUD</a> | 
+						<a class="internal" rel="nofollow" href="?#options" title="Click here to get prices in the currency used on the affiliated page.">default</a> &mdash; Sort: 
+						<a class="internal" rel="nofollow" href="?sort=cheap-first#options" title="Click here to sort from cheapest to most expensive.">cheap first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=expensive-first#options" title="Click here to sort from most expensive to cheapest.">expensive first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=new-first#options" title="Click here to sort with most recently purchased first.">newest first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=old-first#options" title="Click here to sort with the least recently purchased first.">oldest first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=random#options" title="Click here to sort randomly.">random</a> | 
+						<a class="internal" rel="nofollow" href="?#options" title="Click here to use the default sort (expensive first).">default</a></p></div></div>
+			<section>
+				<h2 id="total-paid">Total Paid and Other Statistics</h2>
+				<p>Total paid for the 12 items on this page: A$391.33.</p>
+				<p>Note: the values shown here are not exact, for 
+					<a class="internal" rel="follow" href="/in-the-lab/about.php#records" title="Click here to read about price inaccuracies.">a bunch of reasons</a>.</p>
+				<table>
+					<thead>
+						<tr>
+							<th></th>
+							<th>USD</th>
+							<th>AUD</th></tr></thead>
+					<tbody>
+						<tr>
+							<th class="right">Total Paid:</th>
+							<td class="right">$255.93</td>
+							<td class="right">A$391.33</td></tr>
+						<tr>
+							<th class="right">Minimum Paid:</th>
+							<td class="right">$11.02</td>
+							<td class="right">A$16.85</td></tr>
+						<tr>
+							<th class="right">Maximum Paid:</th>
+							<td class="right">$57.52</td>
+							<td class="right">A$87.95</td></tr>
+						<tr>
+							<th class="right">Median Paid:</th>
+							<td class="right">$19.55</td>
+							<td class="right">A$29.90</td></tr>
+						<tr>
+							<th class="right">Average Paid:</th>
+							<td class="right">$21.33</td>
+							<td class="right">A$32.61</td></tr>
+						<tr>
+							<th class="right">Standard Deviation:</th>
+							<td class="right">$12.09</td>
+							<td class="right">A$18.49</td></tr></tbody></table></section>
+			<section>
+				<h2 id="more-info">More Information</h2>
+				<p>If you would like to see all of my equipment check out the 
+					<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see other equipment that might be of interest.">equipment</a> page. You can also get my equipment indexed by 
+					<a class="internal" rel="follow" href="/in-the-lab/category.php" title="Click here to see all the equipment in this category.">category</a> or by 
+					<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php" title="Click here to see all the equipment from this manufacturer.">manufacturer</a>.</p></section>
+			<section>
+				<h2 id="contents">Table of Contents</h2>
+				<p>The contents of this page are organised into the following sections:</p>
+				<div id="contents_div">Contents will go here (if you have Javascript enabled).</div></section>
+			<section>
+				<h2 id="thanks">Thank You!</h2>
+				<p>Thanks very much for your interest and 
+					<b>I hope you enjoy the show!</b></p></section>
+			<section>
+				<h2 id="next">Where to from Here?</h2>
+				<p>You made it to the bottom of the page, huh? Well done! I&apos;m a bit of a scroller myself. :)</p>
+				<p>Where you go next depends on what you&apos;re interested in. Here are some suggestions:</p>
+				<ul>
+					<li>If you&apos;re enjoying my content you could consider 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to find out how you can support the show. [Hotkey: U]">supporting the show</a>.</li>
+					<li>My 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/new-book-teardown" title="Click here to watch the videos where I review new technology related books.">new book teardown videos</a> are quite popular, you might enjoy watching those.</li>
+					<li>My personal favourites are the 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="Click here to watch the videos where I review old technology related books.">old book teardown videos</a>.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a>, for all my high quality content including my 
+						<a class="internal" rel="follow" href="/in-the-lab/show-type.php/special-show" title="Click here to watch special shows which air on the main channel.">special shows</a>.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/show-type.php/main-show" title="Click here to watch videos recorded for the main show.">main show</a>, for my main show videos, which include the 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/electronics-project" title="Click here to watch the electronics project videos.">electronics project</a> and 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="Click here to watch the videos where I review old technology related books.">old book teardown</a> videos.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">equipment</a> page, if you&apos;re interested in any of the equipment I use. If you&apos;re putting together your own electronics lab then I would certainly recommend checking this out!</li>
+					<li>Did I mention that you can 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to find out how you can support the show. [Hotkey: U]">support the show</a>? :)</li></ul></section></main>
+		<footer>
+			<div>&copy; Copyright 2024 John Elliot V. All rights reserved.</div></footer>
+		<script>window.g_mud_html_options = [];</script></body></html>

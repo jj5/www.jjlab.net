@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/homies.php:3 ::require_once() -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Shoutout to My Homies! — In The Lab With Jay Jay</title>
+		<meta charset="UTF-8">
+		<meta name="date" content="2024-08-07T20:32:44+00:00">
+		<meta name="author" content="John Elliot V">
+		<meta name="keywords" content="electronics videos, electronics lab, electronics kits, electronics experiments, video blog, In The Lab With Jay Jay, John Elliot V">
+		<meta name="description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+		<meta name="robots" content="index, follow">
+		<meta property="og:title" content="Shoutout to My Homies! — In The Lab With Jay Jay">
+		<meta property="og:description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta property="og:image" content="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<meta property="og:url" content="http://localhost/in-the-lab/homies.php">
+		<meta property="og:type" content="website">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:title" content="Shoutout to My Homies! — In The Lab With Jay Jay">
+		<meta name="twitter:description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta name="twitter:image" content="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<link rel="icon" href="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<link rel="canonical" href="http://localhost/in-the-lab/homies.php">
+		<link rel="alternate" type="application/rss+xml" title="In The Lab With Jay Jay » Feed" href="/in-the-lab/feed.php">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		<link rel="stylesheet" href="/in-the-lab/res/style.php/jjlab-0.2.1115/style.css">
+		<script>
+			var MUD_SERVER_VERSION = "0.5.1623-211631354";
+		
+			var APP_SERVER_VERSION = "0.2.1115-211631354";
+		
+			var URL_BASE = "\/in-the-lab";
+		
+			var DEBUG = true;
+		
+			var DEV = true;
+		
+			var BETA = false;
+		
+			var IS_JOHN = true;
+		
+		</script>
+		<script src="/in-the-lab/res/script.php/jjlab-0.2.1115/script.js"></script>
+		<link rel="preload" href="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/banner-0640.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" as="image"></head>
+	<body>
+		<main class="wrapper">
+			<nav class="navigation">
+				<div class="container">
+					<a href="/in-the-lab/" class="navigation-title" title="In The Lab With Jay Jay is the video blog of John Elliot V">
+						<img src="/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" loading="eager" alt="">
+						<header class="title">In The Lab With Jay Jay</header></a>
+					<ul class="navigation-list">
+						<li class="navigation-item">
+							<button class="hamburger" onclick="handle_hamburger_click( event, this )" title="Click here to access the website navigation.">
+								<span class="bar"></span>
+								<span class="bar"></span>
+								<span class="bar"></span></button>
+							<div id="popover-grid" class="popover">
+								<ul class="popover-list">
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/" title="Click here to visit the homepage for this website. [Hotkey: H]">Home</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here to access the main channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/sponsor.php" title="Click here to find out more about our very generous sponsors! [Hotkey: S]">Sponsors</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">Equipment</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/about.php" title="Click here to find out more about the show and this website. [Hotkey: A]">About</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/support.php" title="Click here to see how you can support the show. Thanks for thinking of me! [Hotkey: U]">Support the Show!</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/debug.php" title="John&apos;s debug thing">Debug</a></li>
+									<li class="popover-item">
+										<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]">
+											<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a></li></ul></div></li></ul>
+					<div class="menu-list">
+						<a class="internal" rel="follow" href="/in-the-lab/" title="Click here to visit the homepage for this website. [Hotkey: H]">Home</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here to access the main channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/sponsor.php" title="Click here to find out more about our very generous sponsors! [Hotkey: S]">Sponsors</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">Equipment</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/about.php" title="Click here to find out more about the show and this website. [Hotkey: A]">About</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to see how you can support the show. Thanks for thinking of me! [Hotkey: U]">Support the Show!</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/debug.php" title="John&apos;s debug thing">Debug</a>
+						<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]">
+							<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a></div></div></nav>
+			<header id="banner">
+				<img loading="eager" class="rc-base" src="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-0320" src="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-0640" src="/in-the-lab/res/img.php/banner-0640.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-1280" src="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-1920" src="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" alt=""></header>
+			<header id="home" class="header">
+				<section>
+					<img src="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" alt="" loading="lazy">
+					<h1 id="heading">Shoutout to My Homies!</h1>
+					<p>Not only am I a YouTube creator, I am also a YouTube viewer!</p>
+					<p>On this page I let you know who I watch on YouTube and support on Patreon.</p></section></header>
+			<section>
+				<h2 id="contents">Table of Contents</h2>
+				<p>The contents of this page are organised into the following sections:</p>
+				<div id="contents_div">Contents will go here (if you have Javascript enabled).</div></section>
+			<section>
+				<h2 id="homies">My Homies</h2>
+				<p>Man, I love the long tail. There is so much interesting stuff on the web theses days, including on YouTube, wouldn&apos;t you agree? On this page I wanted to let you know about some of the people who I follow. I can&apos;t list everyone who I follow on YouTube, so the criteria for this list is whether I sponsor them on Patreon or not. Yes, I do sponsor people on Patreon! 
+					<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/JohnElliotV" title="Click here to see my generous supporters on Patreon, and maybe join them?">Don&apos;t you?</a> :)</p>
+				<table>
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>Video Blogger</th>
+							<th>YouTube Channel</th>
+							<th>Patreon</th>
+							<th>Website</th>
+							<th>Notes</th></tr></thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>Dave Jones on the EEVblog</td>
+							<td class="right">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.youtube.com/@EEVblog" title="Click here to watch EEVblog on YouTube.">@EEVblog</a></td>
+							<td class="right">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/eevblog" title="Click here to find EEVblog on Patreon.">EEVblog</a></td>
+							<td class="right">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.eevblog.com/" title="Click here to visit the EEVblog website.">eevblog.com</a></td>
+							<td class="right">
+								<a class="internal" rel="follow" href="#dave-jones" title="Click here to read my notes about Dave Jones.">note</a></td></tr>
+						<tr>
+							<td>2</td>
+							<td>Adrian Black on Adrian&apos;s Digital Basement</td>
+							<td class="right">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.youtube.com/@AdriansDigitalBasement" title="Click here to watch Adrian&apos;s Digital Basement on YouTube.">@AdriansDigitalBasement</a></td>
+							<td class="right">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/adriansdigitalbasement" title="Click here to find Adrian&apos;s Digial Basement on Patreon.">AdriansDigitalBasement</a></td>
+							<td class="right">
+								<a class="external" target="_blank" rel="noopener follow" href="https://adriansbasement.com/" title="Click here to visit the website for Adrian&apos;s Digital Basement.">adriansbasement.com</a></td>
+							<td class="right">
+								<a class="internal" rel="follow" href="#adrian-black" title="Click here to read my notes about Adrian Black.">note</a></td></tr>
+						<tr>
+							<td>3</td>
+							<td>Richard on Learn Electronics Repair</td>
+							<td class="right">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.youtube.com/@LearnElectronicsRepair" title="Click here to watch Learn Electronics Repair on YouTube.">@LearnElectronicsRepair</a></td>
+							<td class="right">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/LearnElectronicsRepair" title="Click here to find Learn Electronics Repair on Patreon.">LearnElectronicsRepair</a></td>
+							<td class="right">
+								<a class="external" target="_blank" rel="noopener follow" href="https://discord.com/channels/896427792751820842" title="Click here to visit the Discord channel for Learn Electronics Repair.">discord.com</a></td>
+							<td class="right"></td></tr>
+						<tr>
+							<td>4</td>
+							<td>Paul Carlson on Mr Carlson&apos;s Lab</td>
+							<td class="right">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.youtube.com/@MrCarlsonsLab" title="Click here to watch Mr Carlson&apos;s Lab on YouTube.">@MrCarlsonsLab</a></td>
+							<td class="right">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/MrCarlsonsLab" title="Click here to find Mr Carlson&apos;s Lab on Patreon.">MrCarlsonsLab</a></td>
+							<td class="right">
+								<a class="external" target="_blank" rel="noopener follow" href="https://mrcarlsonslab.com/" title="Click here to visit the website for Mr Carlson&apos;s Lab.">mrcarlsonslab.com</a></td>
+							<td class="right"></td></tr></tbody></table>
+				<p>You can find this same list of video bloggers on my 
+					<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/JohnElliotV/recommendations" title="Click here to see my Patreon Recommendations.">Patreon Recommendations</a> page.</p></section>
+			<section>
+				<h2 id="dave-jones">Dave Jones on the EEVblog</h2>
+				<p>I 
+					<a class="external" target="_blank" rel="noopener follow" href="https://blog.jj5.net/blog/2024/06/19/my-day-at-electronex-with-my-friend/" title="Click here to read about when I met Dave Jones at ElectroneX in 2024.">met Dave at ElectroneX</a> and he was cool enough to 
+					<a class="external" target="_blank" rel="noopener follow" href="https://x.com/eevblog/status/1803278981858509163" title="Click here to see Dave Jones plug my channel.">plug my channel on X</a>.</p>
+				<p>Dave runs the 
+					<a class="external" target="_blank" rel="noopener follow" href="https://www.eevblog.com/forum/" title="Click here to visit the EEVblog Forum.">EEVblog Forum</a> which is an excellent resource, check it out!</p>
+				<p>Dave makes a line of multimeters. I am saving my pennies so I can get the full set! Here are the multimeters Dave makes:</p>
+				<ul>
+					<li>
+						<a class="external" target="_blank" rel="noopener follow" href="https://eevblog.store/products/121gw-multimeter" title="Click here to buy the EEVblog 121GW Multimeter.">EEVblog 121GW Multimeter</a> (AU$325.00)</li>
+					<li>
+						<a class="external" target="_blank" rel="noopener follow" href="https://eevblog.store/products/eevblog-bm786-multimeter" title="Click here to buy the EEVblog BM786 Multimeter.">EEVblog BM786 Multimeter</a> (AU$215.00)</li>
+					<li>
+						<a class="external" target="_blank" rel="noopener follow" href="https://eevblog.store/products/eevblog-bm235-multimeter" title="Click here to buy the EEVblog BM235 Multimeter.">EEVblog BM235 Multimeter</a> (AU$170.00)</li>
+					<li>
+						<a class="external" target="_blank" rel="noopener follow" href="https://eevblog.store/products/eevblog-bm036-ac-dc-clamp-meter" title="Click here to buy the EEVblog BM036 AC/DC Clamp Meter.">EEVblog BM036 AC/DC Clamp Meter</a> (AU$149.00)</li></ul></section>
+			<section>
+				<h2 id="adrian-black">Adrian Black on Adrian&apos;s Digital Basement</h2>
+				<p>I was there when Adrian Black 
+					<a class="external" target="_blank" rel="noopener follow" href="https://blog.jj5.net/blog/2023/10/08/adrian-black-goes-pro/" title="Click here to see my blog post from when Adrian Black turned into a professional YouTuber.">went pro</a>.</p></section>
+			<section>
+				<h2 id="thanks">Thank You!</h2>
+				<p>Thanks very much for your interest and 
+					<b>I hope you enjoy the show!</b></p></section>
+			<section>
+				<h2 id="next">Where to from Here?</h2>
+				<p>You made it to the bottom of the page, huh? Well done! I&apos;m a bit of a scroller myself. :)</p>
+				<p>Where you go next depends on what you&apos;re interested in. Here are some suggestions:</p>
+				<ul>
+					<li>If you&apos;re enjoying my content you could consider 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to find out how you can support the show. [Hotkey: U]">supporting the show</a>.</li>
+					<li>My 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/new-book-teardown" title="Click here to watch the videos where I review new technology related books.">new book teardown videos</a> are quite popular, you might enjoy watching those.</li>
+					<li>My personal favourites are the 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="Click here to watch the videos where I review old technology related books.">old book teardown videos</a>.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a>, for all my high quality content including my 
+						<a class="internal" rel="follow" href="/in-the-lab/show-type.php/special-show" title="Click here to watch special shows which air on the main channel.">special shows</a>.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/show-type.php/main-show" title="Click here to watch videos recorded for the main show.">main show</a>, for my main show videos, which include the 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/electronics-project" title="Click here to watch the electronics project videos.">electronics project</a> and 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="Click here to watch the videos where I review old technology related books.">old book teardown</a> videos.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">equipment</a> page, if you&apos;re interested in any of the equipment I use. If you&apos;re putting together your own electronics lab then I would certainly recommend checking this out!</li>
+					<li>Did I mention that you can 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to find out how you can support the show. [Hotkey: U]">support the show</a>? :)</li></ul></section></main>
+		<footer>
+			<div>&copy; Copyright 2024 John Elliot V. All rights reserved.</div></footer>
+		<script>window.g_mud_html_options = [];</script></body></html>

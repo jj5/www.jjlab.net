@@ -2,7 +2,7 @@
 
 // 2024-06-29 jj5 - SEE: https://sitemaps.org/protocol.html
 
-require_once __DIR__ . '/../../../../inc/framework.php';
+require_once __DIR__ . '/../../../../run/run-web.php';
 
 function app_render() {
 

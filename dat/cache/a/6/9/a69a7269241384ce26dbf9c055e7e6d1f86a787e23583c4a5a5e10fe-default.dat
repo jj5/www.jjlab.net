@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+
+<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Equipment Category: Magnifying Glass — In The Lab With Jay Jay</title>
+		<meta charset="UTF-8">
+		<meta name="date" content="2024-08-07T20:32:44+00:00">
+		<meta name="author" content="John Elliot V">
+		<meta name="keywords" content="electronics videos, electronics lab, electronics kits, electronics experiments, video blog, In The Lab With Jay Jay, John Elliot V">
+		<meta name="description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+		<meta name="robots" content="index, follow">
+		<meta property="og:title" content="Equipment Category: Magnifying Glass — In The Lab With Jay Jay">
+		<meta property="og:description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta property="og:image" content="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<meta property="og:url" content="http://localhost/in-the-lab/category.php/Magnifying-Glass">
+		<meta property="og:type" content="website">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:title" content="Equipment Category: Magnifying Glass — In The Lab With Jay Jay">
+		<meta name="twitter:description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta name="twitter:image" content="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<link rel="icon" href="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<link rel="canonical" href="http://localhost/in-the-lab/category.php/Magnifying-Glass">
+		<link rel="alternate" type="application/rss+xml" title="In The Lab With Jay Jay » Feed" href="/in-the-lab/feed.php">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		<link rel="stylesheet" href="/in-the-lab/res/style.php/jjlab-0.2.1115/style.css">
+		<script>
+			var MUD_SERVER_VERSION = "0.5.1623-211631354";
+		
+			var APP_SERVER_VERSION = "0.2.1115-211631354";
+		
+			var URL_BASE = "\/in-the-lab";
+		
+			var DEBUG = true;
+		
+			var DEV = true;
+		
+			var BETA = true;
+		
+			var IS_JOHN = true;
+		
+		</script>
+		<script src="/in-the-lab/res/script.php/jjlab-0.2.1115/script.js"></script>
+		<link rel="preload" href="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/banner-0640.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" as="image"></head>
+	<body>
+		<main class="wrapper">
+			<nav class="navigation">
+				<div class="container">
+					<a href="/in-the-lab/" class="navigation-title" title="In The Lab With Jay Jay is the video blog of John Elliot V">
+						<img src="/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" loading="eager" alt="">
+						<header class="title">In The Lab With Jay Jay</header></a>
+					<ul class="navigation-list">
+						<li class="navigation-item">
+							<button class="hamburger" onclick="handle_hamburger_click( event, this )" title="Click here to access the website navigation.">
+								<span class="bar"></span>
+								<span class="bar"></span>
+								<span class="bar"></span></button>
+							<div id="popover-grid" class="popover">
+								<ul class="popover-list">
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/" title="Click here to visit the homepage for this website. [Hotkey: H]">Home</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here to access the main channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/sponsor.php" title="Click here to find out more about our very generous sponsors! [Hotkey: S]">Sponsors</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">Equipment</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/about.php" title="Click here to find out more about the show and this website. [Hotkey: A]">About</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/support.php" title="Click here to see how you can support the show. Thanks for thinking of me! [Hotkey: U]">Support the Show!</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/debug.php" title="John&apos;s debug thing">Debug</a></li>
+									<li class="popover-item">
+										<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]">
+											<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a></li></ul></div></li></ul>
+					<div class="menu-list">
+						<a class="internal" rel="follow" href="/in-the-lab/" title="Click here to visit the homepage for this website. [Hotkey: H]">Home</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here to access the main channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/sponsor.php" title="Click here to find out more about our very generous sponsors! [Hotkey: S]">Sponsors</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">Equipment</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/about.php" title="Click here to find out more about the show and this website. [Hotkey: A]">About</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to see how you can support the show. Thanks for thinking of me! [Hotkey: U]">Support the Show!</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/debug.php" title="John&apos;s debug thing">Debug</a>
+						<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]">
+							<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a></div></div></nav>
+			<header id="banner">
+				<img loading="eager" class="rc-base" src="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-0320" src="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-0640" src="/in-the-lab/res/img.php/banner-0640.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-1280" src="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-1920" src="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" alt=""></header>
+			<header id="home" class="header">
+				<section>
+					<img src="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" alt="" loading="lazy">
+					<h1 id="heading">Equipment Category: Magnifying Glass</h1>
+					<p>I have five types of equipment in this category.</p>
+					<p>Click through on the green affiliate links to buy! (If I don&apos;t have an affiliate link for a product I will give you a normal link in dark blue. You can click through on that to buy too.)</p>
+					<p>This page does have a 
+						<a class="internal" rel="follow" href="#contents" title="Click here to navigate to the table of contents (if it&apos;s available). [Hotkey: .]">Table of Contents</a> but it&apos;s at the bottom of the page.</p></section></header>
+			<div class="equipment equipment-list">
+				<div id="options">
+					<p>Prices in: 
+						<a class="internal" rel="nofollow" href="?currency=USD#options" title="Click here to get prices in United States Dollars.">USD</a> | 
+						<a class="internal" rel="nofollow" href="?currency=AUD#options" title="Click here to get prices in Australian Dollars.">AUD</a> | 
+						<a class="internal" rel="nofollow" href="?#options" title="Click here to get prices in the currency used on the affiliated page.">default</a> &mdash; Sort: 
+						<a class="internal" rel="nofollow" href="?sort=cheap-first#options" title="Click here to sort from cheapest to most expensive.">cheap first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=expensive-first#options" title="Click here to sort from most expensive to cheapest.">expensive first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=new-first#options" title="Click here to sort with most recently purchased first.">newest first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=old-first#options" title="Click here to sort with the least recently purchased first.">oldest first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=random#options" title="Click here to sort randomly.">random</a> | 
+						<a class="internal" rel="nofollow" href="?#options" title="Click here to use the default sort (expensive first).">default</a></p></div>
+				<section class="container">
+					<h2 id="Victorinox-Swiss-Champ-Red-Swiss-Army-Knife" class="equipment clearfix">Victorinox Swiss Champ Red Swiss Army Knife</h2>
+					<img src="/in-the-lab/res/img.php/auto/5d46d0fc085a56f5c6fd2d3fb21bbc63.jpg?v=jjlab-0.2.1115" alt="Victorinox Swiss Champ Red Swiss Army Knife" title="Victorinox Swiss Champ Red Swiss Army Knife" loading="lazy">
+					<dl>
+						<dt>Short link</dt>
+						<dd>
+							<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/50210" title="You can use this short link to link to this equipment.">https://jj5.net/50210</a></dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2162 FirstPurchaseDate::render_definition() -->
+						<dt>First purchase</dt>
+						<dd title="It is unknown when this equipment was first purchased.">Unknown</dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+						<dt>Categories</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2190 ManufacturerName::render() -->
+							<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Victorinox" title="Click here to see all the equipment from this manufacturer.">Victorinox</a> | 
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2190 Category::render() -->
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Awl" title="Click here to see all the equipment in this category.">Awl</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Ballpoint-Pen" title="Click here to see all the equipment in this category.">Ballpoint Pen</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Bottle-Opener" title="Click here to see all the equipment in this category.">Bottle Opener</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Can-Opener" title="Click here to see all the equipment in this category.">Can Opener</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Chisel" title="Click here to see all the equipment in this category.">Chisel</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Consumable" title="Click here to see all the equipment in this category.">Consumable</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Corkscrew" title="Click here to see all the equipment in this category.">Corkscrew</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Crimper" title="Click here to see all the equipment in this category.">Crimper</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Cutting-Implement" title="Click here to see all the equipment in this category.">Cutting Implement</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/File" title="Click here to see all the equipment in this category.">File</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Fish-Scaler" title="Click here to see all the equipment in this category.">Fish Scaler</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see all the equipment in this category.">Hand Tool</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Hook-Disgorger" title="Click here to see all the equipment in this category.">Hook Disgorger</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Hook-Tool" title="Click here to see all the equipment in this category.">Hook Tool</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Key-Ring" title="Click here to see all the equipment in this category.">Key Ring</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Knife" title="Click here to see all the equipment in this category.">Knife</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Magnifier" title="Click here to see all the equipment in this category.">Magnifier</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Magnifying-Glass" title="Click here to see all the equipment in this category.">Magnifying Glass</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Metal-File" title="Click here to see all the equipment in this category.">Metal File</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Metal-Saw" title="Click here to see all the equipment in this category.">Metal Saw</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Multi-Purpose-Hook" title="Click here to see all the equipment in this category.">Multi Purpose Hook</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Nail-Cleaner" title="Click here to see all the equipment in this category.">Nail Cleaner</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Nail-File" title="Click here to see all the equipment in this category.">Nail File</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Pen" title="Click here to see all the equipment in this category.">Pen</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Pin" title="Click here to see all the equipment in this category.">Pin</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Pliers" title="Click here to see all the equipment in this category.">Pliers</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Punch" title="Click here to see all the equipment in this category.">Punch</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Reamer" title="Click here to see all the equipment in this category.">Reamer</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Ruler" title="Click here to see all the equipment in this category.">Ruler</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Ruler-cm-" title="Click here to see all the equipment in this category.">Ruler (cm)</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Ruler-inch-" title="Click here to see all the equipment in this category.">Ruler (inch)</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Saw" title="Click here to see all the equipment in this category.">Saw</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Scissors" title="Click here to see all the equipment in this category.">Scissors</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Screwdriver" title="Click here to see all the equipment in this category.">Screwdriver</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Sewing-Awl" title="Click here to see all the equipment in this category.">Sewing Awl</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Swiss-Army-Knife" title="Click here to see all the equipment in this category.">Swiss Army Knife</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Toothpick" title="Click here to see all the equipment in this category.">Toothpick</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Tweezers" title="Click here to see all the equipment in this category.">Tweezers</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Wire-Bender" title="Click here to see all the equipment in this category.">Wire Bender</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Wire-Crimper" title="Click here to see all the equipment in this category.">Wire Crimper</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Wire-Stripper" title="Click here to see all the equipment in this category.">Wire Stripper</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Wood-Saw" title="Click here to see all the equipment in this category.">Wood Saw</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Tuesday, January 16, 2024">Buy for 
+							<b>$108.16</b> from eBay USA:</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/QKkrw8" title="Click here for the latest price from this affiliate and to buy!">VICTORINOX SWISS CHAMP RED - SWISS ARMY POCKET KNIFE - LENGTH: 91 MM - 33 TOOLS</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Tuesday, January 16, 2024">Buy for 
+							<b>A$177.60</b> from eBay Australia:</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/mfUhIF" title="Click here for the latest price from this affiliate and to buy!">VICTORINOX SWISS CHAMP RED - SWISS ARMY POCKET KNIFE - LENGTH: 91 MM - 33 TOOLS</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt>Notes</dt>
+						<dd>I have 
+							<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Victorinox_Swiss_Champ_Red" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a> about this product on my personal wiki.</dd>
+						<dt>Manufacturer links:</dt>
+						<dd>
+							<ul>
+								<li class="link">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2359 WebLink::render() -->
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.victorinox.com/global/en/Products/Swiss-Army-Knives/Medium-Pocket-Knives/Swiss-Champ/p/1.6795" title="Click here to open a new tab for this external link.">Victorinox Swiss Champ in red</a>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></li></ul></dd></dl></section>
+				<section class="container">
+					<h2 id="MMOBIEL-Third-Hand" class="equipment clearfix">MMOBIEL Third Hand</h2>
+					<img src="/in-the-lab/res/img.php/auto/a2936e8ef6a19210c1b4fd063a56f6ce.jpg?v=jjlab-0.2.1115" alt="MMOBIEL Third Hand" title="MMOBIEL Third Hand" loading="lazy">
+					<dl>
+						<dt>Short link</dt>
+						<dd>
+							<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/23629" title="You can use this short link to link to this equipment.">https://jj5.net/23629</a></dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2162 FirstPurchaseDate::render_definition() -->
+						<dt>First purchase</dt>
+						<dd title="This equipment was first purchased on Wednesday, August 4, 2021.">Wednesday, August 4, 2021</dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+						<dt>Categories</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2190 ManufacturerName::render() -->
+							<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/MMOBIEL" title="Click here to see all the equipment from this manufacturer.">MMOBIEL</a> | 
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2190 Category::render() -->
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Bench-Equipment" title="Click here to see all the equipment in this category.">Bench Equipment</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/LED-Light" title="Click here to see all the equipment in this category.">LED Light</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Light" title="Click here to see all the equipment in this category.">Light</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Magnifier" title="Click here to see all the equipment in this category.">Magnifier</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Magnifying-Glass" title="Click here to see all the equipment in this category.">Magnifying Glass</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Soldering-Stand" title="Click here to see all the equipment in this category.">Soldering Stand</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Soldering-Tool" title="Click here to see all the equipment in this category.">Soldering Tool</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Third-Hand" title="Click here to see all the equipment in this category.">Third Hand</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Monday, January 15, 2024">Buy for 
+							<b>A$36.99</b> from Amazon Australia:</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/4aXm4E1" title="Click here for the latest price from this affiliate and to buy!">MMOBIEL Heavy Duty Helping Hand Magnifier Station 2.5X 4X LED Light Hands Free Magnifying Glass Stand with Clamp and Clips</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Monday, January 15, 2024">Buy for 
+							<b>$24.99</b> from Amazon USA:</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/3U0F6mZ" title="Click here for the latest price from this affiliate and to buy!">MMOBIEL LED Light Helping Hand Magnifier Station for Soldering, Assembly, Repair,Modeling, Hobbies and Crafts - 2.5X /4X LED Light - Hands-Free Magnifying Glass Stand - Incl. Clamp and Alligator Clips</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Monday, January 15, 2024">Buy for 
+							<b>A$54.92</b> from eBay Australia:</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/pqyFjN" title="Click here for the latest price from this affiliate and to buy!">MMOBIEL LED Light Helping Hand Magnifier Station for Soldering, Assembly, and -</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Monday, January 15, 2024">Buy for 
+							<b>$36.79</b> from eBay USA:</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/GRAkIP" title="Click here for the latest price from this affiliate and to buy!">MMOBIEL LED Light Helping Hand Magnifier Station for Soldering, Assembly, and -</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Monday, January 15, 2024">Buy for 
+							<b>A$58.61</b> from eBay Australia:</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/l2pqEI" title="Click here for the latest price from this affiliate and to buy!">MMOBIEL LED Light Helping Hand Magnifier Station for Soldering, Assembly, and -</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Monday, January 15, 2024">Buy for 
+							<b>$39.27</b> from eBay USA:</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/vwzrrB" title="Click here for the latest price from this affiliate and to buy!">MMOBIEL LED Light Helping Hand Magnifier Station for Soldering, Assembly, and -</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Monday, January 15, 2024">Buy for 
+							<b>A$63.47</b> from eBay Australia:</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/kbJZXo" title="Click here for the latest price from this affiliate and to buy!">MMOBIEL LED Light Helping Hand Magnifier Station for Soldering, Assembly, and -</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Monday, January 15, 2024">Buy for 
+							<b>$44.15</b> from eBay USA:</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/K9SOoQ" title="Click here for the latest price from this affiliate and to buy!">MMOBIEL LED Light Helping Hand Magnifier Station for Soldering, Assembly, and -</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt>Notes</dt>
+						<dd>I have 
+							<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/MMOBIEL_Helping_Hands" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a> about this product on my personal wiki.</dd>
+						<dt>Manufacturer links:</dt>
+						<dd>
+							<ul>
+								<li class="link">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2359 WebLink::render() -->
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.mmobiel.com/heavy-duty-helping-hand-magnifier-station-2.5x-4x-led-light-magnifying-glass" title="Click here to open a new tab for this external link.">Heavy Duty Helping Hand Magnifier Station 2.5X 4X LED Light Magnifying Glass</a>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></li></ul></dd>
+						<dt>I purchased 
+							<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/product/B07WF7GXS1/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&amp;amp;psc=1" title="Click here to see the item I actually purchased, if it&apos;s still there.">one of these</a> from Amazon Australia on 2021-08-04 00:00:00 for A$45.40.</dt>
+						<dd></dd></dl></section>
+				<section class="container">
+					<h2 id="Bysameyee-Head-Mounted-Magnifier" class="equipment clearfix">Bysameyee Head-Mounted Magnifier</h2>
+					<img src="/in-the-lab/res/img.php/auto/915cd9d3169db609fdb622a622b0005f.jpg?v=jjlab-0.2.1115" alt="Bysameyee Head-Mounted Magnifier" title="Bysameyee Head-Mounted Magnifier" loading="lazy">
+					<dl>
+						<dt>Short link</dt>
+						<dd>
+							<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/57979" title="You can use this short link to link to this equipment.">https://jj5.net/57979</a></dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2162 FirstPurchaseDate::render_definition() -->
+						<dt>First purchase</dt>
+						<dd title="This equipment was first purchased on Tuesday, November 29, 2022.">Tuesday, November 29, 2022</dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+						<dt>Categories</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2190 ManufacturerName::render() -->
+							<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Bysameyee" title="Click here to see all the equipment from this manufacturer.">Bysameyee</a> | 
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2190 Category::render() -->
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see all the equipment in this category.">Hand Tool</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Head-Mounted" title="Click here to see all the equipment in this category.">Head-Mounted</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Head-Mounted-Magnifier" title="Click here to see all the equipment in this category.">Head-Mounted Magnifier</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Light" title="Click here to see all the equipment in this category.">Light</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Magnifier" title="Click here to see all the equipment in this category.">Magnifier</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Magnifying-Glass" title="Click here to see all the equipment in this category.">Magnifying Glass</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Rechargeable" title="Click here to see all the equipment in this category.">Rechargeable</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Torch" title="Click here to see all the equipment in this category.">Torch</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Monday, January 15, 2024">Buy for 
+							<b>$15.99</b> from Amazon USA; Check option(s): Size: Rechargeable-3.5X:</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/3O4csgX" title="Click here for the latest price from this affiliate and to buy!">Bysameyee Magnifying Glass with Light for Close Work, Rechargeable Lighted Head-Mounted Magnifier Visor with 2 Jeweler&apos;s Loupe LEDs and Interchangeable Headband for Reading, Jewelry Work, Watch Repair</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Monday, January 15, 2024">Buy for 
+							<b>A$29.99</b> from Amazon Australia; Check option(s): Size Name: 1 Count (Pack of 1):</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/41Y9i45" title="Click here for the latest price from this affiliate and to buy!">Bysameyee Magnifying Glass with Light for Close Work, Rechargeable Lighted Head-Mounted Magnifier Visor with 2 Jeweler&apos;s Loupe LEDs and Interchangeable Headband for Reading, Jewelry Work, Watch Repair</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt>Notes</dt>
+						<dd>I have 
+							<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Bysameyee_Head-Mounted_Magnifier" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a> about this product on my personal wiki.</dd>
+						<dt>Manufacturer links:</dt>
+						<dd>
+							<ul>
+								<li class="link">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2359 WebLink::render() -->
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bysameyee.com/head-mount-magnifier-bysameyee-lighted-magnifying-headband-glass-loupe-visor-with-2-led-light-for-close-work-jewelry-work-watch-repair-arts-amp-crafts-reading-aid-p00095p1.html" title="Click here to open a new tab for this external link.">Head Mount Magnifier, Bysameyee Lighted Magnifying Headband Glass Loupe Visor with 2 LED Light for Close Work, Jewelry Work, Watch Repair, Arts &amp; Crafts, Reading Aid</a>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></li></ul></dd>
+						<dt>I purchased 
+							<a class="external" target="_blank" rel="noopener follow" href="https://amzn.to/41Y9i45" title="Click here to see the item I actually purchased, if it&apos;s still there.">one of these</a> from Amazon Australia on 2022-11-29 00:00:00 for A$27.18.</dt>
+						<dd></dd></dl></section>
+				<section class="container">
+					<h2 id="Yum-Cha-TE-801-Third-Hand" class="equipment clearfix">Yum Cha TE-801 Third Hand</h2>
+					<img src="/in-the-lab/res/img.php/auto/bf27ae3fd0aabd2f36b0dfb7f301a7f1.webp?v=jjlab-0.2.1115" alt="Yum Cha TE-801 Third Hand" title="Yum Cha TE-801 Third Hand" loading="lazy">
+					<dl>
+						<dt>Short link</dt>
+						<dd>
+							<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/43768" title="You can use this short link to link to this equipment.">https://jj5.net/43768</a></dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2162 FirstPurchaseDate::render_definition() -->
+						<dt>First purchase</dt>
+						<dd title="This equipment was first purchased on Friday, August 25, 2023.">Friday, August 25, 2023</dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+						<dt>Categories</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2190 ManufacturerName::render() -->
+							<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Yum-Cha" title="Click here to see all the equipment from this manufacturer.">Yum Cha</a> | 
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2190 Category::render() -->
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Bench-Equipment" title="Click here to see all the equipment in this category.">Bench Equipment</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/LED-Light" title="Click here to see all the equipment in this category.">LED Light</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Light" title="Click here to see all the equipment in this category.">Light</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Magnifier" title="Click here to see all the equipment in this category.">Magnifier</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Magnifying-Glass" title="Click here to see all the equipment in this category.">Magnifying Glass</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Soldering-Stand" title="Click here to see all the equipment in this category.">Soldering Stand</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Soldering-Tool" title="Click here to see all the equipment in this category.">Soldering Tool</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Third-Hand" title="Click here to see all the equipment in this category.">Third Hand</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Monday, January 15, 2024">Buy for 
+							<b>A$11.94</b> from AliExpress:</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_Dn4xwCh" title="Click here for the latest price from this affiliate and to buy!">Desktop Soldering Holder Welding Equipment Auxiliary Tool Third Hand Helping Repair Tool Magnifier LED Lighting Soldering Stand</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Monday, January 15, 2024">Buy for 
+							<b>A$12.82</b> from AliExpress; Check option(s): Color: 16126a:</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DmAlTap" title="Click here for the latest price from this affiliate and to buy!">3 Hand Soldering Iron Stand Welding Tool With Magnifying Glass Illuminated LED Alligator Clip Holder Clamp Helping Repair</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt>Notes</dt>
+						<dd>I have 
+							<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/TE-801_Third_Hand" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a> about this product on my personal wiki.</dd>
+						<dt>I purchased 
+							<a class="external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DmAlTap" title="Click here to see the item I actually purchased, if it&apos;s still there.">one of these</a> from AliExpress on 2023-08-25 00:00:00 for A$12.70.</dt>
+						<dd></dd>
+						<dt>I purchased 
+							<a class="external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_Dn4xwCh" title="Click here to see the item I actually purchased, if it&apos;s still there.">one of these</a> from AliExpress on 2023-08-25 00:00:00 for A$12.01.</dt>
+						<dd></dd></dl></section>
+				<section class="container">
+					<h2 id="QWORK-Third-Hand" class="equipment clearfix">QWORK Third Hand</h2>
+					<img src="/in-the-lab/res/img.php/auto/d5f9744979ba288825b4e7e6ae6875b2.jpg?v=jjlab-0.2.1115" alt="QWORK Third Hand" title="QWORK Third Hand" loading="lazy">
+					<dl>
+						<dt>Short link</dt>
+						<dd>
+							<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/62954" title="You can use this short link to link to this equipment.">https://jj5.net/62954</a></dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2162 FirstPurchaseDate::render_definition() -->
+						<dt>First purchase</dt>
+						<dd title="It is unknown when this equipment was first purchased.">Unknown</dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+						<dt>Categories</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2190 ManufacturerName::render() -->
+							<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/QWORK" title="Click here to see all the equipment from this manufacturer.">QWORK</a> | 
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2190 Category::render() -->
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/LED-Light" title="Click here to see all the equipment in this category.">LED Light</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Light" title="Click here to see all the equipment in this category.">Light</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Magnifier" title="Click here to see all the equipment in this category.">Magnifier</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Magnifying-Glass" title="Click here to see all the equipment in this category.">Magnifying Glass</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/Third-Hand" title="Click here to see all the equipment in this category.">Third Hand</a> | 
+							<a class="internal" rel="follow" href="/in-the-lab/category.php/USB-LED-Light" title="Click here to see all the equipment in this category.">USB LED Light</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Monday, January 15, 2024">Buy for 
+							<b>A$2.82</b> from AliExpress:</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DFAc44D" title="Click here for the latest price from this affiliate and to buy!">Helping Third Hand Tool Soldering Stand With 5X Welding Magnifying Glass 2 Alligator Clips 360 Degree Rotating Adju Repair Tool</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Monday, January 15, 2024">Buy for 
+							<b>A$9.38</b> from AliExpress; Check option(s): Color: 1PCS:</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DcHEVqZ" title="Click here for the latest price from this affiliate and to buy!">Welding Auxiliary Clip Magnifier Electric Circuit Board Repair Welding Iron Bracket Adjustable magnifying soldering clamp</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Monday, January 15, 2024">Buy for 
+							<b>$7.61</b> from eBay USA:</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/tzBUeL" title="Click here for the latest price from this affiliate and to buy!">Mercury 710.165 Helping Hands Soldering Work Holder Clips 3x Magnification Metal</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Monday, January 15, 2024">Buy for 
+							<b>A$11.85</b> from AliExpress:</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_Ddhe8dF" title="Click here for the latest price from this affiliate and to buy!">3 Hand Soldering Iron Stand Welding Tool LED Alligator Clip Holder Clamp Helping Hand Repair Tool With Illuminated Glasses</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Monday, January 15, 2024">Buy for 
+							<b>A$12.75</b> from eBay Australia:</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/4FjnqO" title="Click here for the latest price from this affiliate and to buy!">Mercury 710.165 Helping Hands Soldering Work Holder Clips 3x Magnification Metal</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Monday, January 15, 2024">Buy for 
+							<b>A$13.24</b> from eBay Australia:</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/bMLaDF" title="Click here for the latest price from this affiliate and to buy!">HELPING HANDS with GLASS MAGNIFIER 3rd Hand work holder Expo Tools 73860</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Monday, January 15, 2024">Buy for 
+							<b>$11.39</b> from eBay USA:</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/jOOTXq" title="Click here for the latest price from this affiliate and to buy!">Mercury 710.165 Helping Hands Soldering Work Holder Clips 3x Magnification Metal</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Monday, January 15, 2024">Buy for 
+							<b>A$19.90</b> from eBay Australia:</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/2Dko5Z" title="Click here for the latest price from this affiliate and to buy!">PROSKIT Helping hand PCB Holder Third hand with Magnifier for Soldering Work</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Monday, January 15, 2024">Buy for 
+							<b>A$24.92</b> from Amazon Australia:</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/3O5pdYJ" title="Click here for the latest price from this affiliate and to buy!">WWZMDiB Helping Hand Magnifier Adjustable 5X Magnifying Glass,with Dual Adjustable Alligator Clips, for Soldering, Inspecting Micro Objects, DIY (5X Helping Hands)</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Monday, January 15, 2024">Buy for 
+							<b>$20.61</b> from eBay USA:</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/uJbQuP" title="Click here for the latest price from this affiliate and to buy!">DIY Repair Welding Bench Working Table Clamp Magnifying Tool Jewelry Accessories</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt title="Price current as of Monday, January 15, 2024">Buy for 
+							<b>A$44.52</b> from Amazon Australia:</dt>
+						<dd>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:2237 AffiliateLink::render() -->
+							<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/41WyyrC" title="Click here for the latest price from this affiliate and to buy!">QWORK Helping Hand Magnifier, Adjustable 5X Magnifying Glass, Designed for Soldering, Crafting &amp; Inspecting Micro Objects</a>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></dd>
+						<dt>Notes</dt>
+						<dd>I have 
+							<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/QWORK_Helping_Hands" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a> about this product on my personal wiki.</dd></dl></section></div>
+			<hr style="border: 1px solid gray;">
+			<div class="container" style="text-align:center;">
+				<div>
+					<p>Prices in: 
+						<a class="internal" rel="nofollow" href="?currency=USD#options" title="Click here to get prices in United States Dollars.">USD</a> | 
+						<a class="internal" rel="nofollow" href="?currency=AUD#options" title="Click here to get prices in Australian Dollars.">AUD</a> | 
+						<a class="internal" rel="nofollow" href="?#options" title="Click here to get prices in the currency used on the affiliated page.">default</a> &mdash; Sort: 
+						<a class="internal" rel="nofollow" href="?sort=cheap-first#options" title="Click here to sort from cheapest to most expensive.">cheap first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=expensive-first#options" title="Click here to sort from most expensive to cheapest.">expensive first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=new-first#options" title="Click here to sort with most recently purchased first.">newest first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=old-first#options" title="Click here to sort with the least recently purchased first.">oldest first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=random#options" title="Click here to sort randomly.">random</a> | 
+						<a class="internal" rel="nofollow" href="?#options" title="Click here to use the default sort (expensive first).">default</a></p></div></div>
+			<section>
+				<h2 id="total-paid">Total Paid and Other Statistics</h2>
+				<p>Total paid for the 4 items on this page: A$116.19.</p>
+				<p>Note: the values shown here are not exact, for 
+					<a class="internal" rel="follow" href="/in-the-lab/about.php#records" title="Click here to read about price inaccuracies.">a bunch of reasons</a>.</p>
+				<table>
+					<thead>
+						<tr>
+							<th></th>
+							<th>USD</th>
+							<th>AUD</th></tr></thead>
+					<tbody>
+						<tr>
+							<th class="right">Total Paid:</th>
+							<td class="right">$75.99</td>
+							<td class="right">A$116.19</td></tr>
+						<tr>
+							<th class="right">Minimum Paid:</th>
+							<td class="right">$8.13</td>
+							<td class="right">A$12.43</td></tr>
+						<tr>
+							<th class="right">Maximum Paid:</th>
+							<td class="right">$41.50</td>
+							<td class="right">A$63.45</td></tr>
+						<tr>
+							<th class="right">Median Paid:</th>
+							<td class="right">$17.78</td>
+							<td class="right">A$27.18</td></tr>
+						<tr>
+							<th class="right">Average Paid:</th>
+							<td class="right">$19.00</td>
+							<td class="right">A$29.05</td></tr>
+						<tr>
+							<th class="right">Standard Deviation:</th>
+							<td class="right">$13.55</td>
+							<td class="right">A$20.72</td></tr></tbody></table></section>
+			<section>
+				<h2 id="more-info">More Information</h2>
+				<p>If you would like to see all of my equipment check out the 
+					<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see other equipment that might be of interest.">equipment</a> page. You can also get my equipment indexed by 
+					<a class="internal" rel="follow" href="/in-the-lab/category.php" title="Click here to see all the equipment in this category.">category</a> or by 
+					<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php" title="Click here to see all the equipment from this manufacturer.">manufacturer</a>.</p></section>
+			<section>
+				<h2 id="contents">Table of Contents</h2>
+				<p>The contents of this page are organised into the following sections:</p>
+				<div id="contents_div">Contents will go here (if you have Javascript enabled).</div></section>
+			<section>
+				<h2 id="thanks">Thank You!</h2>
+				<p>Thanks very much for your interest and 
+					<b>I hope you enjoy the show!</b></p></section>
+			<section>
+				<h2 id="next">Where to from Here?</h2>
+				<p>You made it to the bottom of the page, huh? Well done! I&apos;m a bit of a scroller myself. :)</p>
+				<p>Where you go next depends on what you&apos;re interested in. Here are some suggestions:</p>
+				<ul>
+					<li>If you&apos;re enjoying my content you could consider 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to find out how you can support the show. [Hotkey: U]">supporting the show</a>.</li>
+					<li>My 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/new-book-teardown" title="Click here to watch the videos where I review new technology related books.">new book teardown videos</a> are quite popular, you might enjoy watching those.</li>
+					<li>My personal favourites are the 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="Click here to watch the videos where I review old technology related books.">old book teardown videos</a>.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a>, for all my high quality content including my 
+						<a class="internal" rel="follow" href="/in-the-lab/show-type.php/special-show" title="Click here to watch special shows which air on the main channel.">special shows</a>.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/show-type.php/main-show" title="Click here to watch videos recorded for the main show.">main show</a>, for my main show videos, which include the 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/electronics-project" title="Click here to watch the electronics project videos.">electronics project</a> and 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="Click here to watch the videos where I review old technology related books.">old book teardown</a> videos.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">equipment</a> page, if you&apos;re interested in any of the equipment I use. If you&apos;re putting together your own electronics lab then I would certainly recommend checking this out!</li>
+					<li>Did I mention that you can 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to find out how you can support the show. [Hotkey: U]">support the show</a>? :)</li></ul></section></main>
+		<footer>
+			<div>&copy; Copyright 2024 John Elliot V. All rights reserved.</div></footer>
+		<script>window.g_mud_html_options = [];</script></body></html>

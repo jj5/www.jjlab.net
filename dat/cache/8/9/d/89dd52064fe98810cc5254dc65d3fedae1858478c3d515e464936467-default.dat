@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+
+<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/about.php:3 ::require_once() -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>About the Website — In The Lab With Jay Jay</title>
+		<meta charset="UTF-8">
+		<meta name="date" content="2024-08-07T20:32:44+00:00">
+		<meta name="author" content="John Elliot V">
+		<meta name="keywords" content="electronics videos, electronics lab, electronics kits, electronics experiments, video blog, In The Lab With Jay Jay, John Elliot V">
+		<meta name="description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+		<meta name="robots" content="index, follow">
+		<meta property="og:title" content="About the Website — In The Lab With Jay Jay">
+		<meta property="og:description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta property="og:image" content="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<meta property="og:url" content="http://localhost/in-the-lab/about.php">
+		<meta property="og:type" content="website">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:title" content="About the Website — In The Lab With Jay Jay">
+		<meta name="twitter:description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta name="twitter:image" content="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<link rel="icon" href="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<link rel="canonical" href="http://localhost/in-the-lab/about.php">
+		<link rel="alternate" type="application/rss+xml" title="In The Lab With Jay Jay » Feed" href="/in-the-lab/feed.php">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		<link rel="stylesheet" href="/in-the-lab/res/style.php/jjlab-0.2.1115/style.css">
+		<script>
+			var MUD_SERVER_VERSION = "0.5.1623-211631354";
+		
+			var APP_SERVER_VERSION = "0.2.1115-211631354";
+		
+			var URL_BASE = "\/in-the-lab";
+		
+			var DEBUG = true;
+		
+			var DEV = true;
+		
+			var BETA = false;
+		
+			var IS_JOHN = true;
+		
+		</script>
+		<script src="/in-the-lab/res/script.php/jjlab-0.2.1115/script.js"></script>
+		<link rel="preload" href="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/banner-0640.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" as="image"></head>
+	<body>
+		<main class="wrapper">
+			<nav class="navigation">
+				<div class="container">
+					<a href="/in-the-lab/" class="navigation-title" title="In The Lab With Jay Jay is the video blog of John Elliot V">
+						<img src="/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" loading="eager" alt="">
+						<header class="title">In The Lab With Jay Jay</header></a>
+					<ul class="navigation-list">
+						<li class="navigation-item">
+							<button class="hamburger" onclick="handle_hamburger_click( event, this )" title="Click here to access the website navigation.">
+								<span class="bar"></span>
+								<span class="bar"></span>
+								<span class="bar"></span></button>
+							<div id="popover-grid" class="popover">
+								<ul class="popover-list">
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/" title="Click here to visit the homepage for this website. [Hotkey: H]">Home</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here to access the main channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/sponsor.php" title="Click here to find out more about our very generous sponsors! [Hotkey: S]">Sponsors</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">Equipment</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/about.php" title="Click here to find out more about the show and this website. [Hotkey: A]">About</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/support.php" title="Click here to see how you can support the show. Thanks for thinking of me! [Hotkey: U]">Support the Show!</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/debug.php" title="John&apos;s debug thing">Debug</a></li>
+									<li class="popover-item">
+										<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]">
+											<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a></li></ul></div></li></ul>
+					<div class="menu-list">
+						<a class="internal" rel="follow" href="/in-the-lab/" title="Click here to visit the homepage for this website. [Hotkey: H]">Home</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here to access the main channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/sponsor.php" title="Click here to find out more about our very generous sponsors! [Hotkey: S]">Sponsors</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">Equipment</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/about.php" title="Click here to find out more about the show and this website. [Hotkey: A]">About</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to see how you can support the show. Thanks for thinking of me! [Hotkey: U]">Support the Show!</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/debug.php" title="John&apos;s debug thing">Debug</a>
+						<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]">
+							<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a></div></div></nav>
+			<header id="banner">
+				<img loading="eager" class="rc-base" src="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-0320" src="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-0640" src="/in-the-lab/res/img.php/banner-0640.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-1280" src="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-1920" src="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" alt=""></header>
+			<header id="home" class="header">
+				<section>
+					<img src="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" alt="" loading="lazy">
+					<h1 id="heading">About the Website</h1>
+					<p>This website is for the video blog of John Elliot V who is affectionately known as Jay Jay.</p></section></header>
+			<section>
+				<h2 id="contents">Table of Contents</h2>
+				<p>The contents of this page are organised into the following sections:</p>
+				<div id="contents_div">Contents will go here (if you have Javascript enabled).</div></section>
+			<section>
+				<h2 id="contact-info">Contact Information</h2>
+				<p>You can always find my contact information on the 
+					<a class="internal" rel="follow" href="/in-the-lab/contact.php" title="Click here to find my contact details. [Hotkey: C]">contact</a> page.</p></section>
+			<section>
+				<h2 id="blog-summary">John&apos;s Blog</h2>
+				<p>I usually write up show notes on my blog, which is over here:</p>
+				<p class="indent">
+					<a class="external" target="_blank" rel="noopener follow" href="https://blog.jj5.net/" title="Click here to visit my blog!">https://blog.jj5.net/</a></p></section>
+			<section>
+				<h2 id="wiki-summary">John&apos;s Wiki</h2>
+				<p>I often make notes on my wiki, which is over here:</p>
+				<p class="indent">
+					<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/" title="Click here to visit my wiki!">https://www.jj5.net/wiki/</a></p>
+				<p>You might occasionally see my wiki referred to as &quot;sixsigma&quot; which is its codename.</p></section>
+			<section>
+				<h2 id="announcements">Announcements</h2>
+				<p>When I release a new video I announce it on:</p>
+				<ul>
+					<li>
+						<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/JohnElliotV" title="Click here to see my generous supporters on Patreon, and maybe join them?">patreon.com/JohnElliotV</a> (for both 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a> and 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@ElliotsExtras" title="Click here for extra content on my 2nd YouTube channel @ElliotsExtras. [Hotkey: 2]">2nd channel</a> videos)</li>
+					<li>
+						<a class="external" target="_blank" rel="noopener follow" href="https://www.youtube.com/@InTheLabWithJayJay" title="Click here to visit my main channel known as @InTheLabWithJayJay over on YouTube. Thanks very much for watching! And please remember to hit like and subscribe! :)">youtube.com/@InTheLabWithJayJay</a> (for 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a> videos)</li>
+					<li>
+						<a class="external" target="_blank" rel="noopener follow" href="https://www.youtube.com/@ElliotsExtras" title="Click here to visit my 2nd channel known as @ElliotsExtras over on YouTube.">youtube.com/@ElliotsExtras</a> (for 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@ElliotsExtras" title="Click here for extra content on my 2nd YouTube channel @ElliotsExtras. [Hotkey: 2]">2nd channel</a> videos)</li>
+					<li>
+						<a class="external" target="_blank" rel="noopener follow" href="https://blog.jj5.net/" title="Click here to visit my blog!">blog.jj5.net</a> (for both 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a> and 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@ElliotsExtras" title="Click here for extra content on my 2nd YouTube channel @ElliotsExtras. [Hotkey: 2]">2nd channel</a> videos with 
+						<a class="internal" rel="follow" href="/in-the-lab/#show-notes" title="Click here to read the show notes published with this video.">show notes</a>)</li>
+					<li>
+						<a class="internal" rel="follow" href="https://www.inthelabwithjayjay.com/" title="Click here to visit the show&apos;s home page. [Hotkey: H]">InTheLabWithJayJay.com</a> (this website, aka 
+						<a class="external" target="_blank" rel="noopener follow" href="https://jjlab.net/" title="Click here to visit the show&apos;s home page. [Hotkey: H]">jjlab.net</a>)</li></ul>
+				<p>If you&apos;re interested in getting notifications about new videos you can subscribe to an 
+					<a class="internal" rel="follow" href="/in-the-lab/#feeds" title="Click here for the RSS feed for these types of videos.">RSS feed</a>.</p></section>
+			<section>
+				<h2 id="records">Prices and Other Records</h2>
+				<p>The prices and other information shown on this website can be imprecise for many reasons, including the following:</p>
+				<ul>
+					<li>currency conversion</li>
+					<li>tax included or not</li>
+					<li>shipping included or not</li>
+					<li>discounts included or not</li>
+					<li>missing records</li>
+					<li>incomplete records</li>
+					<li>out of date records</li>
+					<li>incorrect records</li></ul>
+				<p>If you find something that is wrong or could be improved, please do 
+					<a class="internal" rel="follow" href="/in-the-lab/contact.php" title="Click here to find my contact details. [Hotkey: C]">let me know</a>.</p></section>
+			<section>
+				<h2 id="colophon">Colophon</h2>
+				<p>Here are some notes about how this website is made.</p></section>
+			<section>
+				<h3 id="about-logo">Logo</h3>
+				<img src="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" class="logo" style="width:70px; height:70px; float:right; margin: 0px 10px;" alt="The show&apos;s logo is a version of the Hacker Emblem which is the Glider from Conway&apos;s Game of Life." title="The show&apos;s logo is a version of the Hacker Emblem which is the Glider from Conway&apos;s Game of Life." loading="lazy">
+				<p>The show&apos;s logo (shown right) is a version of the 
+					<a class="external" target="_blank" rel="noopener follow" href="http://www.catb.org/hacker-emblem/" title="Click here to learn more about the hacker emblem.">Hacker Emblem</a>. As all good nerds will know the 
+					<a class="external" target="_blank" rel="noopener follow" href="https://en.wikipedia.org/wiki/Glider_(Conway%27s_Game_of_Life)" title="Click here to learn more about the glider in Conway&apos;s Game of Life.">glider</a> which Eric S. Raymond chose for the hacker emblem can be in any of four different states, so I picked an alternative state for the glider to be in for the show&apos;s logo. The state I picked looks a little bit like a &quot;J&quot;, for &quot;Jay Jay&quot;, don&apos;t you think? :)</p></section>
+			<section>
+				<h3 id="source-code">Source Code</h3>
+				<p>The source code for this website is now available on GitHub:</p>
+				<p class="indent">
+					<a class="external" target="_blank" rel="noopener follow" href="https://github.com/jj5/www.jjlab.net" title="Click here to find the source code for this website.">github.com/jj5/www.jjlab.net</a></p></section>
+			<section>
+				<h3 id="software-version">Software Version</h3>
+				<p>This website is running on the following software:</p>
+				<table>
+					<thead>
+						<tr>
+							<th>Software</th>
+							<th>Version</th></tr></thead>
+					<tbody>
+						<tr>
+							<td class="right">
+								<a class="external" target="_blank" rel="noopener follow" href="https://github.com/jj5/www.jjlab.net" title="Click here to learn more about the www.jjlab.net software.">www.jjlab.net</a></td>
+							<td class="right">0.2.1115-211631354</td></tr>
+						<tr>
+							<td class="right">
+								<a class="external" target="_blank" rel="noopener follow" href="https://github.com/jj5/mudball" title="Click here to learn more about the Mudball: Web Framework and Toolkit for PHP software.">Mudball</a></td>
+							<td class="right">0.5.1623-211631354</td></tr>
+						<tr>
+							<td class="right">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.php.net/" title="Click here to learn more about the PHP software.">PHP</a></td>
+							<td class="right">8.2.20</td></tr>
+						<tr>
+							<td class="right">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.apache.org/" title="Click here to learn more about the Apache software.">Apache</a></td>
+							<td class="right">2.4.61</td></tr>
+						<tr>
+							<td class="right">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.debian.org/" title="Click here to learn more about the Debian software.">Debian</a></td>
+							<td class="right">12.6
+</td></tr></tbody></table></section>
+			<section>
+				<h3 id="xml-files">XML Files</h3>
+				<p>This website has a 
+					<a class="internal" rel="follow" href="/in-the-lab/sitemap.php" title="Click here to view the sitemap.xml file. [Hotkey: X]">sitemap.xml</a> file and a 
+					<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here for the RSS feed with all videos in it. [Hotkey: R]">rss.xml</a> file.</p></section>
+			<section>
+				<h3 id="text-files">Text Files</h3>
+				<p>This website has a 
+					<a class="internal" rel="follow" href="/humans.txt" title="Click here to view the humans.txt file.">humans.txt</a> file and a 
+					<a class="internal" rel="follow" href="/robots.txt" title="Click here to view the robots.txt file.">robots.txt</a> file.</p></section>
+			<section>
+				<h2 id="secret-links">Secret Links</h2>
+				<p>Can you keep a secret? There are two handy pages I made for my own use. I don&apos;t advertise them because they use massive HTML tables so the pages aren&apos;t responsive (i.e. they don&apos;t look good on mobile devices). But if you&apos;re brave you can find them here:</p>
+				<ul>
+					<li>
+						<a class="internal" rel="follow" href="/in-the-lab/videos.php" title="Click here to see the &quot;secret&quot; index of all videos. [Hotkey: V]">Videos Index</a></li>
+					<li>
+						<a class="internal" rel="follow" href="/in-the-lab/books.php" title="Click here to see the &quot;secret&quot; index of all books. [Hotkey: B]">Books Index</a></li></ul>
+				<p>I also have some notes about YouTube hacks over here: 
+					<a class="internal" rel="follow" href="/in-the-lab/youtube-hacks.php" title="Click here to read about YouTube hacks. [Hotkey: 3]">YouTube Hacks</a>.</p></section>
+			<section>
+				<h2 id="jjcode">New JJCODE</h2>
+				<p>This is a facility for John. I use it to generate the five digit codes used in the short links. Usually this is an automated process, but sometimes I set it up manually.</p>
+				<p>Here is a new JJCODE: 58297</p></section>
+			<section>
+				<h2 id="shortcuts">Shortcut Keys</h2>
+				<p>There are some hotkeys you can use to speed your navigation. Just press the key for the page you want. I added this support for hotkeys because I use this website quite a lot while I&apos;m working on the show. It&apos;s mostly just here for my use but it would be cool if someone else found it useful too! I&apos;m not sure if it will work on all browsers, but it works on recent versions of Firefox and Chromium. The main hotkey you have to remember is &apos;?&apos; for this section of this page, then you can take it from there.</p>
+				<table class="sortable">
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>Hotkey</th>
+							<th>Page</th>
+							<th>Description</th></tr></thead>
+					<tbody>
+						<tr>
+							<td class="right">1</td>
+							<td style="text-align:center;">?</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab/about.php#shortcuts" title="Click here for a list of supported hotkeys. [Hotkey: ?]">Shortcuts</a></td>
+							<td>Click here for a list of supported hotkeys. [Hotkey: ?]</td></tr>
+						<tr>
+							<td class="right">2</td>
+							<td style="text-align:center;">0</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab#" title="Click here to return to the top of the current page. [Hotkey: 0]">Return to Top</a></td>
+							<td>Click here to return to the top of the current page. [Hotkey: 0]</td></tr>
+						<tr>
+							<td class="right">3</td>
+							<td style="text-align:center;">.</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab#contents" title="Click here to navigate to the table of contents (if it&apos;s available). [Hotkey: .]">Table of Contents</a></td>
+							<td>Click here to navigate to the table of contents (if it&apos;s available). [Hotkey: .]</td></tr>
+						<tr>
+							<td class="right">4</td>
+							<td style="text-align:center;">H</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab/" title="Click here to visit the show&apos;s home page. [Hotkey: H]">Homepage</a></td>
+							<td>Click here to visit the show&apos;s home page. [Hotkey: H]</td></tr>
+						<tr>
+							<td class="right">5</td>
+							<td style="text-align:center;">L</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab/#latest" title="Click here to watch the latest main channel video on the homepage. [Hotkey: L]">Latest Video</a></td>
+							<td>Click here to watch the latest main channel video on the homepage. [Hotkey: L]</td></tr>
+						<tr>
+							<td class="right">6</td>
+							<td style="text-align:center;">!</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab/#costume" title="Click here to find out about my costume. [Hotkey: !]">Lab Costume</a></td>
+							<td>Click here to find out about my costume. [Hotkey: !]</td></tr>
+						<tr>
+							<td class="right">7</td>
+							<td style="text-align:center;">I</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab/#silly-job-title" title="Click here to read about the silly job title. [Hotkey: I]">Silly Job Title</a></td>
+							<td>Click here to read about the silly job title. [Hotkey: I]</td></tr>
+						<tr>
+							<td class="right">8</td>
+							<td style="text-align:center;">M</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay#heading" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a></td>
+							<td>Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]</td></tr>
+						<tr>
+							<td class="right">9</td>
+							<td style="text-align:center;">2</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab/channel.php/@ElliotsExtras#heading" title="Click here for extra content on my 2nd YouTube channel @ElliotsExtras. [Hotkey: 2]">2nd Channel</a></td>
+							<td>Click here for extra content on my 2nd YouTube channel @ElliotsExtras. [Hotkey: 2]</td></tr>
+						<tr>
+							<td class="right">10</td>
+							<td style="text-align:center;">5</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab/about.php#jjcode" title="This is a facility for John.">New JJCODE</a></td>
+							<td>This is a facility for John.</td></tr>
+						<tr>
+							<td class="right">11</td>
+							<td style="text-align:center;">S</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab/sponsor.php#heading" title="Click here to learn more about my generous sponsors. [Hotkey: S]">Sponsors</a></td>
+							<td>Click here to learn more about my generous sponsors. [Hotkey: S]</td></tr>
+						<tr>
+							<td class="right">12</td>
+							<td style="text-align:center;">E</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab/equipment.php#heading" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">Equipment</a></td>
+							<td>Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]</td></tr>
+						<tr>
+							<td class="right">13</td>
+							<td style="text-align:center;">A</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab/about.php#heading" title="Click here for more info about the show and this website. [Hotkey: A]">About the Website</a></td>
+							<td>Click here for more info about the show and this website. [Hotkey: A]</td></tr>
+						<tr>
+							<td class="right">14</td>
+							<td style="text-align:center;">3</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab/youtube-hacks.php#heading" title="Click here to read about YouTube hacks. [Hotkey: 3]">YouTube Hacks</a></td>
+							<td>Click here to read about YouTube hacks. [Hotkey: 3]</td></tr>
+						<tr>
+							<td class="right">15</td>
+							<td style="text-align:center;">U</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab/support.php#heading" title="Click here to find out how you can support the show. [Hotkey: U]">Support the Show!</a></td>
+							<td>Click here to find out how you can support the show. [Hotkey: U]</td></tr>
+						<tr>
+							<td class="right">16</td>
+							<td style="text-align:center;">C</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab/contact.php#heading" title="Click here to find my contact details. [Hotkey: C]">Contact Info</a></td>
+							<td>Click here to find my contact details. [Hotkey: C]</td></tr>
+						<tr>
+							<td class="right">17</td>
+							<td style="text-align:center;">N</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab/stats.php#heading" title="Click here for stats about my videos and equipment. [Hotkey: N]">Statistics</a></td>
+							<td>Click here for stats about my videos and equipment. [Hotkey: N]</td></tr>
+						<tr>
+							<td class="right">18</td>
+							<td style="text-align:center;">J</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab/feature.php/mini-project#heading" title="Click here to watch the videos where I work through Mini Projects from Silicon Chip and Jaycar. [Hotkey: J]">Mini Projects</a></td>
+							<td>Click here to watch the videos where I work through Mini Projects from Silicon Chip and Jaycar. [Hotkey: J]</td></tr>
+						<tr>
+							<td class="right">19</td>
+							<td style="text-align:center;">K</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab/feature.php/maxitronix#heading" title="Click here to watch the videos where I work through old Maxitronix electronic project labs. [Hotkey: K]">Maxitronix Kits</a></td>
+							<td>Click here to watch the videos where I work through old Maxitronix electronic project labs. [Hotkey: K]</td></tr>
+						<tr>
+							<td class="right">20</td>
+							<td style="text-align:center;">V</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab/videos.php#videos" title="Click here to see the &quot;secret&quot; index of all videos. [Hotkey: V]">Video Index</a></td>
+							<td>Click here to see the &quot;secret&quot; index of all videos. [Hotkey: V]</td></tr>
+						<tr>
+							<td class="right">21</td>
+							<td style="text-align:center;">B</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab/books.php#books" title="Click here to see the &quot;secret&quot; index of all books. [Hotkey: B]">Book Index</a></td>
+							<td>Click here to see the &quot;secret&quot; index of all books. [Hotkey: B]</td></tr>
+						<tr>
+							<td class="right">22</td>
+							<td style="text-align:center;">X</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab/sitemap.php" title="Click here for the sitemap.xml file. [Hotkey: X]">sitemap.xml</a></td>
+							<td>Click here for the sitemap.xml file. [Hotkey: X]</td></tr>
+						<tr>
+							<td class="right">23</td>
+							<td style="text-align:center;">R</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]">RSS Feed</a></td>
+							<td>Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]</td></tr>
+						<tr>
+							<td class="right">24</td>
+							<td style="text-align:center;">T</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab/blog-template.php#heading" title="Click here to see the template blog post that John uses for the show notes. [Hotkey: T]">Blog Template</a></td>
+							<td>Click here to see the template blog post that John uses for the show notes. [Hotkey: T]</td></tr>
+						<tr>
+							<td class="right">25</td>
+							<td style="text-align:center;">Y</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab/youtube-template.php#heading" title="Click here to see my YouTube video comment template. [Hotkey: Y]">YouTube Template</a></td>
+							<td>Click here to see my YouTube video comment template. [Hotkey: Y]</td></tr>
+						<tr>
+							<td class="right">26</td>
+							<td style="text-align:center;">Z</td>
+							<td>
+								<a class="internal" rel="follow" href="/in-the-lab/about.php#software-version" title="Click here for information about the website software [Hotkey: Z]">Software Version</a></td>
+							<td>Click here for information about the website software [Hotkey: Z]</td></tr>
+						<tr>
+							<td class="right">27</td>
+							<td style="text-align:center;">D</td>
+							<td>
+								<a class="internal" rel="nofollow" href="/in-the-lab/debug.php" title="Click here at your peril. :) [Hotkey: D]">Debug</a></td>
+							<td>Click here at your peril. :) [Hotkey: D]</td></tr></tbody></table></section>
+			<section>
+				<h2 id="thanks">Thank You!</h2>
+				<p>Thanks very much for your interest and 
+					<b>I hope you enjoy the show!</b></p></section>
+			<section>
+				<h2 id="next">Where to from Here?</h2>
+				<p>You made it to the bottom of the page, huh? Well done! I&apos;m a bit of a scroller myself. :)</p>
+				<p>Where you go next depends on what you&apos;re interested in. Here are some suggestions:</p>
+				<ul>
+					<li>If you&apos;re enjoying my content you could consider 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to find out how you can support the show. [Hotkey: U]">supporting the show</a>.</li>
+					<li>My 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/new-book-teardown" title="Click here to watch the videos where I review new technology related books.">new book teardown videos</a> are quite popular, you might enjoy watching those.</li>
+					<li>My personal favourites are the 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="Click here to watch the videos where I review old technology related books.">old book teardown videos</a>.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a>, for all my high quality content including my 
+						<a class="internal" rel="follow" href="/in-the-lab/show-type.php/special-show" title="Click here to watch special shows which air on the main channel.">special shows</a>.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/show-type.php/main-show" title="Click here to watch videos recorded for the main show.">main show</a>, for my main show videos, which include the 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/electronics-project" title="Click here to watch the electronics project videos.">electronics project</a> and 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="Click here to watch the videos where I review old technology related books.">old book teardown</a> videos.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">equipment</a> page, if you&apos;re interested in any of the equipment I use. If you&apos;re putting together your own electronics lab then I would certainly recommend checking this out!</li>
+					<li>Did I mention that you can 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to find out how you can support the show. [Hotkey: U]">support the show</a>? :)</li></ul></section></main>
+		<footer>
+			<div>&copy; Copyright 2024 John Elliot V. All rights reserved.</div></footer>
+		<script>window.g_mud_html_options = [];</script></body></html>

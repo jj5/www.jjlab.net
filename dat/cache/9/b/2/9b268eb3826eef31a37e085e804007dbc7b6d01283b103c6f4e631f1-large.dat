@@ -1,0 +1,1681 @@
+<!DOCTYPE html>
+
+<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Equipment Category: Cutting Implement — In The Lab With Jay Jay</title>
+		<meta charset="UTF-8">
+		<meta name="date" content="2024-08-07T20:32:44+00:00">
+		<meta name="author" content="John Elliot V">
+		<meta name="keywords" content="electronics videos, electronics lab, electronics kits, electronics experiments, video blog, In The Lab With Jay Jay, John Elliot V">
+		<meta name="description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+		<meta name="robots" content="index, follow">
+		<meta property="og:title" content="Equipment Category: Cutting Implement — In The Lab With Jay Jay">
+		<meta property="og:description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta property="og:image" content="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<meta property="og:url" content="http://localhost/in-the-lab/category.php/Cutting-Implement">
+		<meta property="og:type" content="website">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:title" content="Equipment Category: Cutting Implement — In The Lab With Jay Jay">
+		<meta name="twitter:description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta name="twitter:image" content="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<link rel="icon" href="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<link rel="canonical" href="http://localhost/in-the-lab/category.php/Cutting-Implement">
+		<link rel="alternate" type="application/rss+xml" title="In The Lab With Jay Jay » Feed" href="/in-the-lab/feed.php">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		<link rel="stylesheet" href="/in-the-lab/res/style.php/jjlab-0.2.1115/style.css">
+		<script>
+			var MUD_SERVER_VERSION = "0.5.1623-211631354";
+		
+			var APP_SERVER_VERSION = "0.2.1115-211631354";
+		
+			var URL_BASE = "\/in-the-lab";
+		
+			var DEBUG = true;
+		
+			var DEV = true;
+		
+			var BETA = false;
+		
+			var IS_JOHN = true;
+		
+		</script>
+		<script src="/in-the-lab/res/script.php/jjlab-0.2.1115/script.js"></script>
+		<link rel="preload" href="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/banner-0640.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" as="image"></head>
+	<body>
+		<main class="wrapper">
+			<nav class="navigation">
+				<div class="container">
+					<a href="/in-the-lab/" class="navigation-title" title="In The Lab With Jay Jay is the video blog of John Elliot V">
+						<img src="/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" loading="eager" alt="">
+						<header class="title">In The Lab With Jay Jay</header></a>
+					<ul class="navigation-list">
+						<li class="navigation-item">
+							<button class="hamburger" onclick="handle_hamburger_click( event, this )" title="Click here to access the website navigation.">
+								<span class="bar"></span>
+								<span class="bar"></span>
+								<span class="bar"></span></button>
+							<div id="popover-grid" class="popover">
+								<ul class="popover-list">
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/" title="Click here to visit the homepage for this website. [Hotkey: H]">Home</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here to access the main channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/sponsor.php" title="Click here to find out more about our very generous sponsors! [Hotkey: S]">Sponsors</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">Equipment</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/about.php" title="Click here to find out more about the show and this website. [Hotkey: A]">About</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/support.php" title="Click here to see how you can support the show. Thanks for thinking of me! [Hotkey: U]">Support the Show!</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/debug.php" title="John&apos;s debug thing">Debug</a></li>
+									<li class="popover-item">
+										<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]">
+											<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a></li></ul></div></li></ul>
+					<div class="menu-list">
+						<a class="internal" rel="follow" href="/in-the-lab/" title="Click here to visit the homepage for this website. [Hotkey: H]">Home</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here to access the main channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/sponsor.php" title="Click here to find out more about our very generous sponsors! [Hotkey: S]">Sponsors</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">Equipment</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/about.php" title="Click here to find out more about the show and this website. [Hotkey: A]">About</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to see how you can support the show. Thanks for thinking of me! [Hotkey: U]">Support the Show!</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/debug.php" title="John&apos;s debug thing">Debug</a>
+						<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]">
+							<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a></div></div></nav>
+			<header id="banner">
+				<img loading="eager" class="rc-base" src="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-0320" src="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-0640" src="/in-the-lab/res/img.php/banner-0640.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-1280" src="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-1920" src="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" alt=""></header>
+			<header id="home" class="header">
+				<section>
+					<img src="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" alt="" loading="lazy">
+					<h1 id="heading">Equipment Category: Cutting Implement</h1>
+					<p>I have fourteen types of equipment in this category.</p>
+					<p>Click through on the green affiliate links to buy! (If I don&apos;t have an affiliate link for a product I will give you a normal link in dark blue. You can click through on that to buy too.)</p>
+					<p>This page does have a 
+						<a class="internal" rel="follow" href="#contents" title="Click here to navigate to the table of contents (if it&apos;s available). [Hotkey: .]">Table of Contents</a> but it&apos;s at the bottom of the page.</p></section></header>
+			<div class="equipment equipment-table">
+				<div id="options">
+					<p>Prices in: 
+						<a class="internal" rel="nofollow" href="?currency=USD#options" title="Click here to get prices in United States Dollars.">USD</a> | 
+						<a class="internal" rel="nofollow" href="?currency=AUD#options" title="Click here to get prices in Australian Dollars.">AUD</a> | 
+						<a class="internal" rel="nofollow" href="?#options" title="Click here to get prices in the currency used on the affiliated page.">default</a> &mdash; Sort: 
+						<a class="internal" rel="nofollow" href="?sort=cheap-first#options" title="Click here to sort from cheapest to most expensive.">cheap first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=expensive-first#options" title="Click here to sort from most expensive to cheapest.">expensive first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=new-first#options" title="Click here to sort with most recently purchased first.">newest first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=old-first#options" title="Click here to sort with the least recently purchased first.">oldest first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=random#options" title="Click here to sort randomly.">random</a> | 
+						<a class="internal" rel="nofollow" href="?#options" title="Click here to use the default sort (expensive first).">default</a></p></div>
+				<table id="equipment" class="main">
+					<tbody>
+						<tr class="spacer row-1">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="6">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Victorinox-Swiss-Champ-Red-Swiss-Army-Knife" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Victorinox Swiss Champ Red Swiss Army Knife</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/5d46d0fc085a56f5c6fd2d3fb21bbc63.jpg?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="It is unknown when this equipment was first purchased.">First purchase: Unknown</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/50210" title="You can use this short link to link to this equipment.">https://jj5.net/50210</a></div>
+								<div>JJCODE: 50210</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Victorinox+Swiss+Champ+Red+Swiss+Army+Knife" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Victorinox+Swiss+Champ+Red+Swiss+Army+Knife" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Victorinox+Swiss+Champ+Red+Swiss+Army+Knife" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Victorinox+Swiss+Champ+Red+Swiss+Army+Knife" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Victorinox-Swiss-Champ-Red-Swiss-Army-Knife.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Victorinox+Swiss+Champ+Red+Swiss+Army+Knife" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Victorinox+Swiss+Champ+Red+Swiss+Army+Knife" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Victorinox+Swiss+Champ+Red+Swiss+Army+Knife" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Victorinox+Swiss+Champ+Red+Swiss+Army+Knife" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Victorinox+Swiss+Champ+Red+Swiss+Army+Knife" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Victorinox-Swiss-Champ-Red-Swiss-Army-Knife">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Victorinox Swiss Champ Red Swiss Army Knife</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Victorinox" title="Click here to see other equipment from this manufacturer.">Victorinox</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Awl" title="Click here to see other equipment in this category.">Awl</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Ballpoint-Pen" title="Click here to see other equipment in this category.">Ballpoint Pen</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Bottle-Opener" title="Click here to see other equipment in this category.">Bottle Opener</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Can-Opener" title="Click here to see other equipment in this category.">Can Opener</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Chisel" title="Click here to see other equipment in this category.">Chisel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Consumable" title="Click here to see other equipment in this category.">Consumable</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Corkscrew" title="Click here to see other equipment in this category.">Corkscrew</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Crimper" title="Click here to see other equipment in this category.">Crimper</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Cutting-Implement" title="Click here to see other equipment in this category.">Cutting Implement</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/File" title="Click here to see other equipment in this category.">File</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Fish-Scaler" title="Click here to see other equipment in this category.">Fish Scaler</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hook-Disgorger" title="Click here to see other equipment in this category.">Hook Disgorger</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hook-Tool" title="Click here to see other equipment in this category.">Hook Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Key-Ring" title="Click here to see other equipment in this category.">Key Ring</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Knife" title="Click here to see other equipment in this category.">Knife</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Magnifier" title="Click here to see other equipment in this category.">Magnifier</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Magnifying-Glass" title="Click here to see other equipment in this category.">Magnifying Glass</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Metal-File" title="Click here to see other equipment in this category.">Metal File</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Metal-Saw" title="Click here to see other equipment in this category.">Metal Saw</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Multi-Purpose-Hook" title="Click here to see other equipment in this category.">Multi Purpose Hook</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Nail-Cleaner" title="Click here to see other equipment in this category.">Nail Cleaner</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Nail-File" title="Click here to see other equipment in this category.">Nail File</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pen" title="Click here to see other equipment in this category.">Pen</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pin" title="Click here to see other equipment in this category.">Pin</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Pliers" title="Click here to see other equipment in this category.">Pliers</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Punch" title="Click here to see other equipment in this category.">Punch</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Reamer" title="Click here to see other equipment in this category.">Reamer</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Ruler" title="Click here to see other equipment in this category.">Ruler</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Ruler-cm-" title="Click here to see other equipment in this category.">Ruler (cm)</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Ruler-inch-" title="Click here to see other equipment in this category.">Ruler (inch)</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Saw" title="Click here to see other equipment in this category.">Saw</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Scissors" title="Click here to see other equipment in this category.">Scissors</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Screwdriver" title="Click here to see other equipment in this category.">Screwdriver</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Sewing-Awl" title="Click here to see other equipment in this category.">Sewing Awl</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Swiss-Army-Knife" title="Click here to see other equipment in this category.">Swiss Army Knife</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Toothpick" title="Click here to see other equipment in this category.">Toothpick</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Tweezers" title="Click here to see other equipment in this category.">Tweezers</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Wire-Bender" title="Click here to see other equipment in this category.">Wire Bender</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Wire-Crimper" title="Click here to see other equipment in this category.">Wire Crimper</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Wire-Stripper" title="Click here to see other equipment in this category.">Wire Stripper</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Wood-Saw" title="Click here to see other equipment in this category.">Wood Saw</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Tuesday, January 16, 2024">$108.16</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/QKkrw8" title="Click here for the latest price from this affiliate and to buy!">VICTORINOX SWISS CHAMP RED - SWISS ARMY POCKET KNIFE - LENGTH: 91 MM - 33 TOOLS</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td>
+							<td colspan="1" rowspan="2" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Victorinox_Swiss_Champ_Red" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Tuesday, January 16, 2024">A$177.60</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/mfUhIF" title="Click here for the latest price from this affiliate and to buy!">VICTORINOX SWISS CHAMP RED - SWISS ARMY POCKET KNIFE - LENGTH: 91 MM - 33 TOOLS</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Manufacturer links:</p>
+								<ul>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() -->
+									<li><!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/WebLink.php:28 WebLink::render() -->
+<a class="external" target="_blank" rel="noopener follow" href="https://www.victorinox.com/global/en/Products/Swiss-Army-Knives/Medium-Pocket-Knives/Swiss-Champ/p/1.6795" title="Click here to open a new tab for this external link.">Victorinox Swiss Champ in red</a></li></ul>
+								<p>Directory name:</p>
+								<p class="indent">knife-Victorinox-Swiss-Champ-Red-Swiss-Army-Knife</p>
+								<p>Wiki name:</p>
+								<p class="indent">Victorinox Swiss Champ Red Swiss Army Knife</p></td></tr>
+						<tr class="spacer row-2">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Swann-Morten-Handle-For-No.-10-10A-11-15-15A-Scalpel-Handle" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Swann &amp; Morten Handle For No. 10 10A 11 15 15A Scalpel Handle</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/bba4e1e48b585a8c69c6397a0792ea34.jpg?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Monday, August 21, 2023.">First purchase: Monday, August 21, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/53511" title="You can use this short link to link to this equipment.">https://jj5.net/53511</a></div>
+								<div>JJCODE: 53511</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Swann+%26+Morten+Handle+For+No.+10+10A+11+15+15A+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Swann+%26+Morten+Handle+For+No.+10+10A+11+15+15A+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Swann+%26+Morten+Handle+For+No.+10+10A+11+15+15A+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Swann+%26+Morten+Handle+For+No.+10+10A+11+15+15A+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Swann-%26-Morten-Handle-For-No.-10-10A-11-15-15A-Scalpel-Handle.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Swann+%26+Morten+Handle+For+No.+10+10A+11+15+15A+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Swann+%26+Morten+Handle+For+No.+10+10A+11+15+15A+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Swann+%26+Morten+Handle+For+No.+10+10A+11+15+15A+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Swann+%26+Morten+Handle+For+No.+10+10A+11+15+15A+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Swann+%26+Morten+Handle+For+No.+10+10A+11+15+15A+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Swann-Morten-Handle-For-No.-10-10A-11-15-15A-Scalpel-Handle">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Swann &amp; Morten Handle For No. 10 10A 11 15 15A Scalpel Handle</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Swann-Morten" title="Click here to see other equipment from this manufacturer.">Swann &amp; Morten</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Cutting-Implement" title="Click here to see other equipment in this category.">Cutting Implement</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Scalpel" title="Click here to see other equipment in this category.">Scalpel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Scalpel-Handle" title="Click here to see other equipment in this category.">Scalpel Handle</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, August 21, 2023">A$30.95</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/pemlat" title="Click here for the latest price from this affiliate and to buy!">Retractaway Swann &amp; Morton Scalpel Handle For # 10 10A 11 15 15A Surgical Blades</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td>
+							<td colspan="1" rowspan="1" class="notes"></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Directory name:</p>
+								<p class="indent">cutter-Swann-Morten-Handle-For-No.-10-10A-11-15-15A-Scalpel-Handle</p>
+								<p>Wiki name:</p>
+								<p class="indent">Swann &amp; Morten Handle For No. 10 10A 11 15 15A Scalpel Handle</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">eBay Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$53.90</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://ebay.us/pemlat" title="Retractaway Swann &amp; Morton Scalpel Handle For # 10 10A 11 15 15A Surgical Blades">two of these</a> on Monday, August 21, 2023 for A$26.95 each with free shipping for a total of A$53.90.
+								<a class="external" target="_blank" rel="noopener follow" href="https://order.ebay.com.au/ord/show?orderId=13-10438-25114#/" title="Click here to view the order of this equipment.">13-10438-25114</a></td>
+							<td class="center"></td>
+							<td class="total right">$53.90</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 2 of these for total (AUD):</td>
+							<td class="right">$53.90</td></tr>
+						<tr class="spacer row-3">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Swann-Morten-20pcs-No.10-Scalpel-Blade" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Swann &amp; Morten 20pcs No.10 Scalpel Blade</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/5a0435018a197ee015939a54849acf2e.jpg?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Monday, August 21, 2023.">First purchase: Monday, August 21, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/83185" title="You can use this short link to link to this equipment.">https://jj5.net/83185</a></div>
+								<div>JJCODE: 83185</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Swann+%26+Morten+20pcs+No.10+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Swann+%26+Morten+20pcs+No.10+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Swann+%26+Morten+20pcs+No.10+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Swann+%26+Morten+20pcs+No.10+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Swann-%26-Morten-20pcs-No.10-Scalpel-Blade.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Swann+%26+Morten+20pcs+No.10+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Swann+%26+Morten+20pcs+No.10+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Swann+%26+Morten+20pcs+No.10+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Swann+%26+Morten+20pcs+No.10+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Swann+%26+Morten+20pcs+No.10+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Swann-Morten-20pcs-No.10-Scalpel-Blade">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Swann &amp; Morten 20pcs No.10 Scalpel Blade</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Swann-Morten" title="Click here to see other equipment from this manufacturer.">Swann &amp; Morten</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Accessory" title="Click here to see other equipment in this category.">Accessory</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Attachment" title="Click here to see other equipment in this category.">Attachment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Blade" title="Click here to see other equipment in this category.">Blade</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Cutting-Implement" title="Click here to see other equipment in this category.">Cutting Implement</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Scalpel" title="Click here to see other equipment in this category.">Scalpel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Scalpel-Blade" title="Click here to see other equipment in this category.">Scalpel Blade</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, August 21, 2023">A$19.90</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/u2TBln" title="Click here for the latest price from this affiliate and to buy!">Swann Morton Surgical Scalpel Blades Sterile Carbon Steel Available In 7 Size</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td>
+							<td colspan="1" rowspan="1" class="notes"></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Directory name:</p>
+								<p class="indent">cutter-Swann-Morten-20pcs-No.10-Scalpel-Blade</p>
+								<p>Wiki name:</p>
+								<p class="indent">Swann &amp; Morten 20pcs No.10 Scalpel Blade</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">eBay Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$19.90</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://ebay.us/u2TBln" title="Swann Morton Surgical Scalpel Blades Sterile Carbon Steel Available In 7 Size">one of these</a> on Monday, August 21, 2023 for A$19.90 each with free shipping for a total of A$19.90.
+								<a class="external" target="_blank" rel="noopener follow" href="https://order.ebay.com.au/ord/show?orderId=13-10438-25114#/" title="Click here to view the order of this equipment.">13-10438-25114</a></td>
+							<td class="center"></td>
+							<td class="total right">$19.90</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$19.90</td></tr>
+						<tr class="spacer row-4">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Swann-Morten-20pcs-No.15-Scalpel-Blade" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Swann &amp; Morten 20pcs No.15 Scalpel Blade</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/ecffd418e86b94385cea91d71a2aceaf.jpg?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Monday, August 21, 2023.">First purchase: Monday, August 21, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/48031" title="You can use this short link to link to this equipment.">https://jj5.net/48031</a></div>
+								<div>JJCODE: 48031</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Swann+%26+Morten+20pcs+No.15+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Swann+%26+Morten+20pcs+No.15+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Swann+%26+Morten+20pcs+No.15+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Swann+%26+Morten+20pcs+No.15+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Swann-%26-Morten-20pcs-No.15-Scalpel-Blade.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Swann+%26+Morten+20pcs+No.15+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Swann+%26+Morten+20pcs+No.15+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Swann+%26+Morten+20pcs+No.15+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Swann+%26+Morten+20pcs+No.15+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Swann+%26+Morten+20pcs+No.15+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Swann-Morten-20pcs-No.15-Scalpel-Blade">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Swann &amp; Morten 20pcs No.15 Scalpel Blade</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Swann-Morten" title="Click here to see other equipment from this manufacturer.">Swann &amp; Morten</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Accessory" title="Click here to see other equipment in this category.">Accessory</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Attachment" title="Click here to see other equipment in this category.">Attachment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Blade" title="Click here to see other equipment in this category.">Blade</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Cutting-Implement" title="Click here to see other equipment in this category.">Cutting Implement</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Scalpel" title="Click here to see other equipment in this category.">Scalpel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Scalpel-Blade" title="Click here to see other equipment in this category.">Scalpel Blade</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, August 21, 2023">A$19.90</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/u2TBln" title="Click here for the latest price from this affiliate and to buy!">Swann Morton Surgical Scalpel Blades Sterile Carbon Steel Available In 7 Size</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td>
+							<td colspan="1" rowspan="1" class="notes"></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Directory name:</p>
+								<p class="indent">cutter-Swann-Morten-20pcs-No.15-Scalpel-Blade</p>
+								<p>Wiki name:</p>
+								<p class="indent">Swann &amp; Morten 20pcs No.15 Scalpel Blade</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">eBay Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$19.90</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://ebay.us/u2TBln" title="Swann Morton Surgical Scalpel Blades Sterile Carbon Steel Available In 7 Size">one of these</a> on Monday, August 21, 2023 for A$19.90 each with free shipping for a total of A$19.90.
+								<a class="external" target="_blank" rel="noopener follow" href="https://order.ebay.com.au/ord/show?orderId=13-10438-25114#/" title="Click here to view the order of this equipment.">13-10438-25114</a></td>
+							<td class="center"></td>
+							<td class="total right">$19.90</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$19.90</td></tr>
+						<tr class="spacer row-5">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Swann-Morten-20pcs-No.15C-Scalpel-Blade" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Swann &amp; Morten 20pcs No.15C Scalpel Blade</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/5ad03fed9d30b7dc5b71076a0ba4dc37.jpg?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Monday, August 21, 2023.">First purchase: Monday, August 21, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/24150" title="You can use this short link to link to this equipment.">https://jj5.net/24150</a></div>
+								<div>JJCODE: 24150</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Swann+%26+Morten+20pcs+No.15C+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Swann+%26+Morten+20pcs+No.15C+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Swann+%26+Morten+20pcs+No.15C+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Swann+%26+Morten+20pcs+No.15C+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Swann-%26-Morten-20pcs-No.15C-Scalpel-Blade.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Swann+%26+Morten+20pcs+No.15C+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Swann+%26+Morten+20pcs+No.15C+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Swann+%26+Morten+20pcs+No.15C+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Swann+%26+Morten+20pcs+No.15C+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Swann+%26+Morten+20pcs+No.15C+Scalpel+Blade" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Swann-Morten-20pcs-No.15C-Scalpel-Blade">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Swann &amp; Morten 20pcs No.15C Scalpel Blade</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Swann-Morten" title="Click here to see other equipment from this manufacturer.">Swann &amp; Morten</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Accessory" title="Click here to see other equipment in this category.">Accessory</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Attachment" title="Click here to see other equipment in this category.">Attachment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Blade" title="Click here to see other equipment in this category.">Blade</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Cutting-Implement" title="Click here to see other equipment in this category.">Cutting Implement</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Scalpel" title="Click here to see other equipment in this category.">Scalpel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Scalpel-Blade" title="Click here to see other equipment in this category.">Scalpel Blade</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, August 21, 2023">A$19.90</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/u2TBln" title="Click here for the latest price from this affiliate and to buy!">Swann Morton Surgical Scalpel Blades Sterile Carbon Steel Available In 7 Size</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td>
+							<td colspan="1" rowspan="1" class="notes"></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Directory name:</p>
+								<p class="indent">cutter-Swann-Morten-20pcs-No.15C-Scalpel-Blade</p>
+								<p>Wiki name:</p>
+								<p class="indent">Swann &amp; Morten 20pcs No.15C Scalpel Blade</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">eBay Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$19.90</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://ebay.us/u2TBln" title="Swann Morton Surgical Scalpel Blades Sterile Carbon Steel Available In 7 Size">one of these</a> on Monday, August 21, 2023 for A$19.90 each with free shipping for a total of A$19.90.
+								<a class="external" target="_blank" rel="noopener follow" href="https://order.ebay.com.au/ord/show?orderId=13-10438-25114#/" title="Click here to view the order of this equipment.">13-10438-25114</a></td>
+							<td class="center"></td>
+							<td class="total right">$19.90</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$19.90</td></tr>
+						<tr class="spacer row-6">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Swann-Morten-No.4-Scalpel-Handle" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Swann &amp; Morten No.4 Scalpel Handle</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/38e83dc5542746a11fc02f543390eb75.jpg?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Monday, August 21, 2023.">First purchase: Monday, August 21, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/55138" title="You can use this short link to link to this equipment.">https://jj5.net/55138</a></div>
+								<div>JJCODE: 55138</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Swann+%26+Morten+No.4+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Swann+%26+Morten+No.4+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Swann+%26+Morten+No.4+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Swann+%26+Morten+No.4+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Swann-%26-Morten-No.4-Scalpel-Handle.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Swann+%26+Morten+No.4+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Swann+%26+Morten+No.4+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Swann+%26+Morten+No.4+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Swann+%26+Morten+No.4+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Swann+%26+Morten+No.4+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Swann-Morten-No.4-Scalpel-Handle">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Swann &amp; Morten No.4 Scalpel Handle</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Swann-Morten" title="Click here to see other equipment from this manufacturer.">Swann &amp; Morten</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Cutting-Implement" title="Click here to see other equipment in this category.">Cutting Implement</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Scalpel" title="Click here to see other equipment in this category.">Scalpel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Scalpel-Handle" title="Click here to see other equipment in this category.">Scalpel Handle</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, August 21, 2023">A$29.95</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/itm/154040191522" title="Click here for the latest price from this affiliate and to buy!">No. 4 Swann &amp; Morton Scalpel Handle For # 18 19 20 21 22 24 25 26 Surgical Blade</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td>
+							<td colspan="1" rowspan="1" class="notes"></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Directory name:</p>
+								<p class="indent">cutter-Swann-Morten-No.4-Scalpel-Handle</p>
+								<p>Wiki name:</p>
+								<p class="indent">Swann &amp; Morten No.4 Scalpel Handle</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">eBay Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$16.95</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/itm/154040191522" title="No. 4 Swann &amp; Morton Scalpel Handle For # 18 19 20 21 22 24 25 26 Surgical Blade">one of these</a> on Monday, August 21, 2023 for A$16.95 each with free shipping for a total of A$16.95.
+								<a class="external" target="_blank" rel="noopener follow" href="https://order.ebay.com.au/ord/show?orderId=13-10438-25114#/" title="Click here to view the order of this equipment.">13-10438-25114</a></td>
+							<td class="center"></td>
+							<td class="total right">$16.95</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$16.95</td></tr>
+						<tr class="spacer row-7">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Swann-Morten-No.15-Scalpel-Handle" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Swann &amp; Morten No.15 Scalpel Handle</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/d85983d7384709a885ddb7a995fc7c99.jpg?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Monday, August 28, 2023.">First purchase: Monday, August 28, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/79091" title="You can use this short link to link to this equipment.">https://jj5.net/79091</a></div>
+								<div>JJCODE: 79091</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Swann+%26+Morten+No.15+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Swann+%26+Morten+No.15+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Swann+%26+Morten+No.15+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Swann+%26+Morten+No.15+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Swann-%26-Morten-No.15-Scalpel-Handle.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Swann+%26+Morten+No.15+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Swann+%26+Morten+No.15+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Swann+%26+Morten+No.15+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Swann+%26+Morten+No.15+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Swann+%26+Morten+No.15+Scalpel+Handle" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Swann-Morten-No.15-Scalpel-Handle">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Swann &amp; Morten No.15 Scalpel Handle</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Swann-Morten" title="Click here to see other equipment from this manufacturer.">Swann &amp; Morten</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Cutting-Implement" title="Click here to see other equipment in this category.">Cutting Implement</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Scalpel" title="Click here to see other equipment in this category.">Scalpel</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Scalpel-Handle" title="Click here to see other equipment in this category.">Scalpel Handle</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, August 28, 2023">A$13.95</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/HwmtSX" title="Click here for the latest price from this affiliate and to buy!">Retractable No.15 Swann Morton Scalpel &amp; Handle Surgical Blade Retract Pull Back</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td>
+							<td colspan="1" rowspan="1" class="notes"></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Directory name:</p>
+								<p class="indent">cutter-Swann-Morten-No.15-Scalpel-Handle</p>
+								<p>Wiki name:</p>
+								<p class="indent">Swann &amp; Morten No.15 Scalpel Handle</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">eBay Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$13.95</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://ebay.us/HwmtSX" title="Retractable No.15 Swann Morton Scalpel &amp; Handle Surgical Blade Retract Pull Back">one of these</a> on Monday, August 28, 2023 for A$13.95 each with free shipping for a total of A$13.95.
+								<a class="external" target="_blank" rel="noopener follow" href="https://order.ebay.com.au/ord/show?orderId=25-10458-81975#/" title="Click here to view the order of this equipment.">25-10458-81975</a></td>
+							<td class="center"></td>
+							<td class="total right">$13.95</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$13.95</td></tr>
+						<tr class="spacer row-8">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#CANARY-DC-190F-Box-Cutter" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>CANARY DC-190F Box Cutter</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/7bb9ea3b90ca7260fd7718726b19793f.jpg?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Saturday, August 19, 2023.">First purchase: Saturday, August 19, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/27969" title="You can use this short link to link to this equipment.">https://jj5.net/27969</a></div>
+								<div>JJCODE: 27969</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=CANARY+DC-190F+Box+Cutter" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=CANARY+DC-190F+Box+Cutter" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=CANARY+DC-190F+Box+Cutter" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=CANARY+DC-190F+Box+Cutter" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-CANARY-DC-190F-Box-Cutter.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=CANARY+DC-190F+Box+Cutter" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=CANARY+DC-190F+Box+Cutter" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=CANARY+DC-190F+Box+Cutter" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=CANARY+DC-190F+Box+Cutter" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=CANARY+DC-190F+Box+Cutter" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="CANARY-DC-190F-Box-Cutter">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>CANARY DC-190F Box Cutter</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/CANARY" title="Click here to see other equipment from this manufacturer.">CANARY</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Box-Cutter" title="Click here to see other equipment in this category.">Box Cutter</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Cutting-Implement" title="Click here to see other equipment in this category.">Cutting Implement</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Knife" title="Click here to see other equipment in this category.">Knife</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Saturday, August 19, 2023">A$13.80</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/product/B075FP3JVP" title="Click here for the latest price from this affiliate and to buy!">CANARY Corrugated Cardboard Cutter Dan Chan, Safety Box Cutter Knife [Non-Stick Fluorine Coating Blade], Made in JAPAN, Yellow (DC-190F-1)</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td>
+							<td colspan="1" rowspan="1" class="notes"></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Directory name:</p>
+								<p class="indent">knife-CANARY-DC-190F-Box-Cutter</p>
+								<p>Wiki name:</p>
+								<p class="indent">CANARY DC-190F Box Cutter</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">Amazon Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$13.80</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/product/B075FP3JVP" title="CANARY Corrugated Cardboard Cutter Dan Chan [Non-Sticking Fluorine Coating], Yellow (DC-190F-1) (2 pcs)">one of these</a> on Saturday, August 19, 2023 for A$13.80 each with free shipping for a total of A$13.80.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&amp;orderID=249-2519603-9994229&amp;ref=ppx_yo2ov_dt_b_fed_order_details" title="Click here to view the order of this equipment.">249-2519603-9994229</a></td>
+							<td class="center">2 pcs</td>
+							<td class="total right">$13.80</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$13.80</td></tr>
+						<tr class="spacer row-9">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Plato-Model-170-Wire-Cutter" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Plato Model 170 Wire Cutter</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/15d9fa91a6a1b8912a60ca525aa38e53.webp?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Thursday, July 11, 2024.">First purchase: Thursday, July 11, 2024</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/27157" title="You can use this short link to link to this equipment.">https://jj5.net/27157</a></div>
+								<div>JJCODE: 27157</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Plato+Model+170+Wire+Cutter" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Plato+Model+170+Wire+Cutter" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Plato+Model+170+Wire+Cutter" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Plato+Model+170+Wire+Cutter" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Plato-Model-170-Wire-Cutter.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Plato+Model+170+Wire+Cutter" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Plato+Model+170+Wire+Cutter" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Plato+Model+170+Wire+Cutter" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Plato+Model+170+Wire+Cutter" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Plato+Model+170+Wire+Cutter" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Plato-Model-170-Wire-Cutter">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Plato Model 170 Wire Cutter</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Plato" title="Click here to see other equipment from this manufacturer.">Plato</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Cutting-Implement" title="Click here to see other equipment in this category.">Cutting Implement</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Wire-Cutter" title="Click here to see other equipment in this category.">Wire Cutter</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/❤️" title="Click here to see other equipment in this category.">❤️</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Thursday, July 11, 2024">A$10.68</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DdyxCNV" title="Click here for the latest price from this affiliate and to buy!">Universal 170 Mini Diagonal Pliers Cutting Pliers Multifunctional Pliers Electricity Wire Stripper Hand Tools</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: 5pcs</td>
+							<td colspan="1" rowspan="1" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Plato_Model_170_Wire_Cutters" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>See also:</p>
+								<ul>
+									<li>
+										<a href="/in-the-lab/equipment.php#Aokin-Wire-Cutter" class="internal" title="Click here to see other equipment that might be of interest.">Aokin Wire Cutter</a></li></ul>
+								<p>Directory name:</p>
+								<p class="indent">wire-cutter-Plato-Model-170-Wire-Cutter</p>
+								<p>Wiki name:</p>
+								<p class="indent">Plato Model 170 Wire Cutter</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">AliExpress:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$9.00</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price">A$1.36</td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DdyxCNV" title="Universal 170 Mini Diagonal Pliers Cutting Pliers Multifunctional Pliers Electricity Wire Stripper Hand Tools">one of these</a> on Thursday, July 11, 2024 for A$9.00 each with free shipping plus tax of A$1.36 for a total of A$10.36.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.202.5edd1802oqOygp&amp;orderId=8191201591173938" title="Click here to view the order of this equipment.">8191201591173938</a></td>
+							<td class="center">Color: 5pcs</td>
+							<td class="total right">$10.36</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$10.36</td></tr>
+						<tr class="spacer row-10">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="23">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Yum-Cha-Craft-Knife-Set" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Yum Cha Craft Knife Set</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/8adafaa92285f095e4fcb8a72eb7f8be.jpg?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Friday, July 30, 2021.">First purchase: Friday, July 30, 2021</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/55487" title="You can use this short link to link to this equipment.">https://jj5.net/55487</a></div>
+								<div>JJCODE: 55487</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Yum+Cha+Craft+Knife+Set" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Yum+Cha+Craft+Knife+Set" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Yum+Cha+Craft+Knife+Set" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Yum+Cha+Craft+Knife+Set" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Yum-Cha-Craft-Knife-Set.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Yum+Cha+Craft+Knife+Set" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Yum+Cha+Craft+Knife+Set" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Yum+Cha+Craft+Knife+Set" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Yum+Cha+Craft+Knife+Set" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Yum+Cha+Craft+Knife+Set" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Yum-Cha-Craft-Knife-Set">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Yum Cha Craft Knife Set</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Yum-Cha" title="Click here to see other equipment from this manufacturer.">Yum Cha</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Accessory" title="Click here to see other equipment in this category.">Accessory</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Attachment" title="Click here to see other equipment in this category.">Attachment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Blade" title="Click here to see other equipment in this category.">Blade</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Craft-Knife" title="Click here to see other equipment in this category.">Craft Knife</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Craft-Knife-Set" title="Click here to see other equipment in this category.">Craft Knife Set</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Cutting-Implement" title="Click here to see other equipment in this category.">Cutting Implement</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Knife" title="Click here to see other equipment in this category.">Knife</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Scalpel" title="Click here to see other equipment in this category.">Scalpel</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$3.51</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DeeoT4l" title="Click here for the latest price from this affiliate and to buy!">Engraving Non-Slip Metal Knife Kit + 40/10pcs #11 Blades Cutter Craft Knives for Mobile Phone PCB Repair Hand Tools</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: Blue Silver</td>
+							<td colspan="1" rowspan="16" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Precision_Craft_Knife_Set_52pcs#Documentation" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$3.69</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DCSZ9sH" title="Click here for the latest price from this affiliate and to buy!">Engraving Non-Slip Metal Knife Kit + 40/10pcs #11 Blades Cutter Craft Knives for Mobile Phone PCB Repair Hand Tools</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: Blue Silver</td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$4.50</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_Dch9Lxj" title="Click here for the latest price from this affiliate and to buy!">Engraving Non-Slip Metal Scalpel Knife Kit + 50/20/10/5pcs #11 Blades Cutter Craft Knives for Mobile Phone PCB Repair Hand Tools</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: Blue Set</td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$8.99</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/48Q1XpC" title="Click here for the latest price from this affiliate and to buy!">FRAINBOWZ Precision Carving Craft Knife Set, 3pcs Stainless Steel Handles with Hard hat and 15 Blades, DIY Carving Knife Utility Knife Stainless Steel Carving Knife Manual Woodworking Pen Knife</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$5.99</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/3O56Inb" title="Click here for the latest price from this affiliate and to buy!">Jetmore 72 Pack Exacto Knife Hobby Knife Kit, Precision Exacto Knife Set 2 Handles Knifes &amp; 70pcs #11 Hobby Knife Blades with Storage Case, Craft Knife ​for DIY, Art Work, Cutting, Carving</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Size: 94 Pack</td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$9.50</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/4aVXC64" title="Click here for the latest price from this affiliate and to buy!">Precision Hobby Knife Kit,10 PCS Stainless Steel Carving Blades with Safety Cap and 2 Handles, Sharp Razor Knives Tool for Carving, Scrapbooking, Sculpture, DIY Art Work Cutting</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$9.60</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/47Qofqx" title="Click here for the latest price from this affiliate and to buy!">2Pack Precision Carving Craft Knife Stainless Steel Metal Knives with Safety Cap and 10Pcs Knife Blades for DIY Art Work Cutting Sculpture Carving Knife and Hobby Knife etc.</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">Amazon&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$6.99</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/3RX5vQ6" title="Click here for the latest price from this affiliate and to buy!">Baijuyi Exacto Knife, Upgrade Precision Craft Knife Hobby Knife Set with 30 pcs Hobby Knife Blades for Carving, DIY, Art, Cutting, Engraving, Scrapbooking, Stencil, Unlimited Creativity</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: Green + Yellow + Blue</td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$15.98</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/CloQxS" title="Click here for the latest price from this affiliate and to buy!">Precision Craft Knife Set 52 Pieces Sharp for Art Modeling Architecture</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$16.04</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/mLBcmh" title="Click here for the latest price from this affiliate and to buy!">52x Precision Craft Knife Set Sharp Craft Tool for Stencil Fine Point Hobby</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$16.81</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/UobA7t" title="Click here for the latest price from this affiliate and to buy!">Precision Craft Knife Set Sharp Kit 52 Pieces for Scrapbooking Wood</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;Australia:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">A$16.96</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/PB9s18" title="Click here for the latest price from this affiliate and to buy!"> Precision Craft Knife Set 52pcs Professional Razor Sharp Knives for Art, Hobby,</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$11.20</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/OxJpJc" title="Click here for the latest price from this affiliate and to buy!">Kit Exacto Kniife Set 74 Blade Refill Xacto For Leather Craft Pen Cutter Razor</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$11.30</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/mpJPMK" title="Click here for the latest price from this affiliate and to buy!"> Precision Craft Knife Set 52pcs Professional Razor Sharp Knives for Art, Hobby,</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$13.50</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/iIspaZ" title="Click here for the latest price from this affiliate and to buy!">Kit Exacto Knife Set 40 Blade Refill Xacto For Leather Craft Pen Cutter Razor</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td></td></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">eBay&nbsp;USA:</td>
+							<td colspan="2" class="price" title="Price current as of Monday, January 15, 2024">$14.49</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://ebay.us/ROIrTq" title="Click here for the latest price from this affiliate and to buy!">Precision Carving Craft Knife Set Hobby Knife Knives With Blades For Art Working</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Type: 123pcs/set</td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Directory name:</p>
+								<p class="indent">knife-Yum-Cha-Craft-Knife-Set</p>
+								<p>Wiki name:</p>
+								<p class="indent">Yum Cha Craft Knife Set</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">eBay Australia:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$17.37</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price">A$5.05</td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://ebay.us/PB9s18" title="Precision Craft Knife Set 52pcs Professional Razor Sharp Knives for Art, Hobby,">one of these</a> on Friday, July 30, 2021 for A$17.37 each with free shipping plus tax of A$5.05 for a total of A$22.42.
+								<a class="external" target="_blank" rel="noopener follow" href="https://order.ebay.com.au/ord/show?orderId=01-07405-77015#/" title="Click here to view the order of this equipment.">01-07405-77015</a></td>
+							<td class="center">Colour: Style1</td>
+							<td class="total right">$22.42</td></tr>
+						<tr style="height:20px">
+							<td class="vendor">AliExpress:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$3.17</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price">A$5.84</td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/item/1005005608437382.html?spm=a2g0o.order_detail.order_detail_item.17.6388f19cK1vRes" title="100/50pcs Knife DIY Wood Carving Fruit Food Scalpel Craft Sculpture Cutting Tool Metal Engraving Blades Knifes Wood Carving Disc">one of these</a> on Friday, November 10, 2023 for A$3.17 each with free shipping plus tax of A$5.84 for a total of A$9.01.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.59.21ef1802rFa7nI&amp;orderId=8179314623893938" title="Click here to view the order of this equipment.">8179314623893938</a></td>
+							<td class="center">Color: 100pcs</td>
+							<td class="total right">$9.01</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 2 of these for total (AUD):</td>
+							<td class="right">$31.43</td></tr>
+						<tr class="spacer row-11">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Yum-Cha-Knife-Blades" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Yum Cha Knife Blades</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/c6c7cbcee48f919fd0210ed744196283.webp?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Friday, November 10, 2023.">First purchase: Friday, November 10, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/51228" title="You can use this short link to link to this equipment.">https://jj5.net/51228</a></div>
+								<div>JJCODE: 51228</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Yum+Cha+Knife+Blades" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Yum+Cha+Knife+Blades" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Yum+Cha+Knife+Blades" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Yum+Cha+Knife+Blades" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Yum-Cha-Knife-Blades.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Yum+Cha+Knife+Blades" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Yum+Cha+Knife+Blades" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Yum+Cha+Knife+Blades" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Yum+Cha+Knife+Blades" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Yum+Cha+Knife+Blades" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Yum-Cha-Knife-Blades">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Yum Cha Knife Blades</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Yum-Cha" title="Click here to see other equipment from this manufacturer.">Yum Cha</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Accessory" title="Click here to see other equipment in this category.">Accessory</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Attachment" title="Click here to see other equipment in this category.">Attachment</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Blade" title="Click here to see other equipment in this category.">Blade</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Blades" title="Click here to see other equipment in this category.">Blades</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Cutting-Implement" title="Click here to see other equipment in this category.">Cutting Implement</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Tuesday, January 16, 2024">A$6.64</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/item/1005005608437382.html" title="Click here for the latest price from this affiliate and to buy!">100/50pcs Knife DIY Wood Carving Fruit Food Scalpel Craft Sculpture Cutting Tool Metal Engraving Blades Knifes Wood Carving Disc</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: 100pcs</td>
+							<td colspan="1" rowspan="1" class="notes"></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Directory name:</p>
+								<p class="indent">cutter-Yum-Cha-Knife-Blades</p>
+								<p>Wiki name:</p>
+								<p class="indent">Yum Cha Knife Blades</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">AliExpress:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$3.17</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price">A$5.84</td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/item/1005005608437382.html?spm=a2g0o.order_detail.order_detail_item.17.3be8f19cgVZfzO" title="100/50pcs Knife DIY Wood Carving Fruit Food Scalpel Craft Sculpture Cutting Tool Metal Engraving Blades Knifes Wood Carving Disc">one of these</a> on Friday, November 10, 2023 for A$3.17 each with free shipping plus tax of A$5.84 for a total of A$9.01.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.312.8fbd1802tGdk33&amp;orderId=8179314623893938" title="Click here to view the order of this equipment.">8179314623893938</a></td>
+							<td class="center">Color: 100pcs</td>
+							<td class="total right">$9.01</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$9.01</td></tr>
+						<tr class="spacer row-12">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Yum-Cha-Universal-Handheld-Wire-Stripper" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Yum Cha Universal Handheld Wire Stripper</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/8834afe86c64015ce7143f8fc187dcbc.webp?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Thursday, July 11, 2024.">First purchase: Thursday, July 11, 2024</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/28809" title="You can use this short link to link to this equipment.">https://jj5.net/28809</a></div>
+								<div>JJCODE: 28809</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Yum+Cha+Universal+Handheld+Wire+Stripper" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Yum+Cha+Universal+Handheld+Wire+Stripper" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Yum+Cha+Universal+Handheld+Wire+Stripper" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Yum+Cha+Universal+Handheld+Wire+Stripper" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Yum-Cha-Universal-Handheld-Wire-Stripper.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Yum+Cha+Universal+Handheld+Wire+Stripper" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Yum+Cha+Universal+Handheld+Wire+Stripper" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Yum+Cha+Universal+Handheld+Wire+Stripper" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Yum+Cha+Universal+Handheld+Wire+Stripper" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Yum+Cha+Universal+Handheld+Wire+Stripper" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Yum-Cha-Universal-Handheld-Wire-Stripper">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Yum Cha Universal Handheld Wire Stripper</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Yum-Cha" title="Click here to see other equipment from this manufacturer.">Yum Cha</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Cutting-Implement" title="Click here to see other equipment in this category.">Cutting Implement</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Wire-Stripper" title="Click here to see other equipment in this category.">Wire Stripper</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Thursday, July 11, 2024">A$10.61</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DECM0h5" title="Click here for the latest price from this affiliate and to buy!">Universal Handheld Quick Stripper Decrustation Plier Adjustable Electric Wire Cable Peel Wire Cable Cutter Stripping hand Tool</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: Silver and blade</td>
+							<td colspan="1" rowspan="1" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Yum_Cha_Universal_Handheld_Wire_Stripper" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Directory name:</p>
+								<p class="indent">wire-stripper-Yum-Cha-Universal-Handheld-Wire-Stripper</p>
+								<p>Wiki name:</p>
+								<p class="indent">Yum Cha Universal Handheld Wire Stripper</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">AliExpress:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$7.50</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price">A$0.95</td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DECM0h5" title="Universal Handheld Quick Stripper Decrustation Plier Adjustable Electric Wire Cable Peel Wire Cable Cutter Stripping hand Tool">one of these</a> on Thursday, July 11, 2024 for A$7.50 each with free shipping plus tax of A$0.95 for a total of A$8.45.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.207.5edd1802oqOygp&amp;orderId=8191201591193938" title="Click here to view the order of this equipment.">8191201591193938</a></td>
+							<td class="center">Color: Silver and blade</td>
+							<td class="total right">$8.45</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$8.45</td></tr>
+						<tr class="spacer row-13">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Oudisi-9-inch-16-in-1-Wire-Stripper" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Oudisi 9-inch 16 in 1 Wire Stripper</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/ce633caa58f8409f5e64d528ed020fdf.webp?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Friday, August 2, 2024.">First purchase: Friday, August 2, 2024</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/70775" title="You can use this short link to link to this equipment.">https://jj5.net/70775</a></div>
+								<div>JJCODE: 70775</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Oudisi+9-inch+16+in+1+Wire+Stripper" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Oudisi+9-inch+16+in+1+Wire+Stripper" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Oudisi+9-inch+16+in+1+Wire+Stripper" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Oudisi+9-inch+16+in+1+Wire+Stripper" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Oudisi-9-inch-16-in-1-Wire-Stripper.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Oudisi+9-inch+16+in+1+Wire+Stripper" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Oudisi+9-inch+16+in+1+Wire+Stripper" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Oudisi+9-inch+16+in+1+Wire+Stripper" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Oudisi+9-inch+16+in+1+Wire+Stripper" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Oudisi+9-inch+16+in+1+Wire+Stripper" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Oudisi-9-inch-16-in-1-Wire-Stripper">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Oudisi 9-inch 16 in 1 Wire Stripper</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Oudisi" title="Click here to see other equipment from this manufacturer.">Oudisi</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Cutting-Implement" title="Click here to see other equipment in this category.">Cutting Implement</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Wire-Stripper" title="Click here to see other equipment in this category.">Wire Stripper</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Friday, August 2, 2024">A$10.20</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DdagVv5" title="Click here for the latest price from this affiliate and to buy!">1pc Multifunctional Wire Strippers Electrician Crimping Wire Stripping Pliers Hardware Tools Universal Wire Cutting Pliers</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: 9 inch</td>
+							<td colspan="1" rowspan="1" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Oudisi_9-inch_16_in_1_Wire_Strippers" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>Directory name:</p>
+								<p class="indent">wire-stripper-Oudisi-9-inch-16-in-1-Wire-Stripper</p>
+								<p>Wiki name:</p>
+								<p class="indent">Oudisi 9-inch 16 in 1 Wire Stripper</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">AliExpress:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$6.51</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price">A$0.88</td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_DdagVv5" title="1pc Multifunctional Wire Strippers Electrician Crimping Wire Stripping Pliers Hardware Tools Universal Wire Cutting Pliers">one of these</a> on Friday, August 2, 2024 for A$6.51 each with free shipping plus tax of A$0.88 for a total of A$7.39.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.19.7fc71802wfWni0&amp;orderId=8191723740443938" title="Click here to view the order of this equipment.">8191723740443938</a></td>
+							<td class="center">9 inch</td>
+							<td class="total right">$7.39</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$7.39</td></tr>
+						<tr class="spacer row-14">
+							<td colspan="7"></td></tr>
+						<tr>
+							<td class="equipment img" rowspan="7">
+								<a class="internal equipment-link" rel="follow" href="/in-the-lab/equipment.php#Aokin-Wire-Cutter" title="Click here for a link to this item, or copy the short link.">
+									<div>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1549 MudObject::render() -->
+										<span>Aokin Wire Cutter</span>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+									<div>
+										<img src="/in-the-lab/res/img.php/auto/a8cc3c0d6e696d3816923bfcfe2f0f27.webp?v=jjlab-0.2.1115" alt="This is a picture of the product." loading="lazy" title="This is a picture of the product."></div></a>
+								<div>
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/value/ValueWrapper/FirstPurchaseDate.php:36 FirstPurchaseDate::render_span() -->
+									<span title="This equipment was first purchased on Friday, October 20, 2023.">First purchase: Friday, October 20, 2023</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/50063" title="You can use this short link to link to this equipment.">https://jj5.net/50063</a></div>
+								<div>JJCODE: 50063</div>
+								<hr>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com/s?s=price-asc-rank&amp;k=Aokin+Wire+Cutter" title="Click here to search for this equipment at this affiliate.">Amazon USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/s?s=price-asc-rank&amp;k=Aokin+Wire+Cutter" title="Click here to search for this equipment at this affiliate.">Amazon Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Aokin+Wire+Cutter" title="Click here to search for this equipment at this affiliate.">eBay USA</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.ebay.com.au/sch/i.html?_from=R40&amp;_sacat=0&amp;_sop=15&amp;LH_ItemCondition=1000&amp;rt=nc&amp;LH_BIN=1&amp;_nkw=Aokin+Wire+Cutter" title="Click here to search for this equipment at this affiliate.">eBay Australia</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/w/wholesale-Aokin-Wire-Cutter.html" title="Click here to search for this equipment at this affiliate.">AliExpress</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.altronics.com.au/?q=Aokin+Wire+Cutter" title="Click here to search for this equipment at this affiliate.">Altronics</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/?q=Aokin+Wire+Cutter" title="Click here to search for this equipment at this affiliate.">Jaycar</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.bunnings.com.au/?q=Aokin+Wire+Cutter" title="Click here to search for this equipment at this affiliate.">Bunnings</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.dyson.com/?q=Aokin+Wire+Cutter" title="Click here to search for this equipment at this affiliate.">Dyson</a></div>
+								<div>
+									<a class="external" target="_blank" rel="noopener follow" href="https://www.wasdkeyboards.com/?q=Aokin+Wire+Cutter" title="Click here to search for this equipment at this affiliate.">WASD Keyboards</a></div></td>
+							<td colspan="7" class="equipment" style="height:20px">
+								<h2 id="Aokin-Wire-Cutter">
+									<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1621 MudObject::render() -->
+									<span>Aokin Wire Cutter</span>
+							<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></h2>
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Cutting-Implement" title="Click here to see other equipment in this category.">Cutting Implement</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Hand-Tool" title="Click here to see other equipment in this category.">Hand Tool</a> | 
+								<a class="internal" rel="follow" href="/in-the-lab/category.php/Wire-Cutter" title="Click here to see other equipment in this category.">Wire Cutter</a></td></tr>
+						<tr style="height:20px;">
+							<th style="width:5% !important;">Affiliate</th>
+							<th colspan="2" style="width:10% !important;">Unit Price</th>
+							<th>Affiliate Link (Click here for the latest price and to buy!)</th>
+							<th style="width:20% !important;">Option(s)</th>
+							<th style="width:4rem !important;">Notes</th></tr>
+						<tr style="height:20px;">
+							<td class="affiliate">AliExpress:</td>
+							<td colspan="2" class="price" title="Price current as of Friday, October 20, 2023">A$3.60</td>
+							<td class="affiliate_link" title="Click here for the latest price from this affiliate and to buy!">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1714 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_Dmniw3Z" title="Click here for the latest price from this affiliate and to buy!">Aokin1PC 170 Universal Pliers DIY Electronic Diagonal Side Cutting Nippers Wire Cable Cutter 3D Printer Parts Hand Tools</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="item_options center">Color: 1pcs</td>
+							<td colspan="1" rowspan="1" class="notes" style="vertical-align:top !important; text-align: center;">
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Aokin1PC_Wire_Cutter" title="Click here for notes about this equipment which I keep on my personal wiki.">notes</a></td></tr>
+						<tr>
+							<td colspan="7">
+								<p>See also:</p>
+								<ul>
+									<li>
+										<a href="/in-the-lab/equipment.php#Plato-Model-170-Wire-Cutter" class="internal" title="Click here to see other equipment that might be of interest.">Plato Model 170 Wire Cutter</a></li></ul>
+								<p>Directory name:</p>
+								<p class="indent">wire-cutter-Aokin-Wire-Cutter</p>
+								<p>Wiki name:</p>
+								<p class="indent">Aokin Wire Cutter</p></td></tr>
+						<tr style="height:20px">
+							<th>Vendor</th>
+							<th>Unit Price</th>
+							<th title="This includes shipping costs and tax less discounts.">Ancillary Charges</th>
+							<th>Purchase History (The specific things I purchased)</th>
+							<th>Option(s)</th>
+							<th style="width:125px">Total (AUD)</th></tr>
+						<tr style="height:20px">
+							<td class="vendor">AliExpress:</td>
+							<td class="subtotal price">
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/milligram.php:1990 MudValue::render() -->
+								<span class="value OrderPrice">A$3.20</span>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/category.php:3 ::require_once() --></td>
+							<td class="ancillary price"></td>
+							<td>I purchased 
+								<a class="external" target="_blank" rel="noopener follow" href="https://s.click.aliexpress.com/e/_Dmniw3Z" title="Aokin1PC 170 Universal Pliers DIY Electronic Diagonal Side Cutting Nippers Wire Cable Cutter 3D Printer Parts Hand Tools">one of these</a> on Friday, October 20, 2023 for A$3.20 each with free shipping for a total of A$3.20.
+								<a class="external" target="_blank" rel="noopener follow" href="https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.22.1de31802quIOg1&amp;orderId=8177641878953938" title="Click here to view the order of this equipment.">8177641878953938</a></td>
+							<td class="center">Color: 1pcs</td>
+							<td class="total right">$3.20</td></tr>
+						<tr>
+							<td class="right" colspan="5">I purchased 1 of these for total (AUD):</td>
+							<td class="right">$3.20</td></tr></tbody></table></div>
+			<hr style="border: 1px solid gray;">
+			<div class="container" style="text-align:center;">
+				<div>
+					<p>Prices in: 
+						<a class="internal" rel="nofollow" href="?currency=USD#options" title="Click here to get prices in United States Dollars.">USD</a> | 
+						<a class="internal" rel="nofollow" href="?currency=AUD#options" title="Click here to get prices in Australian Dollars.">AUD</a> | 
+						<a class="internal" rel="nofollow" href="?#options" title="Click here to get prices in the currency used on the affiliated page.">default</a> &mdash; Sort: 
+						<a class="internal" rel="nofollow" href="?sort=cheap-first#options" title="Click here to sort from cheapest to most expensive.">cheap first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=expensive-first#options" title="Click here to sort from most expensive to cheapest.">expensive first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=new-first#options" title="Click here to sort with most recently purchased first.">newest first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=old-first#options" title="Click here to sort with the least recently purchased first.">oldest first</a> | 
+						<a class="internal" rel="nofollow" href="?sort=random#options" title="Click here to sort randomly.">random</a> | 
+						<a class="internal" rel="nofollow" href="?#options" title="Click here to use the default sort (expensive first).">default</a></p></div></div>
+			<section>
+				<h2 id="total-paid">Total Paid and Other Statistics</h2>
+				<p>Total paid for the 15 items on this page: A$228.14.</p>
+				<p>Note: the values shown here are not exact, for 
+					<a class="internal" rel="follow" href="/in-the-lab/about.php#records" title="Click here to read about price inaccuracies.">a bunch of reasons</a>.</p>
+				<table>
+					<thead>
+						<tr>
+							<th></th>
+							<th>USD</th>
+							<th>AUD</th></tr></thead>
+					<tbody>
+						<tr>
+							<th class="right">Total Paid:</th>
+							<td class="right">$149.20</td>
+							<td class="right">A$228.14</td></tr>
+						<tr>
+							<th class="right">Minimum Paid:</th>
+							<td class="right">$2.09</td>
+							<td class="right">A$3.20</td></tr>
+						<tr>
+							<th class="right">Maximum Paid:</th>
+							<td class="right">$17.63</td>
+							<td class="right">A$26.95</td></tr>
+						<tr>
+							<th class="right">Median Paid:</th>
+							<td class="right">$9.12</td>
+							<td class="right">A$13.95</td></tr>
+						<tr>
+							<th class="right">Average Paid:</th>
+							<td class="right">$9.95</td>
+							<td class="right">A$15.21</td></tr>
+						<tr>
+							<th class="right">Standard Deviation:</th>
+							<td class="right">$4.63</td>
+							<td class="right">A$7.08</td></tr></tbody></table></section>
+			<section>
+				<h2 id="more-info">More Information</h2>
+				<p>If you would like to see all of my equipment check out the 
+					<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see other equipment that might be of interest.">equipment</a> page. You can also get my equipment indexed by 
+					<a class="internal" rel="follow" href="/in-the-lab/category.php" title="Click here to see all the equipment in this category.">category</a> or by 
+					<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php" title="Click here to see all the equipment from this manufacturer.">manufacturer</a>.</p></section>
+			<section>
+				<h2 id="contents">Table of Contents</h2>
+				<p>The contents of this page are organised into the following sections:</p>
+				<div id="contents_div">Contents will go here (if you have Javascript enabled).</div></section>
+			<section>
+				<h2 id="thanks">Thank You!</h2>
+				<p>Thanks very much for your interest and 
+					<b>I hope you enjoy the show!</b></p></section>
+			<section>
+				<h2 id="next">Where to from Here?</h2>
+				<p>You made it to the bottom of the page, huh? Well done! I&apos;m a bit of a scroller myself. :)</p>
+				<p>Where you go next depends on what you&apos;re interested in. Here are some suggestions:</p>
+				<ul>
+					<li>If you&apos;re enjoying my content you could consider 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to find out how you can support the show. [Hotkey: U]">supporting the show</a>.</li>
+					<li>My 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/new-book-teardown" title="Click here to watch the videos where I review new technology related books.">new book teardown videos</a> are quite popular, you might enjoy watching those.</li>
+					<li>My personal favourites are the 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="Click here to watch the videos where I review old technology related books.">old book teardown videos</a>.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a>, for all my high quality content including my 
+						<a class="internal" rel="follow" href="/in-the-lab/show-type.php/special-show" title="Click here to watch special shows which air on the main channel.">special shows</a>.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/show-type.php/main-show" title="Click here to watch videos recorded for the main show.">main show</a>, for my main show videos, which include the 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/electronics-project" title="Click here to watch the electronics project videos.">electronics project</a> and 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="Click here to watch the videos where I review old technology related books.">old book teardown</a> videos.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">equipment</a> page, if you&apos;re interested in any of the equipment I use. If you&apos;re putting together your own electronics lab then I would certainly recommend checking this out!</li>
+					<li>Did I mention that you can 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to find out how you can support the show. [Hotkey: U]">support the show</a>? :)</li></ul></section></main>
+		<footer>
+			<div>&copy; Copyright 2024 John Elliot V. All rights reserved.</div></footer>
+		<script>window.g_mud_html_options = [];</script></body></html>

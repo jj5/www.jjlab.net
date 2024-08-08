@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+
+<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/show.php:3 ::require_once() -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Main Channel: @InTheLabWithJayJay — In The Lab With Jay Jay</title>
+		<meta charset="UTF-8">
+		<meta name="date" content="2024-08-07T20:32:44+00:00">
+		<meta name="author" content="John Elliot V">
+		<meta name="keywords" content="electronics videos, electronics lab, electronics kits, electronics experiments, video blog, In The Lab With Jay Jay, John Elliot V">
+		<meta name="description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+		<meta name="robots" content="index, follow">
+		<meta property="og:title" content="Main Channel: @InTheLabWithJayJay — In The Lab With Jay Jay">
+		<meta property="og:description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta property="og:image" content="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<meta property="og:url" content="http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/q3hf6988o-k">
+		<meta property="og:type" content="website">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:title" content="Main Channel: @InTheLabWithJayJay — In The Lab With Jay Jay">
+		<meta name="twitter:description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta name="twitter:image" content="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<link rel="icon" href="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<link rel="canonical" href="http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/q3hf6988o-k">
+		<link rel="alternate" type="application/rss+xml" title="In The Lab With Jay Jay » Feed" href="/in-the-lab/feed.php">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		<link rel="stylesheet" href="/in-the-lab/res/style.php/jjlab-0.2.1115/style.css">
+		<script>
+			var MUD_SERVER_VERSION = "0.5.1623-211631354";
+		
+			var APP_SERVER_VERSION = "0.2.1115-211631354";
+		
+			var URL_BASE = "\/in-the-lab";
+		
+			var DEBUG = true;
+		
+			var DEV = true;
+		
+			var BETA = false;
+		
+			var IS_JOHN = true;
+		
+		</script>
+		<script src="/in-the-lab/res/script.php/jjlab-0.2.1115/script.js"></script>
+		<link rel="preload" href="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/banner-0640.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" as="image"></head>
+	<body>
+		<main class="wrapper">
+			<nav class="navigation">
+				<div class="container">
+					<a href="/in-the-lab/" class="navigation-title" title="In The Lab With Jay Jay is the video blog of John Elliot V">
+						<img src="/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" loading="eager" alt="">
+						<header class="title">In The Lab With Jay Jay</header></a>
+					<ul class="navigation-list">
+						<li class="navigation-item">
+							<button class="hamburger" onclick="handle_hamburger_click( event, this )" title="Click here to access the website navigation.">
+								<span class="bar"></span>
+								<span class="bar"></span>
+								<span class="bar"></span></button>
+							<div id="popover-grid" class="popover">
+								<ul class="popover-list">
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/" title="Click here to visit the homepage for this website. [Hotkey: H]">Home</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here to access the main channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/sponsor.php" title="Click here to find out more about our very generous sponsors! [Hotkey: S]">Sponsors</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">Equipment</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/about.php" title="Click here to find out more about the show and this website. [Hotkey: A]">About</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/support.php" title="Click here to see how you can support the show. Thanks for thinking of me! [Hotkey: U]">Support the Show!</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/debug.php" title="John&apos;s debug thing">Debug</a></li>
+									<li class="popover-item">
+										<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]">
+											<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a></li></ul></div></li></ul>
+					<div class="menu-list">
+						<a class="internal" rel="follow" href="/in-the-lab/" title="Click here to visit the homepage for this website. [Hotkey: H]">Home</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here to access the main channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/sponsor.php" title="Click here to find out more about our very generous sponsors! [Hotkey: S]">Sponsors</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">Equipment</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/about.php" title="Click here to find out more about the show and this website. [Hotkey: A]">About</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to see how you can support the show. Thanks for thinking of me! [Hotkey: U]">Support the Show!</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/debug.php" title="John&apos;s debug thing">Debug</a>
+						<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]">
+							<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a></div></div></nav>
+			<header id="banner">
+				<img loading="eager" class="rc-base" src="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-0320" src="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-0640" src="/in-the-lab/res/img.php/banner-0640.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-1280" src="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-1920" src="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" alt=""></header>
+			<header id="home" class="header">
+				<section>
+					<img src="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" alt="" loading="lazy">
+					<h1 id="heading">Morse Code Oscillator</h1>
+					<p>This 
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/channel.php:533 ShowType::render_link_internal() -->
+						<a class="internal" rel="follow" href="/in-the-lab/show-type.php/special-show" title="In the special shows we take a look at something interesting and electronics related.">special show</a> was published to 
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/channel.php:537 Channel::render_link_internal() -->
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">@InTheLabWithJayJay</a> on 
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/show.php:3 ::require_once() -->
+						<time datetime="Thu, 11 Jan 2024 23:45:37 +1100">Thursday, January 11, 2024</time> and is 
+						<span>25:35</span> long.</p>
+					<p>Thanks very much for watching! And please remember to hit like and subscribe! :)</p></section></header>
+			<section>
+				<h2 id="contents">Table of Contents</h2>
+				<p>The contents of this page are organised into the following sections:</p>
+				<div id="contents_div">Contents will go here (if you have Javascript enabled).</div></section>
+			<section>
+				<h2 id="stats">Statistics</h2>
+				<p>Here are some stats about how long these videos usually play for.</p>
+				<p>The durations are given as hours:minutes:seconds.</p>
+				<p>Note: when there is more than one value for the median the longest value is given. The average is the arithmetic mean and the standard deviation is the population standard deviation.</p>
+				<p>You can get stats for all of my videos on the 
+					<a class="internal" rel="follow" href="/in-the-lab/stats.php" title="Click here for stats about my videos and equipment. [Hotkey: N]">stats</a> page.</p>
+				<table>
+					<tbody>
+						<tr>
+							<th class="right">Videos Published:</th>
+							<td class="right">82</td></tr>
+						<tr>
+							<th class="right">Total Duration:</th>
+							<td class="right">50 hours</td></tr>
+						<tr>
+							<th class="right">Minimum Duration:</th>
+							<td class="right">1:51</td></tr>
+						<tr>
+							<th class="right">Maximum Duration:</th>
+							<td class="right">4:51:55</td></tr>
+						<tr>
+							<th class="right">Median Duration:</th>
+							<td class="right">22:59</td></tr>
+						<tr>
+							<th class="right">Average Duration:</th>
+							<td class="right">36:42</td></tr>
+						<tr>
+							<th class="right">Standard Deviation:</th>
+							<td class="right">42:02</td></tr></tbody></table></section>
+			<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() -->
+			<section class="clearfix">
+				<h2 id="q3hf6988o-k">Maxitronix 10in1: 
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:133 Video::render_link_internal() -->
+					<a class="internal" rel="follow" href="/in-the-lab/show.php/@InTheLabWithJayJay/q3hf6988o-k#q3hf6988o-k" title="Click here to watch this video.">Morse Code Oscillator</a> (2/10)
+			<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() --></h2>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:193 MaxitronixSegment::render_breadcrumbs() -->
+				<p>
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a> &gt; 
+					<a class="internal" rel="follow" href="/in-the-lab/show-type.php/special-show" title="Click here to watch videos recorded for the main show.">Special Show</a> &gt; 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/maxitronix" title="Click here to learn about the Maxitronix Xin1 electronic project labs.">Maxitronix Xin1 Kits</a> &gt; 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/maxitronix-10in1" title="Click here to watch the videos where I work through a Maxitronix Xin1 electronic project kit.">Maxitronix 10in1</a></p>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() -->
+				<div class="rc-base video">
+					<iframe data-src="https://www.youtube.com/embed/q3hf6988o-k" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="320" height="180" allowfullscreen></iframe></div>
+				<div class="rc-0320 video">
+					<iframe data-src="https://www.youtube.com/embed/q3hf6988o-k" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="320" height="180" allowfullscreen></iframe></div>
+				<div class="rc-0640 video">
+					<iframe data-src="https://www.youtube.com/embed/q3hf6988o-k" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="560" height="315" allowfullscreen></iframe></div>
+				<div class="rc-1280 video">
+					<iframe data-src="https://www.youtube.com/embed/q3hf6988o-k" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="640" height="360" allowfullscreen></iframe></div>
+				<div class="rc-1920 video">
+					<iframe data-src="https://www.youtube.com/embed/q3hf6988o-k" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="960" height="540" allowfullscreen></iframe></div>
+				<dl class="video-details">
+					<dt>Show Notes</dt>
+					<dd>
+						<a class="external" target="_blank" rel="noopener follow" href="https://blog.jj5.net/blog/2024/01/11/in-the-lab-with-jay-jay-maxitronix-10in1-project-2-10-morse-code-oscillator/" title="Click here to read the show notes published with this video.">Show Notes</a></dd>
+					<dt>Date Published</dt>
+					<dd>Thursday, January 11, 2024</dd>
+					<dt>Video Duration</dt>
+					<dd>25:35</dd>
+					<dt>YouTube Channel</dt>
+					<dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:242 Channel::render() -->
+						<a class="internal channel" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">@InTheLabWithJayJay</a>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() --></dd>
+					<dt>YouTube Video Link</dt>
+					<dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:249 YoutubeVideo::render_external_link() -->
+						<a class="external" target="_blank" rel="noopener follow" href="https://youtu.be/q3hf6988o-k" title="Click here to watch this video on YouTube.">https://youtu.be/q3hf6988o-k</a>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() --></dd>
+					<dt>Generous Sponsors</dt>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() -->
+					<dd><!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Sponsor.php:32 Sponsor::render() -->
+<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/JohnElliotV" title="Super big shout out to Patreon Supporters for supporting the channel!">Patreon Supporters</a></dd>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:275 MaxitronixSegment::render_extra_video_attributes() -->
+					<dt>Maxitronix Kit</dt>
+					<dd>
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/maxitronix-10in1" title="Click here to watch the videos where I work through the Maxitronix 10in1 electronic project lab.">Maxitronix 10in1</a></dd>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() -->
+					<dt>Permanent Link</dt>
+					<dd>
+						<a class="internal" rel="follow" href="/in-the-lab/show.php/@InTheLabWithJayJay/q3hf6988o-k#q3hf6988o-k" title="Click here for the permanent link to this video.">Permanent Link</a></dd>
+					<dt>Patreon Announcement</dt>
+					<dd>
+						<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/posts/morse-code-2-10-96127734" title="Click here to see the announcement for this video on Patreon. You could subscribe while you&apos;re there! :)">patreon.com/posts/morse-code-2-10-96127734</a></dd></dl></section>
+			<section class="clearfix">
+				<h2 id="2QUb4eTOSIU">Maxitronix 10in1: 
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:133 Video::render_link_internal() -->
+					<a class="internal" rel="follow" href="/in-the-lab/show.php/@InTheLabWithJayJay/2QUb4eTOSIU#2QUb4eTOSIU" title="Click here to watch this video.">Morse Code By Light</a> (1/10)
+			<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() --></h2>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:193 MaxitronixSegment::render_breadcrumbs() -->
+				<p>
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a> &gt; 
+					<a class="internal" rel="follow" href="/in-the-lab/show-type.php/special-show" title="Click here to watch videos recorded for the main show.">Special Show</a> &gt; 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/maxitronix" title="Click here to learn about the Maxitronix Xin1 electronic project labs.">Maxitronix Xin1 Kits</a> &gt; 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/maxitronix-10in1" title="Click here to watch the videos where I work through a Maxitronix Xin1 electronic project kit.">Maxitronix 10in1</a></p>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() -->
+				<div class="rc-base video">
+					<iframe data-src="https://www.youtube.com/embed/2QUb4eTOSIU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="320" height="180" allowfullscreen></iframe></div>
+				<div class="rc-0320 video">
+					<iframe data-src="https://www.youtube.com/embed/2QUb4eTOSIU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="320" height="180" allowfullscreen></iframe></div>
+				<div class="rc-0640 video">
+					<iframe data-src="https://www.youtube.com/embed/2QUb4eTOSIU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="560" height="315" allowfullscreen></iframe></div>
+				<div class="rc-1280 video">
+					<iframe data-src="https://www.youtube.com/embed/2QUb4eTOSIU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="640" height="360" allowfullscreen></iframe></div>
+				<div class="rc-1920 video">
+					<iframe data-src="https://www.youtube.com/embed/2QUb4eTOSIU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="960" height="540" allowfullscreen></iframe></div>
+				<dl class="video-details">
+					<dt>Show Notes</dt>
+					<dd>
+						<a class="external" target="_blank" rel="noopener follow" href="https://blog.jj5.net/blog/2024/01/10/in-the-lab-with-jay-jay-maxitronix-10in1-project-1-10-morse-code-by-light/" title="Click here to read the show notes published with this video.">Show Notes</a></dd>
+					<dt>Date Published</dt>
+					<dd>Wednesday, January 10, 2024</dd>
+					<dt>Video Duration</dt>
+					<dd>12:47</dd>
+					<dt>YouTube Channel</dt>
+					<dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:242 Channel::render() -->
+						<a class="internal channel" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">@InTheLabWithJayJay</a>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() --></dd>
+					<dt>YouTube Video Link</dt>
+					<dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:249 YoutubeVideo::render_external_link() -->
+						<a class="external" target="_blank" rel="noopener follow" href="https://youtu.be/2QUb4eTOSIU" title="Click here to watch this video on YouTube.">https://youtu.be/2QUb4eTOSIU</a>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() --></dd>
+					<dt>Generous Sponsors</dt>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() -->
+					<dd><!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Sponsor.php:32 Sponsor::render() -->
+<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/JohnElliotV" title="Super big shout out to Patreon Supporters for supporting the channel!">Patreon Supporters</a></dd>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:275 MaxitronixSegment::render_extra_video_attributes() -->
+					<dt>Maxitronix Kit</dt>
+					<dd>
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/maxitronix-10in1" title="Click here to watch the videos where I work through the Maxitronix 10in1 electronic project lab.">Maxitronix 10in1</a></dd>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() -->
+					<dt>Permanent Link</dt>
+					<dd>
+						<a class="internal" rel="follow" href="/in-the-lab/show.php/@InTheLabWithJayJay/2QUb4eTOSIU#2QUb4eTOSIU" title="Click here for the permanent link to this video.">Permanent Link</a></dd>
+					<dt>Patreon Announcement</dt>
+					<dd>
+						<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/posts/morse-code-by-1-96123921" title="Click here to see the announcement for this video on Patreon. You could subscribe while you&apos;re there! :)">patreon.com/posts/morse-code-by-1-96123921</a></dd></dl></section>
+			<section class="clearfix">
+				<h2 id="FKAgGdTy0_c">Maxitronix 10in1: 
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:133 Video::render_link_internal() -->
+					<a class="internal" rel="follow" href="/in-the-lab/show.php/@InTheLabWithJayJay/FKAgGdTy0_c#FKAgGdTy0_c" title="Click here to watch this video.">Introducing Maxitronix 10in1</a>
+			<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() --></h2>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:193 MaxitronixSegment::render_breadcrumbs() -->
+				<p>
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a> &gt; 
+					<a class="internal" rel="follow" href="/in-the-lab/show-type.php/special-show" title="Click here to watch videos recorded for the main show.">Special Show</a> &gt; 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/maxitronix" title="Click here to learn about the Maxitronix Xin1 electronic project labs.">Maxitronix Xin1 Kits</a> &gt; 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/maxitronix-10in1" title="Click here to watch the videos where I work through a Maxitronix Xin1 electronic project kit.">Maxitronix 10in1</a></p>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() -->
+				<div class="rc-base video">
+					<iframe data-src="https://www.youtube.com/embed/FKAgGdTy0_c" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="320" height="180" allowfullscreen></iframe></div>
+				<div class="rc-0320 video">
+					<iframe data-src="https://www.youtube.com/embed/FKAgGdTy0_c" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="320" height="180" allowfullscreen></iframe></div>
+				<div class="rc-0640 video">
+					<iframe data-src="https://www.youtube.com/embed/FKAgGdTy0_c" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="560" height="315" allowfullscreen></iframe></div>
+				<div class="rc-1280 video">
+					<iframe data-src="https://www.youtube.com/embed/FKAgGdTy0_c" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="640" height="360" allowfullscreen></iframe></div>
+				<div class="rc-1920 video">
+					<iframe data-src="https://www.youtube.com/embed/FKAgGdTy0_c" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="960" height="540" allowfullscreen></iframe></div>
+				<dl class="video-details">
+					<dt>Show Notes</dt>
+					<dd>
+						<a class="external" target="_blank" rel="noopener follow" href="https://blog.jj5.net/blog/2024/01/09/in-the-lab-with-jay-jay-maxitronix-10in1-introduction/" title="Click here to read the show notes published with this video.">Show Notes</a></dd>
+					<dt>Date Published</dt>
+					<dd>Tuesday, January 9, 2024</dd>
+					<dt>Video Duration</dt>
+					<dd>8:09</dd>
+					<dt>YouTube Channel</dt>
+					<dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:242 Channel::render() -->
+						<a class="internal channel" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">@InTheLabWithJayJay</a>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() --></dd>
+					<dt>YouTube Video Link</dt>
+					<dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:249 YoutubeVideo::render_external_link() -->
+						<a class="external" target="_blank" rel="noopener follow" href="https://youtu.be/FKAgGdTy0_c" title="Click here to watch this video on YouTube.">https://youtu.be/FKAgGdTy0_c</a>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() --></dd>
+					<dt>Generous Sponsors</dt>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() -->
+					<dd><!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Sponsor.php:32 Sponsor::render() -->
+<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/JohnElliotV" title="Super big shout out to Patreon Supporters for supporting the channel!">Patreon Supporters</a></dd>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:275 MaxitronixSegment::render_extra_video_attributes() -->
+					<dt>Maxitronix Kit</dt>
+					<dd>
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/maxitronix-10in1" title="Click here to watch the videos where I work through the Maxitronix 10in1 electronic project lab.">Maxitronix 10in1</a></dd>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() -->
+					<dt>Permanent Link</dt>
+					<dd>
+						<a class="internal" rel="follow" href="/in-the-lab/show.php/@InTheLabWithJayJay/FKAgGdTy0_c#FKAgGdTy0_c" title="Click here for the permanent link to this video.">Permanent Link</a></dd>
+					<dt>Patreon Announcement</dt>
+					<dd>
+						<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/posts/introducing-in-96074472" title="Click here to see the announcement for this video on Patreon. You could subscribe while you&apos;re there! :)">patreon.com/posts/introducing-in-96074472</a></dd></dl></section>
+			<section class="clearfix">
+				<h2 id="uEzp4mx_pYA">Channel News #2: 
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:133 Video::render_link_internal() -->
+					<a class="internal" rel="follow" href="/in-the-lab/show.php/@InTheLabWithJayJay/uEzp4mx_pYA#uEzp4mx_pYA" title="Click here to watch this video.">Announcing Maxitronix Xin1 Projects Feature</a>
+			<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() --></h2>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:193 ChannelNews::render_breadcrumbs() -->
+				<p>
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a> &gt; 
+					<a class="internal" rel="follow" href="/in-the-lab/show-type.php/special-show" title="Click here to watch special shows which air on the main channel.">Special Show</a> &gt; 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/channel-news" title="Click here to see channel news.">Channel News</a></p>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() -->
+				<div class="rc-base video">
+					<iframe data-src="https://www.youtube.com/embed/uEzp4mx_pYA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="320" height="180" allowfullscreen></iframe></div>
+				<div class="rc-0320 video">
+					<iframe data-src="https://www.youtube.com/embed/uEzp4mx_pYA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="320" height="180" allowfullscreen></iframe></div>
+				<div class="rc-0640 video">
+					<iframe data-src="https://www.youtube.com/embed/uEzp4mx_pYA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="560" height="315" allowfullscreen></iframe></div>
+				<div class="rc-1280 video">
+					<iframe data-src="https://www.youtube.com/embed/uEzp4mx_pYA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="640" height="360" allowfullscreen></iframe></div>
+				<div class="rc-1920 video">
+					<iframe data-src="https://www.youtube.com/embed/uEzp4mx_pYA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="960" height="540" allowfullscreen></iframe></div>
+				<dl class="video-details">
+					<dt>Show Notes</dt>
+					<dd>
+						<a class="external" target="_blank" rel="noopener follow" href="https://blog.jj5.net/blog/2024/01/09/announcing-maxitronix-xin1-projects-feature/" title="Click here to read the show notes published with this video.">Show Notes</a></dd>
+					<dt>Date Published</dt>
+					<dd>Tuesday, January 9, 2024</dd>
+					<dt>Video Duration</dt>
+					<dd>9:41</dd>
+					<dt>YouTube Channel</dt>
+					<dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:242 Channel::render() -->
+						<a class="internal channel" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">@InTheLabWithJayJay</a>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() --></dd>
+					<dt>YouTube Video Link</dt>
+					<dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:249 YoutubeVideo::render_external_link() -->
+						<a class="external" target="_blank" rel="noopener follow" href="https://youtu.be/uEzp4mx_pYA" title="Click here to watch this video on YouTube.">https://youtu.be/uEzp4mx_pYA</a>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() --></dd>
+					<dt>Generous Sponsors</dt>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() -->
+					<dd><!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Sponsor.php:32 Sponsor::render() -->
+<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/JohnElliotV" title="Super big shout out to Patreon Supporters for supporting the channel!">Patreon Supporters</a></dd>
+					<dt>
+						<a class="internal" rel="follow" href="/in-the-lab/#silly-job-title" title="Click here to read about the silly job title. [Hotkey: I]">Silly Job Title</a></dt>
+					<dd>Charge Charmer</dd>
+					<dt>Permanent Link</dt>
+					<dd>
+						<a class="internal" rel="follow" href="/in-the-lab/show.php/@InTheLabWithJayJay/uEzp4mx_pYA#uEzp4mx_pYA" title="Click here for the permanent link to this video.">Permanent Link</a></dd>
+					<dt>Patreon Announcement</dt>
+					<dd>
+						<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/posts/96070937" title="Click here to see the announcement for this video on Patreon. You could subscribe while you&apos;re there! :)">patreon.com/posts/96070937</a></dd></dl></section>
+			<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:131 Segment::render() -->
+			<section class="clearfix">
+				<h3 id="IzSkw-3aqyA">New Book Teardown #1: 
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:133 Video::render_link_internal() -->
+					<a class="internal" rel="follow" href="/in-the-lab/show.php/@InTheLabWithJayJay/uEzp4mx_pYA#IzSkw-3aqyA" title="Click here to watch this video.">The Art of Electronics 3rd Edition (2015)</a>
+			<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:131 Segment::render() --></h3>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:193 NewBookTeardown::render_breadcrumbs() -->
+				<p>
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a> &gt; 
+					<a class="internal" rel="follow" href="/in-the-lab/show-type.php/special-show" title="Click here to watch special shows which air on the main channel.">Special Show</a> &gt; 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/new-book-teardown" title="Click here to watch the videos where I review new technology related books.">New Book Teardown</a></p>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:131 Segment::render() -->
+				<div class="rc-base video">
+					<iframe data-src="https://www.youtube.com/embed/IzSkw-3aqyA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="320" height="180" allowfullscreen></iframe></div>
+				<div class="rc-0320 video">
+					<iframe data-src="https://www.youtube.com/embed/IzSkw-3aqyA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="320" height="180" allowfullscreen></iframe></div>
+				<div class="rc-0640 video">
+					<iframe data-src="https://www.youtube.com/embed/IzSkw-3aqyA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="560" height="315" allowfullscreen></iframe></div>
+				<div class="rc-1280 video">
+					<iframe data-src="https://www.youtube.com/embed/IzSkw-3aqyA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="640" height="360" allowfullscreen></iframe></div>
+				<div class="rc-1920 video">
+					<iframe data-src="https://www.youtube.com/embed/IzSkw-3aqyA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="960" height="540" allowfullscreen></iframe></div>
+				<dl class="video-details">
+					<dt>Show Notes</dt>
+					<dd>
+						<a class="external" target="_blank" rel="noopener follow" href="https://blog.jj5.net/blog/2024/02/16/new-book-the-art-of-electronics-3rd-edition-in-the-lab-with-jay-jay/" title="Click here to read the show notes published with this video.">Show Notes</a></dd>
+					<dt>Date Published</dt>
+					<dd>Friday, February 16, 2024</dd>
+					<dt>Video Duration</dt>
+					<dd>1:13:50</dd>
+					<dt>YouTube Channel</dt>
+					<dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:242 Channel::render() -->
+						<a class="internal channel" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">@InTheLabWithJayJay</a>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:131 Segment::render() --></dd>
+					<dt>YouTube Video Link</dt>
+					<dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:249 YoutubeVideo::render_external_link() -->
+						<a class="external" target="_blank" rel="noopener follow" href="https://youtu.be/IzSkw-3aqyA" title="Click here to watch this video on YouTube.">https://youtu.be/IzSkw-3aqyA</a>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:131 Segment::render() --></dd>
+					<dt>Generous Sponsors</dt>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:131 Segment::render() -->
+					<dd><!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Sponsor.php:32 Sponsor::render() -->
+<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/JohnElliotV" title="Super big shout out to Patreon Supporters for supporting the channel!">Patreon Supporters</a></dd>
+					<dt>
+						<a class="internal" rel="follow" href="/in-the-lab/#silly-job-title" title="Click here to read about the silly job title. [Hotkey: I]">Silly Job Title</a></dt>
+					<dd>Charge Charmer</dd>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:275 NewBookTeardown::render_extra_video_attributes() -->
+					<dt>Main Show</dt>
+					<dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:133 Video::render_link_internal() -->
+						<a class="internal" rel="follow" href="/in-the-lab/show.php/@InTheLabWithJayJay/uEzp4mx_pYA#uEzp4mx_pYA" title="Click here to watch this video.">Announcing Maxitronix Xin1 Projects Feature</a>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:275 NewBookTeardown::render_extra_video_attributes() --></dd>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:131 Segment::render() -->
+					<dt>Book Title</dt>
+					<dd>The Art of Electronics</dd>
+					<dt>Book Edition</dt>
+					<dd>3rd Edition</dd>
+					<dt>Book Authors</dt>
+					<dd>Paul Horowitz, Winfield Hill</dd>
+					<dt>Book Copyright</dt>
+					<dd>© 2015</dd>
+					<dt>Book Age</dt>
+					<dd>9 years old</dd>
+					<dt>Book Pages</dt>
+					<dd>1,220 pages</dd>
+					<dt>Purchase this book</dt>
+					<dd>
+						<ul>
+							<li>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:354 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/3wzXF7X" title="Click here for the latest price from this affiliate and to buy!">Amazon USA</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:131 Segment::render() --></li>
+							<li>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:354 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/4bWg6UD" title="Click here for the latest price from this affiliate and to buy!">Amazon Australia</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:131 Segment::render() --></li></ul></dd>
+					<dt>Permanent Link</dt>
+					<dd>
+						<a class="internal" rel="follow" href="/in-the-lab/show.php/@InTheLabWithJayJay/uEzp4mx_pYA#IzSkw-3aqyA" title="Click here for the permanent link to this video.">Permanent Link</a></dd>
+					<dt>Patreon Announcement</dt>
+					<dd>
+						<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/posts/98545979" title="Click here to see the announcement for this video on Patreon. You could subscribe while you&apos;re there! :)">patreon.com/posts/98545979</a></dd></dl></section>
+			<section class="clearfix">
+				<h3 id="XGwR7Ul55NQ">Old Book Teardown #4: 
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:133 Video::render_link_internal() -->
+					<a class="internal" rel="follow" href="/in-the-lab/show.php/@InTheLabWithJayJay/uEzp4mx_pYA#XGwR7Ul55NQ" title="Click here to watch this video.">The Internet With Windows (1996)</a>
+			<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:131 Segment::render() --></h3>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:193 OldBookTeardown::render_breadcrumbs() -->
+				<p>
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a> &gt; 
+					<a class="internal" rel="follow" href="/in-the-lab/show-type.php/main-show" title="Click here to watch videos recorded for the main show.">Main Show</a> &gt; 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="Click here to watch the videos where I review old technology related books.">Old Book Teardown</a></p>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:131 Segment::render() -->
+				<div class="rc-base video">
+					<iframe data-src="https://www.youtube.com/embed/XGwR7Ul55NQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="320" height="180" allowfullscreen></iframe></div>
+				<div class="rc-0320 video">
+					<iframe data-src="https://www.youtube.com/embed/XGwR7Ul55NQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="320" height="180" allowfullscreen></iframe></div>
+				<div class="rc-0640 video">
+					<iframe data-src="https://www.youtube.com/embed/XGwR7Ul55NQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="560" height="315" allowfullscreen></iframe></div>
+				<div class="rc-1280 video">
+					<iframe data-src="https://www.youtube.com/embed/XGwR7Ul55NQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="640" height="360" allowfullscreen></iframe></div>
+				<div class="rc-1920 video">
+					<iframe data-src="https://www.youtube.com/embed/XGwR7Ul55NQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="960" height="540" allowfullscreen></iframe></div>
+				<dl class="video-details">
+					<dt>Show Notes</dt>
+					<dd>
+						<a class="external" target="_blank" rel="noopener follow" href="https://blog.jj5.net/blog/2024/03/07/old-book-teardown-the-internet-with-windows-in-the-lab-with-jay-jay/" title="Click here to read the show notes published with this video.">Show Notes</a></dd>
+					<dt>Date Published</dt>
+					<dd>Thursday, March 7, 2024</dd>
+					<dt>Video Duration</dt>
+					<dd>38:27</dd>
+					<dt>YouTube Channel</dt>
+					<dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:242 Channel::render() -->
+						<a class="internal channel" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">@InTheLabWithJayJay</a>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:131 Segment::render() --></dd>
+					<dt>YouTube Video Link</dt>
+					<dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:249 YoutubeVideo::render_external_link() -->
+						<a class="external" target="_blank" rel="noopener follow" href="https://youtu.be/XGwR7Ul55NQ" title="Click here to watch this video on YouTube.">https://youtu.be/XGwR7Ul55NQ</a>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:131 Segment::render() --></dd>
+					<dt>Generous Sponsors</dt>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:131 Segment::render() -->
+					<dd><!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Sponsor.php:32 Sponsor::render() -->
+<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/JohnElliotV" title="Super big shout out to Patreon Supporters for supporting the channel!">Patreon Supporters</a></dd>
+					<dt>
+						<a class="internal" rel="follow" href="/in-the-lab/#silly-job-title" title="Click here to read about the silly job title. [Hotkey: I]">Silly Job Title</a></dt>
+					<dd>Charge Charmer</dd>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:275 OldBookTeardown::render_extra_video_attributes() -->
+					<dt>Main Show</dt>
+					<dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:133 Video::render_link_internal() -->
+						<a class="internal" rel="follow" href="/in-the-lab/show.php/@InTheLabWithJayJay/uEzp4mx_pYA#uEzp4mx_pYA" title="Click here to watch this video.">Announcing Maxitronix Xin1 Projects Feature</a>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:275 OldBookTeardown::render_extra_video_attributes() --></dd>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:131 Segment::render() -->
+					<dt>Book Title</dt>
+					<dd>The Internet With Windows</dd>
+					<dt>Book Author</dt>
+					<dd>Glyn Moody</dd>
+					<dt>Book Copyright</dt>
+					<dd>© 1996</dd>
+					<dt>Book Age</dt>
+					<dd>28 years old</dd>
+					<dt>Book Pages</dt>
+					<dd>651 pages</dd>
+					<dt>Purchase this book</dt>
+					<dd>
+						<ul>
+							<li>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:354 AffiliateLink::render() -->
+								<a class="affiliate external" target="_blank" rel="noopener follow" href="https://amzn.to/3Tq57LX" title="Click here for the latest price from this affiliate and to buy!">Amazon USA</a>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:131 Segment::render() --></li></ul></dd>
+					<dt>Permanent Link</dt>
+					<dd>
+						<a class="internal" rel="follow" href="/in-the-lab/show.php/@InTheLabWithJayJay/uEzp4mx_pYA#XGwR7Ul55NQ" title="Click here for the permanent link to this video.">Permanent Link</a></dd>
+					<dt>Patreon Announcement</dt>
+					<dd>
+						<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/posts/99911472" title="Click here to see the announcement for this video on Patreon. You could subscribe while you&apos;re there! :)">patreon.com/posts/99911472</a></dd></dl></section>
+			<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() -->
+			<section class="clearfix">
+				<h2 id="9JYIQ3o73rQ">Interlude #3: 
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:133 Video::render_link_internal() -->
+					<a class="internal" rel="follow" href="/in-the-lab/show.php/@InTheLabWithJayJay/9JYIQ3o73rQ#9JYIQ3o73rQ" title="Click here to watch this video.">Demo Of The New Studio Cameras – Now In 4K!</a>
+			<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() --></h2>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:193 Interlude::render_breadcrumbs() -->
+				<p>
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a> &gt; 
+					<a class="internal" rel="follow" href="/in-the-lab/show-type.php/special-show" title="Click here to watch special shows which air on the main channel.">Special Show</a> &gt; 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/interlude" title="Click here to watch the videos where I take a break from the main show.">Interlude</a></p>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() -->
+				<div class="rc-base video">
+					<iframe data-src="https://www.youtube.com/embed/9JYIQ3o73rQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="320" height="180" allowfullscreen></iframe></div>
+				<div class="rc-0320 video">
+					<iframe data-src="https://www.youtube.com/embed/9JYIQ3o73rQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="320" height="180" allowfullscreen></iframe></div>
+				<div class="rc-0640 video">
+					<iframe data-src="https://www.youtube.com/embed/9JYIQ3o73rQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="560" height="315" allowfullscreen></iframe></div>
+				<div class="rc-1280 video">
+					<iframe data-src="https://www.youtube.com/embed/9JYIQ3o73rQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="640" height="360" allowfullscreen></iframe></div>
+				<div class="rc-1920 video">
+					<iframe data-src="https://www.youtube.com/embed/9JYIQ3o73rQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="960" height="540" allowfullscreen></iframe></div>
+				<dl class="video-details">
+					<dt>Show Notes</dt>
+					<dd>
+						<a class="external" target="_blank" rel="noopener follow" href="https://blog.jj5.net/blog/2023/12/24/in-the-lab-with-jay-jay-december-24-2023-demo-of-the-new-studio-cameras-now-in-4k/" title="Click here to read the show notes published with this video.">Show Notes</a></dd>
+					<dt>Date Published</dt>
+					<dd>Sunday, December 24, 2023</dd>
+					<dt>Video Duration</dt>
+					<dd>4:31</dd>
+					<dt>YouTube Channel</dt>
+					<dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:242 Channel::render() -->
+						<a class="internal channel" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">@InTheLabWithJayJay</a>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() --></dd>
+					<dt>YouTube Video Link</dt>
+					<dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:249 YoutubeVideo::render_external_link() -->
+						<a class="external" target="_blank" rel="noopener follow" href="https://youtu.be/9JYIQ3o73rQ" title="Click here to watch this video on YouTube.">https://youtu.be/9JYIQ3o73rQ</a>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() --></dd>
+					<dt>Generous Sponsors</dt>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:127 Segment::render() -->
+					<dd><!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Sponsor.php:32 Sponsor::render() -->
+<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/JohnElliotV" title="Super big shout out to Patreon Supporters for supporting the channel!">Patreon Supporters</a></dd>
+					<dt>
+						<a class="internal" rel="follow" href="/in-the-lab/#silly-job-title" title="Click here to read about the silly job title. [Hotkey: I]">Silly Job Title</a></dt>
+					<dd>Charge Charmer</dd>
+					<dt>Permanent Link</dt>
+					<dd>
+						<a class="internal" rel="follow" href="/in-the-lab/show.php/@InTheLabWithJayJay/9JYIQ3o73rQ#9JYIQ3o73rQ" title="Click here for the permanent link to this video.">Permanent Link</a></dd>
+					<dt>Patreon Announcement</dt>
+					<dd>
+						<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/posts/95200185" title="Click here to see the announcement for this video on Patreon. You could subscribe while you&apos;re there! :)">patreon.com/posts/95200185</a></dd></dl></section>
+			<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:131 Segment::render() -->
+			<section class="clearfix">
+				<h3 id="zvtVykg1kNY">Old Book Teardown #3: 
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:133 Video::render_link_internal() -->
+					<a class="internal" rel="follow" href="/in-the-lab/show.php/@InTheLabWithJayJay/9JYIQ3o73rQ#zvtVykg1kNY" title="Click here to watch this video.">Vest Pocket Guide To Electrical Testing And Troubleshooting (1987)</a>
+			<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:131 Segment::render() --></h3>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:193 OldBookTeardown::render_breadcrumbs() -->
+				<p>
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a> &gt; 
+					<a class="internal" rel="follow" href="/in-the-lab/show-type.php/main-show" title="Click here to watch videos recorded for the main show.">Main Show</a> &gt; 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="Click here to watch the videos where I review old technology related books.">Old Book Teardown</a></p>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:131 Segment::render() -->
+				<div class="rc-base video">
+					<iframe data-src="https://www.youtube.com/embed/zvtVykg1kNY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="320" height="180" allowfullscreen></iframe></div>
+				<div class="rc-0320 video">
+					<iframe data-src="https://www.youtube.com/embed/zvtVykg1kNY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="320" height="180" allowfullscreen></iframe></div>
+				<div class="rc-0640 video">
+					<iframe data-src="https://www.youtube.com/embed/zvtVykg1kNY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="560" height="315" allowfullscreen></iframe></div>
+				<div class="rc-1280 video">
+					<iframe data-src="https://www.youtube.com/embed/zvtVykg1kNY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="640" height="360" allowfullscreen></iframe></div>
+				<div class="rc-1920 video">
+					<iframe data-src="https://www.youtube.com/embed/zvtVykg1kNY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="960" height="540" allowfullscreen></iframe></div>
+				<dl class="video-details">
+					<dt>Show Notes</dt>
+					<dd>
+						<a class="external" target="_blank" rel="noopener follow" href="https://blog.jj5.net/blog/2024/01/05/in-the-lab-with-jay-jay-january-4-2024-old-book-vest-pocket-guide-to-electrical-testing-and-troubleshooting-published-1987/" title="Click here to read the show notes published with this video.">Show Notes</a></dd>
+					<dt>Date Published</dt>
+					<dd>Thursday, January 4, 2024</dd>
+					<dt>Video Duration</dt>
+					<dd>12:47</dd>
+					<dt>YouTube Channel</dt>
+					<dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:242 Channel::render() -->
+						<a class="internal channel" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">@InTheLabWithJayJay</a>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:131 Segment::render() --></dd>
+					<dt>YouTube Video Link</dt>
+					<dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:249 YoutubeVideo::render_external_link() -->
+						<a class="external" target="_blank" rel="noopener follow" href="https://youtu.be/zvtVykg1kNY" title="Click here to watch this video on YouTube.">https://youtu.be/zvtVykg1kNY</a>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:131 Segment::render() --></dd>
+					<dt>Generous Sponsors</dt>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:131 Segment::render() -->
+					<dd><!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Sponsor.php:32 Sponsor::render() -->
+<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/JohnElliotV" title="Super big shout out to Patreon Supporters for supporting the channel!">Patreon Supporters</a></dd>
+					<dt>
+						<a class="internal" rel="follow" href="/in-the-lab/#silly-job-title" title="Click here to read about the silly job title. [Hotkey: I]">Silly Job Title</a></dt>
+					<dd>Charge Charmer</dd>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:275 OldBookTeardown::render_extra_video_attributes() -->
+					<dt>Main Show</dt>
+					<dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:133 Video::render_link_internal() -->
+						<a class="internal" rel="follow" href="/in-the-lab/show.php/@InTheLabWithJayJay/9JYIQ3o73rQ#9JYIQ3o73rQ" title="Click here to watch this video.">Demo Of The New Studio Cameras – Now In 4K!</a>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:275 OldBookTeardown::render_extra_video_attributes() --></dd>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Show.php:131 Segment::render() -->
+					<dt>Book Title</dt>
+					<dd>Vest Pocket Guide To Electrical Testing And Troubleshooting</dd>
+					<dt>Book Author</dt>
+					<dd>John E. Traister</dd>
+					<dt>Book Copyright</dt>
+					<dd>© 1987</dd>
+					<dt>Book Age</dt>
+					<dd>37 years old</dd>
+					<dt>Book Pages</dt>
+					<dd>130 pages</dd>
+					<dt>Permanent Link</dt>
+					<dd>
+						<a class="internal" rel="follow" href="/in-the-lab/show.php/@InTheLabWithJayJay/9JYIQ3o73rQ#zvtVykg1kNY" title="Click here for the permanent link to this video.">Permanent Link</a></dd>
+					<dt>Patreon Announcement</dt>
+					<dd>
+						<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/posts/95883636" title="Click here to see the announcement for this video on Patreon. You could subscribe while you&apos;re there! :)">patreon.com/posts/95883636</a></dd></dl></section>
+			<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/3-model/ThingList.php:74 Show::render_section_next() -->
+			<div class="container loader">
+				<a class="internal" rel="nofollow" href="?from=gOMHSQCOQ70#gOMHSQCOQ70" title="Click here to load more videos!">Load More Videos</a></div>
+			<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/show.php:3 ::require_once() -->
+			<section>
+				<h2 id="thanks">Thank You!</h2>
+				<p>Thanks very much for your interest and 
+					<b>I hope you enjoy the show!</b></p></section>
+			<section>
+				<h2 id="next">Where to from Here?</h2>
+				<p>You made it to the bottom of the page, huh? Well done! I&apos;m a bit of a scroller myself. :)</p>
+				<p>Where you go next depends on what you&apos;re interested in. Here are some suggestions:</p>
+				<ul>
+					<li>If you&apos;re enjoying my content you could consider 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to find out how you can support the show. [Hotkey: U]">supporting the show</a>.</li>
+					<li>My 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/new-book-teardown" title="Click here to watch the videos where I review new technology related books.">new book teardown videos</a> are quite popular, you might enjoy watching those.</li>
+					<li>My personal favourites are the 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="Click here to watch the videos where I review old technology related books.">old book teardown videos</a>.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a>, for all my high quality content including my 
+						<a class="internal" rel="follow" href="/in-the-lab/show-type.php/special-show" title="Click here to watch special shows which air on the main channel.">special shows</a>.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/show-type.php/main-show" title="Click here to watch videos recorded for the main show.">main show</a>, for my main show videos, which include the 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/electronics-project" title="Click here to watch the electronics project videos.">electronics project</a> and 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="Click here to watch the videos where I review old technology related books.">old book teardown</a> videos.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">equipment</a> page, if you&apos;re interested in any of the equipment I use. If you&apos;re putting together your own electronics lab then I would certainly recommend checking this out!</li>
+					<li>Did I mention that you can 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to find out how you can support the show. [Hotkey: U]">support the show</a>? :)</li></ul></section></main>
+		<footer>
+			<div>&copy; Copyright 2024 John Elliot V. All rights reserved.</div></footer>
+		<script>window.g_mud_html_options = [];</script></body></html>

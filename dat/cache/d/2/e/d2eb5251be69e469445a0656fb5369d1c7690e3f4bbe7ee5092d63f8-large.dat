@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+
+<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/index.php:3 ::require_once() -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>In The Lab With Jay Jay</title>
+		<meta charset="UTF-8">
+		<meta name="date" content="2024-08-07T20:32:44+00:00">
+		<meta name="author" content="John Elliot V">
+		<meta name="keywords" content="electronics videos, electronics lab, electronics kits, electronics experiments, video blog, In The Lab With Jay Jay, John Elliot V">
+		<meta name="description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+		<meta name="robots" content="index, follow">
+		<meta property="og:title" content="In The Lab With Jay Jay">
+		<meta property="og:description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta property="og:image" content="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<meta property="og:url" content="http://localhost/in-the-lab/">
+		<meta property="og:type" content="website">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:title" content="In The Lab With Jay Jay">
+		<meta name="twitter:description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
+		<meta name="twitter:image" content="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<link rel="icon" href="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<link rel="canonical" href="http://localhost/in-the-lab/">
+		<link rel="alternate" type="application/rss+xml" title="In The Lab With Jay Jay » Feed" href="/in-the-lab/feed.php">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		<link rel="stylesheet" href="/in-the-lab/res/style.php/jjlab-0.2.1115/style.css">
+		<script>
+			var MUD_SERVER_VERSION = "0.5.1623-211631354";
+		
+			var APP_SERVER_VERSION = "0.2.1115-211631354";
+		
+			var URL_BASE = "\/in-the-lab";
+		
+			var DEBUG = true;
+		
+			var DEV = true;
+		
+			var BETA = false;
+		
+			var IS_JOHN = true;
+		
+		</script>
+		<script src="/in-the-lab/res/script.php/jjlab-0.2.1115/script.js"></script>
+		<link rel="preload" href="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/banner-0640.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" as="image"></head>
+	<body>
+		<main class="wrapper">
+			<nav class="navigation">
+				<div class="container">
+					<a href="/in-the-lab/" class="navigation-title" title="In The Lab With Jay Jay is the video blog of John Elliot V">
+						<img src="/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" loading="eager" alt="">
+						<header class="title">In The Lab With Jay Jay</header></a>
+					<ul class="navigation-list">
+						<li class="navigation-item">
+							<button class="hamburger" onclick="handle_hamburger_click( event, this )" title="Click here to access the website navigation.">
+								<span class="bar"></span>
+								<span class="bar"></span>
+								<span class="bar"></span></button>
+							<div id="popover-grid" class="popover">
+								<ul class="popover-list">
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/" title="Click here to visit the homepage for this website. [Hotkey: H]">Home</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here to access the main channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/sponsor.php" title="Click here to find out more about our very generous sponsors! [Hotkey: S]">Sponsors</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">Equipment</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/about.php" title="Click here to find out more about the show and this website. [Hotkey: A]">About</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/support.php" title="Click here to see how you can support the show. Thanks for thinking of me! [Hotkey: U]">Support the Show!</a></li>
+									<li class="popover-item">
+										<a class="internal popover-link" rel="follow" href="/in-the-lab/debug.php" title="John&apos;s debug thing">Debug</a></li>
+									<li class="popover-item">
+										<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]">
+											<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a></li></ul></div></li></ul>
+					<div class="menu-list">
+						<a class="internal" rel="follow" href="/in-the-lab/" title="Click here to visit the homepage for this website. [Hotkey: H]">Home</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here to access the main channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/sponsor.php" title="Click here to find out more about our very generous sponsors! [Hotkey: S]">Sponsors</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">Equipment</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/about.php" title="Click here to find out more about the show and this website. [Hotkey: A]">About</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to see how you can support the show. Thanks for thinking of me! [Hotkey: U]">Support the Show!</a> | 
+						<a class="internal" rel="follow" href="/in-the-lab/debug.php" title="John&apos;s debug thing">Debug</a>
+						<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]">
+							<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a></div></div></nav>
+			<header id="banner">
+				<img loading="eager" class="rc-base" src="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-0320" src="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-0640" src="/in-the-lab/res/img.php/banner-0640.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-1280" src="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" alt="">
+				<img loading="eager" class="rc-1920" src="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" alt=""></header>
+			<header id="home" class="header">
+				<section>
+					<img src="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" alt="" loading="lazy">
+					<h1 id="heading">In The Lab With Jay Jay</h1>
+					<p>Hi there! Welcome to my beginner-friendly video blog about electronics!</p>
+					<p>My name is Jay Jay, I&apos;ll be your host.</p>
+					<p>I am a computer programmer by day and a maker by night. I&apos;m here to share my passion for electronics and technology with you. I hope you enjoy the content I create and find it helpful and interesting.</p>
+					<p>You can find my main YouTube channel here:</p>
+					<p>
+						<a class="external" target="_blank" rel="noopener follow" href="https://www.youtube.com/@InTheLabWithJayJay" title="Subscribe to my YouTube channel!">youtube.com/@InTheLabWithJayJay</a></p>
+					<p>You can support me on Patreon here:</p>
+					<p>
+						<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/JohnElliotV" title="Super big shout out to my Patreon supporters for supporting the channel!">patreon.com/JohnElliotV</a></p></section></header>
+			<section>
+				<h2 id="latest">Latest Video</h2>
+				<p>The latest video published to the 
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a> is:</p></section>
+			<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/section.php:231 Segment::render() -->
+			<section class="clearfix">
+				<h3 id="bq0xjk_uEwQ">Mail Call #5: 
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:133 Video::render_link_internal() -->
+					<a class="internal" rel="follow" href="/in-the-lab/show.php/@InTheLabWithJayJay/bq0xjk_uEwQ#bq0xjk_uEwQ" title="Click here to watch this video.">Loot from Amazon and AliExpress!</a>
+			<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/section.php:231 Segment::render() --></h3>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:193 MailCall::render_breadcrumbs() -->
+				<p>
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a> &gt; 
+					<a class="internal" rel="follow" href="/in-the-lab/show-type.php/special-show" title="Click here to watch special shows which air on the main channel.">Special Show</a> &gt; 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/mail-call" title="Click here to watch videos of recently arrived packages.">Mail Call</a></p>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/section.php:231 Segment::render() -->
+				<div class="rc-base video">
+					<iframe data-src="https://www.youtube.com/embed/bq0xjk_uEwQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="320" height="180" allowfullscreen></iframe></div>
+				<div class="rc-0320 video">
+					<iframe data-src="https://www.youtube.com/embed/bq0xjk_uEwQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="320" height="180" allowfullscreen></iframe></div>
+				<div class="rc-0640 video">
+					<iframe data-src="https://www.youtube.com/embed/bq0xjk_uEwQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="560" height="315" allowfullscreen></iframe></div>
+				<div class="rc-1280 video">
+					<iframe data-src="https://www.youtube.com/embed/bq0xjk_uEwQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="640" height="360" allowfullscreen></iframe></div>
+				<div class="rc-1920 video">
+					<iframe data-src="https://www.youtube.com/embed/bq0xjk_uEwQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="960" height="540" allowfullscreen></iframe></div>
+				<dl class="video-details">
+					<dt>Show Notes</dt>
+					<dd>
+						<a class="external" target="_blank" rel="noopener follow" href="https://blog.jj5.net/blog/2024/08/07/mail-call-5-loot-from-amazon-and-aliexpress-learning-electronics-in-the-lab-with-jay-jay/" title="Click here to read the show notes published with this video.">Show Notes</a></dd>
+					<dt>Date Published</dt>
+					<dd>Wednesday, August 7, 2024</dd>
+					<dt>Video Duration</dt>
+					<dd>20:25</dd>
+					<dt>YouTube Channel</dt>
+					<dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:242 Channel::render() -->
+						<a class="internal channel" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">@InTheLabWithJayJay</a>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/section.php:231 Segment::render() --></dd>
+					<dt>YouTube Video Link</dt>
+					<dd>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Segment.php:249 YoutubeVideo::render_external_link() -->
+						<a class="external" target="_blank" rel="noopener follow" href="https://youtu.be/bq0xjk_uEwQ" title="Click here to watch this video on YouTube.">https://youtu.be/bq0xjk_uEwQ</a>
+				<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/section.php:231 Segment::render() --></dd>
+					<dt>Generous Sponsors</dt>
+					<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/section.php:231 Segment::render() -->
+					<dd><!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/5-class/thing/Sponsor.php:32 Sponsor::render() -->
+<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/JohnElliotV" title="Super big shout out to Patreon Supporters for supporting the channel!">Patreon Supporters</a></dd>
+					<dt>Permanent Link</dt>
+					<dd>
+						<a class="internal" rel="follow" href="/in-the-lab/show.php/@InTheLabWithJayJay/bq0xjk_uEwQ#bq0xjk_uEwQ" title="Click here for the permanent link to this video.">Permanent Link</a></dd>
+					<dt>Patreon Announcement</dt>
+					<dd>
+						<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/posts/109630940" title="Click here to see the announcement for this video on Patreon. You could subscribe while you&apos;re there! :)">patreon.com/posts/109630940</a></dd></dl></section>
+			<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/index.php:3 ::require_once() -->
+			<section>
+				<h2 id="contents">Table of Contents</h2>
+				<p>The contents of this page are organised into the following sections:</p>
+				<div id="contents_div">Contents will go here (if you have Javascript enabled).</div></section>
+			<section>
+				<h2 id="about">About the Website</h2>
+				<p>In The Lab With Jay Jay is the 
+					<b>video blog of John Elliot V</b>.</p>
+				<p>My name is John but 
+					<b>my friends call me Jay Jay</b>.</p>
+				<p>On my 
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a> and my 
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@ElliotsExtras" title="Click here for extra content on my 2nd YouTube channel @ElliotsExtras. [Hotkey: 2]">2nd channel</a> I publish videos about electronics.</p>
+				<p>The content is fairly wide ranging but in general it should be 
+					<b>of interest to electronics hobbyists</b>, particularly beginners.</p>
+				<p>You can find more info about this website on the 
+					<a class="internal" rel="follow" href="/in-the-lab/about.php" title="Click here for more info about the show and this website. [Hotkey: A]">about</a> page and you can find contact details on the 
+					<a class="internal" rel="follow" href="/in-the-lab/contact.php" title="Click here to find my contact details. [Hotkey: C]">contact</a> page, feel free to get in touch!</p></section>
+			<section>
+				<h2 id="conventions">Website Conventions</h2>
+				<p>On this website 
+					<a style="color: #1E90FF !important;" class="internal" rel="follow" href="/in-the-lab/#conventions" title="Clicking on a light blue link will take you to another page on this website.">internal links are light blue</a>, 
+					<a style="color: blue !important;" class="external" target="_blank" rel="noopener follow" href="/in-the-lab/#conventions" title="Clicking on a dark blue link will open the external link in a new tab/window.">external links are dark blue</a>, and 
+					<a style="color: green !important;" class="external" target="_blank" rel="noopener follow" href="/in-the-lab/#conventions" title="Clicking on a green link will open the affiliate link in a new tab/window.">affiliate links are green</a>.</p>
+				<p>Usually external links and affiliate links will open in a new tab/window and this is indicated with a chain symbol (🔗) following the link.</p>
+				<p>As you may know if you want to open an external/affiliate link in a new tab instead of a new window you can right click the link and select &quot;Open link in new tab&quot; or you can usually hold down the &quot;Ctrl&quot; key while clicking the link.</p></section>
+			<section>
+				<h2 id="announcements">Announcements</h2>
+				<p>When I release a new video I announce it on:</p>
+				<ul>
+					<li>
+						<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/JohnElliotV" title="Click here to see my generous supporters on Patreon, and maybe join them?">patreon.com/JohnElliotV</a> (for both 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a> and 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@ElliotsExtras" title="Click here for extra content on my 2nd YouTube channel @ElliotsExtras. [Hotkey: 2]">2nd channel</a> videos)</li>
+					<li>
+						<a class="external" target="_blank" rel="noopener follow" href="https://www.youtube.com/@InTheLabWithJayJay" title="Click here to visit my main channel known as @InTheLabWithJayJay over on YouTube. Thanks very much for watching! And please remember to hit like and subscribe! :)">youtube.com/@InTheLabWithJayJay</a> (for 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a> videos)</li>
+					<li>
+						<a class="external" target="_blank" rel="noopener follow" href="https://www.youtube.com/@ElliotsExtras" title="Click here to visit my 2nd channel known as @ElliotsExtras over on YouTube.">youtube.com/@ElliotsExtras</a> (for 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@ElliotsExtras" title="Click here for extra content on my 2nd YouTube channel @ElliotsExtras. [Hotkey: 2]">2nd channel</a> videos)</li>
+					<li>
+						<a class="external" target="_blank" rel="noopener follow" href="https://blog.jj5.net/" title="Click here to visit my blog!">blog.jj5.net</a> (for both 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a> and 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@ElliotsExtras" title="Click here for extra content on my 2nd YouTube channel @ElliotsExtras. [Hotkey: 2]">2nd channel</a> videos with 
+						<a class="internal" rel="follow" href="/in-the-lab/#show-notes" title="Click here to read the show notes published with this video.">show notes</a>)</li>
+					<li>
+						<a class="internal" rel="follow" href="https://www.inthelabwithjayjay.com/" title="Click here to visit the show&apos;s home page. [Hotkey: H]">InTheLabWithJayJay.com</a> (this website, aka 
+						<a class="external" target="_blank" rel="noopener follow" href="https://jjlab.net/" title="Click here to visit the show&apos;s home page. [Hotkey: H]">jjlab.net</a>)</li></ul>
+				<p>If you&apos;re interested in getting notifications about new videos you can subscribe to an 
+					<a class="internal" rel="follow" href="/in-the-lab/#feeds" title="Click here for the RSS feed for these types of videos.">RSS feed</a>.</p></section>
+			<section>
+				<h2 id="video-content">Video Content</h2>
+				<p>My videos are primarily about 
+					<b>my misadventures in my electronics lab</b>. I should be very clear: 
+					<b>I am not an expert!</b> I am a beginning electronics hobbyist and in my videos you will see me fumble around and make a lot of mistakes as I go about learning this dark art. (If you are looking for an expert check out 
+					<a class="internal" rel="follow" href="/in-the-lab/homies.php" title="Click here to see who I follow on YouTube and support on Patreon.">my homies</a>.)</p>
+				<p>Also I&apos;m just starting to learn about video blogging so please bear with me as I figure out how to create 
+					<b>high quality videos</b>.</p>
+				<p>If you have any suggestions concerning how I might improve either the content or the video quality 
+					<b>I would be very happy to hear from you!</b> You can find my contact details on the 
+					<a class="internal" rel="follow" href="/in-the-lab/contact.php" title="Click here to find my contact details. [Hotkey: C]">contact</a> page.</p></section>
+			<section>
+				<h3 id="taglines">Taglines</h3>
+				<p>My format has been evolving since I started, but these days when I start a video I say &quot;Hi there! You&apos;re in the lab with your mate Jay Jay.&quot; and when I close a video I say &quot;Thanks very much for watching! And please remember to hit like and subscribe! :)&quot; I guess this is fairly straight bat and boring, but that&apos;s okay. Other things that I like to say include &quot;It never hurts to test!&quot; and &quot;Let&apos;s make a cable!&quot;</p></section>
+			<section>
+				<h2 id="stats">Statistics</h2>
+				<p>Here are some stats about how long my videos usually play for.</p>
+				<p>The durations are given as hours:minutes:seconds.</p>
+				<p>Note: when there is more than one value for the median the longest value is given. The average is the arithmetic mean and the standard deviation is the population standard deviation.</p>
+				<p>You can get stats for all of my videos on the 
+					<a class="internal" rel="follow" href="/in-the-lab/stats.php" title="Click here for stats about my videos and equipment. [Hotkey: N]">stats</a> page.</p>
+				<table>
+					<tbody>
+						<tr>
+							<th class="right">Videos Published:</th>
+							<td class="right">95</td></tr>
+						<tr>
+							<th class="right">Total Duration:</th>
+							<td class="right">66 hours</td></tr>
+						<tr>
+							<th class="right">Minimum Duration:</th>
+							<td class="right">1:51</td></tr>
+						<tr>
+							<th class="right">Maximum Duration:</th>
+							<td class="right">4:51:55</td></tr>
+						<tr>
+							<th class="right">Median Duration:</th>
+							<td class="right">23:00</td></tr>
+						<tr>
+							<th class="right">Average Duration:</th>
+							<td class="right">41:33</td></tr>
+						<tr>
+							<th class="right">Standard Deviation:</th>
+							<td class="right">49:52</td></tr></tbody></table></section>
+			<section>
+				<h2 id="structure">Content Structure</h2>
+				<p>The various 
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php" title="Click here for info about my YouTube channels.">channels</a>, 
+					<a class="internal" rel="follow" href="/in-the-lab/show-type.php" title="Click here for info about the types of shows I make.">shows</a>, and 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php" title="Click here to learn about the features of the show.">features</a> are organised roughly like this:</p>
+				<ul>
+					<li>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/section.php:1080 Channel::render_link_internal() -->
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">@InTheLabWithJayJay</a> (82 videos, 50 hours)
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/index.php:3 ::require_once() -->
+						<ul>
+							<li>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/section.php:1096 ShowType::render_link_internal() -->
+								<a class="internal" rel="follow" href="/in-the-lab/show-type.php/main-show" title="In the main show we make high-quality videos of interest to the electronics hobbyist, particularly beginners.">Main Show</a> (13 videos, 15 hours)
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/index.php:3 ::require_once() -->
+								<ul>
+									<li>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/section.php:1112 Feature::render_link_internal() -->
+										<a class="internal feature" rel="follow" href="/in-the-lab/feature.php/electronics-project" title="In the electronics project videos we do something interesting and electronics related.">Electronics Project Videos</a> (7 videos, 5 hours)
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/index.php:3 ::require_once() --></li>
+									<li>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/section.php:1112 Feature::render_link_internal() -->
+										<a class="internal feature" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="In the old book teardown videos we take a close look at an old electronics book.">Old Book Teardown Videos</a> (6 videos, 10 hours)
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/index.php:3 ::require_once() --></li></ul></li>
+							<li>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/section.php:1096 ShowType::render_link_internal() -->
+								<a class="internal" rel="follow" href="/in-the-lab/show-type.php/special-show" title="In the special shows we take a look at something interesting and electronics related.">Special Show</a> (69 videos, 36 hours)
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/index.php:3 ::require_once() -->
+								<ul>
+									<li>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/section.php:1112 Feature::render_link_internal() -->
+										<a class="internal feature" rel="follow" href="/in-the-lab/feature.php/new-book-teardown" title="In the new book teardown videos we take a close look at a new electronics book.">New Book Teardown Videos</a> (5 videos, 7 hours)
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/index.php:3 ::require_once() --></li>
+									<li>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/section.php:1112 Feature::render_link_internal() -->
+										<a class="internal feature" rel="follow" href="/in-the-lab/feature.php/mini-project" title="In the mini project videos we work our way through the mini projects published in Silicon Chip magazine.">Mini Project Videos</a> (2 videos, 1 hour)
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/index.php:3 ::require_once() --></li>
+									<li>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/section.php:1112 Feature::render_link_internal() -->
+										<a class="internal feature" rel="follow" href="/in-the-lab/feature.php/maxitronix-10in1" title="In the Maxitronix 10in1 videos we work our way through the Maxitronix 10in1 electronics project lab.">Maxitronix 10in1 Videos</a> (12 videos, 3 hours)
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/index.php:3 ::require_once() --></li>
+									<li>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/section.php:1112 Feature::render_link_internal() -->
+										<a class="internal feature" rel="follow" href="/in-the-lab/feature.php/maxitronix-20in1" title="In the Maxitronix 20in1 videos we work our way through the Maxitronix 20in1 electronics project lab.">Maxitronix 20in1 Videos</a> (11 videos, 5 hours)
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/index.php:3 ::require_once() --></li>
+									<li>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/section.php:1112 Feature::render_link_internal() -->
+										<a class="internal feature" rel="follow" href="/in-the-lab/feature.php/interlude" title="In the interlude videos we take a small digression into something interesting.">Interlude Videos</a> (7 videos, 5 hours)
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/index.php:3 ::require_once() --></li>
+									<li>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/section.php:1112 Feature::render_link_internal() -->
+										<a class="internal feature" rel="follow" href="/in-the-lab/feature.php/mail-call" title="In the mail call videos we open a recently arrived package.">Mail Call Videos</a> (5 videos, 3 hours)
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/index.php:3 ::require_once() --></li>
+									<li>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/section.php:1112 Feature::render_link_internal() -->
+										<a class="internal feature" rel="follow" href="/in-the-lab/feature.php/unboxing" title="In the unboxing videos we open the box and take a look at a new item, such as tools or components.">Unboxing Videos</a> (12 videos, 5 hours)
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/index.php:3 ::require_once() --></li>
+									<li>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/section.php:1112 Feature::render_link_internal() -->
+										<a class="internal feature" rel="follow" href="/in-the-lab/feature.php/channel-news" title="In the channel news videos I let you know about developments related to the show.">Channel News Videos</a> (4 videos, 1 hour)
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/index.php:3 ::require_once() --></li>
+									<li>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/section.php:1112 Feature::render_link_internal() -->
+										<a class="internal feature" rel="follow" href="/in-the-lab/feature.php/early-content" title="The early content was recorded in the early days of the channel, the format has since changed.">Early Content Videos</a> (11 videos, 5 hours)
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/index.php:3 ::require_once() --></li></ul></li></ul></li>
+					<li>
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/section.php:1080 Channel::render_link_internal() -->
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@ElliotsExtras" title="Click here for extra content on my 2nd YouTube channel @ElliotsExtras. [Hotkey: 2]">@ElliotsExtras</a> (13 videos, 16 hours)
+						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/index.php:3 ::require_once() -->
+						<ul>
+							<li>
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/section.php:1096 ShowType::render_link_internal() -->
+								<a class="internal" rel="follow" href="/in-the-lab/show-type.php/extra-show" title="In the extra shows you will find longer form content which has received less editing attention.">Extra Show</a> (13 videos, 16 hours)
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/index.php:3 ::require_once() -->
+								<ul>
+									<li>
+										<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/code/5-module/510-app/inc/view/section.php:1112 Feature::render_link_internal() -->
+										<a class="internal feature" rel="follow" href="/in-the-lab/feature.php/extra-content" title="This is longer form content which has received less editing attention and airs on a separate channel.">Extra Content Videos</a> (13 videos, 16 hours)
+								<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/index.php:3 ::require_once() --></li></ul></li></ul></li></ul>
+				<p>When I refer to &quot;the show&quot; or &quot;the channel&quot; I&apos;m usually referring to any and all of the above. Maybe I should call it &quot;the spectacle&quot;. :P</p></section>
+			<section>
+				<h3 id="sitemap">Sitemap</h3>
+				<p>Beyond the channels, shows, and features (<a class="internal" rel="follow" href="/in-the-lab/#structure" title="Click here to read about how the content is structured.">given above</a>) the rest of this website is arranged roughly like this:</p>
+				<ul>
+					<li>
+						<a class="internal" rel="follow" href="/in-the-lab/" title="Click here to visit the show&apos;s home page. [Hotkey: H]">InTheLabWithJayJay.com</a> (this website)
+						<ul>
+							<li>
+								<a class="internal" rel="follow" href="/in-the-lab/contact.php" title="Click here to find my contact details. [Hotkey: C]">Contact Info</a></li>
+							<li>
+								<a class="internal" rel="follow" href="/in-the-lab/about.php" title="Click here for more info about the show and this website. [Hotkey: A]">About the Website</a></li>
+							<li>
+								<a class="internal" rel="follow" href="/in-the-lab/stats.php" title="Click here for stats about my videos and equipment. [Hotkey: N]">Statistics</a></li>
+							<li>
+								<a class="internal" rel="follow" href="/in-the-lab/sponsor.php" title="Click here to learn more about my generous sponsors. [Hotkey: S]">Sponsors</a></li>
+							<li>
+								<a class="internal" rel="follow" href="/in-the-lab/homies.php" title="Click here to see who I follow on YouTube and support on Patreon.">Homies</a></li>
+							<li>
+								<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">Equipment</a>
+								<ul>
+									<li>
+										<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php" title="Click here to see all the equipment from this manufacturer.">Equipment Manufacturers</a></li>
+									<li>
+										<a class="internal" rel="follow" href="/in-the-lab/category.php" title="Click here to see all the equipment in this category.">Equipment Categories</a></li></ul></li>
+							<li>
+								<a class="internal" rel="follow" href="/in-the-lab/affiliate.php" title="Click here to read about the show&apos;s affiliates.">Affiliates</a></li>
+							<li>
+								<a class="internal" rel="follow" href="/in-the-lab/secret.php" title="Click here to learn more about the secret pages I use for testing.">Secret Tables</a>
+								<ul>
+									<li>
+										<a class="internal" rel="follow" href="/in-the-lab/videos.php" title="Click here to see the &quot;secret&quot; index of all videos. [Hotkey: V]">Video Index</a></li>
+									<li>
+										<a class="internal" rel="follow" href="/in-the-lab/books.php" title="Click here to see the &quot;secret&quot; index of all books. [Hotkey: B]">Book Index</a></li></ul></li>
+							<li>
+								<a class="internal" rel="follow" href="/in-the-lab/youtube-hacks.php" title="Click here to read about YouTube hacks. [Hotkey: 3]">YouTube Hacks</a></li>
+							<li>
+								<a class="internal" rel="follow" href="/in-the-lab/#feeds" title="Click here for the RSS feed info.">RSS Feeds</a></li>
+							<li>
+								<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to find out how you can support the show. [Hotkey: U]">Support the Show!</a></li></ul></li></ul></section>
+			<section>
+				<h3 id="feeds">RSS Feeds</h3>
+				<p>You can subscribe to 
+					<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]">
+						<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a> feeds for the show which is syndicated as follows. You can subscribe to the whole lot, or just pick the content category that you&apos;re interested in.</p>
+				<ul>
+					<li>
+						<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here for the RSS feed for these types of videos.">RSS » In The Lab With Jay Jay</a> (All Videos)
+						<ul>
+							<li>
+								<a class="internal" rel="follow" href="/in-the-lab/feed.php/channel/@InTheLabWithJayJay" title="Click here for the RSS feed for these types of videos.">RSS » @InTheLabWithJayJay</a> (Main Channel)
+								<ul>
+									<li>
+										<a class="internal" rel="follow" href="/in-the-lab/feed.php/show-type/main-show" title="Click here for the RSS feed for these types of videos.">RSS » @InTheLabWithJayJay » Main Show</a>
+										<ul>
+											<li>
+												<a class="internal" rel="follow" href="/in-the-lab/feed.php/feature/electronics-project" title="Click here for the RSS feed for these types of videos.">RSS » @InTheLabWithJayJay » Main Show » Electronics Project</a></li>
+											<li>
+												<a class="internal" rel="follow" href="/in-the-lab/feed.php/feature/old-book-teardown" title="Click here for the RSS feed for these types of videos.">RSS » @InTheLabWithJayJay » Main Show » Old Book Teardown</a></li></ul></li>
+									<li>
+										<a class="internal" rel="follow" href="/in-the-lab/feed.php/show-type/special-show" title="Click here for the RSS feed for these types of videos.">RSS » @InTheLabWithJayJay » Special Show</a>
+										<ul>
+											<li>
+												<a class="internal" rel="follow" href="/in-the-lab/feed.php/feature/new-book-teardown" title="Click here for the RSS feed for these types of videos.">RSS » @InTheLabWithJayJay » Special Show » New Book Teardown</a></li>
+											<li>
+												<a class="internal" rel="follow" href="/in-the-lab/feed.php/feature/mini-project" title="Click here for the RSS feed for these types of videos.">RSS » @InTheLabWithJayJay » Special Show » Mini Project</a></li>
+											<li>
+												<a class="internal" rel="follow" href="/in-the-lab/feed.php/feature/maxitronix-10in1" title="Click here for the RSS feed for these types of videos.">RSS » @InTheLabWithJayJay » Special Show » Maxitronix 10in1</a></li>
+											<li>
+												<a class="internal" rel="follow" href="/in-the-lab/feed.php/feature/maxitronix-20in1" title="Click here for the RSS feed for these types of videos.">RSS » @InTheLabWithJayJay » Special Show » Maxitronix 20in1</a></li>
+											<li>
+												<a class="internal" rel="follow" href="/in-the-lab/feed.php/feature/interlude" title="Click here for the RSS feed for these types of videos.">RSS » @InTheLabWithJayJay » Special Show » Interlude</a></li>
+											<li>
+												<a class="internal" rel="follow" href="/in-the-lab/feed.php/feature/mail-call" title="Click here for the RSS feed for these types of videos.">RSS » @InTheLabWithJayJay » Special Show » Mail Call</a></li>
+											<li>
+												<a class="internal" rel="follow" href="/in-the-lab/feed.php/feature/unboxing" title="Click here for the RSS feed for these types of videos.">RSS » @InTheLabWithJayJay » Special Show » Unboxing</a></li>
+											<li>
+												<a class="internal" rel="follow" href="/in-the-lab/feed.php/feature/channel-news" title="Click here for the RSS feed for these types of videos.">RSS » @InTheLabWithJayJay » Special Show » Channel News</a></li>
+											<li>
+												<a class="internal" rel="follow" href="/in-the-lab/feed.php/feature/early-content" title="Click here for the RSS feed for these types of videos.">RSS » @InTheLabWithJayJay » Special Show » Early Content</a></li></ul></li></ul></li>
+							<li>
+								<a class="internal" rel="follow" href="/in-the-lab/feed.php/channel/@ElliotsExtras" title="Click here for the RSS feed for these types of videos.">RSS » @ElliotsExtras</a> (2nd Channel)
+								<ul>
+									<li>
+										<a class="internal" rel="follow" href="/in-the-lab/feed.php/show-type/extra-show" title="Click here for the RSS feed for these types of videos.">RSS » @ElliotsExtras » Extra Show</a>
+										<ul>
+											<li>
+												<a class="internal" rel="follow" href="/in-the-lab/feed.php/feature/extra-content" title="Click here for the RSS feed for these types of videos.">RSS » @ElliotsExtras » Extra Show » Extra Content</a></li></ul></li></ul></li></ul></li></ul>
+				<p>My 
+					<a class="external" target="_blank" rel="noopener follow" href="https://blog.jj5.net/" title="Click here to visit my blog!">blog</a> also has an 
+					<a class="external" target="_blank" rel="noopener follow" href="https://blog.jj5.net/blog/feed/" title="Click here for the RSS feed from my blog.">RSS feed</a>. If you subscribe to the RSS feed on my blog you will get posts about all the videos I publish across my channels, but you will also get everything else that I blog about too! This is either a good thing or a bad thing, depending on your inclinations. :)</p></section>
+			<section>
+				<h2 id="show-notes">Show Notes</h2>
+				<p>When I publish a YouTube video to 
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">@InTheLabWithJayJay</a> (main channel) or 
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@ElliotsExtras" title="Click here for extra content on my 2nd YouTube channel @ElliotsExtras. [Hotkey: 2]">@ElliotsExtras</a> (2nd channel) I also write up show notes which get published on my blog: 
+					<a class="external" target="_blank" rel="noopener follow" href="https://blog.jj5.net/" title="Click here to visit my blog!">blog.jj5.net</a>. You will be able to find the link to the show notes in the description accompanying the YouTube video.</p></section>
+			<section>
+				<h2 id="channels">YouTube Channels</h2>
+				<p>The show is delivered across two separate YouTube channels.</p></section>
+			<section>
+				<h3 id="main-channel">Main Channel: @InTheLabWithJayJay</h3>
+				<p>The 
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a> is known as 
+					<b>@InTheLabWithJayJay</b> and is on YouTube here:</p>
+				<p class="indent">
+					<a class="external" target="_blank" rel="noopener follow" href="https://www.youtube.com/@InTheLabWithJayJay" title="Click here to visit my main channel known as @InTheLabWithJayJay over on YouTube. Thanks very much for watching! And please remember to hit like and subscribe! :)">youtube.com/@InTheLabWithJayJay</a></p>
+				<p>The main channel is for 
+					<b>high quality video content of interest to electronics hobbyists</b>.</p>
+				<p>For a list of main channel content visit the 
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a> page. The 
+					<a class="internal" rel="follow" href="/in-the-lab/#main-show" title="Click here to watch videos recorded for the main show.">main show</a> and the 
+					<a class="internal" rel="follow" href="/in-the-lab/#special-shows" title="Click here to watch videos recorded for the main show.">special shows</a> air on the main channel.</p></section>
+			<section>
+				<h3 id="2nd-channel">2nd Channel: @ElliotsExtras</h3>
+				<p>The 
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@ElliotsExtras" title="Click here for extra content on my 2nd YouTube channel @ElliotsExtras. [Hotkey: 2]">2nd channel</a> is known as 
+					<b>@ElliotsExtras</b> and is on YouTube here:</p>
+				<p class="indent">
+					<a class="external" target="_blank" rel="noopener follow" href="https://www.youtube.com/@ElliotsExtras" title="Click here to visit my 2nd channel known as @ElliotsExtras over on YouTube.">youtube.com/@ElliotsExtras</a></p>
+				<p>The 2nd channel is for longer form content which has received less editing attention. (Yes, that&apos;s right, it&apos;s the 
+					<b>crap that wasn&apos;t good enough for the main channel</b>.)</p>
+				<p>For a list of 2nd channel content visit the 
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@ElliotsExtras" title="Click here for extra content on my 2nd YouTube channel @ElliotsExtras. [Hotkey: 2]">2nd channel</a> page. The 
+					<a class="internal" rel="follow" href="/in-the-lab/#extra-content" title="Click here to watch extra content which didn&apos;t make it to the main channel.">extra content</a> airs on the 2nd channel.</p></section>
+			<section>
+				<h2 id="main-show">Main Show</h2>
+				<p>The 
+					<a class="internal" rel="follow" href="/in-the-lab/show-type.php/main-show" title="Click here to watch videos recorded for the main show.">main show</a> on the 
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a> covers 
+					<b>miscellaneous electronics</b> stuff.</p>
+				<p>There are two regular features on the show. These regular show features are spun off as separate standalone videos. Each time I do a main show I make one video for each of the regular features.</p>
+				<p>The regular features are:</p>
+				<ul>
+					<li>
+						<a class="internal" rel="follow" href="/in-the-lab/#electronics-projects" title="Click here to watch the electronics project videos.">Electronics Projects</a></li>
+					<li>
+						<a class="internal" rel="follow" href="/in-the-lab/#old-book-teardowns" title="Click here to watch the videos where I review old technology related books.">Old Book Teardowns</a></li></ul></section>
+			<section>
+				<h3 id="electronics-projects">Electronics Projects</h3>
+				<p>In the 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/electronics-project" title="Click here to watch the electronics project videos.">electronics project videos</a> on the 
+					<a class="internal" rel="follow" href="/in-the-lab/show-type.php/main-show" title="Click here to watch videos recorded for the main show.">main show</a> I do some miscellaneous and interesting electronics project. The subject matter can vary widely, and might include OG Xbox examinations and repairs, microcontroller builds and programming, circuit design and construction, repairs and investigations, reverse engineering and analysis, and of course my favourite: making cables!</p>
+				<p>I&apos;m pretty interested in old gaming consoles, particularly OG Xbox, so you can expect to see a fair bit of that.</p>
+				<p>Beyond playing with old gaming consoles I do all sorts of other electronics projects, from simple things like making cables to more complex things that involve microcontrollers and custom software.</p>
+				<p>Basically the electronics project is and will be 
+					<b>a mixed bag</b>. The only rule is that the content be 
+					<b>of interest to an electronics hobbyist</b>.</p>
+				<p>I am hoping to be 
+					<b>very beginner friendly</b> (I am a beginner myself!) and hopefully we can all learn more about electronics together.</p></section>
+			<section>
+				<h3 id="old-book-teardowns">Old Book Teardowns</h3>
+				<p>In the 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="Click here to watch the videos where I review old technology related books.">old book teardown videos</a> on the 
+					<a class="internal" rel="follow" href="/in-the-lab/show-type.php/main-show" title="Click here to watch videos recorded for the main show.">main show</a> 
+					<b>I introduce and teardown an old book</b>.</p>
+				<p>To count as &quot;old&quot; the book needs to have been 
+					<b>published before the year 2000</b>.</p>
+				<p>I love reading and I love books. I have a particular interest in old books, especially old technical books. Bleeding edge technology is all well and good, but I love obsolete tech too. I think it&apos;s important to remember where we came from.</p>
+				<p>The book teardowns are a fun way for me to share my love of books with you. I hope you enjoy them!</p>
+				<p>The books I teardown are STEM related, which is pretty broad, and includes anything related to science, technology, engineering, or mathematics.</p>
+				<p>The reason I call it a &quot;teardown&quot; and not a &quot;review&quot; is because that is a better term for what I actually do in these videos. Usually I haven&apos;t read the book before, usually I am looking at it for the first time, and what I do on the video with you is have a look at what&apos;s inside. I have a look at the front and the back and then go through the table of contents in detail. Usually I will also take a close look at some specific thing which takes my interest as I&apos;m reading out the contents. Other times I flip through and have a quick look at each page. So these are not simply book reviews, they are book teardowns, which is a particular and specific type of examination.</p>
+				<p>I would certainly encourage you to buy your own copy of any of the books that you see me teardown, if you can still find a copy for sale anywhere!</p></section>
+			<section>
+				<h2 id="special-shows">Special Shows</h2>
+				<p>In addition to the regular content on the 
+					<a class="internal" rel="follow" href="/in-the-lab/show-type.php/main-show" title="Click here to watch videos recorded for the main show.">main show</a> I do some 
+					<a class="internal" rel="follow" href="/in-the-lab/show-type.php/special-show" title="Click here to watch special shows which air on the main channel.">special shows</a>. Special shows include:</p>
+				<ul>
+					<li>
+						<a class="internal" rel="follow" href="/in-the-lab/#new-book-teardowns" title="Click here to watch the videos where I review new technology related books.">New Book Teardowns</a></li>
+					<li>
+						<a class="internal" rel="follow" href="/in-the-lab/#mini-projects" title="Click here to watch the videos where I work through Mini Projects from Silicon Chip and Jaycar.">Mini Projects</a></li>
+					<li>
+						<a class="internal" rel="follow" href="/in-the-lab/#maxitronix-kits" title="Click here to watch the videos where I work through old Maxitronix electronic project labs. [Hotkey: K]">Maxitronix Xin1 Kits</a></li>
+					<li>
+						<a class="internal" rel="follow" href="/in-the-lab/#interludes" title="Click here to watch the videos where I take a break from the main show.">Interludes</a></li>
+					<li>
+						<a class="internal" rel="follow" href="/in-the-lab/#mail-call" title="Click here to watch videos of recently arrived packages.">Mail Call</a></li>
+					<li>
+						<a class="internal" rel="follow" href="/in-the-lab/#unboxings" title="Click here to watch the unboxing videos.">Unboxings</a></li>
+					<li>
+						<a class="internal" rel="follow" href="/in-the-lab/#channel-news" title="Click here to watch early content from the olden days.">Channel News</a></li>
+					<li>
+						<a class="internal" rel="follow" href="/in-the-lab/#early-content" title="Click here to watch early content from the olden days.">Early Content</a></li></ul>
+				<p>In future I will hopefully also be doing some other collections of projects such as the 
+					<a class="external" target="_blank" rel="noopener follow" href="https://www.youtube.com/watch?v=UBPZuOjWT0A" title="Click here to watch the new book teardown of Learning the Art of Electronics.">Learning the Art of Electronics</a> projects, 
+					<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/short-circuits" title="Click here to see the Jaycar Short Circuits projects.">Jaycar Short Circuits</a> projects, and the other 
+					<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/projects" title="Click here to see the Jaycar projects catalog.">Jaycar Projects</a>, so standby for those (fingers crossed!).</p></section>
+			<section>
+				<h3 id="new-book-teardowns">New Book Teardowns</h3>
+				<p>The 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/new-book-teardown" title="Click here to watch the videos where I review new technology related books.">new book teardown videos</a> are just like the 
+					<a class="internal" rel="follow" href="/in-the-lab/#old-book-teardowns" title="Click here to watch the videos where I review old technology related books.">old book teardowns</a> except that they are for new books, not old ones.</p>
+				<p>The criteria for a book to be considered &quot;new&quot; used to be that it was published in the last ten years, but this has been changed to include anything published during or since the year 2000. So some of these &quot;new&quot; books aren&apos;t quite so new at all!</p>
+				<p>The new book teardowns are 
+					<a class="internal" rel="follow" href="/in-the-lab/show-type.php/special-show" title="Click here to watch special shows which air on the main channel.">special shows</a> and not a regular part of the 
+					<a class="internal" rel="follow" href="/in-the-lab/show-type.php/main-show" title="Click here to watch videos recorded for the main show.">main show</a> because I don&apos;t have a lot of new books to teardown. I do have a lot of old books though, so I can do those all day long.</p></section>
+			<section>
+				<h3 id="mini-projects">Mini Projects</h3>
+				<p>Notes about the Mini Projects are kept on my wiki: 
+					<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Mini_Projects" title="Click here to visit my wiki!">John&apos;s Wiki § Mini Projects</a></p>
+				<p>In the 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/mini-project" title="Click here to watch the videos where I work through Mini Projects from Silicon Chip and Jaycar. [Hotkey: J]">mini project videos</a> we will be working through the new 
+					<a class="external" target="_blank" rel="noopener follow" href="https://www.siliconchip.com.au/Series/417" title="Click here for the full list of Mini Projects published by Silicon Chip magazine.">Mini Projects</a> published by 
+					<a class="external" target="_blank" rel="noopener follow" href="https://www.siliconchip.com.au/" title="Click here to visit Silicon Chip magazine the venerable Australian electronics magazine and the publisher of the Mini Projects.">Silicon Chip</a> and sponsored by 
+					<a class="external" target="_blank" rel="noopener follow" href="https://www.jaycar.com.au/" title="Click here to visit Jaycar Electronics an Australian electronics retailer and the sponsor of the Mini Projects.">Jaycar</a>.</p></section>
+			<section>
+				<h3 id="maxitronix-kits">Maxitronix Xin1 Kits</h3>
+				<p>Notes about the Maxitronix projects are kept on my wiki: 
+					<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/wiki/Maxitronix" title="Click here to visit my wiki!">John&apos;s Wiki § Maxitronix</a></p>
+				<p>The 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/maxitronix" title="Click here to watch the videos where I work through old Maxitronix electronic project labs. [Hotkey: K]">Maxitronix Xin1 Kits</a> are 
+					<b>electronic project labs</b> of various sizes. I own pretty much the full set:</p>
+				<p>
+					<a class="external" target="_blank" rel="noopener follow" href="https://www.jj5.net/file/2021-08-26-153328/IMG_1490.JPG" title="John&apos;s set of Maxitronix electronic project labs.">
+						<img style="width:500px" loading="lazy" src="https://d297fd4gt7t5lv.cloudfront.net/file/2021-08-26-153328/IMG_1490.JPG?v=jjlab-0.2.1115" alt="John&apos;s set of Maxitronix electronic project labs." title="John&apos;s set of Maxitronix electronic project labs."></a></p>
+				<p>If you&apos;re interested in these kits you can find some information about where to buy them on my 
+					<a class="internal" rel="follow" href="/in-the-lab/manufacturer.php/Maxitronix" title="Click here to see the various Maxitronix equipment which I own.">Maxitronix equipment</a> page.</p>
+				<p>I am slowly making my way through my collection, making 
+					<b>one video for each project in each Maxitronix project lab</b>:</p>
+				<ul>
+					<li>
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/maxitronix-Maxitronix 10in1" title="Click here to watch the videos where I work through the Maxitronix 10in1 electronic project lab.">Maxitronix 10in1</a></li>
+					<li>
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/maxitronix-Maxitronix 20in1" title="Click here to watch the videos where I work through the Maxitronix 20in1 electronic project lab.">Maxitronix 20in1</a></li></ul>
+				<p>For an introduction to the Maxitronix Xin1 kits see the 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/maxitronix#announcement" title="Click here to watch the videos where I work through old Maxitronix electronic project labs. [Hotkey: K]">announcement video</a> page.</p>
+				<p>The Maxitronix Xin1 Kits are electronic project labs with projects designed to teach people about electronics. They are a great way to learn electronics and are a lot of fun. I would highly recommend them to anyone interested in electronics.</p></section>
+			<section>
+				<h3 id="interludes">Interludes</h3>
+				<p>Occasionally we have an 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/interlude" title="Click here to watch the videos where I take a break from the main show.">interlude video</a> on the 
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a>.</p>
+				<p>Interludes are some sort of interesting diversion from the regular content.</p></section>
+			<section>
+				<h3 id="mail-call">Mail Call</h3>
+				<p>Occasionally I do a 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/mail-call" title="Click here to watch videos of recently arrived packages.">mail call video</a> on the 
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a>.</p>
+				<p>Whenever a package arrives in the mail I try to record a mail call video.</p></section>
+			<section>
+				<h3 id="unboxings">Unboxings</h3>
+				<p>Occasionally I do an 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/unboxing" title="Click here to watch the unboxing videos.">unboxing video</a> on the 
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a>.</p>
+				<p>Whenever I get new equipment I try to record an unboxing video.</p></section>
+			<section>
+				<h3 id="channel-news">Channel News</h3>
+				<p>The 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/channel-news" title="Click here to see channel news.">channel news videos</a> air occasionally on the 
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a>. In the channel news I can tell you about changes to the format of the show, announce new features, talk about the website, tell you about new sponsors or affiliates, and things like that.</p></section>
+			<section>
+				<h3 id="early-content">Early Content</h3>
+				<p>Some of my content is classified as an 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/early-content" title="Click here to watch early content from the olden days.">early content video</a>. Early content was recorded back in the early days when I was just getting started, and since then the format of the show has changed. The format now includes the regular 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/electronics-project" title="Click here to watch the electronics project videos.">electronics project videos</a> and the 
+					<a class="internal" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="Click here to watch the videos where I review old technology related books.">old book teardown videos</a>, I have the 
+					<a class="internal" rel="follow" href="/in-the-lab/#silly-job-title" title="Click here to read about the silly job title. [Hotkey: I]">silly job title</a>, and I wear my 
+					<a class="internal" rel="follow" href="/in-the-lab/#costume" title="Click here to find out about my costume. [Hotkey: !]">costume</a>. I didn&apos;t do any of that in the beginning so you won&apos;t see any of that in these old videos.</p></section>
+			<section>
+				<h2 id="extra-content">Extra Content</h2>
+				<p>In addition to the main channel content I also sometimes release content on the 
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@ElliotsExtras" title="Click here for extra content on my 2nd YouTube channel @ElliotsExtras. [Hotkey: 2]">2nd channel</a>. This is lower quality content which 
+					<b>has received less editing attention</b>.</p>
+				<p>I keep this 
+					<a class="internal" rel="follow" href="/in-the-lab/show-type.php/extra-show" title="Click here to watch extra content which didn&apos;t make it to the main channel.">extra content</a> on the 
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@ElliotsExtras" title="Click here for extra content on my 2nd YouTube channel @ElliotsExtras. [Hotkey: 2]">2nd channel</a> so that people who only want the best content don&apos;t need to give it their attention.</p></section>
+			<section>
+				<h2 id="quality">Recording and Production Quality</h2>
+				<p>Following are some notes about the quality of the audiovisual content that I produce.</p></section>
+			<section>
+				<h3 id="video-quality">Video Quality</h3>
+				<p>My videos are usually 
+					<b>4K @ 30fps</b>, but not all of my cameras can record at that resolution.</p>
+				<p>4K is 
+					<b>3840 x 2160</b> pixels (sometimes called 2160p), and is 
+					<b>four times the resolution of 1080p</b>.</p>
+				<p>The framerate doesn&apos;t make much difference for the sort of content that I make, but the resolution certainly can. 
+					<b>I will get better recording equipment as soon as I can afford it</b>. If you want to help out on that front you could consider 
+					<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to find out how you can support the show. [Hotkey: U]">supporting the show</a>. :)</p></section>
+			<section>
+				<h3 id="audio-quality">Audio Quality</h3>
+				<p>I use a number of microphones when I record the show and they have different performance and environmental characteristics which means you can detect (particularly through volume) when I switch between recording platforms. This is annoying and I am aware of the issue. During post production I do two pass audio normalization but this doesn&apos;t completely address the problem. Ultimately I aim to fix this problem by using 
+					<a class="external" target="_blank" rel="noopener follow" href="https://www.amazon.com.au/dp/B08XFQ6KP9" title="Click here to read about the RØDE Wireless GO II microphones.">RØDE Wireless GO II microphones</a> for audio, but I can&apos;t afford those just yet. If you want to help out on that front you could consider 
+					<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to find out how you can support the show. [Hotkey: U]">supporting the show</a>. Otherwise just hold tight, I will get this fixed as soon as I can.</p></section>
+			<section>
+				<h2 id="costume">Lab Costume</h2>
+				<p>When I make 
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here to watch videos recorded for the main show.">main channel</a> content 
+					<b>I wear my costume</b>, which includes:</p>
+				<ul>
+					<li>
+						<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/26225" title="Click here to find out more about my lab coat.">Lab coat</a></li>
+					<li>
+						<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/73769" title="Click here to find out more about my safety goggles.">Safety goggles</a></li>
+					<li>
+						<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/19439" title="Click here to find out more about my ID badge holder.">ID badge</a> (with 
+						<a class="internal" rel="follow" href="/in-the-lab/#silly-job-title" title="Click here to read about the silly job title. [Hotkey: I]">silly job title</a>)</li>
+					<li>
+						<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/63431" title="Click here to find out more about my pocket protector.">Pocket protector</a> (with tools)
+						<ul>
+							<li>Green felt-tipped pen</li>
+							<li>
+								<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/36703" title="Click here to find out more about my stylus pen.">Stylus pen</a></li>
+							<li>
+								<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/85030" title="Click here to find out more about my Sonic Screwdriver!">Sonic screwdriver</a></li>
+							<li>Orange ballpoint pen</li>
+							<li>
+								<a class="external" target="_blank" rel="noopener follow" href="https://jj5.net/86923" title="Click here to find out more about my Adafruit ruler.">Adafruit One PCB to Ruler Them All</a></li></ul></li></ul>
+				<p>
+					<b>This is cosplay</b> and my costume is inspired by 
+					<a class="external" target="_blank" rel="noopener follow" href="https://starcraft.fandom.com/wiki/Egon_Stetmann" title="Click here to see the Egon Stetmann page on the StarCraft Wiki.">Egon Stetmann</a>, the Chief Scientist from 
+					<a class="external" target="_blank" rel="noopener follow" href="https://starcraft2.blizzard.com/" title="Click here for more info about my favourite computer game: StarCraft II.">StarCraft II</a>:</p>
+				<p>
+					<img loading="lazy" style="width:500px" src="/in-the-lab/res/img.php/EgonStetmann_SC2-WoL_Story1.webp?v=jjlab-0.2.1115" alt="Egon Stetmann, the Chief Scientist from StarCraft II." title="Egon Stetmann, the Chief Scientist from StarCraft II."></p>
+				<p>Of course he has more hair than I do. :)</p>
+				<p>
+					<img loading="lazy" style="width:500px" src="/in-the-lab/res/img.php/JohnElliotV-500-2.jpg?v=jjlab-0.2.1115" alt="A picture of Jay Jay wearing his costume." title="A picture of Jay Jay wearing his costume."></p></section>
+			<section>
+				<h3 id="silly-job-title">Silly Job Title</h3>
+				<p>On my 
+					<a class="internal" rel="follow" href="/in-the-lab/#costume" title="Click here to read about my ID badge and my costume.">ID badge</a> is a silly job title which I change for each 
+					<a class="internal" rel="follow" href="/in-the-lab/show-type.php/main-show" title="Click here to watch videos recorded for the main show.">main show</a> on the 
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a>.</p>
+				<p>I don&apos;t change the silly job title for 
+					<a class="internal" rel="follow" href="/in-the-lab/show-type.php/special-show" title="Click here to watch special shows which air on the main channel.">special shows</a> or for content on the 
+					<a class="internal" rel="follow" href="/in-the-lab/channel.php/@ElliotsExtras" title="Click here for extra content on my 2nd YouTube channel @ElliotsExtras. [Hotkey: 2]">2nd channel</a>.</p>
+				<p>The silly job title can be hard to read, so I will usually try to mention it in the video, and it should be in the 
+					<a class="internal" rel="follow" href="/in-the-lab/#show-notes" title="Click here to read about the show notes.">show notes</a>.</p>
+				<p class="indent">
+					<span>Latest Silly Job Title: </span>
+					<span>Buzz Boss</span>. I am the 
+					<span>Buzz Boss</span>!</p></section>
+			<section>
+				<h2 id="contact-info">Contact Information</h2>
+				<p>You can always find my contact information on the 
+					<a class="internal" rel="follow" href="/in-the-lab/contact.php" title="Click here to find my contact details. [Hotkey: C]">contact</a> page.</p></section>
+			<section>
+				<h2 id="sponsors">Sponsors</h2>
+				<p>
+					<b>My show is very generously supported</b> by 
+					<a class="internal" rel="follow" href="/in-the-lab/sponsor.php" title="Click here to learn more about my generous sponsors. [Hotkey: S]">my sponsors</a>.</p>
+				<p>If you would like to 
+					<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to find out how you can support the show. [Hotkey: U]">support the show</a> I would 
+					<b>very much appreciate it</b> and the best place to do so is over here:</p>
+				<p class="indent">
+					<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/JohnElliotV" title="Click here to see my generous supporters on Patreon, and maybe join them?">patreon.com/JohnElliotV</a></p></section>
+			<section>
+				<h2 id="homies">Homies</h2>
+				<p>I keep a list of 
+					<a class="internal" rel="follow" href="/in-the-lab/homies.php" title="Click here to learn more about my generous sponsors. [Hotkey: S]">homies</a> 
+					<b>who I support on Patreon</b> and follow on YouTube. These are other people who have a video blog about electronics, all of them much more knowledgeable (and famous!) than me.</p>
+				<p>I also call the people who support me (or follow me) 
+					<a class="external" target="_blank" rel="noopener follow" href="https://www.patreon.com/JohnElliotV" title="Click here to see my generous supporters on Patreon, and maybe join them?">on Patreon</a> my &quot;homies&quot; as well.</p></section>
+			<section>
+				<h2 id="equipment">Equipment</h2>
+				<p>
+					<b>I try to keep detailed notes about the equipment I own</b> on my 
+					<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">equipment</a> page. If you see something in one of my videos that you like you can probably find more info about it on the equipment page. If there&apos;s something you&apos;re looking for in particular and you can&apos;t find, please feel free to 
+					<a class="internal" rel="follow" href="/in-the-lab/contact.php" title="Click here to find my contact details. [Hotkey: C]">let me know</a>!</p></section>
+			<section>
+				<h2 id="affiliate-links">Affiliate Links</h2>
+				<p>When I link to 
+					<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">equipment</a> which can be purchased on the web I try to do so with an 
+					<a class="internal" rel="follow" href="/in-the-lab/affiliate.php" title="Click here to read about the show&apos;s affiliates.">affiliate</a> link.</p>
+				<p>This has 
+					<b>no cost to you</b> but means if you purchase something from an affiliate after clicking through on one of my affiliate links I may earn a small commission from the sale of equipment. Clicking through on affiliate links is an 
+					<b>excellent way to support the channel</b>.</p>
+				<p>Click through to the 
+					<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">equipment</a> page for a list of the equipment I own and use along with links to further information and to buy.</p></section>
+			<section>
+				<h2 id="thanks">Thank You!</h2>
+				<p>Thanks very much for your interest and 
+					<b>I hope you enjoy the show!</b></p></section>
+			<section>
+				<h2 id="next">Where to from Here?</h2>
+				<p>You made it to the bottom of the page, huh? Well done! I&apos;m a bit of a scroller myself. :)</p>
+				<p>Where you go next depends on what you&apos;re interested in. Here are some suggestions:</p>
+				<ul>
+					<li>If you&apos;re enjoying my content you could consider 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to find out how you can support the show. [Hotkey: U]">supporting the show</a>.</li>
+					<li>My 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/new-book-teardown" title="Click here to watch the videos where I review new technology related books.">new book teardown videos</a> are quite popular, you might enjoy watching those.</li>
+					<li>My personal favourites are the 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="Click here to watch the videos where I review old technology related books.">old book teardown videos</a>.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here for high quality content on my main YouTube channel @InTheLabWithJayJay. [Hotkey: M]">main channel</a>, for all my high quality content including my 
+						<a class="internal" rel="follow" href="/in-the-lab/show-type.php/special-show" title="Click here to watch special shows which air on the main channel.">special shows</a>.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/show-type.php/main-show" title="Click here to watch videos recorded for the main show.">main show</a>, for my main show videos, which include the 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/electronics-project" title="Click here to watch the electronics project videos.">electronics project</a> and 
+						<a class="internal" rel="follow" href="/in-the-lab/feature.php/old-book-teardown" title="Click here to watch the videos where I review old technology related books.">old book teardown</a> videos.</li>
+					<li>Visit the 
+						<a class="internal" rel="follow" href="/in-the-lab/equipment.php" title="Click here to see the lab equipment that I own along with affiliate links to buy. [Hotkey: E]">equipment</a> page, if you&apos;re interested in any of the equipment I use. If you&apos;re putting together your own electronics lab then I would certainly recommend checking this out!</li>
+					<li>Did I mention that you can 
+						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to find out how you can support the show. [Hotkey: U]">support the show</a>? :)</li></ul></section></main>
+		<footer>
+			<div>&copy; Copyright 2024 John Elliot V. All rights reserved.</div></footer>
+		<script>window.g_mud_html_options = [];</script></body></html>

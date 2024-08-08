@@ -2,32 +2,6 @@
 
 require_once __DIR__ . '/../app_app.php';
 
-main();
-
-function main() {
-
-  error_reporting( ~0 );
-  set_error_handler( 'handle_error' );
-
-  try {
-
-    require_once __DIR__ . '/framework.php';
-    require_once __DIR__ . '/spec.php';
-
-    app_render();
-
-    itl()->save();
-
-  }
-  catch ( Throwable $ex ) {
-
-    error_log( $ex->getMessage() );
-
-    throw $ex;
-
-  }
-}
-
 function get_version( $command ) {
 
   $exec = 'svn info ' . escapeshellarg( __FILE__ ) . ' 2>/dev/null';
@@ -83,7 +57,17 @@ function is_john() {
 
 function is_prod() {
 
-  return $_SERVER[ 'HTTP_HOST' ] === 'www.inthelabwithjayjay.com';
+  static $result = null;
+
+  if ( $result === null ) {
+
+    $host = $_SERVER[ 'HTTP_HOST' ] ?? null;
+
+    $result = ( $host === 'www.inthelabwithjayjay.com' );
+
+  }
+
+  return $result;
 
 }
 

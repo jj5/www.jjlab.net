@@ -42,13 +42,13 @@ function http_redirect( $url, $response_code = 302 ) {
 
 function url_base( $use_cdn = false ) {
 
-  if ( is_dev() ) { return '/www.jjlab.net/in-the-lab'; }
+  if ( is_dev() ) { return '/in-the-lab'; }
 
   if ( $use_cdn ) { return 'https://der3syffk4l6q.cloudfront.net/in-the-lab'; }
 
   if ( is_prod() ) { return '/in-the-lab'; }
 
-  return '/www.jjlab.net/in-the-lab';
+  return '/in-the-lab';
 
 }
 
