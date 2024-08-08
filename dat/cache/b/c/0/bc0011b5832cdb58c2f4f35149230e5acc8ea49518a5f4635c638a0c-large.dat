@@ -5,7 +5,7 @@
 	<head>
 		<title>Main Channel: @InTheLabWithJayJay — In The Lab With Jay Jay</title>
 		<meta charset="UTF-8">
-		<meta name="date" content="2024-08-07T20:32:44+00:00">
+		<meta name="date" content="2024-08-08T15:33:13+00:00">
 		<meta name="author" content="John Elliot V">
 		<meta name="keywords" content="electronics videos, electronics lab, electronics kits, electronics experiments, video blog, In The Lab With Jay Jay, John Elliot V">
 		<meta name="description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
@@ -13,22 +13,22 @@
 		<meta name="robots" content="index, follow">
 		<meta property="og:title" content="Main Channel: @InTheLabWithJayJay — In The Lab With Jay Jay">
 		<meta property="og:description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
-		<meta property="og:image" content="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<meta property="og:image" content="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1117">
 		<meta property="og:url" content="http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/X1iF1KgdqkU">
 		<meta property="og:type" content="website">
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:title" content="Main Channel: @InTheLabWithJayJay — In The Lab With Jay Jay">
 		<meta name="twitter:description" content="In The Lab With Jay Jay is the video blog of John Elliot V about his misadventures in his electronics lab.">
-		<meta name="twitter:image" content="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
-		<link rel="icon" href="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115">
+		<meta name="twitter:image" content="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1117">
+		<link rel="icon" href="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1117">
 		<link rel="canonical" href="http://localhost/in-the-lab/show.php/@InTheLabWithJayJay/X1iF1KgdqkU">
 		<link rel="alternate" type="application/rss+xml" title="In The Lab With Jay Jay » Feed" href="/in-the-lab/feed.php">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-		<link rel="stylesheet" href="/in-the-lab/res/style.php/jjlab-0.2.1115/style.css">
+		<link rel="stylesheet" href="/in-the-lab/res/style.php/jjlab-0.2.1117/style.css">
 		<script>
 			var MUD_SERVER_VERSION = "0.5.1623-211631354";
 		
-			var APP_SERVER_VERSION = "0.2.1115-211631354";
+			var APP_SERVER_VERSION = "0.2.1117-211631354";
 		
 			var URL_BASE = "\/in-the-lab";
 		
@@ -41,18 +41,18 @@
 			var IS_JOHN = true;
 		
 		</script>
-		<script src="/in-the-lab/res/script.php/jjlab-0.2.1115/script.js"></script>
-		<link rel="preload" href="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" as="image">
-		<link rel="preload" href="/in-the-lab/res/img.php/banner-0640.jpg?v=jjlab-0.2.1115" as="image">
-		<link rel="preload" href="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" as="image">
-		<link rel="preload" href="/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" as="image">
-		<link rel="preload" href="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" as="image"></head>
+		<script src="/in-the-lab/res/script.php/jjlab-0.2.1117/script.js"></script>
+		<link rel="preload" href="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1117" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/banner-0640.jpg?v=jjlab-0.2.1117" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1117" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1117" as="image">
+		<link rel="preload" href="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1117" as="image"></head>
 	<body>
 		<main class="wrapper">
 			<nav class="navigation">
 				<div class="container">
 					<a href="/in-the-lab/" class="navigation-title" title="In The Lab With Jay Jay is the video blog of John Elliot V">
-						<img src="/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" loading="eager" alt="">
+						<img src="/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1117" loading="eager" alt="">
 						<header class="title">In The Lab With Jay Jay</header></a>
 					<ul class="navigation-list">
 						<li class="navigation-item">
@@ -78,7 +78,7 @@
 										<a class="internal popover-link" rel="follow" href="/in-the-lab/debug.php" title="John&apos;s debug thing">Debug</a></li>
 									<li class="popover-item">
 										<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]">
-											<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a></li></ul></div></li></ul>
+											<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1117" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a></li></ul></div></li></ul>
 					<div class="menu-list">
 						<a class="internal" rel="follow" href="/in-the-lab/" title="Click here to visit the homepage for this website. [Hotkey: H]">Home</a> | 
 						<a class="internal" rel="follow" href="/in-the-lab/channel.php/@InTheLabWithJayJay" title="Click here to access the main channel @InTheLabWithJayJay. [Hotkey: M]">Main Channel</a> | 
@@ -88,16 +88,16 @@
 						<a class="internal" rel="follow" href="/in-the-lab/support.php" title="Click here to see how you can support the show. Thanks for thinking of me! [Hotkey: U]">Support the Show!</a> | 
 						<a class="internal" rel="follow" href="/in-the-lab/debug.php" title="John&apos;s debug thing">Debug</a>
 						<a class="internal" rel="follow" href="/in-the-lab/feed.php" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]">
-							<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1115" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a></div></div></nav>
+							<img style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" loading="eager" src="/in-the-lab/res/img.php/rss/rss-40674_50.png?v=jjlab-0.2.1117" alt="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]" title="Click here to subscribe to the full RSS feed which includes all videos. [Hotkey: R]"></a></div></div></nav>
 			<header id="banner">
-				<img loading="eager" class="rc-base" src="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" alt="">
-				<img loading="eager" class="rc-0320" src="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1115" alt="">
-				<img loading="eager" class="rc-0640" src="/in-the-lab/res/img.php/banner-0640.jpg?v=jjlab-0.2.1115" alt="">
-				<img loading="eager" class="rc-1280" src="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" alt="">
-				<img loading="eager" class="rc-1920" src="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1115" alt=""></header>
+				<img loading="eager" class="rc-base" src="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1117" alt="">
+				<img loading="eager" class="rc-0320" src="/in-the-lab/res/img.php/banner-base.jpg?v=jjlab-0.2.1117" alt="">
+				<img loading="eager" class="rc-0640" src="/in-the-lab/res/img.php/banner-0640.jpg?v=jjlab-0.2.1117" alt="">
+				<img loading="eager" class="rc-1280" src="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1117" alt="">
+				<img loading="eager" class="rc-1920" src="/in-the-lab/res/img.php/banner.jpg?v=jjlab-0.2.1117" alt=""></header>
 			<header id="home" class="header">
 				<section>
-					<img src="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1115" alt="" loading="lazy">
+					<img src="https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=jjlab-0.2.1117" alt="" loading="lazy">
 					<h1 id="heading">Electrical Engineering 101 3rd Edition (2011)</h1>
 					<p>This 
 						<!-- /home/jj5/repo/git/github/jj5/www.jjlab.net/src/web/root/in-the-lab/channel.php:533 ShowType::render_link_internal() -->
