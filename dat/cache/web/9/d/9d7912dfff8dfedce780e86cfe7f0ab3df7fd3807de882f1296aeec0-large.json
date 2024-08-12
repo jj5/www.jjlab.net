@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 19:01:26",
+    "date": "2024-08-12 19:24:38",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/Diode-Tester",
     "cookie": "sz=2746x1770",
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/9/d/9d7912dfff8dfedce780e86cfe7f0ab3df7fd3807de882f1296aeec0-large.gz",
     "size": 67163,
-    "gzip": 8180,
+    "gzip": 8179,
     "mudball": "0.5.1659",
-    "app": "0.2.1215"
+    "app": "0.2.1217"
 }

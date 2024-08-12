@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 19:01:26",
+    "date": "2024-08-12 19:24:38",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/manufacturer.php/DigiTech",
     "cookie": "sz=2746x1770",
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/7/1/714c919d2bae62402b20a927703433e24d694ec43aef9afb00cf4ee9-large.gz",
     "size": 28214,
-    "gzip": 5407,
+    "gzip": 5409,
     "mudball": "0.5.1659",
-    "app": "0.2.1215"
+    "app": "0.2.1217"
 }

@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 19:01:26",
+    "date": "2024-08-12 19:24:38",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/manufacturer.php/SAYEEC",
     "cookie": "sz=2746x1770",
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/a/6/a6e3b00cd65d9a9b0f0ce8893217670472f3a59b13ad09bcba4cc7d4-large.gz",
     "size": 22363,
-    "gzip": 4817,
+    "gzip": 4816,
     "mudball": "0.5.1659",
-    "app": "0.2.1215"
+    "app": "0.2.1217"
 }

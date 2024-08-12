@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 19:01:26",
+    "date": "2024-08-12 19:24:38",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/Ratchet",
     "cookie": "sz=2746x1770",
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/a/c/ac4f3bdb2771ec9e36a675af63e99824e88443d590f8f8caca2c4b41-large.gz",
     "size": 49573,
-    "gzip": 6994,
+    "gzip": 6996,
     "mudball": "0.5.1659",
-    "app": "0.2.1215"
+    "app": "0.2.1217"
 }

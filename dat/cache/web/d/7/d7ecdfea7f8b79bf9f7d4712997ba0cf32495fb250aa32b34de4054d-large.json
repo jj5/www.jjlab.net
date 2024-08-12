@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 19:01:26",
+    "date": "2024-08-12 19:24:38",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/manufacturer.php/ESSELTE",
     "cookie": "sz=2746x1770",
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/d/7/d7ecdfea7f8b79bf9f7d4712997ba0cf32495fb250aa32b34de4054d-large.gz",
     "size": 23480,
-    "gzip": 5394,
+    "gzip": 5395,
     "mudball": "0.5.1659",
-    "app": "0.2.1215"
+    "app": "0.2.1217"
 }

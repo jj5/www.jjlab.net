@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 19:01:26",
+    "date": "2024-08-12 19:24:38",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/Torx-Screwdriver-T6",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/8/6/86f9086a682be79263e54ea0e7eb5fb3198c3f7369a217277c8db561-default.gz",
     "size": 50132,
-    "gzip": 6097,
+    "gzip": 6096,
     "mudball": "0.5.1659",
-    "app": "0.2.1215"
+    "app": "0.2.1217"
 }

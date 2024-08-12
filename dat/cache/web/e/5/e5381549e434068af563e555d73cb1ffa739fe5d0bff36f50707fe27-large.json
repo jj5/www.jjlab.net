@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 19:01:26",
+    "date": "2024-08-12 19:24:38",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/manufacturer.php/AMTECH",
     "cookie": "sz=2746x1770",
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/e/5/e5381549e434068af563e555d73cb1ffa739fe5d0bff36f50707fe27-large.gz",
     "size": 32486,
-    "gzip": 6350,
+    "gzip": 6349,
     "mudball": "0.5.1659",
-    "app": "0.2.1215"
+    "app": "0.2.1217"
 }
