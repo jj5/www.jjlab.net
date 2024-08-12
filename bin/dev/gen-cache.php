@@ -131,7 +131,7 @@ function check( $loc, $suffix = '-default', $cookie = null ) {
   $cache_file = get_cache_file( $path, $suffix );
   $gzip_file = "$cache_file.gz";
   $json_file = "$cache_file.json";
-  $cache_data = file_exists( $gzip_file ) ? gzdecode( file_get_contents( $gzip_file ) ) : null;
+  $cache_data = file_exists( $gzip_file ) ? gzdecode( app_file_get_contents( $gzip_file ) ) : null;
 
   $data = fetch_url( $loc, $cookie, $response_code );
 
@@ -152,7 +152,7 @@ function check( $loc, $suffix = '-default', $cookie = null ) {
 
   if ( $data === $cache_data ) {
 
-    $json_data = json_decode( file_get_contents( $json_file ), $assoc = true );
+    $json_data = json_decode( app_file_get_contents( $json_file ), $assoc = true );
 
     //$json_data[ 'date' ] = $date;
     $json_data[ 'mudball' ] = MUD_VERSION;
@@ -183,13 +183,53 @@ function check( $loc, $suffix = '-default', $cookie = null ) {
       'app'     => $app_version,
     ];
 
-    file_put_contents( $gzip_file, $gzip_data );
+    app_file_put_contents( $gzip_file, $gzip_data );
 
   }
 
   $json = json_encode( $json_data, $options = JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES );
 
-  file_put_contents( $json_file, $json );
+  app_file_put_contents( $json_file, $json );
+
+}
+
+function app_file_get_contents( $path ) {
+
+  for ( $try = 1; $try <= 10; $try++ ) {
+
+    $data = @file_get_contents( $path );
+
+    if ( $data !== false ) {
+
+      return $data;
+
+    }
+
+    usleep( random_int( 10, 1000 ) );
+
+  }
+
+  return false;
+
+}
+
+function app_file_put_contents( $path, $data ) {
+
+  for ( $try = 1; $try <= 10; $try++ ) {
+
+    $result = @file_put_contents( $path, $data );
+
+    if ( $data !== false ) {
+
+      return true;
+
+    }
+
+    usleep( random_int( 10, 1000 ) );
+
+  }
+
+  return false;
 
 }
 
