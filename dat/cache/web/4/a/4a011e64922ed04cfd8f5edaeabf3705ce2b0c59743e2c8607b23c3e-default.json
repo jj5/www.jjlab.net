@@ -4,7 +4,7 @@
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/4/a/4a011e64922ed04cfd8f5edaeabf3705ce2b0c59743e2c8607b23c3e-default.gz",
     "size": 17966,
-    "gzip": 4000,
+    "gzip": 3996,
     "mudball": "0.5.1659",
-    "app": "0.2.1225"
+    "app": "0.3.1227"
 }
