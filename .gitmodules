@@ -1,0 +1,6 @@
+[submodule "ext/mudball"]
+	path = ext/mudball
+	url = git@github.com:jj5/mudball.git
+[submodule "ext/libexec"]
+	path = ext/libexec
+	url = git@github.com:jj5/kickass-libexec.git
