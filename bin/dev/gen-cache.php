@@ -16,7 +16,7 @@ function main( $argv ) {
   $xml = simplexml_load_string( $sitemap_content );
 
   if ( $xml === false)  {
-    
+
     die( "error: cannot load XML.\n" );
 
   }
@@ -148,11 +148,13 @@ function check( $loc, $suffix = '-default', $cookie = null ) {
     }
   }
 
+  // 2024-08-12 jj5 - NOTE: there was no use case for the date and it messes up the cache so removed now.
+
   if ( $data === $cache_data ) {
 
     $json_data = json_decode( file_get_contents( $json_file ), $assoc = true );
 
-    $json_data[ 'date' ] = $date;
+    //$json_data[ 'date' ] = $date;
     $json_data[ 'mudball' ] = MUD_VERSION;
     $json_data[ 'app' ] = APP_VERSION;
 
@@ -170,7 +172,7 @@ function check( $loc, $suffix = '-default', $cookie = null ) {
     $app_version = APP_VERSION;
 
     $json_data = [
-      'date'    => $date,
+      //'date'    => $date,
       'url'     => $prod_loc,
       'cookie'  => $cookie,
       'http'    => $response_code,
