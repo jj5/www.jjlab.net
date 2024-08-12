@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:00:56",
+    "date": "2024-08-12 18:37:23",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/Blade",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/b/8/b8dc80cdf373a79ec95136d87a9dd42cfffb72650b4f29a51942eff8-default.gz",
     "size": 56938,
-    "gzip": 7894,
-    "mudball": "0.5.1657",
-    "app": "0.2.1207"
+    "gzip": 7895,
+    "mudball": "0.5.1659",
+    "app": "0.2.1213"
 }

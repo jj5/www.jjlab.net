@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:00:56",
+    "date": "2024-08-12 18:37:23",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/Multi-Vise",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/2/9/295917f187f342a1ed83b74ebc60e4ce21cbfec31856ed85b83c5d90-default.gz",
     "size": 25540,
-    "gzip": 5329,
-    "mudball": "0.5.1657",
-    "app": "0.2.1207"
+    "gzip": 5330,
+    "mudball": "0.5.1659",
+    "app": "0.2.1213"
 }

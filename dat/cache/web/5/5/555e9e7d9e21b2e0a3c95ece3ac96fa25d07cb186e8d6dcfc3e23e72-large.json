@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:00:56",
+    "date": "2024-08-12 18:37:23",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/manufacturer.php/YIHUA",
     "cookie": "sz=2746x1770",
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/5/5/555e9e7d9e21b2e0a3c95ece3ac96fa25d07cb186e8d6dcfc3e23e72-large.gz",
     "size": 31859,
-    "gzip": 6270,
-    "mudball": "0.5.1657",
-    "app": "0.2.1207"
+    "gzip": 6271,
+    "mudball": "0.5.1659",
+    "app": "0.2.1213"
 }

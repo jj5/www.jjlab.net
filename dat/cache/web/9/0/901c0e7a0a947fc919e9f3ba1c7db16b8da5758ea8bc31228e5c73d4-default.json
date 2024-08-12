@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:00:56",
+    "date": "2024-08-12 18:37:23",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/manufacturer.php/AVerMedia",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/9/0/901c0e7a0a947fc919e9f3ba1c7db16b8da5758ea8bc31228e5c73d4-default.gz",
     "size": 19702,
-    "gzip": 4702,
-    "mudball": "0.5.1657",
-    "app": "0.2.1207"
+    "gzip": 4704,
+    "mudball": "0.5.1659",
+    "app": "0.2.1213"
 }

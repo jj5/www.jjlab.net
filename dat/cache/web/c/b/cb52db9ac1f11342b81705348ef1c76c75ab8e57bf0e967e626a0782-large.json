@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:00:56",
+    "date": "2024-08-12 18:37:23",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/Depth-Gauge",
     "cookie": "sz=2746x1770",
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/c/b/cb52db9ac1f11342b81705348ef1c76c75ab8e57bf0e967e626a0782-large.gz",
     "size": 24826,
     "gzip": 5547,
-    "mudball": "0.5.1657",
-    "app": "0.2.1207"
+    "mudball": "0.5.1659",
+    "app": "0.2.1213"
 }

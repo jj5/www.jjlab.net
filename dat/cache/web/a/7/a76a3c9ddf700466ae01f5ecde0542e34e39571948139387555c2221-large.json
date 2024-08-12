@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:00:56",
+    "date": "2024-08-12 18:37:23",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/Calculator",
     "cookie": "sz=2746x1770",
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/a/7/a76a3c9ddf700466ae01f5ecde0542e34e39571948139387555c2221-large.gz",
     "size": 22570,
-    "gzip": 5009,
-    "mudball": "0.5.1657",
-    "app": "0.2.1207"
+    "gzip": 5010,
+    "mudball": "0.5.1659",
+    "app": "0.2.1213"
 }

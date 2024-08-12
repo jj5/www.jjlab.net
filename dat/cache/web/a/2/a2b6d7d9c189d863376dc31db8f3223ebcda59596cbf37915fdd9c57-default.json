@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:00:56",
+    "date": "2024-08-12 18:37:23",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/manufacturer.php/NBD",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/a/2/a2b6d7d9c189d863376dc31db8f3223ebcda59596cbf37915fdd9c57-default.gz",
     "size": 19995,
-    "gzip": 4804,
-    "mudball": "0.5.1657",
-    "app": "0.2.1207"
+    "gzip": 4805,
+    "mudball": "0.5.1659",
+    "app": "0.2.1213"
 }

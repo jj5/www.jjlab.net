@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:00:56",
+    "date": "2024-08-12 18:37:23",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/Cable-Tidy",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/6/d/6d6017b45dd12763dbb57621eb442e9eb52cc0bf7fc112de2d9a49ea-default.gz",
     "size": 19061,
-    "gzip": 4632,
-    "mudball": "0.5.1657",
-    "app": "0.2.1207"
+    "gzip": 4634,
+    "mudball": "0.5.1659",
+    "app": "0.2.1213"
 }

@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:00:56",
+    "date": "2024-08-12 18:37:23",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/manufacturer.php/ZZWS",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/c/f/cf27d31787dbd838dd7b13b4cb90f38b0b8bf617f4982e8aaab4188d-default.gz",
     "size": 20835,
-    "gzip": 4925,
-    "mudball": "0.5.1657",
-    "app": "0.2.1207"
+    "gzip": 4927,
+    "mudball": "0.5.1659",
+    "app": "0.2.1213"
 }

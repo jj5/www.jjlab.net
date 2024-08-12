@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:00:56",
+    "date": "2024-08-12 18:37:23",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/Butane",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/7/e/7e59459a8bbda29b0451462ed435c11b870759667e6efae86942c380-default.gz",
     "size": 21490,
-    "gzip": 4892,
-    "mudball": "0.5.1657",
-    "app": "0.2.1207"
+    "gzip": 4894,
+    "mudball": "0.5.1659",
+    "app": "0.2.1213"
 }

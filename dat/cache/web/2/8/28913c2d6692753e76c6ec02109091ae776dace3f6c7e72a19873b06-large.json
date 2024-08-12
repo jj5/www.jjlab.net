@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:00:56",
+    "date": "2024-08-12 18:37:23",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/manufacturer.php/Duratech",
     "cookie": "sz=2746x1770",
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/2/8/28913c2d6692753e76c6ec02109091ae776dace3f6c7e72a19873b06-large.gz",
     "size": 29392,
-    "gzip": 5867,
-    "mudball": "0.5.1657",
-    "app": "0.2.1207"
+    "gzip": 5868,
+    "mudball": "0.5.1659",
+    "app": "0.2.1213"
 }

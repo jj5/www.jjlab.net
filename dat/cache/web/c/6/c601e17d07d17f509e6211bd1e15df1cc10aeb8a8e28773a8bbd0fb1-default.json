@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:00:56",
+    "date": "2024-08-12 18:37:23",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/Bench-Multimeter",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/c/6/c601e17d07d17f509e6211bd1e15df1cc10aeb8a8e28773a8bbd0fb1-default.gz",
     "size": 35497,
-    "gzip": 5743,
-    "mudball": "0.5.1657",
-    "app": "0.2.1207"
+    "gzip": 5745,
+    "mudball": "0.5.1659",
+    "app": "0.2.1213"
 }

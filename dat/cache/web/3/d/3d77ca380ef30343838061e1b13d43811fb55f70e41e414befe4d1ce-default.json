@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:00:56",
+    "date": "2024-08-12 18:37:23",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/manufacturer.php",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/3/d/3d77ca380ef30343838061e1b13d43811fb55f70e41e414befe4d1ce-default.gz",
     "size": 44947,
-    "gzip": 5185,
-    "mudball": "0.5.1657",
-    "app": "0.2.1207"
+    "gzip": 5186,
+    "mudball": "0.5.1659",
+    "app": "0.2.1213"
 }

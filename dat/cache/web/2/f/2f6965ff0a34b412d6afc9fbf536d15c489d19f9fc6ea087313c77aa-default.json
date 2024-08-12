@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:00:56",
+    "date": "2024-08-12 18:37:23",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/HDMI-KVM",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/2/f/2f6965ff0a34b412d6afc9fbf536d15c489d19f9fc6ea087313c77aa-default.gz",
     "size": 30112,
-    "gzip": 5056,
-    "mudball": "0.5.1657",
-    "app": "0.2.1207"
+    "gzip": 5057,
+    "mudball": "0.5.1659",
+    "app": "0.2.1213"
 }

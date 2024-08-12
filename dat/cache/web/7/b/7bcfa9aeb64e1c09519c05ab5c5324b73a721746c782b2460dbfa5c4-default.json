@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:00:56",
+    "date": "2024-08-12 18:37:23",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/Sponge",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/7/b/7bcfa9aeb64e1c09519c05ab5c5324b73a721746c782b2460dbfa5c4-default.gz",
     "size": 20592,
-    "gzip": 4789,
-    "mudball": "0.5.1657",
-    "app": "0.2.1207"
+    "gzip": 4790,
+    "mudball": "0.5.1659",
+    "app": "0.2.1213"
 }

@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:00:56",
+    "date": "2024-08-12 18:37:23",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/manufacturer.php/OOTDTY",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/8/3/8363a33cb8ee47368d9b2c173b803d70ee34f630f4c55773bf74eb9b-default.gz",
     "size": 20973,
-    "gzip": 4799,
-    "mudball": "0.5.1657",
-    "app": "0.2.1207"
+    "gzip": 4800,
+    "mudball": "0.5.1659",
+    "app": "0.2.1213"
 }

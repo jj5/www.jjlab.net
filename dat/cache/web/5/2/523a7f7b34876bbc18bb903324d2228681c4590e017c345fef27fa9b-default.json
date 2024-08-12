@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:00:56",
+    "date": "2024-08-12 18:37:23",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/Stylus",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/5/2/523a7f7b34876bbc18bb903324d2228681c4590e017c345fef27fa9b-default.gz",
     "size": 20811,
-    "gzip": 4847,
-    "mudball": "0.5.1657",
-    "app": "0.2.1207"
+    "gzip": 4849,
+    "mudball": "0.5.1659",
+    "app": "0.2.1213"
 }

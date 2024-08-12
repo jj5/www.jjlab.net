@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:00:56",
+    "date": "2024-08-12 18:37:23",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/Hex-Screwdriver-H2.5",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/5/4/544cd7fac0e087b5fcbd1c9dc8c20ac845d06b56a47f35d926bb67cd-default.gz",
     "size": 29387,
-    "gzip": 5363,
-    "mudball": "0.5.1657",
-    "app": "0.2.1207"
+    "gzip": 5364,
+    "mudball": "0.5.1659",
+    "app": "0.2.1213"
 }

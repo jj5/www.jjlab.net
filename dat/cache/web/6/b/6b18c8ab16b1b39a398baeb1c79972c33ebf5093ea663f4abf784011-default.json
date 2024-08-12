@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:00:56",
+    "date": "2024-08-12 18:37:23",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/feature.php",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/6/b/6b18c8ab16b1b39a398baeb1c79972c33ebf5093ea663f4abf784011-default.gz",
     "size": 14114,
-    "gzip": 3291,
-    "mudball": "0.5.1657",
-    "app": "0.2.1207"
+    "gzip": 3293,
+    "mudball": "0.5.1659",
+    "app": "0.2.1213"
 }

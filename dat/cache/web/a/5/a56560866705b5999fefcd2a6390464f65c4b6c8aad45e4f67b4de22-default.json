@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:00:56",
+    "date": "2024-08-12 18:37:23",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/Thermometer",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/a/5/a56560866705b5999fefcd2a6390464f65c4b6c8aad45e4f67b4de22-default.gz",
     "size": 37529,
-    "gzip": 6015,
-    "mudball": "0.5.1657",
-    "app": "0.2.1207"
+    "gzip": 6016,
+    "mudball": "0.5.1659",
+    "app": "0.2.1213"
 }

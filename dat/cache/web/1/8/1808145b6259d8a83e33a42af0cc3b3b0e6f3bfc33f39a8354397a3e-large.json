@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:00:56",
+    "date": "2024-08-12 18:37:23",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/Repair-Mat",
     "cookie": "sz=2746x1770",
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/1/8/1808145b6259d8a83e33a42af0cc3b3b0e6f3bfc33f39a8354397a3e-large.gz",
     "size": 43539,
-    "gzip": 7000,
-    "mudball": "0.5.1657",
-    "app": "0.2.1207"
+    "gzip": 7001,
+    "mudball": "0.5.1659",
+    "app": "0.2.1213"
 }

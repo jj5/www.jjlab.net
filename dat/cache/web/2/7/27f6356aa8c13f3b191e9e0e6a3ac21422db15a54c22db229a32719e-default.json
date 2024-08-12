@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:00:56",
+    "date": "2024-08-12 18:37:23",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/manufacturer.php/Sony",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/2/7/27f6356aa8c13f3b191e9e0e6a3ac21422db15a54c22db229a32719e-default.gz",
     "size": 19026,
-    "gzip": 4578,
-    "mudball": "0.5.1657",
-    "app": "0.2.1207"
+    "gzip": 4579,
+    "mudball": "0.5.1659",
+    "app": "0.2.1213"
 }

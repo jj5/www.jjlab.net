@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:00:56",
+    "date": "2024-08-12 18:37:23",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/feature.php/interlude",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/d/8/d83a7be4a1f8ca07c46527fb1b6fd1915dcc85e35619aa20ca1cb612-default.gz",
     "size": 31587,
-    "gzip": 4569,
-    "mudball": "0.5.1657",
-    "app": "0.2.1207"
+    "gzip": 4570,
+    "mudball": "0.5.1659",
+    "app": "0.2.1213"
 }
