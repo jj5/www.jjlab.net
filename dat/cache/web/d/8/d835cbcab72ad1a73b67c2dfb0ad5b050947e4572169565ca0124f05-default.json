@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:39:29",
+    "date": "2024-08-12 19:01:26",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/manufacturer.php/freneci",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/d/8/d835cbcab72ad1a73b67c2dfb0ad5b050947e4572169565ca0124f05-default.gz",
     "size": 17940,
-    "gzip": 4007,
+    "gzip": 4001,
     "mudball": "0.5.1659",
-    "app": "0.2.1213"
+    "app": "0.2.1215"
 }

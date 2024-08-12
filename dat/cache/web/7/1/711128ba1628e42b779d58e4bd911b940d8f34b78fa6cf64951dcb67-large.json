@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:39:29",
+    "date": "2024-08-12 19:01:26",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/USB-Drive",
     "cookie": "sz=2746x1770",
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/7/1/711128ba1628e42b779d58e4bd911b940d8f34b78fa6cf64951dcb67-large.gz",
     "size": 30301,
-    "gzip": 5391,
+    "gzip": 5387,
     "mudball": "0.5.1659",
-    "app": "0.2.1213"
+    "app": "0.2.1215"
 }

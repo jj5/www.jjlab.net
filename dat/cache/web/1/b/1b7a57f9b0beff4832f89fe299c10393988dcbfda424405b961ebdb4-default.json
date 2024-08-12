@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:39:29",
+    "date": "2024-08-12 19:01:26",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/feature.php/maxitronix-300in1",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/1/b/1b7a57f9b0beff4832f89fe299c10393988dcbfda424405b961ebdb4-default.gz",
     "size": 14009,
-    "gzip": 3346,
+    "gzip": 3344,
     "mudball": "0.5.1659",
-    "app": "0.2.1213"
+    "app": "0.2.1215"
 }

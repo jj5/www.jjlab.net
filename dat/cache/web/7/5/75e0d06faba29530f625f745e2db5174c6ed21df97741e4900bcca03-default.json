@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:39:29",
+    "date": "2024-08-12 19:01:26",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/manufacturer.php/CLISPEED",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/7/5/75e0d06faba29530f625f745e2db5174c6ed21df97741e4900bcca03-default.gz",
     "size": 20947,
-    "gzip": 4752,
+    "gzip": 4750,
     "mudball": "0.5.1659",
-    "app": "0.2.1213"
+    "app": "0.2.1215"
 }

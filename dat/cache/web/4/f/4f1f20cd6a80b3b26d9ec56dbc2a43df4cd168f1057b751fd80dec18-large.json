@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:39:29",
+    "date": "2024-08-12 19:01:26",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/manufacturer.php/Riden",
     "cookie": "sz=2746x1770",
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/4/f/4f1f20cd6a80b3b26d9ec56dbc2a43df4cd168f1057b751fd80dec18-large.gz",
     "size": 29803,
-    "gzip": 6077,
+    "gzip": 6075,
     "mudball": "0.5.1659",
-    "app": "0.2.1213"
+    "app": "0.2.1215"
 }

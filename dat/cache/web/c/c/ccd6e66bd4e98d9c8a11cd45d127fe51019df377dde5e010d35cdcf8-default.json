@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:39:29",
+    "date": "2024-08-12 19:01:26",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/manufacturer.php/Ampcom",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/c/c/ccd6e66bd4e98d9c8a11cd45d127fe51019df377dde5e010d35cdcf8-default.gz",
     "size": 20759,
-    "gzip": 4828,
+    "gzip": 4824,
     "mudball": "0.5.1659",
-    "app": "0.2.1213"
+    "app": "0.2.1215"
 }

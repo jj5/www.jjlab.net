@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:39:29",
+    "date": "2024-08-12 19:01:26",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/USB-Camera",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/6/b/6b0b7ab0bbbb8f2b44e24719d3f4db21119bf09c4c8b74779a59c081-default.gz",
     "size": 31630,
-    "gzip": 5493,
+    "gzip": 5490,
     "mudball": "0.5.1659",
-    "app": "0.2.1213"
+    "app": "0.2.1215"
 }

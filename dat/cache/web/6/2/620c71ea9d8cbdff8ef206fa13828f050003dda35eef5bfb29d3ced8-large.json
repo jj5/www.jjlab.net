@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:39:29",
+    "date": "2024-08-12 19:01:26",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/manufacturer.php/T-Tersely",
     "cookie": "sz=2746x1770",
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/6/2/620c71ea9d8cbdff8ef206fa13828f050003dda35eef5bfb29d3ced8-large.gz",
     "size": 23499,
-    "gzip": 4971,
+    "gzip": 4967,
     "mudball": "0.5.1659",
-    "app": "0.2.1213"
+    "app": "0.2.1215"
 }

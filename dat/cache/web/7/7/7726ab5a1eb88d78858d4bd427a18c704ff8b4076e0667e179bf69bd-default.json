@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:39:29",
+    "date": "2024-08-12 19:01:26",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/feature.php/new-book-teardown",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/7/7/7726ab5a1eb88d78858d4bd427a18c704ff8b4076e0667e179bf69bd-default.gz",
     "size": 37120,
-    "gzip": 5421,
+    "gzip": 5418,
     "mudball": "0.5.1659",
-    "app": "0.2.1213"
+    "app": "0.2.1215"
 }

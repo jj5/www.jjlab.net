@@ -1,11 +1,11 @@
 {
-    "date": "2024-08-12 18:39:29",
+    "date": "2024-08-12 19:01:26",
     "url": "https://www.inthelabwithjayjay.com/in-the-lab/feature.php/channel-news",
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/6/c/6c49d2b53d8f505a8e0f6678dbe195a60973b96ac1f97476e4e520ea-default.gz",
     "size": 28903,
-    "gzip": 4595,
+    "gzip": 4592,
     "mudball": "0.5.1659",
-    "app": "0.2.1213"
+    "app": "0.2.1215"
 }
