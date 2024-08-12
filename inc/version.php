@@ -8,7 +8,7 @@ define( 'JJLAB_CODE', 'jjlab' );
 
 //define( 'JJLAB_VERSION', '0.2.1225' );
 define( 'JJLAB_VERSION_MAJOR', 0 );
-define( 'JJLAB_VERSION_MINOR', 2 );
+define( 'JJLAB_VERSION_MINOR', 3 );
 define( 'JJLAB_VERSION_PATCH', 1225 );
 
 define(
