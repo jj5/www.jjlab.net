@@ -1,0 +1,9 @@
+                                                                                                              2024-07-07 jj5
+
+= git-init =
+
+These scripts are just documentation for how the git repository was configured and initialized.
+
+You shouldn't need to run these scripts again, except maybe if you update them with new git submodules.
+
+These scripts don't use kickass-libexec, because at the time that these scripts are run kickass-libexec is not available.

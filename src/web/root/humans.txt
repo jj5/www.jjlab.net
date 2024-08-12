@@ -1,0 +1,5 @@
+This website was made with love by John Elliot V <jj5@jj5.net>.
+
+The style is based off Milligram <https://milligram.io/> by CJ Patoilo <https://x.com/cjpatoilo>.
+
+Of course there was a full Internet of contributors out there who developed the tech stack which I use.
