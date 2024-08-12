@@ -116,7 +116,7 @@ function check_cache( &$path = null ) {
   $filemtime = filemtime( $gzip_file );
 
   $etag = md5( $filemtime . ( $_COOKIE[ 'sz' ] ?? '' ) );
-    
+
   header( 'ETag: "' . $etag . '"' );
   header( 'Last-Modified: ' . gmdate( 'D, d M Y H:i:s', $filemtime ) . ' GMT' );
     

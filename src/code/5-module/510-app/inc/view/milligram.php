@@ -305,25 +305,6 @@ function render_head( string $heading, array $options = [] ) {
 
       tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => url_base( $use_cdn = true ) . "/res/style.php/$version/style.css" ] );
 
-      tag_open( 'script' );
-
-        // 2024-08-12 jj5 - NEW: now sent via cookie...
-        out_code( "\nvar MUD_SERVER_VERSION = get_cookie( 'MUD_VERSION' );");
-        out_code( "\nvar APP_SERVER_VERSION = get_cookie( 'APP_VERSION' );");
-        // 2024-08-12 jj5 - OLD: this messes up our cache so we send this info with a cookie instead...
-        //out_code( "\nvar MUD_SERVER_VERSION = " . mud_json_pretty( MUDBALL_VERSION ) . ";");
-        //out_code( "\nvar APP_SERVER_VERSION = " . mud_json_pretty( JJLAB_VERSION ) . ";");
-        
-        out_code( "\nvar URL_BASE = " . mud_json_pretty( url_base() ) . ";");
-        out_code( "\nvar DEBUG = " . mud_json_pretty( DEBUG ) . ";");
-        out_code( "\nvar DEV = " . mud_json_pretty( DEV ) . ";");
-        out_code( "\nvar BETA = " . mud_json_pretty( BETA ) . ";");
-        out_code( "\nvar PROD = " . mud_json_pretty( PROD ) . ";");
-        out_code( "\nvar IS_JOHN = " . mud_json_pretty( is_john() ) . ";");
-        out_code( "\nvar CACHE_KEY = " . mud_json_pretty( get_path_hash() ) . ";");
-
-      tag_shut( 'script' );
-
       tag_bare( 'script', [ 'src' => url_base( $use_cdn = true ) . "/res/script.php/$version/script.js" ] );
 
       foreach ([
@@ -348,6 +329,25 @@ function render_head( string $heading, array $options = [] ) {
         );
 
       }
+
+      tag_open( 'script' );
+
+        out_code( "\nvar URL_BASE = " . mud_json_pretty( url_base() ) . ";");
+        out_code( "\nvar DEBUG = " . mud_json_pretty( DEBUG ) . ";");
+        out_code( "\nvar DEV = " . mud_json_pretty( DEV ) . ";");
+        out_code( "\nvar BETA = " . mud_json_pretty( BETA ) . ";");
+        out_code( "\nvar PROD = " . mud_json_pretty( PROD ) . ";");
+        out_code( "\nvar IS_JOHN = " . mud_json_pretty( is_john() ) . ";");
+        out_code( "\nvar CACHE_KEY = " . mud_json_pretty( get_path_hash() ) . ";");
+
+        // 2024-08-12 jj5 - NEW: now sent via cookie...
+        out_code( "\nvar MUD_SERVER_VERSION = get_cookie( 'MUD_VERSION' );");
+        out_code( "\nvar APP_SERVER_VERSION = get_cookie( 'APP_VERSION' );");
+        // 2024-08-12 jj5 - OLD: this messes up our cache so we send this info with a cookie instead...
+        //out_code( "\nvar MUD_SERVER_VERSION = " . mud_json_pretty( MUDBALL_VERSION ) . ";");
+        //out_code( "\nvar APP_SERVER_VERSION = " . mud_json_pretty( JJLAB_VERSION ) . ";");
+
+      tag_shut( 'script' );
 
     tag_shut( 'head' );
 
@@ -546,7 +546,7 @@ function scroll_hack() {
 
     if ( fragment ) {
 
-      var id = fragment.substring( 1 ); 
+      var id = fragment.substring( 1 );
 
       var element = document.getElementById( id );
 
@@ -1103,7 +1103,7 @@ function render_equipment_disclaimer( $count ) {
       tag_shut( 'li' );
 
       tag_open( 'li' );
-      
+
         out_text( "Recent exchange rates are used for currency conversions, not the rates that were applicable " );
         out_text( "at the time of record." );
 
@@ -1116,7 +1116,7 @@ function render_equipment_disclaimer( $count ) {
       tag_shut( 'li' );
 
       tag_open( 'li' );
-      
+
         out_text( "Sometimes I can't find the exact product and in those circumstances a substitute product " );
         out_text( "might be suggested." );
 
@@ -1279,7 +1279,7 @@ function render_blog_template( $equipment_list ) {
 
       out_text( "\n" );
       out_text( "This post is part of my " );
-      
+
       render_link_external(
         'video blog',
         'https://www.inthelabwithjayjay.com/',
@@ -1318,7 +1318,7 @@ function render_blog_template( $equipment_list ) {
       tag_shut( 'iframe' );
 
       out_text( "\n\nYou can support this channel on Patreon: " );
-      
+
       render_link_external(
         'patreon.com/JohnElliotV',
         'https://www.patreon.com/JohnElliotV',
@@ -1330,7 +1330,7 @@ function render_blog_template( $equipment_list ) {
       );
 
       out_text( "\n\n" );
-      
+
       render_link_external(
         'Silly Job Title',
         'https://www.inthelabwithjayjay.com/in-the-lab/#silly-job-title',
