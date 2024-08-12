@@ -40,7 +40,7 @@ function app_render() {
 
 function find_image( $dir, $filename ) {
 
-  assert( is_dir( $dir ) );
+  if ( ! is_dir( $dir ) ) { return null; }
 
   foreach ( scandir( $dir ) as $file ) {
 
