@@ -150,7 +150,7 @@ function check( $loc, $suffix = '-default', $cookie = null ) {
 
   // 2024-08-12 jj5 - NOTE: there was no use case for the date and it messes up the cache so removed now.
 
-  if ( $data === $cache_data ) {
+  if ( file_exists( $json_file ) && $data === $cache_data ) {
 
     $json_data = json_decode( app_file_get_contents( $json_file ), $assoc = true );
 
