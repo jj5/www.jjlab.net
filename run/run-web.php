@@ -30,6 +30,8 @@ function main() {
 
     }
 
+    // 2024-08-13 jj5 - TODO: name these MUDBALL_VERSION and JJLAB_VERSION...
+    //
     setcookie( 'MUD_VERSION', MUD_VERSION, $expires = 0, $path = '/' );
     setcookie( 'APP_VERSION', APP_VERSION, $expires = 0, $path = '/' );
 
@@ -108,7 +110,7 @@ function check_cache( &$path = null ) {
 
   //mud_log_5_notice( "ETag is: $etag" );
 
-  if ( trim( $_SERVER[ 'HTTP_IF_NONE_MATCH'] ?? '', ' "' ) === $etag ) {
+  if ( strpos( trim( $_SERVER[ 'HTTP_IF_NONE_MATCH'] ?? '', ' "' ), $etag ) === 0 ) {
 
     header( 'HTTP/1.1 304 Not Modified', $replace = true, $response_code = 304 );
 

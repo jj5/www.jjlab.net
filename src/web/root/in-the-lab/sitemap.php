@@ -6,6 +6,8 @@ require_once __DIR__ . '/../../../../run/run-web.php';
 
 function app_render() {
 
+  if ( check_cache( $path ) ) { return; }
+
   $path_info = $_SERVER[ 'PATH_INFO' ] ?? null;
 
   if ( $path_info === null ) { return render_sitemap(); }
