@@ -342,7 +342,7 @@ function render_section_about_main( int $heading_level = 2 ) {
       tag_text( 'b', 'video blog of John Elliot V' );
 
       out_text( '.' );
-    
+
     tag_shut( 'p' );
 
     tag_open( 'p' );
@@ -614,7 +614,7 @@ function render_section_about_announcements( int $heading_level = 2 ) {
         out_text( ')' );
 
       tag_shut( 'li' );
-  
+
     tag_shut( 'ul' );
 
     tag_open( 'p' );
@@ -1883,7 +1883,7 @@ function render_section_about_old_book_teardown( int $heading_level = 2 ) {
       out_text( 'and then go through the table of contents in detail. Usually I will also take a close look at some specific thing ' );
 
       out_text( 'which takes my interest as I\'m reading out the contents. ' );
-      
+
       out_text( 'Other times I flip through and have a quick look at each page. ' );
 
       out_text( 'So these are not simply book reviews, they are book ' );
@@ -2111,9 +2111,9 @@ function render_section_about_new_book_teardown( int $heading_level = 2 ) {
         url_base() . '/show-type.php/special-show',
         TITLE_SHOW_SPECIAL,
       );
-      
+
       out_text( " and not a regular part of the " );
-      
+
       render_link_internal(
         'main show',
         url_base() . '/show-type.php/main-show',
@@ -2121,7 +2121,7 @@ function render_section_about_new_book_teardown( int $heading_level = 2 ) {
       );
 
       out_text( " because " );
-      
+
       out_text( "I don't have a lot of new books to teardown. I do have a lot of old books though, so I can do those all day long." );
 
     tag_shut( 'p' );
@@ -2229,7 +2229,7 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
     tag_open( 'p' );
 
       render_link_external_img(
-        'https://d297fd4gt7t5lv.cloudfront.net/file/2021-08-26-153328/IMG_1490.JPG?v=' . get_resource_version(),
+        'https://d297fd4gt7t5lv.cloudfront.net/file/2021-08-26-153328/IMG_1490.JPG',
         'https://www.jj5.net/file/2021-08-26-153328/IMG_1490.JPG',
         ALT_MAXITRONIX_LABS,
         [
@@ -2803,7 +2803,7 @@ function render_section_about_costume( int $heading_level = 2 ) {
         [
           'loading' => 'lazy',
           'style' => 'width:500px',
-          'src' => url_base( $use_cdn = true ) . '/res/img.php/EgonStetmann_SC2-WoL_Story1.webp?v=' . get_resource_version(),
+          'src' => url_base( $use_cdn = true ) . '/res/img.php/EgonStetmann_SC2-WoL_Story1.webp?v=' . get_resource_version( 'EgonStetmann_SC2-WoL_Story1.webp' ),
           'alt' => 'Egon Stetmann, the Chief Scientist from StarCraft II.',
         ]
       );
@@ -2823,7 +2823,7 @@ function render_section_about_costume( int $heading_level = 2 ) {
         [
           'loading' => 'lazy',
           'style' => 'width:500px',
-          'src' => url_base( $use_cdn = true ) . '/res/img.php/JohnElliotV-500-2.jpg?v=' . get_resource_version(),
+          'src' => url_base( $use_cdn = true ) . '/res/img.php/JohnElliotV-500-2.jpg?v=' . get_resource_version( 'JohnElliotV-500-2.jpg' ),
           'alt' => 'A picture of Jay Jay wearing his costume.',
         ]
       );
@@ -2911,7 +2911,7 @@ function render_section_about_silly_job_title( int $heading_level = 2 ) {
     render_silly_job_title();
 
   tag_shut( 'section' );
-  
+
 }
 
 function render_silly_job_title() {
@@ -3035,7 +3035,7 @@ function render_section_about_homies( int $heading_level = 2 ) {
       );
 
       out_text( ' ' );
-      
+
       tag_text( 'b', 'who I support on Patreon' );
 
       out_text( ' and follow on YouTube. ' );
@@ -3082,7 +3082,7 @@ function render_section_about_equipment( int $heading_level = 2 ) {
       );
 
       out_text( ' page. ' );
-      
+
       out_text( 'If you see something in one of my videos that you like you can probably find more info about it on the equipment page. ' );
       out_text( "If there's something you're looking for in particular and you can't find, please feel free to " );
 
@@ -3309,7 +3309,7 @@ function render_section_about_next( int $heading_level = 2, $thanks = null, $tha
         );
 
         out_text( " page, if you're interested in any of the equipment I use. " );
-        
+
         out_text( "If you're putting together your own electronics lab then I would certainly recommend checking this out!" );
 
       tag_shut( 'li' );
@@ -3438,7 +3438,7 @@ function render_section_contact_info( int $heading_level = 2 ) {
     tag_open( 'table' );
 
       tag_open( 'thead' );
-      
+
         tag_open( 'tr' );
 
           tag_text( 'th', 'Channel Homepage' );
@@ -3586,7 +3586,7 @@ function render_section_contact_info( int $heading_level = 2 ) {
     tag_open( 'p' );
 
       out_text( "If you " );
-      
+
       render_link_external(
         'support me on Patreon',
         'https://www.patreon.com/JohnElliotV/membership',

@@ -12,7 +12,12 @@ function render_coming_soon() {
 
       tag_open( 'section', [ 'class' => 'container' ] );
 
-        tag_bare( 'img', [ 'src' => url_base( $use_cdn = true ) . '/res/img.php/logo.png?v=' . get_resource_version() ] );
+        tag_bare(
+          'img',
+          [
+            'src' => url_base( $use_cdn = true ) . '/res/img.php/logo.png?v=' . get_resource_version( 'logo.png' )
+          ]
+        );
 
         tag_text( 'h1', 'Coming Soon', [ 'class' => 'title' ] );
 
@@ -38,7 +43,12 @@ function render_404() {
 
       tag_open( 'section', [ 'class' => 'container' ] );
 
-        tag_bare( 'img', [ 'src' => url_base( $use_cdn = true ) . '/res/img.php/logo.png?v=' . get_resource_version() ] );
+        tag_bare(
+          'img',
+          [
+            'src' => url_base( $use_cdn = true ) . '/res/img.php/logo.png?v=' . get_resource_version( 'logo.png' )
+          ]
+        );
 
         tag_text( 'h1', $title, [ 'class' => 'title' ] );
 
@@ -101,7 +111,12 @@ function render_500( $message = null, $form = null, $issue = null, $exit = null,
 
       tag_open( 'section', [ 'class' => 'container' ] );
 
-        tag_bare( 'img', [ 'src' => url_base( $use_cdn = true ) . '/res/img.php/logo.png?v=' . get_resource_version() ] );
+        tag_bare(
+          'img',
+          [
+            'src' => url_base( $use_cdn = true ) . '/res/img.php/logo.png?v=' . get_resource_version( 'logo.png' ),
+          ]
+        );
 
         tag_text( 'h1', $title, [ 'class' => 'title' ] );
 
@@ -302,9 +317,11 @@ function render_head( string $heading, array $options = [] ) {
 
       tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => 'https://fonts.googleapis.com/css?family=Roboto' ] );
 
-      $version = get_resource_version();
+      $version = get_resource_version_for_dir( 'style' );
 
       tag_bare( 'link', [ 'rel' => 'stylesheet', 'href' => url_base( $use_cdn = true ) . "/res/style.php/$version/style.css" ] );
+
+      $version = get_resource_version_for_dir( 'script' );
 
       tag_bare( 'script', [ 'src' => url_base( $use_cdn = true ) . "/res/script.php/$version/script.js" ] );
 
@@ -313,7 +330,7 @@ function render_head( string $heading, array $options = [] ) {
         'banner-0640.jpg',
         'banner.jpg',
         'logo.png',
-        'rss/rss-40674_50.png',
+        'rss-40674_50.png',
       ] as $filename ) {
 
         $ext = pathinfo( $filename, PATHINFO_EXTENSION );
@@ -324,7 +341,7 @@ function render_head( string $heading, array $options = [] ) {
           'link',
           [
             'rel' => 'preload',
-            'href' => url_base( $use_cdn = true ) . '/res/img.php/' . $filename . '?v=' . $version,
+            'href' => url_base( $use_cdn = true ) . '/res/img.php/' . $filename . '?v=' . get_resource_version( $filename ),
             'as' => 'image',
           ]
         );
@@ -372,7 +389,7 @@ function render_head( string $heading, array $options = [] ) {
               tag_bare(
                 'img',
                 [
-                  'src' => url_base( $use_cdn = true ) . '/res/img.php/logo.png?v=' . $version,
+                  'src' => url_base( $use_cdn = true ) . '/res/img.php/logo.png?v=' . get_resource_version( 'logo.png' ),
                   'loading' => 'eager',
                 ]
               );
@@ -472,7 +489,7 @@ function render_head( string $heading, array $options = [] ) {
             [
               'loading' => 'eager',
               'class' => 'rc-base',
-              'src' => url_base( $use_cdn = true ) . '/res/img.php/banner-base.jpg?v=' . get_resource_version()
+              'src' => url_base( $use_cdn = true ) . '/res/img.php/banner-base.jpg?v=' . get_resource_version( 'banner-base.jpg' )
             ]
           );
 
@@ -481,7 +498,7 @@ function render_head( string $heading, array $options = [] ) {
             [
               'loading' => 'eager',
               'class' => 'rc-0320',
-              'src' => url_base( $use_cdn = true ) . '/res/img.php/banner-base.jpg?v=' . get_resource_version()
+              'src' => url_base( $use_cdn = true ) . '/res/img.php/banner-base.jpg?v=' . get_resource_version( 'banner-base.jpg' )
             ]
           );
 
@@ -490,7 +507,7 @@ function render_head( string $heading, array $options = [] ) {
             [
               'loading' => 'eager',
               'class' => 'rc-0640',
-              'src' => url_base( $use_cdn = true ) . '/res/img.php/banner-0640.jpg?v=' . get_resource_version()
+              'src' => url_base( $use_cdn = true ) . '/res/img.php/banner-0640.jpg?v=' . get_resource_version( 'banner-0640.jpg' )
             ]
           );
 
@@ -499,7 +516,7 @@ function render_head( string $heading, array $options = [] ) {
             [
               'loading' => 'eager',
               'class' => 'rc-1280',
-              'src' => url_base( $use_cdn = true ) . '/res/img.php/banner.jpg?v=' . get_resource_version()
+              'src' => url_base( $use_cdn = true ) . '/res/img.php/banner.jpg?v=' . get_resource_version( 'banner.jpg' )
             ]
           );
 
@@ -508,7 +525,7 @@ function render_head( string $heading, array $options = [] ) {
             [
               'loading' => 'eager',
               'class' => 'rc-1920',
-              'src' => url_base( $use_cdn = true ) . '/res/img.php/banner.jpg?v=' . get_resource_version()
+              'src' => url_base( $use_cdn = true ) . '/res/img.php/banner.jpg?v=' . get_resource_version( 'banner.jpg' )
             ]
           );
 
@@ -617,7 +634,7 @@ function render_rss_anchor() {
   // affinitve.
 
   render_link_internal_img(
-    url_base( $use_cdn = true ) . '/res/img.php/rss/rss-40674_50.png?v=' . get_resource_version(),
+    url_base( $use_cdn = true ) . '/res/img.php/rss/rss-40674_50.png?v=' . get_resource_version( 'rss-40674_50.png' ),
     url_base() . '/feed.php',
     TITLE_NAV_FEED,
     [

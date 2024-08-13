@@ -28,7 +28,7 @@ function get_full_url() {
   $protocol = 'http://';
 
   if ( isset( $_SERVER['HTTPS'] ) && $_SERVER['HTTPS'] === 'on' ) {
-    
+
     $protocol = 'https://';
 
   }
@@ -289,4 +289,36 @@ function verify_equipment( $equipment_list ) {
     $id_map[ $id ] = true;
 
   }
+}
+
+function find_image( string $filename, string $dir = APP_RES_DIR ) {
+
+  return find_resource( $filename, $dir );
+
+}
+
+function find_resource( string $filename, string $dir = APP_RES_DIR ) {
+
+  if ( ! is_dir( $dir ) ) { return null; }
+
+  foreach ( scandir( $dir ) as $file ) {
+
+    if ( $file === '.' || $file === '..' ) { continue; }
+
+    if ( is_dir( $dir . '/' . $file ) ) {
+
+      $path = find_image( $filename, $dir . '/' . $file );
+
+      if ( $path !== null ) { return $path; }
+
+    }
+    elseif ( $file === $filename ) {
+
+      return $dir . '/' . $file;
+
+    }
+  }
+
+  return null;
+
 }

@@ -27,17 +27,25 @@ function render_sitemap() {
 
   global $domain;
 
-  $version = get_resource_version();
+  //$version = get_resource_version();
 
   if ( is_prod() ) {
 
-    $sitemap_xsl = "https://www.inthelabwithjayjay.com/in-the-lab/sitemap.xsl.php?v=$version";
+    // 2024-08-13 jj5 - NEW:
+    $sitemap_xsl = 'https://www.inthelabwithjayjay.com/in-the-lab/sitemap.xsl.php';
+    // 2024-08-13 jj5 - OLD:
+    //$sitemap_xsl = "https://www.inthelabwithjayjay.com/in-the-lab/sitemap.xsl.php?v=$version";
+
     $domain = 'https://www.inthelabwithjayjay.com';
 
   }
   else {
 
-    $sitemap_xsl = url_base() . '/sitemap.xsl.php?v=' . date( 'Y-m-d-His' );
+    // 2024-08-13 jj5 - NEW:
+    $sitemap_xsl = url_base() . '/sitemap.xsl.php';
+    // 2024-08-13 jj5 - OLD:
+    //$sitemap_xsl = url_base() . '/sitemap.xsl.php?v=' . date( 'Y-m-d-His' );
+
     $domain = 'http://localhost';
 
   }
@@ -135,19 +143,19 @@ function render_sitemap() {
     $priority = '0.6';
 
     foreach ( app_stash()->get_list( Channel::class ) as $channel ) {
-        
+
       render_page( 'channel.php', '/' . $channel->get_slug(), $latest_date, $changefreq, $priority );
 
     }
 
     foreach ( app_stash()->get_list( ShowType::class ) as $show_type ) {
-        
+
       render_page( 'show-type.php', '/' . $show_type->get_slug(), $latest_date, $changefreq, $priority );
 
     }
 
     foreach ( app_stash()->get_list( Feature::class ) as $feature ) {
-        
+
       render_page( 'feature.php', '/' . $feature->get_slug(), $latest_date, $changefreq, $priority );
 
     }

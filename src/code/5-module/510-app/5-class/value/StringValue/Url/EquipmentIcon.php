@@ -48,7 +48,7 @@ class EquipmentIcon extends Url {
       }
     }
 
-    return url_base( $use_cdn = true ) . "/res/img.php/auto/$hash.$ext?v=" . get_resource_version();
+    return url_base( $use_cdn = true ) . "/res/img.php/auto/$hash.$ext?v=" . get_resource_version( "$hash.$ext" );
 
   }
 
@@ -71,7 +71,7 @@ class EquipmentIcon extends Url {
 
     //echo "$hash: $ext\n";
 
-    return "https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/auto/$hash.$ext?v=" . get_resource_version();
+    return "https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/auto/$hash.$ext?v=" . get_resource_version( "$hash.$ext" );
 
   }
 

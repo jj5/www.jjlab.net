@@ -21,7 +21,7 @@ function app_render() {
 
       $res_dir = realpath( __DIR__ . '/../../../res/img' );
 
-      $path = find_image( $res_dir, $filename );
+      $path = find_image( $filename, $res_dir );
 
       if ( ! $path || ! file_exists( $path ) ) { return render_404(); }
 
@@ -38,29 +38,4 @@ function app_render() {
       render_404();
 
   }
-}
-
-function find_image( $dir, $filename ) {
-
-  if ( ! is_dir( $dir ) ) { return null; }
-
-  foreach ( scandir( $dir ) as $file ) {
-
-    if ( $file === '.' || $file === '..' ) { continue; }
-
-    if ( is_dir( $dir . '/' . $file ) ) {
-
-      $path = find_image( $dir . '/' . $file, $filename );
-
-      if ( $path !== null ) { return $path; }
-
-    } else if ( $file === $filename ) {
-
-      return $dir . '/' . $file;
-
-    }
-  }
-
-  return null;
-
 }

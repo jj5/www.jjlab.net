@@ -113,17 +113,25 @@ function render_feed_for_list( $video_list, $topic = null ) {
     MUD_CONTENT_TYPE_RSS,
   );
 
-  $version = get_resource_version();
+  //$version = get_resource_version();
 
   if ( is_prod() ) {
 
-    $feed_xsl = "https://www.inthelabwithjayjay.com/in-the-lab/feed.xsl.php?v=$version";
+    // 2024-08-13 jj5 - NEW:
+    $feed_xsl = "https://www.inthelabwithjayjay.com/in-the-lab/feed.xsl.php";
+    // 2024-08-13 jj5 - OLD:
+    //$feed_xsl = "https://www.inthelabwithjayjay.com/in-the-lab/feed.xsl.php?v=$version";
+
     $domain = 'https://www.inthelabwithjayjay.com';
 
   }
   else {
 
-    $feed_xsl = url_base() . '/feed.xsl.php?v=' . date( 'Y-m-d-His' );
+    // 2024-08-13 jj5 - NEW:
+    $feed_xsl = url_base() . '/feed.xsl.php';
+    // 2024-08-13 jj5 - OLD:
+    //$feed_xsl = url_base() . '/feed.xsl.php?v=' . date( 'Y-m-d-His' );
+
     $domain = 'http://localhost';
 
   }
@@ -160,13 +168,13 @@ function render_feed_for_list( $video_list, $topic = null ) {
 
       tag_open( 'image' );
 
-        tag_text( 'url', 'https://www.inthelabwithjayjay.com/in-the-lab/res/img.php/logo.png?v=' . get_resource_version() );
+        tag_text( 'url', 'https://www.inthelabwithjayjay.com/in-the-lab/res/img.php/logo.png?v=' . get_resource_version( 'logo.png' ) );
         tag_text( 'title', $title );
         tag_text( 'link', 'https://www.inthelabwithjayjay.com/' );
         tag_text( 'width', '144' );
         tag_text( 'height', '144' );
 
-      tag_shut( 'image' );    
+      tag_shut( 'image' );
 
       for ( $i = 0; $i < count( $video_list ); $i++ ) {
 

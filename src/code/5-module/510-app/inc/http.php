@@ -69,7 +69,11 @@ function render_one_year_expires_headers() {
 
   $cdn_base = url_base( $use_cdn = ! DEBUG );
   $url_base = url_base();
-  $version = get_resource_version();
+
+  // 2024-08-13 jj5 - NEW:
+  $version = APP_VERSION;
+  // 2024-08-13 jj5 - OLD:
+  //$version = get_resource_version();
 
 }
 
@@ -140,32 +144,30 @@ function render_xslt_headers() {
 
 function render_xslt_head() {
   global $cdn_base, $url_base;
-  $version = get_resource_version();
 ?>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui" />
-		<link rel="icon" href="<?= $cdn_base ?>/res/img.php/logo.png?v=<?= $version ?>" />
+		<link rel="icon" href="<?= $cdn_base ?>/res/img.php/logo.png?v=<?= get_resource_version( 'logo.png' ) ?>" />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
 
-		<link rel="stylesheet" href="<?= $cdn_base ?>/res/style.php/<?= $version ?>/style.css" />
+		<link rel="stylesheet" href="<?= $cdn_base ?>/res/style.php/<?= get_resource_version_for_dir( 'style' ) ?>/style.css" />
 		<script>var DEBUG = false;</script>
-		<script src="<?= $cdn_base ?>/res/script.php/<?= $version ?>/script.js"></script>
+		<script src="<?= $cdn_base ?>/res/script.php/<?= get_resource_version_for_dir( 'script' ) ?>/script.js"></script>
 
-		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/banner-base.jpg?v=<?= $version ?>" as="image" />
-		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/banner-0640.jpg?v=<?= $version ?>" as="image" />
-		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/banner.jpg?v=<?= $version ?>" as="image" />
-		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/logo.png?v=<?= $version ?>" as="image" />
-		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/rss/rss-40674_50.png?v=<?= $version ?>" as="image" />
+		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/banner-base.jpg?v=<?= get_resource_version( 'banner-base.jpg' ) ?>" as="image" />
+		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/banner-0640.jpg?v=<?= get_resource_version( 'banner-0640.jpg' ) ?>" as="image" />
+		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/banner.jpg?v=<?= get_resource_version( 'banner.jpg' ) ?>" as="image" />
+		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/logo.png?v=<?= get_resource_version( 'logo.png' ) ?>" as="image" />
+		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/rss/rss-40674_50.png?v=<?= get_resource_version( 'rss-40674_50.png' ) ?>" as="image" />
 <?php
 }
 function render_xslt_nav_header() {
   global $cdn_base, $url_base;
-  $version = get_resource_version();
 ?>
 			<nav class="navigation">
 				<div class="container">
 					<a href="<?= $url_base ?>/" class="navigation-title" title="<?= TITLE_LOGO ?>">
-						<img src="<?= $cdn_base ?>/res/img.php/logo.png?v=<?= $version ?>" alt="" />
+						<img src="<?= $cdn_base ?>/res/img.php/logo.png?v=<?= get_resource_version( 'logo.png' ) ?>" alt="" />
 						<header class="title">In The Lab With Jay Jay</header></a>
 					<ul class="navigation-list">
 						<li class="navigation-item">
@@ -189,21 +191,21 @@ function render_xslt_nav_header() {
 										<a href="<?= $url_base ?>/support.php" class="internal popover-link" title="<?= TITLE_NAV_SUPPORT ?>">Support the Show!</a></li>
 									<li class="popover-item">
 										<a class="internal popover-link" href="<?= $url_base ?>/feed.php" title="<?= TITLE_NAV_FEED ?>">
-											<img src="<?= $cdn_base ?>/res/img.php/rss/rss-40674_50.png?v=<?= $version ?>" style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" alt="" /></a></li></ul></div></li></ul>
+											<img src="<?= $cdn_base ?>/res/img.php/rss/rss-40674_50.png?v=<?= get_resource_version( 'rss-40674_50.png' ) ?>" style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" alt="" /></a></li></ul></div></li></ul>
 					<div class="menu-list">
-						<a href="<?= $url_base ?>/" class="internal" title="<?= TITLE_NAV_HOME ?>">Home</a> | 
-						<a href="<?= $url_base ?>/channel.php/@InTheLabWithJayJay" class="internal" title="<?= TITLE_NAV_MAIN ?>">Main Channel</a> | 
-						<a href="<?= $url_base ?>/sponsor.php" class="internal" title="<?= TITLE_NAV_SPONSORS ?>">Sponsors</a> | 
-						<a href="<?= $url_base ?>/equipment.php" class="internal" title="<?= TITLE_NAV_EQUIPMENT ?>">Equipment</a> | 
-						<a href="<?= $url_base ?>/about.php" class="internal" title="<?= TITLE_NAV_ABOUT ?>">About</a> | 
+						<a href="<?= $url_base ?>/" class="internal" title="<?= TITLE_NAV_HOME ?>">Home</a> |
+						<a href="<?= $url_base ?>/channel.php/@InTheLabWithJayJay" class="internal" title="<?= TITLE_NAV_MAIN ?>">Main Channel</a> |
+						<a href="<?= $url_base ?>/sponsor.php" class="internal" title="<?= TITLE_NAV_SPONSORS ?>">Sponsors</a> |
+						<a href="<?= $url_base ?>/equipment.php" class="internal" title="<?= TITLE_NAV_EQUIPMENT ?>">Equipment</a> |
+						<a href="<?= $url_base ?>/about.php" class="internal" title="<?= TITLE_NAV_ABOUT ?>">About</a> |
 						<a href="<?= $url_base ?>/support.php" class="internal" title="<?= TITLE_NAV_SUPPORT ?>">Support the Show!</a>
 						<a class="internal" href="<?= $url_base ?>/feed.php" title="<?= TITLE_NAV_FEED ?>">
-							<img src="<?= $cdn_base ?>/res/img.php/rss/rss-40674_50.png?v=<?= $version ?>" style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" alt="" /></a></div></div></nav>
+							<img src="<?= $cdn_base ?>/res/img.php/rss/rss-40674_50.png?v=<?= get_resource_version( 'rss-40674_50.png' ) ?>" style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" alt="" /></a></div></div></nav>
 			<header id="banner">
-				<img class="rc-base" src="<?= $cdn_base ?>/res/img.php/banner-base.jpg?v=<?= $version ?>" />
-				<img class="rc-0320" src="<?= $cdn_base ?>/res/img.php/banner-base.jpg?v=<?= $version ?>" />
-				<img class="rc-0640" src="<?= $cdn_base ?>/res/img.php/banner-0640.jpg?v=<?= $version ?>" />
-				<img class="rc-1280" src="<?= $cdn_base ?>/res/img.php/banner.jpg?v=<?= $version ?>" />
-				<img class="rc-1920" src="<?= $cdn_base ?>/res/img.php/banner.jpg?v=<?= $version ?>" /></header>
+				<img class="rc-base" src="<?= $cdn_base ?>/res/img.php/banner-base.jpg?v=<?= get_resource_version( 'banner-base.jpg' ) ?>" />
+				<img class="rc-0320" src="<?= $cdn_base ?>/res/img.php/banner-base.jpg?v=<?= get_resource_version( 'banner-base.jpg' ) ?>" />
+				<img class="rc-0640" src="<?= $cdn_base ?>/res/img.php/banner-0640.jpg?v=<?= get_resource_version( 'banner-0640.jpg' ) ?>" />
+				<img class="rc-1280" src="<?= $cdn_base ?>/res/img.php/banner.jpg?v=<?= get_resource_version( 'banner.jpg' ) ?>" />
+				<img class="rc-1920" src="<?= $cdn_base ?>/res/img.php/banner.jpg?v=<?= get_resource_version( 'banner.jpg' ) ?>" /></header>
 <?php
 }

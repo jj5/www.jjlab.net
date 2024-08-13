@@ -7,7 +7,7 @@ define(
 
 define(
   'LOGO_URL',
-  'https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=' . get_resource_version()
+  'https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/logo.png?v=' . get_resource_version( 'logo.png' ),
 );
 
 define( 'VIDEO_COUNT', 5 );
