@@ -42,9 +42,9 @@ function http_redirect( $url, $response_code = 302 ) {
 
 function url_base( $use_cdn = false ) {
 
-  if ( is_dev() ) { return '/in-the-lab'; }
-
   if ( $use_cdn ) { return 'https://der3syffk4l6q.cloudfront.net/in-the-lab'; }
+
+  if ( is_dev() ) { return '/in-the-lab'; }
 
   if ( is_prod() ) { return '/in-the-lab'; }
 
@@ -143,7 +143,8 @@ function render_xslt_headers() {
 }
 
 function render_xslt_head() {
-  global $cdn_base, $url_base;
+  //global $cdn_base, $url_base;
+  $cdn_base = url_base( $use_cdn = true );
 ?>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui" />
