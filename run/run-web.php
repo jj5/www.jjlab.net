@@ -80,7 +80,7 @@ function check_cache( &$path = null ) {
 
   if ( ! APP_USE_CACHE ) {
 
-    mud_log_4_warning( "cache is disabled." );
+    //mud_log_5_notice( "cache is disabled." );
 
     return false;
 
@@ -88,7 +88,7 @@ function check_cache( &$path = null ) {
 
   if ( $query !== '' ) {
 
-    mud_log_4_warning( "cache disabled due to presence of query string." );
+    //mud_log_5_notice( "cache disabled due to presence of query string." );
 
     return false;
 
@@ -109,7 +109,7 @@ function check_cache( &$path = null ) {
 
   if ( ! file_exists( $json_file ) ) {
 
-    mud_log_4_warning( "JSON cache file '$json_file' missing" );
+    //mud_log_5_notice( "JSON cache file '$json_file' missing" );
 
     return false;
 
@@ -132,7 +132,7 @@ function check_cache( &$path = null ) {
   header( 'ETag: "' . $etag . '"' );
   header( 'Last-Modified: ' . gmdate( 'D, d M Y H:i:s', $filemtime ) . ' GMT' );
 
-  mud_log_4_warning( "ETag is: $etag" );
+  //mud_log_5_notice( "ETag is: $etag" );
 
   if ( trim( $_SERVER[ 'HTTP_IF_NONE_MATCH'] ?? '', ' "' ) === $etag ) {
 
