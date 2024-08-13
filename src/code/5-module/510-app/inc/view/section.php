@@ -1505,7 +1505,7 @@ function render_section_about_channels( int $heading_level = 2 ) {
 
     tag_text( "h{$heading_level}", 'YouTube Channels', [ 'id' => 'channels' ] );
 
-    tag_text( 'p', 'The show is delivered across two separate YouTube channels.' );
+    tag_text( 'p', 'My video blog is delivered across two separate YouTube channels.' );
 
   tag_shut( 'section' );
 
@@ -2097,7 +2097,16 @@ function render_section_about_new_book_teardown( int $heading_level = 2 ) {
     tag_open( 'p' );
 
       out_text( 'The criteria for a book to be considered "new" used to be that it was published in the last ten years, ' );
-      out_text( 'but this has been changed to include anything published during or since the year 2000. ' );
+      out_text( 'but this ' );
+
+      render_link_internal(
+        'has been changed',
+        url_base() . '/show.php/@InTheLabWithJayJay/J58WnvCobx0#J58WnvCobx0',
+        'Click here to watch the announcement video.',
+      );
+
+      out_text( ' to include anything published during or since the year 2000. ' );
+
       out_text( 'So some of these "new" books aren\'t quite so new at all!' );
 
     tag_shut( 'p' );
