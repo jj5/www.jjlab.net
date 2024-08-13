@@ -104,7 +104,7 @@ function render_category_index( $category_list ) {
 
                 render_link_internal(
                   $category->get_category_name(),
-                  url_base() . '/category.php/' . $category->get_category_id(),
+                  url_base() . '/category.php/' . $category->get_category_id() . '#heading',
                   TITLE_LINK_CATEGORY,
                 );
 

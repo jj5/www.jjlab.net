@@ -104,7 +104,7 @@ function render_manufacturer_index( $manufacturer_list ) {
 
                 render_link_internal(
                   $manufacturer->get_manufacturer_name(),
-                  url_base() . '/manufacturer.php/' . $manufacturer->get_manufacturer_id(),
+                  url_base() . '/manufacturer.php/' . $manufacturer->get_manufacturer_id() . '#heading',
                   TITLE_LINK_MANUFACTURER,
                 );
 
@@ -175,7 +175,7 @@ function render_equipment_list_for_manufacturer( $manufacturer, $equipment_list 
 
           render_link_internal(
             'my Maxitronix Xin1 videos',
-            url_base() . '/feature.php/maxitronix',
+            url_base() . '/feature.php/maxitronix#heading',
             TITLE_FEATURE_MAXITRONIX,
           );
 
