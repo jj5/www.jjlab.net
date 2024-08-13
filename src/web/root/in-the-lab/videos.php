@@ -76,7 +76,7 @@ function render_videos_main( $video_list ) {
             tag_text( 'th', 'Video' );
             tag_text( 'th', 'Duration' );
             //tag_text( 'th', 'Changes' );
-            tag_text( 'th', 'Priority' );
+            //tag_text( 'th', 'Priority' );
             tag_text( 'th', 'Silly Job Title' );
             tag_text( 'th', 'YouTube Video Title' );
             tag_text( 'th', 'YouTube Video Link' );
@@ -152,13 +152,13 @@ function render_videos_main( $video_list ) {
                 out_text( $video->get_changefreq()->value );
 
               tag_shut( 'td' );
-              */
 
               tag_open( 'td', [ 'class' => 'right' ] );
 
                 out_text( $video->get_priority() );
 
               tag_shut( 'td' );
+              */
 
               tag_open( 'td' );
 
