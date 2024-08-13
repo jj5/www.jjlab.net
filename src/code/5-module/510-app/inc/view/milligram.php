@@ -1169,6 +1169,8 @@ function render_equipment_disclaimer( $count ) {
         TITLE_LINK_MANUFACTURER,
       );
 
+      out_text( '.' );
+
     tag_shut( 'p' );
 
     tag_open( 'p' );
