@@ -17,7 +17,7 @@ function main( $argv ) {
 
   if ( $xml === false)  {
 
-    die( "error: cannot load XML.\n" );
+    mud_fail( 'cannot load XML.' );
 
   }
 
@@ -141,7 +141,7 @@ function check( $loc, $suffix = '-default', $cookie = null ) {
 
     if ( $default_data === $data ) {
 
-      echo "skipping large cache: $gzip_file\n";
+      //echo "skipping large cache: $gzip_file\n";
 
       return;
 
@@ -161,7 +161,7 @@ function check( $loc, $suffix = '-default', $cookie = null ) {
   }
   else {
 
-    echo "Updating cache: $gzip_file\n";
+    echo "updating cache: $gzip_file\n";
 
     $gzip_data = gzencode( $data, 9 );
 

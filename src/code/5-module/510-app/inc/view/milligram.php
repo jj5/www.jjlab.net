@@ -244,7 +244,8 @@ function render_head( string $heading, array $options = [] ) {
       }
       */
 
-      tag_bare( 'meta', [ 'name' => 'date', 'content' => get_version_date() ] );
+      // 2024-08-13 jj5 - OLD: this is removed because it was upsetting the cache...
+      //tag_bare( 'meta', [ 'name' => 'date', 'content' => get_version_date() ] );
 
       tag_bare( 'meta', [ 'name' => 'author', 'content' => 'John Elliot V' ] );
 
