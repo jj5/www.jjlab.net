@@ -44,7 +44,7 @@ function url_base( $use_cdn = false ) {
 
   if ( is_dev() ) { return '/in-the-lab'; }
 
-  if ( is_cache_request() ) { $use_cdn = true; }
+  //if ( is_cache_request() ) { $use_cdn = true; }
 
   if ( $use_cdn ) { return 'https://der3syffk4l6q.cloudfront.net/in-the-lab'; }
 
