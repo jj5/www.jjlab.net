@@ -3,6 +3,7 @@
 
 define( 'APP_ORIGIN', 'http://localhost' );
 define( 'APP_ORIGIN_PROD', 'https://www.inthelabwithjayjay.com' );
+define( 'APP_ORIGIN_CDN', 'https://der3syffk4l6q.cloudfront.net' );
 define( 'APP_RUN_DATE', date( 'Y-m-d H:i:s' ) );
 
 //pcntl_signal( SIGUSR1, 'signal_handler' );
@@ -31,10 +32,21 @@ function main( $argv ) {
 
     if ( strpos( $loc, APP_ORIGIN ) !== 0 ) {
 
-      $loc = str_replace( APP_ORIGIN_PROD, APP_ORIGIN, $loc );
+      if ( strpos( $loc, APP_ORIGIN_PROD ) === 0 ) {
 
-      //mud_fail( 'invalid location.', [ 'loc' => $loc, 'origin' => APP_ORIGIN ] );
+        $loc = str_replace( APP_ORIGIN_PROD, APP_ORIGIN, $loc );
 
+      }
+      elseif ( strpos( $loc, APP_ORIGIN_CDN ) === 0 ) {
+
+        $loc = str_replace( APP_ORIGIN_CDN, APP_ORIGIN, $loc );
+
+      }
+      else {
+
+        mud_fail( 'invalid location.', [ 'loc' => $loc, 'origin' => APP_ORIGIN ] );
+
+      }
     }
 
     $loc_list[] = $loc;

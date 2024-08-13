@@ -50,6 +50,9 @@ function render_sitemap() {
 
   }
 
+  // 2024-08-13 jj5 - TEMP: just for now...
+  $sitemap_xsl = 'http://localhost/in-the-lab/sitemap.xsl.php';
+
   out_html( "<?xml-stylesheet href=\"$sitemap_xsl\" type=\"text/xsl\"?>" );
 
   $latest_video = app_stash()->get_live_video_list()[ 0 ];
@@ -242,7 +245,10 @@ function render_url( $loc, $lastmod = null, $changefreq = null, $priority = null
 
   tag_open( 'url' );
 
-    tag_text( 'loc', $domain . url_base() . $loc );
+    // 2024-08-13 jj5 - NEW:
+    tag_text( 'loc', "$domain/in-the-lab" . $loc );
+    // 2024-08-13 jj5 - OLD:
+    //tag_text( 'loc', $domain . url_base() . $loc );
 
     if ( $lastmod ) {
 

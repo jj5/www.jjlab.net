@@ -1,31 +1,5 @@
 <?php
 
-if ( is_cache_request() ) {
-
-  define( 'DEBUG', false );
-  define( 'DEV', false );
-  define( 'BETA', false );
-  define( 'PROD', true );
-
-}
-
-
-function is_cache_request() {
-
-  static $is_cache_request = null;
-
-  if ( $is_cache_request === null ) {
-
-    $cache = $_COOKIE[ 'cache' ] ?? false;
-
-    $is_cache_request = ( $cache !== false );
-
-  }
-
-  return $is_cache_request;
-
-}
-
 require_once __DIR__ . '/../inc/framework.php';
 
 function main() {
