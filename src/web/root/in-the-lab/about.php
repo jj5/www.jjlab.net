@@ -352,7 +352,7 @@ function render_section_about_secrets( int $heading_level = 2 ) {
 
         render_link_internal(
           'Books Index',
-          url_base() . '/books.php#heading',
+          url_base() . '/books.php#books',
           TITLE_BOOK_INDEX,
         );
 

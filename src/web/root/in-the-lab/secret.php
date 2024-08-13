@@ -69,7 +69,7 @@ function render_secret_main() {
 
           render_link_internal(
             'Book Index',
-            url_base() . '/books.php#heading',
+            url_base() . '/books.php#books',
             TITLE_BOOK_INDEX,
           );
 

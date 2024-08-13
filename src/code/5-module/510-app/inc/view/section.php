@@ -1283,7 +1283,7 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
 
               tag_open( 'li' );
 
-                render_link_internal( 'Book Index', url_base() . '/books.php#heading', TITLE_BOOK_INDEX );
+                render_link_internal( 'Book Index', url_base() . '/books.php#books', TITLE_BOOK_INDEX );
 
               tag_shut( 'li' );
 

@@ -24,7 +24,7 @@ function app_render() {
 
     default :
 
-      return default_redirect( url_base() . '/books.php#heading' );
+      return default_redirect( url_base() . '/books.php#books' );
 
   }
 }

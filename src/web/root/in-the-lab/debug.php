@@ -38,7 +38,7 @@ function render_debug_menu() {
 
           render_link_internal(
             'Books',
-            url_base() . '/books.php#heading',
+            url_base() . '/books.php#books',
             TITLE_BOOK_INDEX,
           );
 
