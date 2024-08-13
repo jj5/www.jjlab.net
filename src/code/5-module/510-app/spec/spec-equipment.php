@@ -12174,6 +12174,7 @@ equipment(
   ),
   sixsigma_url  ( '' ),
   see_also( 'Acetaken C920WM-001 Webcam Wall Mount' ),
+  warning ( 'This model is expensive. See Acetaken C920WM-001 as a cheaper alternative.' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B00CMLX1O2' ),
     affiliate_url ( 'https://amzn.to/3SDGzPw' ),
