@@ -194,7 +194,7 @@ function render_xslt_nav_header() {
 										<a href="<?= $url_base ?>/support.php#heading" class="internal popover-link" title="<?= TITLE_NAV_SUPPORT ?>">Support the Show!</a></li>
 									<li class="popover-item">
 										<a class="internal popover-link" href="<?= $url_base ?>/feed.php" title="<?= TITLE_NAV_FEED ?>">
-											<img src="<?= $cdn_base ?>/res/img.php/rss/rss-40674_50.png?v=<?= get_resource_version( 'rss-40674_50.png' ) ?>" style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" alt="" /></a></li></ul></div></li></ul>
+											<img src="<?= $cdn_base ?>/res/img.php/rss-40674_50.png?v=<?= get_resource_version( 'rss-40674_50.png' ) ?>" style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" alt="" /></a></li></ul></div></li></ul>
 					<div class="menu-list">
 						<a href="<?= $url_base ?>/#heading" class="internal" title="<?= TITLE_NAV_HOME ?>">Home</a> |
 						<a href="<?= $url_base ?>/channel.php/@InTheLabWithJayJay#heading" class="internal" title="<?= TITLE_NAV_MAIN ?>">Main Channel</a> |
@@ -203,7 +203,7 @@ function render_xslt_nav_header() {
 						<a href="<?= $url_base ?>/about.php#heading" class="internal" title="<?= TITLE_NAV_ABOUT ?>">About</a> |
 						<a href="<?= $url_base ?>/support.php#heading" class="internal" title="<?= TITLE_NAV_SUPPORT ?>">Support the Show!</a>
 						<a class="internal" href="<?= $url_base ?>/feed.php" title="<?= TITLE_NAV_FEED ?>">
-							<img src="<?= $cdn_base ?>/res/img.php/rss/rss-40674_50.png?v=<?= get_resource_version( 'rss-40674_50.png' ) ?>" style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" alt="" /></a></div></div></nav>
+							<img src="<?= $cdn_base ?>/res/img.php/rss-40674_50.png?v=<?= get_resource_version( 'rss-40674_50.png' ) ?>" style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" alt="" /></a></div></div></nav>
 			<header id="banner">
 				<img class="rc-base" src="<?= $cdn_base ?>/res/img.php/banner-base.jpg?v=<?= get_resource_version( 'banner-base.jpg' ) ?>" />
 				<img class="rc-0320" src="<?= $cdn_base ?>/res/img.php/banner-base.jpg?v=<?= get_resource_version( 'banner-base.jpg' ) ?>" />

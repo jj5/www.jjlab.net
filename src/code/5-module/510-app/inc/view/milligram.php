@@ -634,7 +634,7 @@ function render_rss_anchor() {
   // affinitve.
 
   render_link_internal_img(
-    url_base( $use_cdn = true ) . '/res/img.php/rss/rss-40674_50.png?v=' . get_resource_version( 'rss-40674_50.png' ),
+    url_base( $use_cdn = true ) . '/res/img.php/rss-40674_50.png?v=' . get_resource_version( 'rss-40674_50.png' ),
     url_base() . '/feed.php',
     TITLE_NAV_FEED,
     [
