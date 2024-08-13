@@ -240,6 +240,18 @@ function render_url( $loc, $lastmod = null, $changefreq = null, $priority = null
 
   global $domain;
 
+  $path = "/in-the-lab$loc";
+
+  $cache_file = get_cache_file( $path );
+
+  $gzip_file = "$cache_file.gz";
+
+  if ( file_exists( $gzip_file ) ) {
+
+    $lastmod = gmdate( DATE_FORMAT_FOR_SITEMAP, filemtime( $gzip_file ) );
+
+  }
+
   tag_open( 'url' );
 
     // 2024-08-13 jj5 - NEW:
@@ -253,6 +265,8 @@ function render_url( $loc, $lastmod = null, $changefreq = null, $priority = null
 
     }
 
+    // 2024-08-13 jj5 - it's probably best just to leave this out...
+    /*
     if ( $changefreq ) {
 
       tag_text( 'changefreq', $changefreq );
@@ -264,6 +278,7 @@ function render_url( $loc, $lastmod = null, $changefreq = null, $priority = null
       tag_shut( 'jjlab:changefreq_sort_value' );
 
     }
+    */
 
     if ( $priority ) {
 

@@ -54,7 +54,8 @@ var DEBUG = <?= json_encode( DEBUG ) ?>;
             <tr>
               <th>#</th>
               <th>Last Modified</th>
-              <th>Changes</th>
+              <!-- 2024-08-13 jj5 - OLD:
+              <th>Changes</th>-->
               <th>Priority</th>
               <th>URL</th>
             </tr>
@@ -64,9 +65,10 @@ var DEBUG = <?= json_encode( DEBUG ) ?>;
               <tr>
                 <td><xsl:number value="position()"/></td>
                 <td><xsl:value-of select="s:lastmod"/></td>
+                <!-- 2024-08-13 jj5 - OLD:
                 <td data-sort-value="{jjlab:changefreq_sort_value}">
                   <xsl:value-of select="s:changefreq"/>
-                </td>
+                </td>-->
                 <td><xsl:value-of select="s:priority"/></td>
                 <td><a href="{s:loc}"><xsl:value-of select="s:loc"/></a></td>
               </tr>
