@@ -14,7 +14,7 @@ function main() {
 
     if ( check_cache( $path ) ) {
 
-      if ( is_dev() ) {
+      if ( false && is_dev() ) {
 
         mud_log_5_notice( "cache hit for path: $path" );
 
@@ -24,7 +24,7 @@ function main() {
 
     }
 
-    if ( is_prod() ) {
+    if ( false && is_prod() ) {
 
       mud_log_5_notice( "cache miss for path: $path" );
 
