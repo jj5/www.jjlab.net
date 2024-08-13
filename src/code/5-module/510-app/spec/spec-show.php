@@ -237,7 +237,6 @@ show(
   ),
   // 2024-08-13 jj5 - NOTE: the fact that the following show doesn't have its own YouTube video makes a mess of my
   // logic, so it is removed now.
-  /*
   old_book_teardown(
     publication_date( '2023-11-30' ),
     old_book(
@@ -246,8 +245,7 @@ show(
       copyright_year( '1948' ),
       page_count( 680 ),
     ),
-  )
-  */
+  ),
 );
 
 show(
