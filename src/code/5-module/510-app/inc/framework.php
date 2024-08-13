@@ -59,6 +59,12 @@ function is_john() {
 
 function is_prod() {
 
+  if ( is_cache_request() ) { return true; }
+
+  return PROD;
+
+
+
   static $result = null;
 
   if ( $result === null ) {
@@ -74,6 +80,11 @@ function is_prod() {
 }
 
 function is_dev() {
+
+  if ( is_cache_request() ) { return false; }
+
+  return DEV;
+
 
   return ! is_prod();
 
