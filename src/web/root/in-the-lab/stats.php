@@ -59,8 +59,6 @@ function render_stats_main() {
 
       render_stats( 3, $channel->get_slug(), $channel->get_slug(), $channel->get_video_list(), $channel );
 
-      $show_type_list = $channel->get_show_type_list();
-
       if ( $channel->get_slug() === '@ElliotsExtras' ) {
 
         // 2024-08-13 jj5 - we don't show the show types or features for Elliot's Extras, there's only one (of each).
@@ -68,6 +66,8 @@ function render_stats_main() {
         continue;
 
       }
+
+      $show_type_list = $channel->get_show_type_list();
 
       foreach ( $show_type_list as $show_type ) {
 
