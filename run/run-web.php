@@ -110,6 +110,9 @@ function check_cache( &$path = null ) {
 
   //mud_log_5_notice( "ETag is: $etag" );
 
+  // 2024-08-13 jj5 - HACK! The following isn't quite correct, because it doesn't Vary by Accept-Encoding... but let's
+  // just hope gzip is always supported and used...
+  //
   if ( strpos( trim( $_SERVER[ 'HTTP_IF_NONE_MATCH'] ?? '', ' "' ), $etag ) === 0 ) {
 
     header( 'HTTP/1.1 304 Not Modified', $replace = true, $response_code = 304 );
