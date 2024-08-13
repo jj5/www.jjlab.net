@@ -80,7 +80,7 @@ function render_404() {
 
           out_text( 'If you believe this is an error, please ' );
 
-          render_link_internal( 'contact us', url_base() . '/contact.php', TITLE_CONTACT );
+          render_link_internal( 'contact us', url_base() . '/contact.php#heading', TITLE_CONTACT );
 
           out_text( '.' );
 
@@ -160,7 +160,7 @@ function render_500( $message = null, $form = null, $issue = null, $exit = null,
 
         out_text( 'If the problem persists, please ' );
 
-        render_link_internal( 'contact us', url_base() . '/contact.php', TITLE_CONTACT );
+        render_link_internal( 'contact us', url_base() . '/contact.php#heading', TITLE_CONTACT );
 
         out_text( ' to let us know.' );
 
@@ -181,32 +181,32 @@ function render_head( string $heading, array $options = [] ) {
       'title' => TITLE_NAV_HOME,
     ],
     [
-      'href' => '/channel.php/@InTheLabWithJayJay',
+      'href' => '/channel.php/@InTheLabWithJayJay#heading',
       'text' => 'Main Channel',
       'title' => TITLE_NAV_MAIN,
     ],
     [
-      'href' => '/sponsor.php',
+      'href' => '/sponsor.php#heading',
       'text' => 'Sponsors',
       'title' => TITLE_NAV_SPONSORS,
     ],
     [
-      'href' => '/equipment.php',
+      'href' => '/equipment.php#heading',
       'text' => 'Equipment',
       'title' => TITLE_NAV_EQUIPMENT,
     ],
     [
-      'href' => '/about.php',
+      'href' => '/about.php#heading',
       'text' => 'About',
       'title' => TITLE_NAV_ABOUT,
     ],
     [
-      'href' => '/support.php',
+      'href' => '/support.php#heading',
       'text' => 'Support the Show!',
       'title' => TITLE_NAV_SUPPORT,
     ],
     [
-      'href' => '/debug.php',
+      'href' => '/debug.php#heading',
       'text' => 'Debug',
       'title' => "John's debug thing",
       'debug' => true,
@@ -1002,7 +1002,7 @@ function render_equipment_notes( $item ) {
 
     render_link_internal(
       'equipment',
-      url_base() . '/equipment.php',
+      url_base() . '/equipment.php#heading',
       TITLE_LINK_EQUIPMENT,
     );
 
@@ -1010,7 +1010,7 @@ function render_equipment_notes( $item ) {
 
     render_link_internal(
       'category',
-      url_base() . '/category.php',
+      url_base() . '/category.php#heading',
       TITLE_LINK_CATEGORY,
     );
 
@@ -1018,7 +1018,7 @@ function render_equipment_notes( $item ) {
 
     render_link_internal(
       'manufacturer',
-      url_base() . '/manufacturer.php',
+      url_base() . '/manufacturer.php#heading',
       TITLE_LINK_MANUFACTURER,
     );
 
@@ -1175,7 +1175,7 @@ function render_equipment_disclaimer( $count ) {
 
       render_link_internal(
         'category',
-        url_base() . '/category.php',
+        url_base() . '/category.php#heading',
         TITLE_LINK_CATEGORY,
       );
 
@@ -1183,7 +1183,7 @@ function render_equipment_disclaimer( $count ) {
 
       render_link_internal(
         'manufacturer',
-        url_base() . '/manufacturer.php',
+        url_base() . '/manufacturer.php#heading',
         TITLE_LINK_MANUFACTURER,
       );
 
@@ -1197,7 +1197,7 @@ function render_equipment_disclaimer( $count ) {
 
       render_link_internal(
         'let me know',
-        url_base() . '/contact.php',
+        url_base() . '/contact.php#heading',
         TITLE_CONTACT,
       );
 
@@ -1384,7 +1384,7 @@ function render_blog_template( $equipment_list ) {
             'class' => 'external',
             'target' => '_blank',
             'rel' => 'noopener follow',
-            'href' => 'https://www.inthelabwithjayjay.com/in-the-lab/equipment.php',
+            'href' => 'https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#heading',
             'title' => 'Click here to see all of my equipment.',
           ]
         );

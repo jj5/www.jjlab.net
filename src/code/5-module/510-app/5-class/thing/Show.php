@@ -26,7 +26,7 @@ function show() {
   }
 
   return $show;
- 
+
 }
 
 class Show extends AppThing {
@@ -50,7 +50,7 @@ class Show extends AppThing {
     }
 
     return $result;
-    
+
   }
 
   public function is_live() { return $this->get_first_segment()->is_live(); }
@@ -154,7 +154,7 @@ class Show extends AppThing {
       );
 
     tag_shut( 'div' );
-    
+
   }
 
   public static function render_section_end() {
@@ -177,7 +177,7 @@ class Show extends AppThing {
 
         render_link_internal(
           'equipment',
-          url_base() . '/equipment.php',
+          url_base() . '/equipment.php#heading',
           TITLE_EQUIPMENT,
         );
 
@@ -200,7 +200,7 @@ class Show extends AppThing {
       tag_shut( 'p' );
 
     tag_shut( 'section' );
-    
+
   }
 
   public static function render_section_empty() {
@@ -223,7 +223,7 @@ class Show extends AppThing {
 
         render_link_internal(
           'equipment',
-          url_base() . '/equipment.php',
+          url_base() . '/equipment.php#heading',
           TITLE_EQUIPMENT,
         );
 
@@ -246,7 +246,7 @@ class Show extends AppThing {
       tag_shut( 'p' );
 
     tag_shut( 'section' );
-    
+
   }
 
   public function get_channel() {

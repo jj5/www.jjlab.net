@@ -393,7 +393,7 @@ function render_section_about_main( int $heading_level = 2 ) {
 
       render_link_internal(
         'about',
-        url_base() . '/about.php',
+        url_base() . '/about.php#heading',
         TITLE_ABOUT,
       );
 
@@ -401,7 +401,7 @@ function render_section_about_main( int $heading_level = 2 ) {
 
       render_link_internal(
         'contact',
-        url_base() . '/contact.php',
+        url_base() . '/contact.php#heading',
         TITLE_CONTACT,
       );
 
@@ -666,7 +666,7 @@ function render_section_about_records( int $heading_level = 2 ) {
 
       render_link_internal(
         'let me know',
-        url_base() . '/contact.php',
+        url_base() . '/contact.php#heading',
         TITLE_CONTACT,
       );
 
@@ -699,7 +699,7 @@ function render_section_about_video_content( int $heading_level = 2 ) {
 
       render_link_internal(
         'my homies',
-        url_base() . '/homies.php',
+        url_base() . '/homies.php#heading',
         TITLE_HOMIES,
       );
 
@@ -727,7 +727,7 @@ function render_section_about_video_content( int $heading_level = 2 ) {
 
       render_link_internal(
         'contact',
-        url_base() . '/contact.php',
+        url_base() . '/contact.php#heading',
         TITLE_CONTACT,
       );
 
@@ -788,7 +788,7 @@ function render_section_about_stats( int $heading_level = 2, $video_list = null 
 
       render_link_internal(
         'stats',
-        url_base() . '/stats.php',
+        url_base() . '/stats.php#heading',
         TITLE_STATS,
       );
 
@@ -1043,7 +1043,7 @@ function render_section_about_structure( int $heading_level = 2 ) {
 
       render_link_internal(
         'channels',
-        url_base() . '/channel.php',
+        url_base() . '/channel.php#heading',
         TITLE_CHANNEL_INDEX,
       );
 
@@ -1051,7 +1051,7 @@ function render_section_about_structure( int $heading_level = 2 ) {
 
       render_link_internal(
         'shows',
-        url_base() . '/show-type.php',
+        url_base() . '/show-type.php#heading',
         TITLE_SHOW_TYPE_INDEX,
       );
 
@@ -1059,7 +1059,7 @@ function render_section_about_structure( int $heading_level = 2 ) {
 
       render_link_internal(
         'features',
-        url_base() . '/feature.php',
+        url_base() . '/feature.php#heading',
         TITLE_FEATURE_INDEX,
       );
 
@@ -1213,49 +1213,49 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
 
           tag_open( 'li' );
 
-            render_link_internal( 'Contact Info', url_base() . '/contact.php', TITLE_CONTACT );
+            render_link_internal( 'Contact Info', url_base() . '/contact.php#heading', TITLE_CONTACT );
 
           tag_shut( 'li' );
 
           tag_open( 'li' );
 
-            render_link_internal( 'About the Website', url_base() . '/about.php', TITLE_ABOUT );
+            render_link_internal( 'About the Website', url_base() . '/about.php#heading', TITLE_ABOUT );
 
           tag_shut( 'li' );
 
           tag_open( 'li' );
 
-            render_link_internal( 'Statistics', url_base() . '/stats.php', TITLE_STATS );
+            render_link_internal( 'Statistics', url_base() . '/stats.php#heading', TITLE_STATS );
 
           tag_shut( 'li' );
 
           tag_open( 'li' );
 
-            render_link_internal( 'Sponsors', url_base() . '/sponsor.php', TITLE_SPONSOR );
+            render_link_internal( 'Sponsors', url_base() . '/sponsor.php#heading', TITLE_SPONSOR );
 
           tag_shut( 'li' );
 
           tag_open( 'li' );
 
-            render_link_internal( 'Homies', url_base() . '/homies.php', TITLE_HOMIES );
+            render_link_internal( 'Homies', url_base() . '/homies.php#heading', TITLE_HOMIES );
 
           tag_shut( 'li' );
 
           tag_open( 'li' );
 
-            render_link_internal( 'Equipment', url_base() . '/equipment.php', TITLE_EQUIPMENT );
+            render_link_internal( 'Equipment', url_base() . '/equipment.php#heading', TITLE_EQUIPMENT );
 
             tag_open( 'ul' );
 
               tag_open( 'li' );
 
-                render_link_internal( 'Equipment Manufacturers', url_base() . '/manufacturer.php', TITLE_LINK_MANUFACTURER );
+                render_link_internal( 'Equipment Manufacturers', url_base() . '/manufacturer.php#heading', TITLE_LINK_MANUFACTURER );
 
               tag_shut( 'li' );
 
               tag_open( 'li' );
 
-                render_link_internal( 'Equipment Categories', url_base() . '/category.php', TITLE_LINK_CATEGORY );
+                render_link_internal( 'Equipment Categories', url_base() . '/category.php#heading', TITLE_LINK_CATEGORY );
 
               tag_shut( 'li' );
 
@@ -1265,25 +1265,25 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
 
           tag_open( 'li' );
 
-            render_link_internal( 'Affiliates', url_base() . '/affiliate.php', TITLE_AFFILIATE );
+            render_link_internal( 'Affiliates', url_base() . '/affiliate.php#heading', TITLE_AFFILIATE );
 
           tag_shut( 'li' );
 
           tag_open( 'li' );
 
-            render_link_internal( 'Secret Tables', url_base() . '/secret.php', TITLE_SECRET );
+            render_link_internal( 'Secret Tables', url_base() . '/secret.php#heading', TITLE_SECRET );
 
             tag_open( 'ul' );
 
               tag_open( 'li' );
 
-                render_link_internal( 'Video Index', url_base() . '/videos.php', TITLE_VIDEO_INDEX );
+                render_link_internal( 'Video Index', url_base() . '/videos.php#heading', TITLE_VIDEO_INDEX );
 
               tag_shut( 'li' );
 
               tag_open( 'li' );
 
-                render_link_internal( 'Book Index', url_base() . '/books.php', TITLE_BOOK_INDEX );
+                render_link_internal( 'Book Index', url_base() . '/books.php#heading', TITLE_BOOK_INDEX );
 
               tag_shut( 'li' );
 
@@ -1293,7 +1293,7 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
 
           tag_open( 'li' );
 
-            render_link_internal( 'YouTube Hacks', url_base() . '/youtube-hacks.php', TITLE_YOUTUBE_HACKS );
+            render_link_internal( 'YouTube Hacks', url_base() . '/youtube-hacks.php#heading', TITLE_YOUTUBE_HACKS );
 
           tag_shut( 'li' );
 
@@ -1305,7 +1305,7 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
 
           tag_open( 'li' );
 
-            render_link_internal( 'Support the Show!', url_base() . '/support.php', TITLE_SUPPORT );
+            render_link_internal( 'Support the Show!', url_base() . '/support.php#heading', TITLE_SUPPORT );
 
           tag_shut( 'li' );
 
@@ -2596,7 +2596,7 @@ function render_section_about_video_quality( int $heading_level = 2 ) {
 
       render_link_internal(
         'supporting the show',
-        url_base() . '/support.php',
+        url_base() . '/support.php#heading',
         TITLE_SUPPORT,
       );
 
@@ -2634,7 +2634,7 @@ function render_section_about_audio_quality( int $heading_level = 2 ) {
 
       render_link_internal(
         'supporting the show',
-        url_base() . '/support.php',
+        url_base() . '/support.php#heading',
         TITLE_SUPPORT,
       );
 
@@ -2952,7 +2952,7 @@ function render_section_about_contact( int $heading_level = 2 ) {
 
       render_link_internal(
         'contact',
-        url_base() . '/contact.php',
+        url_base() . '/contact.php#heading',
         TITLE_CONTACT,
       );
 
@@ -2980,7 +2980,7 @@ function render_section_about_sponsors( int $heading_level = 2 ) {
 
       render_link_internal(
         'my sponsors',
-        url_base() . '/sponsor.php',
+        url_base() . '/sponsor.php#heading',
         TITLE_SPONSOR,
       );
 
@@ -2994,7 +2994,7 @@ function render_section_about_sponsors( int $heading_level = 2 ) {
 
       render_link_internal(
         'support the show',
-        url_base() . '/support.php',
+        url_base() . '/support.php#heading',
         TITLE_SUPPORT,
       );
 
@@ -3030,7 +3030,7 @@ function render_section_about_homies( int $heading_level = 2 ) {
 
       render_link_internal(
         'homies',
-        url_base() . '/homies.php',
+        url_base() . '/homies.php#heading',
         TITLE_SPONSOR,
       );
 
@@ -3077,7 +3077,7 @@ function render_section_about_equipment( int $heading_level = 2 ) {
 
       render_link_internal(
         'equipment',
-        url_base() . '/equipment.php',
+        url_base() . '/equipment.php#heading',
         TITLE_EQUIPMENT,
       );
 
@@ -3088,7 +3088,7 @@ function render_section_about_equipment( int $heading_level = 2 ) {
 
       render_link_internal(
         'let me know',
-        url_base() . '/contact.php',
+        url_base() . '/contact.php#heading',
         TITLE_CONTACT,
       );
 
@@ -3112,7 +3112,7 @@ function render_section_about_affiliates( int $heading_level = 2 ) {
 
       render_link_internal(
         'equipment',
-        url_base() . '/equipment.php',
+        url_base() . '/equipment.php#heading',
         TITLE_EQUIPMENT,
       );
 
@@ -3120,7 +3120,7 @@ function render_section_about_affiliates( int $heading_level = 2 ) {
 
       render_link_internal(
         'affiliate',
-        url_base() . '/affiliate.php',
+        url_base() . '/affiliate.php#heading',
         TITLE_AFFILIATE,
       );
 
@@ -3148,7 +3148,7 @@ function render_section_about_affiliates( int $heading_level = 2 ) {
 
       render_link_internal(
         'equipment',
-        url_base() . '/equipment.php',
+        url_base() . '/equipment.php#heading',
         TITLE_EQUIPMENT,
       );
 
@@ -3210,7 +3210,7 @@ function render_section_about_next( int $heading_level = 2, $thanks = null, $tha
 
         render_link_internal(
           'supporting the show',
-          url_base() . '/support.php',
+          url_base() . '/support.php#heading',
           TITLE_SUPPORT,
         );
 
@@ -3304,7 +3304,7 @@ function render_section_about_next( int $heading_level = 2, $thanks = null, $tha
 
         render_link_internal(
           'equipment',
-          url_base() . '/equipment.php',
+          url_base() . '/equipment.php#heading',
           TITLE_EQUIPMENT,
         );
 
@@ -3320,7 +3320,7 @@ function render_section_about_next( int $heading_level = 2, $thanks = null, $tha
 
         render_link_internal(
           'support the show',
-          url_base() . '/support.php',
+          url_base() . '/support.php#heading',
           TITLE_SUPPORT,
         );
 

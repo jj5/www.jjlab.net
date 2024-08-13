@@ -53,7 +53,7 @@ abstract class Segment extends AppThing {
   public function render_title_prefix() { ; }
 
   public function render_title_suffix() { ; }
-  
+
   public function render_breadcrumbs() { ; }
 
   public function get_title_attr() { return TITLE_LINK_SEGMENT; }
@@ -103,7 +103,7 @@ abstract class Segment extends AppThing {
     if ( $this->is_live !== null ) { return $this->is_live; }
 
     if ( $this->is_null() ) {
-      
+
       $this->is_live = false;
 
       return false;
@@ -157,7 +157,7 @@ abstract class Segment extends AppThing {
       );
 
     tag_shut( 'section' );
-    
+
   }
 
   public function render( mixed $format = null, array $attrs = [] ) : void {
@@ -193,18 +193,18 @@ abstract class Segment extends AppThing {
       $this->render_breadcrumbs();
 
       if ( $video_id ) {
-        
+
         render_youtube_iframe( $youtube_video->get_slug()->to_string() );
 
       }
       else {
-          
+
         tag_open( 'p' );
 
           out_text( 'Video is not available yet.' );
 
         tag_shut( 'p' );
-        
+
       }
 
       tag_open( 'dl', [ 'class' => 'video-details' ] );
@@ -238,14 +238,14 @@ abstract class Segment extends AppThing {
 
         tag_text( 'dt', 'YouTube Channel' );
         tag_open( 'dd' );
-        
+
           $show->get_channel()->render();
 
         tag_shut( 'dd' );
 
         tag_text( 'dt', 'YouTube Video Link' );
         tag_open( 'dd' );
-        
+
           $youtube_video->render_external_link();
 
         tag_shut( 'dd' );
@@ -319,13 +319,13 @@ abstract class Segment extends AppThing {
             $age = $book->get_age();
 
             if ( $age === 1 ) {
-                
+
               tag_text( 'dd', '1 year old' );
 
             }
             else {
 
-              tag_text( 'dd', "$age years old" ); 
+              tag_text( 'dd', "$age years old" );
 
             }
           }

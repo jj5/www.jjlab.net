@@ -62,7 +62,7 @@ class ThingList {
     if ( $this->next === null || $this->next->is_null() ) {
 
       return self::render_section_end();
-      
+
     }
 
     if ( ! $this->next->get_video_id() ) {
@@ -95,7 +95,7 @@ class ThingList {
 
         render_link_internal(
           'equipment',
-          url_base() . '/equipment.php',
+          url_base() . '/equipment.php#heading',
           TITLE_EQUIPMENT,
         );
 
@@ -118,7 +118,7 @@ class ThingList {
       tag_shut( 'p' );
 
     tag_shut( 'section' );
-    
+
   }
 
   public static function render_section_end() {
@@ -141,7 +141,7 @@ class ThingList {
 
         render_link_internal(
           'equipment',
-          url_base() . '/equipment.php',
+          url_base() . '/equipment.php#heading',
           TITLE_EQUIPMENT,
         );
 
@@ -164,7 +164,7 @@ class ThingList {
       tag_shut( 'p' );
 
     tag_shut( 'section' );
-    
+
   }
 
 }
