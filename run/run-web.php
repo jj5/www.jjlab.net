@@ -101,7 +101,7 @@ function check_cache( &$path = null ) {
 
   $filemtime = filemtime( $gzip_file );
 
-  $etag = md5( $filemtime . ( $_COOKIE[ 'sz' ] ?? '' ) );
+  $etag = mud_hash( $filemtime . ( $_COOKIE[ 'sz' ] ?? '' ) );
 
   header( 'ETag: "' . $etag . '"' );
   header( 'Last-Modified: ' . gmdate( 'D, d M Y H:i:s', $filemtime ) . ' GMT' );
@@ -164,7 +164,7 @@ function check_cache_for_version( &$version = null ) {
 
   if ( $version === '' ) { return false; }
 
-  $etag = md5( $version . '|' . $_SERVER[ 'REQUEST_URI' ] );
+  $etag = mud_hash( $version . '|' . $_SERVER[ 'REQUEST_URI' ] );
 
   header( 'ETag: "' . $etag . '"' );
 

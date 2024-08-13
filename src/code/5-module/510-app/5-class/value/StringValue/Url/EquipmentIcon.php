@@ -8,7 +8,7 @@ function equipment_icon( $arg ) {
 
 class EquipmentIcon extends Url {
 
-  public function get_hash() : string { return md5( $this->to_string() ); }
+  public function get_hash() : string { return mud_hash( $this->to_string() ); }
 
   // 2024-07-03 jj5 - this is wrong and it's not used anyway
   /*

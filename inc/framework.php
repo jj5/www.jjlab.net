@@ -37,7 +37,7 @@ function get_resource_version( string $resource_name ) {
 
   $path = find_image( $resource_name );
 
-  if ( $path ) { return md5_file( $path ); }
+  if ( $path ) { return mud_hash_file( $path ); }
 
   mud_fail( 'cannot find resource.', [ 'resource_name' => $resource_name ] );
 
@@ -62,13 +62,13 @@ function get_resource_version_for_dir( string $resource_dir ) {
 
   $regex_iterator = new RegexIterator( $iterator, $pattern_map[ $resource_dir ], RecursiveRegexIterator::GET_MATCH );
 
-  $hash = md5( $resource_dir );
+  $hash = mud_hash( $resource_dir );
 
   foreach ( $regex_iterator as $matches ) {
 
     $file_path = $matches[ 0 ];
 
-    $hash = md5( $hash . md5_file( $file_path ) );
+    $hash = mud_hash( $hash . mud_hash_file( $file_path ) );
 
   }
 

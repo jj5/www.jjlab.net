@@ -19,7 +19,7 @@ function get_version( $command ) {
     }
   }
 
-  return md5_file( __FILE__ );
+  return mud_hash_file( __FILE__ );
 
 }
 
