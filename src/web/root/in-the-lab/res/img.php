@@ -4,6 +4,8 @@ require_once __DIR__ . '/../../../../../run/run-web.php';
 
 function app_render() {
 
+  if ( check_cache_for_version() ) { return; }
+
   $path = $_SERVER[ 'PATH_INFO' ] ?? null;
 
   $filename = basename( $path );

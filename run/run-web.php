@@ -41,13 +41,13 @@ function main() {
     if ( check_cache( $path ) ) {
 
       if ( is_dev() ) {
-      
+
         mud_log_5_notice( "cache hit for path: $path" );
 
       }
 
       return;
-      
+
     }
 
     if ( is_prod() ) {
@@ -119,9 +119,9 @@ function check_cache( &$path = null ) {
 
   header( 'ETag: "' . $etag . '"' );
   header( 'Last-Modified: ' . gmdate( 'D, d M Y H:i:s', $filemtime ) . ' GMT' );
-    
+
   if ( trim( $_SERVER[ 'HTTP_IF_NONE_MATCH'] ?? '', ' "' ) === $etag ) {
-    
+
     header( 'HTTP/1.1 304 Not Modified', $replace = true, $response_code = 304 );
 
     return true;
@@ -168,10 +168,34 @@ function check_cache( &$path = null ) {
 
 }
 
+function check_cache_for_version( &$version = null ) {
+
+  $version = $_GET[ 'v' ] ?? '';
+
+  if ( ! APP_USE_CACHE ) { return false; }
+
+  if ( $version === '' ) { return false; }
+
+  $etag = md5( $version . '|' . $_SERVER[ 'REQUEST_URI' ] );
+
+  header( 'ETag: "' . $etag . '"' );
+
+  if ( trim( $_SERVER[ 'HTTP_IF_NONE_MATCH'] ?? '', ' "' ) === $etag ) {
+
+    header( 'HTTP/1.1 304 Not Modified', $replace = true, $response_code = 304 );
+
+    return true;
+
+  }
+
+  return false;
+
+}
+
 function supports_gzip_compression() {
-  
+
   if ( ! isset( $_SERVER[ 'HTTP_ACCEPT_ENCODING' ] ) ) { return false; }
-    
+
   $encodings = $_SERVER[ 'HTTP_ACCEPT_ENCODING' ];
 
   return stripos( $encodings, 'gzip' ) !== false;

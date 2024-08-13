@@ -8,6 +8,10 @@ function app_render() {
 
   render_script_headers();
 
+  if ( check_cache_for_version() ) { return; }
+
+  ob_start( 'ob_gzhandler' );
+
   $script_list = [ 'global/default.js', 'script.js' ];
 
   if ( DEBUG ) { $script_list[] = 'debug.js'; }
@@ -25,4 +29,7 @@ function app_render() {
     echo "\n";
 
   }
+
+  ob_end_flush();
+
 }
