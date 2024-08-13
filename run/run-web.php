@@ -78,9 +78,21 @@ function check_cache( &$path = null ) {
   $path = $_SERVER[ 'REQUEST_URI' ];
   $query = $_SERVER[ 'QUERY_STRING' ] ?? '';
 
-  if ( ! APP_USE_CACHE ) { return false; }
+  if ( ! APP_USE_CACHE ) {
 
-  if ( $query !== '' ) { return false; }
+    mud_log_4_warning( "cache is disabled." );
+
+    return false;
+
+  }
+
+  if ( $query !== '' ) {
+
+    mud_log_4_warning( "cache disabled due to presence of query string." );
+
+    return false;
+
+  }
 
   $cache_file_default = get_cache_file( $path, '-default',  $hash, $dir );
   $cache_file_large   = get_cache_file( $path, '-large',    $hash, $dir );
@@ -119,6 +131,8 @@ function check_cache( &$path = null ) {
 
   header( 'ETag: "' . $etag . '"' );
   header( 'Last-Modified: ' . gmdate( 'D, d M Y H:i:s', $filemtime ) . ' GMT' );
+
+  mud_log_4_warning( "ETag is: $etag" );
 
   if ( trim( $_SERVER[ 'HTTP_IF_NONE_MATCH'] ?? '', ' "' ) === $etag ) {
 
