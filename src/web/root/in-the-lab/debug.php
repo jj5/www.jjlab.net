@@ -5,7 +5,7 @@ require_once __DIR__ . '/../../../../run/run-web.php';
 function app_render() {
 
   if ( is_prod() ) {
-    
+
     return render_500();
 
   }
@@ -38,7 +38,7 @@ function render_debug_menu() {
 
           render_link_internal(
             'Books',
-            url_base() . '/books.php',
+            url_base() . '/books.php#heading',
             TITLE_BOOK_INDEX,
           );
 
@@ -48,7 +48,7 @@ function render_debug_menu() {
 
           render_link_internal(
             'Videos',
-            url_base() . '/videos.php',
+            url_base() . '/videos.php#heading',
             TITLE_VIDEO_INDEX,
           );
 
@@ -58,7 +58,7 @@ function render_debug_menu() {
 
           render_link_internal(
             'YouTube Template',
-            url_base() . '/youtube-template.php',
+            url_base() . '/youtube-template.php#heading',
             TITLE_YOUTUBE_TEMPLATE,
           );
 
@@ -68,7 +68,7 @@ function render_debug_menu() {
 
           render_link_internal(
             'Blog Template',
-            url_base() . '/blog-template.php',
+            url_base() . '/blog-template.php#heading',
             TITLE_BLOG_TEMPLATE,
           );
 
@@ -88,7 +88,7 @@ function render_debug_menu() {
 
           render_link_internal(
             'Sitemap',
-            url_base() . '/sitemap.php',
+            url_base() . '/sitemap.php#heading',
             TITLE_SITEMAP_XML,
           );
 
@@ -113,7 +113,7 @@ function render_debug_channel_list() {
 
         render_link_internal(
           'Channel Index',
-          url_base() . '/channel.php',
+          url_base() . '/channel.php#heading',
           TITLE_CHANNEL_INDEX,
         );
 
@@ -149,7 +149,7 @@ function render_debug_show_list() {
 
         render_link_internal(
           'Show Index',
-          url_base() . '/show-type.php',
+          url_base() . '/show-type.php#heading',
           TITLE_SHOW_TYPE_INDEX,
         );
 
@@ -185,7 +185,7 @@ function render_debug_feature_list() {
 
         render_link_internal(
           'Feature Index',
-          url_base() . '/feature.php',
+          url_base() . '/feature.php#heading',
           TITLE_FEATURE_INDEX,
         );
 

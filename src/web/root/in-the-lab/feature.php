@@ -18,11 +18,11 @@ function app_render() {
 
     case '/old-book' :
 
-      return http_redirect( url_base() . '/feature.php/old-book-teardown', 301 );
+      return http_redirect( url_base() . '/feature.php/old-book-teardown#heading', 301 );
 
     case '/new-book' :
 
-      return http_redirect( url_base() . '/feature.php/new-book-teardown', 301 );
+      return http_redirect( url_base() . '/feature.php/new-book-teardown#heading', 301 );
 
   }
 
@@ -54,7 +54,7 @@ function app_render() {
 
   }
 
-  default_redirect( url_base() . '/feature.php' );
+  default_redirect( url_base() . '/feature.php#heading' );
 
 }
 
@@ -86,7 +86,7 @@ function render_feature_index() {
 
         out_text( 'Here is a list of the features you will see on the ' );
 
-        render_link_internal( 'shows', url_base() . '/show-type.php', TITLE_SHOW_TYPE_INDEX );
+        render_link_internal( 'shows', url_base() . '/show-type.php#heading', TITLE_SHOW_TYPE_INDEX );
 
         out_text( ':' );
 
@@ -263,7 +263,7 @@ function render_feature_maxitronix_index() {
 
           render_link_internal(
             'special shows',
-            url_base() . '/show-type.php/special-show',
+            url_base() . '/show-type.php/special-show#heading',
             TITLE_SHOW_SPECIAL,
           );
 
@@ -271,7 +271,7 @@ function render_feature_maxitronix_index() {
 
           render_link_internal(
             'main channel',
-            url_base() . '/channel.php/@InTheLabWithJayJay',
+            url_base() . '/channel.php/@InTheLabWithJayJay#heading',
             TITLE_CHANNEL_MAIN,
           );
 
@@ -409,10 +409,10 @@ function render_feature_maxitronix_kit( $kit ) {
 
           render_link_internal(
             'main channel',
-            url_base() . '/channel.php/@InTheLabWithJayJay',
+            url_base() . '/channel.php/@InTheLabWithJayJay#heading',
             TITLE_CHANNEL_MAIN,
           );
-            
+
           out_text( " I work my way through the projects in this old electronics " .
               "project lab distributed by Maxitronix back in the good old days. When we finish this one we'll move on " .
               "to the "
@@ -420,7 +420,7 @@ function render_feature_maxitronix_kit( $kit ) {
 
           render_link_internal(
             'next one',
-            url_base() . '/show-type.php/maxitronix',
+            url_base() . '/show-type.php/maxitronix#heading',
             TITLE_SHOW_MAXITRONIX,
           );
 
@@ -462,7 +462,7 @@ function render_feature_mini_project() {
 
           render_link_internal(
             'special shows',
-            url_base() . '/show-type.php/special-show',
+            url_base() . '/show-type.php/special-show#heading',
             TITLE_SHOW_SPECIAL,
           );
 
@@ -470,7 +470,7 @@ function render_feature_mini_project() {
 
           render_link_internal(
             'main channel',
-            url_base() . '/channel.php/@InTheLabWithJayJay',
+            url_base() . '/channel.php/@InTheLabWithJayJay#heading',
             TITLE_CHANNEL_MAIN,
           );
 
@@ -511,7 +511,7 @@ function render_feature_mini_project() {
       tag_text( 'h2', 'Mini Projects', [ 'id' => 'mini-projects' ] );
 
       tag_open( 'p' );
-  
+
         out_text( 'Soon we will be covering the Mini Projects from Silicon Chip magazine, sponsored by Jaycar. ' );
 
         out_text( 'Stand by for those!' );
@@ -525,7 +525,7 @@ function render_feature_mini_project() {
       tag_text( 'h2', 'Links', [ 'id' => 'links' ] );
 
       tag_open( 'p' );
-  
+
         out_text( 'Here are some links regarding the new Mini Projects special shows:' );
 
       tag_shut( 'p' );

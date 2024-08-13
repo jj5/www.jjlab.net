@@ -14,7 +14,7 @@ function app_render() {
 
     default :
 
-      default_redirect( url_base() . '/sponsor.php' );
+      default_redirect( url_base() . '/sponsor.php#heading' );
 
   }
 }
@@ -39,7 +39,7 @@ function render_sponsor_main() {
 
           render_link_internal(
             'support the show',
-            url_base() . '/support.php',
+            url_base() . '/support.php#heading',
             TITLE_SUPPORT,
           );
 
@@ -83,7 +83,7 @@ function render_sponsor_main() {
 
         render_link_internal(
           'support the show',
-          url_base() . '/support.php',
+          url_base() . '/support.php#heading',
           TITLE_SUPPORT,
         );
 
@@ -108,7 +108,7 @@ function render_sponsor_main() {
 
         render_link_internal(
           "let's talk",
-          url_base() . '/contact.php',
+          url_base() . '/contact.php#heading',
           TITLE_CONTACT,
         );
 
@@ -122,7 +122,7 @@ function render_sponsor_main() {
 
         render_link_internal(
           "affiliates",
-          url_base() . '/affiliate.php',
+          url_base() . '/affiliate.php#heading',
           TITLE_AFFILIATE,
         );
 
@@ -130,7 +130,7 @@ function render_sponsor_main() {
 
         render_link_internal(
           "equipment",
-          url_base() . '/equipment.php',
+          url_base() . '/equipment.php#heading',
           TITLE_EQUIPMENT,
         );
 

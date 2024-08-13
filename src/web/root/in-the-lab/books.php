@@ -19,12 +19,12 @@ function app_render() {
   switch ( $path_info ) {
 
     case '' :
-      
+
       return render_books_main( $books );
 
     default :
 
-      return default_redirect( url_base() . '/books.php' );
+      return default_redirect( url_base() . '/books.php#heading' );
 
   }
 }
@@ -43,7 +43,7 @@ function render_books_main( $books ) {
 
         render_link_internal(
           'secret',
-          url_base() . '/secret.php',
+          url_base() . '/secret.php#heading',
           TITLE_SECRET,
         );
 
@@ -54,7 +54,7 @@ function render_books_main( $books ) {
 
         render_link_internal(
           'videos index',
-          url_base() . '/videos.php',
+          url_base() . '/videos.php#heading',
           TITLE_VIDEO_INDEX,
         );
 
@@ -95,7 +95,7 @@ function render_books_main( $books ) {
 
               tag_text( 'td', $number++ );
               tag_text( 'td', $book->get_type() );
-              
+
               tag_open( 'td', [ 'class' => 'right' ] );
 
                 if ( ! $book->get_youtube_video()->is_null() ) {
@@ -128,7 +128,7 @@ function render_books_main( $books ) {
 
                 }
 
-              tag_shut( 'td' );              
+              tag_shut( 'td' );
 
             tag_shut( 'tr' );
 

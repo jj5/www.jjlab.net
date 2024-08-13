@@ -14,7 +14,7 @@ function app_render() {
 
     default :
 
-      default_redirect( url_base() . '/youtube-template.php' );
+      default_redirect( url_base() . '/youtube-template.php#heading' );
 
   }
 }
@@ -52,7 +52,7 @@ function render_youtube_template_main() {
 
           render_link_internal(
             "support the show",
-            url_base() . '/support.php',
+            url_base() . '/support.php#heading',
             TITLE_SUPPORT,
           );
 

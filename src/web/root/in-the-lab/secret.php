@@ -14,7 +14,7 @@ function app_render() {
 
     default :
 
-      default_redirect( url_base() . '/secret.php' );
+      default_redirect( url_base() . '/secret.php#heading' );
 
   }
 }
@@ -59,7 +59,7 @@ function render_secret_main() {
 
           render_link_internal(
             'Video Index',
-            url_base() . '/videos.php',
+            url_base() . '/videos.php#heading',
             TITLE_VIDEO_INDEX,
           );
 
@@ -69,7 +69,7 @@ function render_secret_main() {
 
           render_link_internal(
             'Book Index',
-            url_base() . '/books.php',
+            url_base() . '/books.php#heading',
             TITLE_BOOK_INDEX,
           );
 

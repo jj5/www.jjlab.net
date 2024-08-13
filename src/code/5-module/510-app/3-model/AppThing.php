@@ -66,7 +66,7 @@ class AppThing extends MudThing implements INullable {
     $this->get_rss_info( $title, $url );
 
     render_link_internal_img(
-      url_base() . '/res/img.php/rss/rss-40674_50.png?v=' . get_resource_version( 'rss-40674_50.png' ),
+      url_base() . '/res/img.php/rss-40674_50.png?v=' . get_resource_version( 'rss-40674_50.png' ),
       $url,
       $title,
       [

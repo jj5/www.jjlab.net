@@ -17,7 +17,7 @@ function app_render() {
 
     default :
 
-      default_redirect( url_base() . '/videos.php' );
+      default_redirect( url_base() . '/videos.php#heading' );
 
   }
 }
@@ -36,7 +36,7 @@ function render_videos_main( $video_list ) {
 
         render_link_internal(
           'secret',
-          url_base() . '/secret.php',
+          url_base() . '/secret.php#heading',
           TITLE_SECRET,
         );
 
@@ -44,7 +44,7 @@ function render_videos_main( $video_list ) {
 
         render_link_internal(
           'channels',
-          url_base() . '/channel.php',
+          url_base() . '/channel.php#heading',
           TITLE_CHANNEL_INDEX,
         );
 
@@ -54,7 +54,7 @@ function render_videos_main( $video_list ) {
 
         render_link_internal(
           'books index',
-          url_base() . '/books.php',
+          url_base() . '/books.php#heading',
           TITLE_BOOK_INDEX,
         );
 

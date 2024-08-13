@@ -66,7 +66,7 @@ function app_render() {
 
     default :
 
-      default_redirect( url_base() . '/channel.php' );
+      default_redirect( url_base() . '/channel.php#heading' );
 
   }
 }
@@ -81,7 +81,7 @@ function redirect_to_video( $video_id ) {
 
   $path_parts[ 2 ] = $video_id;
 
-  $script_name = url_base() . '/show.php';
+  $script_name = url_base() . '/show.php#heading';
 
   $query_string = $_GET ? '?' . http_build_query( $_GET ) : '';
 
@@ -213,15 +213,15 @@ function render_channel_one_main() {
     tag_open( 'p' );
 
       out_text( 'The ' );
-      
+
       render_link_internal(
         'main channel',
-        url_base() . '/channel.php/@InTheLabWithJayJay',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_CHANNEL_MAIN,
       );
-      
+
       out_text( ' is known as ' );
-      
+
       tag_text( 'b', '@InTheLabWithJayJay' );
 
       out_text( ' and is on YouTube here:' );
@@ -318,15 +318,15 @@ function render_channel_two_main() {
     tag_open( 'p' );
 
       out_text( 'There is also a ' );
-      
+
       render_link_internal(
         '2nd channel',
-        url_base() . '/channel.php/@ElliotsExtras',
+        url_base() . '/channel.php/@ElliotsExtras#heading',
         TITLE_CHANNEL_EXTRA,
       );
-      
+
       out_text( ' known as ' );
-      
+
       tag_text( 'b', '@ElliotsExtras' );
 
       out_text( ' for content which has received less editing attention:' );
@@ -363,7 +363,7 @@ function render_channel_shows( $channel ) {
 
         render_link_internal(
           $show_type->get_title(),
-          url_base() . '/show-type.php/' . $show_type->get_slug(),
+          url_base() . '/show-type.php/' . $show_type->get_slug() . '#heading',
           $show_type->get_title(),
         );
 
@@ -381,7 +381,7 @@ function render_channel_shows( $channel ) {
 
               render_link_internal(
                 $feature->get_title(),
-                url_base() . '/feature.php/' . $feature->get_slug(),
+                url_base() . '/feature.php/' . $feature->get_slug() . '#heading',
                 $feature->get_title(),
               );
 
@@ -456,7 +456,7 @@ function render_show_info() {
     tag_open( 'p' );
 
       out_text( 'This ' );
-      
+
       $show_type->render_link_internal( strtolower( $show_type->get_name() ) );
 
       out_text( ' was published to ' );

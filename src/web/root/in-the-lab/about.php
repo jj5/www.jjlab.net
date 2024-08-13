@@ -14,7 +14,7 @@ function app_render() {
 
     default :
 
-      return default_redirect( url_base() . '/about.php' );
+      return default_redirect( url_base() . '/about.php#heading' );
 
   }
 }
@@ -30,7 +30,7 @@ function render_about_main() {
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
         tag_text( 'h1', "About the Website" );
-        
+
         tag_text( 'p', 'This website is for the video blog of John Elliot V who is affectionately known as Jay Jay.' );
 
       tag_shut( 'section' );
@@ -199,7 +199,7 @@ function render_section_about_colophon( int $heading_level = 2 ) {
     tag_open( 'table' );
 
       tag_open( 'thead' );
-      
+
         tag_open( 'tr' );
 
           tag_text( 'th', 'Software' );
@@ -262,7 +262,7 @@ function render_section_about_colophon( int $heading_level = 2 ) {
 
       render_link_internal(
         'sitemap.xml',
-        url_base() . '/sitemap.php',
+        url_base() . '/sitemap.php#heading',
         TITLE_LINK_SITEMAP_XML,
       );
 
@@ -342,7 +342,7 @@ function render_section_about_secrets( int $heading_level = 2 ) {
 
         render_link_internal(
           'Videos Index',
-          url_base() . '/videos.php',
+          url_base() . '/videos.php#heading',
           TITLE_VIDEO_INDEX,
         );
 
@@ -352,7 +352,7 @@ function render_section_about_secrets( int $heading_level = 2 ) {
 
         render_link_internal(
           'Books Index',
-          url_base() . '/books.php',
+          url_base() . '/books.php#heading',
           TITLE_BOOK_INDEX,
         );
 
@@ -366,7 +366,7 @@ function render_section_about_secrets( int $heading_level = 2 ) {
 
       render_link_internal(
         'YouTube Hacks',
-        url_base() . '/youtube-hacks.php',
+        url_base() . '/youtube-hacks.php#heading',
         TITLE_YOUTUBE_HACKS,
       );
 
@@ -500,7 +500,7 @@ function render_shortcut( string $key, string $page, string $link, string $title
       if ( $page === 'Debug' ) {
 
         render_link_internal_nofollow( $page, url_base() . $link, $title );
-      
+
       }
       else {
 

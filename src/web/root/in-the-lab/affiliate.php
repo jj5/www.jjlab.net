@@ -9,12 +9,12 @@ function app_render() {
   switch ( $path_info ) {
 
     case '' :
-      
+
         return render_affiliate_main();
 
     default :
 
-      return default_redirect( url_base() . '/affiliate.php' );
+      return default_redirect( url_base() . '/affiliate.php#heading' );
 
   }
 }
@@ -37,7 +37,7 @@ function render_affiliate_main() {
 
           render_link_internal(
             'equipment',
-            url_base() . '/equipment.php',
+            url_base() . '/equipment.php#heading',
             TITLE_EQUIPMENT,
           );
 
@@ -61,7 +61,7 @@ function render_affiliate_main() {
 
         render_link_internal(
           'equipment',
-          url_base() . '/equipment.php',
+          url_base() . '/equipment.php#heading',
           TITLE_EQUIPMENT,
         );
 
@@ -70,7 +70,7 @@ function render_affiliate_main() {
 
         render_link_internal(
           'equipment',
-          url_base() . '/equipment.php',
+          url_base() . '/equipment.php#heading',
           TITLE_EQUIPMENT,
         );
 
@@ -78,7 +78,7 @@ function render_affiliate_main() {
 
         render_link_internal(
           'support the show',
-          url_base() . '/support.php',
+          url_base() . '/support.php#heading',
           TITLE_SUPPORT,
         );
 

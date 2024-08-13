@@ -21,6 +21,6 @@ function app_render() {
     }
   }
 
-  return default_redirect( url_base() . '/' );
+  return default_redirect( url_base() . '/#heading' );
 
 }

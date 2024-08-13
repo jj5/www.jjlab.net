@@ -14,7 +14,7 @@ function app_render() {
 
     default :
 
-      default_redirect( url_base() . '/support.php' );
+      default_redirect( url_base() . '/support.php#heading' );
 
   }
 }
@@ -30,7 +30,7 @@ function render_support_main() {
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
         tag_text( 'h1', "Support the Show!" );
-        
+
         tag_text( 'p', 'Super big shout out to all the people who have supported the show!' );
 
         tag_text( 'p', 'Thinking of joining their ranks? Below are a few ideas for how you can support me as well!' );
@@ -71,7 +71,7 @@ function render_support_main() {
 
         render_link_internal(
           'equipment',
-          url_base() . '/equipment.php',
+          url_base() . '/equipment.php#heading',
           TITLE_EQUIPMENT,
         );
 
@@ -118,7 +118,7 @@ function render_support_main() {
 
         render_link_internal(
           'sponsors',
-          url_base() . '/sponsor.php',
+          url_base() . '/sponsor.php#heading',
           TITLE_SPONSOR,
         );
 
@@ -144,7 +144,7 @@ function render_support_main() {
 
         render_link_internal(
           "let's talk",
-          url_base() . '/contact.php',
+          url_base() . '/contact.php#heading',
           TITLE_CONTACT,
         );
 

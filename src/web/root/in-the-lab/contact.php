@@ -14,7 +14,7 @@ function app_render() {
 
     default :
 
-      return default_redirect( url_base() . '/contact.php' );
+      return default_redirect( url_base() . '/contact.php#heading' );
 
   }
 }
@@ -32,7 +32,7 @@ function render_contact_main() {
         tag_bare( 'img', [ 'src' => LOGO_URL ] );
 
         tag_text( 'h1', $title );
-        
+
         tag_text( 'p', 'If you’d like to get interactive with me or my community, you have a bunch of options.' );
 
       tag_shut( 'section' );

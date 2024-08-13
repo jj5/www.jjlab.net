@@ -16,7 +16,7 @@ function app_render() {
 
     if ( ! $manufacturer ) {
 
-      default_redirect( url_base() . '/manufacturer.php' );
+      default_redirect( url_base() . '/manufacturer.php#heading' );
 
     }
 
@@ -66,7 +66,7 @@ function render_manufacturer_index( $manufacturer_list ) {
 
         render_link_internal(
           'category',
-          url_base() . '/category.php',
+          url_base() . '/category.php#heading',
           TITLE_LINK_CATEGORY,
         );
 

@@ -14,7 +14,7 @@ function app_render() {
 
     default :
 
-      default_redirect( url_base() . '/shoutout.php' );
+      default_redirect( url_base() . '/homies.php#heading' );
 
   }
 }
@@ -40,7 +40,7 @@ function render_homies_main() {
         tag_shut( 'p' );
 
         tag_open( 'p' );
-        
+
           out_text( "On this page I let you know who I watch on YouTube and support on Patreon." );
 
         tag_shut( 'p' );

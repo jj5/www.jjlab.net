@@ -14,7 +14,7 @@ function app_render() {
 
     default :
 
-      default_redirect( url_base() . '/youtube-hacks.php' );
+      default_redirect( url_base() . '/youtube-hacks.php#heading' );
 
   }
 }
@@ -120,7 +120,7 @@ function render_youtube_hacks_main() {
         out_text( 'You can edit the bookmarklet to change the speed to a different value. ' );
 
         out_text( 'The bookmarklet will only work on the current YouTube video page. ' );
-        
+
         out_text( 'If you navigate to a different page you will need to click the bookmarklet again. ' );
 
         out_text( 'If you refresh the page you will need to click the bookmarklet again.' );

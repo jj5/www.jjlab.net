@@ -18,7 +18,7 @@ function app_render() {
 
     case '/main' :
 
-      return http_redirect( url_base() . '/show-type.php/main-show', 301 );
+      return http_redirect( url_base() . '/show-type.php/main-show#heading', 301 );
 
     case '/special-show' :
 
@@ -26,7 +26,7 @@ function app_render() {
 
     case '/special' :
 
-      return http_redirect( url_base() . '/show-type.php/special-show', 301 );
+      return http_redirect( url_base() . '/show-type.php/special-show#heading', 301 );
 
     case '/extra-show' :
 
@@ -34,7 +34,7 @@ function app_render() {
 
     case '/extra' :
 
-      return http_redirect( url_base() . '/show-type.php/extra-show', 301 );
+      return http_redirect( url_base() . '/show-type.php/extra-show#heading', 301 );
 
     case '/electronics-project' :
     case '/old-book' :
@@ -58,11 +58,11 @@ function app_render() {
     case '/early-content' :
     case '/extra-content' :
 
-      return http_redirect( url_base() . '/feature.php' . $path_info, 301 );
+      return http_redirect( url_base() . '/feature.php#heading' . $path_info, 301 );
 
     default :
 
-      default_redirect( url_base() . '/show-type.php' );
+      default_redirect( url_base() . '/show-type.php#heading' );
 
   }
 }
@@ -127,7 +127,7 @@ function render_channel_shows( $channel ) {
 
       render_link_internal(
         $show_type->get_title(),
-        url_base() . '/show-type.php/' . $show_type->get_slug(),
+        url_base() . '/show-type.php/' . $show_type->get_slug() . '#heading',
         $show_type->get_title(),
       );
 
@@ -150,7 +150,7 @@ function render_show_type_features( $show_type ) {
 
       render_link_internal(
         $feature->get_title(),
-        url_base() . '/feature.php/' . $feature->get_slug(),
+        url_base() . '/feature.php/' . $feature->get_slug() . '#heading',
         $feature->get_title(),
       );
 
@@ -198,7 +198,7 @@ function render_show_type_main() {
 
         render_link_internal(
           'main channel',
-          url_base() . '/channel.php/@InTheLabWithJayJay',
+          url_base() . '/channel.php/@InTheLabWithJayJay#heading',
           TITLE_CHANNEL_MAIN,
         );
 
@@ -240,7 +240,7 @@ function render_show_type_special() {
 
           render_link_internal(
             'main channel',
-            url_base() . '/channel.php/@InTheLabWithJayJay',
+            url_base() . '/channel.php/@InTheLabWithJayJay#heading',
             TITLE_CHANNEL_MAIN,
           );
 
@@ -248,7 +248,7 @@ function render_show_type_special() {
 
           render_link_internal(
             'main show',
-            url_base() . '/show-type.php/main-show',
+            url_base() . '/show-type.php/main-show#heading',
             TITLE_SHOW_MAIN,
           );
 
@@ -272,7 +272,7 @@ function render_show_type_special() {
 
         render_link_internal(
           'main channel',
-          url_base() . '/channel.php/@InTheLabWithJayJay',
+          url_base() . '/channel.php/@InTheLabWithJayJay#heading',
           TITLE_CHANNEL_MAIN,
         );
 
@@ -312,7 +312,7 @@ function render_show_type_extra() {
 
           render_link_internal(
             'extra content',
-            url_base() . '/feature.php/extra-content',
+            url_base() . '/feature.php/extra-content#heading',
             TITLE_FEATURE_EXTRA,
           );
 
@@ -320,7 +320,7 @@ function render_show_type_extra() {
 
           render_link_internal(
             '2nd channel',
-            url_base() . '/channel.php/@ElliotsExtras',
+            url_base() . '/channel.php/@ElliotsExtras#heading',
             TITLE_CHANNEL_EXTRA,
           );
 

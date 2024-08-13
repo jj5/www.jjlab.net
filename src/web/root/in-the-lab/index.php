@@ -14,7 +14,7 @@ function app_render() {
 
     default :
 
-      return default_redirect( url_base() . '/' );
+      return default_redirect( url_base() . '/#heading' );
 
   }
 }
