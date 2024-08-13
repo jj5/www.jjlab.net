@@ -235,8 +235,6 @@ show(
     blog_url( 'https://blog.jj5.net/blog/2023/11/30/in-the-lab-with-jay-jay-november-30-2023-teardown-of-homemade-continuity-tester/' ),
     patreon_url( 'https://www.patreon.com/posts/93803125' ),
   ),
-  // 2024-08-13 jj5 - NOTE: the fact that the following show doesn't have its own YouTube video makes a mess of my
-  // logic, so it is removed now.
   old_book_teardown(
     publication_date( '2023-11-30' ),
     old_book(
