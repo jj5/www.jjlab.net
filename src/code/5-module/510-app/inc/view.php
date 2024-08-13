@@ -15,7 +15,7 @@ function render_maxitronix_kit_list() {
 
         render_link_internal(
            $kit->get_name(),
-           url_base() . '/feature.php/maxitronix-' . $kit->get_name(),
+           url_base() . '/feature.php/maxitronix-' . $kit->get_name() . '#heading',
            $kit->get_title(),
         );
 

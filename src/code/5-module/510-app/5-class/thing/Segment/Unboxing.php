@@ -14,7 +14,7 @@ class Unboxing extends Segment {
 
       render_link_internal(
         'Main Channel',
-        url_base() . '/channel.php/@InTheLabWithJayJay',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_CHANNEL_MAIN,
       );
 
@@ -24,7 +24,7 @@ class Unboxing extends Segment {
 
       render_link_internal(
         'Special Show',
-        url_base() . '/show-type.php/special-show',
+        url_base() . '/show-type.php/special-show#heading',
         TITLE_SHOW_SPECIAL,
       );
 
@@ -34,7 +34,7 @@ class Unboxing extends Segment {
 
       render_link_internal(
         'Unboxing',
-        url_base() . '/feature.php/unboxing',
+        url_base() . '/feature.php/unboxing#heading',
         TITLE_FEATURE_UNBOXING,
       );
 
@@ -45,11 +45,11 @@ class Unboxing extends Segment {
   }
 
   public function render_title_prefix() {
-    
+
     $id = $this->get_item_id();
 
     out_text( "Unboxing #$id: " );
-    
+
   }
 
   public function render_title_suffix() {}

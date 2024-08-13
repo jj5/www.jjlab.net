@@ -44,7 +44,7 @@ class AppStash {
 
         tag_open( 'li' );
 
-          render_link_internal( 'Home', url_base() . '/', TITLE_HOMEPAGE );
+          render_link_internal( 'Home', url_base() . '/#heading', TITLE_HOMEPAGE );
 
         tag_shut( 'li' );
 
@@ -213,7 +213,7 @@ class AppStash {
 
     foreach ( $args as $arg ) {
 
-      if ( is_a( $arg, Slug::class ) ) { $slug = $arg->to_string(); break; } 
+      if ( is_a( $arg, Slug::class ) ) { $slug = $arg->to_string(); break; }
 
     }
 

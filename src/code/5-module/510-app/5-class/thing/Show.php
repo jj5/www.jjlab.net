@@ -145,7 +145,9 @@ class Show extends AppThing {
 
     tag_open( 'div', [ 'class' => 'container loader' ] );
 
-      $link = '?' . get_link( [ 'from' => $video_id ] ) . '#' . $video_id;
+      $channel_slug = $this->get_channel()->get_slug();
+
+      $link = url_base() . "/show.php/$channel_slug?" . get_link( [ 'from' => $video_id ] ) . '#' . $video_id;
 
       render_link_internal_nofollow(
         'Load More Videos',
@@ -169,7 +171,7 @@ class Show extends AppThing {
 
         render_link_internal(
           'home page',
-          url_base() . '/',
+          url_base() . '/#heading',
           TITLE_LINK_HOME,
         );
 
@@ -215,7 +217,7 @@ class Show extends AppThing {
 
         render_link_internal(
           'home page',
-          url_base() . '/',
+          url_base() . '/#heading',
           TITLE_LINK_HOME,
         );
 

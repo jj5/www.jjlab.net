@@ -87,7 +87,7 @@ class ThingList {
 
         render_link_internal(
           'home page',
-          url_base() . '/',
+          url_base() . '/#heading',
           TITLE_LINK_HOME,
         );
 
@@ -133,7 +133,7 @@ class ThingList {
 
         render_link_internal(
           'home page',
-          url_base() . '/',
+          url_base() . '/#heading',
           TITLE_LINK_HOME,
         );
 

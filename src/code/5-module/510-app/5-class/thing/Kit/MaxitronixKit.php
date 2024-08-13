@@ -1,13 +1,13 @@
 <?php
 
 function maxitronix_kit() {
-  
+
   return new_thing( MaxitronixKit::class, func_get_args() );
 
 }
 
 class NullMaxitronixKit extends MaxitronixKit {
-  
+
   use NullThingMixin;
 
 }
@@ -16,7 +16,7 @@ class MaxitronixKit extends Kit {
 
   public function get_name() { return 'Maxitronix ' . $this->get_kit_name(); }
 
-  public function get_link() { return url_base() . '/feature.php/maxitronix-' . $this->get_kit_name(); }
+  public function get_link() { return url_base() . '/feature.php/maxitronix-' . $this->get_kit_name() . '#heading' ; }
 
   public function get_title() {
 

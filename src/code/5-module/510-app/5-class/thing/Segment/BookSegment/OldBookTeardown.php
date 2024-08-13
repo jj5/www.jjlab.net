@@ -47,7 +47,7 @@ class OldBookTeardown extends BookSegment {
 
       render_link_internal(
         'Main Channel',
-        url_base() . '/channel.php/@InTheLabWithJayJay',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_CHANNEL_MAIN,
       );
 
@@ -57,7 +57,7 @@ class OldBookTeardown extends BookSegment {
 
       render_link_internal(
         'Main Show',
-        url_base() . '/show-type.php/main-show',
+        url_base() . '/show-type.php/main-show#heading',
         TITLE_SHOW_MAIN,
       );
 
@@ -67,7 +67,7 @@ class OldBookTeardown extends BookSegment {
 
       render_link_internal(
         'Old Book Teardown',
-        url_base() . '/feature.php/old-book-teardown',
+        url_base() . '/feature.php/old-book-teardown#heading',
         TITLE_FEATURE_OLD_BOOK_TEARDOWN,
       );
 
@@ -78,11 +78,11 @@ class OldBookTeardown extends BookSegment {
   }
 
   public function render_title_prefix() {
-    
+
     $id = $this->get_item_id();
 
     out_text( "Old Book Teardown #$id: " );
-    
+
   }
 
   public function render_title_suffix() {}

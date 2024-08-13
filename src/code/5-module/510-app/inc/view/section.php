@@ -214,7 +214,7 @@ function render_section_latest_main() {
 
       render_link_internal(
         'main channel',
-        url_base() . '/channel.php/@InTheLabWithJayJay',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_CHANNEL_MAIN,
       );
 
@@ -361,7 +361,7 @@ function render_section_about_main( int $heading_level = 2 ) {
 
       render_link_internal(
         'main channel',
-        url_base() . '/channel.php/@InTheLabWithJayJay',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_CHANNEL_MAIN,
       );
 
@@ -369,7 +369,7 @@ function render_section_about_main( int $heading_level = 2 ) {
 
       render_link_internal(
         '2nd channel',
-        url_base() . '/channel.php/@ElliotsExtras',
+        url_base() . '/channel.php/@ElliotsExtras#heading',
         TITLE_CHANNEL_EXTRA,
       );
 
@@ -503,7 +503,7 @@ function render_section_about_announcements( int $heading_level = 2 ) {
 
         render_link_internal(
           'main channel',
-          url_base() . '/channel.php/@InTheLabWithJayJay',
+          url_base() . '/channel.php/@InTheLabWithJayJay#heading',
           TITLE_CHANNEL_MAIN,
         );
 
@@ -511,7 +511,7 @@ function render_section_about_announcements( int $heading_level = 2 ) {
 
         render_link_internal(
           '2nd channel',
-          url_base() . '/channel.php/@ElliotsExtras',
+          url_base() . '/channel.php/@ElliotsExtras#heading',
           TITLE_CHANNEL_EXTRA,
         );
 
@@ -531,7 +531,7 @@ function render_section_about_announcements( int $heading_level = 2 ) {
 
         render_link_internal(
           'main channel',
-          url_base() . '/channel.php/@InTheLabWithJayJay',
+          url_base() . '/channel.php/@InTheLabWithJayJay#heading',
           TITLE_CHANNEL_MAIN,
         );
 
@@ -551,7 +551,7 @@ function render_section_about_announcements( int $heading_level = 2 ) {
 
         render_link_internal(
           '2nd channel',
-          url_base() . '/channel.php/@ElliotsExtras',
+          url_base() . '/channel.php/@ElliotsExtras#heading',
           TITLE_CHANNEL_EXTRA,
         );
 
@@ -571,7 +571,7 @@ function render_section_about_announcements( int $heading_level = 2 ) {
 
         render_link_internal(
           'main channel',
-          url_base() . '/channel.php/@InTheLabWithJayJay',
+          url_base() . '/channel.php/@InTheLabWithJayJay#heading',
           TITLE_CHANNEL_MAIN,
         );
 
@@ -579,7 +579,7 @@ function render_section_about_announcements( int $heading_level = 2 ) {
 
         render_link_internal(
           '2nd channel',
-          url_base() . '/channel.php/@ElliotsExtras',
+          url_base() . '/channel.php/@ElliotsExtras#heading',
           TITLE_CHANNEL_EXTRA,
         );
 
@@ -1205,7 +1205,7 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
 
       tag_open( 'li' );
 
-        render_link_internal( 'InTheLabWithJayJay.com', url_base() . '/', TITLE_MAIN );
+        render_link_internal( 'InTheLabWithJayJay.com', url_base() . '/#heading', TITLE_MAIN );
 
         out_text( ' (this website)' );
 
@@ -1471,7 +1471,7 @@ function render_section_about_show_notes( int $heading_level = 2 ) {
 
       render_link_internal(
         '@InTheLabWithJayJay',
-        url_base() . '/channel.php/@InTheLabWithJayJay',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_CHANNEL_MAIN,
       );
 
@@ -1479,7 +1479,7 @@ function render_section_about_show_notes( int $heading_level = 2 ) {
 
       render_link_internal(
         '@ElliotsExtras',
-        url_base() . '/channel.php/@ElliotsExtras',
+        url_base() . '/channel.php/@ElliotsExtras#heading',
         TITLE_CHANNEL_EXTRA,
       );
 
@@ -1519,7 +1519,7 @@ function render_section_about_channels( int $heading_level = 2 ) {
 
       render_link_internal(
         'main channel',
-        url_base() . '/channel.php/@InTheLabWithJayJay',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_CHANNEL_MAIN,
       );
 
@@ -1557,7 +1557,7 @@ function render_section_about_channels( int $heading_level = 2 ) {
 
       render_link_internal(
         'main channel',
-        url_base() . '/channel.php/@InTheLabWithJayJay',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_CHANNEL_MAIN,
       );
 
@@ -1593,7 +1593,7 @@ function render_section_about_channels( int $heading_level = 2 ) {
 
       render_link_internal(
         '2nd channel',
-        url_base() . '/channel.php/@ElliotsExtras',
+        url_base() . '/channel.php/@ElliotsExtras#heading',
         TITLE_CHANNEL_EXTRA,
       );
 
@@ -1631,7 +1631,7 @@ function render_section_about_channels( int $heading_level = 2 ) {
 
       render_link_internal(
         '2nd channel',
-        url_base() . '/channel.php/@ElliotsExtras',
+        url_base() . '/channel.php/@ElliotsExtras#heading',
         TITLE_CHANNEL_EXTRA,
       );
 
@@ -1663,7 +1663,7 @@ function render_section_about_main_show( int $heading_level = 2 ) {
 
       render_link_internal(
         'main show',
-        url_base() . '/show-type.php/main-show',
+        url_base() . '/show-type.php/main-show#heading',
         TITLE_SHOW_MAIN,
       );
 
@@ -1671,7 +1671,7 @@ function render_section_about_main_show( int $heading_level = 2 ) {
 
       render_link_internal(
         'main channel',
-        url_base() . '/channel.php/@InTheLabWithJayJay',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_CHANNEL_MAIN,
       );
 
@@ -1740,7 +1740,7 @@ function render_section_about_electronics_project( int $heading_level = 2 ) {
 
       render_link_internal(
         'electronics project videos',
-        url_base() . '/feature.php/electronics-project',
+        url_base() . '/feature.php/electronics-project#heading',
         TITLE_FEATURE_ELECTRONICS_PROJECT,
       );
 
@@ -1748,7 +1748,7 @@ function render_section_about_electronics_project( int $heading_level = 2 ) {
 
       render_link_internal(
         'main show',
-        url_base() . '/show-type.php/main-show',
+        url_base() . '/show-type.php/main-show#heading',
         TITLE_SHOW_MAIN,
       );
 
@@ -1821,7 +1821,7 @@ function render_section_about_old_book_teardown( int $heading_level = 2 ) {
 
       render_link_internal(
         'old book teardown videos',
-        url_base() . '/feature.php/old-book-teardown',
+        url_base() . '/feature.php/old-book-teardown#heading',
         TITLE_FEATURE_OLD_BOOK_TEARDOWN,
       );
 
@@ -1829,7 +1829,7 @@ function render_section_about_old_book_teardown( int $heading_level = 2 ) {
 
       render_link_internal(
         'main show',
-        url_base() . '/show-type.php/main-show',
+        url_base() . '/show-type.php/main-show#heading',
         TITLE_SHOW_MAIN,
       );
 
@@ -1916,7 +1916,7 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
 
       render_link_internal(
         'main show',
-        url_base() . '/show-type.php/main-show',
+        url_base() . '/show-type.php/main-show#heading',
         TITLE_SHOW_MAIN,
       );
 
@@ -1924,7 +1924,7 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
 
       render_link_internal(
         'special shows',
-        url_base() . '/show-type.php/special-show',
+        url_base() . '/show-type.php/special-show#heading',
         TITLE_SHOW_SPECIAL,
       );
 
@@ -2078,7 +2078,7 @@ function render_section_about_new_book_teardown( int $heading_level = 2 ) {
 
       render_link_internal(
         'new book teardown videos',
-        url_base() . '/feature.php/new-book-teardown',
+        url_base() . '/feature.php/new-book-teardown#heading',
         TITLE_FEATURE_NEW_BOOK_TEARDOWN,
       );
 
@@ -2108,7 +2108,7 @@ function render_section_about_new_book_teardown( int $heading_level = 2 ) {
 
       render_link_internal(
         'special shows',
-        url_base() . '/show-type.php/special-show',
+        url_base() . '/show-type.php/special-show#heading',
         TITLE_SHOW_SPECIAL,
       );
 
@@ -2116,7 +2116,7 @@ function render_section_about_new_book_teardown( int $heading_level = 2 ) {
 
       render_link_internal(
         'main show',
-        url_base() . '/show-type.php/main-show',
+        url_base() . '/show-type.php/main-show#heading',
         TITLE_SHOW_MAIN,
       );
 
@@ -2154,7 +2154,7 @@ function render_section_about_mini_project( int $heading_level = 2 ) {
 
       render_link_internal(
         'mini project videos',
-        url_base() . '/feature.php/mini-project',
+        url_base() . '/feature.php/mini-project#heading',
         TITLE_SHOW_MINI_PROJECT,
       );
 
@@ -2214,7 +2214,7 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
 
       render_link_internal(
         'Maxitronix Xin1 Kits',
-        url_base() . '/feature.php/maxitronix',
+        url_base() . '/feature.php/maxitronix#heading',
         TITLE_SHOW_MAXITRONIX,
       );
 
@@ -2245,7 +2245,7 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
 
       render_link_internal(
         'Maxitronix equipment',
-        url_base() . '/manufacturer.php/Maxitronix',
+        url_base() . '/manufacturer.php/Maxitronix#heading',
         TITLE_MAXITRONIX_EQUIPMENT,
       );
 
@@ -2303,7 +2303,7 @@ function render_section_about_interlude( int $heading_level = 2 ) {
 
       render_link_internal(
         'interlude video',
-        url_base() . '/feature.php/interlude',
+        url_base() . '/feature.php/interlude#heading',
         TITLE_FEATURE_INTERLUDE,
       );
 
@@ -2311,7 +2311,7 @@ function render_section_about_interlude( int $heading_level = 2 ) {
 
       render_link_internal(
         'main channel',
-        url_base() . '/channel.php/@InTheLabWithJayJay',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_CHANNEL_MAIN,
       );
 
@@ -2337,7 +2337,7 @@ function render_section_about_mail_call( int $heading_level = 2 ) {
 
       render_link_internal(
         'mail call video',
-        url_base() . '/feature.php/mail-call',
+        url_base() . '/feature.php/mail-call#heading',
         TITLE_FEATURE_MAIL_CALL,
       );
 
@@ -2345,7 +2345,7 @@ function render_section_about_mail_call( int $heading_level = 2 ) {
 
       render_link_internal(
         'main channel',
-        url_base() . '/channel.php/@InTheLabWithJayJay',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_CHANNEL_MAIN,
       );
 
@@ -2371,7 +2371,7 @@ function render_section_about_unboxing( int $heading_level = 2 ) {
 
       render_link_internal(
         'unboxing video',
-        url_base() . '/feature.php/unboxing',
+        url_base() . '/feature.php/unboxing#heading',
         TITLE_FEATURE_UNBOXING,
       );
 
@@ -2379,7 +2379,7 @@ function render_section_about_unboxing( int $heading_level = 2 ) {
 
       render_link_internal(
         'main channel',
-        url_base() . '/channel.php/@InTheLabWithJayJay',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_CHANNEL_MAIN,
       );
 
@@ -2405,7 +2405,7 @@ function render_section_about_channel_news( int $heading_level = 2 ) {
 
       render_link_internal(
         'channel news videos',
-        url_base() . '/feature.php/channel-news',
+        url_base() . '/feature.php/channel-news#heading',
         TITLE_FEATURE_CHANNEL_NEWS,
       );
 
@@ -2413,7 +2413,7 @@ function render_section_about_channel_news( int $heading_level = 2 ) {
 
       render_link_internal(
         'main channel',
-        url_base() . '/channel.php/@InTheLabWithJayJay',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_CHANNEL_MAIN,
       );
 
@@ -2438,7 +2438,7 @@ function render_section_about_early_content( int $heading_level = 2 ) {
 
       render_link_internal(
         'early content video',
-        url_base() . '/feature.php/early-content',
+        url_base() . '/feature.php/early-content#heading',
         TITLE_FEATURE_EARLY_CONTENT,
       );
 
@@ -2449,7 +2449,7 @@ function render_section_about_early_content( int $heading_level = 2 ) {
 
       render_link_internal(
         'electronics project videos',
-        url_base() . '/feature.php/electronics-project',
+        url_base() . '/feature.php/electronics-project#heading',
         TITLE_FEATURE_ELECTRONICS_PROJECT,
       );
 
@@ -2457,7 +2457,7 @@ function render_section_about_early_content( int $heading_level = 2 ) {
 
       render_link_internal(
         'old book teardown videos',
-        url_base() . '/feature.php/old-book-teardown',
+        url_base() . '/feature.php/old-book-teardown#heading',
         TITLE_FEATURE_OLD_BOOK_TEARDOWN,
       );
 
@@ -2498,7 +2498,7 @@ function render_section_about_extra_content( int $heading_level = 2 ) {
 
       render_link_internal(
         '2nd channel',
-        url_base() . '/channel.php/@ElliotsExtras',
+        url_base() . '/channel.php/@ElliotsExtras#heading',
         TITLE_CHANNEL_EXTRA,
       );
 
@@ -2516,7 +2516,7 @@ function render_section_about_extra_content( int $heading_level = 2 ) {
 
       render_link_internal(
         'extra content',
-        url_base() . '/show-type.php/extra-show',
+        url_base() . '/show-type.php/extra-show#heading',
         TITLE_SHOW_EXTRA,
       );
 
@@ -2524,7 +2524,7 @@ function render_section_about_extra_content( int $heading_level = 2 ) {
 
       render_link_internal(
         '2nd channel',
-        url_base() . '/channel.php/@ElliotsExtras',
+        url_base() . '/channel.php/@ElliotsExtras#heading',
         TITLE_CHANNEL_EXTRA,
       );
 
@@ -2658,7 +2658,7 @@ function render_section_about_costume( int $heading_level = 2 ) {
 
       render_link_internal(
         'main channel',
-        url_base() . '/channel.php/@InTheLabWithJayJay',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_SHOW_MAIN,
       );
 
@@ -2856,7 +2856,7 @@ function render_section_about_silly_job_title( int $heading_level = 2 ) {
 
       render_link_internal(
         'main show',
-        url_base() . '/show-type.php/main-show',
+        url_base() . '/show-type.php/main-show#heading',
         TITLE_SHOW_MAIN,
       );
 
@@ -2864,7 +2864,7 @@ function render_section_about_silly_job_title( int $heading_level = 2 ) {
 
       render_link_internal(
         'main channel',
-        url_base() . '/channel.php/@InTheLabWithJayJay',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_CHANNEL_MAIN,
       );
 
@@ -2878,7 +2878,7 @@ function render_section_about_silly_job_title( int $heading_level = 2 ) {
 
       render_link_internal(
         'special shows',
-        url_base() . '/show-type.php/special-show',
+        url_base() . '/show-type.php/special-show#heading',
         TITLE_SHOW_SPECIAL,
       );
 
@@ -2886,7 +2886,7 @@ function render_section_about_silly_job_title( int $heading_level = 2 ) {
 
       render_link_internal(
         '2nd channel',
-        url_base() . '/channel.php/@ElliotsExtras',
+        url_base() . '/channel.php/@ElliotsExtras#heading',
         TITLE_CHANNEL_EXTRA,
       );
 
@@ -3224,7 +3224,7 @@ function render_section_about_next( int $heading_level = 2, $thanks = null, $tha
 
         render_link_internal(
           'new book teardown videos',
-          url_base() . '/feature.php/new-book-teardown',
+          url_base() . '/feature.php/new-book-teardown#heading',
           TITLE_FEATURE_NEW_BOOK_TEARDOWN,
         );
 
@@ -3238,7 +3238,7 @@ function render_section_about_next( int $heading_level = 2, $thanks = null, $tha
 
         render_link_internal(
           'old book teardown videos',
-          url_base() . '/feature.php/old-book-teardown',
+          url_base() . '/feature.php/old-book-teardown#heading',
           TITLE_FEATURE_OLD_BOOK_TEARDOWN,
         );
 
@@ -3252,7 +3252,7 @@ function render_section_about_next( int $heading_level = 2, $thanks = null, $tha
 
         render_link_internal(
           'main channel',
-          url_base() . '/channel.php/@InTheLabWithJayJay',
+          url_base() . '/channel.php/@InTheLabWithJayJay#heading',
           TITLE_CHANNEL_MAIN,
         );
 
@@ -3260,7 +3260,7 @@ function render_section_about_next( int $heading_level = 2, $thanks = null, $tha
 
         render_link_internal(
           'special shows',
-          url_base() . '/show-type.php/special-show',
+          url_base() . '/show-type.php/special-show#heading',
           TITLE_SHOW_SPECIAL,
         );
 
@@ -3274,7 +3274,7 @@ function render_section_about_next( int $heading_level = 2, $thanks = null, $tha
 
         render_link_internal(
           'main show',
-          url_base() . '/show-type.php/main-show',
+          url_base() . '/show-type.php/main-show#heading',
           TITLE_SHOW_MAIN,
         );
 
@@ -3282,7 +3282,7 @@ function render_section_about_next( int $heading_level = 2, $thanks = null, $tha
 
         render_link_internal(
           'electronics project',
-          url_base() . '/feature.php/electronics-project',
+          url_base() . '/feature.php/electronics-project#heading',
           TITLE_FEATURE_ELECTRONICS_PROJECT,
         );
 
@@ -3290,7 +3290,7 @@ function render_section_about_next( int $heading_level = 2, $thanks = null, $tha
 
         render_link_internal(
           'old book teardown',
-          url_base() . '/feature.php/old-book-teardown',
+          url_base() . '/feature.php/old-book-teardown#heading',
           TITLE_FEATURE_OLD_BOOK_TEARDOWN,
         );
 
@@ -3419,7 +3419,7 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
       render_link_internal(
         'main channel',
-        url_base() . '/channel.php/@InTheLabWithJayJay',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_CHANNEL_MAIN,
       );
 
@@ -3427,7 +3427,7 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
       render_link_internal(
         '2nd channel',
-        url_base() . '/channel.php/@ElliotsExtras',
+        url_base() . '/channel.php/@ElliotsExtras#heading',
         TITLE_CHANNEL_EXTRA,
       );
 
@@ -3457,7 +3457,7 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
             render_link_internal(
               'Main Channel',
-              url_base() . '/channel.php/@InTheLabWithJayJay',
+              url_base() . '/channel.php/@InTheLabWithJayJay#heading',
               TITLE_CHANNEL_MAIN,
             );
 
@@ -3483,7 +3483,7 @@ function render_section_contact_info( int $heading_level = 2 ) {
 
             render_link_internal(
               '2nd Channel',
-              url_base() . '/channel.php/@ElliotsExtras',
+              url_base() . '/channel.php/@ElliotsExtras#heading',
               TITLE_CHANNEL_EXTRA,
             );
 

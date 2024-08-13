@@ -38,13 +38,17 @@ class Feature extends AppThing {
 
   public function get_internal_url() {
 
-    return url_base() . '/feature.php/' . $this->get_slug();
+    $slug = $this->get_slug();
+
+    return url_base() . "/feature.php/$slug#heading";
 
   }
 
   public function get_external_url() {
 
-    return APP_URL_BASE . '/feature.php/' . $this->get_slug();
+    $slug = $this->get_slug();
+
+    return APP_URL_BASE . "/feature.php/$slug#heading";
 
   }
 

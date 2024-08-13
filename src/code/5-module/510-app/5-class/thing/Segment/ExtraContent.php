@@ -32,7 +32,7 @@ class ExtraContent extends Segment {
 
       render_link_internal(
         '2nd Channel',
-        url_base() . '/channel.php/@ElliotsExtras',
+        url_base() . '/channel.php/@ElliotsExtras#heading',
         TITLE_CHANNEL_EXTRA,
       );
 
@@ -42,7 +42,7 @@ class ExtraContent extends Segment {
 
       render_link_internal(
         'Extra Show',
-        url_base() . '/show-type.php/extra-show',
+        url_base() . '/show-type.php/extra-show#heading',
         TITLE_SHOW_EXTRA,
       );
 
@@ -52,7 +52,7 @@ class ExtraContent extends Segment {
 
       render_link_internal(
         'Extra Content',
-        url_base() . '/feature.php/extra-content',
+        url_base() . '/feature.php/extra-content#heading',
         TITLE_FEATURE_EXTRA,
       );
 
@@ -67,7 +67,7 @@ class ExtraContent extends Segment {
     $id = $this->get_item_id();
 
     out_text( "Extra Content #$id: " );
-    
+
   }
 
   public function render_title_suffix() {}

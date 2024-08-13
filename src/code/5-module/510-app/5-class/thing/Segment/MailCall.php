@@ -14,7 +14,7 @@ class MailCall extends Segment {
 
       render_link_internal(
         'Main Channel',
-        url_base() . '/channel.php/@InTheLabWithJayJay',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_CHANNEL_MAIN,
       );
 
@@ -22,7 +22,7 @@ class MailCall extends Segment {
 
       render_link_internal(
         'Special Show',
-        url_base() . '/show-type.php/special-show',
+        url_base() . '/show-type.php/special-show#heading',
         TITLE_SHOW_SPECIAL,
       );
 
@@ -30,7 +30,7 @@ class MailCall extends Segment {
 
       render_link_internal(
         'Mail Call',
-        url_base() . '/feature.php/mail-call',
+        url_base() . '/feature.php/mail-call#heading',
         TITLE_FEATURE_MAIL_CALL,
       );
 
@@ -39,11 +39,11 @@ class MailCall extends Segment {
   }
 
   public function render_title_prefix() {
-    
+
     $id = $this->get_item_id();
 
     out_text( "Mail Call #$id: " );
-    
+
   }
 
   public function render_title_suffix() {}

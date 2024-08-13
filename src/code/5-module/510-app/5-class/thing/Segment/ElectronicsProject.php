@@ -69,7 +69,7 @@ class ElectronicsProject extends Segment {
 
       render_link_internal(
         'Main Channel',
-        url_base() . '/channel.php/@InTheLabWithJayJay',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_CHANNEL_MAIN,
       );
 
@@ -79,7 +79,7 @@ class ElectronicsProject extends Segment {
 
       render_link_internal(
         'Main Show',
-        url_base() . '/show-type.php/main-show',
+        url_base() . '/show-type.php/main-show#heading',
         TITLE_SHOW_MAIN,
       );
 
@@ -89,7 +89,7 @@ class ElectronicsProject extends Segment {
 
       render_link_internal(
         'Electronics Project',
-        url_base() . '/feature.php/electronics-project',
+        url_base() . '/feature.php/electronics-project#heading',
         TITLE_FEATURE_ELECTRONICS_PROJECT,
       );
 
@@ -100,11 +100,11 @@ class ElectronicsProject extends Segment {
   }
 
   public function render_title_prefix() {
-    
+
     $id = $this->get_item_id();
 
     out_text( "Electronics Project #$id: " );
-    
+
   }
 
   public function render_title_suffix() {}

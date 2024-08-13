@@ -42,13 +42,17 @@ class ShowType extends AppThing {
 
   public function get_internal_url() {
 
-    return url_base() . '/show-type.php/' . $this->get_slug();
+    $slug = $this->get_slug();
+
+    return url_base() . "/show-type.php/$slug#heading";
 
   }
 
   public function get_external_url() {
 
-    return APP_URL_BASE . '/show-type.php/' . $this->get_slug();
+    $slug = $this->get_slug();
+
+    return APP_URL_BASE . "/show-type.php/$slug#heading";
 
   }
 

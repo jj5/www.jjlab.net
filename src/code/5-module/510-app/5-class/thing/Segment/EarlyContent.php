@@ -32,7 +32,7 @@ class EarlyContent extends Segment {
 
       render_link_internal(
         'Main Channel',
-        url_base() . '/channel.php/@InTheLabWithJayJay',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_CHANNEL_MAIN,
       );
 
@@ -42,7 +42,7 @@ class EarlyContent extends Segment {
 
       render_link_internal(
         'Special Show',
-        url_base() . '/show-type.php/special-show',
+        url_base() . '/show-type.php/special-show#heading',
         TITLE_SHOW_SPECIAL,
       );
 
@@ -52,7 +52,7 @@ class EarlyContent extends Segment {
 
       render_link_internal(
         'Early Content',
-        url_base() . '/feature.php/early-content',
+        url_base() . '/feature.php/early-content#heading',
         TITLE_FEATURE_EARLY_CONTENT,
       );
 
@@ -67,7 +67,7 @@ class EarlyContent extends Segment {
     $id = $this->get_item_id();
 
     out_text( "Early Content #$id: " );
-    
+
   }
 
   public function render_title_suffix() {}

@@ -32,7 +32,7 @@ class ChannelNews extends Segment {
 
       render_link_internal(
         'Main Channel',
-        url_base() . '/channel.php/@InTheLabWithJayJay',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_CHANNEL_MAIN,
       );
 
@@ -42,7 +42,7 @@ class ChannelNews extends Segment {
 
       render_link_internal(
         'Special Show',
-        url_base() . '/show-type.php/special-show',
+        url_base() . '/show-type.php/special-show#heading',
         TITLE_SHOW_SPECIAL,
       );
 
@@ -52,7 +52,7 @@ class ChannelNews extends Segment {
 
       render_link_internal(
         'Channel News',
-        url_base() . '/feature.php/channel-news',
+        url_base() . '/feature.php/channel-news#heading',
         TITLE_FEATURE_CHANNEL_NEWS,
       );
 
@@ -63,12 +63,12 @@ class ChannelNews extends Segment {
   }
 
   public function render_title_prefix() {
-    
+
 
     $id = $this->get_item_id();
 
     out_text( "Channel News #$id: " );
-    
+
   }
 
   public function render_title_suffix() {}

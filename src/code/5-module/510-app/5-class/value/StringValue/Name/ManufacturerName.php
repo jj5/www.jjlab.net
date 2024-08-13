@@ -24,7 +24,7 @@ class ManufacturerName extends Name {
 
   public function render( mixed $format = null, array $attrs = [] ): void {
 
-    $href = url_base() . '/manufacturer.php/' . $this->get_manufacturer_id();
+    $href = url_base() . '/manufacturer.php/' . $this->get_manufacturer_id() . '#heading';
 
     render_link_internal(
       $this->to_string(),

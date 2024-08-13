@@ -104,7 +104,7 @@ class MaxitronixSegment extends Segment {
 
       render_link_internal(
         'Maxitronix ' . $kit,
-        url_base() . '/feature.php/maxitronix-' . $kit,
+        url_base() . "/feature.php/maxitronix-$kit#heading",
         $title,
       );
 
@@ -118,7 +118,7 @@ class MaxitronixSegment extends Segment {
 
       render_link_internal(
         'Main Channel',
-        url_base() . '/channel.php/@InTheLabWithJayJay',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_CHANNEL_MAIN,
       );
 
@@ -128,7 +128,7 @@ class MaxitronixSegment extends Segment {
 
       render_link_internal(
         'Special Show',
-        url_base() . '/show-type.php/special-show',
+        url_base() . '/show-type.php/special-show#heading',
         TITLE_SHOW_MAIN,
       );
 
@@ -138,7 +138,7 @@ class MaxitronixSegment extends Segment {
 
       render_link_internal(
         "Maxitronix Xin1 Kits",
-        url_base() . "/feature.php/maxitronix",
+        url_base() . "/feature.php/maxitronix#heading",
         TITLE_FEATURE_MAXITRONIX_KITS,
       );
 
@@ -148,7 +148,7 @@ class MaxitronixSegment extends Segment {
 
       render_link_internal(
         "Maxitronix $kit",
-        url_base() . "/feature.php/maxitronix-$kit",
+        url_base() . "/feature.php/maxitronix-$kit#heading",
         TITLE_FEATURE_MAXITRONIX,
       );
 
@@ -163,7 +163,7 @@ class MaxitronixSegment extends Segment {
     $kit = $this->get_maxitronix_kit_name()->to_string();
 
     out_text( "Maxitronix $kit: " );
-    
+
   }
 
   public function render_title_suffix() {

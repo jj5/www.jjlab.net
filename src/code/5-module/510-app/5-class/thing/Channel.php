@@ -113,7 +113,7 @@ class Channel extends AppThing {
 
     $slug = $this->get_channel_slug()->to_string();
 
-    return url_base() . '/channel.php/' . $slug;
+    return url_base() . "/channel.php/$slug#heading";
 
   }
 
@@ -121,7 +121,7 @@ class Channel extends AppThing {
 
     $slug = $this->get_channel_slug()->to_string();
 
-    return APP_URL_BASE . '/channel.php/' . $slug;
+    return APP_URL_BASE . "/channel.php/$slug#heading";
 
   }
 

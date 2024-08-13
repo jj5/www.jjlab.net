@@ -32,7 +32,7 @@ class Interlude extends Segment {
 
       render_link_internal(
         'Main Channel',
-        url_base() . '/channel.php/@InTheLabWithJayJay',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_CHANNEL_MAIN,
       );
 
@@ -42,7 +42,7 @@ class Interlude extends Segment {
 
       render_link_internal(
         'Special Show',
-        url_base() . '/show-type.php/special-show',
+        url_base() . '/show-type.php/special-show#heading',
         TITLE_SHOW_SPECIAL,
       );
 
@@ -52,7 +52,7 @@ class Interlude extends Segment {
 
       render_link_internal(
         'Interlude',
-        url_base() . '/feature.php/interlude',
+        url_base() . '/feature.php/interlude#heading',
         TITLE_FEATURE_INTERLUDE,
       );
 
@@ -67,7 +67,7 @@ class Interlude extends Segment {
     $id = $this->get_item_id();
 
     out_text( "Interlude #$id: " );
-    
+
   }
 
   public function render_title_suffix() {}

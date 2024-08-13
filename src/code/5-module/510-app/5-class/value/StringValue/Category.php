@@ -36,7 +36,7 @@ class Category extends StringValue {
 
   public function render( mixed $format = null, array $attrs = [] ) : void {
 
-    $href = url_base() . '/category.php/' . $this->get_category_id();
+    $href = url_base() . '/category.php/' . $this->get_category_id() . '#heading';
 
     render_link_internal(
       $this->to_string(),
@@ -266,9 +266,9 @@ class Category extends StringValue {
     ];
 
     if ( $category_order === null ) {
-      
+
       //$category_order = array_flip( self::$category_list );
-      
+
       $category_list = self::$category_list;
 
       sort( $category_list );

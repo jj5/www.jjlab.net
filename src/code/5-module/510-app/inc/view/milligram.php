@@ -70,7 +70,7 @@ function render_404() {
 
           out_text( 'Return to the ' );
 
-          render_link_internal( 'homepage', url_base() . '/', TITLE_HOMEPAGE );
+          render_link_internal( 'homepage', url_base() . '/#heading', TITLE_HOMEPAGE );
 
           out_text( '.' );
 
@@ -148,7 +148,7 @@ function render_500( $message = null, $form = null, $issue = null, $exit = null,
 
           out_text( 'Return to the ' );
 
-          render_link_internal( 'homepage', url_base() . '/', TITLE_HOMEPAGE );
+          render_link_internal( 'homepage', url_base() . '/#heading', TITLE_HOMEPAGE );
 
           out_text( '.' );
 
@@ -176,7 +176,7 @@ function render_head( string $heading, array $options = [] ) {
 
   static $nav_link = [
     [
-      'href' => '/',
+      'href' => '/#heading',
       'text' => 'Home',
       'title' => TITLE_NAV_HOME,
     ],
@@ -206,7 +206,7 @@ function render_head( string $heading, array $options = [] ) {
       'title' => TITLE_NAV_SUPPORT,
     ],
     [
-      'href' => '/debug.php#heading',
+      'href' => '/debug.php',
       'text' => 'Debug',
       'title' => "John's debug thing",
       'debug' => true,
@@ -1669,7 +1669,7 @@ function render_equipment_table( $equipment_list ) {
 
                     render_link_internal(
                       $link,
-                      url_base() . '/category.php/' . $link->get_category_id(),
+                      url_base() . '/category.php/' . $link->get_category_id() . '#heading',
                       TITLE_LINK_CATEGORY_SELECTION,
                     );
 
@@ -1678,7 +1678,7 @@ function render_equipment_table( $equipment_list ) {
 
                     render_link_internal(
                       $link,
-                      url_base() . '/manufacturer.php/' . $link->get_manufacturer_id(),
+                      url_base() . '/manufacturer.php/' . $link->get_manufacturer_id() . '#heading',
                       TITLE_LINK_MANUFACTURER_SELECTION,
                     );
 

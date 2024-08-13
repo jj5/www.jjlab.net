@@ -113,7 +113,7 @@ class MiniProject extends Segment {
 
       render_link_internal(
         'Main Channel',
-        url_base() . '/channel.php/@InTheLabWithJayJay',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_CHANNEL_MAIN,
       );
 
@@ -121,7 +121,7 @@ class MiniProject extends Segment {
 
       render_link_internal(
         'Special Show',
-        url_base() . '/show-type.php/special-show',
+        url_base() . '/show-type.php/special-show#heading',
         TITLE_SHOW_MAIN,
       );
 
@@ -129,7 +129,7 @@ class MiniProject extends Segment {
 
       render_link_internal(
         "Mini Project",
-        url_base() . "/feature.php/mini-project",
+        url_base() . "/feature.php/mini-project#heading",
         TITLE_FEATURE_MINI_PROJECT,
       );
 
@@ -162,7 +162,7 @@ class MiniProject extends Segment {
 
       //out_text( "Mini Project: " );
 
-    }  
+    }
   }
 
   public function render_title_suffix() {
