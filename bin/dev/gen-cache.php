@@ -31,7 +31,9 @@ function main( $argv ) {
 
     if ( strpos( $loc, APP_ORIGIN ) !== 0 ) {
 
-      mud_fail( 'invalid location.', [ 'loc' => $loc, 'origin' => APP_ORIGIN ] );
+      $loc = str_replace( APP_ORIGIN_PROD, APP_ORIGIN, $loc );
+
+      //mud_fail( 'invalid location.', [ 'loc' => $loc, 'origin' => APP_ORIGIN ] );
 
     }
 
