@@ -342,7 +342,7 @@ function render_section_about_secrets( int $heading_level = 2 ) {
 
         render_link_internal(
           'Videos Index',
-          url_base() . '/videos.php#heading',
+          url_base() . '/videos.php#videos',
           TITLE_VIDEO_INDEX,
         );
 

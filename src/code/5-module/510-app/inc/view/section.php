@@ -1277,7 +1277,7 @@ function render_section_about_sitemap( int $heading_level = 2 ) {
 
               tag_open( 'li' );
 
-                render_link_internal( 'Video Index', url_base() . '/videos.php#heading', TITLE_VIDEO_INDEX );
+                render_link_internal( 'Video Index', url_base() . '/videos.php#videos', TITLE_VIDEO_INDEX );
 
               tag_shut( 'li' );
 

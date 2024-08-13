@@ -54,7 +54,7 @@ function render_books_main( $books ) {
 
         render_link_internal(
           'videos index',
-          url_base() . '/videos.php#heading',
+          url_base() . '/videos.php#videos',
           TITLE_VIDEO_INDEX,
         );
 

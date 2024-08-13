@@ -59,7 +59,7 @@ function render_secret_main() {
 
           render_link_internal(
             'Video Index',
-            url_base() . '/videos.php#heading',
+            url_base() . '/videos.php#videos',
             TITLE_VIDEO_INDEX,
           );
 

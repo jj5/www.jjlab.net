@@ -48,7 +48,7 @@ function render_debug_menu() {
 
           render_link_internal(
             'Videos',
-            url_base() . '/videos.php#heading',
+            url_base() . '/videos.php#videos',
             TITLE_VIDEO_INDEX,
           );
 
@@ -185,7 +185,7 @@ function render_debug_feature_list() {
 
         render_link_internal(
           'Feature Index',
-          url_base() . '/feature.php#heading',
+          url_base() . '/feature.php',
           TITLE_FEATURE_INDEX,
         );
 
