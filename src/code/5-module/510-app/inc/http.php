@@ -161,7 +161,7 @@ function render_xslt_head() {
 		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/banner-0640.jpg?v=<?= get_resource_version( 'banner-0640.jpg' ) ?>" as="image" />
 		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/banner.jpg?v=<?= get_resource_version( 'banner.jpg' ) ?>" as="image" />
 		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/logo.png?v=<?= get_resource_version( 'logo.png' ) ?>" as="image" />
-		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/rss/rss-40674_50.png?v=<?= get_resource_version( 'rss-40674_50.png' ) ?>" as="image" />
+		<link rel="preload" href="<?= $cdn_base ?>/res/img.php/rss-40674_50.png?v=<?= get_resource_version( 'rss-40674_50.png' ) ?>" as="image" />
 <?php
 }
 function render_xslt_nav_header() {
@@ -181,27 +181,27 @@ function render_xslt_nav_header() {
 							<div id="popover-grid" class="popover">
 								<ul class="popover-list">
 									<li class="popover-item">
-										<a href="<?= $url_base ?>/" class="internal popover-link" title="<?= TITLE_NAV_HOME ?>">Home</a></li>
+										<a href="<?= $url_base ?>/#heading" class="internal popover-link" title="<?= TITLE_NAV_HOME ?>">Home</a></li>
 									<li class="popover-item">
-										<a href="<?= $url_base ?>/channel.php/@InTheLabWithJayJay" class="internal popover-link" title="<?= TITLE_NAV_MAIN ?>">Main Channel</a></li>
+										<a href="<?= $url_base ?>/channel.php/@InTheLabWithJayJay#heading" class="internal popover-link" title="<?= TITLE_NAV_MAIN ?>">Main Channel</a></li>
 									<li class="popover-item">
-										<a href="<?= $url_base ?>/sponsor.php" class="internal popover-link" title="<?= TITLE_NAV_SPONSORS ?>">Sponsors</a></li>
+										<a href="<?= $url_base ?>/sponsor.php#heading" class="internal popover-link" title="<?= TITLE_NAV_SPONSORS ?>">Sponsors</a></li>
 									<li class="popover-item">
-										<a href="<?= $url_base ?>/equipment.php" class="internal popover-link" title="<?= TITLE_NAV_EQUIPMENT ?>">Equipment</a></li>
+										<a href="<?= $url_base ?>/equipment.php#heading" class="internal popover-link" title="<?= TITLE_NAV_EQUIPMENT ?>">Equipment</a></li>
 									<li class="popover-item">
-										<a href="<?= $url_base ?>/about.php" class="internal popover-link" title="<?= TITLE_NAV_ABOUT ?>">About</a></li>
+										<a href="<?= $url_base ?>/about.php#heading" class="internal popover-link" title="<?= TITLE_NAV_ABOUT ?>">About</a></li>
 									<li class="popover-item">
-										<a href="<?= $url_base ?>/support.php" class="internal popover-link" title="<?= TITLE_NAV_SUPPORT ?>">Support the Show!</a></li>
+										<a href="<?= $url_base ?>/support.php#heading" class="internal popover-link" title="<?= TITLE_NAV_SUPPORT ?>">Support the Show!</a></li>
 									<li class="popover-item">
 										<a class="internal popover-link" href="<?= $url_base ?>/feed.php" title="<?= TITLE_NAV_FEED ?>">
 											<img src="<?= $cdn_base ?>/res/img.php/rss/rss-40674_50.png?v=<?= get_resource_version( 'rss-40674_50.png' ) ?>" style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" alt="" /></a></li></ul></div></li></ul>
 					<div class="menu-list">
-						<a href="<?= $url_base ?>/" class="internal" title="<?= TITLE_NAV_HOME ?>">Home</a> |
-						<a href="<?= $url_base ?>/channel.php/@InTheLabWithJayJay" class="internal" title="<?= TITLE_NAV_MAIN ?>">Main Channel</a> |
-						<a href="<?= $url_base ?>/sponsor.php" class="internal" title="<?= TITLE_NAV_SPONSORS ?>">Sponsors</a> |
-						<a href="<?= $url_base ?>/equipment.php" class="internal" title="<?= TITLE_NAV_EQUIPMENT ?>">Equipment</a> |
-						<a href="<?= $url_base ?>/about.php" class="internal" title="<?= TITLE_NAV_ABOUT ?>">About</a> |
-						<a href="<?= $url_base ?>/support.php" class="internal" title="<?= TITLE_NAV_SUPPORT ?>">Support the Show!</a>
+						<a href="<?= $url_base ?>/#heading" class="internal" title="<?= TITLE_NAV_HOME ?>">Home</a> |
+						<a href="<?= $url_base ?>/channel.php/@InTheLabWithJayJay#heading" class="internal" title="<?= TITLE_NAV_MAIN ?>">Main Channel</a> |
+						<a href="<?= $url_base ?>/sponsor.php#heading" class="internal" title="<?= TITLE_NAV_SPONSORS ?>">Sponsors</a> |
+						<a href="<?= $url_base ?>/equipment.php#heading" class="internal" title="<?= TITLE_NAV_EQUIPMENT ?>">Equipment</a> |
+						<a href="<?= $url_base ?>/about.php#heading" class="internal" title="<?= TITLE_NAV_ABOUT ?>">About</a> |
+						<a href="<?= $url_base ?>/support.php#heading" class="internal" title="<?= TITLE_NAV_SUPPORT ?>">Support the Show!</a>
 						<a class="internal" href="<?= $url_base ?>/feed.php" title="<?= TITLE_NAV_FEED ?>">
 							<img src="<?= $cdn_base ?>/res/img.php/rss/rss-40674_50.png?v=<?= get_resource_version( 'rss-40674_50.png' ) ?>" style="display:inline-block;width:50px;height:auto;vertical-align:top;margin-top:0px;" alt="" /></a></div></div></nav>
 			<header id="banner">
