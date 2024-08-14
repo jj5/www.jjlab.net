@@ -35,8 +35,21 @@ function app_render() {
 
         $path = find_image( $filename . '.' . $extension, $res_dir );
 
-        if ( $path && file_exists( $path ) ) { return render_image_path( $path, $extension ); }
+        if ( $path && file_exists( $path ) ) {
 
+          $url = 'https://www.inthelabwithjayjay.com/in-the-lab/res/img.php/' . $filename . '.' . $extension;
+
+          // 2024-08-14 jj5 - we could just render here, but redirection is probably better...
+
+          header( 'HTTP/1.1 301 Moved Permanently', true, 301 );
+
+          header( 'Location: ' . $url );
+
+          exit;
+
+          //return render_image_path( $path, $extension );
+
+        }
       }
 
       render_404();
