@@ -19,6 +19,7 @@ require_once realpath( __DIR__ ) . '/../../../../inc/log.php';
 
 require_once realpath( __DIR__ ) . '/../../../../ext/mudball/inc/module.php';
 
+require_once __DIR__ . '/inc/framework.php';
 require_once __DIR__ . '/inc/const.php';
 require_once __DIR__ . '/inc/cache.php';
 require_once __DIR__ . '/inc/http.php';

@@ -9,8 +9,8 @@ function host_cli( $argv ) {
 
   try {
 
-    require_once APP_DIR . '/src/code/5-module/510-app/inc/framework.php';
-    require_once APP_DIR . '/src/code/5-module/510-app/inc/spec.php';
+    require_once JJLAB_DIR . '/src/code/5-module/510-app/inc/framework.php';
+    require_once JJLAB_DIR . '/src/code/5-module/510-app/inc/spec.php';
 
     main( $argv );
 

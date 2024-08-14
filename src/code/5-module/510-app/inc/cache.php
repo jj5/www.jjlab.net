@@ -19,7 +19,7 @@ function get_cache_dir( string $path, string $suffix = APP_DEFAULT_CACHE_SUFFIX,
 
   $hash = get_path_hash( $path );
 
-  $dir = APP_DIR . "/dat/cache/web/{$hash[0]}/{$hash[1]}";
+  $dir = JJLAB_DIR . "/dat/cache/web/{$hash[0]}/{$hash[1]}";
 
   if ( DEV && ! is_dir( $dir ) ) {
 
