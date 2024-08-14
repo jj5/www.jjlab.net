@@ -28,8 +28,10 @@ if ( file_exists( JJLAB_CONFIG_PATH ) ) {
 
 mud_define_version( 'JJLAB' );
 
+/*
 if ( APP === JJLAB_CODE ) {
 
   mud_define_app( 'JJLAB' );
 
 }
+*/
