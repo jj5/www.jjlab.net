@@ -1,5 +1,7 @@
 <?php
 
+require_once __DIR__ . '/framework.php';
+
 require_once __DIR__ . '/../spec/spec-sponsor.php';
 require_once __DIR__ . '/../spec/spec-affiliate.php';
 require_once __DIR__ . '/../spec/spec-equipment.php';
