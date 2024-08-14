@@ -12,6 +12,8 @@ function app_render() {
 
   $extension = strtolower( ltrim( strrchr( $filename, '.' ), '.' ) );
 
+  $res_dir = realpath( __DIR__ . '/../../../res/img' );
+
   switch ( $extension ) {
 
     case 'png' :
@@ -19,23 +21,35 @@ function app_render() {
     case 'webp' :
     case 'svg' :
 
-      $res_dir = realpath( __DIR__ . '/../../../res/img' );
-
       $path = find_image( $filename, $res_dir );
 
       if ( ! $path || ! file_exists( $path ) ) { return render_404(); }
 
-      mud_http_cache_forever();
-
-      render_image_headers( $extension );
-
-      readfile( $path );
-
-      break;
+      return render_image_path( $path, $extension );
 
     default :
+
+      $filename = rtrim( $filename, '.' );
+
+      foreach ( [ 'png', 'jpg', 'webp', 'svg' ] as $extension ) {
+
+        $path = find_image( $filename . '.' . $extension, $res_dir );
+
+        if ( $path && file_exists( $path ) ) { return render_image_path( $path, $extension ); }
+
+      }
 
       render_404();
 
   }
+}
+
+function render_image_path( $path, $extension ) {
+
+  mud_http_cache_forever();
+
+  render_image_headers( $extension );
+
+  readfile( $path );
+
 }

@@ -1030,15 +1030,13 @@ show(
     blog_url( 'https://blog.jj5.net/blog/2024/07/26/electronics-project-icl8038-monolithic-function-signal-generator-kit-build-and-test-in-the-lab/' ),
     patreon_url( 'https://www.patreon.com/posts/108839807' ),
   ),
-  /*
   old_book_teardown(
-    publication_date( '2024-07-11' ),
-    youtube_video( '7qUCJVdsGD8' ),
-    blog_url( 'https://blog.jj5.net/blog/2024/07/11/old-book-teardown-radio-engineering-3rd-edition-1947-in-the-lab-with-jay-jay/' ),
-    patreon_url( 'https://www.patreon.com/posts/107853309' ),
+    publication_date( '2024-08-15' ),
+    youtube_video( '' ),
+    blog_url( '' ),
+    patreon_url( 'https://www.patreon.com/posts/' ),
     old_book(
-      title( "Radio Engineering" ),
-      edition( 3 ),
+      title( "Basic Electronics - Volumes 1 through 6" ),
       author( 'Frederick Emmons Terman' ),
       copyright_year( '1947' ),
       page_count( 953 ),
@@ -1048,7 +1046,6 @@ show(
       ),
     ),
   ),
-  */
 );
 
 show(
