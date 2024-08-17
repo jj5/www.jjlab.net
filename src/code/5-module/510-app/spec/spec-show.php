@@ -1133,3 +1133,33 @@ show(
     patreon_url( 'https://www.patreon.com/posts/109866803' ),
   ),
 );
+
+show(
+  extra_content(
+    publication_date( '2024-08-17' ),
+    title( "Previously Unreleased Content: Cleaning Resistors and Having a Chat" ),
+    youtube_video( 'df_ZGDMmFyE' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/08/17/extra-content-14-previously-unreleased-content-cleaning-resistors-and-having-a-chat-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/110268107' ),
+  ),
+);
+
+show(
+  extra_content(
+    publication_date( '2024-08-18' ),
+    title( "Unboxing of M6013 Capacitance Meter and MESR-100 ESR Meter" ),
+    youtube_video( 'Fdi0a4GehyY' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/08/18/extra-content-15-unboxing-of-m6013-capacitance-meter-and-mesr-100-esr-meter-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/110269646' ),
+  ),
+);
+
+show(
+  extra_content(
+    publication_date( '2024-08-19' ),
+    title( "Unboxing of Bosch IXO VI Electric Screwdriver with Angle Screw Adapter" ),
+    youtube_video( 'dbxWuzr9CJw' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/08/19/extra-content-16-unboxing-of-bosch-ixo-vi-electric-screwdriver-with-angle-screw-adapter/' ),
+    patreon_url( 'https://www.patreon.com/posts/110270351' ),
+  ),
+);
