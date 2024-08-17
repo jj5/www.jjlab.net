@@ -139,12 +139,12 @@ function hook_all() {
 
   // List of all possible DOM events
   const allEvents = [
-      "click", "dblclick", "mousedown", "mouseup", "mouseover", "mouseout", "mousemove", 
-      "keydown", "keypress", "keyup", "change", "input", "submit", "focus", "blur", 
-      "resize", "scroll", "contextmenu", "select", "copy", "cut", "paste", "wheel", 
-      "touchstart", "touchmove", "touchend", "touchcancel", "pointerdown", "pointerup", 
-      "pointermove", "pointerover", "pointerout", "pointerenter", "pointerleave", 
-      "pointercancel", "drag", "dragstart", "dragend", "dragover", "dragenter", "dragleave", 
+      "click", "dblclick", "mousedown", "mouseup", "mouseover", "mouseout", "mousemove",
+      "keydown", "keypress", "keyup", "change", "input", "submit", "focus", "blur",
+      "resize", "scroll", "contextmenu", "select", "copy", "cut", "paste", "wheel",
+      "touchstart", "touchmove", "touchend", "touchcancel", "pointerdown", "pointerup",
+      "pointermove", "pointerover", "pointerout", "pointerenter", "pointerleave",
+      "pointercancel", "drag", "dragstart", "dragend", "dragover", "dragenter", "dragleave",
       "dragexit", "drop"
   ];
 
@@ -176,11 +176,11 @@ function handle_window_load( ev, el ) {
   //
 
   const headings = document.querySelectorAll( 'h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]' );
-  
+
   headings.forEach( heading => {
 
     const id = heading.getAttribute( 'id' );
-    
+
     if ( ! id ) { return; }
 
     const space = document.createTextNode( ' ' );
@@ -256,7 +256,7 @@ function set_window_size_cookie() {
   // 2024-01-27 jj5 - THINK: is this playing with fire? could we go into an infinite loop?
   //
   if ( ! was_set ) {
-    
+
     // 2024-01-27 jj5 - if it wasn't set, but now it is set, we assume it has applied and we can reload...
     //
     if ( is_cookie_set( WINDOW_SIZE_COOKIE ) ) {
@@ -321,17 +321,17 @@ function set_window_size_cookie() {
 }
 
 function is_cookie_set( cookie_name ) {
-  
+
   var cookies = document.cookie.split( ';' );
 
   for ( var i = 0; i < cookies.length; i++ ) {
-    
+
     var parts = cookies[ i ].split( '=' );
-    
+
     if ( cookie_name === parts[ 0 ].trim() ) { return true; }
 
   }
-  
+
   return false;
 
 }
@@ -405,7 +405,7 @@ function handle_hashchange( ev, el ) {
 function flash( element ) {
 
   element.classList.add('flash');
-  
+
   // Remove the class after a short delay to reset the element
   setTimeout(
     function() {
@@ -480,7 +480,7 @@ function scroll_into_view() {
 
     // 2024-01-27 jj5 - remove the "#" at the beginning of the URL fragment...
     //
-    var id = fragment.substring( 1 ); 
+    var id = fragment.substring( 1 );
 
     var element = document.getElementById( id );
 
@@ -510,7 +510,7 @@ function scroll_into_view() {
 function is_john() {
 
   try {
-      
+
     return ( typeof IS_JOHN ) === 'boolean' && IS_JOHN === true;
 
   }
@@ -627,7 +627,7 @@ function make_toc() {
 
           ul.appendChild( child_li );
 
-        }      
+        }
       });
 
       li.appendChild( ul );
@@ -669,20 +669,40 @@ function make_toc() {
 }
 
 function get_cookie( name ) {
-  
+
   let parts = document.cookie.split( ';' );
 
   for ( let i = 0; i < parts.length; i++ ) {
 
     let pair = parts[ i ].split( '=' );
-    
+
     if ( name == pair[ 0 ].trim() ) {
-      
+
       return decodeURIComponent( pair[ 1 ] );
 
     }
   }
 
   return null;
+
+}
+
+function copy_preceding_textarea_to_clipboard( el, ev ) {
+
+  var textarea = el.previousElementSibling;
+
+  while ( textarea && textarea.tagName !== 'TEXTAREA' ) {
+
+    textarea = textarea.previousElementSibling;
+
+  }
+
+  if ( ! textarea) { return; }
+
+  textarea.select();
+  textarea.setSelectionRange(0, 99999); // For mobile devices
+
+  // Copy the text to the clipboard
+  document.execCommand( 'copy' );
 
 }

@@ -1282,13 +1282,20 @@ If you have any questions about any of the products I use please do ask in the c
 
   tag_shut( 'textarea' );
 
+  tag_text(
+    'button',
+    'Copy',
+    [
+      'onclick' => 'copy_preceding_textarea_to_clipboard( this, event )',
+      'style' => 'display:block;margin:20px auto;',
+    ]
+  );
+
 }
 
 function render_blog_template( $equipment_list ) {
 
   sort_equipment_list( $equipment_list );
-
-  $row_number = 0;
 
   tag_open( 'textarea', [ 'style' => 'height:400px;' ] );
 
@@ -1375,131 +1382,173 @@ function render_blog_template( $equipment_list ) {
 
       mud_html_set_opt( MUD_HTML_OPT_BREAK, true );
 
-      out_text( 'Following is a product I use picked at random from ' );
-
-        tag_text(
-          'a',
-          'my collection',
-          [
-            'class' => 'external',
-            'target' => '_blank',
-            'rel' => 'noopener follow',
-            'href' => 'https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#heading',
-            'title' => 'Click here to see all of my equipment.',
-          ]
-        );
-
-      out_text( ' which may appear in my videos. ' );
-
-      out_text( 'Clicking through on this to find and click on the green affiliate links before purchasing from ' );
-      out_text( 'eBay or AliExpress is a great way to support the channel at no cost to you. Thanks!' );
-      out_text( "\n\n" );
-
-      $end_id = date( 'Y-m-d-His' );
-
-      /*
-      out_text( 'Note: you can ' );
-      render_link_internal( 'skip this', '#' . $end_id, 'Click here to skip the product list.' );
-      out_text( " if you would prefer.\n\n" );
-      */
-
-      tag_open( 'table', [ 'class' => 'table equipment' ] );
-
-        tag_open( 'tbody' );
-
-          foreach ( $equipment_list as $equipment ) {
-
-            $row_number++;
-
-            $thumb = $equipment->get_equipment_icon()->get_public_url();
-            $product = $equipment->get_equipment_name();
-            $link = $equipment->get_short_link();
-            $notes = $equipment->get_sixsigma_url();
-
-            tag_open( 'tr' );
-
-              tag_open(
-                'td',
-                [
-                  'class' => 'product',
-                  'style' => 'text-align: center !important; border-top: 1px solid #ddd;',
-                ]
-                );
-
-                tag_open(
-                  'a',
-                  [
-                    'class' => 'external',
-                    'target' => '_blank',
-                    'rel' => 'noopener follow',
-                    'href' => $link,
-                    'title' => mud_format_string( TITLE_TEMPLATE_BLOG_PRODUCT, [ 'product' => $product ] ),
-                    'style' => 'display: block !important; color: #1982d1; text-decoration: none;',
-                  ]
-                );
-
-                  tag_text(
-                    'span',
-                    $product,
-                    [
-                      'class' => 'product-name',
-                      'style' => 'display: block !important; color: #1982d1; text-decoration: none; font-size: 30px; margin: 20px auto;',
-                    ]
-                  );
-
-                  tag_bare(
-                    'img',
-                    [
-                      'class' => 'thumb',
-                      'loading' => 'lazy',
-                      'src' => $thumb,
-                      'alt' => 'This is an image of the product.',
-                      // 2024-07-29 jj5 - NEW:
-                      'style' => 'display: block !important; border: 1px solid black; border-radius: 10px; margin: 20px auto; height: auto !important; width: 150px;',
-                      // 2024-07-29 jj5 - OLD:
-                      //'style' => 'display: block !important; border: 1px solid black; border-radius: 10px; margin: 20px auto; min-width: 50% !important; height: auto !important; width: 150px;',
-                    ]
-                  );
-
-                tag_shut( 'a' );
-
-                if ( $notes ) {
-
-                  tag_open(
-                    'a',
-                    [
-                      'class' => 'notes',
-                      'target' => '_blank',
-                      'rel' => 'noopener follow',
-                      'href' => $notes,
-                      'title' => mud_format_string( TITLE_TEMPLATE_BLOG_PRODUCT_NOTES, [ 'product' => $product ] ),
-                      'style' => 'display: block !important; color: #1982d1; text-decoration: none;',
-                    ]
-                  );
-
-                    out_text( 'notes' );
-
-                  tag_shut( 'a' );
-
-                }
-
-              tag_shut( 'td' );
-
-            tag_shut( 'tr' );
-
-          }
-
-        tag_shut( 'tbody' );
-
-      tag_shut( 'table' );
-
-      out_text( "\n\n" );
-
-      tag_text( 'p', "Let's go shopping!", [ 'id' => $end_id ] );
+      render_equipment_template( $equipment_list );
 
     nip_done( $html, $echo = true );
 
   tag_shut( 'textarea' );
+
+  tag_text(
+    'button',
+    'Copy',
+    [
+      'onclick' => 'copy_preceding_textarea_to_clipboard( this, event )',
+      'style' => 'display:block;margin:20px auto;',
+    ]
+  );
+
+  tag_open( 'textarea', [ 'style' => 'height:400px;' ] );
+
+    nip_init();
+
+      mud_html_set_opt( MUD_HTML_OPT_SPACE, true );
+      mud_html_set_opt( MUD_HTML_OPT_BREAK, false );
+
+      render_equipment_template( $equipment_list );
+
+    nip_done( $html, $echo = true );
+
+  tag_shut( 'textarea' );
+
+  tag_text(
+    'button',
+    'Copy',
+    [
+      'onclick' => 'copy_preceding_textarea_to_clipboard( this, event )',
+      'style' => 'display:block;margin:20px auto;',
+    ]
+  );
+
+}
+
+function render_equipment_template( $equipment_list ) {
+
+  $row_number = 0;
+
+  out_text( 'Following is a product I use picked at random from ' );
+
+    tag_text(
+      'a',
+      'my collection',
+      [
+        'class' => 'external',
+        'target' => '_blank',
+        'rel' => 'noopener follow',
+        'href' => 'https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#heading',
+        'title' => 'Click here to see all of my equipment.',
+      ]
+    );
+
+  out_text( ' which may appear in my videos. ' );
+
+  out_text( 'Clicking through on this to find and click on the green affiliate links before purchasing from ' );
+  out_text( 'eBay or AliExpress is a great way to support the channel at no cost to you. Thanks!' );
+  out_text( "\n\n" );
+
+  $end_id = date( 'Y-m-d-His' );
+
+  /*
+  out_text( 'Note: you can ' );
+  render_link_internal( 'skip this', '#' . $end_id, 'Click here to skip the product list.' );
+  out_text( " if you would prefer.\n\n" );
+  */
+
+  tag_open( 'table', [ 'class' => 'table equipment' ] );
+
+    tag_open( 'tbody' );
+
+      foreach ( $equipment_list as $equipment ) {
+
+        $row_number++;
+
+        $thumb = $equipment->get_equipment_icon()->get_public_url();
+        $product = $equipment->get_equipment_name();
+        $link = $equipment->get_short_link();
+        $notes = strval( $equipment->get_sixsigma_url() );
+
+        tag_open( 'tr' );
+
+          tag_open(
+            'td',
+            [
+              'class' => 'product',
+              'style' => 'text-align: center !important; border-top: 1px solid #ddd;',
+            ]
+            );
+
+            tag_open(
+              'a',
+              [
+                'class' => 'external',
+                'target' => '_blank',
+                'rel' => 'noopener follow',
+                'href' => $link,
+                'title' => mud_format_string( TITLE_TEMPLATE_BLOG_PRODUCT, [ 'product' => $product ] ),
+                'style' => 'display: block !important; color: #1982d1; text-decoration: none;',
+              ]
+            );
+
+              tag_text(
+                'span',
+                $product,
+                [
+                  'class' => 'product-name',
+                  'style' => 'display: block !important; color: #1982d1; text-decoration: none; font-size: 30px; margin: 20px auto;',
+                ]
+              );
+
+              tag_bare(
+                'img',
+                [
+                  'class' => 'thumb',
+                  'loading' => 'lazy',
+                  'src' => $thumb,
+                  'alt' => 'This is an image of the product.',
+                  // 2024-07-29 jj5 - NEW:
+                  'style' => 'display: block !important; border: 1px solid black; border-radius: 10px; margin: 20px auto; height: auto !important; width: 150px;',
+                  // 2024-07-29 jj5 - OLD:
+                  //'style' => 'display: block !important; border: 1px solid black; border-radius: 10px; margin: 20px auto; min-width: 50% !important; height: auto !important; width: 150px;',
+                ]
+              );
+
+            tag_shut( 'a' );
+
+            if ( $notes ) {
+
+              tag_open(
+                'a',
+                [
+                  'class' => 'notes',
+                  'target' => '_blank',
+                  'rel' => 'noopener follow',
+                  'href' => $notes,
+                  'title' => mud_format_string( TITLE_TEMPLATE_BLOG_PRODUCT_NOTES, [ 'product' => $product ] ),
+                  'style' => 'display: block !important; color: #1982d1; text-decoration: none;',
+                ]
+              );
+
+                out_text( 'notes' );
+
+              tag_shut( 'a' );
+
+            }
+
+          tag_shut( 'td' );
+
+        tag_shut( 'tr' );
+
+      }
+
+    tag_shut( 'tbody' );
+
+  tag_shut( 'table' );
+
+  out_text( "\n\n" );
+
+  // 2024-08-17 jj5 - NEW:
+  tag_text( 'p', "Let's go shopping!" );
+  // 2024-08-17 jj5 - OLD:
+  //tag_text( 'p', "Let's go shopping!", [ 'id' => $end_id ] );
 
 }
 

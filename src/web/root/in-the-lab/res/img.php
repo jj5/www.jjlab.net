@@ -29,17 +29,22 @@ function app_render() {
 
     default :
 
+      // 2024-08-14 jj5 - NOTE: I accidentally published some URLs with missing file name extensions... so we handle that
+      // here and 301 redirect to the correct URL.
+
       $filename = rtrim( $filename, '.' );
 
       foreach ( [ 'png', 'jpg', 'webp', 'svg' ] as $extension ) {
 
-        $path = find_image( $filename . '.' . $extension, $res_dir );
+        $fullname = "$filename.$extension";
+
+        $path = find_image( $fullname, $res_dir );
 
         if ( $path && file_exists( $path ) ) {
 
-          $url = 'https://www.inthelabwithjayjay.com/in-the-lab/res/img.php/' . $filename . '.' . $extension;
+          $url = "https://www.inthelabwithjayjay.com/in-the-lab/res/img.php/$fullname";
 
-          // 2024-08-14 jj5 - we could just render here, but redirection is probably better...
+          // 2024-08-14 jj5 - we could just render here, but redirection is probably tidier...
 
           header( 'HTTP/1.1 301 Moved Permanently', true, 301 );
 
