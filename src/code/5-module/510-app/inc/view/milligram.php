@@ -1377,9 +1377,6 @@ function render_blog_template( $equipment_list ) {
       out_text( "\n\n" );
 
       mud_html_set_opt( MUD_HTML_OPT_SPACE, false );
-
-      tag_bare( 'hr' );
-
       mud_html_set_opt( MUD_HTML_OPT_BREAK, true );
 
       render_equipment_template( $equipment_list );
@@ -1401,8 +1398,8 @@ function render_blog_template( $equipment_list ) {
 
     nip_init();
 
-      mud_html_set_opt( MUD_HTML_OPT_SPACE, true );
-      mud_html_set_opt( MUD_HTML_OPT_BREAK, false );
+      mud_html_set_opt( MUD_HTML_OPT_SPACE, false );
+      mud_html_set_opt( MUD_HTML_OPT_BREAK, true );
 
       render_equipment_template( $equipment_list );
 
@@ -1424,6 +1421,8 @@ function render_blog_template( $equipment_list ) {
 function render_equipment_template( $equipment_list ) {
 
   $row_number = 0;
+
+  tag_bare( 'hr' );
 
   out_text( 'Following is a product I use picked at random from ' );
 
