@@ -1030,6 +1030,7 @@ show(
     blog_url( 'https://blog.jj5.net/blog/2024/07/26/electronics-project-icl8038-monolithic-function-signal-generator-kit-build-and-test-in-the-lab/' ),
     patreon_url( 'https://www.patreon.com/posts/108839807' ),
   ),
+  /*
   old_book_teardown(
     publication_date( '2024-08-15' ),
     youtube_video( '' ),
@@ -1046,6 +1047,7 @@ show(
       ),
     ),
   ),
+  */
 );
 
 show(
