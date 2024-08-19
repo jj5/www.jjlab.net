@@ -49,3 +49,8 @@ affiliate(
   affiliate_name( 'WASD Keyboards' ),
   affiliate_url( 'https://www.wasdkeyboards.com/' ),
 );
+
+affiliate(
+  affiliate_name( 'archive.org' ),
+  affiliate_url( 'https://www.archive.org/' ),
+);

@@ -1030,24 +1030,21 @@ show(
     blog_url( 'https://blog.jj5.net/blog/2024/07/26/electronics-project-icl8038-monolithic-function-signal-generator-kit-build-and-test-in-the-lab/' ),
     patreon_url( 'https://www.patreon.com/posts/108839807' ),
   ),
-  /*
   old_book_teardown(
-    publication_date( '2024-08-15' ),
-    youtube_video( '' ),
-    blog_url( '' ),
-    patreon_url( 'https://www.patreon.com/posts/' ),
+    publication_date( '2024-08-20' ),
+    youtube_video( 'HRhQfjqQ_Yg' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/08/20/old-book-teardown-9-basic-electronics-volumes-1-through-6-1955-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/110400160' ),
     old_book(
       title( "Basic Electronics - Volumes 1 through 6" ),
-      author( 'Frederick Emmons Terman' ),
-      copyright_year( '1947' ),
-      page_count( 953 ),
+      author( 'Van Valkenburgh, Nooger and Neville, Inc.' ),
+      copyright_year( '1955' ),
+      page_count( 647 ),
       affiliate_link(
-        equipment_url ( 'https://www.amazon.com/dp/B0007JUUAO' ),
-        item_price    ( 'US$19.99' ),
+        equipment_url ( 'https://www.archive.org/details/BasicElectronicsVolumes151955' ),
       ),
     ),
   ),
-  */
 );
 
 show(

@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /in-the-lab/debug.php
+Disallow: /in-the-lab/jjcode.php
 Disallow: /in-the-lab/blog-template.php
 Disallow: /in-the-lab/youtube-template.php
 

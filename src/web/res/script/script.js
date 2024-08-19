@@ -105,7 +105,7 @@ function handle_keydown( ev ) {
     'm': '/channel.php/@InTheLabWithJayJay#heading',
     '1': '/channel.php/@InTheLabWithJayJay#heading',
     '2': '/channel.php/@ElliotsExtras#heading',
-    '5': '/about.php#jjcode',
+    '5': '/jjcode.php#heading',
     's': '/sponsor.php#heading',
     'e': '/equipment.php#heading',
     'a': '/about.php#heading',
