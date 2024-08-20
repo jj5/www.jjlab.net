@@ -41,6 +41,14 @@ function app_render() {
 
       }
 
+      // 2024-08-20 jj5 - HACK!
+      //
+      if ( $g_video_id === 'IcWDobo0Nok' ) {
+
+        return redirect_to_video( 'U5Uicx8KIgk' );
+
+      }
+
       // 2024-07-02 jj5 - NOTE: if we land here the video id is in the URL path but we put it into $_GET for back compat.
 
       $_GET[ 'from' ] = $g_video_id;
