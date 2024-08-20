@@ -41,12 +41,19 @@ function app_render() {
 
       }
 
-      // 2024-08-20 jj5 - HACK!
+      // 2024-08-20 jj5 - if we replace videos we can record that here...
       //
-      if ( $g_video_id === 'IcWDobo0Nok' ) {
+      $video_map = [
+        'IcWDobo0Nok' => 'U5Uicx8KIgk',
+      ];
 
-        return redirect_to_video( 'U5Uicx8KIgk' );
+      foreach ( $video_map as $from => $to ) {
 
+        if ( $g_video_id === $from ) {
+
+          return redirect_to_video( $to );
+
+        }
       }
 
       // 2024-07-02 jj5 - NOTE: if we land here the video id is in the URL path but we put it into $_GET for back compat.
@@ -89,11 +96,11 @@ function redirect_to_video( $video_id ) {
 
   $path_parts[ 2 ] = $video_id;
 
-  $script_name = url_base() . '/show.php#heading';
+  $script_name = url_base() . '/show.php';
 
   $query_string = $_GET ? '?' . http_build_query( $_GET ) : '';
 
-  $new_url = $script_name . implode( '/', $path_parts ) . $query_string;
+  $new_url = $script_name . implode( '/', $path_parts ) . $query_string . '#heading';
 
   return http_redirect( $new_url, 301 );
 
