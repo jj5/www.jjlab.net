@@ -43,11 +43,9 @@ function app_render() {
 
       // 2024-08-20 jj5 - if we replace videos we can record that here...
       //
-      $video_map = [
-        'IcWDobo0Nok' => 'U5Uicx8KIgk',
-      ];
+      global $g_old_video_map;
 
-      foreach ( $video_map as $from => $to ) {
+      foreach ( $g_old_video_map as $from => $to ) {
 
         if ( $g_video_id === $from ) {
 

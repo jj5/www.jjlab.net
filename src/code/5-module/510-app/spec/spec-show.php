@@ -1,5 +1,10 @@
 <?php
 
+// 2024-08-20 jj5 - if we replace videos we can record that in this map from old to new...
+//
+global $g_old_video_map;
+$g_old_video_map = [];
+
 show(
   early_content(
     publication_date( '2023-06-17' ),
@@ -1119,6 +1124,8 @@ show(
     patreon_url( 'https://www.patreon.com/posts/109630940' ),
   ),
 );
+
+$g_old_video_map[ 'IcWDobo0Nok' ] = 'U5Uicx8KIgk';
 
 show(
   mail_call(
