@@ -100,7 +100,10 @@ function redirect_to_video( $video_id ) {
 
   $query_string = $_GET ? '?' . http_build_query( $_GET ) : '';
 
-  $new_url = $script_name . implode( '/', $path_parts ) . $query_string . '#heading';
+  // 2024-08-20 jj5 - NEW:
+  $new_url = $script_name . implode( '/', $path_parts ) . $query_string . '#' . $video_id;
+  // 2024-08-20 jj5 - OLD:
+  //$new_url = $script_name . implode( '/', $path_parts ) . $query_string . '#heading';
 
   return http_redirect( $new_url, 301 );
 
