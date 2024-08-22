@@ -14389,14 +14389,17 @@ equipment(
   ),
 );
 
-
 equipment(
   equipment_date( '2024-08-23' ),
   equipment_icon( 'https://i.ebayimg.com/images/g/TmsAAOSwSxJjB1JZ/s-l1600.jpg' ),
   equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.fluke.com/en-us/product/electrical-testing/digital-multimeters/fluke-17b-plus' ),
+      link_text       ( 'Fluke 17B+ Digital Multimeter' ),
+    ),
     manufacturer_name ( 'Fluke' ),
     model_name        ( '17B+' ),
-    EquipmentFeature::MULTIMETER,
+    EquipmentFeature::DIGITAL_MULTIMETER,
     EquipmentFeature::HANDHELD_MULTIMETER,
     EquipmentFeature::VOLTMETER,
     EquipmentFeature::AMMETER,

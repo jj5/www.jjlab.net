@@ -647,6 +647,11 @@ equipment_define(
   );
 
     equipment_define(
+      EquipmentFeature::DIGITAL_MULTIMETER,
+      EquipmentFeature::MULTIMETER,
+    );
+
+    equipment_define(
       EquipmentFeature::HANDHELD_MULTIMETER,
       EquipmentFeature::MULTIMETER,
       EquipmentAttribute::HAND_TOOL,
@@ -3190,7 +3195,7 @@ equipment_define(
     EquipmentFeature::SAFETY_GOGGLES,
     EquipmentFeature::GOGGLES,
   );
-  
+
 //
 // 2024-08-04 jj5 - BADGE_HOLDER
 //

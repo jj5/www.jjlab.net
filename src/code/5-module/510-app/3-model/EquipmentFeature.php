@@ -281,6 +281,8 @@ enum EquipmentFeature : string {
 
     case MULTIMETER = 'multimeter';
 
+      case DIGITAL_MULTIMETER = 'digital-multimeter';
+
       case HANDHELD_MULTIMETER = 'handheld-multimeter';
 
       case BENCH_MULTIMETER = 'bench-multimeter';
@@ -1360,7 +1362,7 @@ enum EquipmentFeature : string {
 
     case HOOK_TOOLS = 'hook-tools';
 
-    case MULTI_PURPOSE_HOOK = 'multi-purpose-hook'; 
+    case MULTI_PURPOSE_HOOK = 'multi-purpose-hook';
 
   //
   // 2024-08-04 jj5 - ELECTRONICS_PROJECT
