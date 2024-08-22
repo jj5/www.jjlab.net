@@ -14390,6 +14390,43 @@ equipment(
 );
 
 
+equipment(
+  equipment_date( '2024-08-23' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/TmsAAOSwSxJjB1JZ/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Fluke' ),
+    model_name        ( '17B+' ),
+    EquipmentFeature::MULTIMETER,
+    EquipmentFeature::HANDHELD_MULTIMETER,
+    EquipmentFeature::VOLTMETER,
+    EquipmentFeature::AMMETER,
+    EquipmentFeature::OHMMETER,
+    EquipmentFeature::CAPACITANCE_METER,
+    EquipmentFeature::FREQUENCY_COUNTER,
+    EquipmentFeature::CONTINUITY_TESTER,
+    EquipmentFeature::DIODE_TESTER,
+    EquipmentFeature::THERMOMETER,
+    EquipmentAttribute::HAND_TOOL,
+    EquipmentAttribute::CORDLESS,
+    EquipmentConnectivity::BANANA_PLUG,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/276199258799' ),
+    affiliate_url ( 'https://ebay.us/t6ouCF' ),
+    listing_name  ( 'Fluke 17B+ Capacity Digital Multimeter Auto Range AC DC voltage current Ohm' ),
+    item_price    ( 'AU$222.98' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/276199258799' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=13-11951-27361&purchaseOrderId=13-1195-127360' ),
+    order_id        ( '13-1195-127360' ),
+    order_date      ( '2024-08-18' ),
+    order_price     ( 'AU$222.98' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
 /*
 
 equipment(

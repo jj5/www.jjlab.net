@@ -1169,3 +1169,14 @@ show(
     patreon_url( 'https://www.patreon.com/posts/110270351' ),
   ),
 );
+/*
+show(
+  mail_call(
+    publication_date( '2024-08-23' ),
+    title( 'Books from Amazon, Cables from AliExpress, and a Fluke Meter from eBay!' ),
+    youtube_video( 'JPFzNoW21T4' ),
+    blog_url( '' ),
+    patreon_url( 'https://www.patreon.com/posts/' ),
+  ),
+);
+*/
