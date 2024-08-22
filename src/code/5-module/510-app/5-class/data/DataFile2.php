@@ -10,7 +10,7 @@ class DataFile2 {
 
   }
 
-  public function get_key( string $group, mixed $value, mixed $default = null ) : string {
+  public function get_key( string $group, mixed $value, mixed $default = null ) : string|null {
 
     if ( false ) {
 
@@ -148,7 +148,7 @@ class DataFile2 {
 
   }
 
-  public function set_value( string $group, string $key, mixed $value ) : void { 
+  public function set_value( string $group, string $key, mixed $value ) : void {
 
     if ( false ) {
 
