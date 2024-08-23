@@ -1189,3 +1189,13 @@ show(
     patreon_url( 'https://www.patreon.com/posts/110617426' ),
   ),
 );
+
+show(
+  interlude(
+    publication_date( '2024-08-25' ),
+    title( "Making a Power Breakout Box" ),
+    youtube_video( 'uueC1en21cI' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/08/25/interlude-9-making-a-power-breakout-box-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/110634757' ),
+  ),
+);
