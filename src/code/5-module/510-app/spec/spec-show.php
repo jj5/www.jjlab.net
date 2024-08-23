@@ -1179,3 +1179,13 @@ show(
     patreon_url( 'https://www.patreon.com/posts/110606633' ),
   ),
 );
+
+show(
+  interlude(
+    publication_date( '2024-08-24' ),
+    title( "Making My Maker Faire 'Here There Be Makers' Badge" ),
+    youtube_video( 'R7vu0dCnLHk' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/08/24/interlude-8-making-my-maker-faire-here-there-be-makers-badge-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/110617426' ),
+  ),
+);
