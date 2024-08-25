@@ -1219,3 +1219,14 @@ show(
     patreon_url( 'https://www.patreon.com/posts/110745342' ),
   ),
 );
+
+show(
+  unboxing(
+    publication_date( '2024-08-28' ),
+    title( 'Unboxing of Fluke 17B+ Multimeter' ),
+    youtube_video( 'vXRIxMwIUms' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/08/28/unboxing-14-unboxing-of-fluke-17b-multimeter-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/110747771' ),
+  ),
+);
+
