@@ -14438,6 +14438,10 @@ equipment(
       link_href       ( 'https://www.mechanichk.com/mechanic-ht-20-intelligent-double-digital-constant-temperature-heating-table_p197004.html' ),
       link_text       ( 'Mechanic HT-20 Intelligent Double Digital Constant Temperature Heating Table' ),
     ),
+    manufacturer_link (
+      link_href       ( 'https://www.mechanichk.com/mechanic-ht-10-intelligent-double-digital-constant-temperature-heating-table_p197005.html' ),
+      link_text       ( 'Mechanic HT-10 Intelligent Double Digital Constant Temperature Heating Table' ),
+    ),
     manufacturer_name ( 'MECHANIC' ),
     model_name        ( 'HT-20' ),
     EquipmentFeature::HEATING_TABLE,

@@ -1205,7 +1205,17 @@ show(
     publication_date( '2024-08-26' ),
     title( 'Unboxing of MECHANIC HT-20 Heating Table' ),
     youtube_video( '1BvSaaMB2Bw' ),
-    blog_url( '' ),
-    patreon_url( 'https://www.patreon.com/posts/' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/08/26/unboxing-13-unboxing-of-mechanic-ht-20-heating-table-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/110743204' ),
+  ),
+);
+
+show(
+  interlude(
+    publication_date( '2024-08-27' ),
+    title( "Take Three: Improving My Maker Faire 'Here There Be Makers' Badge" ),
+    youtube_video( 'sgs-xxL1-8Q' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/08/27/interlude-10-take-three-improving-my-maker-faire-here-there-be-makers-badge-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/110745342' ),
   ),
 );
