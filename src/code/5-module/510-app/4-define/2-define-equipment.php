@@ -1844,6 +1844,12 @@ equipment_define(
 );
 
   equipment_define(
+    EquipmentFeature::HEATING_TABLE,
+    EquipmentFeature::SOLDERING_TOOL,
+    EquipmentAttribute::BENCH_EQUIPMENT,
+  );
+
+  equipment_define(
     EquipmentFeature::SOLDER_POT,
     EquipmentFeature::SOLDERING_TOOL,
     EquipmentAttribute::BENCH_EQUIPMENT,

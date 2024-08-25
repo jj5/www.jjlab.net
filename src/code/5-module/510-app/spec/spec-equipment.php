@@ -14430,6 +14430,37 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2024-08-25' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sce7e55caef1a417c8f290d068e31cecfy/Heating-Table-MECHANIC-HT-20-Intelligent-Constant-Temperature-Double-Digital-Display-for-Repair-Mobile-Phone-PCB.jpg_.webp' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.mechanichk.com/mechanic-ht-20-intelligent-double-digital-constant-temperature-heating-table_p197004.html' ),
+      link_text       ( 'Mechanic HT-20 Intelligent Double Digital Constant Temperature Heating Table' ),
+    ),
+    manufacturer_name ( 'MECHANIC' ),
+    model_name        ( 'HT-20' ),
+    EquipmentFeature::HEATING_TABLE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007325278153.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_Dd39jbt' ),
+    listing_name  ( 'Heating Table MECHANIC HT-20 Intelligent Constant Temperature Double Digital Display for Repair Mobile Phone PCB Heat Platform' ),
+    item_price    ( 'AU$65.78' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007325278153.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.274.77671802IGZlRK&orderId=8192646639073938' ),
+    order_id        ( '8192646639073938' ),
+    order_date      ( 'Aug 19, 2024' ),
+    order_price     ( 'AU$73.53' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$27.40' ),
+    order_tax       ( 'AU$10.09' ),
+  ),
+);
+
 /*
 
 equipment(

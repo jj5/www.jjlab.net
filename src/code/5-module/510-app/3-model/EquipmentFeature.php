@@ -794,6 +794,8 @@ enum EquipmentFeature : string {
 
   case SOLDERING_TOOL = 'soldering-tool';
 
+    case HEATING_TABLE = 'heating-table';
+
     case SOLDER_POT = 'solder-pot';
 
     case SOLDERING_STAND = 'soldering-stand';

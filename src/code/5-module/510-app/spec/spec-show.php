@@ -1199,3 +1199,13 @@ show(
     patreon_url( 'https://www.patreon.com/posts/110634757' ),
   ),
 );
+
+show(
+  unboxing(
+    publication_date( '2024-08-26' ),
+    title( 'Unboxing of MECHANIC HT-20 Heating Table' ),
+    youtube_video( '1BvSaaMB2Bw' ),
+    blog_url( '' ),
+    patreon_url( 'https://www.patreon.com/posts/' ),
+  ),
+);

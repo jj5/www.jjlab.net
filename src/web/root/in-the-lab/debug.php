@@ -94,6 +94,16 @@ function render_debug_menu() {
 
         tag_shut( 'li' );
 
+        tag_open( 'li' );
+
+          render_link_internal(
+            'Equipment (no sort)',
+            url_base() . '/equipment.php?sort=none#total-paid',
+            TITLE_EQUIPMENT,
+          );
+
+        tag_shut( 'li' );
+
       tag_shut( 'ul' );
 
 
