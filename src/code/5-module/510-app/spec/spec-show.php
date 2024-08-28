@@ -1230,3 +1230,12 @@ show(
   ),
 );
 
+show(
+  mail_call(
+    publication_date( '2024-08-29' ),
+    title( 'Books from Amazon, RCDs from Bunnings, and Kits from AliExpress!' ),
+    youtube_video( 'AkCF5-a2rWY' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/08/29/mail-call-8-books-from-amazon-rcds-from-bunnings-and-kits-from-aliexpress-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/110967640' ),
+  ),
+);

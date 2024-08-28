@@ -55,6 +55,7 @@ define( 'TITLE_FEATURE_CHANNEL_NEWS', 'Click here to see channel news.' );
 define( 'TITLE_FEATURE_INTERLUDE', 'Click here to watch the videos where I take a break from the main show.' );
 define( 'TITLE_FEATURE_MAIL_CALL', "Click here to watch videos of recently arrived packages." );
 define( 'TITLE_FEATURE_UNBOXING', "Click here to watch the unboxing videos." );
+define( 'TITLE_FEATURE_DEMO', "Click here to watch the demo videos." );
 
 define( 'TITLE_FEATURE_MAXITRONIX_KITS', 'Click here to learn about the Maxitronix Xin1 electronic project labs.' );
 define( 'TITLE_FEATURE_MAXITRONIX', 'Click here to watch the videos where I work through a Maxitronix Xin1 electronic project kit.' );
@@ -1997,6 +1998,16 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
       tag_open( 'li' );
 
         render_link_internal(
+          'Demos',
+          url_base() . '/#demos',
+          TITLE_FEATURE_DEMO,
+        );
+
+      tag_shut( 'li' );
+
+      tag_open( 'li' );
+
+        render_link_internal(
           'Channel News',
           url_base() . '/#channel-news',
           TITLE_FEATURE_EARLY_CONTENT,
@@ -2059,6 +2070,8 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
   render_section_about_mail_call( $heading_level + 1 );
 
   render_section_about_unboxing( $heading_level + 1 );
+
+  render_section_about_demo( $heading_level + 1 );
 
   render_section_about_channel_news( $heading_level + 1 );
 
@@ -2397,6 +2410,54 @@ function render_section_about_unboxing( int $heading_level = 2 ) {
     tag_shut( 'p' );
 
     tag_text( 'p', 'Whenever I get new equipment I try to record an unboxing video.' );
+
+    tag_text( 'p', 'In the past the unboxing video and the demo were the same thing, but now I try to keep them separate.' );
+
+  tag_shut( 'section' );
+
+}
+
+function render_section_about_demo( int $heading_level = 2 ) {
+
+  tag_open( 'section' );
+
+    tag_text( "h{$heading_level}", 'Demos', [ 'id' => 'demos' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'Occasionally I do a ' );
+
+      render_link_internal(
+        'demo video',
+        url_base() . '/feature.php/demo#heading',
+        TITLE_FEATURE_DEMO,
+      );
+
+      out_text( ' on the ' );
+
+      render_link_internal(
+        'main channel',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
+        TITLE_CHANNEL_MAIN,
+      );
+
+      out_text( '.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'Whenever I get new equipment I try to record an ' );
+
+      render_link_internal(
+        'unboxing video',
+        url_base() . '/feature.php/unboxing#heading',
+        TITLE_FEATURE_UNBOXING,
+      );
+
+      out_text( ' and then a demo video. The demo video is where I show you how the equipment works.' );
+
+    tag_shut( 'p' );
 
   tag_shut( 'section' );
 

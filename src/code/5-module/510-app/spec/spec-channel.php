@@ -94,6 +94,11 @@ channel(
       feature_text( 'In the unboxing videos we open the box and take a look at a new item, such as tools or components.' ),
     ),
     feature(
+      feature_slug( 'demo' ),
+      feature_name( 'Demo' ),
+      feature_text( 'In the demo videos we take a look at a new item, such as tools or components.' ),
+    ),
+    feature(
       feature_slug( 'channel-news' ),
       feature_name( 'Channel News' ),
       feature_text( 'In the channel news videos I let you know about developments related to the show.' ),
