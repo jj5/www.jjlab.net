@@ -51,6 +51,14 @@ function main() {
 
 function check_cache( &$path = null ) {
 
+  if ( defined( 'NOCACHE' ) && NOCACHE ) {
+
+    //mud_log_5_notice( "cache is disabled." );
+
+    return false;
+
+  }
+
   $path = $_SERVER[ 'REQUEST_URI' ];
   $query = $_SERVER[ 'QUERY_STRING' ] ?? '';
 
