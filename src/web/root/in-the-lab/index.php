@@ -93,14 +93,6 @@ function render_index_main() {
 
     render_section_about_video_content();
 
-    render_section_about_stats();
-
-    render_section_about_structure();
-
-    render_section_about_sitemap( 3 );
-
-    render_section_about_rss_feeds( 3 );
-
     render_section_about_show_notes();
 
     render_section_about_channels();
@@ -111,19 +103,27 @@ function render_index_main() {
 
     render_section_about_extra_content();
 
-    render_section_about_recording_quality();
-
     render_section_about_costume();
 
-    render_section_about_contact();
+    render_section_about_stats();
 
-    render_section_about_sponsors();
+    render_section_about_structure();
+
+    render_section_about_sitemap( 3 );
+
+    render_section_about_rss_feeds( 3 );
+
+    render_section_about_recording_quality();
 
     render_section_about_homies();
 
     render_section_about_equipment();
 
     render_section_about_affiliates();
+
+    render_section_about_sponsors();
+
+    render_section_about_contact();
 
     render_section_about_next();
 

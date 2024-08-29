@@ -1239,3 +1239,31 @@ show(
     patreon_url( 'https://www.patreon.com/posts/110967640' ),
   ),
 );
+
+show(
+  silly_job_title( 'Component Wrangler' ),
+  electronics_project(
+    publication_date( '2024-08-30' ),
+    title( "Debugging the Symbol Keyboard Mini Project JMP001" ),
+    youtube_video( '' ),
+    blog_url( '' ),
+    patreon_url( 'https://www.patreon.com/posts/' ),
+  ),
+  /*
+  old_book_teardown(
+    publication_date( '2024-08-20' ),
+    youtube_video( 'HRhQfjqQ_Yg' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/08/20/old-book-teardown-9-basic-electronics-volumes-1-through-6-1955-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/110400160' ),
+    old_book(
+      title( "Basic Electronics - Volumes 1 through 6" ),
+      author( 'Van Valkenburgh, Nooger and Neville, Inc.' ),
+      copyright_year( '1955' ),
+      page_count( 647 ),
+      affiliate_link(
+        equipment_url ( 'https://www.archive.org/details/BasicElectronicsVolumes151955' ),
+      ),
+    ),
+  ),
+  */
+);
