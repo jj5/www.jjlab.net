@@ -1245,9 +1245,9 @@ show(
   electronics_project(
     publication_date( '2024-08-30' ),
     title( "Debugging the Symbol Keyboard Mini Project JMP001" ),
-    youtube_video( '' ),
-    blog_url( '' ),
-    patreon_url( 'https://www.patreon.com/posts/' ),
+    youtube_video( 'Mus_AKH1iBM' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/09/01/electronics-project-8-debugging-the-symbol-keyboard-mini-project-jmp001-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/111181703' ),
   ),
   /*
   old_book_teardown(
