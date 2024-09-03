@@ -1267,3 +1267,13 @@ show(
   ),
   */
 );
+
+show(
+  demo(
+    publication_date( '2024-09-03' ),
+    title( 'How to Use All the Features of the Fluke 17B+ Digital Multimeter' ),
+    youtube_video( 'KwPs7ES5Cso' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/09/03/demo-1-how-to-use-all-the-features-of-the-fluke-17b-digital-multimeter-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/111313466' ),
+  ),
+);
