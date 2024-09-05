@@ -14794,6 +14794,33 @@ equipment(
 
 equipment(
   equipment_date( '2024-08-20' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S8afad955b3ad428f9dfd5d952108338cl/8-Key-Macro-Programmable-Fully-Hot-Swappable-Mechanical-Switch-4-Color-RGB-Light-Gaming-Mini-Keyboard.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'Macro Programmable 8-Key' ),
+    EquipmentFeature::MECHANICAL_KEYBOARD,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005983374802.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DCWqguT' ),
+    listing_name  ( '8 Key Macro Programmable Fully Hot Swappable Mechanical Switch 4 Color RGB Light Gaming Mini Keyboard' ),
+    item_price    ( 'AU$12.69' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005983374802.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.167.2f1c1802PaQAUI&orderId=8191954755603938' ),
+    order_id        ( '8191954755603938' ),
+    order_date      ( 'Aug 20, 2024' ),
+    order_item_name ( '8 Key Macro Programmable Fully Hot Swappable Mechanical Switch 4 Color RGB Light Gaming Mini Keyboard' ),
+    order_price     ( 'AU$8.19' ),
+    order_quantity  ( 1 ),
+    order_tax       ( 'AU$1.24' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-08-20' ),
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S069f7ced6be94bf3a4ada54c5af012dff/5in1-CO2-Meter-Digital-Multifunctional-Temperature-Humidity-Tester-Carbon-Dioxide-TVOC-HCHO-Detector-Air-Quality-Monitor.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
