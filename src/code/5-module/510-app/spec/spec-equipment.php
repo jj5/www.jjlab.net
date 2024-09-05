@@ -14425,13 +14425,71 @@ equipment(
     order_url       ( 'https://order.ebay.com.au/ord/show?orderId=13-11951-27361&purchaseOrderId=13-1195-127360' ),
     order_id        ( '13-1195-127360' ),
     order_date      ( '2024-08-18' ),
+    order_item_name ( 'Fluke 17B+ Capacity Digital Multimeter Auto Range AC DC voltage current Ohm' ),
     order_price     ( 'AU$222.98' ),
     order_quantity  ( 1 ),
   ),
 );
 
 equipment(
-  equipment_date( '2024-08-19' ),
+  equipment_date( '2024-08-18' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S06f38f7aeb134811ae041fe60136de4df/Plush-Microfiber-Tire-Rim-Wheel-Hub-Cleaning-Brush-Car-Beauty-Car-Wash-Brush-Maintenance-Tools-Cleaning.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'Microfiber' ),
+    EquipmentFeature::BRUSH,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006930891953.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DcxQ6Lh' ),
+    listing_name  ( 'Plush Microfiber Tire Rim Wheel Hub Cleaning Brush Car Beauty Car Wash Brush Maintenance Tools Cleaning Supplies' ),
+    item_price    ( 'AU$3.73' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006930891953.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.349.20cf1802YNcrMG&orderId=8191905872733938' ),
+    order_id        ( '8191905872733938' ),
+    order_date      ( 'Aug 18, 2024' ),
+    order_item_name ( 'Plush Microfiber Tire Rim Wheel Hub Cleaning Brush Car Beauty Car Wash Brush Maintenance Tools Cleaning Supplies' ),
+    order_options   ( 'BLUE' ),
+    order_price     ( 'AU$2.44' ),
+    order_quantity  ( 1 ),
+    order_tax       ( 'AU$0.34' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-08-18' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/H520a0a5bc1d24d209837da78596ca9d9a/Universal-1-PCS-Magnetic-Ring-Alloy-Magnetic-Ring-Screwdriver-Bits-Anti-corrosion-Strong-Magnetizer-Drill-Bit.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'Universal Magnetic Ring' ),
+    EquipmentFeature::DRILL_BIT,
+    EquipmentFeature::MAGNETIC_PICKUP_TOOL,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005959896803.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DmCigIR' ),
+    listing_name  ( 'Universal 1 PCS Magnetic Ring Alloy Magnetic Ring Screwdriver Bits Anti-corrosion Strong Magnetizer Drill Bit Magnetic Ring' ),
+    item_price    ( 'AU$3.66' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005959896803.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.325.20cf1802YNcrMG&orderId=8191905872813938' ),
+    order_id        ( '8191905872813938' ),
+    order_date      ( 'Aug 18, 2024' ),
+    order_item_name ( 'Universal 1 PCS Magnetic Ring Alloy Magnetic Ring Screwdriver Bits Anti-corrosion Strong Magnetizer Drill Bit Magnetic Ring' ),
+    order_options   ( '3pcs Colorful' ),
+    order_price     ( 'AU$3.66' ),
+    order_quantity  ( 1 ),
+    order_tax       ( 'AU$0.51' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-08-18' ),
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S6a0f4c72ec7b43559cd518c8bbd21ca0K/ANENG-BT189-Button-Cell-Battery-Tester-9V-N-D-C-AA-AAA-Universal-Household-LCD-Display.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'ANENG' ),
@@ -14440,20 +14498,48 @@ equipment(
   ),
   sixsigma_url  ( '' ),
   affiliate_link(
-    equipment_url ( 'https://www.aliexpress.com/item/1005007325278153.html' ),
-    affiliate_url ( 'https://s.click.aliexpress.com/e/_Dd39jbt' ),
-    listing_name  ( 'Heating Table MECHANIC HT-20 Intelligent Constant Temperature Double Digital Display for Repair Mobile Phone PCB Heat Platform' ),
-    item_price    ( 'AU$65.78' ),
+    equipment_url ( 'https://www.aliexpress.com/item/1005006842756757.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DlDfZMR' ),
+    listing_name  ( 'ANENG BT189 Button Cell Battery Tester 9V N D C AA AAA Universal Household LCD Display Battery Tester Power Bank Detectors Tools' ),
+    item_price    ( 'AU$5.09' ),
   ),
   purchase(
-    equipment_url   ( 'https://www.aliexpress.com/item/1005007325278153.html' ),
-    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.274.77671802IGZlRK&orderId=8192646639073938' ),
-    order_id        ( '8192646639073938' ),
-    order_date      ( 'Aug 19, 2024' ),
-    order_price     ( 'AU$73.53' ),
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006842756757.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.307.20cf1802YNcrMG&orderId=8191905872753938' ),
+    order_id        ( '8191905872753938' ),
+    order_date      ( 'Aug 18, 2024' ),
+    order_item_name ( 'ANENG BT189 Button Cell Battery Tester 9V N D C AA AAA Universal Household LCD Display Battery Tester Power Bank Detectors Tools' ),
+    order_price     ( 'AU$3.05' ),
     order_quantity  ( 1 ),
-    order_shipping  ( 'AU$27.40' ),
-    order_tax       ( 'AU$10.09' ),
+    order_tax       ( 'AU$0.48' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-08-18' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S7f0010e22cfa4750b0187d153cb58cadS/2pcs-set-2-8mm-Carpenter-Mechanical-Pencil-with-Sharpener-for-Woodworking-Construction-Long-Head-Carpenter-Pencil.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'MROOFUL' ),
+    model_name        ( 'Carpenter' ),
+    EquipmentFeature::MECHANICAL_PENCIL,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006116146243.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DeMa6Sf' ),
+    listing_name  ( '2pcs/set 2.8mm Carpenter Mechanical Pencil with Sharpener for Woodworking Construction Long Head Carpenter Pencil Stationery' ),
+    item_price    ( 'AU$4.79' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006116146243.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.313.20cf1802YNcrMG&orderId=8191905872773938' ),
+    order_id        ( '8191905872773938' ),
+    order_date      ( 'Aug 18, 2024' ),
+    order_item_name ( '2pcs/set 2.8mm Carpenter Mechanical Pencil with Sharpener for Woodworking Construction Long Head Carpenter Pencil Stationery' ),
+    order_options   ( 'Black set-B' ),
+    order_price     ( 'AU$4.27' ),
+    order_quantity  ( 1 ),
+    order_tax       ( 'AU$0.45' ),
   ),
 );
 
@@ -14485,6 +14571,7 @@ equipment(
     order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.274.77671802IGZlRK&orderId=8192646639073938' ),
     order_id        ( '8192646639073938' ),
     order_date      ( 'Aug 19, 2024' ),
+    order_item_name ( 'Heating Table MECHANIC HT-20 Intelligent Constant Temperature Double Digital Display for Repair Mobile Phone PCB Heat Platform' ),
     order_price     ( 'AU$73.53' ),
     order_quantity  ( 1 ),
     order_shipping  ( 'AU$27.40' ),

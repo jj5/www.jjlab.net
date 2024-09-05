@@ -83,6 +83,7 @@ enum EquipmentClass : string {
   case MOUSE = 'mouse';
   case MULTIMETER = 'multimeter';
   case PEN = 'pen';
+  case PENCIL = 'pencil';
   case PICKUP_TOOL = 'pickup-tool';
   case PLIERS = 'pliers';
   case POCKET_PROTECTOR = 'pocket-protector';

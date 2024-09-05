@@ -46,4 +46,6 @@ enum EquipmentAttribute : string {
 
   case WEARABLE = 'wearable';
 
+  case WRITING_INSTRUMENT = 'writing-instrument';
+
 }

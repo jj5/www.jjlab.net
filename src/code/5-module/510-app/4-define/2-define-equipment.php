@@ -3739,20 +3739,6 @@ equipment_define(
   );
 
 //
-// 2024-08-07 jj5 - CIRCUIT_BOARD
-//
-
-equipment_define(
-  EquipmentFeature::CIRCUIT_BOARD,
-  EquipmentClass::CIRCUIT_BOARD,
-);
-
-  equipment_define(
-    EquipmentFeature::PCB,
-    EquipmentFeature::CIRCUIT_BOARD,
-  );
-
-//
 // 2024-08-07 jj5 - BREADBOARD
 //
 
@@ -3770,4 +3756,34 @@ equipment_define(
     EquipmentFeature::SOLDERABLE_BREADBOARD,
     EquipmentFeature::BREADBOARD,
     EquipmentFeature::PCB,
+  );
+
+//
+// 2024-08-07 jj5 - CIRCUIT_BOARD
+//
+
+equipment_define(
+  EquipmentFeature::CIRCUIT_BOARD,
+  EquipmentClass::CIRCUIT_BOARD,
+);
+
+  equipment_define(
+    EquipmentFeature::PCB,
+    EquipmentFeature::CIRCUIT_BOARD,
+  );
+
+
+//
+// 2024-09-05 jj5 - PENCIL
+//
+
+equipment_define(
+  EquipmentFeature::PENCIL,
+  EquipmentClass::PENCIL,
+  EquipmentAttribute::WRITING_INSTRUMENT,
+);
+
+  equipment_define(
+    EquipmentFeature::MECHANICAL_PENCIL,
+    EquipmentFeature::PENCIL,
   );

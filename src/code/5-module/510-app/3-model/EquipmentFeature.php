@@ -1725,4 +1725,12 @@ enum EquipmentFeature : string {
 
     case PCB = 'PCB';
 
+  //
+  // 2024-09-05 jj5 - PENCIL
+  //
+
+  case PENCIL = 'pencil';
+
+    case MECHANICAL_PENCIL = 'mechanical-pencil';
+
 }
