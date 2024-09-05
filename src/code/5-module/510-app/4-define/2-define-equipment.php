@@ -399,6 +399,13 @@ equipment_define(
     EquipmentAttribute::HAND_TOOL,
   );
 
+  equipment_define(
+    EquipmentFeature::SANDPAPER,
+    EquipmentFeature::ABRASIVE,
+    EquipmentAttribute::CONSUMABLE,
+    EquipmentAttribute::HAND_TOOL,
+  );
+
 //
 // 2024-08-04 jj5 - LIGHT
 //
@@ -543,6 +550,11 @@ equipment_define(
   );
 
     equipment_define(
+      EquipmentFeature::BATTERY_TESTER,
+      EquipmentFeature::VOLTMETER_DC,
+    );
+
+    equipment_define(
       EquipmentFeature::VOLTMETER,
       EquipmentFeature::METER,
       EquipmentFeature::VOLTMETER_AC,
@@ -674,6 +686,12 @@ equipment_define(
       EquipmentFeature::TRANSISTOR_TESTER,
       EquipmentFeature::LCR_METER,
     );
+
+  equipment_define(
+    EquipmentFeature::AIR_QUALITY_METER,
+    EquipmentClass::METER,
+    EquipmentFeature::METER,
+  );
 
 //
 // 2024-08-03 jj5 - PROBE
@@ -1946,6 +1964,12 @@ equipment_define(
     EquipmentAttribute::BENCH_EQUIPMENT,
   );
 
+  equipment_define(
+    EquipmentFeature::IC_PULLER,
+    EquipmentFeature::TWEEZERS,
+    EquipmentAttribute::HAND_TOOL,
+  );
+
 //
 // 2024-08-04 jj5 - SCREWDRIVER
 //
@@ -2869,6 +2893,11 @@ equipment_define(
     EquipmentFeature::MAT,
   );
 
+    equipment_define(
+      EquipmentFeature::MAGNETIC_SCREWPAD,
+      EquipmentFeature::REPAIR_MAT,
+    );
+
 //
 // 2024-08-04 jj5 - TEST_CLIP
 //
@@ -2982,6 +3011,11 @@ equipment_define(
     EquipmentFeature::SOLDER_WIRE,
     EquipmentFeature::WIRE,
   );
+
+    equipment_define(
+      EquipmentFeature::SOLDER_TAPE,
+      EquipmentFeature::SOLDER_WIRE,
+    );
 
 //
 // 2024-08-04 jj5 - CONNECTOR
@@ -3295,6 +3329,11 @@ equipment_define(
 
   equipment_define(
     EquipmentFeature::NETWORK_CABLE_TESTER,
+    EquipmentFeature::CABLE_TESTER,
+  );
+
+  equipment_define(
+    EquipmentFeature::USB_CABLE_TESTER,
     EquipmentFeature::CABLE_TESTER,
   );
 

@@ -108,7 +108,8 @@
         "vXRIxMwIUms": "PT17M43S",
         "AkCF5-a2rWY": "PT56M19S",
         "Mus_AKH1iBM": "PT1H1M48S",
-        "KwPs7ES5Cso": "PT1H56M24S"
+        "KwPs7ES5Cso": "PT1H56M24S",
+        "2HwuN_y9iKM": "PT1H32M26S"
     },
     "equipment_icon_ext": {
         "f44b7f19277509f3546ef422626c916f": "png",
@@ -662,6 +663,16 @@
         "098c0e0736bdde3706b1545e5aa899b98fe8b260fa09ebe1dc09c8f2": "webp",
         "512cb78b2d283d675f7983587095962907c65b472ccf6a3c31fb88b6": "webp",
         "208eda2b3df033184ed82138e8894e1848aad050688d757a0859346f": "jpg",
-        "1b32c2c17a5a70bf998f3006168abb7884e4aaed06559f59d3bb07a7": "webp"
+        "1b32c2c17a5a70bf998f3006168abb7884e4aaed06559f59d3bb07a7": "webp",
+        "d76f11f63cb895ab61fed336da45ab7064e0e00cf20e433e379aa83f": "jpg",
+        "ebd59127e9be40b05eb1be2f873b7a33d4a9af162d37fcbb91f44333": "webp",
+        "e85476260c0bec4215e10fd3cdd5d4fde16c3007be92a363b67a5a07": "webp",
+        "a8cb1be50c57ecfd80dff4243ddb76d06126ab01a3e2876eb5e72888": "webp",
+        "e61906dbf3621b4d7e74b4c1d3c9a17e635cdd81b975114b18cbec11": "webp",
+        "2f6fd10b54fe89dfd8616e29ff9b608ed89d8617d6f645fcac6b3cb8": "webp",
+        "4442f57fb834b9671454a5f4cb7c2d735fc3710f7ebc87440d9b8daa": "webp",
+        "a6f9843f3d22a4c5033c64e3f37b2cf731f307f16c24f43891eeddbd": "webp",
+        "de6ebf566a3e6a68fa9657bbeee5713b8766dbdbfdab263565f01a98": "webp",
+        "8a7fea9c503ae99443d58796965a6c9d2203000c2bed82234acc2e10": "webp"
     }
 }

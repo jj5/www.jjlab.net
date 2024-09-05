@@ -183,6 +183,8 @@ enum EquipmentFeature : string {
 
     case SANDING_STICK = 'sanding-stick';
 
+    case SANDPAPER = 'sandpaper';
+
   //
   // 2024-08-04 jj5 - LIGHT
   //
@@ -247,6 +249,8 @@ enum EquipmentFeature : string {
 
       case VOLTMETER_DC = 'DC-voltmeter';
 
+        case BATTERY_TESTER = 'battery-tester';
+
     case AMMETER = 'ammeter';
 
       case AMMETER_AC = 'AC-ammeter';
@@ -288,6 +292,8 @@ enum EquipmentFeature : string {
       case BENCH_MULTIMETER = 'bench-multimeter';
 
       case OSCILLOSCOPE_SIGNAL_GENERATOR_COMPONENT_TESTER = 'oscilloscope,-signal-generator,-component-tester';
+
+    case AIR_QUALITY_METER = 'air-quality-meter';
 
   //
   // 2024-08-04 jj5 - PROBE
@@ -835,6 +841,8 @@ enum EquipmentFeature : string {
 
     case SOLDERING_TWEEZERS = 'soldering-tweezers';
 
+    case IC_PULLER = 'IC-puller';
+
   //
   // 2024-08-04 jj5 - SCREWDRIVER
   //
@@ -1270,6 +1278,8 @@ enum EquipmentFeature : string {
 
     case REPAIR_MAT = 'repair-mat';
 
+      case MAGNETIC_SCREWPAD = 'magnetic-screwpad';
+
   //
   // 2024-08-04 jj5 - TEST_CLIP
   //
@@ -1327,6 +1337,8 @@ enum EquipmentFeature : string {
       case DUPONT_WIRE = 'dupont-wire';
 
     case SOLDER_WIRE = 'solder-wire';
+
+      case SOLDER_TAPE = 'solder-tape';
 
   //
   // 2024-08-04 jj5 - CONNECTOR
@@ -1499,6 +1511,8 @@ enum EquipmentFeature : string {
   case CABLE_TESTER = 'cable-tester';
 
     case NETWORK_CABLE_TESTER = 'network-cable-tester';
+
+    case USB_CABLE_TESTER = 'USB-cable-tester';
 
   //
   // 2024-08-04 jj5 - CLOTH

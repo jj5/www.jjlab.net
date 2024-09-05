@@ -1277,3 +1277,13 @@ show(
     patreon_url( 'https://www.patreon.com/posts/111313466' ),
   ),
 );
+
+show(
+  mail_call(
+    publication_date( '2024-09-04' ),
+    title( 'Tools and Equipment from Jaycar, Amazon, and AliExpress' ),
+    youtube_video( '2HwuN_y9iKM' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/09/05/mail-call-9-tools-and-equipment-from-jaycar-amazon-and-aliexpress-in-the-lab-with-jay-jay' ),
+    patreon_url( 'https://www.patreon.com/posts/111455414' ),
+  ),
+);

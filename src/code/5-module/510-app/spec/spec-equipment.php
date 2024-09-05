@@ -14431,7 +14431,34 @@ equipment(
 );
 
 equipment(
-  equipment_date( '2024-08-25' ),
+  equipment_date( '2024-08-19' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S6a0f4c72ec7b43559cd518c8bbd21ca0K/ANENG-BT189-Button-Cell-Battery-Tester-9V-N-D-C-AA-AAA-Universal-Household-LCD-Display.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'ANENG' ),
+    model_name        ( 'BT189' ),
+    EquipmentFeature::BATTERY_TESTER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007325278153.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_Dd39jbt' ),
+    listing_name  ( 'Heating Table MECHANIC HT-20 Intelligent Constant Temperature Double Digital Display for Repair Mobile Phone PCB Heat Platform' ),
+    item_price    ( 'AU$65.78' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007325278153.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.274.77671802IGZlRK&orderId=8192646639073938' ),
+    order_id        ( '8192646639073938' ),
+    order_date      ( 'Aug 19, 2024' ),
+    order_price     ( 'AU$73.53' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$27.40' ),
+    order_tax       ( 'AU$10.09' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-08-19' ),
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sce7e55caef1a417c8f290d068e31cecfy/Heating-Table-MECHANIC-HT-20-Intelligent-Constant-Temperature-Double-Digital-Display-for-Repair-Mobile-Phone-PCB.jpg_.webp' ),
   equipment_item(
     manufacturer_link (
@@ -14464,6 +14491,313 @@ equipment(
     order_tax       ( 'AU$10.09' ),
   ),
 );
+
+equipment(
+  equipment_date( '2024-08-23' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71GcZX-eZyL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Rossler' ),
+    model_name        ( 'Soho 4x' ),
+    EquipmentFeature::DRAWER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B003TKMJRA' ),
+    listing_name  ( 'Rossler Soho 4 Drawer Filing Storage Box - Black' ),
+    item_price    ( 'AU$78.98' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B003TKMJRA' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o05?ie=UTF8&orderID=249-4439942-1696611' ),
+    order_id        ( '249-4439942-1696611' ),
+    order_date      ( '23 August 2024' ),
+    order_item_name ( 'Rossler Soho 4 Drawer Filing Storage Box - Black' ),
+    order_price     ( 'AU$91.89' ),
+    order_quantity  ( 5 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-08-19' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/H03c6421de59e48e2ab0002578684d90bM/Lead-free-Tin-Silver-Copper-SAC305-Solder-Sheet-Solder-Tape-Solder-Foil-Sn96-5Ag3-0Cu0-5.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'Lead-free Tin Silver Copper SAC305' ),
+    EquipmentFeature::SOLDER_TAPE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005002537366918.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_Dddl1x9' ),
+    listing_name  ( 'Lead-free Tin Silver Copper SAC305 Solder Sheet Solder Tape Solder Foil Sn96.5Ag3.0Cu0.5 Solder Tape' ),
+    item_price    ( 'AU$100.69' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005002537366918.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.289.20cf1802YNcrMG&orderId=8192646639033938' ),
+    order_id        ( '8192646639033938' ),
+    order_date      ( 'Aug 19, 2024' ),
+    order_item_name ( 'Lead-free Tin Silver Copper SAC305 Solder Sheet Solder Tape Solder Foil Sn96.5Ag3.0Cu0.5 Solder Tape' ),
+    order_price     ( 'AU$102.16' ),
+    order_quantity  ( 1 ),
+    order_tax       ( 'AU$10.22' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-08-20' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sfe00008365c4442d9431634b37745024L/Wowstick-wowpad-Magnetic-Screwpad-Screw-Postion-Memory-Plate-Mat-For-kit-1FS-Electric-1P-1F-Plus.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Wowstick' ),
+    model_name        ( 'Wowpad' ),
+    EquipmentFeature::MAGNETIC_SCREWPAD,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007413309302.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DdXEEKR' ),
+    listing_name  ( 'Wowstick wowpad Magnetic Screwpad Screw Postion Memory Plate Mat For kit 1FS Electric 1P+ 1F+ Plus magnetic sticker' ),
+    item_price    ( 'AU$4.25' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007413309302.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.46.20cf1802YNcrMG&orderId=8191958993153938' ),
+    order_id        ( '8191958993153938' ),
+    order_date      ( 'Aug 20, 2024' ),
+    order_item_name ( 'Wowstick wowpad Magnetic Screwpad Screw Postion Memory Plate Mat For kit 1FS Electric 1P+ 1F+ Plus magnetic sticker' ),
+    order_options   ( 'Color: 1 pc' ),
+    order_price     ( 'AU$2.72' ),
+    order_quantity  ( 1 ),
+    order_tax       ( 'AU$0.39' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-08-20' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/H2ddfab3ac88749c2ba1fee0f5b7f76c6e/15Pcs-Set-Sandpaper-400-600-3000-800-1000-1200-1500-2000-2500-Grit-Sand-Paper-Water.jpeg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( '15 Pcs' ),
+    EquipmentFeature::SANDPAPER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005246126191.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_De8m8iJ' ),
+    listing_name  ( '15Pcs/Set Sandpaper 400 600 3000 800 1000 1200 1500 2000 2500 Grit Sand Paper Water/Dry Sanding Paper Abrasive Tools' ),
+    item_price    ( 'AU$2.59' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005246126191.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.107.20cf1802YNcrMG&orderId=8192257241713938' ),
+    order_id        ( '8192257241713938' ),
+    order_date      ( 'Aug 20, 2024' ),
+    order_item_name ( '15Pcs/Set Sandpaper 400 600 3000 800 1000 1200 1500 2000 2500 Grit Sand Paper Water/Dry Sanding Paper Abrasive Tools' ),
+    order_price     ( 'AU$2.57' ),
+    order_quantity  ( 1 ),
+    order_tax       ( 'AU$0.29' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-08-20' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sc127a71c4e1e412880a4a2d4ecd75d045/SX-DT3-Data-Cable-Detection-Board-Type-C-Micro-USB-C-Cable-Tester-Short-Circuit-On.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'XIASONGXIN LIGHT' ),
+    model_name        ( 'DT3' ),
+    EquipmentFeature::USB_CABLE_TESTER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007484057368.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DcyY1jV' ),
+    listing_name  ( 'SX DT3 Data Cable Detection Board Type-C Micro USB C Cable Tester Short Circuit On Off Switching Diagnose Tool for iOS Android' ),
+    item_price    ( 'AU$3.10' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007484057368.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.131.20cf1802YNcrMG&orderId=8192257241773938' ),
+    order_id        ( '8192257241773938' ),
+    order_date      ( 'Aug 20, 2024' ),
+    order_item_name ( 'SX DT3 Data Cable Detection Board Type-C Micro USB C Cable Tester Short Circuit On Off Switching Diagnose Tool for iOS Android' ),
+    order_price     ( 'AU$2.26' ),
+    order_quantity  ( 1 ),
+    order_tax       ( 'AU$0.28' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-08-20' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/A8cc79ed84b4c4ff8857242428c1a5530L/1-Pack-Static-IC-Puller-Efficient-Mechanical-Keyboard-Switch-Remover-Tool-with-Anti-Static-Protection-Easy.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    EquipmentFeature::IC_PULLER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007317258522.html' ),
+    listing_name  ( '1 Pack Static IC Puller - Efficient Mechanical Keyboard Switch Remover Tool with Anti-Static Protection - Easy to Use, Durable,' ),
+    item_price    ( 'AU$2.79' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007317258522.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.149.20cf1802YNcrMG&orderId=8192257241693938' ),
+    order_id        ( '8192257241693938' ),
+    order_date      ( 'Aug 20, 2024' ),
+    order_item_name ( '1 Pack Static IC Puller - Efficient Mechanical Keyboard Switch Remover Tool with Anti-Static Protection - Easy to Use, Durable,' ),
+    order_price     ( 'AU$2.26' ),
+    order_quantity  ( 2 ),
+    order_tax       ( 'AU$0.51' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-08-20' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S4f2e380b48d64d0bad244ea4b40506ea7/Stainless-Steel-String-Ruler-String-Action-Gauge-Ruler-for-Guitar-Bass-Silver.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'Guitar String' ),
+    EquipmentFeature::RULER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006801533515.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DkgoKIB' ),
+    listing_name  ( 'Stainless Steel String Ruler String Action Gauge Ruler for Guitar Bass Silver' ),
+    item_price    ( 'AU$4.13' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006801533515.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.253.20cf1802YNcrMG&orderId=8191951797753938' ),
+    order_id        ( '8191951797753938' ),
+    order_date      ( 'Aug 20, 2024' ),
+    order_item_name ( 'Stainless Steel String Ruler String Action Gauge Ruler for Guitar Bass Silver' ),
+    order_price     ( 'AU$2.72' ),
+    order_quantity  ( 1 ),
+    order_tax       ( 'AU$0.37' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-08-20' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sd952a0bf3bd5456ba8c2c0416d062de51/Macropad-Macro-Mechanical-Keyboard-RGB-Mini-Gaming-Custom-Programming-Knob-Keypads-Red-Switch-3-Keys-For.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'Macropad 3-Key' ),
+    EquipmentFeature::MECHANICAL_KEYBOARD,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005855324321.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DF6vPuR' ),
+    listing_name  ( 'Macropad Macro Mechanical Keyboard RGB Mini Gaming Custom Programming Knob Keypads Red Switch 3 Keys For Photoshop' ),
+    item_price    ( 'AU$12.79' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005855324321.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.185.20cf1802YNcrMG&orderId=8191954755693938' ),
+    order_id        ( '8191954755693938' ),
+    order_date      ( 'Aug 20, 2024' ),
+    order_item_name ( 'Macropad Macro Mechanical Keyboard RGB Mini Gaming Custom Programming Knob Keypads Red Switch 3 Keys For Photoshop' ),
+    order_price     ( 'AU$8.19' ),
+    order_quantity  ( 1 ),
+    order_tax       ( 'AU$1.51' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-08-20' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S069f7ced6be94bf3a4ada54c5af012dff/5in1-CO2-Meter-Digital-Multifunctional-Temperature-Humidity-Tester-Carbon-Dioxide-TVOC-HCHO-Detector-Air-Quality-Monitor.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( '5 in 1' ),
+    EquipmentFeature::AIR_QUALITY_METER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007034734246.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DEJPWwr' ),
+    listing_name  ( '5in1 CO2 Meter Digital Multifunctional Temperature Humidity Tester Carbon Dioxide TVOC HCHO Detector Air Quality Monitor' ),
+    item_price    ( 'AU$14.69' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007034734246.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.58.20cf1802YNcrMG&orderId=8191958993233938' ),
+    order_id        ( '8191958993233938' ),
+    order_date      ( 'Aug 20, 2024' ),
+    order_item_name ( '5in1 CO2 Meter Digital Multifunctional Temperature Humidity Tester Carbon Dioxide TVOC HCHO Detector Air Quality Monitor' ),
+    order_options   ( 'WHITE' ),
+    order_price     ( 'AU$12.29' ),
+    order_quantity  ( 1 ),
+    order_tax       ( 'AU$1.44' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-08-21' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Se1cc39393da540a5b694ebe5e77e2b04G/9-In-1-Air-Quality-Monitor-CO2-Meter-CO-TVOC-HCHO-PM2-5-PM1-0-PM10.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( '9 in 1' ),
+    EquipmentFeature::AIR_QUALITY_METER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005600277496.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DDCsQcT' ),
+    listing_name  ( '9 In 1 Air Quality Monitor CO2 Meter CO TVOC HCHO PM2.5 PM1.0 PM10 Temperature And Humidity Measurement Carbon Dioxide Detector' ),
+    item_price    ( 'AU$37.05' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005600277496.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.22.20cf1802YNcrMG&orderId=8192048118923938' ),
+    order_id        ( '8192048118923938' ),
+    order_date      ( 'Aug 21, 2024' ),
+    order_item_name ( '9 In 1 Air Quality Monitor CO2 Meter CO TVOC HCHO PM2.5 PM1.0 PM10 Temperature And Humidity Measurement Carbon Dioxide Detector' ),
+    order_options   ( 'Color: 9 in 1' ),
+    order_price     ( 'AU$34.26' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$0.01' ),
+    order_tax       ( 'AU$3.63' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-09-05' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sa0afa3f4345f4d16bb95422f2d82e4d95/MECHANIC-Portable-Double-Single-Head-Glue-Removal-Brush-Mobile-Phone-Motherboard-CPU-IC-Pad-Cleaning-Polishing.png_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'MECHANIC' ),
+    EquipmentFeature::HARD_BRUSH,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006176413673.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DFmNebZ' ),
+    listing_name  ( 'MECHANIC Portable Double/Single Head Glue Removal Brush Mobile Phone Motherboard CPU IC Pad Cleaning Polishing Tool' ),
+    item_price    ( 'AU$5.01' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006176413673.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.1.20cf1802YNcrMG&orderId=8192997661953938' ),
+    order_id        ( '8192997661953938' ),
+    order_date      ( 'Sep 5, 2024' ),
+    order_item_name ( 'MECHANIC Portable Double/Single Head Glue Removal Brush Mobile Phone Motherboard CPU IC Pad Cleaning Polishing Tool' ),
+    order_options   ( 'Bristle Brush' ),
+    order_price     ( 'AU$4.89' ),
+    order_quantity  ( 3 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006176413673.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.1.20cf1802YNcrMG&orderId=8192997661953938' ),
+    order_id        ( '8192997661953938' ),
+    order_date      ( 'Sep 5, 2024' ),
+    order_item_name ( 'MECHANIC Portable Double/Single Head Glue Removal Brush Mobile Phone Motherboard CPU IC Pad Cleaning Polishing Tool' ),
+    order_options   ( 'Steel Brush' ),
+    order_price     ( 'AU$4.82' ),
+    order_quantity  ( 3 ),
+  ),
+);
+
 
 /*
 
