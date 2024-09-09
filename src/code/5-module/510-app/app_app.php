@@ -24,6 +24,7 @@ require_once __DIR__ . '/inc/const.php';
 require_once __DIR__ . '/inc/cache.php';
 require_once __DIR__ . '/inc/http.php';
 require_once __DIR__ . '/inc/view.php';
+require_once __DIR__ . '/inc/stats.php';
 
 require_once realpath( __DIR__ ) . '/../../../../vendor/autoload.php';
 
