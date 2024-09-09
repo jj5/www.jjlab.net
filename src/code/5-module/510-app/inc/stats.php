@@ -42,7 +42,11 @@ function query_channel_stats( $client, $channel_slug ) {
     'id' => $channel_id,
   ]);
 
-  if ( empty( $channel_response[ 'items' ] ) ) { die( "Channel not found.\n"); }
+  if ( empty( $channel_response[ 'items' ] ) ) {
+
+    mud_fail( 'channel not found.', [ 'channel_slug' => $channel_slug ] );
+
+  }
 
   // 2024-09-09 jj5 - get the Uploads playlist ID (all videos of a channel are in this playlist)...
   //
@@ -108,7 +112,7 @@ function query_video_duration( $youtube, $channel_slug, $video_id ) {
 
   if ( $duration && $duration !== 'P0D' ) { return $duration; }
 
-  $response = $youtube->videos->listVideos('contentDetails', [
+  $response = $youtube->videos->listVideos( 'contentDetails', [
     'id' => $video_id,
   ]);
 
