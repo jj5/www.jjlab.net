@@ -2,6 +2,9 @@
 
 CHANNEL_LIST=(
   EEVblog
+  ElectroBOOM
+  greatscottlab
+  BigClive
 );
 
 STATS_DIR='src/web/root/in-the-lab/stats';

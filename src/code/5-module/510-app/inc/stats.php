@@ -1,5 +1,19 @@
 <?php
 
+function get_channel_id( $channel_slug ) {
+
+  static $channel_map = [
+    '@InTheLabWithJayJay' => 'UCgX1SyvFyZRNQwqDBWGuHKQ',
+    '@EEVblog'            => 'UC2DjFE7Xf11URZqWBigcVOQ',
+    '@ElectroBOOM'        => 'UCJ0-OtVpF0wOKEqT2Z1HEtA',
+    '@greatscottlab'      => 'UC6mIxFTvXkWQVEHPsEdflzQ',
+    '@BigClive'           => 'UCtM5z2gkrGRuWd0JQMx76qA',
+  ];
+
+  return $channel_map[ $channel_slug ] ?? null;
+
+}
+
 function get_channel_stats( $channel_slug ) {
 
   $client = new Google_Client();
@@ -7,17 +21,6 @@ function get_channel_stats( $channel_slug ) {
   $client->setDeveloperKey( YOUTUBE_API_KEY );
 
   return query_channel_stats( $client, $channel_slug );
-
-}
-
-function get_channel_id( $channel_slug ) {
-
-  static $channel_map = [
-    '@InTheLabWithJayJay' => 'UCgX1SyvFyZRNQwqDBWGuHKQ',
-    '@EEVblog' => 'UC2DjFE7Xf11URZqWBigcVOQ',
-  ];
-
-  return $channel_map[ $channel_slug ] ?? null;
 
 }
 
