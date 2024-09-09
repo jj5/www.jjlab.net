@@ -2,8 +2,12 @@
 
 CHANNEL_LIST=(
   EEVblog
+  AdriansDigitalBasement
+  AdriansDigitalBasementExtras
+  MrCarlsonsLab
+  LearnElectronicsRepair
   ElectroBOOM
-  greatscottlab
+  GreatScottLab
   BigClive
 );
 

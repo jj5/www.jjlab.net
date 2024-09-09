@@ -150,6 +150,8 @@ class DataFile2 {
 
   public function set_value( string $group, string $key, mixed $value ) : void {
 
+    if ( ! DEV ) { return; }
+
     if ( false ) {
 
       $group_json = mud_json_pretty( $group );

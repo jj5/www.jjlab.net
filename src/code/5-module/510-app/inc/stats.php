@@ -3,11 +3,15 @@
 function get_channel_id( $channel_slug ) {
 
   static $channel_map = [
-    '@InTheLabWithJayJay' => 'UCgX1SyvFyZRNQwqDBWGuHKQ',
-    '@EEVblog'            => 'UC2DjFE7Xf11URZqWBigcVOQ',
-    '@ElectroBOOM'        => 'UCJ0-OtVpF0wOKEqT2Z1HEtA',
-    '@greatscottlab'      => 'UC6mIxFTvXkWQVEHPsEdflzQ',
-    '@BigClive'           => 'UCtM5z2gkrGRuWd0JQMx76qA',
+    '@InTheLabWithJayJay'           => 'UCgX1SyvFyZRNQwqDBWGuHKQ',
+    '@EEVblog'                      => 'UC2DjFE7Xf11URZqWBigcVOQ',
+    '@AdriansDigitalBasement'       => 'UCE5dIscvDxrb7CD5uiJJOiw',
+    '@AdriansDigitalBasementExtras' => 'UCHUKf3Gp3eNxa4CmAvxeNRw',
+    '@MrCarlsonsLab'                => 'UCU9SoQxJewrWb_3GxeteQPA',
+    '@LearnElectronicsRepair'       => 'UCFX1Z9N6aPWuCN_KR8UZ2vg',
+    '@ElectroBOOM'                  => 'UCJ0-OtVpF0wOKEqT2Z1HEtA',
+    '@GreatScottLab'                => 'UC6mIxFTvXkWQVEHPsEdflzQ',
+    '@BigClive'                     => 'UCtM5z2gkrGRuWd0JQMx76qA',
   ];
 
   return $channel_map[ $channel_slug ] ?? null;
@@ -131,7 +135,7 @@ function query_video_duration( $youtube, $channel_slug, $video_id ) {
 
     //echo "Video ID: $video_id, Duration: $duration\n";
 
-    $data->set_value( 'youtube_duration', $video_id, $duration );
+    $data->set_value( $channel_slug, $video_id, $duration );
 
     return $duration;
 
