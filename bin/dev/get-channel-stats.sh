@@ -20,19 +20,25 @@ main() {
 
     local slug="@$channel";
 
-    echo "downloading stats for $slug";
+    lx_note "downloading stats for $slug";
 
-    bin/dev/get-channel-stats.php $slug;
+    lx_run bin/dev/get-channel-stats.php $slug;
 
-    bin/dev/push.sh;
+    lx_run bin/dev/push.sh;
 
-    echo "rendering stats for $slug";
+    lx_note "rendering stats for $slug";
 
     local html_file="src/web/root/in-the-lab/stats/$channel.html";
 
-    [ -f $html_file ] || { echo "error: file not found: $html_file"; exit 1; };
+    [ -f $html_file ] || {
+
+      lx_fail $LX_EXIT_FILE_MISSING "file not found: $html_file";
+
+    };
 
     curl https://www.inthelabwithjayjay.com/in-the-lab/stats.php/$slug > $html_file;
+
+    lx_run bin/dev/push.sh;
 
   done;
 
