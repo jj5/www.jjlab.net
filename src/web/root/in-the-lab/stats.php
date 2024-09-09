@@ -122,7 +122,15 @@ function render_stats_for_channel( $channel_slug ) {
 
         tag_open( 'p' );
 
-          out_text( "On this page you can find some statistics about a YouTube channel." );
+          out_text( "On this page you can find some statistics about the " );
+
+          render_link_external(
+            $channel_slug,
+            'https://youtu.be/' . $channel_slug,
+            "Click here to visit the $channel_slug YouTube channel.",
+          );
+
+          out_text( " YouTube channel." );
 
         tag_shut( 'p' );
 
