@@ -831,7 +831,7 @@ function render_section_about_stats( int $heading_level = 2, $video_list = null 
 
 function render_stats_rows( $stats ) {
 
-  render_stat_def( 'Videos Published',    $stats[ 'count' ] );
+  render_stat_def( 'Videos Published',    number_format( $stats[ 'count' ] ) );
   render_stat_def( 'Total Duration',      format_stats_hours( $stats[ 'total' ] ) );
   render_stat_val( 'Minimum Duration',    $stats[ 'min' ] );
   render_stat_val( 'Maximum Duration',    $stats[ 'max' ] );
