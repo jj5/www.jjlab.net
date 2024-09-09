@@ -135,7 +135,7 @@ function render_stats_for_channel( $channel_slug ) {
 
       tag_open( 'p' );
 
-        out_text( 'These are the video stats for ' . $channel_slug . ' videos.' );
+        out_text( 'These are the video stats for ' . $channel_slug . ' as of ' . date( 'j F Y' ) . '.' );
 
       tag_shut( 'p' );
 
