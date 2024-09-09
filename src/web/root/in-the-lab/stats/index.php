@@ -40,7 +40,7 @@ function render_stats_index() {
 
       tag_open( 'p' );
 
-        out_text( 'These are the stats files I maintain.' );
+        out_text( 'These are the stats files I maintain:' );
 
       tag_shut( 'p' );
 
