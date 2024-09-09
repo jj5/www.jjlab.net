@@ -6,11 +6,18 @@ function app_render() {
 
   $path_info = $_SERVER[ 'PATH_INFO' ] ?? null;
 
+  if ( $path_info ) {
+
+    $channel_slug = substr( $path_info, 1 );
+
+    if ( get_channel_id( $channel_slug ) ) {
+
+      return render_stats_for_channel( $channel_slug );
+
+    }
+  }
+
   switch ( $path_info ) {
-
-    case '/@EEVblog' :
-
-      return render_stats_for_channel( '@EEVblog' );
 
     case '' :
 
