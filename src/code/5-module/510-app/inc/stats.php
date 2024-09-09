@@ -36,77 +36,61 @@ function query_channel_stats( $client, $channel_slug ) {
 
   $next_page_token = '';
 
-  // 1. Get the Uploads Playlist ID for the Channel
-  $channel_response = $youtube->channels->listChannels('contentDetails', array(
-      'id' => $channel_id,
-  ));
+  // 2024-09-09 jj5 - get the Uploads Playlist ID for the Channel...
+  //
+  $channel_response = $youtube->channels->listChannels( 'contentDetails', [
+    'id' => $channel_id,
+  ]);
 
-  if (empty($channel_response['items'])) {
-      die('Channel not found.');
-  }
+  if ( empty( $channel_response[ 'items' ] ) ) { die( "Channel not found.\n"); }
 
-  // Get the Uploads playlist ID (all videos of a channel are in this playlist)
-  $uploadsPlaylistId = $channel_response['items'][0]['contentDetails']['relatedPlaylists']['uploads'];
+  // 2024-09-09 jj5 - get the Uploads playlist ID (all videos of a channel are in this playlist)...
+  //
+  $uploads_playlist_id = $channel_response[ 'items' ][ 0 ][ 'contentDetails' ][ 'relatedPlaylists' ][ 'uploads' ];
 
-  // Pagination token
-  $nextPageToken = '';
-
-  $interval_map = [];
+  $next_page_token = '';
   $duration_map = [];
-
   $counter = 0;
 
   do {
-      // 2. Fetch the videos from the uploads playlist
-      $playlistItemsResponse = $youtube->playlistItems->listPlaylistItems('snippet', array(
-          'playlistId' => $uploadsPlaylistId,
-          'maxResults' => 50, // Max 50 videos per request
-          'pageToken'  => $nextPageToken,
-      ));
 
-      // 3. Loop through each video and display details
-      foreach ($playlistItemsResponse['items'] as $item) {
+    // 2024-09-09 jj5 - fetch the videos from the uploads playlist...
+    //
+    $playlist_items_response = $youtube->playlistItems->listPlaylistItems( 'snippet', [
+      'playlistId' => $uploads_playlist_id,
+      'maxResults' => 50,
+      'pageToken'  => $next_page_token,
+    ]);
 
-        $counter++;
+    // 2024-09-09 jj5 - loop through each video and display details...
+    //
+    foreach ( $playlist_items_response[ 'items' ] as $item ) {
 
-          $video_id = $item['snippet']['resourceId']['videoId'];
-          $title = $item['snippet']['title'];
-          $publishedAt = $item['snippet']['publishedAt'];
+      $counter++;
 
-          //echo "Video ID: $videoId, Title: $title, Published At: $publishedAt\n";
+      $video_id = $item[ 'snippet' ][ 'resourceId' ][ 'videoId' ];
+      $duration = query_video_duration( $youtube, $channel_slug, $video_id );
+      //$title = $item[ 'snippet' ][ 'title' ];
+      //$publishedAt = $item[ 'snippet' ][ 'publishedAt' ];
 
-          $duration = query_video_duration( $youtube, $channel_slug, $video_id );
+      $interval = new DateInterval( $duration );
 
-        $interval = new DateInterval( $duration );
+      $duration_map[ $video_id ] = date_interval_to_seconds( $interval );
 
-        $interval_map[ $video_id ] = $interval;
-        $duration_map[ $video_id ] = date_interval_to_seconds( $interval );
+    }
 
-        //echo "$counter: $video_id: $duration\n";
+    // 2024-09-09 jj5 - get the next page token for pagination...
+    //
+    $next_page_token = $playlist_items_response['nextPageToken'];
 
-      }
-
-      // 4. Get the next page token for pagination
-      $nextPageToken = $playlistItemsResponse['nextPageToken'];
-  } while ($nextPageToken !== null); // Continue until there are no more pages
+  }
+  while ( $next_page_token !== null );
 
   $duration_list = array_values( $duration_map );
 
   $stats = mud_get_stats( $duration_list, MUD_STATS_TYPE_FLOAT );
 
   return $stats;
-
-  doc_init();
-
-  tag_open( 'table' );
-
-    tag_open( 'tbody' );
-
-      render_stats_rows( $stats );
-
-    tag_shut( 'tbody' );
-
-  tag_shut( 'table' );
 
 }
 
@@ -128,12 +112,9 @@ function query_video_duration( $youtube, $channel_slug, $video_id ) {
     'id' => $video_id,
   ]);
 
-  // Process the response
   foreach ( $response[ 'items' ] as $item ) {
 
     $duration = $item[ 'contentDetails' ][ 'duration' ];
-
-    //echo "Video ID: $video_id, Duration: $duration\n";
 
     $data->set_value( $channel_slug, $video_id, $duration );
 
