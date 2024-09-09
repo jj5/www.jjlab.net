@@ -81,7 +81,7 @@ function query_channel_stats( $client, $channel_slug ) {
 
     // 2024-09-09 jj5 - get the next page token for pagination...
     //
-    $next_page_token = $playlist_items_response['nextPageToken'];
+    $next_page_token = $playlist_items_response[ 'nextPageToken' ];
 
   }
   while ( $next_page_token !== null );
