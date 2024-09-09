@@ -24,7 +24,13 @@ main() {
 
     lx_run bin/dev/get-channel-stats.php $slug;
 
-    lx_run bin/dev/push.sh;
+  done;
+
+  lx_run bin/dev/push.sh;
+
+  for channel in "${list[@]}"; do
+
+    local slug="@$channel";
 
     lx_note "rendering stats for $slug";
 
@@ -38,10 +44,9 @@ main() {
 
     curl https://www.inthelabwithjayjay.com/in-the-lab/stats.php/$slug > $html_file;
 
-    lx_run bin/dev/push.sh;
-
   done;
 
+  lx_run bin/dev/push.sh;
 
 }
 
