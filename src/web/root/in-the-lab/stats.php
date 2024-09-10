@@ -148,7 +148,15 @@ function render_stats_for_channel( $channel_slug ) {
 
       tag_open( 'p' );
 
-        out_text( 'These are the video stats for ' . $channel_slug . ' as of ' . date( 'j F Y' ) . '.' );
+        out_text( 'These are the video stats for ' );
+
+        render_link_external(
+          $channel_slug,
+          'https://youtu.be/' . $channel_slug,
+          "Click here to visit the $channel_slug YouTube channel.",
+        );
+
+        out_text( ' as of ' . date( 'j F Y' ) . '.' );
 
       tag_shut( 'p' );
 
