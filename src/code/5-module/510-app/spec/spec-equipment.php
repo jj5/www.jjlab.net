@@ -14938,6 +14938,67 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2022-01-17' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/B8oAAOSwtyVgeA6N/s-l960.webp' ),
+  equipment_item(
+    manufacturer_name ( 'PowerShield' ),
+    model_name        ( 'Defender 1600' ),
+    EquipmentFeature::UPS,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/184767576877' ),
+    affiliate_url ( 'https://www.ebay.com.au/itm/184767576877?mkcid=1&mkrid=705-53470-19255-0&siteid=15&campid=5339019639&customid=&toolid=10001&mkevt=1' ),
+    listing_name  ( 'PowerShield Defender 1600VA / 960W Line Interactive UPS with AVR, Australian Out' ),
+    item_price    ( 'AU$398.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/184767576877' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=17-08140-38004&purchaseOrderId=17-0814-038003#/' ),
+    order_id        ( '17-0814-038003' ),
+    order_date      ( '17 Jan 2022' ),
+    order_item_name ( 'PowerShield Defender 1600VA / 960W Line Interactive UPS with AVR, Australian Out' ),
+    order_price     ( 'AU$339.00' ),
+    order_quantity  ( 2 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2022-01-07' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/ko4AAOSwzHNgeA1i/s-l960.webp' ),
+  equipment_item(
+    manufacturer_name ( 'PowerShield' ),
+    model_name        ( 'Defender 1200' ),
+    EquipmentFeature::UPS,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/174733130638' ),
+    affiliate_url ( 'https://www.ebay.com.au/itm/174733130638?mkcid=1&mkrid=705-53470-19255-0&siteid=15&campid=5339019639&customid=&toolid=10001&mkevt=1' ),
+    listing_name  ( 'PowerShield Defender 1200VA / 720W Line Interactive UPS with AVR, Australian Out' ),
+    item_price    ( 'AU$345.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/224660097934' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=19-08098-39700&purchaseOrderId=19-0809-839699#/' ),
+    order_id        ( '19-0809-839699' ),
+    order_date      ( '7 Jan 2022' ),
+    order_item_name ( 'PowerShield Defender 1200VA / 720W Line Interactive UPS with AVR, Australian Out' ),
+    order_price     ( 'AU$266.60' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/172295377946' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=20-05430-89980&purchaseOrderId=200000543089979#/' ),
+    order_id        ( '20-05430-89980' ),
+    order_date      ( '21 Jul 2020' ),
+    order_item_name ( 'PowerShield Defender 1200VA 720W USB Comm 3x Surge UPS D1200VA' ),
+    order_price     ( 'AU$249.00' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
 
 
 /*

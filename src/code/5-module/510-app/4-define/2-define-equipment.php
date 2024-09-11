@@ -3522,6 +3522,11 @@ equipment_define(
       EquipmentFeature::POWER_SUPPLY,
     );
 
+    equipment_define(
+      EquipmentFeature::UPS,
+      EquipmentFeature::POWER_SUPPLY,
+    );
+
   equipment_define(
     EquipmentFeature::POWER_CABLE,
     EquipmentFeature::POWER,

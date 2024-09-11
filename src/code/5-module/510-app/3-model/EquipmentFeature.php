@@ -1598,6 +1598,8 @@ enum EquipmentFeature : string {
 
       case POWER_MODULE = 'power-module';
 
+      case UPS = 'UPS';
+
     case POWER_CABLE = 'power-cable';
 
       case USB_POWER_CABLE = 'USB-power-cable';
