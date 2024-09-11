@@ -14912,6 +14912,33 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2024-09-07' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/0lIAAOSwcy1gRqzO/s-l1600.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Eversure' ),
+    model_name        ( 'PB-10-HT3 Black 10-Way' ),
+    EquipmentFeature::POWER_BOARD,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/163304553325' ),
+    affiliate_url ( 'https://ebay.us/bBKwiI' ),
+    listing_name  ( 'PB-10-HT3/Black 10 Way Power Board With USB and Coax Network Protection' ),
+    item_price    ( 'AU$91.48' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/163304553325' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=08-12040-69039&purchaseOrderId=08-1204-069038#/' ),
+    order_id        ( '08-1204-069038' ),
+    order_date      ( '7 Sep 2024' ),
+    order_item_name ( 'PB-10-HT3/Black 10 Way Power Board With USB and Coax Network Protection' ),
+    order_price     ( 'AU$91.48' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+
 
 /*
 
