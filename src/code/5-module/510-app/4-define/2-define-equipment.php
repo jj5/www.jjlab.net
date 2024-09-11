@@ -567,6 +567,11 @@ equipment_define(
     EquipmentMeasure::CURRENT_AC,
   );
 
+    equipment_define(
+      EquipmentFeature::WATT_METER,
+      EquipmentFeature::AMMETER_AC,
+    );
+
   equipment_define(
     EquipmentFeature::AMMETER_DC,
     EquipmentFeature::METER,

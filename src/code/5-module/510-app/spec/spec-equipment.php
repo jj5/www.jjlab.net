@@ -14999,6 +14999,32 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2021-08-21' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/--cAAOSwmdtf-wy5/s-l1600.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'AU 240V' ),
+    EquipmentFeature::WATT_METER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/154497395056' ),
+    affiliate_url ( 'https://www.ebay.com.au/itm/154497395056?mkcid=1&mkrid=705-53470-19255-0&siteid=15&campid=5339019639&customid=&toolid=10001&mkevt=1' ),
+    listing_name  ( 'AU 240V Power Watt Meter Energy Monitor Consumption Electricity Usage Equipment' ),
+    item_price    ( 'AU$18.95' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/154497395056' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=07-07499-89350&purchaseOrderId=07-0749-989349#/' ),
+    order_id        ( '07-0749-989349' ),
+    order_date      ( '21 Aug 2021' ),
+    order_item_name ( 'AU 240V Power Watt Meter Energy Monitor Consumption Electricity Usage Equipment' ),
+    order_price     ( 'AU$18.95' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
 
 
 /*

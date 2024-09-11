@@ -255,6 +255,8 @@ enum EquipmentFeature : string {
 
       case AMMETER_AC = 'AC-ammeter';
 
+        case WATT_METER = 'watt-meter';
+
       case AMMETER_DC = 'DC-ammeter';
 
     case OHMMETER = 'ohmmeter';
