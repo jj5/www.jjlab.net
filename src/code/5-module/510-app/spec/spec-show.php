@@ -1249,23 +1249,27 @@ show(
     blog_url( 'https://blog.jj5.net/blog/2024/09/01/electronics-project-8-debugging-the-symbol-keyboard-mini-project-jmp001-in-the-lab-with-jay-jay/' ),
     patreon_url( 'https://www.patreon.com/posts/111181703' ),
   ),
-  /*
   old_book_teardown(
-    publication_date( '2024-08-20' ),
-    youtube_video( 'HRhQfjqQ_Yg' ),
-    blog_url( 'https://blog.jj5.net/blog/2024/08/20/old-book-teardown-9-basic-electronics-volumes-1-through-6-1955-in-the-lab-with-jay-jay/' ),
-    patreon_url( 'https://www.patreon.com/posts/110400160' ),
+    publication_date( '2024-09-24' ),
+    youtube_video( 'ZPZ8nHIC6W4' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/09/24/old-book-teardown-10-digital-systems-hardware-organization-and-design-1973-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/112647993' ),
     old_book(
-      title( "Basic Electronics - Volumes 1 through 6" ),
-      author( 'Van Valkenburgh, Nooger and Neville, Inc.' ),
-      copyright_year( '1955' ),
-      page_count( 647 ),
+      title( "Digital Systems: Hardware Organization and Design" ),
+      author( 'Fredrick J. Hill, Gerald R. Peterson' ),
+      copyright_year( '1973' ),
+      page_count( 481 ),
       affiliate_link(
-        equipment_url ( 'https://www.archive.org/details/BasicElectronicsVolumes151955' ),
+        equipment_url ( 'https://www.archive.org/details/digitalsystemsha00hill' ),
+      ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/Digital-Systems-Hardware-Organization-Design/dp/0471808067' ),
+      ),
+      affiliate_link(
+        equipment_url ( 'https://www.wiley.com/en-us/Digital+Systems%3A+Hardware+Organization+and+Design%2C+3rd+Edition-p-9780471808060s' ),
       ),
     ),
   ),
-  */
 );
 
 show(

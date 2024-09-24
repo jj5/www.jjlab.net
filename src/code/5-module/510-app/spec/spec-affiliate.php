@@ -54,3 +54,8 @@ affiliate(
   affiliate_name( 'archive.org' ),
   affiliate_url( 'https://www.archive.org/' ),
 );
+
+affiliate(
+  affiliate_name( 'Wiley' ),
+  affiliate_url( 'https://www.wiley.com/' ),
+);
