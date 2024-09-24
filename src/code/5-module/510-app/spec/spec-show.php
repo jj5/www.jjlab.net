@@ -1266,7 +1266,7 @@ show(
         equipment_url ( 'https://www.amazon.com/Digital-Systems-Hardware-Organization-Design/dp/0471808067' ),
       ),
       affiliate_link(
-        equipment_url ( 'https://www.wiley.com/en-us/Digital+Systems%3A+Hardware+Organization+and+Design%2C+3rd+Edition-p-9780471808060s' ),
+        equipment_url ( 'https://www.wiley.com/en-us/Digital+Systems%3A+Hardware+Organization+and+Design%2C+3rd+Edition-p-9780471808060' ),
       ),
     ),
   ),
