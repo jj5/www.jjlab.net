@@ -1327,3 +1327,13 @@ show(
     ),
   ),
 );
+
+show(
+  mail_call(
+    publication_date( '2024-09-25' ),
+    title( 'Thanks Craig! Also loot from AliExpress' ),
+    youtube_video( 'U2G3abFYVgo' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/09/25/mail-call-10-thanks-craig-also-loot-from-aliexpress-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/112739373' ),
+  ),
+);

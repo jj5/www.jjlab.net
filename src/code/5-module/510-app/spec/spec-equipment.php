@@ -15025,8 +15025,6 @@ equipment(
   ),
 );
 
-
-
 /*
 
 equipment(
