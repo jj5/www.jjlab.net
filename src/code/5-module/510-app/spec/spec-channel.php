@@ -99,6 +99,11 @@ channel(
       feature_text( 'In the demo videos we take a look at a new item, such as tools or components.' ),
     ),
     feature(
+      feature_slug( 'experiment' ),
+      feature_name( 'Experiment' ),
+      feature_text( 'In the experiment videos we do an electronics experiment to investigate a particular problem or phenomenon.' ),
+    ),
+    feature(
       feature_slug( 'channel-news' ),
       feature_name( 'Channel News' ),
       feature_text( 'In the channel news videos I let you know about developments related to the show.' ),

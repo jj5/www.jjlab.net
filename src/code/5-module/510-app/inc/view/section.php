@@ -56,6 +56,7 @@ define( 'TITLE_FEATURE_INTERLUDE', 'Click here to watch the videos where I take 
 define( 'TITLE_FEATURE_MAIL_CALL', "Click here to watch videos of recently arrived packages." );
 define( 'TITLE_FEATURE_UNBOXING', "Click here to watch the unboxing videos." );
 define( 'TITLE_FEATURE_DEMO', "Click here to watch the demo videos." );
+define( 'TITLE_FEATURE_EXPERIMENT', "Click here to watch the experiment videos." );
 
 define( 'TITLE_FEATURE_MAXITRONIX_KITS', 'Click here to learn about the Maxitronix Xin1 electronic project labs.' );
 define( 'TITLE_FEATURE_MAXITRONIX', 'Click here to watch the videos where I work through a Maxitronix Xin1 electronic project kit.' );
@@ -163,6 +164,7 @@ define( 'TITLE_LINK_LEARNING_THE_ART_OF_ELECTRONICS', 'Click here to watch the n
 define( 'TITLE_LINK_JAYCAR_SHORT_CIRCUITS', 'Click here to see the Jaycar Short Circuits projects.' );
 define( 'TITLE_LINK_JAYCAR_PROJECTS', 'Click here to see the Jaycar projects catalog.' );
 define( 'TITLE_LINK_PATREON_MEMBERSHIP_OPTIONS', 'Click here to read about paid membership tier options.' );
+define( 'TITLE_LINK_EEVBLOG_FORUM', 'Click here to visit the EEVblog forum.' );
 
 define( 'TITLE_SEARCH_AFFILIATE', 'Click here to search for this equipment at this affiliate.' );
 
@@ -2008,6 +2010,16 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
       tag_open( 'li' );
 
         render_link_internal(
+          'Experiments',
+          url_base() . '/#experiments',
+          TITLE_FEATURE_EXPERIMENT,
+        );
+
+      tag_shut( 'li' );
+
+      tag_open( 'li' );
+
+        render_link_internal(
           'Channel News',
           url_base() . '/#channel-news',
           TITLE_FEATURE_EARLY_CONTENT,
@@ -2072,6 +2084,8 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
   render_section_about_unboxing( $heading_level + 1 );
 
   render_section_about_demo( $heading_level + 1 );
+
+  render_section_about_experiment( $heading_level + 1 );
 
   render_section_about_channel_news( $heading_level + 1 );
 
@@ -2456,6 +2470,52 @@ function render_section_about_demo( int $heading_level = 2 ) {
       );
 
       out_text( ' and then a demo video. The demo video is where I show you how the equipment works.' );
+
+    tag_shut( 'p' );
+
+  tag_shut( 'section' );
+
+}
+
+function render_section_about_experiment( int $heading_level = 2 ) {
+
+  tag_open( 'section' );
+
+    tag_text( "h{$heading_level}", 'Experiments', [ 'id' => 'experiments' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'Occasionally I do an ' );
+
+      render_link_internal(
+        'experiment video',
+        url_base() . '/feature.php/experiment#heading',
+        TITLE_FEATURE_EXPERIMENT,
+      );
+
+      out_text( ' on the ' );
+
+      render_link_internal(
+        'main channel',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
+        TITLE_CHANNEL_MAIN,
+      );
+
+      out_text( '.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'Especially when I have a question over on the ' );
+
+      render_link_external(
+        'EEVblog forum',
+        'https://www.eevblog.com/forum/',
+        TITLE_LINK_EEVBLOG_FORUM,
+      );
+
+      out_text( ' I try to write up the problem with an experiment, including a video.' );
 
     tag_shut( 'p' );
 
