@@ -240,6 +240,10 @@ show(
     blog_url( 'https://blog.jj5.net/blog/2023/11/30/in-the-lab-with-jay-jay-november-30-2023-teardown-of-homemade-continuity-tester/' ),
     patreon_url( 'https://www.patreon.com/posts/93803125' ),
   ),
+);
+
+show(
+  silly_job_title( 'Grounding Genius' ),
   old_book_teardown(
     publication_date( '2023-11-30' ),
     old_book(
@@ -261,6 +265,10 @@ show(
     blog_url( 'https://blog.jj5.net/blog/2023/12/12/in-the-lab-with-jay-jay-december-12-2023-mail-call-plus-two-old-books-and-a-floppy-disk/' ),
     patreon_url( 'https://www.patreon.com/posts/94525531' ),
   ),
+);
+
+show(
+  silly_job_title( 'Ohm Oracle' ),
   old_book_teardown(
     publication_date( '2023-12-12' ),
     old_book(
@@ -298,6 +306,10 @@ show(
     blog_url( 'https://blog.jj5.net/blog/2023/12/24/in-the-lab-with-jay-jay-december-24-2023-demo-of-the-new-studio-cameras-now-in-4k/' ),
     patreon_url( 'https://www.patreon.com/posts/95200185' ),
   ),
+);
+
+show(
+  silly_job_title( 'Charge Charmer' ),
   old_book_teardown(
     publication_date( '2024-01-04' ),
     youtube_video( 'zvtVykg1kNY' ),
@@ -336,45 +348,6 @@ show(
     youtube_video( 'uEzp4mx_pYA' ),
     blog_url( 'https://blog.jj5.net/blog/2024/01/09/announcing-maxitronix-xin1-projects-feature/' ),
     patreon_url( 'https://www.patreon.com/posts/96070937' ),
-  ),
-  new_book_teardown(
-    publication_date( '2024-02-16' ),
-    youtube_video( 'IzSkw-3aqyA' ),
-    blog_url( 'https://blog.jj5.net/blog/2024/02/16/new-book-the-art-of-electronics-3rd-edition-in-the-lab-with-jay-jay/' ),
-    patreon_url( 'https://www.patreon.com/posts/98545979' ),
-    new_book(
-      title( "The Art of Electronics" ),
-      edition( 3 ),
-      author( 'Paul Horowitz, Winfield Hill' ),
-      copyright_year( '2015' ),
-      page_count( 1220 ),
-      affiliate_link(
-        equipment_url ( 'https://www.amazon.com/Electronics-Harvard-University-Massachusetts-Horowitz/dp/0521809266' ),
-        affiliate_url ( 'https://amzn.to/3wzXF7X' ),
-        item_price    ( 'US$77.70' ),
-      ),
-      affiliate_link(
-        equipment_url ( 'https://www.amazon.com.au/Electronics-Harvard-University-Massachusetts-Horowitz/dp/0521809266' ),
-        affiliate_url ( 'https://amzn.to/4bWg6UD' ),
-        item_price    ( 'AU$117.30' ),
-      ),
-    ),
-  ),
-  old_book_teardown(
-    publication_date( '2024-03-07' ),
-    youtube_video( 'XGwR7Ul55NQ' ),
-    blog_url( 'https://blog.jj5.net/blog/2024/03/07/old-book-teardown-the-internet-with-windows-in-the-lab-with-jay-jay/' ),
-    patreon_url( 'https://www.patreon.com/posts/99911472' ),
-    old_book(
-      title( "The Internet With Windows" ),
-      author( 'Glyn Moody' ),
-      copyright_year( '1996' ),
-      page_count( 651 ),
-      affiliate_link(
-        equipment_url ( 'https://www.amazon.com/dp/0750620994' ),
-        affiliate_url ( 'https://amzn.to/3Tq57LX' ),
-      ),
-    ),
   ),
 );
 
@@ -431,6 +404,53 @@ show(
     title( "Just checking in about the new website" ),
     youtube_video( 'ZA6k8Nr78yg' ),
     blog_url( 'https://blog.jj5.net/blog/2024/01/14/elliots-extras-just-checking-in-about-the-new-website/' ),
+  ),
+);
+
+show(
+  silly_job_title( 'Charge Charmer' ),
+  new_book_teardown(
+    publication_date( '2024-02-16' ),
+    youtube_video( 'IzSkw-3aqyA' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/02/16/new-book-the-art-of-electronics-3rd-edition-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/98545979' ),
+    new_book(
+      title( "The Art of Electronics" ),
+      edition( 3 ),
+      author( 'Paul Horowitz, Winfield Hill' ),
+      copyright_year( '2015' ),
+      page_count( 1220 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/Electronics-Harvard-University-Massachusetts-Horowitz/dp/0521809266' ),
+        affiliate_url ( 'https://amzn.to/3wzXF7X' ),
+        item_price    ( 'US$77.70' ),
+      ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com.au/Electronics-Harvard-University-Massachusetts-Horowitz/dp/0521809266' ),
+        affiliate_url ( 'https://amzn.to/4bWg6UD' ),
+        item_price    ( 'AU$117.30' ),
+      ),
+    ),
+  ),
+);
+
+show(
+  silly_job_title( 'Charge Charmer' ),
+  old_book_teardown(
+    publication_date( '2024-03-07' ),
+    youtube_video( 'XGwR7Ul55NQ' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/07/old-book-teardown-the-internet-with-windows-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/99911472' ),
+    old_book(
+      title( "The Internet With Windows" ),
+      author( 'Glyn Moody' ),
+      copyright_year( '1996' ),
+      page_count( 651 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/dp/0750620994' ),
+        affiliate_url ( 'https://amzn.to/3Tq57LX' ),
+      ),
+    ),
   ),
 );
 
@@ -543,46 +563,11 @@ show(
 show(
   silly_job_title( 'Spark Slinger' ),
   electronics_project(
-    publication_date( '2024-01-19' ),
+    publication_date( '2024-03-19' ),
     title( "USB Light Dimmer for On Air Light" ),
     youtube_video( 'pv43NMQ0png' ),
     blog_url( 'https://blog.jj5.net/blog/2024/03/19/usb-light-dimmer-for-on-air-light-in-the-lab-with-jay-jay/' ),
     patreon_url( 'https://www.patreon.com/posts/100260750' ),
-  ),
-  old_book_teardown(
-    publication_date( '2024-03-23' ),
-    youtube_video( 'Q6jDzp3ZqGE' ),
-    blog_url( 'https://blog.jj5.net/blog/2024/03/23/old-book-teardown-dictionary-of-electronics-in-the-lab-with-jay-jay/' ),
-    patreon_url( 'https://www.patreon.com/posts/100590854' ),
-    old_book(
-      title( "Dictionary of Electronics" ),
-      edition( 2 ),
-      author( 'Harley Carter A.M.I.E.E.' ),
-      copyright_year( '1963' ),
-      page_count( 410 ),
-    ),
-  ),
-  new_book_teardown(
-    publication_date( '2024-02-28' ),
-    youtube_video( 'bDSuivHF52g' ),
-    blog_url( 'https://blog.jj5.net/blog/2024/03/28/new-book-teardown-the-art-of-electronics-the-x-chapters-in-the-lab-with-jay-jay/' ),
-    patreon_url( 'https://www.patreon.com/posts/100986394' ),
-    new_book(
-      title( "The Art of Electronics: The x-Chapters" ),
-      author( 'Paul Horowitz, Winfield Hill' ),
-      copyright_year( '2020' ),
-      page_count( 506 ),
-      affiliate_link(
-        equipment_url ( 'https://www.amazon.com/dp/1108499945' ),
-        affiliate_url ( 'https://amzn.to/3vel6DG' ),
-        item_price    ( 'US$46.18' ),
-      ),
-      affiliate_link(
-        equipment_url ( 'https://www.amazon.com.au/dp/1108499945' ),
-        affiliate_url ( 'https://amzn.to/3VxpZlH' ),
-        item_price    ( 'AU$81.95' ),
-      ),
-    ),
   ),
 );
 
@@ -623,6 +608,23 @@ show(
 );
 
 show(
+  silly_job_title( 'Spark Slinger' ),
+  old_book_teardown(
+    publication_date( '2024-03-23' ),
+    youtube_video( 'Q6jDzp3ZqGE' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/23/old-book-teardown-dictionary-of-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/100590854' ),
+    old_book(
+      title( "Dictionary of Electronics" ),
+      edition( 2 ),
+      author( 'Harley Carter A.M.I.E.E.' ),
+      copyright_year( '1963' ),
+      page_count( 410 ),
+    ),
+  ),
+);
+
+show(
   maxitronix_segment(
     publication_date( '2024-03-25' ),
     title( "Light Alarm With Latch" ),
@@ -659,6 +661,32 @@ show(
 );
 
 show(
+  silly_job_title( 'Spark Slinger' ),
+  new_book_teardown(
+    publication_date( '2024-03-28' ),
+    youtube_video( 'bDSuivHF52g' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/03/28/new-book-teardown-the-art-of-electronics-the-x-chapters-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/100986394' ),
+    new_book(
+      title( "The Art of Electronics: The x-Chapters" ),
+      author( 'Paul Horowitz, Winfield Hill' ),
+      copyright_year( '2020' ),
+      page_count( 506 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/dp/1108499945' ),
+        affiliate_url ( 'https://amzn.to/3vel6DG' ),
+        item_price    ( 'US$46.18' ),
+      ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com.au/dp/1108499945' ),
+        affiliate_url ( 'https://amzn.to/3VxpZlH' ),
+        item_price    ( 'AU$81.95' ),
+      ),
+    ),
+  ),
+);
+
+show(
   maxitronix_segment(
     publication_date( '2024-03-29' ),
     title( "Shot In The Dark I" ),
@@ -679,6 +707,10 @@ show(
     blog_url( 'https://blog.jj5.net/blog/2024/03/30/male-and-female-rf-coaxial-cables-with-alligator-clips-in-the-lab-with-jay-jay/' ),
     patreon_url( 'https://www.patreon.com/posts/101286979' ),
   ),
+);
+
+show(
+  silly_job_title( 'Master Planner' ),
   old_book_teardown(
     publication_date( '2024-03-31' ),
     youtube_video( 'iAi1UMdaJFI' ),
@@ -691,6 +723,10 @@ show(
       page_count( 274 ),
     ),
   ),
+);
+
+show(
+  silly_job_title( 'Master Planner' ),
   new_book_teardown(
     publication_date( '2024-04-01' ),
     youtube_video( 'UBPZuOjWT0A' ),
@@ -749,6 +785,10 @@ show(
     blog_url( 'https://blog.jj5.net/blog/2024/04/25/hook-clip-test-probes-to-dupont-jumpers-in-the-lab-with-jay-jay' ),
     patreon_url( 'https://www.patreon.com/posts/103023264' ),
   ),
+);
+
+show(
+  silly_job_title( 'Electron Enchanter' ),
   old_book_teardown(
     publication_date( '2024-04-27' ),
     youtube_video( 'HPc3LlLlpbU' ),
@@ -761,6 +801,10 @@ show(
       page_count( 666 ),
     ),
   ),
+);
+
+show(
+  silly_job_title( 'Electron Enchanter' ),
   new_book_teardown(
     publication_date( '2024-04-30' ),
     youtube_video( 'uliqFAcrAxY' ),
@@ -810,43 +854,6 @@ show(
     blog_url( 'https://blog.jj5.net/blog/2024/05/14/electronics-project-piezoelectric-buzzer-volume-control-in-the-lab-with-jay-jay/' ),
     patreon_url( 'https://www.patreon.com/posts/104209741' ),
   ),
-  old_book_teardown(
-    publication_date( '2024-07-11' ),
-    youtube_video( '7qUCJVdsGD8' ),
-    blog_url( 'https://blog.jj5.net/blog/2024/07/11/old-book-teardown-radio-engineering-3rd-edition-1947-in-the-lab-with-jay-jay/' ),
-    patreon_url( 'https://www.patreon.com/posts/107853309' ),
-    old_book(
-      title( "Radio Engineering" ),
-      edition( 3 ),
-      author( 'Frederick Emmons Terman' ),
-      copyright_year( '1947' ),
-      page_count( 953 ),
-      affiliate_link(
-        equipment_url ( 'https://www.amazon.com/dp/B0007JUUAO' ),
-        item_price    ( 'US$19.99' ),
-      ),
-    ),
-  ),
-  /*
-  new_book_teardown(
-    publication_date( '2024-04-30' ),
-    youtube_video( 'uliqFAcrAxY' ),
-    blog_url( 'https://blog.jj5.net/blog/2024/04/30/new-book-teardown-beginners-guide-to-reading-schematics-fourth-edition-in-the-lab-with-jay-jay/' ),
-    patreon_url( 'https://www.patreon.com/posts/103027154' ),
-    new_book(
-      title( "Beginner’s Guide to Reading Schematics" ),
-      edition( 4 ),
-      author( 'Stan Gibilisco' ),
-      copyright_year( '2018' ),
-      page_count( 209 ),
-      affiliate_link(
-        equipment_url ( 'https://www.amazon.com.au/dp/1260031101' ),
-        affiliate_url ( 'https://amzn.to/3vY5Afz' ),
-        item_price    ( 'AU$97.10' ),
-      ),
-    ),
-  ),
-  */
 );
 
 show(
@@ -889,6 +896,27 @@ show(
     youtube_video( '9J8L6PBh2Ks' ),
     blog_url( 'https://blog.jj5.net/blog/2024/07/08/interlude-electronex-2024-debriefing-learning-electronics-in-the-lab-with-jay-jay/' ),
     patreon_url( 'https://www.patreon.com/posts/107688092' ),
+  ),
+);
+
+show(
+  silly_job_title( 'Amp Alchemist' ),
+  old_book_teardown(
+    publication_date( '2024-07-11' ),
+    youtube_video( '7qUCJVdsGD8' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/07/11/old-book-teardown-radio-engineering-3rd-edition-1947-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/107853309' ),
+    old_book(
+      title( "Radio Engineering" ),
+      edition( 3 ),
+      author( 'Frederick Emmons Terman' ),
+      copyright_year( '1947' ),
+      page_count( 953 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/dp/B0007JUUAO' ),
+        item_price    ( 'US$19.99' ),
+      ),
+    ),
   ),
 );
 
@@ -1035,21 +1063,6 @@ show(
     blog_url( 'https://blog.jj5.net/blog/2024/07/26/electronics-project-icl8038-monolithic-function-signal-generator-kit-build-and-test-in-the-lab/' ),
     patreon_url( 'https://www.patreon.com/posts/108839807' ),
   ),
-  old_book_teardown(
-    publication_date( '2024-08-20' ),
-    youtube_video( 'HRhQfjqQ_Yg' ),
-    blog_url( 'https://blog.jj5.net/blog/2024/08/20/old-book-teardown-9-basic-electronics-volumes-1-through-6-1955-in-the-lab-with-jay-jay/' ),
-    patreon_url( 'https://www.patreon.com/posts/110400160' ),
-    old_book(
-      title( "Basic Electronics - Volumes 1 through 6" ),
-      author( 'Van Valkenburgh, Nooger and Neville, Inc.' ),
-      copyright_year( '1955' ),
-      page_count( 647 ),
-      affiliate_link(
-        equipment_url ( 'https://www.archive.org/details/BasicElectronicsVolumes151955' ),
-      ),
-    ),
-  ),
 );
 
 show(
@@ -1171,6 +1184,25 @@ show(
 );
 
 show(
+  silly_job_title( 'Buzz Boss' ),
+  old_book_teardown(
+    publication_date( '2024-08-20' ),
+    youtube_video( 'HRhQfjqQ_Yg' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/08/20/old-book-teardown-9-basic-electronics-volumes-1-through-6-1955-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/110400160' ),
+    old_book(
+      title( "Basic Electronics - Volumes 1 through 6" ),
+      author( 'Van Valkenburgh, Nooger and Neville, Inc.' ),
+      copyright_year( '1955' ),
+      page_count( 647 ),
+      affiliate_link(
+        equipment_url ( 'https://www.archive.org/details/BasicElectronicsVolumes151955' ),
+      ),
+    ),
+  ),
+);
+
+show(
   mail_call(
     publication_date( '2024-08-23' ),
     title( 'Books from Amazon, Cables from AliExpress, and a Fluke Meter from eBay!' ),
@@ -1249,6 +1281,30 @@ show(
     blog_url( 'https://blog.jj5.net/blog/2024/09/01/electronics-project-8-debugging-the-symbol-keyboard-mini-project-jmp001-in-the-lab-with-jay-jay/' ),
     patreon_url( 'https://www.patreon.com/posts/111181703' ),
   ),
+);
+
+show(
+  demo(
+    publication_date( '2024-09-03' ),
+    title( 'How to Use All the Features of the Fluke 17B+ Digital Multimeter' ),
+    youtube_video( 'KwPs7ES5Cso' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/09/03/demo-1-how-to-use-all-the-features-of-the-fluke-17b-digital-multimeter-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/111313466' ),
+  ),
+);
+
+show(
+  mail_call(
+    publication_date( '2024-09-05' ),
+    title( 'Tools and Equipment from Jaycar, Amazon, and AliExpress' ),
+    youtube_video( '2HwuN_y9iKM' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/09/05/mail-call-9-tools-and-equipment-from-jaycar-amazon-and-aliexpress-in-the-lab-with-jay-jay' ),
+    patreon_url( 'https://www.patreon.com/posts/111455414' ),
+  ),
+);
+
+show(
+  silly_job_title( 'Component Wrangler' ),
   old_book_teardown(
     publication_date( '2024-09-24' ),
     youtube_video( 'ZPZ8nHIC6W4' ),
@@ -1269,25 +1325,5 @@ show(
         equipment_url ( 'https://www.wiley.com/en-us/Digital+Systems%3A+Hardware+Organization+and+Design%2C+3rd+Edition-p-9780471808060' ),
       ),
     ),
-  ),
-);
-
-show(
-  demo(
-    publication_date( '2024-09-03' ),
-    title( 'How to Use All the Features of the Fluke 17B+ Digital Multimeter' ),
-    youtube_video( 'KwPs7ES5Cso' ),
-    blog_url( 'https://blog.jj5.net/blog/2024/09/03/demo-1-how-to-use-all-the-features-of-the-fluke-17b-digital-multimeter-in-the-lab-with-jay-jay/' ),
-    patreon_url( 'https://www.patreon.com/posts/111313466' ),
-  ),
-);
-
-show(
-  mail_call(
-    publication_date( '2024-09-05' ),
-    title( 'Tools and Equipment from Jaycar, Amazon, and AliExpress' ),
-    youtube_video( '2HwuN_y9iKM' ),
-    blog_url( 'https://blog.jj5.net/blog/2024/09/05/mail-call-9-tools-and-equipment-from-jaycar-amazon-and-aliexpress-in-the-lab-with-jay-jay' ),
-    patreon_url( 'https://www.patreon.com/posts/111455414' ),
   ),
 );

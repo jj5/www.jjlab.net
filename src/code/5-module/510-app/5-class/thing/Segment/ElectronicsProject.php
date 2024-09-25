@@ -28,6 +28,11 @@ class ElectronicsProject extends Segment {
 
   public function render_extra_video_attributes() {
 
+    // 2024-09-25 jj5 - this is obsolete now, just skip it.
+
+    return;
+
+
     $show = $this->get_show();
 
     $old_book = $show->get_old_book_teardown();

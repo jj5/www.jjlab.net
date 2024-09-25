@@ -28,6 +28,10 @@ class OldBookTeardown extends BookSegment {
 
   public function render_extra_video_attributes() {
 
+    // 2024-09-25 jj5 - this is obsolete now, just skip it.
+
+    return;
+
     $show = $this->get_show();
 
     tag_text( 'dt', 'Main Show' );
