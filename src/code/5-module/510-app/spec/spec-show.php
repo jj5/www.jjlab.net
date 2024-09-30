@@ -1337,3 +1337,13 @@ show(
     patreon_url( 'https://www.patreon.com/posts/112739373' ),
   ),
 );
+
+show(
+  mail_call(
+    publication_date( '2024-09-30' ),
+    title( 'Costume Upgrade! And More Loot from AliExpress' ),
+    youtube_video( 'fZGjhnf0G8M' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/09/30/mail-call-11-costume-upgrade-and-more-loot-from-aliexpress-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/113050907' ),
+  ),
+);

@@ -3797,3 +3797,17 @@ equipment_define(
     EquipmentFeature::MECHANICAL_PENCIL,
     EquipmentFeature::PENCIL,
   );
+
+  //
+  // 2024-09-30 jj5 - SHIRT
+  //
+
+  equipment_define(
+    EquipmentFeature::SHIRT,
+    EquipmentClass::SHIRT,
+  );
+
+    equipment_define(
+      EquipmentFeature::T_SHIRT,
+      EquipmentFeature::SHIRT,
+    );

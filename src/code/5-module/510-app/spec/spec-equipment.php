@@ -15025,6 +15025,33 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2024-09-30' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/8105ELveYZL._AC_SX679_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'MoFiz' ),
+    model_name        ( 'Mens Camo Polo' ),
+    EquipmentFeature::SHIRT
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/dp/B0CQK3YQ7N' ),
+    listing_name  ( 'MoFiz Mens Camo Polo Golf Shirts Lightweight Dry Fit Pique Short Sleeve Collared Hiking T-Shirts Dry fit Activewear' ),
+    item_options  ( 'Size: XX-Large; Colour: Green Camo' ),
+    item_price    ( '$42.70' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/dp/B0CQK3YQ7N' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=249-7810773-2899844' ),
+    order_id        ( '249-7810773-2899844' ),
+    order_date      ( '22 September 2024' ),
+    order_item_name ( 'MoFiz Mens Camo Polo Golf Shirts Lightweight Dry Fit Pique Short Sleeve Collared Hiking T-Shirts Dry fit Activewear, Green Camo, XX-Large' ),
+    order_options   ( 'Green Camo, XX-Large' ),
+    order_price     ( '$51.06' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
 /*
 
 equipment(

@@ -1737,4 +1737,12 @@ enum EquipmentFeature : string {
 
     case MECHANICAL_PENCIL = 'mechanical-pencil';
 
+  //
+  // 2024-09-30 jj5 - SHIRT
+  //
+
+  case SHIRT = 'shirt';
+
+    case T_SHIRT = 't-shirt';
+
 }

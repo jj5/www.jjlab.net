@@ -107,6 +107,7 @@ enum EquipmentClass : string {
   case SCISSORS = 'scissors';
   case SCOPE = 'scope';
   case SCREWDRIVER = 'screwdriver';
+  case SHIRT = 'shirt';
   case SIGN = 'sign';
   case SIGNAL_GENERATOR = 'signal-generator';
   case SOLDERING_IRON = 'soldering-iron';

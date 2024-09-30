@@ -103,6 +103,7 @@ define( 'TITLE_SITEMAP_XML', 'Click here for the sitemap.xml file. [Hotkey: X]' 
 define( 'TITLE_RSS_FEED', TITLE_NAV_FEED );
 
 define( 'TITLE_BUY_LAB_COAT', 'Click here to find out more about my lab coat.' );
+define( 'TITLE_BUY_CAMO_SHIRT', 'Click here to find out more about my camo shirt.' );
 define( 'TITLE_BUY_GOGGLES', 'Click here to find out more about my safety goggles.' );
 define( 'TITLE_BUY_ID_BADGE', 'Click here to find out more about my ID badge holder.' );
 define( 'TITLE_BUY_POCKET_PROTECTOR', 'Click here to find out more about my pocket protector.' );
@@ -2808,6 +2809,16 @@ function render_section_about_costume( int $heading_level = 2 ) {
           'Lab coat',
           'https://jj5.net/26225',
           TITLE_BUY_LAB_COAT,
+        );
+
+      tag_shut( 'li' );
+
+      tag_open( 'li' );
+
+        render_link_external(
+          'Camo shirt',
+          'https://jj5.net/69698',
+          TITLE_BUY_CAMO_SHIRT,
         );
 
       tag_shut( 'li' );
