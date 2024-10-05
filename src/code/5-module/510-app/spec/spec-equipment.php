@@ -15052,6 +15052,35 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2024-09-27' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S75590664751648038bcacaed1ad8976aS/Resistance-Box-0-9999-9-Adjustable-Lab-Resistor-Substitution-Box-Precision-1W-Variable-Knob-Switch-Boxes.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_name        ( 'J15026-2 6-Knob' ),
+    EquipmentFeature::RESISTOR_BOX
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005830434408.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_Dnp3SEN' ),
+    listing_name  ( 'Resistance Box 0-9999.9Ω Adjustable Lab Resistor Substitution Box Precision 1W Variable Knob Switch Boxes' ),
+    item_price    ( 'AU$17.39' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005830434408.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.1.1a231802Z3NMT0&orderId=8194019591923938' ),
+    order_id        ( '8194019591923938' ),
+    order_date      ( 'Sep 27, 2024' ),
+    order_item_name ( 'Resistance Box 0-9999.9Ω Adjustable Lab Resistor Substitution Box Precision 1W Variable Knob Switch Boxes' ),
+    order_options   ( 'black' ),
+    order_price     ( 'AU$17.29' ),
+    order_quantity  ( 2 ),
+    order_shipping  ( 'AU$21.90' ),
+    order_tax       ( 'AU$5.51' ),
+  ),
+);
+
 /*
 
 equipment(

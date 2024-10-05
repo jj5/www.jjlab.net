@@ -1448,6 +1448,10 @@ enum EquipmentFeature : string {
 
     case LAB_COAT = 'lab-coat';
 
+    case SHIRT = 'shirt';
+
+      case T_SHIRT = 't-shirt';
+
   //
   // 2024-08-04 jj5 - POCKET_PROTECTOR
   //
@@ -1738,11 +1742,21 @@ enum EquipmentFeature : string {
     case MECHANICAL_PENCIL = 'mechanical-pencil';
 
   //
-  // 2024-09-30 jj5 - SHIRT
+  // 2024-10-04 jj5 - COMPONENT
   //
 
-  case SHIRT = 'shirt';
+  case COMPONENT = 'component';
 
-    case T_SHIRT = 't-shirt';
+    case RESISTOR = 'resistor';
+
+      case VARIABLE_RESISTOR = 'variable-resistor';
+
+        case RESISTOR_BOX = 'resistor-box';
+
+    case CAPACITOR = 'capacitor';
+
+    case INDUCTOR = 'inductor';
+
+    case DIODE = 'diode';
 
 }

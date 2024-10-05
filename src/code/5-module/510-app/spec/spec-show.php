@@ -1347,3 +1347,13 @@ show(
     patreon_url( 'https://www.patreon.com/posts/113050907' ),
   ),
 );
+
+show(
+  demo(
+    publication_date( '2024-10-05' ),
+    title( 'Resistor Box Banana Plug Modding and Demo' ),
+    youtube_video( 'utv7ncMAsBQ' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/10/05/demo-2-resistor-box-banana-plug-modding-and-demo-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/113395168' ),
+  ),
+);

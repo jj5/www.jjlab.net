@@ -3216,6 +3216,16 @@ equipment_define(
     EquipmentAttribute::SAFETY_EQUIPMENT,
   );
 
+  equipment_define(
+    EquipmentFeature::SHIRT,
+    EquipmentFeature::CLOTHING,
+  );
+
+    equipment_define(
+      EquipmentFeature::T_SHIRT,
+      EquipmentFeature::SHIRT,
+    );
+
 //
 // 2024-08-04 jj5 - POCKET_PROTECTOR
 //
@@ -3798,16 +3808,45 @@ equipment_define(
     EquipmentFeature::PENCIL,
   );
 
-  //
-  // 2024-09-30 jj5 - SHIRT
-  //
+//
+// 2024-10-04 jj5 - COMPONENT
+//
+
+equipment_define(
+  EquipmentFeature::COMPONENT,
+  EquipmentClass::COMPONENT,
+);
 
   equipment_define(
-    EquipmentFeature::SHIRT,
-    EquipmentClass::SHIRT,
+    EquipmentFeature::RESISTOR,
+    EquipmentClass::RESISTOR,
+    EquipmentFeature::COMPONENT,
   );
 
     equipment_define(
-      EquipmentFeature::T_SHIRT,
-      EquipmentFeature::SHIRT,
+      EquipmentFeature::VARIABLE_RESISTOR,
+      EquipmentFeature::RESISTOR,
     );
+
+      equipment_define(
+        EquipmentFeature::RESISTOR_BOX,
+        EquipmentFeature::VARIABLE_RESISTOR,
+      );
+
+  equipment_define(
+    EquipmentFeature::CAPACITOR,
+    EquipmentClass::CAPACITOR,
+    EquipmentFeature::COMPONENT,
+  );
+
+  equipment_define(
+    EquipmentFeature::INDUCTOR,
+    EquipmentClass::INDUCTOR,
+    EquipmentFeature::COMPONENT,
+  );
+
+  equipment_define(
+    EquipmentFeature::DIODE,
+    EquipmentClass::DIODE,
+    EquipmentFeature::COMPONENT,
+  );

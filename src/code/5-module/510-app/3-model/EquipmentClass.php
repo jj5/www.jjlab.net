@@ -23,6 +23,7 @@ enum EquipmentClass : string {
   case CALCULATOR = 'calculator';
   case CALIPERS = 'calipers';
   case CAMERA = 'camera';
+  case CAPACITOR = 'capacitor';
   case CAPACITOR_DISCHARGE_PEN = 'capacitor-discharge-pen';
   case CHUMBY = 'chumby';
   case CIRCUIT_BOARD = 'circuit-board';
@@ -31,6 +32,7 @@ enum EquipmentClass : string {
   case CLEANING_BRICKS = 'cleaning-bricks';
   case CLOTH = 'cloth';
   case CLOTHING = 'clothing';
+  case COMPONENT = 'component';
   case COMPONENT_TESTER = 'component-tester';
   case CONNECTOR = 'connector';
   case COTTON_SWABS = 'cotton-swabs';
@@ -41,6 +43,7 @@ enum EquipmentClass : string {
   case CUTTER = 'cutter';
   case DEPTH_GAUGE = 'depth-gauge';
   case DESOLDERING_TOOL = 'desoldering-tool';
+  case DIODE = 'diode';
   case DISPENSER = 'dispenser';
   case DISPLAY = 'display';
   case DRAWER = 'drawer';
@@ -62,6 +65,7 @@ enum EquipmentClass : string {
   case HOLDER = 'holder';
   case HOOK = 'hook';
   case HUB = 'hub';
+  case INDUCTOR = 'inductor';
   case JAW_PADS = 'jaw-pads';
   case KEYBOARD = 'keyboard';
   case KIT = 'kit';
@@ -97,6 +101,7 @@ enum EquipmentClass : string {
   case PROJECT = 'project';
   case PROTOCOL_ANALYZER = 'protocol-analyzer';
   case RADIO = 'radio';
+  case RESISTOR = 'resistor';
   case ROTARY_TOOL_ATTACHMENT = 'rotary-tool-attachment';
   case ROTARY_TOOL = 'rotary-tool';
   case ROUTER = 'router';
