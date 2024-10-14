@@ -1367,3 +1367,14 @@ show(
     patreon_url( 'https://www.patreon.com/posts/113945483' ),
   ),
 );
+
+show(
+  silly_job_title( 'Outlet Overlord' ),
+  electronics_project(
+    publication_date( '2024-10-15' ),
+    title( "Making Banana Plug to Hook Clip Cables" ),
+    youtube_video( 'haVCq2RUmdQ' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/10/15/electronics-project-9-making-banana-plug-to-hook-clip-cables-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/114010025' ),
+  ),
+);

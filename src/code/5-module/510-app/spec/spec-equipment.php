@@ -12283,6 +12283,15 @@ equipment(
     order_price     ( 'AU$249.99' ),
     order_quantity  ( 1 ),
   ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/dp/B01N5UOYC4' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=249-3387362-9719023' ),
+    order_id        ( '249-3387362-9719023' ),
+    order_date      ( '14 October 2024' ),
+    order_item_name ( 'Logitech BRIO – Ultra HD Webcam for Video Conferencing, Recording, and Streaming' ),
+    order_price     ( 'AU$299.99' ),
+    order_quantity  ( 1 ),
+  ),
 );
 
 equipment(
@@ -15048,6 +15057,16 @@ equipment(
     order_item_name ( 'MoFiz Mens Camo Polo Golf Shirts Lightweight Dry Fit Pique Short Sleeve Collared Hiking T-Shirts Dry fit Activewear, Green Camo, XX-Large' ),
     order_options   ( 'Green Camo, XX-Large' ),
     order_price     ( '$51.06' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/dp/B0CQK3YQ7N' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=249-7929651-7027827' ),
+    order_id        ( '249-7929651-7027827' ),
+    order_date      ( '14 October 2024' ),
+    order_item_name ( 'MoFiz Mens Camo Polo Golf Shirts Lightweight Dry Fit Pique Short Sleeve Collared Hiking T-Shirts Dry fit Activewear, Green Camo, XX-Large' ),
+    order_options   ( 'Green Camo, XX-Large' ),
+    order_price     ( '$43.25' ),
     order_quantity  ( 1 ),
   ),
 );
