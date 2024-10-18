@@ -358,7 +358,7 @@ show(
     maxitronix_kit_name( '10in1' ),
     youtube_video( 'FKAgGdTy0_c' ),
     blog_url( 'https://blog.jj5.net/blog/2024/01/09/in-the-lab-with-jay-jay-maxitronix-10in1-introduction/' ),
-    patreon_url( 'https://www.patreon.com/posts/introducing-in-96074472' ),
+    patreon_url( 'https://www.patreon.com/posts/96074472' ),
   ),
 );
 
@@ -370,7 +370,7 @@ show(
     maxitronix_kit_name( '10in1' ),
     youtube_video( '2QUb4eTOSIU' ),
     blog_url( 'https://blog.jj5.net/blog/2024/01/10/in-the-lab-with-jay-jay-maxitronix-10in1-project-1-10-morse-code-by-light/' ),
-    patreon_url( 'https://www.patreon.com/posts/morse-code-by-1-96123921' ),
+    patreon_url( 'https://www.patreon.com/posts/96123921' ),
   ),
 );
 
@@ -382,7 +382,7 @@ show(
     maxitronix_kit_name( '10in1' ),
     youtube_video( 'q3hf6988o-k' ),
     blog_url( 'https://blog.jj5.net/blog/2024/01/11/in-the-lab-with-jay-jay-maxitronix-10in1-project-2-10-morse-code-oscillator/' ),
-    patreon_url( 'https://www.patreon.com/posts/morse-code-2-10-96127734' ),
+    patreon_url( 'https://www.patreon.com/posts/96127734' ),
   ),
 );
 
@@ -394,7 +394,7 @@ show(
     maxitronix_kit_name( '10in1' ),
     youtube_video( 'bIdm-RUCKA4' ),
     blog_url( 'https://blog.jj5.net/blog/2024/01/12/diode-experiment-project-3-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
-    patreon_url( 'https://www.patreon.com/posts/diode-experiment-96283070' ),
+    patreon_url( 'https://www.patreon.com/posts/96283070' ),
   ),
 );
 
@@ -1376,5 +1376,17 @@ show(
     youtube_video( 'haVCq2RUmdQ' ),
     blog_url( 'https://blog.jj5.net/blog/2024/10/15/electronics-project-9-making-banana-plug-to-hook-clip-cables-in-the-lab-with-jay-jay/' ),
     patreon_url( 'https://www.patreon.com/posts/114010025' ),
+  ),
+);
+
+show(
+  maxitronix_segment(
+    publication_date( '2024-10-18' ),
+    title( "Burglar Alarm" ),
+    project( 11, 20 ),
+    maxitronix_kit_name( '20in1' ),
+    youtube_video( 'lI4sa977w3E' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/10/18/burglar-alarm-project-11-20-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/114219302' ),
   ),
 );
