@@ -170,7 +170,7 @@ class Feature extends AppThing {
 
     $list = array_reverse( $list );
 
-    return AppStash::get_thing_list( $list );
+    return AppData::get_thing_list( $list );
 
   }
 }

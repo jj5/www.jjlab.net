@@ -3,31 +3,31 @@
 trait LinkedList {
 
   private $next = null;
-  
+
   private $prev = null;
 
   public function get_next() {
 
     if ( $this->next === null ) {
 
-      $this->next = AppStash::get_null( get_class( $this ) );
+      $this->next = AppData::get_null( get_class( $this ) );
 
     }
-    
+
     return $this->next;
-  
+
   }
-  
+
   public function get_prev() {
 
     if ( $this->prev === null ) {
 
-      $this->prev = AppStash::get_null( get_class( $this ) );
+      $this->prev = AppData::get_null( get_class( $this ) );
 
     }
-    
+
     return $this->prev;
-  
+
   }
 
   public function set_next( $next ) {
@@ -39,23 +39,23 @@ trait LinkedList {
     assert( $next->prev === null );
 
     $next->prev = $this;
-  
+
   }
 
   public function set_prev( $prev ) {
 
     assert( $this->prev === null );
-    
+
     $this->prev = $prev;
 
     assert( $prev->next === null );
 
     $prev->next = $this;
-  
+
   }
 
   public function find_next( $class ) {
-        
+
     $next = $this->get_next();
 
     while ( $next ) {
@@ -71,7 +71,7 @@ trait LinkedList {
   }
 
   public function find_prev( $class ) {
-    
+
     $prev = $this->get_prev();
 
     while ( $prev ) {

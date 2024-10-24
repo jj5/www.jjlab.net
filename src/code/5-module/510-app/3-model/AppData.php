@@ -1,6 +1,6 @@
 <?php
 
-class AppStash extends MudStash {
+class AppData {
 
   private $value_map = [];
 
@@ -36,7 +36,7 @@ class AppStash extends MudStash {
 
     if (  $this->render_document() ) {
 
-      $this->render_document_head( 'AppStash' );
+      $this->render_document_head( 'AppData' );
 
     }
 

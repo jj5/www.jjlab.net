@@ -49,11 +49,11 @@ function itl() {
 
 }
 
-function app_stash() : AppStash {
+function app_stash() : AppData {
 
   static $instance = null;
 
-  if ( $instance === null ) { $instance = new AppStash( 'app' ); }
+  if ( $instance === null ) { $instance = new AppData( 'app' ); }
 
   return $instance;
 
