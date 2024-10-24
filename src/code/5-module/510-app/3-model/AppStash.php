@@ -1,6 +1,6 @@
 <?php
 
-class AppStash {
+class AppStash extends MudStash {
 
   private $value_map = [];
 

@@ -53,7 +53,7 @@ function app_stash() : AppStash {
 
   static $instance = null;
 
-  if ( $instance === null ) { $instance = new AppStash(); }
+  if ( $instance === null ) { $instance = new AppStash( 'app' ); }
 
   return $instance;
 
