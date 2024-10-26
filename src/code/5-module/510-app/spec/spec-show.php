@@ -1400,3 +1400,13 @@ show(
     patreon_url( 'https://www.patreon.com/posts/114637516' ),
   ),
 );
+
+show(
+  extra_content(
+    publication_date( '2024-10-26' ),
+    title( "Video and Sound Test for New Maths Homework Videos" ),
+    youtube_video( 'NA5brrGBjPA' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/10/26/extra-content-17-video-and-sound-test-for-new-maths-homework-videos-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/114728680' ),
+  ),
+);
