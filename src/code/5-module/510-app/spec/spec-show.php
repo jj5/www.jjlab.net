@@ -1410,3 +1410,14 @@ show(
     patreon_url( 'https://www.patreon.com/posts/114728680' ),
   ),
 );
+
+show(
+  mini_project(
+    publication_date( '2024-10-27' ),
+    title( "Lava Lamp Display" ),
+    mini_project_number( 2 ),
+    youtube_video( 'byf21IPSv7Y' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/10/27/lava-lamp-display-mini-project-jmp002-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/114743609' ),
+  )
+);
