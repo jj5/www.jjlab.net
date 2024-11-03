@@ -62,7 +62,7 @@ function app_render() {
 
     default :
 
-      default_redirect( url_base() . '/show-type.php#heading' );
+      return default_redirect( url_base() . '/show-type.php#heading' );
 
   }
 }

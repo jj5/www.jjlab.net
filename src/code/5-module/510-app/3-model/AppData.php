@@ -552,7 +552,7 @@ class AppData {
       // hosting page without the 'from' parameter.
 
       // 2024-07-02 jj5 - NEW:
-      default_redirect( url_base() . '/#heading' );
+      return default_redirect( url_base() . '/#heading' );
       // 2024-07-02 jj5 - OLD:
       //default_redirect( '?' . get_link_without( 'from' ) );
 

@@ -25,7 +25,7 @@ function app_render() {
 
     default :
 
-      default_redirect( url_base() . '/stats.php#heading' );
+      return default_redirect( url_base() . '/stats.php#heading' );
 
   }
 }

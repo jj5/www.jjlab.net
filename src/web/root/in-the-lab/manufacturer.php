@@ -16,7 +16,7 @@ function app_render() {
 
     if ( ! $manufacturer ) {
 
-      default_redirect( url_base() . '/manufacturer.php#heading' );
+      return default_redirect( url_base() . '/manufacturer.php#heading' );
 
     }
 

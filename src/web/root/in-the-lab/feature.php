@@ -54,7 +54,7 @@ function app_render() {
 
   }
 
-  default_redirect( url_base() . '/feature.php#heading' );
+  return default_redirect( url_base() . '/feature.php#heading' );
 
 }
 

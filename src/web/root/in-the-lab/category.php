@@ -16,7 +16,7 @@ function app_render() {
 
     if ( ! $category ) {
 
-      default_redirect( url_base() . '/category.php#heading' );
+      return default_redirect( url_base() . '/category.php#heading' );
 
     }
 

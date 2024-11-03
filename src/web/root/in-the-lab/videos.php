@@ -17,7 +17,7 @@ function app_render() {
 
     default :
 
-      default_redirect( url_base() . '/videos.php#videos' );
+      return default_redirect( url_base() . '/videos.php#videos' );
 
   }
 }

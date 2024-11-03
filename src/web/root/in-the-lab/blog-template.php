@@ -14,7 +14,7 @@ function app_render() {
 
     default :
 
-      default_redirect( url_base() . '/blog-template.php#heading' );
+      return default_redirect( url_base() . '/blog-template.php#heading' );
 
   }
 }
