@@ -10,6 +10,12 @@ function app_render() {
 
     $path_info = $_SERVER[ 'PATH_INFO' ] ?? null;
 
+    if ( ! $path_info ) {
+
+      return http_redirect( 'https://www.jjlab.net/' );
+
+    }
+
     $link = itl()->get_long_link( $path_info ) ?? 'https://www.jjlab.net/';
 
     if ( strpos( $link, 'equipment.php#' ) !== false ) {
@@ -22,7 +28,7 @@ function app_render() {
 
     }
 
-    http_redirect( $link );
+    return http_redirect( $link );
 
   }
   catch ( Throwable $ex ) {
@@ -34,7 +40,7 @@ function app_render() {
     }
     catch ( Throwable $ignore ) { ; }
 
-    http_redirect( 'https://www.jjlab.net/' );
+    return http_redirect( 'https://www.jjlab.net/' );
 
   }
 }

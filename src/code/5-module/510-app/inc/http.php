@@ -36,7 +36,6 @@ function http_redirect( $url, $response_code = 302 ) {
 
   while ( ob_get_level() ) { ob_end_clean(); }
   header( "Location: $url", true, $response_code );
-  exit();
 
 }
 
