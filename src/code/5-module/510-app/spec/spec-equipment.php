@@ -15100,6 +15100,35 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2024-09-20' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sb67a59be4d444865a81bfaed2209a1e4F/USB-Data-Cable-Test-Module-for-TypeB2-0-3-0-TypeC3-0-3-1-3-2.jpg_.webp' ),
+  equipment_item(
+    manufacturer_name ( 'occkic' ),
+    model_name        ( 'MRB063A' ),
+    EquipmentFeature::USB_CABLE_TESTER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007516852258.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DnFjtfj' ),
+    listing_name  ( 'USB Data Cable Test Module for TypeB2.0/3.0 TypeC3.0/3.1/3.2 MicroB3.0/2.0 MiniB2.0 Data Cable Connection Status Function Tester' ),
+    item_options  ( 'with battery' ),
+    item_price    ( 'AU$10.49' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007516852258.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.60.1ebf1802zNH1Fu&orderId=8192931842143938' ),
+    order_id        ( '8192931842143938' ),
+    order_date      ( 'Sep 20, 2024' ),
+    order_item_name ( 'USB Data Cable Test Module for TypeB2.0/3.0 TypeC3.0/3.1/3.2 MicroB3.0/2.0 MiniB2.0 Data Cable Connection Status Function Tester' ),
+    order_price     ( 'AU$10.49' ),
+    order_quantity  ( 2 ),
+    order_tax       ( 'AU$2.95' ),
+    order_shipping  ( 'AU$8.50' ),
+  ),
+);
+
 /*
 
 equipment(
