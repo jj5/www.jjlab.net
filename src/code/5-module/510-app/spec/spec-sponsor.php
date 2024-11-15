@@ -1,6 +1,12 @@
 <?php
 
 sponsor(
+  sponsor_name( 'roohif' ),
+  sponsor_url( 'https://www.youtube.com/@roohif' ),
+  sponsor_reason( 'is an Official Sponsor @ Patreon.' ),
+);
+
+sponsor(
   sponsor_name( 'Patreon Supporters' ),
   sponsor_url( 'https://www.patreon.com/JohnElliotV' ),
   sponsor_reason( 'send me money every month because they value the content I create.' ),
