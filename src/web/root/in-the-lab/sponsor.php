@@ -77,6 +77,8 @@ function render_sponsor_main() {
 
       tag_shut( 'ul' );
 
+      tag_text( 'h2', 'You Can Support The Show Too!', [ 'id' => 'sponsor' ] );
+
       tag_open( 'p' );
 
         out_text( 'If you would like to ' );
@@ -129,12 +131,26 @@ function render_sponsor_main() {
         out_text( " whose products I promote on my " );
 
         render_link_internal(
-          "equipment",
+          'equipment page',
           url_base() . '/equipment.php#heading',
           TITLE_EQUIPMENT,
         );
 
-        out_text( ' page.' );
+        out_text( '.' );
+
+      tag_shut( 'p' );
+
+      tag_open( 'p' );
+
+        out_text( 'You can see all the ways you can support the show on the ' );
+
+        render_link_internal(
+          'support page',
+          url_base() . '/support.php#heading',
+          TITLE_SUPPORT,
+        );
+
+        out_text( '.' );
 
       tag_shut( 'p' );
 
