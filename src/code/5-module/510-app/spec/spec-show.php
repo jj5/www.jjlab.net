@@ -1421,3 +1421,13 @@ show(
     patreon_url( 'https://www.patreon.com/posts/114743609' ),
   )
 );
+
+show(
+  mail_call(
+    publication_date( '2024-11-18' ),
+    title( 'Loot from Amazon and AliExpress: Cables, Micros, and More!' ),
+    youtube_video( 'GNnHujQS_z8' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/11/18/mail-call-14-loot-from-amazon-and-aliexpress-cables-micros-and-more-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/116220310' ),
+  ),
+);
