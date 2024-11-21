@@ -1431,3 +1431,13 @@ show(
     patreon_url( 'https://www.patreon.com/posts/116220310' ),
   ),
 );
+
+show(
+  unboxing(
+    publication_date( '2024-11-21' ),
+    title( 'MSI MAG Infinite S3 14NUC7-1456AU Enthusiast Gaming Desktop' ),
+    youtube_video( 'R2uAAFCkW4Q' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/11/21/unboxing-15-msi-mag-infinite-s3-14nuc7-1456au-enthusiast-gaming-desktop-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/116427082' ),
+  ),
+);
