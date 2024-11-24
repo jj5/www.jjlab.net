@@ -1441,3 +1441,13 @@ show(
     patreon_url( 'https://www.patreon.com/posts/116427082' ),
   ),
 );
+
+show(
+  unboxing(
+    publication_date( '2024-11-25' ),
+    title( 'StarTech.com 7.1 USB Sound Card and ASUS XONAR SE 5.1 PCIe Sound Card' ),
+    youtube_video( '12ABocwZUCk' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/11/25/unboxing-16-startech-com-7-1-usb-sound-card-and-asus-xonar-se-5-1-pcie-sound-card-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/116627042' ),
+  ),
+);
