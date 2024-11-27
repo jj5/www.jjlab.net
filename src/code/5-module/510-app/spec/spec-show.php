@@ -1461,3 +1461,13 @@ show(
     patreon_url( 'https://www.patreon.com/posts/116804179' ),
   ),
 );
+
+show(
+  extra_content(
+    publication_date( '2024-11-28' ),
+    title( 'Four New Books on Data Warehousing and Data Engineering' ),
+    youtube_video( '3RkeJJ-J0M0' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/11/28/extra-content-18-four-new-books-on-data-warehousing-and-data-engineering-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/116806742' ),
+  ),
+);
