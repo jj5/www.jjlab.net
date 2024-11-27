@@ -1451,3 +1451,13 @@ show(
     patreon_url( 'https://www.patreon.com/posts/116627042' ),
   ),
 );
+
+show(
+  unboxing(
+    publication_date( '2024-11-27' ),
+    title( 'CORSAIR Vengeance DDR5 RAM 128GB (4x32GB) 5600MHz CL40 Intel XMP Computer Memory' ),
+    youtube_video( 'CGfMtxRp3A4' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/11/27/corsair-vengeance-ddr5-ram-128gb-4x32gb-5600mhz-cl40-intel-xmp-icue-compatible-computer-memory/' ),
+    patreon_url( 'https://www.patreon.com/posts/116804179' ),
+  ),
+);
