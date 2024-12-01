@@ -15129,6 +15129,31 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2024-12-01' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/61FhUhpSFML._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Corsair' ),
+    model_name        ( 'HS55 Surround Gaming' ),
+    EquipmentFeature::USB_HEADSET,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/dp/B09W9DFKM1' ),
+    listing_name  ( 'CORSAIR HS55 Surround Gaming Headset (Leatherette Memory Foam Ear Pads, Dolby Audio 7.1 Sound on PC and Mac, Lightweight, Omni-Directional Microphone, Multi-Platform) Carbon, Black (CA-9011265-AP)' ),
+    item_price    ( 'AU$65.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/dp/B09W9DFKM1' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=249-5981579-6990221&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '249-5981579-6990221' ),
+    order_date      ( '1 December 2024' ),
+    order_item_name ( 'CORSAIR HS55 Surround Gaming Headset (Leatherette Memory Foam Ear Pads, Dolby Audio 7.1 Sound on PC and Mac, Lightweight, Omni-Directional Microphone, Multi-Platform) Carbon, Black (CA-9011265-AP)' ),
+    order_price     ( 'AU$65.00' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
 /*
 
 equipment(

@@ -733,6 +733,19 @@ equipment_define(
   EquipmentAttribute::PERIPHERAL,
 );
 
+  equipment_define(
+    EquipmentFeature::HEADSET,
+    EquipmentFeature::HEADPHONES,
+    EquipmentFeature::MICROPHONE,
+  );
+
+    equipment_define(
+      EquipmentFeature::USB_HEADSET,
+      EquipmentFeature::HEADSET,
+      EquipmentFeature::USB_MICROPHONE,
+      EquipmentConnectivity::USB,
+    );
+
 //
 // 2024-08-06 jj5 - DRIVE
 //
@@ -3751,6 +3764,7 @@ equipment_define(
   equipment_define(
     EquipmentFeature::USB_MICROPHONE,
     EquipmentFeature::MICROPHONE,
+    EquipmentConnectivity::USB,
   );
 
   equipment_define(

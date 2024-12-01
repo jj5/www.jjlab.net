@@ -313,6 +313,10 @@ enum EquipmentFeature : string {
 
   case HEADPHONES = 'headphones';
 
+    case HEADSET = 'headset';
+
+      case USB_HEADSET = 'USB-headset';
+
   //
   // 2024-08-06 jj5 - DRIVE
   //
