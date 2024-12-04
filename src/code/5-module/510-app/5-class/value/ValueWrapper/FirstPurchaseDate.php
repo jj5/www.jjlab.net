@@ -42,7 +42,7 @@ class FirstPurchaseDate extends ValueWrapper {
     if ( $this->is_empty() ) {
 
       $title  = 'It is unknown when this equipment was first purchased.';
-      $text   = 'First purchase: Unknown';
+      $text   = 'Unknown';
 
     }
     else {
@@ -50,10 +50,12 @@ class FirstPurchaseDate extends ValueWrapper {
       $date = $this->get_value()->format( DATE_FORMAT );
 
       $title  = "This equipment was first purchased on $date.";
-      $text   = "First purchase: $date";
+      $text   = $date;
 
     }
 
+    tag_text( 'span', 'First purchase:' );
+    tag_bare( 'br' );
     tag_text( 'span', $text, [ 'title' => $title ] );
 
   }

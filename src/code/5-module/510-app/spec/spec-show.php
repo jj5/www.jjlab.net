@@ -1471,3 +1471,13 @@ show(
     patreon_url( 'https://www.patreon.com/posts/116806742' ),
   ),
 );
+
+show(
+  unboxing(
+    publication_date( '2024-12-04' ),
+    title( 'CORSAIR HS55 Surround Sound Gaming USB Headset w/ Microphone' ),
+    youtube_video( 'I5IV-Qorf44' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/12/04/unboxing-18-corsair-hs55-surround-sound-gaming-usb-headset-w-microphone-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/117267738' ),
+  ),
+);
