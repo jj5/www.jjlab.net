@@ -1481,3 +1481,13 @@ show(
     patreon_url( 'https://www.patreon.com/posts/117267738' ),
   ),
 );
+
+show(
+  unboxing(
+    publication_date( '2024-12-10' ),
+    title( 'Kingston Fury Beast White XMP DDR5 128GB 5600MT/s CL40 RAM DIMM - KF556C40BWK4-128' ),
+    youtube_video( 'QRbOizpHeZM' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/12/10/unboxing-19-kingston-fury-beast-white-xmp-ddr5-128gb-5600mt-s-cl40-ram-dimm-kf556c40bwk4-128/' ),
+    patreon_url( 'https://www.patreon.com/posts/117679681' ),
+  ),
+);
