@@ -1491,3 +1491,13 @@ show(
     patreon_url( 'https://www.patreon.com/posts/117679681' ),
   ),
 );
+
+show(
+  mail_call(
+    publication_date( '2024-12-21' ),
+    title( 'iPhone 6s, USB Accessories, Software Books, IEC Power Adapters, and More!' ),
+    youtube_video( '628ufuBEGqM' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/12/21/mail-call-15-iphone-6s-usb-accessories-software-books-iec-power-adapters-and-more/' ),
+    patreon_url( 'https://www.patreon.com/posts/118383740' ),
+  ),
+);
