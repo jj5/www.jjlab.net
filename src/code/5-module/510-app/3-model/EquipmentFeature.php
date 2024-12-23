@@ -814,10 +814,11 @@ enum EquipmentFeature : string {
 
     case SOLDERING_IRON = 'soldering-iron';
 
-    case HOT_AIR_GUN = 'hot-air-gun';
-
       case SOLDERING_STATION = 'soldering-station';
 
+    case HOT_AIR_GUN = 'hot-air-gun';
+
+    case SOLDERING_IRON_TIP = 'soldering-iron-tip';
 
   //
   // 2024-08-04 jj5 - DESOLDERING_TOOL

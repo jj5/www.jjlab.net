@@ -3270,6 +3270,7 @@ equipment(
   equipment_item(
     manufacturer_name ( 'Horusdy' ),
     EquipmentFeature::SOLDERING_STATION,
+    EquipmentFeature::HOT_AIR_GUN,
   ),
   /*
   equipment_info(
@@ -15151,6 +15152,106 @@ equipment(
     order_item_name ( 'CORSAIR HS55 Surround Gaming Headset (Leatherette Memory Foam Ear Pads, Dolby Audio 7.1 Sound on PC and Mac, Lightweight, Omni-Directional Microphone, Multi-Platform) Carbon, Black (CA-9011265-AP)' ),
     order_price     ( 'AU$65.00' ),
     order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-12-23' ),
+  equipment_icon( 'https://www.jj5.net/file/2024-12-23-144431/1560738-40.webp' ),
+  equipment_item(
+    manufacturer_name ( 'METCAL' ),
+    model_name        ( 'PS-900' ),
+    EquipmentFeature::SOLDERING_STATION,
+  ),
+  affiliate_link(
+    equipment_url ( 'https://au.element14.com/metcal/ps-900/soldering-station-60w-240v-eu/dp/1560738' ),
+    listing_name  ( 'METCAL PS-900 Soldering Station, 60W, 240V, Euro/UK Plug' ),
+    item_price    ( 'AU$416.90' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://au.element14.com/metcal/ps-900/soldering-station-60w-240v-eu/dp/1560738' ),
+    //order_url       ( '' ),
+    order_id        ( '17292661' ),
+    order_date      ( '2024-12-23' ),
+    order_item_name ( 'METCAL PS-900 Soldering Station, 60W, 240V, Euro/UK Plug' ),
+    order_price     ( 'AU$416.90' ),
+    order_quantity  ( 1 ),
+    order_tax       ( 'AU$41.69' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-08-02' ),
+  equipment_icon( 'https://www.jj5.net/file/2024-12-23-144431/2365627-40.webp' ),
+  equipment_item(
+    manufacturer_name ( 'METCAL' ),
+    model_name        ( 'SFV-CN05, Conical, 0.5 mm' ),
+    EquipmentFeature::SOLDERING_IRON_TIP,
+  ),
+  affiliate_link(
+    equipment_url ( 'https://au.element14.com/metcal/sfv-cn05/tip-soldering-conical-0-5mm/dp/1277177' ),
+    listing_name  ( 'METCAL SFV-CN05, Conical, 0.5 mm Soldering Iron Tip' ),
+    item_price    ( 'AU$20.68' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://au.element14.com/metcal/sfv-cn05/tip-soldering-conical-0-5mm/dp/1277177' ),
+    //order_url       ( '' ),
+    order_id        ( '17292661' ),
+    order_date      ( '2024-12-23' ),
+    order_item_name ( 'METCAL SFV-CN05, Conical, 0.5 mm Soldering Iron Tip' ),
+    order_price     ( 'AU$20.68' ),
+    order_quantity  ( 1 ),
+    order_tax       ( 'AU$2.07' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-08-02' ),
+  equipment_icon( 'https://www.jj5.net/file/2024-12-23-144431/2365622-40.webp' ),
+  equipment_item(
+    manufacturer_name ( 'METCAL' ),
+    model_name        ( 'SFV-CH10, 30° Chisel, 1 mm' ),
+    EquipmentFeature::SOLDERING_IRON_TIP,
+  ),
+  affiliate_link(
+    equipment_url ( 'https://au.element14.com/metcal/sfv-ch10/tip-soldering-chisel-30deg-1-0mm/dp/1277178' ),
+    listing_name  ( 'METCAL SFV-CH10, 30° Chisel, 1 mm Soldering Iron Tip' ),
+    item_price    ( 'AU$21.51' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://au.element14.com/metcal/sfv-ch10/tip-soldering-chisel-30deg-1-0mm/dp/1277178' ),
+    //order_url       ( '' ),
+    order_id        ( '17292661' ),
+    order_date      ( '2024-12-23' ),
+    order_item_name ( 'METCAL SFV-CH10, 30° Chisel, 1 mm Soldering Iron Tip' ),
+    order_price     ( 'AU$21.51' ),
+    order_quantity  ( 2 ),
+    order_tax       ( 'AU$4.30' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-08-02' ),
+  equipment_icon( 'https://www.jj5.net/file/2024-12-23-144431/2365623-40.webp' ),
+  equipment_item(
+    manufacturer_name ( 'METCAL' ),
+    model_name        ( 'SFV-CH20, 30° Chisel, 2 mm' ),
+    EquipmentFeature::SOLDERING_IRON_TIP,
+  ),
+  affiliate_link(
+    equipment_url ( 'https://au.element14.com/metcal/sfv-cn05/tip-soldering-conical-0-5mm/dp/1277177' ),
+    listing_name  ( 'METCAL SFV-CH20, 30° Chisel, 2 mm Soldering Iron Tip' ),
+    item_price    ( 'AU$21.51' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://au.element14.com/metcal/sfv-cn05/tip-soldering-conical-0-5mm/dp/1277177' ),
+    //order_url       ( '' ),
+    order_id        ( '17292661' ),
+    order_date      ( '2024-12-23' ),
+    order_item_name ( 'METCAL SFV-CH20, 30° Chisel, 2 mm Soldering Iron Tip' ),
+    order_price     ( 'AU$21.51' ),
+    order_quantity  ( 1 ),
+    order_tax       ( 'AU$2.15' ),
   ),
 );
 

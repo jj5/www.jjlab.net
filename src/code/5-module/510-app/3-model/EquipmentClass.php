@@ -117,6 +117,7 @@ enum EquipmentClass : string {
   case SIGN = 'sign';
   case SIGNAL_GENERATOR = 'signal-generator';
   case SOLDERING_IRON = 'soldering-iron';
+  case SOLDERING_IRON_TIP = 'soldering-iron-tip';
   case SOLDERING_STATION = 'soldering-station';
   case SOLDERING_TOOL = 'soldering-tool';
   case SOLDER_LUGS = 'solder-lugs';

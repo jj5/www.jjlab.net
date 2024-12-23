@@ -59,3 +59,8 @@ affiliate(
   affiliate_name( 'Wiley' ),
   affiliate_url( 'https://www.wiley.com/' ),
 );
+
+affiliate(
+  affiliate_name( 'element14' ),
+  affiliate_url( 'https://au.element14.com/' ),
+);

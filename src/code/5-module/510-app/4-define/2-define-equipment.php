@@ -1905,6 +1905,13 @@ equipment_define(
     EquipmentAttribute::HAND_TOOL,
   );
 
+    equipment_define(
+      EquipmentFeature::SOLDERING_STATION,
+      EquipmentClass::SOLDERING_STATION,
+      EquipmentFeature::SOLDERING_IRON,
+      EquipmentFeature::HOT_AIR_GUN,
+    );
+
   equipment_define(
     EquipmentFeature::HOT_AIR_GUN,
     EquipmentFeature::SOLDERING_TOOL,
@@ -1912,12 +1919,14 @@ equipment_define(
     EquipmentAttribute::HAND_TOOL,
   );
 
-    equipment_define(
-      EquipmentFeature::SOLDERING_STATION,
-      EquipmentClass::SOLDERING_STATION,
-      EquipmentFeature::SOLDERING_IRON,
-      EquipmentFeature::HOT_AIR_GUN,
-    );
+  equipment_define(
+    EquipmentFeature::SOLDERING_IRON_TIP,
+    EquipmentClass::SOLDERING_IRON_TIP,
+    EquipmentFeature::SOLDERING_TOOL,
+    EquipmentAttribute::ACCESSORY,
+    EquipmentAttribute::ATTACHMENT,
+  );
+
 
 //
 // 2024-08-04 jj5 - DESOLDERING_TOOL

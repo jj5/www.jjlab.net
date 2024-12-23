@@ -39,14 +39,7 @@ class EquipmentIcon extends Url {
 
     $ext = itl()->get_equipment_icon_ext( $hash );
 
-    if ( $ext === null ) {
-
-      if ( ! PROD ) {
-
-        $this->download( $ext );
-
-      }
-    }
+    $this->auto_download( $hash, $ext );
 
     return url_base( $use_cdn = true ) . "/res/img.php/auto/$hash.$ext?v=" . get_resource_version( "$hash.$ext" );
 
@@ -58,21 +51,32 @@ class EquipmentIcon extends Url {
 
     $ext = itl()->get_equipment_icon_ext( $hash );
 
+    $this->auto_download( $hash, $ext );
+
+    return "https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/auto/$hash.$ext?v=" . get_resource_version( "$hash.$ext" );
+
+  }
+
+  private function auto_download( string $hash, &$ext = null ) {
+
     if ( $ext === null ) {
 
-      $this->download( $ext );
+      if ( ! DEV ) {
 
-      if ( $ext ) {
+        error_log( 'do not have cache equipment icon' );
+
+      }
+      elseif ( $this->download( $ext ) ) {
 
         itl()->set_equipment_icon_ext( $hash, $ext );
 
       }
+      else {
+
+        mud_fail( 'failed to download equipment icon', [ 'hash' => $hash, 'ext' => $ext ] );
+
+      }
     }
-
-    //echo "$hash: $ext\n";
-
-    return "https://der3syffk4l6q.cloudfront.net/in-the-lab/res/img.php/auto/$hash.$ext?v=" . get_resource_version( "$hash.$ext" );
-
   }
 
   private function download( &$ext = null ) {
@@ -132,6 +136,10 @@ class EquipmentIcon extends Url {
     $result = EXTENSION_CONTENT_TYPE_MAP[ $content_type ] ?? null;
 
     if ( $result ) { return $result; }
+
+    // 2024-12-23 jj5 - HACK!
+    //
+    if ( $content_type === 'application/octet-stream' ) { return 'webp'; }
 
     dump( $content_type );
 
