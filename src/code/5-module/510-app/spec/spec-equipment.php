@@ -15266,7 +15266,9 @@ equipment(
   ),
   sixsigma_url  ( '' ),
   see_also      ( 'Peak Electronic Design Atlas LCR45 LCR Meter' ),
+  see_also      ( 'Peak Electronic Design Atlas SCR100 Triac And Thyristor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas ESR70 Gold ESR Meter' ),
+  see_also      ( 'Peak Electronic Design Atlas ZEN50 Zener Diode Analyzer' ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/peak-electronic-design/atpk3/atlas-pro-pack-semi-analyser-imp/dp/291788702' ),
     listing_name  ( 'ATPK3 Peak Electronic Design, Bundle Kit, Atlas DCA75 Pro Advanced Semiconductor Analyzer, LCR45 Impedance Meter, Case, Batteries' ),
@@ -15294,7 +15296,9 @@ equipment(
   ),
   sixsigma_url  ( '' ),
   see_also      ( 'Peak Electronic Design Atlas DCA75 Pro Semiconductor Analyzer' ),
+  see_also      ( 'Peak Electronic Design Atlas SCR100 Triac And Thyristor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas ESR70 Gold ESR Meter' ),
+  see_also      ( 'Peak Electronic Design Atlas ZEN50 Zener Diode Analyzer' ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/peak-electronic-design/atpk3/atlas-pro-pack-semi-analyser-imp/dp/291788702' ),
     listing_name  ( 'ATPK3 Peak Electronic Design, Bundle Kit, Atlas DCA75 Pro Advanced Semiconductor Analyzer, LCR45 Impedance Meter, Case, Batteries' ),
@@ -15323,6 +15327,8 @@ equipment(
   sixsigma_url  ( '' ),
   see_also      ( 'Peak Electronic Design Atlas DCA75 Pro Semiconductor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas LCR45 LCR Meter' ),
+  see_also      ( 'Peak Electronic Design Atlas SCR100 Triac And Thyristor Analyzer' ),
+  see_also      ( 'Peak Electronic Design Atlas ZEN50 Zener Diode Analyzer' ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/peak-electronic-design/esr70/esr-meter-w-audible-alert-capacitor/dp/291787802' ),
     listing_name  ( 'ESR70 Peak Electronic Design, ESR Meter, Capacitor, Atlas ESR+, 0.00 Ohms to 40.0 Ohms, 1uF to 22000uF' ),
@@ -15351,6 +15357,8 @@ equipment(
   sixsigma_url  ( '' ),
   see_also      ( 'Peak Electronic Design Atlas DCA75 Pro Semiconductor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas LCR45 LCR Meter' ),
+  see_also      ( 'Peak Electronic Design Atlas ESR70 Gold ESR Meter' ),
+  see_also      ( 'Peak Electronic Design Atlas ZEN50 Zener Diode Analyzer' ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/peak-electronic-design/scr-100/thyristor-triac-analyser-0-12a/dp/4258586' ),
     listing_name  ( 'SCR-100 Peak Electronic Design, THYRISTOR & TRIAC ANALYSER, 0.12A/12.5V' ),
@@ -15379,6 +15387,8 @@ equipment(
   sixsigma_url  ( '' ),
   see_also      ( 'Peak Electronic Design Atlas DCA75 Pro Semiconductor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas LCR45 LCR Meter' ),
+  see_also      ( 'Peak Electronic Design Atlas SCR100 Triac And Thyristor Analyzer' ),
+  see_also      ( 'Peak Electronic Design Atlas ESR70 Gold ESR Meter' ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/peak/zen50/zener-diode-analyser-0-50v/dp/2852081' ),
     listing_name  ( 'ZEN50 Peak Electronic Design ZENER DIODE ANALYSER, 0-50V' ),
