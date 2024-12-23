@@ -279,6 +279,8 @@ enum EquipmentFeature : string {
 
     case COMPONENT_TESTER = 'component-tester';
 
+      case SEMICONDUCTOR_ANALYZER = 'semiconductor-analyzer';
+
     case SMD_TESTER = 'SMD-tester';
 
     case LCR_METER = 'LCR-meter';

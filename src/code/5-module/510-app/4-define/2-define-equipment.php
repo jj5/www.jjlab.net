@@ -642,6 +642,11 @@ equipment_define(
     EquipmentFeature::METER,
   );
 
+    equipment_define(
+      EquipmentFeature::SEMICONDUCTOR_ANALYZER,
+      EquipmentFeature::COMPONENT_TESTER,
+    );
+
   equipment_define(
     EquipmentFeature::SMD_TESTER,
     EquipmentFeature::METER,

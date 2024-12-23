@@ -15163,6 +15163,7 @@ equipment(
     model_name        ( 'PS-900' ),
     EquipmentFeature::SOLDERING_STATION,
   ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/METCAL_PS-900_Soldering_Station' ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/metcal/ps-900/soldering-station-60w-240v-eu/dp/1560738' ),
     listing_name  ( 'METCAL PS-900 Soldering Station, 60W, 240V, Euro/UK Plug' ),
@@ -15254,6 +15255,91 @@ equipment(
     order_tax       ( 'AU$2.15' ),
   ),
 );
+
+equipment(
+  equipment_date( '2024-12-23' ),
+  equipment_icon( 'https://www.peakelec.co.uk/acatalog/dca75a-960-1.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Peak Electronic Design' ),
+    model_name        ( 'Atlas DCA75 Pro' ),
+    EquipmentFeature::SEMICONDUCTOR_ANALYZER,
+  ),
+  sixsigma_url  ( '' ),
+  see_also      ( 'Peak Electronic Design Atlas LCR45 LCR Meter' ),
+  see_also      ( 'Peak Electronic Design Atlas ESR70 Gold ESR Meter' ),
+  affiliate_link(
+    equipment_url ( 'https://au.element14.com/peak-electronic-design/atpk3/atlas-pro-pack-semi-analyser-imp/dp/291788702' ),
+    listing_name  ( 'ATPK3 Peak Electronic Design, Bundle Kit, Atlas DCA75 Pro Advanced Semiconductor Analyzer, LCR45 Impedance Meter, Case, Batteries' ),
+    item_price    ( 'AU$413.27' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://au.element14.com/peak-electronic-design/atpk3/atlas-pro-pack-semi-analyser-imp/dp/291788702' ),
+    //order_url       ( '' ),
+    order_id        ( '17292744' ),
+    order_date      ( '2024-12-23' ),
+    order_item_name ( 'PEAK ELECTRONIC DESIGN  ATPK3  Bundle Kit, Atlas DCA75 Pro Advanced Semiconductor Analyzer, LCR45 Impedance Meter, Case, Batteries' ),
+    order_price     ( 'AU$175.64' ),
+    order_quantity  ( 1 ),
+    order_tax       ( 'AU$17.56' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-12-23' ),
+  equipment_icon( 'https://www.peakelec.co.uk/acatalog/lcr45a-960-1.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Peak Electronic Design' ),
+    model_name        ( 'Atlas LCR45' ),
+    EquipmentFeature::LCR_METER,
+  ),
+  sixsigma_url  ( '' ),
+  see_also      ( 'Peak Electronic Design Atlas DCA75 Pro Semiconductor Analyzer' ),
+  see_also      ( 'Peak Electronic Design Atlas ESR70 Gold ESR Meter' ),
+  affiliate_link(
+    equipment_url ( 'https://au.element14.com/peak-electronic-design/atpk3/atlas-pro-pack-semi-analyser-imp/dp/291788702' ),
+    listing_name  ( 'ATPK3 Peak Electronic Design, Bundle Kit, Atlas DCA75 Pro Advanced Semiconductor Analyzer, LCR45 Impedance Meter, Case, Batteries' ),
+    item_price    ( 'AU$413.27' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://au.element14.com/peak-electronic-design/atpk3/atlas-pro-pack-semi-analyser-imp/dp/291788702' ),
+    //order_url       ( '' ),
+    order_id        ( '17292744' ),
+    order_date      ( '2024-12-23' ),
+    order_item_name ( 'PEAK ELECTRONIC DESIGN  ATPK3  Bundle Kit, Atlas DCA75 Pro Advanced Semiconductor Analyzer, LCR45 Impedance Meter, Case, Batteries' ),
+    order_price     ( 'AU$175.64' ),
+    order_quantity  ( 1 ),
+    order_tax       ( 'AU$17.56' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-12-23' ),
+  equipment_icon( 'https://www.peakelec.co.uk/acatalog/esr70a-960-1.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Peak Electronic Design' ),
+    model_name        ( 'Atlas ESR70 Gold' ),
+    EquipmentFeature::ESR_METER,
+  ),
+  sixsigma_url  ( '' ),
+  see_also      ( 'Peak Electronic Design Atlas DCA75 Pro Semiconductor Analyzer' ),
+  see_also      ( 'Peak Electronic Design Atlas LCR45 LCR Meter' ),
+  affiliate_link(
+    equipment_url ( 'https://au.element14.com/peak-electronic-design/esr70/esr-meter-w-audible-alert-capacitor/dp/291787802' ),
+    listing_name  ( 'ESR70 Peak Electronic Design, ESR Meter, Capacitor, Atlas ESR+, 0.00 Ohms to 40.0 Ohms, 1uF to 22000uF' ),
+    item_price    ( 'AU$146.49' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://au.element14.com/peak-electronic-design/atpk3/atlas-pro-pack-semi-analyser-imp/dp/291788702' ),
+    //order_url       ( '' ),
+    order_id        ( '17292744' ),
+    order_date      ( '2024-12-23' ),
+    order_item_name ( 'PEAK ELECTRONIC DESIGN  ESR70  ESR Meter, Capacitor, Atlas ESR+, 0.00 Ohms to 40.0 Ohms, 1uF to 22000uF' ),
+    order_price     ( 'AU$124.52' ),
+    order_quantity  ( 1 ),
+    order_tax       ( 'AU$12.45' ),
+  ),
+);
+
 
 /*
 
