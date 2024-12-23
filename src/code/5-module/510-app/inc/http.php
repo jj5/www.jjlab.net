@@ -2,7 +2,7 @@
 
 function http_redirect_home() {
 
-  if ( DEBUG ) {
+  if ( mud_is_debug() ) {
 
     var_dump( $_SERVER );
 
@@ -16,7 +16,7 @@ function http_redirect_home() {
 
 function default_redirect( $url ) {
 
-  if ( DEBUG ) {
+  if ( mud_is_debug() ) {
 
     while ( ob_get_level() ) { ob_end_clean(); }
 
@@ -68,7 +68,7 @@ function render_one_year_expires_headers() {
 
   global $cdn_base, $url_base, $version;
 
-  $cdn_base = url_base( $use_cdn = ! DEBUG );
+  $cdn_base = url_base( $use_cdn = ! mud_is_debug() );
   $url_base = url_base();
 
   // 2024-08-13 jj5 - NEW:

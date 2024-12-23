@@ -14,7 +14,7 @@ function app_render() {
 
   $style_list = [ 'milligram/normalize.css', 'milligram/milligram.css', 'style.css' ];
 
-  if ( DEBUG ) { $style_list[] = 'debug.css'; }
+  if ( mud_is_debug() ) { $style_list[] = 'debug.css'; }
 
   foreach ( $style_list as $style ) {
 

@@ -36,7 +36,7 @@ function get_equipment() {
 
   $equipment_list = get_list( Equipment::class );
 
-  if ( DEBUG ) { verify_equipment( $equipment_list ); }
+  if ( mud_is_debug() ) { verify_equipment( $equipment_list ); }
 
   return $equipment_list;
 

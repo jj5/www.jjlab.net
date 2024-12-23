@@ -14,7 +14,7 @@ function app_render() {
 
   $script_list = [ 'global/default.js', 'script.js' ];
 
-  if ( DEBUG ) { $script_list[] = 'debug.js'; }
+  if ( mud_is_debug() ) { $script_list[] = 'debug.js'; }
 
   echo "\"use strict\";\n\n";
 

@@ -20,7 +20,7 @@ var MUD_SERVER_VERSION = <?= json_encode( MUDBALL_VERSION ) ?>;
 var APP_SERVER_VERSION = <?= json_encode( JJLAB_VERSION ) ?>;
 var IS_JOHN = <?= json_encode( is_john() ) ?>;
 var URL_BASE = <?= json_encode( url_base() ) ?>;
-var DEBUG = <?= json_encode( DEBUG ) ?>;
+var DEBUG = <?= json_encode( mud_is_debug() ) ?>;
 </script>
 
 <style>

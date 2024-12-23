@@ -70,7 +70,7 @@ class Equipment extends AppThing {
         }
       }
 
-      if ( DEBUG ) {
+      if ( mud_is_debug() ) {
 
         foreach ( $ignore_list as $ignore ) {
 
@@ -90,9 +90,9 @@ class Equipment extends AppThing {
   }
 
   public function format( mixed $spec = null ) : string {
-    
+
     return $this->get_equipment_name()->to_string();
-    
+
   }
 
   public function get_directory_name() {
@@ -132,7 +132,7 @@ class Equipment extends AppThing {
 
     $see_also_list = $this->get_list( SeeAlso::class );
 
-    if ( DEBUG ) {
+    if ( mud_is_debug() ) {
 
       if ( $equipment_map === null ) {
 
@@ -368,7 +368,7 @@ class Equipment extends AppThing {
       function ( $a, $b ) {
 
         return $b->get_sort_value() - $a->get_sort_value();
-        
+
       }
     );
 

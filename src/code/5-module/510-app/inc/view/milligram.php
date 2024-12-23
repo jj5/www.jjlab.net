@@ -351,10 +351,10 @@ function render_head( string $heading, array $options = [] ) {
       tag_open( 'script' );
 
         out_code( "\nvar URL_BASE = " . mud_json_pretty( url_base() ) . ";");
-        out_code( "\nvar DEBUG = " . mud_json_pretty( DEBUG ) . ";");
-        out_code( "\nvar DEV = " . mud_json_pretty( DEV ) . ";");
-        out_code( "\nvar BETA = " . mud_json_pretty( BETA ) . ";");
-        out_code( "\nvar PROD = " . mud_json_pretty( PROD ) . ";");
+        out_code( "\nvar DEBUG = " . mud_json_pretty( mud_is_debug() ) . ";");
+        out_code( "\nvar DEV = " . mud_json_pretty( mud_is_dev() ) . ";");
+        out_code( "\nvar BETA = " . mud_json_pretty( mud_is_beta() ) . ";");
+        out_code( "\nvar PROD = " . mud_json_pretty( mud_is_prod() ) . ";");
         out_code( "\nvar IS_JOHN = " . mud_json_pretty( is_john() ) . ";");
         out_code( "\nvar CACHE_KEY = " . mud_json_pretty( get_path_hash() ) . ";");
 
