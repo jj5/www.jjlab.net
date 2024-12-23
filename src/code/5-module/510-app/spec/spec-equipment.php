@@ -15159,6 +15159,10 @@ equipment(
   equipment_date( '2024-12-23' ),
   equipment_icon( 'https://www.jj5.net/file/2024-12-23-144431/1560738-40.webp' ),
   equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://store.metcal.com/en-us/shop/soldering-desoldering/soldering-desoldering-systems/ps-series/PS-900' ),
+      link_text       ( 'METCAL PS-900 Soldering System' ),
+    ),
     manufacturer_name ( 'METCAL' ),
     model_name        ( 'PS-900' ),
     EquipmentFeature::SOLDERING_STATION,
@@ -15185,6 +15189,10 @@ equipment(
   equipment_date( '2024-08-02' ),
   equipment_icon( 'https://www.jj5.net/file/2024-12-23-144431/2365627-40.webp' ),
   equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://store.metcal.com/en-us/shop/cartridges-tips/SFV-CN05' ),
+      link_text       ( 'METCAL SFV-CN05 Soldering Tip, Conical, 0.5 mm (0.02")' ),
+    ),
     manufacturer_name ( 'METCAL' ),
     model_name        ( 'SFV-CN05, Conical, 0.5 mm' ),
     EquipmentFeature::SOLDERING_IRON_TIP,
@@ -15210,6 +15218,10 @@ equipment(
   equipment_date( '2024-08-02' ),
   equipment_icon( 'https://www.jj5.net/file/2024-12-23-144431/2365622-40.webp' ),
   equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://store.metcal.com/en-us/shop/cartridges-tips/SFV-CH10' ),
+      link_text       ( 'METCAL SFV-CH10 Soldering Tip, Chisel, 1.0 mm (0.039")' ),
+    ),
     manufacturer_name ( 'METCAL' ),
     model_name        ( 'SFV-CH10, 30° Chisel, 1 mm' ),
     EquipmentFeature::SOLDERING_IRON_TIP,
@@ -15235,6 +15247,10 @@ equipment(
   equipment_date( '2024-08-02' ),
   equipment_icon( 'https://www.jj5.net/file/2024-12-23-144431/2365623-40.webp' ),
   equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://store.metcal.com/en-us/shop/cartridges-tips/SFV-CH20' ),
+      link_text       ( 'METCAL SFV-CH20 Soldering Tip, Chisel, 2.0 mm (0.079")' ),
+    ),
     manufacturer_name ( 'METCAL' ),
     model_name        ( 'SFV-CH20, 30° Chisel, 2 mm' ),
     EquipmentFeature::SOLDERING_IRON_TIP,
@@ -15260,11 +15276,15 @@ equipment(
   equipment_date( '2024-12-23' ),
   equipment_icon( 'https://www.peakelec.co.uk/acatalog/dca75a-960-1.jpg' ),
   equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.peakelec.co.uk/acatalog/dca75-dca-pro-semiconductor-analyser.html' ),
+      link_text       ( 'DCA75 - Atlas DCA Pro Advanced Semiconductor Analyser' ),
+    ),
     manufacturer_name ( 'Peak Electronic Design' ),
     model_name        ( 'Atlas DCA75 Pro' ),
     EquipmentFeature::SEMICONDUCTOR_ANALYZER,
   ),
-  sixsigma_url  ( '' ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Peak_Electronic_Design_Atlas_DCA75_Pro_Semiconductor_Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas LCR45 LCR Meter' ),
   see_also      ( 'Peak Electronic Design Atlas SCR100 Triac And Thyristor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas ESR70 Gold ESR Meter' ),
@@ -15290,11 +15310,15 @@ equipment(
   equipment_date( '2024-12-23' ),
   equipment_icon( 'https://www.peakelec.co.uk/acatalog/lcr45a-960-1.jpg' ),
   equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.peakelec.co.uk/acatalog/lcr45-lcr-impedance-meter.html' ),
+      link_text       ( 'LCR45 - LCR Component Meter with Component Impedance Measurement' ),
+    ),
     manufacturer_name ( 'Peak Electronic Design' ),
     model_name        ( 'Atlas LCR45' ),
     EquipmentFeature::LCR_METER,
   ),
-  sixsigma_url  ( '' ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Peak_Electronic_Design_Atlas_LCR45_LCR_Meter' ),
   see_also      ( 'Peak Electronic Design Atlas DCA75 Pro Semiconductor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas SCR100 Triac And Thyristor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas ESR70 Gold ESR Meter' ),
@@ -15320,11 +15344,15 @@ equipment(
   equipment_date( '2024-12-23' ),
   equipment_icon( 'https://www.peakelec.co.uk/acatalog/esr70a-960-1.jpg' ),
   equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.peakelec.co.uk/acatalog/esr70-capacitor-esr-meter.html' ),
+      link_text       ( 'ESR70 - Atlas ESR Gold - Equivalent Series Resistance Meter' ),
+    ),
     manufacturer_name ( 'Peak Electronic Design' ),
     model_name        ( 'Atlas ESR70 Gold' ),
     EquipmentFeature::ESR_METER,
   ),
-  sixsigma_url  ( '' ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Peak_Electronic_Design_Atlas_ESR70_Gold_ESR_Meter' ),
   see_also      ( 'Peak Electronic Design Atlas DCA75 Pro Semiconductor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas LCR45 LCR Meter' ),
   see_also      ( 'Peak Electronic Design Atlas SCR100 Triac And Thyristor Analyzer' ),
@@ -15350,11 +15378,15 @@ equipment(
   equipment_date( '2024-12-23' ),
   equipment_icon( 'https://www.peakelec.co.uk/acatalog/scr100a-960-1.jpg' ),
   equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.peakelec.co.uk/acatalog/scr100-triac-scr-analyser.html' ),
+      link_text       ( 'SCR100 - Atlas SCR Thyristor and Triac Analyser' ),
+    ),
     manufacturer_name ( 'Peak Electronic Design' ),
     model_name        ( 'Atlas SCR100' ),
     EquipmentFeature::TRIAC_AND_THYRISTOR_ANALYZER,
   ),
-  sixsigma_url  ( '' ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Peak_Electronic_Design_Atlas_SCR100_Triac_And_Thyristor_Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas DCA75 Pro Semiconductor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas LCR45 LCR Meter' ),
   see_also      ( 'Peak Electronic Design Atlas ESR70 Gold ESR Meter' ),
@@ -15380,11 +15412,15 @@ equipment(
   equipment_date( '2024-12-23' ),
   equipment_icon( 'https://www.peakelec.co.uk/acatalog/zen50a-960-1.jpg' ),
   equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.peakelec.co.uk/acatalog/zen50-zener-analyser.html' ),
+      link_text       ( 'ZEN50 - Atlas ZEN Zener Diode Analyser' ),
+    ),
     manufacturer_name ( 'Peak Electronic Design' ),
     model_name        ( 'Atlas ZEN50' ),
     EquipmentFeature::ZENER_DIODE_ANALYZER,
   ),
-  sixsigma_url  ( '' ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Peak_Electronic_Design_Atlas_ZEN50_Zener_Diode_Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas DCA75 Pro Semiconductor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas LCR45 LCR Meter' ),
   see_also      ( 'Peak Electronic Design Atlas SCR100 Triac And Thyristor Analyzer' ),
