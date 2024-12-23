@@ -269,6 +269,8 @@ enum EquipmentFeature : string {
 
     case DIODE_TESTER = 'diode-tester';
 
+      case ZENER_DIODE_ANALYZER = 'zener-diode-analyzer';
+
     case TRANSISTOR_TESTER = 'transistor-tester';
 
     case THERMOMETER = 'thermometer';
@@ -277,15 +279,17 @@ enum EquipmentFeature : string {
 
     case COUNTER_TOTALIZER = 'counter-totalizer';
 
-    case COMPONENT_TESTER = 'component-tester';
+    case TRIAC_ANALYZER = 'triac-analyzer';
 
-      case SEMICONDUCTOR_ANALYZER = 'semiconductor-analyzer';
+    case THYRISTOR_ANALYZER = 'thyristor-analyzer';
 
     case SMD_TESTER = 'SMD-tester';
 
     case LCR_METER = 'LCR-meter';
 
     case ESR_METER = 'ESR-meter';
+
+    case AIR_QUALITY_METER = 'air-quality-meter';
 
     case MULTIMETER = 'multimeter';
 
@@ -297,7 +301,11 @@ enum EquipmentFeature : string {
 
       case OSCILLOSCOPE_SIGNAL_GENERATOR_COMPONENT_TESTER = 'oscilloscope,-signal-generator,-component-tester';
 
-    case AIR_QUALITY_METER = 'air-quality-meter';
+    case COMPONENT_TESTER = 'component-tester';
+
+      case SEMICONDUCTOR_ANALYZER = 'semiconductor-analyzer';
+
+      case TRIAC_AND_THYRISTOR_ANALYZER = 'triac-and-thyristor-analyzer';
 
   //
   // 2024-08-04 jj5 - PROBE

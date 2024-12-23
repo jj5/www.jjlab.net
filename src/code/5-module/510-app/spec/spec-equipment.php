@@ -15340,6 +15340,62 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2024-12-23' ),
+  equipment_icon( 'https://www.peakelec.co.uk/acatalog/scr100a-960-1.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Peak Electronic Design' ),
+    model_name        ( 'Atlas SCR100' ),
+    EquipmentFeature::TRIAC_AND_THYRISTOR_ANALYZER,
+  ),
+  sixsigma_url  ( '' ),
+  see_also      ( 'Peak Electronic Design Atlas DCA75 Pro Semiconductor Analyzer' ),
+  see_also      ( 'Peak Electronic Design Atlas LCR45 LCR Meter' ),
+  affiliate_link(
+    equipment_url ( 'https://au.element14.com/peak-electronic-design/scr-100/thyristor-triac-analyser-0-12a/dp/4258586' ),
+    listing_name  ( 'SCR-100 Peak Electronic Design, THYRISTOR & TRIAC ANALYSER, 0.12A/12.5V' ),
+    item_price    ( 'AU$247.88' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://au.element14.com/peak-electronic-design/scr-100/thyristor-triac-analyser-0-12a/dp/4258586' ),
+    //order_url       ( '' ),
+    order_id        ( '17292757' ),
+    order_date      ( '2024-12-23' ),
+    order_item_name ( 'PEAK ELECTRONIC DESIGN  SCR-100  THYRISTOR & TRIAC ANALYSER, 0.12A/12.5V' ),
+    order_price     ( 'AU$210.70' ),
+    order_quantity  ( 1 ),
+    order_tax       ( 'AU$21.07' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-12-23' ),
+  equipment_icon( 'https://www.peakelec.co.uk/acatalog/zen50a-960-1.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Peak Electronic Design' ),
+    model_name        ( 'Atlas ZEN50' ),
+    EquipmentFeature::ZENER_DIODE_ANALYZER,
+  ),
+  sixsigma_url  ( '' ),
+  see_also      ( 'Peak Electronic Design Atlas DCA75 Pro Semiconductor Analyzer' ),
+  see_also      ( 'Peak Electronic Design Atlas LCR45 LCR Meter' ),
+  affiliate_link(
+    equipment_url ( 'https://au.element14.com/peak/zen50/zener-diode-analyser-0-50v/dp/2852081' ),
+    listing_name  ( 'ZEN50 Peak Electronic Design ZENER DIODE ANALYSER, 0-50V' ),
+    item_price    ( 'AU$116.40' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://au.element14.com/peak/zen50/zener-diode-analyser-0-50v/dp/2852081' ),
+    //order_url       ( '' ),
+    order_id        ( '17292757' ),
+    order_date      ( '2024-12-23' ),
+    order_item_name ( 'PEAK  ZEN50  ZENER DIODE ANALYSER, 0-50V' ),
+    order_price     ( 'AU$98.94' ),
+    order_quantity  ( 1 ),
+    order_tax       ( 'AU$9.89' ),
+  ),
+);
+
 
 /*
 

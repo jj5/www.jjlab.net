@@ -614,6 +614,11 @@ equipment_define(
     EquipmentFeature::METER,
   );
 
+    equipment_define(
+      EquipmentFeature::ZENER_DIODE_ANALYZER,
+      EquipmentFeature::DIODE_TESTER,
+    );
+
   equipment_define(
     EquipmentFeature::TRANSISTOR_TESTER,
     EquipmentFeature::METER,
@@ -632,20 +637,20 @@ equipment_define(
     );
 
   equipment_define(
+    EquipmentFeature::TRIAC_ANALYZER,
+    EquipmentFeature::METER,
+  );
+
+  equipment_define(
+    EquipmentFeature::THYRISTOR_ANALYZER,
+    EquipmentFeature::METER,
+  );
+
+  equipment_define(
     EquipmentFeature::COUNTER_TOTALIZER,
     EquipmentFeature::METER,
     EquipmentMeasure::COUNT,
   );
-
-  equipment_define(
-    EquipmentFeature::COMPONENT_TESTER,
-    EquipmentFeature::METER,
-  );
-
-    equipment_define(
-      EquipmentFeature::SEMICONDUCTOR_ANALYZER,
-      EquipmentFeature::COMPONENT_TESTER,
-    );
 
   equipment_define(
     EquipmentFeature::SMD_TESTER,
@@ -659,6 +664,12 @@ equipment_define(
 
   equipment_define(
     EquipmentFeature::ESR_METER,
+    EquipmentFeature::METER,
+  );
+
+  equipment_define(
+    EquipmentFeature::AIR_QUALITY_METER,
+    EquipmentClass::METER,
     EquipmentFeature::METER,
   );
 
@@ -698,10 +709,22 @@ equipment_define(
     );
 
   equipment_define(
-    EquipmentFeature::AIR_QUALITY_METER,
-    EquipmentClass::METER,
+    EquipmentFeature::COMPONENT_TESTER,
     EquipmentFeature::METER,
   );
+
+    equipment_define(
+      EquipmentFeature::SEMICONDUCTOR_ANALYZER,
+      EquipmentFeature::COMPONENT_TESTER,
+    );
+
+    equipment_define(
+      EquipmentFeature::TRIAC_AND_THYRISTOR_ANALYZER,
+      EquipmentFeature::COMPONENT_TESTER,
+      EquipmentFeature::TRIAC_ANALYZER,
+      EquipmentFeature::THYRISTOR_ANALYZER,
+    );
+
 
 //
 // 2024-08-03 jj5 - PROBE
