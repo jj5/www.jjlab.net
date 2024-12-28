@@ -15442,6 +15442,43 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2024-12-26' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/613UK2R-kQL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://rog.asus.com/au/networking/rog-rapture-gt-ax6000-model/' ),
+      link_text       ( 'ASUS ROG Rapture GT-AX6000' ),
+    ),
+    manufacturer_link (
+      link_href       ( 'https://www.asus.com/support/' ),
+      link_text       ( 'ASUS Service and Support' ),
+    ),
+    manufacturer_link (
+      link_href       ( 'https://www.youtube.com/playlist?list=PLS_9rTR7el1ZmINE0Hxr-6Iag3BspTzBl' ),
+      link_text       ( 'ASUS Video Tutorials' ),
+    ),
+    manufacturer_name ( 'ASUS' ),
+    model_name        ( 'ROG Rapture GT-AX6000' ),
+    EquipmentFeature::WIFI_ROUTER,
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Guard' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B09RSXNGTB' ),
+    listing_name  ( 'ASUS ROG Rapture GT-AX6000 Dual-Band WiFi 6 Extendable Gaming Router, Dual 2.5G Ports, Triple-level Game Acceleration, Mobile Game Mode, Aura RGB, Subscription-free Network Security, AiMesh Compatible' ),
+    item_price    ( 'AU$399.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B09RSXNGTB' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=503-9078988-6960632&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '503-9078988-6960632' ),
+    order_date      ( '2024-12-26' ),
+    order_item_name ( 'ASUS ROG Rapture GT-AX6000 Dual-Band WiFi 6 Extendable Gaming Router, Dual 2.5G Ports, Triple-level Game Acceleration, Mobile Game Mode, Aura RGB, Subscription-free Network Security, AiMesh Compatible' ),
+    order_price     ( 'AU$399.00' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
 
 /*
 

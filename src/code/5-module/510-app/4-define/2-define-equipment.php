@@ -879,6 +879,11 @@ equipment_define(
       EquipmentFeature::ETHERNET_SWITCH,
     );
 
+    equipment_define(
+      EquipmentFeature::WIFI_ROUTER,
+      EquipmentFeature::ETHERNET_SWITCH,
+    );
+
   equipment_define(
     EquipmentFeature::USB_SWITCH,
     EquipmentFeature::SWITCH,

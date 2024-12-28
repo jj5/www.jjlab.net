@@ -369,6 +369,8 @@ enum EquipmentFeature : string {
 
       case UNMANAGED_ETHERNET_SWITCH = 'unmanaged-ethernet-switch';
 
+      case WIFI_ROUTER = 'WiFi-router';
+
     case USB_SWITCH = 'USB-switch';
 
     case HDMI_SWITCH = 'HDMI-switch';
