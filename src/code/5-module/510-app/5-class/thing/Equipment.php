@@ -53,6 +53,7 @@ class Equipment extends AppThing {
       'https://www.bunnings.com.au/',
       'https://www.dyson.com/',
       'https://www.wasdkeyboards.com/',
+      'https://au.element14.com/',
     ];
 
     $affiliate_list = $this->get_affiliate_link_list();

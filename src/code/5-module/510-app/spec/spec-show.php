@@ -1501,3 +1501,15 @@ show(
     patreon_url( 'https://www.patreon.com/posts/118383740' ),
   ),
 );
+
+show(
+  maxitronix_segment(
+    publication_date( '2024-12-30' ),
+    title( "Magnetism Detector" ),
+    project( 12, 20 ),
+    maxitronix_kit_name( '20in1' ),
+    youtube_video( 'ivcLy4LdsQs' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/12/30/magnetism-detector-project-12-20-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/118889333' ),
+  ),
+);
