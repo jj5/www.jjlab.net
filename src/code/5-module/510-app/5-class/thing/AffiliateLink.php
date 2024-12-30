@@ -45,11 +45,11 @@ class AffiliateLink extends AppThing implements ILink {
 
     if ( $this->affiliate === null ) {
 
+      $this->affiliate = NullAffiliate::Instance();
+
       $url = $this->get_equipment_url()->to_string();
 
       if ( $this->is_null() || empty( $url ) ) {
-
-        $this->affiliate = NullAffiliate::Instance();
 
         return $this->affiliate;
 

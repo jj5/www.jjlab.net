@@ -1513,3 +1513,26 @@ show(
     patreon_url( 'https://www.patreon.com/posts/118889333' ),
   ),
 );
+
+show(
+  silly_job_title( 'Outlet Overlord' ),
+  old_book_teardown(
+    publication_date( '2024-12-31' ),
+    youtube_video( 'Z-0Qg2Je8aE' ),
+    blog_url( 'https://blog.jj5.net/blog/2024/12/31/old-book-teardown-11-interactive-television-1995-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/118940768' ),
+    old_book(
+      // Interactive Television: A Comprehensive Guide for Multimedia Technologists
+      title( "Interactive Television" ),
+      author( 'Winston William Hodge' ),
+      copyright_year( '1995' ),
+      page_count( 208 ),
+      affiliate_link(
+        equipment_url ( 'https://archive.org/details/interactivetelev0000hodg' ),
+      ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/dp/0070291519' ),
+      ),
+    ),
+  ),
+);
