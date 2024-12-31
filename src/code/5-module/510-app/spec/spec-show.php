@@ -1536,3 +1536,14 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Switch Sleuth' ),
+  electronics_project(
+    publication_date( '2025-01-01' ),
+    title( "TJ-56-428 4-Digit Digital DIY Clock" ),
+    youtube_video( 'Pbj-L4WFF7M' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/01/electronics-project-10-tj-56-428-4-digit-digital-diy-clock-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/119026045' ),
+  ),
+);
