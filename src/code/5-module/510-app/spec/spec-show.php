@@ -1577,14 +1577,12 @@ show(
   ),
 );
 
-/*
 show(
   unboxing(
-    publication_date( '2025-01-03' ),
-    title( '' ),
-    youtube_video( '' ),
-    blog_url( '' ),
-    patreon_url( 'https://www.patreon.com/posts/' ),
+    publication_date( '2025-01-04' ),
+    title( 'METCAL PS-900 Soldering Station' ),
+    youtube_video( 'D3m_x5D673A' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/04/unboxing-20-metcal-ps-900-soldering-station-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/119114047' ),
   ),
 );
-*/
