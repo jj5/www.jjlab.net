@@ -1547,3 +1547,44 @@ show(
     patreon_url( 'https://www.patreon.com/posts/119026045' ),
   ),
 );
+
+show(
+  mail_call(
+    publication_date( '2025-01-02' ),
+    title( 'METCAL PS-900; Peak Atlas DCA75 Pro, LCR45, ESR70; ESP32; Pi Zero, Pico; and More!' ),
+    youtube_video( 'N1xHirWKSjU' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/02/mail-call-16-metcal-ps-900-peak-atlas-dca75-pro-lcr45-esr70-esp32-pi-zero-pico-and-more/' ),
+    patreon_url( 'https://www.patreon.com/posts/119048153' ),
+  ),
+);
+
+show(
+  new_book_teardown(
+    publication_date( '2025-01-03' ),
+    youtube_video( 'sbItPWdLAAo' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/03/new-book-teardown-6-god-created-the-integers-2005-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/119106472' ),
+    new_book(
+      title( "God Created the Integers" ),
+      author( 'Stephen Hawking' ),
+      copyright_year( '2005' ),
+      page_count( 1358 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/dp/B008AUBIWG' ),
+        item_price    ( 'US$10.39' ),
+      ),
+    ),
+  ),
+);
+
+/*
+show(
+  unboxing(
+    publication_date( '2025-01-03' ),
+    title( '' ),
+    youtube_video( '' ),
+    blog_url( '' ),
+    patreon_url( 'https://www.patreon.com/posts/' ),
+  ),
+);
+*/
