@@ -4,6 +4,13 @@
 
 equipment_class_alias( EquipmentClass::WRENCH, 'spanner' );
 
+/* 2025-01-02 jj5 - NOTE: put web-links just before affiliate_links.
+  web_link(
+    link_href   ( '' ),
+    link_text   ( '' ),
+  ),
+*/
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // 2024-08-03 jj5 - equipment...
 //
@@ -63,8 +70,8 @@ equipment(
   see_also      ( 'Rigol PLA2216 Logic Probe' ),
   see_also      ( 'Rigol PLA2216 Compatible Logic Probe' ),
   web_link(
-    link_text   ( 'See the research I did before buying my Rigol MSO5074' ),
     link_href   ( 'https://www.jj5.net/rigol/' ),
+    link_text   ( 'See the research I did before buying my Rigol MSO5074' ),
   ),
   search_url    ( 'https://www.amazon.com/s?k=Rigol+MSO5074+Mixed+Signal+Oscilloscope' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Rigol+MSO5074+Mixed+Signal+Oscilloscope' ),
@@ -1216,31 +1223,17 @@ equipment(
     EquipmentConnectivity::DISPLAY_PORT,
     EquipmentConnectivity::USB,
   ),
-  web_link(
-    link_text   ( 'Printer Cable 15FT(4.5m),AkoaDa USB 2.0 Printer Cable USB Type A to B Male Printer Cable' ),
-    link_href   ( 'https://www.amazon.com.au/gp/product/B087BZDQQS' ),
-  ),
-  web_link(
-    link_text   ( 'sweguard 4k dp Cable' ),
-    link_href   ( 'https://www.amazon.com.au/gp/product/B08HWRLRKP' ),
-  ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'ATEN' ),
-    model_name        ( 'CS1922' ),
-    equipment_type    ( '2-Port DisplayPort KVM' ),
-    category          ( 'KVM' ),
-    category          ( 'DisplayPort' ),
-    category          ( 'USB' ),
-    manufacturer_link (
-      link_href       ( 'https://www.aten.com/global/en/products/kvm/desktop-kvm-switches/cs1922/' ),
-      link_text       ( 'ATEN CS1922 2-Port DisplayPort KVM' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Aten_CS1922' ),
   warning( 'I have the CS1922 but the CS1922M is newer and better, I\'ve included links to both.' ),
   search_url    ( 'https://www.amazon.com/s?k=ATEN+CS1922+2-Port+DisplayPort+KVM&s=price-asc-rank' ),
+  web_link(
+    link_href   ( 'https://www.amazon.com.au/gp/product/B087BZDQQS' ),
+    link_text   ( 'Printer Cable 15FT(4.5m),AkoaDa USB 2.0 Printer Cable USB Type A to B Male Printer Cable' ),
+  ),
+  web_link(
+    link_href   ( 'https://www.amazon.com.au/gp/product/B08HWRLRKP' ),
+    link_text   ( 'sweguard 4k dp Cable' ),
+  ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/ATEN-CS1922-2-Port-KVMP-Switch/dp/B01N13Y0WR/ref=sr_1_3?dib=eyJ2IjoiMSJ9.djcsi35DxJ7p1NyjMjq4ZyjSlsMz9pxz0-DW8x68ZQUXxjNbQZ-DnBXuYGeHg9jAsjh55-K4PSaIWa6uRtvox9DYKn5mlVzeU0Nha5AZ1DU.J9wLjR1SOJSueDRBeznKTSs431OVG-L5jP6QsNRfcoY&dib_tag=se&keywords=ATEN+CS1922+2-Port+DisplayPort+KVM&qid=1705118941&sr=8-3' ),
     affiliate_url ( 'https://amzn.to/3ShhwkG' ),
@@ -1331,6 +1324,7 @@ equipment(
     model_name        ( 'UTi260B' ),
     EquipmentFeature::THERMAL_IMAGER,
     EquipmentAttribute::HAND_TOOL,
+    EquipmentAttribute::HEART,
     EquipmentConnectivity::USB,
   ),
   /*
@@ -9183,14 +9177,14 @@ equipment(
   ),
   */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Adafruit_Ruler' ),
+  web_link(
+    link_href   ( 'https://blog.adafruit.com/2014/09/15/one-pcb-to-ruler-them-all/' ),
+    link_text   ( 'One PCB to Ruler Them All' ),
+  ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/gp/product/B00KGEMW74' ),
     listing_name  ( 'Adafruit PCB Ruler v2-6" [ADA1554]' ),
     item_price    ( 'US$8.10' ),
-  ),
-  web_link(
-    link_href   ( 'https://blog.adafruit.com/2014/09/15/one-pcb-to-ruler-them-all/' ),
-    link_text   ( 'One PCB to Ruler Them All' ),
   ),
 );
 
@@ -11495,12 +11489,12 @@ equipment(
   see_also( 'ARKON CMPHD006 Webcam Wall Mount' ),
   /*
   web_link(
-    link_text   ( 'Webcam Wall Mount, C920s Stand Holder Compatible with Logitech C920s StreamCam C922x C920 C930e C615 Brio C925e - Acetaken x4' ),
     link_href   ( 'https://amzn.to/3SV1v4T' ),
+    link_text   ( 'Webcam Wall Mount, C920s Stand Holder Compatible with Logitech C920s StreamCam C922x C920 C930e C615 Brio C925e - Acetaken x4' ),
   ),
   web_link(
-    link_text   ( 'ARKON CMPHD006 Camera Wall Mount for CCTV POV Camcorders Cameras, Black' ),
     link_href   ( 'https://amzn.to/3SDGzPw' ),
+    link_text   ( 'ARKON CMPHD006 Camera Wall Mount for CCTV POV Camcorders Cameras, Black' ),
   ),
   */
   sixsigma_url  ( '' ),
@@ -14421,6 +14415,7 @@ equipment(
     EquipmentFeature::THERMOMETER,
     EquipmentAttribute::HAND_TOOL,
     EquipmentAttribute::CORDLESS,
+    EquipmentAttribute::HEART,
     EquipmentConnectivity::BANANA_PLUG,
   ),
   sixsigma_url  ( '' ),
@@ -15317,6 +15312,10 @@ equipment(
   see_also      ( 'Peak Electronic Design Atlas SCR100 Triac And Thyristor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas ESR70 Gold ESR Meter' ),
   see_also      ( 'Peak Electronic Design Atlas ZEN50 Zener Diode Analyzer' ),
+  web_link(
+    link_href   ( 'https://blog.jj5.net/blog/2025/01/06/unboxing-21-atpk3-atlas-pro-pack-lcr45-dca75-case-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Unboxing #21: ATPK3 – Atlas Pro Pack – LCR45 + DCA75 + Case | In The Lab With Jay Jay' ),
+  ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/peak-electronic-design/atpk3/atlas-pro-pack-semi-analyser-imp/dp/291788702' ),
     listing_name  ( 'ATPK3 Peak Electronic Design, Bundle Kit, Atlas DCA75 Pro Advanced Semiconductor Analyzer, LCR45 Impedance Meter, Case, Batteries' ),
@@ -15355,6 +15354,10 @@ equipment(
   see_also      ( 'Peak Electronic Design Atlas SCR100 Triac And Thyristor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas ESR70 Gold ESR Meter' ),
   see_also      ( 'Peak Electronic Design Atlas ZEN50 Zener Diode Analyzer' ),
+  web_link(
+    link_href   ( 'https://blog.jj5.net/blog/2025/01/06/unboxing-21-atpk3-atlas-pro-pack-lcr45-dca75-case-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Unboxing #21: ATPK3 – Atlas Pro Pack – LCR45 + DCA75 + Case | In The Lab With Jay Jay' ),
+  ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/peak-electronic-design/atpk3/atlas-pro-pack-semi-analyser-imp/dp/291788702' ),
     listing_name  ( 'ATPK3 Peak Electronic Design, Bundle Kit, Atlas DCA75 Pro Advanced Semiconductor Analyzer, LCR45 Impedance Meter, Case, Batteries' ),

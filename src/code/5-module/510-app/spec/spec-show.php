@@ -1608,3 +1608,13 @@ show(
     patreon_url( 'https://www.patreon.com/posts/119129418' ),
   ),
 );
+
+show(
+  demo(
+    publication_date( '2025-01-07' ),
+    title( 'Peak Electronic Design Atlas DCA75 Pro Semiconductor Analyzer' ),
+    youtube_video( '' ),
+    blog_url( '' ),
+    patreon_url( 'https://www.patreon.com/posts/' ),
+  ),
+);
