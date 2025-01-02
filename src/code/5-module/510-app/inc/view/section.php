@@ -272,6 +272,8 @@ function get_latest_silly_job_title() {
 
     $silly_job_title = $show->get_first_segment()->get_silly_job_title();
 
+    if ( $silly_job_title === null ) { continue; }
+
     if ( $silly_job_title->is_null() ) { continue; }
 
     $result = $silly_job_title;
