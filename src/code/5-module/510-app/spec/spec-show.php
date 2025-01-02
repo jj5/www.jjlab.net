@@ -1618,3 +1618,15 @@ show(
     patreon_url( 'https://www.patreon.com/posts/119139036' ),
   ),
 );
+
+show(
+  maxitronix_segment(
+    publication_date( '2025-01-08' ),
+    title( "Non-Touch Switch" ),
+    project( 14, 20 ),
+    maxitronix_kit_name( '20in1' ),
+    youtube_video( '5iNZVUXpxNQ' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/08/non-touch-switch-project-14-20-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/119142780' ),
+  ),
+);
