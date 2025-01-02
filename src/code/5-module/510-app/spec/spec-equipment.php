@@ -15304,6 +15304,10 @@ equipment(
       link_href       ( 'https://www.peakelec.co.uk/acatalog/dca75-dca-pro-semiconductor-analyser.html' ),
       link_text       ( 'DCA75 - Atlas DCA Pro Advanced Semiconductor Analyser' ),
     ),
+    manufacturer_link (
+      link_href       ( 'https://www.peakelec.co.uk/acatalog/atpk3-atlas-pro-pack-dca75-lcr45-case.html' ),
+      link_text       ( 'ATPK3 Bundle Kit - Atlas Pro Pack - LCR45 + DCA75 + Case' ),
+    ),
     manufacturer_name ( 'Peak Electronic Design' ),
     model_name        ( 'Atlas DCA75 Pro' ),
     EquipmentFeature::SEMICONDUCTOR_ANALYZER,
@@ -15337,6 +15341,10 @@ equipment(
     manufacturer_link (
       link_href       ( 'https://www.peakelec.co.uk/acatalog/lcr45-lcr-impedance-meter.html' ),
       link_text       ( 'LCR45 - LCR Component Meter with Component Impedance Measurement' ),
+    ),
+    manufacturer_link (
+      link_href       ( 'https://www.peakelec.co.uk/acatalog/atpk3-atlas-pro-pack-dca75-lcr45-case.html' ),
+      link_text       ( 'ATPK3 Bundle Kit - Atlas Pro Pack - LCR45 + DCA75 + Case' ),
     ),
     manufacturer_name ( 'Peak Electronic Design' ),
     model_name        ( 'Atlas LCR45' ),

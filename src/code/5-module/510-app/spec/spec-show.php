@@ -1586,3 +1586,25 @@ show(
     patreon_url( 'https://www.patreon.com/posts/119114047' ),
   ),
 );
+
+show(
+  maxitronix_segment(
+    publication_date( '2025-01-05' ),
+    title( "Ferromagnetic Substance Detector" ),
+    project( 13, 20 ),
+    maxitronix_kit_name( '20in1' ),
+    youtube_video( 'YNg_yu50a3o' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/05/ferromagnetic-substance-detector-project-13-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/119126771' ),
+  ),
+);
+
+show(
+  unboxing(
+    publication_date( '2025-01-06' ),
+    title( 'ATPK3 - Atlas Pro Pack - LCR45 + DCA75 + Case' ),
+    youtube_video( 'pelPF1O7fkA' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/06/unboxing-21-atpk3-atlas-pro-pack-lcr45-dca75-case-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/119129418' ),
+  ),
+);
