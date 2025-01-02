@@ -1370,7 +1370,65 @@ function render_blog_template( $equipment_list ) {
 
       out_text( ": ..." );
 
-      out_text( "\n\nIn this video I ...\n\n" );
+      out_text( "\n\nIn this video we ...\n\n" );
+
+      out_text( "In this video we do the \$nth project from the " );
+
+        render_link_internal(
+          'Maxitronix Sensor Robot 20 (20in1) Electronics Project Lab Kit',
+          'https://jj5.net/49230',
+          'Click here for affiliate links and latest prices.',
+          [
+            MUD_HTML_OPT_SPACE => false,
+            MUD_HTML_OPT_BREAK => false,
+          ],
+        );
+
+      out_text( ": \$project_name.\n\n" );
+
+      $equipment_map = [
+        'https://jj5.net/75064' => 'Rigol MSO5074 Mixed Signal Oscilloscope',
+        'https://jj5.net/52689' => 'Rigol PLA2216 Logic Probe',
+        'https://jj5.net/57146' => 'METCAL PS-900 Soldering Station',
+        'https://jj5.net/65853' => 'UNI-T UTi260B Thermal Imager',
+        'https://jj5.net/59598' => 'TOMLOV DM602 Pro Digital Microscope',
+        'https://jj5.net/91797' => "Pro'sKit SS-331H Desoldering Pump",
+        'https://jj5.net/53341' => 'UNI-T UTG962E Signal Generator',
+        'https://jj5.net/98301' => 'Fluke 17B+ Digital Multimeter',
+        'https://jj5.net/80551' => 'Dremel 4300 Rotary Tool',
+        'https://jj5.net/27684' => 'Peak Electronic Design Atlas DCA75 Pro Semiconductor Analyzer',
+        'https://jj5.net/80640' => 'Peak Electronic Design Atlas LCR45 LCR Meter',
+        'https://jj5.net/23947' => 'Peak Electronic Design Atlas ESR70 Gold ESR Meter',
+        'https://jj5.net/15985' => 'OWON XDM1041 Bench Multimeter',
+        'https://jj5.net/97876' => 'ANENG AN-999S Bench Multimeter',
+        'https://jj5.net/58149' => 'Riden RD6006 Bench Power Supply',
+        'https://jj5.net/47603' => 'Yizhan Digital Microscope',
+        'https://jj5.net/66086' => 'ZKETECH EBD-A20H Electronic Load',
+        'https://jj5.net/54088' => 'Miniware DT71 Digital Tweezers',
+        'https://jj5.net/89537' => 'Horusdy Soldering Station with Hot Air Gun',
+        'https://jj5.net/86089' => 'FNIRSI DSO-TC3 Component Tester',
+        'https://jj5.net/53491' => 'Bosch IXO VI Electric Screwdriver',
+        'https://jj5.net/97872' => 'Jackcat Electric Scissors',
+        'https://jj5.net/49262' => 'Brother P-Touch D210 Label Maker',
+        'https://jj5.net/78079' => 'YIHUA 938D Soldering Tweezers',
+        'https://jj5.net/79681' => 'UNI-T UT116A Digital Tweezers',
+      ];
+
+      foreach ( $equipment_map as $equipment_url => $equipment_name ) {
+
+        out_text( 'We use the ' );
+        render_link_internal(
+          $equipment_name,
+          $equipment_url,
+          'Click here for affiliate links and latest prices.',
+          [
+            MUD_HTML_OPT_SPACE => false,
+            MUD_HTML_OPT_BREAK => false,
+          ],
+        );
+        out_text( " to...\n\n" );
+
+      }
 
       out_text( TAGLINE_THANKS );
 
@@ -1925,6 +1983,30 @@ function render_equipment_table( $equipment_list ) {
 
               }
 
+              $link_list = $equipment->get_equipment_info()->get_manufacturer_link_list();
+
+              if ( $link_list ) {
+
+                tag_text( 'p', 'Manufacturer links:' );
+
+                tag_open( 'ul' );
+
+                  foreach ( $link_list as $link ) {
+
+                    $link_html = $link->to_html();
+
+                    tag_open( 'li' );
+
+                      out_html( $link_html );
+
+                    tag_shut( 'li' );
+
+                  }
+
+                tag_shut( 'ul' );
+
+              }
+
               $web_link_list = $equipment->get_web_link_list();
 
               if ( $web_link_list ) {
@@ -1949,15 +2031,15 @@ function render_equipment_table( $equipment_list ) {
 
               }
 
-              $link_list = $equipment->get_equipment_info()->get_manufacturer_link_list();
+              $video_link_list = $equipment->get_video_link_list();
 
-              if ( $link_list ) {
+              if ( $video_link_list ) {
 
-                tag_text( 'p', 'Manufacturer links:' );
+                tag_text( 'p', 'Videos:' );
 
                 tag_open( 'ul' );
 
-                  foreach ( $link_list as $link ) {
+                  foreach ( $video_link_list as $link ) {
 
                     $link_html = $link->to_html();
 
@@ -2377,13 +2459,17 @@ function render_equipment_list( $equipment_list ) {
 
           render_list( 'See also:', $see_also_list, 'see-also' );
 
+          $link_list = $equipment->get_equipment_info()->get_manufacturer_link_list();
+
+          render_list( 'Manufacturer links:', $link_list, 'link' );
+
           $web_link_list = $equipment->get_web_link_list();
 
           render_list( 'Links:', $web_link_list, 'link' );
 
-          $link_list = $equipment->get_equipment_info()->get_manufacturer_link_list();
+          $video_link_list = $equipment->get_video_link_list();
 
-          render_list( 'Manufacturer links:', $link_list, 'link' );
+          render_list( 'Videos:', $video_link_list, 'link' );
 
           $purchase_list = $equipment->get_purchase_list();
 

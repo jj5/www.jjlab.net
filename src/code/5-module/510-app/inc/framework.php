@@ -293,7 +293,8 @@ function render_link_internal( string $text, string $href, string $title, array 
   if (
     $attrs[ 'href' ][ 0 ] !== '#' &&
     strpos( $attrs[ 'href' ], url_base() ) !== 0 &&
-    strpos( $attrs[ 'href' ], 'https://www.inthelabwithjayjay.com/' ) !== 0
+    strpos( $attrs[ 'href' ], 'https://www.inthelabwithjayjay.com/' ) !== 0 &&
+    strpos( $attrs[ 'href' ], 'https://jj5.net/' ) !== 0
   ) {
 
     //var_dump( $attrs ); exit;

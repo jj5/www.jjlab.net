@@ -12,6 +12,6 @@ class NullManufacturerLink extends ManufacturerLink {
 
 }
 
-class ManufacturerLink extends WebLink {
+class ManufacturerLink extends Link {
 
 }

@@ -170,6 +170,7 @@ class Equipment extends AppThing {
   }
 
   public function get_web_link_list() { return $this->get_list( WebLink::class ); }
+  public function get_video_link_list() { return $this->get_list( VideoLink::class ); }
 
   public function get_category_list() {
 

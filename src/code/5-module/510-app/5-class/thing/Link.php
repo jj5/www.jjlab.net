@@ -1,12 +1,12 @@
 <?php
 
-function web_link() {
+function app_link() {
 
-  return new_thing( WebLink::class, func_get_args() );
+  return new_thing( Link::class, func_get_args() );
 
 }
 
-class WebLink extends AppThing {
+class Link extends AppThing {
 
   public function get_link_href() { return $this->get( LinkHref::class ); }
   public function get_link_text() { return $this->get( LinkText::class ); }
@@ -34,7 +34,7 @@ class WebLink extends AppThing {
   }
 }
 
-class NullWebLink extends WebLink {
+class NullLink extends Link {
 
   use NullThingMixin;
 

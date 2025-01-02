@@ -4,8 +4,8 @@
 
 equipment_class_alias( EquipmentClass::WRENCH, 'spanner' );
 
-/* 2025-01-02 jj5 - NOTE: put web-links just before affiliate_links.
-  web_link(
+/* 2025-01-02 jj5 - NOTE: put video_links just before affiliate_links, newest on top except for numbered projects.
+  video_link(
     link_href   ( '' ),
     link_text   ( '' ),
   ),
@@ -14,6 +14,573 @@ equipment_class_alias( EquipmentClass::WRENCH, 'spanner' );
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // 2024-08-03 jj5 - equipment...
 //
+
+equipment(
+  equipment_date( '2021-08-14' ),
+  equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2216.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2216-maxitronix-crystal-radio-kit/' ),
+      link_text       ( 'Maxitronix Crystal Radio Kit' ),
+    ),
+    manufacturer_name  ( 'Maxitronix' ),
+    model_name         ( 'Crystal Radio Kit' ),
+    EquipmentFeature::ELECTRONICS_PROJECT,
+    EquipmentFeature::ELECTRONICS_KIT,
+    EquipmentFeature::AM_RADIO,
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_nkw=Maxitronix+Crystal+Radio&_sacat=0' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Crystal+Radio&_sacat=0' ),
+  affiliate_link(
+    equipment_url ( 'https://www.altronics.com.au/p/k2216-maxitronix-crystal-radio-kit/' ),
+    listing_name   ( 'Maxitronix Crystal Radio Kit' ),
+    item_price    ( 'AU$27.95' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com/sch/i.html?_from=R40&_nkw=Maxitronix+Crystal+Radio&_sacat=0' ),
+    affiliate_url ( 'https://ebay.us/aSmrmy' ),
+    listing_name   ( 'Maxitronix Crystal Radio Kit' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Crystal+Radio&_sacat=0' ),
+    affiliate_url ( 'https://ebay.us/zc1TLF' ),
+    listing_name   ( 'Maxitronix Crystal Radio Kit' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.altronics.com.au/p/k2216-maxitronix-crystal-radio-kit/' ),
+    order_url       ( 'https://www.altronics.com.au/myaccount/ordlist/?oid=172245' ),
+    order_id        ( '172245' ),
+    order_date      ( '2021-08-14' ),
+    order_item_name ( 'K2216: Crystal Radio Kit' ),
+    order_price     ( 'AU$27.95' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$11.00' ),
+    order_gst       ( 'AU$2.80' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2021-08-14' ),
+  equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2212_1.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2212-maxitronix-am-fm-radio-kit/' ),
+      link_text       ( 'Maxitronix AM/FM Radio Kit' ),
+    ),
+    manufacturer_name  ( 'Maxitronix' ),
+    model_name         ( 'AM/FM Radio Kit' ),
+    EquipmentFeature::ELECTRONICS_PROJECT,
+    EquipmentFeature::ELECTRONICS_KIT,
+    EquipmentFeature::AM_RADIO,
+    EquipmentFeature::FM_RADIO,
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_nkw=Maxitronix+Radio&_sacat=0' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com/sch/i.html?_from=R40&_nkw=Maxitronix+Radio&_sacat=0' ),
+    affiliate_url ( 'https://ebay.us/1DCBIm' ),
+    listing_name   ( 'Maxitronix AM/FM Radio Kit' ),
+    item_price    ( 'AU$27.95' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.altronics.com.au/p/k2212-maxitronix-am-fm-radio-kit/' ),
+    order_url       ( 'https://www.altronics.com.au/myaccount/ordlist/?oid=172245' ),
+    order_id        ( '172245' ),
+    order_date      ( '2021-08-14' ),
+    order_item_name ( 'Maxitronix AM/FM Radio Kit' ),
+    order_price     ( 'AU$27.95' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$11.00' ),
+    order_gst       ( 'AU$2.80' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/393246904325' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=20-07522-10637#/' ),
+    order_id        ( '20-07522-10637' ),
+    order_date      ( '27 Aug 2021' ),
+    order_item_name ( 'Maxitronix AM/FM Radio Kit' ),
+    order_price     ( 'AU$32.00' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$10.00' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2021-08-19' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/ABgAAOSwol5YxnoQ/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_name  ( 'Maxitronix' ),
+    model_name         ( 'Electronic Metal Detector Kit' ),
+    EquipmentFeature::ELECTRONICS_PROJECT,
+    EquipmentFeature::ELECTRONICS_KIT,
+    EquipmentFeature::METAL_DETECTOR,
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Metal+Detector&_sacat=0' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/401290152496' ),
+    affiliate_url ( 'https://ebay.us/bECYsY' ),
+    listing_name   ( 'NEW Maxitronix ELMD - Electronic Metal Detector Kit MX-800 Build It Science Kit' ),
+    item_price    ( 'AU$24.95' ),
+    item_shipping ( 'AU$12.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/401290152496' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=23-07488-57620#/' ),
+    order_id        ( '23-07488-57620' ),
+    order_date      ( '19 Aug 2021' ),
+    order_item_name ( ' NEW Maxitronix ELMD - Electronic Metal Detector Kit MX-800 Build It Science Kit' ),
+    order_price     ( 'AU$24.95' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$12.00' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2021-08-09' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/81aRcMQ-0rL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2200-maxitronix-10-in-1-electronics-lab-kit/' ),
+      link_text       ( '10 In 1 Electronics Project Lab Kit' ),
+    ),
+    manufacturer_name  ( 'Maxitronix' ),
+    model_name         ( '10 In 1 (10in1)' ),
+    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&LH_ItemCondition=1000&rt=nc&LH_BIN=1&_nkw=Maxitronix+Crystal+Radio+Kit+Electronics+Project' ),
+  web_link(
+    link_href   ( 'https://www.inthelabwithjayjay.com/in-the-lab/feature.php/maxitronix-10in1#heading' ),
+    link_text   ( 'Maxitronix 10in1 Videos' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/01/09/in-the-lab-with-jay-jay-maxitronix-10in1-introduction/' ),
+    link_text   ( 'Introducing Maxitronix 10in1 | Maxitronix 10in1 | Learning Electronics In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/01/10/in-the-lab-with-jay-jay-maxitronix-10in1-project-1-10-morse-code-by-light/' ),
+    link_text   ( 'Morse Code By Light | Project 1/10 | Maxitronix 10in1 | Learning Electronics In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/01/11/in-the-lab-with-jay-jay-maxitronix-10in1-project-2-10-morse-code-oscillator/' ),
+    link_text   ( 'Morse Code Oscillator | Project 2/10 | Maxitronix 10in1 | In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/01/12/diode-experiment-project-3-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Diode Experiment | Project 3/10 | Maxitronix 10in1 | Learning Electronics In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/03/08/diode-radio-project-4-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Diode Radio | Project 4/10 | Maxitronix 10in1 | Learning Electronics In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/03/09/1-transistor-radio-project-5-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
+    link_text   ( '1-Transistor Radio | Project 5/10 | Maxitronix 10in1 | Learning Electronics In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/03/10/1-transistor-radio-with-diode-project-6-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
+    link_text   ( '1-Transistor Radio With Diode | Project 6/10 | Maxitronix 10in1 | In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/03/13/wireless-continuous-wave-transmitter-project-7-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Wireless Continuous Wave Transmitter | Project 7/10 | Maxitronix 10in1 | In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/03/14/patrol-car-siren-project-8-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Patrol Car Siren | Project 8/10 | Maxitronix 10in1 | Learning Electronics In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/03/15/audio-frequency-oscillator-project-9-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Audio Frequency Oscillator | Project 9/10 | Maxitronix 10in1 | In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/03/16/burglar-alarm-project-10-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Burglar Alarm | Project 10/10 | Maxitronix 10in1 | Learning Electronics In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/03/17/concluding-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Concluding Maxitronix 10in1 | Maxitronix 10in1 | Learning Electronics In The Lab With Jay Jay' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/262530007000' ),
+    affiliate_url ( 'https://ebay.us/cIilFj' ),
+    listing_name   ( ' Maxitronix Crystal Radio Kit Designed for Children Aged 10 and Over ' ),
+    item_price    ( 'AU$37.90' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B07L8K6DRJ' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=503-1823734-6368600' ),
+    order_id        ( '503-1823734-6368600' ),
+    order_date      ( '9 August 2021' ),
+    order_item_name ( 'Generic 10 in 1 Electronics Lab Kit' ),
+    order_price     ( 'AU$49.00' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2021-08-10' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/0sAAAOSwbN9g40AJ/s-l200.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Maxitronix' ),
+    model_name         ( 'Sensor Robot 20 (20in1)' ),
+    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Sensor+Robot+20&_sacat=0' ),
+  web_link(
+    link_href   ( 'https://www.inthelabwithjayjay.com/in-the-lab/feature.php/maxitronix-20in1#heading' ),
+    link_text   ( 'Maxitronix 20in1 Videos' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/03/18/introducing-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Introducing Maxitronix 20in1 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/03/20/brightness-alarm-project-1-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Brightness Alarm | Project 1/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/03/21/darkness-alarm-project-2-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Darkness Alarm | Project 2/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/03/22/electronic-candles-project-3-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Electronic Candles | Project 3/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/03/25/light-alarm-with-latch-project-4-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Light Alarm With Latch | Project 4/20 | Maxitronix 20in1 | In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/03/26/light-controlled-organ-project-5-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Light-Controlled Organ | Project 5/20 | Maxitronix 20in1 | In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/03/27/photometer-project-6-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Photometer | Project 6/20 | Maxitronix 20in1 | In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/03/29/shot-in-the-dark-i-project-7-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Shot In The Dark I | Project 7/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/04/03/shot-in-the-dark-ii-project-8-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Shot In The Dark II | Project 8/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/05/16/visitor-alarm-project-9-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Visitor Alarm | Project 9/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/07/31/speech-conductor-project-10-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Speech Conductor | Project 10/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/10/18/burglar-alarm-project-11-20-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Burglar Alarm | Project 11/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2024/12/30/magnetism-detector-project-12-20-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Magnetism Detector | Project 12/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2025/01/05/ferromagnetic-substance-detector-project-13-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Ferromagnetic Substance Detector | Project 13/20 | Maxitronix 20in1 | In The Lab With Jay Jay' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Sensor+Robot+20&_sacat=0' ),
+    affiliate_url ( 'https://ebay.us/ujlqAR' ),
+    listing_name   ( 'Maxitronix Sensor Robot 20 Electronics Project Lab Kit' ),
+    item_price    ( 'AU$48.45' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/194267593891' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=22-07448-53020#/' ),
+    order_id        ( '22-07448-53020' ),
+    order_date      ( '10 Aug 2021' ),
+    order_item_name ( 'Sensor Robot 20. Action Science Electronic Project Lab.' ),
+    order_price     ( 'AU$48.45' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2021-08-09' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/GXcAAOSwOzld5Fxx/s-l1600.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2204-maxitronix-30-in-1-electronics-lab-kit/' ),
+      link_text       ( 'Maxitronix 30 In 1 Electronics Project Lab Kit' ),
+    ),
+    manufacturer_name  ( 'Maxitronix' ),
+    model_name         ( '30 In 1 (30in1)' ),
+    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
+  affiliate_link(
+    equipment_url ( 'https://www.altronics.com.au/p/k2204-maxitronix-30-in-1-electronics-lab-kit/' ),
+    listing_name   ( 'Maxitronix 30 In 1 Electronics Project Lab Kit' ),
+    item_price    ( 'AU$56.36' ),
+  ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+30&_sacat=0' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+30&_sacat=0' ),
+    affiliate_url ( 'https://ebay.us/12nDbe' ),
+    listing_name   ( 'Maxitronix 30 In 1 Electronics Project Lab Kit' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/111242419519' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=11-07445-39591#/' ),
+    order_id        ( '11-07445-39591' ),
+    order_date      ( '9 Aug 2021' ),
+    order_item_name ( '30 In 1 Electronics Project Lab Learning Kit Kids Learn Electronics XMAS GIFT' ),
+    order_price     ( 'AU$69.95' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2021-08-14' ),
+  equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2220.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2220-maxitronix-digital-recording-lab-kit/' ),
+      link_text       ( 'Maxitronix Electronic Digital Recording Laboratory' ),
+    ),
+    manufacturer_name  ( 'Maxitronix' ),
+    model_name         ( 'Electronic Digital Recording Laboratory (59in1)' ),
+    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
+  affiliate_link(
+    equipment_url ( 'https://www.altronics.com.au/p/k2220-maxitronix-digital-recording-lab-kit/' ),
+    listing_name   ( 'Maxitronix Electronic Digital Recording Laboratory' ),
+    item_price    ( 'AU$83.59' ),
+  ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Digital+Recording&_sacat=0' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Digital+Recording&_sacat=0' ),
+    affiliate_url ( 'https://ebay.us/jz2phY' ),
+    listing_name   ( 'Maxitronix Electronic Digital Recording Laboratory' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.altronics.com.au/p/k2220-maxitronix-digital-recording-lab-kit/' ),
+    order_url       ( 'https://www.altronics.com.au/myaccount/ordlist/?oid=172245' ),
+    order_id        ( '172245' ),
+    order_date      ( '2021-08-14' ),
+    order_item_name ( 'K2220: Digital Recording Lab Kit' ),
+    order_price     ( 'AU$91.95' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$11.00' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2021-08-09' ),
+  equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2206.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2206-maxitronix-60-in-1-electronics-lab-kit/' ),
+      link_text       ( 'Maxitronix 60 In 1 Electronics Project Lab Kit' ),
+    ),
+    manufacturer_name  ( 'Maxitronix' ),
+    model_name         ( '60 In 1 (60in1)' ),
+    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
+  affiliate_link(
+    equipment_url ( 'https://www.altronics.com.au/p/k2206-maxitronix-60-in-1-electronics-lab-kit/' ),
+    listing_name   ( 'Maxitronix 60 In 1 Electronics Project Lab Kit' ),
+    item_price    ( 'AU$99.09' ),
+  ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+60&_sacat=0' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/113287895499' ),
+    affiliate_url ( 'https://ebay.us/J5iLIE' ),
+    listing_name   ( '60 In 1 Electronics Lab Kit teach kids about the fundamentals of electronics' ),
+    item_price    ( 'AU$109.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/113287895499' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=11-07445-39591#/' ),
+    order_id        ( '11-07445-39591' ),
+    order_date      ( '9 Aug 2021' ),
+    order_item_name ( '60 In 1 Electronics Lab Kit teach kids about the fundamentals of electronics' ),
+    order_price     ( 'AU$109.00' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2021-08-09' ),
+  equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2208.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2208-maxitronix-130-in-1-electronics-lab-kit/' ),
+      link_text       ( 'Maxitronix 130 In 1 Electronics Project Lab Kit' ),
+    ),
+    manufacturer_name  ( 'Maxitronix' ),
+    model_name         ( '130 In 1 (130in1)' ),
+    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
+  affiliate_link(
+    equipment_url ( 'https://www.altronics.com.au/p/k2208-maxitronix-130-in-1-electronics-lab-kit/' ),
+    listing_name   ( 'Maxitronix 130 In 1 Electronics Project Lab Kit' ),
+    item_price    ( 'AU$145.45' ),
+  ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+130&_sacat=0' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/313210818748' ),
+    affiliate_url ( 'https://ebay.us/TwxsqJ' ),
+    listing_name   ( 'Maxitronix 130 In 1 Electronics Project Lab Kit' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/313210818748' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=11-07445-39591#/' ),
+    order_id        ( '11-07445-39591' ),
+    order_date      ( '2021-08-09' ),
+    order_item_name ( '130 in 1 Electronics Lab Kit for Ideal for any inquisitive mind aged 10 & over' ),
+    order_price     ( 'AU$139.98' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2021-08-09' ),
+  equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2209.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2209-maxitronix-200-in-1-electronics-lab-kit/' ),
+      link_text       ( 'Maxitronix 200 In 1 Electronics Project Lab Kit' ),
+    ),
+    manufacturer_name  ( 'Maxitronix' ),
+    model_name         ( '200 In 1 (200in1)' ),
+    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
+  affiliate_link(
+    equipment_url ( 'https://www.altronics.com.au/p/k2209-maxitronix-200-in-1-electronics-lab-kit/' ),
+    listing_name   ( 'Maxitronix 200 In 1 Electronics Project Lab Kit' ),
+    item_price    ( 'AU$186.36' ),
+  ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+200&_sacat=0' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B07J34ZYVY/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1' ),
+    listing_name   ( '200 in 1 Electronics Lab Learning Kit Kids Learn Electronics Xmas Gift' ),
+    item_price    ( 'AU$216.95' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B07J34ZYVY/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=503-7019939-8059006' ),
+    order_id        ( '503-7019939-8059006' ),
+    order_date      ( '9 August 2021' ),
+    order_item_name ( '200 in 1 Electronics Lab Learning Kit Kids Learn Electronics Xmas Gift' ),
+    order_price     ( 'AU$216.95' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2021-08-16' ),
+  equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2222.jpg' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.altronics.com.au/p/k2222-maxitronix-300-in-1-electronics-lab-kit/' ),
+      link_text       ( 'Maxitronix 300 In 1 Electronics Project Lab Kit' ),
+    ),
+    manufacturer_name  ( 'Maxitronix' ),
+    model_name         ( '300 In 1 (300in1)' ),
+    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=maxitronix+300&_sacat=0' ),
+  affiliate_link(
+    equipment_url ( 'https://www.altronics.com.au/p/k2222-maxitronix-300-in-1-electronics-lab-kit/' ),
+    listing_name   ( 'Maxitronix 300 In 1 Electronics Project Lab Kit' ),
+    item_price    ( 'AU$290.91' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/284398509127' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=05-07478-66621#/' ),
+    order_id        ( '05-07478-66621' ),
+    order_date      ( '16 Aug 2021' ),
+    order_item_name ( 'BRAND NEW MAXITRONIX ELECTRONIC LAB SOLDER FREE 300 IN 1 EXPERIMENT KIT' ),
+    order_price     ( 'AU$150.00' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$20.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/185223305299' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=20-08164-77215#/' ),
+    order_id        ( '20-08164-77215' ),
+    order_date      ( '23 Jan 2022' ),
+    order_item_name ( 'Maxitronix 300 In 1 Electronics Lab Kit' ),
+    order_price     ( 'AU$120.00' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$17.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/154830785545' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=24-08243-59512#/' ),
+    order_id        ( '24-08243-59512' ),
+    order_date      ( '7 Feb 2022' ),
+    order_item_name ( 'Maxitronix 300 In 1 Electronics Lab Kit untested selling as parts read descript' ),
+    order_price     ( 'AU$45.00' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$22.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/175159458198' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=05-08268-05619#/' ),
+    order_id        ( '05-08268-05619' ),
+    order_date      ( '15 Feb 2022' ),
+    order_item_name ( 'MAXITRONIX 300 IN 1 ELECTRONIC LAB MX-9 ,COMPLETE IN ORIGINAL BOX,LEARNING TOY' ),
+    order_price     ( 'AU$65.00' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$21.90' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2021-06-25' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/plQAAOSwFNhgRD5O/s-l200.webp' ),
+  equipment_item(
+    manufacturer_name  ( 'Maxitronix' ),
+    model_name         ( '500 In 1 (500in1)' ),
+    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=maxitronix+500&_sacat=0' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=maxitronix+500&_sacat=0' ),
+    affiliate_url ( 'https://ebay.us/AXdPh8' ),
+    listing_name   ( 'Maxitronix 500 In 1 Electronics Project Lab Kit' ),
+    item_price    ( 'AU$250.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/254898266591' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=27-07189-69518#/' ),
+    order_id        ( '27-07189-69518' ),
+    order_date      ( '11 Jun 2021' ),
+    order_item_name ( 'Maxitronix 500-in-one Electronic Project Lab' ),
+    order_price     ( 'AU$250.00' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/125160305942' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=04-08308-47836#/' ),
+    order_id        ( '04-08308-47836' ),
+    order_date      ( '25 Feb 2022' ),
+    order_item_name ( 'Maxitronix 500 in 1 Electronic Lab *NO BOOKS/ELECTRONIC PARTS/WIRES*' ),
+    order_price     ( 'US$94.95' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'US$36.76' ),
+  ),
+);
 
 equipment(
   equipment_date( '2024-01-13' ),
@@ -39,51 +606,29 @@ equipment(
     EquipmentAttribute::TEST_EQUIPMENT,
     EquipmentAttribute::HEART,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Rigol' ),
-    model_name        ( 'MSO5074' ),
-    equipment_type    ( 'Mixed Signal Oscilloscope' ),
-    category          ( 'Mixed Signal Oscilloscope' ),
-    category          ( 'Oscilloscope' ),
-    category          ( 'Spectrum Analyzer' ),
-    category          ( 'Logic Analyzer' ),
-    category          ( 'Protocol Analyzer' ),
-    category          ( 'Signal Generator' ),
-    category          ( 'Waveform Generator' ),
-    category          ( 'Voltmeter' ),
-    category          ( 'Counter/Totalizer' ),
-    category          ( 'Meter' ),
-    category          ( 'Bench Equipment' ),
-    category          ( 'Test Equipment' ),
-    category          ( 'BNC' ),
-    category          ( 'USB' ),
-    category          ( '❤️' ),
-    manufacturer_link (
-      link_href       ( 'https://www.rigolna.com/products/digital-oscilloscopes/MSO5000/MSO5074/' ),
-      link_text       ( 'MSO5000 Mixed Signal Oscilloscopes | RIGOL - RIGOL Technologies' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Rigol_MSO5074' ),
   warning       ( 'I have linked an MSO5072 option as well, I have an MSO5074' ),
   see_also      ( 'Rigol PLA2216 Logic Probe' ),
   see_also      ( 'Rigol PLA2216 Compatible Logic Probe' ),
+  search_url    ( 'https://www.amazon.com/s?k=Rigol+MSO5074+Mixed+Signal+Oscilloscope' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Rigol+MSO5074+Mixed+Signal+Oscilloscope' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_sop=15&_nkw=Rigol+MSO5074+Mixed+Signal+Oscilloscope' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_sop=15&_nkw=Rigol+MSO5074+Mixed+Signal+Oscilloscope' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-MSO5074.html?spm=a2g0o.productlist.search.0' ),
   web_link(
     link_href   ( 'https://www.jj5.net/rigol/' ),
     link_text   ( 'See the research I did before buying my Rigol MSO5074' ),
   ),
-  search_url    ( 'https://www.amazon.com/s?k=Rigol+MSO5074+Mixed+Signal+Oscilloscope' ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Rigol+MSO5074+Mixed+Signal+Oscilloscope' ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_sop=15&_nkw=Rigol+MSO5074+Mixed+Signal+Oscilloscope' ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2025/01/05/ferromagnetic-substance-detector-project-13-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Ferromagnetic Substance Detector | Project 13/20 | Maxitronix 20in1 | In The Lab With Jay Jay' ),
+  ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/195572945470?hash=item2d890e523e:g:nq8AAOSwsg9j0t20&amdata=enc%3AAQAIAAAA4MjuBQq3oPNyUnLRImZKkRNYahVqlnvj65Ck33A34W%2BO9TH5UT8%2Fhz2gB4%2BvN5JcYwZF%2Boale6B2IFigSYPrJtX%2BwBkRDcjUYorYiX8OUPSNVPZa58uxHDsPibVCnf%2BAEe26mk%2Fhe3%2BXdsm4jFu5lrFIuC8YSGdp7V1qjLn8m6Xg97JdGpnvfFkSnrTVH5ppxWwFlYXlf%2FQ0AOlZtnw%2FxiGIEU0DfVDn4GTjj02LN%2FUp%2FP2o8PAiK5VFviviVrRc%2B8DQ8vg0GC3nQbYaUw9Sxng2g77dv16WF3dFi1eHJpZW%7Ctkp%3ABk9SR9r244OhYw' ),
     affiliate_url ( 'https://ebay.us/zWteZL' ),
     listing_name  ( 'RIGOL MSO5074 70 MHz Mixed Signal Oscilloscope with 4 Analog Channels' ),
     item_price    ( 'US$999.01' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_sop=15&_nkw=Rigol+MSO5074+Mixed+Signal+Oscilloscope' ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-MSO5074.html?spm=a2g0o.productlist.search.0' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006055915176.html?spm=a2g0o.productlist.main.1.43753789oVKQpN&algo_pvid=894d0714-a960-46d0-a737-dfb67fa0beb6&algo_exp_id=894d0714-a960-46d0-a737-dfb67fa0beb6-0&pdp_npi=4%40dis%21AUD%21632.79%21632.79%21%21%212999.00%212999.00%21%402103200617051031451964814ea606%2112000035525864776%21sea%21AU%214385823938%21&curPageLogUid=uO7ObRb5vJ7F&utparam-url=scene%3Asearch%7Cquery_from%3A' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DCLlvl7' ),
@@ -135,22 +680,14 @@ equipment(
     EquipmentFeature::LOGIC_PROBE,
     EquipmentFeature::CABLE,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Rigol' ),
-    model_name        ( 'PLA2216' ),
-    equipment_type    ( 'Logic Probe' ),
-    category          ( 'Probe' ),
-    category          ( 'Accessory' ),
-    category          ( 'Attachment' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Rigol_MSO5074' ),
   see_also      ( 'Rigol PLA2216 Compatible Logic Probe' ),
   see_also      ( 'Rigol MSO5074 Mixed Signal Oscilloscope' ),
   search_url    ( 'https://www.amazon.com/s?k=Rigol+PLA2216+Logic+Probe' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Rigol+PLA2216+Logic+Probe' ),
   search_url    ( 'https://www.ebay.com/sch/i.html?_sop=15&_nkw=Rigol+PLA2216+Logic+Probe' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_sop=15&_nkw=Rigol+PLA2216+Logic+Probe' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Rigol-PLA2216-Logic-Probe.html' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/204348481637?hash=item2f941e6065:g:AssAAOSw7FNkb3ka&amdata=enc%3AAQAIAAAA0Pggk4dg%2F4isrNsdCysV2KykM2elb4XRirU3fqq2TBqEndRgYhgEbpfyXD3h8sGe1JTqQoLIxNQfwlz5tJIdPY8cZ6aARkwAWHrI2kaYrmHdeT3869oQQuaeimfFhyBiP2FI1eLek3ouQyF94YoSX5MEcIS%2BfoxE0oeWX%2BwQcsNTC99Snf9psqmhKqTgRf0sqhNNL0Rdo0yC2lhxvZOkzkkhXyZJ4Y54ep0lqmPFU823tREE09Pm48UtMaNTRlTxNvjpJdypzxFyXj8k%2BPqmWOI%3D%7Ctkp%3ABk9SR6iGmYOgYw' ),
     affiliate_url ( 'https://ebay.us/y0PZeg' ),
@@ -165,7 +702,6 @@ equipment(
     item_price    ( 'US$443.99' ),
     item_shipping ( 'US$76.40' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_sop=15&_nkw=Rigol+PLA2216+Logic+Probe' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/235384130490?hash=item36cdfccbba:g:Y~kAAOSwBUBloSzI&amdata=enc%3AAQAIAAAA0B2jBpLSMdY%2B%2B1pEvFCtbNEHB2C1fTKnFBhOF4mhpe8hFABDbI%2BtQNWdgxEbAQkEzKadOzcwQfgh5jl1aN3uh21o6XO9Al5cjjByIdoiN9NIf3EvvvbMfDNrCna1MdWOGWNr5Kkg7OfHFBs3vUv1LFMM3Ch252v5Sv6Jjt4xS0ZKyg0G3PXuRt1u8eGkjv90g8JVlxSRCAaNLOt0x7SOAYXtteLmbFihlS13sLxz4mUUkQKYlVaw%2F1M%2BIh0JYpiK%2Fi7yvZcPS95s27wTxMAKECE%3D%7Ctkp%3ABk9SR4CZ6YOgYw' ),
     affiliate_url ( 'https://ebay.us/hPPjig' ),
@@ -187,7 +723,6 @@ equipment(
     item_price    ( 'AU$733.26' ),
     item_shipping ( 'AU$126.18' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Rigol-PLA2216-Logic-Probe.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006082845804.html?spm=a2g0o.productlist.main.21.77874cdbPgWiEg&algo_pvid=e48301f8-bcd0-4841-a879-9f599b896a4a&algo_exp_id=e48301f8-bcd0-4841-a879-9f599b896a4a-10&pdp_npi=4%40dis%21AUD%211216.78%211216.78%21%21%21804.64%21804.64%21%402103237317051063751298959e9058%2112000035650391751%21sea%21AU%214385823938%21&curPageLogUid=j6prTEFAE5Rr&utparam-url=scene%3Asearch%7Cquery_from%3A' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DkrcUC9' ),
@@ -229,22 +764,14 @@ equipment(
     EquipmentFeature::LOGIC_PROBE,
     EquipmentFeature::CABLE,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Rigol' ),
-    model_name        ( 'PLA2216' ),
-    equipment_type    ( 'Compatible Logic Probe' ),
-    category          ( 'Probe' ),
-    category          ( 'Accessory' ),
-    category          ( 'Attachment' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Rigol_MSO5074' ),
   see_also      ( 'Rigol PLA2216 Logic Probe' ),
   see_also      ( 'Rigol MSO5074 Mixed Signal Oscilloscope' ),
   search_url    ( 'https://www.amazon.com/s?k=Rigol+PLA2216+Compatible+Logic+Probe&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Rigol+PLA2216+Compatible+Logic+Probe&s=price-asc-rank' ),
   search_url    ( 'https://www.ebay.com/sch/i.html?_sop=15&_nkw=Rigol+PLA2216+Logic+Probe' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_sop=15&_nkw=Rigol+PLA2216+Logic+Probe' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-PLA2216.html?spm=a2g0o.productlist.search.0' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/265974086807?hash=item3ded4a7c97:g:J~4AAOSw849jZntM&amdata=enc%3AAQAIAAAA8Bw6NA2c0lUjM5OJyV%2BnzcrK7Ej8DTMWNhOjVqFrL2Gzm7eeMxmk1qZWippPcaQEfAHNNuoLkb4Qb8vdf9vki5zhp4tYUiM%2BaekCiwOOUFSjzORLtx5JMSv9%2BFlcp3BYXJM1oAQ%2Fm%2BFDcWi305SKAbBqHreqX4aSJhXE61hiFIMj5TFeU0MGth4iMjsfDDhss2aeIwDaKUvXnk7OkpebAMX3agk1dXxqnIyTdN2eVoVGMzqMGNfOGLtE53Cvj76319zXSv6%2FO3JpVg7AHtFGKKcXw7oRI3Zg%2F%2FgsUeMF0VNVQ9DlvkyAgzpOmhj9CBYLPg%3D%3D%7Ctkp%3ABk9SR6iGmYOgYw' ),
     affiliate_url ( 'https://ebay.us/tWaF3S' ),
@@ -257,14 +784,12 @@ equipment(
     listing_name  ( 'Rigol MSO5000 PLA2216 Custom 16 Channel Logic Probe with Cable, Test Clips 2022#' ),
     item_price    ( 'US$75.99' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_sop=15&_nkw=Rigol+PLA2216+Logic+Probe' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/265974086807?hash=item3ded4a7c97:g:J~4AAOSw849jZntM&amdata=enc%3AAQAIAAAA0Kcqr%2BieKN5lGfWbu97aQIhJrXNpnuOPAW4CBxW80C4PALpPNCFkxM3dYIM5GL4z0TWr9GaowogjQHyH0hM6Y52eHTj9hS6exarQ26uCABDq%2B3kUUC0KEjgbF61lp0sqJFLlNcGDr4s1%2BxZySKV03YWGjABeCa9oNucPnSrMzBYf8gULHBFRJkqNiiOiBq5hEn0NzJmZQknpQSgzKgb0CWrpynBPIVE0%2B1MdDuTTRJVJcMXwrJfMCQ0fOzMyXYPnRYlr5ZcPNZW8ubu1RtLZ5mo%3D%7Ctkp%3ABk9SR4CZ6YOgYw' ),
     affiliate_url ( 'https://ebay.us/2iLimk' ),
     listing_name  ( 'Rigol MSO5000 PLA2216 Custom 16 Channel Logic Probe with Cable, Test Clips New' ),
     item_price    ( 'AU$125.50' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-PLA2216.html?spm=a2g0o.productlist.search.0' ),
 );
 
 equipment(
@@ -281,23 +806,13 @@ equipment(
     EquipmentFeature::USB_KEYBOARD,
     EquipmentAttribute::COMPUTER_EQUIPMENT,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'FILCO' ),
-    model_name        ( 'Majestouch 2SS' ),
-    equipment_type    ( '104-key Mechanical Keyboard' ),
-    category          ( 'Mechanical Keyboard' ),
-    category          ( 'Keyboard' ),
-    category          ( 'USB' ),
-    manufacturer_link (
-      link_href       ( 'https://www.diatec.co.jp/en/Maje2SS/' ),
-      link_text       ( 'Majestouch 2SS Edition Product Introduction' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Keyboard' ),
   see_also      ( 'FILCO Majestouch 2SS 87-key Mechanical Keyboard' ),
   search_url    ( 'https://www.amazon.com/s?k=FILCO+Majestouch+2SS+104-key+mechanical+keyboard&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=FILCO+Majestouch+2SS+104-key+mechanical+keyboard&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_sop=15&_nkw=FILCO+Majestouch+2SS+104-key+mechanical+keyboard' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_sop=15&_nkw=FILCO+Majestouch+2SS+104-key+mechanical+keyboard' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-FILCO-Majestouch-2SS-104-key-mechanical-keyboard.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/FILCO-Majestouch-FKBN104MSS-ECSP2B-RKL-English/dp/B0BQYN7BKR/ref=sr_1_2?dib=eyJ2IjoiMSJ9.4NCKKAqjWB1lWiBrpBEzAeQt0XEy7ryV1g9_rGQFCuDGjHj071QN20LucGBJIEps.t49D2iZTcwGivXVLPb6qxnQZQ3QGkJlVktyXOiS8xas&dib_tag=se&keywords=FILCO%2BMajestouch%2B2SS%2B104-key%2Bmechanical%2Bkeyboard&qid=1705108179&sr=8-2&th=1' ),
     affiliate_url ( 'https://amzn.to/3UgGZfJ' ),
@@ -305,7 +820,6 @@ equipment(
     item_options  ( 'Style: English Layout 104 Full Size' ),
     item_price    ( 'US$138.47' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=FILCO+Majestouch+2SS+104-key+mechanical+keyboard&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B0BQYN7BKR/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1' ),
     affiliate_url ( 'https://amzn.to/3TYhBuL' ),
@@ -313,9 +827,6 @@ equipment(
     item_options  ( 'Style Name: English Layout 104 Full Size' ),
     item_price    ( 'AU$201.84' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_sop=15&_nkw=FILCO+Majestouch+2SS+104-key+mechanical+keyboard' ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_sop=15&_nkw=FILCO+Majestouch+2SS+104-key+mechanical+keyboard' ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-FILCO-Majestouch-2SS-104-key-mechanical-keyboard.html' ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B0BQYN7BKR/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1' ),
     order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=249-2787659-3947045' ),
@@ -341,24 +852,14 @@ equipment(
     EquipmentAttribute::COMPUTER_EQUIPMENT,
     EquipmentFeature::USB_KEYBOARD,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'FILCO' ),
-    model_name        ( 'Majestouch 2SS' ),
-    equipment_type    ( '87-key Mechanical Keyboard' ),
-    category          ( 'Mechanical Keyboard' ),
-    category          ( 'Keyboard' ),
-    category          ( 'USB' ),
-    manufacturer_link (
-      link_href       ( 'https://www.diatec.co.jp/en/Maje2SS/' ),
-      link_text       ( 'Majestouch 2SS Edition Product Introduction' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Keyboard' ),
   see_also      ( 'FILCO Majestouch 2SS 104-key Mechanical Keyboard' ),
   see_also      ( 'gku AC1009 Underdesk Keyboard Drawer' ),
   search_url    ( 'https://www.amazon.com/s?k=FILCO+Majestouch+2SS+87-key+mechanical+keyboard&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=FILCO+Majestouch+2SS+87-key+mechanical+keyboard&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_sop=15&_nkw=FILCO+Majestouch+2SS+87-key+mechanical+keyboard' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_sop=15&_nkw=FILCO+Majestouch+2SS+87-key+mechanical+keyboard' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-FILCO-Majestouch-2SS-87-key-mechanical-keyboard.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/FILCO-Majestouch-Tenkeyless-FKBN87MSS-ECSP2B-RKL/dp/B0BQYP6JVD/ref=sr_1_2?dib=eyJ2IjoiMSJ9.4NCKKAqjWB1lWiBrpBEzAWADqomNRm4Ys6mSiQj3z8PGjHj071QN20LucGBJIEps.gjR1zCcZ1fhHGpMeHln88Elhw4GsZIrc-YMIsXazsOo&dib_tag=se&keywords=FILCO%2BMajestouch%2B2SS%2B87-key%2Bmechanical%2Bkeyboard&qid=1705108724&sr=8-2&th=1' ),
     affiliate_url ( 'https://amzn.to/3HhYbJT' ),
@@ -366,7 +867,6 @@ equipment(
     item_options  ( 'Style: English Layout 87 Numeric Keyless' ),
     item_price    ( 'US$129.01' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=FILCO+Majestouch+2SS+87-key+mechanical+keyboard&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/FILCO-Majestouch-Tenkeyless-FKBN87MSS-ECSP2B-RKL/dp/B0BQYP6JVD/ref=sr_1_2?dib=eyJ2IjoiMSJ9.4NCKKAqjWB1lWiBrpBEzAWADqomNRm4Ys6mSiQj3z8PGjHj071QN20LucGBJIEps.gjR1zCcZ1fhHGpMeHln88Elhw4GsZIrc-YMIsXazsOo&dib_tag=se&keywords=FILCO%2BMajestouch%2B2SS%2B87-key%2Bmechanical%2Bkeyboard&qid=1705108724&sr=8-2&th=1' ),
     affiliate_url ( 'https://amzn.to/48zvdkM' ),
@@ -374,9 +874,6 @@ equipment(
     item_options  ( 'Style Name: English Layout 87 Numeric Keyless' ),
     item_price    ( 'AU$181.07' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_sop=15&_nkw=FILCO+Majestouch+2SS+87-key+mechanical+keyboard' ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_sop=15&_nkw=FILCO+Majestouch+2SS+87-key+mechanical+keyboard' ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-FILCO-Majestouch-2SS-87-key-mechanical-keyboard.html' ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/FILCO-Majestouch-Tenkeyless-FKBN87MSS-ECSP2B-RKL/dp/B0BQYP6JVD/ref=sr_1_2?dib=eyJ2IjoiMSJ9.4NCKKAqjWB1lWiBrpBEzAWADqomNRm4Ys6mSiQj3z8PGjHj071QN20LucGBJIEps.gjR1zCcZ1fhHGpMeHln88Elhw4GsZIrc-YMIsXazsOo&dib_tag=se&keywords=FILCO%2BMajestouch%2B2SS%2B87-key%2Bmechanical%2Bkeyboard&qid=1705108724&sr=8-2&th=1' ),
     order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=249-2787659-3947045' ),
@@ -396,34 +893,25 @@ equipment(
     model_name        ( 'AC1009 Underdesk' ),
     EquipmentFeature::KEYBOARD_DRAWER,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'gku' ),
-    model_name        ( 'AC1009' ),
-    equipment_type    ( 'Underdesk Keyboard Drawer' ),
-    category          ( 'Keyboard Drawer' ),
-    category          ( 'Drawer' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Keyboard' ),
   see_also      ( 'FILCO Majestouch 2SS 87-key Mechanical Keyboard' ),
   search_url    ( 'https://www.amazon.com/s?k=gku+Underdesk+Keyboard+Drawer&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=gku+Underdesk+Keyboard+Drawer&s=price-asc-rank' ),
   search_url    ( 'https://www.ebay.com/sch/i.html?_sop=15&_nkw=gku+Underdesk+Keyboard+Drawer' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_sop=15&_nkw=gku+Underdesk+Keyboard+Drawer' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-gku-Underdesk-Keyboard-Drawer.html' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/402407511113?epid=14051643680&hash=item5db15b5449:g:uNgAAOSwA3dfUN9X&amdata=enc%3AAQAIAAAA8DRq5JSqOrdSTRir7nLjPKgF1xJqsfdcaqcyjPDZrszzArIVqPTF2DCyhzC6dNzZ0AzTVXulYEjweqpHPzWBsHBSlOlK0gIiPv5mMBzyt1pbMBEHz%2BDpxQt8pTFOoUKpdE5zyUxQ5srqbNpj4JHJW3v0CY2qiXL3Vpnszb6Dslowbc5I9q1dyabAhfX0tBeEg%2BpCHcvVTIxTmKYplJGRWpCHaMOUuy%2FyWngJFAf91IeB8fBbGCMK9gkSY9ruEmtWeT6KtEHhphy8o9OtFrs%2B1Ilgw1VoIx0GFAqRfMwNoW81kIMGGPE71c9qU4S0z%2BjUxw%3D%3D%7Ctkp%3ABk9SR8CO3YegYw' ),
     affiliate_url ( 'https://ebay.us/KQZbSI' ),
     listing_name  ( 'gku™ Underdesk Keyboard Drawer under desk keyboard tray and storage AC1009' ),
     item_price    ( 'US$29.97' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_sop=15&_nkw=gku+Underdesk+Keyboard+Drawer' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/402407511113?epid=14051643680&hash=item5db15b5449:g:uNgAAOSwA3dfUN9X&amdata=enc%3AAQAIAAAA8DRq5JSqOrdSTRir7nLjPKgF1xJqsfdcaqcyjPDZrszzArIVqPTF2DCyhzC6dNzZ0AzTVXulYEjweqpHPzWBsHBSlOlK0gIiPv5mMBzyt1pbMBEHz%2BDpxQt8pTFOoUKpdNPpm%2BJmbVzLY7QT3SOernfARQeHq1MCt8f%2BV8Qj81nn6imbHvZVDC1qKLqYUnBXFDfwH4yIQPS805vI71LYrhVVWZu%2FLNYhaiGY%2FMx8f06CVC8Gp5pnnt7g2kJG5SUtKHhST2sRQLHE6Z%2FUpjJ0F%2FbfFlRKLuMWDBm7jTIIujKk6k%2F6MkAp6V4OXpHl68KAbA%3D%3D%7Ctkp%3ABk9SR6z474egYw' ),
     affiliate_url ( 'https://ebay.us/NvdQjW' ),
     listing_name  ( 'gku™ Underdesk Keyboard Drawer under desk keyboard tray and storage AC1009' ),
     item_price    ( 'AU$45.00' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-gku-Underdesk-Keyboard-Drawer.html' ),
   purchase(
     equipment_url   ( 'https://www.ebay.com.au/itm/402407511113' ),
     order_url       ( 'https://order.ebay.com.au/ord/show?orderId=04-10119-18115#/' ),
@@ -483,19 +971,6 @@ equipment(
     EquipmentFeature::DREMEL_565_MULTI_PURPOSE_CUTTING_KIT,
     EquipmentFeature::WRENCH,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Dremel' ),
-    model_name        ( '4300' ),
-    equipment_type    ( 'Rotary Tool' ),
-    category          ( 'Rotary Tool' ),
-    category          ( 'Hand Tool' ),
-    manufacturer_link (
-      link_href       ( 'https://www.dremel.com/us/en/p/4300-5-40-f0134300ad' ),
-      link_text       ( 'Dremel 4300 Rotary Tool' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Dremel_4300' ),
   see_also      ( 'Dremel 335 Plunge Router' ),
   see_also      ( 'Dremel 2500 Multi-Vise' ),
@@ -504,6 +979,10 @@ equipment(
   see_also      ( 'Dremel 490 Rotary Tool Dust Blower' ),
   search_url    ( 'https://www.amazon.com/s?k=Dremel+4300&crid=3GF6DY905ZJF0&sprefix=dremel+4300%2Caps%2C1286&ref=nb_sb_noss_1' ),
   search_url    ( 'https://www.aliexpress.com/w/wholesale-Dremel-4300-Rotary-Tool.html' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Dremel+4300+Rotary+Tool&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2334524.m570.l1313&_nkw=Dremel+4300&_sacat=0&rt=nc&_osacat=0&_odkw=Dremel+4300+Rotary+Tool&_sop=15&LH_ItemCondition=1000' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+4300+Rotary+Tool' ),
+  search_url      ( 'https://www.aliexpress.com/w/wholesale-Dremel-4300-Rotary-Tool.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Dremel-4300-5-Performance-Attachments-Accessories/dp/B01M1SJNVU/ref=sr_1_5?crid=3GF6DY905ZJF0&dib=eyJ2IjoiMSJ9.oGTLMvpMwInL5o2-uJQg3NNMWbXxqyxZAGA2s8yMYFA-8lDTMH1Mlilaji7k6w-EqhfgibT3UY242uGCNztQga5vqVaITg5oeFEbnQ_ciQk3nv21ao7hF1UcbE0aGvWeLSTvIywKAwKg1-FGGLyddQ.wroHbB7mXygGWeTgcT5iLSSb3g2bTlDTIp_jVevbrT8&dib_tag=se&keywords=Dremel%2B4300&qid=1705110526&sprefix=dremel%2B4300%2Caps%2C286&sr=8-5&th=1' ),
     affiliate_url ( 'https://amzn.to/3vFI0TY' ),
@@ -512,14 +991,12 @@ equipment(
     item_price    ( 'US$109.99' ),
     item_shipping ( 'US$32.56' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Dremel+4300+Rotary+Tool&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B075F7LYMF/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1' ),
     affiliate_url ( 'https://amzn.to/48Vqp9b' ),
     listing_name  ( 'Dremel 4300 Rotary Tool 175W, Multi Tool Kit with 3 Attachments, 45 Accessories and Front LED Light, Variable Speed 5000-35000rpm for Cutting, Carving, Cleaning, Sanding, Engraving, Grinding' ),
     item_price    ( 'AU$194.34' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2334524.m570.l1313&_nkw=Dremel+4300&_sacat=0&rt=nc&_osacat=0&_odkw=Dremel+4300+Rotary+Tool&_sop=15&LH_ItemCondition=1000' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/155985688121?epid=5019368880&hash=item245178b639%3Ag%3AGr0AAOSwkpdllJ%7E1&amdata=enc%3AAQAIAAAA4JuPRSC7hsOkTDJVYV41PdTfRQVk1nlkW7acvwNaksTipMsGRJ5sr%2BtPW3vHZhtct2WaKE9e6MpgteKZyojUBaXW9ZZ%2B%2FOFa%2B2HKJrDvsQPW6Dt53EwfYB0o3%2Fi11x%2BHnOVTcvCOiH%2BkuAw5Bq0DtElhAeFXTIncA3nkHXasHM3MNaZzQWyph3RxFwthUb1Spm8%2FFbEOcIV7uTgzEdVxe1Ms3SCUAGCQUVllaoP1apcavZphST6Ykybwh3KqUK%2BEhpMfmWjDFane0FJOBm9DvsEPvEQ5XJxMqNl0AqymFnPx%7Ctkp%3ABk9SR6j0yoigYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/oUUoPw' ),
@@ -541,7 +1018,6 @@ equipment(
     item_price    ( 'US$100.00' ),
     item_shipping ( 'US$70.74' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+4300+Rotary+Tool' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/386319241770?hash=item59f26bd22a%3Ag%3Ay2cAAOSw5HhlZDOM&amdata=enc%3AAQAIAAAA8I97zJJ89ZEmoGrYRZE2ssGQgvZrOyGVxnf2Lf4VFSY6C4c5jVXzZde8M7gGrnyW5kS2MZ%2FzxQH3fGBiOkP%2F6c5NFqILdI5A9SKIa9JEbd%2FCQ65sLxh9QhICoENQY57lVsfuHTLEtmsfVO9d07HdcBrjUCYos0XHVA9io%2BPIB8d1Q2T3dJtJLBybVA%2BD%2FassDYlli3c0GzpIKvgfH4p9zohYbnocfkgT4z6CAlB08XTwumSyj25vef9M4eIb1nxNLaAGlLt5quDL8XjtrTL4y0L2NKWteTAhD0VMX0JsN9Ch%2FWxgH%2FNv5CNuOZJmI6yk4A%3D%3D%7Ctkp%3ABk9SR8Cm54igYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/dn6S0j' ),
@@ -560,7 +1036,6 @@ equipment(
     listing_name  ( 'Dremel 4300-5/50 Corded Rotary Tool Kit' ),
     item_price    ( 'AU$282.99' ),
   ),
-  search_url      ( 'https://www.aliexpress.com/w/wholesale-Dremel-4300-Rotary-Tool.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005004922167145.html?spm=a2g0o.productlist.main.21.2dd444a5x2hNxT&algo_pvid=bdd3a651-e943-4882-b24a-55a39341b386&algo_exp_id=bdd3a651-e943-4882-b24a-55a39341b386-10&pdp_npi=4%40dis%21AUD%21679.46%21305.75%21%21%21449.32%21202.19%21%402101ec1f17051115609945661eaa15%2112000031028409820%21sea%21AU%214385823938%21&curPageLogUid=eJfcV9qwV5f0&utparam-url=scene%3Asearch%7Cquery_from%3A' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DEZF2hn' ),
@@ -595,20 +1070,6 @@ equipment(
     EquipmentAttribute::ATTACHMENT,
     EquipmentAttribute::BENCH_EQUIPMENT,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Dremel' ),
-    model_name        ( '335' ),
-    equipment_type    ( 'Plunge Router' ),
-    category          ( 'Router' ),
-    category          ( 'Accessory' ),
-    category          ( 'Attachment' ),
-    manufacturer_link (
-      link_href       ( 'https://www.dremel.com/us/en/p/335-01-26150335aa' ),
-      link_text       ( 'Dremel Plunge Router Attachment (335)' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Dremel_4300' ),
   see_also      ( 'Dremel 4300 Rotary Tool' ),
   see_also      ( 'Dremel 2500 Multi-Vise' ),
@@ -616,6 +1077,10 @@ equipment(
   see_also      ( 'Dremel EZ725 Rotary Tool Accessory Set' ),
   see_also      ( 'Dremel 490 Rotary Tool Dust Blower' ),
   search_url    ( 'https://www.amazon.com/s?k=Dremel+335+Plunge+Router&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Dremel+335+Plunge+Router&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+335+Plunge+Router' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+335+Plunge+Router' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Dremel-335-Plunge-Router.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Dremel-Performance-Attachments-Accessories-Attachment/dp/B08DY572CW/ref=sr_1_1?dib=eyJ2IjoiMSJ9.05Cn4lu96icymk0nagCwOAZZLRaeMCQyIaM7t6nBZSbGjHj071QN20LucGBJIEps.VsBtJzroC7bAcwtb128r7UT1O1Df_ph1DpLT2a8ZbBs&dib_tag=se&keywords=Dremel%2B335%2BPlunge%2BRouter&qid=1705111896&sr=8-1&th=1' ),
     affiliate_url ( 'https://amzn.to/48to9pG' ),
@@ -635,14 +1100,12 @@ equipment(
     listing_name  ( 'Dremel 3000-2/28 Variable Speed Rotary Tool Kit & 335-01 Rotary Tool Plunge Router Attachment – Perfect for Wood' ),
     item_price    ( 'US$113.67' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Dremel+335+Plunge+Router&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Attachment-Precision-Routing-Drilling-Trimming/dp/B0000DEZK4/ref=sr_1_3?dib=eyJ2IjoiMSJ9.lbKcKjkbJNy859rXtr5Jm4RWuqlOl6zmkhtahfi4GJeaVKyuWy1b90_GTNRQZp7lKPgJdIcab9swqj0KSJ0leMr1_dIJk7S9BexJQMjosqnw4t9T7IM1a0VRStrXIzkia_ERum0SsD5RLOwWJZvvLg.ZbjS3tGovQWD-E8LEDZ0Tc8JcpDq3pY8ShKlwGa_VJg&dib_tag=se&keywords=Dremel%2B335%2BPlunge%2BRouter&qid=1705112519&sr=8-3&th=1' ),
     affiliate_url ( 'https://amzn.to/3TWRtAs' ),
     listing_name  ( 'Dremel 335 Plunge Router Rotary Tool Attachment for Precision Routing, Cutting, Drilling and Trimming on Wood, Medium' ),
     item_price    ( 'AU$48.00' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+335+Plunge+Router' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/225567201205?epid=679802985&hash=item3484da57b5%3Ag%3A6akAAOSwzMhkVz1i&amdata=enc%3AAQAIAAAA0EYfs0F5djlWSj5L6CH2EsRz71CVoVQzhEFKtq2UWrj34ym2e2auwg7pOItVobtE1jYv%2F1iwo%2BA8on8a8JOVvc9MqfHaOcWmLWTcF67vG608TjpIWTKLKCI39aAglWrRYhZtHiCnltN3t0MNIh0xW2GmyKbPdjtbw9jRIq%2FER6YrlvbEb7KMcFqjiMrK9dlApl6ZRgMOYNvHhpNywRNg4aW5b5RWrqA9HDLCbIUsrMLIqwOdw10LaZkziS6u0MivXh79HjdaLWbgutztWlN4lRE%3D%7Ctkp%3ABk9SR4q5ioqgYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/aguG59' ),
@@ -662,7 +1125,6 @@ equipment(
     item_price    ( 'US$40.99' ),
     item_total    ( 'US$24.67' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+335+Plunge+Router' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/126018468792?hash=item1d57493bb8%3Ai%3A126018468792&amdata=enc%3AAQAIAAAA8Aa1R%2BH9eRy9UbEy0kd7b6w47TgTpBu9M32nOVaxsnW2XD3IyC3XjAewyHF7M1qjpyR77IYqe3hrHzCyHKW08OXxB%2BU7jkdv0Qivu4lhpbmltI26J%2BUEOVW6txz%2BvrWYmVZoR1HZB7mdV8x1Xkzgf75K3F7cYrM52oraBIHwaE8XAeeUKYvdEhk794FJziVlK4Msj3rGbwI62hKN5SZ%2BbH10CX7vHMRthdxQirYL%2FTIcL1cNGD55U%2FLAOlhDEnwkjr%2BajWzO5Mq%2BrQ83IG%2FWe%2FlmeQU7OGoltWMTj03w59VD6ESzDVXvKa3aUc1l46Cx%2Fg%3D%3D%7Ctkp%3ABk9SR47fpIqgYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/PnE1Nf' ),
@@ -681,7 +1143,6 @@ equipment(
     listing_name  ( 'New Dremel 335-01 Plunge Lock-In Handle Router Attachment Clear Base' ),
     item_price    ( 'AU$69.95' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Dremel-335-Plunge-Router.html' ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=249-6732556-5855016' ),
     order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=249-6732556-5855016' ),
@@ -708,20 +1169,6 @@ equipment(
     EquipmentAttribute::ATTACHMENT,
     EquipmentAttribute::BENCH_EQUIPMENT,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Dremel' ),
-    model_name        ( '2500' ),
-    equipment_type    ( 'Multi-Vise' ),
-    category          ( 'Vise' ),
-    category          ( 'Accessory' ),
-    category          ( 'Attachment' ),
-    manufacturer_link (
-      link_href       ( 'https://www.dremel.com/us/en/p/2500-01-26152500aa' ),
-      link_text       ( 'Dremel 2500 Multi-Vise' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Dremel_4300' ),
   see_also      ( 'Dremel 4300 Rotary Tool' ),
   see_also      ( 'Dremel 335 Plunge Router' ),
@@ -729,6 +1176,10 @@ equipment(
   see_also      ( 'Dremel EZ725 Rotary Tool Accessory Set' ),
   see_also      ( 'Dremel 490 Rotary Tool Dust Blower' ),
   search_url    ( 'https://www.amazon.com/s?k=Dremel+2500+Multi-Vise&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Dremel+2500+Multi-Vise&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+2500+Multi-Vise' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+2500+Multi-Vise' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Dremel-2500-Multi-Vise.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Dremel-2500-01-Rotary-Tool-Multi-Vise/dp/B000P4W3LU/ref=sr_1_1?dib=eyJ2IjoiMSJ9.AJX7CVWgD_2I62Psk9_we59emSSEeeOV3uvP1Za0WJ8.RmscTb1qSxwVkqwym22mMUvp4AIntYxLcMJrvXqwKRE&dib_tag=se&keywords=Dremel+2500+Multi-Vise&qid=1705113327&sr=8-1' ),
     affiliate_url ( 'https://amzn.to/3ROS9VO' ),
@@ -736,14 +1187,12 @@ equipment(
     item_price    ( 'US$28.47' ),
     item_shipping ( 'US$27.37' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Dremel+2500+Multi-Vise&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Dremel-Multi-Vise-Adjustable-Bench-Holder/dp/B000QG79ZW/ref=sr_1_43?dib=eyJ2IjoiMSJ9.naLN9D3zWYcI7I2_LAGNcq-kEWRQiyNXWOH8n4k8hgOeZrU0lM3GlHh4vdDbfsyIhEbzVbmhkHD0cebXF5A54_xTzu3kdBUinTA2kDdfhd96nhUs6Jig07T9WwwgeDlHzu0N6T-s8IH0YEsjRA2UVQ.bqBrZVAY4lcbSNusCGdoWZKl2xZsxwFLnf7j31NrtIU&dib_tag=se&keywords=Dremel+2500+Multi-Vise&qid=1705113491&sr=8-43' ),
     affiliate_url ( 'https://amzn.to/3vFFvB6' ),
     listing_name  ( 'Dremel 2500 Multi-Vise, 3-in-1 Adjustable Bench Vice with Clamp and Tool Holder' ),
     item_price    ( 'AU$46.29' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+2500+Multi-Vise' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/272816760334?epid=1555193599&hash=item3f8525660e%3Ag%3ASOMAAOSwdtlZnN9e&amdata=enc%3AAQAIAAAA8Ck4ay6rOsVpW1%2BBOF3JAjWpd76HN2P994J1ocI6urDDMDOq3sp8xfkiENYLpC1nOa7%2BxSdRsHmT%2Bu%2FB0jkJF3Za%2B7OYwawIGhEMa7lyqLDwDuvoG0nA6jLqx6mhzynEAbLgi8LbmDF9obO2NnDH8InwJVB%2BmODWm77txq7afK6ueAZccoBFxM0EMqZUEPleUil6manBFXkDbq6cI5XeS2m6UMgQsAmE2YbxAdmIFo%2BVEl2UcVNn6k%2FA4%2B7ywpoqeFLmVBdhXvu8UANv2XGTluckiO9t5485V2jJPi%2BRH44wVvQMp1xP7PmsHu5qgz6uOA%3D%3D%7Ctkp%3ABk9SR7DVgYugYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/nNsWIW' ),
@@ -764,7 +1213,6 @@ equipment(
     item_price    ( 'US$50.52' ),
     item_shipping ( 'US$37.40' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+2500+Multi-Vise' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/196186293806?epid=15062629067&hash=item2dad9d462e%3Ag%3AsE0AAOSwTtVlcBeE&amdata=enc%3AAQAIAAAA0FUrAz8mmJnrVyMiUN8ovu9lSXnMKal4bBP39aRnWTCMitC6kUwEZ8vIeuVKc5oOdade3k0MmB%2BQkRaqrTfOR5FF1oJh3H4tP3Go8uZbg7XcuhnpB3x7fUWcq9g0cDuX8DiXK6%2BoZOnhaaf%2Bk%2B1h5fEH%2BPVE5ZJmaSt01Gd1VBk5ghwRE1x0sP7vMbVtb6KGrf8%2FPXOexbyN6OTQlR2xUd8FvsLQU6eNWNC02peOMeJbLou5jmH96r6jPoNzheyB2TEq%2FCq5jisqUYdMRooORhs%3D%7Ctkp%3ABk9SR-znlIugYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/sup4wC' ),
@@ -783,7 +1231,6 @@ equipment(
     listing_name  ( 'DREMEL Multi-Vise 3 in 1 Rotary Tool Holder 2500-55' ),
     item_price    ( 'AU$97.99' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Dremel-2500-Multi-Vise.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005004420679530.html?spm=a2g0o.productlist.main.21.576873b232kV10&algo_pvid=bdb57227-724c-48d9-a20a-03b490887c9f&algo_exp_id=bdb57227-724c-48d9-a20a-03b490887c9f-10&pdp_npi=4%40dis%21AUD%21237.51%21162.29%21%21%21157.06%21107.32%21%40210324e517051138452447492ebdd6%2112000029125323652%21sea%21AU%214385823938%21&curPageLogUid=Y6pv0LxjKYs2&utparam-url=scene%3Asearch%7Cquery_from%3A' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DCwFQOD' ),
@@ -831,20 +1278,6 @@ equipment(
     EquipmentAttribute::ATTACHMENT,
     EquipmentAttribute::BENCH_EQUIPMENT,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Dremel' ),
-    model_name        ( '220' ),
-    equipment_type    ( 'Drill Press' ),
-    category          ( 'Drill Press' ),
-    category          ( 'Accessory' ),
-    category          ( 'Attachment' ),
-    manufacturer_link (
-      link_href       ( 'https://www.dremel.com/us/en/p/220-01-26150220aa' ),
-      link_text       ( 'Dremel 220 Drill Press' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Dremel_4300' ),
   see_also      ( 'Dremel 4300 Rotary Tool' ),
   see_also      ( 'Dremel 335 Plunge Router' ),
@@ -852,6 +1285,10 @@ equipment(
   see_also      ( 'Dremel EZ725 Rotary Tool Accessory Set' ),
   see_also      ( 'Dremel 490 Rotary Tool Dust Blower' ),
   search_url    ( 'https://www.amazon.com/s?k=Dremel+220+Drill+Press&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Dremel+220+Drill+Press&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+220+Drill+Press' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+220+Drill+Press' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Dremel-220-Drill-Press.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Dremel-220-01-Station-MultiPro-Keyless/dp/B01MA36EDU/ref=sr_1_3?dib=eyJ2IjoiMSJ9.q8EsNzy6YCgvnr_pWe0d2zd-bpP0WlCrjKoJ7olOYzgfOo6zPZMvcbLx2lVsWEu5F2pL8aUo52KmASpCgMA9aA.HU64bZtKNau_Qa68b1_GlRkRtYvlHwAbN1Pi1eMnKWE&dib_tag=se&keywords=Dremel+220+Drill+Press&qid=1705114914&sr=8-3' ),
     affiliate_url ( 'https://amzn.to/3vArTHu' ),
@@ -866,7 +1303,6 @@ equipment(
     item_options  ( 'Style: Shaft attachment w/ chuck and work station' ),
     item_price    ( 'US$92.42' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Dremel+220+Drill+Press&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Purpose-Workstation-FlexShaft-Drilling-Woodworking/dp/B00068P48O/ref=sr_1_14?dib=eyJ2IjoiMSJ9.TDFBW4jv_K2s7EGbj6f8dE6cP_Q6OBC0BkQNRyz7UqIk_fHRaUyif0fmeR6_S0P0SHU1VfMTAyBhu1_puJ-lCC_yhVtbP2ZH_szaQzYRcJgij_FPCIylga2_t9M79cIeloCH6kR1KpjRb26KlXGLDQ.tHkulBviZTT4Did7enMM3_U8DGuWhq0clhfBD4laiLU&dib_tag=se&keywords=Dremel+220+Drill+Press&qid=1705115060&sr=8-14' ),
     affiliate_url ( 'https://amzn.to/3tQbv54' ),
@@ -879,7 +1315,6 @@ equipment(
     listing_name  ( 'Dremel 220 Workstation - 2-in1 Multi Purpose Drill Press & Rotary Tool Holder for Bench Drilling,one size' ),
     item_price    ( 'AU$113.89' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+220+Drill+Press' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/155843730394?epid=17021845671&hash=item2449029bda%3Ag%3ANRgAAOSwaeVlNUNw&amdata=enc%3AAQAIAAAA8A%2BqlSVFCZ6n81dK%2BaeHK9IIRxrYo7bGV1W9ztU4F0GlY345zMF9%2B1TBbusns5s%2BjTrc4IXGougv96JLw%2BfPSIvo1Z2zp8NOZRDVK0V7Urcmr5hLWZ5VipztALF72g4Dp3TMsLEvloTeouDPow7Ucyg%2F1WvMNMtx5q2c1NtCnNr5CNWxoTtInZVPVhK2%2F0oSgAnarlNuo1jTFjltUylIi2O0A6zfg2XUMXO9hXV2E0Y8SVgQVqKwHBzGjOyvmuI7C7qWnQYvWblUR9rCx9J0qWGrG6b6TIJBHGjRZiIhIGiwK%2FQnikBpgOCoEwfsd4v53Q%3D%3D%7Ctkp%3ABk9SR9aKxYygYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/IdBBvC' ),
@@ -901,7 +1336,6 @@ equipment(
     item_price    ( 'US$64.99' ),
     item_shipping ( 'US$34.73' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+220+Drill+Press' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/143141800898?hash=item2153ea8bc2%3Ag%3AwAsAAOSwrnhgRp8j&amdata=enc%3AAQAIAAAAwEsHCYtboN767nTFn2Zl%2BF0Px0Z1HujVoO5Md2mZmfDluxQOAY61T4%2BMes%2B3hc4iBOAQHrVdWkiaxEO2%2B4hvaEWjW4A4EWeQPkSVcITVUmcs1Vjp%2BcYDsk8k%2FXF3LPyrfrGjAHgxvTxvczjQO6NeeH5xHHkrMEM3DCqwwE0X6FZk%2BUBIy1WDTQpFA3kx%2F4L5dpO72ntqrO9lVrBTLWHzxHkTxZjLwQXnsaOsSOLRj9Lfz7vxNi1%2BeLaePMEPOSbrOw%3D%3D%7Ctkp%3ABk9SR9j12YygYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/J7iSpF' ),
@@ -921,7 +1355,6 @@ equipment(
     listing_name  ( 'New Dremel 220-01 Rotary Tool Workstation Drill Press Work Station with Wrench' ),
     item_price    ( 'AU$127.95' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Dremel-220-Drill-Press.html' ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B00068P48O/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&th=1' ),
     order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=250-1996566-6935011' ),
@@ -959,21 +1392,6 @@ equipment(
     EquipmentFeature::DREMEL_408_60_GRIT_SANDING_BAND,
     EquipmentFeature::DREMEL_432_120_GRIT_SANDING_BAND,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Dremel' ),
-    model_name        ( 'EZ725' ),
-    equipment_type    ( 'Rotary Tool Accessory Set' ),
-    category          ( 'Rotary Tool' ),
-    category          ( 'Cutting Disc' ),
-    category          ( 'Accessory' ),
-    category          ( 'Attachment' ),
-    manufacturer_link (
-      link_href       ( 'https://www.dremel.com/us/en/p/ez725-2615e725aa' ),
-      link_text       ( 'Dremel EZ725 Rotary Tool Accessory Set' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Dremel_4300' ),
   see_also      ( 'Dremel 4300 Rotary Tool' ),
   see_also      ( 'Dremel 335 Plunge Router' ),
@@ -981,6 +1399,10 @@ equipment(
   see_also      ( 'Dremel 220 Drill Press' ),
   see_also      ( 'Dremel 490 Rotary Tool Dust Blower' ),
   search_url    ( 'https://www.amazon.com/s?k=Dremel+EZ725+Rotary+Tool+Accessory+Set&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Dremel+EZ725+Rotary+Tool+Accessory+Set&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+EZ725+Rotary+Tool+Accessory+Set' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+EZ725+Rotary+Tool+Accessory+Set' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Dremel-EZ725-Rotary-Tool-Accessory-Set.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Dremel-EZ725-All-Purpose-Accessory-70-Piece/dp/B00TODY7YO/ref=sr_1_4?dib=eyJ2IjoiMSJ9.UpStj6zzv1FWYcq-cSgzb3DNrD0UCFtO_IPUtRUAQP2Aek2yQHP1KI3t8VI7blClWYbsoR8cci2qJofftDlEL4nWfvW44yoJHBUpy3qcnUy4_6ywOL8vJokoTS-ryJj8.qshjb6rCJ5fTbIcqf9kOKDNpCWqnI4tSR7begSraDMk&dib_tag=se&keywords=Dremel%2BEZ725%2BRotary%2BTool%2BAccessory%2BSet&qid=1705115567&sr=8-4&th=1' ),
     affiliate_url ( 'https://amzn.to/3vzLdVk' ),
@@ -989,22 +1411,18 @@ equipment(
     item_price    ( 'US$59.99' ),
     item_shipping ( 'US$18.78' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Dremel+EZ725+Rotary+Tool+Accessory+Set&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B00TODY7YO/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1' ),
     affiliate_url ( 'https://amzn.to/47zd70I' ),
     listing_name  ( 'Dremel EZ725 EZ All-Purpose Accessory 70 Piece Kit' ),
     item_price    ( 'AU$86.55' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+EZ725+Rotary+Tool+Accessory+Set' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/145111736530?epid=16021412391&hash=item21c95560d2%3Ag%3AcWcAAOSws0hkdnZl&amdata=enc%3AAQAIAAABAJTbSgKbLOJ5ZwMzIxwwjSga4L7qw8D42DZJtMhVfBQEKzj3qe3%2BHY6jMifpPHra3YB3RwSaCLfxRs%2F9m8CqFKkDInPSKYKQrBFZFbem0uRNZZZBBT5E149ZX1FepgK1pUfYAcX%2BVOuluixcPjAahqcbnrBrjAo7WFRWhTIe%2FRzj9XwX8y0uhRpMzGxhkJTCyS%2F3yJc%2FM6eJ1C%2Ftfr6ePYTP7eqOZomjZZ9t53t3vc6pCJs8a7Rb4ncWV4%2BZKTPmDG%2Fy6sZgXXyEReuODhnlXSRRzlXXgmNRSzbL%2B2YhAREH4jEec4dvPn16y%2B7%2B3Dh%2FpGaEniNLUJiZ%2FwBkX%2FjMqpI%3D%7Ctkp%3ABk9SR6ywiY2gYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/PQiNhc' ),
     listing_name  ( 'Dremel EZ725 All-Purpose Rotary Tool Accessory Set With Storage Kit EZ-Lock EZ' ),
     item_price    ( 'US$82.72' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+EZ725+Rotary+Tool+Accessory+Set' ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Dremel-EZ725-Rotary-Tool-Accessory-Set.html' ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B00TODY7YO/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&th=1' ),
     order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=250-9754174-2638253' ),
@@ -1041,20 +1459,6 @@ equipment(
     EquipmentFeature::RED_RESIN_CUTTING_WHEEL,
     EquipmentFeature::ROTARY_TOOL_MANDREL,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Dremel' ),
-    equipment_type    ( 'Cutting Discs for Rotary Tool' ),
-    category          ( 'Rotary Tool' ),
-    category          ( 'Cutting Disc' ),
-    category          ( 'Accessory' ),
-    category          ( 'Attachment' ),
-    manufacturer_link (
-      link_href       ( 'https://www.dremel.com/us/en/product-categories/rotary/accessories-attachments' ),
-      link_text       ( 'Dremel Rotary Tool Accessories & Attachments' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Dremel_4300' ),
   see_also      ( 'Dremel 4300 Rotary Tool' ),
   see_also      ( 'Dremel 335 Plunge Router' ),
@@ -1063,6 +1467,10 @@ equipment(
   see_also      ( 'Dremel EZ725 Rotary Tool Accessory Set' ),
   see_also      ( 'Dremel 490 Rotary Tool Dust Blower' ),
   search_url    ( 'https://www.amazon.com/s?k=Dremel+Cutting+Discs+for+Rotary+Tool&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Dremel+Cutting+Discs+for+Rotary+Tool&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+Cutting+Discs+for+Rotary+Tool' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+Cutting+Discs+for+Rotary+Tool' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Dremel-Cutting-Discs-for-Rotary-Tool.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Cutting-Rotary-Accessories-Diamond-Plastic/dp/B08XK1YZ9P?keywords=Cutting+Wheels+Set+for+Dremel+Rotary+Tool,+41pcs+Diamond+Cutting+Discs+1/8%22+Shank+Mini+Cut+Off+Wheel+Dremel+Rotary+Tool+Accessories+with+5Pcs+Mandrels+for+Woodworking+Metal+Glass+Plastic+Stone&qid=1698687932&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=sl1&tag=johnelliotv-20&linkId=d02d62623fe1e058e57cae11b9a09795&language=en_US&ref_=as_li_ss_tl' ),
     affiliate_url ( 'https://amzn.to/3O1ks2g' ),
@@ -1070,16 +1478,12 @@ equipment(
     item_price    ( 'US$13.39' ),
     item_shipping ( 'US$17.63' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Dremel+Cutting+Discs+for+Rotary+Tool&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B098LDFPLT/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1' ),
     affiliate_url ( 'https://amzn.to/3u44KfY' ),
     listing_name  ( 'Cutting Wheels Set for Dremel Rotary Tool, 41pcs Diamond Cutting Discs 1/8" Shank Mini Cut Off Wheel Dremel Rotary Tool Accessories with 5Pcs Mandrels for Woodworking Metal Glass Plastic Stone' ),
     item_price    ( 'AU$16.29' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+Cutting+Discs+for+Rotary+Tool' ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+Cutting+Discs+for+Rotary+Tool' ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Dremel-Cutting-Discs-for-Rotary-Tool.html' ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B098LDFPLT/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1' ),
     order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=250-9076785-9072640' ),
@@ -1103,21 +1507,6 @@ equipment(
     model_name        ( '490' ),
     EquipmentFeature::ROTARY_TOOL_DUST_BLOWER,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Dremel' ),
-    model_name        ( '490' ),
-    equipment_type    ( 'Rotary Tool Dust Blower' ),
-    category          ( 'Rotary Tool' ),
-    category          ( 'Dust Blower' ),
-    category          ( 'Accessory' ),
-    category          ( 'Attachment' ),
-    manufacturer_link (
-      link_href       ( 'https://www.dremel.com/us/en/p/490-26150490aa' ),
-      link_text       ( 'Dremel 490 Rotary Tool Dust Blower' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Dremel_4300' ),
   see_also      ( 'Dremel 4300 Rotary Tool' ),
   see_also      ( 'Dremel 335 Plunge Router' ),
@@ -1125,20 +1514,22 @@ equipment(
   see_also      ( 'Dremel 220 Drill Press' ),
   see_also      ( 'Dremel EZ725 Rotary Tool Accessory Set' ),
   search_url    ( 'https://www.amazon.com/s?k=Dremel+490+Rotary+Tool+Dust+Blower&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Dremel+490+Rotary+Tool+Dust+Blower&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+490+Rotary+Tool+Dust+Blower' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+490+Rotary+Tool+Dust+Blower' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Dremel-490-Rotary-Tool-Dust-Blower.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/gp/product/B00CM5ZCW2?&linkCode=sl1&tag=johnelliotv-20&linkId=ffee9585c3cbcb6c72e8cbf9a6b78946&language=en_US&ref_=as_li_ss_tl' ),
     affiliate_url ( 'https://amzn.to/48yyDUK' ),
     listing_name  ( 'Dremel 490 Rotary Tool Dust Blower Attachment, Ideal for Sanding, Engraving, and Carving' ),
     item_price    ( 'AU$9.98' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Dremel+490+Rotary+Tool+Dust+Blower&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Dremel-490-Dust-Blower/dp/B00CM5ZCW2/ref=sr_1_1?dib=eyJ2IjoiMSJ9.TDFBW4jv_K2s7EGbj6f8dBihh_S67JBvCl8fnJgtC-cJ6KxBh5DoYI87Sz3pbqmvS23Cwaeo8Ted6Vei565TJKcDe-XxrYjWUCI29xyeafn9qzzP7988IdTN8wFcdipp1kqFhTiJd9JWfml_gqkWXg.94KzT0l0fCV-q6TsvTwbTXkvrIJuTvcGcfKy7lXc_XY&dib_tag=se&keywords=Dremel%2B490%2BRotary%2BTool%2BDust%2BBlower&qid=1705116348&sr=8-1&th=1' ),
     affiliate_url ( 'https://amzn.to/4b8IBOD' ),
     listing_name  ( 'Dremel 490 Dust Blower' ),
     item_price    ( 'AU$9.98' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+490+Rotary+Tool+Dust+Blower' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/323245196560?hash=item4b42ea4510%3Ag%3A1tYAAOSw7aFa8GoJ&amdata=enc%3AAQAIAAAA0IDfXm8xcxBp4enYm%2B0%2FQQNYVWGytAk%2FN%2FxWcPKmXtcd%2FiCeF8bv9tXuL%2BE5G57KXlGHSLCaHpczBcQk2Curzb6841U3zjz9ifeirukgJI%2BuLWwvMt3RRumffqqOzEGytfw4y74gQ2GQfDvErlJdH2w0YahA%2BvZLSZJIIY5nwVzhi1c5CFpVneu75BHMewfL7tyKtta%2BxLKK0NJioSA4AAcWPP9zZq%2BYz8Y0aG1OYWYMdrD9xP%2F%2BtFi8Iyn%2FY6yiq7jCWKlvKCJHP8jIy%2FXP1U8%3D%7Ctkp%3ABk9SR-Sd3Y2gYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/LX8IVO' ),
@@ -1159,7 +1550,6 @@ equipment(
     item_price    ( 'US$7.99' ),
     item_shipping ( 'US$15.64' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Dremel+490+Rotary+Tool+Dust+Blower' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/323245196560?hash=item4b42ea4510%3Ag%3A1tYAAOSw7aFa8GoJ&amdata=enc%3AAQAIAAAA0IDfXm8xcxBp4enYm%2B0%2FQQNYVWGytAk%2FN%2FxWcPKmXtcd%2FiCeF8bv9tXuL%2BE5G57KXsKPyK8REw8XST1ypUlNcaphvmdCd8T1zZ1uJxKR1K5EqY8ab6UK%2B0K2BIuoxID%2BqBE5EhmJ%2BQPj2xrpd49br9adlMil6eWu9fnlWM2twNnHNwc4iQwnSbbiLcNA2wPhjdB7tFi9Fe1Bhged%2BDEESVPwaKW0qqZXmkroQRie0CrEDe81C0QbKaV4oN2YVzqsmSAKQfqpzZu9DwGt3MQbqHk%3D%7Ctkp%3ABk9SR9CC8I2gYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/LpS1BZ' ),
@@ -1178,7 +1568,6 @@ equipment(
     listing_name  ( 'Dremel Dust Blower Cordless Black 3.48 x 4.9 x 9.96 cm 9 Grams' ),
     item_price    ( 'AU$14.99' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Dremel-490-Rotary-Tool-Dust-Blower.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005457220281.html?spm=a2g0o.productlist.main.21.e071772eJBpVtr&algo_pvid=37679c6d-2663-4e82-9127-34f06a3f989a&algo_exp_id=37679c6d-2663-4e82-9127-34f06a3f989a-10&pdp_npi=4%40dis%21AUD%2124.36%2112.18%21%21%21115.47%2157.73%21%402103205117051166964565778e8567%2112000033159135481%21sea%21AU%214385823938%21&curPageLogUid=3LXKlhlqFBv5&utparam-url=scene%3Asearch%7Cquery_from%3A' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DlJvEu9' ),
@@ -1226,6 +1615,10 @@ equipment(
   sixsigma_url  ( 'https://www.jj5.net/wiki/Aten_CS1922' ),
   warning( 'I have the CS1922 but the CS1922M is newer and better, I\'ve included links to both.' ),
   search_url    ( 'https://www.amazon.com/s?k=ATEN+CS1922+2-Port+DisplayPort+KVM&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=ATEN+CS1922&crid=2ZO9HNIZNU2RB&sprefix=aten+cs1922+2-port+displayport+kvm%2Caps%2C227&ref=nb_sb_noss' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=ATEN+CS1922+2-Port+DisplayPort+KVM' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=ATEN+CS1922+2-Port+DisplayPort+KVM' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-ATEN-CS1922.html?spm=a2g0o.productlist.search.0' ),
   web_link(
     link_href   ( 'https://www.amazon.com.au/gp/product/B087BZDQQS' ),
     link_text   ( 'Printer Cable 15FT(4.5m),AkoaDa USB 2.0 Printer Cable USB Type A to B Male Printer Cable' ),
@@ -1255,7 +1648,6 @@ equipment(
     item_price    ( 'US$299.99' ),
     item_shipping ( 'US$27.37' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=ATEN+CS1922&crid=2ZO9HNIZNU2RB&sprefix=aten+cs1922+2-port+displayport+kvm%2Caps%2C227&ref=nb_sb_noss' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/CS1922M-2-Port-DisplayPort-Switch-Included/dp/B079RBB1L9/ref=sr_1_20?crid=2ZO9HNIZNU2RB&dib=eyJ2IjoiMSJ9.D8ozTkbPfa8LsV-3LgaJl9NWVZcu6FLCcyyLKvAUa1gFtEs-RM-x-YOq3smFwagVKRBSkw31ugAlqr6ZeMNV8Yi8peggI93yFB5Q6TrkrVJECAdqIRnsTNi-rrBe0bYcSw5yMGTtoxumooUMoZaLLQ.4GHzp5efoGMjVEK8qxk6kwrhvWmKGM2GbjImeFwu2DY&dib_tag=se&keywords=ATEN+CS1922&qid=1705119118&sprefix=aten+cs1922+2-port+displayport+kvm%2Caps%2C227&sr=8-20' ),
     affiliate_url ( 'https://amzn.to/3RZCJOE' ),
@@ -1274,7 +1666,6 @@ equipment(
     listing_name  ( 'ATEN CS1922 2-Port USB 3.0 4K DP KVMP Switch' ),
     item_price    ( 'AU$510.96' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=ATEN+CS1922+2-Port+DisplayPort+KVM' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/276235405978?hash=item4050e9ca9a%3Ag%3Ari0AAOSwfNZlgCPd&amdata=enc%3AAQAIAAABANQN1AnpVxK3TMrsn9JVRiL7s7yseTFwjlAnAaIruCXhuwRXU3rAmK0VpSCiba6rNzQ%2FlA7CSpCBmj%2F946yl3OzoPqoKww8LsEr8zaYpZXmB7d%2F9%2FEUI%2B2QCYJKFKxFxFXJV8vu%2FHUpX4jV8g6zzoQtoAfAiyWuk9fLJo59PYbkDBkjtK5zSFyv2hpLryNNXxt2VsZ1UY7hWOejR%2BgmlRx0TDXZx7M409slno0RcsSXvmcBrYisHJCBsO4gwQN465QUA0dM79Q1VlNv61rSLXBHKaweGZb42EF9gTxf7%2Bz1t%2BRLspMjhbK5gyLaPa520VTHoqbO1Y7VXkKHcKBWbFqg%3D%7Ctkp%3ABk9SR8qH_JCgYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/j6hIyv' ),
@@ -1287,7 +1678,6 @@ equipment(
     listing_name  ( 'Aten Cs1922 2 Port Usb 4K Displayport Kvm Switch' ),
     item_price    ( 'US$546.13' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=ATEN+CS1922+2-Port+DisplayPort+KVM' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/276235405978?hash=item4050e9ca9a%3Ag%3Ari0AAOSwfNZlgCPd&amdata=enc%3AAQAIAAAA4IHE92SDibpMJhkc8P2656MHtnqspu%2BUJI6yUGhHY0V5ViB%2FzzO%2BfkF%2Fn2jJJsMk4XSIO4NlHRJWAkRi0jC7CLKbLt2C3dhK%2F2xmt8fu3cgtl0CJUHar%2Buc62SP95MuLGpxsc%2BTDBAMg%2BbcsICaK8GjOscFKhiH4lo2TRXEQW57z65IjeUUXJPhaxIdcG0GAPABaCmahR9vxzfctd%2BoGeFkSoZZVRnQQCoJ3ZP1Ph2WZ4N7t%2BQQ0OrnFNErXOUSxjfy6TSsCey2GHC28TLE2A%2BUfUgLAxKRAU6Jz0QvLi7ZX%7Ctkp%3ABk9SR5aMjpGgYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/rmLrnh' ),
@@ -1300,7 +1690,6 @@ equipment(
     listing_name  ( 'Aten Cs1922 2 Port Usb 4K Displayport Kvm Switch' ),
     item_price    ( 'AU$819.95' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-ATEN-CS1922.html?spm=a2g0o.productlist.search.0' ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B01N6BHK73/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1' ),
     order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=249-7758197-5896666' ),
@@ -1309,117 +1698,6 @@ equipment(
     order_item_name ( '' ),
     order_price     ( 'AU$508.72' ),
     order_quantity  ( 1 ),
-  ),
-);
-
-equipment(
-  equipment_date( '2024-01-13' ),
-  equipment_icon( 'https://ae01.alicdn.com/kf/Hb4214d8fb356492fa77b565e8e230dbfJ/UNI-T-UTi260B-Infrared-Thermal-Imager-256-x192-Industrial-Handheld-Testing-Thermometer-For-Repaire-Floor-Heating.jpg_.webp' ),
-  equipment_item(
-    manufacturer_link (
-      link_href       ( 'https://thermal.uni-trend.com/product/uti260b/' ),
-      link_text       ( 'UNI-T UTi260B Thermal Imager' ),
-    ),
-    manufacturer_name ( 'UNI-T' ),
-    model_name        ( 'UTi260B' ),
-    EquipmentFeature::THERMAL_IMAGER,
-    EquipmentAttribute::HAND_TOOL,
-    EquipmentAttribute::HEART,
-    EquipmentConnectivity::USB,
-  ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'UNI-T' ),
-    model_name        ( 'UTi260B' ),
-    equipment_type    ( 'Thermal Imager' ),
-    category          ( 'Thermal Imager' ),
-    category          ( 'Camera' ),
-    category          ( 'Hand Tool' ),
-    category          ( 'USB' ),
-    manufacturer_link (
-      link_href       ( 'https://thermal.uni-trend.com/product/uti260b/' ),
-      link_text       ( 'UNI-T UTi260B Thermal Imager' ),
-    ),
-  ),
-  */
-  sixsigma_url  ( 'https://www.jj5.net/wiki/UNI-T_UTi260B' ),
-  see_also      ( 'NOYAFA NF-521 Thermal Imager' ),
-  search_url    ( 'https://www.amazon.com/s?k=UNI-T+UTi260B+Thermal+Imager&s=price-asc-rank' ),
-  search_url    ( 'https://www.amazon.com.au/s?k=UNI-T+UTi260B+Thermal+Imager&s=price-asc-rank' ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=UNI-T+UTi260B+Thermal+Imager' ),
-  affiliate_link(
-    equipment_url ( 'https://www.ebay.com/itm/284152669853?hash=item4228d1a69d%3Ag%3AFugAAOSwg5pjfZuL&amdata=enc%3AAQAIAAAA8FzpyWZLyx0uWTv5OsgMb4GaqlptRf29cM%2B6WO%2Fk71WFJmKbLIyRG19d9Uhvo15Dym1FluhzmNOPfiNvr6sJYFicqUFiqCqBufsDMlCTz5mmpT6WBl%2Bzs%2BvnCrdgk3qiIX4n3ZLw%2Bsm%2FrHb%2FbZikETAE%2BuyV7OD%2B8f1opWKNYnzbVGLKRxYDtYHhfjtvUCwF7%2FpuhCRYgg4l15vmnXy1I%2FmQKYq4BhKeV%2B6VTdWzkLu%2F9VbYXhofLoojnnpRL6zuATlH%2BHJ%2BcQPVelb9KR5dIU%2BtlzRf6mM5uTwI2I4ohBTQX4PNZb3fiMLcqrgUW0jE%2BQ%3D%3D%7Ctkp%3ABk9SR57auZGgYw&LH_ItemCondition=1000' ),
-    affiliate_url ( 'https://ebay.us/BHLIGV' ),
-    listing_name  ( 'UNI-T UTi260B Industrial Infrared Temperature Imaging Camera Thermal Imager ✦Kd' ),
-    item_options  ( 'MPN: UTi260B' ),
-    item_price    ( 'US$244.59' ),
-  ),
-  affiliate_link(
-    equipment_url ( 'https://www.ebay.com/itm/285340559663?epid=27057619128&hash=item426f9f692f%3Ag%3AR6AAAOSwOM1jfZpv&amdata=enc%3AAQAIAAAA0FfIWIcT1A5n6IGgCcD3UmBbrGMi9sHMJU6Rw0y6hGNgzQEoAK4el5OPKSkfxmHohutYQAhoLhEtKwgOPeAjh6uK5W%2FUVQZ%2Fv%2B%2BDT12y9htLTxNuON9iqVsXMtR%2BW8C8xH8TT34M6Fp6ivO%2BczX2Sk%2FmDDFrM8emilbd7Ebf%2B0RBUzaJOaZ2nzna2vBtBptknw6EHDT5B%2FT4LMUeMnP0XgcZx1%2FIHIymh8w2MYbtR3OTwEyROZocjDlY%2F4nfZ87uRapp0qteiHnTrcE8e4JLty4%3D%7Ctkp%3ABk9SR57auZGgYw&LH_ItemCondition=1000' ),
-    affiliate_url ( 'https://ebay.us/Q2V1Oy' ),
-    listing_name  ( 'UNI-T UTI260B UTi260A Thermal Imager Resolution 256 x 192 Infrared Camera ✦Kd' ),
-    item_options  ( 'MPN: UTi260B' ),
-    item_price    ( 'US$244.59' ),
-  ),
-  affiliate_link(
-    equipment_url ( 'https://www.ebay.com/itm/314911077994?hash=item495229b66a%3Ag%3AMowAAOSwLOJkj-0Q&amdata=enc%3AAQAIAAAA8EBTVDWLE19BGgZEk2MyePgDa2V52IFnXEJptfwFgCZmJsgZfPk%2FidZ1jBP0NWPuOGJFi142ZktgxDEIm3edhfCqRqRP52XkwSqc8kMBpb1znhsb0oqnOJ4J0sZqKxP1thUgrYoz6FDEWq7hd9bvrzaUjeH3iLXURNCNGj5TbbvXIcpmjRFqQgWAZ6XiwQ2TidGyJiOMGx0pNj%2FD2Ns7Wa3TX9%2B8qA2aPt%2BTu2QOKPa32kYd%2BWf2KpEOQMeHy%2FUR8DaOo5whDj2qUavB9ar%2FPsFiF7aL2hG06bKgd2PbcHL7uUyk%2BLo6nlkYGhK6s%2FSbuQ%3D%3D%7Ctkp%3ABk9SR57auZGgYw&LH_ItemCondition=1000' ),
-    affiliate_url ( 'https://ebay.us/3Asr2a' ),
-    listing_name  ( 'UNI-T UTI260B UTi260A Thermal Imager Resolution 256 x 192 Infrared Camera✦' ),
-    item_options  ( 'Model: UTi260B' ),
-    item_price    ( 'US$245.90' ),
-  ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=UNI-T+UTi260B+Thermal+Imager' ),
-  affiliate_link(
-    equipment_url ( 'https://www.ebay.com.au/itm/385057758563?hash=item59a73b1d63%3Ag%3A4g0AAOSwn5ti9X0X&amdata=enc%3AAQAIAAAA8Mu10acbE9vD4wZyFV9WBL7RZgV4tn9135wWFwwJo36iPyxn49AkVCVhO02x%2FzsQRM1SuV8zucrIe98d%2FySRAutgWpbAcK7esOAR7vjVTFzL1SzS7vYA7gASRAwQqNAunpFTtdIxy50jt%2BlmrkfmsEuhIOOTz5XjEi4fDkIiUKa5q5vOnMIIKe4X846fmoClP8O%2BFxza5JKzZdnkwkAXcx6HiZEyuInWVP0aXNXFiZKTSlU%2BTnxeJ3WaZO2vHBZNNvtmqa8dfDkqUGUVBVpztOb7O6oRCXdyVMj6LgLZFHEqR7O%2Bhjm4ZXkEuGwc1Oh7zA%3D%3D%7Ctkp%3ABk9SR7Toz5GgYw&LH_ItemCondition=1000' ),
-    affiliate_url ( 'https://ebay.us/fnXSak' ),
-    listing_name  ( 'UNI-T UTi85A UTi260B Industrial Infrared Thermal Imager Temperature Camera' ),
-    item_options  ( 'Product: UTi260B' ),
-    item_price    ( 'AU$528.99' ),
-  ),
-  affiliate_link(
-    equipment_url ( 'https://www.ebay.com.au/itm/196181056764?hash=item2dad4d5cfc%3Ag%3Aw9YAAOSwNsxlnms9&amdata=enc%3AAQAIAAAA8Kww%2F%2F%2Ft282kSpNKb8CZ2edHDTYg9uEihZC3Yz0AeSATbw1quAg18CGIC%2FiIRFIMvGMKa3qx6i8l5ML%2F7fqjPEXiObiwYBefAPXIhKUKo1KibxY3C6EwzdsXw75dNoilVznHK%2FZpmU6Jvrt%2BFGbYUr7DNbasaYJ5POIfZNtOt32b86UQTlf0BdodXJup0uZDYl7CeDHPK7ACAQTY35ZnZPWEbeeURJ0ftFSCzj9yC7hoROchyrPXgooIuTMCYsbh9noOM8QBc4V2sFPFYFhD7simSvxxNvuf3rPW2znA%2BYCSBRyYWInOGFdaoqbyu8%2B4Wg%3D%3D%7Ctkp%3ABk9SR7Toz5GgYw&LH_ItemCondition=1000' ),
-    affiliate_url ( 'https://ebay.us/bYcZOD' ),
-    listing_name  ( 'UNI-T UTi260B Industrial Infrared Thermal Imager Temperature Imaging Camera AU' ),
-    item_price    ( 'AU$399.99' ),
-  ),
-  affiliate_link(
-    equipment_url ( 'https://www.ebay.com.au/itm/285034536643?hash=item425d61dec3%3Ag%3AyOgAAOSwESBjbWvK&amdata=enc%3AAQAIAAAA8HD%2BAJm2NBSziPNaX%2B%2BUCf2hfz6zR5r%2B9EsI%2BDkMO9nNVkEwwvFsZsJHyQ6U7D1ZpXWybPV6jsglSGbOSarxwdQiPedp%2Fvr%2Fs9iJGfmXQ%2BGMkjZdXOUNdL5eszUrvuR6YoQzV4FHw4H77vbvx0tM%2Bsf1hK2wcUBvVFaEC5qk1gyK%2FF5OcmY1WHJf3CFZ5u%2BxP7e2MkIFtqTaozdKgIImhN8M13ONt%2BjaPiYK5HmtHS%2BjSoMwuDwmVY6w9YrARmJ1CBecyqZowBWKgsDOkhY8Uc5KiQECwjTiP5HdiGTLMaJFgHm2TqRn3qEZBHKzpRfiUA%3D%3D%7Ctkp%3ABk9SR7Toz5GgYw&LH_ItemCondition=1000' ),
-    affiliate_url ( 'https://ebay.us/1aaKTf' ),
-    listing_name  ( 'New UNI-T UTi260B Industrial Infrared Thermal Imager Temperature Imaging Camera' ),
-    item_price    ( 'AU$419.89' ),
-  ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-UNI-T-UTi260B-Thermal-Imager.html' ),
-  affiliate_link(
-    equipment_url ( 'https://www.aliexpress.com/item/1005006263500211.html?spm=a2g0o.productlist.main.1.15aa2a21w9syaY&algo_pvid=c9e193c7-4d17-41c2-9c73-a7d57c48056e&aem_p4p_detail=2024011220374313704933237288100007119505&algo_exp_id=c9e193c7-4d17-41c2-9c73-a7d57c48056e-0&pdp_npi=4%40dis%21AUD%21769.39%21538.57%21%21%21508.79%21356.15%21%402103241117051206637755424ea45a%2112000036688783742%21sea%21AU%214385823938%21&curPageLogUid=w01sVNxFfuZ1&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=2024011220374313704933237288100007119505_1' ),
-    affiliate_url ( 'https://s.click.aliexpress.com/e/_DeLmYuz' ),
-    listing_name  ( 'UNI-T UTi260B Infrared Thermal Imager 256 x 192 Thermographic PCB Circuit Electrical Maintenance Heat Image Thermal Camera' ),
-    item_options  ( 'Color: UTI260B' ),
-    item_price    ( 'AU$538.57' ),
-  ),
-  affiliate_link(
-    equipment_url ( 'https://www.aliexpress.com/item/1005002252952789.html?spm=a2g0o.productlist.main.3.15aa2a21w9syaY&algo_pvid=c9e193c7-4d17-41c2-9c73-a7d57c48056e&aem_p4p_detail=2024011220374313704933237288100007119505&algo_exp_id=c9e193c7-4d17-41c2-9c73-a7d57c48056e-1&pdp_npi=4%40dis%21AUD%21653.47%21457.43%21%21%21432.13%21302.49%21%402103241117051206637755424ea45a%2112000025467448046%21sea%21AU%214385823938%21&curPageLogUid=VnOHP4DzA3UA&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=2024011220374313704933237288100007119505_2' ),
-    affiliate_url ( 'https://s.click.aliexpress.com/e/_Dlu1gnj' ),
-    listing_name  ( 'UNI-T Infrared Thermal Imager UTi260B Industrial PC Software Analysis PCB Circuit Floor Heating Detection Thermal Camera' ),
-    item_options  ( 'Color: UTI260B' ),
-    item_price    ( 'AU$457.43' ),
-  ),
-  affiliate_link(
-    equipment_url ( 'https://www.aliexpress.com/item/1005003093700638.html?spm=a2g0o.productlist.main.5.15aa2a21w9syaY&algo_pvid=c9e193c7-4d17-41c2-9c73-a7d57c48056e&aem_p4p_detail=2024011220374313704933237288100007119505&algo_exp_id=c9e193c7-4d17-41c2-9c73-a7d57c48056e-2&pdp_npi=4%40dis%21AUD%21653.47%21457.43%21%21%21432.13%21302.49%21%402103241117051206637755424ea45a%2112000028583605656%21sea%21AU%214385823938%21&curPageLogUid=yf8CdfQ4om5V&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=2024011220374313704933237288100007119505_3' ),
-    affiliate_url ( 'https://s.click.aliexpress.com/e/_DmT6IjL' ),
-    listing_name  ( 'UNI-T UTi260B Infrared Thermal Imager PCB Circuit Floor Wall Heating Pipe Industrial Detection Thermal Imaging Camera' ),
-    item_options  ( 'Color: UTi260B(with case)' ),
-    item_price    ( 'AU$457.43' ),
-  ),
-  purchase(
-    equipment_url   ( 'https://www.aliexpress.com/item/1005005164391835.html?spm=a2g0o.order_detail.order_detail_item.3.79b4f19c2pQrPh' ),
-    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.1.5d671802l1ULs2&orderId=8173168357953938' ),
-    order_id        ( '8173168357953938' ),
-    order_date      ( 'Aug 13, 2023' ),
-    order_item_name ( '' ),
-    order_options   ( 'Color: UTi260BwithMacrolens' ),
-    order_price     ( 'AU$394.02' ),
-    order_quantity  ( 1 ),
-    order_gst       ( 'AU$39.40' ),
   ),
 );
 
@@ -1438,20 +1716,13 @@ equipment(
     EquipmentConnectivity::RF,
     EquipmentConnectivity::SD_CARD,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Leadstar' ),
-    equipment_type    ( '12" LCD TV' ),
-    category          ( 'Television' ),
-    category          ( 'Display' ),
-    category          ( 'HDMI' ),
-    category          ( 'LCD' ),
-    category          ( 'Remote Control' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Leadstar_TV' ),
   see_also      ( 'UPERFECT 15.6" HDMI LCD' ),
   search_url    ( 'https://www.amazon.com/s?k=Leadstar+12%22+LCD+TV&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Leadstar+12%22+LCD+TV&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Leadstar+12%22+LCD+TV' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Leadstar+12%22+LCD+TV' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Leadstar-12%22-LCD-TV.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Portable-Kitchen-Built-Television-Multimedia-LEADSTAR/dp/B07H91QPDN/ref=sr_1_1?dib=eyJ2IjoiMSJ9.M5mVSzaDgLvtSwaiHLd3csQs4W81jd6vfSFqHW2Cnf8.Ll2WHj9FMFOnhXr27RB0Uxg6dpcvL5R0r3NT76pInTw&dib_tag=se&keywords=Leadstar+12%22+LCD+TV&qid=1705124633&sr=8-1' ),
     affiliate_url ( 'https://amzn.to/41VhEJI' ),
@@ -1459,7 +1730,6 @@ equipment(
     item_price    ( 'US$139.89' ),
     item_shipping ( 'US$32.56' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Leadstar+12%22+LCD+TV&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Portable-Kitchen-Built-Television-Multimedia-LEADSTAR/dp/B07H91QPDN/ref=sr_1_1?dib=eyJ2IjoiMSJ9.M5mVSzaDgLvtSwaiHLd3csQs4W81jd6vfSFqHW2Cnf8.Ll2WHj9FMFOnhXr27RB0Uxg6dpcvL5R0r3NT76pInTw&dib_tag=se&keywords=Leadstar%2B12%22%2BLCD%2BTV&qid=1705124633&sr=8-1&th=1' ),
     affiliate_url ( 'https://amzn.to/48Thg0E' ),
@@ -1467,7 +1737,6 @@ equipment(
     item_options  ( 'Colour: 12inch' ),
     item_price    ( 'AU$410.86' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Leadstar+12%22+LCD+TV' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/186234098931?hash=item2b5c6ad4f3%3Ag%3AQhQAAOSw55Vlk%7EBA&amdata=enc%3AAQAIAAAA0EzWendnuTqRK41oW25y32KSOiqTnHDEb2PNDMb4rtBqprAXuVKqUjUsmO4kljxStqbh68ZexJK%2FQn4AlJklDTIgdvZvK1E1%2Bxo9sa%2FRUDhjFgH3rC6T94V7giq5099ctog5We%2B57SU6v%2FleqAX3ZVCw2P4GwPEXx0ViZf3Cq9GxtCf52iLIyWPr76X5lRDYoxNqwTc7Efoavopm9qmVb3wApXDSjjMDboTojvJwoivL4cQbIlDuMM0JFtbardrl1HZ3%2BjRUZT9K2VgEsToiIzA%3D%7Ctkp%3ABk9SR4r05ZWgYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/49lQ5P' ),
@@ -1486,7 +1755,6 @@ equipment(
     listing_name  ( 'LEADSTAR Portable 12 1080P TFT LED HD Digital Analog Color TV Televisi ZZ1' ),
     item_price    ( 'US$110.59' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Leadstar+12%22+LCD+TV' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/186234098931?hash=item2b5c6ad4f3%3Ag%3AQhQAAOSw55Vlk%7EBA&amdata=enc%3AAQAIAAAA8KUysgrNHKLRY4rDrahVdq0r94A376KZ1J9mPa1VCPP2LWF2%2BLk57iFlEW8Tv40IL3ETrqhz00NMFMqrHNmtsiGEc4JsDGKFwnpNUvBP7HObGevq%2B47aVTEFdf8bt%2BdklqMPrCYg1sKw3TC%2BifskQyM60xGFk0K%2ForhwvvNucl7LFrx6%2F8xDchsNVJ9zUMWaFICaXtbZwazy3dwQSKUnigAmZ7bqZzkx6DbmLt18IzTdB8HUq6HiE%2FEFYXBIIGsoQskxJgFBbQzHEOukSAfjfCbdKzxlvRJNUb8KarTE0zbExyYp4FMysPK9ICddYBKnAQ%3D%3D%7Ctkp%3ABk9SR77k-JWgYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/KmGys9' ),
@@ -1505,7 +1773,6 @@ equipment(
     listing_name  ( 'LEADSTAR 12 1080P TFT LED HD Digital Analog Color TV Television AU Pl HB0' ),
     item_price    ( 'AU$178.85' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Leadstar-12%22-LCD-TV.html' ),
   purchase(
     equipment_url   ( 'https://www.ebay.com.au/itm/373845017327?var=642874174994' ),
     order_url       ( 'https://order.ebay.com.au/ord/show?orderId=02-08673-26005#/' ),
@@ -1531,22 +1798,13 @@ equipment(
     model_name        ( '15.6"' ),
     EquipmentFeature::HDMI_LCD,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'UPERFECT' ),
-    equipment_type    ( '15.6" HDMI LCD' ),
-    category          ( 'Display' ),
-    category          ( 'HDMI' ),
-    category          ( 'LCD' ),
-    manufacturer_link (
-      link_href       ( 'https://www.uperfectmonitor.com/products/15-6-inch-uhd-4k-portable-monitor-uperfect' ),
-      link_text       ( 'UPERFECT 15.6" HDMI LCD' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/UPERFECT_156J08' ),
   see_also      ( 'Leadstar 12" LCD TV' ),
   search_url    ( 'https://www.amazon.com/s?k=UPERFECT+15.6%22+HDMI+LCD&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=UPERFECT+15.6%22+HDMI+LCD&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=UPERFECT+15.6%22+HDMI+LCD' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=UPERFECT+15.6%22+HDMI+LCD' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-UPERFECT-15.6%22-HDMI-LCD.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Portable-Monitor-Upgraded-1920X1080-Computer/dp/B07TWGBG3P/ref=sr_1_1?dib=eyJ2IjoiMSJ9.TpSQzyX5LnjcyoX_A3SYAlsR9TPm-gnN5SVjVaidId41aC6W2W5JJBQZrFtKiuZleB8AOkjtpY5Eer4_xfQShffFQJ9byaBQWqk1SnIYRp4xOXp6UI9hTVoHed8WY79NCmKm4sEWyTe3bdWYd-p9cg.hhmlUr9DhSUUT_KtLfkNRfOysh8PHaLa_rPHP4gJbOw&dib_tag=se&keywords=UPERFECT+15.6%22+HDMI+LCD&qid=1705125286&sr=8-1' ),
     affiliate_url ( 'https://amzn.to/3Hjoxve' ),
@@ -1568,8 +1826,6 @@ equipment(
     item_price    ( 'US$169.98' ),
     item_shipping ( 'US$27.37' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=UPERFECT+15.6%22+HDMI+LCD&s=price-asc-rank' ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=UPERFECT+15.6%22+HDMI+LCD' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/314295506350?hash=item492d78d5ae%3Ag%3Aw6gAAOSwMXJiZ2fj&amdata=enc%3AAQAIAAAA0KEewA9SwVw88Jf5dYcMPhYSuPZ8FGHRTOZh5wBFzR%2BekzNSsmBH1ozuBRy9yWYceacp%2B1GrUj69f5bHuuGMxakoOOz%2FvxYzJ9iHjaBlYPpBGkYyZp5mCUL6ZdNafsQ%2FP%2FojaacEM6vQsIGXvbvJWFtNYO8RaCm1En7zYBVq1aSzXkbJo4AE%2Bv04XuvVKiFNw%2F%2FL%2FQLbza%2FHFbVsSoAr3mBahEJ3aTSx1SLTKsbiuaKpjYKVGoc7EeNPmLaXpW96X2WtSx4iOyJHzKDsackBE4s%3D%7Ctkp%3ABk9SR5KDuJagYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/aNvPAB' ),
@@ -1590,7 +1846,6 @@ equipment(
     listing_name  ( 'UPERFECT 15.6" IPS Portable Monitor LCD FHD 1080P HDMI USB Type-C Display Screen' ),
     item_price    ( 'US$99.90' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=UPERFECT+15.6%22+HDMI+LCD' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/393471474506?hash=item5b9cba3b4a%3Ag%3A0W0AAOSw1BlhXCnh&amdata=enc%3AAQAIAAAA8LKv7kkPlYtXcwAINFcBZcqV%2BSOWTmoPXLaN6Db3bZGKtLPREfyGWo6pQ5Ty%2FYY8pU6e9nFPcrzOlCU6s7ItJgiH4MCJMSRHZ6xRYf6SpHb3TVjUTjkrL6V7bRDY9ixB1FsLp2ngK%2FSHqnNKophOKsIdhJAak%2BK51Q6NzHkaqPFMQIiRjCR1EFBWr58W2n3d7vWREfgSXlotrKhedKIibYuwIk%2FOvasFoH9qESb8niDQjNUAnzCKoeZ015owsi7FzjgswW7QQ2S1Sly7qBaur4eeM75e4QCJzYD%2BunRlYqpr1rhJx9h%2BHkC76AodBrSBvQ%3D%3D%7Ctkp%3ABk9SR6S3y5agYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/CPvwRy' ),
@@ -1609,7 +1864,6 @@ equipment(
     listing_name  ( 'UPERFECT 15.6" 1080P Portable Monitor IPS LCD Monitor HDMI Type-C Gaming Screen' ),
     item_price    ( 'AU$149.99' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-UPERFECT-15.6%22-HDMI-LCD.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/4000829800118.html?spm=a2g0o.productlist.main.9.70ce4aeaqIlZRN&algo_pvid=e1b050b0-b912-4ddc-b079-fb8cfb19f02f&algo_exp_id=e1b050b0-b912-4ddc-b079-fb8cfb19f02f-4&pdp_npi=4%40dis%21AUD%21540.37%21329.63%21%21%21357.34%21217.98%21%402103246c17051258238745792e98ea%2112000022901961767%21sea%21AU%214385823938%21&curPageLogUid=yXPFF4RA87aX&utparam-url=scene%3Asearch%7Cquery_from%3A' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DDUL3BX' ),
@@ -1660,26 +1914,13 @@ equipment(
     EquipmentConnectivity::HDMI,
     EquipmentConnectivity::USB,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'TOMLOV' ),
-    model_name        ( 'DM602 Pro' ),
-    equipment_type    ( 'Digital Microscope' ),
-    category          ( 'Microscope' ),
-    category          ( 'Bench Equipment' ),
-    category          ( 'LCD' ),
-    category          ( 'HDMI' ),
-    category          ( 'USB' ),
-    category          ( 'Remote Control' ),
-    manufacturer_link (
-      link_href       ( 'https://tomlov.com/products/tomlov-dm602-pro-10-1-inch-hdmi-digital-microscope' ),
-      link_text       ( 'TOMLOV DM602 Pro Digital Microscope' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/TOMLOV_DM602_Pro' ),
   see_also      ( 'Yizhan Digital Microscope' ),
   search_url    ( 'https://www.amazon.com/s?k=TOMLOV+DM602+Pro+Digital+Microscope&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=TOMLOV+DM602+Pro+Digital+Microscope&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=TOMLOV+DM602+Pro+Digital+Microscope' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=TOMLOV+DM602+Pro+Digital+Microscope' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-TOMLOV-DM602-Pro-Digital-Microscope.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/TOMLOV-DM602-Pro-Microscope-Electronics/dp/B0C2CY4FND/ref=psdc_2742273011_t1_B0CBLT82BK' ),
     affiliate_url ( 'https://amzn.to/48yGl1l' ),
@@ -1687,8 +1928,6 @@ equipment(
     item_price    ( 'US$319.99' ),
     item_shipping ( 'US$32.56' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=TOMLOV+DM602+Pro+Digital+Microscope&s=price-asc-rank' ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=TOMLOV+DM602+Pro+Digital+Microscope' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/145452565968?hash=item21dda605d0%3Ag%3AjnkAAOSw0Y9kdxpC&amdata=enc%3AAQAIAAABABC0tPQLXj9lKr%2FnImDYxNgLZCPR2nOGq48j2LPA6EyzCll1thlzDzTPwvJg8nnA81Fwf%2B4YTb6%2FLsCkEyHJJ3V3xeI5JKutPPR9KCoykbF%2FSlNffCqkxHYRmjRixnGRrupo%2FtERzC5OtW2PU4S9xbw8W2aFQBazFu9v7jrUiKMMkTFiINK266eYqa%2B5%2B4GNYeLtQI%2BG7YgH7ecnLORaiJRdpYxdv2PaiQjpaAVJtO6hl6%2Bul8xGsDjzXihV42OBTAIxeLYMA0hp1MDmlDt%2FUKfDCSSkxwFJUI643zMhZIk2lvBJ%2F6DnbYGL%2FlLUcbB7YBcRZm0ignSu6QJOOrTgy8U%3D%7Ctkp%3ABk9SR-j4qf-gYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/nuEYoH' ),
@@ -1707,7 +1946,6 @@ equipment(
     listing_name  ( 'TOMLOV 10.1" 2000x Digital Microscope Flexy Stand Soldering work bench +44 LED' ),
     item_price    ( 'US$263.12' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=TOMLOV+DM602+Pro+Digital+Microscope' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/256370820480?hash=item3bb0e44580%3Ag%3AcIMAAOSwAyllcnJ5&amdata=enc%3AAQAIAAABABgy1mNIDEp%2BX1tHSnkvB9XNaVivqtHFjz9%2FaAeM%2BHNlR6VroM1woiYqyqjPe6TZCMxIhZ42Rk2JOr4malk1Fp3XaxyReDl%2F6oNRmEjZfiaLWLHSMl3bNSrI73jw%2BawimcIwFbPpg40DgsSN8JJoQY9hbzdWA9h5GDnuxK%2FAUpgQ0E0ucpaD556TEsgzknAJqxyGOJn7plnEI7XczLbc2tEtE%2BQKjBairWi3fnhr5DnxByx4xZuwFDiJDVrPxaV15zzjeJAIehXT8mGPjwvtM5aaiGRtmP9F98G6wYjZ%2FaGGMBOb7rnDVcVyl9JB5AymM8US5gBAnM9%2FTymHzbajwJs%3D%7Ctkp%3ABk9SR4DJvv-gYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/ZjkFc5' ),
@@ -1726,7 +1964,6 @@ equipment(
     listing_name  ( 'TOMLOV DM602 Pro Digital Microscope Pro Boom Arm Stand Soldering Microscope 64G' ),
     item_price    ( 'AU$400.99' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-TOMLOV-DM602-Pro-Digital-Microscope.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006068578859.html?spm=a2g0o.productlist.main.21.1a14698e3EFN3b&algo_pvid=7167d983-cc64-4649-b180-67027609c677&algo_exp_id=7167d983-cc64-4649-b180-67027609c677-10&pdp_npi=4%40dis%21AUD%21490.39%21255.00%21%21%21324.29%21168.63%21%402101e5f117052358281178589e183b%2112000035582361068%21sea%21AU%214385823938%21&curPageLogUid=E29G6whC69Hk&utparam-url=scene%3Asearch%7Cquery_from%3A' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DET0BDB' ),
@@ -1765,31 +2002,26 @@ equipment(
     EquipmentFeature::AMMETER,
     EquipmentConnectivity::USB,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Riden' ),
-    model_name        ( 'RD6006' ),
-    equipment_type    ( 'Bench Power Supply' ),
-    category          ( 'Power Supply' ),
-    category          ( 'Bench Equipment' ),
-    category          ( 'Meter' ),
-    category          ( 'USB' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/RIDEN_RD6006' ),
-  see_also      ( 'Tenma 72-10505 Bench Power Supply' ),
-  search_url    ( 'https://www.amazon.com/s?k=Riden+RD6006+Bench+Power+Supply&s=price-asc-rank' ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Riden+RD6006+Bench+Power+Supply&s=price-asc-rank' ),
   warning         ( 'Make sure you get a shell and power-supply to go with the unit' ),
   warning         ( 'You might like to investigate other options: RD6006-W, RD6006P, and RD6006P-W; also: RD6018, RD6024, RK6006' ),
   warning         ( 'I ordered mine with the S12D case' ),
+  see_also      ( 'Tenma 72-10505 Bench Power Supply' ),
+  search_url    ( 'https://www.amazon.com/s?k=Riden+RD6006+Bench+Power+Supply&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Riden+RD6006+Bench+Power+Supply&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Riden+RD6006+Bench+Power+Supply' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Riden+RD6006+Bench+Power+Supply' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Riden-RD6006-Bench-Power-Supply.html' ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2025/01/05/ferromagnetic-substance-detector-project-13-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Ferromagnetic Substance Detector | Project 13/20 | Maxitronix 20in1 | In The Lab With Jay Jay' ),
+  ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/RD-RD6006W-Power-Supply-assembled/dp/B096548QH5/ref=sr_1_14?dib=eyJ2IjoiMSJ9.M3ZzSvvRBHAFaAXC0f6dS3isgvmIbjaCDX-UZ3NYtnOVokq5kAqg2k2dgP2qJwWwgoxpvmjosgWiOWXn3xzqxNr5F76QBOW54_6U6PQCR47beq9C6md4BrlTMkA8dwciiXZN_Nk50Yr2-UPA58kRQA.byd7reRahNEJ0HmV0pQ2kmFmzUmfcPM30lT4p50UIOg&dib_tag=se&keywords=Riden%2BRD6006%2BBench%2BPower%2BSupply&qid=1705236071&sr=8-14&th=1' ),
     affiliate_url ( 'https://amzn.to/41ZQW2X' ),
     listing_name  ( 'RD RD6006W 60V 6A DC DC Step Down Power Supply Whole Set not assembled (RD6006W+S400 case+ 400W PSU)' ),
     item_price    ( 'AU$396.02' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Riden+RD6006+Bench+Power+Supply' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/386518093292?hash=item59fe460dec%3Ag%3AZVsAAOSwLeZljZyt&amdata=enc%3AAQAIAAAA0BdfUslTqk4ezJvgkPNtcWZfs4J149QVWcp7HEKHz6H53ufkmtEG1570%2FkpgAwDTB0Nux2BnlUtMc93T6PtcWI41GGnvJs9Pru%2FnHzdlIVpCgMTwiQXjuGMH4cPwbMKefYXmq%2Ff70XEvuH3Rkz%2Bd2y96D0OGwH%2BG3j8%2FN0BbR4f1fRrn9KgcE5pBgBQux9LWxE6f3AxutN7v%2Fb7e1h0rt3zFE830%2FwuHFbyQLTRh%2FE3240pQKDOp%2B9khJWKt8bHhS7gYZlNsmAHUZ96O0xWi%2F5o%3D%7Ctkp%3ABk9SR9SW-_-gYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/IawU3F' ),
@@ -1815,7 +2047,6 @@ equipment(
     item_price    ( 'US$188.13' ),
     item_shipping ( 'US$3.84' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Riden+RD6006+Bench+Power+Supply' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/386518093292?hash=item59fe460dec%3Ag%3AZVsAAOSwLeZljZyt&amdata=enc%3AAQAIAAAA8IXG%2FUROHYiriya8DIsSV7uy8JjgCSf8NI4jZpkSSafl5rnWL7hioEL1K4JYetUp2ufYaiWYM%2FxQlVxI67LDZ8RUEvGHSgXoOgWGuSM3AQiKYZeJA4WHMogSI9sizEwMFngaEmCP%2F%2B%2FbWnCp%2FxyBq%2Fksskniejvt6lF%2Fqk0kk5oR7SJbJtoOf8GzWJGSmoTKAZIho38v3Ys00cXBEZgoD7cm6tcmQiTC5JTEm4AEr1GgPy6GtNkpSMBlIxmllIiAGIc41rbJVMM95Ouv5CvA7t4maaJkNlFXZ8HxRcavIzlFYqLQ2%2B6eEyyRJg3ZuJUJVw%3D%3D%7Ctkp%3ABk9SR7zTyIChYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/JfGkpa' ),
@@ -1824,7 +2055,6 @@ equipment(
     // 2024-01-14 jj5 - shipping AU$105.91 + import charges AU$45.24
     item_shipping ( 'AU$151.15' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Riden-RD6006-Bench-Power-Supply.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005004766124000.html?spm=a2g0o.productlist.main.11.5f55473bq1poyr&algo_pvid=126fa86b-b51f-426b-a8fb-6fa1df28c02a&aem_p4p_detail=2024011404562858026714163080015883576&algo_exp_id=126fa86b-b51f-426b-a8fb-6fa1df28c02a-5&pdp_npi=4%40dis%21AUD%21353.92%21283.13%21%21%21234.04%21187.23%21%402101fb1017052369879317183ea915%2112000030391597281%21sea%21AU%214385823938%21&curPageLogUid=LxRKQ6242Uo6&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=2024011404562858026714163080015883576_6' ),
     // 2024-01-15 jj5 - affiliate URL unavailable...
@@ -1887,25 +2117,13 @@ equipment(
     EquipmentFeature::VOLTMETER,
     EquipmentFeature::AMMETER,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Tenma' ),
-    model_name        ( '72-10505' ),
-    equipment_type    ( 'Bench Power Supply' ),
-    category          ( 'Power Supply' ),
-    category          ( 'Bench Equipment' ),
-    category          ( 'Meter' ),
-    manufacturer_link (
-      link_href       ( 'https://au.element14.com/webapp/wcs/stores/servlet/NonAjaxOrderDetail?invoiceExists=false&catalogId=10001&orderId=AAAcWcAADAANahBAAC&storeId=10184&langId=43' ),
-      link_text       ( 'Tenma 72-10505 Bench Power Supply @ element14' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/TENMA_72-10505' ),
   see_also      ( 'Riden RD6006 Bench Power Supply' ),
   search_url    ( 'https://www.amazon.com/s?k=Tenma+72-10505+Bench+Power+Supply&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Tenma+72-10505+Bench+Power+Supply&s=price-asc-rank' ),
   search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Tenma+72-10505+Bench+Power+Supply' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Tenma+72-10505+Bench+Power+Supply' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Tenma-72-10505-Bench-Power-Supply.html' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/364346220290?amdata=enc%3AAQAIAAAAkMs2R1Mtpdxrl0GblEYlvEBWQWOBbkdnoO7l03WG6Eic39U5JSkjuLVwuyr5yo3AE5aVgkrhMVd1FMRyH1x0IQRsBJJUR%2By5HNT8%2By4La6TXXw%2BMk5miqcpbvnWws%2BANfzxC1K3A%2F%2F0GOQiyonRQARyf56ewOHJ%2BAe0V2VbtldBmsGCihpY1JKQuFmlfGGjdtg%3D%3D&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339019639&customid=&toolid=20012&mkevt=1' ),
     affiliate_url ( 'https://ebay.us/AaLZfm' ),
@@ -1913,7 +2131,6 @@ equipment(
     item_price    ( 'AU$344.87' ),
     item_shipping ( 'AU$144.56' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Tenma+72-10505+Bench+Power+Supply' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/364346220290?amdata=enc%3AAQAIAAAAkMs2R1Mtpdxrl0GblEYlvEBWQWOBbkdnoO7l03WG6Eic39U5JSkjuLVwuyr5yo3AE5aVgkrhMVd1FMRyH1x0IQRsBJJUR%2By5HNT8%2By4La6TXXw%2BMk5miqcpbvnWws%2BANfzxC1K3A%2F%2F0GOQiyonRQARyf56ewOHJ%2BAe0V2VbtldBmsGCihpY1JKQuFmlfGGjdtg%3D%3D&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339019639&customid=&toolid=20012&mkevt=1' ),
     affiliate_url ( 'https://ebay.us/9P3AbQ' ),
@@ -1921,7 +2138,6 @@ equipment(
     item_price    ( 'US$210.04' ),
     item_shipping ( 'US$88.04' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Tenma-72-10505-Bench-Power-Supply.html' ),
   purchase(
     equipment_url   ( 'https://au.element14.com/tenma/72-10505/power-supply-3ch-30v-3a-adjustable/dp/225194901' ),
     order_url       ( 'https://au.element14.com/webapp/wcs/stores/servlet/NonAjaxOrderDetail?invoiceExists=false&catalogId=10001&orderId=AAAcWcAADAANahBAAC&storeId=10184&langId=43' ),
@@ -1950,22 +2166,13 @@ equipment(
     EquipmentFeature::FLATBED_SCANNER,
     EquipmentConnectivity::USB,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Epson' ),
-    model_name        ( 'Perfection V39' ),
-    equipment_type    ( 'Flatbed Scanner' ),
-    category          ( 'Scanner' ),
-    category          ( 'USB' ),
-    manufacturer_link (
-      link_href       ( 'https://epson.com/For-Home/Scanners/Photo-Scanners/Epson-Perfection-V39-Scanner/p/B11B232201' ),
-      link_text       ( 'Epson Perfection V39 Flatbed Scanner' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Epson_V39' ),
   warning       ( 'Consider the new model: Perfection V39 II' ),
   search_url    ( 'https://www.amazon.com/s?k=Epson+Perfection+V39+Flatbed+Scanner&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Epson+Perfection+V39+Flatbed+Scanner&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Epson+Perfection+V39+Flatbed+Scanner' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Epson+Perfection+V39+Flatbed+Scanner' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Epson-Perfection-V39-Flatbed-Scanner.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Epson-Perfection-V39-Document-resolution/dp/B00SSXQ7Q2/ref=sr_1_6?dib=eyJ2IjoiMSJ9.PKS7UW4VYaVJEW4hhjTEK1yxBVgm6VwnNz0EDfatHjmnYgyVbWMgp1OvzTc9dTKIFsfR8YpC2HG4fjMxbe6IYa3Pew1T4laTHxuvQskEqvk.BmLtQhP-FNy_lyZNLmDBM_6FGotosFHZTqXsbWGN12g&dib_tag=se&keywords=Epson%2BPerfection%2BV39%2BFlatbed%2BScanner&qid=1705241240&sr=8-6&th=1' ),
     affiliate_url ( 'https://amzn.to/3U0aj9P' ),
@@ -1974,7 +2181,6 @@ equipment(
     item_price    ( 'US$119.99' ),
     item_shipping ( 'US$32.85' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Epson+Perfection+V39+Flatbed+Scanner&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Epson-Perfection-Flatbed-Scanner-Warranty/dp/B098K6R4V5/ref=sr_1_10?dib=eyJ2IjoiMSJ9.IMudF3gdLoJXUQvSEDDwYPgn349ZQ5LbitsQNhYP76pH8BKZhFHaRTfr_Vh8nSszwKev-YMGMOfAEtKn6wcgGSyJMfsvn0wh_6lGHblm9blCt-rtnnh-v7_eiRnmGyuL-PLj48yXFxGsdstSTUDZOg.jQmTLfQobvqwSxNPt74PD-qnloTwhvDAJn7vpzzbgIw&dib_tag=se&keywords=Epson+Perfection+V39+Flatbed+Scanner&qid=1705241405&sr=8-10' ),
     affiliate_url ( 'https://amzn.to/4aT4p0r' ),
@@ -1982,7 +2188,6 @@ equipment(
     item_price    ( 'AU$175.00' ),
     item_shipping ( 'AU$14.95' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Epson+Perfection+V39+Flatbed+Scanner' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/204391218891?epid=220311812&hash=item2f96aa7ecb%3Ag%3AIVkAAOSw%7EU9kqq8y&amdata=enc%3AAQAIAAAA0OPGCRSesxUq6Bt4rDBz1pxTxoR1kPTkJqNdIokUZFezh6hU461%2BtauKL%2Bk%2Bb88m1y7k02jTD9WmINj5%2BzMEkWSbbOWn9KcAHNpOqvVV7xdq1oFZWteAqJ96x5%2FZ1VyRxf0nZT11rWB331pf%2BHIKpaJs3uT5I6FfXBcL7ou0LCwO7p1bLz%2Ba4DEpt4HRPBj2qvStw8xv3q8XLY4EV6P6WNAqLP6WQD%2BSN1CAbrxUn6DPrDhiTH8KK9cZqmbqMr2BNkBP7RXVYSWzOOXCpBfsyDE%3D%7Ctkp%3ABk9SR_apgIWhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/c1BvLv' ),
@@ -2004,7 +2209,6 @@ equipment(
     item_price    ( 'US$115.00' ),
     item_shipping ( 'US$77.28' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Epson+Perfection+V39+Flatbed+Scanner' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/362660392487?epid=1390124007&hash=item54703e6e27%3Ag%3AsAsAAOSw6wVlnFWu&amdata=enc%3AAQAIAAABAPqdfBIqPIZaCa4olcadYQ0DC5M%2BoShbz0k3YxpLXZr3QzMfP6nznZdQ9TTYObtWh7%2B2gq5maeD8EVrS%2BDF0Umcsjq7EWOWtMMDlj%2Bmne8OhIpv9tGSaNK0OKZAKYAdP3Nt5zA01kovXgOCKiIPYa4V92AqXnm8N3b%2FsK3aX3ykMds8imuzOtq3GhNqDmipL4bj7OCisCXyQOVRbhVAC%2FHTfLXBt1fP8q8%2B3n9YZJ1jHWNDyO6B7NXrpde5LyHH6QFBMw4SwdA6LyUar5JmgwfZUxNjXMGilQCeJaxzQLugeHXY%2B%2F%2BNbntkaGu8CkB%2BiVFAeFm24I8v5cBDSGiL6V8A%3D%7Ctkp%3ABk9SR-T6koWhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/glfCFd' ),
@@ -2018,7 +2222,6 @@ equipment(
     item_price    ( 'AU$300.16' ),
     item_shipping ( 'AU$14.95' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Epson-Perfection-V39-Flatbed-Scanner.html' ),
   purchase(
     equipment_url   ( 'https://www.ebay.com.au/itm/304114435870' ),
     order_url       ( 'https://order.ebay.com.au/ord/show?orderId=20-09093-25488#/' ),
@@ -2047,24 +2250,12 @@ equipment(
     EquipmentAttribute::HAND_TOOL,
     EquipmentAttribute::BENCH_EQUIPMENT,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Pro\'sKit' ),
-    model_name        ( 'SS-331H' ),
-    equipment_type    ( 'Desoldering Pump' ),
-    category          ( 'Desoldering Tool' ),
-    category          ( 'Hand Tool' ),
-    category          ( 'Bench Equipment' ),
-    manufacturer_link (
-      link_href       ( 'https://pro-skit.ru/image/catalog/instructions/manual_ss_331.pdf' ),
-      link_text       ( 'Pro\'sKit SS-331 LCD Desoldering Station (PDF)' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Pro%27sKit_SS-331H' ),
   search_url    ( 'https://www.amazon.com/s?k=Pro%27sKit+SS-331H+Desoldering+Pump&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Pro%27sKit+SS-331H+Desoldering+Pump&s=price-asc-rank' ),
   search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Pro%27sKit+SS-331H+Desoldering+Pump' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Pro%27sKit+SS-331H+Desoldering+Pump' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Pro%27sKit-SS-331H-Desoldering-Pump.html' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/295229038086?hash=item44bd059e06%3Ag%3AFg0AAOSweVVhzVFK&amdata=enc%3AAQAIAAAA0Lu7dtSubo9Tr%2FiEKKEFztv4GKdFSY3KLWg5h6P1Mp6zTM07E0gJ%2F3Kxhfubc3XgJMlgQZNUMUE9u2Pn8mxsRpMwmtVrHE%2Fo96ng6%2FOYZCme%2F%2BT4xm%2F98XKr9v6bEGnDmHn1NVbL31PCnt3uBqXrrEhOFNURRlbVPnIOgHSWyHiThxv%2FLBhjyKDHRzy3NDd9atGWkCPrlc488bqWhDqtNHNLsrUsE%2FS%2F3vtyYuB2dYy9aSELJGAvIj1gGfBQe1RRmNJ5nkSfNQmQJwqrRjOoqI8%3D%7Ctkp%3ABk9SR5Lk4IWhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/ZVkGPK' ),
@@ -2086,7 +2277,6 @@ equipment(
     item_price    ( 'US$174.99' ),
     item_shipping ( 'US$69.99' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Pro%27sKit+SS-331H+Desoldering+Pump' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/295229038086?hash=item44bd059e06%3Ag%3AFg0AAOSweVVhzVFK&amdata=enc%3AAQAIAAAA8EJeO58N%2BKhYR7%2Fh29FsfLZzZZS2eh5ZokzxYzw1Fsqtl4tdZt9kD4emjlbaDVHur7qVAMmgv40aHaJNqYHfMpNMHDnpXKTm6KCTD%2BPUI6CMmgLo%2Bq3Wd8JhpC77Aia0%2BFmwHGL%2FudWtchc1oOOREJMrSBFaS61WauE3E9Gv0XLrCLe3vwCJNFSlummMt%2B68oGgyl%2FM7soenFd1Tc9p0BgOd1MTw8Xr2ytoY7WINyORSyc%2B4QDSYsrUvsbZfmg5mHwPVD8uxfzydRwN8kLW5DQIiWzpHc%2BuG1Q7uq%2FY21JiiKqNLEWT%2FxEboaB98FmbTjg%3D%3D%7Ctkp%3ABk9SR9TJ-oWhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/2wqhA2' ),
@@ -2107,7 +2297,6 @@ equipment(
     listing_name  ( 'Pro\'sKit SS-331H LCD Electric Desoldering Pump Desoldering Absorb Solder Sucker' ),
     item_price    ( 'AU$307.99' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Pro%27sKit-SS-331H-Desoldering-Pump.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005003165472595.html?spm=a2g0o.productlist.main.1.3ca7793f0CPpu2&algo_pvid=2e3abd1b-3790-45d2-b1cd-f4bd036f6c85&aem_p4p_detail=202401140630493366620872199880016013378&algo_exp_id=2e3abd1b-3790-45d2-b1cd-f4bd036f6c85-0&pdp_npi=4%40dis%21AUD%21241.82%21169.28%21%21%21159.91%21111.94%21%402103251317052426491338277ec3cf%2112000025109610074%21sea%21AU%214385823938%21&curPageLogUid=lkmw02qg8OAi&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=202401140630493366620872199880016013378_1' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DEoD8cp' ),
@@ -2164,30 +2353,13 @@ equipment(
     EquipmentConnectivity::BNC,
     EquipmentConnectivity::USB,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'UNI-T' ),
-    model_name        ( 'UTG962E' ),
-    equipment_type    ( 'Signal Generator' ),
-    category          ( 'Signal Generator' ),
-    category          ( 'Waveform Generator' ),
-    category          ( 'Bench Equipment' ),
-    category          ( 'USB' ),
-    category          ( 'BNC' ),
-    manufacturer_link (
-      link_href       ( 'https://uni-trendus.com/products/utg962e-60mhz-2ch-classic-series-arbitrary-waveform-generator' ),
-      link_text       ( 'UTG962E 60MHz 2Ch Classic-Series Arbitrary Waveform Generator' ),
-    ),
-    manufacturer_link (
-      link_href       ( 'https://instruments.uni-trend.com/static/upload/file/20210609/UTG900.pdf' ),
-      link_text       ( 'UNI-T UTG900E Series Function Arbitrary Waveform Generators (PDF)' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/UNI-T_UTG962E' ),
   see_also      ( 'Rigol MSO5074 Mixed Signal Oscilloscope' ),
   search_url    ( 'https://www.amazon.com/s?k=UNI-T+UTG962E&crid=3VQA4KZV0J748&sprefix=uni-t+utg962e+signal+generator%2Caps%2C262&ref=nb_sb_noss_1' ),
   search_url    ( 'https://www.amazon.com.au/s?k=UNI-T+UTG962E+Signal+Generator&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=UNI-T+UTG962E+Signal+Generator' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=UNI-T+UTG962E+Signal+Generator' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-UNI-T-UTG962E-Signal-Generator.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/UNI-T-UNI-Trend-Arbitrary-Generator-Frequency/dp/B0CDRYBWR2/ref=sr_1_4?dib=eyJ2IjoiMSJ9.4BBhup5a_5eQnOo2mb6NrDXx-XX7jA_QZwA2SFUKcYLKYvMM3QhsjLJnLie2or2z.YbD1NTzHGG3YYYbygGPYt7gnnptHfJYHlteS9bMiIDY&dib_tag=se&keywords=UNI-T%2BUTG962E%2BSignal%2BGenerator&qid=1705243047&sr=8-4&th=1' ),
     affiliate_url ( 'https://amzn.to/3O2d6M4' ),
@@ -2195,7 +2367,6 @@ equipment(
     item_options  ( 'Size Name: UTG962E' ),
     item_price    ( 'AU$362.43' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=UNI-T+UTG962E+Signal+Generator' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/314911262297?hash=item49522c8659%3Ag%3AmKoAAOSwS6Zkmr9H&amdata=enc%3AAQAIAAAA0CbyST03W8plZ9Qa94hpoh1JtNhOqYhHGEzJb61J9PEUU0w%2FDfwY1TMRw78ylkWT97NTGZX6VevlBRMMYSGdG4N2reJbv5ackLegI6gJjff5GDQul4uF4Q9pk%2FDOzxQetNYoI9HDyf1TVrpa6I950dJlBkW%2BAuTh72pw1mJARkUkSUlLmzn83c4dve2HSf43OArT%2FOsx1XV1ffFQksaK39p84Rnfp2tQbrc0aLWvYlLnkXUYw8umXmnTlnSpi%2BzigSnzM2aL%2BwNy68gnhNUfnrQ%3D%7Ctkp%3ABk9SR7j3zIahYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/eScxVB' ),
@@ -2219,7 +2390,6 @@ equipment(
     item_price    ( 'US$248.22' ),
     item_shipping ( 'US$15.00' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=UNI-T+UTG962E+Signal+Generator' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/324353018943?epid=14063079448&hash=item4b84f24c3f%3Ag%3A%7ED4AAOSw27dfmnKE&amdata=enc%3AAQAIAAAA0JVp2dNeLpInulzBsbZkf2nsb3x9HPW4PuO1ELOQveHvvnQLlHPH6Th2dnZpYhL0xv0TeKX6MRPb%2F%2BE57AFQcu%2F2H09PNZ%2FnL%2F5%2FWf75KUNeplfi8HX99cWezADMOwWNB19T97DqIg8PI2U%2F%2FVTDvd8%2BgxnpGCfKr8YeMSapQD%2BICBUuyTqIYdgqBQuSCzj3uwbIWvyqm9l4SHL2vrzrlqvJeYVTWxALwjh3tERfkbeSt5hw7rIFyxbGZ33u1jxepmsGAVrIAV0EOVXmQAhmcvQ%3D%7Ctkp%3ABk9SR6jY8YahYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/D0rU4y' ),
@@ -2242,7 +2412,6 @@ equipment(
     item_price    ( 'AU$440.03' ),
     item_shipping ( 'AU$3.27' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-UNI-T-UTG962E-Signal-Generator.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/4000373256414.html?spm=a2g0o.productlist.main.1.6aee631a71rg1e&algo_pvid=1018683c-85ea-46b3-9ce0-4315059818a6&aem_p4p_detail=2024011406481710314357870777500015465506&algo_exp_id=1018683c-85ea-46b3-9ce0-4315059818a6-0&pdp_npi=4%40dis%21AUD%21273.63%21229.85%21%21%21180.95%21152.00%21%402101c59817052436976288840ea8a1%2112000031539846388%21sea%21AU%214385823938%21&curPageLogUid=ieF3MRwMcTN6&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=2024011406481710314357870777500015465506_1' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DekcjKv' ),
@@ -2303,25 +2472,14 @@ equipment(
     EquipmentConnectivity::BANANA_PLUG,
     EquipmentConnectivity::USB,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'OWON' ),
-    model_name        ( 'XDM1041' ),
-    equipment_type    ( 'Bench Multimeter' ),
-    category          ( 'Multimeter' ),
-    category          ( 'Bench Equipment' ),
-    category          ( 'Meter' ),
-    category          ( 'USB' ),
-    manufacturer_link (
-      link_href       ( 'https://www.owontechnology.eu/product/4703647/owon-xdm1041-55-000-counts-bench-type-digital-multimeter' ),
-      link_text       ( 'OWON XDM1041 Bench Multimeter' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/OWON_XDM1041' ),
   warning       ( 'You might like to check out the XDM1241 or XDM2041' ),
   see_also      ( 'ANENG AN-999S Bench Multimeter' ),
   search_url    ( 'https://www.amazon.com/s?k=OWON+XDM1041+Bench+Multimeter&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=OWON+XDM1041+Bench+Multimeter&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=OWON+XDM1041+Bench+Multimeter' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=OWON+XDM1041+Bench+Multimeter' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-OWON-XDM1041-Bench-Multimeter.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/OWON-Multimeter-Universal-Temperature-Multimeters/dp/B0B5QBSJ2T/ref=sr_1_1?dib=eyJ2IjoiMSJ9.cgC8k8gnA9WvWCjmt0537xwQgLfCbHjPX18IEsXv748dtSXJWOrCR-egdql_7yYXWG-PEZxXcxEjVq6G1JVs1lUJuBb6hBSnUNj5jFAyI3c.34AxhEpI-rQpnjmEMuMZ0HFGNHGdV7UGdmizDVly0jI&dib_tag=se&keywords=OWON+XDM1041+Bench+Multimeter&qid=1705244008&sr=8-1' ),
     affiliate_url ( 'https://amzn.to/41V5DUR' ),
@@ -2344,7 +2502,6 @@ equipment(
     item_price    ( 'US$166.37' ),
     item_shipping ( 'US$18.80' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=OWON+XDM1041+Bench+Multimeter&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/OWON-Multimeter-Accuracy-Universal-Multimeters/dp/B0BCFS1JHR/ref=sr_1_13?dib=eyJ2IjoiMSJ9.Z9h6eOPVSwzKh-xScQx6OKV09Yp4CueBhVz99uCpG3el4zxaFS2XTknDd6CwpqSL7H3YEgaIkJlxwRWXSjegdIVG7ybUrL2o3loOIMH8LygDkV3LOLxesLT8rqJ_XPhV0thdoPpJVV6V19TRXh3JtQ.L9Jg-UZnP0d6PMgFMJBkVxrj-DF1xLdwe_zqaUej8Qw&dib_tag=se&keywords=OWON+XDM1041+Bench+Multimeter&qid=1705244271&sr=8-13' ),
     affiliate_url ( 'https://amzn.to/3HkHBsS' ),
@@ -2365,7 +2522,6 @@ equipment(
     item_options  ( 'Style Name: XDM1041' ),
     item_price    ( 'AU$235.80' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=OWON+XDM1041+Bench+Multimeter' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/115977685204?hash=item1b00cf08d4%3Ag%3AaJcAAOSw9chhsyGg&amdata=enc%3AAQAIAAAA8OmMu9Ywrr73AUr%2FADCqvS1SxeoKllB0BA3DpPugFMY9T7xQxKAEN1V75TssmsnB4VF7HtjUq%2FAf0iLD2z%2BlLbYygPnjMhWRM0zi5JTDKH9bvSagylQS2RGvb0nOCPxdM5AGC%2F3VhOxVY9NkY3ako%2FTGUup8av7%2F7ApTA3F2vnq%2BtUs3CdOaS0FRkmj7wAHTUZQ%2B%2Bat3MSmCOxbhHeALxSWFZIYisFQuamdVItAWeZ4JwOzGUh7xrE%2B9lNA7biek%2FswAYFUZ%2F%2B4VAhEAU6l9dIewbVekRkaCEKkpF0h%2F7tIKFOeUY7LcpAwMmWyj4qHUIQ%3D%3D%7Ctkp%3ABk9SR8SW9oehYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/yMxP8Z' ),
@@ -2387,7 +2543,6 @@ equipment(
     item_price    ( 'US$105.00' ),
     item_shipping ( 'US$84.58' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=OWON+XDM1041+Bench+Multimeter' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/204556767242?hash=item2fa088900a%3Ag%3AaJcAAOSw9chhsyGg&amdata=enc%3AAQAIAAAA0O0ba0rYUexKTpxmvGAKypIwlhWb216iatv9W3ka18uYTK12qevttLSMt6xj6eqOixAdTqBPTaTtyg82oGuUHevZ1h2TpioNXKoPEyDAZ3oc045lSf%2BpfeOaf5Gfsu%2B88CTkDR0l88UTLeuaOxkQJlu%2FNhAwY%2FK2VV0wPtbN4qb%2BJ9dk9Hg9P4GqKwOKNkanONvLYrzItgxUrYhlz2eXADEByAyuxvgb8iPk6zc275oBCGZm%2FY%2BnIqLigL8Fagi7LzX6k5hiDq%2FELS3r%2BlXe3Yw%3D%7Ctkp%3ABk9SR6iJjIihYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/En07Co' ),
@@ -2406,7 +2561,6 @@ equipment(
     listing_name  ( 'OWON 4 1/2 digits XDM1041 Bench-type Digital Multimeter 55000 Counts True RMS' ),
     item_price    ( 'AU$174.99' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-OWON-XDM1041-Bench-Multimeter.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006094754100.html?spm=a2g0o.productlist.main.5.3a7a191bLT3emv&algo_pvid=7bad1a9e-dd67-489d-b584-16149a027b32&aem_p4p_detail=202401140707268564825519475000006653383&algo_exp_id=7bad1a9e-dd67-489d-b584-16149a027b32-2&pdp_npi=4%40dis%21AUD%21363.55%21181.77%21%21%211723.00%21861.50%21%402101e58317052448464016731e077a%2112000035720511961%21sea%21AU%214385823938%21&curPageLogUid=6godFdJG8bnK&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=202401140707268564825519475000006653383_3' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DmDGwqd' ),
@@ -2459,22 +2613,13 @@ equipment(
     EquipmentConnectivity::BANANA_PLUG,
     EquipmentConnectivity::BLUETOOTH,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'ANENG' ),
-    model_name        ( 'AN-999S' ),
-    equipment_type    ( 'Bench Multimeter' ),
-    category          ( 'Multimeter' ),
-    category          ( 'Bench Equipment' ),
-    category          ( 'Meter' ),
-    category          ( 'Bluetooth' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/ANENG_AN-999S' ),
   see_also      ( 'OWON XDM1041 Bench Multimeter' ),
   search_url    ( 'https://www.amazon.com/s?k=ANENG+AN-999S+Bench+Multimeter&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=ANENG+AN-999S+Bench+Multimeter&s=price-asc-rank' ),
   search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=ANENG+AN-999S+Bench+Multimeter' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=ANENG+AN-999S+Bench+Multimeter' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-ANENG-AN-999S-Bench-Multimeter.html' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/314093354298?hash=item49216c3d3a%3Ag%3Asg0AAOSwLyVi6TEz&amdata=enc%3AAQAIAAAA8And%2FerrBRSJtbEuM%2F%2FUbkYLGOMckLJWCPVsgofCV6w%2BbqocRKouMOQWBkWzl0xowbZwg362vqRUnfHla%2B82Mcjk1%2BGSGFRxqXp7t7yALq5U6LHbUyOFBB7L9jaPFr9AWNWKOD0J7jZokKZGBDwGVUC9BJuFydHNn%2FXXBKvGxLdj%2FuHK8BPbri92GARthyjK9PHVVgYFSWTxQgrghArXiREVL4z2vVPBuLWhsftmwbBJyivls%2BeBDXPtiIkkg1gKTbhfECbhvtxGdSWsfGyzv8YWQIK4%2FaE2NRfOSY5X3A8MiyksOm8%2FEAgqm08gZmrceg%3D%3D%7Ctkp%3ABk9SR4SG44ihYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/IUudQl' ),
@@ -2482,7 +2627,6 @@ equipment(
     item_price    ( 'US$135.35' ),
     item_shipping ( 'US$5.99' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=ANENG+AN-999S+Bench+Multimeter' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/334863050770?hash=item4df764a812%3Ag%3A%7EnIAAOSwHL1kVv4X&amdata=enc%3AAQAIAAAA8Pd4lsuyB26tAnGfYFwe3gLE4Mfc%2BZKGxnCA5ca2OxzR18%2B4mWjs1Q4PmNw684tjmkwKhGV1UL%2FdSJweKNKx4nTZF7knGFXQeJSkokhX%2FzlIivt9e4NQFQWcI3ynR4gA6pJJRUeYs1E2TaRLVGPUHIE4gWIwyF91RCM6SlKrbNcHNbOZ8W0PX1e7Qq4LXFQ95iG1jnJ7egXCO8N292oIT5tNrI0mxv7NoLSlmZXZn4AknA52QotBBJno%2F%2FyUUsIw7wDsLwl%2FFsCCg88Cdu7HEZFPOGEpwq1w7NvhasfXgvWoCndoetcd3HN4tFKcOSFIRw%3D%3D%7Ctkp%3ABk9SR9zs7IihYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/khDvwk' ),
@@ -2498,7 +2642,6 @@ equipment(
     item_price    ( 'AU$161.98' ),
     item_shipping ( 'AU$1.53' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-ANENG-AN-999S-Bench-Multimeter.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/4000402598736.html?spm=a2g0o.productlist.main.21.494c656fjHeJhB&algo_pvid=bbc6e333-fb71-4d82-b2a4-487c9c263ef6&algo_exp_id=bbc6e333-fb71-4d82-b2a4-487c9c263ef6-10&pdp_npi=4%40dis%21AUD%21104.13%2179.14%21%21%21493.53%21375.08%21%402101f00117052458262231603e0098%2110000001657459665%21sea%21AU%214385823938%21&curPageLogUid=qG7yeHqWzYas&utparam-url=scene%3Asearch%7Cquery_from%3A' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DlKU2ut' ),
@@ -2548,16 +2691,6 @@ equipment(
     EquipmentConnectivity::HDMI,
     EquipmentConnectivity::USB,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Yizhan' ),
-    equipment_type    ( 'Microscope' ),
-    category          ( 'Microscope' ),
-    category          ( 'Bench Equipment' ),
-    category          ( 'USB' ),
-    category          ( 'HDMI' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yizhan_Microscope' ),
   see_also      ( 'TOMLOV DM602 Pro Digital Microscope' ),
   search_url    ( 'https://www.amazon.com/s?k=Yizhan+Microscope&s=price-asc-rank' ),
@@ -2602,25 +2735,12 @@ equipment(
     EquipmentConnectivity::BANANA_PLUG,
     EquipmentConnectivity::USB,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'ZKETECH' ),
-    model_name        ( 'EBD-A20H' ),
-    equipment_type    ( 'Electronic Load' ),
-    category          ( 'Electronic Load' ),
-    category          ( 'Programmable Load' ),
-    category          ( 'Bench Equipment' ),
-    category          ( 'USB' ),
-    manufacturer_link (
-      link_href       ( 'https://media.digikey.com/pdf/Data%20Sheets/Seeed%20Technology/106990329_Web.pdf' ),
-      link_text       ( 'ZKETECH EBD-A20H DC Electronic Load/Battery Capacity & Discharge Tester/Power Supply Tester 30V 20A 200W (PDF)' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/EBD-A20H' ),
   search_url    ( 'https://www.amazon.com/s?k=ZKETECH+EBD-A20H+Programmable+Load&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=ZKETECH+EBD-A20H+Programmable+Load&s=price-asc-rank' ),
   search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=ZKETECH+EBD-A20H+Programmable+Load' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=ZKETECH+EBD-A20H+Programmable+Load' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-EBDA20H.html?spm=a2g0o.productlist.search.0' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/355317648044?hash=item52ba950aac%3Ag%3A678AAOSwlPlkbw%7Er&amdata=enc%3AAQAIAAAA0OglqMkfRxCF29FjdlFamBlUTGZy%2B7yyptCryUdlhik4kKobanPVAYGNNRkVPx%2Bd6lI%2BpwECZSorTEdcnCSjiqtTlCTwQJAw%2BoqvOj05vE7%2FhTI5sUBgI5yRDBgd4PK770s0jkWil%2FWQflb59P9yKv7YfkbM9rlLpoCDuThb30ix4yqsrZc%2BuUwx9%2FM53El%2BKbPwe2begk25Z%2BZ316u%2B757toiyTvnfFDB94805GXMggElOA0KQ%2FzN%2BomVd18OR2NtA6aLMjXcKbLuq8rZ8yORY%3D%7Ctkp%3ABk9SR_iC3omhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/NWanfH' ),
@@ -2642,7 +2762,6 @@ equipment(
     item_price    ( 'US$102.00' ),
     item_shipping ( 'US$21.82' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=ZKETECH+EBD-A20H+Programmable+Load' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/314744385652?hash=item49483a3074%3Ag%3AfP4AAOSw7Wlkx48T&amdata=enc%3AAQAIAAAA8AkygLHyVtV7%2B0aC3wZ2UoCWHIOVXdXCfseSRsMgWUEuV9J6kBh1XnNkLKdNAJC6ZuKlLmvEBwBQP1yk2s6xPhLhCecEmxTJIQddqNsw9t811nMamWJFC%2FSaySDkDAfnTMkbgHaAahWEX6iWa7GZM3KWzuhUVUn31tOw7c3D9YAxVkpcXsZs1laUYuUa8Qa5NXJfbwxdyBGLMTlOuSej6a8SfJGSUFFQFmrSlXHyWvVhooHNTx%2F4JvbTtON22yQy0qcaAF88MWVx%2BzgzXLQncvgFPYjirZh2AvXTNlWvwsJjqmHOmGhR%2BkQVTwSRTUErpQ%3D%3D%7Ctkp%3ABk9SR-aN9ImhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/pdmXVa' ),
@@ -2663,7 +2782,6 @@ equipment(
     listing_name  ( 'EBD-A20H Battery Capacity Tester Load Power Tester Discharge Meter 0.1-20A 200W' ),
     item_price    ( 'AU$165.84' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-EBDA20H.html?spm=a2g0o.productlist.search.0' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/4000467334668.html?aff_fcid=e07b5544e3d3415d8f2659b6fb862b52-1705246838491-02666-_DCFF58L&tt=CPS_NORMAL&aff_fsk=_DCFF58L&aff_platform=shareComponent-detail&sk=_DCFF58L&aff_trace_key=e07b5544e3d3415d8f2659b6fb862b52-1705246838491-02666-_DCFF58L&terminal_id=f020c219a3b44a7b92d636c6cc46e9db&afSmartRedirect=y' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_Ddwo7Qp' ),
@@ -2699,6 +2817,106 @@ equipment(
 );
 
 equipment(
+  equipment_date( '2024-01-13' ),
+  equipment_icon( 'https://ae01.alicdn.com/kf/Hb4214d8fb356492fa77b565e8e230dbfJ/UNI-T-UTi260B-Infrared-Thermal-Imager-256-x192-Industrial-Handheld-Testing-Thermometer-For-Repaire-Floor-Heating.jpg_.webp' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://thermal.uni-trend.com/product/uti260b/' ),
+      link_text       ( 'UNI-T UTi260B Thermal Imager' ),
+    ),
+    manufacturer_name ( 'UNI-T' ),
+    model_name        ( 'UTi260B' ),
+    EquipmentFeature::THERMAL_IMAGER,
+    EquipmentAttribute::HAND_TOOL,
+    EquipmentAttribute::HEART,
+    EquipmentConnectivity::USB,
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/UNI-T_UTi260B' ),
+  see_also      ( 'NOYAFA NF-521 Thermal Imager' ),
+  search_url    ( 'https://www.amazon.com/s?k=UNI-T+UTi260B+Thermal+Imager&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=UNI-T+UTi260B+Thermal+Imager&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=UNI-T+UTi260B+Thermal+Imager' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=UNI-T+UTi260B+Thermal+Imager' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-UNI-T-UTi260B-Thermal-Imager.html' ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2025/01/05/ferromagnetic-substance-detector-project-13-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Ferromagnetic Substance Detector | Project 13/20 | Maxitronix 20in1 | In The Lab With Jay Jay' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com/itm/284152669853?hash=item4228d1a69d%3Ag%3AFugAAOSwg5pjfZuL&amdata=enc%3AAQAIAAAA8FzpyWZLyx0uWTv5OsgMb4GaqlptRf29cM%2B6WO%2Fk71WFJmKbLIyRG19d9Uhvo15Dym1FluhzmNOPfiNvr6sJYFicqUFiqCqBufsDMlCTz5mmpT6WBl%2Bzs%2BvnCrdgk3qiIX4n3ZLw%2Bsm%2FrHb%2FbZikETAE%2BuyV7OD%2B8f1opWKNYnzbVGLKRxYDtYHhfjtvUCwF7%2FpuhCRYgg4l15vmnXy1I%2FmQKYq4BhKeV%2B6VTdWzkLu%2F9VbYXhofLoojnnpRL6zuATlH%2BHJ%2BcQPVelb9KR5dIU%2BtlzRf6mM5uTwI2I4ohBTQX4PNZb3fiMLcqrgUW0jE%2BQ%3D%3D%7Ctkp%3ABk9SR57auZGgYw&LH_ItemCondition=1000' ),
+    affiliate_url ( 'https://ebay.us/BHLIGV' ),
+    listing_name  ( 'UNI-T UTi260B Industrial Infrared Temperature Imaging Camera Thermal Imager ✦Kd' ),
+    item_options  ( 'MPN: UTi260B' ),
+    item_price    ( 'US$244.59' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com/itm/285340559663?epid=27057619128&hash=item426f9f692f%3Ag%3AR6AAAOSwOM1jfZpv&amdata=enc%3AAQAIAAAA0FfIWIcT1A5n6IGgCcD3UmBbrGMi9sHMJU6Rw0y6hGNgzQEoAK4el5OPKSkfxmHohutYQAhoLhEtKwgOPeAjh6uK5W%2FUVQZ%2Fv%2B%2BDT12y9htLTxNuON9iqVsXMtR%2BW8C8xH8TT34M6Fp6ivO%2BczX2Sk%2FmDDFrM8emilbd7Ebf%2B0RBUzaJOaZ2nzna2vBtBptknw6EHDT5B%2FT4LMUeMnP0XgcZx1%2FIHIymh8w2MYbtR3OTwEyROZocjDlY%2F4nfZ87uRapp0qteiHnTrcE8e4JLty4%3D%7Ctkp%3ABk9SR57auZGgYw&LH_ItemCondition=1000' ),
+    affiliate_url ( 'https://ebay.us/Q2V1Oy' ),
+    listing_name  ( 'UNI-T UTI260B UTi260A Thermal Imager Resolution 256 x 192 Infrared Camera ✦Kd' ),
+    item_options  ( 'MPN: UTi260B' ),
+    item_price    ( 'US$244.59' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com/itm/314911077994?hash=item495229b66a%3Ag%3AMowAAOSwLOJkj-0Q&amdata=enc%3AAQAIAAAA8EBTVDWLE19BGgZEk2MyePgDa2V52IFnXEJptfwFgCZmJsgZfPk%2FidZ1jBP0NWPuOGJFi142ZktgxDEIm3edhfCqRqRP52XkwSqc8kMBpb1znhsb0oqnOJ4J0sZqKxP1thUgrYoz6FDEWq7hd9bvrzaUjeH3iLXURNCNGj5TbbvXIcpmjRFqQgWAZ6XiwQ2TidGyJiOMGx0pNj%2FD2Ns7Wa3TX9%2B8qA2aPt%2BTu2QOKPa32kYd%2BWf2KpEOQMeHy%2FUR8DaOo5whDj2qUavB9ar%2FPsFiF7aL2hG06bKgd2PbcHL7uUyk%2BLo6nlkYGhK6s%2FSbuQ%3D%3D%7Ctkp%3ABk9SR57auZGgYw&LH_ItemCondition=1000' ),
+    affiliate_url ( 'https://ebay.us/3Asr2a' ),
+    listing_name  ( 'UNI-T UTI260B UTi260A Thermal Imager Resolution 256 x 192 Infrared Camera✦' ),
+    item_options  ( 'Model: UTi260B' ),
+    item_price    ( 'US$245.90' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/385057758563?hash=item59a73b1d63%3Ag%3A4g0AAOSwn5ti9X0X&amdata=enc%3AAQAIAAAA8Mu10acbE9vD4wZyFV9WBL7RZgV4tn9135wWFwwJo36iPyxn49AkVCVhO02x%2FzsQRM1SuV8zucrIe98d%2FySRAutgWpbAcK7esOAR7vjVTFzL1SzS7vYA7gASRAwQqNAunpFTtdIxy50jt%2BlmrkfmsEuhIOOTz5XjEi4fDkIiUKa5q5vOnMIIKe4X846fmoClP8O%2BFxza5JKzZdnkwkAXcx6HiZEyuInWVP0aXNXFiZKTSlU%2BTnxeJ3WaZO2vHBZNNvtmqa8dfDkqUGUVBVpztOb7O6oRCXdyVMj6LgLZFHEqR7O%2Bhjm4ZXkEuGwc1Oh7zA%3D%3D%7Ctkp%3ABk9SR7Toz5GgYw&LH_ItemCondition=1000' ),
+    affiliate_url ( 'https://ebay.us/fnXSak' ),
+    listing_name  ( 'UNI-T UTi85A UTi260B Industrial Infrared Thermal Imager Temperature Camera' ),
+    item_options  ( 'Product: UTi260B' ),
+    item_price    ( 'AU$528.99' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/196181056764?hash=item2dad4d5cfc%3Ag%3Aw9YAAOSwNsxlnms9&amdata=enc%3AAQAIAAAA8Kww%2F%2F%2Ft282kSpNKb8CZ2edHDTYg9uEihZC3Yz0AeSATbw1quAg18CGIC%2FiIRFIMvGMKa3qx6i8l5ML%2F7fqjPEXiObiwYBefAPXIhKUKo1KibxY3C6EwzdsXw75dNoilVznHK%2FZpmU6Jvrt%2BFGbYUr7DNbasaYJ5POIfZNtOt32b86UQTlf0BdodXJup0uZDYl7CeDHPK7ACAQTY35ZnZPWEbeeURJ0ftFSCzj9yC7hoROchyrPXgooIuTMCYsbh9noOM8QBc4V2sFPFYFhD7simSvxxNvuf3rPW2znA%2BYCSBRyYWInOGFdaoqbyu8%2B4Wg%3D%3D%7Ctkp%3ABk9SR7Toz5GgYw&LH_ItemCondition=1000' ),
+    affiliate_url ( 'https://ebay.us/bYcZOD' ),
+    listing_name  ( 'UNI-T UTi260B Industrial Infrared Thermal Imager Temperature Imaging Camera AU' ),
+    item_price    ( 'AU$399.99' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/285034536643?hash=item425d61dec3%3Ag%3AyOgAAOSwESBjbWvK&amdata=enc%3AAQAIAAAA8HD%2BAJm2NBSziPNaX%2B%2BUCf2hfz6zR5r%2B9EsI%2BDkMO9nNVkEwwvFsZsJHyQ6U7D1ZpXWybPV6jsglSGbOSarxwdQiPedp%2Fvr%2Fs9iJGfmXQ%2BGMkjZdXOUNdL5eszUrvuR6YoQzV4FHw4H77vbvx0tM%2Bsf1hK2wcUBvVFaEC5qk1gyK%2FF5OcmY1WHJf3CFZ5u%2BxP7e2MkIFtqTaozdKgIImhN8M13ONt%2BjaPiYK5HmtHS%2BjSoMwuDwmVY6w9YrARmJ1CBecyqZowBWKgsDOkhY8Uc5KiQECwjTiP5HdiGTLMaJFgHm2TqRn3qEZBHKzpRfiUA%3D%3D%7Ctkp%3ABk9SR7Toz5GgYw&LH_ItemCondition=1000' ),
+    affiliate_url ( 'https://ebay.us/1aaKTf' ),
+    listing_name  ( 'New UNI-T UTi260B Industrial Infrared Thermal Imager Temperature Imaging Camera' ),
+    item_price    ( 'AU$419.89' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006263500211.html?spm=a2g0o.productlist.main.1.15aa2a21w9syaY&algo_pvid=c9e193c7-4d17-41c2-9c73-a7d57c48056e&aem_p4p_detail=2024011220374313704933237288100007119505&algo_exp_id=c9e193c7-4d17-41c2-9c73-a7d57c48056e-0&pdp_npi=4%40dis%21AUD%21769.39%21538.57%21%21%21508.79%21356.15%21%402103241117051206637755424ea45a%2112000036688783742%21sea%21AU%214385823938%21&curPageLogUid=w01sVNxFfuZ1&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=2024011220374313704933237288100007119505_1' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DeLmYuz' ),
+    listing_name  ( 'UNI-T UTi260B Infrared Thermal Imager 256 x 192 Thermographic PCB Circuit Electrical Maintenance Heat Image Thermal Camera' ),
+    item_options  ( 'Color: UTI260B' ),
+    item_price    ( 'AU$538.57' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005002252952789.html?spm=a2g0o.productlist.main.3.15aa2a21w9syaY&algo_pvid=c9e193c7-4d17-41c2-9c73-a7d57c48056e&aem_p4p_detail=2024011220374313704933237288100007119505&algo_exp_id=c9e193c7-4d17-41c2-9c73-a7d57c48056e-1&pdp_npi=4%40dis%21AUD%21653.47%21457.43%21%21%21432.13%21302.49%21%402103241117051206637755424ea45a%2112000025467448046%21sea%21AU%214385823938%21&curPageLogUid=VnOHP4DzA3UA&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=2024011220374313704933237288100007119505_2' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_Dlu1gnj' ),
+    listing_name  ( 'UNI-T Infrared Thermal Imager UTi260B Industrial PC Software Analysis PCB Circuit Floor Heating Detection Thermal Camera' ),
+    item_options  ( 'Color: UTI260B' ),
+    item_price    ( 'AU$457.43' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005003093700638.html?spm=a2g0o.productlist.main.5.15aa2a21w9syaY&algo_pvid=c9e193c7-4d17-41c2-9c73-a7d57c48056e&aem_p4p_detail=2024011220374313704933237288100007119505&algo_exp_id=c9e193c7-4d17-41c2-9c73-a7d57c48056e-2&pdp_npi=4%40dis%21AUD%21653.47%21457.43%21%21%21432.13%21302.49%21%402103241117051206637755424ea45a%2112000028583605656%21sea%21AU%214385823938%21&curPageLogUid=yf8CdfQ4om5V&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=2024011220374313704933237288100007119505_3' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_DmT6IjL' ),
+    listing_name  ( 'UNI-T UTi260B Infrared Thermal Imager PCB Circuit Floor Wall Heating Pipe Industrial Detection Thermal Imaging Camera' ),
+    item_options  ( 'Color: UTi260B(with case)' ),
+    item_price    ( 'AU$457.43' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005164391835.html?spm=a2g0o.order_detail.order_detail_item.3.79b4f19c2pQrPh' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.1.5d671802l1ULs2&orderId=8173168357953938' ),
+    order_id        ( '8173168357953938' ),
+    order_date      ( 'Aug 13, 2023' ),
+    order_item_name ( '' ),
+    order_options   ( 'Color: UTi260BwithMacrolens' ),
+    order_price     ( 'AU$394.02' ),
+    order_quantity  ( 1 ),
+    order_gst       ( 'AU$39.40' ),
+  ),
+);
+
+equipment(
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/51+Gunc3-cS._AC_SL1200_.jpg' ),
   equipment_item(
@@ -2719,23 +2937,13 @@ equipment(
     EquipmentFeature::THERMAL_IMAGER,
     EquipmentAttribute::HAND_TOOL,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'NOYAFA' ),
-    model_name        ( 'NF-521' ),
-    equipment_type    ( 'Thermal Imager' ),
-    category          ( 'Thermal Imager' ),
-    category          ( 'Camera' ),
-    category          ( 'Hand Tool' ),
-    manufacturer_link (
-      link_href       ( 'https://www.noyafa.com/products/nf-521-infrared-thermometer' ),
-      link_text       ( 'NOYAFA NF-521 Contactless Thermal Imaging Device Industry & Science Infrared Thermometer' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/NOYAFA_NF-521' ),
   see_also      ( 'UNI-T UTi260B Thermal Imager' ),
   search_url    ( 'https://www.amazon.com/s?k=NOYAFA+NF-521+Thermal+Imager&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=NOYAFA+NF-521+Thermal+Imager&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=NOYAFA+NF-521+Thermal+Imager' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=NOYAFA+NF-521+Thermal+Imager' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-NOYAFA-NF-521-Thermal-Imager.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/NOYAFA-Industrial-Thermal-Imaging-Resolution/dp/B08YR7CHNB/ref=sr_1_9?dib=eyJ2IjoiMSJ9.DFOiBw5e2ExfFhrzZ4-OxIx60I-2vUOUSnKHHltRc1t9uYs2MuSaEMe0jBnFiaIzFK0Fn50APAM3Q0bcz9wnN2zAO0LZ6_FpajIi-KdqovelErOnA6WZX2PHLAiIMujA6NYjo8IfLIBs6_gk-WGkIQ.lABFUDyvEghDmk9IemFC1wwCaVBhGg7vOlTU6ai77Fg&dib_tag=se&keywords=NOYAFA+NF-521+Thermal+Imager&qid=1705247114&sr=8-9' ),
     affiliate_url ( 'https://amzn.to/3vBCX7e' ),
@@ -2744,7 +2952,6 @@ equipment(
     item_price    ( 'US$149.99' ),
     item_shipping ( 'US$19.32' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=NOYAFA+NF-521+Thermal+Imager&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Portable-Infrared-Detector-Temperature-GTRH/dp/B0CQ85V366/ref=sr_1_3?dib=eyJ2IjoiMSJ9.vPhq4Pxk9221xR6Y51tx9h8iCWA1IH-dokK-QT3KzxCK-sE05Axu9pkntF1I4zb3_vAN1MT_pidpDagXKxCAh2gLF4AcCAaPKzB8qCUGzI-RvMniCI_BdCBCSIbwuhr27oAqOp3mPScCZE91nQpSTQ.s1DwM-ek7urlfimfNb6zh99Z7YGdFJXPdWIZuKXX2dw&dib_tag=se&keywords=NOYAFA+NF-521+Thermal+Imager&qid=1705247220&sr=8-3' ),
     affiliate_url ( 'https://amzn.to/47EGoqW' ),
@@ -2757,7 +2964,6 @@ equipment(
     listing_name  ( 'Maiju NF-521 Thermal Imager Portable Infrared Camera Digital Display Heating Detector Handheld Temperature Imaging Imager' ),
     item_price    ( 'AU$307.92' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=NOYAFA+NF-521+Thermal+Imager' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/404050867067?hash=item5e134ef37b%3Ag%3AT5MAAOSwWlNjmE7s&amdata=enc%3AAQAIAAAA0GF2ax578ENafB7fNmYXBwBlaEpX%2BFjdGn52NGaKMcj8SatJUXVM0oadlbhlNrmfmGVy%2BTbF6OA4DP5ff%2B5xvoFAHtMDSjMn3QJlGnqC4gyFm8IROPHDOO9QclIpPfKCqdO5sQ82SURsuph%2FrNGFoXIKTj4pIRxM%2B1l2F5CPkTNDk2rsfzmy1VIPIW8PsMjdhrqvmVpsf3Qa1ZBhMJ61hdLnv%2BD2XZZ5M%2FGBmyofuHelh82Qew6GDOG8Ezu0nOnFw0ItVo7FSo447lSBWCVOx5o%3D%7Ctkp%3ABk9SR7CszoqhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/odVhvM' ),
@@ -2777,7 +2983,6 @@ equipment(
     listing_name  ( '8G NF-521 Infrared Thermal Imager thermal imaging device IR Resolution 240x320' ),
     item_price    ( 'US$148.79' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=NOYAFA+NF-521+Thermal+Imager' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/155591956465?epid=14044026150&hash=item243a00d7f1%3Ag%3AUMYAAOSw1rpf4G%7E%7E&amdata=enc%3AAQAIAAAA0IHu7U2IegQqmxw2OJHlOhkXXHJQ3fQa5LWcgz60Ot6Dajb7DFqfwOK9mCmoAeiyZcXcKtkqv8dqPiCT9sy2GhjmeVjSULszkWFGrHYHoSZXrQjLkGWgfwRpsBhJ7cPwoCjbX235FWX7cNHA3IPq183jLjlX808cHpOd8%2BiWKQU1geIQSQaQY0FrsV3Dml6vayWrNthkFwQwCh7EFFT87oLYghkvPZX0NLmx5GfqCTEE3PIF8NjBCwZLS5Kt%2BPPDOFB52nW68u7uKdG%2BUtruTcE%3D%7Ctkp%3ABk9SR4rA4oqhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/cqm6AH' ),
@@ -2796,7 +3001,6 @@ equipment(
     listing_name  ( 'NF-521 Infrareds Thermal Imager Imaging Camera Temperature Imaging 200000 Pixels' ),
     item_price    ( 'AU$249.18' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-NOYAFA-NF-521-Thermal-Imager.html' ),
   purchase(
     equipment_url   ( 'https://www.ebay.com.au/itm/175850612021' ),
     order_url       ( 'https://order.ebay.com.au/ord/show?orderId=14-10409-21152#/' ),
@@ -2822,22 +3026,13 @@ equipment(
     model_name        ( '3C-SA' ),
     EquipmentFeature::PRECISION_TWEEZERS,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Hakko CHP' ),
-    model_name        ( '3C-SA' ),
-    equipment_type    ( 'Precision Tweezers' ),
-    category          ( 'Tweezers' ),
-    category          ( 'Hand Tool' ),
-    manufacturer_link (
-      link_href       ( 'https://hakkousa.com/chp-3c-sa-very-fine-point-tweezers.html' ),
-      link_text       ( 'CHP 3C-SA Very Fine Point Tweezers' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Hakko_CHP_3C-SA_Tweezers' ),
   warning       ( 'Some of these are single, others are 3 packs or 5 packs; I recommend at least two, one for each hand' ),
   search_url    ( 'https://www.amazon.com/s?k=Hakko+CHP+3C-SA+Precision+Tweezers&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Hakko+CHP+3C-SA+Precision+Tweezers&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Hakko+CHP+3C-SA+Precision+Tweezers' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Hakko+CHP+3C-SA+Precision+Tweezers' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Hakko-CHP-3C-SA-Precision-Tweezers.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Hakko-3C-SA-Non-Magnetic-Microelectronics-Applications/dp/B00FZPESTY/ref=sr_1_1?dib=eyJ2IjoiMSJ9.In5Ftj_Gaa0FeGN3iqaGFCLaAhrg2lfQqyUVUbja099RbVsPcF1wX9FwsoFogUEtoteStl6htG_TOV02eDO9w97CBbdiMpcFoU60jQLHx0cdMZohiAq4uUzzVvcMQA5RSWdI8CNJqzKUuwqEKHhX9A.6aK8K-8QFcgfInODXahONR5G2xybiu7xFznn8NVOl30&dib_tag=se&keywords=Hakko+CHP+3C-SA+Precision+Tweezers&qid=1705247914&sr=8-1' ),
     affiliate_url ( 'https://amzn.to/3Ui2axZ' ),
@@ -2853,7 +3048,6 @@ equipment(
     item_price    ( 'US$47.28' ),
     item_shipping ( 'US$17.46' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Hakko+CHP+3C-SA+Precision+Tweezers&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Hakko-Stainless-Non-Magnetic-Microelectronics-Applications/dp/B08S9WT9P3/ref=sr_1_16?dib=eyJ2IjoiMSJ9.TWgCctH-OTLG5bHMwF5h4S9DYc_yc2fBHMmz9Uot54yYVTUZZRtRV6seL89_ASPhwoxi4_DQ7suTN579SDRW-5PjcrOakwzt5y0tS6nk7B9cn9WEZElBX_BJE8j7rn0VrGKs2CLWkexaOudSVfBj-Q.h5BVdDU9fP1XcrwH7Xs0fBFZ-fQ_vVE4hxFDVHDUUsc&dib_tag=se&keywords=Hakko+CHP+3C-SA+Precision+Tweezers&qid=1705248110&sr=8-16' ),
     affiliate_url ( 'https://amzn.to/3O1Umwg' ),
@@ -2866,9 +3060,6 @@ equipment(
     listing_name  ( 'Hakko CHP 3C-SA Stainless Steel Non-Magnetic Precision Tweezers with Very Fine Point Tips for Microelectronics Applications, 4-1/4" Length (5 Pack)' ),
     item_price    ( 'AU$90.81' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Hakko+CHP+3C-SA+Precision+Tweezers' ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Hakko+CHP+3C-SA+Precision+Tweezers' ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Hakko-CHP-3C-SA-Precision-Tweezers.html' ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B08S9L1LT6/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1' ),
     order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=249-2973180-3935866' ),
@@ -2904,24 +3095,15 @@ equipment(
     EquipmentFeature::TORX_SCREWDRIVER_T25,
     EquipmentAttribute::CORDLESS,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Bosch' ),
-    model_name        ( 'IXO VI' ),
-    equipment_type    ( 'Electric Screwdriver' ),
-    category          ( 'Screwdriver' ),
-    category          ( 'Hand Tool' ),
-    category          ( 'Cordless' ),
-    manufacturer_link (
-      link_href       ( 'https://www.bosch-diy.com/au/en/p/ixo-6-06039c7150' ),
-      link_text       ( 'Bosch IXO VI Electric Screwdriver' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Bosch_IXO' ),
   warning       ( 'I got the 6th generation but the 7th generation is out now, I have linked to both' ),
   see_also      ( 'Bosch IXO Angle Screw Adapter' ),
+  see_also      ( 'Bosch 91-Piece V-Line Titanium Drill Bit and Screwdriver Bit Set with Ratcheting Screwdriver Rotary Tool Accessory Set' ),
   search_url    ( 'https://www.amazon.com/s?k=Bosch+IXO+Electric+Screwdriver&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Bosch+IXO+Electric+Screwdriver&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Bosch+IXO+Electric+Screwdriver' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Bosch+IXO+Electric+Screwdriver' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Bosch-IXO-Electric-Screwdriver.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Screwdriver-Professional-Rechargeble-Lightweight-Convenient/dp/B07X4J9JHC/ref=sr_1_2?dib=eyJ2IjoiMSJ9.EgT-A3za1XW8F0VwZR59SbAWeuju4V5rXY31cjH827CEJmvN7RV_U0qZlJJGIm7BKs52rybkvkVsDZLhxPMbWAKq0TW4WLFIA3DIhDNVaV4.evRn7DF-5oTJ_rg1cElUlpwERZzzmIMQh2jb38FcEG4&dib_tag=se&keywords=Bosch+IXO+Electric+Screwdriver&qid=1705250362&sr=8-2' ),
     affiliate_url ( 'https://amzn.to/3O54HYd' ),
@@ -2936,14 +3118,12 @@ equipment(
     item_price    ( 'US$125.00' ),
     item_shipping ( 'US$20.90' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Bosch+IXO+Electric+Screwdriver&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Bosch-Home-Garden-Cordless-Screwdriver/dp/B0C2HCM97F/ref=sr_1_42?dib=eyJ2IjoiMSJ9.3DIiqj_VbLsrt7dI4VmnGtCiF1ps-vHUMp_jZiktGhVzQwB4M7mXZ5PIs63OIl-AqRQg1Ztcgba0_5Fon4BD7C1e8cEa7_CmsREEKAir9WcqVUt2vc_HfSP6_FwEtL-lSmzxf0VqJNlK9hp-Vzzvsw.K_XJ8h5gXi4TsLasuPsTNvle0LTVhhkRZ4yjEt7_TeU&dib_tag=se&keywords=Bosch+IXO+Electric+Screwdriver&qid=1705250585&sr=8-42' ),
     affiliate_url ( 'https://amzn.to/48U9inU' ),
     listing_name  ( 'Bosch Home & Garden 3.6V Cordless Electric Screwdriver Gun Variable Speed with 10 Screwdriver Bits & Storage Box (IXO 7)' ),
     item_price    ( 'AU$65.00' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Bosch+IXO+Electric+Screwdriver' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/155327559494?hash=item242a3e7746%3Ag%3AIT0AAOSwB-NiWqWh&amdata=enc%3AAQAIAAAA8JDs7o%2FKWoqqLBjakpV%2BxrapOvAGBeIp%2Fh4pag8Ya%2B7fCNPj2bM7Ntnaw96W73fdSHLmnUbvvHbMqD4W%2B6CyXVq6HdEz0cClOYvo8n9GEIeqRKLiA%2FfCIb1m4T85Z%2BinSTO%2FeZXSJLOHnBvoRiSvXRjhkACpFnV72r5uiwDpWQpwNGmcj%2F34emYLYGWjMereVejsH%2Fz1byZHCCOBsAjQWyNSBqj%2BAZVdreUANpwKWB%2FcdTmEg6Aj%2BnoRueJRbbv%2BRwyO%2B2PXzy%2FaHw8kdUPRzLaj5duhjyIh%2F%2BFxOG1he8ppCfLYARBB9vcuXWJwhnQlbg%3D%3D%7Ctkp%3ABk9SR7Sz4I2hYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/t2wWwZ' ),
@@ -2963,7 +3143,6 @@ equipment(
     listing_name  ( 'Bosch 3.6 V Cordless Electric Screwdriver Gun 2 Attachments 10 Bits & Case IXO 7' ),
     item_price    ( 'US$52.93' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Bosch+IXO+Electric+Screwdriver' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/385548723418?hash=item59c47ea4da%3Ag%3AQVIAAOSwVQNkT4Mx&amdata=enc%3AAQAIAAAA8HOBQ0imMzTfvFqXBhZS0qgNJ8xP4J1AfwYnlLhP71A2zWvAnq7yiNTslHaeP5SlPi8UClnV%2FqL3v5XPa3k53EEw9trDMeJkaWOhAKG4LtPGcm%2BlvgvBgczr85lLRUT9WZ8Vo57w%2F2zdSAEV7tN%2FiPXn1Ep4VUBzXS9AD9Niuk5OwmEI39vMI5%2FIgpHXO6Hs%2FBTOlZDzjLuj4JwvyNT83V7YViITPkmt9yn8jbr%2FxZQ8%2FWP2Q1VggbvkVVFQ4iZWDFjK2uCy4I5%2FlFkxTrjbFqdWfkyRkobm8huyf0wv%2BUopRrwTN3fNUhwAOYYaBgjx0g%3D%3D%7Ctkp%3ABk9SR_Lk-o2hYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/kGOFj4' ),
@@ -2976,7 +3155,6 @@ equipment(
     listing_name  ( 'Bosch 3.6 V Cordless Electric Screwdriver Gun 2 Attachments 10 Bits & Case IXO 7' ),
     item_price    ( 'AU$79.00' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Bosch-IXO-Electric-Screwdriver.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006198869100.html?spm=a2g0o.productlist.main.21.2fca73d2rFH7wm&algo_pvid=914774a6-15dd-45fe-9261-71938bec245b&algo_exp_id=914774a6-15dd-45fe-9261-71938bec245b-10&pdp_npi=4%40dis%21AUD%21190.66%21101.05%21%21%21903.61%21478.91%21%402101e5c517052511154398768e108b%2112000036965889473%21sea%21AU%214385823938%21&curPageLogUid=gy4yvGSNFb3Z&utparam-url=scene%3Asearch%7Cquery_from%3A' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DmRPuNb' ),
@@ -3023,21 +3201,6 @@ equipment(
     model_name        ( 'IXO' ),
     EquipmentFeature::ANGLE_SCREW_ADAPTER,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Bosch' ),
-    model_name        ( 'IXO' ),
-    equipment_type    ( 'Angle Screw Adapter' ),
-    category          ( 'Screwdriver' ),
-    category          ( 'Adapter' ),
-    category          ( 'Accessory' ),
-    category          ( 'Attachment' ),
-    manufacturer_link (
-      link_href       ( 'https://www.bosch-diy.com/au/en/p/ixo-collection-angle-screw-adapter-1600a001y8' ),
-      link_text       ( 'Bosch IXO Angle Screw Adapter' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Bosch_IXO' ),
   see_also      ( 'Bosch IXO VI Electric Screwdriver' ),
   affiliate_link(
@@ -3079,17 +3242,12 @@ equipment(
     EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH2,
     EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH3,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Amazon Basics' ),
-    equipment_type    ( 'Ratchet Screwdriver' ),
-    category          ( 'Screwdriver' ),
-    category          ( 'Ratchet' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Bosch_IXO' ),
   search_url    ( 'https://www.amazon.com/s?k=Amazon+Basics+Ratchet+Screwdriver&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Amazon+Basics+Ratchet+Screwdriver&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Amazon+Basics+Ratchet+Screwdriver' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Amazon+Basics+Ratchet+Screwdriver' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Amazon-Basics-Ratchet-Screwdriver.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Amazon-Basics-12-Piece-Screwdriver-Turquoise/dp/B08KTW7N8K/ref=sr_1_1?dib=eyJ2IjoiMSJ9.vhmb98n6i9bYeHp6ajZdCA.nf2X1vpHwLEFB-GnXjvjfA_U_RN0Izlal8IQFZBfHxI&dib_tag=se&keywords=Amazon%2BBasics%2BRatchet%2BScrewdriver&qid=1705251411&sr=8-1&th=1' ),
     affiliate_url ( 'https://amzn.to/3RVdTzz' ),
@@ -3097,14 +3255,12 @@ equipment(
     item_price    ( 'US$18.87' ),
     item_shipping ( 'US$19.09' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Amazon+Basics+Ratchet+Screwdriver&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/AmazonBasics-12-in-1-Magnetic-Ratchet-Screwdriver/dp/B07V5WYXP5/ref=sr_1_38?dib=eyJ2IjoiMSJ9.5u3ZKiYplTGIRWhc9PjO8Lc6weS3ST3bfYhm7Z2cfGVlnxv4sQ5B_d6ue-5GSAFpHry-Jv7G8g91vWUfh0NoGJJ_T2lff-T2mjsvwIh6zOZmwhFvDywrBT-MQGYpsPhXAs99nI16aGYqbgoJwf-iJw.OEardEJVZD7IaWjsGQ5kEp0lk-H3quVtgIIqJ8Dqbqg&dib_tag=se&keywords=Amazon%2BBasics%2BRatchet%2BScrewdriver&qid=1705251470&sr=8-38&th=1' ),
     affiliate_url ( 'https://amzn.to/3tUhV37' ),
     listing_name  ( 'Amazon Basics 12-in-1 Magnetic Ratchet Screwdriver' ),
     item_price    ( 'AU$33.54' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Amazon+Basics+Ratchet+Screwdriver' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/375146423752?hash=item57587825c8%3Ag%3ANJQAAOSwR6Jli43C&amdata=enc%3AAQAIAAAA0NcuBHd49ftUpvhSCFAEVS3oT2fj7tHdowaa%2FmZmxPg6YUuYIkm784nHZc2ogVvW5VxGQK%2BA0DPh%2F1y6G7tKURV8ZGncnmXZA7SrQbYLa7AiwLmWQOSxVEE%2FjOjjInUsL0LKPydCjH%2BFC1tY6ZC7%2F1HocYd5wJ8Lg04EGxk%2F9eDxO4OLh4lZtiNMydoPRrr5r9MzPSFNBUfOw3a8GuCHpvf987fquDIhF3%2BaABAmmYSq39AX8ML6iKG80uXZLVOudqnJcEqQ2qpOOPwk0YDIdl8%3D%7Ctkp%3ABk9SR47oy46hYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/NMT7iJ' ),
@@ -3112,8 +3268,6 @@ equipment(
     item_price    ( 'US$34.04' ),
     item_shipping ( 'US$3.15' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Amazon+Basics+Ratchet+Screwdriver' ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Amazon-Basics-Ratchet-Screwdriver.html' ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B07V5WYXP5/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1' ),
     order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=249-7183773-5004638' ),
@@ -3142,27 +3296,13 @@ equipment(
     EquipmentFeature::ESR_METER,
     EquipmentAttribute::TEST_EQUIPMENT,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Miniware' ),
-    model_name        ( 'DT71' ),
-    equipment_type    ( 'Digital Tweezers' ),
-    category          ( 'Multimeter' ),
-    category          ( 'Signal Generator' ),
-    category          ( 'Waveform Generator' ),
-    category          ( 'Component Tester' ),
-    category          ( 'SMD Tester' ),
-    category          ( 'LCR Meter' ),
-    category          ( 'ESR Meter' ),
-    category          ( 'Meter' ),
-    category          ( 'Test Equipment' ),
-    category          ( 'Hand Tool' ),
-    category          ( 'Tweezers' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/DT71_Mini_Digital_Tweezers' ),
-  search_url    ( 'https://www.amazon.com/s?k=Miniware+DT71+Digital+Tweezers&s=price-asc-rank' ),
   warning       ( 'I got one without a storage bag, I don\'t need that.' ),
+  search_url    ( 'https://www.amazon.com/s?k=Miniware+DT71+Digital+Tweezers&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Miniware+DT71&crid=2VTIO9X09NNJ8&sprefix=miniware+dt71+%2Caps%2C226&ref=nb_sb_noss' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Miniware+DT71+Digital+Tweezers' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Miniware+DT71+Digital+Tweezers' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Miniware-DT71-Digital-Tweezers.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/MINIWARE-DT71-Recognition-Multimeterm-Multitester/dp/B08N69CRKV/ref=sr_1_1?dib=eyJ2IjoiMSJ9.x6INYz08PkPd65H87JOe1BoNiVzNGBE4XP1i86W78rU.YI9lkLQ0-iS72Vh7I1hNaDTVeJ9D46F5VbFf4u7691I&dib_tag=se&keywords=Miniware+DT71+Digital+Tweezers&qid=1705251812&sr=8-1' ),
     affiliate_url ( 'https://amzn.to/3SeeLAB' ),
@@ -3177,14 +3317,12 @@ equipment(
     item_price    ( 'US$75.74' ),
     item_shipping ( 'US$17.76' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Miniware+DT71&crid=2VTIO9X09NNJ8&sprefix=miniware+dt71+%2Caps%2C226&ref=nb_sb_noss' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Studio-Digital-tweezers-Multimeter-Testers/dp/B08HVDH5P3/ref=sr_1_1?crid=2VTIO9X09NNJ8&dib=eyJ2IjoiMSJ9.GUNmbdXqBIurVLlBgcqmxcFszur09hanJm4PDxhE6F36ouRD0409NbILsQPRhpUkJdFaFzBH1fcu80qkrxGohrIcdo_UQK9SaFwyHJtR34gVamCUrpz80WrcPU85hM1_qwT7CWWzwEudZv5VEjgahA.sOZYnvtXfw-jmRRW4Ag7vSe94L7eZbbGmLRUhpqpyHw&dib_tag=se&keywords=Miniware+DT71&qid=1705251936&sprefix=miniware+dt71+%2Caps%2C226&sr=8-1' ),
     affiliate_url ( 'https://amzn.to/41Ydcdg' ),
     listing_name  ( 'Seeed Studio DT71 Mini Digital tweezers Multimeter Multi Testers LCR/ESR Meter SMD Tester' ),
     item_price    ( 'AU$128.00' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Miniware+DT71+Digital+Tweezers' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/305175589657?hash=item470de1f319%3Ag%3AumAAAOSwVcllGswr&amdata=enc%3AAQAIAAAA8LFYgSBLccFchan6lNQecSMeMltHPamHwj28EM2fQBHYYILrjMxOS2qKuXWE%2BFx8TH96fEiNjsJX%2BbdTbSp8MCJ5XRVSAuDJ%2B81QW6%2B56dizfJS81Ufi3EphEWiyy8TF4U64MS86aNuVXQtoA%2FRsis6PwfZR57ZwDz%2FgtQyJDJcrvdsl92RKrIAqBRVUXZXyijGkPsBMnZdEi1u5bhx7pnfERmifyQuvqH5e6PguV%2FWsHVOtY5Bi6aYVSbnvY3Tmgl52NdkgIDa0QGGNjlKDUbmbzRSujE7ApGX2F6yYpvDD7xE1wYKJCvrivyQmnE4q7Q%3D%3D%7Ctkp%3ABk9SR8rOhI-hYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/Cu9EKw' ),
@@ -3204,7 +3342,6 @@ equipment(
     listing_name  ( 'DT71 Smart Mini Digital Tweezers LCR Meter Signal Generator Debugging Reparing' ),
     item_price    ( 'US$86.42' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Miniware+DT71+Digital+Tweezers' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/305175589657?hash=item470de1f319%3Ag%3AumAAAOSwVcllGswr&amdata=enc%3AAQAIAAAA0LFggcEKXavl7f7jmox%2BhS1aVjp9LmGpbcoL3I3CsKDdewwGzxD9WOXl5W0AqCGhyu%2BdS60S1i43bVvqza6xE7i%2F%2FFhM9GTKqcNWy6C%2BBe8ba%2Fj7OcjMGj1cBt5qpAaeOmQ9E2AgvWjauEQQYQY8E%2FNuU78vGoLZTTQz%2BKiuffHc3t1R8RYCmABK8pCt8V67Wu4mcn5lIrd3VRc3XFXSYO2sXot9VcYjgbgP8gLWb10U3wCdHPmRO%2FNG9OkNz9OXjbJpvNaKDtemsiKWb302CUE%3D%7Ctkp%3ABk9SR57Tlo-hYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/20fniO' ),
@@ -3224,7 +3361,6 @@ equipment(
     listing_name  ( 'DT71 Mini Digital Tweezers Smart LCR Meter Signal Generator Debugging Reparing' ),
     item_price    ( 'AU$144.99' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Miniware-DT71-Digital-Tweezers.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005001393724465.html?spm=a2g0o.productlist.main.1.76a93349yfAPW1&algo_pvid=311c0e23-c9f4-4e15-9fae-805e3494f4cc&algo_exp_id=311c0e23-c9f4-4e15-9fae-805e3494f4cc-0&pdp_npi=4%40dis%21AUD%21123.62%2182.82%21%21%2181.75%2154.77%21%402101fb1317052522861056185eaab9%2112000032137004589%21sea%21AU%214385823938%21&curPageLogUid=G9s6KdyANPZ8&utparam-url=scene%3Asearch%7Cquery_from%3A' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DEv98Ez' ),
@@ -3266,26 +3402,18 @@ equipment(
     EquipmentFeature::SOLDERING_STATION,
     EquipmentFeature::HOT_AIR_GUN,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Horusdy' ),
-    equipment_type    ( 'Soldering Station' ),
-    category          ( 'Soldering Iron' ),
-    category          ( 'Hot Air Gun' ),
-    category          ( 'Bench Equipment' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Horusdy_Soldering_Station' ),
   search_url    ( 'https://www.amazon.com/s?k=Horusdy+Soldering+Station&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Horusdy+Soldering+Station&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Horusdy+Soldering+Station' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Horusdy+Soldering+Station' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Horusdy-Soldering-Station.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Horusdy-Soldering-Station-Digital-Display/dp/B08XZ9XFST?&linkCode=sl1&tag=johnelliotv-22&linkId=980137cad004547fc14a60175ce0236b&language=en_AU&ref_=as_li_ss_tl' ),
     affiliate_url ( 'https://amzn.to/3tYgFvO' ),
     listing_name  ( 'Horusdy 2in1 Soldering Station Solder Iron Rework Hot Air Blower Digital SMD Display + 11 Tips, 4 Nozzles & Tweezer Set' ),
     item_price    ( 'AU$92.99' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Horusdy+Soldering+Station' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/166543660901?hash=item26c6c69765%3Ag%3AMrkAAOSw1JRlndYK&amdata=enc%3AAQAIAAAA0E801sienX3xHEjJC4lHXUPCtLxe%2FZ%2Fr3yFs31eA7fx5%2BG7D8ecCIxdoli3ZsOw6SuCFoxdd7Yy2P3L8C7RKy61A%2FGPdXgh3uUnVipQO%2F86SBGR7zQ3bs6zQ89wHcr5EJ1VLJTs%2FnCzaVLG7eLnnNeiG%2BKpJb1IfnrwEB2O4UUqSNOl9DCfPOwPgQ1uIGTwERYigWo27GB6S46G9QFPi5GEtEV%2BqVZEASXGLzMZWQLhb2n11EqEYRNaB8nEmPEuKpJxP2JSo9tcIVLz4gQ2CC6M%3D%7Ctkp%3ABk9SR768zI-hYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/W3gP9u' ),
@@ -3304,7 +3432,6 @@ equipment(
     listing_name  ( '2in1 Soldering Iron Solder Rework Station Hot Air Gun Digital SMD Desoldering' ),
     item_price    ( 'US$56.94' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Horusdy+Soldering+Station' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/394708577091?hash=item5be676eb43%3Ag%3AJYMAAOSw5glknNea&amdata=enc%3AAQAIAAAA8KxKL0PohNIHSR4DzZIzssWAeEa4err8ZtsUry%2FdyhGi78ILxkS9t4Eu%2F%2BnRmucPxNnPCeDkpZ7vv%2FV0ikR5OcfS2NtsRunrktiwBw9WVAnFr2DWsRCmSs%2FGXZROWTapEF2kxuC%2BFpHMqEVV%2Br%2FauJ5mKUaPldg3I%2FDc8%2BrszxzBRTtUmA4%2FkBohXrug5C%2FQa%2BhnNKCbTU20x%2Bbby%2B3Fr8OCQQIxQk0NPhdDaPD48tMBvjCMprAsLxTfQOZOX%2BLauMzOkvbvXZaZ4nt1xAS78PEB%2BjENt27x4FU%2FMfBAOiM%2Fyb%2BuQq8ux1S98NFXulZfog%3D%3D%7Ctkp%3ABk9SR4S164-hYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/gzt0D6' ),
@@ -3323,7 +3450,6 @@ equipment(
     listing_name  ( '2in1 Soldering Iron Solder Rework Station Hot Air Gun Digital SMD Desoldering' ),
     item_price    ( 'AU$84.99' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Horusdy-Soldering-Station.html' ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B08XZ9XFST/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1' ),
     order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=503-0230202-8709419' ),
@@ -3350,25 +3476,13 @@ equipment(
     EquipmentAttribute::HAND_TOOL,
     EquipmentConnectivity::USB,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Tera' ),
-    model_name        ( 'HW0006 Pro' ),
-    equipment_type    ( 'Barcode Scanner' ),
-    category          ( 'Barcode Scanner' ),
-    category          ( 'Scanner' ),
-    category          ( 'Hand Tool' ),
-    category          ( 'Cordless' ),
-    category          ( 'USB' ),
-    manufacturer_link (
-      link_href       ( 'https://tera-digital.com/products/2d-barcode-scanner-hw0006' ),
-      link_text       ( 'HW0006Pro 2D Wireless Barcode Scanner with Display Screen' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Tera_Barcode_Scanner' ),
   warning       ( 'Some of these links/prices are for used goods' ),
   search_url    ( 'https://www.amazon.com/s?k=Tera+HW0006+Pro+Barcode+Scanner&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Tera+HW0006+Pro+Barcode+Scanner&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Tera+HW0006+Pro+Barcode+Scanner' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Tera+HW0006+Pro+Barcode+Scanner' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Tera-HW0006-Pro-Barcode-Scanner.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/gp/product/B0829R5J2X?th=1&linkCode=sl1&tag=johnelliotv-20&linkId=8ad79e9cc467ce649fd031262593fe4e&language=en_US&ref_=as_li_ss_tl' ),
     affiliate_url ( 'https://amzn.to/4aX3BaF' ),
@@ -3381,16 +3495,12 @@ equipment(
     listing_name  ( 'Tera 2D QR Wireless Barcode Scanner with Screen Display Battery Level Indicator and Time Display Work with Bluetooth 2.4G Wireless 2200mAh Large Battery Charging Base for Warehouse HW0006' ),
     item_price    ( 'US$29.99' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Tera+HW0006+Pro+Barcode+Scanner&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B0829R5J2X/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1' ),
     affiliate_url ( 'https://amzn.to/47ELeEC' ),
     listing_name  ( 'Tera 2D QR Wireless Barcode Scanner with Screen Display Battery Level Indicator and Time Display Work with Bluetooth 2.4G Wireless 2200mAh Large Battery Charging Base for Warehouse Model HW0006' ),
     item_price    ( 'AU$91.35' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Tera+HW0006+Pro+Barcode+Scanner' ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Tera+HW0006+Pro+Barcode+Scanner' ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Tera-HW0006-Pro-Barcode-Scanner.html' ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B0829R5J2X/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1' ),
     order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=503-5024418-5069434' ),
@@ -3417,31 +3527,18 @@ equipment(
     EquipmentAttribute::CORDLESS,
     EquipmentAttribute::HAND_TOOL,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Ryobi' ),
-    model_name        ( 'RYSF5003' ),
-    equipment_type    ( 'Stud Finder' ),
-    category          ( 'Stud Finder' ),
-    category          ( 'Voltage Detector' ),
-    category          ( 'Hand Tool' ),
-    category          ( 'Cordless' ),
-    manufacturer_link (
-      link_href       ( 'https://www.ryobi.com.au/products/details/stud-finder-with-ac-detection-rysf5003' ),
-      link_text       ( 'Stud Finder with AC Detection | RYOBI' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Ryobi_RYSF5003' ),
   search_url    ( 'https://www.amazon.com/s?k=Ryobi+RYSF5003+Stud+Finder&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Ryobi+RYSF5003&crid=PE2YE777SR4J&sprefix=ryobi+rysf5003+stud+finder%2Caps%2C242&ref=nb_sb_noss_2' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Ryobi+RYSF5003+Stud+Finder' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Ryobi+RYSF5003+Stud+Finder' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Ryobi-RYSF5003-Stud-Finder.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/RYOBI-multiple-indicate-One-handed-operation/dp/B0CKV9LC8Q/ref=sr_1_1?crid=PE2YE777SR4J&dib=eyJ2IjoiMSJ9.8I1_avNdeyWDcZI_PbRV-EppoqOCWBJS4EX9JNVPQ8CAb2AyK6_rDRoyRENbbGyaBzWniowKtkD7pGOBoaYW2etZNSi4SYjC6Ef9js1p6BsUM0irt5YyebonODs5lVaB38spKg3CeP0YL_QlL3joHw.3cZtFddZs-Ch0jW8t1Xv3auyvL3Djx0nWBIEYsrexQc&dib_tag=se&keywords=Ryobi+RYSF5003&qid=1705253931&sprefix=ryobi+rysf5003+stud+finder%2Caps%2C242&sr=8-1' ),
     affiliate_url ( 'https://amzn.to/3tUpyGS' ),
     listing_name  ( 'RYOBI Stud Finder with multiple LEDs to indicate the full width of the stud. One-handed operation' ),
     item_price    ( 'AU$74.41' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Ryobi+RYSF5003+Stud+Finder' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/355281835761?epid=20064065296&hash=item52b87296f1%3Ag%3AYf4AAOSw2ntleAIP&amdata=enc%3AAQAIAAAA0GgFpBhj9fS0LG6dff76oZ0tBlmDjXDMGlm42ORHMeI%2BaHqwwAgzhvbGbdXkp0%2FnZ1Dv4MYhTaBY1dtEmacy%2FBAVQezDN%2BrOnsIEvyqs5x%2Fwn3XnFV9ZLdQcEYMQLIFB9CuWWJVeGvmQ%2F7R2hkXTO3joUqQ7y6%2BruSXJXNdmB8WQzkDhrTLUMTXIt%2BvAVU6wlRKacQM%2BGv1L6S%2FizsNhU1S5%2BZqCAfnMgTYGNZPUoExVOw2A7CL09UVJ%2F4JbX1nI1igGNg6%2BvBsK4CGChUPnj8c%3D%7Ctkp%3ABk9SR-Sk-ZChYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/UrqOUk' ),
@@ -3461,7 +3558,6 @@ equipment(
     item_price    ( 'US$60.26' ),
     item_shipping ( 'US$9.71' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Ryobi+RYSF5003+Stud+Finder' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/355281835761?epid=20064065296&hash=item52b87296f1%3Ag%3AYf4AAOSw2ntleAIP&amdata=enc%3AAQAIAAAA8HhIJdVdpnblJGpuzTPu7UNElbDU4PYs9Ug26sb8p0Lx30SOdDdXFysF0yyBi7HlwjP2bmxQSW8VCmfxBI%2BfDIzuCFMeC1KborY0l6KR9M5Ut%2FwxM4TwikNR3UgSU4bK2rcbVLmJVGNvys6h%2FxrEh10qcM6YtV1BxNH0DQas8vTQetFNhG%2Bq%2FUAxxlcNiBTtPs%2F2OP%2BHUJYw2ed0ZF7B5PwcIqWkQxJGlSqQHgxD%2FofHIhPl1eD%2FoVcW1ysH%2F1QnsP%2FUguehMEcpPJ697g%2BASTzHeC%2F7AcuCeJejRZX5zC0fGB%2Fdy2Fbfs%2BeqVSBAuGhpw%3D%3D%7Ctkp%3ABk9SR7SsipGhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/qB0kdG' ),
@@ -3481,7 +3577,6 @@ equipment(
     item_price    ( 'AU$89.95' ),
     item_shipping ( 'AU$14.50' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Ryobi-RYSF5003-Stud-Finder.html' ),
   purchase(
     equipment_url   ( 'https://www.ebay.com.au/itm/314570480726' ),
     order_url       ( 'https://order.ebay.com.au/ord/show?orderId=07-10148-42175#/' ),
@@ -3506,36 +3601,25 @@ equipment(
     EquipmentFeature::CRIMPING_TOOL,
     EquipmentFeature::PLIERS,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'ENGINEER' ),
-    model_name        ( 'PA-21' ),
-    equipment_type    ( 'Crimping Tool' ),
-    category          ( 'Crimping Tool' ),
-    category          ( 'Hand Tool' ),
-    manufacturer_link (
-      link_href       ( 'https://www.engineertools-jp.com/pa092021' ),
-      link_text       ( 'PA-09 / PA-20 / PA-21  Connector Crimping Pliers' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/ENGINEER_PA-21' ),
   see_also      ( 'ENGINEER PA-09 Crimping Tool' ),
   search_url    ( 'https://www.amazon.com/s?k=ENGINEER+PA-21+Crimping+Tool&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=ENGINEER+PA-21&crid=3IEXEA16DTIG4&sprefix=engineer+pa-21%2Caps%2C329&ref=nb_sb_noss_1' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=ENGINEER+PA-21+Crimping+Tool' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=ENGINEER+PA-21+Crimping+Tool' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-ENGINEER-PA-21.html?spm=a2g0o.productlist.search.0' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/ENGINEER-Universal-Crimping-Pliers-BPT-PCH/dp/B0CBL5611K/ref=sr_1_5?dib=eyJ2IjoiMSJ9.M_3sbXXaHlh8vmhwGnPWLvZr6xFTsALAMSA62WgNSTIg-4qQVy35RrW0Tb0D2yqPyuXmdLRAul7SOSs_eXo2IGUsu_VUWTC-lysT5--78IU1VDFGjpwMLG0Y0nND-DHx2OQjcu-7hDBsYqYUuK3iww.JnYIe8FjjpJN_V3ypTIrUG1uNSqPeXxiCtuLVUScM_k&dib_tag=se&keywords=ENGINEER+PA-21+Crimping+Tool&qid=1705254396&sr=8-5' ),
     affiliate_url ( 'https://amzn.to/3O4OAK9' ),
     listing_name  ( 'ENGINEER PA-21 Universal Crimping Pliers & BPT-PCH Tool Pouch (Made in Japan)' ),
     item_price    ( 'US$43.17' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=ENGINEER+PA-21&crid=3IEXEA16DTIG4&sprefix=engineer+pa-21%2Caps%2C329&ref=nb_sb_noss_1' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Engineer-PA-21-Universal-Crimping-Pliers/dp/B002L6HJ8W/ref=sr_1_1?crid=3IEXEA16DTIG4&dib=eyJ2IjoiMSJ9.PWtZ_Afpa2qoe5dfL8mpHumNGv5bWRxryi_tJa9iObZsS3PCAMrNapd582oiGyxMLo-_x19bjmfAdzclwkOentmzvAHl7nDycFeSsnGaa7IvhdSXxiOYEmGGyPkmuzDKswPt3LNIDI4IJsbGrRFV-w.EENCodd1u75JW58NjHBBhHPYoq_dhFDD_uGwLlrY5P8&dib_tag=se&keywords=ENGINEER+PA-21&qid=1705254506&sprefix=engineer+pa-21%2Caps%2C329&sr=8-1' ),
     affiliate_url ( 'https://amzn.to/3O4augy' ),
     listing_name  ( 'ENGINEER PA-21 Engineer Precision Crimping Pliers, Crimping Tool, Open Barrel, Long Barrel Terminal' ),
     item_price    ( 'AU$81.00' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=ENGINEER+PA-21+Crimping+Tool' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/161388380816?epid=21011373122&hash=item25937f4290%3Ag%3AsxoAAOSwEK9T4w6P&amdata=enc%3AAQAIAAAA8LiONzlHKtQxGyFiVcEqm50Q%2BUwqyy6Wi6tkiB7NQfSHPl1fTldLDJXwAOOoc%2BOgOgIXnnoGBRVCz5KJnUvKlBDJXKotrJnzYrs5oRfsVRoPjVZMb%2BZnZ30Uy1JWezKUrS8xkHSqOm%2FdkbHd6OQpW9ae0OZ3a7cM%2Fhbmd3%2FZgmNwwJSl9RHgLJc2cU91FLmrRsrlsPCKQOo8LWAWGUbIa8JFy7%2BdqT7VBBeHdMM%2Bty6RK6hkLgyGn55CklmwfLpgLptaIXHRToSCuR17MpoR%2FwTd42YBuOoJdzf0Y214UiitCzwAEgrSMS1uPw%2FGgYKjWA%3D%3D%7Ctkp%3ABk9SR9S1vJGhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/rWjhSc' ),
@@ -3555,7 +3639,6 @@ equipment(
     listing_name  ( 'Engineer PA-21 Universal Mini Micro Crimping Tool Molex Amp Crimp F/S w/Track#' ),
     item_price    ( 'US$61.87' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=ENGINEER+PA-21+Crimping+Tool' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/161388380816?epid=21011373122&hash=item25937f4290%3Ag%3AsxoAAOSwEK9T4w6P&amdata=enc%3AAQAIAAAA0C8MjvwPIlq3eNhZQWo8qVSAIszTWSHOHl3RycICTdi0ojFsSj3i2IR7IbEgEV0AlTYp2lZQjN0S%2FdISUty5gWoAlHifPzTkhvgrwZmgT1mestBvajKThT0KLzSu7xZB%2FLs9eJ0WSonLYEp%2FvvC2gTBSidukAqgD%2FXtj4L2MpsjUCFyF2cpUUnCtqqDHhYgrV4BqTCTGTsybw%2FYmeMPva4SEofhLKLRXN2fylX6Lej8QgUS7vuX0vhu%2Fn6zrFTvtPyAGkLuhBVa1kWvfjO31VrM%3D%7Ctkp%3ABk9SR6CLzZGhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/tzCbCm' ),
@@ -3576,7 +3659,6 @@ equipment(
     listing_name  ( 'Engineer PA-21 Universal Mini Micro Crimping Tool Molex Amp Crimp F/S w/Track#' ),
     item_price    ( 'AU$101.59' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-ENGINEER-PA-21.html?spm=a2g0o.productlist.search.0' ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B002L6HJ8W/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&th=1' ),
     order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=249-7709053-4855033' ),
@@ -3601,22 +3683,13 @@ equipment(
     EquipmentFeature::CRIMPING_TOOL,
     EquipmentFeature::PLIERS,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'ENGINEER' ),
-    model_name        ( 'PA-09' ),
-    equipment_type    ( 'Crimping Tool' ),
-    category          ( 'Crimping Tool' ),
-    category          ( 'Hand Tool' ),
-    manufacturer_link (
-      link_href       ( 'https://www.engineertools-jp.com/pa092021' ),
-      link_text       ( 'PA-09 / PA-20 / PA-21  Connector Crimping Pliers' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/ENGINEER_PA-09' ),
   see_also      ( 'ENGINEER PA-21 Crimping Tool' ),
   search_url    ( 'https://www.amazon.com/s?k=ENGINEER+PA-09+Crimping+Tool&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=ENGINEER+PA-09&crid=LMYWIG0O4GMJ&sprefix=engineer+pa-09%2Caps%2C246&ref=nb_sb_noss_1' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=ENGINEER+PA-09+Crimping+Tool' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=ENGINEER+PA-09+Crimping+Tool' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-ENGINEER-PA-09-Crimping-Tool.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Engineers-Precision-Crimping-Pliers-Pa-09/dp/B002AVVO7K/ref=sr_1_1?dib=eyJ2IjoiMSJ9.J9FwDKB_oH393uNbrmyJY0rlwykBKuWL1cR2nIl3cHcyI8fOesNsHLCMgWoOkkLedIhr4EugE41wA5-7hyeBCXfklHJlEQImpjh_9Nn_Kc4.E9iLp557_Rxc1WivAAfGonSFqpvlpYsUnhpgZwLijoY&dib_tag=se&keywords=ENGINEER+PA-09+Crimping+Tool&qid=1705256626&sr=8-1' ),
     affiliate_url ( 'https://amzn.to/4aTgHG7' ),
@@ -3630,14 +3703,12 @@ equipment(
     listing_name  ( 'ENGINEER PA-09 Precision Crimping Pliers & BPT-PCH Tool Pouch (Made in Japan)' ),
     item_price    ( 'US$41.50' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=ENGINEER+PA-09&crid=LMYWIG0O4GMJ&sprefix=engineer+pa-09%2Caps%2C246&ref=nb_sb_noss_1' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/ENGINEER-PA-09-Super-Precise-Open-Barrel-Narrow-Pitch/dp/B002AVVO7K/ref=sr_1_1?crid=LMYWIG0O4GMJ&dib=eyJ2IjoiMSJ9.3WsXc4VS16laG_ZoxwbrnNOsHR5rUpEDRWgUmwrrn-eIfCJ6QVem8rX7GsThG4Rb7h6LuWoAjAIZkio1eklibjae977JfJimU_mjEqpduPdzW1eMlWZSAScgroueHyuc3V2Rje0jYLeDvFUIOyy-UQ.P_K3cYQ3UPLf5NBmB8KtA0S5MrXSA_tf1Y32oxa93p0&dib_tag=se&keywords=ENGINEER+PA-09&qid=1705256773&sprefix=engineer+pa-09%2Caps%2C246&sr=8-1' ),
     affiliate_url ( 'https://amzn.to/47BTKV4' ),
     listing_name  ( 'ENGINEER Universal crimping tool for crimping different crimp connectors from major connector manufacturers. PA-09' ),
     item_price    ( 'AU$70.00' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=ENGINEER+PA-09+Crimping+Tool' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/353504034126?epid=710099147&hash=item524e7b7d4e%3Ag%3AdjwAAOSw7G9gpy7X&amdata=enc%3AAQAIAAAA8DF4rnlv%2BS%2B6CZB7lH0zHYqhtexMfMMBL8flsVlz3rnJoaaiYXxwOhwOy3Ykzbnk1jYBsCvt2hrnwHzr2NpKWW1v9hPm4QfZWx63XQ9HTT%2BtO7rMFqa%2FJMsvfhVo1ISYfKt1VPfzc9OTpC7bItir7qcJWBWnSj2ikoQCguS2BD1xiXFH51sTwO5cu8NdOAD59z5aXUOMolkhshCskMQmFtawYn3tjC1qfJotqheA9NIWUdD105u5vN%2BfgmQcbZ6lnLI1ymp5vPFpoqOhY9vY%2F94MPgO879uyMgmxc%2BtxjJhSoFW00NkqL%2FLfOzrnNlrI6A%3D%3D%7Ctkp%3ABk9SR66-0ZOhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/Jeqe2H' ),
@@ -3656,7 +3727,6 @@ equipment(
     listing_name  ( 'Engineer PA-09 Mini Molex Amp JST Crimp Tool Wire Terminal Crimping Pliers F/S' ),
     item_price    ( 'US$58.63' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=ENGINEER+PA-09+Crimping+Tool' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/353632218549?epid=22024813963&hash=item52561f6db5%3Ag%3AdjwAAOSw7G9gpy7X&amdata=enc%3AAQAIAAAA8INZjqY%2FgMsPNgmVxGj7TCDhiOYnkYVVefuOF%2Fgqt8mbHXHWAq8MK7k2gHbiMmvYVt07YM%2FybFXZ4VAR%2B%2BDEOkn7d01Y5NEavLBoqC0%2Bw%2FYZvvPcvfknfsF%2Be6avlvl5CR4wf4rzIWWsyLP%2F2FLl6%2BzTXJsgecDAVX%2B2jGi%2BUm3s%2F1tpU%2B1fyCNPiVsk2w8l7jHOYo55cYCVb0yIs0LP0DlIivIxX%2BXXnXsYGMA7OCRtyjpXIi0yJfNfcoNt6NjKncC5tpRGTZfXJE1ZokPMycTLGJQaNjvF7CwBw%2BlHc%2FKmoaKo3irK0f%2FAnFcg5YzAkA%3D%3D%7Ctkp%3ABk9SR-iq5ZOhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/s8cMLV' ),
@@ -3675,7 +3745,6 @@ equipment(
     listing_name  ( 'Engineer PA-09 Mini Molex Amp JST Crimp Tool Wire Terminal Crimping Pliers F/S' ),
     item_price    ( 'AU$96.26' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-ENGINEER-PA-09-Crimping-Tool.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006392903132.html?spm=a2g0o.productlist.main.1.44e86135oqlNpe&algo_pvid=227a016d-87f7-4e9d-8d2b-7d9f92be3ce5&algo_exp_id=227a016d-87f7-4e9d-8d2b-7d9f92be3ce5-0&pdp_npi=4%40dis%21AUD%21165.89%2199.53%21%21%21786.19%21471.71%21%402103201917052571153832850ea21f%2112000037005741125%21sea%21AU%214385823938%21&curPageLogUid=jUMOGUbxfLAY&utparam-url=scene%3Asearch%7Cquery_from%3A' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DmSBZhX' ),
@@ -3701,34 +3770,20 @@ equipment(
     model_name        ( 'DSO-TC3 3 in 1' ),
     EquipmentFeature::OSCILLOSCOPE_SIGNAL_GENERATOR_COMPONENT_TESTER,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'FNIRSI' ),
-    model_name        ( 'DSO-TC3' ),
-    equipment_type    ( '3 in 1 Oscilloscope, Signal Generator, Component Tester' ),
-    category          ( 'Oscilloscope' ),
-    category          ( 'Signal Generator' ),
-    category          ( 'Waveform Generator' ),
-    category          ( 'Component Tester' ),
-    category          ( 'Transistor Tester' ),
-    category          ( 'Multimeter' ),
-    category          ( 'LCR Meter' ),
-    category          ( 'Meter' ),
-    category          ( 'Test Equipment' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/FNIRSI_DSO-TC3' ),
   see_also      ( 'Rigol MSO5074 Mixed Signal Oscilloscope' ),
   see_also      ( 'Kingst LA1010 USB Logic Analyzer' ),
   search_url    ( 'https://www.amazon.com/s?k=FNIRSI+DSO-TC3+Component+Tester&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=FNIRSI+DSO-TC3+Component+Tester&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=FNIRSI+DSO-TC3+Component+Tester' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=FNIRSI+DSO-TC3+Component+Tester' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-FNIRSI-DSO-TC3-Component-Tester.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Oscilloscope-Generator-Transistor-Bandwidth-Transistors/dp/B0CHW414W1/ref=sr_1_2?dib=eyJ2IjoiMSJ9.wO328khD2SHT_OBw63UF7VF7odEtiP3Skexe-VLtLEw.tznWaavH26GxZaZJoCmXiMiMdMfM8GpX6ZYONkl6yLg&dib_tag=se&keywords=FNIRSI+DSO-TC3+Component+Tester&qid=1705257907&sr=8-2' ),
     affiliate_url ( 'https://amzn.to/47GcnHb' ),
     listing_name  ( 'DSO-TC3 Handheld Digital Oscilloscope 3 in 1 Handheld Oscilloscope, DDS Signal Generator and Transistor Tester, 500Khz Bandwidth 10MSa/s Sampling Rate, 6 Types of Waveforms, Transistors Measure' ),
     item_price    ( 'US$44.68' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=FNIRSI+DSO-TC3+Component+Tester&s=price-asc-rank' ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=FNIRSI+DSO-TC3+Component+Tester' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/145011153411?hash=item21c3569a03%3Ag%3AEjEAAOSwnK9kJWoe&amdata=enc%3AAQAIAAAA0NcYuqQtkvOTTRw0hl9T1UeHh%2BGmmuHvgJGNwkpG%2BtcRniVcV%2B%2Bw4LEZmT1zeIWtCzsGmBt2cnLgkmMejdoXDi6B4ipLkEJJRrdJDujlxGcElZuNYcgXDosJllt%2BZSD682fdRblXX6QZQSMEzt2dKVZNAMmsRaS%2BZ5L1mvXIejCEh1wsoBPLL1Fs67ED%2Bf%2FZZiEFA1CYqdePkYKxkRpgWLhX2iIIfymg%2Bcs7otB2ksNN%2FBtGmNChBEPU0cGf6ZuVHmaQEzst6LRJC1nbjkwoZ%2FQ%3D%7Ctkp%3ABk9SR6Lt7JShYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/aLRmu7' ),
@@ -3752,7 +3807,6 @@ equipment(
     item_price    ( 'US$59.99' ),
     item_shipping ( 'US$1.99' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=FNIRSI+DSO-TC3+Component+Tester' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/394803504755?hash=item5bec1f6673%3Ag%3AkesAAOSwYvVk1Ipg&amdata=enc%3AAQAIAAAA8Ds1NdiyDoUirZLBln4tPBKRAAsy1hg3%2F%2BNRgbA7qP9xrbdH3ylFZCy0FlJ6il4FDzKwwSNVQlsrOUu9O6SOOBUeP9zmFyVDjS8LjRRjuXf45ehwt8rhpeKXNalgi0P4tfuyBZantRPV6CgZnL0AqOuOnYXYejqsXgNSe4%2BZOK0Lmm6TNVTFpQwjboFJ%2BhPH%2BumDyRd9N1uLOveakIWQavHBJ1yGME8CJYqA3dXxEgcrfgZYEn5NYaH%2BV6cqK%2BGdtE0s0Pe%2Fch5uODJDE2QJoSrqrenW8Tz7yqkZS2Ych1IE4GfmsoanLN7N4b1KhR1ngQ%3D%3D%7Ctkp%3ABk9SR47IjJWhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/A9YPuD' ),
@@ -3774,7 +3828,6 @@ equipment(
     item_options  ( 'Model Type: Advanced Version' ),
     item_price    ( 'AU$86.99' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-FNIRSI-DSO-TC3-Component-Tester.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005004347800646.html?spm=a2g0o.productlist.main.9.42ad3ecc4j4HHE&algo_pvid=827a7eb0-8906-492d-a78a-0f2105b7de7e&aem_p4p_detail=202401141055299511976975261640016420023&algo_exp_id=827a7eb0-8906-492d-a78a-0f2105b7de7e-4&pdp_npi=4%40dis%21AUD%21118.50%2171.11%21%21%2178.36%2147.02%21%40210318c317052585294141908e89eb%2112000034761891676%21sea%21AU%214385823938%21&curPageLogUid=RYqFvWVMCHii&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=202401141055299511976975261640016420023_5' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DdFc0QN' ),
@@ -3818,33 +3871,24 @@ equipment(
     EquipmentFeature::ELECTRIC_SCISSORS,
     EquipmentAttribute::CORDLESS,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Jackcat' ),
-    equipment_type    ( 'Electric Scissors' ),
-    category          ( 'Electric Scissors' ),
-    category          ( 'Scissors' ),
-    category          ( 'Hand Tool' ),
-    category          ( 'Cordless' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Jackcat_Mini_Cutter' ),
   search_url    ( 'https://www.amazon.com/s?k=Jackcat+Electric+Scissors&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Jackcat+Electric+Scissors&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Jackcat+Electric+Scissors' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Jackcat+Electric+Scissors' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Jackcat-Electric-Scissors.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/dp/B0C2CQCWGN' ),
     affiliate_url ( 'https://amzn.to/48SX0w9' ),
     listing_name  ( 'Yellow 220V Cordless Electric Scissors, Electric Mini Cutter, Rotary Cutter for Fabric and Cloth, Carpet and Cardboard Cutter' ),
     item_price    ( 'AU$75.66' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Jackcat+Electric+Scissors' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/134207139773?_trkparms=amclksrc%3DITM%26aid%3D1110006%26algo%3DHOMESPLICE.SIM%26ao%3D1%26asc%3D258818%26meid%3D9e45efa41b6d4e94b79f9c9285bd69ab%26pid%3D101875%26rk%3D2%26rkt%3D4%26sd%3D355154597357%26itm%3D134207139773%26pmt%3D1%26noa%3D0%26pg%3D4429486%26algv%3DSimplAMLv11WebTrimmedV3MskuWithLambda85KnnRecallV1V2V4ItemNrtInQueryAndCassiniVisualRankerAndBertRecallWithVMEV3CPCAuto%26brand%3DUnbranded&_trksid=p4429486.c101875.m1851&amdata=cksum%3A1342071397739e45efa41b6d4e94b79f9c9285bd69ab%7Cenc%3AAQAIAAABYObhgc4Nk8%252BdtAwOww4FKLaj%252FQ5qqgDlQCuqZA43WcPFUWDERCUugbbOk7XQv0JXlBfqCg2xKF3WcPghxGMFw2oSlXvfExEaMYr7I7LmrHcP6czY1wIMt0ORyKiCWt95xldincyyBx3g%252BNDW%252B%252FhWUgTaBhK6xAm%252BJIbCOMehu%252BdwPhNLQvwg4UhPTHrWIZiGGa%252FJCCtSlRUPPc9JPwg9nnjRPLVOeuuwdwHjGFj4u3fYxZAfRriwrKyH%252BXjULBRCagl9zjUV8Hs420K%252Fy%252F15za0R1%252F5AUvlIar%252B1XRMdF%252FY6i6X7jQj2%252BKs%252FMxBtn5bKlxQ7PFw2PGq5SU2Zn2dplkWdVpoOxD%252BwPrP26zIvMQ2UIoZ0ew70sDMCs24js90nsrWkYpTZCRxCLYsYQ3y805oIQ72SWTWpSApVnCen82wWfAf6I6G8DZ9flQC2JKu8FRJFyKLWIoDTbzl%252B%252FQP0BjI%253D%7Campid%3APL_CLK%7Cclp%3A4429486' ),
     affiliate_url ( 'https://ebay.us/pmc8Tm' ),
     listing_name  ( 'Cordless Electric Scissors Rotary Shear Fabric Leather Cloth Cardboard Cutter' ),
     item_price    ( 'US$39.20' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Jackcat+Electric+Scissors' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/175781120355?hash=item28ed5f0963%3Ag%3AMNAAAOSwIGxkkW0F&amdata=enc%3AAQAIAAAA8LwMBXXbQsNQLx2HGxMgqezVhuOnoAZamSWwu%2BzLuROAUSRCZyGYMrrkIPmQGAly%2BqQ%2FICVsVVHxX9%2BRxQThvmXPCySwyg8fgSEzWQfoLBqfSA7CrHeeYUr8xsiK02zkJ8rjCIWZ4GffnksV6h9c5F94BtMAzTtA0FFxB0oBFesetUTgaBZXiOOYIJXRXgUHGS6d2JHzQs6p0Ou5%2F6ySvMABbbJRnGkKlnG3YNjbvrqTtmHud2uoCDx9qVF8R0u3hov0RdVOmC6AAuCYwoHWY1ySDR4Emczq4zAKjXj1%2FgHhgIV2FAe8QNYPriZvCs8sGg%3D%3D%7Ctkp%3ABk9SR8yY55WhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/7LuCOF' ),
@@ -3852,7 +3896,6 @@ equipment(
     item_price    ( 'AU$36.58' ),
     item_shipping ( 'AU$0.50' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Jackcat-Electric-Scissors.html' ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B0C2CQCWGN/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1' ),
     order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=249-7863157-4181402' ),
@@ -3876,24 +3919,14 @@ equipment(
     model_name        ( 'LA1010' ),
     EquipmentFeature::USB_LOGIC_ANALYZER,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Kingst' ),
-    model_name        ( 'LA1010' ),
-    equipment_type    ( 'USB Logic Analyzer' ),
-    category          ( 'Logic Analyzer' ),
-    category          ( 'USB' ),
-    category          ( 'Test Equipment' ),
-    manufacturer_link (
-      link_href       ( 'https://www.qdkingst.com/en/products/LA1010' ),
-      link_text       ( 'Product Selection of Logic Analyzer' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Kingst_LA1010' ),
   see_also      ( 'Rigol MSO5074 Mixed Signal Oscilloscope' ),
   see_also      ( 'FNIRSI DSO-TC3 3 in 1 Oscilloscope, Signal Generator, Component Tester' ),
   search_url    ( 'https://www.amazon.com/s?k=Kingst+LA1010+USB+Logic+Analyzer&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=LA1010&crid=26QDIEKZZJ8OA&sprefix=la1010%2Caps%2C227&ref=nb_sb_noss_1' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Kingst+LA1010+USB+Logic+Analyzer' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Kingst+LA1010+USB+Logic+Analyzer' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Kingst-LA1010-USB-Logic-Analyzer.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/LA1010-Analyzer-channels-software-instrument/dp/B07D21GG6J/ref=sr_1_1?dib=eyJ2IjoiMSJ9.kiDryW7vBKP_OmmUyW6kwrYL__QQv1InBvF0ST3CbtrGjHj071QN20LucGBJIEps.IiP70zU_qB-ivEmOFzVcrquXtQynFY6hli8b0gdTjo0&dib_tag=se&keywords=Kingst+LA1010+USB+Logic+Analyzer&qid=1705259254&sr=8-1' ),
     affiliate_url ( 'https://amzn.to/3S1Nwbh' ),
@@ -3916,7 +3949,6 @@ equipment(
     item_price    ( 'US$89.02' ),
     item_shipping ( 'US$19.11' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=LA1010&crid=26QDIEKZZJ8OA&sprefix=la1010%2Caps%2C227&ref=nb_sb_noss_1' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/MiiElAOD-Analyzer-Channels-Samples-Software/dp/B0CQ7TGZNJ/ref=sr_1_2?crid=26QDIEKZZJ8OA&dib=eyJ2IjoiMSJ9.ci_3vIGkCRsbMauH5aLlfxF44KS7k7A2Yt1Rz6Mb87SevEPWQ465ekcmt__gDLMYmc4-Sf55NBQzlsMkpYap-pSpooc2b6OGLV6w3bI__vg5yfAXO96MlYGc9-zNRobFEEZliGIzCcPNc4MDK1rCmg.g8aOqWH3NykYqinDv653H9dokpVVd43QvZ42Rd6F5yg&dib_tag=se&keywords=LA1010&qid=1705259519&sprefix=la1010%2Caps%2C227&sr=8-2' ),
     affiliate_url ( 'https://amzn.to/48Ak0QU' ),
@@ -3936,7 +3968,6 @@ equipment(
     listing_name  ( 'USB Interface Logic Analyzer LA1010 Oscilloscope Analyzer with Adjustable Threshold for FPGA Board Observation Analyze' ),
     item_price    ( 'AU$106.84' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Kingst+LA1010+USB+Logic+Analyzer' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/256049725851?hash=item3b9dc0c19b%3Ag%3A2HwAAOSw0WVkQPrM&amdata=enc%3AAQAIAAAA8B5loSb22agn%2FvFPrwojwO6b7s%2BU4dcwGFqeUxfEaUu65eoQeCZfdIwct8XzX13Md5UK8ulAePGv0%2F9AP4qRNVwS8NORinTlVMhFzX68uVq9JsnliRuKyUR1FthW3a%2FlOe8hDni77FcXLYEwUGzYUC%2FTAo%2F6yadfxAvzCkdqFCuZjv0fZfQLW%2ByCPJSNVUYFF%2FP5vPH2aQYh%2FkWmlrikGbRJR%2FzfI8%2Fb2QQF7rXCtl1OiC0nz57ywBlM89DXEmFe1gXZqsc5O3KhNhQdqLDNy4Z1uACTfoLJTEw8JSLohui1G5PRZxlBQMKiDLQxd45mlg%3D%3D%7Ctkp%3ABk9SR9TsrJahYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/D1kRJl' ),
@@ -3958,7 +3989,6 @@ equipment(
     item_price    ( 'US$57.73' ),
     item_shipping ( 'US$5.00' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Kingst+LA1010+USB+Logic+Analyzer' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/364630730868?hash=item54e5af6874%3Ag%3AY-0AAOSw-Gxle%7E%7EM&amdata=enc%3AAQAIAAAA8DKkDKop%2BSFPOaQUCYwa6PnYHSXg1GjQI4SNGac8bN2yfGUEo0u6Q91zqAEwJ4Ogp%2Bf0%2BK%2FQQPrxHSaPqpiELO5Qnh7On8uYoaSW%2FguL%2BcKvq5WEYLK0tkAmeg2VhujqLHax7hmMUr1fWsc1GK3ZJ8V5tDZtuOKcWpXwcI3rPsEDj16GRjJJ0yXbETPcc%2B3ZeXMDda0YoHrskGal4zj18S%2FrMjXhAk9XViSa7W60Zf8UkfeKI8c%2BEguxaZTOxbMHEHWAtpOavMd40TVbcx4eXvdCgv8yl%2F897%2BCokkRhmjTibzC7zdZslhopJydQTHtFRA%3D%3D%7Ctkp%3ABk9SR8zzwJahYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/YttLCw' ),
@@ -3979,7 +4009,6 @@ equipment(
     listing_name  ( 'LA1010 USB Logic Analyzer 16 Channels Digital Logic Analyzer With 100MHz Sample' ),
     item_price    ( 'AU$112.44' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Kingst-LA1010-USB-Logic-Analyzer.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/32780046572.html?spm=a2g0o.productlist.main.1.1b6f20a0CZq31O&algo_pvid=fe87d5d7-9b4f-48ed-b726-1b8704f7d191&algo_exp_id=fe87d5d7-9b4f-48ed-b726-1b8704f7d191-0&pdp_npi=4%40dis%21AUD%2192.15%2170.96%21%21%21436.72%21336.27%21%402103297417052600314681764efc57%2162978540276%21sea%21AU%214385823938%21&curPageLogUid=TCEo7Vl8Kisq&utparam-url=scene%3Asearch%7Cquery_from%3A' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_Dl6xr5J' ),
@@ -4025,21 +4054,13 @@ equipment(
     EquipmentFeature::LABEL_MAKER,
     EquipmentAttribute::HAND_TOOL,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Brother' ),
-    model_name        ( 'P-Touch D210' ),
-    equipment_type    ( 'Label Maker' ),
-    category          ( 'Label Maker' ),
-    manufacturer_link (
-      link_href       ( 'https://www.brother.com.au/en/products/all-labellers/labellers/pt-d210' ),
-      link_text       ( 'Portable Desktop Label Maker PT-D210' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Brother_PT-D210' ),
   see_also      ( 'Brother P-touch H105 Label Maker' ),
   search_url    ( 'https://www.amazon.com/s?k=Brother+D210&crid=20GU3GJJ3EECX&sprefix=brother+d210%2Caps%2C305&ref=nb_sb_noss_1' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Brother+P-Touch+D210+Label+Maker&s=relevanceblender&qid=1705260658&ref=sr_st_relevanceblender&ds=v1%3A74cFMoOK7yYf2%2ByYjc%2FX2NZI553lJRv7yCWc0BJuEAM' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&LH_ItemCondition=1000&_nkw=Brother+P-Touch+D210+Label+Maker&_sop=12' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&LH_ItemCondition=1000&_nkw=Brother+P-Touch+D210+Label+Maker&_sop=12' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Brother-P-Touch-D210-Label-Maker.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Brother-PTD210-One-Touch-User-Friendly-Templates/dp/B013DG2FNW/ref=sr_1_10?crid=20GU3GJJ3EECX&dib=eyJ2IjoiMSJ9.pKaUXfSBGMS0b4khGAceanVY06f7o2VkY092B6oHPeQ_QwWn-nfHDqXYQfk-MoQmpOhpMjbE0dCIWY3BKOhVTeVN_GCMDkBA2t-8f7tyJ2HdwaJydGotCb4SXFOJwG-YzJad8KH6HgYirs3om4oSBA.kSDl5IrVgSL-CZqGJ3JbjOL8sj6G7PxrQt_Nsewmt9Q&dib_tag=se&keywords=Brother+D210&qid=1705260594&sprefix=brother+d210%2Caps%2C305&sr=8-10' ),
     affiliate_url ( 'https://amzn.to/48yocjY' ),
@@ -4047,7 +4068,6 @@ equipment(
     item_price    ( 'US$58.99' ),
     item_shipping ( 'US$22.38' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Brother+P-Touch+D210+Label+Maker&s=relevanceblender&qid=1705260658&ref=sr_st_relevanceblender&ds=v1%3A74cFMoOK7yYf2%2ByYjc%2FX2NZI553lJRv7yCWc0BJuEAM' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Brother-P-Touch-PTD210-Bundle-Included/dp/B09QXZ7ZRD/ref=sr_1_2?dib=eyJ2IjoiMSJ9.Nm1Obk25wYq9hz8YEf0AuVQo7L9T3IBS25afunaiCiwL1KmD8glcS52Y4bRnW8D-KXWgiHTEV6qyIgcTdQtXfqjx8NvA4zKcYRvTektcZ1DxH5CWnWAUVY2SqD9yNOu6zyvHC8RsQzVN8G474kjgTw.6VyB9GS_GtaClbKAHWRFZO3gikSRY5oUfI0NApXHEPk&dib_tag=se&keywords=Brother+P-Touch+D210+Label+Maker&qid=1705260664&sr=8-2' ),
     affiliate_url ( 'https://amzn.to/3tZiYib' ),
@@ -4060,7 +4080,6 @@ equipment(
     listing_name  ( 'Brother D210 P Touch Label Maker Machine' ),
     item_price    ( 'AU$49.00' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&LH_ItemCondition=1000&_nkw=Brother+P-Touch+D210+Label+Maker&_sop=12' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/255441642997?epid=2254297130&hash=item3b798225f5%3Ag%3AfsEAAOSwUBRlkCO2&amdata=enc%3AAQAIAAAA8PQiMJEXWe%2Fnb%2F%2BubHopAtY8QOFrAVlNjmURqVsemYj7uQoY4ks8kIw%2F7UrQNA8rzvJPbKV0E5RZ9O89Pvj35mp88AKj0kNGnCD%2FJomzFLww%2BHPNXNUiZaEdk8CdrFqkT1eidiq%2Byc2FqGeJxBGJgZvaSDC3%2FUjj5tcH3gB%2F%2B94BRr2jkibCkVXOQNPqsHsZzKfGdcU1qFxhC4mZGe5JseDlSw6jf9qkXaddppvXPMrOslcIi%2B%2B%2BeTgGjitk6sPE0Xc3gmVLO6PeKnxfjInlR%2F5d%2F4qx9RwiABYYtRLy%2BVh0yUTdIFLBk5%2BTyeC%2FE2G%2BkQ%3D%3D%7Ctkp%3ABFBMsqS1l6Fj&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/SdpRj9' ),
@@ -4081,7 +4100,6 @@ equipment(
     item_price    ( 'US$38.50' ),
     item_shipping ( 'US$45.91' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&LH_ItemCondition=1000&_nkw=Brother+P-Touch+D210+Label+Maker&_sop=12' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/175415279495?epid=2254297130&hash=item28d790bf87%3Ag%3A0OMAAOSwmPljIP9W&amdata=enc%3AAQAIAAAA8AiTWTWf9WXNTU0isgHqybCOX5wf0X4oTGQYq%2Byhoo773leXLbXQfXzyN8gS7SFUV7wO8qKhUPu4QJG5%2F31dT7XcBPhyWmwLoFnMUPXY%2FmZQKw8AJUmr%2BosWOr1eE%2FZNY2VMZ9v6n1wUj5hBAor5OhO8%2FkfzxaHTklmKsTmez4KKuDGWrVvEC2fbtRAhP42Hp2%2FKIJTXY8VcvVyxPjSxPjeTnbO1sCJMLmP%2B0ooEX2%2BM1grymyQK5CjdzbjlJ4o3VKaGHgR0gxJNdZnBegnst%2BZgoXQ3CsiNt1c%2FuyTZy6KgmhJkjeRbXZkAXphZirZciQ%3D%3D%7Ctkp%3ABk9SR9bKx5ehYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/k0wAqv' ),
@@ -4100,7 +4118,6 @@ equipment(
     listing_name  ( 'Brother PT-D210 P-Touch Easy Compact Label Maker 3.5, 6, 9 & 12mm in width' ),
     item_price    ( 'AU$65.50' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Brother-P-Touch-D210-Label-Maker.html' ),
   purchase(
     equipment_url   ( 'https://www.ebay.com.au/itm/175415279495' ),
     order_url       ( 'https://order.ebay.com.au/ord/show?orderId=26-10426-40847#/' ),
@@ -4125,21 +4142,13 @@ equipment(
     EquipmentFeature::LABEL_MAKER,
     EquipmentAttribute::HAND_TOOL,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Brother' ),
-    model_name        ( 'P-touch H105' ),
-    equipment_type    ( 'Label Maker' ),
-    category          ( 'Label Maker' ),
-    manufacturer_link (
-      link_href       ( 'https://www.brother.com.au/en/products/all-labellers/labellers/pt-h105' ),
-      link_text       ( 'Handheld Portable Label Printer PT-H105' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Brother_PT-H105' ),
   see_also      ( 'Brother P-Touch D210 Label Maker' ),
   search_url    ( 'https://www.amazon.com/s?k=Brother+P-touch+H105+Label+Maker&s=relevanceblender&qid=1705261141&ref=sr_st_relevanceblender&ds=v1%3Aj2UvMnK8xV4GzNVYhHL3ebObCXAu9GBOCYPuK2mDPHs' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Brother+P-touch+H105+Label+Maker&s=relevanceblender&qid=1705261211&ref=sr_st_relevanceblender&ds=v1%3AeSbiuZvQ%2FLX8exc3b10fw1ppC31wQUvWGokfwtVwntg' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Brother+P-touch+H105+Label+Maker' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&LH_ItemCondition=1000&_nkw=Brother+P-touch+H105+Label+Maker&_sop=12' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Brother-P-touch-H105-Label-Maker.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Brother-P-Touch-PTH105ZG1-Handheld-Label/dp/B00AEU1KAU/ref=sr_1_3?dib=eyJ2IjoiMSJ9.d45fP0Ugm28jCNTQ6kM7X9yL6YMZlbBA3zoZcxK6ZMsLjFL-QFgqnPcpmTrN-s3fgtY05C-eAEM7k4vwtw6Q3czOygh9D-nb3MRiV2R-7zlT9fZsFrhOnfpO4y21N77gfvUN_uhuTDuYbbloYiLCXA.KNvzI-yJSb2QQE7AkI1JrmxABLOkV3TOqL6RgwTw_XE&dib_tag=se&keywords=Brother+P-touch+H105+Label+Maker&qid=1705261146&sr=8-3' ),
     affiliate_url ( 'https://amzn.to/4aVKa24' ),
@@ -4147,14 +4156,12 @@ equipment(
     item_price    ( 'US$68.05' ),
     item_shipping ( 'US$4.99' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Brother+P-touch+H105+Label+Maker&s=relevanceblender&qid=1705261211&ref=sr_st_relevanceblender&ds=v1%3AeSbiuZvQ%2FLX8exc3b10fw1ppC31wQUvWGokfwtVwntg' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Brother-PT-H105-P-TOUCH-HANDHELD-THERMAL/dp/B0095ROWZ8/ref=sr_1_1?dib=eyJ2IjoiMSJ9.L6ZUmaYDliI2ehibDhWWphF9YdusKTM8yF4ji3Bie9TqhiA-0l1clovhyGuD8Suf4ITSSswK28Nu2KpuBZbI5818L64FbKi46piifhPtTLrg5Junmbhz_zBUU2Seu6Mclk1eUm3iHmv4wgY5wpnLiw.rQeBtcadrnoZSTnAOXT5lgTwjdbjqMwkCSBT8bkcs9E&dib_tag=se&keywords=Brother+P-touch+H105+Label+Maker&qid=1705261217&sr=8-1' ),
     affiliate_url ( 'https://amzn.to/3RZSYv1' ),
     listing_name  ( 'Brother P-Touch PT-H105 Label Maker, Handheld, Up to 12mm Labels, Includes 12mm Black on White Tape Cassette' ),
     item_price    ( 'AU$40.14' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Brother+P-touch+H105+Label+Maker' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/254351637525?_trkparms=amclksrc%3DITM%26aid%3D1110006%26algo%3DHOMESPLICE.SIM%26ao%3D1%26asc%3D258818%26meid%3Deec538eda5d34b96a5cf5ec9e4bce7a0%26pid%3D101875%26rk%3D1%26rkt%3D4%26sd%3D125437636685%26itm%3D254351637525%26pmt%3D1%26noa%3D0%26pg%3D4429486%26algv%3DSimplAMLv11WebTrimmedV3MskuWithLambda85KnnRecallV1V2V4ItemNrtInQueryAndCassiniVisualRankerAndBertRecallWithVMEV3CPCAuto%26brand%3DBrother&_trksid=p4429486.c101875.m1851&amdata=cksum%3A254351637525eec538eda5d34b96a5cf5ec9e4bce7a0%7Cenc%3AAQAIAAABUObhgc4Nk8%252BdtAwOww4FKLaj%252FQ5qqgDlQCuqZA43WcPFUWDERCUugbbOk7XQv0JXlBfqCg2xKF3WcPghxGMFw2oSlXvfExEaMYr7I7LmrHcP6czY1wIMt0ORyKiCWt95xldincyyBx3g%252BNDW%252B%252FhWUgTaBhK6xAm%252BJIbCOMehu%252Bdwif12dzGRF6tIObv%252FupCde4Milu3QE8llmBNY4esyCCtqnhqYbb5Toi4uJotTZ7mrJ1jGPRIFL9d%252FMwp3HilzDpJq3%252BIZdOvekW6R5MHvwUJ%252BNeQnIut6AvOCLiJV9%252FgeSwBeOmFPkJyNEShPJkXi%252BxQ%252BFnvoGE%252B8fAazrIRI4C83ud95O4JQ7G27eSLom1b1d%252FgwvkxOuWcwHBn3tx%252Fh7gIidTwvAUGkoQp518rpc3YRXA89D%252BnKO40splaPtPD%252Bq8%252FL%252FPZCinQ7AIFHzYcVLw%253D%253D%7Campid%3APL_CLK%7Cclp%3A4429486&epid=1237848575' ),
     affiliate_url ( 'https://ebay.us/RkuPLi' ),
@@ -4174,7 +4181,6 @@ equipment(
     item_price    ( 'US$30.13' ),
     item_shipping ( 'US$10.02' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&LH_ItemCondition=1000&_nkw=Brother+P-touch+H105+Label+Maker&_sop=12' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/174021169429?epid=1237848575&hash=item2884785115%3Ag%3ATxcAAOSwuSZe3ywM&amdata=enc%3AAQAIAAAA8DaNR5PvlZT57s8HhV09Qq%2B1zOnx%2FVB%2FTi%2FeKHupMb21CxzZOKGWbee0a0%2B1NJps6moZtD%2B6L%2B%2FBMC6T3sR5Fjw3T8k%2FlxHk7EVZGEC6joQIkMY0SrUixV2SoRmfA9R0dG1d7sY9g3599xu96NIr%2Fe7k%2FuFG9kysJwOi8u66Mg7bL0itJOjGe0mXXPnl8OR4bjKn3lu%2FD%2BTBNObv5VSTYdBhc7Fz8s7EGyFTu2rEMd%2Fh551d5PDeC78hrPVZOnyqOow1Bl%2FKwxPyY9%2BGeqsTxFHM50IugniRgZidRwbK8fAWbChmNovUUTpZrpo2lfQgUg%3D%3D%7Ctkp%3ABFBM5MyHmKFj&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/fGR1IO' ),
@@ -4193,7 +4199,6 @@ equipment(
     listing_name  ( 'Brother P-Touch PT-H105 Label Maker, Handheld, up to 12Mm Labels, Includes 12...' ),
     item_price    ( 'AU$50.47' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Brother-P-touch-H105-Label-Maker.html' ),
   purchase(
     equipment_url   ( 'https://www.ebay.com.au/itm/384781697847' ),
     order_url       ( 'https://order.ebay.com.au/ord/show?orderId=22-10428-64196#/' ),
@@ -4214,17 +4219,12 @@ equipment(
     EquipmentFeature::ESR_METER,
     EquipmentAttribute::HAND_TOOL,
   ),
-  /*
-  equipment_info(
-    model_name        ( 'MESR-100' ),
-    equipment_type    ( 'ESR Meter' ),
-    category          ( 'ESR Meter' ),
-    category          ( 'Meter' ),
-    category          ( 'Test Equipment' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/MESR-100_ESR_Meter' ),
   search_url    ( 'https://www.amazon.com/s?k=MESR-100+ESR+Meter&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=MESR-100+ESR+Meter&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=MESR-100+ESR+Meter' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=MESR-100+ESR+Meter' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-MESR-100-ESR-Meter.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Weytoll-Capacitance-Capacitor-Measuring-Resistance/dp/B09ZPRV6WL/ref=sr_1_1?dib=eyJ2IjoiMSJ9.tz1147RiK3-0iJkm3iKKH1qx8KVozOn5JnYDh_xlqpZdqFyxpVyR1f135sryhTC3d3qmIOwdNCOPnNe2TtkXf856oXNi6J2FDDpUqgGwHfA.WlbSoyAFOJNMHbkYO94x_8SYdRpaS3FGcA9O40GsnGo&dib_tag=se&keywords=MESR-100+ESR+Meter&qid=1705265115&sr=8-1' ),
     affiliate_url ( 'https://amzn.to/420b7xJ' ),
@@ -4246,7 +4246,6 @@ equipment(
     item_price    ( 'US$59.89' ),
     item_shipping ( 'US$17.98' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=MESR-100+ESR+Meter&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Capacitance-Professional-Measuring-Resistance-Capacitor/dp/B0CCY2GBFH/ref=sr_1_24?dib=eyJ2IjoiMSJ9.EBMk6HmsE9EfsRULa_ywF-9iqtY6IjkSLDZgufmxZaggqEvBqelmsMwgcrCxUeYkl1U2iGI2Opq2K3mHBW9qU5L7JGa3VDe32erZ4uMwSZW34knYDYJNQMa2cXve30oq5RN5zVh6bEcsj4PpmFbj9A.JT7KwZwXKa8FKV9HTP6lLht_S10mpqwkjNW0eumde34&dib_tag=se&keywords=MESR-100+ESR+Meter&qid=1705265265&sr=8-24' ),
     affiliate_url ( 'https://amzn.to/3Hi7jOz' ),
@@ -4265,7 +4264,6 @@ equipment(
     listing_name  ( 'MESR-100 ESR Capacitance Ohm Meter Professional Measuring Internal Resistance of Capacitor Capacitance Circuit Tester GTRH' ),
     item_price    ( 'AU$83.26' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=MESR-100+ESR+Meter' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/404459339421?hash=item5e2ba7be9d%3Ag%3ASn8AAOSwT5pk6ZtO&amdata=enc%3AAQAIAAAA4N8BIvdWtQcZmBYN%2FT0Bd4JqU1UQ7dczYpAHmul9Q4HrTbn1rpV6T1yeXe3Eom9tH%2F7Fbwxnc4dL8xljwNgjf9wRyNDJEQRguO4p2YU0qJUbx3wPSaLj6Qjk%2Fn8Grynyi08qUbZWa6gSrc4GUUWc8UsVLTOLYgKBFEK%2BDuJmSnD6VMWz%2Fj3ei8wZ4pEaFFaDltvvEA%2F9VX%2BrOKMDXxqcGw1m5FWvfd9%2B5mpa9H%2B15D%2FyqbeGgwyTK6xH3N1ChW8Dk8c79TUe1PjLHAtXF73jnw8sfw27Gfj5EVje5fk1MCsq%7Ctkp%3ABk9SR4rk6JuhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/Zp3B8F' ),
@@ -4284,7 +4282,6 @@ equipment(
     listing_name  ( 'MESR-100 Digital Display V2 ESR/LOW Ohm Meter In Circuit Capacitance Tester' ),
     item_price    ( 'US$62.28' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=MESR-100+ESR+Meter' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/165994480636?hash=item26a60ac3fc%3Ag%3A91IAAOSwRHpkUGuB&amdata=enc%3AAQAIAAAA4LvNgfed4mpgvkom%2FZkqQB76kFF4YY8EUuaTdXex6ol5XbiucWadNqiAzRth1%2FsQjoYcY49W7XqxOROgZlAz%2BsGcPrBw505pS1Tq9W3NDQ4eKq9gcLfk%2BE08m4l%2F6%2FSWUpehK%2BLcLPZqD7nCuo6KDJIYLOsZSjCWCwGUBpCtxUz1nQeqCqjWXNF4NZLwnKPgst0FXfxfjuAYO7DYOExukvY4Cs52R6z4QSgPnnPjZN7rgMq8xnva3JMJnjqWpFe%2BMzId9X%2F5%2FyfJpv7WNkpXNzJUTXDOksbvJcjRVTNQiz28%7Ctkp%3ABk9SR4Ke_JuhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/JynoZv' ),
@@ -4303,7 +4300,6 @@ equipment(
     listing_name  ( 'MESR-100 ESR Ohm Meter Capacitance Resistance Capacitor Circuit Tester AU STOCK' ),
     item_price    ( 'AU$73.14' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-MESR-100-ESR-Meter.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005004658766481.html?spm=a2g0o.productlist.main.1.6185684bCNd1hz&algo_pvid=d63eee22-9ddd-470d-a559-b26502d014b1&algo_exp_id=d63eee22-9ddd-470d-a559-b26502d014b1-0&pdp_npi=4%40dis%21AUD%2180.57%2140.28%21%21%2153.28%2126.64%21%402103200617052657778497834ea619%2112000030007787665%21sea%21AU%214385823938%21&curPageLogUid=QU450HI4GtTH&utparam-url=scene%3Asearch%7Cquery_from%3A' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DmHt1vB' ),
@@ -4348,16 +4344,12 @@ equipment(
     model_name        ( 'Industrial' ),
     EquipmentFeature::TWEEZERS,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'TOWOT' ),
-    equipment_type    ( 'Industrial Tweezers' ),
-    category          ( 'Tweezers' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/TOWOT_Tweezers' ),
   search_url    ( 'https://www.amazon.com/s?k=TOWOT+Industrial+Tweezers&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=TOWOT+Industrial+Tweezers&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=TOWOT+Industrial+Tweezers' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=TOWOT+Industrial+Tweezers' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-TOWOT-Industrial-Tweezers.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Electronics-Experimental-Jewelry-Making-Non-Magnetic-TOWOT/dp/B09J97YT3X?th=1' ),
     affiliate_url ( 'https://amzn.to/3HjDqgT' ),
@@ -4366,7 +4358,6 @@ equipment(
     item_price    ( 'US$28.99' ),
     item_shipping ( 'US$17.67' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=TOWOT+Industrial+Tweezers&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Electronics-Experimental-Jewelry-Making-Non-Magnetic-TOWOT/dp/B09J97YT3X?th=1&linkCode=sl1&tag=johnelliotv-20&linkId=f3e29683a311791e7c0aeebd1afa9c47&language=en_US&ref_=as_li_ss_tl' ),
     affiliate_url ( 'https://amzn.to/48NVewi' ),
@@ -4374,9 +4365,6 @@ equipment(
     item_options  ( 'Style Name: SA11-15' ),
     item_price    ( 'AU$57.29' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=TOWOT+Industrial+Tweezers' ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=TOWOT+Industrial+Tweezers' ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-TOWOT-Industrial-Tweezers.html' ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B09J97YT3X/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1' ),
     order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=249-6228551-5208610' ),
@@ -4402,23 +4390,12 @@ equipment(
     model_name        ( '938D' ),
     EquipmentFeature::SOLDERING_TWEEZERS,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'YIHUA' ),
-    model_name        ( '938D' ),
-    equipment_type    ( 'Soldering Tweezers' ),
-    category          ( 'Soldering Iron' ),
-    category          ( 'Tweezers' ),
-    category          ( 'Hand Tool' ),
-    category          ( 'Bench Equipment' ),
-    manufacturer_link (
-      link_href       ( 'http://yihua-soldering.com/11-7-yihua-938d-hot-tweezers-mini-soldering-iron.html' ),
-      link_text       ( 'YIHUA 938D Hot Tweezers / Mini Soldering Iron' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/YIHUA_938D' ),
   search_url    ( 'https://www.amazon.com/s?k=YIHUA+938D+Soldering+Tweezers&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=YIHUA+938D+Soldering+Tweezers&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=YIHUA+938D+Soldering+Tweezers' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=YIHUA+938D+Soldering+Tweezers' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-YIHUA-938D-Soldering-Tweezers.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Tweezers-YIHUA-Portable-Soldering-Station/dp/B0BNN6MLQG/ref=sr_1_2?dib=eyJ2IjoiMSJ9.K1Ov6TbYHdyuoPkaM9Uui0gM7Nkv1QzFqhGp1n_PD2rGjHj071QN20LucGBJIEps.GO-CbRLoulj6CjPn6Mt6vucU_ayiAh3QpjyICluUiPI&dib_tag=se&keywords=YIHUA+938D+Soldering+Tweezers&qid=1705266595&sr=8-2' ),
     affiliate_url ( 'https://amzn.to/4aTpg3F' ),
@@ -4433,8 +4410,6 @@ equipment(
     item_price    ( 'US$109.99' ),
     item_shipping ( 'US$19.48' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=YIHUA+938D+Soldering+Tweezers&s=price-asc-rank' ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=YIHUA+938D+Soldering+Tweezers' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/155046681799?hash=item2419809cc7%3Ag%3Akd4AAOSwQV5fBbaM&amdata=enc%3AAQAIAAAA8KXDvR7otUSTWV6RSUjcOR2dPDs46K%2FcIt8v%2BsGXGn%2FdTJKxWd3IutF9DILNscvA%2Ff3XVB7fA77g5iUep68zRGJwVi2HX412PIbhI9ZPH8Pyp5l2Y0e76lheF2QAG7SMCTtvM3Lt%2FyyZjEyi7UoDSZ7uvJ%2FAqnVjWUnJBIb7hAVCpQsf5dkapdxnusn7dLV0qdNGoJJhbx%2BCgPiKXgqvNrD5zj3LWP91EIxeqlJtbu%2BUBjEdFCKEkQ4VQSogsO3xB0dJ7%2FZHeVMLljCzFiYOW6G2ukf8ipOUdhNYadk%2BfUPkCTKcdshJSxGAfcgN5I88tA%3D%3D%7Ctkp%3ABk9SR5LzjZ2hYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/eCrAJn' ),
@@ -4453,7 +4428,6 @@ equipment(
     listing_name  ( 'Hot Tweezers Mini Soldering Station YIHUA 938D Portable for BGA SMD 110V 938D' ),
     item_price    ( 'US$47.00' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=YIHUA+938D+Soldering+Tweezers' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/384179129431?hash=item5972dc4c57%3Ag%3Ay5EAAOSwoYZgYpBW&amdata=enc%3AAQAIAAAA8H1Gq9fj1RUbVpBiHS32Toz4mBeOlLI2B0ZKZ42hHlxzyrL%2FsVKSa93Upaad8OceAGpoUz%2FhSz7%2BEKsPkEI8iYlrMeFTpzaVl9GAC2yWjflioT13QvcR4KWSrJIRe2lQ2c9K1l7Pgky%2BIv3cs%2FonC8fO8QQuuNcBcuBlI3jgCwKFyBUrVYjsR1qjOYK9%2FQuvE80S4YrAdhiCVB2ssTFfQeKRtpfDZqR3jR96F33sf83y35Rwfp5HdHT8OXjoH5y5%2FojzoNS8nLJwj2sNPgKyKYOTxXBtQw%2BoMueHmuuAyYUYzcfwGlR2teBjZw9QW00e5w%3D%3D%7Ctkp%3ABk9SR8qXop2hYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/Ncs0x8' ),
@@ -4473,7 +4447,6 @@ equipment(
     item_price    ( 'AU$173.79' ),
     item_shipping ( 'AU$111.10' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-YIHUA-938D-Soldering-Tweezers.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/4000299695525.html?spm=a2g0o.productlist.main.5.3f6b3b53cXtK1R&algo_pvid=03ef9c65-0c98-4cfb-bf3c-db53de1369fc&algo_exp_id=03ef9c65-0c98-4cfb-bf3c-db53de1369fc-2&pdp_npi=4%40dis%21AUD%2119.20%2110.94%21%21%2112.70%217.24%21%402103297417052670719296779efc47%2112000020773154137%21sea%21AU%214385823938%21&curPageLogUid=kqwbfrb4RdA4&utparam-url=scene%3Asearch%7Cquery_from%3A' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DDZjNZX' ),
@@ -4519,25 +4492,17 @@ equipment(
     model_name        ( 'EL-546L' ),
     EquipmentFeature::SCIENTIFIC_CALCULATOR,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Sharp' ),
-    model_name        ( 'EL-546L' ),
-    equipment_type    ( 'Scientific Calculator' ),
-    category          ( 'Calculator' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Sharp_EL-546L' ),
   search_url    ( 'https://www.amazon.com/s?k=Sharp+EL-546L+Scientific+Calculator&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Sharp+EL-546L+Scientific+Calculator&s=price-asc-rank' ),
   search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Sharp+EL-546L+Scientific+Calculator' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Sharp+EL-546L+Scientific+Calculator' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Sharp-EL-546L-Scientific-Calculator.html' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/sch/i.html?_from=R40&_trksid=p4432023.m570.l1313&_nkw=Sharp+EL-546L&_sacat=0&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339019639&customid=&toolid=20012&mkevt=1' ),
     listing_name  ( 'Sharp EL-546L' ),
     item_price    ( 'US$20.00' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Sharp+EL-546L+Scientific+Calculator' ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Sharp-EL-546L-Scientific-Calculator.html' ),
 );
 
 equipment(
@@ -4560,28 +4525,18 @@ equipment(
     EquipmentAttribute::CORDLESS,
     EquipmentConnectivity::BANANA_PLUG,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'DigiTech' ),
-    model_name        ( 'QM1323' ),
-    equipment_type    ( 'Multimeter' ),
-    category          ( 'Multimeter' ),
-    category          ( 'Hand Tool' ),
-    category          ( 'Cordless' ),
-    category          ( 'Meter' ),
-    category          ( 'Test Equipment' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Digitech_QM1323' ),
   search_url    ( 'https://www.amazon.com/s?k=DigiTech+QM1323+Multimeter&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=DigiTech+QM1323+Multimeter&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=DigiTech+QM1323+Multimeter' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=DigiTech+QM1323+Multimeter' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-DigiTech-QM1323-Multimeter.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Cat-III-Multimeter-with-Temperature/dp/B07CTBSF9Z/ref=sr_1_22?dib=eyJ2IjoiMSJ9.n0g_4RCJFY0IlJzv7dawAo2vyIAX8mZXG0ZI_cF7iJ49v1J_uIy83FzxEx9IxaIYndvIN9N_1YMGGFl73eN5_sXbR2TpVdD9pl5AuCbQwD6UEgxsle_Hp-f6jIydlCrcDebxmcse3ivj7uBHQxQN9g.XxTnvBJxKoCYDyQN7zdduaOcQWAeN6QoSVzWSfJ5Ttw&dib_tag=se&keywords=DigiTech+QM1323+Multimeter&qid=1705268900&sr=8-22' ),
     affiliate_url ( 'https://amzn.to/3S1uy4A' ),
     listing_name  ( 'Cat III Multimeter with Temperature' ),
     item_price    ( 'AU$61.70' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=DigiTech+QM1323+Multimeter' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/123747362000?epid=1176999293&hash=item1ccfeae4d0%3Ag%3AkfMAAOSwqCJcwtM5&amdata=enc%3AAQAIAAAA8NCxUa9rTOBlBgl6SBdQzaonO2Jc%2Bx9CUEWzYHv3qPX1x7NRJAjNSjN47IIeidLGEv8bHCyAcVrBKTSYqcIYnEeBkcUGA%2FzmRi6r9fCZMgKVQwLvghhsGrdY9NtQS3WXzKsVr3mNvcoFNEq3Yy8rnFB6mEQxzxfI8o%2BBbTSDcGJh5pATiaY0c1uNyluYGlIs822PaW%2BplF58MKtFtad5Q4OtRgVEMmJwKUEHNxjR6t%2B2MpT2CaUJ%2BZkiG8v5U4NcQGfdGhyoA3kdNZ6Rr80m5o1uriQWWK72nk7tVVWDtn%2BtEhS6Zl75QMegTp4SHS0LnA%3D%3D%7Ctkp%3ABk9SR9ixnZ-hYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/I89e4h' ),
@@ -4601,7 +4556,6 @@ equipment(
     listing_name  ( 'Digitech Cat III 600V Multimeter with Temperature K-type probe Woven Nylon Pouch' ),
     item_price    ( 'US$48.87' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=DigiTech+QM1323+Multimeter' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/123747362000?epid=1176999293&hash=item1ccfeae4d0%3Ag%3AkfMAAOSwqCJcwtM5&amdata=enc%3AAQAIAAAA8NCxUa9rTOBlBgl6SBdQzaonO2Jc%2Bx9CUEWzYHv3qPX1x7NRJAjNSjN47IIeidLGEv8bHCyAcVrBKTSYqcIYnEeBkcUGA%2FzmRi6r9fCZMgKVQwLvghhsGrdY9NtQS3WXzEIQEwkq2Gl1f1ur6ly1z9zN30euHHu7WgVB5QlImOZLImtfGtrFPBjejKBbcRqATu%2BdXQRfPagblpy%2FKK7IErHYPR6yAe6k12q3gynQfQrfwsJzLsER6dAuV6pBM3CItd%2BeGy%2Bp2VKCNJuKPOwwFnrjZt58eRa0F19bvS04XNrnLovEHNnn5blzZGc%2Fpncv6w%3D%3D%7Ctkp%3ABk9SR6LFr5-hYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/rRwfJO' ),
@@ -4621,7 +4575,6 @@ equipment(
     listing_name  ( 'Digitech Cat III 600V Multimeter with Temperature K-type probe Woven Nylon Pouch' ),
     item_price    ( 'AU$72.9' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-DigiTech-QM1323-Multimeter.html' ),
 );
 
 equipment(
@@ -4640,26 +4593,12 @@ equipment(
     EquipmentFeature::HANDHELD_MULTIMETER,
     EquipmentAttribute::CORDLESS,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'UNI-T' ),
-    model_name        ( 'UT116A' ),
-    equipment_type    ( 'Digital Tweezers' ),
-    category          ( 'SMD Tester' ),
-    category          ( 'Component Tester' ),
-    category          ( 'Multimeter' ),
-    category          ( 'Meter' ),
-    category          ( 'Hand Tool' ),
-    category          ( 'Cordless' ),
-    category          ( 'Tweezers' ),
-    manufacturer_link (
-      link_href       ( 'https://meters.uni-trend.com/product/ut116-series/' ),
-      link_text       ( 'UT116 Series SMD Testers' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/UNI-T_UT116A' ),
   search_url    ( 'https://www.amazon.com/s?k=UNI-T+UT116A+Digital+Tweezers&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=UNI-T+UT116A+Digital+Tweezers&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=UNI-T+UT116A+Digital+Tweezers' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=UNI-T+UT116A+Digital+Tweezers' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-UNI-T-UT116A-Digital-Tweezers.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/UNI-T-Multimeter-Electrical-Resistance-Capacitance/dp/B0CD5S46KT/ref=sr_1_1?dib=eyJ2IjoiMSJ9.LHglIo3IVTIwdznmPEbiUHXJBf8-JCUYcB-mSvFSt-yvMYBQnGG45W0XLI9wY47n.VMD6jEueVWZ2TlA3jAuSi1dZsMjnjfQqlijM93Ha1Co&dib_tag=se&keywords=UNI-T%2BUT116A%2BDigital%2BTweezers&qid=1705269339&sr=8-1&th=1' ),
     affiliate_url ( 'https://amzn.to/3O48ODN' ),
@@ -4676,8 +4615,6 @@ equipment(
     item_price    ( 'US$53.00' ),
     item_shipping ( 'US$15.00' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=UNI-T+UT116A+Digital+Tweezers&s=price-asc-rank' ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=UNI-T+UT116A+Digital+Tweezers' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/314911067058?hash=item4952298bb2%3Ag%3A2K4AAOSwfMRkit8I&amdata=enc%3AAQAIAAAA0JN8DG2Er9vIwIcpkBXH1PYtcql9cF3FIZL79LTJm1rBfIuLJBgmH3WhnZwHz%2Bf0yQ79xFqrE8TmOUZqVxXghftNXf3F2nxJ76A%2BrlRkbbYggK%2FhPnUIh4PE%2BgwIJ8w%2Fvienr%2F7u3wSCCdLynP22GgrPUXgmZ8ea5%2B6jco%2BmiGjy%2FM4BnMg4EX7%2B8ohFbUE6tiqh9anKGjEM6CVq%2F1jhKekOF%2FBPfq5GW%2FUNl2KelZMETZP0yXP8NKdxpv%2BvfO%2BIHtHljKm2%2FI%2BAOouP%2FKXumeE%3D%7Ctkp%3ABk9SR7766J-hYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/v60FMd' ),
@@ -4700,7 +4637,6 @@ equipment(
     item_options  ( 'Model: UT116A' ),
     item_price    ( 'US$29.90' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=UNI-T+UT116A+Digital+Tweezers' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/284124403921?epid=20043344383&hash=item42272258d1%3Ag%3AZVoAAOSwNkhfhmVf&amdata=enc%3AAQAIAAAA8I%2FOcFzdocR%2F4bu562wRXcK%2FYIpjpbGXVOiDhJmoO4QNUw16mebRLT9H0qw%2BBxHHPX1OPqltrFWDBonn7WxWfELXJ2ibuvgYKH%2BkFGN72J89mWT3zIROMRqhWSedTQhidz5dQ7StLNfLL6FPBidUFBFG7yj2rJYTWplulTl0NfmWUNvdykH%2BsiB1IFSmyhFScJocUj1%2F5v2z97aN7ZTSnakLxI8JIsGVAro1T4B6V0Rxv6H60eKaOcTSin6RpGgzSiIP31ipkpU%2BdEmCuNW%2FeLPypmOmH1LRBAN%2BTnHHfjzymPaD%2Fscn3LZ27bKo1oMnDw%3D%3D%7Ctkp%3ABk9SR-DEgKChYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/glJbLU' ),
@@ -4713,7 +4649,6 @@ equipment(
     listing_name  ( 'UNI-T UT116A SMD Tester Meter Multimeter LED Diode Continuity Battery Tester #' ),
     item_price    ( 'AU$40.05' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-UNI-T-UT116A-Digital-Tweezers.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005002282691985.html?spm=a2g0o.productlist.main.3.204e6385kxwhEB&algo_pvid=4dbafb55-2fbf-48b2-aabc-291eb611c4dd&algo_exp_id=4dbafb55-2fbf-48b2-aabc-291eb611c4dd-1&pdp_npi=4%40dis%21AUD%2156.81%2134.08%21%21%2137.57%2122.54%21%402103010f17052699923315517eafef%2112000036643691003%21sea%21AU%214385823938%21&curPageLogUid=izDCKEN6Fchg&utparam-url=scene%3Asearch%7Cquery_from%3A' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_De5jUm5' ),
@@ -4756,18 +4691,12 @@ equipment(
     model_name        ( 'RL-007GA' ),
     EquipmentFeature::SOLDER_LUGS,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'RELIFE' ),
-    model_name        ( 'RL-007GA' ),
-    equipment_type    ( 'Solder Lugs' ),
-    category          ( 'Solder Lugs' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/RELIFE_Dot' ),
   search_url    ( 'https://www.amazon.com/s?k=RELIFE+RL-007GA+Solder+Lugs&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=RELIFE+RL-007GA+Solder+Lugs&s=price-asc-rank' ),
   search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=RELIFE+RL-007GA+Solder+Lugs' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=RELIFE+RL-007GA+Solder+Lugs' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-RELIFE-RL-007GA-Solder-Lugs.html' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/355211950970?hash=item52b4483b7a%3Ag%3ANogAAOSwiDxhZ-o0&amdata=enc%3AAQAIAAAA0JgabiXVqZG%2FRdRU24lUUsApmzMlowJr%2F2EEoVRnTJ8Qs7eHy4iY73pGM4xcISuBhPU4Q%2Bi0Dm7G0NNBZUeubbAZe%2BWf0r0h5xXmTmsmIf0Fwqk%2FAyizSgsLHhEmOZcmc8qIgMVop7Cy%2FGpOvzmFahV1XNkppTf%2FZvd%2BY3jX5mXTXmnHzX3ZoRRotHMur0QLS9kUwDLpBvEqyN6%2FIaLF%2FhhHi0UJNE6%2FNqQnmiZ6ikQh7iVg%2FlzLtTRh1wkWjH2uP%2Fs0vHEBn67sfx2Fzrt9vyY%3D%7Ctkp%3ABk9SR4aY3KChYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/XqTmbe' ),
@@ -4792,7 +4721,6 @@ equipment(
     item_price    ( 'US$8.59' ),
     item_shipping ( 'US$0.74' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=RELIFE+RL-007GA+Solder+Lugs' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/284436102860?hash=item4239b67ecc%3Ag%3A%7E5MAAOSwUe1jEniB&amdata=enc%3AAQAIAAAA0GvEHSxMFLIlbrS7%2B694ZHU9gjmiobJHIMONPBpa%2BJskmUIBSJo45G8McLsY8FPuSAizszSZEhR5m9vOQ0DLYC6eutkvv9d%2B1DGcyr3DgfyDrEf5T3sQUuGkJiOStx0O4%2FFCrlednd17fJYb3foa9GBXj%2F62iGTHSPWdJcflAb3UcpmzWpFOZwNWn4Q%2FZlLo%2Fy3nxR3Sp0q2NkpvZLT2shRt2ZQNV0q5goKLn%2FnJjbAuQRTms5WTUuXAeso2yQsHit7mPEFKvbWhQ1iA3xhHUXg%3D%7Ctkp%3ABk9SR97X76ChYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/ls6BMQ' ),
@@ -4811,7 +4739,6 @@ equipment(
     listing_name  ( 'PCB trace repair RELIFE RL-007GA 1400pc  (AU Stock)' ),
     item_price    ( 'AU$15.00' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-RELIFE-RL-007GA-Solder-Lugs.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005429713367.html?spm=a2g0o.productlist.main.1.39bd46d53DkAk6&algo_pvid=b5a85f20-46f7-419d-8e00-4d6da66f9489&algo_exp_id=b5a85f20-46f7-419d-8e00-4d6da66f9489-0&pdp_npi=4%40dis%21AUD%2127.86%2127.86%21%21%21132.02%21132.02%21%402103273e17052708455285902e8e7a%2112000033036851423%21sea%21AU%214385823938%21&curPageLogUid=g5E1lb2DlWmC&utparam-url=scene%3Asearch%7Cquery_from%3A' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DerQoup' ),
@@ -4838,16 +4765,12 @@ equipment(
     model_name        ( 'NC-559-ASM' ),
     EquipmentFeature::FLUX,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'AMTECH' ),
-    model_name        ( 'NC-559-ASM' ),
-    equipment_type    ( 'Flux' ),
-    category          ( 'Flux' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/AMTECH_NC-559-ASM_flux' ),
   search_url    ( 'https://www.amazon.com/s?k=AMTECH+NC-559-ASM+Flux&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=AMTECH+NC-559-ASM+Flux&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=AMTECH+NC-559-ASM+Flux' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=AMTECH+NC-559-ASM+Flux' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-AMTECH-NC-559-ASM-Flux.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Soldering-Residue-Welding-NC%E2%80%91559%E2%80%91ASM-Dispensing/dp/B08L5YWJGK/ref=sr_1_1?dib=eyJ2IjoiMSJ9.dm8SF683BLHUzYGpl7QvXeBULRH4U2l63Fm3jZ55VUcqE4yP_hseLP4H7-1CpPcQ.Lg89uCB5MviRco2ldf4PInfGJ7eEjlWEylzKm6K1UP4&dib_tag=se&keywords=AMTECH+NC-559-ASM+Flux&qid=1705270987&sr=8-1' ),
     affiliate_url ( 'https://amzn.to/3vwP0m5' ),
@@ -4868,7 +4791,6 @@ equipment(
     item_price    ( 'US$22.35' ),
     item_shipping ( 'US$17.97' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=AMTECH+NC-559-ASM+Flux&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/NC-559-ASM-No-Clean-Environmentally-Friendly-Solder/dp/B07RJBFZ7V/ref=sr_1_3?dib=eyJ2IjoiMSJ9.nqWf31wAjrz2fQ8oOGJaPJsogn-vnPKsc56-Q5yCKQHP80YBR9m-J9m2MlWwcvsBJUJDs8yRYfbuQjEt7K0VO_ogFwyFp_YBypaJKC2Byjr0Lyzt32g3ms1PpBkmyT2ZdPytL7C5SwPwnzrS2Fb4Aw.As3erFh7goW9FHaLkRo7esCz7sbe2KzhhG20NBN5NoE&dib_tag=se&keywords=AMTECH+NC-559-ASM+Flux&qid=1705271165&sr=8-3' ),
     affiliate_url ( 'https://amzn.to/3O2y65m' ),
@@ -4883,7 +4805,6 @@ equipment(
     item_price    ( 'AU$14.69' ),
     item_shipping ( 'AU$2.99' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=AMTECH+NC-559-ASM+Flux' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/385302564136?hash=item59b5d28d28%3Ag%3Axq8AAOSwfORjluYv&amdata=enc%3AAQAIAAAA8BRB0xQ5S4gSW1lvtSYLV%2B4hUIRt2YIP5rDOcjqaH2%2FGTJCaIrekk9NnAhwIEzGbd3tnnYGN8B0N8thmO6lBHgkOWCrRnHWkzV%2BUr%2FOjEVOaiHDzDrnWqjgYfAkZsoYNBuwXM1jmGUnYFaVv1f1ZorxCg9Yx9DvznumQqnZqOLBB4vwWnGSIiXwj2CqhxHZw4vPq7Pj6D8Yf0kio5oahmHuAh0tkLbTfm2GDJpM%2BjCOf2AQlA%2FwGOd2GUyFIOCgXshF0vBZlyBfyUg1VCyXTBHH09pgUDhpYpLJuNqw%2FIviVM%2BCM7Aa2kjueu7bQMcciyg%3D%3D%7Ctkp%3ABk9SR-b9vqGhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/tJcNV1' ),
@@ -4904,7 +4825,6 @@ equipment(
     item_price    ( 'US$4.38' ),
     item_shipping ( 'US$0.13' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=AMTECH+NC-559-ASM+Flux' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/126273638010?hash=item1d667ece7a%3Ag%3Ar78AAOSwd%7EVlnM44&amdata=enc%3AAQAIAAAA8AE7a%2B0xgqadL%2Bz64Q9sa%2B4EUxuL35KoCC45Cgr8K9HX56NqShZuOeanuGz%2BySjCMf9iy6ZR6d0w4U6na8VHGXk%2FX8XQ%2B3x3GgTojIjzwjmP0T18OzctaFXI7%2BV%2FsgcZw2zvFTjrwAyTqScwWvPZo8PRcxlJRyqMuchGlAwzaRXnXPzcoYvY0PZSBqQ3rOeuIWK4rUdwpK9xapaFHT8E0BzHVXaUYJ7b%2F%2FGkMHXEarwzKluysBWhUlz3yfBeyj%2FewfAUpbS2gh8PEXxJOxChgmz4SsjMmgoZWvfVTDtKPdizZxnGbdC1kDi5SbU50bT8cA%3D%3D%7Ctkp%3ABk9SR6Db1aGhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/Bknske' ),
@@ -4926,7 +4846,6 @@ equipment(
     item_price    ( 'AU$7.37' ),
     item_shipping ( 'AU$0.23' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-AMTECH-NC-559-ASM-Flux.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005002690329325.html?spm=a2g0o.order_list.order_list_main.160.764218021V85h7' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DdU4DKt' ),
@@ -4976,15 +4895,12 @@ equipment(
     EquipmentFeature::TAPE_DISPENSER,
     EquipmentAttribute::BENCH_EQUIPMENT,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'SHDSL' ),
-    equipment_type    ( 'Tape Dispenser' ),
-    category          ( 'Tape Dispenser' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/SHDSL_Tape_Dispenser' ),
   search_url    ( 'https://www.amazon.com/s?k=SHDSL+Tape+Dispenser&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=SHDSL+Tape+Dispenser&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=SHDSL+Tape+Dispenser' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=SHDSL+Tape+Dispenser' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-SHDSL-Tape-Dispenser.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/gp/product/B09QKD9FC7?th=1&linkCode=sl1&tag=johnelliotv-20&linkId=c15aff4a3104c4743cfeeac5896fda3e&language=en_US&ref_=as_li_ss_tl' ),
     affiliate_url ( 'https://amzn.to/3vwPxV7' ),
@@ -4992,16 +4908,12 @@ equipment(
     item_price    ( 'US$15.99' ),
     item_shipping ( 'US$19.48' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=SHDSL+Tape+Dispenser&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B09QKD9FC7?th=1&linkCode=sl1&tag=johnelliotv-20&linkId=c15aff4a3104c4743cfeeac5896fda3e&language=en_US&ref_=as_li_ss_tl' ),
     affiliate_url ( 'https://amzn.to/425Uel5' ),
     listing_name  ( 'Green Multi-Roll Heat Tape Dispenser Sublimation 1" and 3"Core Double Reel Cores Sublimation for Heat Transfer Tape, Semi-Automatic Tape Dispenser with Compartment Slots' ),
     item_price    ( 'AU$40.26' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=SHDSL+Tape+Dispenser' ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=SHDSL+Tape+Dispenser' ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-SHDSL-Tape-Dispenser.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005906142287.html?spm=a2g0o.productlist.main.3.16292419iL5Wz2&algo_pvid=8983d325-efcb-4901-b1da-98e6e6589c02&aem_p4p_detail=202401141442243894140647170600013172834&algo_exp_id=8983d325-efcb-4901-b1da-98e6e6589c02-1&pdp_npi=4%40dis%21AUD%2140.82%2122.05%21%21%21193.44%21104.46%21%402101f04d17052721441408557ea11f%2112000034792271701%21sea%21AU%214385823938%21&curPageLogUid=5w24aWYIS16D&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=202401141442243894140647170600013172834_2' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DcjqwJB' ),
@@ -5042,16 +4954,12 @@ equipment(
     model_name        ( 'Small Folding' ),
     EquipmentFeature::STEP_LADDER,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'OZSTOCK' ),
-    equipment_type    ( 'Small Folding Step Ladder' ),
-    category          ( 'Step Ladder' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Folding_Step_Ladder' ),
   search_url    ( 'https://www.amazon.com/s?k=OZSTOCK+Folding+Step+Ladder&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=OZSTOCK+Folding+Step+Ladder&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=OZSTOCK+Folding+Step+Ladder' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=OZSTOCK+Folding+Step+Ladder' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-OZSTOCK-Folding-Step-Ladder.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Portable-Folding-Ladder-Caravan-Camping/dp/B08ZMZXCXW/ref=sr_1_1?dib=eyJ2IjoiMSJ9.yjd1kBaEhLC4ZBAUYtIaBSGoQdqrU5nUckhPuSbdA77sjmLJ4Gswi5uUsU-QeqMihJENlR-mFCbwKQgsynMr8LK2abYWuz2fYwSGm2betDuqGVvvDlU2E3e80NBvFHuiJ_ZzWxaNWBf_ZbWN8wb5kg.OTczYCQSqbaeOZoWc3SOGRviIAL_T6kKZ38UvMalBYU&dib_tag=se&keywords=OZSTOCK%2BFolding%2BStep%2BLadder&qid=1705272495&sr=8-1&th=1' ),
     affiliate_url ( 'https://amzn.to/3Sguy1Y' ),
@@ -5059,9 +4967,6 @@ equipment(
     item_options  ( 'Size Name: M/H 22cm x W 29cm x D 22cm' ),
     item_price    ( 'AU$18.99' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=OZSTOCK+Folding+Step+Ladder' ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=OZSTOCK+Folding+Step+Ladder' ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-OZSTOCK-Folding-Step-Ladder.html' ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B08ZMZXCXW/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&th=1' ),
     order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=250-9175542-2253408' ),
@@ -5086,20 +4991,12 @@ equipment(
     model_name        ( 'Large Folding' ),
     EquipmentFeature::STEP_LADDER,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'OZSTOCK' ),
-    equipment_type    ( 'Large Folding Step Ladder' ),
-    category          ( 'Step Ladder' ),
-    manufacturer_link (
-      link_href       ( 'https://www.ozstock.com.au/27556/Portable-39cm-Folding-Step-Stool-Plastic-Chair-Flat-Outdoor-Camping-Seat-Ladder.html' ),
-      link_text       ( 'Portable 39cm Folding Step Stool Plastic Chair Flat Outdoor Camping Seat Ladder' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Folding_Step_Ladder' ),
   search_url    ( 'https://www.amazon.com/s?k=OZSTOCK+Folding+Step+Ladder&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=OZSTOCK+Folding+Step+Ladder&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=OZSTOCK+Folding+Step+Ladder' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=OZSTOCK+Folding+Step+Ladder' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-OZSTOCK-Folding-Step-Ladder.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B08ZN1ZQZH/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&th=1' ),
     affiliate_url ( 'https://amzn.to/3HmMl1g' ),
@@ -5113,9 +5010,6 @@ equipment(
     listing_name  ( 'Large Portable Plastic Foldable Chair Outdoor Folding Kids Step Stool Camping Home Adult-White' ),
     item_price    ( 'AU$20.95' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=OZSTOCK+Folding+Step+Ladder' ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=OZSTOCK+Folding+Step+Ladder' ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-OZSTOCK-Folding-Step-Ladder.html' ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B08ZN1ZQZH/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&th=1' ),
     order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=250-9175542-2253408' ),
@@ -5137,19 +5031,13 @@ equipment(
     EquipmentFeature::CAPACITANCE_METER,
     EquipmentAttribute::HAND_TOOL,
   ),
-  /*
-  equipment_info(
-    model_name        ( 'M6013' ),
-    equipment_type    ( 'Capactance Meter' ),
-    category          ( 'Capactance Meter' ),
-    category          ( 'Meter' ),
-    category          ( 'Hand Tool' ),
-    category          ( 'Test Equipment' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/M6013_Capacitance_Meter' ),
   warning       ( 'Make sure to order the M6013' ),
   search_url    ( 'https://www.amazon.com/s?k=M6013+Capactance+Meter&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=M6013+Capactance+Meter&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=M6013+Capactance+Meter' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=M6013+Capactance+Meter' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-M6013.html?spm=a2g0o.productlist.search.0' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Capacitor-Precision-Professional-Capacitance-Resistance/dp/B07WRZY1L2/ref=sr_1_3?dib=eyJ2IjoiMSJ9.7iA_W9p2JShBRP7GH8Wp6zJA4BGU08l-Ei0wwUQwsjtHUFHMsz8oHYQfSto6pgt89tlKEtTqzuYVNHBl-RYt8GKZxVUBeMDzmFi2aAhoTxQ.KkeanfAUS4Jw8qGBGFEFfzIJooUjTap2rjDJVEPk1EY&dib_tag=se&keywords=m6013+capacitance+meter&qid=1705273134&sr=8-3' ),
     affiliate_url ( 'https://amzn.to/48SpmXp' ),
@@ -5170,7 +5058,6 @@ equipment(
     item_price    ( 'US$58.99' ),
     item_shipping ( 'US$30.00' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=M6013+Capactance+Meter&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Precision-Capacitor-Professional-Capacitance-BBZY/dp/B0B9WL4KK7/ref=sr_1_8?dib=eyJ2IjoiMSJ9.chWnFhmWvKORhAB7n6xfsF-vCo5egBgtrBp4ose-uXE0jDNMjrXoRcERi6o_IVSH4bMb6woI3ZFjv-ERFV1loK1snil1kVCul3lBAS5lysxBQmkXh6mQP12zF3YlLP2saTB9B-H7QxHsnEbj4kHaIw.nKuvdwVo4MavSSUh4HKnsOkYN3D319BwyBB7DBV4uVQ&dib_tag=se&keywords=m6013+capacitance+meter&qid=1705273315&sr=8-8' ),
     affiliate_url ( 'https://amzn.to/3SiWTEI' ),
@@ -5189,7 +5076,6 @@ equipment(
     listing_name  ( 'YaSao M6013 High Precision Capacitor Meter Professional Measuring Capacitance Capacitor Circuit Tester' ),
     item_price    ( 'AU$52.98' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=M6013+Capactance+Meter' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/394593612827?hash=item5bdf9cb41b%3Ag%3A3nkAAOSwbpNkS1nt&amdata=enc%3AAQAIAAAA0IMzOD2z7j9vD4SeSsd5NtGxwnrYCRVlseG2sIdWkKj524lYl3EcMA%2Fheokr67NgRtqaQixaVVpS6xOIb2TU4YtMshGD1lSuz38QybVV2gPnutD%2BM%2F2DX2GcWnNKP8m1vMpleEz7WevLBihkKTZD81yLUEw2NIBSLsun5g1KSpz%2BVvMS%2B4Dv3CHDpOxHLcLKUhIfwsosbyP8LBumJmQEBBd6V%2F0e5vZ0qYaQgq5jEzNWKERqS2WhdzyejvxcVU6C1wg5v0xRfzSA2xSAGaMDrww%3D%7Ctkp%3ABk9SR5zDvqOhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/LLYUJM' ),
@@ -5210,7 +5096,6 @@ equipment(
     listing_name  ( 'M6013 ESR Capacitance Ohm Meter Professional Resistance Capacitor Circuit Tester' ),
     item_price    ( 'US$39.99' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=M6013+Capactance+Meter' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/404651326900?hash=item5e37193db4%3Ag%3AmdcAAOSw-JllZ1Jt&amdata=enc%3AAQAIAAAA0Oy%2BwTOWFJTObCVFXdNTKA%2Fd%2BGurZz43AP357yUyaUojTBvcFaGRe28Vg4OAyyzWibN%2FymKOAacFwwJ0qX5cdbf5UQWPC2XQSGX5fzpgvQvHAGi0RN%2FcSAUDP9KAPexZEZReDIeJEUmH5aoaPJRux0ihoIOdWhTizSGpOv3WVqrvVTElbC8FMTDTkoM82AEm8ALOROQ0OzZRY7PqrOuyQxlWWNZWAtEbM8gynTvWnE8I1m0WXKFw19ZXDkQnPE9gy30mzMRwo8v6nf3Xddxqc2g%3D%7Ctkp%3ABk9SR4Kz0qOhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/x2KYwu' ),
@@ -5229,7 +5114,6 @@ equipment(
     listing_name  ( 'M6013 High Capacitor Meter Professional Measuring Capacitance C8B6' ),
     item_price    ( 'AU$46.02' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-M6013.html?spm=a2g0o.productlist.search.0' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005585463186.html?spm=a2g0o.productlist.main.1.3bc77948WOJo7Q&algo_pvid=c4d27d89-7db4-44e4-b914-7ccc4fe5a97e&algo_exp_id=c4d27d89-7db4-44e4-b914-7ccc4fe5a97e-0&pdp_npi=4%40dis%21AUD%2157.22%2132.62%21%21%2137.84%2121.57%21%402101ef7017052737579527927e9c53%2112000033649108280%21sea%21AU%214385823938%21&curPageLogUid=V87aKAqbgupD&utparam-url=scene%3Asearch%7Cquery_from%3A' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_De6lG9b' ),
@@ -5281,23 +5165,12 @@ equipment(
     EquipmentAttribute::CORDLESS,
     EquipmentAttribute::HAND_TOOL,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Fluke' ),
-    model_name        ( '1AC-C2-II' ),
-    equipment_type    ( 'VoltAlert Voltage Detector' ),
-    category          ( 'Voltage Detector' ),
-    category          ( 'Hand Tool' ),
-    category          ( 'Meter' ),
-    category          ( 'Test Equipment' ),
-    manufacturer_link (
-      link_href       ( 'https://www.fluke.com/en-us/product/electrical-testing/basic-testers/fluke-1ac-ii' ),
-      link_text       ( 'Fluke 1AC II Non-Contact Voltage Tester' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Fluke_VoltAlert_1AC' ),
   search_url    ( 'https://www.amazon.com/s?k=Fluke+1AC-C2-II+VoltAlert+Voltage+Detector&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Fluke+1AC-C2-II+VoltAlert+Voltage+Detector&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Fluke+1AC-C2-II+VoltAlert+Voltage+Detector' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Fluke+1AC-C2-II+VoltAlert+Voltage+Detector' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Fluke-1AC-C2-II-VoltAlert-Voltage-Detector.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Fluke-1AC-A1-II-VoltAlert-Non-Contact-Voltage/dp/B000EJ332O/ref=sr_1_2?dib=eyJ2IjoiMSJ9.aZPNTe5wJRG_9rKICvHkJYha4ybkZ9HGMYmqlE6Em4jGjHj071QN20LucGBJIEps.rUDz8v6Zv2vvB_CFzdEPy6c71MGxehUZ3yk_qmphiWY&dib_tag=se&keywords=Fluke+1AC-C2-II+VoltAlert+Voltage+Detector&qid=1705274020&sr=8-2' ),
     affiliate_url ( 'https://amzn.to/3ShTypj' ),
@@ -5305,7 +5178,6 @@ equipment(
     item_price    ( 'US$25.56' ),
     item_shipping ( 'US$17.76' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Fluke+1AC-C2-II+VoltAlert+Voltage+Detector&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Fluke-1AC-A1-II-VoltAlert-Non-Contact-Voltage/dp/B000EJ332O?dib=eyJ2IjoiMSJ9.aZPNTe5wJRG_9rKICvHkJYha4ybkZ9HGMYmqlE6Em4jGjHj071QN20LucGBJIEps.rUDz8v6Zv2vvB_CFzdEPy6c71MGxehUZ3yk_qmphiWY&dib_tag=se&keywords=Fluke%2B1AC-C2-II%2BVoltAlert%2BVoltage%2BDetector&qid=1705274020&sr=8-2&linkCode=sl1&tag=johnelliotv-20&linkId=25a4653b10a64d7f07fd90ef9b8eab08&language=en_US&ref_=as_li_ss_tl&th=1' ),
     affiliate_url ( 'https://amzn.to/48UJAzK' ),
@@ -5313,7 +5185,6 @@ equipment(
     item_options  ( 'Size Name: 1AC-A1-II, 90-1000V' ),
     item_price    ( 'AU$100.11' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Fluke+1AC-C2-II+VoltAlert+Voltage+Detector' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/301822024783?hash=item4645fe9c4f%3Ag%3AFa4AAOSwhkRWd5Rc&amdata=enc%3AAQAIAAABAHW%2FPzwGfDeoce7CmGir01kvVgszpmq8m%2FtD0TsDdF%2BmhSrN3qmG0amU6NYf2hQCZ9cASjcIhhA5VDKvqU1JT2gHog3aRnxH64RCYk60scxCWZfrLsrNy9j9I0wdFCoostdbjtgpr8IwiMgOLRO%2FeZ%2BLBLtElHzirTVV2D86gi%2BTp9V60gOVosJhgUKoPPGR%2BMXVovWJmSvQn%2F02c2coYzxUsCF2JjDWybIw0Xph3WU1b2cjVmNj8kZ%2FYt3s8uvKrYaLncAhwfDqtkyQ%2FBpIpJFC9Tsd0z%2F4Wx0hMAkLgNOFWIAhbru8uCNABRO6Y7nOtvagGofO2UxWynIpo0QOAI8%3D%7Ctkp%3ABk9SR_KnoqShYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/LgIdOV' ),
@@ -5333,7 +5204,6 @@ equipment(
     item_price    ( 'US$19.99' ),
     item_shipping ( 'US$11.70' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Fluke+1AC-C2-II+VoltAlert+Voltage+Detector' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/276279849567?hash=item40538ff25f%3Ag%3A%7Ei0AAOSw7mNlFtZx&amdata=enc%3AAQAIAAAA4Ey5WF%2FWnMgOI6xZxn2HD9RRbhBhdZTA7bsn51wCR3hFLSNw4VUD1V3YI3PZtW1rGci%2FHrNykhTXVXtCmXgYfx%2FOrrQ6fXBCN2jIkdcLOY0rF%2BwXvf%2FMAm%2F8O%2Bkz8spSG5derjzcRfsXf4bbd%2F%2BFWEU%2FbLsbk86yR7tfPld3Yh1BRK%2FYpdi4UUtETspnlVDO2Sz65Za1t%2B18kM4dNHSsEsTANgnR7QSyHPZA9dd48Fz94nQ5YBTJ%2FAkjuA46Bn0hD5NL0lrf2dxHX2bdS9iBE3jDoNE8clHqKMN5m2sC3Sem%7Ctkp%3ABk9SR-CftaShYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/hXKOKE' ),
@@ -5352,7 +5222,6 @@ equipment(
     listing_name  ( '1AC-C2-II Electric Power Voltage Tester VoltAlert Pen Detector AC200-1000V Fluke' ),
     item_price    ( 'AU$33.30' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Fluke-1AC-C2-II-VoltAlert-Voltage-Detector.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006200262722.html?spm=a2g0o.productlist.main.3.21f426d3sKzcqg&algo_pvid=d305dff0-c6c3-4dd6-8eea-a4e2b0dda6c0&algo_exp_id=d305dff0-c6c3-4dd6-8eea-a4e2b0dda6c0-1&pdp_npi=4%40dis%21AUD%2156.55%2139.59%21%21%21268.01%21187.61%21%402101ef7017052745436976003e9c4f%2112000036253311936%21sea%21AU%214385823938%21&curPageLogUid=o9noFKcNsOb8&utparam-url=scene%3Asearch%7Cquery_from%3A' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_Dn1tSvj' ),
@@ -5396,16 +5265,12 @@ equipment(
     EquipmentFeature::PCB_CLAMP,
     EquipmentAttribute::BENCH_EQUIPMENT,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Duratech' ),
-    model_name        ( 'TH-1980' ),
-    equipment_type    ( 'PCB Clamp' ),
-    category          ( 'Clamp' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Duratech_TH-1980' ),
   search_url    ( 'https://www.amazon.com/s?k=Duratech+TH-1980+PCB+Clamp&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Duratech+TH-1980+PCB+Clamp&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Duratech+TH-1980+PCB+Clamp' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Duratech+TH-1980+PCB+Clamp' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Duratech-TH-1980-PCB-Clamp.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/MMOBIEL-Adjustable-Soldering-Desoldering-Rotation/dp/B098PBPX8W/ref=pd_sbs_d_sccl_3_1/357-4865216-0697531?pd_rd_w=m85Py&content-id=amzn1.sym.97c5ae12-dcee-4048-8c97-77299443b76d&pf_rd_p=97c5ae12-dcee-4048-8c97-77299443b76d&pf_rd_r=WVW1C3NJW1BPD3WVHEV3&pd_rd_wg=077ov&pd_rd_r=f2958093-1cb8-47fc-87e1-a941bbd4bf02&pd_rd_i=B098PBPX8W&psc=1' ),
     affiliate_url ( 'https://amzn.to/3O4bGk3' ),
@@ -5419,7 +5284,6 @@ equipment(
     listing_name  ( 'DURATOOL D03170 PCB Holder' ),
     item_price    ( 'AU$41.56' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Duratech+TH-1980+PCB+Clamp&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/DOSS-PCB-HOLDER/dp/B0786ZR4ZN/ref=sr_1_4?dib=eyJ2IjoiMSJ9.4SRaNVTzzYwS9_W6RK-yQJS8Y5TiIxIsjaGsX5ogD87T2cHS25H-aB_Mvr8ONkyA_KZjL7zgZyIXBSqdzKHKtS5-fu53FkeQ4qgRWsVrHt3Nhv3nQx8wcG8-V6x65gHpW08igxD7HVHXmGbSNn6mng.Aq7QxbC5c6QGv0zidNW8oOMa2RMxI3cOyKE13yuxLv8&dib_tag=se&keywords=Duratech+TH-1980+PCB+Clamp&qid=1705274988&sr=8-4' ),
     affiliate_url ( 'https://amzn.to/3vAHSFo' ),
@@ -5439,7 +5303,6 @@ equipment(
     listing_name  ( 'DURATOOL D03170 PCB Holder' ),
     item_price    ( 'AU$41.56' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Duratech+TH-1980+PCB+Clamp' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/133990901970?epid=1655495334&hash=item1f327ae8d2%3Ag%3Ar1cAAOSwUsFh3Tko&amdata=enc%3AAQAIAAAA0OzRRYB9PxQoGe4gAHXVJHLXdt48XLbhQWs9t8wSJe0dB1b4WZ3iSFKefXrU10BhQbRB7J3IqZbrRQ4nFFIejB9NzkW60FNsvqs1sA%2BJzkoCkYw0qYq%2B1zUy4BM0M7UOIUNgpPUUAi0PF3JU4PE46%2FL%2Bjxo9NrWpuTcCcozl6KP51ZOwGzDSY0vTBBLpzVgcImHLeqaw08Ygrrru82J%2B5gG8Ns7a9ZiHC%2BP0lISbzN2iJqDCxOqBZ%2FEHvyRMqOP2qZKjMwwoyl0BVsmEyJGFLnU%3D%7Ctkp%3ABk9SR-aZpqWhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/F74Xvp' ),
@@ -5452,7 +5315,6 @@ equipment(
     listing_name  ( 'Duratech Desktop PCB Circuit Board Holder with Adjustable Angle TH-1980' ),
     item_price    ( 'US$20.03' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Duratech+TH-1980+PCB+Clamp' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/133990901970?epid=1655495334&hash=item1f327ae8d2%3Ag%3Ar1cAAOSwUsFh3Tko&amdata=enc%3AAQAIAAAA8LBIwO0fyC8NYy%2FXucEBQINGoJQtcTTBBSzUINpHTCRIDk%2FbDlVKKGtAyXtrm6kpU3vz5FehUuyJI1nw1kx2AAPcOqCykiYVEUeRl%2FP7fCRcrhdaPfYe23qMkUcEMwoZ%2Bc%2BQlxjag9xKXHfn307H6n8ZV8kd1ZMyPfZOwE8zeBilYlLacnbyah7xoaAq0twQSYhawanI1%2FEQrQcviZyTqGuD3mmoWHyGf77%2BOZmfqvj6rOCEQKwfa3r1AbedwxvjFhRH85K14R6uBk3fIP4kaOi%2FSvK12aiOrov4bSRnzfw84NhIC6nrhAQGQZmNmpcOhw%3D%3D%7Ctkp%3ABk9SR96EtKWhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/DzswH2' ),
@@ -5472,7 +5334,6 @@ equipment(
     item_price    ( 'AU$22.90' ),
     item_shipping ( 'AU$6.90' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Duratech-TH-1980-PCB-Clamp.html' ),
   purchase(
     equipment_url   ( 'https://www.ebay.com/itm/133990901970' ),
     order_url       ( 'https://order.ebay.com/ord/show?orderId=07-08851-03093#/' ),
@@ -5491,14 +5352,6 @@ equipment(
     manufacturer_name ( 'MECHANIC' ),
     EquipmentFeature::UV_CURING_LIGHT,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'MECHANIC' ),
-    equipment_type    ( 'UV Curing Light' ),
-    category          ( 'UV Light' ),
-    category          ( 'Torch/Light' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/UV_curing_light' ),
   search_url    ( 'https://www.amazon.com/s?k=MECHANIC+UV+Curing+Light&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=MECHANIC+UV+Curing+Light&s=price-asc-rank' ),
@@ -5555,22 +5408,12 @@ equipment(
     EquipmentFeature::TORCH,
     EquipmentAttribute::RECHARGEABLE,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Bysameyee' ),
-    equipment_type    ( 'Head-Mounted Magnifier' ),
-    category          ( 'Magnifying Glass' ),
-    category          ( 'Torch/Light' ),
-    category          ( 'Rechargeable' ),
-    category          ( 'Head-Mounted' ),
-    manufacturer_link (
-      link_href       ( 'https://www.bysameyee.com/head-mount-magnifier-bysameyee-lighted-magnifying-headband-glass-loupe-visor-with-2-led-light-for-close-work-jewelry-work-watch-repair-arts-amp-crafts-reading-aid-p00095p1.html' ),
-      link_text       ( 'Head Mount Magnifier, Bysameyee Lighted Magnifying Headband Glass Loupe Visor with 2 LED Light for Close Work, Jewelry Work, Watch Repair, Arts & Crafts, Reading Aid' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Bysameyee_Head-Mounted_Magnifier' ),
   search_url    ( 'https://www.amazon.com/s?k=Bysameyee+Head-Mounted+Magnifier&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?s=price-asc-rank&k=Bysameyee+Head-Mounted+Magnifier' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Bysameyee+Head-Mounted+Magnifier' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Bysameyee+Head-Mounted+Magnifier' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Bysameyee-Head-Mounted-Magnifier.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Magnifier-Bysameyee-Lighted-Magnifying-Headband/dp/B0863VH3SW/ref=sr_1_4?dib=eyJ2IjoiMSJ9.Exqam8iUeQoIWiO6y1n4Eymlm1ppSqHsJZ-rOvEnmv5guDFXn7xl3h1DBq5lpaXrviVjzPM7bp4yU8Kc93CcWDIMGw1y5vj9P4AaLECiJo1Hq4h8ymC7-cgSQyEGxiFEeX6UM1XboyEUY-wn3XIIfw.0ZkvKZKM2hb1G-XVus1OYlVMzbBSyMhRownw47q4nyE&dib_tag=se&keywords=Bysameyee%2BHead-Mounted%2BMagnifier&qid=1705276090&sr=8-4&th=1' ),
     affiliate_url ( 'https://amzn.to/3O4csgX' ),
@@ -5579,7 +5422,6 @@ equipment(
     item_price    ( 'US$15.99' ),
     item_shipping ( 'US$18.49' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?s=price-asc-rank&k=Bysameyee+Head-Mounted+Magnifier' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Magnifier-Bysameyee-Lighted-Magnifying-Headband/dp/B0863VH3SW/ref=sr_1_4?dib=eyJ2IjoiMSJ9.Exqam8iUeQoIWiO6y1n4Eymlm1ppSqHsJZ-rOvEnmv5guDFXn7xl3h1DBq5lpaXrviVjzPM7bp4yU8Kc93CcWDIMGw1y5vj9P4AaLECiJo1Hq4h8ymC7-cgSQyEGxiFEeX6UM1XboyEUY-wn3XIIfw.0ZkvKZKM2hb1G-XVus1OYlVMzbBSyMhRownw47q4nyE&dib_tag=se&keywords=Bysameyee%2BHead-Mounted%2BMagnifier&qid=1705276090&sr=8-4&th=1' ),
     affiliate_url ( 'https://amzn.to/41Y9i45' ),
@@ -5587,9 +5429,6 @@ equipment(
     item_options  ( 'Size Name: 1 Count (Pack of 1)' ),
     item_price    ( 'AU$29.99' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Bysameyee+Head-Mounted+Magnifier' ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Bysameyee+Head-Mounted+Magnifier' ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Bysameyee-Head-Mounted-Magnifier.html' ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B0863VH3SW/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&th=1' ),
     order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=250-1468000-1335020' ),
@@ -5611,13 +5450,6 @@ equipment(
     EquipmentFeature::LED_TORCH,
     EquipmentAttribute::HAND_TOOL,
   ),
-  /*
-  equipment_info(
-    model_name         ( 'Super Bright 90000LM' ),
-    equipment_type     ( 'LED Torch' ),
-    category          ( 'Torch/Light' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/LED_Torch' ),
   search_url    ( 'https://www.amazon.com.au/s?s=price-asc-rank&k=Super+Bright+90000LM+LED+Torch' ),
   affiliate_link(
@@ -5648,12 +5480,6 @@ equipment(
     EquipmentFeature::LED_LIGHT,
     EquipmentFeature::SOLDERING_STAND,
   ),
-  /*
-  equipment_info(
-    equipment_type     ( 'Third Hand' ),
-    category          ( 'Third Hand' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/TE-801_Third_Hand' ),
   search_url    ( 'https://www.aliexpress.com/w/wholesale-Third-Hand.html' ),
   affiliate_link(
@@ -5706,17 +5532,12 @@ equipment(
     EquipmentAttribute::HAND_TOOL,
     EquipmentAttribute::CORDLESS,
   ),
-  /*
-  equipment_info(
-    equipment_type     ( 'Capactior Discharge Pen' ),
-    category          ( 'Capactior Discharge Pen' ),
-    category          ( 'Hand Tool' ),
-    category          ( 'Cordless' ),
-    category          ( 'Tweezers' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/ALKOY_Capacitor_Discharge_Pen' ),
   search_url    ( 'https://www.amazon.com/s?k=Capactior+Discharge+Pen&crid=2XWP8HKS23BPC&sprefix=capactior+discharge+pen%2Caps%2C277&ref=nb_sb_noss_2' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Capactior+Discharge+Pen&crid=18AEPXY10GY9E&sprefix=capactior+discharge+pen%2Caps%2C240&ref=nb_sb_noss_2' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2334524.m570.l1313&_nkw=Capactior+Discharge+Pen&_sacat=0&rt=nc&_osacat=0&_odkw=%E2%80%8EOUSFANAM+Capactior+Discharge+Pen&_sop=15&LH_ItemCondition=1000' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_trksid=p2334524.m570.l1313&_nkw=Capactior+Discharge+Pen&_sacat=0&rt=nc&_osacat=0&_odkw=%E2%80%8EOUSFANAM+Capactior+Discharge+Pen&_sop=15&LH_ItemCondition=1000' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Capactior-Discharge-Pen.html?spm=a2g0o.productlist.search.0' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Labstandard-Capacitor-Discharging-Discharger-Electronic/dp/B0C7VJL4D6/ref=sr_1_9?crid=2XWP8HKS23BPC&dib=eyJ2IjoiMSJ9.XYCeXUwEqJj2knlisFlhwJM4N4qg459ydU4iGPj-MWut3dBlW1aShcMD-M5bCHhO9pjyXuV4IYxlM0H6iUDnReGMBQYY8hic5nUghWM1f11f7hSAwNegvfbQeBeuWFVdwFqgRPTQO54z9Qk1Q85BUg.wQ7ryCD3ruhyKKZ8KU1MKhAR6WjlazDdpFG5M9YSRs8&dib_tag=se&keywords=capacitor+discharge+pen&qid=1705276856&sprefix=capactior+discharge+pen%2Caps%2C277&sr=8-9' ),
     affiliate_url ( 'https://amzn.to/48TWZbu' ),
@@ -5738,7 +5559,6 @@ equipment(
     item_price    ( 'US$20.99' ),
     item_shipping ( 'US$2.00' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Capactior+Discharge+Pen&crid=18AEPXY10GY9E&sprefix=capactior+discharge+pen%2Caps%2C240&ref=nb_sb_noss_2' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Capacitor-Discharge-Eacam-Discharging-Electronic/dp/B0CGVHGC13/ref=sr_1_5?crid=18AEPXY10GY9E&dib=eyJ2IjoiMSJ9.AsfvgSgG96TiKb8vY_ZIQOqQdpVF4x7YO6piswYobQL_dvpm4CnQBCEzmAbN4L2OefKUfe_vvAp9ZZ9xvjtHGjuhhd01UC9hBkUVjEel4H5JgMLItJpILYUkquanEkCfUy0-54ft7V0yA1s7LOdcQw.9slwdzPXR6BWoRxI7Epam7lloVt5cqpEj1aYFXwOCak&dib_tag=se&keywords=capacitor+discharge+pen&qid=1705277043&sprefix=capactior+discharge+pen%2Caps%2C240&sr=8-5' ),
     affiliate_url ( 'https://amzn.to/4aXWkYo' ),
@@ -5757,7 +5577,6 @@ equipment(
     listing_name   ( '1000V Portable Capacitor Discharge Pen High Voltage Quick Discharging Tool Constant Discharge Pen Electronic Repairs Discharge Pen ALKOY' ),
     item_price    ( 'AU$23.02' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2334524.m570.l1313&_nkw=Capactior+Discharge+Pen&_sacat=0&rt=nc&_osacat=0&_odkw=%E2%80%8EOUSFANAM+Capactior+Discharge+Pen&_sop=15&LH_ItemCondition=1000' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/126210066449?hash=item1d62b4c811%3Ag%3AG6wAAOSwxZFlZbKi&amdata=enc%3AAQAIAAAA8MfDX785qZel20ei6bT2gVONz7QKUFs3cInm1SGDWzX%2F8f4nif5CuciTWN4GEry7pi0a4lsnWU0YvELBkFsEyVCeYrAsHrKdk0mw7NH%2BZkYFaKyIi1onRXqr1v%2BtAe4p%2FgQmN55TwbK5MKtbljfVsV1x2N%2FrGwY6q7BUb%2FBRmUd9XFCcrCnB9Li0n2l20P37N4C3hndpHpnniXlOZv%2FFg5L%2F%2FR2HbU0aKiKTjWFDlVLB2mYuHCrrzrMs1Z4YQb8%2BML5dW3Rr3BzJI%2FZEdK8bBg4zOlQ7GrJuMNQrXWDGpvsF45v%2BJxo8i3a1qlQXQlEwlw%3D%3D%7Ctkp%3ABk9SR4DphKehYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/br6rn6' ),
@@ -5776,7 +5595,6 @@ equipment(
     listing_name   ( 'Capacitor Discharge Pen Fast Discharging High Voltage 1000V Repair Tool Dis K7R4' ),
     item_price    ( 'US$14.32' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_trksid=p2334524.m570.l1313&_nkw=Capactior+Discharge+Pen&_sacat=0&rt=nc&_osacat=0&_odkw=%E2%80%8EOUSFANAM+Capactior+Discharge+Pen&_sop=15&LH_ItemCondition=1000' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/404653674593?hash=item5e373d1061%3Ag%3AhNkAAOSwGnNlaLX3&amdata=enc%3AAQAIAAAA8MCz11yBJcvE3XSNISNHIrJwuoQi2%2BOrL7M5vm4u%2BS8aW5FXq9anGC59q%2B%2BJB4iHY50Hws%2Ft1phEdD76LVh5kiqDExoFHVYGg4ZDTWtcH2xavjK9OCls81riPfjIVEW8d0som%2F6cSzoKiOLtkOXIQzf6zibuGT%2BsXz7yjuc5dFMq5bY8eP6oOl1XC0ktleM6%2FQbmMCBNF7OkW4xmfeMXZVqIZQ6pEqw3N3P%2Fp%2B4mdU6SpaAIV7pINiRfvheq%2BH1MMJMftvO11xtpHKpVrPvu%2BnpCh0X87GmXjcYXYh1AnDBzMVEldSTF6ar5VEi7NLJxLg%3D%3D%7Ctkp%3ABk9SR7KblaehYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/V7NWxN' ),
@@ -5795,7 +5613,6 @@ equipment(
     listing_name   ( 'Capacitor Discharge Pen High Voltage Discharge Digital Sparkpen Discharger W7N6' ),
     item_price    ( 'AU$21.40' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Capactior-Discharge-Pen.html?spm=a2g0o.productlist.search.0' ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B0CFLRMSCL/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1' ),
     order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=249-8969281-2372641' ),
@@ -5830,19 +5647,6 @@ equipment(
     EquipmentFeature::PAINT_BRUSHES,
     EquipmentAttribute::HAND_TOOL,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Fuumuui' ),
-    equipment_type     ( 'Paint Brushes' ),
-    category          ( 'Paint Brush' ),
-    category          ( 'Brush' ),
-    category          ( 'Hand Tool' ),
-    manufacturer_link (
-      link_href       ( 'https://fuumuuiart.com/collections/brush?currency=USD' ),
-      link_text       ( 'Fuumuuiart brushes' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Fuumuui_Paint_Brushes' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Fuumuui+Paint+Brushes&s=price-asc-rank' ),
   affiliate_link(
@@ -5871,25 +5675,18 @@ equipment(
     EquipmentFeature::SIGNAL_GENERATOR,
     EquipmentFeature::WAVEFORM_GENERATOR,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'FNIRSI' ),
-    model_name         ( 'SG-002' ),
-    equipment_type     ( 'Signal Generator' ),
-    category          ( 'Signal Generator' ),
-    category          ( 'Waveform Generator' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/FNIRSI_SG-002' ),
   search_url    ( 'https://www.amazon.com/s?k=FNIRSI+Signal+Generator&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=FNIRSI+Signal+Generator&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=FNIRSI+Signal+Generator' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=FNIRSI+Signal+Generator' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-FNIRSI-Signal-Generator.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Abbraccia-Generator-Portable-Transmitter-Scientific/dp/B014VI6TMO/ref=sr_1_2?dib=eyJ2IjoiMSJ9.i6ggYQdqy9pIserU1fcLCv3J4ABQcA7FZyrxq_rMSz4Enp9tNRJWMCbZLU-3V1_sS9rkeWCCGhOSXzMixadTphPNH-6Fa8_GPE5ReM837eOADEHv7_ZAA63E0-A3N-xKyMX3lI_7dSBg26uiOjY6rg.MLvy4uDsvURLbBla5X-E5KY33ElmsMBtabz-nIL1Wlc&dib_tag=se&keywords=FNIRSI+Signal+Generator&qid=1705277780&sr=8-2' ),
     affiliate_url ( 'https://amzn.to/3HhsAYC' ),
     listing_name   ( 'Abbraccia Signal Generator Portable High Accuracy 0-10V 0-4-20mA Current Transmitter for Scientific Research - Built in Li Battery' ),
     item_price    ( 'AU$39.99' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=FNIRSI+Signal+Generator' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/195910318552?hash=item2d9d2a39d8%3Ag%3AOBIAAOSwpDBkxPus&amdata=enc%3AAQAIAAAA8PLEo8IDRGC%2Fj3%2FsyVcrNEjyQrOYpFl1arAEZvnlIxawXH67HsR9JepvpU9lyFDtupfoVR0gt0x7HNspWzwLGt7i1JEGu24qpSPdLbdT9daQV6DlaAxo1afufC7YtaHGSBXDg7EJUNYHt7WozCnbOz5jODtaL4vqv2iMgAJQIEtUTtDojA33vMWsKIGVBUPpUgBPWRIzlOD1xYukX5%2FS7KzmJI5lhyDnIZfe6QKtIk1y8aI3vsuuk44lX8KkdnhU0a7zEY1zm63Ikjl72d3XvvV8Oq%2BAv%2F%2BEuXle%2B04KBrhd11ypBfTbBkd5URXyoyhISA%3D%3D%7Ctkp%3ABk9SR_yk16ehYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/gCUisa' ),
@@ -5897,7 +5694,6 @@ equipment(
     item_options  ( 'Types: No Battery' ),
     item_price    ( 'US$27.11' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=FNIRSI+Signal+Generator' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/155818532641?hash=item2447821f21%3Ag%3AoWAAAOSwWVplIqJ1&amdata=enc%3AAQAIAAAA8HuHTQZVxLlblfSb7OTQHExdIc5e1ja3Z%2BLPtnJwj9%2BYHEnX7dNVTzGyBAVJCnvgDDKXHSawNBtesyeqntHNJlvH%2BL3MUZRid15LZH%2BmOX2y6E63suH%2BMi9Sc4mLGa30qyf4TwZe%2Fb0TfUJnvCM4Ml33J7wXIK7PLGWzL7r1GuPkF2bL26psX4fXtwWLqCceFzkzTgJ7YR6Ejx2DGf30xGOLG2tohyYDp%2B0uGlTTeZOxXMJUT5349QtuCGfRovG1LKzIZj3AzKhmM4lLfKwEIA63fhPxyHVeluNdI3yRS1xeI2ZFCfAA5je1trsErE707g%3D%3D%7Ctkp%3ABk9SR-7b4KehYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/EtfvpU' ),
@@ -5912,7 +5708,6 @@ equipment(
     item_options  ( 'Types: No Battery' ),
     item_price    ( 'AU$40.47' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-FNIRSI-Signal-Generator.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005004690285230.html?spm=a2g0o.productlist.main.27.74932ac51S90qw&algo_pvid=8f307275-645f-43ac-ba1d-370e71b37ead&algo_exp_id=8f307275-645f-43ac-ba1d-370e71b37ead-13&pdp_npi=4%40dis%21AUD%2141.92%2123.06%21%21%2127.72%2115.25%21%402103247417052780420122878eaad3%2112000030113128402%21sea%21AU%214385823938%21&curPageLogUid=ugkiFmFyETxP&utparam-url=scene%3Asearch%7Cquery_from%3A' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_Dk2GFEv' ),
@@ -5944,14 +5739,6 @@ equipment(
     manufacturer_name  ( 'nmsafety' ),
     EquipmentFeature::NITRILE_GLOVES,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'nmsafety' ),
-    equipment_type     ( 'Gloves' ),
-    category          ( 'Gloves' ),
-    category          ( 'Safety Equipment' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Nitrile_Gloves' ),
   search_url    ( 'https://www.aliexpress.com/w/wholesale-nmsafety-Gloves.html' ),
   affiliate_link(
@@ -5983,13 +5770,6 @@ equipment(
     manufacturer_name  ( 'Wozniak' ),
     EquipmentFeature::SOLDER_LUGS,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Wozniak' ),
-    equipment_type     ( 'Solder Lugs' ),
-    category          ( 'Solder Lugs' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Wozniak_Dot' ),
   search_url    ( 'https://www.amazon.com/s?k=Wozniak+Solder+Lugs&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Wozniak+Solder+Lugs&s=price-asc-rank' ),
@@ -6026,26 +5806,18 @@ equipment(
     EquipmentFeature::BLOW_TORCH,
     EquipmentAttribute::HAND_TOOL,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Kaqiwze' ),
-    equipment_type     ( 'Blow Torch' ),
-    category          ( 'Blow Torch' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Kaqiwze_KLD-988C' ),
   search_url    ( 'https://www.amazon.com/s?k=Kaqiwze+Blow+Torch&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Kaqiwze+Blow+Torch&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Kaqiwze+Blow+Torch' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Kaqiwze+Blow+Torch' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Kaqiwze-Blow-Torch.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Adjustable-Omni-directional-Charcoal-Roasting-Included/dp/B0BG5KQDX1/ref=sr_1_3?dib=eyJ2IjoiMSJ9.8OVCMJ1hjHFgDXvwXvPmA5whipMXKc8jZ1OFiRHG_j4uo_NXT6NVBOcst5dT7mxaYSfOCbV1a-_jVtZRQs6cdlQ7p5ytr9eIPtDPT5ME0lfTSedcPT34jIoBfMCSb4z1gi_035F_jWsbmqtUGOFp_g.v9uSzd2NJYGmf17y4HF2bWqG-sLhKZWGmS36H5Exqs4&dib_tag=se&keywords=Kaqiwze+Blow+Torch&qid=1705278706&sr=8-3' ),
     affiliate_url ( 'https://amzn.to/48NCeyF' ),
     listing_name   ( 'Gas Burner, 900°C To 1300°C, Flame Adjustable Butane Blow Torch, 360° Omni-directional Use for Cooking, BBQs, Camping, Sweets Making, Charcoal Fire, Roasting, Welding, Etc. (Butane Gas Not Included)' ),
     item_price    ( 'AU$13.59' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Kaqiwze+Blow+Torch' ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Kaqiwze+Blow+Torch' ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Kaqiwze-Blow-Torch.html' ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B0BG5KQDX1/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1' ),
     order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=249-0764369-0442231' ),
@@ -6068,28 +5840,18 @@ equipment(
     manufacturer_name  ( 'Gasmate' ),
     EquipmentFeature::BUTANE,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Gasmate' ),
-    equipment_type     ( 'Butane' ),
-    category          ( 'Gas' ),
-    manufacturer_link (
-      link_href       ( 'https://www.gasmate.com.au/accessories/cylinders/butane-range-fuel' ),
-      link_text       ( 'Gasmate Butane Fuel Range' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Kaqiwze_KLD-988C' ),
   search_url    ( 'https://www.amazon.com/s?k=Gasmate+Butane&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Gasmate+Butane&s=price-asc-rank' ),
   search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Gasmate+Butane' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Gasmate+Butane' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Gasmate-Butane.html' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/225651472433?epid=10025396098&hash=item3489e03831%3Ag%3A9NEAAOSwfa5korqN&amdata=enc%3AAQAIAAAAwD%2BCuirBt5hSdpHhANG3XWpHqSyIBaZ2ltKit5Sk1Ia5BNvPCTSQ62RUo9zWgrHz%2FR%2F65pX%2FPJJ5QRyDhUzQL6447BGC%2B%2F5Wkq%2BH5BXQx%2BET%2BKhLaGL5Gx9wwzST3EWIH3ZnMtMRqEF8FuOQu46gotMIi5qt3L26b3%2Fx94xZOf5CmhQb69JcYuAAjc3APc14hS7G5FcAPqe8Js3LpLtJrRkZQqLmUC3Pu43SJiPn2yrw0yurIjO4motExdSomRgwfA%3D%3D%7Ctkp%3ABk9SR-q11qihYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/3Ehf8a' ),
     listing_name   ( 'Gasmate 220g Rim Vent Safety Butane Gas Cartridge - 4 Pack' ),
     item_price    ( 'US$12.06' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Gasmate+Butane' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/355249047485?hash=item52b67e47bd%3Ag%3AuP8AAOSw86RlaYfx&amdata=enc%3AAQAIAAAAwMWah8VSaMSqJvBKehA%2FUAsy%2FoNc%2FE8qxmNv%2BuJq1V%2B1BbpzqTUGTSEIwu55VIeV1QEGQ6V03YWKBSokOE7DV0urdJwz1%2F42Oi%2FkoVYZoMu48Dwn9XfTGyXOuRowojS7AC6f8f%2BNgvbUNxmXEEHyGhXFxqenp%2FI0vfxzx%2FTiv7ov3gdpa0x9o3bd5Tv4hJ8yuR1QiEOM9Osu%2B9CWnKUe6%2BirXGbYEWxeOeQiwluT2cFm%2BUCEKA0CW%2FN3H50iD1C8dw%3D%3D%7Ctkp%3ABk9SR-zR3aihYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/9MWHuA' ),
@@ -6108,7 +5870,6 @@ equipment(
     listing_name   ( 'BULK DISCOUNT Gasmate 220g Rim Vent Safety RVR Butane Gas Cartridge - 4 Pack' ),
     item_price    ( 'AU$19.99' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Gasmate-Butane.html' ),
   purchase(
     equipment_url   ( 'https://www.ebay.com/itm/324506224215' ),
     order_url       ( 'https://order.ebay.com/ord/show?orderId=27-10476-46856#/' ),
@@ -6129,23 +5890,15 @@ equipment(
     model_name        ( '395nm' ),
     EquipmentFeature::UV_LAMP,
   ),
-  /*
-  equipment_info(
-    model_name         ( '395nm' ),
-    equipment_type     ( 'UV Lamp' ),
-    category          ( 'UV Light' ),
-    category          ( 'Torch/Light' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/UV_Lamp_395nm' ),
   search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=UV+Lamp+395nm' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=UV+Lamp+395nm' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/144334619731?amdata=enc%3AAQAIAAAAkA2M%2Bd%2F9XvLBGnXOuvLom3wc4Mv6rUuIwcrU4w8cHZFNHQ0vFgPAJp1%2B1OnLQYwmgg9FcmA%2Bmkq2yHjZpQCJC45rK5M2otkmKNVWIgjao8ukFlI6u9ga9Cjy9dTsU6syFFG73B3DLwoRPkyok1t3pttBUZdBi6O%2FsvVoSlCD1x9WD5xVJSOwiZs2Y2wlscUtNw%3D%3D&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339019639&customid=&toolid=20012&mkevt=1' ),
     affiliate_url ( 'https://ebay.us/SvcurN' ),
     listing_name   ( ' 100 LED 395 nM UV Ultra Violet Flashlight Blacklight Torch Light Lamp Aluminum' ),
     item_price    ( 'US$11.29' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=UV+Lamp+395nm' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/144334619731?amdata=enc%3AAQAIAAAAkA2M%2Bd%2F9XvLBGnXOuvLom3wc4Mv6rUuIwcrU4w8cHZFNHQ0vFgPAJp1%2B1OnLQYwmgg9FcmA%2Bmkq2yHjZpQCJC45rK5M2otkmKNVWIgjao8ukFlI6u9ga9Cjy9dTsU6syFFG73B3DLwoRPkyok1t3pttBUZdBi6O%2FsvVoSlCD1x9WD5xVJSOwiZs2Y2wlscUtNw%3D%3D&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339019639&customid=&toolid=20012&mkevt=1' ),
     affiliate_url ( 'https://ebay.us/uXwIjh' ),
@@ -6171,23 +5924,15 @@ equipment(
     model_name        ( '365nm' ),
     EquipmentFeature::UV_LAMP,
   ),
-  /*
-  equipment_info(
-    model_name         ( '365nm' ),
-    equipment_type     ( 'UV Lamp' ),
-    category          ( 'UV Light' ),
-    category          ( 'Torch/Light' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/UV_Lamp_365nm' ),
   search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=365nm+UV+Lamp' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=365nm+UV+Lamp' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/334135210656?amdata=enc%3AAQAIAAAAkMjG6oRRob326FKgCL3%2FfXqjoYwdn2W4KacYEAp8jy7UdgrBv0sRJT1o6OEBbSV1PNyjL%2Bdv09OdrAeZO%2FyuMAk9S17YNAeVKYd6lsUBpy3yibeJ4FKoegn0JxwkGA%2FhwXT5GqCwhHR2J46BjHIaX%2F1U4M52Zq%2BZyiOVJRB3bhSMIF5NaFtuZ1L5okNfhzqrdA%3D%3D&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339019639&customid=&toolid=20012&mkevt=1' ),
     affiliate_url ( 'https://ebay.us/fQ92kQ' ),
     listing_name   ( 'UV Ultra Violet Led Flashlight/Blacklight Light 365 nm Inspection Lamp Torch TM' ),
     item_price    ( 'US$6.89' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=365nm+UV+Lamp' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/334135210656?amdata=enc%3AAQAIAAAAkMjG6oRRob326FKgCL3%2FfXqjoYwdn2W4KacYEAp8jy7UdgrBv0sRJT1o6OEBbSV1PNyjL%2Bdv09OdrAeZO%2FyuMAk9S17YNAeVKYd6lsUBpy3yibeJ4FKoegn0JxwkGA%2FhwXT5GqCwhHR2J46BjHIaX%2F1U4M52Zq%2BZyiOVJRB3bhSMIF5NaFtuZ1L5okNfhzqrdA%3D%3D&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339019639&customid=&toolid=20012&mkevt=1' ),
     affiliate_url ( 'https://ebay.us/K3uQgt' ),
@@ -6212,16 +5957,12 @@ equipment(
     manufacturer_name ( 'Comidox' ),
     EquipmentFeature::ATX_POWER_SUPPLY_TESTER,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Comidox' ),
-    equipment_type     ( 'ATX Power Supply Tester' ),
-    category          ( 'Power Supply Tester' ),
-    category          ( 'Test Equipment' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/ATX_Power_Supply_Tester' ),
   search_url    ( 'https://www.amazon.com/s?k=ATX+Power+Supply+Tester&s=price-asc-rank&page=2&qid=1705279904&ref=sr_pg_1' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=ATX+Power+Supply+Tester&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=ATX+Power+Supply+Tester' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=ATX+Power+Supply+Tester' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-ATX-Power-Supply-Tester.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Comidox-Computer-Supply-Tester-Automatic/dp/B07J9LRC6T/ref=sr_1_18?dib=eyJ2IjoiMSJ9.pkPL59-Jn_tWFS9kVr3G1k40-jeX4hrbGkPgwG1yoIski0AlmfDCVUIfXCKuyUSiivZ5An6I_ryZ4POTySW9KmAFSiPmS1-U7m9jq9Umyn52rABGB9G9KhS9zsxrpWDou-aAVw9Vr1OS_oJHH7SNgQ.i77722MYzqdK3n5wMFqpvFWL2DuSYNgrHFqzaEWj_I8&dib_tag=se&keywords=ATX+Power+Supply+Tester&qid=1705279932&sr=8-18' ),
     affiliate_url ( 'https://amzn.to/47BPBAg' ),
@@ -6229,7 +5970,6 @@ equipment(
     item_price    ( 'US$10.99' ),
     item_shipping ( 'US$17.76' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=ATX+Power+Supply+Tester&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Computer-Display-Digital-Support-Interface/dp/B09MP8X9LZ/ref=sr_1_12?dib=eyJ2IjoiMSJ9.FUL3ag3o1H6bRfdmE7Gzi2SAg0Y8im4oTRJWMZQ5fFWVWaNLcVrYNQyqxT0h3Ne-f7SDWatMUsTBT202N8B-MYvNUZOFS1ZUaFQvR-nzi2a7xqqEUkt3cg6m4G0nm7GhRpWBiamc-K07XQ4PSojhrA.6vYgVyD6AUVjJmGjYuEnEUJADNPm56KM_pofI3Jnnjo&dib_tag=se&keywords=ATX+Power+Supply+Tester&qid=1705280033&sr=8-12' ),
     affiliate_url ( 'https://amzn.to/3vB8bLF' ),
@@ -6237,21 +5977,18 @@ equipment(
     item_price    ( 'AU$11.60' ),
     item_shipping ( 'AU$7.99' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=ATX+Power+Supply+Tester' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/374700557166' ),
     affiliate_url ( 'https://ebay.us/TG0Uc4' ),
     listing_name   ( 'Plastic Digital LCD Display Power Supply Tester For 20/24 pin ATX SATA PCIE 6pin' ),
     item_price    ( 'AU$15.85' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=ATX+Power+Supply+Tester' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/374700557166' ),
     affiliate_url ( 'https://ebay.us/r6urLL' ),
     listing_name   ( 'Plastic Digital LCD Display Power Supply Tester For 20/24 pin ATX SATA PCIE 6pin' ),
     item_price    ( 'AU$15.85' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-ATX-Power-Supply-Tester.html' ),
   purchase(
     equipment_url   ( 'https://www.ebay.com.au/itm/374700557166' ),
     order_url       ( 'https://order.ebay.com.au/ord/show?orderId=13-10667-93671#/' ),
@@ -6270,17 +6007,12 @@ equipment(
     manufacturer_name  ( 'HiLetGo' ),
     EquipmentFeature::USB_LOGIC_ANALYZER,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'HiLetGo' ),
-    equipment_type     ( 'USB Logic Analyzer' ),
-    category          ( 'Logic Analyzer' ),
-    category          ( 'USB' ),
-    category          ( 'Test Equipment' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/HiLetGo_Logic_Analyzer' ),
   search_url    ( 'https://www.amazon.com/s?k=HiLetGo+USB+Logic+Analyzer&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=HiLetGo+USB+Logic+Analyzer&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=HiLetGo+USB+Logic+Analyzer' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=HiLetGo+USB+Logic+Analyzer' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-HiLetGo-USB-Logic-Analyzer.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/HiLetgo-Analyzer-Ferrite-Channel-Arduino/dp/B077LSG5P2/ref=sr_1_1?dib=eyJ2IjoiMSJ9.Zyci1U9gdZy-cXA-LZ4YSw.eug0jCJR7umLuLPMEcPHR5e3pYRIqs1xZT-c3UYhPic&dib_tag=se&keywords=HiLetGo+USB+Logic+Analyzer&qid=1705280287&sr=8-1' ),
     affiliate_url ( 'https://amzn.to/47ITKmk' ),
@@ -6288,7 +6020,6 @@ equipment(
     item_price    ( 'US$12.69' ),
     item_shipping ( 'US$17.52' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=HiLetGo+USB+Logic+Analyzer&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Portable-Analyzer-Professional-Computer-Communication/dp/B08JX42C8D/ref=sr_1_2?dib=eyJ2IjoiMSJ9.VGkhds-LOS656mnCGHkQ58MC2T1BJ0ZLAGdiLIe_M0yqSFjqMrV1j-iRlZTruc03HbHJQA3jnhRiH_lpf-LKyLNFAeCEXqValiTDmS92UgYPiCFTHmKHXALFyYkY1IO_ou-uwqI5ciI7ehYv4iGIcg.qwBCHhO9WHKqwjoew3Dq6k5cm-hxXCYTDrB1WT-6J_E&dib_tag=se&keywords=HiLetGo+USB+Logic+Analyzer&qid=1705280421&sr=8-2' ),
     affiliate_url ( 'https://amzn.to/4aXoBOD' ),
@@ -6309,7 +6040,6 @@ equipment(
     listing_name   ( 'Long Service Life Dslogic Plus, Good Performance Multifunction USB Logic Analyzer, for Rising Edge Low Level Trigger Falling Edge High Level Trigger' ),
     item_price    ( 'AU$14.58' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=HiLetGo+USB+Logic+Analyzer' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/166526546034?hash=item26c5c17072%3Ag%3AD9cAAOSwb39lj637&amdata=enc%3AAQAIAAAA8EAKfbL9GWTz27JXpd0bN5W9qW7MlQQnGHoD8F6sqKt%2FoVIMNbaZUzNarFqKtQr05tqooHw5evDnAMq3odlX6hLGDAGwQz9XkywfNR9EzdQOWp8Mux69QtYTezq5Q6PqNElTtvhWAw%2F%2F5QQ0EJgBwDdat%2FpiXMRAuxWKZDx8uDpAz6lnKEy7AW4aqpj37zVZ19QRC5MhuX5KiXSuw%2F60UhUz5MJhzdlRIZPTQXwamDl7O7EEeuDJ51Xq20KHUwK2vRe3hi9EEIuoudaz29t3VHT8CwRyhOt%2BJkF%2F1KAB5cKYSOJcZWBVl6G%2BGpOQKTY5OQ%3D%3D%7Ctkp%3ABk9SR5aOrKqhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/PEmCNh' ),
@@ -6328,7 +6058,6 @@ equipment(
     listing_name   ( 'Portable 8-Ch USB Logic Analyzer - 24MHz Memory Fast Data Capture' ),
     item_price    ( 'US$10.35' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=HiLetGo+USB+Logic+Analyzer' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/355319784864?hash=item52bab5a5a0%3Ag%3AheMAAOSwa1RlijPI&amdata=enc%3AAQAIAAAA8FCkJ0RCG4pwqXPNJTkHVwyJUMFur%2F6rXx42bD%2B8B%2B7bMFcpOaHFLLsZM6cT%2FT2MlEt2EUEDgUHX%2BQ7%2BnC5OJPd%2FPavTyeZjwUScc7uWsHs%2BXVth1Z%2Bck9BDRijWa8LNclcXoRZIz0ru2lKGh%2FS6Si5gz4N7fDe5slgH4AC1w1EFk0bf8WDuwfYtjG0%2FcgFD5QlNty8JPiw2Val2WNpv%2Be89SMxGMBSnMQ9LYl%2BhkpiPSqPEsAXiFCa60k8jgdBrjDJCTH5d9y089kEWxCcyba7PusFrT9NpcHRh5YDGX6PASg%2FXZo6jLj2NjB3UyPU6MA%3D%3D%7Ctkp%3ABk9SR8bIxaqhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/t897mg' ),
@@ -6347,7 +6076,6 @@ equipment(
     listing_name   ( '02 015 USB Logic Analyzer Logic Analyzer 8 Channel Mini For Automotive' ),
     item_price    ( 'AU$15.77' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-HiLetGo-USB-Logic-Analyzer.html' ),
 );
 
 equipment(
@@ -6357,13 +6085,6 @@ equipment(
     manufacturer_name  ( 'SUNSHINE' ),
     EquipmentFeature::HARD_BRUSH_SET,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'SUNSHINE' ),
-    equipment_type     ( 'Hard Brush Set' ),
-    category          ( 'Brush' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Hard_Brush' ),
   search_url    ( 'https://www.aliexpress.com/w/wholesale-SUNSHINE-Hard-Brush-Set.html' ),
   affiliate_link(
@@ -6397,15 +6118,6 @@ equipment(
     EquipmentFeature::SIGNAL_GENERATOR,
     EquipmentFeature::WAVEFORM_GENERATOR,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'EXAR' ),
-    equipment_type     ( 'Signal Generator' ),
-    category          ( 'Signal Generator' ),
-    category          ( 'Waveform Generator' ),
-    category          ( 'Test Equipment' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/EXAR_XR2206' ),
   search_url    ( 'https://www.aliexpress.com/w/wholesale-EXAR-Signal-Generator.html' ),
   affiliate_link(
@@ -6425,16 +6137,12 @@ equipment(
     model_name         ( 'S-160 45x30cm' ),
     EquipmentFeature::REPAIR_MAT,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Kaisi' ),
-    model_name         ( '45x30cm' ),
-    equipment_type     ( 'Repair Mat' ),
-    category          ( 'Repair Mat' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Kaisi_S-160_Repair_Mat_45x30cm' ),
   search_url    ( 'https://www.amazon.com/s?k=Kaisi+45x30cm+Repair+Mat&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Kaisi+45x30cm+Repair+Mat&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Kaisi+45x30cm+Repair+Mat' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Kaisi+45x30cm+Repair+Mat' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Kaisi-45x30cm-Repair-Mat.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/gp/product/B07DGVRYL3?ie=UTF8&th=1&linkCode=sl1&tag=johnelliotv-20&linkId=2f3f57362c89643d27ec9e55c766a6da&language=en_US&ref_=as_li_ss_tl' ),
     affiliate_url ( 'https://amzn.to/47CoJ3p' ),
@@ -6443,7 +6151,6 @@ equipment(
     item_price    ( 'US$16.99' ),
     item_shipping ( 'US$19.48' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Kaisi+45x30cm+Repair+Mat&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B07DGVRYL3/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&th=1' ),
     affiliate_url ( 'https://amzn.to/3vCgqXX' ),
@@ -6470,7 +6177,6 @@ equipment(
     listing_name   ( 'Solder Pad Mat,Anti-Static Esd Safe Magnetic Soldering Mat,Soldering Mat Large Silicone 932°F for Soldering' ),
     item_price    ( 'AU$25.99' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Kaisi+45x30cm+Repair+Mat' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/133840477693?hash=item1f29839dfd%3Ag%3A2i8AAOSwxpRhDFtH&amdata=enc%3AAQAIAAAA8H4ILnMTtKdmCi8%2FdgK5dgSsdBIzew9mfyXOgQ9CZmzoIgnlo5p05gyaZOzNsroLb19CTGqeRffUdp%2FXh%2FLYX85hVnEt9aS8X8RC5mDn%2FnGEJ4NwW83CJmIOrvbdHDD75ad39VKAtXXCikMBCvHjIPuBgMl1CGmzV8%2BGhofCSfsUfcDzPAU2NqP8sqe1Hr2aQrxHGeu8YDlRG8Qii4PAG83KVrehPtnkZhAoCUlTQKsghkrqSGZg6ianK39id%2BgUjK%2FEvQghZJWFvPikLzi4DCH6O0GBKUoR%2F46f%2FKV8CSjkAk7n56CKeWGn9NXGLXLKwg%3D%3D%7Ctkp%3ABk9SR_yph6yhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/Z1Wnwb' ),
@@ -6494,7 +6200,6 @@ equipment(
     item_price    ( 'US$18.99' ),
     item_shipping ( 'US$15.64' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Kaisi+45x30cm+Repair+Mat' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/386382207153?hash=item59f62c98b1%3Ag%3AILoAAOSwAx5lcrxr&amdata=enc%3AAQAIAAAA8IzzSBzDP8AOgfHvmr8UhahKb3A51LvuNrNlBfVsJIRQjGDMnXfvYz0oOb7DbEj0mJ%2BXW75pm6zay1FRhyX3u4H8R23D0xSlArgQcBjw5MpyHT%2ByFBGGRBghTLAZN5wCb6Uf6L5M5f2hONXsrzDdO4bhLroYDigb9tcwswASEFNoy0WWoiOUh5%2BOEpkuw5Ne9MDAzeOzitPlqssLP76m4aJf0QnSw259H2Om%2Bu4wc4wNI0F74rn7AOl3d%2FuF%2Fwu11kJPc9X5wATt3byW4CWCzNGKhDLcMrqSOCCSMqMwet1WOFwMUBfsUiUV7tHKgRpaUA%3D%3D%7Ctkp%3ABk9SR4idp6yhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/GC0QAw' ),
@@ -6515,7 +6220,6 @@ equipment(
     item_options  ( 'Choose: 45*30cm+ S160' ),
     item_price    ( 'AU$29.69' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Kaisi-45x30cm-Repair-Mat.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005590863580.html?spm=a2g0o.productlist.main.21.15e4399fIYY348&algo_pvid=58501040-acfb-461e-901c-426579a9c374&algo_exp_id=58501040-acfb-461e-901c-426579a9c374-10&pdp_npi=4%40dis%21AUD%214.75%214.75%21%21%213.14%213.14%21%402103237317052828771656305e9057%2112000033668015522%21sea%21AU%214385823938%21&curPageLogUid=wk4zsrJtkSp6&utparam-url=scene%3Asearch%7Cquery_from%3A' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_Dmh5jgN' ),
@@ -6570,17 +6274,12 @@ equipment(
     model_name         ( 'S-130 35x25cm' ),
     EquipmentFeature::REPAIR_MAT,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Kaisi' ),
-    model_name         ( '35x25cm' ),
-    equipment_type     ( 'Repair Mat' ),
-    category          ( 'Repair Mat' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Kaisi_S-130_Repair_Mat_35x25cm' ),
   search_url    ( 'https://www.amazon.com/s?k=Kaisi+35x25cm+Repair+Mat&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Kaisi+35x25cm+Repair+Mat&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Kaisi+35x25cm+Repair+Mat' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Kaisi+35x25cm+Repair+Mat' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Kaisi-35x25cm-Repair-Mat.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B07DGVJ17H/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&th=1' ),
     affiliate_url ( 'https://amzn.to/3vyweL7' ),
@@ -6602,7 +6301,6 @@ equipment(
     listing_name   ( 'Soldering Mat Silicone Repair Mat Can Heat resistance 932℉ for Repair Phones, Cameras, and Watches etc Small Electronic Products, size：13.7 x 9.8 inch (S-130 Blue)' ),
     item_price    ( 'AU$16.99' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Kaisi+35x25cm+Repair+Mat' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/253522953106?hash=item3b07254392%3Ag%3AHCQAAOSw8fZaukeY&amdata=enc%3AAQAIAAAA0LsfHAYvwoVV%2B%2FxcuZVPyEIVsgXbJLu7ogpJ6bDd3yXEy191M09ffMRV%2BJNr9ZQtX%2BPL%2BXUFy3iKJi%2Fcd5K%2BHPrKHxmkqY1oR5fiWWelrpsJoKSlU%2ByMPfdUBR6yQrWQf963suDCGwT247iNXnI9Y6hQFP9vcND99LZG1GFbCWTTuM6pkVdO9XNSOAQGnZ13uAbD6Yf%2Bc4JS%2FN%2FVEWb%2FVlhazCzQoEdih5s5uPd8G5dQCmOgrEqmGT0FpFwxNB%2Fkhrfry7tf9EdVtD%2FzU8j30wk%3D%7Ctkp%3ABk9SR4j7-KyhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/wGDR0h' ),
@@ -6623,7 +6321,6 @@ equipment(
     item_options  ( 'Specification: 35x25cm' ),
     item_price    ( 'US$30.99' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Kaisi+35x25cm+Repair+Mat' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/265059042227?hash=item3db6c003b3%3Ag%3AweMAAOSwvClgLjS0&amdata=enc%3AAQAIAAAA0E2yAdyUexTyxBnJ5pbbFaRwTby7Zw%2BQhHiOoyFNz083TIOMkylK%2BtOuYfX%2FByaqEDSDV3IZFuynKV1yWNMIfGaswtxRD%2BU%2FqchpymHIWr%2F%2BYIHprt9hEtqj1f7zsZLJqE9iMaS0PdOrxKT%2Baw6JJLK%2FGcDU%2BsgjcpA6kxLLk1nWirx0qAraOv38VTiMrxRx7Bildzh4ijuqqIZMI2CCecCI5MoUVczMlNqKbJ0yTw94qfliOBZAZga%2Fqt6glXqrZKqSE7NSLSqkZIyT1ictfOE%3D%7Ctkp%3ABk9SR97WnK2hYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/stBQQJ' ),
@@ -6645,7 +6342,6 @@ equipment(
     item_options  ( 'Itemcolor: S130' ),
     item_price    ( 'AU$20.89' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Kaisi-35x25cm-Repair-Mat.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005004793269217.html?spm=a2g0o.productlist.main.1.5648115cLNB16j&algo_pvid=aa4d9e3f-b1e9-4b7a-a739-5b79af315570&aem_p4p_detail=202401141757303499859863607550005231185&algo_exp_id=aa4d9e3f-b1e9-4b7a-a739-5b79af315570-0&pdp_npi=4%40dis%21AUD%2123.29%2113.51%21%21%2115.40%218.93%21%402103011217052838507501199e946c%2112000030507460414%21sea%21AU%214385823938%21&curPageLogUid=1WuarF4xr3bf&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=202401141757303499859863607550005231185_1' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DnNY6G1' ),
@@ -6682,21 +6378,12 @@ equipment(
     EquipmentFeature::LED_LIGHT,
     EquipmentFeature::SOLDERING_STAND,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'MMOBIEL' ),
-    equipment_type     ( 'Helping Hands' ),
-    category          ( 'Third Hand' ),
-    category          ( 'Magnifying Glass' ),
-    category          ( 'Torch/Light' ),
-    manufacturer_link (
-      link_href       ( 'https://www.mmobiel.com/heavy-duty-helping-hand-magnifier-station-2.5x-4x-led-light-magnifying-glass' ),
-      link_text       ( 'Heavy Duty Helping Hand Magnifier Station 2.5X 4X LED Light Magnifying Glass' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/MMOBIEL_Helping_Hands' ),
   search_url    ( 'https://www.amazon.com/s?k=MMOBIEL+Helping+Hands&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=MMOBIEL+Helping+Hands&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=MMOBIEL+Helping+Hands' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=MMOBIEL+Helping+Hands' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-MMOBIEL-Helping-Hands.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/MMOBIEL-Helping-Magnifier-Station-Magnifying/dp/B07WF7GXS1/ref=sr_1_4?dib=eyJ2IjoiMSJ9.nZ0bBoScskOL3spQZsVokmL1d7459H9oqnOd1IZGfY35Paf7goWAApDe6d4aMspniLkJqJ-Bx4CspP5-EsTqk7giGbPh9TEih17cR9TuuQw.Etkf_VU2eRj1c6_8CUXUM8cPEWHzwI-hHkFH2c9bGag&dib_tag=se&keywords=MMOBIEL+Helping+Hands&qid=1705283979&sr=8-4' ),
     affiliate_url ( 'https://amzn.to/3U0F6mZ' ),
@@ -6704,14 +6391,12 @@ equipment(
     item_price    ( 'US$24.99' ),
     item_shipping ( 'US$22.38' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=MMOBIEL+Helping+Hands&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/MMOBIEL-Helping-Magnifier-Station-Magnifying/dp/B07WF7GXS1?dib=eyJ2IjoiMSJ9.nZ0bBoScskOL3spQZsVokmL1d7459H9oqnOd1IZGfY35Paf7goWAApDe6d4aMspniLkJqJ-Bx4CspP5-EsTqk7giGbPh9TEih17cR9TuuQw.Etkf_VU2eRj1c6_8CUXUM8cPEWHzwI-hHkFH2c9bGag&dib_tag=se&keywords=MMOBIEL+Helping+Hands&qid=1705283979&sr=8-4&linkCode=sl1&tag=johnelliotv-20&linkId=00c3aa69dd43471f1bd7bc3d841a0b82&language=en_US&ref_=as_li_ss_tl' ),
     affiliate_url ( 'https://amzn.to/4aXm4E1' ),
     listing_name   ( 'MMOBIEL Heavy Duty Helping Hand Magnifier Station 2.5X 4X LED Light Hands Free Magnifying Glass Stand with Clamp and Clips' ),
     item_price    ( 'AU$36.99' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=MMOBIEL+Helping+Hands' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/256260976165?epid=21042751762&hash=item3baa582e25&amdata=enc%3AAQAIAAAA8B0DSMXhWd5bWTksYL%252Bt90EwGmM9UpNgl6%252FU0kX30JSdROWRy%252B1aseQifUU5F85r3xXySgHJy0ohKgZH9Vx85sJ%252B7ZYRwJNsI6iYBf8uMiin8zXNpXPAfqvFD%252F%252FAUNEBTBc6dDJza%252Fv7qRfHg08tQBFaJBqv%252FrUYONVwzx8oSsqw6jlO3DfLiD6IcW5%252B0Sv69tc5Pt7RsXdNHsf%252BkYt2%252BwKNVgHIWnRRFVJWnbHCeCrgs2fxrN%252BVqH%252Bx9fcdVcfdqLCrhIbpq2TdMMw3PVcoQYFxyTxW794FMaNCK%252BdlhBxMiX4hRieyNktTHd9yNvrilg%253D%253D%7Campid%3APL_CLK' ),
     affiliate_url ( 'https://ebay.us/K9SOoQ' ),
@@ -6733,7 +6418,6 @@ equipment(
     item_price    ( 'US$39.27' ),
     item_shipping ( 'US$20.38' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=MMOBIEL+Helping+Hands' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/285567871778?epid=0&hash=item427d2beb22%3Ag%3Ays8AAOSwfzxlW0f9&amdata=enc%3AAQAIAAAA8NgIK8%2F1o6mLZJZO00bWJuRz2ITZh8K2qZxhrD4iPZQ59GAwV7Tt%2BMH7NqubVrKn5VeEjgrlwfWK7lcjNYKxNrzaTz5uI8aLatMLbLh8MnanjaMvIWPYVna9lsPiTQcKaO1u3T5Vv7Cwdn3g5KcmLaJzKa0RVm097aCS7deDwz3%2B%2FCYuBJRFbUX1diP8TwAPsK2HLRxQ3zgZ6LwpeACXAgxaX9HZp9PAL%2FBQ8x9pRIZGAWyahBsn0aMnYZwDIgPL6SYI36YLBveXrhGPsAyo7bIcuMMHClucp6xdwkLtSWZzNZy181K2ggKD7vf5LHJt1Q%3D%3D%7Ctkp%3ABk9SR_rM8q2hYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/pqyFjN' ),
@@ -6755,7 +6439,6 @@ equipment(
     item_price    ( 'AU$63.47' ),
     item_shipping ( 'AU$30.65' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-MMOBIEL-Helping-Hands.html' ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B07WF7GXS1/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1' ),
     order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=503-1197525-8683018' ),
@@ -6778,16 +6461,12 @@ equipment(
     EquipmentFeature::MAGNIFYING_GLASS,
     EquipmentFeature::USB_LED_LIGHT,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'QWORK' ),
-    equipment_type     ( 'Helping Hands' ),
-    category          ( 'Third Hand' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/QWORK_Helping_Hands' ),
   search_url    ( 'https://www.amazon.com/s?k=QWORK+Helping+Hands&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=QWORK+Helping+Hands&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=QWORK+Helping+Hands' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=QWORK+Helping+Hands' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-QWORK-Helping-Hands.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/QWORK-Magnifier-Adjustable-Magnifying-Inspecting/dp/B08FXJCVCT/ref=sr_1_29?dib=eyJ2IjoiMSJ9.dl8eI2TDpcFWzcO85ewYiyOqpyKkmacdzXOhCU7kxGpGGy3ck2UPfOGhjouDvI3Z68fzPyJL_Y5pZoP3IzBBHmi0urHfduF7XqJqpXswOq5fy6BzTaf0pIG_Dy15_CHGMXObf7xixj2luVZEiYiSKg.UsIaXBN0cHMVw7-Cr-N4Lxso3sRPr4w-mlHCTmFm4us&dib_tag=se&keywords=QWORK+Helping+Hands&qid=1705284681&sr=8-29' ),
     affiliate_url ( 'https://amzn.to/41WyyrC' ),
@@ -6800,7 +6479,6 @@ equipment(
     listing_name   ( 'WWZMDiB Helping Hand Magnifier Adjustable 5X Magnifying Glass,with Dual Adjustable Alligator Clips, for Soldering, Inspecting Micro Objects, DIY (5X Helping Hands)' ),
     item_price    ( 'AU$24.92' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=QWORK+Helping+Hands' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/123771137015?epid=1476838361&hash=item1cd155abf7%3Ag%3AwQoAAOSw%7Ey9ZHaLR&amdata=enc%3AAQAIAAAA8F%2BbF6zD5Ai0RKVUSF1EbVw4n1zy7F3NK8tfIFt%2FntSJii%2FyVGJ3JUiwKYwtMAW2r8EdkZNO0aRE8mvmVeMmK9Z7UQW5aR2jYMVBRWFg%2FdEQgPR29KgDadMYWJu24R9GLJxtN1gwNHQsJ54CcFQlSY4K%2BHZfNcaUtmrlL%2FX0%2B8Z5n2Wna25Fl6lq2oaHv7HAdJmWsFifAoPxiA6Y9vY2mgmC%2FdbPPuHoUwXmTncOSimcgyfjtxcjHj4RkgBM6l%2FPycwr%2BCWvL4I0GUdQNVAX%2BWMZKo6pInn1z0pwD2LOVksD9z1iLSxD926O86HQmYRgRA%3D%3D%7Ctkp%3ABk9SR6ytr66hYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/tzBUeL' ),
@@ -6821,7 +6499,6 @@ equipment(
     listing_name   ( 'DIY Repair Welding Bench Working Table Clamp Magnifying Tool Jewelry Accessories' ),
     item_price    ( 'US$20.61' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=QWORK+Helping+Hands' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/401768790412?epid=1329871223&hash=item5d8b49398c%3Ag%3A6NAAAOSw%7EFJZEGVr&amdata=enc%3AAQAIAAAA8M7O%2BlNeChQ852%2Bvo8hRHpyKOZKAAVHQM3CP4xHAMiluz1hxPiuCT5Z%2BjHu5pV0aV4HGPCw5Pk9yH1qWFVNDWdx5Fe4pWWJlABVK8n%2BdcoqNFoJfyzc5%2BBLTPUALxd8wUf6RRLdvmd72wJcgfeXsgw1IV6TdyIoCQv0bARi%2Bak02k7n74qoj2A%2BhDh%2Bfyd4%2FXggki0mIYmTFuu2Lvd929WNqYEY5h8lIDCDLlMXaKvRYNixR3o1czUZx%2BY1E87YYf0UNkUWOyJ27ctKwwJHkaLNzwCE%2BJNHMylwdYV7n9slhlBPsT6hvHWjIXq5ZmLOtdg%3D%3D%7Ctkp%3ABk9SR7aQxq6hYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/4FjnqO' ),
@@ -6842,7 +6519,6 @@ equipment(
     item_price    ( 'AU$13.24' ),
     item_shipping ( 'AU$26.10' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-QWORK-Helping-Hands.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006374846799.html?spm=a2g0o.productlist.main.83.22f96dc9r4Zews&algo_pvid=4c0bb8e8-b17d-4a85-8d55-562dcf2b952d&algo_exp_id=4c0bb8e8-b17d-4a85-8d55-562dcf2b952d-41&pdp_npi=4%40dis%21AUD%214.03%212.82%21%21%2119.08%2113.36%21%402101fb1417052852213896428eb3a0%2112000036945872277%21sea%21AU%214385823938%21&curPageLogUid=4JZ7Qq05Wihg&utparam-url=scene%3Asearch%7Cquery_from%3A' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DFAc44D' ),
@@ -6889,20 +6565,12 @@ equipment(
     EquipmentFeature::FLATHEAD_SCREWDRIVER_SL1_2,
     EquipmentFeature::FLATHEAD_SCREWDRIVER_SL1,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Legion Tools' ),
-    equipment_type     ( 'Mini Screwdriver Set' ),
-    category          ( 'Screwdriver' ),
-    category          ( 'Hand Tool' ),
-    manufacturer_link (
-      link_href       ( 'https://www.legionwarehouse.com.au/products/precision-mini-screwdriver-set-11pc-jeweller-laptop-phone-watch-repair-tool?pr_prod_strat=e5_desc&pr_rec_id=3cb54501d&pr_rec_pid=7216010789019&pr_ref_pid=7448981602459&pr_seq=uniform' ),
-      link_text       ( 'Precision Mini Screwdriver Set 11PCS' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Precision_Mini_Screwdriver_Set' ),
   search_url    ( 'https://www.amazon.com/s?k=Legion+Tools+Mini+Screwdriver+Set&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Legion+Tools+Mini+Screwdriver+Set&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Legion+Tools+Mini+Screwdriver+Set' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Legion+Tools+Mini+Screwdriver+Set' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Legion-Tools-Mini-Screwdriver-Set.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Chivolona-Precision-Screwdriver-Computer-Electronics/dp/B0C66KY3J8/ref=sr_1_11?dib=eyJ2IjoiMSJ9.MwhVbxZj_2QDKfzX2e8BCHdNiQ0PX9PyEKUMwhwBeHCsF6UAAsHRviHp7eK1H5yTByqGd_qCWd8crePdqhPQFhqNC7bigbY9YN_2_g2K3ZUu_d62xo5z1vQ5QPcJaEzR2iSFLQgzy5puG-gUEacOBw.AxSj_3HeoF5zkrBM3jOYGBLj8TO_3TSjC5yhkQ6Hh_Q&dib_tag=se&keywords=Legion+Tools+Mini+Screwdriver+Set&qid=1705285480&sr=8-11' ),
     affiliate_url ( 'https://amzn.to/47IWcJy' ),
@@ -6910,14 +6578,12 @@ equipment(
     item_price    ( 'US$7.89' ),
     item_shipping ( 'US$17.80' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Legion+Tools+Mini+Screwdriver+Set&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/Chivolona-Precision-Screwdriver-Computer-Electronics/dp/B0C66KY3J8/ref=sr_1_11?dib=eyJ2IjoiMSJ9.MwhVbxZj_2QDKfzX2e8BCHdNiQ0PX9PyEKUMwhwBeHCsF6UAAsHRviHp7eK1H5yTByqGd_qCWd8crePdqhPQFhqNC7bigbY9YN_2_g2K3ZUu_d62xo5z1vQ5QPcJaEzR2iSFLQgzy5puG-gUEacOBw.AxSj_3HeoF5zkrBM3jOYGBLj8TO_3TSjC5yhkQ6Hh_Q&dib_tag=se&keywords=Legion+Tools+Mini+Screwdriver+Set&qid=1705285480&sr=8-11' ),
     affiliate_url ( 'https://amzn.to/4aY0HTi' ),
     listing_name   ( 'Chivolona 11PCS Mini Precision Screwdriver Set,Small Screwdriver Set for Repair Computer,Small Screw Driver Kit Electronics,Toys,Watch' ),
     item_price    ( 'AU$29.32' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Legion+Tools+Mini+Screwdriver+Set' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/404087542097?hash=item5e157e9151%3Ag%3AkWoAAOSwQgdjs13p&amdata=enc%3AAQAIAAAA0E7EvI7XqXa2GFWcbjkbKyKRy3Md%2BI4Sk56FwO5wfKwJAO8v2LWgSSyVST4wUGQ2u%2FaPyhbnoGfm1pnfnfT0pgPBwU9jAyyU9yTHI6sfk3Axbm9PeuDzJpTMxX%2FfRd8XHfTOrkS3F46nxJNPwk%2BwOOlmiDBDE%2Bmg2lXtfQ1bn7XkrIv42YMQibAx%2BZCp3DoWrjxCkbqaKoU2e4PQpjFBc%2FCiwLEoTba9oQ1gWekrY94Id1xIf0s9Fj8vjDI3Mm4lWuzz1JPWZ4Q3MFzPOZMINaM%3D%7Ctkp%3ABk9SR5adka-hYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/5Jk7A6' ),
@@ -6938,7 +6604,6 @@ equipment(
     listing_name   ( 'Essential Precision Screwdriver Set for Watch Jewelry Electronics Repair' ),
     item_price    ( 'US$15.42' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Legion+Tools+Mini+Screwdriver+Set' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/273411870039?hash=item3fa89e0d57%3Ag%3Aw3UAAOSwi1hjhQNs&amdata=enc%3AAQAIAAAA8BeI%2B1zlnPHeQrBsx2ReALZboksYASmUVGSpW7jF7NGU8PEHzUH0%2B0AAS4xc%2FRf5swX0kVW75t9gS4ILsffm1Z%2FRnCkJBouyCEVuK9FgUPnzVcExKYLhzQt7Z190R86BDOrvo%2B%2BgexDB2zSGw3JfT9edrvxoU3o2g7v8pyXT33lMuzjX%2BfGT3%2Ff4FP5xkBCJtj4lc3n%2FVSqwnIL6B9UlkR9zD87ITuM7uKzzUUhcb2aZm0ujrIh6yQx%2FpOSd23aBh%2FnMwrffJEGeQEmT5QXBFaVxJ2HL7ObeOPHgsfLDF4o0C5QY5bEDpYAJkCA4YEShhA%3D%3D%7Ctkp%3ABk9SR96HqK-hYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/fq6Z4z' ),
@@ -6952,7 +6617,6 @@ equipment(
     item_options  ( 'QTY: 1 set (11pcs)' ),
     item_price    ( 'AU$5.90' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Legion-Tools-Mini-Screwdriver-Set.html' ),
   purchase(
     equipment_url   ( 'https://www.ebay.com.au/itm/114639571375' ),
     order_url       ( 'https://order.ebay.com.au/ord/show?orderId=22-07540-18516#/' ),
@@ -6976,30 +6640,24 @@ equipment(
     EquipmentFeature::WIRE_BRUSH,
     EquipmentAttribute::HAND_TOOL,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Kaisi' ),
-    equipment_type     ( 'Soldering Tools w/ Desoldering Pump' ),
-    category          ( 'Hand Tool' ),
-    category          ( 'Desoldering Pump' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Kaisi_Professional_Solder_Auxiliary_Tool' ),
   search_url    ( 'https://www.amazon.com/s?k=Kaisi+Soldering+Tools+w%2F+Desoldering+Pump&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Kaisi+Soldering+Tools+w%2F+Desoldering+Pump&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Kaisi+Soldering+Tools+w%2F+Desoldering+Pump' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Kaisi+Soldering+Tools+w%2F+Desoldering+Pump' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Kaisi-Soldering-Tools-with-Desoldering-Pump.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/gp/product/B07S9K824H?ie=UTF8&psc=1&linkCode=sl1&tag=johnelliotv-20&linkId=efdd87da0fe779fcbe03d9374ae4351c&language=en_US&ref_=as_li_ss_tl' ),
     affiliate_url ( 'https://amzn.to/3Smgnsk' ),
     listing_name   ( 'Kaisi Professional Solder Auxiliary Tool 6 piece double-sided repair tool with Desoldering Wick & Desoldering Pump' ),
     item_price    ( 'US$11.91' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Kaisi+Soldering+Tools+w%2F+Desoldering+Pump&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B07S9K824H/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1' ),
     affiliate_url ( 'https://amzn.to/47Qo5iV' ),
     listing_name   ( 'Kaisi Professional Solder Auxiliary Tool 6 piece double-sided repair tool with Desoldering Wick & Desoldering Pump' ),
     item_price    ( 'AU$17.79' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Kaisi+Soldering+Tools+w%2F+Desoldering+Pump' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/133726693312?hash=item1f22bb67c0%3Ag%3AkbUAAOSwWI5kl6qN&amdata=enc%3AAQAIAAAA4NWZKZyR84hXBYgmLWtX0lTFU3I5pJKk2LWdHVCSS9FTVWBRMXONu9Jfc020IzDCmJOO5vm0yMwNkl7N5oXW%2BIOupiA4vt9425M0abFBoZSChXn9zKF%2F9Jw7mkkzAWkFtA3pDmIB5e0GoVhdwIeMUDntcmRt4IPa%2Fypgh5XzWDWcd%2FIQn7MXbWUe0rq7oL5JqeaJiQXvJ3rfToz3aemhMyw63c%2B7WdOcSvIG%2F%2BZ%2BaQ6cF0H0pVEWZHJtPar%2Bz6lnIJuovWLGKgEh4ORizstEozU5PWtVKtr6bxLoJETFlO%2Fv%7Ctkp%3ABk9SR8LH2K-hYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/Ro4nkw' ),
@@ -7007,8 +6665,6 @@ equipment(
     item_price    ( 'US$11.39' ),
     item_shipping ( 'US$19.15' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Kaisi+Soldering+Tools+w%2F+Desoldering+Pump' ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Kaisi-Soldering-Tools-with-Desoldering-Pump.html' ),
   purchase(
     equipment_url   ( 'https://www.amazon.com.au/gp/product/B07S9K824H/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1' ),
     order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=dp_iou_view_order_details?ie=UTF8&orderID=249-7737759-6580645' ),
@@ -7030,14 +6686,12 @@ equipment(
     EquipmentFeature::BLADE,
     EquipmentFeature::SCALPEL,
   ),
-  /*
-  equipment_info(
-    equipment_type     ( 'Craft Knife Set' ),
-    category          ( 'Knife/Blade' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Precision_Craft_Knife_Set_52pcs#Documentation' ),
   search_url    ( 'https://www.amazon.com/s?k=Craft+Knife+Set&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=Craft+Knife+Set&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Craft+Knife+Set' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Craft+Knife+Set' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-Craft-Knife-Set.html' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/Baijuyi-Exacto-Knife-Scrapbooking-Creativity/dp/B0CFVW3YZW/ref=sr_1_4?dib=eyJ2IjoiMSJ9.P4H0NKZCZi7XccGvcjacizg-wcRVLy3TLL6sXzCFZ2P_ykmxZjaprgMaa792w-poAWP8pMCq-a0MW2hxddDpba5-QapecxUys_3bMkt3I1Lztxi3qdtBGN8IImnhZ6a33ckXRbb-tnFgw7KMb0_FKQ.xhDIrKPn0LiXhF6z77BpVF9HQpnyRqOM3Kv-5TBFKzs&dib_tag=se&keywords=Craft%2BKnife%2BSet&qid=1705286461&sr=8-4&th=1' ),
     affiliate_url ( 'https://amzn.to/3RX5vQ6' ),
@@ -7054,7 +6708,6 @@ equipment(
     item_price    ( 'US$5.99' ),
     item_shipping ( 'US$17.63' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=Craft+Knife+Set&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/FRAINBOWZ-Precision-Carving-Stainless-Woodworking/dp/B0CJMQGRGM/ref=sr_1_28?dib=eyJ2IjoiMSJ9.rD7OJXFbfAjU37Lykas38i-gjw6fokzTAh90O9qSTybiGoHLvjtPdHIocb5q1ds6VYwzS7CuNvaLby2kG7kigEgKqfPknFbTfINby55U3vo_iFyeQ_0G8R7AiPmrvnkuY7JAkr_z86d6z3qr30hqXQ.kADNgT_bRVTgxNHLr24tu6aYoGXii0VFGp6ARnof7IE&dib_tag=se&keywords=Craft+Knife+Set&qid=1705286694&sr=8-28' ),
     affiliate_url ( 'https://amzn.to/48Q1XpC' ),
@@ -7073,7 +6726,6 @@ equipment(
     listing_name   ( '2Pack Precision Carving Craft Knife Stainless Steel Metal Knives with Safety Cap and 10Pcs Knife Blades for DIY Art Work Cutting Sculpture Carving Knife and Hobby Knife etc.' ),
     item_price    ( 'AU$9.60' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Craft+Knife+Set' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/124604724418?var=425531393121' ),
     affiliate_url ( 'https://ebay.us/mpJPMK' ),
@@ -7101,7 +6753,6 @@ equipment(
     item_price    ( 'US$11.20' ),
     item_shipping ( 'US$19.14' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Craft+Knife+Set' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/124604724418?var=425531393121' ),
     affiliate_url ( 'https://ebay.us/PB9s18' ),
@@ -7126,7 +6777,6 @@ equipment(
     listing_name   ( 'Precision Craft Knife Set Sharp Kit 52 Pieces for Scrapbooking Wood' ),
     item_price    ( 'AU$16.81' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-Craft-Knife-Set.html' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006133570121.html?spm=a2g0o.detail.0.0.3543eaa5Xv7yDv&gps-id=pcDetailTopMoreOtherSeller&scm=1007.40000.327270.0&scm_id=1007.40000.327270.0&scm-url=1007.40000.327270.0&pvid=0c99c6dc-7674-4a34-9055-1d9256a62f3a&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40000.327270.0,pvid:0c99c6dc-7674-4a34-9055-1d9256a62f3a,tpp_buckets:668%232846%238107%231934&pdp_npi=4%40dis%21AUD%215.18%211.82%21%21%2124.53%218.59%21%402103081017052873059502447ef342%2112000035909311712%21rec%21AU%214385823938%21&utparam-url=scene%3ApcDetailTopMoreOtherSeller%7Cquery_from%3A' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DeeoT4l' ),
@@ -7184,15 +6834,6 @@ equipment(
     EquipmentFeature::TEST_CLIPS,
     EquipmentFeature::CLAW_TOOL,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Sudake' ),
-    model_name         ( 'SDK07' ),
-    equipment_type     ( 'Test Clips' ),
-    category          ( 'Test Clip' ),
-    category          ( 'Claw Tool' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/SDK07_test_clips' ),
   see_also      ( 'Sudake SDK08 Test Clips' ),
   search_url    ( 'https://www.amazon.com/s?k=Sudake+SDK07+Test+Clips&s=price-asc-rank' ),
@@ -7246,19 +6887,13 @@ equipment(
     EquipmentFeature::TEST_CLIPS,
     EquipmentFeature::CLAW_TOOL,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Sudake' ),
-    model_name         ( 'SDK08' ),
-    equipment_type     ( 'Test Clips' ),
-    category          ( 'Test Clip' ),
-    category          ( 'Claw Tool' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/SDK08_test_clips' ),
-   see_also      ( 'Sudake SDK07 Test Clips' ),
- search_url    ( 'https://www.amazon.com/s?k=Sudake+SDK08+Test+Clips&s=price-asc-rank' ),
+  see_also      ( 'Sudake SDK07 Test Clips' ),
+  search_url    ( 'https://www.amazon.com/s?k=Sudake+SDK08+Test+Clips&s=price-asc-rank' ),
   search_url    ( 'https://www.amazon.com.au/s?k=Sudake+SDK08+Test+Clips&s=price-asc-rank' ),
+  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Sudake+SDK08+Test+Clips' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Sudake+SDK08+Test+Clips' ),
+  search_url    ( 'https://www.aliexpress.com/w/wholesale-SDK08.html?spm=a2g0o.productlist.search.0' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/RESHUBO-10Pcs-SDK08-Electrical-Testing/dp/B0BFVVKSH7/ref=sr_1_9?dib=eyJ2IjoiMSJ9.liW9CnKI-eV2uSkPoeHcvLIlunIKxk5I2hk3u1dhyTUsVB702sJJA6pwtj28cg-OgZ3kY6iIIvCNpCyRBMWoEM8dj6KhXbU9cVg0jLVWEXNopttHkPF3-V4vQXEmEuWt4wwK08CrcXx5evAbOViA5A.VQleoQW4cxcNvEzxxkqvK_S9xs9fvOUnmVPFnnYqmgM&dib_tag=se&keywords=Sudake+SDK08+Test+Clips&qid=1705288357&sr=8-9' ),
     affiliate_url ( 'https://amzn.to/420nycT' ),
@@ -7277,7 +6912,6 @@ equipment(
     listing_name   ( 'ARMYJY 10Pcs SDK08 Test Clip, SMD IC Test Hook Clips for Electrical Testing Test Chip' ),
     item_price    ( 'AU$36.69' ),
   ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Sudake+SDK08+Test+Clips' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/275011465405?hash=item4007f5f0bd%3Ag%3AuMUAAOSwwSNhgTM2&amdata=enc%3AAQAIAAAA0GDKFH%2F3%2BFqtzK0TMmm4BKMTBMVxq5pPhWcZhHfKdcgcAf3Yv5dCdIOfRvrPdZmdZUiozdEqX4YB7j8p3F8hQgQU0gCNF0LU%2F19abpZHDzOfiGCiyhtbjBj6qiCAkibuBsDAEWtz8UJH%2FQ%2FikanQFTwlZB4qwno6SR6BT%2FUGvkdStoeylQUjmHUBh8SMafcvaU2Ih50zHcIs0UnT0PczP4TpXQyTvDXKU65KLqPzZhyrZA%2BG3ExeQGKmp7ayC9Jg6h19lXOKVjt6O%2BUj84E7ee0%3D%7Ctkp%3ABk9SR9zt7bGhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/KhaZGA' ),
@@ -7298,7 +6932,6 @@ equipment(
     item_price    ( 'US$22.15' ),
     item_shipping ( 'US$25.87' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Sudake+SDK08+Test+Clips' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/145547659096?hash=item21e3510758%3Ag%3AL%7EIAAOSwGgBln9F4&amdata=enc%3AAQAIAAAA0NuzhSoU3c7wkrQN8sozGKaKPndfc4gJPxkekEOpHcU%2FwZjz3FUkBHCgAX4fccJr9azehanZ15fMMzWvmsb0CtRh3agb3EMTWGbnS6Umk3ZE3gu37vOHq4JVgk0ziRy9TyUL1lnCOZkgs%2BZkq8AHNEHidFOBhVKKBeTeGzsEeLm7QrC2sQT2Y9xW%2BUgsmKm0yUnUMDOA%2FSDXU%2B7GOgeJNRLmkYxG7ZG7Cd83SSUMhtpGmMVk%2FageED%2FXZ6UZjrAXnBNbu4HWUtC1MQO9tWBlr1U%3D%7Ctkp%3ABk9SR_DpgbKhYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/R4Ov98' ),
@@ -7317,7 +6950,6 @@ equipment(
     listing_name   ( '10pcs/set SDK08 Test Clips with Jumper Wires SMD Gripper Useful Micro IC Clamp' ),
     item_price    ( 'AU$19.69' ),
   ),
-  search_url    ( 'https://www.aliexpress.com/w/wholesale-SDK08.html?spm=a2g0o.productlist.search.0' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006260112504.html?spm=a2g0o.productlist.main.5.520450497spotH&algo_pvid=4a2c2464-1cc9-42fe-92c8-071fe1694304&algo_exp_id=4a2c2464-1cc9-42fe-92c8-071fe1694304-2&pdp_npi=4%40dis%21AUD%2144.63%2112.06%21%21%2129.43%217.95%21%402103080617052888786831310e18d5%2112000036507908780%21sea%21AU%214385823938%21&curPageLogUid=9fa0Oq1lQm34&utparam-url=scene%3Asearch%7Cquery_from%3A' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DDB9kHT' ),
@@ -7374,17 +7006,9 @@ equipment(
     EquipmentFeature::MAGNETIC_PICKUP_TOOL,
     EquipmentFeature::CLAW_TOOL,
   ),
-  /*
-  equipment_info(
-    equipment_type     ( 'Magnetic/Claw Pickup Tool' ),
-    category          ( 'Magnetic Tool' ),
-    category          ( 'Claw Tool' ),
-    category          ( 'Pickup Tool' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Pickup_Tool' ),
   search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Magnetic%2FClaw+Pickup+Tool' ),
+  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Magnetic%2FClaw+Pickup+Tool' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/334953198609?amdata=enc%3AAQAIAAAAkLzSwVxd0nO6Irnr8xkYDsZ2tpAN3jiu9V7n2VCgaI%2F7CL8tVUBM20GcVUoy5lmMwue4ri4TqTuzEI22HzbAKD6YE3BhRf9av7rx92VCiytsNRM1acIZO2oqAwgNu3dzQFqkZQ3m9%2Bn7YMrkT3UF0sGXEoK1%2BXflJOW9qrbhjI02NbMKtp7yqZdODTMIRUiZwg%3D%3D&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339019639&customid=&toolid=20012&mkevt=1' ),
     affiliate_url ( 'https://ebay.us/6GYZFL' ),
@@ -7392,7 +7016,6 @@ equipment(
     item_options  ( 'Choose: 1PC' ),
     item_price    ( 'US$11.90' ),
   ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Magnetic%2FClaw+Pickup+Tool' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/334953198609?amdata=enc%3AAQAIAAAAkLzSwVxd0nO6Irnr8xkYDsZ2tpAN3jiu9V7n2VCgaI%2F7CL8tVUBM20GcVUoy5lmMwue4ri4TqTuzEI22HzbAKD6YE3BhRf9av7rx92VCiytsNRM1acIZO2oqAwgNu3dzQFqkZQ3m9%2Bn7YMrkT3UF0sGXEoK1%2BXflJOW9qrbhjI02NbMKtp7yqZdODTMIRUiZwg%3D%3D&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339019639&customid=&toolid=20012&mkevt=1' ),
     affiliate_url ( 'https://ebay.us/PcXmmW' ),
@@ -7411,16 +7034,6 @@ equipment(
     EquipmentFeature::MAGNETIC_PICKUP_TOOL,
     EquipmentFeature::MIRROR,
   ),
-  /*
-  equipment_info(
-    equipment_type     ( 'Telescopic Magnetic Pickup Tool' ),
-    category          ( 'Magnetic Tool' ),
-    category          ( 'Telescopic Tool' ),
-    category          ( 'Pickup Tool' ),
-    category          ( 'Hand Tool' ),
-    category          ( 'Mirror' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Telescopic_Magnetic_Pick_Up_Tool' ),
   search_url    ( 'https://www.amazon.com.au/gp/product/B093L7SKXK?ie=UTF8&psc=1&linkCode=sl1&tag=johnelliotv-22&linkId=e2002fc542f0c44f6ba6aa4b92f9792b&language=en_AU&ref_=as_li_ss_tl' ),
   affiliate_link(
@@ -7448,15 +7061,9 @@ equipment(
     EquipmentFeature::BOOK_HOLDER,
     EquipmentFeature::LED_LIGHT,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'ZZWS' ),
-    equipment_type     ( 'Book Holder' ),
-    category          ( 'Book Holder' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/ZZWS_Book_Holder' ),
   search_url    ( 'https://www.amazon.com/s?k=ZZWS+Book+Holder&s=price-asc-rank' ),
+  search_url    ( 'https://www.amazon.com.au/s?k=ZZWS+Book+Holder&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com/gp/product/B08JGVHQQV?ie=UTF8&th=1&linkCode=sl1&tag=johnelliotv-20&linkId=360c56a335856923db7deef51f747143&language=en_US&ref_=as_li_ss_tl' ),
     affiliate_url ( 'https://amzn.to/3TZVOTq' ),
@@ -7465,7 +7072,6 @@ equipment(
     item_price    ( 'US$26.99' ),
     item_shipping ( 'US$22.38' ),
   ),
-  search_url    ( 'https://www.amazon.com.au/s?k=ZZWS+Book+Holder&s=price-asc-rank' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B08JGVHQQV?ie=UTF8&th=1&linkCode=sl1&tag=johnelliotv-20&linkId=360c56a335856923db7deef51f747143&language=en_US&ref_=as_li_ss_tl' ),
     affiliate_url ( 'https://amzn.to/47A46Vd' ),
@@ -7493,14 +7099,6 @@ equipment(
     EquipmentFeature::VOLTMETER_DC,
     EquipmentFeature::AMMETER_DC,
   ),
-  /*
-  equipment_info(
-    equipment_type     ( 'Digital Meter' ),
-    category          ( 'Voltmeter' ),
-    category          ( 'Ammeter' ),
-    category          ( 'Meter' ),
-  ),
-  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005631605113.html' ),
     listing_name   ( 'Digital Voltmeter Ammeter DC 100V 10A Amp Voltage Current Meter Tester 0.28 Inch Dual LED Display Panel with Connect Wires' ),
@@ -7539,14 +7137,6 @@ equipment(
     EquipmentFeature::WIRE_CONNECTORS,
     EquipmentFeature::HEAT_SHRINK,
   ),
-  /*
-  equipment_info(
-    model_name        ( '100pcs' ),
-    equipment_type     ( 'Heat Shrink Wire Connectors' ),
-    category          ( 'Heat Shrink' ),
-    category          ( 'Connector' ),
-  ),
-  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005209348279.html' ),
     listing_name   ( '100pcs Heat Shrink Wire Connectors Red Heat Shrink AWG 22 To 18 Butt Electrical Connectors Tinned Solder Sealed Terminals' ),
@@ -7575,14 +7165,6 @@ equipment(
     EquipmentFeature::WIRE_CONNECTORS,
     EquipmentFeature::HEAT_SHRINK,
   ),
-  /*
-  equipment_info(
-    model_name        ( '300pcs' ),
-    equipment_type     ( 'Heat Shrink Wire Connectors' ),
-    category          ( 'Heat Shrink' ),
-    category          ( 'Connector' ),
-  ),
-  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005600885714.html' ),
     listing_name   ( '300pcs Box Solder Sealed Wire Connectors Heat Shrink Solder Butt Connectors Solder Connector Kit Automotive Marine Insulation' ),
@@ -7619,23 +7201,6 @@ equipment(
     EquipmentFeature::CONNECTOR_KIT,
     EquipmentConnectivity::XH2_54,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'JST' ),
-    model_name         ( 'XH2.54' ),
-    equipment_type     ( 'Connector Kit' ),
-    category          ( 'XH2.54' ),
-    category          ( 'Connector' ),
-    manufacturer_link (
-      link_href       ( 'https://www.jst.com/' ),
-      link_text       ( 'JST' ),
-    ),
-    manufacturer_link (
-      link_href       ( 'https://www.jst.com/wp-content/uploads/2021/01/eXH.pdf' ),
-      link_text       ( 'XH Connector (PDF)' ),
-    ),
-  ),
-  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005183951296.html' ),
     listing_name   ( '230 Pcs XH2.54 2p 3p 4p 5pin 2.54mm Pitch Terminal Male And Female Housing Kit Pin Connector Terminal Connector Kit' ),
@@ -7673,13 +7238,6 @@ equipment(
     manufacturer_name ( 'Yum Cha' ),
     EquipmentFeature::CROWBAR,
   ),
-  /*
-  equipment_info(
-    equipment_type     ( 'Crowbar' ),
-    category          ( 'Crowbar' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005004441856320.html' ),
     listing_name   ( 'Car Audio Disassembly Tool Stainless Steel PryClip Rocker Crowbar Bar Door Panel Disassembly Pry Panel Interior' ),
@@ -7707,14 +7265,6 @@ equipment(
     EquipmentFeature::DRILL_EXTENSION,
     EquipmentFeature::DRILL_BIT_EXTENSION,
   ),
-  /*
-  equipment_info(
-    equipment_type     ( 'Drill Extension' ),
-    category          ( 'Drill Extension' ),
-    category          ( 'Accessory' ),
-    category          ( 'Attachment' ),
-  ),
-  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005566480825.html' ),
     listing_name   ( '3PC Hexagonal Quick Release Self-locking Extension Rod Electric Drill Driver Quick Transfer Rod Screwdriver Extension Rod Tool' ),
@@ -7743,14 +7293,6 @@ equipment(
     EquipmentFeature::MAGNETIC_PICKUP_TOOL,
     EquipmentFeature::TELESCOPIC_PICKUP_TOOL,
   ),
-  /*
-  equipment_info(
-    equipment_type     ( 'Telescopic Magnet' ),
-    category          ( 'Telescopic Tool' ),
-    category          ( 'Magnetic Tool' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005557294461.html' ),
     listing_name   ( '1pc 8lb Orange Red Handle Magnetic Pickup Stainless Steel Antenna Retractable Suction Iron Rod Strong Magnetic Suction Rod Tools' ),
@@ -7783,13 +7325,6 @@ equipment(
     EquipmentFeature::FLATHEAD_SCREWDRIVER_SL1_5,
     EquipmentFeature::TORX_SCREWDRIVER_T2,
   ),
-  /*
-  equipment_info(
-    equipment_type     ( 'Spudgers' ),
-    category          ( 'Spudger' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005561010038.html' ),
     listing_name   ( '22 In 1 Multifunctional Disassembly Tool Mobile Phone iPad Laptop Screwdriver Maintenance Kit Repair Tools Opening Set For Hand' ),
@@ -7820,14 +7355,6 @@ equipment(
     EquipmentFeature::MAGNETIC_PICKUP_TOOL,
     EquipmentFeature::LED_LIGHT,
   ),
-  /*
-  equipment_info(
-    equipment_type     ( 'Telescopic Magnetic Pickup w/ Light' ),
-    category          ( 'Telescopic Tool' ),
-    category          ( 'Magnetic Tool' ),
-    category          ( 'Torch/Light' ),
-  ),
-  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005943657824.html' ),
     listing_name   ( 'Telescopic Pickup Magnetic Iron Rod Household Automotive Repair And Inspection Tool Strong Magnetic Metal Screw Suction Rod' ),
@@ -7855,12 +7382,6 @@ equipment(
     model_name        ( 'Knife' ),
     EquipmentFeature::BLADES,
   ),
-  /*
-  equipment_info(
-    equipment_type     ( 'Knife Blades' ),
-    category          ( 'Knife/Blade' ),
-  ),
-  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005608437382.html' ),
     listing_name   ( '100/50pcs Knife DIY Wood Carving Fruit Food Scalpel Craft Sculpture Cutting Tool Metal Engraving Blades Knifes Wood Carving Disc' ),
@@ -7889,13 +7410,6 @@ equipment(
     EquipmentFeature::WIRE_CONNECTORS,
     EquipmentFeature::HEAT_SHRINK,
   ),
-  /*
-  equipment_info(
-    equipment_type     ( 'Heat Shrink Wire Connectors' ),
-    category          ( 'Heat Shrink' ),
-    category          ( 'Connector' ),
-  ),
-  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005585832638.html' ),
     listing_name   ( '100pcs Waterproof Solder Seal Heat Connector Shrink Butt Connectors Lug Terminals Electrical Wire Car Insulated Terminal' ),
@@ -7945,24 +7459,6 @@ equipment(
     EquipmentAttribute::PRE_CRIMPED,
     EquipmentConnectivity::XH2_54,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'JST' ),
-    model_name         ( 'XH2.54' ),
-    equipment_type     ( 'Pre-crimped Connector Kit' ),
-    category          ( 'XH2.54' ),
-    category          ( 'Connector' ),
-    category          ( 'Pre-crimped' ),
-    manufacturer_link (
-      link_href       ( 'https://www.jst.com/' ),
-      link_text       ( 'JST' ),
-    ),
-    manufacturer_link (
-      link_href       ( 'https://www.jst.com/wp-content/uploads/2021/01/eXH.pdf' ),
-      link_text       ( 'XH Connector (PDF)' ),
-    ),
-  ),
-  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006126557275.html' ),
     listing_name   ( '2.54mm XH Connector Socket + Pre-crimped Cable Wire 2/3/4/5/6/7 Pin Housing JST Adapter Cable Male Female for JST-XH Connector' ),
@@ -7991,13 +7487,6 @@ equipment(
     EquipmentFeature::HOOK_TOOLS,
     EquipmentAttribute::HAND_TOOL,
   ),
-  /*
-  equipment_info(
-    equipment_type     ( 'Multifunction Hooks' ),
-    category          ( 'Hook' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005277090135.html' ),
     listing_name   ( '4Pcs 160mm Car Auto Vehicle Oil Seal Screwdrivers Set O Ring Gasket Puller Remover Pick Hooks Multifunction Tools' ),
@@ -8024,12 +7513,6 @@ equipment(
     manufacturer_name ( 'Yum Cha' ),
     EquipmentFeature::STAINLESS_STEEL_TRAY,
   ),
-  /*
-  equipment_info(
-    equipment_type     ( 'Stainless Steel Tray' ),
-    category          ( 'Tray' ),
-  ),
-  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005100436804.html' ),
     listing_name   ( '1PC Stainless Steel Cosmetic Storage Tray Tattoo Equipment Tray Doctor Surgery Dental Tray Fake Nail Tray Tool' ),
@@ -8057,13 +7540,6 @@ equipment(
     model_name( 'Blue' ),
     EquipmentFeature::SPUDGERS,
   ),
-  /*
-  equipment_info(
-    equipment_type     ( 'Spudger Set' ),
-    category          ( 'Spudger' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005004658294061.html' ),
     listing_name   ( '5PCs Car Audio Trim Removal Tool Kit Anti-Scratch Pry Applicable Car Door Panel and Audio Dashboard' ),
@@ -8090,13 +7566,6 @@ equipment(
     manufacturer_name ( 'Yum Cha' ),
     EquipmentFeature::IC_CHIP_PICKUP_TOOL,
   ),
-  /*
-  equipment_info(
-    equipment_type     ( 'IC Chip Pickup Tool' ),
-    category          ( 'Hand Tool' ),
-    category          ( 'Pickup Tool' ),
-  ),
-  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005100436159.html' ),
     listing_name   ( 'Multi-functional Ic Chip Remover Electronic Component Jewelry Picking Tool Bga Chip Clip Cross Screwdriver Aluminum Alloy Handle' ),
@@ -8134,24 +7603,6 @@ equipment(
     EquipmentAttribute::PRE_CRIMPED,
     EquipmentConnectivity::XH2_54,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'JST' ),
-    model_name         ( 'XH2.54 6pin' ),
-    equipment_type     ( 'Pre-crimped Connector' ),
-    category          ( 'XH2.54' ),
-    category          ( 'Connector' ),
-    category          ( 'Pre-crimped' ),
-    manufacturer_link (
-      link_href       ( 'https://www.jst.com/' ),
-      link_text       ( 'JST' ),
-    ),
-    manufacturer_link (
-      link_href       ( 'https://www.jst.com/wp-content/uploads/2021/01/eXH.pdf' ),
-      link_text       ( 'XH Connector (PDF)' ),
-    ),
-  ),
-  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005906832879.html' ),
     listing_name   ( '2.54mm JST Connector with 22AWG Pre-Crimped Wire, 2/3/4/5/6 Pin Housing JST Adapter Cable Connector 20cm Wire' ),
@@ -8190,13 +7641,6 @@ equipment(
     model_name        ( 'Metal' ),
     EquipmentFeature::SPUDGERS,
   ),
-  /*
-  equipment_info(
-    equipment_type     ( 'Metal Spudgers' ),
-    category          ( 'Spudger' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005004718989394.html' ),
     listing_name   ( '6PCS Metal Crowbar with Two Ends Universal Mobile Phone Digital Home Appliance Product Dismantling Stick Shell Opening Tool' ),
@@ -8258,19 +7702,6 @@ equipment(
     EquipmentFeature::KEY_RING,
     EquipmentFeature::CORKSCREW,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Victorinox' ),
-    model_name         ( 'Swiss Champ Red' ),
-    equipment_type     ( 'Swiss Army Knife' ),
-    category          ( 'Swiss Army Knife' ),
-    category          ( 'Knife/Blade' ),
-    manufacturer_link (
-      link_href       ( 'https://www.victorinox.com/global/en/Products/Swiss-Army-Knives/Medium-Pocket-Knives/Swiss-Champ/p/1.6795' ),
-      link_text       ( 'Victorinox Swiss Champ in red' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Victorinox_Swiss_Champ_Red' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/351576617765?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339019639&customid=&toolid=20012&mkevt=1' ),
@@ -8298,17 +7729,6 @@ equipment(
     model_name        ( 'Titanium' ),
     EquipmentFeature::SCISSORS,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Scotch' ),
-    equipment_type     ( 'Titanium Scissors' ),
-    category          ( 'Scissors' ),
-    manufacturer_link (
-      link_href       ( 'https://www.scotchbrand.com.au/3M/en_AU/p/d/v000453838/' ),
-      link_text       ( 'Scotch™ Precision Ultra Edge Scissors, Blue, Green and Lavender, 8 in, 6/box, 6 boxes/Ctn, 1458TU-MIX' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Scotch_Titanium_Scissors' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/255183709704?var=555175576658&amdata=enc%3AAQAIAAAAkHemIjt9U%2F15Nhx9DVflc0mrH1HA9TJKm3bh3ixc0AhatR2d24gbPnH3xsTLpvM7mlR8JBA1100ufbAaBxoAPY9BTKXAbgKmHnhYQZhkUV6lohSq8QylzL185EeVgHytTQRG5L45oJbaMNAOZmw0pApkpLwgyfOdQLyu2pYdI9ck5l1NOrtCqIdYiKkccTE6yA%3D%3D&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339019639&customid=&toolid=20012&mkevt=1' ),
@@ -8351,16 +7771,6 @@ equipment(
     EquipmentFeature::TRANSISTOR_TESTER,
     EquipmentConnectivity::BANANA_PLUG,
   ),
-  /*
-  equipment_info(
-    model_name         ( 'DT830B' ),
-    equipment_type     ( 'Digital Multimeter' ),
-    category          ( 'Multimeter' ),
-    category          ( 'Hand Tool' ),
-    category          ( 'Meter' ),
-    category          ( 'Test Equipment' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/DT830B_Digital_Multimeter' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005004951791846.html' ),
@@ -8388,15 +7798,8 @@ equipment(
     model_name        ( 'Aokin' ),
     EquipmentFeature::WIRE_CUTTER,
     EquipmentFeature::PLIERS,
+    EquipmentAttribute::HEART,
   ),
-  /*
-  equipment_info(
-    model_name        ( 'Aokin' ),
-    equipment_type    ( 'Wire Cutter' ),
-    category          ( 'Wire Cutter' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   sixsigma_url    ( 'https://www.jj5.net/wiki/Aokin1PC_Wire_Cutter' ),
   see_also        ( 'Plato Model 170 Wire Cutter' ),
   affiliate_link(
@@ -8427,17 +7830,6 @@ equipment(
     EquipmentFeature::CABLE,
     EquipmentAttribute::HAND_TOOL,
   ),
-  /*
-  equipment_info(
-    model_name        ( 'Yum Cha' ),
-    equipment_type    ( 'Probe Tweezers' ),
-    category          ( 'Probe Tweezers' ),
-    category          ( 'Test Tweezers' ),
-    category          ( 'Tweezers' ),
-    category          ( 'Hand Tool' ),
-    category          ( 'Test Clip' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Probe_Tweezers' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005277270043.html' ),
@@ -8504,606 +7896,6 @@ equipment(
 );
 
 equipment(
-  equipment_date( '2021-08-14' ),
-  equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2216.jpg' ),
-  equipment_item(
-    manufacturer_link (
-      link_href       ( 'https://www.altronics.com.au/p/k2216-maxitronix-crystal-radio-kit/' ),
-      link_text       ( 'Maxitronix Crystal Radio Kit' ),
-    ),
-    manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( 'Crystal Radio Kit' ),
-    EquipmentFeature::ELECTRONICS_PROJECT,
-    EquipmentFeature::ELECTRONICS_KIT,
-    EquipmentFeature::AM_RADIO,
-  ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( 'Crystal Radio Kit' ),
-    equipment_type     ( 'Electronics Project' ),
-    category          ( 'Electronics Project' ),
-    category          ( 'Electronics Kit' ),
-    category          ( 'Radio' ),
-    manufacturer_link (
-      link_href       ( 'https://www.altronics.com.au/p/k2216-maxitronix-crystal-radio-kit/' ),
-      link_text       ( 'Maxitronix Crystal Radio Kit' ),
-    ),
-  ),
-  */
-  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
-  affiliate_link(
-    equipment_url ( 'https://www.altronics.com.au/p/k2216-maxitronix-crystal-radio-kit/' ),
-    listing_name   ( 'Maxitronix Crystal Radio Kit' ),
-    item_price    ( 'AU$27.95' ),
-  ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_nkw=Maxitronix+Crystal+Radio&_sacat=0' ),
-  affiliate_link(
-    equipment_url ( 'https://www.ebay.com/sch/i.html?_from=R40&_nkw=Maxitronix+Crystal+Radio&_sacat=0' ),
-    affiliate_url ( 'https://ebay.us/aSmrmy' ),
-    listing_name   ( 'Maxitronix Crystal Radio Kit' ),
-  ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Crystal+Radio&_sacat=0' ),
-  affiliate_link(
-    equipment_url ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Crystal+Radio&_sacat=0' ),
-    affiliate_url ( 'https://ebay.us/zc1TLF' ),
-    listing_name   ( 'Maxitronix Crystal Radio Kit' ),
-  ),
-  purchase(
-    equipment_url   ( 'https://www.altronics.com.au/p/k2216-maxitronix-crystal-radio-kit/' ),
-    order_url       ( 'https://www.altronics.com.au/myaccount/ordlist/?oid=172245' ),
-    order_id        ( '172245' ),
-    order_date      ( '2021-08-14' ),
-    order_item_name ( 'K2216: Crystal Radio Kit' ),
-    order_price     ( 'AU$27.95' ),
-    order_quantity  ( 1 ),
-    order_shipping  ( 'AU$11.00' ),
-    order_gst       ( 'AU$2.80' ),
-  ),
-);
-
-equipment(
-  equipment_date( '2021-08-14' ),
-  equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2212_1.jpg' ),
-  equipment_item(
-    manufacturer_link (
-      link_href       ( 'https://www.altronics.com.au/p/k2212-maxitronix-am-fm-radio-kit/' ),
-      link_text       ( 'Maxitronix AM/FM Radio Kit' ),
-    ),
-    manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( 'AM/FM Radio Kit' ),
-    EquipmentFeature::ELECTRONICS_PROJECT,
-    EquipmentFeature::ELECTRONICS_KIT,
-    EquipmentFeature::AM_RADIO,
-    EquipmentFeature::FM_RADIO,
-  ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( 'AM/FM Radio Kit' ),
-    equipment_type     ( 'Electronics Project' ),
-    category          ( 'Electronics Project' ),
-    category          ( 'Electronics Kit' ),
-    category          ( 'Radio' ),
-    manufacturer_link (
-      link_href       ( 'https://www.altronics.com.au/p/k2212-maxitronix-am-fm-radio-kit/' ),
-      link_text       ( 'Maxitronix AM/FM Radio Kit' ),
-    ),
-  ),
-  */
-  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
-  search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_nkw=Maxitronix+Radio&_sacat=0' ),
-  affiliate_link(
-    equipment_url ( 'https://www.ebay.com/sch/i.html?_from=R40&_nkw=Maxitronix+Radio&_sacat=0' ),
-    affiliate_url ( 'https://ebay.us/1DCBIm' ),
-    listing_name   ( 'Maxitronix AM/FM Radio Kit' ),
-    item_price    ( 'AU$27.95' ),
-  ),
-  purchase(
-    equipment_url   ( 'https://www.altronics.com.au/p/k2212-maxitronix-am-fm-radio-kit/' ),
-    order_url       ( 'https://www.altronics.com.au/myaccount/ordlist/?oid=172245' ),
-    order_id        ( '172245' ),
-    order_date      ( '2021-08-14' ),
-    order_item_name ( 'Maxitronix AM/FM Radio Kit' ),
-    order_price     ( 'AU$27.95' ),
-    order_quantity  ( 1 ),
-    order_shipping  ( 'AU$11.00' ),
-    order_gst       ( 'AU$2.80' ),
-  ),
-  purchase(
-    equipment_url   ( 'https://www.ebay.com.au/itm/393246904325' ),
-    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=20-07522-10637#/' ),
-    order_id        ( '20-07522-10637' ),
-    order_date      ( '27 Aug 2021' ),
-    order_item_name ( 'Maxitronix AM/FM Radio Kit' ),
-    order_price     ( 'AU$32.00' ),
-    order_quantity  ( 1 ),
-    order_shipping  ( 'AU$10.00' ),
-  ),
-);
-
-equipment(
-  equipment_date( '2021-08-19' ),
-  equipment_icon( 'https://i.ebayimg.com/images/g/ABgAAOSwol5YxnoQ/s-l1600.jpg' ),
-  equipment_item(
-    manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( 'Electronic Metal Detector Kit' ),
-    EquipmentFeature::ELECTRONICS_PROJECT,
-    EquipmentFeature::ELECTRONICS_KIT,
-    EquipmentFeature::METAL_DETECTOR,
-  ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( 'Electronic Metal Detector Kit' ),
-    equipment_type     ( 'Electronics Project' ),
-    category          ( 'Electronics Project' ),
-    category          ( 'Electronics Kit' ),
-    category          ( 'Metal Detector' ),
-  ),
-  */
-  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Metal+Detector&_sacat=0' ),
-  affiliate_link(
-    equipment_url ( 'https://www.ebay.com.au/itm/401290152496' ),
-    affiliate_url ( 'https://ebay.us/bECYsY' ),
-    listing_name   ( 'NEW Maxitronix ELMD - Electronic Metal Detector Kit MX-800 Build It Science Kit' ),
-    item_price    ( 'AU$24.95' ),
-    item_shipping ( 'AU$12.00' ),
-  ),
-  purchase(
-    equipment_url   ( 'https://www.ebay.com.au/itm/401290152496' ),
-    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=23-07488-57620#/' ),
-    order_id        ( '23-07488-57620' ),
-    order_date      ( '19 Aug 2021' ),
-    order_item_name ( ' NEW Maxitronix ELMD - Electronic Metal Detector Kit MX-800 Build It Science Kit' ),
-    order_price     ( 'AU$24.95' ),
-    order_quantity  ( 1 ),
-    order_shipping  ( 'AU$12.00' ),
-  ),
-);
-
-equipment(
-  equipment_date( '2021-08-09' ),
-  equipment_icon( 'https://m.media-amazon.com/images/I/81aRcMQ-0rL._AC_SL1500_.jpg' ),
-  equipment_info(
-    manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( '10 In 1 (10in1)' ),
-    equipment_type     ( 'Electronics Project Lab Kit' ),
-    category          ( 'Electronics Project Lab' ),
-    category          ( 'Electronics Project' ),
-    category          ( 'Electronics Kit' ),
-    manufacturer_link (
-      link_href       ( 'https://www.altronics.com.au/p/k2200-maxitronix-10-in-1-electronics-lab-kit/' ),
-      link_text       ( '10 In 1 Electronics Project Lab Kit' ),
-    ),
-  ),
-  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&LH_ItemCondition=1000&rt=nc&LH_BIN=1&_nkw=Maxitronix+Crystal+Radio+Kit+Electronics+Project' ),
-  affiliate_link(
-    equipment_url ( 'https://www.ebay.com.au/itm/262530007000' ),
-    affiliate_url ( 'https://ebay.us/cIilFj' ),
-    listing_name   ( ' Maxitronix Crystal Radio Kit Designed for Children Aged 10 and Over ' ),
-    item_price    ( 'AU$37.90' ),
-  ),
-  purchase(
-    equipment_url   ( 'https://www.amazon.com.au/gp/product/B07L8K6DRJ' ),
-    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=503-1823734-6368600' ),
-    order_id        ( '503-1823734-6368600' ),
-    order_date      ( '9 August 2021' ),
-    order_item_name ( 'Generic 10 in 1 Electronics Lab Kit' ),
-    order_price     ( 'AU$49.00' ),
-    order_quantity  ( 1 ),
-  ),
-);
-
-equipment(
-  equipment_date( '2021-08-10' ),
-  equipment_icon( 'https://i.ebayimg.com/images/g/0sAAAOSwbN9g40AJ/s-l200.webp' ),
-  equipment_item(
-    manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( 'Sensor Robot 20 (20in1)' ),
-    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
-  ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( 'Sensor Robot 20 (20in1)' ),
-    equipment_type     ( 'Electronics Project Lab Kit' ),
-    category          ( 'Electronics Project Lab' ),
-    category          ( 'Electronics Project' ),
-    category          ( 'Electronics Kit' ),
-  ),
-  */
-  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Sensor+Robot+20&_sacat=0' ),
-  affiliate_link(
-    equipment_url ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Sensor+Robot+20&_sacat=0' ),
-    affiliate_url ( 'https://ebay.us/ujlqAR' ),
-    listing_name   ( 'Maxitronix Sensor Robot 20 Electronics Project Lab Kit' ),
-    item_price    ( 'AU$48.45' ),
-  ),
-  purchase(
-    equipment_url   ( 'https://www.ebay.com.au/itm/194267593891' ),
-    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=22-07448-53020#/' ),
-    order_id        ( '22-07448-53020' ),
-    order_date      ( '10 Aug 2021' ),
-    order_item_name ( 'Sensor Robot 20. Action Science Electronic Project Lab.' ),
-    order_price     ( 'AU$48.45' ),
-    order_quantity  ( 1 ),
-  ),
-);
-
-equipment(
-  equipment_date( '2021-08-09' ),
-  equipment_icon( 'https://i.ebayimg.com/images/g/GXcAAOSwOzld5Fxx/s-l1600.jpg' ),
-  equipment_item(
-    manufacturer_link (
-      link_href       ( 'https://www.altronics.com.au/p/k2204-maxitronix-30-in-1-electronics-lab-kit/' ),
-      link_text       ( 'Maxitronix 30 In 1 Electronics Project Lab Kit' ),
-    ),
-    manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( '30 In 1 (30in1)' ),
-    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
-  ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( '30 In 1 (30in1)' ),
-    equipment_type     ( 'Electronics Project Lab Kit' ),
-    category          ( 'Electronics Project Lab' ),
-    category          ( 'Electronics Project' ),
-    category          ( 'Electronics Kit' ),
-    manufacturer_link (
-      link_href       ( 'https://www.altronics.com.au/p/k2204-maxitronix-30-in-1-electronics-lab-kit/' ),
-      link_text       ( 'Maxitronix 30 In 1 Electronics Project Lab Kit' ),
-    ),
-  ),
-  */
-  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
-  affiliate_link(
-    equipment_url ( 'https://www.altronics.com.au/p/k2204-maxitronix-30-in-1-electronics-lab-kit/' ),
-    listing_name   ( 'Maxitronix 30 In 1 Electronics Project Lab Kit' ),
-    item_price    ( 'AU$56.36' ),
-  ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+30&_sacat=0' ),
-  affiliate_link(
-    equipment_url ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+30&_sacat=0' ),
-    affiliate_url ( 'https://ebay.us/12nDbe' ),
-    listing_name   ( 'Maxitronix 30 In 1 Electronics Project Lab Kit' ),
-  ),
-  purchase(
-    equipment_url   ( 'https://www.ebay.com.au/itm/111242419519' ),
-    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=11-07445-39591#/' ),
-    order_id        ( '11-07445-39591' ),
-    order_date      ( '9 Aug 2021' ),
-    order_item_name ( '30 In 1 Electronics Project Lab Learning Kit Kids Learn Electronics XMAS GIFT' ),
-    order_price     ( 'AU$69.95' ),
-    order_quantity  ( 1 ),
-  ),
-);
-
-equipment(
-  equipment_date( '2021-08-14' ),
-  equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2220.jpg' ),
-  equipment_item(
-    manufacturer_link (
-      link_href       ( 'https://www.altronics.com.au/p/k2220-maxitronix-digital-recording-lab-kit/' ),
-      link_text       ( 'Maxitronix Electronic Digital Recording Laboratory' ),
-    ),
-    manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( 'Electronic Digital Recording Laboratory (59in1)' ),
-    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
-  ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( 'Electronic Digital Recording Laboratory (59in1)' ),
-    equipment_type     ( 'Electronics Project Lab Kit' ),
-    category          ( 'Electronics Project Lab' ),
-    category          ( 'Electronics Project' ),
-    category          ( 'Electronics Kit' ),
-    manufacturer_link (
-      link_href       ( 'https://www.altronics.com.au/p/k2220-maxitronix-digital-recording-lab-kit/' ),
-      link_text       ( 'Maxitronix Electronic Digital Recording Laboratory' ),
-    ),
-  ),
-  */
-  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
-  affiliate_link(
-    equipment_url ( 'https://www.altronics.com.au/p/k2220-maxitronix-digital-recording-lab-kit/' ),
-    listing_name   ( 'Maxitronix Electronic Digital Recording Laboratory' ),
-    item_price    ( 'AU$83.59' ),
-  ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Digital+Recording&_sacat=0' ),
-  affiliate_link(
-    equipment_url ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Digital+Recording&_sacat=0' ),
-    affiliate_url ( 'https://ebay.us/jz2phY' ),
-    listing_name   ( 'Maxitronix Electronic Digital Recording Laboratory' ),
-  ),
-  purchase(
-    equipment_url   ( 'https://www.altronics.com.au/p/k2220-maxitronix-digital-recording-lab-kit/' ),
-    order_url       ( 'https://www.altronics.com.au/myaccount/ordlist/?oid=172245' ),
-    order_id        ( '172245' ),
-    order_date      ( '2021-08-14' ),
-    order_item_name ( 'K2220: Digital Recording Lab Kit' ),
-    order_price     ( 'AU$91.95' ),
-    order_quantity  ( 1 ),
-    order_shipping  ( 'AU$11.00' ),
-  ),
-);
-
-equipment(
-  equipment_date( '2021-08-09' ),
-  equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2206.jpg' ),
-  equipment_item(
-    manufacturer_link (
-      link_href       ( 'https://www.altronics.com.au/p/k2206-maxitronix-60-in-1-electronics-lab-kit/' ),
-      link_text       ( 'Maxitronix 60 In 1 Electronics Project Lab Kit' ),
-    ),
-    manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( '60 In 1 (60in1)' ),
-    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
-  ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( '60 In 1 (60in1)' ),
-    equipment_type     ( 'Electronics Project Lab Kit' ),
-    category          ( 'Electronics Project Lab' ),
-    category          ( 'Electronics Project' ),
-    category          ( 'Electronics Kit' ),
-    manufacturer_link (
-      link_href       ( 'https://www.altronics.com.au/p/k2206-maxitronix-60-in-1-electronics-lab-kit/' ),
-      link_text       ( 'Maxitronix 60 In 1 Electronics Project Lab Kit' ),
-    ),
-  ),
-  */
-  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
-  affiliate_link(
-    equipment_url ( 'https://www.altronics.com.au/p/k2206-maxitronix-60-in-1-electronics-lab-kit/' ),
-    listing_name   ( 'Maxitronix 60 In 1 Electronics Project Lab Kit' ),
-    item_price    ( 'AU$99.09' ),
-  ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+60&_sacat=0' ),
-  affiliate_link(
-    equipment_url ( 'https://www.ebay.com.au/itm/113287895499' ),
-    affiliate_url ( 'https://ebay.us/J5iLIE' ),
-    listing_name   ( '60 In 1 Electronics Lab Kit teach kids about the fundamentals of electronics' ),
-    item_price    ( 'AU$109.00' ),
-  ),
-  purchase(
-    equipment_url   ( 'https://www.ebay.com.au/itm/113287895499' ),
-    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=11-07445-39591#/' ),
-    order_id        ( '11-07445-39591' ),
-    order_date      ( '9 Aug 2021' ),
-    order_item_name ( '60 In 1 Electronics Lab Kit teach kids about the fundamentals of electronics' ),
-    order_price     ( 'AU$109.00' ),
-    order_quantity  ( 1 ),
-  ),
-);
-
-equipment(
-  equipment_date( '2021-08-09' ),
-  equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2208.jpg' ),
-  equipment_item(
-    manufacturer_link (
-      link_href       ( 'https://www.altronics.com.au/p/k2208-maxitronix-130-in-1-electronics-lab-kit/' ),
-      link_text       ( 'Maxitronix 130 In 1 Electronics Project Lab Kit' ),
-    ),
-    manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( '130 In 1 (130in1)' ),
-    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
-  ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( '130 In 1 (130in1)' ),
-    equipment_type     ( 'Electronics Project Lab Kit' ),
-    category          ( 'Electronics Project Lab' ),
-    category          ( 'Electronics Project' ),
-    category          ( 'Electronics Kit' ),
-    manufacturer_link (
-      link_href       ( 'https://www.altronics.com.au/p/k2208-maxitronix-130-in-1-electronics-lab-kit/' ),
-      link_text       ( 'Maxitronix 130 In 1 Electronics Project Lab Kit' ),
-    ),
-  ),
-  */
-  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
-  affiliate_link(
-    equipment_url ( 'https://www.altronics.com.au/p/k2208-maxitronix-130-in-1-electronics-lab-kit/' ),
-    listing_name   ( 'Maxitronix 130 In 1 Electronics Project Lab Kit' ),
-    item_price    ( 'AU$145.45' ),
-  ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+130&_sacat=0' ),
-  affiliate_link(
-    equipment_url ( 'https://www.ebay.com.au/itm/313210818748' ),
-    affiliate_url ( 'https://ebay.us/TwxsqJ' ),
-    listing_name   ( 'Maxitronix 130 In 1 Electronics Project Lab Kit' ),
-  ),
-  purchase(
-    equipment_url   ( 'https://www.ebay.com.au/itm/313210818748' ),
-    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=11-07445-39591#/' ),
-    order_id        ( '11-07445-39591' ),
-    order_date      ( '2021-08-09' ),
-    order_item_name ( '130 in 1 Electronics Lab Kit for Ideal for any inquisitive mind aged 10 & over' ),
-    order_price     ( 'AU$139.98' ),
-    order_quantity  ( 1 ),
-  ),
-);
-
-equipment(
-  equipment_date( '2021-08-09' ),
-  equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2209.jpg' ),
-  equipment_item(
-    manufacturer_link (
-      link_href       ( 'https://www.altronics.com.au/p/k2209-maxitronix-200-in-1-electronics-lab-kit/' ),
-      link_text       ( 'Maxitronix 200 In 1 Electronics Project Lab Kit' ),
-    ),
-    manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( '200 In 1 (200in1)' ),
-    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
-  ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( '200 In 1 (200in1)' ),
-    equipment_type     ( 'Electronics Project Lab Kit' ),
-    category          ( 'Electronics Project Lab' ),
-    category          ( 'Electronics Project' ),
-    category          ( 'Electronics Kit' ),
-    manufacturer_link (
-      link_href       ( 'https://www.altronics.com.au/p/k2209-maxitronix-200-in-1-electronics-lab-kit/' ),
-      link_text       ( 'Maxitronix 200 In 1 Electronics Project Lab Kit' ),
-    ),
-  ),
-  */
-  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
-  affiliate_link(
-    equipment_url ( 'https://www.altronics.com.au/p/k2209-maxitronix-200-in-1-electronics-lab-kit/' ),
-    listing_name   ( 'Maxitronix 200 In 1 Electronics Project Lab Kit' ),
-    item_price    ( 'AU$186.36' ),
-  ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+200&_sacat=0' ),
-  affiliate_link(
-    equipment_url ( 'https://www.amazon.com.au/gp/product/B07J34ZYVY/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1' ),
-    listing_name   ( '200 in 1 Electronics Lab Learning Kit Kids Learn Electronics Xmas Gift' ),
-    item_price    ( 'AU$216.95' ),
-  ),
-  purchase(
-    equipment_url   ( 'https://www.amazon.com.au/gp/product/B07J34ZYVY/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1' ),
-    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details/ref=ppx_yo_dt_b_order_details_o00?ie=UTF8&orderID=503-7019939-8059006' ),
-    order_id        ( '503-7019939-8059006' ),
-    order_date      ( '9 August 2021' ),
-    order_item_name ( '200 in 1 Electronics Lab Learning Kit Kids Learn Electronics Xmas Gift' ),
-    order_price     ( 'AU$216.95' ),
-    order_quantity  ( 1 ),
-  ),
-);
-
-equipment(
-  equipment_date( '2021-08-16' ),
-  equipment_icon( 'https://images.altronics.com.au/prod_new/k/K2222.jpg' ),
-  equipment_item(
-    manufacturer_link (
-      link_href       ( 'https://www.altronics.com.au/p/k2222-maxitronix-300-in-1-electronics-lab-kit/' ),
-      link_text       ( 'Maxitronix 300 In 1 Electronics Project Lab Kit' ),
-    ),
-    manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( '300 In 1 (300in1)' ),
-    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
-  ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( '300 In 1 (300in1)' ),
-    equipment_type     ( 'Electronics Project Lab Kit' ),
-    category          ( 'Electronics Project Lab' ),
-    category          ( 'Electronics Project' ),
-    category          ( 'Electronics Kit' ),
-    manufacturer_link (
-      link_href       ( 'https://www.altronics.com.au/p/k2222-maxitronix-300-in-1-electronics-lab-kit/' ),
-      link_text       ( 'Maxitronix 300 In 1 Electronics Project Lab Kit' ),
-    ),
-  ),
-  */
-  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
-  affiliate_link(
-    equipment_url ( 'https://www.altronics.com.au/p/k2222-maxitronix-300-in-1-electronics-lab-kit/' ),
-    listing_name   ( 'Maxitronix 300 In 1 Electronics Project Lab Kit' ),
-    item_price    ( 'AU$290.91' ),
-  ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=maxitronix+300&_sacat=0' ),
-  purchase(
-    equipment_url   ( 'https://www.ebay.com.au/itm/284398509127' ),
-    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=05-07478-66621#/' ),
-    order_id        ( '05-07478-66621' ),
-    order_date      ( '16 Aug 2021' ),
-    order_item_name ( 'BRAND NEW MAXITRONIX ELECTRONIC LAB SOLDER FREE 300 IN 1 EXPERIMENT KIT' ),
-    order_price     ( 'AU$150.00' ),
-    order_quantity  ( 1 ),
-    order_shipping  ( 'AU$20.00' ),
-  ),
-  purchase(
-    equipment_url   ( 'https://www.ebay.com.au/itm/185223305299' ),
-    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=20-08164-77215#/' ),
-    order_id        ( '20-08164-77215' ),
-    order_date      ( '23 Jan 2022' ),
-    order_item_name ( 'Maxitronix 300 In 1 Electronics Lab Kit' ),
-    order_price     ( 'AU$120.00' ),
-    order_quantity  ( 1 ),
-    order_shipping  ( 'AU$17.00' ),
-  ),
-  purchase(
-    equipment_url   ( 'https://www.ebay.com.au/itm/154830785545' ),
-    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=24-08243-59512#/' ),
-    order_id        ( '24-08243-59512' ),
-    order_date      ( '7 Feb 2022' ),
-    order_item_name ( 'Maxitronix 300 In 1 Electronics Lab Kit untested selling as parts read descript' ),
-    order_price     ( 'AU$45.00' ),
-    order_quantity  ( 1 ),
-    order_shipping  ( 'AU$22.00' ),
-  ),
-  purchase(
-    equipment_url   ( 'https://www.ebay.com.au/itm/175159458198' ),
-    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=05-08268-05619#/' ),
-    order_id        ( '05-08268-05619' ),
-    order_date      ( '15 Feb 2022' ),
-    order_item_name ( 'MAXITRONIX 300 IN 1 ELECTRONIC LAB MX-9 ,COMPLETE IN ORIGINAL BOX,LEARNING TOY' ),
-    order_price     ( 'AU$65.00' ),
-    order_quantity  ( 1 ),
-    order_shipping  ( 'AU$21.90' ),
-  ),
-);
-
-equipment(
-  equipment_date( '2021-06-25' ),
-  equipment_icon( 'https://i.ebayimg.com/images/g/plQAAOSwFNhgRD5O/s-l200.webp' ),
-  equipment_item(
-    manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( '500 In 1 (500in1)' ),
-    EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
-  ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( '500 In 1 (500in1)' ),
-    equipment_type     ( 'Electronics Project Lab Kit' ),
-    category          ( 'Electronics Project Lab' ),
-    category          ( 'Electronics Project' ),
-    category          ( 'Electronics Kit' ),
-  ),
-  */
-  sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
-  search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=maxitronix+500&_sacat=0' ),
-  affiliate_link(
-    equipment_url ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=maxitronix+500&_sacat=0' ),
-    affiliate_url ( 'https://ebay.us/AXdPh8' ),
-    listing_name   ( 'Maxitronix 500 In 1 Electronics Project Lab Kit' ),
-    item_price    ( 'AU$250.00' ),
-  ),
-  purchase(
-    equipment_url   ( 'https://www.ebay.com.au/itm/254898266591' ),
-    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=27-07189-69518#/' ),
-    order_id        ( '27-07189-69518' ),
-    order_date      ( '11 Jun 2021' ),
-    order_item_name ( 'Maxitronix 500-in-one Electronic Project Lab' ),
-    order_price     ( 'AU$250.00' ),
-    order_quantity  ( 1 ),
-  ),
-  purchase(
-    equipment_url   ( 'https://www.ebay.com.au/itm/125160305942' ),
-    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=04-08308-47836#/' ),
-    order_id        ( '04-08308-47836' ),
-    order_date      ( '25 Feb 2022' ),
-    order_item_name ( 'Maxitronix 500 in 1 Electronic Lab *NO BOOKS/ELECTRONIC PARTS/WIRES*' ),
-    order_price     ( 'US$94.95' ),
-    order_quantity  ( 1 ),
-    order_shipping  ( 'US$36.76' ),
-  ),
-);
-
-equipment(
   equipment_date( '2023-09-16' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S084127bd6e564973aa2ebf6abbb021d07/Universal-Stylus-Pen-Drawing-Tablet-Sensetive-Capacitive-Screen-Touch-Pen-for-Apple-Android-iPad-iPhone-Samsung.png_.webp' ),
   equipment_item(
@@ -9116,19 +7908,6 @@ equipment(
     EquipmentFeature::STYLUS_PEN,
     EquipmentFeature::COSTUME,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Asometech' ),
-    model_name         ( 'Universal' ),
-    equipment_type     ( 'Stylus Pen' ),
-    category          ( 'Stylus Pen' ),
-    category          ( 'Hand Tool' ),
-    manufacturer_link (
-      link_href       ( 'https://www.aliexpress.com/store/3106086' ),
-      link_text       ( 'Asometech' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Asometech_Stylus_Pen' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005002346357482.html' ),
@@ -9163,19 +7942,6 @@ equipment(
     EquipmentFeature::RULER,
     EquipmentFeature::COSTUME,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Adafruit' ),
-    model_name         ( 'One PCB to Ruler Them All' ),
-    equipment_type     ( 'Ruler' ),
-    category          ( 'Ruler' ),
-    category          ( 'Hand Tool' ),
-    manufacturer_link (
-      link_href       ( 'https://blog.adafruit.com/2014/09/15/one-pcb-to-ruler-them-all/' ),
-      link_text       ( 'Adafruit One PCB to Ruler Them All' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Adafruit_Ruler' ),
   web_link(
     link_href   ( 'https://blog.adafruit.com/2014/09/15/one-pcb-to-ruler-them-all/' ),
@@ -9205,20 +7971,6 @@ equipment(
     EquipmentFeature::FLATHEAD_SCREWDRIVER,
     EquipmentFeature::COSTUME,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Klein Tools' ),
-    model_name         ( '32614 4-in-1 Multi-bit Precision' ),
-    equipment_type     ( 'Pocket Screwdriver' ),
-    category          ( 'Screwdriver' ),
-    category          ( 'Hand Tool' ),
-    category          ( 'Sonic Screwdriver' ),
-    manufacturer_link (
-      link_href       ( 'https://www.kleintools.com.au/catalogue/multi-bit-screwdrivers/multi-bit-electronics-pocket-screwdriver-4-1-ph-sl-bits' ),
-      link_text       ( 'Multi-Bit Electronics Pocket Screwdriver, 4-in-1, Ph., Sl. Bits (32614)' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Klein_Tools_Pocket_Screwdriver' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B07PNC5MPB' ),
@@ -9251,19 +8003,6 @@ equipment(
     EquipmentFeature::LAB_COAT,
     EquipmentFeature::COSTUME,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Portwest' ),
-    model_name         ( 'Standard' ),
-    equipment_type     ( 'Lab Coat' ),
-    category          ( 'Lab Coat' ),
-    category          ( 'Safety Equipment' ),
-    manufacturer_link (
-      link_href       ( 'https://www.portwest.com/products/view/2852/WHR' ),
-      link_text       ( '2852 - Standard Coat' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Portwest_Lab_Coat' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B006ITB06U' ),
@@ -9296,19 +8035,6 @@ equipment(
     EquipmentFeature::POCKET_PROTECTOR,
     EquipmentFeature::COSTUME,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Diodrio' ),
-    model_name         ( 'Leather' ),
-    equipment_type     ( 'Pocket Protector' ),
-    category          ( 'Pocket Protector' ),
-    category          ( 'Safety Equipment' ),
-    manufacturer_link (
-      link_href       ( 'https://www.amazon.com.au/s?k=diodrio' ),
-      link_text       ( 'See diodrio on Amazon' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Diodrio_Pocket_Protector' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B07S6NWMGX' ),
@@ -9340,19 +8066,6 @@ equipment(
     EquipmentFeature::SAFETY_GOGGLES,
     EquipmentFeature::COSTUME,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Oloey' ),
-    //model_name        ( '' ),
-    equipment_type     ( 'Safety Goggles' ),
-    category          ( 'Safety Equipment' ),
-    category          ( 'Safety Goggles' ),
-    manufacturer_link (
-      link_href       ( 'https://www.aliexpress.com/store/5085361' ),
-      link_text       ( 'See store on AliExpress' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Oloey_Safety_Goggles' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/4000700099287.html' ),
@@ -9387,18 +8100,6 @@ equipment(
     EquipmentFeature::BADGE_HOLDER,
     EquipmentFeature::COSTUME,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'YOUOWO' ),
-    //model_name        ( '' ),
-    equipment_type     ( 'ID Badge Holder' ),
-    category          ( 'Badge Holder' ),
-    manufacturer_link (
-      link_href       ( 'https://www.amazon.com.au/s?k=YOUOWO' ),
-      link_text       ( 'See YOUOWO on Amazon' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/YOUOWO_ID_Badge_Holder' ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/gp/product/B07Y2SH1KV' ),
@@ -9427,16 +8128,6 @@ equipment(
     model_name         ( 'Round' ),
     EquipmentFeature::PAINT_BRUSHES,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Yutiars' ),
-    model_name         ( 'Round' ),
-    equipment_type     ( 'Paint Brush Set' ),
-    category          ( 'Paint Brush' ),
-    category          ( 'Brush' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yutiars_Round_Paint_Brush_Set' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005007250364880.html' ),
@@ -9466,16 +8157,6 @@ equipment(
     model_name         ( 'Flat' ),
     EquipmentFeature::PAINT_BRUSHES,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Yutiars' ),
-    model_name         ( 'Flat' ),
-    equipment_type     ( 'Paint Brush Set' ),
-    category          ( 'Paint Brush' ),
-    category          ( 'Brush' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yutiars_Flat_Paint_Brush_Set' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005007250364880.html' ),
@@ -9506,15 +8187,6 @@ equipment(
     EquipmentFeature::SCRUB_BRUSH,
     EquipmentFeature::DRILL_BIT,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( '3pcs' ),
-    equipment_type     ( 'Drill Scrub Brush' ),
-    category          ( 'Brush' ),
-    category          ( 'Drill Bit' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_3pcs_Drill_Scrub_Brush' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006888412238.html' ),
@@ -9544,15 +8216,6 @@ equipment(
     model_name        ( 'Double-ended' ),
     EquipmentFeature::COTTON_SWABS,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( 'Double-ended' ),
-    equipment_type     ( 'Cotton Swabs' ),
-    category          ( 'Cleaning' ),
-    category          ( 'Disposable' ),
-  ),
-  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006407439762.html' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DFwzGLh' ),
@@ -9615,16 +8278,6 @@ equipment(
     EquipmentAttribute::MAGNETIC,
     EquipmentAttribute::HEART,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( 'Mini Magnetic Precision' ),
-    equipment_type     ( 'Screwdriver Set' ),
-    category          ( 'Screwdriver' ),
-    category          ( 'Drill Bit' ),
-    category          ( '❤️' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Mini_Magnetic_Precision_Screwdriver_Set' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005007187681360.html' ),
@@ -9688,14 +8341,6 @@ equipment(
     EquipmentFeature::RESET_PIN_SCREWDRIVER,
 
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( '29 In 1 Mini Precision' ),
-    equipment_type     ( 'Screwdriver Set' ),
-    category          ( 'Screwdriver' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Mini_Magnetic_Precision_Screwdriver_Set' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006310779162.html' ),
@@ -9728,15 +8373,6 @@ equipment(
     EquipmentAttribute::MAGNETIC,
     EquipmentAttribute::ATTACHMENT,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( '2pcs Magnetic Soft' ),
-    equipment_type     ( 'Vise Jaw Pads' ),
-    category          ( 'Vise' ),
-    category          ( 'Attachment' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_2pcs_Magnetic_Soft_Vise_Jaw_Pads' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006358554010.html' ),
@@ -9766,14 +8402,6 @@ equipment(
     model_name         ( '10pcs Magic' ),
     EquipmentFeature::FOAM_SPONGE,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( '10pcs Magic' ),
-    equipment_type     ( 'Foam Sponge' ),
-    category          ( 'Cleaning' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_10pcs_Magic_Foam_Sponge' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005007069120339.html' ),
@@ -9803,14 +8431,6 @@ equipment(
     model_name         ( '2pcs Grease Cleaner' ),
     EquipmentFeature::CLEANING_BRICKS,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( '2pcs Grease Cleaner' ),
-    equipment_type     ( 'Cleaning Bricks' ),
-    category          ( 'Cleaning' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_2pcs_Grease_Cleaner_Cleaning_Bricks' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006754273035.html' ),
@@ -9841,14 +8461,6 @@ equipment(
     EquipmentFeature::CRAFTWORK_PEN,
     EquipmentFeature::BRUSH,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( 'Metallic' ),
-    equipment_type     ( 'Craftwork Pen' ),
-    category          ( 'Pen' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Metallic_Craftwork_Pen' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005664056137.html' ),
@@ -9918,21 +8530,7 @@ equipment(
     manufacturer_name  ( 'Yum Cha' ),
     model_name         ( 'Long Handle' ),
     EquipmentFeature::WIRE_BRUSH,
-    /*
-    equipment_type     ( 'Wire Brush' ),
-    category          ( 'Brush' ),
-    category          ( 'Cleaning' ),
-    */
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( 'Long Handle' ),
-    equipment_type     ( 'Wire Brush' ),
-    category          ( 'Brush' ),
-    category          ( 'Cleaning' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Long_Handle_Wire_Brush' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006926432587.html' ),
@@ -9962,15 +8560,6 @@ equipment(
     model_name         ( 'NSS-681HDMI-RJ45' ),
     EquipmentFeature::CABLE_TESTER,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'OULLX' ),
-    model_name         ( 'NSS-681HDMI-RJ45' ),
-    equipment_type     ( 'Cable Tester' ),
-    category          ( 'Cable Tester' ),
-    category          ( 'Test Equipment' ),
-  ),
-  */
   see_also      ( 'Ampcom Automatic Network Cable Tester' ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/OULLX_NSS-681HDMI-RJ45_Cable_Tester' ),
   affiliate_link(
@@ -9999,15 +8588,6 @@ equipment(
     model_name         ( '5pcs Crevice' ),
     EquipmentFeature::CLEANING_BRUSH,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Damotk' ),
-    model_name         ( '5pcs Crevice Cleaning' ),
-    equipment_type     ( 'Brush' ),
-    category          ( 'Brush' ),
-    category          ( 'Cleaning' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Damotk_5pcs_Crevice_Cleaning_Brush' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006842332119.html' ),
@@ -10037,15 +8617,6 @@ equipment(
     model_name         ( '10pcs Blue' ),
     EquipmentFeature::MICROFIBER_CLOTH,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( '10pcs Blue' ),
-    equipment_type     ( 'Microfiber Cloth' ),
-    category          ( 'Cloth' ),
-    category          ( 'Cleaning' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_10pcs_Blue_Microfiber_Cloth' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006938264843.html' ),
@@ -10104,14 +8675,6 @@ equipment(
     model_name         ( 'Black Hexagon' ),
     EquipmentFeature::DEBURRING_DRILL_BIT,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'aToolTour' ),
-    model_name         ( 'Black Hexagon' ),
-    equipment_type     ( 'Deburring Drill Bit' ),
-    category          ( 'Drill Bit' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/AToolTour_Black_Hexagon_Deburring_Drill_Bit' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005591119302.html' ),
@@ -10141,14 +8704,6 @@ equipment(
     model_name         ( '4pcs 30mm' ),
     EquipmentFeature::DEEP_HOLE_PEN,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( '4pcs 30mm Deep Hole' ),
-    equipment_type     ( 'Pen' ),
-    category          ( 'Pen' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_4pcs_30mm_Deep_Hole_Pen' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006974182914.html' ),
@@ -10178,14 +8733,6 @@ equipment(
     model_name         ( '6pcs' ),
     EquipmentFeature::WIRE_BRUSH,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( '6pcs' ),
-    equipment_type     ( 'Wire Brush' ),
-    category          ( 'Brush' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_6pcs_Wire_Brush' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005867110367.html' ),
@@ -10245,14 +8792,6 @@ equipment(
     EquipmentFeature::TRIANGULAR_SCREWDRIVER_2_3,
 
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Ausum' ),
-    model_name         ( '25 In 1 Precision' ),
-    equipment_type     ( 'Screwdriver Set' ),
-    category          ( 'Screwdriver' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Ausum_25_In_1_Precision_Screwdriver_Set' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006630216063.html' ),
@@ -10311,14 +8850,6 @@ equipment(
     model_name         ( 'HZY ABS' ),
     EquipmentFeature::WIRE_FIXTURE,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'TOOKKS' ),
-    model_name         ( 'HZY ABS' ),
-    equipment_type     ( 'Wire Fixture' ),
-    category          ( 'Vise' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/TOOKKS_HZY_ABS_Wire_Fixture' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006618522459.html' ),
@@ -10364,17 +8895,6 @@ equipment(
     EquipmentFeature::ROTARY_GRINDING_BURR,
     EquipmentFeature::ROTARY_MILLING_CUTTER,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Tungfull' ),
-    model_name         ( 'TH-161' ),
-    equipment_type     ( 'Rotary Tool Bits' ),
-    category          ( 'Accessory' ),
-    category          ( 'Attachment' ),
-    category          ( 'Drill Bit' ),
-    category          ( 'Cutting Disc' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Tungfull_TH-161_Rotary_Tool_Bits' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006746448701.html' ),
@@ -10404,14 +8924,6 @@ equipment(
     model_name         ( '100pc Titanium Plated' ),
     EquipmentFeature::DRILL_BITS,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( '100pc Titanium Plated' ),
-    equipment_type     ( 'Drill Bits' ),
-    category          ( 'Drill Bit' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_100pc_Titanium_Plated_Drill_Bits' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006432042066.html' ),
@@ -10443,16 +8955,6 @@ equipment(
     EquipmentFeature::PLIERS,
     EquipmentAttribute::HEART,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Plato' ),
-    model_name         ( 'Model 170' ),
-    equipment_type     ( 'Wire Cutters' ),
-    category          ( 'Hand Tool' ),
-    category          ( 'Wire Cutter' ),
-    category          ( '❤️' ),
-  ),
-  */
   sixsigma_url    ( 'https://www.jj5.net/wiki/Plato_Model_170_Wire_Cutters' ),
   see_also        ( 'Aokin Wire Cutter' ),
   affiliate_link(
@@ -10484,15 +8986,6 @@ equipment(
     EquipmentFeature::WIRE_STRIPPER,
     EquipmentFeature::PLIERS,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( 'Universal Handheld' ),
-    equipment_type     ( 'Wire Stripper' ),
-    category          ( 'Wire Stripper' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Universal_Handheld_Wire_Stripper' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006185901339.html' ),
@@ -10524,16 +9017,6 @@ equipment(
     model_name         ( 'Automatic' ),
     EquipmentFeature::NETWORK_CABLE_TESTER,
   ),
-  /*
-  equipment_info(
-    //manufacturer_name  ( 'ANENG' ),
-    //model_name         ( 'M469D' ),
-    manufacturer_name  ( 'Ampcom' ),
-    model_name         ( 'Automatic' ),
-    equipment_type     ( 'Network Cable Tester' ),
-    category          ( 'Cable Tester' ),
-  ),
-  */
   see_also      ( 'OULLX NSS-681HDMI-RJ45 Cable Tester' ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/ANENG_M469D_Network_Cable_Tester' ),
   affiliate_link(
@@ -10563,14 +9046,6 @@ equipment(
     manufacturer_name  ( 'Aussishop' ),
     EquipmentFeature::CALIPERS,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'oz_gear' ),
-    //model_name        ( '' ),
-    equipment_type     ( 'Calipers' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Oz_gear_Calipers' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/256037179868' ),
@@ -10602,14 +9077,6 @@ equipment(
     manufacturer_name  ( 'Yum Cha' ),
     EquipmentFeature::DEPTH_GAUGE,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Yum Cha' ),
-    //model_name        ( '' ),
-    equipment_type     ( 'Depth Gauge' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Depth_Gauge' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005631574196.html' ),
@@ -10641,21 +9108,6 @@ equipment(
     EquipmentFeature::SURGE_PROTECTOR,
     EquipmentFeature::RESIDUAL_CURRENT_DEVICE,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Arlec' ),
-    model_name         ( 'PB91' ),
-    equipment_type     ( 'Plug-In RCD Safety Switch with Surge Protector' ),
-    category          ( 'Safety Equipment' ),
-    category          ( 'Safety Switch' ),
-    category          ( 'Surge Protector' ),
-    category          ( 'Residual Current Device' ),
-    manufacturer_link (
-      link_href       ( 'https://www.arlec.com.au/wp-content/files/PB91.pdf' ),
-      link_text       ( 'Arlec PB91 (PDF)' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Arlec_PB91' ),
   affiliate_link(
     equipment_url ( 'https://www.bunnings.com.au/arlec-single-outlet-safety-switch_p7050029' ),
@@ -10685,18 +9137,6 @@ equipment(
     model_name         ( '4 Piece' ),
     EquipmentFeature::FUNNEL_SET,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Sandleford' ),
-    model_name         ( '4 Piece' ),
-    equipment_type     ( 'Funnel Set' ),
-    category          ( 'Funnel' ),
-    manufacturer_link (
-      link_href       ( 'https://www.sandleford.com.au/funnel-set-4-pc' ),
-      link_text       ( 'Sandleford Funnel Set 4 PC' ),
-    ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Sandleford_4_Piece_Funnel_Set' ),
   affiliate_link(
     equipment_url ( 'https://www.bunnings.com.au/sandleford-4-piece-funnel-set_p3400421' ),
@@ -10722,14 +9162,6 @@ equipment(
     model_name         ( '100pcs Releasable' ),
     EquipmentFeature::CABLE_ORGANIZER,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( '100pcs Releasable' ),
-    equipment_type     ( 'Cable Organizer' ),
-    category          ( 'Cable Tidy' ),
-  ),
-  */
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006956572734.html' ),
     listing_name   ( '100pcs Releasable Cable Organizer Ties Mouse Earphones Wire Management Nylon Cable Ties Reusable Loop Hoop Tape Straps Tie' ),
@@ -10755,14 +9187,6 @@ equipment(
     model_name         ( 'K9FA1E0555' ),
     EquipmentFeature::ROTARY_SANDING_DISC,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'OOTDTY' ),
-    model_name         ( 'K9FA1E0555' ),
-    equipment_type     ( 'Sanding Disc' ),
-    category          ( 'Attachment' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/OOTDTY_K9FA1E0555_Sanding_Disc' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005002669079984.html' ),
@@ -10791,14 +9215,6 @@ equipment(
     model_name         ( 'J1091302' ),
     EquipmentFeature::SANDING_STICK,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( 'J1091302' ),
-    equipment_type     ( 'Sanding Stick' ),
-    category          ( 'Abrasive' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_J1091302_Sanding_Stick' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005003288036885.html' ),
@@ -10850,14 +9266,6 @@ equipment(
     model_name         ( 'Nylon Buff' ),
     EquipmentFeature::ROTARY_ABRASIVE_BRUSH,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( 'Nylon' ),
-    equipment_type     ( 'Abrasive Brush' ),
-    category          ( 'Abrasive' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Nylon_Abrasive_Brush' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005687549688.html' ),
@@ -10887,14 +9295,6 @@ equipment(
     model_name         ( '5mm Brass' ),
     EquipmentFeature::ROTARY_WIRE_BRUSH,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'VIBRATITE' ),
-    model_name         ( '5mm Brass' ),
-    equipment_type     ( 'Rotary Wire Brush' ),
-    category          ( 'Abrasive' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/VIBRATITE_5mm_Brass_Rotary_Wire_Brush' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005007127462026.html' ),
@@ -10922,14 +9322,6 @@ equipment(
     model_name         ( 'Dual-Purpose' ),
     EquipmentFeature::SANDING_STICK,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( 'Dual-Purpose' ),
-    equipment_type     ( 'Sanding Sticks' ),
-    category          ( 'Abrasive' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Dual-Purpose_Sanding_Sticks' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006821734079.html' ),
@@ -10960,14 +9352,6 @@ equipment(
     EquipmentFeature::FERRULE_CRIMPER_KIT,
     EquipmentFeature::PLIERS,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( 'HSC8 6-4A' ),
-    equipment_type     ( 'Ferrule Crimper Kit' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_HSC8_6-4A_Ferrule_Crimper_Kit' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/166648223438' ),
@@ -10994,16 +9378,6 @@ equipment(
     model_name         ( 'Extra Long Magnetic' ),
     EquipmentFeature::DRILL_BIT_EXTENSION,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'aToolTour' ),
-    model_name         ( 'Extra Long Magnetic' ),
-    equipment_type     ( 'Drill Bit Extension' ),
-    category          ( 'Drill Extension' ),
-    category          ( 'Drill Bit' ),
-    category          ( 'Adapter' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/AToolTour_Extra_Long_Magnetic_Drill_Bit_Extension' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006333115273.html' ),
@@ -11033,15 +9407,6 @@ equipment(
     model_name         ( '9-Inch' ),
     EquipmentFeature::NEEDLE_NOSE_PLIERS,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( '9-Inch' ),
-    equipment_type     ( 'Needle Nose Pliers' ),
-    category          ( 'Pliers' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_9-Inch_Needle_Nose_Pliers' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006741723890.html' ),
@@ -11071,14 +9436,6 @@ equipment(
     model_name         ( 'Mini High-Precision' ),
     EquipmentFeature::ELECTRONIC_SCALE,
   ),
-  /*
-  equipment_info(
-    manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( 'Mini High-Precision' ),
-    equipment_type     ( 'Electronic Scale' ),
-    category          ( 'Scale' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Mini_High-Precision_Electronic_Scale' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005007086202868.html' ),
@@ -11108,15 +9465,6 @@ equipment(
     model_name        ( '52 in 1' ),
     EquipmentFeature::TIGER_WRENCH,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Yum Cha' ),
-    model_name        ( '52 in 1' ),
-    equipment_type    ( 'Tiger Wrench' ),
-    category          ( 'Wrench' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_52_in_1_Tiger_Wrench' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005007038778668.html' ),
@@ -11146,15 +9494,6 @@ equipment(
     model_name        ( '3-Pcs 7-inch' ),
     EquipmentFeature::LOCKING_PLIERS,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'AIRAJ' ),
-    model_name        ( '3-Pcs 7-inch' ),
-    equipment_type    ( 'Locking Pliers' ),
-    category          ( 'Pliers' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/AIRAJ_3-Pcs_7-inch_Locking_Pliers' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005868390844.html' ),
@@ -11184,15 +9523,6 @@ equipment(
     model_name        ( '58-pcs Stainless Steel' ),
     EquipmentFeature::THREAD_PITCH_GAUGE,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Yum Cha' ),
-    model_name        ( '58-pcs Stainless Steel' ),
-    equipment_type    ( 'Thread Pitch Gauge' ),
-    category          ( 'Gauge' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_58-pcs_Stainless_Steel_Thread_Pitch_Gauge' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005892860793.html' ),
@@ -11223,15 +9553,6 @@ equipment(
     EquipmentFeature::WIRE_STRIPPER,
     EquipmentFeature::PLIERS,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Oudisi' ),
-    model_name        ( '9-inch 16 in 1' ),
-    equipment_type    ( 'Wire Strippers' ),
-    category          ( 'Wire Stripper' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Oudisi_9-inch_16_in_1_Wire_Strippers' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005007025925612.html' ),
@@ -11261,15 +9582,6 @@ equipment(
     model_name        ( '32 Piece' ),
     EquipmentFeature::FEELER_GAUGE,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Yum Cha' ),
-    model_name        ( '32 Piece' ),
-    equipment_type    ( 'Feeler Gauge' ),
-    category          ( 'Gauge' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_32_Piece_Feeler_Gauge' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006707746977.html' ),
@@ -11298,15 +9610,6 @@ equipment(
     manufacturer_name ( 'Yum Cha' ),
     EquipmentFeature::BENCH_VISE,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'Bench' ),
-    equipment_type    ( 'Vise' ),
-    category          ( 'Vise' ),
-    category          ( 'Clamp' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Bench_Vise' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005007117549189.html' ),
@@ -11347,15 +9650,6 @@ equipment(
     EquipmentFeature::TORX_SCREWDRIVER_T20,
     EquipmentFeature::TORX_SCREWDRIVER_T25,
   ),
-  /*
-  equipment_info(
-    manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'L-shaped' ),
-    equipment_type    ( 'Screwdriver' ),
-    category          ( 'Screwdriver' ),
-    category          ( 'Hand Tool' ),
-  ),
-  */
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_L-shaped_Screwdriver' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006327782997.html' ),
@@ -15312,7 +13606,7 @@ equipment(
   see_also      ( 'Peak Electronic Design Atlas SCR100 Triac And Thyristor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas ESR70 Gold ESR Meter' ),
   see_also      ( 'Peak Electronic Design Atlas ZEN50 Zener Diode Analyzer' ),
-  web_link(
+  video_link(
     link_href   ( 'https://blog.jj5.net/blog/2025/01/06/unboxing-21-atpk3-atlas-pro-pack-lcr45-dca75-case-in-the-lab-with-jay-jay/' ),
     link_text   ( 'Unboxing #21: ATPK3 – Atlas Pro Pack – LCR45 + DCA75 + Case | In The Lab With Jay Jay' ),
   ),
@@ -15354,7 +13648,7 @@ equipment(
   see_also      ( 'Peak Electronic Design Atlas SCR100 Triac And Thyristor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas ESR70 Gold ESR Meter' ),
   see_also      ( 'Peak Electronic Design Atlas ZEN50 Zener Diode Analyzer' ),
-  web_link(
+  video_link(
     link_href   ( 'https://blog.jj5.net/blog/2025/01/06/unboxing-21-atpk3-atlas-pro-pack-lcr45-dca75-case-in-the-lab-with-jay-jay/' ),
     link_text   ( 'Unboxing #21: ATPK3 – Atlas Pro Pack – LCR45 + DCA75 + Case | In The Lab With Jay Jay' ),
   ),
@@ -15561,7 +13855,19 @@ equipment(
     ),
   ),
   sixsigma_url  ( '' ),
+  warning       ( '' ),
+  note          ( '' ),
+  see_also      ( '' ),
   search_url    ( '' ),
+  search_url    ( '' ),
+  web_link(
+    link_href   ( '' ),
+    link_text   ( '' ),
+  ),
+  video_link(
+    link_href   ( '' ),
+    link_text   ( '' ),
+  ),
   affiliate_link(
     equipment_url ( '' ),
     affiliate_url ( '' ),
@@ -15570,7 +13876,6 @@ equipment(
     item_price    ( '' ),
     item_shipping ( '' ),
   ),
-  search_url    ( '' ),
   affiliate_link(
     equipment_url ( '' ),
     affiliate_url ( '' ),
@@ -15594,7 +13899,7 @@ equipment(
   ),
 );
 
-  web_link(
+  video_link(
     link_href   ( '' ),
     link_text   ( '' ),
   ),
