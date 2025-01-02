@@ -15190,6 +15190,25 @@ equipment(
   equipment_icon( 'https://www.jj5.net/file/2024-12-23-144431/2365627-40.webp' ),
   equipment_item(
     manufacturer_link (
+      link_href       ( 'https://store.metcal.com/en-us/shop/cartridges-tips/SFV-CH15A' ),
+      link_text       ( 'METCAL SFV-CH15A Soldering Tip, Chisel, 1.5 mm (0.059")' ),
+    ),
+    manufacturer_name ( 'METCAL' ),
+    model_name        ( 'Soldering Tip, Chisel, 1.5 mm' ),
+    EquipmentFeature::SOLDERING_IRON_TIP,
+  ),
+  affiliate_link(
+    equipment_url ( 'https://au.element14.com/metcal/sfv-ch15a/tip-soldering-chisel-long-1-5mm/dp/136224301' ),
+    listing_name  ( 'METCAL SFV-CH15A, Chisel, 1.5 mm Soldering Iron Tip' ),
+    item_price    ( 'AU$20.96' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-08-02' ),
+  equipment_icon( 'https://www.jj5.net/file/2024-12-23-144431/2365627-40.webp' ),
+  equipment_item(
+    manufacturer_link (
       link_href       ( 'https://store.metcal.com/en-us/shop/cartridges-tips/SFV-CN05' ),
       link_text       ( 'METCAL SFV-CN05 Soldering Tip, Conical, 0.5 mm (0.02")' ),
     ),
