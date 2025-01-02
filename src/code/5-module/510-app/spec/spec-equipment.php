@@ -290,6 +290,10 @@ equipment(
     link_href   ( 'https://blog.jj5.net/blog/2025/01/05/ferromagnetic-substance-detector-project-13-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
     link_text   ( 'Ferromagnetic Substance Detector | Project 13/20 | Maxitronix 20in1 | In The Lab With Jay Jay' ),
   ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2025/01/08/non-touch-switch-project-14-20-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Non-Touch Switch | Project 14/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
+  ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Sensor+Robot+20&_sacat=0' ),
     affiliate_url ( 'https://ebay.us/ujlqAR' ),
@@ -2013,6 +2017,10 @@ equipment(
   search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Riden+RD6006+Bench+Power+Supply' ),
   search_url    ( 'https://www.aliexpress.com/w/wholesale-Riden-RD6006-Bench-Power-Supply.html' ),
   video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2025/01/08/non-touch-switch-project-14-20-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Non-Touch Switch | Project 14/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
+  ),
+  video_link(
     link_href   ( 'https://blog.jj5.net/blog/2025/01/05/ferromagnetic-substance-detector-project-13-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
     link_text   ( 'Ferromagnetic Substance Detector | Project 13/20 | Maxitronix 20in1 | In The Lab With Jay Jay' ),
   ),
@@ -2838,6 +2846,10 @@ equipment(
   search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=UNI-T+UTi260B+Thermal+Imager' ),
   search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=UNI-T+UTi260B+Thermal+Imager' ),
   search_url    ( 'https://www.aliexpress.com/w/wholesale-UNI-T-UTi260B-Thermal-Imager.html' ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2025/01/08/non-touch-switch-project-14-20-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Non-Touch Switch | Project 14/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
+  ),
   video_link(
     link_href   ( 'https://blog.jj5.net/blog/2025/01/05/ferromagnetic-substance-detector-project-13-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
     link_text   ( 'Ferromagnetic Substance Detector | Project 13/20 | Maxitronix 20in1 | In The Lab With Jay Jay' ),
@@ -12713,6 +12725,14 @@ equipment(
     EquipmentConnectivity::BANANA_PLUG,
   ),
   sixsigma_url  ( '' ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2025/01/08/non-touch-switch-project-14-20-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Non-Touch Switch | Project 14/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2025/01/05/ferromagnetic-substance-detector-project-13-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Ferromagnetic Substance Detector | Project 13/20 | Maxitronix 20in1 | In The Lab With Jay Jay' ),
+  ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/276199258799' ),
     affiliate_url ( 'https://ebay.us/t6ouCF' ),
