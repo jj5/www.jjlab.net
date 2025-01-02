@@ -13598,6 +13598,10 @@ equipment(
   equipment_icon( 'https://www.peakelec.co.uk/acatalog/dca75a-960-1.jpg' ),
   equipment_item(
     manufacturer_link (
+      link_href       ( 'https://www.peakelec.co.uk/acatalog/dca75-support.html' ),
+      link_text       ( 'DCA75 (DCA Pro) Support' ),
+    ),
+    manufacturer_link (
       link_href       ( 'https://www.peakelec.co.uk/acatalog/dca75-dca-pro-semiconductor-analyser.html' ),
       link_text       ( 'DCA75 - Atlas DCA Pro Advanced Semiconductor Analyser' ),
     ),
@@ -13614,6 +13618,10 @@ equipment(
   see_also      ( 'Peak Electronic Design Atlas SCR100 Triac And Thyristor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas ESR70 Gold ESR Meter' ),
   see_also      ( 'Peak Electronic Design Atlas ZEN50 Zener Diode Analyzer' ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2025/01/07/demo-3-peak-electronic-design-atlas-dca75-pro-semiconductor-analyzer-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Demo #3: Peak Electronic Design Atlas DCA75 Pro Semiconductor Analyzer | In The Lab With Jay Jay' ),
+  ),
   video_link(
     link_href   ( 'https://blog.jj5.net/blog/2025/01/06/unboxing-21-atpk3-atlas-pro-pack-lcr45-dca75-case-in-the-lab-with-jay-jay/' ),
     link_text   ( 'Unboxing #21: ATPK3 – Atlas Pro Pack – LCR45 + DCA75 + Case | In The Lab With Jay Jay' ),

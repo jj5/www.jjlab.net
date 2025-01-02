@@ -1613,8 +1613,8 @@ show(
   demo(
     publication_date( '2025-01-07' ),
     title( 'Peak Electronic Design Atlas DCA75 Pro Semiconductor Analyzer' ),
-    youtube_video( '' ),
-    blog_url( '' ),
-    patreon_url( 'https://www.patreon.com/posts/' ),
+    youtube_video( 'ArFxYWC0_dM' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/07/demo-3-peak-electronic-design-atlas-dca75-pro-semiconductor-analyzer-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/119139036' ),
   ),
 );
