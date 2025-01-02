@@ -40,11 +40,16 @@ class VideoLink extends Link {
 
     if ( preg_match( '|https://blog.jj5.net/blog/(\d{4})/(\d{2})/(\d{2})/|', $url, $matches ) ) {
 
-      $date = new DateTime( $matches[1] . '-' . $matches[2] . '-' . $matches[3] );
+      $date = new DateTime( $matches[ 1 ] . '-' . $matches[ 2 ] . '-' . $matches[ 3 ] );
 
       $publish = ( new DateTime( $date->format( 'Y-m-d 23:45:37' ) ) )->getTimestamp();
 
       $this->is_live = ( new DateTime() )->getTimestamp() > $publish;
+
+    }
+    else {
+
+      $this->is_live = true;
 
     }
 
