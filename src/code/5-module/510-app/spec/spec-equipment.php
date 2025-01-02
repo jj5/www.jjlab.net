@@ -13457,6 +13457,14 @@ equipment(
     EquipmentFeature::SOLDERING_STATION,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/METCAL_PS-900_Soldering_Station' ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2025/01/04/unboxing-20-metcal-ps-900-soldering-station-learning-electronics-in-the-lab-with-jay-jay/' ),
+    link_text   ( 'Unboxing #20: METCAL PS-900 Soldering Station | Learning Electronics In The Lab With Jay Jay' ),
+  ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2025/01/02/mail-call-16-metcal-ps-900-peak-atlas-dca75-pro-lcr45-esr70-esp32-pi-zero-pico-and-more/' ),
+    link_text   ( 'Mail Call #16: METCAL PS-900; Peak Atlas DCA75 Pro, LCR45, ESR70; ESP32; Pi Zero, Pico; and More!' ),
+  ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/metcal/ps-900/soldering-station-60w-240v-eu/dp/1560738' ),
     listing_name  ( 'METCAL PS-900 Soldering Station, 60W, 240V, Euro/UK Plug' ),
@@ -13610,6 +13618,10 @@ equipment(
     link_href   ( 'https://blog.jj5.net/blog/2025/01/06/unboxing-21-atpk3-atlas-pro-pack-lcr45-dca75-case-in-the-lab-with-jay-jay/' ),
     link_text   ( 'Unboxing #21: ATPK3 – Atlas Pro Pack – LCR45 + DCA75 + Case | In The Lab With Jay Jay' ),
   ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2025/01/02/mail-call-16-metcal-ps-900-peak-atlas-dca75-pro-lcr45-esr70-esp32-pi-zero-pico-and-more/' ),
+    link_text   ( 'Mail Call #16: METCAL PS-900; Peak Atlas DCA75 Pro, LCR45, ESR70; ESP32; Pi Zero, Pico; and More!' ),
+  ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/peak-electronic-design/atpk3/atlas-pro-pack-semi-analyser-imp/dp/291788702' ),
     listing_name  ( 'ATPK3 Peak Electronic Design, Bundle Kit, Atlas DCA75 Pro Advanced Semiconductor Analyzer, LCR45 Impedance Meter, Case, Batteries' ),
@@ -13652,6 +13664,10 @@ equipment(
     link_href   ( 'https://blog.jj5.net/blog/2025/01/06/unboxing-21-atpk3-atlas-pro-pack-lcr45-dca75-case-in-the-lab-with-jay-jay/' ),
     link_text   ( 'Unboxing #21: ATPK3 – Atlas Pro Pack – LCR45 + DCA75 + Case | In The Lab With Jay Jay' ),
   ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2025/01/02/mail-call-16-metcal-ps-900-peak-atlas-dca75-pro-lcr45-esr70-esp32-pi-zero-pico-and-more/' ),
+    link_text   ( 'Mail Call #16: METCAL PS-900; Peak Atlas DCA75 Pro, LCR45, ESR70; ESP32; Pi Zero, Pico; and More!' ),
+  ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/peak-electronic-design/atpk3/atlas-pro-pack-semi-analyser-imp/dp/291788702' ),
     listing_name  ( 'ATPK3 Peak Electronic Design, Bundle Kit, Atlas DCA75 Pro Advanced Semiconductor Analyzer, LCR45 Impedance Meter, Case, Batteries' ),
@@ -13686,6 +13702,10 @@ equipment(
   see_also      ( 'Peak Electronic Design Atlas LCR45 LCR Meter' ),
   see_also      ( 'Peak Electronic Design Atlas SCR100 Triac And Thyristor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas ZEN50 Zener Diode Analyzer' ),
+  video_link(
+    link_href   ( 'https://blog.jj5.net/blog/2025/01/02/mail-call-16-metcal-ps-900-peak-atlas-dca75-pro-lcr45-esr70-esp32-pi-zero-pico-and-more/' ),
+    link_text   ( 'Mail Call #16: METCAL PS-900; Peak Atlas DCA75 Pro, LCR45, ESR70; ESP32; Pi Zero, Pico; and More!' ),
+  ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/peak-electronic-design/esr70/esr-meter-w-audible-alert-capacitor/dp/291787802' ),
     listing_name  ( 'ESR70 Peak Electronic Design, ESR Meter, Capacitor, Atlas ESR+, 0.00 Ohms to 40.0 Ohms, 1uF to 22000uF' ),
