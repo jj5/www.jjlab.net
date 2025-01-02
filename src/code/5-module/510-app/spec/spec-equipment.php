@@ -15197,6 +15197,8 @@ equipment(
     model_name        ( 'Soldering Tip, Chisel, 1.5 mm' ),
     EquipmentFeature::SOLDERING_IRON_TIP,
   ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/METCAL_PS-900_Soldering_Station' ),
+  note          ( 'This is the tip/cartrige that the PS-900 Soldering Station came with' ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/metcal/sfv-ch15a/tip-soldering-chisel-long-1-5mm/dp/136224301' ),
     listing_name  ( 'METCAL SFV-CH15A, Chisel, 1.5 mm Soldering Iron Tip' ),
@@ -15216,6 +15218,7 @@ equipment(
     model_name        ( 'SFV-CN05, Conical, 0.5 mm' ),
     EquipmentFeature::SOLDERING_IRON_TIP,
   ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/METCAL_PS-900_Soldering_Station' ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/metcal/sfv-cn05/tip-soldering-conical-0-5mm/dp/1277177' ),
     listing_name  ( 'METCAL SFV-CN05, Conical, 0.5 mm Soldering Iron Tip' ),
@@ -15245,6 +15248,7 @@ equipment(
     model_name        ( 'SFV-CH10, 30° Chisel, 1 mm' ),
     EquipmentFeature::SOLDERING_IRON_TIP,
   ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/METCAL_PS-900_Soldering_Station' ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/metcal/sfv-ch10/tip-soldering-chisel-30deg-1-0mm/dp/1277178' ),
     listing_name  ( 'METCAL SFV-CH10, 30° Chisel, 1 mm Soldering Iron Tip' ),
@@ -15274,6 +15278,7 @@ equipment(
     model_name        ( 'SFV-CH20, 30° Chisel, 2 mm' ),
     EquipmentFeature::SOLDERING_IRON_TIP,
   ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/METCAL_PS-900_Soldering_Station' ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/metcal/sfv-cn05/tip-soldering-conical-0-5mm/dp/1277177' ),
     listing_name  ( 'METCAL SFV-CH20, 30° Chisel, 2 mm Soldering Iron Tip' ),

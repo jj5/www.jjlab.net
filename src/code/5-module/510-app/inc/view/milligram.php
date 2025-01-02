@@ -1872,6 +1872,26 @@ function render_equipment_table( $equipment_list ) {
 
               }
 
+              $note_list = $equipment->get_note_list();
+
+              if ( $note_list ) {
+
+                tag_text( 'p', 'Note:' );
+
+                tag_open( 'ul' );
+
+                  foreach ( $note_list as $note ) {
+
+                    $text_html = $note->to_html();
+
+                    tag_html( 'li', $text_html, [ 'class' => 'note' ] );
+
+                  }
+
+                tag_shut( 'ul' );
+
+              }
+
               $see_also_list = $equipment->get_see_also_list();
 
               if ( $see_also_list ) {
@@ -2348,6 +2368,10 @@ function render_equipment_list( $equipment_list ) {
           $warning_list = $equipment->get_warning_list();
 
           render_list( 'Warning:', $warning_list, 'warning' );
+
+          $note_list = $equipment->get_note_list();
+
+          render_list( 'Note:', $note_list, 'note' );
 
           $see_also_list = $equipment->get_see_also_list();
 

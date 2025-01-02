@@ -126,6 +126,7 @@ class Equipment extends AppThing {
   public function get_sixsigma_url() { return $this->get( SixsigmaUrl::class ); }
 
   public function get_warning_list() { return $this->get_list( Warning::class ); }
+  public function get_note_list() { return $this->get_list( Note::class ); }
 
   public function get_see_also_list() {
 
