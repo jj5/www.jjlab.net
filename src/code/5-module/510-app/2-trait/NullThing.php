@@ -24,6 +24,8 @@ trait NullThingMixin {
 
   public function is_null() : bool { return true; }
 
+  public function is_live() : bool { return false; }
+
   public function is_empty() : bool { return true; }
 
   public function get_item_id() { return 0; }

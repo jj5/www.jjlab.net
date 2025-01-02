@@ -32,7 +32,7 @@ abstract class Video extends AppThing {
   }
 
   public function get_changefreq() {
-    
+
     $weeks_old = $this->get_weeks_old();
 
     if ( $weeks_old < 1 ) { return ChangeFreq::Hourly; }
@@ -65,7 +65,7 @@ abstract class Video extends AppThing {
 
   }
 
-  public function is_live() {
+  public function is_live() : bool {
 
     return $this->get_segment()->is_live();
 

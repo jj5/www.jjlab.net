@@ -98,7 +98,7 @@ abstract class Segment extends AppThing {
 
   private $is_live = null;
 
-  public function is_live() {
+  public function is_live() : bool {
 
     if ( $this->is_live !== null ) { return $this->is_live; }
 

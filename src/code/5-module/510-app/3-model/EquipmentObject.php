@@ -1,6 +1,6 @@
 <?php
 
-class EquipmentObject extends MudObject{
+class EquipmentObject extends MudObject {
 
   public $parent = null;
 
@@ -60,7 +60,7 @@ class EquipmentObject extends MudObject{
 
       }
     }
-  }  
+  }
 }
 
 class NullEquipmentObject extends EquipmentObject {

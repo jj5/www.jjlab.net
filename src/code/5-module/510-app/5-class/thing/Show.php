@@ -53,7 +53,7 @@ class Show extends AppThing {
 
   }
 
-  public function is_live() { return $this->get_first_segment()->is_live(); }
+  public function is_live() : bool { return $this->get_first_segment()->is_live(); }
 
   public function get_publication_date() { return $this->get_first_segment()->get_publication_date(); }
 
