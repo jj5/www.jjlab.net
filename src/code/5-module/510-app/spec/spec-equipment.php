@@ -13861,7 +13861,7 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S6caffd138b564bc7b38471ec6a743fb1O.jpg_960x960q75.jpg_.jpg' ),
   equipment_item(
     manufacturer_name ( 'ANENG' ),
-    model_name        ( 'A3005 4000 Counts Pen Type' ),
+    model_name        ( 'A3005 Pen Type' ),
     EquipmentFeature::HANDHELD_MULTIMETER,
     EquipmentFeature::VOLTMETER,
     EquipmentFeature::OHMMETER,
