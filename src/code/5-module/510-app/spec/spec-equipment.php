@@ -2679,7 +2679,7 @@ equipment(
     order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.61.764218021V85h7&orderId=8146309585673938' ),
     order_id        ( '8146309585673938' ),
     order_date      ( 'Feb 12, 2022' ),
-    order_item_name ( '' ),
+    order_item_name ( 'ANENG AN-999S Desktop Voice Multimeter Digital 19999 Counts Professional Bluetooth Tester True RMS AC/DC Voltmeter Current Tools' ),
     order_options   ( 'Color: AN999S 4' ),
     order_price     ( 'AU$115.27' ),
     order_quantity  ( 1 ),
@@ -13856,6 +13856,40 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2025-01-04' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S6caffd138b564bc7b38471ec6a743fb1O.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( 'ANENG' ),
+    model_name        ( 'A3005 4000 Counts Pen Type' ),
+    EquipmentFeature::HANDHELD_MULTIMETER,
+    EquipmentFeature::VOLTMETER,
+    EquipmentFeature::OHMMETER,
+    EquipmentFeature::CONTINUITY_TESTER,
+    EquipmentFeature::DIODE_TESTER,
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/TODO' ),
+  see_also      ( 'ANENG AN-999S Bench Multimeter' ),
+  see_also      ( 'OWON XDM1041 Bench Multimeter' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005492246379.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oE0U7dl' ),
+    listing_name  ( 'ANENG A3005 Digital Multimeter Pen Type 4000 Counts Professional Meter Non-Contact Auto AC/DC Voltage Ohm Diode Tester For Tool' ),
+    item_options  ( 'Color: A3005' ),
+    item_price    ( 'AU$11.05' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005492246379.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.114.4b3d1802gae3bL&orderId=8196404902353938' ),
+    order_id        ( '8196404902353938' ),
+    order_date      ( 'Dec 25, 2024' ),
+    order_item_name ( 'ANENG A3005 Digital Multimeter Pen Type 4000 Counts Professional Meter Non-Contact Auto AC/DC Voltage Ohm Diode Tester For Tool' ),
+    order_options   ( 'Color: A3005' ),
+    order_quantity  ( 1 ),
+    order_price     ( 'AU$7.80' ),
+    order_gst       ( 'AU$1.15' ),
+  ),
+);
 
 /*
 

@@ -1549,6 +1549,26 @@ show(
 );
 
 show(
+  extra_content(
+    publication_date( '2025-01-03' ),
+    title( "Removing Protective Layer Off Acrylic On TJ-56-428 Digital Clock" ),
+    youtube_video( 'y9btakLOCHc' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/01/electronics-project-10-tj-56-428-4-digit-digital-diy-clock-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/119026045' ),
+  ),
+);
+
+show(
+  extra_content(
+    publication_date( '2025-01-03' ),
+    title( "Fixing Back to Front Casing on TJ-56-428 Digital Clock" ),
+    youtube_video( 'IyJ3IHgRfiw' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/01/electronics-project-10-tj-56-428-4-digit-digital-diy-clock-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/119026045' ),
+  ),
+);
+
+show(
   mail_call(
     publication_date( '2025-01-02' ),
     title( 'METCAL PS-900; Peak Atlas DCA75 Pro, LCR45, ESR70; ESP32; Pi Zero, Pico; and More!' ),
