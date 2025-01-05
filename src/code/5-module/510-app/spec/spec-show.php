@@ -1550,7 +1550,7 @@ show(
 
 show(
   extra_content(
-    publication_date( '2025-01-03' ),
+    publication_date( '2025-01-01' ),
     title( "Removing Protective Layer Off Acrylic On TJ-56-428 Digital Clock" ),
     youtube_video( 'y9btakLOCHc' ),
     blog_url( 'https://blog.jj5.net/blog/2025/01/01/electronics-project-10-tj-56-428-4-digit-digital-diy-clock-in-the-lab-with-jay-jay/' ),
@@ -1560,7 +1560,7 @@ show(
 
 show(
   extra_content(
-    publication_date( '2025-01-03' ),
+    publication_date( '2025-01-01' ),
     title( "Fixing Back to Front Casing on TJ-56-428 Digital Clock" ),
     youtube_video( 'IyJ3IHgRfiw' ),
     blog_url( 'https://blog.jj5.net/blog/2025/01/01/electronics-project-10-tj-56-428-4-digit-digital-diy-clock-in-the-lab-with-jay-jay/' ),
@@ -1648,5 +1648,25 @@ show(
     youtube_video( '5iNZVUXpxNQ' ),
     blog_url( 'https://blog.jj5.net/blog/2025/01/08/non-touch-switch-project-14-20-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
     patreon_url( 'https://www.patreon.com/posts/119142780' ),
+  ),
+);
+
+show(
+  demo(
+    publication_date( '2025-01-09' ),
+    title( 'ANENG A3005 4000 Count Pen Type Handheld Multimeter' ),
+    youtube_video( '5a38BmYgk38' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/09/demo-4-aneng-a3005-4000-counts-pen-type-handheld-multimeter-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/119239723' ),
+  ),
+);
+
+show(
+  mail_call(
+    publication_date( '2025-01-10' ),
+    title( 'Peak Atlas SCR100/ZEN50, DIP Switches, USB, Components, Third Hand and More!' ),
+    youtube_video( 'MAsiwzOLQGQ' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/10/mail-call-17-peak-atlas-scr100-zen50-dip-switches-usb-components-third-hand-and-more/' ),
+    patreon_url( 'https://www.patreon.com/posts/119305482' ),
   ),
 );

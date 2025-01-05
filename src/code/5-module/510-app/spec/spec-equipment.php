@@ -13440,6 +13440,34 @@ equipment(
 );
 
 equipment(
+  equipment_date( '2024-11-03' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/H835368a0e8ec45a396870788eed389e29.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'JYHealth' ),
+    model_name        ( 'IRT1 Medical Household Infrared' ),
+    EquipmentFeature::THERMOMETER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/4000412373430.html' ),
+    //affiliate_url ( '' ),
+    listing_name  ( 'JYHealth Medical Household Infrared Digital Ear and Forehead Non-contact Laser Body Thermometer LCD Baby Adult Fever Temperature' ),
+    //item_options  ( '' ),
+    item_price    ( 'AU$15.39' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/4000412373430.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.7.14951802tqP5fw&orderId=8194390421253938' ),
+    order_id        ( '8194390421253938' ),
+    order_date      ( 'Nov 3, 2024' ),
+    order_item_name ( 'JYHealth Medical Household Infrared Digital Ear and Forehead Non-contact Laser Body Thermometer LCD Baby Adult Fever Temperature' ),
+    order_price     ( 'AU$14.09' ),
+    order_quantity  ( 1 ),
+    order_tax       ( 'AU$1.40' ),
+  ),
+);
+
+equipment(
   equipment_date( '2024-12-01' ),
   equipment_icon( 'https://m.media-amazon.com/images/I/61FhUhpSFML._AC_SL1500_.jpg' ),
   equipment_item(
