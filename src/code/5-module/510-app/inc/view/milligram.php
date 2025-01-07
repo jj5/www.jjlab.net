@@ -1670,7 +1670,7 @@ function render_equipment_table( $equipment_list ) {
 
               tag_open( 'td', [ 'class' => 'equipment img', 'rowspan' => $count ] );
 
-                tag_open( 'div', [ 'style' => 'margin-top: 66px' ] );
+                tag_open( 'div', [ 'style' => 'margin-top: 66px; padding-right: 20px' ] );
 
                   tag_open(
                     'a',
