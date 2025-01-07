@@ -15,7 +15,7 @@ pre {
 textarea {
 
   margin-top: 50px;
-  
+
 }
 
 a[target="_blank"]::after {
@@ -64,7 +64,7 @@ html.xslt .hamburger {
 
 .equipment-link {
 
-  margin-top: 66px;
+  /*margin-top: 66px;*/
   display: inline-block;
 
 }
@@ -671,7 +671,7 @@ td.equipment {
 
 td.equipment img {
 
-  width: 300px;
+  width: 250px;
 
 }
 

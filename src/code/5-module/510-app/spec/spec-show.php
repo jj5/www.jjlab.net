@@ -1670,3 +1670,15 @@ show(
     patreon_url( 'https://www.patreon.com/posts/119305482' ),
   ),
 );
+
+show(
+  maxitronix_segment(
+    publication_date( '2025-01-11' ),
+    title( 'Glass Organ' ),
+    project( 15, 20 ),
+    maxitronix_kit_name( '20in1' ),
+    youtube_video( 'qjrjSyDffYY' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/11/glass-organ-project-15-20-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/119400747' ),
+  ),
+);

@@ -3488,8 +3488,8 @@ function render_section_contact_info( int $heading_level = 2 ) {
       out_text( "If you just want to get in touch with me then email to " );
 
       render_link_external(
-        'jj5@jj5.net',
-        'mailto:jj5@jj5.net?subject=Hi%20John',
+        'lab@jj5.net',
+        'mailto:lab@jj5.net?subject=Hi%20John',
         TITLE_LINK_EMAIL,
       );
 

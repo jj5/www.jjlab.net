@@ -1680,11 +1680,23 @@ function render_equipment_table( $equipment_list ) {
                   ]
                 );
 
-                  tag_open( 'div' );
+                  tag_open( 'div', [ 'style' => 'margin-top: 66px' ] );
 
                     $equipment->render();
 
                   tag_shut( 'div' );
+
+                tag_shut( 'a' );
+
+                tag_open(
+                  'a',
+                  [
+                    'class' => 'internal equipment-link',
+                    'rel' => 'follow',
+                    'href' => url_base() . '/equipment.php#' . $id,
+                    'title' => TITLE_LINK_ITEM,
+                  ]
+                );
 
                   tag_open( 'div' );
 
