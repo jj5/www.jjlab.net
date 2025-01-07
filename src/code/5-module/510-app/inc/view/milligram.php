@@ -1670,35 +1670,35 @@ function render_equipment_table( $equipment_list ) {
 
               tag_open( 'td', [ 'class' => 'equipment img', 'rowspan' => $count ] );
 
-                tag_open(
-                  'a',
-                  [
-                    'class' => 'internal equipment-link',
-                    'rel' => 'follow',
-                    'href' => url_base() . '/equipment.php#' . $id,
-                    'title' => TITLE_LINK_ITEM,
-                  ]
-                );
+                tag_open( 'div', [ 'style' => 'margin-top: 66px' ] );
 
-                  tag_open( 'div', [ 'style' => 'margin-top: 66px' ] );
+                  tag_open(
+                    'a',
+                    [
+                      'class' => 'internal equipment-link',
+                      'rel' => 'follow',
+                      'href' => url_base() . '/equipment.php#' . $id,
+                      'title' => TITLE_LINK_ITEM,
+                    ]
+                  );
 
                     $equipment->render();
 
-                  tag_shut( 'div' );
+                  tag_shut( 'a' );
 
-                tag_shut( 'a' );
+                tag_shut( 'div' );
 
-                tag_open(
-                  'a',
-                  [
-                    'class' => 'internal equipment-link',
-                    'rel' => 'follow',
-                    'href' => url_base() . '/equipment.php#' . $id,
-                    'title' => TITLE_LINK_ITEM,
-                  ]
-                );
+                tag_open( 'div' );
 
-                  tag_open( 'div' );
+                  tag_open(
+                    'a',
+                    [
+                      'class' => 'internal equipment-link',
+                      'rel' => 'follow',
+                      'href' => url_base() . '/equipment.php#' . $id,
+                      'title' => TITLE_LINK_ITEM,
+                    ]
+                  );
 
                     tag_bare(
                       'img',
@@ -1709,9 +1709,9 @@ function render_equipment_table( $equipment_list ) {
                       ]
                     );
 
-                  tag_shut( 'div' );
+                  tag_shut( 'a' );
 
-                tag_shut( 'a' );
+                tag_shut( 'div' );
 
                 tag_open( 'div' );
 
