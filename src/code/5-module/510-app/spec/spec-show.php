@@ -1838,3 +1838,18 @@ show(
     ),
   ),
 );
+
+show(
+  unboxing(
+    publication_date( '2025-01-13' ),
+    title( 'ASUS ROG Rapture GT-AX6000 WiFi Router' ),
+    youtube_video( 's2QmXywRW7c' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/13/unboxing-22-asus-rog-rapture-gt-ax6000-wifi-router-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/119553798' ),
+    tags(
+      'jjlab', 'Unboxing', 'Electronics', 'Hardware',
+      'Amazon',
+      'ASUS', 'ROG Rapture', 'GT-AX6000', 'WiFi Router',
+    ),
+  ),
+);
