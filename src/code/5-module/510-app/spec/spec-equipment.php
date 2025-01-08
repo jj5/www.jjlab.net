@@ -13657,6 +13657,10 @@ equipment(
       link_href       ( 'https://www.peakelec.co.uk/acatalog/atpk3-atlas-pro-pack-dca75-lcr45-case.html' ),
       link_text       ( 'ATPK3 Bundle Kit - Atlas Pro Pack - LCR45 + DCA75 + Case' ),
     ),
+    manufacturer_link (
+      link_href       ( 'https://www.peakelec.co.uk/acatalog/peak-instruments-comparison-chart.html' ),
+      link_text       ( 'Peak Instruments Comparison Chart' ),
+    ),
     manufacturer_name ( 'Peak Electronic Design' ),
     model_name        ( 'Atlas DCA75 Pro' ),
     EquipmentFeature::SEMICONDUCTOR_ANALYZER,
@@ -13707,6 +13711,10 @@ equipment(
       link_href       ( 'https://www.peakelec.co.uk/acatalog/atpk3-atlas-pro-pack-dca75-lcr45-case.html' ),
       link_text       ( 'ATPK3 Bundle Kit - Atlas Pro Pack - LCR45 + DCA75 + Case' ),
     ),
+    manufacturer_link (
+      link_href       ( 'https://www.peakelec.co.uk/acatalog/peak-instruments-comparison-chart.html' ),
+      link_text       ( 'Peak Instruments Comparison Chart' ),
+    ),
     manufacturer_name ( 'Peak Electronic Design' ),
     model_name        ( 'Atlas LCR45' ),
     EquipmentFeature::LCR_METER,
@@ -13749,6 +13757,10 @@ equipment(
       link_href       ( 'https://www.peakelec.co.uk/acatalog/esr70-capacitor-esr-meter.html' ),
       link_text       ( 'ESR70 - Atlas ESR Gold - Equivalent Series Resistance Meter' ),
     ),
+    manufacturer_link (
+      link_href       ( 'https://www.peakelec.co.uk/acatalog/peak-instruments-comparison-chart.html' ),
+      link_text       ( 'Peak Instruments Comparison Chart' ),
+    ),
     manufacturer_name ( 'Peak Electronic Design' ),
     model_name        ( 'Atlas ESR70 Gold' ),
     EquipmentFeature::ESR_METER,
@@ -13787,6 +13799,10 @@ equipment(
       link_href       ( 'https://www.peakelec.co.uk/acatalog/scr100-triac-scr-analyser.html' ),
       link_text       ( 'SCR100 - Atlas SCR Thyristor and Triac Analyser' ),
     ),
+    manufacturer_link (
+      link_href       ( 'https://www.peakelec.co.uk/acatalog/peak-instruments-comparison-chart.html' ),
+      link_text       ( 'Peak Instruments Comparison Chart' ),
+    ),
     manufacturer_name ( 'Peak Electronic Design' ),
     model_name        ( 'Atlas SCR100' ),
     EquipmentFeature::TRIAC_AND_THYRISTOR_ANALYZER,
@@ -13820,6 +13836,10 @@ equipment(
     manufacturer_link (
       link_href       ( 'https://www.peakelec.co.uk/acatalog/zen50-zener-analyser.html' ),
       link_text       ( 'ZEN50 - Atlas ZEN Zener Diode Analyser' ),
+    ),
+    manufacturer_link (
+      link_href       ( 'https://www.peakelec.co.uk/acatalog/peak-instruments-comparison-chart.html' ),
+      link_text       ( 'Peak Instruments Comparison Chart' ),
     ),
     manufacturer_name ( 'Peak Electronic Design' ),
     model_name        ( 'Atlas ZEN50' ),
