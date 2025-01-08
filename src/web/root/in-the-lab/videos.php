@@ -99,7 +99,14 @@ function render_videos_main( $video_list ) {
             tag_open( 'tr' );
 
               tag_text( 'td', $number++ );
-              tag_text( 'td', $video->get_publication_date(), [ 'class' => 'right' ] );
+
+              tag_open( 'td', [ 'class' => 'right' ] );
+
+                //out_text( $video->get_publication_date() );
+
+                $video->render_link_internal( $video->get_publication_date() );
+
+              tag_shut( 'td' );
 
               tag_open( 'td' );
 

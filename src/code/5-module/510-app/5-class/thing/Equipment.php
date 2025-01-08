@@ -8,6 +8,20 @@ function equipment() {
 
 class Equipment extends AppThing {
 
+  private $tag = null;
+
+  public function get_tag() {
+
+    if ( $this->tag === null ) {
+
+      $this->tag = $this->get_equipment_name()->to_string();
+
+    }
+
+    return $this->tag;
+
+  }
+
   public static function get_affiliated_list() {
 
     static $equipment_list = null;
@@ -112,7 +126,8 @@ class Equipment extends AppThing {
 
   public function get_equipment_date() { return $this->get( EquipmentDate::class ); }
   public function get_equipment_icon() { return $this->get( EquipmentIcon::class ); }
-  public function get_equipment_name() { return $this->get( EquipmentName::class ); }
+
+  public function get_equipment_name() { return $this->get( EquipmentNameOld::class ); }
 
   public function get_affiliate_link_list() {
 
@@ -171,6 +186,30 @@ class Equipment extends AppThing {
 
   public function get_web_link_list() { return $this->get_list( WebLink::class ); }
   public function get_video_link_list() { return $this->get_list( VideoLink::class ); }
+
+  public function get_video_list( $section_list, $limit = 10 ) {
+
+    $tag = $this->get_tag();
+
+    if ( ! $tag ) { return []; }
+
+    $result = [];
+
+    foreach ( $section_list as $section ) {
+
+      if ( strpos( $section->get_tags()->get_tag_text(), $tag ) !== false ) {
+
+        $result[] = $section->get_video_link();
+
+      }
+
+      if ( count( $result ) >= $limit ) { break; }
+
+    }
+
+    return $result;
+
+  }
 
   public function get_category_list() {
 

@@ -2,6 +2,17 @@
 
 abstract class Segment extends AppThing {
 
+  public function get_video_link() {
+
+    return video_link(
+      link_href   ( $this->get_youtube_video()->get_url()->to_string() ),
+      link_text   ( $this->get_youtube_video_title() ),
+    );
+
+  }
+
+  public function get_tags() { return $this->get( Tags::class ); }
+
   public function get_rss_info( &$title, &$url ) {
 
     return $this->get_feature()->get_rss_info( $title, $url );
@@ -192,20 +203,50 @@ abstract class Segment extends AppThing {
 
       $this->render_breadcrumbs();
 
-      if ( $video_id ) {
+      tag_open( 'div', [ 'class' => 'video' ] );
 
-        render_youtube_iframe( $youtube_video->get_slug()->to_string() );
+        if ( $video_id ) {
 
-      }
-      else {
+          render_youtube_iframe( $youtube_video->get_slug()->to_string() );
 
-        tag_open( 'p' );
+        }
+        else {
 
-          out_text( 'Video is not available yet.' );
+          tag_open( 'p' );
+
+            out_text( 'Video is not available yet.' );
+
+          tag_shut( 'p' );
+
+        }
+
+        $tags = $this->get_tags();
+
+        tag_open( 'p', [ 'style' => 'margin-top: 20px' ] );
+
+          out_text( 'YouTube hashtags: ' );
+
+          $tags->render_hashtags();
 
         tag_shut( 'p' );
 
-      }
+        tag_open( 'p' );
+
+          out_text( 'Blog tags: ' );
+
+          $tags->render_tags();
+
+        tag_shut( 'p' );
+
+        tag_open( 'p' );
+
+          out_text( 'Tags text: ' );
+
+          out_text( $tags->get_tag_text() );
+
+        tag_shut( 'p' );
+
+      tag_shut( 'div' );
 
       tag_open( 'dl', [ 'class' => 'video-details' ] );
 

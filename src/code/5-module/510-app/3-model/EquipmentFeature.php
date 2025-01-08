@@ -299,7 +299,7 @@ enum EquipmentFeature : string {
 
       case BENCH_MULTIMETER = 'bench-multimeter';
 
-      case OSCILLOSCOPE_SIGNAL_GENERATOR_COMPONENT_TESTER = 'oscilloscope,-signal-generator,-component-tester';
+      case OSCILLOSCOPE_SIGNAL_GENERATOR_COMPONENT_TESTER = 'oscilloscope-signal-generator-component-tester';
 
     case COMPONENT_TESTER = 'component-tester';
 
@@ -1536,6 +1536,8 @@ enum EquipmentFeature : string {
     case NETWORK_CABLE_TESTER = 'network-cable-tester';
 
     case USB_CABLE_TESTER = 'USB-cable-tester';
+
+    case HDMI_CABLE_TESTER = 'HDMI-cable-tester';
 
   //
   // 2024-08-04 jj5 - CLOTH

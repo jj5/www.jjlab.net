@@ -6,7 +6,7 @@ function equipment_info() {
 
 }
 
-class EquipmentInfo extends EquipmentName {
+class EquipmentInfo extends EquipmentNameOld {
 
   public function get_category_list() { return $this->get_list( Category::class ); }
 

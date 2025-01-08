@@ -3403,6 +3403,11 @@ equipment_define(
   );
 
   equipment_define(
+    EquipmentFeature::HDMI_CABLE_TESTER,
+    EquipmentFeature::CABLE_TESTER,
+  );
+
+  equipment_define(
     EquipmentFeature::USB_CABLE_TESTER,
     EquipmentFeature::CABLE_TESTER,
   );

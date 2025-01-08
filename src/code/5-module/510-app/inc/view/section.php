@@ -284,7 +284,7 @@ function get_latest_silly_job_title() {
 
 }
 
-function render_youtube_iframe( $youtube_id, $class = 'video' ) {
+function render_youtube_iframe( $youtube_id, $class = 'video-frame' ) {
 
   foreach (
     [

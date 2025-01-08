@@ -1499,6 +1499,18 @@ show(
     youtube_video( '628ufuBEGqM' ),
     blog_url( 'https://blog.jj5.net/blog/2024/12/21/mail-call-15-iphone-6s-usb-accessories-software-books-iec-power-adapters-and-more/' ),
     patreon_url( 'https://www.patreon.com/posts/118383740' ),
+    tags(
+      'jjlab', 'MailC all', 'Electronics',
+      'Hardware', 'Equipment', 'Tools', 'Components',
+      'Amazon', 'eBay', 'AliExpress',
+      'USB Charger', 'iPhone 6S', 'Open Source', 'Right Angle Adapter', 'CPU', 'IC Remover', 'Repair',
+      'PCB Holder', 'Circuit Board Holder', 'Magnetic', 'Tester', 'Voltmeter', 'Ammeter', 'Voltage', 'Current', 'Measurement',
+      'Mat', 'Workbench', 'Extension',
+      'Riden', 'AT35', 'USB Meter',
+      'ePaper', 'eInk', 'ESP32', 'Arduino', 'Nano',
+      'Sudake', 'SDK07', 'SDK08', 'Test Clip',
+      'Gripper', 'iPod touch',
+    ),
   ),
 );
 
@@ -1511,6 +1523,17 @@ show(
     youtube_video( 'ivcLy4LdsQs' ),
     blog_url( 'https://blog.jj5.net/blog/2024/12/30/magnetism-detector-project-12-20-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
     patreon_url( 'https://www.patreon.com/posts/118889333' ),
+    tags(
+      'jjlab', 'Maxitronix 20in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'Magnetism', 'Detector', 'Reed Switch', 'Transistor', 'BJT', 'LED',
+      'Riden', 'RD6006', 'Bench Power Supply',
+      'UNI-T', 'UTi260B', 'Thermal Imager',
+      'Rigol', 'MSO5074', 'Mixed Signal Oscilloscope', 'MSO',
+      'Buzzer',
+      'Fluke', '17Bplus', 'Digital Multimeter', 'Current', 'Voltage',
+      'METCAL', 'PS900', 'Soldering Station',
+      'DuPont', 'Jumper', 'Volume',
+    ),
   ),
 );
 
@@ -1534,6 +1557,11 @@ show(
         equipment_url ( 'https://www.amazon.com/dp/0070291519' ),
       ),
     ),
+    tags(
+      'jjlab', 'Old Book Teardown', 'Book Review',
+      'Interactive Television', 'Winston William Hodge',
+      'Television', 'Technology', 'Historical',
+    ),
   ),
 );
 
@@ -1545,6 +1573,13 @@ show(
     youtube_video( 'Pbj-L4WFF7M' ),
     blog_url( 'https://blog.jj5.net/blog/2025/01/01/electronics-project-10-tj-56-428-4-digit-digital-diy-clock-in-the-lab-with-jay-jay/' ),
     patreon_url( 'https://www.patreon.com/posts/119026045' ),
+    tags(
+      'jjlab', 'Electronics Project', 'Circuit',
+      'TJ56428', '4digit', 'Digital', 'DIY', 'Clock', 'Soldering Practice',
+      'AliExpress',
+      'METCAL', 'PS900', 'Soldering Station',
+      'STC15W404AS',
+    ),
   ),
 );
 
@@ -1575,6 +1610,20 @@ show(
     youtube_video( 'N1xHirWKSjU' ),
     blog_url( 'https://blog.jj5.net/blog/2025/01/02/mail-call-16-metcal-ps-900-peak-atlas-dca75-pro-lcr45-esr70-esp32-pi-zero-pico-and-more/' ),
     patreon_url( 'https://www.patreon.com/posts/119048153' ),
+    tags(
+      'jjlab', 'Mail Call', 'Electronics',
+      'Hardware', 'Equipment', 'Tools', 'Components',
+      'Amazon', 'eBay', 'AliExpress',
+      'ESP32', 'WiFi', 'Bluetooth', 'Camera', 'GPS', 'NEO6Mv2', 'Raspberry Pi', 'RP2040', 'Microcontroller', 'MCU',
+      'Zero', 'Pico', 'Board', 'ARM', 'Cortex', 'WeAct', 'Black Pill', 'STM32', 'Apple', 'Lightning Cable', 'USB Charger',
+      'Star Schema', 'Open Source',
+      'Metcal', 'PS900', 'Soldering Station', 'SFVCH10', 'SFVCH20', 'SFVCN05',
+      'Peak Electronic Design',
+      'ATPK3', 'Atlas Pro Pack',
+      'Atlas LCR45', 'LCR Meter',
+      'Atlas DCA75 Pro', 'Semiconductor Analyzer',
+      'ESR70 Gold', 'ESR Meter',
+    ),
   ),
 );
 
@@ -1594,6 +1643,14 @@ show(
         item_price    ( 'US$10.39' ),
       ),
     ),
+    tags(
+      'jjlab', 'New Book Teardown', 'Book Review',
+      'God Created The Integers', 'Stephen Hawking', 'Math', 'Maths', 'Mathematics',
+      'Pythagoras', 'Euclid', 'Archimedes', 'Diophantus', 'Descartes', 'Newton', 'Euler', 'Legendre', 'Fourier', 'Gauss',
+      'Cauchy', 'Lobachevsky', 'Steiner', 'Bolyai', 'Jacobi', 'Galois', 'Boole', 'Weierstrass', 'Eisenstein', 'Kronecker',
+      'Betti', 'Brioschi', 'Riemann', 'Dedekind', 'Casorati', 'Cantor', 'von-Mangoldt', 'Poincaré', 'Hilbert', 'Hadamard',
+      'Vallée-Poussin', 'Lebesgue', 'Einstein', 'Siegel', 'Gödel', 'Turing', 'Feynman',
+    ),
   ),
 );
 
@@ -1604,6 +1661,13 @@ show(
     youtube_video( 'D3m_x5D673A' ),
     blog_url( 'https://blog.jj5.net/blog/2025/01/04/unboxing-20-metcal-ps-900-soldering-station-learning-electronics-in-the-lab-with-jay-jay/' ),
     patreon_url( 'https://www.patreon.com/posts/119114047' ),
+    tags(
+      'jjlab', 'Unboxing', 'Electronics',
+      'Hardware', 'Bench Equipment', 'Tool',
+      'element14',
+      'METCAL', 'PS900', 'Soldering Station', 'Rework', 'SmartHeat', 'PS Series', 'Tip', 'Temperature',
+      'Jackcat', 'Electric Scissors',
+    ),
   ),
 );
 
@@ -1616,6 +1680,18 @@ show(
     youtube_video( 'YNg_yu50a3o' ),
     blog_url( 'https://blog.jj5.net/blog/2025/01/05/ferromagnetic-substance-detector-project-13-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
     patreon_url( 'https://www.patreon.com/posts/119126771' ),
+    tags(
+      'jjlab', 'Maxitronix 20in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'Ferromagnetic Substance Detector', 'Reed Switch', 'Transistor', 'LED', 'Astable Multivibrator', 'Tone', 'Detector',
+      'Riden', 'RD6006', 'Bench Power Supply',
+      'UNI-T', 'UTi260B', 'Thermal Imager',
+      'Rigol', 'MSO5074', 'Mixed Signal Oscilloscope', 'MSO',
+      'Buzzer',
+      'Fluke', '17Bplus', 'Digital Multimeter', 'Current', 'Voltage',
+      'METCAL', 'PS900', 'Soldering Station',
+      'DuPont', 'Jumper', 'Volume',
+
+    ),
   ),
 );
 
@@ -1626,6 +1702,15 @@ show(
     youtube_video( 'pelPF1O7fkA' ),
     blog_url( 'https://blog.jj5.net/blog/2025/01/06/unboxing-21-atpk3-atlas-pro-pack-lcr45-dca75-case-in-the-lab-with-jay-jay/' ),
     patreon_url( 'https://www.patreon.com/posts/119129418' ),
+    tags(
+      'jjlab', 'Unboxing', 'Electronics',
+      'Hardware', 'Instrument', 'Testing', 'Measurement', 'Tool',
+      'element14', 'Peak Electronic Design',
+      'ATPK3', 'Atlas Pro Pack',
+      'Atlas LCR45', 'LCR Meter',
+      'Atlas DCA75 Pro', 'Semiconductor Analyzer',
+      'Case', 'GP23', 'AAA', 'Battery', 'EEVblog',
+    ),
   ),
 );
 
@@ -1636,6 +1721,15 @@ show(
     youtube_video( 'ArFxYWC0_dM' ),
     blog_url( 'https://blog.jj5.net/blog/2025/01/07/demo-3-peak-electronic-design-atlas-dca75-pro-semiconductor-analyzer-in-the-lab-with-jay-jay/' ),
     patreon_url( 'https://www.patreon.com/posts/119139036' ),
+    tags(
+      'jjlab', 'Demo', 'Demonstration',
+      'Unboxing', 'Electronics', 'Hardware', 'Instrument', 'Testing', 'Measurement', 'Tool',
+      'Peak Electronic Design',
+      'Atlas DCA75 Pro', 'Semiconductor Analyzer',
+      'Atlas SCR100', 'Triac', 'Thyristor',
+      'Atlas ZEN50', 'Zener Diode',
+      'PCA23', 'IEC60617',
+    ),
   ),
 );
 
@@ -1648,6 +1742,13 @@ show(
     youtube_video( '5iNZVUXpxNQ' ),
     blog_url( 'https://blog.jj5.net/blog/2025/01/08/non-touch-switch-project-14-20-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
     patreon_url( 'https://www.patreon.com/posts/119142780' ),
+    tags(
+      'jjlab', 'Maxitronix 20in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'Switch', 'NonTouch', 'ReedSwitch', 'Reed', 'Switch',
+      'UNI-T', 'UTi260B', 'Thermal Imager',
+      'Fluke', '17Bplus', 'Digital Multimeter',
+      'Riden', 'RD6006', 'Bench Power Supply',
+    ),
   ),
 );
 
@@ -1658,6 +1759,11 @@ show(
     youtube_video( '5a38BmYgk38' ),
     blog_url( 'https://blog.jj5.net/blog/2025/01/09/demo-4-aneng-a3005-4000-counts-pen-type-handheld-multimeter-in-the-lab-with-jay-jay/' ),
     patreon_url( 'https://www.patreon.com/posts/119239723' ),
+    tags(
+      'jjlab', 'Demo', 'Demonstration',
+      'Unboxing', 'Electronics', 'Hardware', 'Instrument', 'Testing', 'Measurement', 'Tool',
+      'ANENG', 'A3005', 'Digital Multimeter', 'Pen', 'Handheld', 'Professional', 'Meter', 'Automatic', 'Voltage', 'Ohm', 'Diode'
+    ),
   ),
 );
 
@@ -1668,6 +1774,19 @@ show(
     youtube_video( 'MAsiwzOLQGQ' ),
     blog_url( 'https://blog.jj5.net/blog/2025/01/10/mail-call-17-peak-atlas-scr100-zen50-dip-switches-usb-components-third-hand-and-more/' ),
     patreon_url( 'https://www.patreon.com/posts/119305482' ),
+    tags(
+      'jjlab', 'Mail Call', 'Electronics',
+      'Hardware', 'Tools', 'Equipment', 'Components',
+      'element14', 'eBay', 'AliExpress', 'Amazon',
+      'Peak Electronic Design',
+      'Atlas SCR100', 'Triac', 'Thyristor', 'Analyzer',
+      'Atlas ZEN50', 'Zener Diode Analyzer',
+      'DIP Switch',
+      'USB Angle Adapter',
+      'Octopus Soldering Helping Hands', 'Third Hand', 'Silica Gel', 'USB Cable', 'USB Meter', 'USBC', 'Toggle Switch',
+      'Whiteboard Notebook', 'Craft Knife', 'Resistor', 'Precision Screwdriver', 'Electronic Component Set', 'Arduino',
+      'ANENG', 'A3005', 'Digital Multimeter',
+    )
   ),
 );
 
@@ -1680,5 +1799,34 @@ show(
     youtube_video( 'qjrjSyDffYY' ),
     blog_url( 'https://blog.jj5.net/blog/2025/01/11/glass-organ-project-15-20-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
     patreon_url( 'https://www.patreon.com/posts/119400747' ),
+    tags(
+      'jjlab', 'Maxitronix 20in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'Salt Water', 'Resistance',
+      'Riden', 'RD6006', 'Bench Power Supply',
+      'UNI-T', 'UTi260B', 'Thermal Imager',
+      'Rigol', 'MSO5074', 'Mixed Signal Oscilloscope',
+      'Fluke', '17Bplus', 'Digital Multimeter',
+      'METCAL', 'PS900', 'Soldering Station',
+      'Goo Gone',
+      'Wire Cutters',
+    ),
+  ),
+);
+
+show(
+  demo(
+    publication_date( '2025-01-12' ),
+    title( 'Peak Electronic Design Atlas LCR45 - LCR Component Meter with Impedance Measurement' ),
+    youtube_video( 'sT0zNoJSpYA' ),
+    blog_url( '' ),
+    patreon_url( 'https://www.patreon.com/posts/' ),
+    tags(
+      'jjlab', 'Demo', 'Demonstration',
+      'Unboxing', 'Electronics', 'Hardware', 'Instrument', 'Testing', 'Measurement', 'Tool',
+      'Peak Electronic Design', 'Atlas DCA75 Pro', 'Semiconductor Analyzer',
+      'Atlas SCR100', 'Triac', 'Thyristor',
+      'Atlas ZEN50', 'Zener Diode',
+      'PCA23', 'IEC60617',
+    ),
   ),
 );

@@ -1,12 +1,14 @@
 <?php
 
+/*
 function equipment_name() {
 
-  return new_thing( EquipmentName::class, func_get_args() );
+  return new_thing( EquipmentNameOld::class, func_get_args() );
 
 }
+*/
 
-class EquipmentName extends AppThing {
+class EquipmentNameOld extends AppThing {
 
   public function get_manufacturer_name() { return $this->get( ManufacturerName::class ); }
   public function get_model_name() { return $this->get( ModelName::class ); }
@@ -95,7 +97,7 @@ class EquipmentName extends AppThing {
   }
 }
 
-class NullEquipmentName extends EquipmentName {
+class NullEquipmentNameOld extends EquipmentNameOld {
 
   use NullThingMixin;
 

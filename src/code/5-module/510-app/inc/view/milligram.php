@@ -1611,6 +1611,8 @@ function render_equipment_template( $equipment_list ) {
 
 function render_equipment_table( $equipment_list ) {
 
+  $segment_list = array_reverse( get_list( Segment::class ) );
+
   tag_open( 'div', [ 'class' => 'equipment equipment-table' ] );
 
     render_equipment_options( count( $equipment_list ) );
@@ -2043,11 +2045,14 @@ function render_equipment_table( $equipment_list ) {
 
               }
 
-              $video_link_list = $equipment->get_video_link_list();
+              $video_link_list = array_merge(
+                $equipment->get_video_link_list(),
+                $equipment->get_video_list( $segment_list ),
+              );
 
               if ( $video_link_list ) {
 
-                tag_text( 'p', 'Videos:' );
+                tag_text( 'p', 'Recent videos:' );
 
                 tag_open( 'ul' );
 
@@ -2058,6 +2063,13 @@ function render_equipment_table( $equipment_list ) {
                     tag_open( 'li' );
 
                       out_html( $link_html );
+
+                      // 2025-01-08 jj5 - the data we have doesn't support this...
+                      /*
+                      out_text( ' published on ' );
+                      out_text( $video->get_publication_date() );
+                      out_text( '.' );
+                      */
 
                     tag_shut( 'li' );
 
@@ -2296,6 +2308,8 @@ function format_intprice_aud( $price ) {
 
 function render_equipment_list( $equipment_list ) {
 
+  $segment_list = array_reverse( get_list( Segment::class ) );
+
   tag_open( 'div', [ 'class' => 'equipment equipment-list' ] );
 
     render_equipment_options( count( $equipment_list ) );
@@ -2479,9 +2493,16 @@ function render_equipment_list( $equipment_list ) {
 
           render_list( 'Links:', $web_link_list, 'link' );
 
-          $video_link_list = $equipment->get_video_link_list();
+          // 2025-01-08 jj5 - NEW:
+          $video_link_list = array_merge(
+            $equipment->get_video_link_list(),
+            $equipment->get_video_list( $segment_list ),
+          );
+          render_list( 'Recent videos:', $video_link_list, 'link' );
+          // 2025-01-08 jj5 - OLD:
+          //$video_link_list = $equipment->get_video_link_list();
+          //render_list( 'Videos:', $video_link_list, 'link' );
 
-          render_list( 'Videos:', $video_link_list, 'link' );
 
           $purchase_list = $equipment->get_purchase_list();
 

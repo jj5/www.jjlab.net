@@ -4,12 +4,6 @@
 
 equipment_class_alias( EquipmentClass::WRENCH, 'spanner' );
 
-/* 2025-01-02 jj5 - NOTE: put video_links just before affiliate_links, newest on top except for numbered projects.
-  video_link(
-    link_href   ( '' ),
-    link_text   ( '' ),
-  ),
-*/
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // 2024-08-03 jj5 - equipment...
@@ -143,10 +137,10 @@ equipment(
   equipment_item(
     manufacturer_link (
       link_href       ( 'https://www.altronics.com.au/p/k2200-maxitronix-10-in-1-electronics-lab-kit/' ),
-      link_text       ( '10 In 1 Electronics Project Lab Kit' ),
+      link_text       ( '10in1 Electronics Project Lab Kit' ),
     ),
     manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( '10 In 1 (10in1)' ),
+    model_name         ( '10in1' ),
     EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
@@ -156,52 +150,8 @@ equipment(
     link_text   ( 'Maxitronix 10in1 Videos' ),
   ),
   video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/01/09/in-the-lab-with-jay-jay-maxitronix-10in1-introduction/' ),
-    link_text   ( 'Introducing Maxitronix 10in1 | Maxitronix 10in1 | Learning Electronics In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/01/10/in-the-lab-with-jay-jay-maxitronix-10in1-project-1-10-morse-code-by-light/' ),
-    link_text   ( 'Morse Code By Light | Project 1/10 | Maxitronix 10in1 | Learning Electronics In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/01/11/in-the-lab-with-jay-jay-maxitronix-10in1-project-2-10-morse-code-oscillator/' ),
-    link_text   ( 'Morse Code Oscillator | Project 2/10 | Maxitronix 10in1 | In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/01/12/diode-experiment-project-3-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Diode Experiment | Project 3/10 | Maxitronix 10in1 | Learning Electronics In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/03/08/diode-radio-project-4-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Diode Radio | Project 4/10 | Maxitronix 10in1 | Learning Electronics In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/03/09/1-transistor-radio-project-5-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
-    link_text   ( '1-Transistor Radio | Project 5/10 | Maxitronix 10in1 | Learning Electronics In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/03/10/1-transistor-radio-with-diode-project-6-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
-    link_text   ( '1-Transistor Radio With Diode | Project 6/10 | Maxitronix 10in1 | In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/03/13/wireless-continuous-wave-transmitter-project-7-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Wireless Continuous Wave Transmitter | Project 7/10 | Maxitronix 10in1 | In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/03/14/patrol-car-siren-project-8-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Patrol Car Siren | Project 8/10 | Maxitronix 10in1 | Learning Electronics In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/03/15/audio-frequency-oscillator-project-9-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Audio Frequency Oscillator | Project 9/10 | Maxitronix 10in1 | In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/03/16/burglar-alarm-project-10-10-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Burglar Alarm | Project 10/10 | Maxitronix 10in1 | Learning Electronics In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/03/17/concluding-maxitronix-10in1-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Concluding Maxitronix 10in1 | Maxitronix 10in1 | Learning Electronics In The Lab With Jay Jay' ),
+    link_href   ( 'https://www.youtube.com/watch?v=FKAgGdTy0_c&list=PLMT1w23CuKm_y7qhuP7YUy9CmJYHZDDIC' ),
+    link_text   ( 'Maxitronix 10in1 Construction Videos YouTube Playlist' ),
   ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/262530007000' ),
@@ -225,7 +175,7 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/0sAAAOSwbN9g40AJ/s-l200.webp' ),
   equipment_item(
     manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( 'Sensor Robot 20 (20in1)' ),
+    model_name         ( 'Sensor Robot 20' ),
     EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
@@ -235,64 +185,8 @@ equipment(
     link_text   ( 'Maxitronix 20in1 Videos' ),
   ),
   video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/03/18/introducing-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Introducing Maxitronix 20in1 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/03/20/brightness-alarm-project-1-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Brightness Alarm | Project 1/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/03/21/darkness-alarm-project-2-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Darkness Alarm | Project 2/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/03/22/electronic-candles-project-3-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Electronic Candles | Project 3/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/03/25/light-alarm-with-latch-project-4-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Light Alarm With Latch | Project 4/20 | Maxitronix 20in1 | In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/03/26/light-controlled-organ-project-5-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Light-Controlled Organ | Project 5/20 | Maxitronix 20in1 | In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/03/27/photometer-project-6-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Photometer | Project 6/20 | Maxitronix 20in1 | In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/03/29/shot-in-the-dark-i-project-7-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Shot In The Dark I | Project 7/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/04/03/shot-in-the-dark-ii-project-8-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Shot In The Dark II | Project 8/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/05/16/visitor-alarm-project-9-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Visitor Alarm | Project 9/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/07/31/speech-conductor-project-10-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Speech Conductor | Project 10/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/10/18/burglar-alarm-project-11-20-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Burglar Alarm | Project 11/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2024/12/30/magnetism-detector-project-12-20-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Magnetism Detector | Project 12/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2025/01/05/ferromagnetic-substance-detector-project-13-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Ferromagnetic Substance Detector | Project 13/20 | Maxitronix 20in1 | In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2025/01/08/non-touch-switch-project-14-20-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Non-Touch Switch | Project 14/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
+    link_href   ( 'https://www.youtube.com/watch?v=XQlm1cqXAwE&list=PLMT1w23CuKm8nzdxfpzdq7RQqinnQFnbz' ),
+    link_text   ( 'Maxitronix 20in1 Construction Videos YouTube Playlist' ),
   ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_nkw=Maxitronix+Sensor+Robot+20&_sacat=0' ),
@@ -320,7 +214,7 @@ equipment(
       link_text       ( 'Maxitronix 30 In 1 Electronics Project Lab Kit' ),
     ),
     manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( '30 In 1 (30in1)' ),
+    model_name         ( '30in1' ),
     EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
@@ -355,7 +249,7 @@ equipment(
       link_text       ( 'Maxitronix Electronic Digital Recording Laboratory' ),
     ),
     manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( 'Electronic Digital Recording Laboratory (59in1)' ),
+    model_name         ( 'Electronic Digital Recording Laboratory' ),
     EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
@@ -391,7 +285,7 @@ equipment(
       link_text       ( 'Maxitronix 60 In 1 Electronics Project Lab Kit' ),
     ),
     manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( '60 In 1 (60in1)' ),
+    model_name         ( '60in1' ),
     EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
@@ -427,7 +321,7 @@ equipment(
       link_text       ( 'Maxitronix 130 In 1 Electronics Project Lab Kit' ),
     ),
     manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( '130 In 1 (130in1)' ),
+    model_name         ( '130in1' ),
     EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
@@ -462,7 +356,7 @@ equipment(
       link_text       ( 'Maxitronix 200 In 1 Electronics Project Lab Kit' ),
     ),
     manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( '200 In 1 (200in1)' ),
+    model_name         ( '200in1' ),
     EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
@@ -497,7 +391,7 @@ equipment(
       link_text       ( 'Maxitronix 300 In 1 Electronics Project Lab Kit' ),
     ),
     manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( '300 In 1 (300in1)' ),
+    model_name         ( '300in1' ),
     EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
@@ -554,7 +448,7 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/plQAAOSwFNhgRD5O/s-l200.webp' ),
   equipment_item(
     manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( '500 In 1 (500in1)' ),
+    model_name         ( '500in1' ),
     EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
@@ -622,10 +516,6 @@ equipment(
   web_link(
     link_href   ( 'https://www.jj5.net/rigol/' ),
     link_text   ( 'See the research I did before buying my Rigol MSO5074' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2025/01/05/ferromagnetic-substance-detector-project-13-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Ferromagnetic Substance Detector | Project 13/20 | Maxitronix 20in1 | In The Lab With Jay Jay' ),
   ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/195572945470?hash=item2d890e523e:g:nq8AAOSwsg9j0t20&amdata=enc%3AAQAIAAAA4MjuBQq3oPNyUnLRImZKkRNYahVqlnvj65Ck33A34W%2BO9TH5UT8%2Fhz2gB4%2BvN5JcYwZF%2Boale6B2IFigSYPrJtX%2BwBkRDcjUYorYiX8OUPSNVPZa58uxHDsPibVCnf%2BAEe26mk%2Fhe3%2BXdsm4jFu5lrFIuC8YSGdp7V1qjLn8m6Xg97JdGpnvfFkSnrTVH5ppxWwFlYXlf%2FQ0AOlZtnw%2FxiGIEU0DfVDn4GTjj02LN%2FUp%2FP2o8PAiK5VFviviVrRc%2B8DQ8vg0GC3nQbYaUw9Sxng2g77dv16WF3dFi1eHJpZW%7Ctkp%3ABk9SR9r244OhYw' ),
@@ -2016,14 +1906,6 @@ equipment(
   search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Riden+RD6006+Bench+Power+Supply' ),
   search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=Riden+RD6006+Bench+Power+Supply' ),
   search_url    ( 'https://www.aliexpress.com/w/wholesale-Riden-RD6006-Bench-Power-Supply.html' ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2025/01/08/non-touch-switch-project-14-20-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Non-Touch Switch | Project 14/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2025/01/05/ferromagnetic-substance-detector-project-13-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Ferromagnetic Substance Detector | Project 13/20 | Maxitronix 20in1 | In The Lab With Jay Jay' ),
-  ),
   affiliate_link(
     equipment_url ( 'https://www.amazon.com.au/RD-RD6006W-Power-Supply-assembled/dp/B096548QH5/ref=sr_1_14?dib=eyJ2IjoiMSJ9.M3ZzSvvRBHAFaAXC0f6dS3isgvmIbjaCDX-UZ3NYtnOVokq5kAqg2k2dgP2qJwWwgoxpvmjosgWiOWXn3xzqxNr5F76QBOW54_6U6PQCR47beq9C6md4BrlTMkA8dwciiXZN_Nk50Yr2-UPA58kRQA.byd7reRahNEJ0HmV0pQ2kmFmzUmfcPM30lT4p50UIOg&dib_tag=se&keywords=Riden%2BRD6006%2BBench%2BPower%2BSupply&qid=1705236071&sr=8-14&th=1' ),
     affiliate_url ( 'https://amzn.to/41ZQW2X' ),
@@ -2244,6 +2126,7 @@ equipment(
 );
 
 equipment(
+  equipment_name( "Pro'sKit SS-331H Desoldering Pump" ),
   equipment_date( '2024-01-15' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/Hdfdab4a8df164b1fbe29c52f10cd7337f/Electric-Solder-Suction-Gun-SS-331-SS-331H-ESD-LCD-Digital-BGA-Tin-Pump-Suction-Absorb.jpg_.webp' ),
   equipment_item(
@@ -2846,14 +2729,6 @@ equipment(
   search_url    ( 'https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=UNI-T+UTi260B+Thermal+Imager' ),
   search_url    ( 'https://www.ebay.com.au/sch/i.html?_from=R40&_sacat=0&_sop=15&rt=nc&LH_ItemCondition=1000&_nkw=UNI-T+UTi260B+Thermal+Imager' ),
   search_url    ( 'https://www.aliexpress.com/w/wholesale-UNI-T-UTi260B-Thermal-Imager.html' ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2025/01/08/non-touch-switch-project-14-20-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Non-Touch Switch | Project 14/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2025/01/05/ferromagnetic-substance-detector-project-13-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Ferromagnetic Substance Detector | Project 13/20 | Maxitronix 20in1 | In The Lab With Jay Jay' ),
-  ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com/itm/284152669853?hash=item4228d1a69d%3Ag%3AFugAAOSwg5pjfZuL&amdata=enc%3AAQAIAAAA8FzpyWZLyx0uWTv5OsgMb4GaqlptRf29cM%2B6WO%2Fk71WFJmKbLIyRG19d9Uhvo15Dym1FluhzmNOPfiNvr6sJYFicqUFiqCqBufsDMlCTz5mmpT6WBl%2Bzs%2BvnCrdgk3qiIX4n3ZLw%2Bsm%2FrHb%2FbZikETAE%2BuyV7OD%2B8f1opWKNYnzbVGLKRxYDtYHhfjtvUCwF7%2FpuhCRYgg4l15vmnXy1I%2FmQKYq4BhKeV%2B6VTdWzkLu%2F9VbYXhofLoojnnpRL6zuATlH%2BHJ%2BcQPVelb9KR5dIU%2BtlzRf6mM5uTwI2I4ohBTQX4PNZb3fiMLcqrgUW0jE%2BQ%3D%3D%7Ctkp%3ABk9SR57auZGgYw&LH_ItemCondition=1000' ),
     affiliate_url ( 'https://ebay.us/BHLIGV' ),
@@ -7773,8 +7648,8 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/S389cbffabb9441dea910ebde8f7cd5ae0/DT830B-AC-DC-LCD-Digital-Multimeter-750-1000V-Voltmeter-Ammeter-Ohm-Tester-High-Safety-Handheld-Meter.jpg_640x640.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'DT830B Digital' ),
-    EquipmentFeature::MULTIMETER,
+    model_name        ( 'DT830B' ),
+    EquipmentFeature::DIGITAL_MULTIMETER,
     EquipmentFeature::HANDHELD_MULTIMETER,
     EquipmentFeature::VOLTMETER,
     EquipmentFeature::AMMETER_DC,
@@ -8570,7 +8445,8 @@ equipment(
   equipment_item(
     manufacturer_name  ( 'OULLX' ),
     model_name         ( 'NSS-681HDMI-RJ45' ),
-    EquipmentFeature::CABLE_TESTER,
+    EquipmentFeature::NETWORK_CABLE_TESTER,
+    EquipmentFeature::HDMI_CABLE_TESTER,
   ),
   see_also      ( 'Ampcom Automatic Network Cable Tester' ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/OULLX_NSS-681HDMI-RJ45_Cable_Tester' ),
@@ -9029,7 +8905,7 @@ equipment(
     model_name         ( 'Automatic' ),
     EquipmentFeature::NETWORK_CABLE_TESTER,
   ),
-  see_also      ( 'OULLX NSS-681HDMI-RJ45 Cable Tester' ),
+  see_also      ( 'OULLX NSS-681HDMI-RJ45 Network Cable Tester' ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/ANENG_M469D_Network_Cable_Tester' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005288246731.html' ),
@@ -12725,14 +12601,6 @@ equipment(
     EquipmentConnectivity::BANANA_PLUG,
   ),
   sixsigma_url  ( '' ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2025/01/08/non-touch-switch-project-14-20-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Non-Touch Switch | Project 14/20 | Maxitronix 20in1 | Learning Electronics In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2025/01/05/ferromagnetic-substance-detector-project-13-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Ferromagnetic Substance Detector | Project 13/20 | Maxitronix 20in1 | In The Lab With Jay Jay' ),
-  ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/276199258799' ),
     affiliate_url ( 'https://ebay.us/t6ouCF' ),
@@ -13498,21 +13366,13 @@ equipment(
   equipment_item(
     manufacturer_link (
       link_href       ( 'https://store.metcal.com/en-us/shop/soldering-desoldering/soldering-desoldering-systems/ps-series/PS-900' ),
-      link_text       ( 'METCAL PS-900 Soldering System' ),
+      link_text       ( 'Metcal PS-900 Soldering System' ),
     ),
-    manufacturer_name ( 'METCAL' ),
+    manufacturer_name ( 'Metcal' ),
     model_name        ( 'PS-900' ),
     EquipmentFeature::SOLDERING_STATION,
   ),
-  sixsigma_url  ( 'https://www.jj5.net/wiki/METCAL_PS-900_Soldering_Station' ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2025/01/04/unboxing-20-metcal-ps-900-soldering-station-learning-electronics-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Unboxing #20: METCAL PS-900 Soldering Station | Learning Electronics In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2025/01/02/mail-call-16-metcal-ps-900-peak-atlas-dca75-pro-lcr45-esr70-esp32-pi-zero-pico-and-more/' ),
-    link_text   ( 'Mail Call #16: METCAL PS-900; Peak Atlas DCA75 Pro, LCR45, ESR70; ESP32; Pi Zero, Pico; and More!' ),
-  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Metcal_PS-900_Soldering_Station' ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/metcal/ps-900/soldering-station-60w-240v-eu/dp/1560738' ),
     listing_name  ( 'METCAL PS-900 Soldering Station, 60W, 240V, Euro/UK Plug' ),
@@ -13536,13 +13396,13 @@ equipment(
   equipment_item(
     manufacturer_link (
       link_href       ( 'https://store.metcal.com/en-us/shop/cartridges-tips/SFV-CH15A' ),
-      link_text       ( 'METCAL SFV-CH15A Soldering Tip, Chisel, 1.5 mm (0.059")' ),
+      link_text       ( 'Metcal SFV-CH15A Soldering Tip, Chisel, 1.5 mm (0.059")' ),
     ),
-    manufacturer_name ( 'METCAL' ),
+    manufacturer_name ( 'Metcal' ),
     model_name        ( 'Soldering Tip, Chisel, 1.5 mm' ),
     EquipmentFeature::SOLDERING_IRON_TIP,
   ),
-  sixsigma_url  ( 'https://www.jj5.net/wiki/METCAL_PS-900_Soldering_Station' ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Metcal_PS-900_Soldering_Station' ),
   note          ( 'This is the tip/cartrige that the PS-900 Soldering Station came with' ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/metcal/sfv-ch15a/tip-soldering-chisel-long-1-5mm/dp/136224301' ),
@@ -13557,13 +13417,13 @@ equipment(
   equipment_item(
     manufacturer_link (
       link_href       ( 'https://store.metcal.com/en-us/shop/cartridges-tips/SFV-CN05' ),
-      link_text       ( 'METCAL SFV-CN05 Soldering Tip, Conical, 0.5 mm (0.02")' ),
+      link_text       ( 'Metcal SFV-CN05 Soldering Tip, Conical, 0.5 mm (0.02")' ),
     ),
-    manufacturer_name ( 'METCAL' ),
+    manufacturer_name ( 'Metcal' ),
     model_name        ( 'SFV-CN05, Conical, 0.5 mm' ),
     EquipmentFeature::SOLDERING_IRON_TIP,
   ),
-  sixsigma_url  ( 'https://www.jj5.net/wiki/METCAL_PS-900_Soldering_Station' ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Metcal_PS-900_Soldering_Station' ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/metcal/sfv-cn05/tip-soldering-conical-0-5mm/dp/1277177' ),
     listing_name  ( 'METCAL SFV-CN05, Conical, 0.5 mm Soldering Iron Tip' ),
@@ -13587,13 +13447,13 @@ equipment(
   equipment_item(
     manufacturer_link (
       link_href       ( 'https://store.metcal.com/en-us/shop/cartridges-tips/SFV-CH10' ),
-      link_text       ( 'METCAL SFV-CH10 Soldering Tip, Chisel, 1.0 mm (0.039")' ),
+      link_text       ( 'Metcal SFV-CH10 Soldering Tip, Chisel, 1.0 mm (0.039")' ),
     ),
-    manufacturer_name ( 'METCAL' ),
+    manufacturer_name ( 'Metcal' ),
     model_name        ( 'SFV-CH10, 30° Chisel, 1 mm' ),
     EquipmentFeature::SOLDERING_IRON_TIP,
   ),
-  sixsigma_url  ( 'https://www.jj5.net/wiki/METCAL_PS-900_Soldering_Station' ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Metcal_PS-900_Soldering_Station' ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/metcal/sfv-ch10/tip-soldering-chisel-30deg-1-0mm/dp/1277178' ),
     listing_name  ( 'METCAL SFV-CH10, 30° Chisel, 1 mm Soldering Iron Tip' ),
@@ -13617,13 +13477,13 @@ equipment(
   equipment_item(
     manufacturer_link (
       link_href       ( 'https://store.metcal.com/en-us/shop/cartridges-tips/SFV-CH20' ),
-      link_text       ( 'METCAL SFV-CH20 Soldering Tip, Chisel, 2.0 mm (0.079")' ),
+      link_text       ( 'Metcal SFV-CH20 Soldering Tip, Chisel, 2.0 mm (0.079")' ),
     ),
-    manufacturer_name ( 'METCAL' ),
+    manufacturer_name ( 'Metcal' ),
     model_name        ( 'SFV-CH20, 30° Chisel, 2 mm' ),
     EquipmentFeature::SOLDERING_IRON_TIP,
   ),
-  sixsigma_url  ( 'https://www.jj5.net/wiki/METCAL_PS-900_Soldering_Station' ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Metcal_PS-900_Soldering_Station' ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/metcal/sfv-cn05/tip-soldering-conical-0-5mm/dp/1277177' ),
     listing_name  ( 'METCAL SFV-CH20, 30° Chisel, 2 mm Soldering Iron Tip' ),
@@ -13670,18 +13530,6 @@ equipment(
   see_also      ( 'Peak Electronic Design Atlas SCR100 Triac And Thyristor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas ESR70 Gold ESR Meter' ),
   see_also      ( 'Peak Electronic Design Atlas ZEN50 Zener Diode Analyzer' ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2025/01/07/demo-3-peak-electronic-design-atlas-dca75-pro-semiconductor-analyzer-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Demo #3: Peak Electronic Design Atlas DCA75 Pro Semiconductor Analyzer | In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2025/01/06/unboxing-21-atpk3-atlas-pro-pack-lcr45-dca75-case-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Unboxing #21: ATPK3 – Atlas Pro Pack – LCR45 + DCA75 + Case | In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2025/01/02/mail-call-16-metcal-ps-900-peak-atlas-dca75-pro-lcr45-esr70-esp32-pi-zero-pico-and-more/' ),
-    link_text   ( 'Mail Call #16: METCAL PS-900; Peak Atlas DCA75 Pro, LCR45, ESR70; ESP32; Pi Zero, Pico; and More!' ),
-  ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/peak-electronic-design/atpk3/atlas-pro-pack-semi-analyser-imp/dp/291788702' ),
     listing_name  ( 'ATPK3 Peak Electronic Design, Bundle Kit, Atlas DCA75 Pro Advanced Semiconductor Analyzer, LCR45 Impedance Meter, Case, Batteries' ),
@@ -13724,14 +13572,6 @@ equipment(
   see_also      ( 'Peak Electronic Design Atlas SCR100 Triac And Thyristor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas ESR70 Gold ESR Meter' ),
   see_also      ( 'Peak Electronic Design Atlas ZEN50 Zener Diode Analyzer' ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2025/01/06/unboxing-21-atpk3-atlas-pro-pack-lcr45-dca75-case-in-the-lab-with-jay-jay/' ),
-    link_text   ( 'Unboxing #21: ATPK3 – Atlas Pro Pack – LCR45 + DCA75 + Case | In The Lab With Jay Jay' ),
-  ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2025/01/02/mail-call-16-metcal-ps-900-peak-atlas-dca75-pro-lcr45-esr70-esp32-pi-zero-pico-and-more/' ),
-    link_text   ( 'Mail Call #16: METCAL PS-900; Peak Atlas DCA75 Pro, LCR45, ESR70; ESP32; Pi Zero, Pico; and More!' ),
-  ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/peak-electronic-design/atpk3/atlas-pro-pack-semi-analyser-imp/dp/291788702' ),
     listing_name  ( 'ATPK3 Peak Electronic Design, Bundle Kit, Atlas DCA75 Pro Advanced Semiconductor Analyzer, LCR45 Impedance Meter, Case, Batteries' ),
@@ -13770,10 +13610,6 @@ equipment(
   see_also      ( 'Peak Electronic Design Atlas LCR45 LCR Meter' ),
   see_also      ( 'Peak Electronic Design Atlas SCR100 Triac And Thyristor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas ZEN50 Zener Diode Analyzer' ),
-  video_link(
-    link_href   ( 'https://blog.jj5.net/blog/2025/01/02/mail-call-16-metcal-ps-900-peak-atlas-dca75-pro-lcr45-esr70-esp32-pi-zero-pico-and-more/' ),
-    link_text   ( 'Mail Call #16: METCAL PS-900; Peak Atlas DCA75 Pro, LCR45, ESR70; ESP32; Pi Zero, Pico; and More!' ),
-  ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/peak-electronic-design/esr70/esr-meter-w-audible-alert-capacitor/dp/291787802' ),
     listing_name  ( 'ESR70 Peak Electronic Design, ESR Meter, Capacitor, Atlas ESR+, 0.00 Ohms to 40.0 Ohms, 1uF to 22000uF' ),

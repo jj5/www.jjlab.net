@@ -41,7 +41,10 @@ function http_redirect( $url, $response_code = 302 ) {
 
 function url_base( $use_cdn = false ) {
 
-  if ( is_dev() ) { return '/in-the-lab'; }
+  // 2025-01-08 jj5 - NEW:
+  if ( is_dev() ) { return '/www.jjlab.net/in-the-lab'; }
+  // 2025-01-08 jj5 - OLD:
+  //if ( is_dev() ) { return '/in-the-lab'; }
 
   //if ( is_cache_request() ) { $use_cdn = true; }
 
