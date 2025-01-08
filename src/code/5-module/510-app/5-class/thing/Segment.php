@@ -238,13 +238,12 @@ abstract class Segment extends AppThing {
 
         tag_shut( 'p' );
 
+        /*
         tag_open( 'p' );
-
           out_text( 'Tags text: ' );
-
           out_text( $tags->get_tag_text() );
-
         tag_shut( 'p' );
+        */
 
       tag_shut( 'div' );
 
