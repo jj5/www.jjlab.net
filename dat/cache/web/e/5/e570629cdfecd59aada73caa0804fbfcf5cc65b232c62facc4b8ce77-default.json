@@ -3,8 +3,8 @@
     "cookie": null,
     "http": 200,
     "cache": "/home/jj5/repo/git/github/jj5/www.jjlab.net/dat/cache/web/e/5/e570629cdfecd59aada73caa0804fbfcf5cc65b232c62facc4b8ce77-default.gz",
-    "size": 24743,
-    "gzip": 4859,
-    "mudball": "0.6.1627",
-    "app": "0.3.1583"
+    "size": 28600,
+    "gzip": 5240,
+    "mudball": "0.6.1629",
+    "app": "0.3.1587"
 }
