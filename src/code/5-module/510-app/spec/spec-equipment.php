@@ -13780,7 +13780,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71agbjjS5HL._SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'AOOCOO' ),
-    model_name        ( '4K HDMI USB 2.0 8-Port' ),
+    model_name        ( '4K@30Hz HDMI USB 2.0 8-Port' ),
     EquipmentFeature::HDMI_KVM,
   ),
   sixsigma_url  ( '' ),
