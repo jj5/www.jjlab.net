@@ -13775,6 +13775,33 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2025-01-10' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71agbjjS5HL._SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'AOOCOO' ),
+    model_name        ( '4K HDMI USB 2.0 8-Port' ),
+    EquipmentFeature::HDMI_KVM,
+  ),
+  sixsigma_url  ( '' ),
+  warning       ( 'This device only supports USB 2.0, not USB 3.0.' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/gp/product/B09P5BHHX3' ),
+    listing_name  ( 'KVM Switch 8 Ports, HDMI 2.0 KVM Switcher and USB 2.0 Hub Support 4K@30Hz for 8 PC Share Keyboard, Mouse and Monitor Compatible with Windows/Linux/Mac System etc' ),
+    item_price    ( 'AU$119.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/gp/product/B09P5BHHX3' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=249-9081360-4865434&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '249-9081360-4865434' ),
+    order_date      ( '9 January 2025' ),
+    order_item_name ( 'KVM Switch 8 Ports, HDMI 2.0 KVM Switcher and USB 2.0 Hub Support 4K@30Hz for 8 PC Share Keyboard, Mouse and Monitor Compatible with Windows/Linux/Mac System etc' ),
+    order_price     ( 'AU$119.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+
 /*
 
 equipment(
