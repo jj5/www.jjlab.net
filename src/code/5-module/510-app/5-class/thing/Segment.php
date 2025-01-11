@@ -222,21 +222,25 @@ abstract class Segment extends AppThing {
 
         $tags = $this->get_tags();
 
-        tag_open( 'p', [ 'style' => 'margin-top: 20px' ] );
+        if ( $tags->get_count() ) {
 
-          out_text( 'YouTube hashtags: ' );
+          tag_open( 'p', [ 'style' => 'margin-top: 20px' ] );
 
-          $tags->render_hashtags();
+            out_text( 'YouTube hashtags: ' );
 
-        tag_shut( 'p' );
+            $tags->render_hashtags();
 
-        tag_open( 'p' );
+          tag_shut( 'p' );
 
-          out_text( 'Blog tags: ' );
+          tag_open( 'p' );
 
-          $tags->render_tags();
+            out_text( 'Blog tags: ' );
 
-        tag_shut( 'p' );
+            $tags->render_tags();
+
+          tag_shut( 'p' );
+
+        }
 
         /*
         tag_open( 'p' );

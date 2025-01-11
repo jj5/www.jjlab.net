@@ -16,7 +16,8 @@ channel(
     feature(
       feature_slug( 'old-book-teardown' ),
       feature_name( 'Old Book Teardown' ),
-      feature_text( 'In the old book teardown videos we take a close look at an old electronics book.' ),
+      feature_text( 'In the old book teardown videos we take a close look at an old electronics book, or some other book of interest. ' .
+        'To count as old the book needs to have been published before the year 2000.' ),
     ),
   ),
   show_type(
@@ -26,7 +27,8 @@ channel(
     feature(
       feature_slug( 'new-book-teardown' ),
       feature_name( 'New Book Teardown' ),
-      feature_text( 'In the new book teardown videos we take a close look at a new electronics book.' ),
+      feature_text( 'In the new book teardown videos we take a close look at a new electronics book, or some other book of interest. ' .
+        'To count as new the book needs to have been published in the year 2000 or later.' ),
     ),
     feature(
       feature_slug( 'mini-project' ),

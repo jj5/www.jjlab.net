@@ -25,6 +25,12 @@ function tags() {
 
 class Tags extends AppThing {
 
+  public function get_count() {
+
+    return count( $this->get_tag_list() );
+
+  }
+
   public function render_tags() {
 
     $tag_list = $this->get_tag_list();
