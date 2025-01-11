@@ -58,6 +58,8 @@ class Tags extends AppThing {
 
   public function format_tag_slug( $tag ) {
 
+    $tag = iconv( 'UTF-8', 'ASCII//TRANSLIT', $tag );
+
     return preg_replace( '/[^a-z0-9_]/i', '-', strtolower( $tag ) );
 
   }
@@ -90,6 +92,8 @@ class Tags extends AppThing {
   }
 
   public function format_hashtag( $hashtag ) {
+
+    $hashtag = iconv( 'UTF-8', 'ASCII//TRANSLIT', $hashtag );
 
     $hashtag = preg_replace( '/[^a-z0-9_]/i', '-', $hashtag );
 
