@@ -1853,3 +1853,23 @@ show(
     ),
   ),
 );
+
+show(
+  maxitronix_segment(
+    publication_date( '2025-01-14' ),
+    title( 'High-Water Indicator' ),
+    project( 16, 20 ),
+    maxitronix_kit_name( '20in1' ),
+    youtube_video( 'BTmbrDF8BqI' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/14/high-water-indicator-project-16-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/119841431' ),
+    tags(
+      'jjlab', 'Maxitronix 20in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'High Water', 'Resistance', 'Alarm',
+      'Riden', 'RD6006', 'Bench Power Supply',
+      'UNI-T', 'UTi260B', 'Thermal Imager',
+      'Rigol', 'MSO5074', 'Mixed Signal Oscilloscope',
+      'Fluke', '17Bplus', 'Digital Multimeter',
+    ),
+  ),
+);
