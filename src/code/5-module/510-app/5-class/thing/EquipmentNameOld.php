@@ -23,20 +23,7 @@ class EquipmentNameOld extends AppThing {
 
       $result = [];
 
-      /*
-      $part = $this->get_manufacturer_name()->to_string();
-
-      if ( $part ) { $result[] = $part; }
-
-      $part = $this->get_model_name()->to_string();
-
-      if ( $part ) { $result[] = $part; }
-
-      $part = $this->get_equipment_type()->to_string();
-
-      if ( $part ) { $result[] = $part; }
-      */
-
+      // 2025-01-14 jj5 - NEW:
       foreach ( $this->get_child_list() as $child ) {
 
         if (
@@ -52,6 +39,20 @@ class EquipmentNameOld extends AppThing {
 
         }
       }
+      // 2025-01-14 jj5 - OLD:
+      /*
+      $part = $this->get_manufacturer_name()->to_string();
+
+      if ( $part ) { $result[] = $part; }
+
+      $part = $this->get_model_name()->to_string();
+
+      if ( $part ) { $result[] = $part; }
+
+      $part = $this->get_equipment_type()->to_string();
+
+      if ( $part ) { $result[] = $part; }
+      */
 
       $this->string = implode( ' ', $result );
 
@@ -69,6 +70,24 @@ class EquipmentNameOld extends AppThing {
 
       $result = [];
 
+      // 2025-01-14 jj5 - NEW:
+      foreach ( $this->get_child_list() as $child ) {
+
+        if (
+          is_a( $child, ManufacturerName::class ) ||
+          is_a( $child, ModelName::class        ) ||
+          is_a( $child, ModelSpec::class        ) ||
+          is_a( $child, EquipmentType::class    )
+        ) {
+
+          $part = self::clean( $child->to_string() );
+
+          if ( $part ) { $result[] = $part; }
+
+        }
+      }
+      // 2025-01-14 jj5 - OLD:
+      /*
       $part = self::clean( $this->get_manufacturer_name()->to_string() );
 
       if ( $part ) { $result[] = $part; }
@@ -80,6 +99,7 @@ class EquipmentNameOld extends AppThing {
       $part = self::clean( $this->get_equipment_type()->to_string() );
 
       if ( $part ) { $result[] = $part; }
+      */
 
       $this->id = implode( ' ', $result );
 
