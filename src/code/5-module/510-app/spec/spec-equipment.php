@@ -18,7 +18,7 @@ equipment(
       link_text       ( 'Maxitronix Crystal Radio Kit' ),
     ),
     manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( 'Crystal Radio Kit' ),
+    model_spec         ( 'Crystal Radio Kit' ),
     EquipmentFeature::ELECTRONICS_PROJECT,
     EquipmentFeature::ELECTRONICS_KIT,
     EquipmentFeature::AM_RADIO,
@@ -63,7 +63,7 @@ equipment(
       link_text       ( 'Maxitronix AM/FM Radio Kit' ),
     ),
     manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( 'AM/FM Radio Kit' ),
+    model_spec         ( 'AM/FM Radio Kit' ),
     EquipmentFeature::ELECTRONICS_PROJECT,
     EquipmentFeature::ELECTRONICS_KIT,
     EquipmentFeature::AM_RADIO,
@@ -105,7 +105,7 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/ABgAAOSwol5YxnoQ/s-l1600.jpg' ),
   equipment_item(
     manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( 'Electronic Metal Detector Kit' ),
+    model_spec         ( 'Electronic Metal Detector Kit' ),
     EquipmentFeature::ELECTRONICS_PROJECT,
     EquipmentFeature::ELECTRONICS_KIT,
     EquipmentFeature::METAL_DETECTOR,
@@ -249,7 +249,7 @@ equipment(
       link_text       ( 'Maxitronix Electronic Digital Recording Laboratory' ),
     ),
     manufacturer_name  ( 'Maxitronix' ),
-    model_name         ( 'Electronic Digital Recording Laboratory' ),
+    model_spec         ( 'Electronic Digital Recording Laboratory' ),
     EquipmentFeature::ELECTRONICS_PROJECT_LAB_KIT,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Maxitronix' ),
@@ -654,7 +654,8 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/AqAAAOSwHwdjcLMS/s-l1600.jpg' ),
   equipment_item(
     manufacturer_name ( 'Rigol' ),
-    model_name        ( 'PLA2216 Compatible' ),
+    model_name        ( 'PLA2216' ),
+    model_spec        ( 'Compatible' ),
     EquipmentFeature::LOGIC_PROBE,
     EquipmentFeature::CABLE,
   ),
@@ -784,7 +785,8 @@ equipment(
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-04-212314/s-l1600.jpg' ),
   equipment_item(
     manufacturer_name ( 'gku' ),
-    model_name        ( 'AC1009 Underdesk' ),
+    model_name        ( 'AC1009' ),
+    model_spec        ( 'Underdesk' ),
     EquipmentFeature::KEYBOARD_DRAWER,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Keyboard' ),
@@ -1500,7 +1502,8 @@ equipment(
       link_text       ( 'ATEN CS1922 2-Port DisplayPort KVM' ),
     ),
     manufacturer_name ( 'ATEN' ),
-    model_name        ( 'CS1922 2-Port' ),
+    model_name        ( 'CS1922' ),
+    model_spec        ( '2-Port' ),
     EquipmentFeature::DISPLAY_PORT_KVM,
     EquipmentAttribute::COMPUTER_EQUIPMENT,
     EquipmentConnectivity::DISPLAY_PORT,
@@ -1600,7 +1603,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/81wZQpUd9LL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'Leadstar' ),
-    model_name        ( '12"' ),
+    model_spec        ( '12"' ),
     //equipment_type    ( '12" LCD TV' ),
     EquipmentFeature::LCD_TV,
     EquipmentFeature::LCD,
@@ -1689,7 +1692,7 @@ equipment(
       link_text       ( 'UPERFECT 15.6" HDMI LCD' ),
     ),
     manufacturer_name ( 'UPERFECT' ),
-    model_name        ( '15.6"' ),
+    model_spec        ( '15.6"' ),
     EquipmentFeature::HDMI_LCD,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/UPERFECT_156J08' ),
@@ -3654,7 +3657,8 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/S1926ecb425ff47b3a0460fa621ad03e23/DSO-TC3-Digital-Oscilloscope-Transistor-Tester-10MS-s-Sampling-Rate-500kHz-Bandwidth-Support-Diode-LCR-Detect.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'FNIRSI' ),
-    model_name        ( 'DSO-TC3 3 in 1' ),
+    model_name        ( 'DSO-TC3' ),
+    model_spec        ( '3 in 1' ),
     EquipmentFeature::OSCILLOSCOPE_SIGNAL_GENERATOR_COMPONENT_TESTER,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/FNIRSI_DSO-TC3' ),
@@ -4025,7 +4029,7 @@ equipment(
       link_text       ( 'Handheld Portable Label Printer PT-H105' ),
     ),
     manufacturer_name ( 'Brother' ),
-    model_name        ( 'P-touch H105' ),
+    model_name        ( 'P-Touch H105' ),
     EquipmentFeature::LABEL_MAKER,
     EquipmentAttribute::HAND_TOOL,
   ),
@@ -4228,7 +4232,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/719f+uTtPuL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'TOWOT' ),
-    model_name        ( 'Industrial' ),
+    model_spec        ( 'Industrial' ),
     EquipmentFeature::TWEEZERS,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/TOWOT_Tweezers' ),
@@ -4838,7 +4842,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/61+qntzskqL._AC_SL1000_.jpg' ),
   equipment_item(
     manufacturer_name ( 'OZSTOCK' ),
-    model_name        ( 'Small Folding' ),
+    model_spec        ( 'Small Folding' ),
     EquipmentFeature::STEP_LADDER,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Folding_Step_Ladder' ),
@@ -4875,7 +4879,7 @@ equipment(
       link_text       ( 'Portable 39cm Folding Step Stool Plastic Chair Flat Outdoor Camping Seat Ladder' ),
     ),
     manufacturer_name ( 'OZSTOCK' ),
-    model_name        ( 'Large Folding' ),
+    model_spec        ( 'Large Folding' ),
     EquipmentFeature::STEP_LADDER,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Folding_Step_Ladder' ),
@@ -5333,7 +5337,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/51YEsVdZjsL._AC_.jpg' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'Super Bright 90000LM' ),
+    model_spec        ( 'Super Bright 90000LM' ),
     EquipmentFeature::LED_TORCH,
     EquipmentAttribute::HAND_TOOL,
   ),
@@ -5774,7 +5778,7 @@ equipment(
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-03-174240/s-l1600.jpg' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( '395nm' ),
+    model_spec        ( '395nm' ),
     EquipmentFeature::UV_LAMP,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/UV_Lamp_395nm' ),
@@ -5808,7 +5812,7 @@ equipment(
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-03-174310/s-l1600.jpg' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( '365nm' ),
+    model_spec        ( '365nm' ),
     EquipmentFeature::UV_LAMP,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/UV_Lamp_365nm' ),
@@ -6021,7 +6025,8 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71xPUsEOFDL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name  ( 'Kaisi' ),
-    model_name         ( 'S-160 45x30cm' ),
+    model_name         ( 'S-160' ),
+    model_spec         ( '45x30cm' ),
     EquipmentFeature::REPAIR_MAT,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Kaisi_S-160_Repair_Mat_45x30cm' ),
@@ -6158,7 +6163,8 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/61HY+qheVsL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name  ( 'Kaisi' ),
-    model_name         ( 'S-130 35x25cm' ),
+    model_name         ( 'S-130' ),
+    model_spec         ( '35x25cm' ),
     EquipmentFeature::REPAIR_MAT,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Kaisi_S-130_Repair_Mat_35x25cm' ),
@@ -6521,7 +6527,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71fS8QH8WHL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name  ( 'Kaisi' ),
-    model_name        ( 'Soldering Tools With' ),
+    model_spec        ( 'Soldering Tools With' ),
     EquipmentFeature::DESOLDERING_PUMP,
     EquipmentFeature::AWL,
     EquipmentFeature::WIRE_BRUSH,
@@ -6888,7 +6894,7 @@ equipment(
   equipment_icon( 'https://d297fd4gt7t5lv.cloudfront.net/file/2023-11-03-175245/s-l1600.jpg' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'Magnetic Claw' ),
+    model_spec        ( 'Magnetic Claw' ),
     EquipmentFeature::PICKUP_TOOL,
     EquipmentFeature::MAGNETIC_PICKUP_TOOL,
     EquipmentFeature::CLAW_TOOL,
@@ -6917,7 +6923,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/51jz5T1nI+S._AC_SL1000_.jpg' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'Telescopic' ),
+    model_spec        ( 'Telescopic' ),
     EquipmentFeature::MAGNETIC_PICKUP_TOOL,
     EquipmentFeature::MIRROR,
   ),
@@ -7020,7 +7026,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/S9404032dc66545d298486ca1d7c15622A/100pcs-Heat-Shrink-Wire-Connectors-Red-Heat-Shrink-AWG-22-To-18-Butt-Electrical-Connectors-Tinned.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( '100pcs Heat Shrink' ),
+    model_spec        ( '100pcs Heat Shrink' ),
     EquipmentFeature::WIRE_CONNECTORS,
     EquipmentFeature::HEAT_SHRINK,
   ),
@@ -7048,7 +7054,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/Sf809a2dbbcda44c7952561a77a235c84l/300pcs-Box-Solder-Sealed-Wire-Connectors-Heat-Shrink-Solder-Butt-Connectors-Solder-Connector-Kit-Automotive-Marine.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( '300pcs Heat Shrink' ),
+    model_spec        ( '300pcs Heat Shrink' ),
     EquipmentFeature::WIRE_CONNECTORS,
     EquipmentFeature::HEAT_SHRINK,
   ),
@@ -7176,7 +7182,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/Sbd26149f448543319f6b7703326600d3t/1pc-8lb-Orange-Red-Handle-Magnetic-Pickup-Stainless-Steel-Antenna-Retractable-Suction-Iron-Rod-Strong-Magnetic.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'Orange Telescopic' ),
+    model_spec        ( 'Orange Telescopic' ),
     EquipmentFeature::MAGNETIC_PICKUP_TOOL,
     EquipmentFeature::TELESCOPIC_PICKUP_TOOL,
   ),
@@ -7236,7 +7242,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/Sfbc74765a3324ebea5e98898dc5e29ebJ/Telescopic-Pickup-Magnetic-Iron-Rod-Household-Automotive-Repair-And-Inspection-Tool-Strong-Magnetic-Metal-Screw-Suction.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'Telescopic Magnetic Pickup With' ),
+    model_spec        ( 'Telescopic Magnetic Pickup With' ),
     EquipmentFeature::LIGHT,
     EquipmentFeature::TELESCOPIC_PICKUP_TOOL,
     EquipmentFeature::MAGNETIC_PICKUP_TOOL,
@@ -7266,7 +7272,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/S3f7538ec8ffa4e3c88fbf618a20d488eJ/100-50pcs-Knife-DIY-Wood-Carving-Fruit-Food-Scalpel-Craft-Sculpture-Cutting-Tool-Metal-Engraving-Blades.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'Knife' ),
+    model_spec        ( 'Knife' ),
     EquipmentFeature::BLADES,
   ),
   affiliate_link(
@@ -7293,7 +7299,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/Sdb463fd4cf7e4498b655cfc47a8934666/100pcs-Waterproof-Solder-Seal-Heat-Connector-Shrink-Butt-Connectors-Lug-Terminals-Electrical-Wire-Car-Insulated-Terminal.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'Heat Shrink' ),
+    model_spec        ( 'Heat Shrink' ),
     EquipmentFeature::WIRE_CONNECTORS,
     EquipmentFeature::HEAT_SHRINK,
   ),
@@ -7340,7 +7346,8 @@ equipment(
       link_text       ( 'XH Connector (PDF)' ),
     ),
     manufacturer_name  ( 'JST' ),
-    model_name         ( 'XH2.54 Pre-crimped' ),
+    model_name         ( 'XH2.54' ),
+    model_spec         ( 'Pre-crimped' ),
     EquipmentFeature::CONNECTOR_KIT,
     EquipmentFeature::CABLE,
     EquipmentAttribute::PRE_CRIMPED,
@@ -7370,7 +7377,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/S050b8aeeddae41fda1bb2e056d6d9be1V/4Pcs-160mm-Car-Auto-Vehicle-Oil-Seal-Screwdrivers-Set-O-Ring-Gasket-Puller-Remover-Pick-Hooks.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'Multifunction' ),
+    model_spec        ( 'Multifunction' ),
     EquipmentFeature::HOOK_TOOLS,
     EquipmentAttribute::HAND_TOOL,
   ),
@@ -7424,7 +7431,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/S8049f00eae0746a58cb5ac8c26fa99e9c/5PCs-Car-Audio-Trim-Removal-Tool-Kit-Anti-Scratch-Pry-Applicable-Car-Door-Panel-and-Audio.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name( 'Blue' ),
+    model_spec( 'Blue' ),
     EquipmentFeature::SPUDGERS,
   ),
   affiliate_link(
@@ -7485,7 +7492,8 @@ equipment(
       link_text       ( 'XH Connector (PDF)' ),
     ),
     manufacturer_name  ( 'JST' ),
-    model_name         ( 'XH2.54 6pin Pre-crimped' ),
+    model_name         ( 'XH2.54' ),
+    model_spec         ( '6pin Pre-crimped' ),
     EquipmentFeature::CONNECTOR,
     EquipmentAttribute::PRE_CRIMPED,
     EquipmentConnectivity::XH2_54,
@@ -7525,7 +7533,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/Scd875ba859e84bde9dc96d4ba64adee3n/6PCS-Metal-Crowbar-with-Two-Ends-Universal-Mobile-Phone-Digital-Home-Appliance-Product-Dismantling-Stick-Shell.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'Metal' ),
+    model_spec        ( 'Metal' ),
     EquipmentFeature::SPUDGERS,
   ),
   affiliate_link(
@@ -7556,7 +7564,8 @@ equipment(
       link_text       ( 'Victorinox Swiss Champ in red' ),
     ),
     manufacturer_name  ( 'Victorinox' ),
-    model_name         ( 'Swiss Champ Red' ),
+    model_name         ( 'Swiss Champ' ),
+    model_spec         ( 'Red' ),
     EquipmentFeature::SWISS_ARMY_KNIFE,
     EquipmentFeature::KNIFE,
     EquipmentFeature::REAMER,
@@ -7613,7 +7622,7 @@ equipment(
       link_text       ( 'Scotch™ Precision Ultra Edge Scissors, Blue, Green and Lavender, 8 in, 6/box, 6 boxes/Ctn, 1458TU-MIX' ),
     ),
     manufacturer_name ( 'Scotch' ),
-    model_name        ( 'Titanium' ),
+    model_spec        ( 'Titanium' ),
     EquipmentFeature::SCISSORS,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Scotch_Titanium_Scissors' ),
@@ -7682,7 +7691,8 @@ equipment(
   equipment_date( '2023-10-20' ),
   equipment_icon( 'https://ae01.alicdn.com/kf/S9521977181be4b90a8ffdbd1bbeed0027.jpg' ),
   equipment_item(
-    model_name        ( 'Aokin' ),
+    manufacturer_name  ( 'Aokin' ),
+    model_name         ( 'Model 170' ),
     EquipmentFeature::WIRE_CUTTER,
     EquipmentFeature::PLIERS,
     EquipmentAttribute::HEART,
@@ -7791,7 +7801,7 @@ equipment(
       link_text       ( 'Asometech' ),
     ),
     manufacturer_name  ( 'Asometech' ),
-    model_name         ( 'Universal' ),
+    model_spec         ( 'Universal' ),
     EquipmentFeature::STYLUS_PEN,
     EquipmentFeature::COSTUME,
   ),
@@ -7850,7 +7860,8 @@ equipment(
       link_text       ( 'Multi-Bit Electronics Pocket Screwdriver, 4-in-1, Ph., Sl. Bits (32614)' ),
     ),
     manufacturer_name  ( 'Klein Tools' ),
-    model_name         ( '32614 4-in-1 Multi-bit Precision' ),
+    model_name         ( '32614' ),
+    model_spec         ( '4-in-1 Multi-bit Precision' ),
     EquipmentFeature::POCKET_SCREWDRIVER,
     EquipmentFeature::SONIC_SCREWDRIVER,
     EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH0,
@@ -7886,7 +7897,7 @@ equipment(
       link_text       ( '2852 - Standard Coat' ),
     ),
     manufacturer_name  ( 'Portwest' ),
-    model_name         ( 'Standard' ),
+    model_spec         ( 'Standard' ),
     EquipmentFeature::LAB_COAT,
     EquipmentFeature::COSTUME,
   ),
@@ -7918,7 +7929,7 @@ equipment(
       link_text       ( 'See diodrio on Amazon' ),
     ),
     manufacturer_name  ( 'Diodrio' ),
-    model_name         ( 'Leather' ),
+    model_spec         ( 'Leather' ),
     EquipmentFeature::POCKET_PROTECTOR,
     EquipmentFeature::COSTUME,
   ),
@@ -7983,7 +7994,7 @@ equipment(
       link_text       ( 'See YOUOWO on Amazon' ),
     ),
     manufacturer_name  ( 'YOUOWO' ),
-    model_name         ( 'ID' ),
+    model_spec         ( 'ID' ),
     EquipmentFeature::BADGE_HOLDER,
     EquipmentFeature::COSTUME,
   ),
@@ -8012,7 +8023,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/Sae49d749526943ca9f58bea838cccad3i/50Pcs-Painting-Brushes-Set-Art-Round-Flat-Hair-Nylon-Hair-Paint-Brush-for-Oil-Acrylic-Watercolor.jpg_640x640.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'Yutiars' ),
-    model_name         ( 'Round' ),
+    model_spec         ( 'Round' ),
     EquipmentFeature::PAINT_BRUSHES,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yutiars_Round_Paint_Brush_Set' ),
@@ -8041,7 +8052,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/S82f8e3c86a1b40aab3335dd06a9b6ac0q/50Pcs-Painting-Brushes-Set-Art-Round-Flat-Hair-Nylon-Hair-Paint-Brush-for-Oil-Acrylic-Watercolor.jpg_640x640.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'Yutiars' ),
-    model_name         ( 'Flat' ),
+    model_spec         ( 'Flat' ),
     EquipmentFeature::PAINT_BRUSHES,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yutiars_Flat_Paint_Brush_Set' ),
@@ -8070,7 +8081,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/S85fb88309d6f4baf8855a9ad40052b05W/3pcs-Drill-Brush-Attachment-Set-Power-Scrubber-Brush-With-Drill-Scrub-Brush-For-Cleaning-Showers-Tubs.jpeg_640x640.jpeg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( '3pcs Drill' ),
+    model_spec        ( '3pcs Drill' ),
     EquipmentFeature::SCRUB_BRUSH,
     EquipmentFeature::DRILL_BIT,
   ),
@@ -8100,7 +8111,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/S1b5fdfc88f7d46cfbc7ac7b44e9e7fafG/500pcs-100pcs-Per-Pack-5-Packs-Double-ended-Cotton-Swabs-Baby-Cotton-Swabs-Ear-Cleaning-Sticks.jpg_640x640.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'Double-ended' ),
+    model_spec        ( 'Double-ended' ),
     EquipmentFeature::COTTON_SWABS,
   ),
   affiliate_link(
@@ -8128,7 +8139,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/S3311b3bda6a84f3cb3fbd5b43ca9debeW/Small-Screwdriver-Set-30-Mini-Magnetic-Precision-Screwdriver-Drill-Set-Star-Y-Club-Triangle-Cross-Slotted.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( 'Mini Magnetic' ),
+    model_spec         ( 'Mini Magnetic' ),
     EquipmentFeature::PRECISION_SCREWDRIVER_SET,
     EquipmentFeature::MINI_SCREWDRIVER_SET,
     EquipmentFeature::DRILL_BIT,
@@ -8191,7 +8202,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/S844c5cc3670848f9a899d95800b649544/29-In-1-Mini-Precision-Screwdriver-Tool-Kit-Portable-Screwdriver-Bits-Tool-Set-Pocket-Tools-Professional.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( '29 In 1 Mini' ),
+    model_spec         ( '29 In 1 Mini' ),
     EquipmentFeature::PRECISION_SCREWDRIVER_SET,
     EquipmentFeature::MINI_SCREWDRIVER_SET,
 
@@ -8254,7 +8265,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/Sdcd112c1a41f45189877fb5a73fda5b6F/2pcs-Magnetic-Soft-Jaw-Pads-4-5-6-Inch-For-Metal-Vise-Bench-Machine-Tools-Vise.jpeg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( '2pcs Magnetic Soft Vise' ),
+    model_spec         ( '2pcs Magnetic Soft Vise' ),
     EquipmentFeature::JAW_PADS,
     EquipmentFeature::VISE,
     EquipmentAttribute::MAGNETIC,
@@ -8286,7 +8297,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/S7c2e77628d1a401b8a487d6ce4f4ea09w/10pcs-Magic-Sponge-Wipe-Melamine-Foam-Sponge-Household-Cleaning-Sponge-Kitchen-Cleaning-Sponge-Car-Wash-Sponge.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( '10pcs Magic' ),
+    model_spec         ( '10pcs Magic' ),
     EquipmentFeature::FOAM_SPONGE,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_10pcs_Magic_Foam_Sponge' ),
@@ -8315,7 +8326,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/Sd3c7b9c0fa7f41688e526630a7fb0f10d/1-5-Stain-Grease-Cleaner-Grill-Cleaning-Bricks-Grill-Cleaning-Stone-Grill-Grill-Grill-Tools-Kitchen.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( '2pcs Grease Cleaner' ),
+    model_spec         ( '2pcs Grease Cleaner' ),
     EquipmentFeature::CLEANING_BRICKS,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_2pcs_Grease_Cleaner_Cleaning_Bricks' ),
@@ -8344,7 +8355,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/Sde6e8781d1c642149a798d746fc85ca95/Gold-Silver-Metallic-Marker-Pen-Waterproof-Permanent-Paint-Marker-Pen-for-Rock-Mug-Ceramic-Glass-DIY.jpg_640x640.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( 'Metallic' ),
+    model_spec         ( 'Metallic' ),
     EquipmentFeature::CRAFTWORK_PEN,
     EquipmentFeature::BRUSH,
   ),
@@ -8415,7 +8426,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/Sc67f481627db457c9e35e4f6f6f5b630Q/Multi-function-Tool-Wire-Brush-Copper-Plated-Stainless-Steel-Brush-1PCS-Long-Handle-Kitchen-Grill-Special.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( 'Long Handle' ),
+    model_spec         ( 'Long Handle' ),
     EquipmentFeature::WIRE_BRUSH,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Long_Handle_Wire_Brush' ),
@@ -8473,7 +8484,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/S9cca1ce2e5114e7080552b06f37ff4d3k/5pcs-Crevice-Cleaning-Brush-Multifunctional-Gap-Cleaning-Brush-Tool-Bathroom-Gap-Brush-Grout-Cleaner-Brush-Hard.png_640x640.png_.webp' ),
   equipment_item(
     manufacturer_name  ( 'Damotk' ),
-    model_name         ( '5pcs Crevice' ),
+    model_spec         ( '5pcs Crevice' ),
     EquipmentFeature::CLEANING_BRUSH,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Damotk_5pcs_Crevice_Cleaning_Brush' ),
@@ -8502,7 +8513,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/S0d96c3033c0e4feb9cb58f47aa361e1aK/1-20Pcs-Microfiber-Towels-Car-Wash-Drying-Cloth-Towel-Household-Cleaning-Cloths-Auto-Detailing-Polishing-Cloth.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( '10pcs Blue' ),
+    model_spec         ( '10pcs Blue' ),
     EquipmentFeature::MICROFIBER_CLOTH,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_10pcs_Blue_Microfiber_Cloth' ),
@@ -8531,7 +8542,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/Se9c2ba08e97f46f49346ed74eab274ddi/Heavy-Duty-Stainless-Steel-Wire-Brush-with-Comfortable-Plastic-Handle-Perfect-for-Removing-Rust-Welding-Slag.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( 'Heavy Duty Stainless Steel' ),
+    model_spec         ( 'Heavy Duty Stainless Steel' ),
     EquipmentFeature::WIRE_BRUSH,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Heavy_Duty_Stainless_Steel_Wire_Brush' ),
@@ -8560,7 +8571,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/S783ed641adb54e68b7520655e4327670u/Deburring-External-Chamfer-Tool-Metal-Hex-Triangle-Trimming-Drill-Bit-for-Stainless-Steel-Copper-Screw-Fast.jpg_640x640.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'aToolTour' ),
-    model_name         ( 'Black Hexagon' ),
+    model_spec         ( 'Black Hexagon' ),
     EquipmentFeature::DEBURRING_DRILL_BIT,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/AToolTour_Black_Hexagon_Deburring_Drill_Bit' ),
@@ -8589,7 +8600,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/Sa25722e8ddcc471b84c57ca38dc9f5b74/4Pcs-Set-30mm-Deep-Hole-Long-Nib-Head-Markers-For-Metal-Perforating-Pen-Waterproof-Bathroom-Woodworking.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( '4pcs 30mm' ),
+    model_spec         ( '4pcs 30mm' ),
     EquipmentFeature::DEEP_HOLE_PEN,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_4pcs_30mm_Deep_Hole_Pen' ),
@@ -8618,7 +8629,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/Scc7a14aa198b48e9bcb8c0d15335cd7dp/6-Or12-Pcs-Industrial-Toothbrush-Mini-Copper-Steel-Wire-Brush-Stainless-Steel-Wire-Brush-Dirt-Hard.jpg_640x640.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( '6pcs' ),
+    model_spec         ( '6pcs' ),
     EquipmentFeature::WIRE_BRUSH,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_6pcs_Wire_Brush' ),
@@ -8647,7 +8658,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/S3355beb69e274afba2d4998ffea50000E/1-Set-Precision-Screwdriver-Set-25-In-1-Repair-Tool-Kit-Small-Screwdriver-Set-Star-Y.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'Ausum' ),
-    model_name         ( '25 In 1' ),
+    model_spec         ( '25 In 1' ),
     EquipmentFeature::PRECISION_SCREWDRIVER_SET,
     EquipmentFeature::MINI_SCREWDRIVER_SET,
 
@@ -8706,7 +8717,8 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/S6d35e58c861f417a90fe58133a13a8135/3-4-6-Magnetic-Tray-Circular-Magnetic-Parts-Bowl-Screw-Storage-Tray-Stainless-Steel-Tools-Tray.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'MOKIN' ),
-    model_name         ( 'CMO-346 3-inch' ),
+    model_name         ( 'CMO-346' ),
+    model_spec         ( '3-inch' ),
     EquipmentFeature::MAGNETIC_TRAY,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/MOKIN_CMO-346_3_inch_Magnetic_Tray' ),
@@ -8735,7 +8747,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/Saa732a0b4eb54f22b37c2a86ddacf3dc0/HZY-3D-Printer-Parts-ABS-Welding-Wire-Fixture-with-Two-Large-Suction-Magnets-Bracket-Welding-Clamp.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'TOOKKS' ),
-    model_name         ( 'HZY ABS' ),
+    model_spec         ( 'HZY ABS' ),
     EquipmentFeature::WIRE_FIXTURE,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/TOOKKS_HZY_ABS_Wire_Fixture' ),
@@ -8809,7 +8821,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/S250e65aed7274e958322b8992f4c5b5b4/100pc-Twist-Drill-1-3mm-Hand-Electric-Drill-DIY-Woodwork-Drill-Titanium-Plated-Natural-Color-Drill.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( '100pc Titanium Plated' ),
+    model_spec         ( '100pc Titanium Plated' ),
     EquipmentFeature::DRILL_BITS,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_100pc_Titanium_Plated_Drill_Bits' ),
@@ -8844,7 +8856,7 @@ equipment(
     EquipmentAttribute::HEART,
   ),
   sixsigma_url    ( 'https://www.jj5.net/wiki/Plato_Model_170_Wire_Cutters' ),
-  see_also        ( 'Aokin Wire Cutter' ),
+  see_also        ( 'Aokin Model 170 Wire Cutter' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005006082115374.html' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_DdyxCNV' ),
@@ -8870,7 +8882,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/S816e862d4c5b49c5bcb65e72322daa8be/Universal-Handheld-Quick-Stripper-Decrustation-Plier-Adjustable-Electric-Wire-Cable-Peel-Wire-Cable-Cutter-Stripping-hand.jpg_640x640.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( 'Universal Handheld' ),
+    model_spec         ( 'Universal Handheld' ),
     EquipmentFeature::WIRE_STRIPPER,
     EquipmentFeature::PLIERS,
   ),
@@ -8902,7 +8914,7 @@ equipment(
     //manufacturer_name  ( 'ANENG' ),
     //model_name         ( 'M469D' ),
     manufacturer_name  ( 'Ampcom' ),
-    model_name         ( 'Automatic' ),
+    model_spec         ( 'Automatic' ),
     EquipmentFeature::NETWORK_CABLE_TESTER,
   ),
   see_also      ( 'OULLX NSS-681HDMI-RJ45 Network Cable Tester' ),
@@ -8992,7 +9004,8 @@ equipment(
       link_text       ( 'Arlec PB91 (PDF)' ),
     ),
     manufacturer_name  ( 'Arlec' ),
-    model_name         ( 'PB91 Plug-In RCD Safety Switch With' ),
+    model_name         ( 'PB91' ),
+    model_spec         ( 'Plug-In RCD Safety Switch With' ),
     EquipmentFeature::SURGE_PROTECTOR,
     EquipmentFeature::RESIDUAL_CURRENT_DEVICE,
   ),
@@ -9022,7 +9035,7 @@ equipment(
       link_text       ( 'Sandleford Funnel Set 4 PC' ),
     ),
     manufacturer_name  ( 'Sandleford' ),
-    model_name         ( '4 Piece' ),
+    model_spec         ( '4 Piece' ),
     EquipmentFeature::FUNNEL_SET,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Sandleford_4_Piece_Funnel_Set' ),
@@ -9047,7 +9060,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/Sdeb0d4d3e98c4abfa49275bf01e84b06r/100pcs-Releasable-Cable-Organizer-Ties-Mouse-Earphones-Wire-Management-Nylon-Cable-Ties-Reusable-Loop-Hoop-Tape.png_.webp' ),
   equipment_item(
     manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( '100pcs Releasable' ),
+    model_spec         ( '100pcs Releasable' ),
     EquipmentFeature::CABLE_ORGANIZER,
   ),
   affiliate_link(
@@ -9151,7 +9164,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/S573df8e86d3b4058893c22f50821c590z/1-Pack-Nylon-Mini-Drill-Abrasive-Brush-2-35mm-3mm-Shank-Buffing-Polishing-Wheel-Rust-Remover.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( 'Nylon Buff' ),
+    model_spec         ( 'Nylon Buff' ),
     EquipmentFeature::ROTARY_ABRASIVE_BRUSH,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Nylon_Abrasive_Brush' ),
@@ -9180,7 +9193,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/S38760e1018a349bda6b67eb97cedf68f9/20Pcs-5mm-Brass-Wire-Brushes-Rotary-Wire-Wheel-Pencil-Polising-Brushes-For-Power-Drill-Tool-Foredom.jpeg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'VIBRATITE' ),
-    model_name         ( '5mm Brass' ),
+    model_spec         ( '5mm Brass' ),
     EquipmentFeature::ROTARY_WIRE_BRUSH,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/VIBRATITE_5mm_Brass_Rotary_Wire_Brush' ),
@@ -9207,7 +9220,7 @@ equipment(
   equipment_icon( 'https://ae01.alicdn.com/kf/Sa77e352cbc1a457aa65d72e613fb1aa2p/10-20pc-Dual-Purpose-Sanding-Sticks-Precision-Frosted-Tips-Flat-Head-Ideal-for-Crafts-Model-Making.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( 'Dual-Purpose' ),
+    model_spec         ( 'Dual-Purpose' ),
     EquipmentFeature::SANDING_STICK,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Dual-Purpose_Sanding_Sticks' ),
@@ -9236,7 +9249,8 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/Mk8AAOSwqR1l84Gk/s-l1600.jpg' ),
   equipment_item(
     manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( 'HSC8 6-4A' ),
+    model_name         ( 'HSC8' ),
+    model_spec         ( '6-4A' ),
     EquipmentFeature::FERRULE_CRIMPER_KIT,
     EquipmentFeature::PLIERS,
   ),
@@ -9263,7 +9277,7 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Se16f3cab1d944ce6ae32ecdb33c1309bg/Drill-Bit-Holder-Extension-Magnetic-Extra-Long-Shank-Quick-Release-Driver-1-4inch-Bar-attachment-Adapter.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'aToolTour' ),
-    model_name         ( 'Extra Long Magnetic' ),
+    model_spec         ( 'Extra Long Magnetic' ),
     EquipmentFeature::DRILL_BIT_EXTENSION,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/AToolTour_Extra_Long_Magnetic_Drill_Bit_Extension' ),
@@ -9292,7 +9306,7 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sd8787a2a58404b148fc43f93d71a86f5D/Steel-Wire-Pliers-Multifunctional-Industrial-Grade-Pointed-Nose-Pliers-Diagonal-Pliers-Cable-Pliers-Electrical-Pliers.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( '9-Inch' ),
+    model_spec         ( '9-Inch' ),
     EquipmentFeature::NEEDLE_NOSE_PLIERS,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_9-Inch_Needle_Nose_Pliers' ),
@@ -9321,7 +9335,7 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sf4e51e80dbd0476baeddd95d85c85968H/500g-0-01g-Portable-mini-jewelry-scale-Personal-pocket-scale-high-precision-electronic-scale-500g-0.jpg_.webp' ),
   equipment_item(
     manufacturer_name  ( 'Yum Cha' ),
-    model_name         ( 'Mini High-Precision' ),
+    model_spec         ( 'Mini High-Precision' ),
     EquipmentFeature::ELECTRONIC_SCALE,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_Mini_High-Precision_Electronic_Scale' ),
@@ -9350,7 +9364,7 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S271901349ce04d6a99af4f99f7d2d9b9T/52-in-1-Tools-Socket-Works-Universal-Ratchet-Spline-Bolts-Sleeve-Rotation-Hand-Tools-360-Degree.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( '52 in 1' ),
+    model_spec        ( '52 in 1' ),
     EquipmentFeature::TIGER_WRENCH,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_52_in_1_Tiger_Wrench' ),
@@ -9379,7 +9393,7 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S43e701a1bd22424c823f5930b8aba2ccP/AIRAJ-3-Pcs-Locking-Pliers-Welding-Tools-7-Carbon-Steel-Pliers-Industry-Round-Mouth-Vise-High.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'AIRAJ' ),
-    model_name        ( '3-Pcs 7-inch' ),
+    model_spec        ( '3-Pcs 7-inch' ),
     EquipmentFeature::LOCKING_PLIERS,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/AIRAJ_3-Pcs_7-inch_Locking_Pliers' ),
@@ -9408,7 +9422,7 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S9daa7b36c156444b94702536241f2d55j/58PCS-Stainless-Steel-Pitch-Scale-High-Precision-Measuring-Tool-Insert-U-S-Screw-Gauge-Metric-Inch.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( '58-pcs Stainless Steel' ),
+    model_spec        ( '58-pcs Stainless Steel' ),
     EquipmentFeature::THREAD_PITCH_GAUGE,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_58-pcs_Stainless_Steel_Thread_Pitch_Gauge' ),
@@ -9437,7 +9451,7 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S9271a8406da743d8bda06fc68be998cc8/1pc-Multifunctional-Wire-Strippers-Electrician-Crimping-Wire-Stripping-Pliers-Hardware-Tools-Universal-Wire-Cutting-Pliers.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Oudisi' ),
-    model_name        ( '9-inch 16 in 1' ),
+    model_spec        ( '9-inch 16 in 1' ),
     EquipmentFeature::WIRE_STRIPPER,
     EquipmentFeature::PLIERS,
   ),
@@ -9467,7 +9481,7 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S6a108f393d5f416f928807cd623ea1b2Z/32-Piece-Combination-Feeler-Gauge.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( '32 Piece' ),
+    model_spec        ( '32 Piece' ),
     EquipmentFeature::FEELER_GAUGE,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_32_Piece_Feeler_Gauge' ),
@@ -9524,7 +9538,7 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Se88597c1ae964d509c0f53a6ff0bb5bc5/L-shaped-1-4-Hexagonal-Screwdriver-Bit-90-Degree-Double-Head-Handle-Black-6-35-Wrench.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'L-shaped' ),
+    model_spec        ( 'L-shaped' ),
     EquipmentFeature::SCREWDRIVER,
     EquipmentFeature::ADAPTER,
     EquipmentFeature::FLATHEAD_SCREWDRIVER_SL4,
@@ -9702,7 +9716,7 @@ equipment(
   equipment_icon( 'https://cdn.shopify.com/s/files/1/0362/9223/1306/products/store_5bcbbce1-4a4e-4478-9b23-007e4368e81f.jpg?v=1585570145' ),
   equipment_item(
     manufacturer_name ( 'TEAC' ),
-    model_name        ( '19"' ),
+    model_spec        ( '19"' ),
     EquipmentFeature::TELEVISION,
   ),
   sixsigma_url  ( '' ),
@@ -9801,7 +9815,7 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/5CYAAOSwe~VfMJ~w/s-l1600.jpg' ),
   equipment_item(
     manufacturer_name ( 'Swann & Morten' ),
-    model_name        ( 'Handle For No. 10 10A 11 15 15A' ),
+    model_spec        ( 'Handle For No. 10 10A 11 15 15A' ),
     EquipmentFeature::SCALPEL_HANDLE,
   ),
   sixsigma_url  ( '' ),
@@ -9827,7 +9841,8 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/ecUAAOSwsuxiZjsA/s-l1600.jpg' ),
   equipment_item(
     manufacturer_name ( 'Swann & Morten' ),
-    model_name        ( '20pcs No.10' ),
+    model_spec        ( '20pcs' ),
+    model_name        ( 'No.10' ),
     EquipmentFeature::SCALPEL_BLADE,
   ),
   sixsigma_url  ( '' ),
@@ -9853,7 +9868,8 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/AXkAAOSwLo1iZjsn/s-l1600.jpg' ),
   equipment_item(
     manufacturer_name ( 'Swann & Morten' ),
-    model_name        ( '20pcs No.15' ),
+    model_spec        ( '20pcs' ),
+    model_name        ( 'No.15' ),
     EquipmentFeature::SCALPEL_BLADE,
   ),
   sixsigma_url  ( '' ),
@@ -9879,7 +9895,8 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/neEAAOSwXlNiZjs3/s-l1600.jpg' ),
   equipment_item(
     manufacturer_name ( 'Swann & Morten' ),
-    model_name        ( '20pcs No.15C' ),
+    model_spec        ( '20pcs' ),
+    model_name        ( 'No.15C' ),
     EquipmentFeature::SCALPEL_BLADE,
   ),
   sixsigma_url  ( '' ),
@@ -9905,7 +9922,7 @@ equipment(
   equipment_icon( 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fonline.laceys.tv%2Fproductimages%2FLCD212.jpg&f=1&nofb=1&ipt=9c312d6708ecd5508b59033c4639ee0741d6ed64bc54e816db140a6a08bda879&ipo=images' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( '100x100 200X200mm' ),
+    model_spec        ( '100x100 200X200mm' ),
     EquipmentFeature::VESA_WALL_MOUNT,
   ),
   sixsigma_url  ( '' ),
@@ -9930,7 +9947,7 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/qFoAAOSwT2lhRUWh/s-l1600.jpg' ),
   equipment_item(
     manufacturer_name ( '3ELIGHTING' ),
-    model_name        ( '14"-42"' ),
+    model_spec        ( '14"-42"' ),
     EquipmentFeature::VESA_WALL_MOUNT,
   ),
   sixsigma_url  ( '' ),
@@ -9958,7 +9975,7 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/oeoAAOSwAHFhUxMF/s-l1600.jpg' ),
   equipment_item(
     manufacturer_name ( '3ELIGHTING' ),
-    model_name        ( '14"-27" With 2 Arms' ),
+    model_spec        ( '14"-27" With 2 Arms' ),
     EquipmentFeature::VESA_WALL_MOUNT,
   ),
   sixsigma_url  ( '' ),
@@ -9986,7 +10003,7 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/fjMAAOSwGGRhUxC4/s-l1600.jpg' ),
   equipment_item(
     manufacturer_name ( '3ELIGHTING' ),
-    model_name        ( '14"-27"' ),
+    model_spec        ( '14"-27"' ),
     EquipmentFeature::VESA_WALL_MOUNT,
   ),
   sixsigma_url  ( '' ),
@@ -10014,7 +10031,7 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/zP0AAOSwGQpe9aDM/s-l1600.jpg' ),
   equipment_item(
     manufacturer_name ( '3ELIGHTING' ),
-    model_name        ( '10"-26"' ),
+    model_spec        ( '10"-26"' ),
     EquipmentFeature::VESA_WALL_MOUNT,
   ),
   sixsigma_url  ( '' ),
@@ -10071,7 +10088,7 @@ equipment(
   equipment_icon( 'https://www.wasdkeyboards.com/media/catalog/product/cache/cee7a71fd82c474592eb38179a21d892/1/0/104-1.jpg' ),
   equipment_item(
     manufacturer_name ( 'WASD Keyboards' ),
-    model_name        ( '17" Soft Foam' ),
+    model_spec        ( '17" Soft Foam' ),
     EquipmentFeature::KEYBOARD_WRIST_PAD,
   ),
   sixsigma_url  ( '' ),
@@ -10508,7 +10525,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71SfBNsFB9L._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'GANA' ),
-    model_name        ( 'Mini AV2HDMI Up Scaler 1080p' ),
+    model_spec        ( 'Mini AV2HDMI Up Scaler 1080p' ),
     EquipmentFeature::RCA_TO_HDMI_ADAPTER,
   ),
   sixsigma_url  ( '' ),
@@ -10540,7 +10557,7 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/MZoAAOSwNCNkDZ7D/s-l1600.jpg' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'HD Webcam with Mic' ),
+    model_spec        ( 'HD Webcam with Mic' ),
     EquipmentFeature::USB_CAMERA,
   ),
   sixsigma_url  ( '' ),
@@ -10566,7 +10583,7 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/sSEAAOSw8YtjmCKT/s-l500.jpg' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( '13MP HD Webcam With Mic' ),
+    model_spec        ( '13MP HD Webcam With Mic' ),
     EquipmentFeature::USB_CAMERA,
   ),
   sixsigma_url  ( '' ),
@@ -10620,7 +10637,7 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/GHMAAOSwRY5kEZkE/s-l500.jpg' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( '4K HDMI USB 3.0' ),
+    model_spec        ( '4K HDMI USB 3.0' ),
     EquipmentFeature::HDMI_TO_USB_ADAPTER,
   ),
   sixsigma_url  ( '' ),
@@ -10647,7 +10664,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71IPEXNXxuL._SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'AOOCOO' ),
-    model_name        ( '4K @60Hz USB 3.0 4-Port' ),
+    model_spec        ( '4K @60Hz USB 3.0 4-Port' ),
     EquipmentFeature::HDMI_KVM,
   ),
   sixsigma_url  ( '' ),
@@ -10674,7 +10691,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/61ZzhqNiVoL._SL1196_.jpg' ),
   equipment_item(
     manufacturer_name ( 'AOOCOO' ),
-    model_name        ( '4K @60Hz USB 2.0 4-Port' ),
+    model_spec        ( '4K @60Hz USB 2.0 4-Port' ),
     EquipmentFeature::HDMI_KVM,
   ),
   sixsigma_url  ( '' ),
@@ -10701,7 +10718,7 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/IycAAOSwrTVjFnHI/s-l500.jpg' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'USB 3.0 2-Port' ),
+    model_spec        ( 'USB 3.0 2-Port' ),
     EquipmentFeature::USB_SWITCH,
   ),
   sixsigma_url  ( '' ),
@@ -10735,7 +10752,7 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S3eb132a31ff34759839e09432bedfb23n.jpg_640x640.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'RV77' ),
-    model_name        ( '4K HDMI USB 2.0 4-Port' ),
+    model_spec        ( '4K HDMI USB 2.0 4-Port' ),
     EquipmentFeature::HDMI_KVM,
   ),
   sixsigma_url  ( '' ),
@@ -10763,7 +10780,7 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/44sAAOSws0lihbt~/s-l1600.jpg' ),
   equipment_item(
     manufacturer_name ( 'HDmatters' ),
-    model_name        ( '4K HDMI USB 2.0 4-Port' ),
+    model_spec        ( '4K HDMI USB 2.0 4-Port' ),
     EquipmentFeature::HDMI_KVM,
   ),
   sixsigma_url  ( '' ),
@@ -10792,7 +10809,7 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/QBoAAOSwVOBfPhvs/s-l500.jpg' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( '4K 3-Way' ),
+    model_spec        ( '4K 3-Way' ),
     EquipmentFeature::HDMI_SWITCH,
     EquipmentFeature::CABLE,
   ),
@@ -10821,7 +10838,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71NdzPCfOLL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'GKRONG' ),
-    model_name        ( '8K 5-In 1-Out' ),
+    model_spec        ( '8K 5-In 1-Out' ),
     EquipmentFeature::HDMI_SWITCH,
   ),
   sixsigma_url  ( '' ),
@@ -10882,7 +10899,7 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/u70AAOSwRa1kCYaN/s-l500.jpg' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( '11 in 1 USB-C Hub' ),
+    model_spec        ( '11 in 1 USB-C Hub' ),
     EquipmentFeature::USB_HUB,
     EquipmentConnectivity::HDMI,
     EquipmentConnectivity::VGA,
@@ -10926,7 +10943,7 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/02sAAOSwa6ZjRS~R/s-l500.jpg' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'USB 3.0 Powered 4-Port' ),
+    model_spec        ( 'USB 3.0 Powered 4-Port' ),
     EquipmentFeature::USB_HUB,
   ),
   sixsigma_url  ( '' ),
@@ -10954,7 +10971,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71hl5VqkhOL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'Tendak' ),
-    model_name        ( 'USB 3.0 Powered 4-Port' ),
+    model_spec        ( 'USB 3.0 Powered 4-Port' ),
     EquipmentFeature::USB_HUB,
   ),
   sixsigma_url  ( '' ),
@@ -10998,7 +11015,8 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/61wRaJdxqML._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'ORICO' ),
-    model_name        ( 'PW11-9P-RG-EP-US USB 3.0 Powered 4-Port' ),
+    model_name        ( 'PW11-9P-RG-EP-US' ),
+    model_spec        ( 'USB 3.0 Powered 4-Port' ),
     EquipmentFeature::USB_HUB,
   ),
   sixsigma_url  ( '' ),
@@ -11025,7 +11043,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/511OtQj+QxL._AC_.jpg' ),
   equipment_item(
     manufacturer_name ( 'TAVICE' ),
-    model_name        ( '1-In 2-Out' ),
+    model_spec        ( '1-In 2-Out' ),
     EquipmentFeature::HDMI_SPLITTER,
     EquipmentFeature::CABLE,
   ),
@@ -11051,7 +11069,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/417EVUHy5QL.jpg' ),
   equipment_item(
     manufacturer_name ( 'ZYa' ),
-    model_name        ( '1-In 2-Out' ),
+    model_spec        ( '1-In 2-Out' ),
     EquipmentFeature::HDMI_SPLITTER,
     EquipmentFeature::CABLE,
   ),
@@ -11077,7 +11095,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/51P7dveQu3L._AC_SL1200_.jpg' ),
   equipment_item(
     manufacturer_name ( 'Cablecc' ),
-    model_name        ( '1-In 2-Out' ),
+    model_spec        ( '1-In 2-Out' ),
     EquipmentFeature::HDMI_SPLITTER,
     EquipmentFeature::CABLE,
   ),
@@ -11103,7 +11121,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/61x8aSIQpSL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'EXSHOW' ),
-    model_name        ( 'Long Arm' ),
+    model_spec        ( 'Long Arm' ),
     EquipmentFeature::WEBCAM_WALL_MOUNT,
   ),
   sixsigma_url  ( '' ),
@@ -11146,7 +11164,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/51me944heYL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'Grestar' ),
-    model_name        ( 'Flexible' ),
+    model_spec        ( 'Flexible' ),
     EquipmentFeature::WEBCAM_STAND,
   ),
   sixsigma_url  ( '' ),
@@ -11172,7 +11190,8 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/61aWCGekJbL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'Acetaken' ),
-    model_name        ( '25WMGRS-002 Gooseneck Clamp' ),
+    model_name        ( '25WMGRS-002' ),
+    model_spec        ( 'Gooseneck Clamp' ),
     EquipmentFeature::WEBCAM_STAND,
   ),
   sixsigma_url  ( '' ),
@@ -11207,7 +11226,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/61x4HP+zeFL._AC_SL1200_.jpg' ),
   equipment_item(
     manufacturer_name ( 'T Tersely' ),
-    model_name        ( 'USB 3.0 Powered Individual Power Switches and LEDs 7-Port' ),
+    model_spec        ( 'USB 3.0 Powered Individual Power Switches and LEDs 7-Port' ),
     EquipmentFeature::USB_HUB,
   ),
   sixsigma_url  ( '' ),
@@ -11241,7 +11260,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/615Mro2KlFL._AC_SL1001_.jpg' ),
   equipment_item(
     manufacturer_name ( 'Wakects' ),
-    model_name        ( 'Wakects-pvo4k6erfz' ),
+    model_name        ( 'pvo4k6erfz' ),
     EquipmentFeature::SOLDER_POT,
   ),
   sixsigma_url  ( '' ),
@@ -11266,7 +11285,8 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71jkOBsd+rL._AC_SL1417_.jpg' ),
   equipment_item(
     manufacturer_name ( 'Eversure' ),
-    model_name        ( 'Hogdseirrs 10660192 4-Outlet' ),
+    model_name        ( 'Hogdseirrs 10660192' ),
+    model_spec        ( '4-Outlet' ),
     EquipmentFeature::POWER_BOARD,
   ),
   sixsigma_url  ( '' ),
@@ -11304,7 +11324,7 @@ equipment(
       link_text       ( 'V-Line Drill- and Screwdriver Bit Set TiN-coated 91 pieces with ratchet and magnet' ),
     ),
     manufacturer_name ( 'Bosch' ),
-    model_name        ( '91-Piece V-Line Titanium Drill Bit and Screwdriver Bit Set with Ratcheting Screwdriver' ),
+    model_spec        ( '91-Piece V-Line Titanium Drill Bit and Screwdriver Bit Set with Ratcheting Screwdriver' ),
     EquipmentFeature::ROTARY_TOOL_ACCESSORY_SET,
     EquipmentFeature::SCREWDRIVER,
     EquipmentFeature::RATCHET_SCREWDRIVER,
@@ -11389,7 +11409,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/51WNT9MnDwL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'Mcbazel' ),
-    model_name        ( 'Mini Tri-Wing and Philips' ),
+    model_spec        ( 'Mini Tri-Wing and Philips' ),
     EquipmentFeature::SCREWDRIVER_SET,
     EquipmentFeature::PHILLIPS_HEAD_SCREWDRIVER_PH000,
     EquipmentFeature::TRI_POINT_Y_SCREWDRIVER_Y00,
@@ -11416,7 +11436,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/61B4bgNlbsL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'Taessv' ),
-    model_name        ( 'Gamebit 3.8mm and 4.5mm Security' ),
+    model_spec        ( 'Gamebit 3.8mm and 4.5mm Security' ),
     EquipmentFeature::SCREWDRIVER_SET,
     EquipmentFeature::GAMEBIT_SCREWDRIVER_3_8,
     EquipmentFeature::GAMEBIT_SCREWDRIVER_4_5,
@@ -11443,7 +11463,8 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/518uC+XyEEL._AC_SL1000_.jpg' ),
   equipment_item(
     manufacturer_name ( 'TP-Link' ),
-    model_name        ( 'TL-SG108-M2 2.5Gbps 8-Port' ),
+    model_name        ( 'TL-SG108-M2' ),
+    model_spec        ( '2.5Gbps 8-Port' ),
     EquipmentFeature::UNMANAGED_ETHERNET_SWITCH,
   ),
   sixsigma_url  ( '' ),
@@ -11468,7 +11489,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/31kp0nei0eL._AC_SL1000_.jpg' ),
   equipment_item(
     manufacturer_name ( 'TAVICE' ),
-    model_name        ( '3.5-Inch' ),
+    model_spec        ( '3.5-Inch' ),
     EquipmentFeature::USB_FLOPPY_DRIVE,
   ),
   sixsigma_url  ( '' ),
@@ -11518,7 +11539,6 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71X2FB4e1ML._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'ZZBUY' ),
-    model_name        ( '' ),
     EquipmentFeature::ADJUSTABLE_WRENCH_SET,
     EquipmentFeature::ADJUSTABLE_WRENCH_6_INCH,
     EquipmentFeature::ADJUSTABLE_WRENCH_8_INCH,
@@ -11547,7 +11567,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/51opZ+CedzL._AC_SL1000_.jpg' ),
   equipment_item(
     manufacturer_name ( 'CREATMOR' ),
-    model_name        ( 'Universal AC 4-Outlet USB Power' ),
+    model_spec        ( 'Universal AC 4-Outlet USB Power' ),
     EquipmentFeature::POWER_BOARD,
   ),
   sixsigma_url  ( '' ),
@@ -11572,7 +11592,8 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71BCnGuTuBL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'LESAAD' ),
-    model_name        ( 'WD-16 8-Pack' ),
+    model_name        ( 'WD-16' ),
+    model_spec        ( '8-Pack' ),
     EquipmentFeature::UNIVERSAL_AC_ADAPER,
   ),
   sixsigma_url  ( '' ),
@@ -11597,7 +11618,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/51BqtNKjzrL._SY1600_.jpg' ),
   equipment_item(
     manufacturer_name ( 'CLISPEED' ),
-    model_name        ( '11-Piece' ),
+    model_spec        ( '11-Piece' ),
     EquipmentFeature::SCREWDRIVER_SET,
     EquipmentFeature::TORX_SCREWDRIVER_T7,
     EquipmentFeature::TORX_SCREWDRIVER_T8,
@@ -11631,7 +11652,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71i1ENng-nL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'HORUSDY' ),
-    model_name        ( '12-Piece Magnetic Torx' ),
+    model_spec        ( '12-Piece Magnetic Torx' ),
     EquipmentFeature::SCREWDRIVER_SET,
     EquipmentFeature::TORX_SCREWDRIVER_T6,
     EquipmentFeature::TORX_SCREWDRIVER_T7,
@@ -11668,7 +11689,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/712Nzwtl9wL._SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'KETAKY Plus' ),
-    model_name        ( 'Multi Charger Cable 2-In 4-Out USB-A USB-C USB-Micro Lightning' ),
+    model_spec        ( 'Multi Charger Cable 2-In 4-Out USB-A USB-C USB-Micro Lightning' ),
     EquipmentFeature::USB_POWER_CABLE,
   ),
   sixsigma_url  ( '' ),
@@ -11719,7 +11740,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71Z5tW1jfKS._AC_SL1346_.jpg' ),
   equipment_item(
     manufacturer_name ( 'HORUSDY' ),
-    model_name        ( '120-Piece' ),
+    model_spec        ( '120-Piece' ),
     EquipmentFeature::PEGBOARD_HOOK_SET,
   ),
   sixsigma_url  ( '' ),
@@ -11744,7 +11765,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/81-biNYnovL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'DFsucces' ),
-    model_name        ( '250-Piece' ),
+    model_spec        ( '250-Piece' ),
     EquipmentFeature::SEWING_PINS,
   ),
   sixsigma_url  ( '' ),
@@ -11769,7 +11790,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71BMPC1rGBL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'Phinus' ),
-    model_name        ( '1000-Piece Flat Head' ),
+    model_spec        ( '1000-Piece Flat Head' ),
     EquipmentFeature::SEWING_PINS,
   ),
   sixsigma_url  ( '' ),
@@ -11794,7 +11815,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71QdIeLSHjL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'SABRENT' ),
-    model_name        ( 'USB Type-C Tool-Free Enclosure M.2 PCIe NVMe and SATA SSD' ),
+    model_spec        ( 'USB Type-C Tool-Free Enclosure M.2 PCIe NVMe and SATA SSD' ),
     EquipmentFeature::USB_DRIVE,
   ),
   sixsigma_url  ( '' ),
@@ -11819,7 +11840,8 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71r3VoULzIL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'TREE.NB' ),
-    model_name        ( 'LW-045-231-195-002 19.5V 2.31A' ),
+    model_name        ( 'LW-045-231-195-002' ),
+    model_spec        ( '19.5V 2.31A' ),
     EquipmentFeature::AC_POWER_ADAPTER,
   ),
   sixsigma_url  ( '' ),
@@ -11844,7 +11866,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/61zedGqz4RL._SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'BOMEI PACK' ),
-    model_name        ( '3-Roll Black' ),
+    model_spec        ( '3-Roll Black' ),
     EquipmentFeature::GAFFER_TAPE,
   ),
   sixsigma_url  ( '' ),
@@ -11871,7 +11893,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71h67wGvKNL._AC_SL1000_.jpg' ),
   equipment_item(
     manufacturer_name ( 'ELEGOO' ),
-    model_name        ( '120-Piece Multicolored' ),
+    model_spec        ( '120-Piece Multicolored' ),
     EquipmentFeature::DUPONT_WIRE,
   ),
   sixsigma_url  ( '' ),
@@ -11931,7 +11953,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/518YbrwU2+L._AC_SL1001_.jpg' ),
   equipment_item(
     manufacturer_name ( 'Yakamoz' ),
-    model_name        ( 'Universal Mini Suction Vise Clamp 360 Degrees' ),
+    model_spec        ( 'Universal Mini Suction Vise Clamp 360 Degrees' ),
     EquipmentFeature::BENCH_VISE,
     EquipmentFeature::VACUUM_VISE,
   ),
@@ -11957,7 +11979,8 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71mP2Y3Mz3L._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'TP-Link' ),
-    model_name        ( 'TL-SG108S 1Gbps 8-Port' ),
+    model_name        ( 'TL-SG108S' ),
+    model_spec        ( '1Gbps 8-Port' ),
     EquipmentFeature::UNMANAGED_ETHERNET_SWITCH,
   ),
   sixsigma_url  ( '' ),
@@ -11982,7 +12005,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71WHnANkkpL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'NPW' ),
-    model_name        ( 'LED Retro' ),
+    model_spec        ( 'LED Retro' ),
     EquipmentFeature::ON_AIR_SIGN,
   ),
   sixsigma_url  ( '' ),
@@ -12007,7 +12030,8 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/41bS6%2B--QaL._SX1600_.jpg' ),
   equipment_item(
     manufacturer_name ( 'ASUS' ),
-    model_name        ( 'ROG Gladius II Ergonomic Optical Gaming' ),
+    model_name        ( 'ROG Gladius II' ),
+    model_spec        ( 'Ergonomic Optical Gaming' ),
     EquipmentFeature::USB_MOUSE,
   ),
   warning( 'I get the ROG Gladius II, not the newer ROG Gladius III' ),
@@ -12058,7 +12082,8 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71gZoP6CyBL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'ESSELTE' ),
-    model_name        ( '177039 Black 25-Sheet' ),
+    model_name        ( '177039' ),
+    model_spec        ( 'Black 25-Sheet' ),
     EquipmentFeature::HOLE_PUNCH,
   ),
   sixsigma_url  ( '' ),
@@ -12083,7 +12108,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/31vTxgrfAkL._AC_.jpg' ),
   equipment_item(
     manufacturer_name ( 'Yakamoz' ),
-    model_name        ( '1mm to 15mm' ),
+    model_spec        ( '1mm to 15mm' ),
     EquipmentFeature::TAPER_GAUGE,
   ),
   sixsigma_url  ( '' ),
@@ -12108,7 +12133,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/51k5LSKF+LL._AC_SL1000_.jpg' ),
   equipment_item(
     manufacturer_name ( 'Disenkelubo' ),
-    model_name        ( '30kg 1g' ),
+    model_spec        ( '30kg 1g' ),
     EquipmentFeature::ELECTRONIC_SCALE,
   ),
   sixsigma_url  ( '' ),
@@ -12133,7 +12158,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/61v35EuN3ZL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'KFD' ),
-    model_name        ( '12V 5A' ),
+    model_spec        ( '12V 5A' ),
     EquipmentFeature::AC_POWER_ADAPTER,
   ),
   sixsigma_url  ( '' ),
@@ -12185,7 +12210,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/51jttJrVpeL._AC_SL1024_.jpg' ),
   equipment_item(
     manufacturer_name ( 'freneci' ),
-    model_name        ( 'Mechanical Gaming Keyboard with 87-Keys RGB Backlit' ),
+    model_spec        ( 'Mechanical Gaming Keyboard with 87-Keys RGB Backlit' ),
     EquipmentFeature::USB_KEYBOARD,
     EquipmentFeature::MECHANICAL_KEYBOARD,
   ),
@@ -12220,7 +12245,8 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/410mNSAbUdL._AC_SL1280_.jpg' ),
   equipment_item(
     manufacturer_name ( 'ACCO Brands' ),
-    model_name        ( 'ESSELTE 45790  30-Litre Black' ),
+    model_name        ( 'ESSELTE 45790' ),
+    model_spec        ( '30-Litre Black' ),
     EquipmentFeature::BIN,
   ),
   sixsigma_url  ( '' ),
@@ -12281,7 +12307,8 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71m3UaZ0TOL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'OXO' ),
-    model_name        ( 'Good Grips Deep Clean' ),
+    model_name        ( 'Good Grips' ),
+    model_spec        ( 'Deep Clean' ),
     EquipmentFeature::BRUSH_SET,
   ),
   sixsigma_url  ( '' ),
@@ -12333,7 +12360,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/61BNlQ96ajL._AC_SL1460_.jpg' ),
   equipment_item(
     manufacturer_name ( 'OXO' ),
-    model_name        ( 'All-Purpose' ),
+    model_spec        ( 'All-Purpose' ),
     EquipmentFeature::SCRUB_BRUSH,
   ),
   sixsigma_url  ( '' ),
@@ -12358,7 +12385,8 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/714-ay7uH+L._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'OXO' ),
-    model_name        ( 'Good Grips Soap Dispensing' ),
+    model_name        ( 'Good Grips' ),
+    model_spec        ( 'Soap Dispensing' ),
     EquipmentFeature::DISH_BRUSH,
   ),
   sixsigma_url  ( '' ),
@@ -12383,7 +12411,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/61m1xt4ue+L._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'OXO' ),
-    model_name        ( 'Soap Dispensing' ),
+    model_spec        ( 'Soap Dispensing' ),
     EquipmentFeature::DISH_BRUSH_REFILLS,
   ),
   sixsigma_url  ( '' ),
@@ -12408,7 +12436,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/61vJ2fd0b0L._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'Furinno' ),
-    model_name        ( 'Jaya Simple Home 3-Shelf Black' ),
+    model_spec        ( 'Jaya Simple Home 3-Shelf Black' ),
     EquipmentFeature::BOOKCASE,
   ),
   sixsigma_url  ( '' ),
@@ -12433,7 +12461,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/81vmbJa-AHL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'IRIS USA' ),
-    model_name        ( 'Modular Storage 3-Tier Organizer' ),
+    model_spec        ( 'Modular Storage 3-Tier Organizer' ),
     EquipmentFeature::BOOKCASE,
   ),
   sixsigma_url  ( '' ),
@@ -12458,7 +12486,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/61yroV1GZaL._AC_SL1200_.jpg' ),
   equipment_item(
     manufacturer_name ( 'SAYEEC' ),
-    model_name        ( 'Collapsible File Organizer 4-Compartment Plastic Divider' ),
+    model_spec        ( 'Collapsible File Organizer 4-Compartment Plastic Divider' ),
     EquipmentFeature::MAGAZINE_HOLDER,
   ),
   sixsigma_url  ( '' ),
@@ -12485,7 +12513,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/91D5NKsFCaL._SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'ElectroCookie' ),
-    model_name        ( 'Multicolor PCB Prototype Board 9-Pack Plus 3-Mini' ),
+    model_spec        ( 'Multicolor PCB Prototype Board 9-Pack Plus 3-Mini' ),
     EquipmentFeature::SOLDERABLE_BREADBOARD,
   ),
   sixsigma_url  ( '' ),
@@ -12512,7 +12540,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/81QweK3ohaS._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'ElectroCookie' ),
-    model_name        ( 'Mini PCB Prototype Board 50-Pack' ),
+    model_spec        ( 'Mini PCB Prototype Board 50-Pack' ),
     EquipmentFeature::SOLDERABLE_BREADBOARD,
   ),
   sixsigma_url  ( '' ),
@@ -12537,7 +12565,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/A19ytwyNc8L._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'ElectroCookie' ),
-    model_name        ( 'Large PCB Prototype Board 6 Multi-Pack' ),
+    model_spec        ( 'Large PCB Prototype Board 6 Multi-Pack' ),
     EquipmentFeature::SOLDERABLE_BREADBOARD,
   ),
   sixsigma_url  ( '' ),
@@ -12562,7 +12590,7 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Saa02ac86a6ad44da8a4a1162e3d28d5db/DC-520-Digital-Camera-Recorder-16-Mega-Pixel-16X-Zoom-HD-Mini-Digital-Video-Camera-for.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( '16MP' ),
+    model_spec        ( '16MP' ),
     EquipmentFeature::USB_CAMERA,
   ),
   sixsigma_url  ( '' ),
@@ -12623,7 +12651,7 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S06f38f7aeb134811ae041fe60136de4df/Plush-Microfiber-Tire-Rim-Wheel-Hub-Cleaning-Brush-Car-Beauty-Car-Wash-Brush-Maintenance-Tools-Cleaning.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'Microfiber' ),
+    model_spec        ( 'Microfiber' ),
     EquipmentFeature::BRUSH,
   ),
   sixsigma_url  ( '' ),
@@ -12651,7 +12679,7 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/H520a0a5bc1d24d209837da78596ca9d9a/Universal-1-PCS-Magnetic-Ring-Alloy-Magnetic-Ring-Screwdriver-Bits-Anti-corrosion-Strong-Magnetizer-Drill-Bit.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'Universal Magnetic Ring' ),
+    model_spec        ( 'Universal Magnetic Ring' ),
     EquipmentFeature::DRILL_BIT,
     EquipmentFeature::MAGNETIC_PICKUP_TOOL,
   ),
@@ -12707,7 +12735,7 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S7f0010e22cfa4750b0187d153cb58cadS/2pcs-set-2-8mm-Carpenter-Mechanical-Pencil-with-Sharpener-for-Woodworking-Construction-Long-Head-Carpenter-Pencil.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'MROOFUL' ),
-    model_name        ( 'Carpenter' ),
+    model_spec        ( 'Carpenter' ),
     EquipmentFeature::MECHANICAL_PENCIL,
   ),
   sixsigma_url  ( '' ),
@@ -12771,7 +12799,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71GcZX-eZyL._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'Rossler' ),
-    model_name        ( 'Soho 4x' ),
+    model_spec        ( 'Soho 4x' ),
     EquipmentFeature::DRAWER,
   ),
   sixsigma_url  ( '' ),
@@ -12796,7 +12824,7 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/H03c6421de59e48e2ab0002578684d90bM/Lead-free-Tin-Silver-Copper-SAC305-Solder-Sheet-Solder-Tape-Solder-Foil-Sn96-5Ag3-0Cu0-5.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'Lead-free Tin Silver Copper SAC305' ),
+    model_spec        ( 'Lead-free Tin Silver Copper SAC305' ),
     EquipmentFeature::SOLDER_TAPE,
   ),
   sixsigma_url  ( '' ),
@@ -12823,7 +12851,7 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sfe00008365c4442d9431634b37745024L/Wowstick-wowpad-Magnetic-Screwpad-Screw-Postion-Memory-Plate-Mat-For-kit-1FS-Electric-1P-1F-Plus.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Wowstick' ),
-    model_name        ( 'Wowpad' ),
+    model_spec        ( 'Wowpad' ),
     EquipmentFeature::MAGNETIC_SCREWPAD,
   ),
   sixsigma_url  ( '' ),
@@ -12851,7 +12879,7 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/H2ddfab3ac88749c2ba1fee0f5b7f76c6e/15Pcs-Set-Sandpaper-400-600-3000-800-1000-1200-1500-2000-2500-Grit-Sand-Paper-Water.jpeg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( '15 Pcs' ),
+    model_spec        ( '15 Pcs' ),
     EquipmentFeature::SANDPAPER,
   ),
   sixsigma_url  ( '' ),
@@ -12930,7 +12958,7 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S4f2e380b48d64d0bad244ea4b40506ea7/Stainless-Steel-String-Ruler-String-Action-Gauge-Ruler-for-Guitar-Bass-Silver.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'Guitar String' ),
+    model_spec        ( 'Guitar String' ),
     EquipmentFeature::RULER,
   ),
   sixsigma_url  ( '' ),
@@ -12957,7 +12985,7 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sd952a0bf3bd5456ba8c2c0416d062de51/Macropad-Macro-Mechanical-Keyboard-RGB-Mini-Gaming-Custom-Programming-Knob-Keypads-Red-Switch-3-Keys-For.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'Macropad 3-Key' ),
+    model_spec        ( 'Macropad 3-Key' ),
     EquipmentFeature::MECHANICAL_KEYBOARD,
   ),
   sixsigma_url  ( '' ),
@@ -12984,7 +13012,7 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S8afad955b3ad428f9dfd5d952108338cl/8-Key-Macro-Programmable-Fully-Hot-Swappable-Mechanical-Switch-4-Color-RGB-Light-Gaming-Mini-Keyboard.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'Macro Programmable 8-Key' ),
+    model_spec        ( 'Macro Programmable 8-Key' ),
     EquipmentFeature::MECHANICAL_KEYBOARD,
   ),
   sixsigma_url  ( '' ),
@@ -13011,7 +13039,7 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S069f7ced6be94bf3a4ada54c5af012dff/5in1-CO2-Meter-Digital-Multifunctional-Temperature-Humidity-Tester-Carbon-Dioxide-TVOC-HCHO-Detector-Air-Quality-Monitor.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( '5 in 1' ),
+    model_spec        ( '5 in 1' ),
     EquipmentFeature::AIR_QUALITY_METER,
   ),
   sixsigma_url  ( '' ),
@@ -13039,7 +13067,7 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Se1cc39393da540a5b694ebe5e77e2b04G/9-In-1-Air-Quality-Monitor-CO2-Meter-CO-TVOC-HCHO-PM2-5-PM1-0-PM10.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( '9 in 1' ),
+    model_spec        ( '9 in 1' ),
     EquipmentFeature::AIR_QUALITY_METER,
   ),
   sixsigma_url  ( '' ),
@@ -13104,7 +13132,8 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/0lIAAOSwcy1gRqzO/s-l1600.webp' ),
   equipment_item(
     manufacturer_name ( 'Eversure' ),
-    model_name        ( 'PB-10-HT3 Black 10-Way' ),
+    model_name        ( 'PB-10-HT3' ),
+    model_spec        ( 'Black 10-Way' ),
     EquipmentFeature::POWER_BOARD,
   ),
   sixsigma_url  ( '' ),
@@ -13191,7 +13220,7 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/--cAAOSwmdtf-wy5/s-l1600.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'AU 240V' ),
+    model_spec        ( 'AU 240V' ),
     EquipmentFeature::WATT_METER,
   ),
   sixsigma_url  ( '' ),
@@ -13217,7 +13246,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/8105ELveYZL._AC_SX679_.jpg' ),
   equipment_item(
     manufacturer_name ( 'MoFiz' ),
-    model_name        ( 'Mens Camo Polo' ),
+    model_spec        ( 'Mens Camo Polo' ),
     EquipmentFeature::SHIRT
   ),
   sixsigma_url  ( '' ),
@@ -13254,7 +13283,8 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S75590664751648038bcacaed1ad8976aS/Resistance-Box-0-9999-9-Adjustable-Lab-Resistor-Substitution-Box-Precision-1W-Variable-Knob-Switch-Boxes.jpg_.webp' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
-    model_name        ( 'J15026-2 6-Knob' ),
+    model_name        ( 'J15026-2' ),
+    model_spec        ( '6-Knob' ),
     EquipmentFeature::RESISTOR_BOX
   ),
   sixsigma_url  ( '' ),
@@ -13312,7 +13342,8 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/H835368a0e8ec45a396870788eed389e29.jpg' ),
   equipment_item(
     manufacturer_name ( 'JYHealth' ),
-    model_name        ( 'IRT1 Medical Household Infrared' ),
+    model_name        ( 'IRT1' ),
+    model_spec        ( 'Medical Household Infrared' ),
     EquipmentFeature::THERMOMETER,
   ),
   sixsigma_url  ( '' ),
@@ -13340,7 +13371,8 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/61FhUhpSFML._AC_SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'Corsair' ),
-    model_name        ( 'HS55 Surround Gaming' ),
+    model_name        ( 'HS55' ),
+    model_spec        ( 'Surround Gaming' ),
     EquipmentFeature::USB_HEADSET,
   ),
   sixsigma_url  ( '' ),
@@ -13399,7 +13431,8 @@ equipment(
       link_text       ( 'Metcal SFV-CH15A Soldering Tip, Chisel, 1.5 mm (0.059")' ),
     ),
     manufacturer_name ( 'Metcal' ),
-    model_name        ( 'Soldering Tip, Chisel, 1.5 mm' ),
+    model_name        ( 'SFV-CH15A' ),
+    model_spec        ( 'Chisel, 1.5mm' ),
     EquipmentFeature::SOLDERING_IRON_TIP,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Metcal_PS-900_Soldering_Station' ),
@@ -13420,7 +13453,8 @@ equipment(
       link_text       ( 'Metcal SFV-CN05 Soldering Tip, Conical, 0.5 mm (0.02")' ),
     ),
     manufacturer_name ( 'Metcal' ),
-    model_name        ( 'SFV-CN05, Conical, 0.5 mm' ),
+    model_name        ( 'SFV-CN05' ),
+    model_spec        ( 'Conical, 0.5mm' ),
     EquipmentFeature::SOLDERING_IRON_TIP,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Metcal_PS-900_Soldering_Station' ),
@@ -13450,7 +13484,8 @@ equipment(
       link_text       ( 'Metcal SFV-CH10 Soldering Tip, Chisel, 1.0 mm (0.039")' ),
     ),
     manufacturer_name ( 'Metcal' ),
-    model_name        ( 'SFV-CH10, 30° Chisel, 1 mm' ),
+    model_name        ( 'SFV-CH10' ),
+    model_spec        ( '30° Chisel, 1mm' ),
     EquipmentFeature::SOLDERING_IRON_TIP,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Metcal_PS-900_Soldering_Station' ),
@@ -13480,7 +13515,8 @@ equipment(
       link_text       ( 'Metcal SFV-CH20 Soldering Tip, Chisel, 2.0 mm (0.079")' ),
     ),
     manufacturer_name ( 'Metcal' ),
-    model_name        ( 'SFV-CH20, 30° Chisel, 2 mm' ),
+    model_name        ( 'SFV-CH20' ),
+    model_spec        ( '30° Chisel, 2mm' ),
     EquipmentFeature::SOLDERING_IRON_TIP,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Metcal_PS-900_Soldering_Station' ),
@@ -13527,9 +13563,10 @@ equipment(
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Peak_Electronic_Design_Atlas_DCA75_Pro_Semiconductor_Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas LCR45 LCR Meter' ),
-  see_also      ( 'Peak Electronic Design Atlas SCR100 Triac And Thyristor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas ESR70 Gold ESR Meter' ),
+  see_also      ( 'Peak Electronic Design Atlas SCR100 Triac And Thyristor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas ZEN50 Zener Diode Analyzer' ),
+  see_also      ( 'Peak Electronic Design PCA23 Peak SOT-23 Component Adapter' ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/peak-electronic-design/atpk3/atlas-pro-pack-semi-analyser-imp/dp/291788702' ),
     listing_name  ( 'ATPK3 Peak Electronic Design, Bundle Kit, Atlas DCA75 Pro Advanced Semiconductor Analyzer, LCR45 Impedance Meter, Case, Batteries' ),
@@ -13569,9 +13606,13 @@ equipment(
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Peak_Electronic_Design_Atlas_LCR45_LCR_Meter' ),
   see_also      ( 'Peak Electronic Design Atlas DCA75 Pro Semiconductor Analyzer' ),
-  see_also      ( 'Peak Electronic Design Atlas SCR100 Triac And Thyristor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas ESR70 Gold ESR Meter' ),
+  see_also      ( 'Peak Electronic Design Atlas SCR100 Triac And Thyristor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas ZEN50 Zener Diode Analyzer' ),
+  see_also      ( 'Peak Electronic Design SMD03M LCR/ESR 2mm Banana Socket SMD Tweezers' ),
+  see_also      ( 'Peak Electronic Design LX30 2mm Banana Plugs 300mm Extension Cable' ),
+  see_also      ( 'Peak Electronic Design ENP90 2mm Banana Socket Needle Probe Set' ),
+  see_also      ( 'Peak Electronic Design LCRLHP2 Replacement LCR Hook Probe' ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/peak-electronic-design/atpk3/atlas-pro-pack-semi-analyser-imp/dp/291788702' ),
     listing_name  ( 'ATPK3 Peak Electronic Design, Bundle Kit, Atlas DCA75 Pro Advanced Semiconductor Analyzer, LCR45 Impedance Meter, Case, Batteries' ),
@@ -13610,6 +13651,8 @@ equipment(
   see_also      ( 'Peak Electronic Design Atlas LCR45 LCR Meter' ),
   see_also      ( 'Peak Electronic Design Atlas SCR100 Triac And Thyristor Analyzer' ),
   see_also      ( 'Peak Electronic Design Atlas ZEN50 Zener Diode Analyzer' ),
+  see_also      ( 'Peak Electronic Design SMD03M LCR/ESR 2mm Banana Socket SMD Tweezers' ),
+  see_also      ( 'Peak Electronic Design ENP90 2mm Banana Socket Needle Probe Set' ),
   affiliate_link(
     equipment_url ( 'https://au.element14.com/peak-electronic-design/esr70/esr-meter-w-audible-alert-capacitor/dp/291787802' ),
     listing_name  ( 'ESR70 Peak Electronic Design, ESR Meter, Capacitor, Atlas ESR+, 0.00 Ohms to 40.0 Ohms, 1uF to 22000uF' ),
@@ -13745,7 +13788,8 @@ equipment(
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S6caffd138b564bc7b38471ec6a743fb1O.jpg_960x960q75.jpg_.jpg' ),
   equipment_item(
     manufacturer_name ( 'ANENG' ),
-    model_name        ( 'A3005 Pen Type' ),
+    model_name        ( 'A3005' ),
+    model_spec        ( 'Pen Type' ),
     EquipmentFeature::HANDHELD_MULTIMETER,
     EquipmentFeature::VOLTMETER,
     EquipmentFeature::OHMMETER,
@@ -13780,7 +13824,7 @@ equipment(
   equipment_icon( 'https://m.media-amazon.com/images/I/71agbjjS5HL._SL1500_.jpg' ),
   equipment_item(
     manufacturer_name ( 'AOOCOO' ),
-    model_name        ( '4K@30Hz HDMI USB 2.0 8-Port' ),
+    model_spec        ( '4K@30Hz HDMI USB 2.0 8-Port' ),
     EquipmentFeature::HDMI_KVM,
   ),
   sixsigma_url  ( '' ),
@@ -13801,6 +13845,274 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2025-01-09' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/91rrz2DG8xL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Great Scott Gadgets' ),
+    model_name        ( 'GreatFET One' ),
+    model_spec        ( 'Bundle' ),
+    EquipmentFeature::LOGIC_ANALYZER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/dp/B07W52V7BW' ),
+    listing_name  ( 'Great Scott Gadgets GreatFET One Bundle - Hi-Speed USB Peripheral, Logic Analyzer, Debugger and Development Board. Open Hardware. Includes GreatFET One, Wiggler, Cable & 120 Prototyping Wires' ),
+    item_price    ( 'AU$204.95' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/dp/B07W52V7BW' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=249-9015728-6742248&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '249-9015728-6742248' ),
+    order_date      ( '9 January 2025' ),
+    order_item_name ( 'Great Scott Gadgets GreatFET One Bundle - Hi-Speed USB Peripheral, Logic Analyzer, Debugger and Development Board. Open Hardware. Includes GreatFET One, Wiggler, Cable & 120 Prototyping Wires' ),
+    order_price     ( 'AU$204.95' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-01-09' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71ulbD0GdUL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'RTL-SDR Blog' ),
+    model_spec        ( 'RTL-SDR Blog V4 R828D RTL2832U 1PPM TCXO HF Bias Tee SMA' ),
+    EquipmentFeature::SOFTWARE_DEFINED_RADIO,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/dp/B0CD7558GT' ),
+    listing_name  ( 'RTL-SDR Blog V4 R828D RTL2832U 1PPM TCXO HF Bias Tee SMA Software Defined Radio with Dipole Antenna Kit, RTLSDR_V4_WITH_ANTENNA' ),
+    item_price    ( 'AU$115.90' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/dp/B0CD7558GT' ),
+    order_url       ( 'https://www.amazon.com.au/gp/your-account/order-details?ie=UTF8&orderID=249-9015728-6742248&ref=ppx_yo2ov_dt_b_fed_order_details' ),
+    order_id        ( '249-9015728-6742248' ),
+    order_date      ( '9 January 2025' ),
+    order_item_name ( 'RTL-SDR Blog V4 R828D RTL2832U 1PPM TCXO HF Bias Tee SMA Software Defined Radio with Dipole Antenna Kit, RTLSDR_V4_WITH_ANTENNA' ),
+    order_price     ( 'AU$115.90' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+/*
+ DESCRIPTION                     QUANTITY        PRICE         COST
+
+ LX30 - Extension Cable for -           1     GBP17.50     GBP17.50       US$21.26
+ LCR40/45
+ No. Shipped                            1
+
+ 3DPAS - 3D Printed Peak -
+ Atlas Stand
+   Option - Colour: Dark -              1      GBP7.50      GBP7.50       US$9.11
+   Purple
+ No. Shipped                            1
+
+ PCA23 - Peak Component -               1     GBP25.00     GBP25.00       US$30.36
+ Adapter for SOT-23
+ No. Shipped                            1
+
+ ENP90 - ESR/LCR Needle Probe-          1     GBP15.75     GBP15.75       US$19.13
+ set with 2mm sockets
+ No. Shipped                            1
+
+ LCRLHP2 - Replacement LCR -            1     GBP11.25     GBP11.25       US$13.66
+ Hook Probes
+ No. Shipped                            1
+
+ SMD03M - SMD Tweezers for -            1     GBP23.00     GBP23.00       US$27.94
+ LCR/ESR with 2mm sockets
+ No. Shipped                            1
+
+ CRC01M - LCR Croc Clip set -           2      GBP8.50     GBP17.00       US$10.32 / US$20.64
+ with 2mm sockets
+ No. Shipped                            2
+
+ Special Discount 10%                                     GBP-11.70
+*/
+
+equipment(
+  equipment_date( '2025-01-09' ),
+  equipment_icon( 'https://www.peakelec.co.uk/acatalog/lx30-960x860-1.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Peak Electronic Design' ),
+    model_name        ( 'LX30' ),
+    model_spec        ( '2mm Banana Plugs 300mm' ),
+    EquipmentFeature::EXTENSION_CABLE,
+  ),
+  sixsigma_url  ( '' ),
+  see_also      ( 'Peak Electronic Design Atlas LCR45 LCR Meter' ),
+  affiliate_link(
+    equipment_url ( 'https://www.peakelec.co.uk/acatalog/lx30-extension-cable-for-lcr40-45.html' ),
+    listing_name  ( 'LX30 - Extension Cable for LCR40/45' ),
+    item_price    ( 'US$21.26' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.peakelec.co.uk/acatalog/lx30-extension-cable-for-lcr40-45.html' ),
+    order_date      ( '9 January 2025' ),
+    order_item_name ( 'LX30 - Extension Cable for LCR40/45' ),
+    order_price     ( 'US$21.26' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-01-09' ),
+  equipment_icon( 'https://www.peakelec.co.uk/acatalog/atlas-scr-on-stand-mk3-960x860.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Peak Electronic Design' ),
+    model_name        ( '3DPAS' ),
+    model_spec        ( '3D Printed Peak Atlas' ),
+    EquipmentFeature::STAND,
+  ),
+  sixsigma_url  ( '' ),
+  see_also      ( 'Peak Electronic Design Atlas DCA75 Pro Semiconductor Analyzer' ),
+  see_also      ( 'Peak Electronic Design Atlas LCR45 LCR Meter' ),
+  see_also      ( 'Peak Electronic Design Atlas ESR70 Gold ESR Meter' ),
+  see_also      ( 'Peak Electronic Design Atlas SCR100 Triac And Thyristor Analyzer' ),
+  see_also      ( 'Peak Electronic Design Atlas ZEN50 Zener Diode Analyzer' ),
+  affiliate_link(
+    equipment_url ( 'https://www.peakelec.co.uk/acatalog/3dpas-3d-printed-peak-atlas-stand.html' ),
+    listing_name  ( '3DPAS - 3D Printed Peak Atlas Stand' ),
+    item_price    ( 'US$9.10' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.peakelec.co.uk/acatalog/3dpas-3d-printed-peak-atlas-stand.html' ),
+    order_date      ( '9 January 2025' ),
+    order_item_name ( '3DPAS - 3D Printed Peak Atlas Stand' ),
+    order_price     ( 'US$9.10' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-01-09' ),
+  equipment_icon( 'https://www.peakelec.co.uk/acatalog/pca23-960-1.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Peak Electronic Design' ),
+    model_name        ( 'PCA23' ),
+    model_spec        ( 'Peak SOT-23' ),
+    EquipmentFeature::COMPONENT_ADAPTER,
+  ),
+  sixsigma_url  ( '' ),
+  see_also      ( 'Peak Electronic Design Atlas DCA75 Pro Semiconductor Analyzer' ),
+  affiliate_link(
+    equipment_url ( 'https://www.peakelec.co.uk/acatalog/pca23-peak-component-adapter-sot23.html' ),
+    listing_name  ( 'PCA23 - Peak Component Adapter for SOT-23' ),
+    item_price    ( 'US$30.36' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.peakelec.co.uk/acatalog/pca23-peak-component-adapter-sot23.html' ),
+    order_date      ( '9 January 2025' ),
+    order_item_name ( 'PCA23 - Peak Component Adapter for SOT-23' ),
+    order_price     ( 'US$30.36' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-01-09' ),
+  equipment_icon( 'https://www.peakelec.co.uk/acatalog/enp90-960-1.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Peak Electronic Design' ),
+    model_name        ( 'ENP90' ),
+    model_spec        ( '2mm Banana Socket Needle' ),
+    EquipmentFeature::PROBE_SET,
+  ),
+  sixsigma_url  ( '' ),
+  see_also      ( 'Peak Electronic Design Atlas LCR45 LCR Meter' ),
+  see_also      ( 'Peak Electronic Design Atlas ESR70 Gold ESR Meter' ),
+  affiliate_link(
+    equipment_url ( 'https://www.peakelec.co.uk/acatalog/esr-needle-probes.html' ),
+    listing_name  ( 'ENP90 - ESR/LCR Needle Probe set with 2mm sockets' ),
+    item_price    ( 'US$19.13' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.peakelec.co.uk/acatalog/esr-needle-probes.html' ),
+    order_date      ( '9 January 2025' ),
+    order_item_name ( 'ENP90 - ESR/LCR Needle Probe set with 2mm sockets' ),
+    order_price     ( 'US$19.13' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-01-09' ),
+  equipment_icon( 'https://www.peakelec.co.uk/acatalog/lcrlhp2-960-1.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Peak Electronic Design' ),
+    model_name        ( 'LCRLHP2' ),
+    model_spec        ( 'Replacement LCR' ),
+    EquipmentFeature::HOOK_PROBE,
+  ),
+  sixsigma_url  ( '' ),
+  see_also      ( 'Peak Electronic Design Atlas LCR45 LCR Meter' ),
+  affiliate_link(
+    equipment_url ( 'https://www.peakelec.co.uk/acatalog/lcrlhp2-lcr-hook-probes.html' ),
+    listing_name  ( 'LCRLHP2 - Replacement LCR Hook Probes' ),
+    item_price    ( 'US$13.66' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.peakelec.co.uk/acatalog/lcrlhp2-lcr-hook-probes.html' ),
+    order_date      ( '9 January 2025' ),
+    order_item_name ( 'LCRLHP2 - Replacement LCR Hook Probes' ),
+    order_price     ( 'US$13.66' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-01-09' ),
+  equipment_icon( 'https://www.peakelec.co.uk/acatalog/smd03m-960-1.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Peak Electronic Design' ),
+    model_name        ( 'SMD03M' ),
+    model_spec        ( 'LCR/ESR 2mm Banana Socket' ),
+    EquipmentFeature::SMD_TWEEZERS,
+  ),
+  sixsigma_url  ( '' ),
+  see_also      ( 'Peak Electronic Design Atlas LCR45 LCR Meter' ),
+  see_also      ( 'Peak Electronic Design Atlas ESR70 Gold ESR Meter' ),
+  affiliate_link(
+    equipment_url ( 'https://www.peakelec.co.uk/acatalog/smd03m-lcr-and-esr-test-tweezers.html' ),
+    listing_name  ( 'SMD03M - SMD Tweezers for LCR/ESR with 2mm sockets' ),
+    item_price    ( 'US$27.94' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.peakelec.co.uk/acatalog/smd03m-lcr-and-esr-test-tweezers.html' ),
+    order_date      ( '9 January 2025' ),
+    order_item_name ( 'SMD03M - SMD Tweezers for LCR/ESR with 2mm sockets' ),
+    order_price     ( 'US$27.94' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-01-09' ),
+  equipment_icon( 'https://www.peakelec.co.uk/acatalog/crc01em-480-1.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Peak Electronic Design' ),
+    model_name        ( 'CRC01EM' ),
+    model_spec        ( 'ESR 2mm Banana Socket' ),
+    EquipmentFeature::CROC_CLIP_SET,
+  ),
+  sixsigma_url  ( '' ),
+  see_also      ( 'Peak Electronic Design Atlas ESR70 Gold ESR Meter' ),
+  affiliate_link(
+    equipment_url ( 'https://www.peakelec.co.uk/acatalog/esr-croc-clips.html' ),
+    listing_name  ( 'CRC01EM - ESR Croc Clip set with 2mm sockets' ),
+    item_price    ( 'US$10.32' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.peakelec.co.uk/acatalog/esr-croc-clips.html' ),
+    order_date      ( '9 January 2025' ),
+    order_item_name ( 'CRC01EM - ESR Croc Clip set with 2mm sockets' ),
+    order_price     ( 'US$10.32' ),
+    order_quantity  ( 2 ),
+  ),
+);
+
 
 /*
 
@@ -13810,6 +14122,7 @@ equipment(
   equipment_item(
     manufacturer_name ( '' ),
     model_name        ( '' ),
+    model_spec        ( '' ),
     EquipmentFeature::
   ),
   sixsigma_url  ( '' ),
@@ -13840,6 +14153,7 @@ equipment(
   equipment_item(
     manufacturer_name ( '' ),
     model_name        ( '' ),
+    model_spec        ( '' ),
     equipment_type    ( '' ),
     category          ( '' ),
     manufacturer_link (

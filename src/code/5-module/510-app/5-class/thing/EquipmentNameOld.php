@@ -12,6 +12,7 @@ class EquipmentNameOld extends AppThing {
 
   public function get_manufacturer_name() { return $this->get( ManufacturerName::class ); }
   public function get_model_name() { return $this->get( ModelName::class ); }
+  public function get_model_spec() { return $this->get( ModelSpec::class ); }
   public function get_equipment_type() { return $this->get( EquipmentType::class ); }
 
   private $string = null;
@@ -22,6 +23,7 @@ class EquipmentNameOld extends AppThing {
 
       $result = [];
 
+      /*
       $part = $this->get_manufacturer_name()->to_string();
 
       if ( $part ) { $result[] = $part; }
@@ -33,6 +35,23 @@ class EquipmentNameOld extends AppThing {
       $part = $this->get_equipment_type()->to_string();
 
       if ( $part ) { $result[] = $part; }
+      */
+
+      foreach ( $this->get_child_list() as $child ) {
+
+        if (
+          is_a( $child, ManufacturerName::class ) ||
+          is_a( $child, ModelName::class        ) ||
+          is_a( $child, ModelSpec::class        ) ||
+          is_a( $child, EquipmentType::class    )
+        ) {
+
+          $part = $child->to_string();
+
+          if ( $part ) { $result[] = $part; }
+
+        }
+      }
 
       $this->string = implode( ' ', $result );
 

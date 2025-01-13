@@ -149,6 +149,9 @@ class Equipment extends AppThing {
 
     $see_also_list = $this->get_list( SeeAlso::class );
 
+    // 2025-01-14 jj5 - OLD: I removed this because regrettably it can't work. We can "see also" things which haven't
+    // been defined yet.
+    /*
     if ( mud_is_debug() ) {
 
       if ( $equipment_map === null ) {
@@ -174,11 +177,9 @@ class Equipment extends AppThing {
           dump( $id );
 
         }
-
       }
-
-
     }
+    */
 
     return $see_also_list;
 

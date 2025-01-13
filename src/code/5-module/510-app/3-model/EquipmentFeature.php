@@ -90,11 +90,15 @@ enum EquipmentFeature : string {
 
     case UNIVERSAL_AC_ADAPER = 'universal-AC-adapter';
 
+    case COMPONENT_ADAPTER = 'component-adapter';
+
   //
   // 2024-08-11 jj5 - CABLE
   //
 
   case CABLE = 'cable';
+
+    case EXTENSION_CABLE = 'extension-cable';
 
   //
   // 2024-08-04 jj5 - MISC_TOOL
@@ -316,6 +320,12 @@ enum EquipmentFeature : string {
     case LOGIC_PROBE = 'logic-probe';
 
     case PROBE_TWEEZERS = 'probe-tweezers';
+
+      case SMD_TWEEZERS = 'SMD-tweezers';
+
+    case PROBE_SET = 'probe-set';
+
+    case HOOK_PROBE = 'hook-probe';
 
   //
   // 2024-08-06 jj5 - HEADPHONES
@@ -1307,6 +1317,13 @@ enum EquipmentFeature : string {
 
     case TEST_CLIPS  = 'test-clips';
 
+    case ALLIGATOR_CLIP  = 'alligator-clip';
+
+      case CROC_CLIP = 'croc-clip';
+
+        case CROC_CLIP_SET = 'croc-clip-set';
+
+
   //
   // 2024-08-04 jj5 - PICKUP_TOOL
   //
@@ -1430,6 +1447,8 @@ enum EquipmentFeature : string {
     case AM_RADIO = 'AM-radio';
 
     case FM_RADIO = 'FM-radio';
+
+    case SOFTWARE_DEFINED_RADIO = 'software-defined-radio';
 
   //
   // 2024-08-04 jj5 - METAL_DETECTOR

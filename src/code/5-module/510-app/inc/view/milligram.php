@@ -1975,7 +1975,12 @@ function render_equipment_table( $equipment_list ) {
                   foreach ( $see_also_list as $see_also ) {
 
                     $text_html = $see_also->to_html();
-                    $id = str_replace( ' ', '-', $see_also->to_string() );
+
+                    // 2025-01-14 jj5 - NEW:
+                    $id = $see_also->get_html_id();
+                    // 2025-01-14 jj5 - OLD:
+                    //$id = str_replace( ' ', '-', $see_also->to_string() );
+                    //$id = str_replace( '/', '-', $id );
 
                     tag_open( 'li' );
 

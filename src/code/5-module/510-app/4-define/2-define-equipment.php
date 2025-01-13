@@ -212,6 +212,11 @@ equipment_define(
     EquipmentFeature::ADAPTER,
   );
 
+  equipment_define(
+    EquipmentFeature::COMPONENT_ADAPTER,
+    EquipmentFeature::ADAPTER,
+  );
+
 //
 // 2024-08-11 jj5 - CABLE
 //
@@ -222,6 +227,11 @@ equipment_define(
   EquipmentAttribute::ACCESSORY,
   EquipmentAttribute::ATTACHMENT,
 );
+
+  equipment_define(
+    EquipmentFeature::EXTENSION_CABLE,
+    EquipmentFeature::CABLE,
+  );
 
 //
 // 2024-08-04 jj5 - MISC_TOOL
@@ -748,6 +758,22 @@ equipment_define(
     EquipmentFeature::PROBE_TWEEZERS,
     EquipmentFeature::PROBE,
     EquipmentFeature::TWEEZERS,
+  );
+
+    equipment_define(
+      EquipmentFeature::SMD_TWEEZERS,
+      EquipmentFeature::PROBE_TWEEZERS,
+      EquipmentFeature::SMD_TESTER,
+    );
+
+  equipment_define(
+    EquipmentFeature::PROBE_SET,
+    EquipmentFeature::PROBE,
+  );
+
+  equipment_define(
+    EquipmentFeature::HOOK_PROBE,
+    EquipmentFeature::PROBE,
   );
 
 //
@@ -1927,6 +1953,7 @@ equipment_define(
   equipment_define(
     EquipmentFeature::SOLDERING_STAND,
     EquipmentFeature::SOLDERING_TOOL,
+    EquipmentFeature::STAND,
     EquipmentAttribute::BENCH_EQUIPMENT,
   );
 
@@ -2972,6 +2999,24 @@ equipment_define(
     EquipmentFeature::TEST_CLIP,
   );
 
+  equipment_define(
+    EquipmentFeature::ALLIGATOR_CLIP,
+    EquipmentFeature::TEST_CLIP,
+  );
+
+    equipment_define(
+      EquipmentFeature::CROC_CLIP,
+      EquipmentFeature::ALLIGATOR_CLIP,
+    );
+
+    equipment_define(
+      EquipmentFeature::CROC_CLIP_SET,
+      EquipmentFeature::CROC_CLIP,
+      EquipmentFeature::TEST_CLIPS,
+    );
+
+
+
 //
 // 2024-08-04 jj5 - PICKUP_TOOL
 //
@@ -3204,6 +3249,11 @@ equipment_define(
 
   equipment_define(
     EquipmentFeature::FM_RADIO,
+    EquipmentFeature::RADIO,
+  );
+
+  equipment_define(
+    EquipmentFeature::SOFTWARE_DEFINED_RADIO,
     EquipmentFeature::RADIO,
   );
 

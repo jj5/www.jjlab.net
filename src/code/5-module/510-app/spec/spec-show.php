@@ -1873,3 +1873,27 @@ show(
     ),
   ),
 );
+
+show(
+  demo(
+    publication_date( '2025-01-15' ),
+    title( 'Peak Electronic Design Atlas ESR Gold - Equivalent Series Resistance Meter' ),
+    youtube_video( 'Pv4l1eM79W8' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/15/demo-6-peak-electronic-design-atlas-esr-gold-equivalent-series-resistance-meter-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/119904359' ),
+    tags(
+      'jjlab', 'Demo', 'Demonstration',
+      'Unboxing', 'Electronics', 'Hardware', 'Instrument', 'Testing', 'Measurement', 'Tool',
+      'Peak Electronic Design', 'Atlas ESR Gold', 'ESR Meter',
+      'CRC01M', 'LCR Croc Clip Set',
+      'SMD03M', 'SMD Tweezers',
+      'LCRLHP2', 'Replacement LCR Hook Probes',
+      'ENP90', 'ESR/LCR Needle Probe Set',
+      'PCA23', 'Peak Component Adapter for SOT-23',
+      '3DPAS', '3D Printed Peak Atlas Stand',
+      'LX30', 'Extension Cable For LCR45',
+      'ATC02', 'Single Handheld Case',
+      'ATC55', 'Dual Carry Case',
+    ),
+  ),
+);
