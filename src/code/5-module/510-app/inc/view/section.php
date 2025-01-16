@@ -214,15 +214,18 @@ function render_section_latest_main() {
 
     tag_open( 'p' );
 
+      // 2025-01-16 jj5 - NEW: I'm pretty sure this is the latest video across all channels...
+      out_text( 'This is the video published most recently:' );
+      // 2025-01-16 jj5 - OLD:
+      /*
       out_text( 'The latest video published to the ' );
-
       render_link_internal(
         'main channel',
         url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_CHANNEL_MAIN,
       );
-
       out_text( " is:" );
+      */
 
     tag_shut( 'p' );
 
