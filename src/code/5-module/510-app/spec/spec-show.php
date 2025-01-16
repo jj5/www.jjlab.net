@@ -1897,3 +1897,58 @@ show(
     ),
   ),
 );
+
+show(
+  interlude(
+    publication_date( '2025-01-16' ),
+    title( 'Playing with WeAct Studio Epaper Modules on ESP32-C3 MCU' ),
+    youtube_video( 'kN6rB7qRQlw' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/16/interlude-11-playing-with-weact-studio-epaper-modules-on-esp32-c3-mcu-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/119947246' ),
+    tags(
+      'jjlab', 'Interlude', 'Epaper Module',
+      'WeAct Studio', 'ESP32-C3', 'MCU', 'Microcontroller',
+      'Rigol', 'MSO5074', 'Mixed Signal Oscilloscope',
+      'Rigol', 'PLA2216', 'Logic Probe',
+    ),
+  ),
+);
+
+show(
+  maxitronix_segment(
+    publication_date( '2025-01-17' ),
+    title( 'Low-Water Indicator' ),
+    project( 17, 20 ),
+    maxitronix_kit_name( '20in1' ),
+    youtube_video( 'IA9ryaWjyr8' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/17/low-water-indicator-project-17-20-maxitronix-20in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/120112664' ),
+    tags(
+      'jjlab', 'Maxitronix 20in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'Low Water', 'Resistor', 'Capacitor', 'Transistor', 'Astable Multivibrator', 'Alarm', 'Buzzer', 'Banana Plug',
+      'Riden', 'RD6006', 'Bench Power Supply',
+      'UNI-T', 'UTi260B', 'Thermal Imager',
+      'Rigol', 'MSO5074', 'Mixed Signal Oscilloscope',
+      'Fluke', '17Bplus', 'Digital Multimeter',
+      'Metcal', 'PS-900', 'Soldering Station',
+      'Horusdy', 'Soldering Station with Hot Air Gun',
+    ),
+  ),
+);
+
+show(
+  demo(
+    publication_date( '2025-01-18' ),
+    title( 'Octopus Third Hand' ),
+    youtube_video( 'R_9pwPB60fM' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/18/demo-7-octopus-third-hand-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/120118279' ),
+    tags(
+      'jjlab', 'Demo', 'Octopus Third Hand',
+      'Demonstration',
+      'Third Hand', 'Helping Hands', 'Soldering', 'Solder', 'Bench Vise', 'Table Clamp', 'Flexible Arms',
+      'Holder', 'PCB Repair',
+      'AliExpress',
+    ),
+  ),
+);

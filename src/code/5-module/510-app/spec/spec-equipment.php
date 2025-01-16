@@ -13163,12 +13163,22 @@ equipment(
     EquipmentFeature::UPS,
   ),
   sixsigma_url  ( '' ),
+  // 2025-01-15 jj5 - NEW:
+    affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/126177348634' ),
+    affiliate_url ( 'https://ebay.us/lMX1IU' ),
+    listing_name  ( 'PowerShield Defender 1600VA UPS - PSD1600' ),
+    item_price    ( 'AU$372.72' ),
+  ),
+  // 2025-01-15 jj5 - OLD:
+  /*
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/184767576877' ),
     affiliate_url ( 'https://www.ebay.com.au/itm/184767576877?mkcid=1&mkrid=705-53470-19255-0&siteid=15&campid=5339019639&customid=&toolid=10001&mkevt=1' ),
     listing_name  ( 'PowerShield Defender 1600VA / 960W Line Interactive UPS with AVR, Australian Out' ),
     item_price    ( 'AU$398.00' ),
   ),
+  */
   purchase(
     equipment_url   ( 'https://www.ebay.com.au/itm/184767576877' ),
     order_url       ( 'https://order.ebay.com.au/ord/show?orderId=17-08140-38004&purchaseOrderId=17-0814-038003#/' ),
@@ -13176,6 +13186,13 @@ equipment(
     order_date      ( '17 Jan 2022' ),
     order_item_name ( 'PowerShield Defender 1600VA / 960W Line Interactive UPS with AVR, Australian Out' ),
     order_price     ( 'AU$339.00' ),
+    order_quantity  ( 2 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/126177348634' ),
+    order_date      ( '15 January 2025' ),
+    order_item_name ( 'PowerShield Defender 1600VA UPS - PSD1600' ),
+    order_price     ( 'AU$372.72' ),
     order_quantity  ( 2 ),
   ),
 );

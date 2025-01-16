@@ -64,3 +64,8 @@ affiliate(
   affiliate_name( 'element14' ),
   affiliate_url( 'https://au.element14.com/' ),
 );
+
+affiliate(
+  affiliate_name( 'Peak Electronic Design' ),
+  affiliate_url( 'https://www.peakelec.co.uk/' ),
+);
