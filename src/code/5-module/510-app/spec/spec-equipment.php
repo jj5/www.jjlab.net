@@ -13158,6 +13158,10 @@ equipment(
   equipment_date( '2022-01-17' ),
   equipment_icon( 'https://i.ebayimg.com/images/g/B8oAAOSwtyVgeA6N/s-l960.webp' ),
   equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://powershield.com.au/product/powershield-defender-1600/' ),
+      link_text       ( 'PowerShield Defender 1600VA' ),
+    ),
     manufacturer_name ( 'PowerShield' ),
     model_name        ( 'Defender 1600' ),
     EquipmentFeature::UPS,
@@ -13201,6 +13205,10 @@ equipment(
   equipment_date( '2022-01-07' ),
   equipment_icon( 'https://i.ebayimg.com/images/g/ko4AAOSwzHNgeA1i/s-l960.webp' ),
   equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://powershield.com.au/product/powershield-defender-1200/' ),
+      link_text       ( 'PowerShield Defender 1200VA' ),
+    ),
     manufacturer_name ( 'PowerShield' ),
     model_name        ( 'Defender 1200' ),
     EquipmentFeature::UPS,

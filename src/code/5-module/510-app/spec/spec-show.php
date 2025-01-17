@@ -1952,3 +1952,37 @@ show(
     ),
   ),
 );
+
+show(
+  mail_call(
+    publication_date( '2025-01-19' ),
+    title( 'Tape, Cable, PCBs, Thermometer, Diodes, Soldering, Magnets, Blades and More!' ),
+    youtube_video( 'cwqSWPOpQZM' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/19/mail-call-18-tape-cable-pcbs-thermometer-diodes-soldering-magnets-blades-and-more/' ),
+    patreon_url( 'https://www.patreon.com/posts/120125889' ),
+    tags(
+      'jjlab', 'Mail Call', 'Electronics',
+      'Hardware', 'Tools', 'Equipment', 'Components',
+      'AliExpress',
+      'Brother', 'P-Touch D210', 'Label Maker',
+      'Tape',
+      'DuPont Cable',
+      'SOP8', 'SOP14', 'SOP16', 'SOP20', 'SOP24', 'SOP28', 'PCB Board Kit', 'DIP Adapter', 'DIP Converter',
+      'Thermometer',
+      'Round Corner Punch',
+      'Transparent Sticky Notes',
+      'SMD Schottky Diode', 'SS14', 'SS24', 'SS34', 'SS16', 'SS26', 'SS36',
+      'SMD Rectifier Diode', '1N4007', '1N4001', '1N4004',
+      'Soldering Practice Board',
+      'Neodymium Magnets',
+      'C-Type External Circlip',
+      'Craft Knife Blades',
+      'WeAct Studio', 'STM32G431CBU6', 'STM32G431', 'STM32G4', 'STM32',
+      'NEWACALOX', 'Flexible Arms', 'Soldering Helping Hands',
+      'NEWACALOX', 'Third Hand', 'PCB Board Fixing Clip', 'Soldering Helping Hands', 'Magnetic Base',
+      'A4 Cutting Mat',
+      'Mini Bench Clamp',
+      'IC Glue Remover', 'Spatula',
+    )
+  ),
+);
