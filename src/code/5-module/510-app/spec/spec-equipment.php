@@ -7699,6 +7699,7 @@ equipment(
   ),
   sixsigma_url    ( 'https://www.jj5.net/wiki/Aokin1PC_Wire_Cutter' ),
   see_also        ( 'Plato Model 170 Wire Cutter' ),
+  note            ( 'These flat snippers are also branded PCAFC and Aokin' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005004748524842.html' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_Dmniw3Z' ),
@@ -14266,6 +14267,31 @@ equipment(
     order_date      ( '28 Mar 2022' ),
     order_item_name ( '10pc File & Rasp Set Steel Metal Wood Carving Carpentry Tool Set Flat/Half Round' ),
     order_price     ( 'AU$22.00' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-01-13' ),
+  equipment_icon( 'https://media.jaycar.com.au/product/images/HB6330_33-drawer-parts-cabinet_55647.jpg?format=webp&width=300' ),
+  equipment_item(
+    manufacturer_name ( 'Jaycar' ),
+    model_name        ( 'HB6330' ),
+    model_spec        ( '33 Drawer Parts' ),
+    EquipmentFeature::CABINET,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.jaycar.com.au/33-drawer-parts-cabinet/p/HB6330' ),
+    listing_name  ( '33 Drawer Parts Cabinet' ),
+    item_price    ( 'AU$45.95' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.jaycar.com.au/33-drawer-parts-cabinet/p/HB6330' ),
+    order_id        ( '10102836' ),
+    order_date      ( 'Mon, 13 Jan 25' ),
+    order_item_name ( '33 Drawer Parts Cabinet' ),
+    order_price     ( 'AU$45.95' ),
     order_quantity  ( 1 ),
   ),
 );
