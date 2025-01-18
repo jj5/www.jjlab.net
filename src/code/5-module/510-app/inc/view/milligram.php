@@ -606,6 +606,32 @@ window.SCROLL_HACK = setInterval( scroll_hack, 50 );
 
       }
 
+/*
+ <!-- Google tag (gtag.js) -->
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-VGGBCFSPQH"></script>
+ <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VGGBCFSPQH');
+ </script>
+*/
+
+      tag_open( 'script', [ 'async' => true, 'src' => 'https://www.googletagmanager.com/gtag/js?id=G-VGGBCFSPQH' ] );
+
+      tag_shut( 'script' );
+
+      tag_open( 'script' );
+
+        out_code("
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-VGGBCFSPQH');
+        ");
+
+      tag_shut( 'script' );
+
     tag_shut( 'body' );
 
   tag_shut( 'html' );
