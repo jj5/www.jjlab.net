@@ -14244,6 +14244,34 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2022-03-28' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/838AAOSwaK9mJXxF/s-l1600.webp' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_spec        ( '10pc File & Rasp Set' ),
+    EquipmentFeature::METAL_FILE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/itm/124209160913' ),
+    affiliate_url ( 'https://ebay.us/FgnKJG' ),
+    listing_name  ( '10pc File & Rasp Set Steel Metal Wood Carving Carpentry Tool Set Flat/Half Round' ),
+    item_price    ( 'AU$29.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/124209160913' ),
+    order_url       ( 'https://order.ebay.com.au/ord/show?orderId=17-08436-28141&purchaseOrderId=17-0843-628140#/' ),
+    order_id        ( '17-0843-628140' ),
+    order_date      ( '28 Mar 2022' ),
+    order_item_name ( '10pc File & Rasp Set Steel Metal Wood Carving Carpentry Tool Set Flat/Half Round' ),
+    order_price     ( 'AU$22.00' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+
+
 
 /*
 
