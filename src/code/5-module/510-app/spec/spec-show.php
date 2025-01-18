@@ -1986,3 +1986,68 @@ show(
     )
   ),
 );
+
+show(
+  maxitronix_segment(
+    publication_date( '2025-01-20' ),
+    title( 'Rain Detector' ),
+    project( 18, 20 ),
+    maxitronix_kit_name( '20in1' ),
+    youtube_video( 'WC9c5HmZ1nw' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/20/rain-detector-project-18-20-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/120273318' ),
+    tags(
+      'jjlab', 'Maxitronix 20in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'Rain Detector', 'Resistor', 'Capacitor', 'Transistor', 'Astable Multivibrator', 'Bistable Multivibrator',
+      'Alarm', 'Buzzer', 'Banana Plug',
+      'Riden', 'RD6006', 'Bench Power Supply',
+      'UNI-T', 'UTi260B', 'Thermal Imager',
+      'Rigol', 'MSO5074', 'Mixed Signal Oscilloscope',
+      'Fluke', '17Bplus', 'Digital Multimeter',
+    ),
+  ),
+);
+
+show(
+  mail_call(
+    publication_date( '2025-01-21' ),
+    title( 'Tool Holder, MOSFET, LM311, Capacitor, Pliers, USB Adapter and More!' ),
+    youtube_video( 'EhjeD7fwCnk' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/21/mail-call-19-tool-holder-mosfet-lm311-capacitor-pliers-usb-adapter-and-more-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/120283086' ),
+    tags(
+      'jjlab', 'Mail Call', 'Electronics',
+      'Hardware', 'Tools', 'Equipment', 'Components',
+      'AliExpress',
+      'Brother', 'P-Touch D210', 'Label Maker',
+      'Scotch', 'Titanium Scissors',
+      'Hakko', 'CHP 3C-SA', 'Precision Tweezers',
+      'Paintbrush Holder', 'Tool Holder',
+      'IRFZ44', 'Power MOSFET', 'TO-220 Transistor',
+      'LM311', 'DIP-8',
+      'Polypropylene Safety Plastic Film Capacitor',
+      'Wire Looper Pliers',
+      'MOSFET Transistor Kit', 'IRF3205', 'IRF640', 'IRF740', 'IRF830', 'IRF840', 'IRF530', 'IRF630', 'IRF820', 'IRFZ44',
+        'IRF9540', 'IRF820',
+      'USB Adapter',
+      'IRF520 MOS Driver',
+      'Analog Temperature Sensor', 'Thermistor',
+    )
+  ),
+);
+
+show(
+  interlude(
+    publication_date( '2025-01-22' ),
+    title( 'The Making of the Hook Stick Extension Grabber Thing' ),
+    youtube_video( 'BqnU_YLbi7E' ),
+    blog_url( '' ),
+    patreon_url( 'https://www.patreon.com/posts/' ),
+    tags(
+      'jjlab', 'Interlude', 'Epaper Module',
+      'WeAct Studio', 'ESP32-C3', 'MCU', 'Microcontroller',
+      'Rigol', 'MSO5074', 'Mixed Signal Oscilloscope',
+      'Rigol', 'PLA2216', 'Logic Probe',
+    ),
+  ),
+);

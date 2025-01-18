@@ -14,6 +14,7 @@ enum EquipmentClass : string {
   case AIR_PURIFIER = 'air-purifier';
   case BADGE_HOLDER = 'badge-holder';
   case BLOW_TORCH = 'blow-torch';
+  case BLOWER = 'blower';
   case BOOK_HOLDER = 'book-holder';
   case BREADBOARD = 'breadboard';
   case BRUSH = 'brush';
@@ -47,6 +48,7 @@ enum EquipmentClass : string {
   case DISPENSER = 'dispenser';
   case DISPLAY = 'display';
   case DRAWER = 'drawer';
+  case DRILL = 'drill';
   case DRILL_BIT = 'drill-bit';
   case DRILL_PRESS = 'drill-press';
   case DRIVE = 'drive';

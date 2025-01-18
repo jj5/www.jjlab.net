@@ -14138,6 +14138,90 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2025-01-18' ),
+
+  // 2025-01-19 jj5 - NEW:
+  equipment_icon( 'https://www.jj5.net/file/2025-01-19-033553/4245903-40.webp' ),
+  // 2025-01-19 jj5 - OLD: this didn't seem to work...
+  //equipment_icon( 'https://au.element14.com/productimages/standard/en_GB/4245903-40.jpg' ),
+
+  equipment_item(
+    manufacturer_name ( 'Multicomp Pro' ),
+    model_name        ( 'MP701033' ),
+    EquipmentFeature::RESISTOR_BOX,
+  ),
+  affiliate_link(
+    equipment_url ( 'https://au.element14.com/multicomp-pro/mp701033/decade-box-resistance-1ohm-to/dp/424590302' ),
+    listing_name  ( 'MP701033 Decade Box, Resistance, 7, 1ohm to 11.11111Mohm, 1 %, Multicomp Pro Resistance Box' ),
+    item_price    ( 'AU$55.82' ),
+  ),
+  purchase(
+    equipment_url ( 'https://au.element14.com/multicomp-pro/mp701033/decade-box-resistance-1ohm-to/dp/424590302' ),
+    order_date      ( '18 January 2025' ),
+    order_item_name ( 'MP701033 Decade Box, Resistance, 7, 1ohm to 11.11111Mohm, 1 %, Multicomp Pro Resistance Box' ),
+    order_price     ( 'AU$55.82' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-01-18' ),
+
+  // 2025-01-19 jj5 - NEW:
+  equipment_icon( 'https://www.jj5.net/file/2025-01-19-033553/SD0099406-40.webp' ),
+  // 2025-01-19 jj5 - OLD: this didn't seem to work...
+  //equipment_icon( 'https://au.element14.com/productimages/standard/en_GB/SD0099406-40.jpg' ),
+
+  equipment_item(
+    manufacturer_name ( 'Metcal' ),
+    model_name        ( 'AC-YS4' ),
+    EquipmentFeature::SPONGE,
+  ),
+  affiliate_link(
+    equipment_url ( 'https://au.element14.com/metcal/ac-ys4/sponge-pk10/dp/7764243' ),
+    listing_name  ( 'AC-YS4 Sponge, Round, Replacement, for use with Metcal WS2 Workstand (10 pack)' ),
+    item_price    ( 'AU$48.85' ),
+  ),
+  purchase(
+    equipment_url ( 'https://au.element14.com/metcal/ac-ys4/sponge-pk10/dp/7764243' ),
+    order_date      ( '18 January 2025' ),
+    order_item_name ( 'AC-YS4 Sponge, Round, Replacement, for use with Metcal WS2 Workstand (10 pack)' ),
+    order_price     ( 'AU$48.85' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-01-19' ),
+  equipment_icon( 'https://rockwelltools.com.au/cdn/shop/products/RD2971_1000x1000_145adc68-302d-47de-87f7-e6d711c95965_500x500.jpg?v=1543206736' ),
+  equipment_item(
+    manufacturer_name ( 'Rockwell' ),
+    model_name        ( 'RD2971' ),
+    model_spec        ( '18V Drill Driver Kit' ),
+    EquipmentFeature::DRILL,
+  ),
+  affiliate_link(
+    equipment_url ( 'https://rockwelltools.com.au/products/18v-cordless-12' ),
+    listing_name  ( 'ROCKWELL 18V DRILL DRIVER KIT' ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-01-19' ),
+  equipment_icon( 'https://rockwelltools.com.au/cdn/shop/products/RG8541.9_1_500x500.jpg?v=1543293986' ),
+  equipment_item(
+    manufacturer_name ( 'Rockwell' ),
+    model_name        ( 'RG8541.9' ),
+    model_spec        ( '18V Workshop Blower Skin' ),
+    EquipmentFeature::BLOWER,
+  ),
+  affiliate_link(
+    equipment_url ( 'https://rockwelltools.com.au/collections/handheld-power-tools/products/18v-cordless-5' ),
+    listing_name  ( 'ROCKWELL 18V WORKSHOP BLOWER SKIN' ),
+  ),
+);
+
 
 /*
 

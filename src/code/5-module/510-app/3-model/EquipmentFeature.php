@@ -466,6 +466,14 @@ enum EquipmentFeature : string {
 
   case ROTARY_TOOL = 'rotary-tool';
 
+    case DRILL = 'drill';
+
+  //
+  // 2025-01-19 jj5 - BLOWER
+  //
+
+  case BLOWER = 'blower';
+
   //
   // 2024-08-04 jj5 - ROTARY_TOOL_ACCESSORY
   //

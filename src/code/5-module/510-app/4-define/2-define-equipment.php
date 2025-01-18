@@ -1111,6 +1111,22 @@ equipment_define(
   EquipmentAttribute::HAND_TOOL,
 );
 
+  equipment_define(
+    EquipmentFeature::DRILL,
+    EquipmentClass::DRILL,
+    EquipmentFeature::ROTARY_TOOL,
+  );
+
+//
+// 2025-01-19 jj5 - BLOWER
+//
+
+equipment_define(
+  EquipmentFeature::BLOWER,
+  EquipmentClass::BLOWER,
+  EquipmentAttribute::HAND_TOOL,
+);
+
 //
 // 2024-08-04 jj5 - ROTARY_TOOL_ACCESSORY
 //
