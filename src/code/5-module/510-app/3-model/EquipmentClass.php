@@ -144,6 +144,7 @@ enum EquipmentClass : string {
   case TV = 'tv';
   case TWEEZERS = 'tweezers';
   case UV_LAMP = 'uv-lamp';
+  case VACUUM = 'vacuum';
   case VOLTAGE_DETECTOR = 'voltage-detector';
   case WIRE = 'wire';
   case WIRE_CUTTER = 'wire-cutter';

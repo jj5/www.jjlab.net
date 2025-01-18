@@ -1807,6 +1807,16 @@ equipment_define(
   );
 
 //
+// 2025-01-19 jj5 - VACUUM
+//
+
+equipment_define(
+  EquipmentFeature::VACUUM,
+  EquipmentClass::VACUUM,
+  EquipmentAttribute::HAND_TOOL,
+);
+
+//
 // 2024-08-04 jj5 - CLAMP
 //
 

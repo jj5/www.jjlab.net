@@ -767,6 +767,12 @@ enum EquipmentFeature : string {
     case PLUNGE_ROUTER = 'plunge-router';
 
   //
+  // 2025-01-19 jj5 - VACUUM
+  //
+
+  case VACUUM = 'vacuum';
+
+  //
   // 2024-08-04 jj5 - CLAMP
   //
 

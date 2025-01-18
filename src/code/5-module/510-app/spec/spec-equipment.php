@@ -14222,6 +14222,28 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2022-12-20' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/2NcAAOSwtipnDg6x/s-l500.webp' ),
+  equipment_item(
+    model_spec        ( '14500pa Cordless Hand Held' ),
+    EquipmentFeature::VACUUM,
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com.au/sch/i.html?_nkw=14500pa+Cordless+Hand+Held+Vacuum&_sacat=0&_from=R40&_trksid=p2334524.m570.l1313&_odkw=filter+for+14500pa+Cordless+Hand+Held+Vacuum&_osacat=0' ),
+    affiliate_url ( 'https://ebay.us/6XZRef' ),
+    listing_name  ( '14500pa Cordless Hand Held Vacuum' ),
+    item_price    ( 'AU$29.12' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com.au/itm/165836679100' ),
+    order_date      ( '20 Dec 2022' ),
+    order_item_name ( '29000pa Cordless Hand Held Vacuum Cleaner Mini Portable Car Auto Home Wireless' ),
+    order_price     ( 'AU$22.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
 
 /*
 
