@@ -35,7 +35,7 @@ function app_render() {
 
       $filename = rtrim( $filename, '.' );
 
-      foreach ( [ 'png', 'jpg', 'webp', 'svg' ] as $extension ) {
+      foreach ( [ 'png', 'jpg', 'webp', 'svg', 'gif' ] as $extension ) {
 
         $fullname = "$filename.$extension";
 

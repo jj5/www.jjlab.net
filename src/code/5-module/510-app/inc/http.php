@@ -110,6 +110,12 @@ function render_image_headers( $extension ) {
 
       break;
 
+    case 'gif' :
+
+      header( 'Content-Type: image/gif' );
+
+      break;
+
     default :
 
       mud_not_supported();
