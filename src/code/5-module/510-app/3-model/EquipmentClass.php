@@ -143,6 +143,7 @@ enum EquipmentClass : string {
   case TRAY = 'tray';
   case TV = 'tv';
   case TWEEZERS = 'tweezers';
+  case UPS = 'ups';
   case UV_LAMP = 'uv-lamp';
   case VACUUM = 'vacuum';
   case VOLTAGE_DETECTOR = 'voltage-detector';

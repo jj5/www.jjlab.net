@@ -49,7 +49,8 @@ define(
     'image/png'   => 'png',
     'image/jpeg'  => 'jpg',
     'image/jpg'   => 'jpg',
-    'image/webp'   => 'webp',
+    'image/webp'  => 'webp',
+    'image/gif'   => 'gif',
   ]
 );
 

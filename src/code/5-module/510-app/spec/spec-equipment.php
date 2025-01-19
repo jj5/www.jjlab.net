@@ -14296,6 +14296,20 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2025-01-20' ),
+  equipment_icon( 'https://www.opti-ups.com/FilesUpload/eM97462105/ES1000C.gif' ),
+  equipment_item(
+    manufacturer_name ( 'OPTI-UPS' ),
+    model_spec        ( 'Enhanced Series' ),
+    model_name        ( 'ES-C 1KVA' ),
+    EquipmentFeature::UPS,
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.opti-ups.com/index.asp?SCID=SC10040077a' ),
+    listing_name  ( 'OPTI-UPS Enhanced Series - ES-C 1KVA' ),
+  ),
+);
 
 
 

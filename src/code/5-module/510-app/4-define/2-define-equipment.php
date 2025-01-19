@@ -3675,6 +3675,7 @@ equipment_define(
 
     equipment_define(
       EquipmentFeature::UPS,
+      EquipmentClass::UPS,
       EquipmentFeature::POWER_SUPPLY,
     );
 
