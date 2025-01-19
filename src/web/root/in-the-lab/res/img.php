@@ -20,6 +20,7 @@ function app_render() {
     case 'jpg' :
     case 'webp' :
     case 'svg' :
+    case 'gif' :
 
       $path = find_image( $filename, $res_dir );
 
