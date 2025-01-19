@@ -617,20 +617,24 @@ window.SCROLL_HACK = setInterval( scroll_hack, 50 );
  </script>
 */
 
-      tag_open( 'script', [ 'async' => true, 'src' => 'https://www.googletagmanager.com/gtag/js?id=G-VGGBCFSPQH' ] );
+      if ( is_prod() ) {
 
-      tag_shut( 'script' );
+        tag_open( 'script', [ 'async' => true, 'src' => 'https://www.googletagmanager.com/gtag/js?id=G-VGGBCFSPQH' ] );
 
-      tag_open( 'script' );
+        tag_shut( 'script' );
 
-        out_code("
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-VGGBCFSPQH');
-        ");
+        tag_open( 'script' );
 
-      tag_shut( 'script' );
+          out_code("
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-VGGBCFSPQH');
+          ");
+
+        tag_shut( 'script' );
+
+      }
 
     tag_shut( 'body' );
 
