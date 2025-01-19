@@ -64,6 +64,12 @@ abstract class Money extends MudPrice {
 
     $result = "$sign$currency$dollars_str.$cents_str";
 
+    if ( $result === '-$0.00' ) {
+
+      $result = '$0.00';
+
+    }
+
     return $result;
 
   }

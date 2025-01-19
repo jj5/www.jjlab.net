@@ -14308,6 +14308,7 @@ equipment(
   affiliate_link(
     equipment_url ( 'https://www.opti-ups.com/index.asp?SCID=SC10040077a' ),
     listing_name  ( 'OPTI-UPS Enhanced Series - ES-C 1KVA' ),
+    item_price    ( 'AU$169.00' ),
   ),
 );
 
