@@ -69,6 +69,9 @@ class Equipment extends AppThing {
       'https://www.wasdkeyboards.com/',
       'https://au.element14.com/',
       'https://www.peakelec.co.uk/',
+      'https://rockwelltools.com.au/',
+      'https://www.jaycar.com.au/',
+      'https://www.opti-ups.com/',
     ];
 
     $affiliate_list = $this->get_affiliate_link_list();

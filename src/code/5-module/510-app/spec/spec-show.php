@@ -2059,3 +2059,78 @@ show(
     ),
   ),
 );
+
+show(
+  maxitronix_segment(
+    publication_date( '2025-01-23' ),
+    title( 'Touch Buzzer' ),
+    project( 19, 20 ),
+    maxitronix_kit_name( '20in1' ),
+    youtube_video( 'dDLWsmW2i7w' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/23/touch-buzzer-project-19-20-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/120483146' ),
+    tags(
+      'jjlab', 'Maxitronix 20in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'Touch Buzzer', 'Resistor', 'Capacitor', 'Transistor', 'Astable Multivibrator', 'Darlington Pair',
+      'Touch', 'Buzzer', 'Banana Plug',
+      'Riden', 'RD6006', 'Bench Power Supply',
+      'UNI-T', 'UTi260B', 'Thermal Imager',
+      'Rigol', 'MSO5074', 'Mixed Signal Oscilloscope',
+    ),
+  ),
+);
+
+show(
+  mail_call(
+    publication_date( '2025-01-24' ),
+    title( 'GreatFET One, Cynthion, Mesh Holder, USB Cable, Calculus, KVM and More!' ),
+    youtube_video( 'ee8ODPvh55c' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/24/mail-call-20-greatfet-one-cynthion-mesh-holder-usb-cable-calculus-kvm-and-more-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/120485196' ),
+    tags(
+      'jjlab', 'Mail Call', 'Electronics',
+      'Hardware', 'Tools', 'Equipment', 'Components',
+      'AliExpress', 'eBay', 'Amazon',
+      'Mesh Pen Holder', 'Tool Holder',
+      'USB Cable',
+      'Advanced Calculus', 'Learning as a hobby',
+      'Nicolas Bourbaki',
+      '8-Port HDMI and USB KVM',
+      'Great Scott Gadgets', 'GreatFET One', 'Cynthion',
+    )
+  ),
+);
+
+show(
+  unboxing(
+    publication_date( '2025-01-25' ),
+    title( 'AOOCOO 4K@30Hz HDMI USB 2.0 8-Port HDMI KVM' ),
+    youtube_video( '_Q81DjRBG_U' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/25/unboxing-23-aoocoo-4k30hz-hdmi-usb-2-0-8-port-hdmi-kvm-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/120486521' ),
+    tags(
+      'jjlab', 'Unboxing', 'Electronics', 'Hardware',
+      'Amazon',
+      'AOOCOO', 'AIMOS', '4K@30Hz HDMI', 'USB 2.0', '8-Port HDMI KVM',
+    ),
+  ),
+);
+
+show(
+  maxitronix_segment(
+    publication_date( '2025-01-26' ),
+    title( 'Weather Indicator' ),
+    project( 20, 20 ),
+    maxitronix_kit_name( '20in1' ),
+    youtube_video( 'vria_VmaslY' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/26/weather-indicator-project-20-20-maxitronix-20in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/120502179' ),
+    tags(
+      'jjlab', 'Maxitronix 20in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'Weather Indicator', 'Resistor', 'Capacitor', 'Transistor', 'Astable Multivibrator',
+      'Riden', 'RD6006', 'Bench Power Supply',
+      'UNI-T', 'UTi260B', 'Thermal Imager',
+      'Rigol', 'MSO5074', 'Mixed Signal Oscilloscope',
+    ),
+  ),
+);
