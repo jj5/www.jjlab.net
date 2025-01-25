@@ -2134,3 +2134,16 @@ show(
     ),
   ),
 );
+
+show(
+  channel_news(
+    publication_date( '2025-01-27' ),
+    title( "The State of the Lab 2025" ),
+    youtube_video( '_34Jsn2Ke7E' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/27/channel-news-5-the-state-of-the-lab-2025-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/120728166' ),
+    tags(
+      'jjlab', 'State Of The Lab', '2025',
+    ),
+  ),
+);
