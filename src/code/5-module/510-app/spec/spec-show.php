@@ -2181,3 +2181,42 @@ show(
     ),
   ),
 );
+
+show(
+  unboxing(
+    publication_date( '2025-01-30' ),
+    title( 'PowerShield Defender 1600 UPS' ),
+    youtube_video( 'kNnkwU5LJYI' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/30/unboxing-24-powershield-defender-1600-ups-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/120888895' ),
+    tags(
+      'jjlab', 'Unboxing', 'Electronics', 'Hardware',
+      'eBay',
+      'PowerShield', 'Defender 1600', 'UPS Battery Backup',
+    ),
+  ),
+);
+
+show(
+  mail_call(
+    publication_date( '2025-01-31' ),
+    title( 'Glasses Care, Acrylic Pen Holder, Components, Tools and More!' ),
+    youtube_video( 'jGyciQbJumQ' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/31/mail-call-22-glasses-care-acrylic-pen-holder-components-tools-and-more-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/120891283' ),
+    tags(
+      'jjlab', 'Mail Call', 'Electronics',
+      'Hardware', 'Tools', 'Equipment', 'Components',
+      'Amazon', 'AliExpress',
+      'Lens Wipes', 'Microfiber Cleaning Cloth', 'Glasses Care',
+      'Inside Distributed COM',
+      'Acrylic Pen Holder',
+      'Rubber Wire Protector',
+      'Project Starter Kit',
+      'Phone Repair Tools', 'Metal Spudgers',
+      '5K Potentiometer',
+      'USB Cable',
+      'TZe Tape',
+    )
+  ),
+);
