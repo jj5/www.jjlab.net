@@ -2147,3 +2147,23 @@ show(
     ),
   ),
 );
+
+show(
+  mail_call(
+    publication_date( '2025-01-28' ),
+    title( 'Software Defined Radio, USB Adapter, HDMI Switch, Pegboard Hooks and More!' ),
+    youtube_video( 'HFxspT9zGEs' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/01/28/mail-call-21-software-defined-radio-usb-adapter-hdmi-switch-pegboard-hooks-and-more/' ),
+    patreon_url( 'https://www.patreon.com/posts/120886564' ),
+    tags(
+      'jjlab', 'Mail Call', 'Electronics',
+      'Hardware', 'Tools', 'Equipment', 'Components',
+      'AliExpress', 'Amazon',
+      'Mobile Phone Reapir Tool Kit',
+      'Software Defined Radio',
+      'USB Adapter',
+      'HDMI Switch',
+      'Pegboard Hooks',
+    )
+  ),
+);
