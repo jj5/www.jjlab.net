@@ -51,28 +51,7 @@ class Equipment extends AppThing {
 
   public function has_affiliate_link() {
 
-    // 2024-08-07 jj5 - space in the YouTube description is at a premium, so we only want to include equipment that we
-    // can link to with an affiliate link. At the moment that means eBay and AliExpress.
-
-    static $ad_list = [
-      'https://www.ebay.com/',
-      'https://www.ebay.com.au/',
-      'https://www.aliexpress.com/',
-    ];
-
-    static $ignore_list = [
-      'https://www.amazon.com/',
-      'https://www.amazon.com.au/',
-      'https://www.altronics.com.au/',
-      'https://www.bunnings.com.au/',
-      'https://www.dyson.com/',
-      'https://www.wasdkeyboards.com/',
-      'https://au.element14.com/',
-      'https://www.peakelec.co.uk/',
-      'https://rockwelltools.com.au/',
-      'https://www.jaycar.com.au/',
-      'https://www.opti-ups.com/',
-    ];
+    global $g_ad_list, $g_ignore_list;
 
     $affiliate_list = $this->get_affiliate_link_list();
 
@@ -80,7 +59,7 @@ class Equipment extends AppThing {
 
       $url = $affiliate_link->get_equipment_url()->to_string();
 
-      foreach ( $ad_list as $ad ) {
+      foreach ( $g_ad_list as $ad ) {
 
         if ( strpos( $url, $ad ) === 0 ) {
 
@@ -91,7 +70,7 @@ class Equipment extends AppThing {
 
       if ( mud_is_debug() ) {
 
-        foreach ( $ignore_list as $ignore ) {
+        foreach ( $g_ignore_list as $ignore ) {
 
           if ( strpos( $url, $ignore ) === 0 ) {
 

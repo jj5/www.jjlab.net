@@ -14312,6 +14312,22 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2025-01-30' ),
+  equipment_icon( 'https://eevblog.store/cdn/shop/files/BM2257-Front-Light.jpg?v=1737160096&width=2200' ),
+  equipment_item(
+    manufacturer_name ( 'Brymen' ),
+    model_spec        ( 'EEVblog' ),
+    model_name        ( 'BM2257' ),
+    EquipmentFeature::DIGITAL_MULTIMETER,
+  ),
+  affiliate_link(
+    equipment_url ( 'https://eevblog.store/products/eevblog-bm2257-multimeter' ),
+    listing_name  ( 'EEVblog BM2257 Multimeter' ),
+    item_price    ( 'AU$215.00' ),
+  ),
+);
+
 
 
 /*

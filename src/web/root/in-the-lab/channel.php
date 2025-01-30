@@ -142,7 +142,18 @@ function render_channel_one() {
 
   global $g_video_id;
 
-  $title = 'Main Channel: @InTheLabWithJayJay';
+  if ( $g_video_id ) {
+
+    $video = app_stash()->get_item_by_slug( YoutubeVideo::class, $g_video_id );
+
+    $title = $video->get_title();
+
+  }
+  else {
+
+    $title = 'Main Channel: @InTheLabWithJayJay';
+
+  }
 
   render_head( $title );
 
