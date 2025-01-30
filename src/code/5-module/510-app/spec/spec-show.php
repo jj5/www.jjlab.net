@@ -2220,3 +2220,17 @@ show(
     )
   ),
 );
+
+show(
+  unboxing(
+    publication_date( '2025-02-01' ),
+    title( 'Unboxing the EEVblog BM2257 Multimeter' ),
+    youtube_video( 'mnLuRykvToI' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/02/01/unboxing-25-unboxing-the-eevblog-bm2257-multimeter-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/121092595' ),
+    tags(
+      'jjlab', 'Unboxing', 'Electronics', 'Hardware',
+      'Brymen', 'EEVblog BM2257', 'Digital Multimeter',
+    ),
+  ),
+);
