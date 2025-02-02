@@ -14328,6 +14328,90 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2025-01-10' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S2070aa55da9449b2a2b255207cad5ec63.jpg_960x960q75.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_spec        ( '3pcs Universal Metal' ),
+    EquipmentFeature::SPUDGERS,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005616820006.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_okLxWmv' ),
+    listing_name  ( 'Universal Phone Repair Tools Kit Disassembly Blades Pry Opening Tool Metal Crowbar Disassemble Kit Phone Spatula Hand Tools Set' ),
+    item_options  ( 'Color: 3pcs' ),
+    item_price    ( 'AU$5.24' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005616820006.html' ),
+    order_id        ( '8197309888533938' ),
+    order_date      ( 'Jan 10, 2025' ),
+    order_item_name ( 'Universal Phone Repair Tools Kit Disassembly Blades Pry Opening Tool Metal Crowbar Disassemble Kit Phone Spatula Hand Tools Set' ),
+    order_price     ( 'AU$5.77' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2042-12-25' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S8834c49570dc483a8c20f3d442eb24cco.jpg_960x960q75.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_spec        ( 'S2 Precision Screwdriver Set With' ),
+    EquipmentFeature::SPUDGERS,
+    EquipmentFeature::SCREWDRIVER_SET,
+    EquipmentFeature::BRUSH,
+    EquipmentFeature::TWEEZERS,
+    EquipmentFeature::BOX_OPENER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007001375963.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oDo7IlJ' ),
+    listing_name  ( 'S2 Precision Screwdriver Set for Mobile Phones,Notebooks,and Computers-Perfect for Small Maintenance and Disassembl' ),
+    item_options  ( 'Color: 33 piece set' ),
+    item_price    ( 'AU$8.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007001375963.html' ),
+    order_id        ( '8196404902473938' ),
+    order_date      ( 'Dec 25, 2024' ),
+    order_item_name ( 'S2 Precision Screwdriver Set for Mobile Phones,Notebooks,and Computers-Perfect for Small Maintenance and Disassembl' ),
+    order_price     ( 'AU$8.54' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2042-12-25' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sb00059d1fbe24e54a3851906387fc8a77.jpg_960x960q75.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'Yum Cha' ),
+    model_spec        ( 'Precision Disassembly Screwdriver Kit With' ),
+    EquipmentFeature::SPUDGERS,
+    EquipmentFeature::SCREWDRIVER_SET,
+    EquipmentFeature::BOX_OPENER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007099405658.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_okQJQbT' ),
+    listing_name  ( 'Precision Disassembly Screwdriver Kit For Mobile Phones, Laptops, And Tablets, For Maintenance, And Cleaning' ),
+    item_options  ( 'Color: 14 Piece Set' ),
+    item_price    ( 'AU$6.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007099405658.html' ),
+    order_id        ( '8196404902473938' ),
+    order_date      ( 'Dec 25, 2024' ),
+    order_item_name ( 'Precision Disassembly Screwdriver Kit For Mobile Phones, Laptops, And Tablets, For Maintenance, And Cleaning' ),
+    order_price     ( 'AU$7.47' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
 
 
 /*
