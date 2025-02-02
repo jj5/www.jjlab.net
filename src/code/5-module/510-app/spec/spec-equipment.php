@@ -14356,7 +14356,7 @@ equipment(
 
 equipment(
   equipment_date( '2042-12-25' ),
-  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S8834c49570dc483a8c20f3d442eb24cco.jpg_960x960q75.jpg' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sbb3672e4823d44a6a66f98f95c360099l.jpg_960x960q75.jpg' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
     model_spec        ( 'S2 Precision Screwdriver Set With' ),
