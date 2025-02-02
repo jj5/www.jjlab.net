@@ -23,3 +23,9 @@ sponsor(
   sponsor_url( 'https://www.siliconchip.com.au/' ),
   sponsor_reason( 'give me advertising space in the back of their magazine, because they are awesome.' ),
 );
+
+sponsor(
+  sponsor_name( 'EEVblog' ),
+  sponsor_url( 'https://www.eevblog.com/' ),
+  sponsor_reason( 'send me free stuff in exchange for mentions in my videos. Thanks Dave!' ),
+);

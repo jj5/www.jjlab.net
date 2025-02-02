@@ -2222,6 +2222,7 @@ show(
 );
 
 show(
+  sponsor_name( 'EEVblog' ),
   unboxing(
     publication_date( '2025-02-01' ),
     title( 'Unboxing the EEVblog BM2257 Multimeter' ),
@@ -2231,6 +2232,22 @@ show(
     tags(
       'jjlab', 'Unboxing', 'Electronics', 'Hardware',
       'Brymen', 'EEVblog BM2257', 'Digital Multimeter',
+    ),
+  ),
+);
+
+show(
+  interlude(
+    publication_date( '2025-02-04' ),
+    title( 'Assembling the 5-Layer Acrylic Pen Holder' ),
+    youtube_video( 'X7me1YTNk9E' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/02/04/interlude-13-assembling-the-5-layer-acrylic-pen-holder-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/121350136' ),
+    tags(
+      'jjlab', 'Interlude', 'Assembling Acrylic Pen Holder',
+      'AliExpress',
+      'Pen Holder', 'Pencil Holder', 'Makeup Holder', 'Brush Holder',
+      'Five Layer', 'Storage', 'Box', 'Rack',
     ),
   ),
 );
