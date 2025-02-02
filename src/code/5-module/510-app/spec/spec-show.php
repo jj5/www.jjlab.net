@@ -2251,3 +2251,19 @@ show(
     ),
   ),
 );
+
+show(
+  unboxing(
+    publication_date( '2025-02-06' ),
+    title( 'Unboxing Metal and Plastic Yum Cha Spudgers' ),
+    youtube_video( 'Qew1cnrjGn8' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/02/06/unboxing-26-unboxing-metal-and-plastic-yum-cha-spudgers-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/' ),
+    tags(
+      'jjlab', 'Unboxing', 'Spudgers',
+      'Universal Phone Repair', 'Tools', 'Kit', 'Disassembly', 'Blades',
+      'Pry Tool', 'Opening Tool', 'Metal Crowbar', 'Hand Tool', 'Spatula',
+      'Precision Screwdriver Set', 'Brush', 'Box Opener',
+    ),
+  ),
+);
