@@ -2267,3 +2267,29 @@ show(
     ),
   ),
 );
+
+show(
+  mail_call(
+    publication_date( '2025-02-08' ),
+    title( 'Powerboards, Power Cords, Brushes, Tool Organizers, Components, and More!' ),
+    youtube_video( 'BcUZ7vG-7z0' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/02/08/mail-call-23-powerboards-power-cords-brushes-tool-organizers-components-and-more/' ),
+    patreon_url( 'https://www.patreon.com/posts/121770171' ),
+    tags(
+      'jjlab', 'Mail Call', 'Electronics',
+      'Hardware', 'Tools', 'Equipment', 'Components',
+      'Amazon', 'AliExpress',
+      'HPM Standard 6 Outlet Powerboard Black',
+      'HPM Standard 4 Outlet Powerboard White',
+      'Power Cord C20 to AU Socket Extension Cable',
+      'Inkjet Printhead Cleaning Foam',
+      'Paintbrush Holder', 'Tool Holder',
+      'ESP32 Basic Starter Kit',
+      'USB Type A to Type A Adapter',
+      'Super Glue Dropping Tube Nozzle',
+      'USB Type C to Mini',
+      'Precision Tips Liquid Dispenser Syringe Needles',
+      'Metal Crowbar Disassemble Kit',
+    )
+  ),
+);
