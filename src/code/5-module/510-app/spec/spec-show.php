@@ -2373,6 +2373,9 @@ show(
       'Digital Clock',
       'ESP32',
       'Headset',
+      'Metal Film Resistors',
+      'Duinotech', 'Arduino', 'Temperature Sensor Module',
+      'LM311', 'Voltage Comparator',
     )
   ),
 );
