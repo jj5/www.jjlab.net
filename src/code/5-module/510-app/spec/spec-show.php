@@ -2258,7 +2258,7 @@ show(
     title( 'Unboxing Metal and Plastic Yum Cha Spudgers' ),
     youtube_video( 'Qew1cnrjGn8' ),
     blog_url( 'https://blog.jj5.net/blog/2025/02/06/unboxing-26-unboxing-metal-and-plastic-yum-cha-spudgers-in-the-lab-with-jay-jay/' ),
-    patreon_url( 'https://www.patreon.com/posts/' ),
+    patreon_url( 'https://www.patreon.com/posts/121775203' ),
     tags(
       'jjlab', 'Unboxing', 'Spudgers',
       'Universal Phone Repair', 'Tools', 'Kit', 'Disassembly', 'Blades',
@@ -2293,3 +2293,110 @@ show(
     )
   ),
 );
+
+show(
+  mail_call(
+    publication_date( '2025-02-11' ),
+    title( 'Mesh Organizer, Peak Atlas Accessories, Metcal Sponge, Decade Box, and More!' ),
+    youtube_video( 'QW06k4UTD7k' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/02/11/mail-call-24-mesh-organizer-peak-atlas-accessories-metcal-sponge-decade-box-and-more/' ),
+    patreon_url( 'https://www.patreon.com/posts/121771728' ),
+    tags(
+      'jjlab', 'Mail Call', 'Electronics',
+      'Hardware', 'Tools', 'Equipment', 'Components',
+      'eBay', 'Peak Electronic Design', 'element14', 'AliExpress', 'Amazon',
+      'Mesh Organizer',
+      'PCA23 Peak SOT-23 Component Adapter',
+      'LX30 2mm Banana Plugs 300mm Extension Cable',
+      'LCRLHP2 Replacement LCR Hook Probe',
+      'CRC01EM ESR 2mm Banana Socket Croc Clip Set',
+      'ENP90 2mm Banana Socket Needle Probe Set',
+      'SMD03M LCR/ESR 2mm Banana Socket SMD Tweezers',
+      '3DPAS 3D Printed Peak Atlas Stand',
+      'Metcal', 'AC-YS4 Sponge',
+      'Multicomp Pro', 'MP701033 Decade Box',
+      'Jumper',
+      'Eversure 4 Outlet Powerboard',
+    )
+  ),
+);
+
+show(
+  mail_call(
+    publication_date( '2025-02-13' ),
+    title( 'Gorilla Glue, COM Books, Lens Care, Vacuum Filter, Thread Repair, and More!' ),
+    youtube_video( 'rNJf9J9kMgA' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/02/13/mail-call-25-gorilla-glue-com-books-lens-care-vacuum-filter-thread-repair-and-more/' ),
+    patreon_url( 'https://www.patreon.com/posts/121774586' ),
+    tags(
+      'jjlab', 'Mail Call', 'Electronics',
+      'Hardware', 'Tools', 'Equipment', 'Components',
+      'Amazon', 'eBay', 'AliExpress',
+      'Gorilla Glue',
+      'Essential COM',
+      'COM Programming with Microsoft .NET',
+      'Zeiss Lens Care Pack',
+      'Vacuum Filter',
+      'Thread Repair Kit',
+      'Tap Drill Bit',
+      'Cotter Pin',
+      'Ratchet Tap Reamer',
+      'Brass Threaded Insert Nut Kit',
+      'Cable Holder Clips',
+      'Copper Ferrule',
+      'Compression Springs Assortment Kit',
+      'Push Button Switch',
+      'Lip Gloss Brush',
+      'Mixing Paper',
+      'Magnetic Phone Holder',
+      'Thread Repair Kit',
+      'Hose Clamp',
+      'Hex Bolt Nut Set',
+      'Nylon Insulated Standoff Spacer',
+      'Screws and Flat Washers',
+      'Hex Screws Bolts and Nuts',
+    )
+  ),
+);
+
+show(
+  mail_call(
+    publication_date( '2025-02-15' ),
+    title( 'Headset from Rown Fusny and Electronics from AliExpress' ),
+    youtube_video( '5xCQMJV8x5Q' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/02/15/mail-call-26-headset-from-rown-fusny-and-electronics-from-aliexpress-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/122333611' ),
+    tags(
+      'jjlab', 'Mail Call', 'Electronics',
+      'Hardware', 'Equipment', 'Components',
+      'AliExpress', 'Rown Fusny',
+      'Digital Clock',
+      'ESP32',
+      'Headset',
+    )
+  ),
+);
+
+/*
+show(
+  unboxing(
+    publication_date( '2025-02-15' ),
+    title( 'Australian Signpost Mathematics New South Wales Student Book and Homework Program' ),
+    youtube_video( '' ),
+    blog_url( '' ),
+    patreon_url( 'https://www.patreon.com/posts/' ),
+    tags(
+      'jjlab', 'Unboxing', 'Australian Signpost Mathematics',
+    ),
+    new_book(
+      title( "Australian Signpost Mathematics New South Wales 7 Student Book, eBook and Homework Program" ),
+      author( 'Alan McSeveny' ),
+      copyright_year( '2013' ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com.au/dp/1488657491' ),
+        item_price    ( 'AU$94.86' ),
+      ),
+    ),
+  ),
+);
+*/
