@@ -2380,6 +2380,21 @@ show(
   ),
 );
 
+show(
+  interlude(
+    publication_date( '2025-02-18' ),
+    title( "Making BNC to Jumper Pins Cables for My Oscilloscope" ),
+    youtube_video( 'I9b9o_15BT0' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/02/18/interlude-14-making-bnc-to-jumper-pins-cables-for-my-oscilloscope-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/122534308' ),
+    tags(
+      'jjlab', 'Interlude', 'Electronics',
+      'Hardware', 'Equipment', 'Components',
+      'BNC', 'Jumper Pins', 'Cable',
+    )
+  ),
+);
+
 /*
 show(
   unboxing(
