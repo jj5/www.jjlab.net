@@ -360,16 +360,6 @@ function render_section_about_main( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'My name is John but ' );
-
-      tag_text( 'b', 'my friends call me Jay Jay' );
-
-      out_text( '.' );
-
-    tag_shut( 'p' );
-
-    tag_open( 'p' );
-
       out_text( 'On my ' );
 
       render_link_internal(
@@ -430,11 +420,15 @@ function render_section_about_jay_jay( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( 'h2', 'About Jay Jay', [ 'id' => 'about-jay-jay' ] );
+    tag_text( 'h2', 'About Jay Jay', [ 'id' => 'jay-jay' ] );
 
     tag_open( 'p' );
 
-      out_text( 'As mentioned above my name is John Elliot V and my friends call me Jay Jay.' );
+      out_text( 'As mentioned above ' );
+
+      tag_text( 'b', 'my name is John Elliot V and my friends call me Jay Jay' );
+
+      out_text( '.' );
 
     tag_shut( 'p' );
 
@@ -442,7 +436,7 @@ function render_section_about_jay_jay( int $heading_level = 2 ) {
 
       out_text(
         "The 'V' on the end of my name is the roman numeral for five, because I am the fifth John Elliot in a line of " .
-        "John Elliots that goes back to my great grandfather. His dad's name was Walter."
+        "John Elliots that goes back to my great great grandfather. His dad's name was Walter."
       );
 
     tag_shut( 'p' );
@@ -451,7 +445,11 @@ function render_section_about_jay_jay( int $heading_level = 2 ) {
 
       $age = date( 'Y' ) - 1980;
 
-      out_text( "I was born in 1980 which means I turn $age this year." );
+      out_text( "I was born in 1980 which means " );
+
+      tag_text( 'b', "I turn $age this year" );
+
+      out_text( "." );
 
     tag_shut( 'p' );
 
