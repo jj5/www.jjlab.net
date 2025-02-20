@@ -124,6 +124,10 @@ define( 'TITLE_PATREON_POST', "Click here to see the announcement for this video
 
 define( 'TITLE_LINK_EMAIL', 'Click here to send me an email.' );
 
+define( 'TITLE_BLUE_MOUNTAINS', 'Click here to learn more about the Blue Mountains.' );
+define( 'TITLE_DIFM_GOAPSY', 'Click here to visit the Goa-Psy Trance channel on di.fm.' );
+define( 'TITLE_DIFM', 'Click here to visit di.fm web radio.' );
+
 define( 'TITLE_LINK_LIGHT_BLUE', 'Clicking on a light blue link will take you to another page on this website.' );
 define( 'TITLE_LINK_DARK_BLUE', 'Clicking on a dark blue link will open the external link in a new tab/window.' );
 define( 'TITLE_LINK_GREEN', 'Clicking on a green link will open the affiliate link in a new tab/window.' );
@@ -415,6 +419,95 @@ function render_section_about_main( int $heading_level = 2 ) {
       );
 
       out_text( ' page, feel free to get in touch!' );
+
+    tag_shut( 'p' );
+
+  tag_shut( 'section' );
+
+}
+
+function render_section_about_jay_jay( int $heading_level = 2 ) {
+
+  tag_open( 'section' );
+
+    tag_text( 'h2', 'About Jay Jay', [ 'id' => 'about-jay-jay' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'As mentioned above my name is John Elliot V and my friends call me Jay Jay.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text(
+        "The 'V' on the end of my name is the roman numeral for five, because I am the fifth John Elliot in a line of " .
+        "John Elliots that goes back to my great grandfather. His dad's name was Walter."
+      );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      $age = date( 'Y' ) - 1980;
+
+      out_text( "I was born in 1980 which means I turn $age this year." );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      $exp = date( 'Y' ) - 2000;
+
+      out_text(
+        "My day job is computer programming which I've been doing for more than $exp years. Before that I was " .
+        "training as a chef! (With my family I have operated two restaurants, both of them gourmet pizza joints.)"
+      );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'I live in a beautiful part of the world known as the ' );
+
+      render_link_external(
+        'Blue Mountains',
+        'https://en.wikipedia.org/wiki/Blue_Mountains_(New_South_Wales)',
+        TITLE_BLUE_MOUNTAINS,
+      );
+
+      out_text( ' which is in New South Wales, Australia. (Just outside of Sydney.)' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( "My favourite type of music is psychedelic trance and I'm usually tuned into the " );
+
+      render_link_external(
+        'Goa-Psy Trance',
+        'https://www.di.fm/goapsy',
+        TITLE_DIFM_GOAPSY,
+      );
+
+      out_text( ' channel on ' );
+
+      render_link_external(
+        'di.fm',
+        'https://www.di.fm/',
+        TITLE_DIFM,
+      );
+
+      out_text( '.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text(
+        'Apart from electronics and computer programming my special interests include philosophy, mathematics, ' .
+        ' and database design. My favourite computer game is StarCraft II.'
+      );
 
     tag_shut( 'p' );
 
