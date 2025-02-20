@@ -435,7 +435,7 @@ function render_section_about_jay_jay( int $heading_level = 2 ) {
     tag_open( 'p' );
 
       out_text(
-        "The 'V' on the end of my name is the roman numeral for five, because I am the fifth John Elliot in a line of " .
+        "The 'V' on the end of my name is the Roman numeral for five, because I am the fifth John Elliot in a line of " .
         "John Elliots that goes back to my great great grandfather. His dad's name was Walter."
       );
 
