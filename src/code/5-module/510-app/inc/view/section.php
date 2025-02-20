@@ -504,7 +504,8 @@ function render_section_about_jay_jay( int $heading_level = 2 ) {
 
       out_text(
         'Apart from electronics and computer programming my special interests include philosophy, mathematics, ' .
-        ' and database design. My favourite computer game is StarCraft II.'
+        'and database design. My favourite computer game is StarCraft II. My favourite story is The Lord of the Rings. ' .
+        'My favourite movie is The Matrix. And my favourite colour is green.'
       );
 
     tag_shut( 'p' );
