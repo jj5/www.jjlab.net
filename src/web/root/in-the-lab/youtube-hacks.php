@@ -129,6 +129,42 @@ function render_youtube_hacks_main() {
 
     tag_shut( 'section' );
 
+    tag_open( 'section' );
+
+      tag_text( 'h2', 'Video Speed Controller Browser Plugin', [ 'id' => 'video-speed' ] );
+
+      tag_open( 'p' );
+
+        out_text( 'There are browser plugins that can be used to control the playback speed of a video. Check out the ' );
+
+        render_link_external(
+          "Video Speed Controller",
+          'https://github.com/codebicycle/videospeed',
+          TITLE_LINK_VIDEO_SPEED_CONTROLLER,
+        );
+
+        out_text( ' which is available as both a ' );
+
+        render_link_external(
+          "Firefox extension",
+          'https://addons.mozilla.org/en-US/firefox/addon/videospeed/',
+          TITLE_LINK_VIDEO_SPEED_CONTROLLER_FIREFOX,
+        );
+
+        out_text( ' and a ' );
+
+        render_link_external(
+          "Chrome extension",
+          'https://chromewebstore.google.com/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk?pli=1',
+          TITLE_LINK_VIDEO_SPEED_CONTROLLER_CHROME,
+        );
+
+        out_text( '.' );
+
+      tag_shut( 'p' );
+
+    tag_shut( 'section' );
+
     render_section_about_next();
 
   render_foot();
