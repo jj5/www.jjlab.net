@@ -2395,6 +2395,23 @@ show(
   ),
 );
 
+show(
+  sponsor_name( 'Rown Fusny' ),
+  demo(
+    publication_date( '2025-02-22' ),
+    title( 'Unboxing and Product Review of Rown Fusny R03U Wireless Mono Headset' ),
+    youtube_video( 'SwbW8mS_rE8' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/02/22/demo-8-unboxing-and-product-review-of-rown-fusny-r03u-wireless-mono-headset-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/122803319' ),
+    tags(
+      'jjlab', 'Demo', 'Electronics',
+      'Hardware', 'Equipment',
+      'Rown Fusny', 'R03U Wireless Mono Headset',
+      'USB', 'Bluetooth', 'Microphone', 'Headphones',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(

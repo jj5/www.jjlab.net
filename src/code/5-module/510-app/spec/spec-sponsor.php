@@ -1,6 +1,12 @@
 <?php
 
 sponsor(
+  sponsor_name( 'Rown Fusny' ),
+  sponsor_url( 'https://rownfusny.com/' ),
+  sponsor_reason( 'sent me free R03U Wireless Mono Headset for review.' ),
+);
+
+sponsor(
   sponsor_name( 'roohif' ),
   sponsor_url( 'https://www.youtube.com/@roohif' ),
   sponsor_reason( 'is an Official Sponsor @ Patreon.' ),
