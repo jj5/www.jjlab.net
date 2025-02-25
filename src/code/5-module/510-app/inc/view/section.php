@@ -517,7 +517,7 @@ function render_section_about_jay_jay( int $heading_level = 2 ) {
     tag_open( 'p' );
 
       out_text(
-        'Apart from electronics and computer programming my special interests include philosophy, mathematics, ' .
+        'Apart from electronics, computer programming, and psychedelic trance my special interests include philosophy, mathematics, ' .
         'and database design. '
       );
 
