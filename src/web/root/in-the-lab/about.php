@@ -43,6 +43,8 @@ function render_about_main() {
 
     render_section_about_jay_jay();
 
+    render_section_about_conventions();
+
     render_section_about_contact();
 
     render_section_about_blog();
