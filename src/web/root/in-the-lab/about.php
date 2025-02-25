@@ -39,6 +39,10 @@ function render_about_main() {
 
     render_section_contents();
 
+    render_section_about_the_show();
+
+    render_section_about_jay_jay();
+
     render_section_about_contact();
 
     render_section_about_blog();

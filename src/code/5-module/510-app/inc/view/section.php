@@ -344,7 +344,7 @@ function render_youtube_iframe( $youtube_id, $class = 'video-frame' ) {
   }
 }
 
-function render_section_about_main( int $heading_level = 2 ) {
+function render_section_about_the_show( int $heading_level = 2 ) {
 
 
   tag_open( 'section' );
@@ -429,7 +429,11 @@ function render_section_about_jay_jay( int $heading_level = 2 ) {
 
       out_text( 'As mentioned above ' );
 
-      tag_text( 'b', 'my name is John Elliot V and my friends call me Jay Jay' );
+      tag_text( 'b', 'my name is John Elliot V' );
+
+      out_text( ' and ' );
+
+      tag_text( 'b', 'my friends call me Jay Jay' );
 
       out_text( '.' );
 

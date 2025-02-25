@@ -85,7 +85,7 @@ function render_index_main() {
 
     render_section_contents();
 
-    render_section_about_main();
+    render_section_about_the_show();
 
     render_section_about_jay_jay();
 
