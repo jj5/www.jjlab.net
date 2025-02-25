@@ -133,6 +133,11 @@ define( 'TITLE_LINK_DARK_BLUE', 'Clicking on a dark blue link will open the exte
 define( 'TITLE_LINK_GREEN', 'Clicking on a green link will open the affiliate link in a new tab/window.' );
 
 define( 'TITLE_LINK_MSO5074', 'Click here for more information about the Rigol MSO5074 Mixed Signal Oscilloscope.' );
+define( 'TITLE_LINK_MAJESTOUCH', 'Click here for more information about my FILCO Majestouch 2SS 104-key Mechanical Keyboard.' );
+define( 'TITLE_LINK_CHERRY_MX_SPEED_SILVER', 'Click here for more information about my Cherry MX Speed Silver keyboard switches.' );
+define( 'TITLE_LINK_STARCRAFT2', 'Click here for more information about StarCraft II.' );
+define( 'TITLE_LINK_LOTR', 'Click here for more information about The Lord of the Rings.' );
+define( 'TITLE_LINK_THE_MATRIX', 'Click here for more information about The Matrix.' );
 
 define( 'TITLE_AFFILIATE_LINK', 'Click here for the latest price from this affiliate and to buy!' );
 
@@ -526,13 +531,49 @@ function render_section_about_jay_jay( int $heading_level = 2 ) {
 
       out_text( '. ' );
 
-      out_text( 'My favourite computer game is StarCraft II. ' );
+      out_text( 'My mechanical keyboard is a ' );
 
-      out_text( 'My favourite story is The Lord of the Rings. ' );
+      render_link_internal(
+        'FILCO Majestouch 2SS',
+        'https://jj5.net/80030',
+        TITLE_LINK_MAJESTOUCH,
+      );
 
-      out_text( 'My favourite movie is The Matrix. ' );
+      out_text( ' with ' );
 
-      out_text( 'My favourite colour is ' );
+      render_link_external(
+        'Cherry MX Speed Silver switches',
+        'https://www.cherry.de/en-gb/product/mx2a-speed-silver',
+        TITLE_LINK_CHERRY_MX_SPEED_SILVER,
+      );
+
+      out_text( '. ' );
+
+      out_text( 'My favourite computer game is ' );
+
+      render_link_external(
+        'StarCraft II',
+        'https://starcraft2.blizzard.com/',
+        TITLE_LINK_STARCRAFT2,
+      );
+
+      out_text( '. My favourite story is ' );
+
+      render_link_external(
+        'The Lord of the Rings',
+        'https://en.wikipedia.org/wiki/The_Lord_of_the_Rings',
+        TITLE_LINK_LOTR,
+      );
+
+      out_text( '. My favourite movie is ' );
+
+      render_link_external(
+        'The Matrix',
+        'https://en.wikipedia.org/wiki/The_Matrix',
+        TITLE_LINK_THE_MATRIX,
+      );
+
+      out_text( '. My favourite colour is ' );
 
       tag_text( 'span', '#37a101', [ 'style' => 'color: #37a101;' ] );
 
