@@ -36,7 +36,7 @@ rel="noopener follow"
 href="https://en.wikipedia.org/wiki/Blue_Mountains_(New_South_Wales)"
 title="Click here to learn more about the Blue Mountains.">Blue Mountains</a> which is in New South Wales, Australia, just outside of Sydney.</p>
 
-<p>Jay Jay's favourite type of music is psychedelic trance. He's usually tuned into the <a
+<p>Jay Jay's favorite type of music is psychedelic trance. He's usually tuned into the <a
 class="external"
 target="_blank"
 rel="noopener follow"
@@ -61,28 +61,28 @@ class="external"
 target="_blank"
 rel="noopener follow"
 href="https://www.cherry.de/en-gb/product/mx2a-speed-silver"
-title="Click here for more information about my Cherry MX Speed Silver keyboard switches.">Cherry MX Speed Silver switches</a>, his favourite computer game is <a
+title="Click here for more information about my Cherry MX Speed Silver keyboard switches.">Cherry MX Speed Silver switches</a>, his favorite computer game is <a
 class="external"
 target="_blank"
 rel="noopener follow"
 href="https://starcraft2.blizzard.com/"
-title="Click here for more information about StarCraft II.">StarCraft II</a>, this favourite story is <a
+title="Click here for more information about StarCraft II.">StarCraft II</a>, this favorite story is <a
 class="external"
 target="_blank"
 rel="noopener follow"
 href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings"
-title="Click here for more information about The Lord of the Rings.">The Lord of the Rings</a>, his favourite movie is <a
+title="Click here for more information about The Lord of the Rings.">The Lord of the Rings</a>, his favorite movie is <a
 class="external"
 target="_blank"
 rel="noopener follow"
 href="https://en.wikipedia.org/wiki/The_Matrix"
-title="Click here for more information about The Matrix.">The Matrix</a>, and his favourite colour is <span
+title="Click here for more information about The Matrix.">The Matrix</a>, and his favorite color is <span
 style="color: #37a101;">#37a101</span>.</p>
 
 <p>Jay Jay blogs at <a href="https://blog.jj5.net/">blog.jj5.net</a> and he's on github at <a href="https://github.com/jj5">github.com/jj5</a>.</p>
 
 <p>Jay Jay knows the instructions were to deliver <em><strong>one</strong></em> example article written in the voice of Hackaday. And he did that.
-Seven times. Did he over deliver? Or did he ignore instructions? You decide.</p>
+Seven times. In his defense he wasn't sure what would be the best topic. Did he over deliver? Or did he ignore instructions? You decide.</p>
 
 <?php render_index( false ); ?>
 
