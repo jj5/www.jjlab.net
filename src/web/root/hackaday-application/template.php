@@ -629,17 +629,6 @@ function render_foot() {
  <br>Powered by <a href="/hackaday-application" rel="generator nofollow" class=powered-by-wpcom>WordPress VIP</a> </div>
  </div>
 </footer>
-<img src=data:, id=hdTrack class="trackImg sf-hidden" oajzhmmfx>
- <div class=cookie-notifications style=display:block>
- <div class=container>
- <div class="close cookie-notifications-btn sf-hidden"></div>
- <p>
- By using our website and services, you expressly agree to the placement of our performance, functionality and advertising cookies. <a target=_blank href="/hackaday-application">Learn more</a></p>
- <button class="accept cookie-notifications-btn">OK</button>
- </div>
- </div>
-
-
 
 <div class="fbc-badge js-fbc-UID_1 fbc-badge-small fbc-badge-share-passive fbc-badge-share sf-hidden" style=z-index:2;left:629.1px;top:314.333px></div><div class="fbc-badge js-fbc-UID_2 fbc-badge-small fbc-badge-share-passive fbc-badge-share sf-hidden" style=z-index:2;left:-12px;top:-5px></div>
 <?php
