@@ -15,7 +15,7 @@ and are relieved to see there's a &lt;meta name="robots" content="noindex, nofol
 easy knowing this spoof webpage won't turn up in any legit search engines, which is good, given the gratuitous use
 of the Hackaday branding.</p>
 
-<p>Jay Jay's full and proper name is John Elliot V. The V on the end of his name is because he's the fifth in a line of
+<p>Jay Jay's full and proper name is John Elliot V. The V on the end of his name is because he's the fifth in a long line of
 John Elliots going back to his great great grandfather. (His dad's name was Walter.)</p>
 
 <p>Jay Jay was born in 1980 making him <?= date('Y')-1980 ?> years old this year. He studied computer science

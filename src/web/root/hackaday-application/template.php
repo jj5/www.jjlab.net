@@ -1,5 +1,16 @@
 <?php
 
+if ( $_SERVER[ 'SERVER_NAME' ] === 'localhost' ) {
+
+  define( 'IMG_ROOT', '' );
+
+}
+else {
+
+  define( 'IMG_ROOT', 'https://der3syffk4l6q.cloudfront.net/hackaday-application/' );
+
+}
+
 function render_index() {
 ?>
 
@@ -119,7 +130,7 @@ I based the HTML in this page off this: https://hackaday.com/2025/02/25/were-hir
  <div class="share-dialog-content sf-hidden">
 
  </div>
- <div class=entry-featured-image><img itemprop=image content="https://hackaday.com/wp-content/uploads/2015/07/2015-07-01_had_help_wanted_thumb.png?w=600&amp;h=600" src="<?= $img_path ?>" alt></div>
+ <div class=entry-featured-image><img itemprop=image content="https://hackaday.com/wp-content/uploads/2015/07/2015-07-01_had_help_wanted_thumb.png?w=600&amp;h=600" src="<?= IMG_ROOT . $img_path ?>" alt></div>
  </header>
  <div class=entry-content itemprop=articleBody>
 
