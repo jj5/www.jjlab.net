@@ -1,6 +1,16 @@
 <?php
 
-if ( $_SERVER[ 'SERVER_NAME' ] === 'localhost' ) {
+// 2025-02-26 jj5 - SEE: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/example_cloudfront_functions_add_security_headers_section.html
+
+header( "strict-transport-security: max-age=63072000; includeSubdomains; preload" );
+//header( "content-security-policy: default-src 'none'; img-src 'self' https://der3syffk4l6q.cloudfront.net; script-src 'self'; style-src 'self' data:; object-src 'none'; frame-ancestors 'none'" );
+//header( "content-security-policy: img-src 'self' https://der3syffk4l6q.cloudfront.net/hackaday-application/;" );
+header( "x-content-type-options: nosniff" );
+header( "x-frame-options: DENY" );
+header( "x-xss-protection: 1; mode=block" );
+header( "referrer-policy: same-origin" );
+
+if ( true || $_SERVER[ 'SERVER_NAME' ] === 'localhost' ) {
 
   define( 'IMG_ROOT', '' );
 
@@ -47,8 +57,9 @@ I based the HTML in this page off this: https://hackaday.com/2025/02/25/were-hir
 
 <meta name="robots" content="noindex, nofollow">
 <meta name="referrer" content="no-referrer">
+<!--
 <meta http-equiv="Content-Security-Policy" content="img-src 'self' https://der3syffk4l6q.cloudfront.net;">
-
+-->
 
 <meta name=viewport content="width=device-width, initial-scale=1.0">
 <meta name=theme-color content=#1a1a1a>
