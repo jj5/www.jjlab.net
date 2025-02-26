@@ -21,10 +21,20 @@ else {
 
 }
 
-function render_index() {
+function render_index( $show_cover = true ) {
+
+  if ( $show_cover ):
 ?>
 
+<p>Here are Jay Jay's example articles (or return to the
+<a href="./">cover letter</a>):</p>
+
+<?php else : ?>
+
 <p>Here are Jay Jay's example articles:</p>
+
+<?php endif; ?>
+
 <ul>
 <li><a href="rown-fusny.php">Review of the Rown Fusny R03U Wireless Mono Headset</a></li>
 <li><a href="jjlab.php">Introducing In The Lab With Jay Jay</a></li>

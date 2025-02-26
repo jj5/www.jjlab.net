@@ -84,7 +84,7 @@ style="color: #37a101;">#37a101</span>.</p>
 <p>Jay Jay knows the instructions were to deliver <em><strong>one</strong></em> example article written in the voice of Hackaday. And he did that.
 Seven times. Did he over deliver? Or did he ignore instructions? You decide.</p>
 
-<?php render_index(); ?>
+<?php render_index( false ); ?>
 
 <p>Jay Jay would like to thank you for your consideration. :)</p>
 
