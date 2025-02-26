@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/template.php';
 
-render_head( 'Introducing In The Lab With Jay Jay', 'img/jjlab-2.jpg' );
+render_head( 'Introducing Silicon Chip Magazine', 'img/jjlab-2.jpg' );
 
 ?>
 

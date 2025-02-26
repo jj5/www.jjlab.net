@@ -82,7 +82,7 @@ style="color: #37a101;">#37a101</span>.</p>
 <p>Jay Jay blogs at <a href="https://blog.jj5.net/">blog.jj5.net</a> and he's on github at <a href="https://github.com/jj5">github.com/jj5</a>.</p>
 
 <p>Jay Jay knows the instructions were to deliver <em><strong>one</strong></em> example article written in the voice of Hackaday. And he did that.
-Two times. Did he over deliver? Or did he ignore instructions? You decide.</p>
+Seven times. Did he over deliver? Or did he ignore instructions? You decide.</p>
 
 <?php render_index(); ?>
 

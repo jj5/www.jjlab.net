@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/template.php';
 
-render_head( 'Introducing In The Lab With Jay Jay', 'img/jjlab-2.jpg' );
+render_head( 'Review of the EEVblog BM2257 Digital Multimeter', 'img/jjlab-2.jpg' );
 
 ?>
 

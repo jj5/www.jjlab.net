@@ -7,11 +7,11 @@ function render_index() {
 <ul>
 <li><a href="rown-fusny.php">Review of the Rown Fusny R03U Wireless Mono Headset</a></li>
 <li><a href="jjlab.php">Introducing In The Lab With Jay Jay</a></li>
-<li><a href="">Review of the EEVblog BM2257 Digital Multimeter</a></li>
-<li><a href="">Review of the Fluke 17B+ Digital Multimeter</a></li>
-<li><a href="">Introducing Silicon Chip Magazine</a></li>
-<li><a href="">Introducing the Maxitronix Electronics Project Labs</a></li>
-<li><a href="">The 2nd Edition of Learning the Art of Electronics Is Out Now</a></li>
+<li><a href="bm2257.php">Review of the EEVblog BM2257 Digital Multimeter</a></li>
+<li><a href="fluke.php">Review of the Fluke 17B+ Digital Multimeter</a></li>
+<li><a href="silicon-chip.php">Introducing Silicon Chip Magazine</a></li>
+<li><a href="maxitronix.php">Introducing the Maxitronix Electronics Project Labs</a></li>
+<li><a href="learning-the-art.php">The 2nd Edition of Learning the Art of Electronics Is Out Now</a></li>
 </ul>
 
 <?php
