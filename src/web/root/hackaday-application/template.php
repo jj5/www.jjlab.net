@@ -47,6 +47,8 @@ I based the HTML in this page off this: https://hackaday.com/2025/02/25/were-hir
 
 <meta name="robots" content="noindex, nofollow">
 <meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="img-src 'self' https://der3syffk4l6q.cloudfront.net;">
+
 
 <meta name=viewport content="width=device-width, initial-scale=1.0">
 <meta name=theme-color content=#1a1a1a>
