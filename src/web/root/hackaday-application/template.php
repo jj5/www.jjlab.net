@@ -130,7 +130,7 @@ I based the HTML in this page off this: https://hackaday.com/2025/02/25/were-hir
  <div class="share-dialog-content sf-hidden">
 
  </div>
- <div class=entry-featured-image><img src="<?= IMG_ROOT . $img_path ?>"></div>
+ <div class=entry-featured-image><img src="<?= IMG_ROOT . $img_path ?>" alt="Banner image"></div>
  </header>
  <div class=entry-content itemprop=articleBody>
 
