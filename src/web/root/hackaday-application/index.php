@@ -81,8 +81,39 @@ style="color: #37a101;">#37a101</span>.</p>
 
 <p>Jay Jay blogs at <a href="https://blog.jj5.net/">blog.jj5.net</a> and he's on github at <a href="https://github.com/jj5">github.com/jj5</a>.</p>
 
+<p>Jay Jay subscribes to
+<a
+class="external"
+target="_blank"
+rel="noopener nofollow"
+href="https://www.siliconchip.com.au/"
+title="Click here for more information about Silicon Chip magazine.">Silicon Chip</a>
+and <a
+class="external"
+target="_blank"
+rel="noopener nofollow"
+href="https://makezine.com/"
+title="Click here for more information about Make: magazine.">Make:</a>
+magazines. He's a big fan of the <a
+class="external"
+target="_blank" rel="noopener nofollow"
+href="https://www.eevblog.com/" title="Click here for more information about EEVblog.">EEVblog</a>
+and the <a
+class="external"
+target="_blank"
+rel="noopener nofollow"
+href="https://www.eevblog.com/forum/"
+title="Click here for more information about the EEVblog Forum.">EEVblog Forum</a>.
+And he supports a number of electronics video bloggers via Patreon as <a
+class="external"
+target="_blank"
+rel="noopener nofollow"
+href="https://www.inthelabwithjayjay.com/in-the-lab/homies.php"
+title="Click here for more information about Jay Jay's homies.">listed here</a>.</p>
+
 <p>Jay Jay knows the instructions were to deliver <em><strong>one</strong></em> example article written in the voice of Hackaday. And he did that.
-Seven times. In his defense he wasn't sure what would be the best topic. Did he over deliver? Or did he ignore instructions? You decide.</p>
+Seven times. In his defense he wasn't sure what would be the best topic. Did he over deliver? Or did he ignore instructions? You decide.
+(You don't have to read them all, pick one that takes your interest!)</p>
 
 <?php render_index( false ); ?>
 
