@@ -30,7 +30,7 @@ the third edition of The Art of Electronics.</p>
 electronics through a collection of 25 lab exercises.</p>
 
 <p>I was saddened recently to find that Learning the Art of Electronics was out of print. I was pleased later to find that
-it was only the 1st edition that was out of print pending the second edition of the book which will be available soon.</p>
+it was only the first edition that was out of print pending the second edition of the book which will be available soon.</p>
 
 <p>The first edition of Learning the Art of Electronics was published in 2016. It was written by
 Thomas C. Hayes and Paul Horowitz. The second edition is written by Thomas C. Hayes and

@@ -38,13 +38,22 @@ magazine. These are small projects that
 are published in the magazine and are designed to be built in a day.</li>
 <li><strong>Maxitronix Xin1 Kits:</strong> wherein we build the Maxitronix Xin1 kits. These are kits that are designed to teach electronics
 to children and they are great fun and highly educational.</li>
+<!-- 2025-02-27 jj5 - not gonna mention this...
 <li><strong>Interludes:</strong> wherein we take a break from the main content and do something different.</li>
+-->
 <li><strong>Mail Call:</strong> wherein we take a look at what has arrived in the mail. This can be anything from a new book to a new
 component to a new tool, or a few boxes full of such things.</li>
-<li><strong>Unboxings:</strong> wherein we unbox something new. This can be anything from a new book to a new component to a new tool.</li>
-<li><strong>Demos:</strong> wherein we take a close look at something, usually a new tool or a new component, and see how it works.
+<li><strong>Unboxings:</strong> wherein we unbox something new. Usually tools or other equipment
+purchased from places such as
+<a href="https://hackaday.com/tag/aliexpress/">AliExpress</a>
+or
+<a href="https://hackaday.com/tag/amazon/">Amazon</a>.
+</li>
+<li><strong>Demos:</strong> wherein we take a close look at something, usually a new tool or instrument, and see how it works.
 When practical we go through the manual and take a look at each feature.</li>
+<!-- 2025-02-27 jj5 - not gonna mention this either...
 <li><strong>Channel News:</strong> wherein we take a look at what's happening on the channel.</li>
+-->
 </ul>
 
 <p>If any of that sounds of interest to you check us out on the web at
