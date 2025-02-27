@@ -12,7 +12,7 @@ render_head( 'The 2nd Edition of Learning the Art of Electronics Is Nearly Here'
 
 <p><a href="https://en.wikipedia.org/wiki/Paul_Horowitz">[Paul Horowitz]</a>
 and
-<a href="https://en.wikipedia.org/wiki/Winfield_Hill">[W]infield Hill]</a>
+<a href="https://en.wikipedia.org/wiki/Winfield_Hill">[Winfield Hill]</a>
 first published this masterpiece of electronics literature in 1980. It has been the go-to
 book for anyone interested in learning about electronics ever since. The third edition of the book was
 published in 2015.</p>
