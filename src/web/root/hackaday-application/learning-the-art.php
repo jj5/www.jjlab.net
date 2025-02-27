@@ -8,7 +8,7 @@ render_head( 'The 2nd Edition of Learning the Art of Electronics Is Nearly Here'
 
 <p>When it comes to electronics lore the most venerable of tomes is
 <a href="https://hackaday.com/2015/01/29/the-art-of-electronics-third-edition/">The Art of Electronics</a>
-(the book's homepage is <a href="https://artofelectronics.net/">https://artofelectronics.net/</a>).</p>
+(on the web at <a href="https://artofelectronics.net/">artofelectronics.net</a>).</p>
 
 <p><a href="https://en.wikipedia.org/wiki/Paul_Horowitz">Paul Horowitz</a>
 and
@@ -19,11 +19,13 @@ published in 2015.</p>
 
 <p>The Art of Electronics has two related and supplementary works,
 <a href="https://hackaday.com/2020/01/23/the-truth-is-in-there-the-art-of-electronics-the-x-chapters/">The Art of Electronics: The x-Chapters</a>
-(on the web at <a href="https://x.artofelectronics.net/">https://x.artofelectronics.net/</a>) and
-<a href="https://learningtheartofelectronics.com/">Learning the Art of Electronics: A Hands-On Lab Course</a>.
-The x-Chapters are a collection of supplementary material that didn't make it into the third edition of
+(on the web at <a href="https://x.artofelectronics.net/">x.artofelectronics.net</a>) and
+Learning the Art of Electronics: A Hands-On Lab Course
+(on the web at <a href="https://learningtheartofelectronics.com/">learningtheartofelectronics.com</a>).</p>
+
+<p>The x-Chapters are a collection of supplementary material that didn't make it into the third edition of
 The Art of Electronics. Learning the Art of Electronics is a companion book that provides a structured introduction to
-electronics.</p>
+electronics through a collection of 25 lab exercises.</p>
 
 <p>I was saddened recently to find that Learning the Art of Electronics was out of print. I was pleased later to find that
 it was only the 1st edition that was out of print pending the second edition of the book which will be available soon.</p>
@@ -37,7 +39,7 @@ from the various vendors should commence soon thereafter (the books have to be s
 seeing what changes have been made to the book!</p>
 
 <p>For more information about Learning the Art of Electronics, including where to buy, check out the book's homepage at
-<a href="https://learningtheartofelectronics.com/">https://learningtheartofelectronics.com/</a>.</p>
+<a href="https://learningtheartofelectronics.com/">learningtheartofelectronics.com</a>.</p>
 
 <hr>
 
