@@ -6,7 +6,7 @@ render_head( "Jay Jay's Hackaday Application", 'img/application.webp' );
 
 ?>
 
-<p>You arrive at work in the morning and check your email. There are a few messages in the jobs inbox. This isn't unusual, but one of them catches your eye. It's from [Jay Jay], the host of the nascent electronics video blog <em><a href="https://www.inthelabwithjayjay.com/">In The Lab With Jay Jay</a></em>. He read <a href="https://hackaday.com/2025/02/25/were-hiring-come-join-us-7/">the advertisement</a>
+<p>You arrive at work in the morning and check your email. There are a few messages in the jobs inbox. This isn't unusual, but one of them catches your eye. It's from [Jay Jay], the host of the nascent electronics video blog <a href="https://www.inthelabwithjayjay.com/">In The Lab With Jay Jay</a>. He read <a href="https://hackaday.com/2025/02/25/were-hiring-come-join-us-7/">the advertisement</a>
 and is applying to write for Hackaday. You open the email to find his application.</p>
 
 <p>The application itself is rather understated. It's a bare link to a website you haven't seen before. You click
