@@ -104,12 +104,13 @@ target="_blank"
 rel="noopener nofollow"
 href="https://www.eevblog.com/forum/"
 title="Click here for more information about the EEVblog Forum.">EEVblog Forum</a>.
-And he supports a number of electronics video bloggers via Patreon as <a
+And he <a
 class="external"
 target="_blank"
 rel="noopener nofollow"
 href="https://www.inthelabwithjayjay.com/in-the-lab/homies.php"
-title="Click here for more information about Jay Jay's homies.">listed here</a>.</p>
+title="Click here for more information about Jay Jay's homies.">supports a number of electronics video bloggers</a>
+via Patreon.</p>
 
 <p>Jay Jay knows the instructions were to deliver <em><strong>one</strong></em> example article written in the voice of Hackaday. And he did that.
 Seven times. In his defense he wasn't sure what would be the best topic. Did he over deliver? Or did he ignore instructions? You decide.
