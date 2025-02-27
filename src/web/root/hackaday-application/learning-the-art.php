@@ -42,7 +42,7 @@ David Abrams and will be out this year.</p>
 from the various vendors should commence soon thereafter (the books have to be shipped, un-packed, stocked, etc.)</blockquote>
 
 <p>It's great to see that the second edition of Learning the Art of Electronics is on the way. I'm looking forward to
-seeing what changes have been made to the book!</p>
+seeing what changes have been made!</p>
 
 <p>For more information about Learning the Art of Electronics, including where to buy, check out the book's homepage at
 <a href="https://learningtheartofelectronics.com/">learningtheartofelectronics.com</a>.</p>
