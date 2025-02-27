@@ -1,5 +1,10 @@
 <?php
 
+// 2025-02-27 jj5 - NOTE: we can freeze this date when I actually submit this application.
+//
+global $date;
+$date = new DateTime();
+
 // 2025-02-26 jj5 - SEE: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/example_cloudfront_functions_add_security_headers_section.html
 
 header( "strict-transport-security: max-age=63072000; includeSubdomains; preload" );
@@ -36,13 +41,13 @@ function render_index( $show_cover = true ) {
 <?php endif; ?>
 
 <ul>
+<li><a href="learning-the-art.php">The 2nd Edition of Learning the Art of Electronics Is Nearly Here</a></li>
 <li><a href="rown-fusny.php">Review of the Rown Fusny R03U Wireless Mono Headset</a></li>
 <li><a href="jjlab.php">Introducing In The Lab With Jay Jay</a></li>
 <li><a href="cccc.php">Crustacean Chirpy Chip Challenge</a></li>
 <li><a href="bm2257.php">Review of the EEVblog BM2257 Digital Multimeter</a></li>
 <li><a href="fluke.php">Review of the Fluke 17B+ Digital Multimeter</a></li>
 <li><a href="maxitronix.php">Introducing the Maxitronix Electronics Project Labs</a></li>
-<li><a href="learning-the-art.php">The 2nd Edition of Learning the Art of Electronics Is Out Now</a></li>
 <!-- 2025-02-26 jj5 - gonna try to keep it to seven only, seven is a lot!
 <li><a href="silicon-chip.php">Introducing Silicon Chip Magazine</a></li>
 -->
@@ -52,7 +57,7 @@ function render_index( $show_cover = true ) {
 }
 
 function render_head( $heading, $img_path ) {
-  global $heading_html;
+  global $heading_html, $date;
   $heading_html = htmlspecialchars( $heading );
 ?>
 <!DOCTYPE html>
@@ -117,7 +122,7 @@ I based the HTML in this page off this: https://hackaday.com/2025/02/25/were-hir
 <li id=menu-item-136905 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-136905"><a href="/hackaday-application" title="Build Something that Matters">Hackaday Prize</a></li>
 <li id=menu-item-77211 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77211"><a href="/hackaday-application">Submit</a></li>
 <li id=menu-item-101802 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101802"><a href="/hackaday-application">About</a></li>
-<li class="menu-item-mobilesearch-top sf-hidden"></ul></div> <aside id=hackaday_calendar-2 class="widget widget_hackaday_calendar"><div id=hackaday_calendar_wrap><label class=calendar_current_time><?= date('F j, Y') ?></label></div></aside> </nav>
+<li class="menu-item-mobilesearch-top sf-hidden"></ul></div> <aside id=hackaday_calendar-2 class="widget widget_hackaday_calendar"><div id=hackaday_calendar_wrap><label class=calendar_current_time><?= $date->format('F j, Y') ?></label></div></aside> </nav>
  </header>
  <div id=content class=site-content>
  <div id=primary class=content-area>
@@ -136,7 +141,7 @@ I based the HTML in this page off this: https://hackaday.com/2025/02/25/were-hir
  </ul>
  </div>
  <div class="entry-meta entry-meta-last">
- <span class="entry-date published updated" itemprop=datePublished content="<?= date('F j, Y') ?>"><a href="/hackaday-application" title="<?= date('F j, Y') ?> - 10:00 am"><?= date('F j, Y') ?></a></span>
+ <span class="entry-date published updated" itemprop=datePublished content="<?= $date->format('F j, Y') ?>"><a href="/hackaday-application" title="<?= $date->format('F j, Y') ?> - 10:00 am"><?= $date->format('F j, Y') ?></a></span>
  <ul class=share-post>
  <li><a title="Share on Facebook" href="/hackaday-application" target=_blank class="fbc-has-badge fbc-UID_1"><span class="icon-hackaday icon-hackaday-facebook"></span></a></li>
  <li><a title="Share on Twitter" href="/hackaday-application" target=_blank><span class="icon-hackaday icon-hackaday-twitter"></span></a></li>
@@ -161,7 +166,7 @@ I based the HTML in this page off this: https://hackaday.com/2025/02/25/were-hir
 }
 
 function render_foot() {
-  global $heading_html;
+  global $heading_html, $date;
 ?>
  </div>
  <ul class="sharing sf-hidden">
@@ -192,8 +197,8 @@ function render_foot() {
  <b class=fn><a href="/hackaday-application" class=url rel="ugc external nofollow">Thomas A. Anderson</a></b> <span class=says>says:</span> </div>
  <div class=comment-metadata>
  <a href=#comment-8102959>
- <time datetime=<?= date("Y-m-d") ?>T10:11:17-08:00>
- <?= date('F j, Y') ?> at 10:11 am </time>
+ <time datetime=<?= $date->format("Y-m-d") ?>T10:11:17-08:00>
+ <?= $date->format('F j, Y') ?> at 10:11 am </time>
  </a>
  </div>
  </footer>
@@ -211,8 +216,8 @@ function render_foot() {
  <b class=fn>asking for a friend</b> <span class=says>says:</span> </div>
  <div class=comment-metadata>
  <a href=#comment-8102960>
- <time datetime=<?= date("Y-m-d") ?>T10:17:55-08:00>
- <?= date('F j, Y') ?> at 10:17 am </time>
+ <time datetime=<?= $date->format("Y-m-d") ?>T10:17:55-08:00>
+ <?= $date->format('F j, Y') ?> at 10:17 am </time>
  </a>
  </div>
  </footer>
@@ -230,8 +235,8 @@ function render_foot() {
  <b class=fn><a href="/hackaday-application" class=url rel="ugc external nofollow">William Elliots</a></b> <span class=says>says:</span> </div>
  <div class=comment-metadata>
  <a href=#comment-8102987>
- <time datetime=<?= date("Y-m-d") ?>T12:06:06-08:00>
- <?= date('F j, Y') ?> at 12:06 pm </time>
+ <time datetime=<?= $date->format("Y-m-d") ?>T12:06:06-08:00>
+ <?= $date->format('F j, Y') ?> at 12:06 pm </time>
  </a>
  </div>
  </footer>
