@@ -42,13 +42,13 @@ function render_index( $show_cover = true ) {
 
 <ul>
 <li><a href="learning-the-art.php">The 2nd Edition of Learning the Art of Electronics Is Nearly Here</a></li>
-<li><a href="rown-fusny.php">Review of the Rown Fusny R03U Wireless Mono Headset</a></li>
 <li><a href="jjlab.php">Introducing In The Lab With Jay Jay</a></li>
+<li><a href="rown-fusny.php">Review of the Rown Fusny R03U Wireless Mono Headset</a></li>
+<!-- 2025-02-27 jj5 - these are other topics I could cover...
 <li><a href="cccc.php">Crustacean Chirpy Chip Challenge</a></li>
 <li><a href="bm2257.php">Review of the EEVblog BM2257 Digital Multimeter</a></li>
 <li><a href="fluke.php">Review of the Fluke 17B+ Digital Multimeter</a></li>
 <li><a href="maxitronix.php">Introducing the Maxitronix Electronics Project Labs</a></li>
-<!-- 2025-02-26 jj5 - gonna try to keep it to seven only, seven is a lot!
 <li><a href="silicon-chip.php">Introducing Silicon Chip Magazine</a></li>
 -->
 </ul>

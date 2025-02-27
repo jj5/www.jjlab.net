@@ -88,7 +88,7 @@ title="Click here for more information about The Matrix.">The Matrix</a>, and hi
 style="color: #37a101;">#37a101</span>.</p>
 
 <p>Jay Jay knows the instructions were to deliver <em><strong>one</strong></em> example article written in the voice of Hackaday. And he did that.
-Seven times. In his defense he wasn't sure what would be the best topic. Did he over deliver? Or did he ignore instructions? You decide.
+Three times. In his defense he wasn't sure what would be the best topic. Did he over deliver? Or did he ignore instructions? You decide.
 (You don't have to read them all, pick one that takes your interest!)</p>
 
 <?php render_index( false ); ?>
