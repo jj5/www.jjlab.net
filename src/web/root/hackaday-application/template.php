@@ -83,6 +83,12 @@ I based the HTML in this page off this: https://hackaday.com/2025/02/25/were-hir
 <meta name=theme-color content=#1a1a1a>
 <title><?= $heading_html ?> | Hackaday</title>
 <link rel=profile href=http://gmpg.org/xfn/11>
+
+<!-- 2025-02-27 jj5 - just some touch-ups... -->
+<style>
+li { margin-bottom: 10px !important; }
+</style>
+
 <!--[if lt IE 9]>
     <script src="https://hackaday.com/wp-content/themes/hackaday-2/js/html5.js"></script>
 <![endif]-->
