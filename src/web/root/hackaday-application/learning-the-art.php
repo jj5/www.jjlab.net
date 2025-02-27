@@ -20,15 +20,21 @@ published in 2015.</p>
 <p>The Art of Electronics has two related and supplementary works,
 <a href="https://hackaday.com/2020/01/23/the-truth-is-in-there-the-art-of-electronics-the-x-chapters/">The Art of Electronics: The x-Chapters</a>
 (on the web at <a href="https://x.artofelectronics.net/">x.artofelectronics.net</a>) and
-Learning the Art of Electronics: A Hands-On Lab Course
+<strong>Learning the Art of Electronics: A Hands-On Lab Course</strong>
 (on the web at <a href="https://learningtheartofelectronics.com/">learningtheartofelectronics.com</a>).</p>
 
-<p>The x-Chapters are a collection of supplementary material that didn't make it into the third edition of
-The Art of Electronics. Learning the Art of Electronics is a companion book that provides a structured introduction to
+<p>The x-Chapters, also written by Horowitz and Hill, are a collection of supplementary material that didn't make it into
+the third edition of The Art of Electronics.</p>
+
+<p>Learning the Art of Electronics is a companion book that provides a structured introduction to
 electronics through a collection of 25 lab exercises.</p>
 
 <p>I was saddened recently to find that Learning the Art of Electronics was out of print. I was pleased later to find that
 it was only the 1st edition that was out of print pending the second edition of the book which will be available soon.</p>
+
+<p>The first edition of Learning the Art of Electronics was published in 2016. It was written by
+Thomas C. Hayes and Paul Horowitz. The second edition is written by Thomas C. Hayes and
+David Abrams.</p>
 
 <p>According to the <a href="https://learningtheartofelectronics.com/category/news/">news</a> section of the Learning the Art of Electronics website:</p>
 
