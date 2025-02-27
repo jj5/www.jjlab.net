@@ -8,14 +8,14 @@ render_head( 'Introducing In The Lab With Jay Jay', 'img/jjlab-2.jpg' );
 
 <p>There's a new electronics
 <a href="https://hackaday.com/tag/video-blog/">video blog</a>
-in town! In The Lab With Jay Jay is brought to you by John Elliot V, also known as
-your mate, Jay Jay.</p>
+in town! <em>In The Lab With Jay Jay</em> is brought to you by [John Elliot V], also known as
+your mate, [Jay Jay].</p>
 
-<p>Jay Jay has been at it for a while now and is making progress when it comes to making interesting electronics videos.</p>
+<p>[Jay Jay] has been at it for a while now and is making progress when it comes to making interesting electronics videos.</p>
 
-<p>Inspired by others, such as Dave Jones over on the
+<p>Inspired by others, such as [Dave Jones] over on the
 <a href="https://hackaday.com/2009/08/16/eevblog-the-electronics-engineering-video-blog/">EEVblog</a>,
-Jay Jay aims to make a show that is both entertaining and educational. The show is aimed at beginners and intermediate
+[Jay Jay] aims to make a show that is both entertaining and educational. The show is aimed at beginners and intermediate
 electronics enthusiasts and is designed to be a fun and engaging way to learn about electronics.</p>
 
 <p>The channel format is slowly evolving and there are now a number of distinct features of the show which are released

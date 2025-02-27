@@ -36,7 +36,7 @@ function render_index( $show_cover = true ) {
 
 <?php else : ?>
 
-<p>Here are Jay Jay's example articles:</p>
+<p>Here are [Jay Jay]'s example articles:</p>
 
 <?php endif; ?>
 

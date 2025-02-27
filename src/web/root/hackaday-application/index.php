@@ -6,30 +6,30 @@ render_head( "Jay Jay's Hackaday Application", 'img/application.webp' );
 
 ?>
 
-<p>You arrive at work in the morning and check your email. There are a few messages in the jobs inbox. This isn't unusual, but one of them catches your eye. It's from Jay Jay, the host of the nascent electronics video blog <a href="https://www.inthelabwithjayjay.com/">In The Lab With Jay Jay</a>. He read <a href="https://hackaday.com/2025/02/25/were-hiring-come-join-us-7/">the advertisement</a>
+<p>You arrive at work in the morning and check your email. There are a few messages in the jobs inbox. This isn't unusual, but one of them catches your eye. It's from [Jay Jay], the host of the nascent electronics video blog <em><a href="https://www.inthelabwithjayjay.com/">In The Lab With Jay Jay</a></em>. He read <a href="https://hackaday.com/2025/02/25/were-hiring-come-join-us-7/">the advertisement</a>
 and is applying to write for Hackaday. You open the email to find his application.</p>
 
-<p>The application itself is rather understated, it's a bare link to a website you haven't seen before. You click
+<p>The application itself is rather understated. It's a bare link to a website you haven't seen before. You click
 the link and find yourself reading a webpage that looks eerily similar to Hackaday. You quickly view source on the HTML
 and are relieved to see there's a &lt;meta name="robots" content="noindex, nofollow"&gt; meta element in there. You rest
 easy knowing this spoof webpage won't turn up in any legit search engines, which is good, given the gratuitous use
 of the Hackaday branding.</p>
 
-<p>Jay Jay's full and proper name is John Elliot V. The V on the end of his name is because he's the fifth in a long line of
-John Elliots going back to his great great grandfather. (His dad's name was Walter.)</p>
+<p>[Jay Jay]'s full and proper name is [John Elliot V]. The V on the end of his name is because he's the fifth in a long line of
+John Elliots going back to his great great grandfather. (His dad's name was [Walter].)</p>
 
-<p>Jay Jay was born in 1980 making him <?= date('Y')-1980 ?> years old this year. He studied computer science
+<p>[Jay Jay] was born in 1980 making him <?= date('Y')-1980 ?> years old this year. He studied computer science
 at the <a href="https://www.uts.edu.au/">University of Technology Sydney</a> and has been working as a computer programmer
-for the last <?= date('Y')-2000 ?> years. Before ending up as a computer programmer Jay Jay was trained as a chef. With his family he has operated two restaurants, both of them gourmet pizza joints. You are happy to hear that Jay Jay has operated two restaurants,
+for the last <?= date('Y')-2000 ?> years. Before ending up as a computer programmer [Jay Jay] was trained as a chef. With his family he has operated two restaurants, both of them gourmet pizza joints. You are happy to hear that [Jay Jay] has operated two restaurants,
 because now you know that he will do a great deal of work for not very much money.</p>
 
-<p>Jay Jay has had a lifelong interest in electronics. He started when he was 10 years old doing experiments from old
+<p>[Jay Jay] has had a lifelong interest in electronics. He started when he was 10 years old doing experiments from old
 books that he found at his local library. He got an Elenco 200-in-1 electronics kit
 when he was in junior high school. During the 90s he started collecting the
 <a href="https://www.amazon.com/s?k=Encyclopedia+of+Electronics">Encyclopedia of Electronics</a> and read everything he could get his hands on
-from <a href="https://www.amazon.com/stores/Forrest-M.-Mims-III/author/B003UGHJVE">Forrest M. Mims III</a>.</p>
+from <a href="https://www.amazon.com/stores/Forrest-M.-Mims-III/author/B003UGHJVE">[Forrest M. Mims III]</a>.</p>
 
-<p>Jay Jay lives in a beautiful part of the world known as the <a
+<p>[Jay Jay] lives in a beautiful part of the world known as the <a
 rel="noopener nofollow"
 href="https://en.wikipedia.org/wiki/Blue_Mountains_(New_South_Wales)"
 title="Click here to learn more about the Blue Mountains.">Blue Mountains</a> which is in New South Wales, Australia, just outside of Sydney.
@@ -41,7 +41,7 @@ rel="noopener nofollow"
 href="https://www.di.fm/"
 title="Click here to visit di.fm web radio.">di.fm</a>.</p>
 
-<p>Jay Jay blogs at <a href="https://blog.jj5.net/">blog.jj5.net</a> and he's on github at <a href="https://github.com/jj5">github.com/jj5</a>.
+<p>[Jay Jay] blogs at <a href="https://blog.jj5.net/">blog.jj5.net</a> and he's on github at <a href="https://github.com/jj5">github.com/jj5</a>.
 He subscribes to
 <a
 rel="noopener nofollow"
@@ -64,7 +64,7 @@ href="https://www.inthelabwithjayjay.com/in-the-lab/homies.php"
 title="Click here for more information about Jay Jay's homies.">supports a number of electronics video bloggers</a>
 via Patreon.</p>
 
-<p>Apart from electronics, computer programming, psychedelic trance, and the Oxford Comma, Jay Jay's special interests include philosophy, mathematics, and database design. Jay Jay's oscilloscope is a <a
+<p>Apart from electronics, computer programming, psychedelic trance, and the Oxford Comma, [Jay Jay]'s special interests include philosophy, mathematics, and database design. [Jay Jay]'s oscilloscope is a <a
 class="internal"
 rel="nofollow"
 href="https://jj5.net/75064"
@@ -87,13 +87,13 @@ href="https://en.wikipedia.org/wiki/The_Matrix"
 title="Click here for more information about The Matrix.">The Matrix</a>, and his favorite color is <span
 style="color: #37a101;">#37a101</span>.</p>
 
-<p>Jay Jay knows the instructions were to deliver <em><strong>one</strong></em> example article written in the voice of Hackaday. And he did that.
+<p>[Jay Jay] knows the instructions were to deliver <em><strong>one</strong></em> example article written in the voice of Hackaday. And he did that.
 Three times. In his defense he wasn't sure what would be the best topic. Did he over deliver? Or did he ignore instructions? You decide.
 (You don't have to read them all, pick one that takes your interest!)</p>
 
 <?php render_index( false ); ?>
 
-<p>Jay Jay would like to thank you for your consideration. :)</p>
+<p>[Jay Jay] would like to thank you for your consideration. :)</p>
 
 <?php
 
