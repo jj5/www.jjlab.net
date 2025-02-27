@@ -86,6 +86,7 @@ I based the HTML in this page off this: https://hackaday.com/2025/02/25/were-hir
 
 <!-- 2025-02-27 jj5 - just some touch-ups... -->
 <style>
+hr { margin: 20px 0; }
 li { margin-bottom: 10px !important; }
 blockquote { font-style: italic; }
 </style>
