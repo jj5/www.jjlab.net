@@ -87,6 +87,7 @@ I based the HTML in this page off this: https://hackaday.com/2025/02/25/were-hir
 <!-- 2025-02-27 jj5 - just some touch-ups... -->
 <style>
 li { margin-bottom: 10px !important; }
+blockquote { font-style: italic; }
 </style>
 
 <!--[if lt IE 9]>
