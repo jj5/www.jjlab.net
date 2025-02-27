@@ -30,23 +30,39 @@ when he was in junior high school. During the 90s he started collecting the
 from <a href="https://www.amazon.com/stores/Forrest-M.-Mims-III/author/B003UGHJVE">Forrest M. Mims III</a>.</p>
 
 <p>Jay Jay lives in a beautiful part of the world known as the <a
-class="external"
-target="_blank"
 rel="noopener nofollow"
 href="https://en.wikipedia.org/wiki/Blue_Mountains_(New_South_Wales)"
-title="Click here to learn more about the Blue Mountains.">Blue Mountains</a> which is in New South Wales, Australia, just outside of Sydney.</p>
-
-<p>Jay Jay's favorite type of music is psychedelic trance. He's usually tuned into the <a
-class="external"
-target="_blank"
+title="Click here to learn more about the Blue Mountains.">Blue Mountains</a> which is in New South Wales, Australia, just outside of Sydney.
+His favorite type of music is psychedelic trance and he's usually tuned into the <a
 rel="noopener nofollow"
 href="https://www.di.fm/goapsy"
 title="Click here to visit the Goa-Psy Trance channel on di.fm.">Goa-Psy Trance</a> channel on <a
-class="external"
-target="_blank"
 rel="noopener nofollow"
 href="https://www.di.fm/"
 title="Click here to visit di.fm web radio.">di.fm</a>.</p>
+
+<p>Jay Jay blogs at <a href="https://blog.jj5.net/">blog.jj5.net</a> and he's on github at <a href="https://github.com/jj5">github.com/jj5</a>.
+He subscribes to
+<a
+rel="noopener nofollow"
+href="https://www.siliconchip.com.au/"
+title="Click here for more information about Silicon Chip magazine.">Silicon Chip</a>
+and <a
+rel="noopener nofollow"
+href="https://makezine.com/"
+title="Click here for more information about Make: magazine.">Make:</a>
+magazines. He's a big fan of the <a
+rel="noopener nofollow"
+href="https://www.eevblog.com/" title="Click here for more information about EEVblog.">EEVblog</a>
+and the <a
+rel="noopener nofollow"
+href="https://www.eevblog.com/forum/"
+title="Click here for more information about the EEVblog Forum.">EEVblog Forum</a>.
+And he <a
+rel="noopener nofollow"
+href="https://www.inthelabwithjayjay.com/in-the-lab/homies.php"
+title="Click here for more information about Jay Jay's homies.">supports a number of electronics video bloggers</a>
+via Patreon.</p>
 
 <p>Apart from electronics, computer programming, psychedelic trance, and the Oxford Comma, Jay Jay's special interests include philosophy, mathematics, and database design. Jay Jay's oscilloscope is a <a
 class="internal"
@@ -57,60 +73,19 @@ class="internal"
 rel="nofollow"
 href="https://jj5.net/80030"
 title="Click here for more information about my FILCO Majestouch 2SS 104-key Mechanical Keyboard.">FILCO Majestouch 2SS</a> with <a
-class="external"
-target="_blank"
 rel="noopener nofollow"
 href="https://www.cherry.de/en-gb/product/mx2a-speed-silver"
 title="Click here for more information about my Cherry MX Speed Silver keyboard switches.">Cherry MX Speed Silver switches</a>, his favorite computer game is <a
-class="external"
-target="_blank"
 rel="noopener nofollow"
 href="https://starcraft2.blizzard.com/"
 title="Click here for more information about StarCraft II.">StarCraft II</a>, this favorite story is <a
-class="external"
-target="_blank"
 rel="noopener nofollow"
 href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings"
 title="Click here for more information about The Lord of the Rings.">The Lord of the Rings</a>, his favorite movie is <a
-class="external"
-target="_blank"
 rel="noopener nofollow"
 href="https://en.wikipedia.org/wiki/The_Matrix"
 title="Click here for more information about The Matrix.">The Matrix</a>, and his favorite color is <span
 style="color: #37a101;">#37a101</span>.</p>
-
-<p>Jay Jay blogs at <a href="https://blog.jj5.net/">blog.jj5.net</a> and he's on github at <a href="https://github.com/jj5">github.com/jj5</a>.</p>
-
-<p>Jay Jay subscribes to
-<a
-class="external"
-target="_blank"
-rel="noopener nofollow"
-href="https://www.siliconchip.com.au/"
-title="Click here for more information about Silicon Chip magazine.">Silicon Chip</a>
-and <a
-class="external"
-target="_blank"
-rel="noopener nofollow"
-href="https://makezine.com/"
-title="Click here for more information about Make: magazine.">Make:</a>
-magazines. He's a big fan of the <a
-class="external"
-target="_blank" rel="noopener nofollow"
-href="https://www.eevblog.com/" title="Click here for more information about EEVblog.">EEVblog</a>
-and the <a
-class="external"
-target="_blank"
-rel="noopener nofollow"
-href="https://www.eevblog.com/forum/"
-title="Click here for more information about the EEVblog Forum.">EEVblog Forum</a>.
-And he <a
-class="external"
-target="_blank"
-rel="noopener nofollow"
-href="https://www.inthelabwithjayjay.com/in-the-lab/homies.php"
-title="Click here for more information about Jay Jay's homies.">supports a number of electronics video bloggers</a>
-via Patreon.</p>
 
 <p>Jay Jay knows the instructions were to deliver <em><strong>one</strong></em> example article written in the voice of Hackaday. And he did that.
 Seven times. In his defense he wasn't sure what would be the best topic. Did he over deliver? Or did he ignore instructions? You decide.
