@@ -34,7 +34,7 @@ it was only the first edition that was out of print pending the second edition o
 
 <p>The first edition of Learning the Art of Electronics was published in 2016. It was written by
 Thomas C. Hayes and Paul Horowitz. The second edition is written by Thomas C. Hayes and
-David Abrams.</p>
+David Abrams and will be out this year.</p>
 
 <p>According to the <a href="https://learningtheartofelectronics.com/category/news/">news</a> section of the Learning the Art of Electronics website:</p>
 
