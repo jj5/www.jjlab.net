@@ -18,9 +18,9 @@ of the Hackaday branding.</p>
 <p>[Jay Jay]'s full and proper name is [John Elliot V]. The V on the end of his name is because he's the fifth in a long line of
 John Elliots going back to his great great grandfather. (His dad's name was [Walter].)</p>
 
-<p>[Jay Jay] was born in 1980 making him <?= date('Y')-1980 ?> years old this year. He studied computer science
+<p>[Jay Jay] was born in 1980 making him <?= $date->format('Y')-1980 ?> years old this year. He studied computer science
 at the <a href="https://www.uts.edu.au/">University of Technology Sydney</a> and has been working as a computer programmer
-for the last <?= date('Y')-2000 ?> years. Before ending up as a computer programmer [Jay Jay] was trained as a chef. With his family he has operated two restaurants, both of them gourmet pizza joints. You are happy to hear that [Jay Jay] has operated two restaurants,
+for the last <?= $date->format('Y')-2000 ?> years. Before ending up as a computer programmer [Jay Jay] was trained as a chef. With his family he has operated two restaurants, both of them gourmet pizza joints. You are happy to hear that [Jay Jay] has operated two restaurants,
 because now you know that he will do a great deal of work for not very much money.</p>
 
 <p>[Jay Jay] has had a lifelong interest in electronics. He started when he was 10 years old doing experiments from old
