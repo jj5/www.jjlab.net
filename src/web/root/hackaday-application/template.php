@@ -151,10 +151,10 @@ blockquote { font-style: italic; }
  <div class="entry-meta entry-meta-last">
  <span class="entry-date published updated" itemprop=datePublished content="<?= $date->format('F j, Y') ?>"><a href="/hackaday-application" title="<?= $date->format('F j, Y') ?> - 10:00 am"><?= $date->format('F j, Y') ?></a></span>
  <ul class=share-post>
- <li><a title="Share on Facebook" href="/hackaday-application" target=_blank class="fbc-has-badge fbc-UID_1"><span class="icon-hackaday icon-hackaday-facebook"></span></a></li>
- <li><a title="Share on Twitter" href="/hackaday-application" target=_blank><span class="icon-hackaday icon-hackaday-twitter"></span></a></li>
- <li><a title="Share on Hacker News" href="/hackaday-application" target=_blank><span class="icon-hackaday icon-hackaday-hackernews"></span></a></li>
- <li><a title="Share on Reddit" href="/hackaday-application" target=_blank><span class="icon-hackaday icon-hackaday-reddit"></span></a></li>
+ <li><a title="Share on Facebook" href="/hackaday-application" class="fbc-has-badge fbc-UID_1"><span class="icon-hackaday icon-hackaday-facebook"></span></a></li>
+ <li><a title="Share on Twitter" href="/hackaday-application"><span class="icon-hackaday icon-hackaday-twitter"></span></a></li>
+ <li><a title="Share on Hacker News" href="/hackaday-application"><span class="icon-hackaday icon-hackaday-hackernews"></span></a></li>
+ <li><a title="Share on Reddit" href="/hackaday-application"><span class="icon-hackaday icon-hackaday-reddit"></span></a></li>
  <li>
  <div class=dropdown>
  <button title="Copy title or shortlink" class="icon-hackaday icon-hackaday-clipboard" id=toggle-share-dialog></button>
@@ -273,7 +273,7 @@ function render_foot() {
 </head>
  <body class=&quot;highlander-embedded highlander-dark vsc-initialized&quot;>
  <div id=respond class=comment-respond>
- <form action="/hackaday-application" method=post id=commentform class=comment-form target>
+ <form action="/hackaday-application" method=post id=commentform class=comment-form>
 <div class=&quot;comment-form__verbum dark&quot;></div><div class=verbum-form-meta>
 
 
@@ -296,7 +296,7 @@ function render_foot() {
  </div>
 
 
- <p>Please be kind and respectful to help make the comments section excellent. (<a href="/hackaday-application">Comment Policy</a>)<p class=akismet_comment_form_privacy_notice>This site uses Akismet to reduce spam. <a href="/hackaday-application" target=_blank rel="nofollow noopener">Learn how your comment data is processed</a>.</p>
+ <p>Please be kind and respectful to help make the comments section excellent. (<a href="/hackaday-application">Comment Policy</a>)<p class=akismet_comment_form_privacy_notice>This site uses Akismet to reduce spam. <a href="/hackaday-application" rel="nofollow noopener">Learn how your comment data is processed</a>.</p>
 </div>
 
 
@@ -312,13 +312,13 @@ function render_foot() {
  </label>
  <input type=submit class=search-submit value=Search>
  </form></aside><aside id=hackadayfollowus-2 class="widget widget-follow-us"><h1 class=widget-title>Never miss a hack</h1>
- <a href="/hackaday-application" target=_blank class="icon-social icon-facebook">Follow on facebook</a>
- <a href="/hackaday-application" target=_blank class="icon-social icon-twitter">Follow on twitter</a>
- <a href="/hackaday-application" target=_blank class="icon-social icon-youtube">Follow on youtube</a>
- <a href="/hackaday-application" target=_blank class="icon-social icon-rss">Follow on rss</a>
+ <a href="/hackaday-application" class="icon-social icon-facebook">Follow on facebook</a>
+ <a href="/hackaday-application" class="icon-social icon-twitter">Follow on twitter</a>
+ <a href="/hackaday-application" class="icon-social icon-youtube">Follow on youtube</a>
+ <a href="/hackaday-application" class="icon-social icon-rss">Follow on rss</a>
  <a href=mailto:tips@hackaday.com class="icon-social icon-contact">Contact us</a>
  </aside><aside id=hackadaysubscribe-3 class="widget widget-had-subscribe"><h1 class=widget-title>Subscribe</h1>
- <form role=subscribe action="//hackaday.us11.list-manage.com/subscribe/post?u=80fc49ec84df168e48c00c18a&amp;id=a428253bfe" method=post id=mc-embedded-subscribe-form name=mc-embedded-subscribe-form class="subscribe-form validate" target=_blank novalidate>
+ <form role=subscribe action="//hackaday.us11.list-manage.com/subscribe/post?u=80fc49ec84df168e48c00c18a&amp;id=a428253bfe" method=post id=mc-embedded-subscribe-form name=mc-embedded-subscribe-form class="subscribe-form validate" novalidate>
  <div id=mc_embed_signup_scroll>
  <label for=mce-EMAIL>
  <input type=email value name=EMAIL class=subscribe-field placeholder="Enter Email Address" id=mce-EMAIL required>
@@ -612,13 +612,13 @@ function render_foot() {
 <li id=menu-item-141417 class="menu-item menu-item-type- menu-item-object- menu-item-141417"><a href="/hackaday-application">About</a></li>
 </ul></div>
  <aside id=hackadayfollowus-3 class="widget widget-follow-us"><h1 class=footer-widget-title>Never miss a hack</h1>
- <a href="/hackaday-application" target=_blank class="icon-social icon-facebook">Follow on facebook</a>
- <a href="/hackaday-application" target=_blank class="icon-social icon-twitter">Follow on twitter</a>
- <a href="/hackaday-application" target=_blank class="icon-social icon-youtube">Follow on youtube</a>
- <a href="/hackaday-application" target=_blank class="icon-social icon-rss">Follow on rss</a>
+ <a href="/hackaday-application" class="icon-social icon-facebook">Follow on facebook</a>
+ <a href="/hackaday-application" class="icon-social icon-twitter">Follow on twitter</a>
+ <a href="/hackaday-application" class="icon-social icon-youtube">Follow on youtube</a>
+ <a href="/hackaday-application" class="icon-social icon-rss">Follow on rss</a>
  <a href=mailto:tips@hackaday.com class="icon-social icon-contact">Contact us</a>
  </aside><aside id=hackadaysubscribe-2 class="widget widget-had-subscribe"><h1 class=footer-widget-title>Subscribe to Newsletter</h1>
- <form role=subscribe action="//hackaday.us11.list-manage.com/subscribe/post?u=80fc49ec84df168e48c00c18a&amp;id=a428253bfe" method=post id=mc-embedded-subscribe-form name=mc-embedded-subscribe-form class="subscribe-form validate" target=_blank novalidate>
+ <form role=subscribe action="//hackaday.us11.list-manage.com/subscribe/post?u=80fc49ec84df168e48c00c18a&amp;id=a428253bfe" method=post id=mc-embedded-subscribe-form name=mc-embedded-subscribe-form class="subscribe-form validate" novalidate>
  <div id=mc_embed_signup_scroll>
  <label for=mce-EMAIL>
  <input type=email value name=EMAIL class=subscribe-field placeholder="Enter Email Address" id=mce-EMAIL required>
@@ -633,9 +633,9 @@ function render_foot() {
  Copyright © 2025 <span class=sep> | </span>
  <strong>Hackaday, Hack A Day, and the Skull and Wrenches Logo are Trademarks of Hackaday.com</strong>
  <span class=sep> | </span>
- <a href="/hackaday-application" target=_blank>Privacy Policy</a>
+ <a href="/hackaday-application">Privacy Policy</a>
  <span class=sep> | </span>
- <a href="/hackaday-application" target=_blank>Terms of Service</a>
+ <a href="/hackaday-application">Terms of Service</a>
  <span class=sep> | </span>
  <a href="/hackaday-application">Digital Services Act</a>
  <br>Powered by <a href="/hackaday-application" rel="generator nofollow" class=powered-by-wpcom>WordPress VIP</a> </div>
