@@ -56,7 +56,7 @@ When practical we go through the manual and take a look at each feature.</li>
 -->
 </ul>
 
-<p>If any of that sounds of interest to you check us out on the web at
+<p>If any of that sounds of interest to you check it out on the web at
 <a href="https://www.inthelabwithjayjay.com/">InTheLabWithJayJay.com</a> or on YouTube at
 <a href="https://www.youtube.com/@InTheLabWithJayJay">YouTube.com/@InTheLabWithJayJay</a>.</p>
 
