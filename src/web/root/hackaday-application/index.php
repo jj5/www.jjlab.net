@@ -39,9 +39,8 @@ href="https://www.di.fm/goapsy"
 title="Click here to visit the Goa-Psy Trance channel on di.fm.">Goa-Psy Trance</a> channel on <a
 rel="noopener nofollow"
 href="https://www.di.fm/"
-title="Click here to visit di.fm web radio.">di.fm</a>.</p>
-
-<p>[Jay Jay] blogs at <a href="https://blog.jj5.net/">blog.jj5.net</a> and he's on github at <a href="https://github.com/jj5">github.com/jj5</a>.
+title="Click here to visit di.fm web radio.">di.fm</a>.
+He blogs at <a href="https://blog.jj5.net/">blog.jj5.net</a> and he's on github at <a href="https://github.com/jj5">github.com/jj5</a>.
 He subscribes to
 <a
 rel="noopener nofollow"
