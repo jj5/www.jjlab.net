@@ -3,7 +3,7 @@
 // 2025-02-27 jj5 - NOTE: we can freeze this date when I actually submit this application.
 //
 global $date;
-$date = new DateTime();
+$date = new DateTime( '2025-03-01' );
 
 // 2025-02-26 jj5 - SEE: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/example_cloudfront_functions_add_security_headers_section.html
 
