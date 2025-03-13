@@ -26,7 +26,7 @@ because now you know that he will do a great deal of work for not very much mone
 <p>[Jay Jay] has had a lifelong interest in electronics. He started when he was 10 years old doing experiments from old
 books that he found at his local library. He got an Elenco 200-in-1 electronics kit
 when he was in junior high school. During the 90s he started collecting the
-<a href="https://www.amazon.com/s?k=Encyclopedia+of+Electronics">Encyclopedia of Electronics</a> and read everything he could get his hands on
+<a href="https://www.amazon.com/s?k=Encyclopedia+of+Electronic+Circuits">Encyclopedia of Electronic Circuits</a> and read everything he could get his hands on
 from <a href="https://www.amazon.com/stores/Forrest-M.-Mims-III/author/B003UGHJVE">[Forrest M. Mims III]</a>.</p>
 
 <p>[Jay Jay] lives in a beautiful part of the world known as the <a
