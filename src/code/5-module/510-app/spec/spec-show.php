@@ -2412,6 +2412,38 @@ show(
   ),
 );
 
+show(
+  mail_call(
+    publication_date( '2025-03-15' ),
+    title( 'Calibration Circuits, Battery Holders, Analog Meters and More from AliExpress' ),
+    youtube_video( '55YfBpaMyWU' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/03/15/mail-call-27-calibration-circuits-battery-holders-analog-meters-and-more-from-aliexpress/' ),
+    patreon_url( 'https://www.patreon.com/posts/124374090' ),
+    tags(
+      'jjlab', 'Mail Call', 'Electronics',
+      'Hardware', 'Components',
+      'AliExpress',
+      'AD584LH', 'Voltage Reference',
+      'Resistor Board', 'Multimeter Calibration',
+      'Thread Repair Kit',
+      'TP4056', '5V 1A 18650 Lithium Battery Charging Board',
+      '18650 Battery Holder',
+      'ESP32-C3',
+      'USB-C PD2.0 PD3.0 Fast Charger',
+      'Banana Piercing Needle Tip Probes',
+      '0.91 Inch OLED Module',
+      'ESP32-C3 OLED Development Board', '0.42 Inch OLED Module',
+      'ESP32-C3 Super Mini Development Board', 'ESP32-C3 Expansion Board',
+      'MECHANIC Aax-17 Tweezers',
+      'Analog Ammeter', 'Analogue Voltmeter',
+      'BNC Male Plug to Dual Hook Clip',
+      'BNC Male Plug to Aligator Clip',
+      'BNC Male Plug to Banana Jack',
+    ),
+  ),
+);
+
+
 /*
 show(
   unboxing(
