@@ -14423,7 +14423,7 @@ equipment(
   sixsigma_url  ( '' ),
   affiliate_link(
     equipment_url ( 'https://rownfusny.com/' ),
-    listing_name  ( 'R03U' ),
+    listing_name  ( 'RownFusny R03U Mono Wireless Headset' ),
   ),
 );
 
