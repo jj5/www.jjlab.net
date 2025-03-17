@@ -24,6 +24,7 @@ $g_ignore_list = [
   'https://www.jaycar.com.au/',
   'https://www.opti-ups.com/',
   'https://eevblog.store/',
+  'https://rownfusny.com/',
 ];
 
 affiliate(

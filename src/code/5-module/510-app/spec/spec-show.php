@@ -2443,6 +2443,21 @@ show(
   ),
 );
 
+show(
+  maxitronix_segment(
+    publication_date( '2025-03-18' ),
+    title( "Introducing Maxitronix 30in1" ),
+    maxitronix_kit_name( '30in1' ),
+    youtube_video( 'T634SMoBHIM' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/03/18/introducing-maxitronix-30in1-maxitronix-30in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/124566658' ),
+    tags(
+      'jjlab', 'Maxitronix 30in1', 'Electronics Kit',
+      'Introduction',
+    ),
+  ),
+);
+
 
 /*
 show(
