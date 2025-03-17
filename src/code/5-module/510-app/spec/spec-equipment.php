@@ -14412,6 +14412,21 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2025-02-15' ),
+  equipment_icon( 'https://rownfusny.com/cdn/shop/files/R03U.png?v=1732515339&width=750' ),
+  equipment_item(
+    manufacturer_name ( 'RownFusny' ),
+    model_name        ( 'R03U' ),
+    EquipmentFeature::MONO_WIRELESS_HEADSET,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://rownfusny.com/' ),
+    listing_name  ( 'R03U' ),
+  ),
+);
+
 
 
 /*

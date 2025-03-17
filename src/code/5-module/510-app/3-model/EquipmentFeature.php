@@ -337,6 +337,10 @@ enum EquipmentFeature : string {
 
       case USB_HEADSET = 'USB-headset';
 
+      case WIRELESS_HEADSET = 'wireless-headset';
+
+        case MONO_WIRELESS_HEADSET = 'mono-wireless-headset';
+
   //
   // 2024-08-06 jj5 - DRIVE
   //

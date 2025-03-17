@@ -100,3 +100,8 @@ affiliate(
   affiliate_name( 'EEVblog' ),
   affiliate_url( 'https://eevblog.store/' ),
 );
+
+affiliate(
+  affiliate_name( 'RownFusny' ),
+  affiliate_url( 'https://rownfusny.com/' ),
+);

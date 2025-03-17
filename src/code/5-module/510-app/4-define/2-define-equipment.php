@@ -800,6 +800,19 @@ equipment_define(
       EquipmentConnectivity::USB,
     );
 
+    equipment_define(
+      EquipmentFeature::WIRELESS_HEADSET,
+      EquipmentFeature::HEADSET,
+      EquipmentFeature::USB_MICROPHONE,
+      EquipmentConnectivity::USB,
+      EquipmentConnectivity::BLUETOOTH,
+    );
+
+      equipment_define(
+        EquipmentFeature::MONO_WIRELESS_HEADSET,
+        EquipmentFeature::WIRELESS_HEADSET,
+      );
+
 //
 // 2024-08-06 jj5 - DRIVE
 //
