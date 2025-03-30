@@ -134,6 +134,8 @@ define( 'TITLE_LINK_GREEN', 'Clicking on a green link will open the affiliate li
 
 define( 'TITLE_LINK_MSO5074', 'Click here for more information about the Rigol MSO5074 Mixed Signal Oscilloscope.' );
 define( 'TITLE_LINK_MAJESTOUCH', 'Click here for more information about my FILCO Majestouch 2SS 104-key Mechanical Keyboard.' );
+define( 'TITLE_LINK_DEBIAN', 'Click here for more information about Debian.' );
+define( 'TITLE_LINK_KDE_PLASMA', 'Click here for more information about KDE Plasma.' );
 define( 'TITLE_LINK_CHERRY_MX_SPEED_SILVER', 'Click here for more information about my Cherry MX Speed Silver keyboard switches.' );
 define( 'TITLE_LINK_STARCRAFT2', 'Click here for more information about StarCraft II.' );
 define( 'TITLE_LINK_LOTR', 'Click here for more information about The Lord of the Rings.' );
@@ -545,6 +547,26 @@ function render_section_about_jay_jay( int $heading_level = 2 ) {
         'Cherry MX Speed Silver switches',
         'https://www.cherry.de/en-gb/product/mx2a-speed-silver',
         TITLE_LINK_CHERRY_MX_SPEED_SILVER,
+      );
+
+      out_text( '. ' );
+
+      out_text( 'My operating system of choice is ' );
+
+      render_link_internal(
+        'Debian',
+        'https://www.debian.org/',
+        TITLE_LINK_DEBIAN,
+      );
+
+      out_text( '. ' );
+
+      out_text( 'My preferred desktop environment is ' );
+
+      render_link_internal(
+        'KDE Plasma',
+        'https://kde.org/plasma-desktop/',
+        TITLE_LINK_KDE_PLASMA,
       );
 
       out_text( '. ' );
