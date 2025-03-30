@@ -51,6 +51,7 @@ define( 'TITLE_FEATURE_OLD_BOOK_TEARDOWN', 'Click here to watch the videos where
 
 define( 'TITLE_FEATURE_NEW_BOOK_TEARDOWN', 'Click here to watch the videos where I review new technology related books.' );
 define( 'TITLE_FEATURE_MINI_PROJECT', 'Click here to watch the videos where I work through Mini Projects from Silicon Chip and Jaycar.' );
+define( 'TITLE_FEATURE_LEARNING_THE_ART', 'Click here to watch the videos where I work through Learning the Art of Electronics by Thomas C. Hayes and David Abrams.' );
 define( 'TITLE_FEATURE_CHANNEL_NEWS', 'Click here to see channel news.' );
 define( 'TITLE_FEATURE_INTERLUDE', 'Click here to watch the videos where I take a break from the main show.' );
 define( 'TITLE_FEATURE_MAIL_CALL', "Click here to watch videos of recently arrived packages." );
@@ -180,6 +181,7 @@ define( 'TITLE_LINK_HUMANS_TXT', 'Click here to view the humans.txt file.' );
 define( 'TITLE_LINK_ROBOTS_TXT', 'Click here to view the robots.txt file.' );
 define( 'TITLE_LINK_SILICON_CHIP_MINI_PROJECTS_ANNOUNCEMENT', 'Click here to read the Mini Projects announcement from Nicholas Vinen the Editor of Silicon Chip magazine.' );
 define( 'TITLE_LINK_SILICON_CHIP_MINI_PROJECTS_LIST', 'Click here for the full list of Mini Projects published by Silicon Chip magazine.' );
+define( 'TITLE_LINK_LEARNING_THE_ART', 'Click here to visit the website for the book Learning the Art of Electronics.' );
 
 define( 'TITLE_LINK_LEARNING_THE_ART_OF_ELECTRONICS', 'Click here to watch the new book teardown of Learning the Art of Electronics.' );
 define( 'TITLE_LINK_JAYCAR_SHORT_CIRCUITS', 'Click here to see the Jaycar Short Circuits projects.' );
@@ -2193,6 +2195,16 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
       tag_open( 'li' );
 
         render_link_internal(
+          'Learning the Art of Electronics',
+          url_base() . '/#learning-the-art',
+          TITLE_FEATURE_LEARNING_THE_ART,
+        );
+
+      tag_shut( 'li' );
+
+      tag_open( 'li' );
+
+        render_link_internal(
           'Maxitronix Xin1 Kits',
           url_base() . '/#maxitronix-kits',
           TITLE_SHOW_MAXITRONIX,
@@ -2307,6 +2319,8 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
   render_section_about_new_book_teardown( $heading_level + 1 );
 
   render_section_about_mini_project( $heading_level + 1 );
+
+  render_section_about_learning_the_art( $heading_level + 1 );
 
   render_section_about_maxitronix_kits( $heading_level + 1 );
 
@@ -2449,6 +2463,50 @@ function render_section_about_mini_project( int $heading_level = 2 ) {
         'Jaycar',
         'https://www.jaycar.com.au/',
         TITLE_JAYCAR,
+      );
+
+      out_text( '.' );
+
+    tag_shut( 'p' );
+
+  tag_shut( 'section' );
+
+}
+
+function render_section_about_learning_the_art( int $heading_level = 2 ) {
+
+  tag_open( 'section' );
+
+    tag_text( "h{$heading_level}", 'Learning the Art of Electronics', [ 'id' => 'learning-the-art' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'Notes about the Learning the Art of Electronics are kept on my wiki: ' );
+
+      render_link_external(
+        'John\'s Wiki § Learning the Art of Electronics',
+        'https://www.jj5.net/wiki/Learning_the_Art_of_Electronics',
+        TITLE_WIKI,
+      );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'In the ' );
+
+      render_link_internal(
+        'Learning the Art of Electronics videos',
+        url_base() . '/feature.php/learning-the-art#heading',
+        TITLE_LINK_LEARNING_THE_ART,
+      );
+
+      out_text( ' we will be working through ' );
+
+      render_link_external(
+        'Learning the Art of Electronics',
+        'https://learningtheartofelectronics.com/',
+        TITLE_LINK_SILICON_CHIP_MINI_PROJECTS_LIST,
       );
 
       out_text( '.' );

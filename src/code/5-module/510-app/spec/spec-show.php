@@ -2458,6 +2458,19 @@ show(
   ),
 );
 
+show(
+  learning_the_art(
+    publication_date( '2025-04-01' ),
+    title( "Introducing Learning the Art of Electronics" ),
+    youtube_video( 'BVLbCl8qV8M' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/04/01/introducing-learning-the-art-of-electronics-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/125528245' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Introduction',
+    ),
+  ),
+);
+
 
 /*
 show(

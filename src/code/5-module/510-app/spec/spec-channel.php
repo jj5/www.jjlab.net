@@ -36,6 +36,11 @@ channel(
       feature_text( 'In the mini project videos we work our way through the mini projects published in Silicon Chip magazine.' ),
     ),
     feature(
+      feature_slug( 'learning-the-art' ),
+      feature_name( 'Learning the Art of Electronics' ),
+      feature_text( 'In these videos we work our way through Learning the Art of Electronics by Thomas C. Hayes and David Abrams.' ),
+    ),
+    feature(
       feature_slug( 'maxitronix-10in1' ),
       feature_name( 'Maxitronix 10in1' ),
       feature_text( 'In the Maxitronix 10in1 videos we work our way through the Maxitronix 10in1 electronics project lab.' ),
