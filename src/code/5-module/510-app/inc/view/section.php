@@ -136,6 +136,10 @@ define( 'TITLE_LINK_MSO5074', 'Click here for more information about the Rigol M
 define( 'TITLE_LINK_MAJESTOUCH', 'Click here for more information about my FILCO Majestouch 2SS 104-key Mechanical Keyboard.' );
 define( 'TITLE_LINK_DEBIAN', 'Click here for more information about Debian.' );
 define( 'TITLE_LINK_KDE_PLASMA', 'Click here for more information about KDE Plasma.' );
+define( 'TITLE_LINK_FIREFOX', 'Click here for more information about Firefox.' );
+define( 'TITLE_LINK_VIM', 'Click here for more information about Vim.' );
+define( 'TITLE_LINK_KATE', 'Click here for more information about Kate.' );
+define( 'TITLE_LINK_VSCODE', 'Click here for more information about Visual Studio Code.' );
 define( 'TITLE_LINK_CHERRY_MX_SPEED_SILVER', 'Click here for more information about my Cherry MX Speed Silver keyboard switches.' );
 define( 'TITLE_LINK_STARCRAFT2', 'Click here for more information about StarCraft II.' );
 define( 'TITLE_LINK_LOTR', 'Click here for more information about The Lord of the Rings.' );
@@ -553,7 +557,7 @@ function render_section_about_jay_jay( int $heading_level = 2 ) {
 
       out_text( 'My operating system of choice is ' );
 
-      render_link_internal(
+      render_link_external(
         'Debian',
         'https://www.debian.org/',
         TITLE_LINK_DEBIAN,
@@ -563,10 +567,46 @@ function render_section_about_jay_jay( int $heading_level = 2 ) {
 
       out_text( 'My preferred desktop environment is ' );
 
-      render_link_internal(
+      render_link_external(
         'KDE Plasma',
         'https://kde.org/plasma-desktop/',
         TITLE_LINK_KDE_PLASMA,
+      );
+
+      out_text( '. ' );
+
+      out_text( 'My primary web browser is ' );
+
+      render_link_external(
+        'Firefox',
+        'https://www.mozilla.org/en-US/firefox/',
+        TITLE_LINK_FIREFOX,
+      );
+
+      out_text( '. ' );
+
+      out_text( 'I edit code primarily with ' );
+
+      render_link_external(
+        'Vim',
+        'https://www.vim.org/',
+        TITLE_LINK_VIM,
+      );
+
+      out_text( ', ' );
+
+      render_link_external(
+        'Kate',
+        'https://kate-editor.org/',
+        TITLE_LINK_KATE,
+      );
+
+      out_text( ', and ' );
+
+      render_link_external(
+        'Visual Studio Code',
+        'https://code.visualstudio.com',
+        TITLE_LINK_VSCODE,
       );
 
       out_text( '. ' );
