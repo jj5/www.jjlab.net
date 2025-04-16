@@ -2471,6 +2471,21 @@ show(
   ),
 );
 
+show(
+  interlude(
+    publication_date( '2025-04-17' ),
+    title( "Making a USB Power Cable for My ATtiny85 from 4x AA Battery Pack" ),
+    youtube_video( '3b8UmRjdKoo' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/04/17/interlude-15-making-a-usb-power-cable-for-my-attiny85-from-4x-aa-battery-pack-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/126757440' ),
+    tags(
+      'jjlab', 'Interlude', 'Electronics',
+      'Hardware', 'ATtiny85', 'USB Power Cable',
+      'Battery Pack', 'AA Battery',
+    )
+  ),
+);
+
 
 /*
 show(
