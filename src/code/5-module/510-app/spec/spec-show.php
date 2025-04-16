@@ -2472,6 +2472,26 @@ show(
 );
 
 show(
+  channel_news(
+    publication_date( '2025-04-16' ),
+    title( "I Have a New Gig! Also I'm Planning Some Things" ),
+    youtube_video( 'ZFQeMNoyQnA' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/04/16/channel-news-6-i-have-a-new-gig-also-im-planning-some-things-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/126761221' ),
+    tags(
+      'jjlab', 'Channel News',
+      'Hackaday',
+      'Elliot Williams', 'AVR Programming',
+      'Electricity and Magnetism 3ed',
+      'Electric Circuits',
+      'Maxitronix 30in1',
+      'Jaycar', 'Silicon Chip', 'Mini Project',
+      'Learning the Art of Electronics',
+    ),
+  ),
+);
+
+show(
   interlude(
     publication_date( '2025-04-17' ),
     title( "Making a USB Power Cable for My ATtiny85 from 4x AA Battery Pack" ),
