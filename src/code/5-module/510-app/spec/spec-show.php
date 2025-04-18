@@ -2506,6 +2506,24 @@ show(
   ),
 );
 
+show(
+  mail_call(
+    publication_date( '2025-04-19' ),
+    title( 'EEVblog BM036, Test Hook Clips, 4mm to 2mm Banana Adapter, a Book and a Movie' ),
+    youtube_video( 'tdDdVureJ4Y' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/04/19/mail-call-28-eevblog-bm036-test-hook-clips-4mm-to-2mm-banana-adapter-a-book-and-a-movie/' ),
+    patreon_url( 'https://www.patreon.com/posts/126928650' ),
+    tags(
+      'jjlab', 'Mail Call', 'Electronics',
+      'EEVblog BM036 Clamp Meter',
+      'Test Hook Clip Probes',
+      '4mm to 2mm Banana Adapter',
+      'Principles of Electronic Circuits 2nd Edition',
+      'Colossus: The Forbin Project',
+    ),
+  ),
+);
+
 
 /*
 show(
