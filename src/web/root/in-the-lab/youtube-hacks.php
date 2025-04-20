@@ -81,6 +81,9 @@ function render_youtube_hacks_main() {
       tag_open( 'ul' );
 
         $setting = [
+          '0.25x' => '0.25',
+          '0.5x'  => '0.5',
+          '0.75x' => '0.75',
           '1x'    => '1.0',
           '1.25x' => '1.25',
           '1.5x'  => '1.5',
