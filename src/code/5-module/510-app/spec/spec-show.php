@@ -2524,6 +2524,24 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Wattage Warlock' ),
+  electronics_project(
+    publication_date( '2025-05-01' ),
+    title( "TJ-56-428 4-Digit Digital DIY Clock Take 2" ),
+    youtube_video( 'yIA8cKJnyfw' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/05/01/electronics-project-11-tj-56-428-4-digit-digital-diy-clock-take-2-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/127819939' ),
+    tags(
+      'jjlab', 'Electronics Project', 'Circuit',
+      'TJ56428', '4digit', 'Digital', 'DIY', 'Clock', 'Soldering Practice',
+      'AliExpress',
+      'METCAL', 'PS900', 'Soldering Station',
+      'STC15W404AS',
+    ),
+  ),
+);
+
 
 /*
 show(
