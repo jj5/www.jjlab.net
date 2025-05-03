@@ -2542,6 +2542,21 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Lightning Tamer' ),
+  interlude(
+    publication_date( '2025-05-03' ),
+    title( "False Start for Learning the Art of Electronics" ),
+    youtube_video( 'NSxNrxjMWzg' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/05/03/interlude-16-false-start-for-learning-the-art-of-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/128039568' ),
+    tags(
+      'jjlab', 'Interlude', 'Electronics',
+      'Learning the Art of Electronics',
+    )
+  ),
+);
+
 
 /*
 show(
