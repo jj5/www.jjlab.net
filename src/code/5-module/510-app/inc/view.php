@@ -46,6 +46,21 @@ function render_section_about_blog( int $heading_level = 2 ) {
 
     tag_shut( 'p' );
 
+    tag_text( 'p', 'Anyone can read the blog but you need an account to comment. ' .
+      'Accounts are available to my Patreon supporters.' );
+
+    tag_text( 'p', 'If you want an account on the blog you can subscribe on Patreon: ' );
+
+    tag_open( 'p', [ 'class' => 'indent' ] );
+
+      render_link_external(
+        'patreon.com/JohnElliotV',
+        'https://www.patreon.com/JohnElliotV',
+        TITLE_PATREON,
+      );
+
+    tag_shut( 'p' );
+
   tag_shut( 'section' );
 
 }
@@ -60,15 +75,15 @@ function render_section_about_wiki( int $heading_level = 2 ) {
 
     tag_open( 'p', [ 'class' => 'indent' ] );
 
-      render_link_external(
-        'inthelabwithjayjay.com/wiki',
+      render_link_internal(
+        'ITL Wiki',
         'https://www.inthelabwithjayjay.com/wiki/',
         TITLE_WIKI,
       );
 
     tag_shut( 'p' );
 
-    tag_text( 'p', 'Some pages on the wiki are only available to Patreon subscribers.' );
+    tag_text( 'p', 'Some pages on the wiki are only available to my Patreon supporters.' );
 
     tag_text( 'p', 'If you want an account on the wiki you can subscribe on Patreon: ' );
 
