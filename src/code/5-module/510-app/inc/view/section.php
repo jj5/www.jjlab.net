@@ -145,6 +145,7 @@ define( 'TITLE_LINK_CHERRY_MX_SPEED_SILVER', 'Click here for more information ab
 define( 'TITLE_LINK_STARCRAFT2', 'Click here for more information about StarCraft II.' );
 define( 'TITLE_LINK_LOTR', 'Click here for more information about The Lord of the Rings.' );
 define( 'TITLE_LINK_THE_MATRIX', 'Click here for more information about The Matrix.' );
+define( 'TITLE_LINK_AERON', 'Click here for more information about the Herman Miller Aeron chair.' );
 
 define( 'TITLE_AFFILIATE_LINK', 'Click here for the latest price from this affiliate and to buy!' );
 
@@ -553,6 +554,16 @@ function render_section_about_jay_jay( int $heading_level = 2 ) {
         'Cherry MX Speed Silver switches',
         'https://www.cherry.de/en-gb/product/mx2a-speed-silver',
         TITLE_LINK_CHERRY_MX_SPEED_SILVER,
+      );
+
+      out_text( '. ' );
+
+      out_text( 'My chair is a ' );
+
+      render_link_internal(
+        'Herman Miller Aeron',
+        'https://en.wikipedia.org/wiki/Aeron_chair',
+        TITLE_LINK_AERON,
       );
 
       out_text( '. ' );
