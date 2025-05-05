@@ -54,21 +54,33 @@ function render_section_about_wiki( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( "h{$heading_level}", 'John\'s Wiki', [ 'id' => 'wiki-summary' ] );
+    tag_text( "h{$heading_level}", 'ITL Wiki', [ 'id' => 'wiki-summary' ] );
 
-    tag_text( 'p', 'I often make notes on my wiki, which is over here:' );
+    tag_text( 'p', 'The show has its own wiki, which is over here:' );
 
     tag_open( 'p', [ 'class' => 'indent' ] );
 
       render_link_external(
-        'https://www.jj5.net/wiki/',
-        'https://www.jj5.net/wiki/',
+        'https://www.inthelabwithjayjay.com/wiki/',
+        'https://www.inthelabwithjayjay.com/wiki/',
         TITLE_WIKI,
       );
 
     tag_shut( 'p' );
 
-    tag_text( 'p', 'You might occasionally see my wiki referred to as "sixsigma" which is its codename.' );
+    tag_text( 'p', 'Some pages on the wiki are only available to Patreon subscribers.' );
+
+    tag_text( 'p', 'If you want an account on the wiki you can subscribe on Patreon: ' );
+
+    tag_open( 'p', [ 'class' => 'indent' ] );
+
+      render_link_external(
+        'patreon.com/JohnElliotV',
+        'https://www.patreon.com/JohnElliotV',
+        TITLE_PATREON,
+      );
+
+    tag_shut( 'p' );
 
   tag_shut( 'section' );
 
