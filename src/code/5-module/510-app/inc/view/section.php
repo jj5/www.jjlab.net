@@ -560,7 +560,7 @@ function render_section_about_jay_jay( int $heading_level = 2 ) {
 
       out_text( 'My chair is a ' );
 
-      render_link_internal(
+      render_link_external(
         'Herman Miller Aeron',
         'https://en.wikipedia.org/wiki/Aeron_chair',
         TITLE_LINK_AERON,
