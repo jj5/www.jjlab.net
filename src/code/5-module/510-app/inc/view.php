@@ -61,7 +61,7 @@ function render_section_about_wiki( int $heading_level = 2 ) {
     tag_open( 'p', [ 'class' => 'indent' ] );
 
       render_link_external(
-        'https://www.inthelabwithjayjay.com/wiki/',
+        'inthelabwithjayjay.com/wiki',
         'https://www.inthelabwithjayjay.com/wiki/',
         TITLE_WIKI,
       );
