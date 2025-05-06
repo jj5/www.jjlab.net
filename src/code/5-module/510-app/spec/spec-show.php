@@ -2553,6 +2553,22 @@ show(
     tags(
       'jjlab', 'Interlude', 'Electronics',
       'Learning the Art of Electronics',
+    ),
+  ),
+);
+
+show(
+  silly_job_title( 'Connector Kingpin' ),
+  channel_news(
+    publication_date( '2025-05-06' ),
+    title( "Announcing ITL Wiki and Pre-Reading for LtAoE" ),
+    youtube_video( 's021ux55d-Q' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/05/06/channel-news-7-announcing-itl-wiki-and-pre-reading-for-ltaoe-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/128259848' ),
+    tags(
+      'jjlab', 'Channel News',
+      'ITL Wiki', 'Patreon', 'Subscriber-Only Content',
+      'LtAoE', 'Learning the Art of Electronics', 'Pre-Reading',
     )
   ),
 );

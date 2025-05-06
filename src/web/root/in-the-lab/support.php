@@ -59,6 +59,28 @@ function render_support_main() {
 
       tag_shut( 'p' );
 
+      tag_open( 'p' );
+
+        out_text( 'People who support me on Patreon get accounts so they can comment on ' );
+
+        render_link_external(
+          'my blog',
+          'https://blog.jj5.net/',
+          TITLE_BLOG,
+        );
+
+        out_text( ' or read member-only pages on the ' );
+
+        render_link_internal(
+          'ITL Wiki',
+          'https://www.inthelabwithjayjay.com/wiki/',
+          TITLE_WIKI,
+        );
+
+        out_text( '.' );
+
+      tag_shut( 'p' );
+
     tag_shut( 'section' );
 
     tag_open( 'section' );
