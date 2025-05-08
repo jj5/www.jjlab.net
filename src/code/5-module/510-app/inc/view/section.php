@@ -76,6 +76,7 @@ define( 'TITLE_FEATURE_EXTRA', "Click here to watch extra content which didn't m
 
 define( 'TITLE_MAIN', "Click here to visit the show's home page. [Hotkey: H]" );
 define( 'TITLE_HOMEPAGE', TITLE_MAIN );
+define( 'TITLE_ITL_WIKI', 'Click here to visit the ITL Wiki, the wiki for our show! [Hotkey: W]' );
 define( 'TITLE_LATEST', 'Click here to watch the latest main channel video on the homepage. [Hotkey: L]' );
 define( 'TITLE_RSS_INFO', 'Click here for the RSS feed info.' );
 define( 'TITLE_RSS', 'Click here for the RSS feed for these types of videos.' );

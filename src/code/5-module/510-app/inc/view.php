@@ -71,19 +71,20 @@ function render_section_about_wiki( int $heading_level = 2 ) {
 
     tag_text( "h{$heading_level}", 'ITL Wiki', [ 'id' => 'wiki-summary' ] );
 
-    tag_text( 'p', 'The show has its own wiki, which is over here:' );
+    tag_text( 'p', 'The show has its own wiki, known as the ITL Wiki, which is over here:' );
 
     tag_open( 'p', [ 'class' => 'indent' ] );
 
       render_link_internal(
-        'ITL Wiki',
+        'inthelabwithjayjay.com/wiki',
         'https://www.inthelabwithjayjay.com/wiki/',
         TITLE_WIKI,
       );
 
     tag_shut( 'p' );
 
-    tag_text( 'p', 'Some pages on the wiki are only available to my Patreon supporters.' );
+    tag_text( 'p', 'We can use the ITL Wiki to document our projects. ' .
+      'Some pages on the wiki are only available to my Patreon supporters.' );
 
     tag_text( 'p', 'If you want an account on the wiki you can subscribe on Patreon: ' );
 
@@ -431,10 +432,13 @@ function render_section_about_shortcuts( int $heading_level = 2 ) {
 
         $title_jjcode = 'This is a facility for John.';
 
+        // 2025-05-09 jj5 - NOTE: see src/web/res/script/script.js for the shortcut key definitions
+
         render_shortcut( '?', 'Shortcuts',          '/about.php#shortcuts',           TITLE_ABOUT_SHORTCUTS   );
         render_shortcut( '0', 'Return to Top',      '#',                              TITLE_TOP               );
         render_shortcut( '.', 'Table of Contents',  '#contents',                      TITLE_TOC               );
         render_shortcut( 'H', 'Homepage',           '/',                              TITLE_HOMEPAGE          );
+        render_shortcut( 'W', 'ITL Wiki',           '/wiki/',                         TITLE_ITL_WIKI          );
         render_shortcut( 'L', 'Latest Video',       '/#latest',                       TITLE_LATEST            );
         render_shortcut( '!', 'Lab Costume',        '/#costume',                      TITLE_COSTUME           );
         render_shortcut( 'I', 'Silly Job Title',    '/#silly-job-title',              TITLE_SILLY_JOB_TITLE   );
