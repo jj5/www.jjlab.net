@@ -83,7 +83,7 @@ function render_section_about_wiki( int $heading_level = 2 ) {
 
     tag_shut( 'p' );
 
-    tag_text( 'p', 'We can use the ITL Wiki to document our projects. ' .
+    tag_text( 'p', 'I use the ITL Wiki to document some of my projects. ' .
       'Some pages on the wiki are only available to my Patreon supporters.' );
 
     tag_text( 'p', 'If you want an account on the wiki you can subscribe on Patreon: ' );

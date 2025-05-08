@@ -90,7 +90,7 @@ define( 'TITLE_CONTACT', 'Click here to find my contact details. [Hotkey: C]' );
 define( 'TITLE_STRUCTURE', 'Click here to read about how the content is structured.' );
 define( 'TITLE_AFFILIATE', "Click here to read about the show's affiliates." );
 define( 'TITLE_BLOG', 'Click here to visit my blog!' );
-define( 'TITLE_WIKI', 'Click here to visit the show\'s wiki!' );
+define( 'TITLE_WIKI', TITLE_ITL_WIKI );
 define( 'TITLE_BLOG_FEED', 'Click here for the RSS feed from my blog.' );
 define( 'TITLE_SUPPORT', 'Click here to find out how you can support the show. [Hotkey: U]' );
 define( 'TITLE_STATS', 'Click here for stats about my videos and equipment. [Hotkey: N]' );
