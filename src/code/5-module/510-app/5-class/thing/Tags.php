@@ -167,6 +167,8 @@ class Tags extends AppThing {
 
         if ( count( $parts ) > 1 ) {
 
+          $parts = array_map( 'ucfirst', $parts );
+
           $result[] = implode( '', $parts );
 
           $extra = array_merge( $extra, $parts );

@@ -2573,6 +2573,28 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Capacitor Captain' ),
+  channel_news(
+    publication_date( '2025-05-20' ),
+    title( "Update Regarding Upcoming Projects and Videos" ),
+    youtube_video( 'ybkWcWcMyVI' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/05/20/channel-news-8-update-regarding-upcoming-projects-and-videos-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/129282018' ),
+    tags(
+      'jjlab', 'Channel News',
+      'LtAoE', 'Learning the Art of Electronics',
+      'Learning as a hobby',
+      'Principles of Electronic Circuits 2ed', 'CDROM',
+      'Maths Cam',
+      'ITL Wiki',
+      'EEVblog BM2257 multimeter',
+      'Silicon Chip and Jaycar Mini Project', 'JMP003',
+      'Electric Circuits',
+    )
+  ),
+);
+
 
 /*
 show(
