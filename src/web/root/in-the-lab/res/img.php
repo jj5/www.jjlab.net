@@ -60,6 +60,8 @@ function app_render() {
 
       render_404();
 
+      exit;
+
   }
 }
 
