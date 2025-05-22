@@ -2595,6 +2595,21 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Bit Distinguisher' ),
+  electronics_project(
+    publication_date( '2025-05-22' ),
+    title( "Making an LED Heart" ),
+    youtube_video( 'SZBoTJPcC7A' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/05/22/electronics-project-12-making-an-led-heart-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/129603337' ),
+    tags(
+      'jjlab', 'Electronics Project', 'Circuit',
+      'LED Heart', 'AliExpress',
+    ),
+  ),
+);
+
 
 /*
 show(
