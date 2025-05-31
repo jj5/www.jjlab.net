@@ -2610,6 +2610,22 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Code Warrior' ),
+  mail_call(
+    publication_date( '2025-05-31' ),
+    title( 'Raspberry Pi Picos, 2.5V Lamps, and a Broken Bin' ),
+    youtube_video( '1n_XbJL_BLg' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/05/20/pentapico-a-pi-pico-cluster-for-image-convolution/' ),
+    patreon_url( 'https://www.patreon.com/posts/130326979' ),
+    tags(
+      'jjlab', 'Mail Call', 'Electronics',
+      'eBay', 'AliExpress',
+      'Raspberry Pi Pico',
+      'Lamp',
+    ),
+  ),
+);
 
 /*
 show(
