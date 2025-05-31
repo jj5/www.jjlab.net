@@ -47,6 +47,26 @@ function render_youtube_hacks_main() {
 
     tag_open( 'section' );
 
+      tag_text( 'h2', 'YouTube Watch History', [ 'id' => 'watch-history' ] );
+
+      tag_open( 'p' );
+
+        out_text( 'You can see what you have watched recently on YouTube over here: ' );
+
+        render_link_external(
+          'YouTube Watch History',
+          'https://www.youtube.com/feed/history',
+          TITLE_LINK_YOUTUBE_WATCH_HISTORY,
+        );
+
+        out_text( '.' );
+
+      tag_shut( 'p' );
+
+    tag_shut( 'section' );
+
+    tag_open( 'section' );
+
       tag_text( 'h2', 'Increase Playback Speed More Than 2x', [ 'id' => 'playback-speed' ] );
 
       tag_open( 'p' );
