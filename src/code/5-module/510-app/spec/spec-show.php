@@ -2627,6 +2627,58 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Watt Wizard' ),
+  mail_call(
+    publication_date( '2025-06-12' ),
+    title( 'Loot from AliExpress and Amazon' ),
+    youtube_video( 'DgBdqAj_u1c' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/06/12/mail-call-30-loot-from-aliexpress-and-amazon-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/131299629' ),
+    tags(
+      'jjlab', 'Mail Call', 'Electronics',
+      'AliExpress', 'Amazon',
+      'USB 3.0 Hub',
+      'Dust Cleaner', 'Air Blower',
+      'Insulated Rubber Hammer',
+      'Wire Holder',
+      'Mini Analog Multimeter',
+      'Endoscope Camera',
+      'Squeeze Bottle with Spout',
+      'Diamond Sharpening Stone',
+      'Magnetic Screwdriver Bits',
+      'Center Punch',
+      'IC Glue Remover', 'Spatula',
+      'Neodymium Magnetic Pins',
+      'Needle File Set', 'Carbon Steel Files',
+      'Dimmable LED Work Light',
+      'Wood Cutting Drill Bits',
+      'Magnetic Mini Soldering Flexible Arm with Alligator Clips',
+      '4-Claw IC Chip Extractor', 'Precision Parts Grabber',
+      '21pcs M3 Hand Rivet',
+      '10pcs Diamond Needle File Set',
+      'Storage Box 30 Grids',
+      'Heat Shrink Tubing with Hot Gun',
+      '1.5m Soft Tape Measure',
+      'USB 2.0 Type A Cables',
+      '5.5x2.1mm DC Barrel Connector Female',
+      'Stainless Steel Kitchen Scissors',
+      'Miniature Paint Brushes',
+      '5pcs 30ml Refillable Plastic Squeeze Bottle',
+      'LCD Digital Writing Tablet',
+      '1 Set Glue Removal Razor Blade With 10 Blades',
+      'Double Ended Mini Ratchet Wrench',
+      'Metal Pry Bar', 'Metal Crowbar',
+      '3mm to 6mm Hand Tap Wrench Thread Tapping Tool Set',
+      '10pcs 0.1mm to 1.0mm Carbide Drill Bits',
+      '6pcs Non-Slip Magnetic Cross Head Household Electric Screw Driver Set',
+      '26pcs Terminal Repair Widget Kit',
+      'CD4017 Colorful Voice Control Rotating LED Light Kit',
+      '5V Electronic Hourglass DIY Kit',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(
