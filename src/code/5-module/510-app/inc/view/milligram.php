@@ -1260,6 +1260,8 @@ Super big thank you to my subscribers and my Patreon supporters! ❤️
 
 The show notes for this video are here: https://blog.jj5.net/
 
+The project homepage is here:
+
 If you enjoyed this video please remember to hit subscribe so you don't miss the next one. If you have any questions or suggestions please do hit me up in the comments section.
 
 Following is a list of products I use which may appear in my videos. Clicking through on these links before purchasing from Amazon, eBay, or AliExpress is a great way to support the channel at no cost to you. Thanks!
