@@ -14461,7 +14461,7 @@ equipment(
   equipment_icon( 'https://i.ebayimg.com/images/g/UekAAOSwlnpjhQWy/s-l500.jpg' ),
   equipment_item(
     manufacturer_name ( 'WilliamKlein' ),
-    model_name        ( 'Adjustable Folding Black' ),
+    model_spec        ( 'Adjustable Folding Black' ),
     EquipmentFeature::MUSIC_STAND,
   ),
   affiliate_link(
