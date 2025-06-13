@@ -1426,6 +1426,7 @@ function render_blog_template( $equipment_list ) {
         'https://jj5.net/53341' => 'UNI-T UTG962E Signal Generator',
         'https://jj5.net/98301' => 'Fluke 17B+ Digital Multimeter',
         'https://jj5.net/14877' => 'EEVblog BM2257 Digital Multimeter',
+        'https://jj5.net/13612' => 'EEVblog BM036 Digital Multimeter',
         'https://jj5.net/80551' => 'Dremel 4300 Rotary Tool',
         'https://jj5.net/27684' => 'Peak Electronic Design Atlas DCA75 Pro Semiconductor Analyzer',
         'https://jj5.net/80640' => 'Peak Electronic Design Atlas LCR45 LCR Meter',
