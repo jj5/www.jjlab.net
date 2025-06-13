@@ -2685,8 +2685,8 @@ show(
     publication_date( '2025-06-14' ),
     title( "Another False Start for Learning the Art of Electronics" ),
     youtube_video( 'QXsT0Kud8f4' ),
-    blog_url( '' ),
-    patreon_url( 'https://www.patreon.com/posts/' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/06/14/interlude-17-another-false-start-for-learning-the-art-of-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/131381406' ),
     tags(
       'jjlab', 'Interlude', 'Electronics',
       'Learning the Art of Electronics',

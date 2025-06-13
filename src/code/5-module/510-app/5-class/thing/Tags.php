@@ -154,6 +154,64 @@ class Tags extends AppThing {
 
   public function get_hashtag_list() {
 
+    static $skip_list = [
+      'to',
+      'the',
+      'and',
+      'with',
+      'in',
+      'of',
+      'for',
+      'a',
+      'an',
+      'is',
+      'it',
+      'on',
+      'at',
+      'by',
+      'as',
+      'this',
+      'that',
+      'are',
+      'was',
+      'were',
+      'be',
+      'not',
+      'or',
+      'but',
+      'if',
+      'so',
+      'all',
+      'just',
+      'like',
+      'from',
+      'about',
+      'up',
+      'down',
+      'out',
+      'over',
+      'under',
+      'into',
+      'through',
+      'than',
+      'more',
+      'less',
+      'what',
+      'who',
+      'where',
+      'when',
+      'why',
+      'how',
+      'which',
+      'whoever',
+      'whomever',
+      'whichever',
+      'whenever',
+      'wherever',
+      'whatever',
+      'whenever',
+    ];
+
     if ( $this->hashtag_list === null ) {
 
       $result = [];
@@ -190,6 +248,12 @@ class Tags extends AppThing {
       }
 
       foreach ( $extra as $tag ) {
+
+        if ( in_array( strtolower( $tag ), $skip_list, true ) ) {
+
+          continue;
+
+        }
 
         $map[ $tag ] = true;
 
