@@ -2679,6 +2679,21 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Current Curator' ),
+  interlude(
+    publication_date( '2025-06-14' ),
+    title( "Another False Start for Learning the Art of Electronics" ),
+    youtube_video( 'QXsT0Kud8f4' ),
+    blog_url( '' ),
+    patreon_url( 'https://www.patreon.com/posts/' ),
+    tags(
+      'jjlab', 'Interlude', 'Electronics',
+      'Learning the Art of Electronics',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(

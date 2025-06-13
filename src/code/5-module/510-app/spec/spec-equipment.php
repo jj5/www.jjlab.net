@@ -14427,6 +14427,22 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2025-03-27' ),
+  equipment_icon( 'https://cdn.shopify.com/s/files/1/0713/5222/2004/files/BM036-JawsOpen-1024x978_1.jpg?v=1685623381' ),
+  equipment_item(
+    manufacturer_name ( 'Brymen' ),
+    model_spec        ( 'EEVblog' ),
+    model_name        ( 'BM036' ),
+    EquipmentFeature::DIGITAL_MULTIMETER,
+  ),
+  affiliate_link(
+    equipment_url ( 'https://eevblog.store/products/eevblog-bm036-ac-dc-clamp-meter' ),
+    listing_name  ( 'EEVblog BM036 AC/DC Clamp Meter' ),
+    item_price    ( 'AU$164.00' ),
+  ),
+);
+
 
 
 /*
