@@ -301,6 +301,8 @@ enum EquipmentFeature : string {
 
       case HANDHELD_MULTIMETER = 'handheld-multimeter';
 
+        case CLAMP_METER = 'clamp-meter';
+
       case BENCH_MULTIMETER = 'bench-multimeter';
 
       case OSCILLOSCOPE_SIGNAL_GENERATOR_COMPONENT_TESTER = 'oscilloscope-signal-generator-component-tester';
@@ -1752,6 +1754,8 @@ enum EquipmentFeature : string {
     case STAND = 'stand';
 
       case WEBCAM_STAND = 'webcam-stand';
+
+      case MUSIC_STAND = 'music-stand';
 
   //
   // 2024-08-05 jj5 - WRIST_PAD

@@ -700,6 +700,12 @@ equipment_define(
       EquipmentAttribute::HAND_TOOL,
     );
 
+      equipment_define(
+        EquipmentFeature::CLAMP_METER,
+        EquipmentFeature::HANDHELD_MULTIMETER,
+        EquipmentFeature::DIGITAL_MULTIMETER,
+      );
+
     equipment_define(
       EquipmentFeature::BENCH_MULTIMETER,
       EquipmentFeature::MULTIMETER,
@@ -3870,6 +3876,11 @@ equipment_define(
 
     equipment_define(
       EquipmentFeature::WEBCAM_STAND,
+      EquipmentFeature::STAND,
+    );
+
+    equipment_define(
+      EquipmentFeature::MUSIC_STAND,
       EquipmentFeature::STAND,
     );
 

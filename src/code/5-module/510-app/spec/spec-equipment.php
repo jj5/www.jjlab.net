@@ -14434,12 +14434,49 @@ equipment(
     manufacturer_name ( 'Brymen' ),
     model_spec        ( 'EEVblog' ),
     model_name        ( 'BM036' ),
-    EquipmentFeature::DIGITAL_MULTIMETER,
+    EquipmentFeature::CLAMP_METER,
   ),
   affiliate_link(
     equipment_url ( 'https://eevblog.store/products/eevblog-bm036-ac-dc-clamp-meter' ),
     listing_name  ( 'EEVblog BM036 AC/DC Clamp Meter' ),
     item_price    ( 'AU$164.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://eevblog.store/products/eevblog-bm036-ac-dc-clamp-meter' ),
+    order_id        ( 'Order #2727' ),
+    order_date      ( '27 Mar 2025' ),
+    order_item_name ( 'EEVblog BM036 AC/DC Clamp Meter' ),
+    order_price     ( 'AU$164.00' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$7.85' ),
+    // 2025-06-14 jj5 - NOTE: I also got some spare fuses with this order.
+    //* 11A HRC Multimeter Fuse Pack
+    //* 630mA HRC 1000V Multimeter Fuse Pack
+    //* 400mA HRC 1000V Multimeter Fuse Pack
+  ),
+);
+
+equipment(
+  equipment_date( '2023-04-12' ),
+  equipment_icon( 'https://i.ebayimg.com/images/g/UekAAOSwlnpjhQWy/s-l500.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'WilliamKlein' ),
+    model_name        ( 'Adjustable Folding Black' ),
+    EquipmentFeature::MUSIC_STAND,
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.ebay.com/p/18051174957' ),
+    affiliate_url ( 'https://ebay.us/VBACxY' ),
+    listing_name  ( 'WilliamKlein Adjustable Folding Music Stand - Black' ),
+    item_price    ( 'AU$39.95' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.ebay.com/p/18051174957' ),
+    order_id        ( '05-09937-22033' ),
+    order_date      ( '12 Apr 2023 at 10:42 PM' ),
+    order_item_name ( 'Professional Music Stand Adjustable Folding Heavy Duty Large Stage Black' ),
+    order_price     ( 'AU$39.95' ),
+    order_quantity  ( 1 ),
   ),
 );
 
