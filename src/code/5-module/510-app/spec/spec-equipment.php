@@ -14473,7 +14473,7 @@ equipment(
   purchase(
     equipment_url   ( 'https://www.ebay.com/p/18051174957' ),
     order_id        ( '05-09937-22033' ),
-    order_date      ( '12 Apr 2023 at 10:42 PM' ),
+    order_date      ( '12 Apr 2023' ),
     order_item_name ( 'Professional Music Stand Adjustable Folding Heavy Duty Large Stage Black' ),
     order_price     ( 'AU$39.95' ),
     order_quantity  ( 1 ),
