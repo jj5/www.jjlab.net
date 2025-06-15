@@ -107,6 +107,7 @@ define( 'TITLE_RSS_FEED', TITLE_NAV_FEED );
 define( 'TITLE_BUY_LAB_COAT', 'Click here to find out more about my lab coat.' );
 define( 'TITLE_BUY_CAMO_SHIRT', 'Click here to find out more about my camo shirt.' );
 define( 'TITLE_BUY_GOGGLES', 'Click here to find out more about my safety goggles.' );
+define( 'TITLE_BUY_ACOUSTIC_BRAIN_INTERFACE', 'Click here to find out more about my Acoustic Brain Interface.' );
 define( 'TITLE_BUY_ID_BADGE', 'Click here to find out more about my ID badge holder.' );
 define( 'TITLE_BUY_POCKET_PROTECTOR', 'Click here to find out more about my pocket protector.' );
 define( 'TITLE_BUY_STYLUS_PEN', 'Click here to find out more about my stylus pen.' );
@@ -3114,6 +3115,8 @@ function render_section_about_costume( int $heading_level = 2 ) {
           TITLE_BUY_LAB_COAT,
         );
 
+        out_text( ' (with coffee stain!)' );
+
       tag_shut( 'li' );
 
       tag_open( 'li' );
@@ -3132,6 +3135,16 @@ function render_section_about_costume( int $heading_level = 2 ) {
           'Safety goggles',
           'https://jj5.net/73769',
           TITLE_BUY_GOGGLES,
+        );
+
+      tag_shut( 'li' );
+
+      tag_open( 'li' );
+
+        render_link_external(
+          'Acoustic brain interface',
+          'https://www.youtube.com/watch?v=SwbW8mS_rE8',
+          TITLE_BUY_ACOUSTIC_BRAIN_INTERFACE,
         );
 
       tag_shut( 'li' );
@@ -3267,8 +3280,25 @@ function render_section_about_costume( int $heading_level = 2 ) {
         [
           'loading' => 'lazy',
           'style' => 'width:500px',
-          'src' => url_base( $use_cdn = true ) . '/res/img.php/JohnElliotV-500-2.jpg?v=' . get_resource_version( 'JohnElliotV-500-2.jpg' ),
+          // 2025-06-15 jj5 - NEW:
+          'src' => url_base( $use_cdn = true ) . '/res/img.php/jayjay.jpg?v=' . get_resource_version( 'jayjay.jpg' ),
+          // 2025-06-15 jj5 - OLD:
+          //'src' => url_base( $use_cdn = true ) . '/res/img.php/JohnElliotV-500-2.jpg?v=' . get_resource_version( 'JohnElliotV-500-2.jpg' ),
           'alt' => 'A picture of Jay Jay wearing his costume.',
+        ]
+      );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      tag_bare(
+        'img',
+        [
+          'loading' => 'lazy',
+          'style' => 'width:500px',
+          'src' => url_base( $use_cdn = true ) . '/res/img.php/BFF.jpg?v=' . get_resource_version( 'BFF.jpg' ),
+          'alt' => 'A photo of Stetmann sporting his brain interface.',
         ]
       );
 
