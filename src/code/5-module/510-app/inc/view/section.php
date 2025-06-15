@@ -3326,42 +3326,12 @@ function render_section_about_silly_job_title( int $heading_level = 2 ) {
         TITLE_ID_BADGE,
       );
 
-      out_text( ' is a silly job title which I change for each ' );
-
-      render_link_internal(
-        'main show',
-        url_base() . '/show-type.php/main-show#heading',
-        TITLE_SHOW_MAIN,
-      );
-
-      out_text( ' on the ' );
+      out_text( ' is a silly job title which I change for each video on the ' );
 
       render_link_internal(
         'main channel',
         url_base() . '/channel.php/@InTheLabWithJayJay#heading',
         TITLE_CHANNEL_MAIN,
-      );
-
-      out_text( '.' );
-
-    tag_shut( 'p' );
-
-    tag_open( 'p' );
-
-      out_text( 'I don\'t change the silly job title for ' );
-
-      render_link_internal(
-        'special shows',
-        url_base() . '/show-type.php/special-show#heading',
-        TITLE_SHOW_SPECIAL,
-      );
-
-      out_text( ' or for content on the ' );
-
-      render_link_internal(
-        '2nd channel',
-        url_base() . '/channel.php/@ElliotsExtras#heading',
-        TITLE_CHANNEL_EXTRA,
       );
 
       out_text( '.' );
