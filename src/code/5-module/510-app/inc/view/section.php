@@ -1813,23 +1813,7 @@ function render_section_about_channels( int $heading_level = 2 ) {
         TITLE_CHANNEL_MAIN,
       );
 
-      out_text( ' page. The ' );
-
-      render_link_internal(
-        'main show',
-        url_base() . '/#main-show',
-        TITLE_SHOW_MAIN,
-      );
-
-      out_text( ' and the ' );
-
-      render_link_internal(
-        'special shows',
-        url_base() . '/#special-shows',
-        TITLE_SHOW_MAIN,
-      );
-
-      out_text( ' air on the main channel.' );
+      out_text( ' page.' );
 
     tag_shut( 'p' );
 
@@ -1887,15 +1871,7 @@ function render_section_about_channels( int $heading_level = 2 ) {
         TITLE_CHANNEL_EXTRA,
       );
 
-      out_text( ' page. The ' );
-
-      render_link_internal(
-        'extra content',
-        url_base() . '/#extra-content',
-        TITLE_FEATURE_EXTRA,
-      );
-
-      out_text( ' airs on the 2nd channel.' );
+      out_text( ' page.' );
 
     tag_shut( 'p' );
 
@@ -1903,42 +1879,16 @@ function render_section_about_channels( int $heading_level = 2 ) {
 
 }
 
-function render_section_about_main_show( int $heading_level = 2 ) {
+function render_section_about_features( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( "h{$heading_level}", 'Main Show', [ 'id' => 'main-show' ] );
+    tag_text( "h{$heading_level}", 'Show Features', [ 'id' => 'features' ] );
 
     tag_open( 'p' );
 
-      out_text( 'The ' );
-
-      render_link_internal(
-        'main show',
-        url_base() . '/show-type.php/main-show#heading',
-        TITLE_SHOW_MAIN,
-      );
-
-      out_text( ' on the ' );
-
-      render_link_internal(
-        'main channel',
-        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
-        TITLE_CHANNEL_MAIN,
-      );
-
-      out_text( ' covers ' );
-
-      tag_text( 'b', 'miscellaneous electronics' );
-
-      out_text( ' stuff.' );
-
-    tag_shut( 'p' );
-
-    tag_open( 'p' );
-
-      out_text( 'There are two regular features on the show. These regular show features are spun off as separate ' );
-      out_text( 'standalone videos. Each time I do a main show I make one video for each of the regular features.' );
+      out_text( 'Following are the regular features on the show. These regular show features are spun off as separate ' );
+      out_text( 'standalone videos.' );
 
     tag_shut( 'p' );
 
@@ -1969,222 +1919,6 @@ function render_section_about_main_show( int $heading_level = 2 ) {
         );
 
       tag_shut( 'li' );
-
-    tag_shut( 'ul' );
-
-  tag_shut( 'section' );
-
-  render_section_about_electronics_project( $heading_level + 1 );
-
-  render_section_about_old_book_teardown( $heading_level + 1 );
-
-}
-
-function render_section_about_electronics_project( int $heading_level = 2 ) {
-
-  tag_open( 'section' );
-
-    tag_text( "h{$heading_level}", 'Electronics Projects', [ 'id' => 'electronics-projects' ] );
-
-    tag_open( 'p' );
-
-      out_text( 'In the ' );
-
-      render_link_internal(
-        'electronics project videos',
-        url_base() . '/feature.php/electronics-project#heading',
-        TITLE_FEATURE_ELECTRONICS_PROJECT,
-      );
-
-      out_text( ' on the ' );
-
-      render_link_internal(
-        'main show',
-        url_base() . '/show-type.php/main-show#heading',
-        TITLE_SHOW_MAIN,
-      );
-
-      out_text( ' I do some miscellaneous and interesting electronics project. The subject matter can vary widely, ' );
-      out_text( 'and might include ' );
-      out_text( 'OG Xbox examinations and repairs, ' );
-      out_text( 'microcontroller builds and programming, ' );
-      out_text( 'circuit design and construction, ' );
-      out_text( 'repairs and investigations, ' );
-      out_text( 'reverse engineering and analysis, ' );
-      out_text( 'and of course my favourite: making cables!' );
-
-    tag_shut( 'p' );
-
-    tag_open( 'p' );
-
-      out_text( "I'm pretty interested in " );
-      out_text( 'old gaming consoles' );
-      out_text( ', particularly OG Xbox, so you can expect to see a fair bit of that.' );
-
-    tag_shut( 'p' );
-
-    tag_open( 'p' );
-
-      out_text( 'Beyond playing with old gaming consoles I do all sorts of other electronics projects, from simple ' );
-      out_text( 'things like making cables to more complex things that involve microcontrollers and custom ' );
-      out_text( 'software.' );
-
-    tag_shut( 'p' );
-
-    tag_open( 'p' );
-
-      out_text( 'Basically the electronics project is and will be ' );
-
-      tag_text( 'b', 'a mixed bag' );
-
-      out_text( '. The only rule is that the ' );
-
-      out_text( 'content be ' );
-
-      tag_text( 'b', 'of interest to an electronics hobbyist' );
-
-      out_text( '.' );
-
-    tag_shut( 'p' );
-
-    tag_open( 'p' );
-
-      out_text( 'I am hoping to be ' );
-
-      tag_text( 'b', 'very beginner friendly' );
-
-      out_text( ' (I am a beginner myself!) and hopefully we can all learn more about electronics together.' );
-
-    tag_shut( 'p' );
-
-  tag_shut( 'section' );
-
-}
-
-function render_section_about_old_book_teardown( int $heading_level = 2 ) {
-
-  tag_open( 'section' );
-
-    tag_text( "h{$heading_level}", 'Old Book Teardowns', [ 'id' => 'old-book-teardowns' ] );
-
-    tag_open( 'p' );
-
-      out_text( 'In the ' );
-
-      render_link_internal(
-        'old book teardown videos',
-        url_base() . '/feature.php/old-book-teardown#heading',
-        TITLE_FEATURE_OLD_BOOK_TEARDOWN,
-      );
-
-      out_text( ' on the ' );
-
-      render_link_internal(
-        'main show',
-        url_base() . '/show-type.php/main-show#heading',
-        TITLE_SHOW_MAIN,
-      );
-
-      out_text( ' ' );
-
-      tag_text( 'b', 'I introduce and teardown an old book' );
-
-      out_text( '.' );
-
-    tag_shut( 'p' );
-
-    tag_open( 'p' );
-
-      out_text( 'To count as "old" the book needs to have been ' );
-
-      tag_text( 'b', 'published before the year 2000' );
-
-      out_text( '.' );
-
-    tag_shut( 'p' );
-
-    tag_open( 'p' );
-
-      out_text( 'I love reading and I love books. I have a ' );
-      out_text( 'particular interest in old books, especially old technical books. Bleeding edge technology is all well and good, but I love ' );
-      out_text( 'obsolete tech too. I think it\'s important to remember where we came from.' );
-
-    tag_shut( 'p' );
-
-    tag_open( 'p' );
-
-      out_text( 'The book teardowns are a fun way for me to share my love of books with you. I hope you enjoy them!' );
-
-    tag_shut( 'p' );
-
-    tag_open( 'p' );
-
-      out_text( 'The books I teardown are STEM related, which is pretty broad, and includes anything related to ' );
-      out_text( 'science, technology, engineering, or mathematics.' );
-
-    tag_shut( 'p' );
-
-    tag_open( 'p' );
-
-      out_text( 'The reason I call it a "teardown" and not a "review" is because that is a better term for what I actually ' );
-
-      out_text( 'do in these videos. Usually I haven\'t read the book before, usually I am looking at it for the first time, and ' );
-
-      out_text( 'what I do on the video with you is have a look at what\'s inside. I have a look at the front and the back ' );
-
-      out_text( 'and then go through the table of contents in detail. Usually I will also take a close look at some specific thing ' );
-
-      out_text( 'which takes my interest as I\'m reading out the contents. ' );
-
-      out_text( 'Other times I flip through and have a quick look at each page. ' );
-
-      out_text( 'So these are not simply book reviews, they are book ' );
-
-      out_text( 'teardowns, which is a particular and specific type of examination.' );
-
-    tag_shut( 'p' );
-
-    tag_open( 'p' );
-
-      out_text( 'I would certainly encourage you to buy your own copy of any of the books that you see me teardown, if you ' );
-
-      out_text( 'can still find a copy for sale anywhere!' );
-
-    tag_shut( 'p' );
-
-  tag_shut( 'section' );
-
-}
-
-function render_section_about_special_shows( int $heading_level = 2 ) {
-
-  tag_open( 'section' );
-
-    tag_text( "h{$heading_level}", 'Special Shows', [ 'id' => 'special-shows' ] );
-
-    tag_open( 'p' );
-
-      out_text( 'In addition to the regular content on the ' );
-
-      render_link_internal(
-        'main show',
-        url_base() . '/show-type.php/main-show#heading',
-        TITLE_SHOW_MAIN,
-      );
-
-      out_text( ' I do some ' );
-
-      render_link_internal(
-        'special shows',
-        url_base() . '/show-type.php/special-show#heading',
-        TITLE_SHOW_SPECIAL,
-      );
-
-      out_text( '. Special shows include:' );
-
-    tag_shut( 'p' );
-
-    tag_open( 'ul' );
 
       tag_open( 'li' );
 
@@ -2296,6 +2030,264 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
 
       tag_shut( 'li' );
 
+      tag_open( 'li' );
+
+        render_link_internal(
+          'Extra Content',
+          url_base() . '/#extra-content',
+          TITLE_FEATURE_EXTRA,
+        );
+
+      tag_shut( 'li' );
+
+    tag_shut( 'ul' );
+
+  tag_shut( 'section' );
+
+  render_section_about_electronics_project( $heading_level + 1 );
+
+  render_section_about_old_book_teardown( $heading_level + 1 );
+
+  render_section_about_new_book_teardown( $heading_level + 1 );
+
+  render_section_about_mini_project( $heading_level + 1 );
+
+  render_section_about_learning_the_art( $heading_level + 1 );
+
+  render_section_about_maxitronix_kits( $heading_level + 1 );
+
+  render_section_about_interlude( $heading_level + 1 );
+
+  render_section_about_mail_call( $heading_level + 1 );
+
+  render_section_about_unboxing( $heading_level + 1 );
+
+  render_section_about_demo( $heading_level + 1 );
+
+  render_section_about_experiment( $heading_level + 1 );
+
+  render_section_about_channel_news( $heading_level + 1 );
+
+  render_section_about_early_content( $heading_level + 1 );
+
+  render_section_about_extra_content( $heading_level + 1 );
+
+}
+
+function render_section_about_electronics_project( int $heading_level = 2 ) {
+
+  tag_open( 'section' );
+
+    tag_text( "h{$heading_level}", 'Electronics Projects', [ 'id' => 'electronics-projects' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'In the ' );
+
+      render_link_internal(
+        'electronics projects',
+        url_base() . '/feature.php/electronics-project#heading',
+        TITLE_FEATURE_ELECTRONICS_PROJECT,
+      );
+
+      out_text( ' on the ' );
+
+      render_link_internal(
+        'main channel',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
+        TITLE_CHANNEL_MAIN,
+      );
+
+      out_text( ' I do some ' );
+
+      tag_text( 'b', 'miscellaneous and interesting electronics project' );
+
+      out_text( '. The subject matter can vary widely, ' );
+      out_text( 'and might include ' );
+      out_text( 'OG Xbox examinations and repairs, ' );
+      out_text( 'microcontroller builds and programming, ' );
+      out_text( 'circuit design and construction, ' );
+      out_text( 'repairs and investigations, ' );
+      out_text( 'reverse engineering and analysis, ' );
+      out_text( 'and of course my favourite: making cables!' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( "I'm pretty interested in " );
+      out_text( 'old gaming consoles' );
+      out_text( ', particularly OG Xbox, so you can expect to see a fair bit of that.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'Beyond playing with old gaming consoles I do all sorts of other electronics projects, from simple ' );
+      out_text( 'things like making cables to more complex things that involve microcontrollers and custom ' );
+      out_text( 'software.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'Basically the electronics project is and will be ' );
+
+      tag_text( 'b', 'a mixed bag' );
+
+      out_text( '. The only rule is that the ' );
+
+      out_text( 'content be ' );
+
+      tag_text( 'b', 'of interest to an electronics hobbyist' );
+
+      out_text( '.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'I am hoping to be ' );
+
+      tag_text( 'b', 'very beginner friendly' );
+
+      out_text( ' (I am a beginner myself!) and hopefully we can all learn more about electronics together.' );
+
+    tag_shut( 'p' );
+
+  tag_shut( 'section' );
+
+}
+
+function render_section_about_old_book_teardown( int $heading_level = 2 ) {
+
+  tag_open( 'section' );
+
+    tag_text( "h{$heading_level}", 'Old Book Teardowns', [ 'id' => 'old-book-teardowns' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'In the ' );
+
+      render_link_internal(
+        'old book teardowns',
+        url_base() . '/feature.php/old-book-teardown#heading',
+        TITLE_FEATURE_OLD_BOOK_TEARDOWN,
+      );
+
+      out_text( ' on the ' );
+
+      render_link_internal(
+        'main channel',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
+        TITLE_CHANNEL_MAIN,
+      );
+
+      out_text( ' I introduce and ' );
+
+      tag_text( 'b', 'teardown an old book' );
+
+      out_text( '.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'To count as "old" the book needs to have been ' );
+
+      tag_text( 'b', 'published before the year 2000' );
+
+      out_text( '.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'I love reading and I love books. I have a ' );
+      out_text( 'particular interest in old books, especially old technical books. Bleeding edge technology is all well and good, but I love ' );
+      out_text( 'obsolete tech too. I think it\'s important to remember where we came from.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'The book teardowns are a fun way for me to share my love of books with you. I hope you enjoy them!' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'The books I teardown are STEM related, which is pretty broad, and includes anything related to ' );
+      out_text( 'science, technology, engineering, or mathematics.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'The reason I call it a "teardown" and not a "review" is because that is a better term for what I actually ' );
+
+      out_text( 'do in these videos. Usually I haven\'t read the book before, usually I am looking at it for the first time, and ' );
+
+      out_text( 'what I do on the video with you is have a look at what\'s inside. I have a look at the front and the back ' );
+
+      out_text( 'and then go through the table of contents in detail. Usually I will also take a close look at some specific thing ' );
+
+      out_text( 'which takes my interest as I\'m reading out the contents. ' );
+
+      out_text( 'Other times I flip through and have a quick look at each page. ' );
+
+      out_text( 'So these are not simply book reviews, they are book ' );
+
+      out_text( 'teardowns, which is a particular and specific type of examination.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'I would certainly encourage you to buy your own copy of any of the books that you see me teardown, if you ' );
+
+      out_text( 'can still find a copy for sale anywhere!' );
+
+    tag_shut( 'p' );
+
+  tag_shut( 'section' );
+
+}
+
+function render_section_about_special_shows( int $heading_level = 2 ) {
+
+  assert( false ); // 2025-06-16 jj5 - this is obsolete
+
+  tag_open( 'section' );
+
+    tag_text( "h{$heading_level}", 'Special Shows', [ 'id' => 'special-shows' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'In addition to the regular content on the ' );
+
+      render_link_internal(
+        'main show',
+        url_base() . '/show-type.php/main-show#heading',
+        TITLE_SHOW_MAIN,
+      );
+
+      out_text( ' I do some ' );
+
+      render_link_internal(
+        'special shows',
+        url_base() . '/show-type.php/special-show#heading',
+        TITLE_SHOW_SPECIAL,
+      );
+
+      out_text( '. Special shows include:' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'ul' );
+
+
+
     tag_shut( 'ul' );
 
     tag_open( 'p' );
@@ -2352,6 +2344,8 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
 
   render_section_about_early_content( $heading_level + 1 );
 
+  render_section_about_extra_content( $heading_level + 1 );
+
 }
 
 function render_section_about_new_book_teardown( int $heading_level = 2 ) {
@@ -2362,10 +2356,36 @@ function render_section_about_new_book_teardown( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
+      out_text( 'In the ' );
+
+      render_link_internal(
+        'new book teardowns',
+        url_base() . '/feature.php/new-book-teardown#heading',
+        TITLE_FEATURE_NEW_BOOK_TEARDOWN,
+      );
+
+      out_text( ' on the ' );
+
+      render_link_internal(
+        'main channel',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
+        TITLE_CHANNEL_MAIN,
+      );
+
+      out_text( ' I introduce and ' );
+
+      tag_text( 'b', 'teardown a new book' );
+
+      out_text( '.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
       out_text( 'The ' );
 
       render_link_internal(
-        'new book teardown videos',
+        'new book teardowns',
         url_base() . '/feature.php/new-book-teardown#heading',
         TITLE_FEATURE_NEW_BOOK_TEARDOWN,
       );
@@ -2399,30 +2419,6 @@ function render_section_about_new_book_teardown( int $heading_level = 2 ) {
 
     tag_shut( 'p' );
 
-    tag_open( 'p' );
-
-      out_text( "The new book teardowns are " );
-
-      render_link_internal(
-        'special shows',
-        url_base() . '/show-type.php/special-show#heading',
-        TITLE_SHOW_SPECIAL,
-      );
-
-      out_text( " and not a regular part of the " );
-
-      render_link_internal(
-        'main show',
-        url_base() . '/show-type.php/main-show#heading',
-        TITLE_SHOW_MAIN,
-      );
-
-      out_text( " because " );
-
-      out_text( "I don't have a lot of new books to teardown. I do have a lot of old books though, so I can do those all day long." );
-
-    tag_shut( 'p' );
-
   tag_shut( 'section' );
 
 }
@@ -2435,18 +2431,6 @@ function render_section_about_mini_project( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'Notes about the Mini Projects are kept on my wiki: ' );
-
-      render_link_external(
-        'John\'s Wiki § Mini Projects',
-        'https://www.jj5.net/wiki/Mini_Projects',
-        TITLE_WIKI,
-      );
-
-    tag_shut( 'p' );
-
-    tag_open( 'p' );
-
       out_text( 'In the ' );
 
       render_link_internal(
@@ -2455,20 +2439,20 @@ function render_section_about_mini_project( int $heading_level = 2 ) {
         TITLE_SHOW_MINI_PROJECT,
       );
 
-      out_text( ' we will be working through the new ' );
+      out_text( ' on the ' );
 
-      render_link_external(
-        'Mini Projects',
-        'https://www.siliconchip.com.au/Series/417',
-        TITLE_LINK_SILICON_CHIP_MINI_PROJECTS_LIST,
+      render_link_internal(
+        'main channel',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
+        TITLE_CHANNEL_MAIN,
       );
 
-      out_text( ' published by ' );
+      out_text( ' we are working through the ' );
 
       render_link_external(
-        'Silicon Chip',
-        'https://www.siliconchip.com.au/',
-        TITLE_SILICON_CHIP,
+        'Mini Projects published by Silicon Chip',
+        'https://www.siliconchip.com.au/Series/417',
+        TITLE_LINK_SILICON_CHIP_MINI_PROJECTS_LIST,
       );
 
       out_text( ' and sponsored by ' );
@@ -2480,6 +2464,28 @@ function render_section_about_mini_project( int $heading_level = 2 ) {
       );
 
       out_text( '.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'The Mini Projects are ' );
+
+      tag_text( 'b', 'small electronics projects that are quick and cheap' );
+
+      out_text( ' to build. They are designed to be beginner friendly and fun.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'Notes about the Mini Projects are kept on the ITL Wiki: ' );
+
+      render_link_external(
+        "ITL Wiki § Mini Projects",
+        'https://www.inthelabwithjayjay.com/wiki/Mini_Projects',
+        TITLE_WIKI,
+      );
 
     tag_shut( 'p' );
 
@@ -2495,18 +2501,6 @@ function render_section_about_learning_the_art( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'Notes about the Learning the Art of Electronics are kept on my wiki: ' );
-
-      render_link_external(
-        'John\'s Wiki § Learning the Art of Electronics',
-        'https://www.jj5.net/wiki/Learning_the_Art_of_Electronics',
-        TITLE_WIKI,
-      );
-
-    tag_shut( 'p' );
-
-    tag_open( 'p' );
-
       out_text( 'In the ' );
 
       render_link_internal(
@@ -2515,7 +2509,15 @@ function render_section_about_learning_the_art( int $heading_level = 2 ) {
         TITLE_LINK_LEARNING_THE_ART,
       );
 
-      out_text( ' we will be working through ' );
+      out_text( ' on the ' );
+
+      render_link_internal(
+        'main channel',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
+        TITLE_CHANNEL_MAIN,
+      );
+
+      out_text( ' we are working through ' );
 
       render_link_external(
         'Learning the Art of Electronics',
@@ -2524,6 +2526,28 @@ function render_section_about_learning_the_art( int $heading_level = 2 ) {
       );
 
       out_text( '.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'This is a ' );
+
+      tag_text( 'b', 'university-level electronics course' );
+
+      out_text( ' based on the book with the same name. We aim to do one chapter from the book on the first Tuesday of every month.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'Notes about the Learning the Art of Electronics are kept on the ITL Wiki: ' );
+
+      render_link_external(
+        'ITL Wiki § Learning the Art of Electronics',
+        'https://www.inthelabwithjayjay.com/wiki/Learning_the_Art_of_Electronics',
+        TITLE_WIKI,
+      );
 
     tag_shut( 'p' );
 
@@ -2539,27 +2563,29 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'Notes about the Maxitronix projects are kept on my wiki: ' );
+      out_text( 'In the ' );
 
-      render_link_external(
-        'John\'s Wiki § Maxitronix',
-        'https://www.jj5.net/wiki/Maxitronix',
-        TITLE_WIKI,
+      render_link_internal(
+        'Maxitronix Xin1 videos',
+        url_base() . '/feature.php/maxitronix#heading',
+        TITLE_SHOW_MAXITRONIX,
       );
+
+      out_text( ' on the ' );
+
+      render_link_internal(
+        'main channel',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
+        TITLE_CHANNEL_MAIN,
+      );
+
+      out_text( ' we are working through various Maxitronix kits.' );
 
     tag_shut( 'p' );
 
     tag_open( 'p' );
 
-      out_text( 'The ' );
-
-      render_link_internal(
-        'Maxitronix Xin1 Kits',
-        url_base() . '/feature.php/maxitronix#heading',
-        TITLE_SHOW_MAXITRONIX,
-      );
-
-      out_text( ' are ' );
+      out_text( 'The Maxitronix kits are ' );
 
       tag_text( 'b', 'electronic project labs' );
 
@@ -2622,9 +2648,21 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'The Maxitronix Xin1 Kits are electronic project labs with projects designed to teach people about electronics. ' );
+      out_text( 'The Maxitronix Xin1 kits are electronic project labs with projects designed to teach people about electronics. ' );
       out_text( 'They are a great way to learn electronics and are a lot of fun. ' );
       out_text( 'I would highly recommend them to anyone interested in electronics.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'Notes about the Maxitronix projects are kept on my wiki: ' );
+
+      render_link_external(
+        'ITL Wiki § Maxitronix',
+        'https://www.jj5.net/wiki/Maxitronix',
+        TITLE_WIKI,
+      );
 
     tag_shut( 'p' );
 
@@ -2643,7 +2681,7 @@ function render_section_about_interlude( int $heading_level = 2 ) {
       out_text( 'Occasionally we have an ' );
 
       render_link_internal(
-        'interlude video',
+        'interlude',
         url_base() . '/feature.php/interlude#heading',
         TITLE_FEATURE_INTERLUDE,
       );
@@ -2660,7 +2698,15 @@ function render_section_about_interlude( int $heading_level = 2 ) {
 
     tag_shut( 'p' );
 
-    tag_text( 'p', 'Interludes are some sort of interesting diversion from the regular content.' );
+    tag_open( 'p' );
+
+      out_text( 'Interludes are some sort of ' );
+
+      tag_text( 'b', 'interesting digression' );
+
+      out_text( ' from the regular content. Could be anything!' );
+
+    tag_shut( 'p' );
 
   tag_shut( 'section' );
 
@@ -2696,6 +2742,16 @@ function render_section_about_mail_call( int $heading_level = 2 ) {
 
     tag_text( 'p', 'Whenever a package arrives in the mail I try to record a mail call video.' );
 
+    tag_open( 'p' );
+
+      out_text( 'I try to record a mail call video ' );
+
+      tag_text( 'b', 'whenever a package arrives in the mail' );
+
+      out_text( '. Usually it is tools and equipment for the lab.' );
+
+    tag_shut( 'p' );
+
   tag_shut( 'section' );
 
 }
@@ -2728,7 +2784,15 @@ function render_section_about_unboxing( int $heading_level = 2 ) {
 
     tag_shut( 'p' );
 
-    tag_text( 'p', 'Whenever I get new equipment I try to record an unboxing video.' );
+    tag_open( 'p' );
+
+      out_text( 'Whenever I get new equipment I try to record ' );
+
+      tag_text( 'b', 'a quick unboxing video' );
+
+      out_text( ' showing the out-of-box experience.' );
+
+    tag_shut( 'p' );
 
     tag_text( 'p', 'In the past the unboxing video and the demo were the same thing, but now I try to keep them separate.' );
 
@@ -2774,7 +2838,23 @@ function render_section_about_demo( int $heading_level = 2 ) {
         TITLE_FEATURE_UNBOXING,
       );
 
-      out_text( ' and then a demo video. The demo video is where I show you how the equipment works.' );
+      out_text( ' and then a demo video.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'In a demo video I ' );
+
+      tag_text( 'b', 'show you how some particular equipment works' );
+
+      out_text( '.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( "When I'm making a demo video I try to go through the manual and demo each feature." );
 
     tag_shut( 'p' );
 
@@ -2812,6 +2892,16 @@ function render_section_about_experiment( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
+      out_text( 'In an experiment video I ' );
+
+      tag_text( 'b', 'conduct an electronics experiment' );
+
+      out_text( '.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
       out_text( 'Especially when I have a question over on the ' );
 
       render_link_external(
@@ -2836,15 +2926,15 @@ function render_section_about_channel_news( int $heading_level = 2 ) {
 
     tag_open( 'p' );
 
-      out_text( 'The ' );
+      out_text( 'Occasionally ' );
 
       render_link_internal(
-        'channel news videos',
+        'channel news',
         url_base() . '/feature.php/channel-news#heading',
         TITLE_FEATURE_CHANNEL_NEWS,
       );
 
-      out_text( ' air occasionally on the ' );
+      out_text( ' airs on the ' );
 
       render_link_internal(
         'main channel',
@@ -2852,8 +2942,23 @@ function render_section_about_channel_news( int $heading_level = 2 ) {
         TITLE_CHANNEL_MAIN,
       );
 
-      out_text( '. In the channel news I can tell you about changes to the format of the show, announce new features, ' );
-      out_text( 'talk about the website, tell you about new sponsors or affiliates, and things like that.' );
+      out_text( '.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'In the channel news I ' );
+
+      tag_text( 'b', 'make announcements concerning the show' );
+
+      out_text( '.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'I might talk about the website, tell you about new sponsors or affiliates, and things like that.' );
 
     tag_shut( 'p' );
 
@@ -2877,7 +2982,12 @@ function render_section_about_early_content( int $heading_level = 2 ) {
         TITLE_FEATURE_EARLY_CONTENT,
       );
 
-      out_text( ". Early content was recorded back in the early days when I was just getting started, " );
+      out_text( ". Early content was " );
+
+      tag_text( 'b', 'recorded back in the early days' );
+
+      out_text( " when I was just getting started, " );
+
       out_text( "and since then the format of the show has changed. " );
 
       out_text( "The format now includes the regular " );
@@ -2937,7 +3047,13 @@ function render_section_about_extra_content( int $heading_level = 2 ) {
         TITLE_CHANNEL_EXTRA,
       );
 
-      out_text( '. This is lower quality content which ' );
+      out_text( '.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'This is lower quality content which ' );
 
       tag_text( 'b', 'has received less editing attention' );
 
@@ -2951,8 +3067,8 @@ function render_section_about_extra_content( int $heading_level = 2 ) {
 
       render_link_internal(
         'extra content',
-        url_base() . '/show-type.php/extra-show#heading',
-        TITLE_SHOW_EXTRA,
+        url_base() . '/feature.php/extra-content#heading',
+        TITLE_FEATURE_EXTRA,
       );
 
       out_text( ' on the ' );

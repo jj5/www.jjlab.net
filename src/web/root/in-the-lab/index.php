@@ -101,11 +101,10 @@ function render_index_main() {
 
     render_section_about_channels();
 
-    render_section_about_main_show();
+    render_section_about_features();
 
-    render_section_about_special_shows();
-
-    render_section_about_extra_content();
+    //render_section_about_special_shows();
+    //render_section_about_extra_content();
 
     render_section_about_costume();
 
