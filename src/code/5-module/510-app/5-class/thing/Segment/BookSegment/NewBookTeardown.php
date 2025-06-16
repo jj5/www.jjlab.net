@@ -57,6 +57,7 @@ class NewBookTeardown extends BookSegment {
 
       //$this->get_channel()->render_rss_link();
 
+      /*
       out_text( ' > ' );
 
       render_link_internal(
@@ -64,6 +65,7 @@ class NewBookTeardown extends BookSegment {
         url_base() . '/show-type.php/special-show#heading',
         TITLE_SHOW_SPECIAL,
       );
+      */
 
       //$this->get_show_type()->render_rss_link();
 

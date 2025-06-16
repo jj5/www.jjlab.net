@@ -18,6 +18,7 @@ class MailCall extends Segment {
         TITLE_CHANNEL_MAIN,
       );
 
+      /*
       out_text( ' > ' );
 
       render_link_internal(
@@ -25,6 +26,7 @@ class MailCall extends Segment {
         url_base() . '/show-type.php/special-show#heading',
         TITLE_SHOW_SPECIAL,
       );
+      */
 
       out_text( ' > ' );
 

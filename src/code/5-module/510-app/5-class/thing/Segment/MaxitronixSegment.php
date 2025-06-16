@@ -124,6 +124,7 @@ class MaxitronixSegment extends Segment {
 
       //$this->get_channel()->render_rss_link();
 
+      /*
       out_text( ' > ' );
 
       render_link_internal(
@@ -131,6 +132,7 @@ class MaxitronixSegment extends Segment {
         url_base() . '/show-type.php/special-show#heading',
         TITLE_SHOW_MAIN,
       );
+      */
 
       //$this->get_show_type())->render_rss_link();
 

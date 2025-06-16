@@ -1299,15 +1299,7 @@ function render_section_about_structure( int $heading_level = 2 ) {
         TITLE_CHANNEL_INDEX,
       );
 
-      out_text( ', ' );
-
-      render_link_internal(
-        'shows',
-        url_base() . '/show-type.php#heading',
-        TITLE_SHOW_TYPE_INDEX,
-      );
-
-      out_text( ', and ' );
+      out_text( ' and ' );
 
       render_link_internal(
         'features',
@@ -1315,7 +1307,7 @@ function render_section_about_structure( int $heading_level = 2 ) {
         TITLE_FEATURE_INDEX,
       );
 
-      out_text( ' are organised roughly like this:' );
+      out_text( ' are organized roughly like this:' );
 
     tag_shut( 'p' );
 
@@ -1343,15 +1335,15 @@ function render_section_about_structure( int $heading_level = 2 ) {
 
               if ( $show_type->get_video_count() === 0 ) { continue; }
 
-              tag_open( 'li' );
+              //tag_open( 'li' );
 
-                $show_type->render_link_internal();
+                //$show_type->render_link_internal();
 
                 //$show_type->render_rss_link();
 
-                render_video_stats( $show_type->get_video_count(), $show_type->get_total_hours() );
+                //render_video_stats( $show_type->get_video_count(), $show_type->get_total_hours() );
 
-                tag_open( 'ul' );
+                //tag_open( 'ul' );
 
                   $feature_list = $show_type->get_feature_list();
 
@@ -1371,9 +1363,9 @@ function render_section_about_structure( int $heading_level = 2 ) {
 
                   }
 
-                tag_shut( 'ul' );
+                //tag_shut( 'ul' );
 
-              tag_shut( 'li' );
+              //tag_shut( 'li' );
 
             }
 
@@ -1632,7 +1624,7 @@ function render_section_about_rss_feeds( int $heading_level = 2 ) {
 
               }
 
-              tag_open( 'ul' );
+              //tag_open( 'ul' );
 
                 $show_type_list = $channel->get_show_type_list();
 
@@ -1640,11 +1632,11 @@ function render_section_about_rss_feeds( int $heading_level = 2 ) {
 
                   if ( $show_type->get_video_count() === 0 ) { continue; }
 
-                  tag_open( 'li' );
+                  //tag_open( 'li' );
 
                     $show_type->get_rss_info( $title, $url );
 
-                    render_link_internal( $title, $url, TITLE_RSS );
+                    //render_link_internal( $title, $url, TITLE_RSS );
 
                     tag_open( 'ul' );
 
@@ -1666,11 +1658,11 @@ function render_section_about_rss_feeds( int $heading_level = 2 ) {
 
                     tag_shut( 'ul' );
 
-                  tag_shut( 'li' );
+                  //tag_shut( 'li' );
 
                 }
 
-              tag_shut( 'ul' );
+              //tag_shut( 'ul' );
 
             tag_shut( 'li' );
 

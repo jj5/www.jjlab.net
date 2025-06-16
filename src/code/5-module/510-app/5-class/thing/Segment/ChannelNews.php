@@ -38,13 +38,13 @@ class ChannelNews extends Segment {
 
       //$this->get_channel()->render_rss_link();
 
-      out_text( ' > ' );
+      //out_text( ' > ' );
 
-      render_link_internal(
-        'Special Show',
-        url_base() . '/show-type.php/special-show#heading',
-        TITLE_SHOW_SPECIAL,
-      );
+      //render_link_internal(
+      //  'Special Show',
+      //  url_base() . '/show-type.php/special-show#heading',
+      //  TITLE_SHOW_SPECIAL,
+      //);
 
       //$this->get_show_type()->render_rss_link();
 
