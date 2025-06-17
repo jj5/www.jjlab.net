@@ -2694,6 +2694,24 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Spark Specialist' ),
+  mail_call(
+    publication_date( '2025-06-17' ),
+    title( 'Sound Level Meter, Half Moon Lamp, and Wire Mesh Baskets' ),
+    youtube_video( 'ZvsKz9O4e1s' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/06/17/mail-call-31-sound-level-meter-half-moon-lamp-and-wire-mesh-baskets-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/131646146' ),
+    tags(
+      'jjlab', 'Mail Call', 'Electronics',
+      'AliExpress', 'Amazon',
+      'ANENG GN102 Decibel Meter',
+      '20W LED Half Moon Lash Light',
+      'Household Wire Mesh Storage Basket',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(
