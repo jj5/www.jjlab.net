@@ -2738,6 +2738,33 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Fixeruperer' ),
+  mail_call(
+    publication_date( '2025-06-21' ),
+    title( 'Metho, Turps, Scrapers, Screwdrivers, Hex Wrench, Rachet, and More' ),
+    youtube_video( 'rbgSUaskSxw' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/06/21/mail-call-32-metho-turps-scrapers-screwdrivers-hex-wrench-rachet-and-more-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/131881664' ),
+    tags(
+      'jjlab', 'Mail Call', 'Electronics',
+      'AliExpress', 'True Value Hardware Store',
+      'Methylated Spirits', 'Metho',
+      'Mineral Turpentine', 'Turps',
+      'Scraper', 'Scraper Blades',
+      '38mm Plastic Scraper',
+      '25mm Metal Scraper',
+      'Screwdriver Set',
+      'Hex Wrench', 'Imperial Hex Wrench Set', 'Metric Hex Wrench Set',
+      'Double Ended Ratchet Wrench',
+      'Ear Cleaners', 'Metal Spudgers',
+      'SATA to USB Cable',
+      'Small Hammer',
+    ),
+  ),
+);
+
+
 /*
 show(
   unboxing(
