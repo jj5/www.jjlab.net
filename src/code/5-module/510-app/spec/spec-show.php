@@ -2764,6 +2764,20 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Note Taker' ),
+  electronics_project(
+    publication_date( '2025-06-24' ),
+    title( "Sanyo AM/FM Digital Clock Radio RM6018 Teardown Part 1" ),
+    youtube_video( '6y0g0FKTFUw' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/06/24/electronics-project-13-sanyo-am-fm-digital-clock-radio-rm6018-teardown-part-1-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/131890748' ),
+    tags(
+      'jjlab', 'Electronics Project', 'Sanyo RM6018 Clock Radio Teardown',
+    ),
+  ),
+);
+
 
 /*
 show(
