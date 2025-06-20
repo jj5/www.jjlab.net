@@ -2712,6 +2712,32 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Technical Director' ),
+  old_book_teardown(
+    publication_date( '2025-06-20' ),
+    youtube_video( 'DBKZyty6hT4' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/06/20/old-book-teardown-12-principles-of-electronic-circuits-2nd-edition-1997-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/131869223' ),
+    old_book(
+      title( 'Principles of Electronic Circuits' ),
+      edition( 2 ),
+      author( 'Stanley G. Burns, Paul R. Bond' ),
+      copyright_year( '1997' ),
+      page_count( 973 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/dp/0534954944' ),
+        item_price    ( 'US$169.96' ),
+      ),
+    ),
+    tags(
+      'jjlab', 'Old Book Teardown', 'Book Review',
+      "Principles of Electronic Circuits 2ed",
+      'Stanley Burns', 'Paul Bond',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(
