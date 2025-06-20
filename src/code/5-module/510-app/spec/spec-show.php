@@ -2778,6 +2778,28 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Chief Fuse Blower' ),
+  mail_call(
+    publication_date( '2025-06-26' ),
+    title( 'Wrench Set, Allen Key Set, Sandpaper, USB Power, Scraper, and More' ),
+    youtube_video( 'xYJHQxnNyog' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/06/26/mail-call-33-wrench-set-allen-key-set-sandpaper-usb-power-scraper-and-more-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/131899478' ),
+    tags(
+      'jjlab', 'Mail Call', 'Electronics',
+      'AliExpress',
+      'Wrench Socket Set',
+      'Allen Key Set',
+      'Sandpaper',
+      'USB Power Adapter',
+      'Lamp Socket Converter',
+      'Stainless Steel Scraper',
+      'Hanging Cable Organizer',
+    ),
+  ),
+);
+
 
 /*
 show(
