@@ -2800,6 +2800,32 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Prime Hack' ),
+  new_book_teardown(
+    publication_date( '2025-06-28' ),
+    youtube_video( 'QK6l8RlgWjE' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/06/28/new-book-teardown-7-electricity-and-magnetism-3rd-edition-2013-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/132591428' ),
+    new_book(
+      title( "Electricity and Magnetism" ),
+      edition( 3 ),
+      author( 'Edward M. Purcell, David J. Morin' ),
+      copyright_year( '2013' ),
+      page_count( 839 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/dp/1107014026' ),
+        item_price    ( 'US$63.02' ),
+      ),
+    ),
+    tags(
+      'jjlab', 'New Book Teardown', 'Book Review',
+      'Electricity and Magnetism',
+      'Edward Purcell', 'David Morin',
+    ),
+  ),
+);
+
 
 /*
 show(
