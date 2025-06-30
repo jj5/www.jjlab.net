@@ -2826,6 +2826,24 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Electricity Guardian' ),
+  mail_call(
+    publication_date( '2025-07-01' ),
+    title( 'Project Boxes, Power Adapters and Power Switches from AliExpress' ),
+    youtube_video( 'mUcxRhADW5M' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/07/01/mail-call-34-project-boxes-power-adapters-and-power-switches-from-aliexpress-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/132865561' ),
+    tags(
+      'jjlab', 'Mail Call', 'Electronics',
+      'AliExpress',
+      'Plastic Project Box', 'Electronic Project Case', 'Waterproof Enclosure',
+      'IEC320 C7 to C8 Right Angled AC Power Adapter',
+      'AC Rocker Power Switch With LED Light',
+    ),
+  ),
+);
+
 
 /*
 show(
