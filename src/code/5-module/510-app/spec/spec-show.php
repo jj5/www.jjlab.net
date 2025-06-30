@@ -2844,6 +2844,31 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Cable Commander' ),
+  mail_call(
+    publication_date( '2025-07-03' ),
+    title( 'Audio Sockets and Jacks, Electret Microphones, Project Kits, and More' ),
+    youtube_video( 'xBW2TLJlCRc' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/07/03/mail-call-35-audio-sockets-and-jacks-electret-microphones-project-kits-and-more-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/132873083' ),
+    tags(
+      'jjlab', 'Mail Call', 'Electronics',
+      'AliExpress', 'Amazon',
+      'Blu Stik Paste',
+      '3.5mm Mono Audio Jack Male',
+      '3.5mm Mono Audio Socket Female',
+      '3.5mm Stereo Audio Jack Male',
+      '3.5mm Stereo Audio Socket Female',
+      '3.5mm Stereo Audio Jack Male With Microphone',
+      '3.5mm Stereo Audio Socket Female With Microphone',
+      'Electret Condenser Microphone',
+      'D4017 Colorful Voice Control Rotating LED Light Kit',
+      'IEC320 Male C8 to Three Female C7 Splitter Power Adapter',
+    ),
+  ),
+);
+
 
 /*
 show(
