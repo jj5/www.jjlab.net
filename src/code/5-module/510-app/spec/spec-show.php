@@ -2869,6 +2869,31 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Surge Sage' ),
+  old_book_teardown(
+    publication_date( '2025-07-08' ),
+    youtube_video( '2M4_Fri7IxA' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/07/08/old-book-teardown-13-student-manual-for-the-art-of-electronics-2nd-edition-1989-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/133651071' ),
+    old_book(
+      title( 'Student Manual for the Art of Electronics' ),
+      edition( 2 ),
+      author( 'Thomas C. Hayes, Paul Horowitz' ),
+      copyright_year( '1989' ),
+      page_count( 614 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/dp/0521377099' ),
+        item_price    ( 'US$97.99' ),
+      ),
+    ),
+    tags(
+      'jjlab', 'Old Book Teardown', 'Book Review',
+      "Student Manual for the Art of Electronics",
+      'Thomas Hayes', 'Paul Horowitz',
+    ),
+  ),
+);
 
 /*
 show(
