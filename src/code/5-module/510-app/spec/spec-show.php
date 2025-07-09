@@ -2910,6 +2910,21 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Joule Juggler' ),
+  electronics_project(
+    publication_date( '2025-07-12' ),
+    title( 'Making Project Board for Learning the Art of Electronics' ),
+    youtube_video( '7eCT-C21CUo' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/07/12/electronics-project-15-making-project-board-for-learning-the-art-of-electronics-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/133743369' ),
+    tags(
+      'jjlab', 'Electronics Project', 'Project Board',
+      'ElectroCookie', 'Learning the Art of Electronics', 'Breadboard',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(
