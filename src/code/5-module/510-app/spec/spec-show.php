@@ -2895,6 +2895,21 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Current Connoisseur' ),
+  electronics_project(
+    publication_date( '2025-07-10' ),
+    title( 'AC Power Supply from Sanyo RM6018 Clock Radio' ),
+    youtube_video( 'EZ-CiD1t4RU' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/07/10/electronics-project-14-ac-power-supply-from-sanyo-rm6018-clock-radio-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/133722463' ),
+    tags(
+      'jjlab', 'Electronics Project', 'AC Power Supply',
+      'Sanyo RM6018 Clock Radio',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(

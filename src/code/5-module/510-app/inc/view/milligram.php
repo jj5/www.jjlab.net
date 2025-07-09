@@ -1450,6 +1450,7 @@ function render_blog_template( $equipment_list ) {
         'https://jj5.net/86289' => 'Scotch Titanium Scissors',
         'https://jj5.net/55994' => 'Carpenter Mechanical Pencil',
         'https://jj5.net/56934' => 'Hakko CHP 3C-SA Precision Tweezers',
+        'https://jj5.net/27157' => 'Plato Model 170 Wire Cutter',
       ];
 
       foreach ( $equipment_map as $equipment_url => $equipment_name ) {
