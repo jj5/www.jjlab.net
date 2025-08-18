@@ -14480,6 +14480,52 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2025-07-31' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/61aLPJ29i0L._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'QWORK' ),
+    model_spec        ( 'Dual Solder' ),
+    EquipmentFeature::DISPENSER,
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/dp/B09JP3CDF7' ),
+    listing_name  ( 'QWORK Dual Solder Dispenser Reel Solder Reel Stand' ),
+    item_price    ( 'AU$37.53' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/dp/B09JP3CDF7' ),
+    order_id        ( '249-0916787-1195842' ),
+    order_date      ( '31 July 2025' ),
+    order_item_name ( 'QWORK Dual Solder Dispenser Reel Solder Reel Stand' ),
+    order_price     ( 'AU$33.95' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-07-31' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/81PM-veTYBS._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( 'MUIN' ),
+    model_spec        ( 'Solder' ),
+    EquipmentFeature::FUME_EXTRACTOR,
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/dp/B08HYZQ81J' ),
+    listing_name  ( 'MUIN Solder Fume Extractor - 3 Stage Filtration Solder Smoke Absorber for Soldering and Wood Burning,Portable Soldering Fume Extractor Fan for Soldering Station (Blue)' ),
+    item_price    ( 'AU$86.14' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/dp/B08HYZQ81J' ),
+    order_id        ( '249-5989348-8529401' ),
+    order_date      ( '31 July 2025' ),
+    order_item_name ( 'MUIN Solder Fume Extractor - 3 Stage Filtration Solder Smoke Absorber for Soldering and Wood Burning,Portable Soldering Fume Extractor Fan for Soldering Station (Blue)' ),
+    order_price     ( 'AU$86.14' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
 
 
 /*

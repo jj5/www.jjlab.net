@@ -1819,4 +1819,10 @@ enum EquipmentFeature : string {
 
     case DIODE = 'diode';
 
+  //
+  // 2025-08-19 jj5 - FUME_EXTRACTOR
+  //
+
+  case FUME_EXTRACTOR = 'fume-extractor';
+
 }
