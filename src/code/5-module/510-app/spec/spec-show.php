@@ -2925,6 +2925,21 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Transistor Troubadour' ),
+  electronics_project(
+    publication_date( '2025-08-19' ),
+    title( 'Making Power Cables for Learning the Art of Electronics' ),
+    youtube_video( 'pSwnwsbgE2g' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/08/19/electronics-project-16-making-power-cables-for-learning-the-art-of-electronics-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/136782374' ),
+    tags(
+      'jjlab', 'Electronics Project',
+      'ElectroCookie', 'Learning the Art of Electronics', 'Power Cables',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(
