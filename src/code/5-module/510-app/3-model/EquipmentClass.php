@@ -56,6 +56,7 @@ enum EquipmentClass : string {
   case E_READER = 'e-reader';
   case FEATURE = 'feature';
   case FLUX = 'flux';
+  case FUME_EXTRACTOR = 'fume-extractor';
   case FUNNEL = 'funnel';
   case FURNITURE = 'furniture';
   case GAS = 'gas';

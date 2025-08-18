@@ -4012,3 +4012,13 @@ equipment_define(
     EquipmentClass::DIODE,
     EquipmentFeature::COMPONENT,
   );
+
+//
+// 2025-08-19 jj5 - FUME_EXTRACTOR
+//
+
+equipment_define(
+  EquipmentFeature::FUME_EXTRACTOR,
+  EquipmentClass::FUME_EXTRACTOR,
+);
+
