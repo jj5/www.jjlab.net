@@ -2940,6 +2940,76 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Elecronics Guru' ),
+  mail_call(
+    publication_date( '2025-08-21' ),
+    title( 'QuickStudy Cheatsheets and Soldering Stuff from Amazon' ),
+    youtube_video( 'nRJ_O0_lB7w' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/08/21/mail-call-36-quickstudy-cheatsheets-and-soldering-stuff-from-amazon-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/136966418' ),
+    tags(
+      'jjlab', 'Electronics Project',
+      'MUIN Solder Fume Extractor',
+      'QWORK Dual Solder Dispenser Reel',
+      'QuickStudy', 'Cheatsheet',
+      // 2025-08-21 jj5 - Mathematics
+      'Mathematics',
+      'Pre Algebra',
+      'Elementary Algebra',
+      'Algebra 1',
+      'Algebra 2',
+      'Geometry 1',
+      'Geometry 2',
+      'Trigonometry',
+      'Pre Calculus',
+      'Calculus 1',
+      'Calculus 2',
+      'Calculus Equations and Answers',
+      'Differential Equations',
+      'Statistics Equations and Answers',
+      'Probability',
+      'Linear Algebra',
+      // 2025-08-21 jj5 - Science
+      'Science',
+      'Physics',
+      'Physics Equations and Answers',
+      'Periodic Table Advanced',
+      // 2025-08-21 jj5 - Engineering
+      'Engineering',
+      'Engineering Formulas',
+      'Electronics 1',
+      'Electronics 2',
+      'Circuit Analysis',
+      'Electrical',
+      // 2025-08-21 jj5 - Programming
+      'Programming',
+      'Linux',
+      'SQL Programming',
+      'C++ Programming Language',
+      'Python 3 Programming Language',
+      'Python 3 Standard Library',
+      // 2025-08-21 jj5 - Excel
+      'Excel',
+      'Excel Tips and Tricks',
+      'Excel Formulas',
+      'Excel 365 Formulas',
+      'Excel Pivot Tables and Charts',
+      // 2025-08-21 jj5 - Finance
+      'Finance',
+      'Financial Statements',
+      // 2025-08-21 jj5 - Writing
+      'Writing',
+      'Writing Tips and Tricks',
+      'Chicago Manual of Style',
+      'English Grammar and Punctuation',
+      'Common Grammar Pitfalls and Mistakes',
+
+    ),
+  ),
+);
+
+
 /*
 show(
   unboxing(
