@@ -3009,6 +3009,37 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Luminary Luminar' ),
+  mail_call(
+    publication_date( '2025-08-23' ),
+    title( 'Cheap Stuff from AliExpress' ),
+    youtube_video( 'z7xHdwyx7uY' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/08/23/mail-call-37-cheap-stuff-from-aliexpress-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/137140472' ),
+    tags(
+      'jjlab', 'Mail Call',
+      'QuickStudy', 'Cheatsheet', 'Excel Tips and Tricks',
+      'Cleaning Brush',
+      'RELIFE RL-060B Carbon Fiber Disassembly Crowbar',
+      'IDE Cable',
+      'Precision Drill Bits',
+      'Fireworks LED Kit',
+      'Temperature Controller',
+      'Terminal Removal Tool',
+      'Metal Spudger Spatula',
+      'Human Presence Sensor',
+      'Laboratory Swing Bells LED Soldering Kit',
+      'Rotating Flashing LED Kit',
+      'Solar Powered Toy Car',
+      'RC Servo Motor Controller Kit',
+      'PCB Breakout Board Kit SOP8 SOP14 SOP16 SOP20 SOP24 SOP28',
+      'Wire Wrap Hand Tool for AWG 30 Wire',
+      'Wire Stripper',
+      'USB Floppy Disk Drive',
+    ),
+  ),
+);
 
 /*
 show(
