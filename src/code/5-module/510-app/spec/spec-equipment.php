@@ -14530,6 +14530,11 @@ equipment(
 
 /*
 
+WARNING: after adding new equipment you need to generate a JJ code by navigating to:
+
+ http://localhost/www.jjlab.net/in-the-lab/equipment.php
+
+
 equipment(
   equipment_date( '2024-08-02' ),
   equipment_icon( '' ),

@@ -3041,6 +3041,23 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Operation Manager' ),
+  learning_the_art(
+    publication_date( '2025-08-26' ),
+    title( "Learning the Art of Electronics: Fig-1N.23: Hypothetical Voltage Divider" ),
+    youtube_video( '4O6Ugr5vaiI' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/08/26/learning-the-art-of-electronics-fig-1n-23-hypothetical-voltage-divider-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/137339656' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Fig-IN.23',
+      'Hypothetical Voltage Divider',
+      'Thevenin Equivalent Circuit',
+    ),
+  ),
+);
+
+
 /*
 show(
   unboxing(
