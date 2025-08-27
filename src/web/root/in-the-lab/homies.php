@@ -312,7 +312,7 @@ function render_homies_main() {
 
         out_text( "I am saving my pennies so I can get the full set! " );
 
-        out_text( "Here are the multimeters Dave makes (check mark for the ones I own):" );
+        out_text( "Here are the multimeters Dave makes (check mark for the ones I own so far):" );
 
       tag_shut( 'p' );
 
