@@ -99,6 +99,12 @@ function render_image_headers( $extension ) {
 
   switch ( $extension ) {
 
+    case 'avif' :
+
+      header( 'Content-Type: image/avif' );
+
+      break;
+
     case 'png' :
 
       header( 'Content-Type: image/png' );

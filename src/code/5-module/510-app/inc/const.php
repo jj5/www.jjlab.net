@@ -46,6 +46,7 @@ define(
 define(
   'EXTENSION_CONTENT_TYPE_MAP',
   [
+    'image/avif'  => 'avif',
     'image/png'   => 'png',
     'image/jpeg'  => 'jpg',
     'image/jpg'   => 'jpg',
