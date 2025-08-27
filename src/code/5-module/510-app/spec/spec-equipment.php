@@ -14355,7 +14355,7 @@ equipment(
 );
 
 equipment(
-  equipment_date( '2042-12-25' ),
+  equipment_date( '2024-12-25' ),
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sbb3672e4823d44a6a66f98f95c360099l.jpg_960x960q75.jpg' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
@@ -14385,7 +14385,7 @@ equipment(
 );
 
 equipment(
-  equipment_date( '2042-12-25' ),
+  equipment_date( '2024-12-25' ),
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sb00059d1fbe24e54a3851906387fc8a77.jpg_960x960q75.jpg' ),
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
@@ -14522,6 +14522,34 @@ equipment(
     order_date      ( '31 July 2025' ),
     order_item_name ( 'MUIN Solder Fume Extractor - 3 Stage Filtration Solder Smoke Absorber for Soldering and Wood Burning,Portable Soldering Fume Extractor Fan for Soldering Station (Blue)' ),
     order_price     ( 'AU$86.14' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-08-27' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sd32e6d4c9c454dcf8364b37acf996bd1G.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( 'FNIRSI' ),
+    model_name        ( 'FNB58' ),
+    model_spec        ( 'Type-C' ),
+    EquipmentFeature::USB_CABLE_TESTER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005008060911517.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_ooLvuBF' ),
+    listing_name  ( 'FNB58 USB Tester Voltmeter Ammeter TYPE-C Fast Charge Detection Trigger Capacity Measurement Ripple Measurement' ),
+    item_options  ( 'Color: FNB58 With Bluetooth' ),
+    item_price    ( 'AU$67.69' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005008060911517.html' ),
+    order_id        ( '8204573812223938' ),
+    order_date      ( 'Aug 27, 2025' ),
+    order_item_name ( 'FNB58 USB Tester Voltmeter Ammeter TYPE-C Fast Charge Detection Trigger Capacity Measurement Ripple Measurement' ),
+    order_price     ( 'AU$67.69' ),
+    order_tax       ( 'AU$6.76' ),
     order_quantity  ( 1 ),
   ),
 );

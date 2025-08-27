@@ -1,5 +1,19 @@
 <?php
 
+function app_get_full_request_url() : string {
+
+  $url = mud_get_full_request_url();
+
+  if ( strpos( $url, 'http://localhost/in-the-lab/' ) === 0 ) {
+
+    $url = str_replace( 'http://localhost/', 'https://www.inthelabwithjayjay.com/', $url );
+
+  }
+
+  return $url;
+
+}
+
 function http_redirect_home() {
 
   if ( mud_is_debug() ) {

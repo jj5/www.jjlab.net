@@ -311,7 +311,7 @@ function render_head( string $heading, array $options = [] ) {
 
       tag_bare( 'link', [ 'rel' => 'icon', 'href' => LOGO_URL ] );
 
-      tag_bare( 'link', [ 'rel' => 'canonical', 'href' => mud_get_full_request_url() ] );
+      tag_bare( 'link', [ 'rel' => 'canonical', 'href' => app_get_full_request_url() ] );
 
       render_rss_link();
 
