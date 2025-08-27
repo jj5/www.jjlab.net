@@ -218,6 +218,34 @@ function render_homies_main() {
             tag_shut( 'td' );
           tag_shut( 'tr' );
 
+          tag_open( 'tr' );
+            tag_text( 'td', $counter++ );
+            tag_text( 'td', "Learning as a hobby" );
+            tag_open( 'td', [ 'class' => $link_class ] );
+              render_link_external(
+                '@learningasahobby790',
+                'https://www.youtube.com/@learningasahobby790',
+                "Click here to watch Learning as a hobby on YouTube.",
+              );
+            tag_shut( 'td' );
+            tag_open( 'td', [ 'class' => $link_class ] );
+              render_link_external(
+                'Learning as a hobby',
+                'https://www.patreon.com/Learningasahobby',
+                "Click here to find Learning as a hobby on Patreon.",
+              );
+            tag_shut( 'td' );
+            tag_open( 'td', [ 'class' => $link_class ] );
+              render_link_external(
+                'https://www.learningasahobby.com/',
+                'learningasahobby.com',
+                "Click here to visit the website for Learning as a hobby.",
+              );
+            tag_shut( 'td' );
+            tag_open( 'td', [ 'class' => $link_class ] );
+            tag_shut( 'td' );
+          tag_shut( 'tr' );
+
         tag_shut( 'tbody' );
 
       tag_shut( 'table' );
