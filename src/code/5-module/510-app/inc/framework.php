@@ -114,6 +114,11 @@ function get_version( $command ) {
 
 function get_full_url() {
 
+  // 2025-08-27 jj5 - NEW: just use this...
+
+  return app_get_full_request_url();
+
+
   $protocol = 'http://';
 
   if ( isset( $_SERVER['HTTPS'] ) && $_SERVER['HTTPS'] === 'on' ) {
