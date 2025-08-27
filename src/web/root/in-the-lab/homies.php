@@ -324,7 +324,7 @@ function render_homies_main() {
             'Click here to buy the EEVblog 121GW Multimeter.'
           );
 
-          out_text( ' (AU$325.00)' );
+          out_text( ' (AU$285.00)' );
 
         tag_shut( 'li' );
 
@@ -336,7 +336,7 @@ function render_homies_main() {
             'Click here to buy the EEVblog BM786 Multimeter.'
           );
 
-          out_text( ' (AU$215.00)' );
+          out_text( ' (AU$236.50)' );
 
         tag_shut( 'li' );
 
@@ -348,7 +348,19 @@ function render_homies_main() {
             'Click here to buy the EEVblog BM235 Multimeter.'
           );
 
-          out_text( ' (AU$170.00)' );
+          out_text( ' (AU$177.00)' );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          render_link_external(
+            'EEVblog BM2257 Multimeter',
+            'https://eevblog.store/products/eevblog-bm2257-multimeter',
+            'Click here to buy the EEVblog BM2257 Multimeter.'
+          );
+
+          out_text( ' (AU$215.00)' );
 
         tag_shut( 'li' );
 
@@ -360,7 +372,7 @@ function render_homies_main() {
             'Click here to buy the EEVblog BM036 AC/DC Clamp Meter.'
           );
 
-          out_text( ' (AU$149.00)' );
+          out_text( ' (AU$164.00)' );
 
         tag_shut( 'li' );
 
