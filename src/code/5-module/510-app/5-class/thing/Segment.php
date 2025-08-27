@@ -420,21 +420,27 @@ abstract class Segment extends AppThing {
 
         tag_shut( 'dd' );
 
-        tag_text( 'dt', 'Patreon Announcement' );
+        $patreon_url = $this->get_video()->get_segment()->get_patreon_url()->to_string();
 
-        tag_open( 'dd' );
+        if ( $patreon_url ) {
 
-          $patreon_url = $this->get_video()->get_segment()->get_patreon_url()->to_string();
+          tag_text( 'dt', 'Patreon Announcement' );
 
-          $patreon_link_text = str_replace( 'https://www.', '', $patreon_url );
+          tag_open( 'dd' );
 
-          render_link_external(
-            $patreon_link_text,
-            $patreon_url,
-            TITLE_PATREON_POST,
-          );
+            $patreon_url = $this->get_video()->get_segment()->get_patreon_url()->to_string();
 
-        tag_shut( 'dd' );
+            $patreon_link_text = str_replace( 'https://www.', '', $patreon_url );
+
+            render_link_external(
+              $patreon_link_text,
+              $patreon_url,
+              TITLE_PATREON_POST,
+            );
+
+          tag_shut( 'dd' );
+
+        }
 
       tag_shut( 'dl' );
 
