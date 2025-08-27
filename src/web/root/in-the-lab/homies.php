@@ -308,9 +308,11 @@ function render_homies_main() {
 
       tag_open( 'p' );
 
-        out_text( "Dave makes a line of multimeters. I am saving my pennies so I can get the full set! " );
+        out_text( "Dave sells a line of EEVblog branded multimeters. " );
 
-        out_text( "Here are the multimeters Dave makes:" );
+        out_text( "I am saving my pennies so I can get the full set! " );
+
+        out_text( "Here are the multimeters Dave makes (check mark for the ones I own):" );
 
       tag_shut( 'p' );
 
@@ -343,6 +345,18 @@ function render_homies_main() {
         tag_open( 'li' );
 
           render_link_external(
+            'EEVblog BM2257 Multimeter',
+            'https://eevblog.store/products/eevblog-bm2257-multimeter',
+            'Click here to buy the EEVblog BM2257 Multimeter.'
+          );
+
+          out_text( ' (AU$215.00) ✓' );
+
+        tag_shut( 'li' );
+
+        tag_open( 'li' );
+
+          render_link_external(
             'EEVblog BM235 Multimeter',
             'https://eevblog.store/products/eevblog-bm235-multimeter',
             'Click here to buy the EEVblog BM235 Multimeter.'
@@ -355,24 +369,12 @@ function render_homies_main() {
         tag_open( 'li' );
 
           render_link_external(
-            'EEVblog BM2257 Multimeter',
-            'https://eevblog.store/products/eevblog-bm2257-multimeter',
-            'Click here to buy the EEVblog BM2257 Multimeter.'
-          );
-
-          out_text( ' (AU$215.00)' );
-
-        tag_shut( 'li' );
-
-        tag_open( 'li' );
-
-          render_link_external(
             'EEVblog BM036 AC/DC Clamp Meter',
             'https://eevblog.store/products/eevblog-bm036-ac-dc-clamp-meter',
             'Click here to buy the EEVblog BM036 AC/DC Clamp Meter.'
           );
 
-          out_text( ' (AU$164.00)' );
+          out_text( ' (AU$164.00) ✓' );
 
         tag_shut( 'li' );
 
