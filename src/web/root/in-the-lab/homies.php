@@ -237,8 +237,8 @@ function render_homies_main() {
             tag_shut( 'td' );
             tag_open( 'td', [ 'class' => $link_class ] );
               render_link_external(
-                'https://www.learningasahobby.com/',
                 'learningasahobby.com',
+                'https://www.learningasahobby.com/',
                 "Click here to visit the website for Learning as a hobby.",
               );
             tag_shut( 'td' );
