@@ -3057,6 +3057,25 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Energy Maestro' ),
+  mail_call(
+    publication_date( '2025-08-28' ),
+    title( 'Cheatsheet, Lego, Banana-to-DuPont, Banana Cables, and Digital Multimeters' ),
+    youtube_video( 'e16knfBSMcI' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/08/28/mail-call-38-cheatsheet-lego-banana-to-dupont-banana-cables-and-digital-multimeters/' ),
+    patreon_url( 'https://www.patreon.com/posts/137540066' ),
+    tags(
+      'jjlab', 'Mail Call',
+      'QuickStudy', 'Cheatsheet', 'Electronics Part 1',
+      'Lego',
+      'Banana-to-DuPont', 'Banana-to-Male', 'Banana-to-Female',
+      'Banana Cables',
+      'Digital Multimeters'
+    ),
+  ),
+);
+
 
 /*
 show(
