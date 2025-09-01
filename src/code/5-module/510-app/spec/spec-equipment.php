@@ -14556,7 +14556,7 @@ equipment(
 
 equipment(
   equipment_date( '2025-09-01' ),
-  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sf0dff15c3fea495da28adbde7aef629a7.jpg_960x960q75.jpg_.avif' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S56be0a57da4a4d248f8de8187d76a3b4H.jpg_960x960q75.jpg_.avif' ),
   equipment_item(
     manufacturer_name ( "Pro'sKit" ),
     model_name        ( 'MT-2207-C' ),
