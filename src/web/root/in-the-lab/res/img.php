@@ -16,6 +16,7 @@ function app_render() {
 
   switch ( $extension ) {
 
+    case 'avif' :
     case 'png' :
     case 'jpg' :
     case 'webp' :

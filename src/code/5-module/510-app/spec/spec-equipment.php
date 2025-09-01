@@ -14583,6 +14583,35 @@ equipment(
 );
 
 
+equipment(
+  equipment_date( '2025-06-03' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S6c45977d01b44cdab5ea23915ed136b6I.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( 'MF-110A' ),
+    model_spec        ( 'Analog VOM' ),
+    EquipmentFeature::HANDHELD_MULTIMETER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005956502068.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oCUILXN' ),
+    listing_name  ( 'Mini Analog Multimeter Tool AC/DC 1000V Voltmeter 250mA Ammeter 1K Resistance Meter Handheld Pointer Voltage Multimeter' ),
+    item_options  ( 'Color: black' ),
+    item_price    ( 'AU$6.39' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005956502068.html' ),
+    order_id        ( '8201714946563938' ),
+    order_date      ( 'Jun 3, 2025' ),
+    order_item_name ( 'Mini Analog Multimeter Tool AC/DC 1000V Voltmeter 250mA Ammeter 1K Resistance Meter Handheld Pointer Voltage Multimeter' ),
+    order_price     ( 'AU$4.79' ),
+    order_tax       ( 'AU$0.66' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+
 
 /*
 
