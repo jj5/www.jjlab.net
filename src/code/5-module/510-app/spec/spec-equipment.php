@@ -14554,6 +14554,34 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2025-09-01' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sf0dff15c3fea495da28adbde7aef629a7.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Pro'sKit" ),
+    model_name        ( 'MT-2207-C' ),
+    model_spec        ( 'Analog VOM' ),
+    EquipmentFeature::HANDHELD_MULTIMETER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006674666663.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_onCXlCz' ),
+    listing_name  ( "Pro'sKit MT-2207-C pointer type anti-fog 3-purpose electric meter internal magnetic high-precision multimeter 1000V/10A" ),
+    item_options  ( 'Color: ProsKit MT-2207-C' ),
+    item_price    ( 'AU$35.39' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006674666663.html' ),
+    order_id        ( '8203962501423938' ),
+    order_date      ( 'Sep 1, 2025' ),
+    order_item_name ( "Pro'sKit MT-2207-C pointer type anti-fog 3-purpose electric meter internal magnetic high-precision multimeter 1000V/10A" ),
+    order_price     ( 'AU$35.39' ),
+    order_tax       ( 'AU$3.54' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
 
 
 /*
