@@ -3076,6 +3076,22 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Switch Switcher' ),
+  learning_the_art(
+    publication_date( '2025-09-02' ),
+    title( "Learning the Art of Electronics: Fig-1N.24: Applying the Thévenin model" ),
+    youtube_video( 'n6tYf6BNk08' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/02/learning-the-art-of-electronics-fig-1n-24-applying-the-thevenin-model-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/137900343' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Fig-IN.24',
+      'Applying the Thévenin model',
+      'Thevenin Equivalent Circuit',
+    ),
+  ),
+);
+
 
 /*
 show(
