@@ -3092,6 +3092,27 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Relay Renegade' ),
+  maxitronix_segment(
+    publication_date( '2025-09-04' ),
+    title( 'Intro Project' ),
+    project( 1, 30 ),
+    maxitronix_kit_name( '30in1' ),
+    youtube_video( 'gJeYCYGUUQY' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/04/intro-project-project-1-30-maxitronix-30in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/138114619' ),
+    tags(
+      'jjlab', 'Maxitronix 30in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'Intro Project', 'Resistor', 'Capacitor', 'Transistor', 'Transformer', 'Earphone',
+      'Riden', 'RD6006', 'Bench Power Supply',
+      'OWON', 'XDM1041', 'Digital Multimeter',
+      'UNI-T', 'UTi260B', 'Thermal Imager',
+      'Rigol', 'MSO5074', 'Mixed Signal Oscilloscope',
+    ),
+  ),
+);
+
 
 /*
 show(
