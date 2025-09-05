@@ -3128,6 +3128,33 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Solder Soldier' ),
+  mail_call(
+    publication_date( '2025-09-06' ),
+    title( 'Tools, Kits, Boards, and Components from AliExpress' ),
+    youtube_video( 'zTSQpPWlxBg' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/06/mail-call-40-tools-kits-boards-and-components-from-aliexpress-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/138175197' ),
+    tags(
+      'jjlab', 'Mail Call',
+      'AliExpress',
+      'PCB', 'Vero Board',
+      'Resistors',
+      'Lug Terminals', 'Ring Terminals', 'Crimp Terminals',
+      'Nylon Cable Ties',
+      'Line Following Robot Kit',
+      'Music Sound Box Project Kit',
+      'Rotating Digital LED Display Kit',
+      'Metric Screws', 'M1.2', 'M1.4', 'M1.7', 'M2', 'M2.5', 'M3',
+      'Welding Wire Fixture',
+      '2N2222 Transistors',
+      'Screw Terminal Block',
+      'IC Socket', 'DIP8', 'DIP14',
+    ),
+  ),
+);
+
 
 /*
 show(
