@@ -3113,6 +3113,21 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Bolt Baron' ),
+  mail_call(
+    publication_date( '2025-09-05' ),
+    title( '1/4 W, 1/2 W, and 1 W Resistors from AliExpress' ),
+    youtube_video( 'GKTMdoNX8PU' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/05/mail-call-39-1-4-w-1-2-w-and-1-w-resistors-from-aliexpress-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/138171612' ),
+    tags(
+      'jjlab', 'Mail Call',
+      'AliExpress', 'Resistors',
+    ),
+  ),
+);
+
 
 /*
 show(
