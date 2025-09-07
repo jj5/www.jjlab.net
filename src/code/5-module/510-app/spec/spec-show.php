@@ -3155,6 +3155,47 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Bench Master' ),
+  mail_call(
+    publication_date( '2025-09-07' ),
+    title( 'Loot from Amazon: Mesh Baskets, USB Hub, Power Supply, Batteries and More' ),
+    youtube_video( 'NsF4x5FfPuI' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/07/mail-call-41-loot-from-amazon-mesh-baskets-usb-hub-power-supply-batteries-and-more/' ),
+    patreon_url( 'https://www.patreon.com/posts/138336751' ),
+    tags(
+      'jjlab', 'Mail Call', 'Amazon',
+      'GOLDORCLE', 'Wire Mesh Baskets',
+      'UGREEN', 'USB 3.0 Hub',
+      '96W USB-C Charger for MacBook Pro',
+      'Duracell Ultra Alkaline AAA Batteries',
+      'QuickStudy', 'Cheatsheet',
+      'Physics - Thermodynamics',
+      'Chemistry Equations and Answers',
+      'Chemistry',
+      'Elementary Algebra',
+      'Electronics 2',
+      'Dynamics',
+      'Physics 2',
+      'Microsoft Excel 365 Formulas',
+    ),
+  ),
+);
+
+show(
+  silly_job_title( 'Bench Master' ),
+  unboxing(
+    publication_date( '2025-09-08' ),
+    title( 'Unboxing UGREEN Uno USB-C Hub' ),
+    youtube_video( 'JJZd4-g-cJM' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/08/unboxing-27-unboxing-ugreen-uno-usb-c-hub-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/138337793' ),
+    tags(
+      'jjlab', 'Unboxing', 'USB-C Hub', 'UGREEN Uno',
+    ),
+  ),
+);
+
 
 /*
 show(
