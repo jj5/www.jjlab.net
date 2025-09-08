@@ -14352,6 +14352,15 @@ equipment(
     order_price     ( 'AU$5.77' ),
     order_quantity  ( 1 ),
   ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005616820006.html' ),
+    order_id        ( '8197232704283938' ),
+    order_date      ( 'Jan 5, 2025' ),
+    order_item_name ( 'Universal Phone Repair Tools Kit Disassembly Blades Pry Opening Tool Metal Crowbar Disassemble Kit Phone Spatula Hand Tools Set' ),
+    order_price     ( 'AU$5.25' ),
+    order_tax       ( 'AU$0.52' ),
+    order_quantity  ( 1 ),
+  ),
 );
 
 equipment(
@@ -14582,7 +14591,6 @@ equipment(
   ),
 );
 
-
 equipment(
   equipment_date( '2025-06-03' ),
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S6c45977d01b44cdab5ea23915ed136b6I.jpg_960x960q75.jpg_.avif' ),
@@ -14607,6 +14615,1800 @@ equipment(
     order_item_name ( 'Mini Analog Multimeter Tool AC/DC 1000V Voltmeter 250mA Ammeter 1K Resistance Meter Handheld Pointer Voltage Multimeter' ),
     order_price     ( 'AU$4.79' ),
     order_tax       ( 'AU$0.66' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-08-29' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/71grEUrxQIL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( "UGREEN" ),
+    model_name        ( 'Uno' ),
+    model_spec        ( 'USB-C' ),
+    EquipmentFeature::USB_HUB,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/dp/B0D2Q5XJY9' ),
+    listing_name  ( 'UGREEN Uno USB C Hub, 6-in-1 Type C Adapter with 4K@60Hz HDMI, 10Gbps 2×USB C& A 3.2 Data Ports, 100W Power Delivery for PC, Laptops, Phone, MacBook Air, iPad Pro, Galaxy, iPhone 16/15 Series and More' ),
+    item_price    ( 'AU$39.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/dp/B0D2Q5XJY9' ),
+    order_id        ( '250-5516100-8990258' ),
+    order_date      ( 'Aug 29, 2025' ),
+    order_item_name ( 'UGREEN Uno USB C Hub, 6-in-1 Type C Adapter with 4K@60Hz HDMI, 10Gbps 2×USB C& A 3.2 Data Ports, 100W Power Delivery for PC, Laptops, Phone, MacBook Air, iPad Pro, Galaxy, iPhone 16/15 Series and More' ),
+    order_price     ( 'AU$39.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-08-29' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/916QUATix3L._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( "GOLDORCLE" ),
+    model_spec        ( 'Wire Mesh' ),
+    EquipmentFeature::BASKET,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/dp/B08SQHT6GN' ),
+    listing_name  ( 'GOLDORCLE Set of 3 Household Wire Mesh Metal Steel Storage Basket Organizer CD Storage Boxes Organizer Bin Container Tote with Handles for Home Office 10.5" x 5.5" x 5.5"' ),
+    item_price    ( 'AU$72.33' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/dp/B08SQHT6GN' ),
+    order_id        ( '250-9057296-1896654' ),
+    order_date      ( '5 September 2025' ),
+    order_item_name ( 'GOLDORCLE Set of 3 Household Wire Mesh Metal Steel Storage Basket Organizer CD Storage Boxes Organizer Bin Container Tote with Handles for Home Office 10.5" x 5.5" x 5.5"' ),
+    order_price     ( 'AU$72.33' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/dp/B08SQHT6GN' ),
+    order_id        ( '249-6611909-7811819' ),
+    order_date      ( '2 September 2025' ),
+    order_item_name ( 'GOLDORCLE Set of 3 Household Wire Mesh Metal Steel Storage Basket Organizer CD Storage Boxes Organizer Bin Container Tote with Handles for Home Office 10.5" x 5.5" x 5.5"' ),
+    order_price     ( 'AU$72.33' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/dp/B08SQHT6GN' ),
+    order_id        ( '249-8817205-9289429' ),
+    order_date      ( '30 May 2025' ),
+    order_item_name ( 'GOLDORCLE Set of 3 Household Wire Mesh Metal Steel Storage Basket Organizer CD Storage Boxes Organizer Bin Container Tote with Handles for Home Office 10.5" x 5.5" x 5.5"' ),
+    order_price     ( 'AU$61.33' ),
+    order_quantity  ( 2 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/dp/B08SQHT6GN' ),
+    order_id        ( '250-6124326-3083053' ),
+    order_date      ( '22 February 2025' ),
+    order_item_name ( 'GOLDORCLE Set of 3 Household Wire Mesh Metal Steel Storage Basket Organizer CD Storage Boxes Organizer Bin Container Tote with Handles for Home Office 10.5" x 5.5" x 5.5"' ),
+    order_price     ( 'AU$77.79' ),
+    order_quantity  ( 2 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-07-19' ),
+  equipment_icon( 'https://m.media-amazon.com/images/I/91TpdZQarAL._AC_SL1500_.jpg' ),
+  equipment_item(
+    manufacturer_name ( "Smash" ),
+    model_spec        ( 'Insulated Lunch' ),
+    EquipmentFeature::BAG,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.amazon.com.au/dp/B0BLJ2SWWV' ),
+    listing_name  ( 'Smash Insulated Lunch Bag, Sage' ),
+    item_price    ( 'AU$13.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.amazon.com.au/dp/B0D2Q5XJY9' ),
+    order_id        ( '249-2374336-0893427' ),
+    order_date      ( 'Jul 19, 2025' ),
+    order_item_name ( 'Smash Insulated Lunch Bag, Sage' ),
+    order_price     ( 'AU$13.00' ),
+    order_quantity  ( 3 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-09-07' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S1f233d607d4b4e50bb30c41ae99da296f.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "WOZOBUY" ),
+    EquipmentFeature::WRENCH_SET,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006578204335.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oFmtMTj' ),
+    listing_name  ( 'Ratcheting Combination Wrench Set, 6-23mm Metric Flex Head Ratcheting Wrench, Chrome Vanadium Steel Spanner with Bag' ),
+    item_options  ( 'Color: 16pcs' ),
+    item_price    ( 'AU$87.42' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006578204335.html' ),
+    order_id        ( '8204090885423938' ),
+    order_date      ( 'Sep 7, 2025' ),
+    order_item_name ( 'Ratcheting Combination Wrench Set, 6-23mm Metric Flex Head Ratcheting Wrench, Chrome Vanadium Steel Spanner with Bag' ),
+    order_price     ( 'AU$87.42' ),
+    order_tax       ( 'AU$8.85' ),
+    order_shipping  ( 'AU$0.02' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-09-06' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S703055d21e1643d48e0042dfe7b9c1c8C.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "DUTRIEUX" ),
+    model_spec        ( 'Metal' ),
+    EquipmentFeature::SPUDGERS,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005008170805407.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_okx9OoN' ),
+    listing_name  ( '1/2/4PCS High Quality Phone Repair Tools Memory Metal Tin Scraping Knife Solder Paste Mixing Knife Pry Opening for iPhone Repair' ),
+    item_options  ( 'Color: 4PCS' ),
+    item_price    ( 'AU$2.09' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005008170805407.html' ),
+    order_id        ( '8204686765063938' ),
+    order_date      ( 'Sep 6, 2025' ),
+    order_item_name ( '1/2/4PCS High Quality Phone Repair Tools Memory Metal Tin Scraping Knife Solder Paste Mixing Knife Pry Opening for iPhone Repair' ),
+    order_price     ( 'AU$2.09' ),
+    order_tax       ( 'AU$0.27' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-09-06' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Se5894eb7817d4583b651ea29a7e05b1f6.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "CLAMPLUS" ),
+    model_name        ( 'SN-58B' ),
+    EquipmentFeature::CRIMPING_TOOL,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005008645314178.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_olm7by1' ),
+    listing_name  ( 'Ratcheting Crimping Tool Set For Dupont JST MOLEX Open Barrel,Dupont Molex JST TE Terminals & EPC PCIE SATA Pins SN-58B' ),
+    item_options  ( 'Color: SN-58B' ),
+    item_price    ( 'AU$15.64' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005008645314178.html' ),
+    order_id        ( '8204686764833938' ),
+    order_date      ( 'Sep 6, 2025' ),
+    order_item_name ( 'Ratcheting Crimping Tool Set For Dupont JST MOLEX Open Barrel,Dupont Molex JST TE Terminals & EPC PCIE SATA Pins SN-58B' ),
+    order_price     ( 'AU$5.65' ),
+    order_tax       ( 'AU$1.25' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-09-06' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S6066c80bf563466fa4e5ee861ac14dd4v.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_spec        ( 'Tool' ),
+    EquipmentFeature::RACK,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006948264487.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_onRIUaZ' ),
+    listing_name  ( '9IMOD Screwdriver Storage Rack Holder Multifunctional Organizer RC Repair Tools Kit Desktop Stand for Hex Cross Screw Driver' ),
+    item_options  ( 'Color: Silver' ),
+    item_price    ( 'AU$17.20' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006948264487.html' ),
+    order_id        ( '8204090565873938' ),
+    order_date      ( 'Sep 6, 2025' ),
+    order_item_name ( '9IMOD Screwdriver Storage Rack Holder Multifunctional Organizer RC Repair Tools Kit Desktop Stand for Hex Cross Screw Driver' ),
+    order_price     ( 'AU$12.69' ),
+    order_tax       ( 'AU$1.78' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-09-06' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sb461542accf74230b0dc83711cfcf6b3Y.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "ANENG" ),
+    model_name        ( 'BT-171' ),
+    EquipmentFeature::BATTERY_TESTER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006862654511.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oB7RikN' ),
+    listing_name  ( 'ANENG BT-171 Multifunctional Battery Testers 12V Auto Repair Industry Detection with LED Reverse Display Screen Electrician Tool' ),
+    item_options  ( 'Color: BT-171 Black' ),
+    item_price    ( 'AU$7.71' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006862654511.html' ),
+    order_id        ( '8204090565663938' ),
+    order_date      ( 'Sep 6, 2025' ),
+    order_item_name ( 'ANENG BT-171 Multifunctional Battery Testers 12V Auto Repair Industry Detection with LED Reverse Display Screen Electrician Tool' ),
+    order_price     ( 'AU$3.73' ),
+    order_tax       ( 'AU$0.66' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-09-06' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S08eda1e0f8ad47b383d35be6cc3a1e13w.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    EquipmentFeature::WIRE_FIXTURE,
+    EquipmentFeature::CLAMP,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005008768476464.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_opTtEIp' ),
+    listing_name  ( 'Welding Wire Fixture Adjustable Suction Bracket Welding Table Clamp For Motherboard Soldering Welding Locator Soldering Tools' ),
+    item_options  ( 'Color: 3pcs' ),
+    item_price    ( 'AU$5.39' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005008768476464.html' ),
+    order_id        ( '8204090565853938' ),
+    order_date      ( 'Sep 6, 2025' ),
+    order_item_name ( 'Welding Wire Fixture Adjustable Suction Bracket Welding Table Clamp For Motherboard Soldering Welding Locator Soldering Tools' ),
+    order_price     ( 'AU$3.99' ),
+    order_tax       ( 'AU$0.55' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-09-05' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S1f02846691484204affa6cc8282ce06bM.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( 'LT-116' ),
+    EquipmentFeature::VACUUM_FILTER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005008966312861.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_omTwgnT' ),
+    listing_name  ( '10 Pcs Handheld Vacuum Cleaner Filter Hepa LY002X LY002DBL LY003H Non woven vacuum cleaner filter element' ),
+    item_options  ( 'Color: QP4792' ),
+    item_price    ( 'AU$9.79' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005008966312861.html' ),
+    order_id        ( '8205027597843938' ),
+    order_date      ( 'Sep 5, 2025' ),
+    order_item_name ( '10 Pcs Handheld Vacuum Cleaner Filter Hepa LY002X LY002DBL LY003H Non woven vacuum cleaner filter element' ),
+    order_price     ( 'AU$9.09' ),
+    order_tax       ( 'AU$2.92' ),
+    order_quantity  ( 3 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-08-27' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sd32e6d4c9c454dcf8364b37acf996bd1G.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "FNIRSI" ),
+    model_name        ( 'FNB58' ),
+    EquipmentFeature::USB_CABLE_TESTER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005008060911517.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_okQtRxR' ),
+    listing_name  ( "FNB58 USB Tester Voltmeter Ammeter TYPE-C Fast Charge Detection Trigger Capacity Measurement Ripple Measurement" ),
+    item_options  ( 'Color: FNB58 With Bluetooth' ),
+    item_price    ( 'AU$67.39' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005008060911517.html' ),
+    order_id        ( '8204573812223938' ),
+    order_date      ( 'Aug 27, 2025' ),
+    order_item_name ( "FNB58 USB Tester Voltmeter Ammeter TYPE-C Fast Charge Detection Trigger Capacity Measurement Ripple Measurement" ),
+    order_price     ( 'AU$67.69' ),
+    order_tax       ( 'AU$6.76' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-07-24' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sa9e2a731670f4d059dafbe3078de8005d.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Seven Floor" ),
+    model_name        ( 'MT-2019B' ),
+    EquipmentFeature::WIRE_STRIPPER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005254918131.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oo56wlB' ),
+    listing_name  ( "Stripping Pliers Decrustation Wire Cable Tools Stripper Stainless Steel Hexagon Wrench Accessorie Insulated Electrical Straight" ),
+    item_options  ( 'Color: Grey' ),
+    item_price    ( 'AU$2.64' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005254918131.html' ),
+    order_id        ( '8203656792623938' ),
+    order_date      ( 'Jul 24, 2025' ),
+    order_item_name ( "Stripping Pliers Decrustation Wire Cable Tools Stripper Stainless Steel Hexagon Wrench Accessorie Insulated Electrical Straight" ),
+    order_price     ( 'AU$2.45' ),
+    order_tax       ( 'AU$0.31' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-08-04' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S68eee3a363094494a4048e9655a780ddb.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Ninth World" ),
+    model_spec        ( 'Floppy Disk' ),
+    EquipmentFeature::USB_DRIVE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005928972107.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_opqzjdF' ),
+    listing_name  ( 'USB Floppy Disk Reader Drive 3.5" External Portable 1.44 MB FDD Diskette Drive for Mac Windows 10/7/8/XP/Vista PC Laptop Desktop' ),
+    item_price    ( 'AU$21.25' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005928972107.html' ),
+    order_id        ( '8203656792643938' ),
+    order_date      ( 'Jul 24, 2025' ),
+    order_item_name ( 'USB Floppy Disk Reader Drive 3.5" External Portable 1.44 MB FDD Diskette Drive for Mac Windows 10/7/8/XP/Vista PC Laptop Desktop' ),
+    order_price     ( 'AU$18.09' ),
+    order_tax       ( 'AU$2.18' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-07-24' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sd7f1a5cf7f10453ca601c4bffd9fe000w.jpeg_960x960q75.jpeg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "DAZZLEEX" ),
+    model_spec        ( '20pcs Precision' ),
+    EquipmentFeature::DRILL_BITS,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006430998696.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_op8tjFJ' ),
+    listing_name  ( '20Pcs Drill Bits For Precision Crafts Jewellery Watch Repair Model Making Hobby Work Electronics 0.3mm-1.6mm Mini HSS Spiral Dri' ),
+    item_price    ( 'AU$2.91' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006430998696.html' ),
+    order_id        ( '8203656792683938' ),
+    order_date      ( 'Jul 24, 2025' ),
+    order_item_name ( '20Pcs Drill Bits For Precision Crafts Jewellery Watch Repair Model Making Hobby Work Electronics 0.3mm-1.6mm Mini HSS Spiral Dri' ),
+    order_price     ( 'AU$1.49' ),
+    order_tax       ( 'AU$0.28' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-07' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sdc4ad1c3aaaa47f4b26e00d054fd95479.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( 'SUN00460' ),
+    EquipmentFeature::WRENCH_SET,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005300770486.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oD1Eqrx' ),
+    listing_name  ( 'New Upgrade Wrench Socket Set Hardware Car Boat Motorcycle Bicycle Repairing Tool' ),
+    item_price    ( 'AU$12.49' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005300770486.html' ),
+    order_id        ( '8202173999313938' ),
+    order_date      ( 'Jun 7, 2025' ),
+    order_item_name ( 'New Upgrade Wrench Socket Set Hardware Car Boat Motorcycle Bicycle Repairing Tool' ),
+    order_price     ( 'AU$5.09' ),
+    order_tax       ( 'AU$0.95' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-07' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S12d5b58ea60e42d59e8d027996df77215.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_spec        ( '2-in-1 Dual Head' ),
+    EquipmentFeature::WRENCH,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006051178085.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oD7IWbb' ),
+    listing_name  ( 'Mini treble 1/4 Ratchet Wrench Double Ended Quick Socket Ratchet Wrench Screwdriver Hex Torque Wrenches Set Spanner' ),
+    item_price    ( 'AU$8.29' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006051178085.html' ),
+    order_id        ( '8201856771083938' ),
+    order_date      ( 'Jun 3, 2025' ),
+    order_item_name ( 'Mini treble 1/4 Ratchet Wrench Double Ended Quick Socket Ratchet Wrench Screwdriver Hex Torque Wrenches Set Spanner' ),
+    order_price     ( 'AU$3.49' ),
+    order_tax       ( 'AU$0.85' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006051178085.html' ),
+    order_id        ( '8202173999333938' ),
+    order_date      ( 'Jun 7, 2025' ),
+    order_item_name ( 'Mini treble 1/4 Ratchet Wrench Double Ended Quick Socket Ratchet Wrench Screwdriver Hex Torque Wrenches Set Spanner' ),
+    order_price     ( 'AU$4.29' ),
+    order_tax       ( 'AU$0.85' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-07' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sd96ed2b968544516b7890d46a6d73b64u.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "DUTRIEUX" ),
+    model_spec        ( '14pcs Hexagonal' ),
+    EquipmentFeature::SOCKET_SET,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007227299173.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_opn7X7X' ),
+    listing_name  ( '9pcs/14pcs Powerful Socket Inner Hexagonal Wrench Hexagonal Handle Screwdriver Socket Extension Rod Pneumatic Screwdriver Insert' ),
+    item_price    ( 'AU$7.69' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007227299173.html' ),
+    order_id        ( '8202173999193938' ),
+    order_date      ( 'Jun 7, 2025' ),
+    order_item_name ( '9pcs/14pcs Powerful Socket Inner Hexagonal Wrench Hexagonal Handle Screwdriver Socket Extension Rod Pneumatic Screwdriver Insert' ),
+    order_price     ( 'AU$3.99' ),
+    order_tax       ( 'AU$0.74' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-07' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S558f7a6ece9f4e96b83559f0fd24ec56C.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "DELIXI" ),
+    model_spec        ( '14pcs Hexagonal' ),
+    EquipmentFeature::ALLEN_KEY_SET,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006894031402.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_opn7X7X' ),
+    listing_name  ( 'DELIXI ELECTRIC Allen Key Set，Allen Hex Wrench Screwdriver Set With Sleev Universal Torque Long Metric,for Motorcycles, Bicycles' ),
+    item_options  ( 'Color: JP-1086 hei' ),
+    item_price    ( 'AU$11.09' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006894031402.html' ),
+    order_id        ( '8202173999213938' ),
+    order_date      ( 'Jun 7, 2025' ),
+    order_item_name ( 'DELIXI ELECTRIC Allen Key Set，Allen Hex Wrench Screwdriver Set With Sleev Universal Torque Long Metric,for Motorcycles, Bicycles' ),
+    order_price     ( 'AU$4.49' ),
+    order_tax       ( 'AU$0.83' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-07' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sdbcb9ecb91e2454c8d9053df4feda822X.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_spec        ( '32 in 1' ),
+    EquipmentFeature::SCREWDRIVER_SET,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007375724310.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_o2BAO41' ),
+    listing_name  ( '32 in 1 Screwdriver Set, Cool Gadgets, Stocking Stuffers, Christmas Gifts for Dad, Grandpa, Husband, Boyfriend, Camping Gi' ),
+    item_options  ( 'Color: green' ),
+    item_price    ( 'AU$5.02' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007375724310.html' ),
+    order_id        ( '8202173999093938' ),
+    order_date      ( 'Jun 7, 2025' ),
+    order_item_name ( '32 in 1 Screwdriver Set, Cool Gadgets, Stocking Stuffers, Christmas Gifts for Dad, Grandpa, Husband, Boyfriend, Camping Gi' ),
+    order_price     ( 'AU$2.59' ),
+    order_tax       ( 'AU$0.48' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-07' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S349c497cf9354e51981a8ae89b868cefi.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_spec        ( 'Mini' ),
+    EquipmentFeature::HAMMER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005959331674.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oFuQdul' ),
+    listing_name  ( 'Mini Hammer Smashing Walnut Round Head Wooden Handle Hammer Car Escape Tool Hand Hammer Multi Function Mini Hammer' ),
+    item_options  ( 'Color: 1Pc' ),
+    item_price    ( 'AU$6.19' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005959331674.html' ),
+    order_id        ( '8202173999253938' ),
+    order_date      ( 'Jun 7, 2025' ),
+    order_item_name ( 'Mini Hammer Smashing Walnut Round Head Wooden Handle Hammer Car Escape Tool Hand Hammer Multi Function Mini Hammer' ),
+    order_price     ( 'AU$5.33' ),
+    order_tax       ( 'AU$0.59' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-07' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S7d9947e22f3f413cb5f33d8f221d7ca7A.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_spec        ( 'Stainless Steel' ),
+    EquipmentFeature::SPUDGER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007575938200.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oF1uTQp' ),
+    listing_name  ( 'Stainless Steel Scraper Set Ultra Sharp Scrapers Remove Residue from Steel Aluminum and More Ends Offer Extra Leverage' ),
+    item_options  ( 'Color: A' ),
+    item_price    ( 'AU$3.97' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007575938200.html' ),
+    order_id        ( '8202173999273938' ),
+    order_date      ( 'Jun 7, 2025' ),
+    order_item_name ( 'Stainless Steel Scraper Set Ultra Sharp Scrapers Remove Residue from Steel Aluminum and More Ends Offer Extra Leverage' ),
+    order_price     ( 'AU$3.41' ),
+    order_tax       ( 'AU$0.40' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-03' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S4fd465485f62477f988efce7a672deecL.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( 'SK5' ),
+    EquipmentFeature::SCISSORS,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006508639281.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oDr1tQt' ),
+    listing_name  ( 'Professional 8.5-inch Stainless Steel Kitchen Scissors with Aluminum Alloy Handle - Perfect for Cutting Chicken Bones Meat Fish' ),
+    item_options  ( 'Color: Silver scissors' ),
+    item_price    ( 'AU$6.44' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006508639281.html' ),
+    order_id        ( '8201856770903938' ),
+    order_date      ( 'Jun 3, 2025' ),
+    order_item_name ( 'Professional 8.5-inch Stainless Steel Kitchen Scissors with Aluminum Alloy Handle - Perfect for Cutting Chicken Bones Meat Fish' ),
+    order_price     ( 'AU$2.99' ),
+    order_tax       ( 'AU$0.64' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-03' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S283b43b4b98640b08713e5f9ddd0ae6fu.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Mr Drill" ),
+    EquipmentFeature::TAP_WRENCH_SET,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005494019114.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_opsmuRX' ),
+    listing_name  ( 'T-type 3mm to 6mm hand tap wrench thread tapping tool set hand wrench thread tapping M6 to M8 tool set' ),
+    item_options  ( 'Color: Tap wrench set' ),
+    item_price    ( 'AU$6.42' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005494019114.html' ),
+    order_id        ( '8201856770923938' ),
+    order_date      ( 'Jun 3, 2025' ),
+    order_item_name ( 'T-type 3mm to 6mm hand tap wrench thread tapping tool set hand wrench thread tapping M6 to M8 tool set' ),
+    order_price     ( 'AU$2.69' ),
+    order_tax       ( 'AU$0.59' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-03' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sa93ea66f2ca940d1b3d7991774e87867j.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Heinast" ),
+    model_spec        ( 'Dimmable USB Rechargeable' ),
+    EquipmentFeature::LED_LIGHT,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006818265458.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_opDRwjR' ),
+    listing_name  ( 'COB LED Work Light Dimmable USB Rechargeable LED Flashlight Inspection Lamp With Magnetic Hook Power Bank 18650 Battery Torch' ),
+    item_options  ( 'Emitting Color: big 1pc' ),
+    item_price    ( 'AU$10.09' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006818265458.html' ),
+    order_id        ( '8201856771103938' ),
+    order_date      ( 'Jun 3, 2025' ),
+    order_item_name ( 'COB LED Work Light Dimmable USB Rechargeable LED Flashlight Inspection Lamp With Magnetic Hook Power Bank 18650 Battery Torch' ),
+    order_price     ( 'AU$4.49' ),
+    order_tax       ( 'AU$0.99' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-03' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S1c050c3bfdbf41d2aa2e332121f615916.png_960x960.png_.avif' ),
+  equipment_item(
+    manufacturer_name ( "RELIFE" ),
+    model_spec        ( 'Dust' ),
+    EquipmentFeature::BLOWER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006924993061.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oC2NZ3F' ),
+    listing_name  ( 'RELIFE 2in1 Phone Repair Dust Cleaner Air Blower Ball Cleaning Pen for Phone PCB PC Keyboard Dust Removing Camera Lens Cleaning' ),
+    item_options  ( 'Color: Green' ),
+    item_price    ( 'AU$5.19' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006924993061.html' ),
+    order_id        ( '8201856771163938' ),
+    order_date      ( 'Jun 3, 2025' ),
+    order_item_name ( 'RELIFE 2in1 Phone Repair Dust Cleaner Air Blower Ball Cleaning Pen for Phone PCB PC Keyboard Dust Removing Camera Lens Cleaning' ),
+    order_price     ( 'AU$2.19' ),
+    order_tax       ( 'AU$0.50' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-03' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sbf1e87ccf49f4dd59e48a15a2aa8115fN.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    EquipmentFeature::WRITING_TABLET,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005250886003.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oEWFYZF' ),
+    listing_name  ( '8.5 Inch LCD Writing Tablet Digital Drawing Tablet Handwriting Pads Portable Electronic Tablet Board ultra-thin Board' ),
+    item_options  ( 'Color: 8.5inch green' ),
+    item_price    ( 'AU$5.16' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005250886003.html' ),
+    order_id        ( '8201856770943938' ),
+    order_date      ( 'Jun 3, 2025' ),
+    order_item_name ( '8.5 Inch LCD Writing Tablet Digital Drawing Tablet Handwriting Pads Portable Electronic Tablet Board ultra-thin Board' ),
+    order_price     ( 'AU$2.19' ),
+    order_tax       ( 'AU$0.50' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-03' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S21af9671b4794ff2b8f6334ed1020bbbH.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_spec        ( '6pcs' ),
+    EquipmentFeature::SCREWDRIVER_SET,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006707946473.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_okUG521' ),
+    listing_name  ( '6 PCs Non-Slip Magnetic Cross Head Household Electric Driver Screw Set - High Hardness Hand Drill Bits for Electric Screwdrivers' ),
+    item_options  ( 'Color: 6pcs' ),
+    item_price    ( 'AU$5.06' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006707946473.html' ),
+    order_id        ( '8201856771123938' ),
+    order_date      ( 'Jun 3, 2025' ),
+    order_item_name ( '6 PCs Non-Slip Magnetic Cross Head Household Electric Driver Screw Set - High Hardness Hand Drill Bits for Electric Screwdrivers' ),
+    order_price     ( 'AU$1.99' ),
+    order_tax       ( 'AU$0.44' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-03' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S5d0eeeaee4c84ce881f9db96b41d6165O.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( 'THD-01' ),
+    EquipmentFeature::WIRE_FIXTURE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007512770818.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_onQ7F5B' ),
+    listing_name  ( 'ABS Welding Wire Fixture Soldering Wire Holder Cable Clamp Holder for 30AWG-12AWG Wire Welding Bench with 5 Gears' ),
+    //item_options  ( '' ),
+    item_price    ( 'AU$3.81' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007512770818.html' ),
+    order_id        ( '8201856770983938' ),
+    order_date      ( 'Jun 3, 2025' ),
+    order_item_name ( 'ABS Welding Wire Fixture Soldering Wire Holder Cable Clamp Holder for 30AWG-12AWG Wire Welding Bench with 5 Gears' ),
+    order_price     ( 'AU$1.39' ),
+    order_tax       ( 'AU$0.33' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-03' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S94631f5ad5d645f29d4b8cb94f5b976cL.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_spec        ( '10pcs Glue Removal' ),
+    EquipmentFeature::RAZOR_BLADES,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005009435289935.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_olcjQMv' ),
+    listing_name  ( '1 Set Glue removal blade With 10 Blades, Telescopic Adjustment Knife, Cleaning Scraper Tool For Removing Labels,Stickers,Paint' ),
+    item_options  ( 'Color: 1 Set' ),
+    item_price    ( 'AU$5.19' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006628778906.html' ),
+    order_id        ( '8201856770963938' ),
+    order_date      ( 'Jun 3, 2025' ),
+    order_item_name ( '1 Set Glue removal blade With 10 Blades, Telescopic Adjustment Knife, Cleaning Scraper Tool For Removing Labels,Stickers,Paint' ),
+    order_price     ( 'AU$1.69' ),
+    order_tax       ( 'AU$0.36' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-03' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S41436c9253ee43818ace0e42d0c443e7t.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Sy Tools" ),
+    model_spec        ( 'Diamond' ),
+    EquipmentFeature::SHARPENING_STONE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006817997827.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_on0b9zP' ),
+    listing_name  ( '1pc Diamond Sharpening Stone for Home and Outdoor Knives Sharpens Blades Quickly and Easily For Apex Ruixin Pro Knife Sharpener' ),
+    item_options  ( '240Grit, 160x20x9mm' ),
+    item_price    ( 'AU$5.29' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006817997827.html' ),
+    order_id        ( '8201270112103938' ),
+    order_date      ( 'Jun 3, 2025' ),
+    order_item_name ( '1pc Diamond Sharpening Stone for Home and Outdoor Knives Sharpens Blades Quickly and Easily For Apex Ruixin Pro Knife Sharpener' ),
+    order_price     ( 'AU$2.49' ),
+    order_tax       ( 'AU$0.54' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-03' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S17a319c4c05944f9818176480e779e45F.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "WIDEEP" ),
+    model_spec        ( 'Cutting' ),
+    EquipmentFeature::DRILL_BITS,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005354164848.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_olNs9vR' ),
+    listing_name  ( '1/4" 5PCS Drill Bit Set Cutting Tools for Woodworking Knife Wood Carving Tool Carpentry Wood Cutting Tools WorkDrill Bit Set' ),
+    //item_options  ( '' ),
+    item_price    ( 'AU$4.49' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005354164848.html' ),
+    order_id        ( '8201270112123938' ),
+    order_date      ( 'Jun 3, 2025' ),
+    order_item_name ( '1/4" 5PCS Drill Bit Set Cutting Tools for Woodworking Knife Wood Carving Tool Carpentry Wood Cutting Tools WorkDrill Bit Set' ),
+    order_price     ( 'AU$1.39' ),
+    order_tax       ( 'AU$0.32' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-03' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sd474757a8b9946bdbaf3c7e566784276c.png_960x960.png_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Galacok" ),
+    model_spec        ( '12 Pcs Magnetic Phillips' ),
+    EquipmentFeature::SCREWDRIVER_SET,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007552842658.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_opEMXWh' ),
+    listing_name  ( '6/12 Pcs Magnetic Screwdriver Bits Non-slip Shockproof Phillips Impact Bits Hex Shank Alloy Steel Bits Suitable for Power Tools' ),
+    item_options  ( 'Color: 12 Pcs Set' ),
+    item_price    ( 'AU$9.51' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007552842658.html' ),
+    order_id        ( '8201270112143938' ),
+    order_date      ( 'Jun 3, 2025' ),
+    order_item_name ( '6/12 Pcs Magnetic Screwdriver Bits Non-slip Shockproof Phillips Impact Bits Hex Shank Alloy Steel Bits Suitable for Power Tools' ),
+    order_price     ( 'AU$3.99' ),
+    order_tax       ( 'AU$0.92' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-03' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sfc45d434a6ac41778cd093f21335ad81z.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_spec        ( '10pcs Carbon Steel' ),
+    EquipmentFeature::FILE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007512507436.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_onmhDiv' ),
+    listing_name  ( 'Premium Needle File Set - High-Carbon Steel Files with Non-Slip Ergonomic Handles for Precise Filing on Wood, Plastic, Model, Je' ),
+    item_options  ( '10PC, 150mm, Other' ),
+    item_price    ( 'AU$6.05' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007512507436.html' ),
+    order_id        ( '8201270112163938' ),
+    order_date      ( 'Jun 3, 2025' ),
+    order_item_name ( 'Premium Needle File Set - High-Carbon Steel Files with Non-Slip Ergonomic Handles for Precise Filing on Wood, Plastic, Model, Je' ),
+    order_price     ( 'AU$2.69' ),
+    order_tax       ( 'AU$0.58' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-03' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S31f1ad212a754c3188f8ded2d7e2654cb.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_spec        ( 'IC Extractor Claw' ),
+    EquipmentFeature::IC_CHIP_PICKUP_TOOL,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005940615222.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oCeKhXT' ),
+    listing_name  ( '4-Claw IC Chip Extractor Remover Tool Precision Parts Grabber Extractor Pick Up Puller for Electronic Component Nuts Repair Tool' ),
+    item_options  ( 'Color: Silver' ),
+    item_price    ( 'AU$2.91' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005940615222.html' ),
+    order_id        ( '8201270112013938' ),
+    order_date      ( 'Jun 3, 2025' ),
+    order_item_name ( '4-Claw IC Chip Extractor Remover Tool Precision Parts Grabber Extractor Pick Up Puller for Electronic Component Nuts Repair Tool' ),
+    order_price     ( 'AU$1.19' ),
+    order_tax       ( 'AU$0.72' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-03' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S4feca37ad3c24a50a3a1db9315b5f970q.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "iBestMeasure" ),
+    model_spec        ( '10Pcs Diamond Needle' ),
+    EquipmentFeature::FILE,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005256860271.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oBT4ZUN' ),
+    listing_name  ( '10Pcs Diamond Needle File Set 3x140mm Mini Needle File Kit For Stone Glass Metal Carving Craft Hand Tools Needle File Set' ),
+    item_options  ( '10pcs, 140mm' ),
+    item_price    ( 'AU$4.69' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005256860271.html' ),
+    order_id        ( '8201270112013938' ),
+    order_date      ( 'Jun 3, 2025' ),
+    order_item_name ( '10Pcs Diamond Needle File Set 3x140mm Mini Needle File Kit For Stone Glass Metal Carving Craft Hand Tools Needle File Set' ),
+    order_price     ( 'AU$1.99' ),
+    order_tax       ( 'AU$0.72' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-03' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sb770256d4bf3419da2fc66738b1b4164N.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_spec        ( 'Double-Headed Rubber' ),
+    EquipmentFeature::HAMMER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005792857903.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_om8XDbb' ),
+    listing_name  ( '1 double headed installation hammer, 25mm to 45mm rubber hammer with rubber handle, detachable insulated installation hammer' ),
+    item_options  ( 'Color: 25mm' ),
+    item_price    ( 'AU$6.71' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005792857903.html' ),
+    order_id        ( '8201270112183938' ),
+    order_date      ( 'Jun 3, 2025' ),
+    order_item_name ( '1 double headed installation hammer, 25mm to 45mm rubber hammer with rubber handle, detachable insulated installation hammer' ),
+    order_price     ( 'AU$2.69' ),
+    order_tax       ( 'AU$0.63' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-03' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S7c07b6fc96d94c6bb981454dba0ba23b0.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_spec        ( '13mm Center' ),
+    EquipmentFeature::PUNCH,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006945120275.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oDFRO9j' ),
+    listing_name  ( 'Auto Center Puncher Hole Marker Wood Metal Steel Spring Load Kerner Drill Locator Heavy Duty Punch Carpentry Automatic Hand Tool' ),
+    item_options  ( 'Color: Center Punch 2pc' ),
+    item_price    ( 'AU$5.69' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006945120275.html' ),
+    order_id        ( '8201270112043938' ),
+    order_date      ( 'Jun 3, 2025' ),
+    order_item_name ( 'Auto Center Puncher Hole Marker Wood Metal Steel Spring Load Kerner Drill Locator Heavy Duty Punch Carpentry Automatic Hand Tool' ),
+    order_price     ( 'AU$2.49' ),
+    order_tax       ( 'AU$0.55' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-03' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sa2bc4f099d124ce58caab5fcab34e1e6U.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_spec        ( '8pcs Flexible Glue Remover' ),
+    EquipmentFeature::SPUDGERS,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006860075769.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oC0Tl21' ),
+    listing_name  ( '8pcs CPU IC Glue Remover Phone Repair Tool C Chip Repair Thin Blades Piratical Repair Hand Tool For Mobile Phone Computer' ),
+    item_options  ( 'Color: 8pcs' ),
+    item_price    ( 'AU$3.14' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007867218486.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oCPXR1L' ),
+    listing_name  ( '8pcs CPU IC Glue Remover Phone Repair Tool C Chip Repair Thin Blades Piratical Repair Hand Tool For Mobile Phone Computer' ),
+    item_options  ( 'Color: 8pcs' ),
+    item_price    ( 'AU$2.91' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006860075769.html' ),
+    order_id        ( '8201270112063938' ),
+    order_date      ( 'Jun 3, 2025' ),
+    order_item_name ( '8pcs CPU IC Glue Remover Phone Repair Tool C Chip Repair Thin Blades Piratical Repair Hand Tool For Mobile Phone Computer' ),
+    order_price     ( 'AU$1.79' ),
+    order_tax       ( 'AU$0.23' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006860075769.html' ),
+    order_id        ( '8196814786353938' ),
+    order_date      ( 'Dec 21, 2024' ),
+    order_item_name ( '8pcs CPU IC Glue Remover Phone Repair Tool C Chip Repair Thin Blades Piratical Repair Hand Tool For Mobile Phone Computer' ),
+    order_price     ( 'AU$2.92' ),
+    order_tax       ( 'AU$0.28' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007867218486.html' ),
+    order_id        ( '8196073958723938' ),
+    order_date      ( 'Dec 9, 2024' ),
+    order_item_name ( '8pcs CPU IC Glue Remover Phone Repair Tool C Chip Repair Thin Blades Piratical Repair Hand Tool For Mobile Phone Computer' ),
+    order_price     ( 'AU$2.36' ),
+    order_tax       ( 'AU$0.24' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-03' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S981d1dd4a9684fb180da8bd7d5352600q.jpeg_960x960q75.jpeg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_spec        ( '20pcs Neodymium' ),
+    EquipmentFeature::MAGNET,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006366707117.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_okIKLZr' ),
+    listing_name  ( '10/20x Magnetic Pins Neodymium Magnets Pin Board Magnet For Board Cone Magnets Super Strong Fridge Magnets For Home Storage Tool' ),
+    item_options  ( 'Color: 20pcs' ),
+    item_price    ( 'AU$10.09' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006366707117.html' ),
+    order_id        ( '8201714946663938' ),
+    order_date      ( 'Jun 3, 2025' ),
+    order_item_name ( '10/20x Magnetic Pins Neodymium Magnets Pin Board Magnet For Board Cone Magnets Super Strong Fridge Magnets For Home Storage Tool' ),
+    order_price     ( 'AU$4.79' ),
+    order_tax       ( 'AU$1.06' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-03' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S280c610872aa473980c5a32fc9e79d84h.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_spec        ( 'Heat Shrink' ),
+    EquipmentFeature::BLOWER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007103309007.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oFiZr33' ),
+    listing_name  ( '1060/530/127PCS Heat Shrink Tubing kit 2:1 Shrinkable Wire Shrinking Wrap Wire Connect Cover Cable Repair Protection' ),
+    item_options  ( 'Color: 1060PC(220V AU Plug)' ),
+    item_price    ( 'AU$16.88' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007103309007.html' ),
+    order_id        ( '8201714946683938' ),
+    order_date      ( 'Jun 3, 2025' ),
+    order_item_name ( '1060/530/127PCS Heat Shrink Tubing kit 2:1 Shrinkable Wire Shrinking Wrap Wire Connect Cover Cable Repair Protection' ),
+    order_price     ( 'AU$7.59' ),
+    order_tax       ( 'AU$1.70' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-03' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S0622b1353760406a9c8f5b4e1c1926929.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "NICEYARD" ),
+    model_name        ( '19311' ),
+    model_spec        ( 'Stainless Steel Deburring' ),
+    EquipmentFeature::SCRAPER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005581302482.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_omlaI81' ),
+    listing_name  ( 'NICEYARD DIY Edge Cutter NB1100 Deburring Handle for Copper Tube Reamer Tool Parts Trimming Knife BS1010 Burr Scraper Accessory' ),
+    item_options  ( 'Color: 1 Set' ),
+    item_price    ( 'AU$4.97' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005581302482.html' ),
+    order_id        ( '8201714946543938' ),
+    order_date      ( 'Jun 3, 2025' ),
+    order_item_name ( 'NICEYARD DIY Edge Cutter NB1100 Deburring Handle for Copper Tube Reamer Tool Parts Trimming Knife BS1010 Burr Scraper Accessory' ),
+    order_price     ( 'AU$2.19' ),
+    order_tax       ( 'AU$0.51' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-01' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S415e3469ab514cc4a8266f47dcf8582aW.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( 'CKD-325' ),
+    model_spec        ( 'Half Moon' ),
+    EquipmentFeature::LED_LIGHT,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005009042187037.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oFtHkPr' ),
+    listing_name  ( '2025 20W LED Half Moon Lash Light Temperature 3000K-6000K Floor LED Ring Lamp For Beauty Facials Skincare Tattoo Eyebrows Filmin' ),
+    item_options  ( 'black, AU' ),
+    item_price    ( 'AU$151.19' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005009042187037.html' ),
+    order_id        ( '8201055224593938' ),
+    order_date      ( 'Jun 1, 2025' ),
+    order_item_name ( '2025 20W LED Half Moon Lash Light Temperature 3000K-6000K Floor LED Ring Lamp For Beauty Facials Skincare Tattoo Eyebrows Filmin' ),
+    order_price     ( 'AU$143.69' ),
+    order_tax       ( 'AU$14.37' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-06-01' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S45e0b01273144c51a13a75fae3e78701V.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( 'SA-C50180C' ),
+    EquipmentFeature::LED_LIGHT,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005008751407383.html' ),
+    //affiliate_url ( '' ),
+    listing_name  ( 'LED Floor Lamp For Living Room Adjustable Gooseneck Stand Light Remote Dimmable Indoor Bedroom Standing Reading Work Light' ),
+    item_options  ( 'Lighting Floor Lamp, AU Plug' ),
+    item_price    ( 'AU$63.27' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005008751407383.html' ),
+    order_id        ( '8201055224613938' ),
+    order_date      ( 'Jun 1, 2025' ),
+    order_item_name ( 'LED Floor Lamp For Living Room Adjustable Gooseneck Stand Light Remote Dimmable Indoor Bedroom Standing Reading Work Light' ),
+    order_price     ( 'AU$67.99' ),
+    order_tax       ( 'AU$6.80' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-02-17' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S2d51c0ff8a0c4d1e960f2de1b6e7fd85C.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "MECHANIC" ),
+    model_name        ( 'AAX-17' ),
+    EquipmentFeature::TWEEZERS,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006008634653.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oBQjSPB' ),
+    listing_name  ( 'MECHANIC Aax-17 tin positioning tweezers for precise clamping of tin wire, non-slip and wear-resistant, made of stainless steel' ),
+    //item_options  ( '' ),
+    item_price    ( 'AU$6.89' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006008634653.html' ),
+    order_id        ( '8198858074623938' ),
+    order_date      ( 'Feb 17, 2025' ),
+    order_item_name ( 'MECHANIC Aax-17 tin positioning tweezers for precise clamping of tin wire, non-slip and wear-resistant, made of stainless steel' ),
+    order_price     ( 'AU$7.19' ),
+    order_tax       ( 'AU$0.72' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-01-09' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S0ed54d8962be41799cace26f7d92c143o.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_spec        ( '67 Holes' ),
+    EquipmentFeature::BRUSH_HOLDER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006589947104.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_opHgnKZ' ),
+    listing_name  ( '67 Holes Paintbrush Holder Stand Wooden Paint Brush Stand Desk Organizer Wall Mounted Makeup Brush Shelf For Painting Supplies' ),
+    item_options  ( 'Color: wood' ),
+    item_price    ( 'AU$7.79' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006589947104.html' ),
+    order_id        ( '8197722151193938' ),
+    order_date      ( 'Jan 9, 2025' ),
+    order_item_name ( '67 Holes Paintbrush Holder Stand Wooden Paint Brush Stand Desk Organizer Wall Mounted Makeup Brush Shelf For Painting Supplies' ),
+    order_price     ( 'AU$7.80' ),
+    order_tax       ( 'AU$2.34' ),
+    order_quantity  ( 1 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006589947104.html' ),
+    order_id        ( '8197415112063938' ),
+    order_date      ( 'Jan 1, 2025' ),
+    order_item_name ( '67 Holes Paintbrush Holder Stand Wooden Paint Brush Stand Desk Organizer Wall Mounted Makeup Brush Shelf For Painting Supplies' ),
+    order_price     ( 'AU$7.70' ),
+    order_tax       ( 'AU$0.77' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-01-09' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S961103843bab4247a8cf26d4483f656eF.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_spec        ( '96 Hole' ),
+    EquipmentFeature::TOOL_HOLDER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007425664832.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_opv4Dvr' ),
+    listing_name  ( '1PC Makeup Brushes Paint Brushes Holder Make Up Organizer Detachable 96 Hole Pencil Holder For Desk PensArt Painting Supplies' ),
+    item_options  ( 'Color: onesize' ),
+    item_price    ( 'AU$6.09' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007067109314.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_onmGlmN' ),
+    listing_name  ( 'Detachable Plastic Pen Holder 96 Holes Paint Brush Holder Portable Pencil Stand Painting Brush Storage Storage Box Stationery' ),
+    item_options  ( 'Color: Black' ),
+    item_price    ( 'AU$6.20' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007425664832.html' ),
+    order_id        ( '8197722151213938' ),
+    order_date      ( 'Jan 9, 2025' ),
+    order_item_name ( '1PC Makeup Brushes Paint Brushes Holder Make Up Organizer Detachable 96 Hole Pencil Holder For Desk PensArt Painting Supplies' ),
+    order_price     ( 'AU$6.09' ),
+    order_tax       ( 'AU$1.83' ),
+    order_quantity  ( 3 ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007067109314.html' ),
+    order_id        ( '8197415112143938' ),
+    order_date      ( 'Jan 1, 2025' ),
+    order_item_name ( 'Detachable Plastic Pen Holder 96 Holes Paint Brush Holder Portable Pencil Stand Painting Brush Storage Storage Box Stationery' ),
+    order_price     ( 'AU$6.09' ),
+    order_tax       ( 'AU$0.60' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-01-05' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S3d50c730d29f4e3eb7c0927a81d9cccd2.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_spec        ( 'Mobile Phone Repair' ),
+    EquipmentFeature::TOOLS,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007486136241.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_onNSbhR' ),
+    listing_name  ( 'Mobile phone repair tool,screwdriver, tablet battery disassembly, screen opening, dust cleaning, disassembly set, small pentagon' ),
+    item_options  ( 'Color: 10 in 1 Gold-26 ps' ),
+    item_price    ( 'AU$18.45' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007486136241.html' ),
+    order_id        ( '8197232704303938' ),
+    order_date      ( 'Jan 5, 2025' ),
+    order_item_name ( 'Mobile phone repair tool,screwdriver, tablet battery disassembly, screen opening, dust cleaning, disassembly set, small pentagon' ),
+    order_price     ( 'AU$18.49' ),
+    order_tax       ( 'AU$1.85' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-01-01' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/H681fb5c775034db3ab886a99e9c415dew.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( 'HK321' ),
+    model_spec        ( 'Looping' ),
+    EquipmentFeature::PLIERS,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006285438559.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oFuUzyN' ),
+    listing_name  ( 'Bail Making Plier Wire Looper Multi-step Ring Looping Plier 3mm 4mm 6mm 7mm 9mm 10mm' ),
+    item_options  ( 'Color: 6 in 1 plier' ),
+    item_price    ( 'AU$10.06' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006285438559.html' ),
+    order_id        ( '8197415112103938' ),
+    order_date      ( 'Jan 1, 2025' ),
+    order_item_name ( 'Bail Making Plier Wire Looper Multi-step Ring Looping Plier 3mm 4mm 6mm 7mm 9mm 10mm' ),
+    order_price     ( 'AU$10.58' ),
+    order_tax       ( 'AU$1.10' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-01-01' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S9c0001b2353d4f1390dfe19252db3502s.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Emenne" ),
+    model_name        ( '110111' ),
+    EquipmentFeature::BRUSH_HOLDER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007398919326.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_olQhkaV' ),
+    listing_name  ( '1/2/6/Pc Paint Brush Rest Holder White Plastic 4 Slots Paintings Brushes Rests Drip Tray Pad for Watercolor Oil Acrylic Painting' ),
+    item_options  ( 'Color: Brush Holder' ),
+    item_price    ( 'AU$3.04' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007398919326.html' ),
+    order_id        ( '8197415112123938' ),
+    order_date      ( 'Jan 1, 2025' ),
+    order_item_name ( '1/2/6/Pc Paint Brush Rest Holder White Plastic 4 Slots Paintings Brushes Rests Drip Tray Pad for Watercolor Oil Acrylic Painting' ),
+    order_price     ( 'AU$3.29' ),
+    order_tax       ( 'AU$0.33' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2025-01-01' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S54cb13f323054d3f951094efec5931c76.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_spec        ( 'Half Round Nose and Half Groove' ),
+    EquipmentFeature::PLIERS,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007494746034.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oE27fRR' ),
+    listing_name  ( '5-inch professional round concave pliers, used for jewelry making mini precision wire loop tools, ideal DIY manual tools' ),
+    //item_options  ( '' ),
+    item_price    ( 'AU$2.86' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007494746034.html' ),
+    order_id        ( '8197415112083938' ),
+    order_date      ( 'Jan 1, 2025' ),
+    order_item_name ( '5-inch professional round concave pliers, used for jewelry making mini precision wire loop tools, ideal DIY manual tools' ),
+    order_price     ( 'AU$4.42' ),
+    order_tax       ( 'AU$0.49' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-12-25' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S23af5539609c48b19640b9c1592cca85f.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_spec        ( '13-in-1 Multi-function Digital Display USB Voltage Current Power' ),
+    EquipmentFeature::METER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006848187940.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_opLkmiZ' ),
+    listing_name  ( '13 in 1 DC 4.5-50V 0-12A Multi-function Digital Display DC Voltage Ammeter Power Meter Type-c Cell Phone Charging PD3.1 Tester' ),
+    item_options  ( 'Color: DC50V12A600W' ),
+    item_price    ( 'AU$10.49' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006848187940.html' ),
+    order_id        ( '8196404902503938' ),
+    order_date      ( 'Dec 25, 2024' ),
+    order_item_name ( '13 in 1 DC 4.5-50V 0-12A Multi-function Digital Display DC Voltage Ammeter Power Meter Type-c Cell Phone Charging PD3.1 Tester' ),
+    order_price     ( 'AU$9.10' ),
+    order_tax       ( 'AU$1.83' ),
+    order_quantity  ( 2 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-12-25' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Se9980288a38f477dbf4235d7a99e20c7I.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_spec        ( '13pcs' ),
+    EquipmentFeature::BLADES,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006704683765.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oC1kiTx' ),
+    listing_name  ( '13pcs Aluminum Alloy Carving Knife Tool Set - Perfect For Paper-cut, Handcraft & Model Making!' ),
+    item_options  ( 'Color: Blue' ),
+    item_price    ( 'AU$6.66' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006704683765.html' ),
+    order_id        ( '8196404902393938' ),
+    order_date      ( 'Dec 25, 2024' ),
+    order_item_name ( '13pcs Aluminum Alloy Carving Knife Tool Set - Perfect For Paper-cut, Handcraft & Model Making!' ),
+    order_price     ( 'AU$3.24' ),
+    order_tax       ( 'AU$0.74' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-12-25' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S49febbeddaf24338a5322c60249ea584F.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    EquipmentFeature::WHITEBOARD_NOTEBOOK,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006402041885.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oBHOdqH' ),
+    listing_name  ( '1 Pcs Reusable Whiteboard Notebook Set With Whiteboard Pen Erasing Cloth Leather Memo Pad Weekly Planner Portable Stylish Office' ),
+    item_options  ( 'Color: green' ),
+    item_price    ( 'AU$7.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006402041885.html' ),
+    order_id        ( '8196404902433938' ),
+    order_date      ( 'Dec 25, 2024' ),
+    order_item_name ( '1 Pcs Reusable Whiteboard Notebook Set With Whiteboard Pen Erasing Cloth Leather Memo Pad Weekly Planner Portable Stylish Office' ),
+    order_price     ( 'AU$6.17' ),
+    order_tax       ( 'AU$0.65' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-12-25' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S20edac252fa94fd0876e0ef3a1a3a182r.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( 'Octopus Soldering' ),
+    EquipmentFeature::THIRD_HAND,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005291710351.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oB0wlsh' ),
+    listing_name  ( 'Octopus Soldering Helping Hands Bench Vise Table Clamp with Flexible Arms Solder Iron Holder PCB Repair for TS101 TS100 PINE64' ),
+    item_options  ( 'Color: with 6 arms' ),
+    item_price    ( 'AU$19.41' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005291710351.html' ),
+    order_id        ( '8196286488493938' ),
+    order_date      ( 'Dec 23, 2024' ),
+    order_item_name ( 'Octopus Soldering Helping Hands Bench Vise Table Clamp with Flexible Arms Solder Iron Holder PCB Repair for TS101 TS100 PINE64' ),
+    order_price     ( 'AU$18.79' ),
+    order_tax       ( 'AU$1.88' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-12-21' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S346cb564b1bd4181849825f30054bc98b.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( 'A4' ),
+    EquipmentFeature::CUTTING_MAT,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007251692406.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_onglQRb' ),
+    listing_name  ( 'PP Cutting Mat Workbench Patchwork Cut Pad Sewing Manual DIY Knife Engraving Leather Cutter Board Single Side Underlay' ),
+    item_options  ( 'Color: A4 Green' ),
+    item_price    ( 'AU$2.62' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007251692406.html' ),
+    order_id        ( '8197128237013938' ),
+    order_date      ( 'Dec 21, 2024' ),
+    order_item_name ( 'PP Cutting Mat Workbench Patchwork Cut Pad Sewing Manual DIY Knife Engraving Leather Cutter Board Single Side Underlay' ),
+    order_price     ( 'AU$4.22' ),
+    order_tax       ( 'AU$0.42' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-12-21' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S4e4ec3426ab0491d87859eb74ba1bc86w.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "NEWACALOX" ),
+    model_name        ( 'Magnetic Base' ),
+    EquipmentFeature::THIRD_HAND,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005188811607.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oDEVl2V' ),
+    listing_name  ( 'NEWACALOX Third Hand Tools Magnetic Base PCB Board Fixing Clip Soldering Helping Hand Welding Repair Fixture for Soldering' ),
+    item_options  ( 'Color: SN4AB-B' ),
+    item_price    ( 'AU$50.38' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005188811607.html' ),
+    order_id        ( '8197128237053938' ),
+    order_date      ( 'Dec 21, 2024' ),
+    order_item_name ( 'NEWACALOX Third Hand Tools Magnetic Base PCB Board Fixing Clip Soldering Helping Hand Welding Repair Fixture for Soldering' ),
+    order_price     ( 'AU$49.39' ),
+    order_tax       ( 'AU$4.94' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-12-21' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S67ad8c4a40ae40d390dd4510c3158085o.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Allsome" ),
+    model_name        ( 'QR040' ),
+    EquipmentFeature::CLAMP,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005646376930.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_ooEDbfX' ),
+    listing_name  ( 'Mini Bench Clamp Universal Bench Clamp DIY Sculpture Tool Mini Drill Press Table Vise Fixing Small Parts Jewelry Watch' ),
+    //item_options  ( '' ),
+    item_price    ( 'AU$9.99' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005646376930.html' ),
+    order_id        ( '8196814786193938' ),
+    order_date      ( 'Dec 21, 2024' ),
+    order_item_name ( 'Mini Bench Clamp Universal Bench Clamp DIY Sculpture Tool Mini Drill Press Table Vise Fixing Small Parts Jewelry Watch' ),
+    order_price     ( 'AU$8.46' ),
+    order_tax       ( 'AU$0.88' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-12-21' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S5f9e6f254dae4f10a85f0dc4c8d28b474.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( 'Corner' ),
+    EquipmentFeature::CUTTER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007393709784.html' ),
+    //affiliate_url ( '' ),
+    listing_name  ( 'Three-in-one Corner Rounders Corner Embosser Corner Cutter, DIY Photo Card Business Card Cutter round Cutter Paper Cutter' ),
+    item_options  ( 'Color: Flat Corner' ),
+    item_price    ( 'AU$7.61' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007393709784.html' ),
+    order_id        ( '8196814786213938' ),
+    order_date      ( 'Dec 21, 2024' ),
+    order_item_name ( 'Three-in-one Corner Rounders Corner Embosser Corner Cutter, DIY Photo Card Business Card Cutter round Cutter Paper Cutter' ),
+    order_price     ( 'AU$5.85' ),
+    order_tax       ( 'AU$0.65' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-12-21' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S07a2df1c871b437e99929cd7dec94971T.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( 'Baking' ),
+    EquipmentFeature::DIGITAL_THERMOMETER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005004770328613.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oD50yXF' ),
+    listing_name  ( 'Kitchen Food Baking Digital Thermometer Electronic Probe Type Digital Display Liquid Grill Thermometer' ),
+    item_options  ( 'Color: WHITE' ),
+    item_price    ( 'AU$4.40' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005004770328613.html' ),
+    order_id        ( '8196814786313938' ),
+    order_date      ( 'Dec 21, 2024' ),
+    order_item_name ( 'Kitchen Food Baking Digital Thermometer Electronic Probe Type Digital Display Liquid Grill Thermometer' ),
+    order_price     ( 'AU$3.57' ),
+    order_tax       ( 'AU$0.36' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-12-20' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Seae401b55b414f06a42231dd05f3c50f1.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "NEWACALOX" ),
+    model_name        ( 'Flexible Arms Soldering' ),
+    EquipmentFeature::THIRD_HAND,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006785917695.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_opul0Q1' ),
+    listing_name  ( 'NEWACALOX Flexible Arms Soldering Helping Hands Repair Soldering Automobile Electronics Jewelry Painting Art Craft DIY Fixture' ),
+    item_options  ( 'Color: SS9-5' ),
+    item_price    ( 'AU$18.62' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006785917695.html' ),
+    order_id        ( '8196695080783938' ),
+    order_date      ( 'Dec 20, 2024' ),
+    order_item_name ( 'NEWACALOX Flexible Arms Soldering Helping Hands Repair Soldering Automobile Electronics Jewelry Painting Art Craft DIY Fixture' ),
+    order_price     ( 'AU$19.39' ),
+    order_tax       ( 'AU$1.94' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-12-09' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S346cb564b1bd4181849825f30054bc98b.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    model_name        ( 'A5' ),
+    EquipmentFeature::CUTTING_MAT,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007251692406.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_ooETkNP' ),
+    listing_name  ( 'PP Cutting Mat Workbench Patchwork Cut Pad Sewing Manual DIY Knife Engraving Leather Cutter Board Single Side Underlay' ),
+    item_options  ( 'Color: A5 Green' ),
+    item_price    ( 'AU$3.64' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007251692406.html' ),
+    order_id        ( '8196073958683938' ),
+    order_date      ( 'Dec 9, 2024' ),
+    order_item_name ( 'PP Cutting Mat Workbench Patchwork Cut Pad Sewing Manual DIY Knife Engraving Leather Cutter Board Single Side Underlay' ),
+    order_price     ( 'AU$2.84' ),
+    order_tax       ( 'AU$0.32' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2024-11-03' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/H20d08f8a81c44e43bdfcb5deccac9967d.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "JYHealth" ),
+    model_name        ( 'Medical' ),
+    EquipmentFeature::DIGITAL_THERMOMETER,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/4000412373430.html' ),
+    //affiliate_url ( '' ),
+    listing_name  ( 'JYHealth Medical Household Infrared Digital Ear and Forehead Non-contact Laser Body Thermometer LCD Baby Adult Fever Temperature' ),
+    item_options  ( 'Color: green' ),
+    item_price    ( 'AU$14.38' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/4000412373430.html' ),
+    order_id        ( '8194390421253938' ),
+    order_date      ( 'Nov 3, 2024' ),
+    order_item_name ( 'JYHealth Medical Household Infrared Digital Ear and Forehead Non-contact Laser Body Thermometer LCD Baby Adult Fever Temperature' ),
+    order_price     ( 'AU$14.09' ),
+    order_tax       ( 'AU$1.40' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-11-23' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S54c0ff4b1dcd428683a4a7b683cf2dfft.png_960x960.png_.avif' ),
+  equipment_item(
+    manufacturer_name ( "Yum Cha" ),
+    EquipmentFeature::RAZOR_BLADES,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005508997483.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_oo2A1zL' ),
+    listing_name  ( 'Plastic /Metal Razor Blade Scrapers For The Window Of The Car Vinyl Film Cleaning Adhesive Glass Of Ceramic Powder Remover Tool' ),
+    item_options  ( '1knife 20 blade, ORANGE RED' ),
+    item_price    ( 'AU$4.51' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005508997483.html' ),
+    order_id        ( '8180180038153938' ),
+    order_date      ( 'Nov 23, 2023' ),
+    order_item_name ( 'Plastic /Metal Razor Blade Scrapers For The Window Of The Car Vinyl Film Cleaning Adhesive Glass Of Ceramic Powder Remover Tool' ),
+    order_price     ( 'AU$3.08' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
+equipment(
+  equipment_date( '2023-11-23' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S5d1ecfb03de04badb4f9d6d436b0ae54S.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "DTBD" ),
+    EquipmentFeature::WRENCH,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005005614142369.html' ),
+    //affiliate_url ( '' ),
+    listing_name  ( '1/4 3/8 Inch Ratchet Wrench 24 Tooth Drive Ratchet Socket Wrench Tool Multi-funtion DIY Hand Tool Ratchet Handle Wrench' ),
+    item_options  ( 'Color: 1-4' ),
+    item_price    ( 'AU$7.00' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005005614142369.html' ),
+    order_id        ( '8180180038153938' ),
+    order_date      ( 'Nov 23, 2023' ),
+    order_item_name ( '1/4 3/8 Inch Ratchet Wrench 24 Tooth Drive Ratchet Socket Wrench Tool Multi-funtion DIY Hand Tool Ratchet Handle Wrench' ),
+    order_price     ( 'AU$3.08' ),
     order_quantity  ( 1 ),
   ),
 );

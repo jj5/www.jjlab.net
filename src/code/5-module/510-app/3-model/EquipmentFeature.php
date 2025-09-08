@@ -779,6 +779,12 @@ enum EquipmentFeature : string {
   case VACUUM = 'vacuum';
 
   //
+  // 2025-09-07 jj5 - VACUUM_FILTER
+  //
+
+  case VACUUM_FILTER = 'vacuum-filter';
+
+  //
   // 2024-08-04 jj5 - CLAMP
   //
 
@@ -1167,6 +1173,8 @@ enum EquipmentFeature : string {
 
   case CUTTING_IMPLEMENT = 'cutting-implement';
 
+    case CUTTER = 'cutter';
+
     case SCISSORS = 'scissors';
 
       case ELECTRIC_SCISSORS = 'electric-scissors';
@@ -1328,6 +1336,8 @@ enum EquipmentFeature : string {
     case REPAIR_MAT = 'repair-mat';
 
       case MAGNETIC_SCREWPAD = 'magnetic-screwpad';
+
+    case CUTTING_MAT = 'cutting-mat';
 
   //
   // 2024-08-04 jj5 - TEST_CLIP
@@ -1600,6 +1610,8 @@ enum EquipmentFeature : string {
 
     case WRENCH = 'wrench';
 
+      case WRENCH_SET = 'wrench-set';
+
       case ADJUSTABLE_WRENCH = 'adjustable-wrench';
 
         case ADJUSTABLE_WRENCH_SET = 'adjustable-wrench-set';
@@ -1824,5 +1836,93 @@ enum EquipmentFeature : string {
   //
 
   case FUME_EXTRACTOR = 'fume-extractor';
+
+  //
+  // 2025-09-08 jj5 - SOCKET
+  //
+
+  case SOCKET = 'socket';
+
+    case SOCKET_SET = 'socket-set';
+
+  //
+  // 2025-09-08 jj5 - ALLEN_KEY
+  //
+
+  case ALLEN_KEY = 'allen-key';
+
+    case ALLEN_KEY_SET = 'allen-key-set';
+
+  //
+  // 2025-09-08 jj5 - HAMMER
+  //
+
+  case HAMMER = 'hammer';
+
+  //
+  // 2025-09-08 jj5 - TAP_WRENCH
+  //
+
+  case TAP_WRENCH = 'tap-wrench';
+
+    case TAP_WRENCH_SET = 'tap-wrench-set';
+
+  //
+  // 2025-09-08 jj5 - WRITING_TABLET
+  //
+
+  case WRITING_TABLET = 'writing-tablet';
+
+  //
+  // 2025-09-08 jj5 - RAZOR_BLADE
+  //
+
+  case RAZOR_BLADE = 'razor-blade';
+
+    case RAZOR_BLADES = 'razor-blades';
+
+  //
+  // 2025-09-08 jj5 - SHARPENING_STONE
+  //
+
+  case SHARPENING_STONE = 'sharpening-stone';
+
+  //
+  // 2025-09-08 jj5 - MAGNET
+  //
+
+  case MAGNET = 'magnet';
+
+  //
+  // 2025-09-08 jj5 - SCRAPER
+  //
+
+  case SCRAPER = 'scraper';
+
+  //
+  // 2025-09-08 jj5 - HOLDER
+  //
+
+  case HOLDER = 'holder';
+
+    case BRUSH_HOLDER = 'brush-holder';
+
+    case TOOL_HOLDER = 'tool-holder';
+
+  //
+  // 2025-09-08 jj5 - TOOL
+  //
+
+  case TOOL = 'tool';
+
+    case TOOLS = 'tools';
+
+  //
+  // 2025-09-08 jj5 - NOTEBOOK
+  //
+
+  case NOTEBOOK = 'notebook';
+
+    case WHITEBOARD_NOTEBOOK = 'whiteboard-notebook';
 
 }

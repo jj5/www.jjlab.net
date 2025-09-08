@@ -2685,6 +2685,12 @@ equipment_define(
 );
 
   equipment_define(
+    EquipmentFeature::CUTTER,
+    EquipmentFeature::CUTTING_IMPLEMENT,
+    EquipmentAttribute::HAND_TOOL,
+  );
+
+  equipment_define(
     EquipmentFeature::SCISSORS,
     EquipmentClass::SCISSORS,
     EquipmentAttribute::HAND_TOOL,
@@ -3029,6 +3035,11 @@ equipment_define(
       EquipmentFeature::MAGNETIC_SCREWPAD,
       EquipmentFeature::REPAIR_MAT,
     );
+
+  equipment_define(
+    EquipmentFeature::CUTTING_MAT,
+    EquipmentFeature::MAT,
+  );
 
 //
 // 2024-08-04 jj5 - TEST_CLIP
@@ -3550,6 +3561,11 @@ equipment_define(
   );
 
     equipment_define(
+      EquipmentFeature::WRENCH_SET,
+      EquipmentFeature::WRENCH,
+    );
+
+    equipment_define(
       EquipmentFeature::ADJUSTABLE_WRENCH,
       EquipmentFeature::WRENCH,
     );
@@ -4022,3 +4038,162 @@ equipment_define(
   EquipmentClass::FUME_EXTRACTOR,
 );
 
+//
+// 2025-09-07 jj5 - VACUUM_FILTER
+//
+
+equipment_define(
+  EquipmentFeature::VACUUM_FILTER,
+  EquipmentClass::VACUUM_FILTER,
+);
+
+//
+// 2025-09-08 jj5 - SOCKET_SET
+//
+
+equipment_define(
+  EquipmentFeature::SOCKET,
+  EquipmentClass::SOCKET,
+);
+
+  equipment_define(
+    EquipmentFeature::SOCKET_SET,
+    EquipmentFeature::SOCKET,
+  );
+
+//
+// 2025-09-08 jj5 - ALLEN_KEY_SET
+//
+
+equipment_define(
+  EquipmentFeature::ALLEN_KEY,
+  EquipmentClass::ALLEN_KEY,
+);
+
+  equipment_define(
+    EquipmentFeature::ALLEN_KEY_SET,
+    EquipmentFeature::ALLEN_KEY,
+  );
+
+//
+// 2025-09-08 jj5 - HAMMER
+//
+
+equipment_define(
+  EquipmentFeature::HAMMER,
+  EquipmentClass::HAMMER,
+  EquipmentAttribute::HAND_TOOL,
+);
+
+//
+// 2025-09-08 jj5 - TAP_WRENCH
+//
+
+equipment_define(
+  EquipmentFeature::TAP_WRENCH,
+  EquipmentClass::TAP_WRENCH,
+  EquipmentAttribute::HAND_TOOL,
+);
+
+  equipment_define(
+    EquipmentFeature::TAP_WRENCH_SET,
+    EquipmentFeature::TAP_WRENCH,
+  );
+
+//
+// 2025-09-08 jj5 - WRITING_TABLET
+//
+
+equipment_define(
+  EquipmentFeature::WRITING_TABLET,
+  EquipmentClass::WRITING_TABLET,
+);
+
+//
+// 2025-09-08 jj5 - RAZOR_BLADE
+//
+
+equipment_define(
+  EquipmentFeature::RAZOR_BLADE,
+  EquipmentClass::RAZOR_BLADE,
+);
+
+  equipment_define(
+    EquipmentFeature::RAZOR_BLADES,
+    EquipmentFeature::RAZOR_BLADE,
+  );
+
+//
+// 2025-09-08 jj5 - SHARPENING_STONE
+//
+
+equipment_define(
+  EquipmentFeature::SHARPENING_STONE,
+  EquipmentClass::SHARPENING_STONE,
+);
+
+//
+// 2025-09-08 jj5 - MAGNET
+//
+
+equipment_define(
+  EquipmentFeature::MAGNET,
+  EquipmentClass::MAGNET,
+);
+
+//
+// 2025-09-08 jj5 - SCRAPER
+//
+
+equipment_define(
+  EquipmentFeature::SCRAPER,
+  EquipmentClass::SCRAPER,
+  EquipmentAttribute::HAND_TOOL,
+);
+
+//
+// 2025-09-08 jj5 - BRUSH_HOLDER
+//
+
+equipment_define(
+  EquipmentFeature::HOLDER,
+  EquipmentClass::HOLDER,
+);
+
+  equipment_define(
+    EquipmentFeature::BRUSH_HOLDER,
+    EquipmentFeature::HOLDER,
+  );
+
+  equipment_define(
+    EquipmentFeature::TOOL_HOLDER,
+    EquipmentFeature::HOLDER,
+  );
+
+//
+// 2025-09-08 jj5 - TOOLS
+//
+
+equipment_define(
+  EquipmentFeature::TOOL,
+  EquipmentClass::TOOL,
+);
+
+  equipment_define(
+    EquipmentFeature::TOOLS,
+    EquipmentFeature::TOOL,
+  );
+
+//
+// 2025-09-08 jj5 - NOTEBOOK
+//
+
+equipment_define(
+  EquipmentFeature::NOTEBOOK,
+  EquipmentClass::NOTEBOOK,
+);
+
+  equipment_define(
+    EquipmentFeature::WHITEBOARD_NOTEBOOK,
+    EquipmentFeature::NOTEBOOK,
+  );

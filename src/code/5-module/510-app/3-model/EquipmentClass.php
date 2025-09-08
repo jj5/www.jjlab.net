@@ -12,6 +12,7 @@ enum EquipmentClass : string {
   case ABRASIVE = 'abrasive';
   case ADAPTER = 'adapter';
   case AIR_PURIFIER = 'air-purifier';
+  case ALLEN_KEY = 'allen-key';
   case BADGE_HOLDER = 'badge-holder';
   case BLOW_TORCH = 'blow-torch';
   case BLOWER = 'blower';
@@ -63,6 +64,7 @@ enum EquipmentClass : string {
   case GAUGE = 'gauge';
   case GLOVES = 'gloves';
   case GOGGLES = 'goggles';
+  case HAMMER = 'hammer';
   case HEADPHONES = 'headphones';
   case HEADSET = 'headset';
   case HEAT_SHRINK = 'heat-shrink';
@@ -79,6 +81,7 @@ enum EquipmentClass : string {
   case LABEL_MAKER = 'label-maker';
   case LIGHT = 'light';
   case LOGIC_ANALYZER = 'logic-analyzer';
+  case MAGNET = 'magnet';
   case MAGNIFIER = 'magnifier';
   case MAT = 'mat';
   case METAL_DETECTOR = 'metal-detector';
@@ -90,6 +93,7 @@ enum EquipmentClass : string {
   case MOUNT = 'mount';
   case MOUSE = 'mouse';
   case MULTIMETER = 'multimeter';
+  case NOTEBOOK = 'notebook';
   case PEN = 'pen';
   case PENCIL = 'pencil';
   case PICKUP_TOOL = 'pickup-tool';
@@ -105,6 +109,8 @@ enum EquipmentClass : string {
   case PROJECT = 'project';
   case PROTOCOL_ANALYZER = 'protocol-analyzer';
   case RADIO = 'radio';
+  case RAZOR = 'razor';
+  case RAZOR_BLADE = 'razor-blade';
   case RESISTOR = 'resistor';
   case ROTARY_TOOL_ATTACHMENT = 'rotary-tool-attachment';
   case ROTARY_TOOL = 'rotary-tool';
@@ -115,10 +121,13 @@ enum EquipmentClass : string {
   case SCANNER = 'scanner';
   case SCISSORS = 'scissors';
   case SCOPE = 'scope';
+  case SCRAPER = 'scraper';
   case SCREWDRIVER = 'screwdriver';
+  case SHARPENING_STONE = 'sharpening-stone';
   case SHIRT = 'shirt';
   case SIGN = 'sign';
   case SIGNAL_GENERATOR = 'signal-generator';
+  case SOCKET = 'socket';
   case SOLDERING_IRON = 'soldering-iron';
   case SOLDERING_IRON_TIP = 'soldering-iron-tip';
   case SOLDERING_STATION = 'soldering-station';
@@ -133,6 +142,7 @@ enum EquipmentClass : string {
   case STUD_FINDER = 'stud-finder';
   case STYLUS = 'stylus';
   case SWITCH = 'switch';
+  case TAP_WRENCH = 'tap-wrench';
   case TAPE = 'tape';
   case TEST_CLIP = 'test-clip';
   case THERMAL_IMAGER = 'thermal-imager';
@@ -147,12 +157,14 @@ enum EquipmentClass : string {
   case UPS = 'ups';
   case UV_LAMP = 'uv-lamp';
   case VACUUM = 'vacuum';
+  case VACUUM_FILTER = 'vacuum-filter';
   case VOLTAGE_DETECTOR = 'voltage-detector';
   case WIRE = 'wire';
   case WIRE_CUTTER = 'wire-cutter';
   case WIRE_FIXTURE = 'wire-fixture';
   case WIRE_STRIPPER = 'wire-stripper';
   case WRENCH = 'wrench';
+  case WRITING_TABLET = 'writing-tablet';
   case WRIST_PAD = 'wrist-pad';
 
 }
