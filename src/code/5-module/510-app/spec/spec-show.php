@@ -3230,6 +3230,24 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Phase Pharaoh' ),
+  maxitronix_segment(
+    publication_date( '2025-09-11' ),
+    title( 'Intro Project Fix from Jason Jacques' ),
+    project( 1, 30 ),
+    maxitronix_kit_name( '30in1' ),
+    youtube_video( 'lw0m5G8RzaM' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/11/intro-project-fix-from-jason-jacques-project-1-30-maxitronix-30in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/138542933' ),
+    tags(
+      'jjlab', 'Maxitronix 30in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'Intro Project', 'Resistor', 'Capacitor', 'Transistor', 'Transformer', 'Earphone',
+      'Jason Jacques', 'Science Fair 30 in One Electronic Projects Lab', 'Electronic Siren'
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(
