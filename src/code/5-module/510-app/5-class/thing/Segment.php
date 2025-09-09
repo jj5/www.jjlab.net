@@ -87,19 +87,23 @@ abstract class Segment extends AppThing {
 
     $name = "$segment_name: $video_name | Learning Electronics In The Lab With Jay Jay";
 
-    if ( strlen( $name ) <= 100 ) { return $name; }
+    // 2025-09-09 jj5 - this seems to work for YouTube, should be good for everything else too
+    //
+    $name_limit = 98;
+
+    if ( strlen( $name ) <= $name_limit ) { return $name; }
 
     $name = "$segment_name: $video_name | In The Lab With Jay Jay";
 
-    if ( strlen( $name ) <= 100 ) { return $name; }
+    if ( strlen( $name ) <= $name_limit ) { return $name; }
 
     $name = "$segment_name: $video_name | In The Lab";
 
-    if ( strlen( $name ) <= 100 ) { return $name; }
+    if ( strlen( $name ) <= $name_limit ) { return $name; }
 
     $name = "$segment_name: $video_name";
 
-    if ( strlen( $name ) <= 100 ) { return $name; }
+    if ( strlen( $name ) <= $name_limit ) { return $name; }
 
     $name = "$video_name";
 

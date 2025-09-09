@@ -3202,8 +3202,8 @@ show(
     publication_date( '2025-09-09' ),
     title( "Learning the Art of Electronics: Fig-1N.26: VOM reading departs from ideal; measuring Rin" ),
     youtube_video( 'rqt8mPUBUXY' ),
-    blog_url( '' ),
-    patreon_url( 'https://www.patreon.com/posts/' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/09/learning-the-art-of-electronics-fig-1n-26-vom-reading-departs-from-ideal-measuring-rin-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/138500945' ),
     tags(
       'jjlab', 'Learning the Art of Electronics', 'VOM reading',
       'Fig-IN.26',
