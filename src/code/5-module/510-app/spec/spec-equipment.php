@@ -14607,7 +14607,7 @@ equipment(
     model_spec        ( 'Analog VOM' ),
     EquipmentFeature::HANDHELD_MULTIMETER,
   ),
-  sixsigma_url  ( '' ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_MF-110A_Analog_VOM_Handheld_Multimeter' ),
   affiliate_link(
     equipment_url ( 'https://www.aliexpress.com/item/1005005956502068.html' ),
     affiliate_url ( 'https://s.click.aliexpress.com/e/_oCUILXN' ),
