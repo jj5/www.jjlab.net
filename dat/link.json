@@ -4,10 +4,14 @@
         "70639": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/Keyboard",
         "14480": "https://www.inthelabwithjayjay.com/in-the-lab/manufacturer.php/Maxitronix",
         "30977": "https://www.inthelabwithjayjay.com/in-the-lab/manufacturer.php/Dremel",
+        "23470": "https://www.inthelabwithjayjay.com/in-the-lab/manufacturer.php/Bosch",
+        "43244" : "https://www.inthelabwithjayjay.com/in-the-lab/manufacturer.php/ElectroCookie",
         "26523": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/Step-Ladder",
         "20665": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/VESA-Wall-Mount",
         "97287": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/Step-Ladder",
         "60370": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/Studio",
+        "71576": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/Crimping-Tool",
+        "97293": "https://www.inthelabwithjayjay.com/in-the-lab/category.php/USB-Cable-Tester",
         "75064": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#Rigol-MSO5074-Mixed-Signal-Oscilloscope",
         "52689": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#Rigol-PLA2216-Logic-Probe",
         "63072": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#Rigol-PLA2216-Compatible-Logic-Probe",
@@ -340,7 +344,7 @@
         "90535": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#PowerShield-Defender-1200-UPS",
         "41442": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#Yum-Cha-AU-240V-Watt-Meter",
         "69698": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#MoFiz-Mens-Camo-Polo-Shirt",
-        "14971": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#Yum-Cha-J15026-2-6-Knob-Resistor-Box",
+        "14971": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#Yum-Cha-J15026-2-6-Knob-Decade-Resistor-Box",
         "23218": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#occkic-MRB063A-USB-Cable-Tester",
         "43601": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#Corsair-HS55-Surround-Gaming-USB-Headset",
         "57146": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#Metcal-PS-900-Soldering-Station",
@@ -432,7 +436,7 @@
         "23644": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#ANENG-BT-171-Battery-Tester",
         "36402": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#Yum-Cha-Wire-Fixture",
         "77786": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#Yum-Cha-LT-116-Vacuum-Filter",
-        "34191": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#FNIRSI-FNB58-USB-Cable-Tester",
+        "34191": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#FNIRSI-FNB58-Type-C-USB-Cable-Tester",
         "45424": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#Seven-Floor-MT-2019B-Wire-Stripper",
         "65331": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#Ninth-World-Floppy-Disk-USB-Drive",
         "96854": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#DAZZLEEX-20pcs-Precision-Drill-Bits",
@@ -485,6 +489,8 @@
         "54837": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#JYHealth-Medical-Digital-Thermometer",
         "90977": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#Yum-Cha-A5-Cutting-Mat",
         "90776": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#Yum-Cha-Razor-Blades",
-        "46288": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#DTBD-Wrench"
+        "46288": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#DTBD-Wrench",
+        "34395": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#Yum-Cha-Decade-Resistor-Box",
+        "93668": "https://www.inthelabwithjayjay.com/in-the-lab/equipment.php#Yum-Cha-J15026-2-6-Knob-Decade-Resistor-Box"
     }
 }

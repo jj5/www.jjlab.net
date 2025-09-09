@@ -13310,7 +13310,7 @@ equipment(
   equipment_item(
     manufacturer_name ( 'Yum Cha' ),
     model_name        ( 'J15026-2' ),
-    model_spec        ( '6-Knob' ),
+    model_spec        ( '6-Knob Decade' ),
     EquipmentFeature::RESISTOR_BOX
   ),
   sixsigma_url  ( '' ),
@@ -14164,6 +14164,13 @@ equipment(
     order_price     ( 'AU$55.82' ),
     order_quantity  ( 1 ),
   ),
+  purchase(
+    equipment_url ( 'https://au.element14.com/multicomp-pro/mp701033/decade-box-resistance-1ohm-to/dp/424590302' ),
+    order_date      ( '31 August 2025' ),
+    order_item_name ( 'MP701033 Decade Box, Resistance, 7, 1ohm to 11.11111Mohm, 1 %, Multicomp Pro Resistance Box' ),
+    order_price     ( 'AU$59.41' ),
+    order_quantity  ( 2 ),
+  ),
 );
 
 equipment(
@@ -14905,6 +14912,7 @@ equipment(
   ),
 );
 
+/* 2025-09-09 jj5 - OLD: duplicate, see above
 equipment(
   equipment_date( '2025-08-27' ),
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Sd32e6d4c9c454dcf8364b37acf996bd1G.jpg_960x960q75.jpg_.avif' ),
@@ -14931,6 +14939,7 @@ equipment(
     order_quantity  ( 1 ),
   ),
 );
+*/
 
 equipment(
   equipment_date( '2025-07-24' ),

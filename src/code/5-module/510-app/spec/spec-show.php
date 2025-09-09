@@ -3196,6 +3196,24 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Volt Vanguard' ),
+  learning_the_art(
+    publication_date( '2025-09-09' ),
+    title( "Learning the Art of Electronics: Fig-1N.26: VOM reading departs from ideal; measuring Rin" ),
+    youtube_video( 'rqt8mPUBUXY' ),
+    blog_url( '' ),
+    patreon_url( 'https://www.patreon.com/posts/' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'VOM reading',
+      'Fig-IN.26',
+      'Volt-Ohm-Milliammeter Meter', 'Analog Multimeter',
+      'Rin', 'Input Resistance', 'Input Impedance',
+      'Rout', 'Output Resistance', 'Output Impedance',
+      'Thevenin Equivalent Circuit', 'Thevenin Model', 'Thevenin Voltage', 'Thevenin Resistance',
+    ),
+  ),
+);
 
 /*
 show(
