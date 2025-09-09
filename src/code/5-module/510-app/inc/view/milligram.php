@@ -1337,10 +1337,10 @@ function render_blog_template( $equipment_list ) {
       mud_html_set_opt( MUD_HTML_OPT_BREAK, false );
 
       out_text( "\n" );
-      out_text( "This post is part of my " );
+      out_text( "This post is part of " );
 
       render_link_external(
-        'video blog',
+        'my video blog',
         'https://www.inthelabwithjayjay.com/',
         TITLE_BLOG_JJLAB,
         [
@@ -1349,10 +1349,10 @@ function render_blog_template( $equipment_list ) {
         ],
       );
 
-      out_text( " and you can find more information about this video " );
+      out_text( " and you can find " );
 
       render_link_external(
-        "over here",
+        "more information about this video",
         '#',
         TITLE_BLOG_VIDEO_LINK,
         [
@@ -1450,6 +1450,7 @@ function render_blog_template( $equipment_list ) {
         'https://jj5.net/80640' => 'Peak Electronic Design Atlas LCR45 LCR Meter',
         'https://jj5.net/23947' => 'Peak Electronic Design Atlas ESR70 Gold ESR Meter',
         'https://jj5.net/58356' => 'Peak Electronic Design Atlas ZEN50 Zener Diode Analyzer',
+        'https://jj5.net/48963' => 'Peak Electronic Design Atlas SCR100 Triac And Thyristor Analyzer',
         'https://jj5.net/30977' => 'Dremel 4300 Rotary Tool and Accessories',
         'https://jj5.net/70530' => 'MECHANIC UV Curing Light',
         'https://jj5.net/23470' => 'Bosch IXO VI Electric Screwdriver and Accessories',

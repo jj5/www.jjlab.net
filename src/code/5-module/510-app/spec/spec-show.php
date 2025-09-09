@@ -3215,6 +3215,21 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Circuit Sorcerer' ),
+  electronics_project(
+    publication_date( '2025-09-10' ),
+    title( 'Making Power Cable for TENMA Bench Power Supply' ),
+    youtube_video( 'cpGLxnm41GY' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/10/electronics-project-17-making-power-cable-for-tenma-bench-power-supply-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/138529787' ),
+    tags(
+      'jjlab', 'Electronics Project', 'TENMA Bench Power Supply',
+      'Power Cable', 'DC Barrel Power Connector',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(
