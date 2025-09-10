@@ -3248,6 +3248,78 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Current Conjurer' ),
+  mail_call(
+    publication_date( '2025-09-12' ),
+    title( 'Loot: Card Organizer, DC Power, JST PH, Heat Shrink, Wire, Wire, Wire' ),
+    youtube_video( '8e97Y-r7mOM' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/12/mail-call-42-loot-card-organizer-dc-power-jst-ph-heat-shrink-wire-wire-wire-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/138544693' ),
+    tags(
+      'jjlab', 'Mail Call', 'AliExpress', 'Amazon',
+      'Business Card Organizer',
+      'DC Power Connector', 'DC Barrel Connector', 'DC Barrel Female', 'DC Barrel Male',
+      'JST PH Connector', 'JST PH Socket',
+      'Heat Shrink Tubing',
+      '18 AWG Wire', '20 AWG Wire', '22 AWG Wire', '24 AWG Wire', '26 AWG Wire', '28 AWG Wire',
+      'Solderless Breadboard Jumper Cable Wire',
+    ),
+  ),
+);
+
+show(
+  silly_job_title( 'Electron Ambassador' ),
+  mail_call(
+    publication_date( '2025-09-12' ),
+    title( 'Loot: 9V Batteries, DIP28 Sockets, LED Project Kit, Jumpers, ZIF Sockets, USB Meter, and More!' ),
+    youtube_video( 'qbjzjgD6gWs' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/13/loot-9v-batteries-dip28-sockets-led-project-kit-jumpers-zif-sockets-usb-meter-and-more/' ),
+    patreon_url( 'https://www.patreon.com/posts/138546876' ),
+    tags(
+      'jjlab', 'Mail Call', 'AliExpress', 'Amazon', 'Farnell',
+      '9V Batteries',
+      'DIP IC Sockets 28 Pin',
+      'Lucky Turntable LED Lights Project Kit',
+      'Jumpers',
+      'ZIF Sockets',
+      'FNIRSI FNB58 USB Tester',
+      'Alligator Clip Test Leads', 'Alligator Clip to DuPont Female', 'Alligator Clip to DuPont Male',
+      'ProsKit MT-2207-C Analog Multimeter',
+      'MULTICOMP PRO MP701033 Decade Resistor Box',
+    ),
+  ),
+);
+
+show(
+  silly_job_title( 'Maker of Videos' ),
+  unboxing(
+    publication_date( '2025-09-14' ),
+    title( 'Unboxing FNIRSI FNB58 USB Tester Voltmeter Ammeter' ),
+    youtube_video( '9wDTHgL4aII' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/14/unboxing-28-unboxing-fnirsi-fnb58-usb-tester-voltmeter-ammeter-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/138547931' ),
+    tags(
+      'jjlab', 'Unboxing', 'FNIRSI FNB58 USB Tester',
+    ),
+  ),
+);
+
+show(
+  silly_job_title( 'Earth Grounder' ),
+  unboxing(
+    publication_date( '2025-09-15' ),
+    title( "Unboxing Pro'sKit MT-2207-C Analog VOM Handheld Multimeter" ),
+    youtube_video( 'xonOYCrBS0s' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/15/unboxing-29-unboxing-proskit-mt-2207-c-analog-vom-handheld-multimeter-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/138548417' ),
+    tags(
+      'jjlab', 'Unboxing', 'Pro\'sKit', 'MT-2207-C',  'Analog VOM', 'Handheld Multimeter', 'Analog Multimeter',
+    ),
+  ),
+);
+
+
 /*
 show(
   unboxing(
