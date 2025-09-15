@@ -1,12 +1,12 @@
 <?php
 
-function quick_study() {
+function cheatsheet() {
 
-  return new_thing( QuickStudy::class, func_get_args() );
+  return new_thing( Cheatsheet::class, func_get_args() );
 
 }
 
-class QuickStudy extends Segment {
+class Cheatsheet extends Segment {
 
   public function render_breadcrumbs() {
 
@@ -21,8 +21,8 @@ class QuickStudy extends Segment {
       out_text( ' > ' );
 
       render_link_internal(
-        'Quick Study',
-        url_base() . '/feature.php/quick-study#heading',
+        'Cheatsheet',
+        url_base() . '/feature.php/cheatsheet#heading',
         TITLE_FEATURE_QUICK_STUDY,
       );
 
@@ -34,7 +34,7 @@ class QuickStudy extends Segment {
 
     $id = $this->get_item_id();
 
-    out_text( "Quick Study #$id: " );
+    out_text( "Cheatsheet #$id: " );
 
   }
 
@@ -54,7 +54,7 @@ class QuickStudy extends Segment {
 
   public function get_feature() {
 
-    return get_item_by_slug( Feature::class, 'quick-study' );
+    return get_item_by_slug( Feature::class, 'cheatsheet' );
 
   }
 
@@ -72,7 +72,7 @@ class QuickStudy extends Segment {
 
 }
 
-class NullQuickStudy extends QuickStudy {
+class NullCheatsheet extends Cheatsheet {
 
   use NullThingMixin;
 

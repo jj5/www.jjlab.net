@@ -50,7 +50,8 @@ define( 'TITLE_FEATURE_ELECTRONICS_PROJECT', 'Click here to watch the electronic
 define( 'TITLE_FEATURE_OLD_BOOK_TEARDOWN', 'Click here to watch the videos where I review old technology related books.' );
 
 define( 'TITLE_FEATURE_NEW_BOOK_TEARDOWN', 'Click here to watch the videos where I review new technology related books.' );
-define( 'TITLE_FEATURE_QUICK_STUDY', 'Click here to watch the videos where I review various topics in mathematics, science, engineering, programming, finance, and writing.' );
+define( 'TITLE_FEATURE_CHEATSHEET', 'Click here to watch the videos where I review various topics in mathematics, science, engineering, programming, finance, and writing.' );
+define( 'TITLE_FEATURE_QUICK_STUDY', 'Click here to read about my QuickStudy cheatsheets on the ITL Wiki.' );
 define( 'TITLE_FEATURE_MINI_PROJECT', 'Click here to watch the videos where I work through Mini Projects from Silicon Chip and Jaycar.' );
 define( 'TITLE_FEATURE_LEARNING_THE_ART', 'Click here to watch the videos where I work through Learning the Art of Electronics by Thomas C. Hayes and David Abrams.' );
 define( 'TITLE_FEATURE_CHANNEL_NEWS', 'Click here to see channel news.' );
@@ -1926,9 +1927,9 @@ function render_section_about_features( int $heading_level = 2 ) {
       tag_open( 'li' );
 
         render_link_internal(
-          'QuickStudy',
-          url_base() . '/#quick-study',
-          TITLE_FEATURE_QUICK_STUDY,
+          'Cheatsheets',
+          url_base() . '/#cheatsheets',
+          TITLE_FEATURE_CHEATSHEET,
         );
 
       tag_shut( 'li' );
@@ -2053,7 +2054,7 @@ function render_section_about_features( int $heading_level = 2 ) {
 
   render_section_about_new_book_teardown( $heading_level + 1 );
 
-  render_section_about_quick_study( $heading_level + 1 );
+  render_section_about_cheatsheet( $heading_level + 1 );
 
   render_section_about_mini_project( $heading_level + 1 );
 
@@ -2329,7 +2330,7 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
 
   render_section_about_new_book_teardown( $heading_level + 1 );
 
-  render_section_about_quick_study( $heading_level + 1 );
+  render_section_about_cheatsheet( $heading_level + 1 );
 
   render_section_about_mini_project( $heading_level + 1 );
 
@@ -2430,20 +2431,20 @@ function render_section_about_new_book_teardown( int $heading_level = 2 ) {
 
 }
 
-function render_section_about_quick_study( int $heading_level = 2 ) {
+function render_section_about_cheatsheet( int $heading_level = 2 ) {
 
   tag_open( 'section' );
 
-    tag_text( "h{$heading_level}", 'Quick Study', [ 'id' => 'quick-study' ] );
+    tag_text( "h{$heading_level}", 'Cheatsheets', [ 'id' => 'cheatsheets' ] );
 
     tag_open( 'p' );
 
       out_text( 'In the ' );
 
       render_link_internal(
-        'quick study videos',
-        url_base() . '/feature.php/quick-study#heading',
-        TITLE_FEATURE_QUICK_STUDY,
+        'cheatsheet videos',
+        url_base() . '/feature.php/cheatsheet#heading',
+        TITLE_FEATURE_CHEATSHEET,
       );
 
       out_text( ' on the ' );
@@ -2457,8 +2458,8 @@ function render_section_about_quick_study( int $heading_level = 2 ) {
       out_text( ' I read through my various ' );
 
       render_link_external(
-        'QuickStudy',
-        'https://www.jj5.net/wiki/QuickStudy',
+        'cheatsheet',
+        'https://www.inthelabwithjayjay.com/wiki/QuickStudy',
         TITLE_FEATURE_QUICK_STUDY,
       );
 

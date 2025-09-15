@@ -3319,6 +3319,25 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Systems Architect' ),
+  learning_the_art(
+    publication_date( '2025-09-16' ),
+    title( "Learning the Art of Electronics: Fig-1N.29: DVM reading departs from ideal; we can infer Rin-DVM" ),
+    youtube_video( 'h8ZiExLl390' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/16/learning-the-art-of-electronics-fig-1n-29-dvm-reading-departs-from-ideal-we-can-infer-rin-dvm-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/138976494' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'DVM reading',
+      'Fig-IN.29',
+      'DVM', 'Digital Multimeter',
+      'Rin', 'Input Resistance', 'Input Impedance',
+      'Rout', 'Output Resistance', 'Output Impedance',
+      'Thevenin Equivalent Circuit', 'Thevenin Model', 'Thevenin Voltage', 'Thevenin Resistance',
+    ),
+  ),
+);
+
 
 /*
 show(

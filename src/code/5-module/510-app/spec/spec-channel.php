@@ -31,9 +31,9 @@ channel(
         'To count as new the book needs to have been published in the year 2000 or later.' ),
     ),
     feature(
-      feature_slug( 'quick-study' ),
-      feature_name( 'QuickStudy' ),
-      feature_text( 'In the QuickStudy videos we take a close look at a laminated summary of various topics in ' .
+      feature_slug( 'cheatsheet' ),
+      feature_name( 'Cheatsheet' ),
+      feature_text( 'In the cheatsheet videos we take a close look at a laminated summary of various topics in ' .
         'mathematics, science, engineering, programming, finance, and writing.' ),
     ),
     feature(
