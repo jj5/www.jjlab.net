@@ -3338,6 +3338,36 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Bolt Boy' ),
+  mail_call(
+    publication_date( '2025-09-17' ),
+    title( 'Components, Tacks, Vacuum, Filters, Wrenches, Precision Tools, and More!' ),
+    youtube_video( 'SIQP2WTvxAM' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/17/mail-call-44-components-tacks-vacuum-filters-wrenches-precision-tools-and-more/' ),
+    patreon_url( 'https://www.patreon.com/posts/138987486' ),
+    tags(
+      'jjlab', 'Mail Call', 'AliExpress', 'Amazon', 'Farnell', 'element14',
+      'ATmega328P-PU Microcontroller',
+      'Resistors',
+      'Capacitors',
+      'Tacks',
+      'Handheld Vacuum', 'Vacuum Filters',
+      'Ratcheting Wrench Set',
+      'Wire Fixture',
+      'Precision Tools',
+      '12V Battery Tester',
+      'Breadboard Wire',
+      'SMD Soldering Practice Kit',
+      'SOP Breakout Board',
+      'Sandpaper',
+      'Ratcheting Crimping Tool',
+      'DC7-40V Battery Level Indicator',
+      'Two Axis Swivel Mount with Servos',
+      'Tool Storage Rack',
+    ),
+  ),
+);
 
 /*
 show(
