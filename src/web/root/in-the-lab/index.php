@@ -77,6 +77,22 @@ function render_index_main() {
 
         tag_shut( 'p' );
 
+        tag_open( 'p' );
+
+          out_text( "The show's wiki, known as the ITL Wiki, is here:" );
+
+        tag_shut( 'p' );
+
+        tag_open( 'p' );
+
+          render_link_external(
+            'InTheLabWithJayJay.com/wiki',
+            'https://www.inthelabwithjayjay.com/wiki/',
+            "Notes and resources for the show are available on the show's wiki.",
+          );
+
+        tag_shut( 'p' );
+
       tag_shut( 'section' );
 
     tag_shut( 'header' );
