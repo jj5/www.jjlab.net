@@ -3369,6 +3369,28 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Tech Lead' ),
+  maxitronix_segment(
+    publication_date( '2025-09-18' ),
+    title( 'The Electronic Storage Tank' ),
+    project( 2, 30 ),
+    maxitronix_kit_name( '30in1' ),
+    youtube_video( 'jFto2L2D-uQ' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/18/the-electronic-storage-tank-project-2-30-maxitronix-30in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/139167700' ),
+    tags(
+      'jjlab', 'Maxitronix 30in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'The Electronic Storage Tank', 'Resistor', 'Capacitor', 'LED',
+      'Riden', 'RD6006', 'Bench Power Supply',
+      'Rigol', 'MSO5074', 'Mixed Signal Oscilloscope',
+      'EEVblog', 'BM2257', 'Digital Multimeter',
+      'UNI-T', 'UTi260B', 'Thermal Imager',
+
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(
