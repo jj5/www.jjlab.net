@@ -3391,6 +3391,31 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Tome Pumper' ),
+  old_book_teardown(
+    publication_date( '2025-09-19' ),
+    youtube_video( 'kibN81HcjzM' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/19/old-book-teardown-14-encyclopedia-of-electronic-circuits-1985-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/139242252' ),
+    old_book(
+      title( 'Encyclopedia of Electronic Circuits' ),
+      author( 'Rudolf F. Graf' ),
+      copyright_year( '1985' ),
+      page_count( 760 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/dp/0830609385' ),
+        item_price    ( 'AU$96.26' ),
+      ),
+    ),
+    tags(
+      'jjlab', 'Old Book Teardown', 'Book Review',
+      "Encyclopedia of Electronic Circuits",
+      'Rudolf Graf',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(
