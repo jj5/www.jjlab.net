@@ -3416,6 +3416,25 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Circuit Breaker' ),
+  electronics_project(
+    publication_date( '2025-09-20' ),
+    title( 'Making DC Power Cables for Bench Power Supplies' ),
+    youtube_video( 'rEEbw5vg-8g' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/20/electronics-project-18-making-dc-power-cables-for-bench-power-supplies-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/139326600' ),
+    tags(
+      'jjlab', 'Electronics Project', 'Bench Power Supply',
+      'Power Cable', 'DC Barrel Power Connector',
+      'DC Barrel Female', 'DC Barrel Male',
+      'JST PH Connector', 'JST PH Male', 'JST PH Female',
+      '9V Clip',
+      '4mm Banana Plug',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(
