@@ -3435,6 +3435,20 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Cable Connector' ),
+  unboxing(
+    publication_date( '2025-09-21' ),
+    title( "Unboxing TEKERA 10-Port Powered USB Hub" ),
+    youtube_video( 'KDR-ghsAq0o' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/21/unboxing-30-unboxing-tekera-10-port-powered-usb-hub-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/139377712' ),
+    tags(
+      'jjlab', 'Unboxing', 'TEKERA 10-Port Powered USB Hub',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(
