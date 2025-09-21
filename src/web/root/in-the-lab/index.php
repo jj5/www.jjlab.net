@@ -54,7 +54,7 @@ function render_index_main() {
         tag_open( 'p' );
 
           render_link_external(
-            'youtube.com/@InTheLabWithJayJay',
+            'YouTube.com/@InTheLabWithJayJay',
             'https://www.youtube.com/@InTheLabWithJayJay',
             "Subscribe to my YouTube channel!",
           );
@@ -70,7 +70,7 @@ function render_index_main() {
         tag_open( 'p' );
 
           render_link_external(
-            'patreon.com/JohnElliotV',
+            'Patreon.com/JohnElliotV',
             'https://www.patreon.com/JohnElliotV',
             "Super big shout out to my Patreon supporters for supporting the channel!",
           );
