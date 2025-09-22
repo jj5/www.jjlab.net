@@ -3449,6 +3449,22 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Relay Releaser' ),
+  mail_call(
+    publication_date( '2025-09-22' ),
+    title( 'Battery Holders, Zener and TVS Diodes, Transistors, Pin Header, Fans and Cables' ),
+    youtube_video( 'ZwkhLdGaAe8' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/22/mail-call-45-battery-holders-zener-and-tvs-diodes-transistors-pin-header-fans-and-cables/' ),
+    patreon_url( 'https://www.patreon.com/posts/139450364' ),
+    tags(
+      'jjlab', 'Mail Call', 'AliExpress', 'Amazon',
+      'Battery Holders', 'AAA Battery Holder', 'AA Battery Holder', '18650 Battery Holder',
+      'Zener Diodes', 'One Way TVS Diodes', 'Transistors', 'Female Pin Header', '12V Fans', '5V Fans',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(
