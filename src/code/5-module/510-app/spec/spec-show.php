@@ -3465,6 +3465,20 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Energy Elicitor' ),
+  learning_the_art(
+    publication_date( '2025-09-23' ),
+    title( "Learning the Art of Electronics: Fig-1N.32: various senses of \"ground\"" ),
+    youtube_video( 'ZjfGV8JO3Us' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/23/learning-the-art-of-electronics-fig-1n-32-various-senses-of-ground-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/139540719' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Ground',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(
