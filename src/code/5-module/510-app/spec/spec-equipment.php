@@ -13770,6 +13770,10 @@ equipment(
     order_quantity  ( 1 ),
     order_tax       ( 'AU$9.89' ),
   ),
+  video_link(
+    link_href   ( 'https://youtu.be/g71p54UNZ9k' ),
+    link_text   ( 'Mail Call #46: Silicon Chip Mag, Hackaday Stickers, Diodes, Cloth, Battery Holders and More!' ),
+  ),
 );
 
 equipment(

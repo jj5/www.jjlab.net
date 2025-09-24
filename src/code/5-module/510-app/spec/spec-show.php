@@ -3479,6 +3479,27 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Phase Phaser' ),
+  mail_call(
+    publication_date( '2025-09-24' ),
+    title( 'Silicon Chip Mag, Hackaday Stickers, Diodes, Cloth, Battery Holders and More!' ),
+    youtube_video( 'g71p54UNZ9k' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/24/mail-call-46-silicon-chip-mag-hackaday-stickers-diodes-cloth-battery-holders-and-more/' ),
+    patreon_url( 'https://www.patreon.com/posts/139623419' ),
+    tags(
+      'jjlab', 'Mail Call', 'AliExpress',
+      'Silicon Chip Magazine',
+      'Hackaday Stickers', 'Jolly Wrenches',
+      'One Way TVS Diodes', 'Zener Diodes',
+      'Microfiber Cloth',
+      'AAA Battery Holder', 'AA Battery Holder',
+      'Solar Panels',
+      'Auto-alarm Anti Static ESD Wrist Strap Monitor',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(
