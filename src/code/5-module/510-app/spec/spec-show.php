@@ -3500,6 +3500,28 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Voltage Virtuoso' ),
+  mail_call(
+    publication_date( '2025-09-25' ),
+    title( 'USB Accessories, Diodes, Wire, Perspex, Molex Cables and More!' ),
+    youtube_video( 'K5fliwlQBAg' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/25/mail-call-47-usb-accessories-diodes-wire-perspex-molex-cables-and-more-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/139703185' ),
+    tags(
+      'jjlab', 'Mail Call', 'AliExpress', 'Amazon',
+      'USB-C 90 Degree Adapter',
+      'TVS Diode',
+      'RIDEN AT35 USB Meter',
+      '18 AWG Wire',
+      'Acrylic Perspex Sheet',
+      'DC Barrel Connectors', 'USB Power Connectors',
+      '4-Pin Molex Cables',
+      '20-Pin Molex Cables',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(
