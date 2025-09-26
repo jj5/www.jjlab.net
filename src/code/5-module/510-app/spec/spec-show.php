@@ -3522,6 +3522,24 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Bit Distinguisher' ),
+  mail_call(
+    publication_date( '2025-09-26' ),
+    title( 'Thermistors, MOSFETs, DC Power Cables, Mains Power Adapters and More!' ),
+    youtube_video( 'GR-1JQNNqPw' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/26/mail-call-48-thermistors-mosfets-dc-power-cables-mains-power-adapters-and-more-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/139789610' ),
+    tags(
+      'jjlab', 'Mail Call', 'AliExpress',
+      'Thermistors',
+      'N-Channel MOSFETs',
+      'DC Power Cables', 'Case Fan Power Cables',
+      '240V AU Mains Power Adapters',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(
