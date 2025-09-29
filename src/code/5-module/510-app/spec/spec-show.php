@@ -3540,6 +3540,31 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Digital Dancer' ),
+  old_book_teardown(
+    publication_date( '2025-09-29' ),
+    youtube_video( 'bfocYNaE9uo' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/09/29/old-book-teardown-15-encyclopedia-of-electronic-circuits-volume-2-1988-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/139992541' ),
+    old_book(
+      title( 'Encyclopedia of Electronic Circuits Volume 2' ),
+      author( 'Rudolf F. Graf' ),
+      copyright_year( '1988' ),
+      page_count( 755 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/dp/0830691383' ),
+        item_price    ( 'AU$142.97' ),
+      ),
+    ),
+    tags(
+      'jjlab', 'Old Book Teardown', 'Book Review',
+      "Encyclopedia of Electronic Circuits Volume 2",
+      'Rudolf Graf',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(
