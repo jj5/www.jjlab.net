@@ -3565,6 +3565,20 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Chief Engineer' ),
+  electronics_project(
+    publication_date( '2025-10-02' ),
+    title( 'Attaching Alligator Clips to AA Battery Holders' ),
+    youtube_video( 'W4pxR9mdydk' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/10/02/electronics-project-19-attaching-alligator-clips-to-aa-battery-holders-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/140266517' ),
+    tags(
+      'jjlab', 'Electronics Project', 'AA Battery Holder', 'Alligator Clips',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(
