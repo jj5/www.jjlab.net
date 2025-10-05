@@ -38,6 +38,7 @@ define( 'TITLE_SHOW_SPECIAL', 'Click here to watch special shows which air on th
 define( 'TITLE_SHOW_MAXITRONIX', 'Click here to watch the videos where I work through old Maxitronix electronic project labs. [Hotkey: K]' );
 define( 'TITLE_SHOW_MINI_PROJECT', 'Click here to watch the videos where I work through Mini Projects from Silicon Chip and Jaycar. [Hotkey: J]' );
 define( 'TITLE_SHOW_EXTRA', "Click here to watch extra content which didn't make it to the main channel." );
+define( 'TITLE_SHOW_MODULE_MONDAY', "Click here to watch Module Monday videos on the main channel." );
 
 define( 'TITLE_ID_BADGE', 'Click here to read about my ID badge and my costume.' );
 
@@ -60,6 +61,7 @@ define( 'TITLE_FEATURE_MAIL_CALL', "Click here to watch videos of recently arriv
 define( 'TITLE_FEATURE_UNBOXING', "Click here to watch the unboxing videos." );
 define( 'TITLE_FEATURE_DEMO', "Click here to watch the demo videos." );
 define( 'TITLE_FEATURE_EXPERIMENT', "Click here to watch the experiment videos." );
+define( 'TITLE_FEATURE_MODULE_MONDAY', "Click here to watch the Module Monday videos." );
 
 define( 'TITLE_FEATURE_MAXITRONIX_KITS', 'Click here to learn about the Maxitronix Xin1 electronic project labs.' );
 define( 'TITLE_FEATURE_MAXITRONIX', 'Click here to watch the videos where I work through a Maxitronix Xin1 electronic project kit.' );
@@ -1967,6 +1969,16 @@ function render_section_about_features( int $heading_level = 2 ) {
       tag_open( 'li' );
 
         render_link_internal(
+          'Module Monday',
+          url_base() . '/#module-monday',
+          TITLE_SHOW_MODULE_MONDAY,
+        );
+
+      tag_shut( 'li' );
+
+      tag_open( 'li' );
+
+        render_link_internal(
           'Interludes',
           url_base() . '/#interludes',
           TITLE_FEATURE_INTERLUDE,
@@ -2061,6 +2073,8 @@ function render_section_about_features( int $heading_level = 2 ) {
   render_section_about_learning_the_art( $heading_level + 1 );
 
   render_section_about_maxitronix_kits( $heading_level + 1 );
+
+  render_section_about_module_monday( $heading_level + 1 );
 
   render_section_about_interlude( $heading_level + 1 );
 
@@ -2337,6 +2351,8 @@ function render_section_about_special_shows( int $heading_level = 2 ) {
   render_section_about_learning_the_art( $heading_level + 1 );
 
   render_section_about_maxitronix_kits( $heading_level + 1 );
+
+  render_section_about_module_monday( $heading_level + 1 );
 
   render_section_about_interlude( $heading_level + 1 );
 
@@ -2714,6 +2730,44 @@ function render_section_about_maxitronix_kits( int $heading_level = 2 ) {
         'https://www.jj5.net/wiki/Maxitronix',
         TITLE_WIKI,
       );
+
+    tag_shut( 'p' );
+
+  tag_shut( 'section' );
+
+}
+
+function render_section_about_module_monday( int $heading_level = 2 ) {
+
+  tag_open( 'section' );
+
+    tag_text( "h{$heading_level}", 'Module Monday', [ 'id' => 'module-monday' ] );
+
+    tag_open( 'p' );
+
+      out_text( 'In the ' );
+
+      render_link_internal(
+        'Module Monday videos',
+        url_base() . '/feature.php/module-monday#heading',
+        TITLE_SHOW_MODULE_MONDAY,
+      );
+
+      out_text( ' on the ' );
+
+      render_link_internal(
+        'main channel',
+        url_base() . '/channel.php/@InTheLabWithJayJay#heading',
+        TITLE_CHANNEL_MAIN,
+      );
+
+      out_text( ' we are taking a look at various electronics modules and components.' );
+
+    tag_shut( 'p' );
+
+    tag_open( 'p' );
+
+      out_text( 'Typically these are sensors or actuators which you can interface with your Arduino or other microcontrollers.' );
 
     tag_shut( 'p' );
 

@@ -3579,6 +3579,20 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Conductor Captain' ),
+  module_monday(
+    publication_date( '2025-10-06' ),
+    title( 'KY-010 Photo Interrupter Module' ),
+    youtube_video( 'nxJXB1Cz7gU' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/10/06/module-monday-1-ky-010-photo-interrupter-module-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/140531789' ),
+    tags(
+      'jjlab', 'Module Monday', 'Photo Interrupter Module', 'KY-010',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(

@@ -92,6 +92,11 @@ channel(
       feature_text( 'In the Maxitronix 500in1 videos we work our way through the Maxitronix 500in1 electronics project lab.' ),
     ),
     feature(
+      feature_slug( 'module-monday' ),
+      feature_name( 'Module Monday' ),
+      feature_text( 'In the Module Monday videos we take a closer look at a specific electronics module or component.' ),
+    ),
+    feature(
       feature_slug( 'interlude' ),
       feature_name( 'Interlude' ),
       feature_text( 'In the interlude videos we take a small digression into something interesting.' ),
