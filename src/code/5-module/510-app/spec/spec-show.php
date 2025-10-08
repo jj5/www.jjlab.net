@@ -3593,6 +3593,22 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Charge Charmer' ),
+  mail_call(
+    publication_date( '2025-10-08' ),
+    title( 'Zener Dioes, TVS Diodes, Cables, and Channel News' ),
+    youtube_video( '5qgOG4-rwK0' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/10/08/mail-call-49-zener-dioes-tvs-diodes-cables-and-channel-news-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/140711437' ),
+    tags(
+      'jjlab', 'Mail Call', 'AliExpress',
+      'Zener Diodes', 'One Way TVS Diodes',
+      'USB Cable', 'HDMI Cable',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(
