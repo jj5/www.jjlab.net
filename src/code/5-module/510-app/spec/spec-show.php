@@ -3609,6 +3609,23 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Chief Fuse Blower' ),
+  maxitronix_segment(
+    publication_date( '2025-10-09' ),
+    title( 'The One-Way Street' ),
+    project( 3, 30 ),
+    maxitronix_kit_name( '30in1' ),
+    youtube_video( 'W12z2zveA5M' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/10/09/the-one-way-street-project-3-30-maxitronix-30in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/140796491' ),
+    tags(
+      'jjlab', 'Maxitronix 30in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'The One-Way Street', 'Resistor', 'LED', 'Polarity',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(
