@@ -3626,6 +3626,32 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Prime Hack' ),
+  old_book_teardown(
+    publication_date( '2025-10-11' ),
+    youtube_video( 'YNP8bK5sb8I' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/10/11/old-book-teardown-16-encyclopedia-of-electronic-circuits-volume-3-1991-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/140963411' ),
+    old_book(
+      title( 'Encyclopedia of Electronic Circuits Volume 3' ),
+      author( 'Rudolf F. Graf' ),
+      copyright_year( '1991' ),
+      page_count( 832 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com.au/dp/0830633480' ),
+        item_price    ( 'AU$110.43' ),
+      ),
+    ),
+    tags(
+      'jjlab', 'Old Book Teardown', 'Book Review',
+      "Encyclopedia of Electronic Circuits Volume 3",
+      'Rudolf Graf',
+    ),
+  ),
+);
+
+
 /*
 show(
   unboxing(
