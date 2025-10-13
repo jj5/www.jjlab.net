@@ -3651,6 +3651,20 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Amp Alchemist' ),
+  module_monday(
+    publication_date( '2025-10-13' ),
+    title( 'KY-002 Vibration Switch Module' ),
+    youtube_video( 'qzM3uE5dwO8' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/10/13/module-monday-2-ky-002-vibration-switch-module-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/141106666' ),
+    tags(
+      'jjlab', 'Module Monday', 'Vibration Switch Module', 'KY-002',
+    ),
+  ),
+);
+
 
 /*
 show(
