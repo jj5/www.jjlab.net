@@ -3665,6 +3665,19 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Component Wrangler' ),
+  learning_the_art(
+    publication_date( '2025-10-14' ),
+    title( "Learning the Art of Electronics: Fig-1N.33: Circuit A Drives Circuit B" ),
+    youtube_video( 'Zr-4qHtv5HQ' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/10/14/learning-the-art-of-electronics-fig-1n-33-circuit-a-drives-circuit-b-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/141194364' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Driving a Load',
+    ),
+  ),
+);
 
 /*
 show(
