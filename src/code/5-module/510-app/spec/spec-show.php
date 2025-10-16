@@ -3679,6 +3679,20 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Outlet Overlord' ),
+  electronics_project(
+    publication_date( '2025-10-16' ),
+    title( 'Making the Self-Charging LED Flasher' ),
+    youtube_video( 'Ao41e1LHRBs' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/10/16/electronics-project-20-making-the-self-charging-led-flasher-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/141355457' ),
+    tags(
+      'jjlab', 'Electronics Project', 'Self-Charging LED Flasher', 'Hackaday Component Abuse Challenge 2025',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(
