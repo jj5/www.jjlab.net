@@ -3693,6 +3693,21 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Connector Kingpin' ),
+  module_monday(
+    publication_date( '2025-10-20' ),
+    title( 'KY-031 Knock Sensor Module' ),
+    youtube_video( 'Bndtpzusc4g' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/10/20/module-monday-3-ky-031-knock-sensor-module-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/141632876' ),
+    tags(
+      'jjlab', 'Module Monday', 'Knock Sensor Module', 'KY-031',
+      'Vibration Sensor Module',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(
