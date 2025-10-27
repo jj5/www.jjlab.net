@@ -3708,6 +3708,21 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Buzz Boss' ),
+  module_monday(
+    publication_date( '2025-10-27' ),
+    title( 'KY-035 Analog Hall Effect Sensor Module' ),
+    youtube_video( 'Md39auzLI3E' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/10/27/module-monday-4-ky-035-analog-hall-effect-sensor-module-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/142129919' ),
+    tags(
+      'jjlab', 'Module Monday', 'Analog Hall Effect Sensor Module', 'KY-035',
+      'Magnetism Sensor Module',
+    ),
+  ),
+);
+
 /*
 show(
   unboxing(
