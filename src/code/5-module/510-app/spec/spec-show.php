@@ -3723,6 +3723,21 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Plugerinerer' ),
+  learning_the_art(
+    publication_date( '2025-10-28' ),
+    title( "Learning the Art of Electronics: Fig-1N.6: Kirchhoff's Voltage Law" ),
+    youtube_video( 'I9Uu8wI6n_w' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/10/28/learning-the-art-of-electronics-fig-1n-6-kirchhoffs-voltage-law-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/142236598' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', "Kirchhoff's Voltage Law",
+    ),
+  ),
+);
+
+
 /*
 show(
   unboxing(
