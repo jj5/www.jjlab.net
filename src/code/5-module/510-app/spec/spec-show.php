@@ -3737,6 +3737,21 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Master Planner' ),
+  module_monday(
+    publication_date( '2025-11-03' ),
+    title( 'KY-024 Digital Hall Effect Sensor Module' ),
+    youtube_video( 'k-Q8mvw_OPk' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/11/03/module-monday-5-ky-024-digital-hall-effect-sensor-module-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/142660305' ),
+    tags(
+      'jjlab', 'Module Monday', 'Digital Hall Effect Sensor Module', 'KY-024',
+      'Magnetism Sensor Module',
+    ),
+  ),
+);
+
 
 /*
 show(
