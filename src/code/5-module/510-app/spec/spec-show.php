@@ -3766,6 +3766,44 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Hack in Residence' ),
+  mail_call(
+    publication_date( '2025-11-05' ),
+    title( 'Silicon Chip Magazine, 6V NiMH Batteries, 10mm LEDs, Mesh Holders, and More!' ),
+    youtube_video( 'xNsJPh17Q3w' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/11/05/mail-call-50-silicon-chip-magazine-6v-nimh-batteries-10mm-leds-mesh-holders-and-more/' ),
+    patreon_url( 'https://www.patreon.com/posts/142757125' ),
+    tags(
+      'jjlab', 'Mail Call', 'AliExpress',
+      'Silicon Chip Magazine',
+      '6V NiMH Battery',
+      '10mm LED',
+      'Wire Mesh Holder',
+      'LAOBEI 10A10 Rectifier Diode',
+      'DIY DC Electrical Motor Model Kit',
+      'Cleaning Needles', 'Cleaning Brushes',
+      'Human Presence Sensor',
+      'DIY Ultrasonic Levitation Standing Wave Kit',
+      'Woodworking Pocket Square 30/60/90 Angle',
+      'Fine Tube Cleaning Brushes',
+      'Mirror Marker Pen',
+      'Silica Gel Packets',
+      'Extra Long Bottle Cleaning Brush',
+      'DIP Switch',
+      'Sponge',
+      'Painting Tray',
+      'DIY Telegraph Machine',
+      'Cleaning Brush Set',
+      'Needle Type Gel Pens',
+      'Double Tip Art Pens',
+      'Model Painting Stand Base',
+      'Acrylic Paint',
+      '12pcs Nylon Brush Set',
+    ),
+  ),
+);
+
 
 /*
 show(
