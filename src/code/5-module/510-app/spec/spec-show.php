@@ -3752,6 +3752,20 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Electron Enchanter' ),
+  learning_the_art(
+    publication_date( '2025-11-04' ),
+    title( "Learning the Art of Electronics: 1L.2.2.1 An experiment: Try your DVM's current-measurement burden" ),
+    youtube_video( 'ykG2fAf_a_g' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/11/04/learning-the-art-of-electronics-1l-2-2-1-an-experiment-try-your-dvms-current-measurement-burden-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/142750809' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', "DVM Current-Measurement Burden",
+    ),
+  ),
+);
+
 
 /*
 show(
