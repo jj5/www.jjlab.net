@@ -3821,26 +3821,43 @@ show(
   ),
 );
 
-/*
 show(
-  unboxing(
-    publication_date( '2025-02-15' ),
-    title( 'Australian Signpost Mathematics New South Wales Student Book and Homework Program' ),
-    youtube_video( '' ),
-    blog_url( '' ),
-    patreon_url( 'https://www.patreon.com/posts/' ),
-    tags(
-      'jjlab', 'Unboxing', 'Australian Signpost Mathematics',
-    ),
-    new_book(
-      title( "Australian Signpost Mathematics New South Wales 7 Student Book, eBook and Homework Program" ),
-      author( 'Alan McSeveny' ),
-      copyright_year( '2013' ),
+  silly_job_title( 'Capacitor Captain' ),
+  old_book_teardown(
+    publication_date( '2025-11-07' ),
+    youtube_video( 'PxLvLaOM2xI' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/11/07/old-book-teardown-17-encyclopedia-of-electronic-circuits-volume-4-1992-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/142787634' ),
+    old_book(
+      title( 'Encyclopedia of Electronic Circuits Volume 4' ),
+      author( 'Rudolf F. Graf, William Sheets' ),
+      copyright_year( '1992' ),
+      page_count( 729 ),
       affiliate_link(
-        equipment_url ( 'https://www.amazon.com.au/dp/1488657491' ),
-        item_price    ( 'AU$94.86' ),
+        equipment_url ( 'https://www.amazon.com.au/dp/0830638954' ),
+        item_price    ( 'AU$178.30' ),
       ),
+    ),
+    tags(
+      'jjlab', 'Old Book Teardown', 'Book Review',
+      "Encyclopedia of Electronic Circuits Volume 4",
+      'Rudolf Graf', 'William Sheets',
     ),
   ),
 );
-*/
+
+show(
+  silly_job_title( 'Joule Juggler' ),
+  electronics_project(
+    publication_date( '2025-11-08' ),
+    title( 'DIY Telegraph Machine' ),
+    youtube_video( 'TWC8K-Z4iYU' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/11/08/electronics-project-21-diy-telegraph-machine-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/142788616' ),
+    tags(
+      'jjlab', 'Electronics Project', 'DIY Telegraph Machine',
+      'Transmitter', 'Receiver',
+      'Morse Code',
+    ),
+  ),
+);
