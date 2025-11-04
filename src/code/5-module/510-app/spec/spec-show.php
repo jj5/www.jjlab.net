@@ -3861,3 +3861,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Cable Commander' ),
+  cheatsheet(
+    publication_date( '2025-11-09' ),
+    title( 'Pre-Algebra QuickStudy' ),
+    youtube_video( 'JAC8qw5dVIY' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/11/09/cheatsheet-1-pre-algebra-quickstudy-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/142797166' ),
+    tags(
+      'jjlab', 'QuickStudy Academic Outline', 'Pre-Algebra QuickStudy',
+    ),
+  ),
+);
