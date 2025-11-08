@@ -13428,7 +13428,10 @@ equipment(
     ),
     manufacturer_name ( 'Metcal' ),
     model_name        ( 'PS-900' ),
-    EquipmentFeature::SOLDERING_STATION,
+    // 2025-11-08 jj5 - NEW:
+    EquipmentFeature::SOLDERING_IRON,
+    // 2025-11-08 jj5 - OLD:
+    //EquipmentFeature::SOLDERING_STATION,
   ),
   sixsigma_url  ( 'https://www.jj5.net/wiki/Metcal_PS-900_Soldering_Station' ),
   affiliate_link(
