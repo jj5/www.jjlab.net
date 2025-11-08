@@ -1,5 +1,5 @@
 User-agent: *
-Allow: /
+Disallow: /wiki/mediawiki
 Disallow: /in-the-lab/debug.php
 Disallow: /in-the-lab/jjcode.php
 Disallow: /in-the-lab/blog-template.php
