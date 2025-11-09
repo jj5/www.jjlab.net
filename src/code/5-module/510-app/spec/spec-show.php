@@ -3875,3 +3875,18 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Electricity Guardian' ),
+  module_monday(
+    publication_date( '2025-11-10' ),
+    title( 'GY-521 MPU-6050 Gyroscope/Accelerometer Sensor Module' ),
+    youtube_video( 'tPeUB3Gx3ls' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/11/10/module-monday-6-gy-521-mpu-6050-gyroscope-accelerometer-sensor-module-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/143188069' ),
+    tags(
+      'jjlab', 'Module Monday', 'MPU-6050 Gyroscope/Accelerometer Sensor Module', 'GY-521',
+      'Gyroscope Sensor Module', 'Accelerometer Sensor Module', 'Temperature Sensor Module',
+    ),
+  ),
+);
