@@ -3890,3 +3890,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Surge Sage' ),
+  learning_the_art(
+    publication_date( '2025-11-11' ),
+    title( "Learning the Art of Electronics: 1L.2.3.1 An experiment: Try your DVM's resistance measurement" ),
+    youtube_video( 'fFHSvcXwXMQ' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/11/11/learning-the-art-of-electronics-1l-2-3-1-an-experiment-try-your-dvms-resistance-measurement-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/143280614' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', "DVM Resistance-Measurement Voltage Drop",
+    ),
+  ),
+);
