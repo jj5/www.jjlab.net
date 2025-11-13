@@ -3947,3 +3947,19 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Power Provider' ),
+  maxitronix_segment(
+    publication_date( '2025-11-13' ),
+    title( 'The Transistor, an Electronic "Trigger"' ),
+    project( 5, 30 ),
+    maxitronix_kit_name( '30in1' ),
+    youtube_video( 'LcNxwV5k3d0' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/11/13/the-transistor-an-electronic-trigger-project-5-30-maxitronix-30in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/143481031' ),
+    tags(
+      'jjlab', 'Maxitronix 30in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'The Transistor an Electronic Trigger',
+    ),
+  ),
+);
