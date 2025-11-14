@@ -3963,3 +3963,28 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Switch Switcher' ),
+  old_book_teardown(
+    publication_date( '2025-11-14' ),
+    youtube_video( 'eTgjyB8ZxIM' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/11/14/old-book-teardown-18-encyclopedia-of-electronic-circuits-volume-5-1994-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/143544222' ),
+    old_book(
+      title( 'Encyclopedia of Electronic Circuits Volume 5' ),
+      author( 'Rudolf F. Graf, William Sheets' ),
+      copyright_year( '1994' ),
+      page_count( 768 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com.au/dp/0070110778' ),
+        item_price    ( 'AU$181.12' ),
+      ),
+    ),
+    tags(
+      'jjlab', 'Old Book Teardown', 'Book Review',
+      "Encyclopedia of Electronic Circuits Volume 5",
+      'Rudolf Graf', 'William Sheets',
+    ),
+  ),
+);
