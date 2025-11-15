@@ -3988,3 +3988,18 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Solder Soldier' ),
+  electronics_project(
+    publication_date( '2025-11-15' ),
+    title( 'DC Barrel Female Into Hook-Clips' ),
+    youtube_video( 'dwlSGyMrXEI' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/11/15/electronics-project-22-dc-barrel-female-into-hook-clips-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/143624281' ),
+    tags(
+      'jjlab', 'Electronics Project', 'Power Cable',
+      'DC Barrel Female', 'Hook-Clips',
+    ),
+  ),
+);
