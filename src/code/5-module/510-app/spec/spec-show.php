@@ -4003,3 +4003,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Bench Master' ),
+  module_monday(
+    publication_date( '2025-11-17' ),
+    title( 'HW-028 Rain Drops Sensor Module' ),
+    youtube_video( '6NooH6TPR9Q' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/11/17/module-monday-7-hw-028-rain-drops-sensor-module-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/143743597' ),
+    tags(
+      'jjlab', 'Module Monday', 'Rain Drops Sensor Module', 'HW-028', 'LM393',
+    ),
+  ),
+);
