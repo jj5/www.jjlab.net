@@ -62,6 +62,7 @@ define( 'TITLE_FEATURE_UNBOXING', "Click here to watch the unboxing videos." );
 define( 'TITLE_FEATURE_DEMO', "Click here to watch the demo videos." );
 define( 'TITLE_FEATURE_EXPERIMENT', "Click here to watch the experiment videos." );
 define( 'TITLE_FEATURE_MODULE_MONDAY', "Click here to watch the Module Monday videos." );
+define( 'TITLE_FEATURE_MAKER_ADVENT_CALENDAR_2025', "Click here to watch the Maker Advent Calendar 2025 videos." );
 
 define( 'TITLE_FEATURE_MAXITRONIX_KITS', 'Click here to learn about the Maxitronix Xin1 electronic project labs.' );
 define( 'TITLE_FEATURE_MAXITRONIX', 'Click here to watch the videos where I work through a Maxitronix Xin1 electronic project kit.' );

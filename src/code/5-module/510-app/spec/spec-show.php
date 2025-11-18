@@ -4017,3 +4017,43 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Wattage Warlock' ),
+  learning_the_art(
+    publication_date( '2025-11-18' ),
+    title( "Learning the Art of Electronics: 1L.2.4.1 Measure Your DVM's current output in diode test mode" ),
+    youtube_video( 'MyhdVJRKB_U' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/11/18/learning-the-art-of-electronics-1l-2-4-1-measure-your-dvms-current-output-in-diode-test-mode-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/143837444' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', "DVM Current Measurement", 'Diode Test Mode',
+    ),
+  ),
+);
+
+show(
+  silly_job_title( 'Fixeruperer' ),
+  mail_call(
+    publication_date( '2025-11-19' ),
+    title( 'Maker Advent Calendar, Banana Cables, Test Probes, Brushes and More!' ),
+    youtube_video( 'tZzZU89Kvqo' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/11/19/mail-call-52-maker-advent-calendar-banana-cables-test-probes-brushes-and-more-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/143839658' ),
+    tags(
+      'jjlab', 'Mail Call', 'AliExpress', 'Amazon', 'The Pi Hut',
+      'Maker Advent Calendar',
+      'Zero: The Biography of a Dangerous Idea',
+      'Power Outlet Plug Protectors',
+      'Banana Plug Test Lead Kit',
+      'Test Probe Puncture Needles',
+      'Stainless Steel Flat Washer',
+      'Stainless Steel Cross Recess Phillips Pan Round Head Flat End Self Tapping Screw',
+      'Chinese Calligraphy Brush',
+      'Fine Tip Paint Brush Set',
+      'Dot Matrix Module 32x8 4 in 1 LED Display Module',
+      'Sandpaper Set',
+      'White Acrylic Marker',
+    ),
+  ),
+);
