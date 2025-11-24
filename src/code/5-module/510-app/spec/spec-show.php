@@ -4082,3 +4082,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Electronics Guy' ),
+  module_monday(
+    publication_date( '2025-11-24' ),
+    title( 'HW-038 Water Level Sensor Module' ),
+    youtube_video( 'eVCqdx286ec' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/11/24/module-monday-8-hw-038-water-level-sensor-module-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/144273386' ),
+    tags(
+      'jjlab', 'Module Monday', 'Water Level Sensor Module', 'HW-038',
+    ),
+  ),
+);
