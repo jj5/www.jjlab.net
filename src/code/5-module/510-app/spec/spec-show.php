@@ -4057,3 +4057,28 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Technical Director' ),
+  old_book_teardown(
+    publication_date( '2025-11-22' ),
+    youtube_video( '8RlAA58geCw' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/11/22/old-book-teardown-19-encyclopedia-of-electronic-circuits-volume-6-1995-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/144122890' ),
+    old_book(
+      title( 'Encyclopedia of Electronic Circuits Volume 6' ),
+      author( 'Rudolf F. Graf, William Sheets' ),
+      copyright_year( '1995' ),
+      page_count( 789 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/dp/0070112754' ),
+        item_price    ( 'AU$37.88' ),
+      ),
+    ),
+    tags(
+      'jjlab', 'Old Book Teardown', 'Book Review',
+      "Encyclopedia of Electronic Circuits Volume 6",
+      'Rudolf Graf', 'William Sheets',
+    ),
+  ),
+);
