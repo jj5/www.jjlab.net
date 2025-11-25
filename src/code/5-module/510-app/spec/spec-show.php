@@ -4096,3 +4096,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Note Taker' ),
+  learning_the_art(
+    publication_date( '2025-11-25' ),
+    title( "Learning the Art of Electronics: 1L.3 Voltage divider" ),
+    youtube_video( 'eSncQnuYzfM' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/11/25/learning-the-art-of-electronics-1l-3-voltage-divider-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/144361883' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Voltage Divider', 'Thevenin Equivalent Circuit'
+    ),
+  ),
+);
