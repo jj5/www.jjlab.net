@@ -4163,7 +4163,7 @@ show(
     title( 'The Transistor and "Amplification"' ),
     project( 6, 30 ),
     maxitronix_kit_name( '30in1' ),
-    youtube_video( 'Faj60GFKGMg' ),
+    youtube_video( 'PwiIW3iNjcM' ),
     blog_url( 'https://blog.jj5.net/blog/2025/11/27/the-transistor-and-amplification-project-6-30-maxitronix-30in1-in-the-lab-with-jay-jay/' ),
     patreon_url( 'https://www.patreon.com/posts/144475859' ),
     tags(
