@@ -4176,7 +4176,7 @@ show(
 show(
   silly_job_title( 'Charge Changer' ),
   old_book_teardown(
-    publication_date( '2025-11-22' ),
+    publication_date( '2025-11-28' ),
     youtube_video( 'KeHOxuWv8Rc' ),
     blog_url( 'https://blog.jj5.net/blog/2025/11/28/old-book-teardown-20-encyclopedia-of-electronic-circuits-volume-7-1999-in-the-lab/' ),
     patreon_url( 'https://www.patreon.com/posts/144588219' ),
@@ -4194,6 +4194,21 @@ show(
       'jjlab', 'Old Book Teardown', 'Book Review',
       "Encyclopedia of Electronic Circuits Volume 7",
       'Rudolf Graf', 'William Sheets',
+    ),
+  ),
+);
+
+show(
+  silly_job_title( 'Watt Wizard' ),
+  electronics_project(
+    publication_date( '2025-11-29' ),
+    title( 'Banana Plug Into Hook-Clips' ),
+    youtube_video( 'phnlJeXtwa8' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/11/29/electronics-project-23-banana-plug-into-hook-clips-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/144599620' ),
+    tags(
+      'jjlab', 'Electronics Project',
+      'Banana Plug', 'Hook-Clips',
     ),
   ),
 );
