@@ -4172,3 +4172,28 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Charge Changer' ),
+  old_book_teardown(
+    publication_date( '2025-11-22' ),
+    youtube_video( 'KeHOxuWv8Rc' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/11/28/old-book-teardown-20-encyclopedia-of-electronic-circuits-volume-7-1999-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/144588219' ),
+    old_book(
+      title( 'Encyclopedia of Electronic Circuits Volume 7' ),
+      author( 'Rudolf F. Graf, William Sheets' ),
+      copyright_year( '1999' ),
+      page_count( 789 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/dp/0070151164' ),
+        item_price    ( 'AU$108.82' ),
+      ),
+    ),
+    tags(
+      'jjlab', 'Old Book Teardown', 'Book Review',
+      "Encyclopedia of Electronic Circuits Volume 7",
+      'Rudolf Graf', 'William Sheets',
+    ),
+  ),
+);
