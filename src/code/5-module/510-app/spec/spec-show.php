@@ -4212,3 +4212,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Tome Pumper' ),
+  cheatsheet(
+    publication_date( '2025-11-30' ),
+    title( 'Elementary Algebra QuickStudy' ),
+    youtube_video( 'khUYERKAdv0' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/11/30/cheatsheet-2-elementary-algebra-quickstudy-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/144718212' ),
+    tags(
+      'jjlab', 'QuickStudy Academic Outline', 'Elementary Algebra QuickStudy',
+    ),
+  ),
+);
