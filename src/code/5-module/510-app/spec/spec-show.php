@@ -4226,3 +4226,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Wire Whisperer' ),
+  module_monday(
+    publication_date( '2025-12-01' ),
+    title( 'HW-103 Water Level Sensor Module' ),
+    youtube_video( 'FAIEym1UULo' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/12/01/module-monday-9-hw-103-water-level-sensor-module-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/144795497' ),
+    tags(
+      'jjlab', 'Module Monday', 'Water Level Sensor Module', 'HW-103',
+    ),
+  ),
+);
