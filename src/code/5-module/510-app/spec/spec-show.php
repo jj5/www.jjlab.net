@@ -4254,3 +4254,19 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Circuit Breaker' ),
+  interlude(
+    publication_date( '2025-12-03' ),
+    title( "Measuring Forward Voltage of LEDs of Various Colours" ),
+    youtube_video( 'iBWg6zazNoo' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/12/03/interlude-18-measuring-forward-voltage-of-leds-of-various-colours-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/144895565' ),
+    tags(
+      'jjlab', 'Interlude', 'Forward Voltage', 'LED', '10mm LED', '5mm LED',
+      'Red LED', 'Green LED', 'Blue LED', 'Yellow LED', 'White LED',
+      'Peak Electronic Design', 'Atlas DCA75 Pro Semiconductor Analyzer',
+    ),
+  ),
+);
