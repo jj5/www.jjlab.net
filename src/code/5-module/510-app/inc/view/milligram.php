@@ -1336,7 +1336,20 @@ function render_blog_template( $equipment_list ) {
       mud_html_set_opt( MUD_HTML_OPT_SPACE, true );
       mud_html_set_opt( MUD_HTML_OPT_BREAK, false );
 
-      out_text( "\n" );
+      out_text( "\nYou can support this channel on Patreon: " );
+
+      render_link_external(
+        'patreon.com/JohnElliotV',
+        'https://www.patreon.com/JohnElliotV',
+        TITLE_BLOG_PATREON,
+        [
+          MUD_HTML_OPT_SPACE => false,
+          MUD_HTML_OPT_BREAK => false,
+        ],
+      );
+
+      out_text( "\n\n" );
+
       out_text( "This post is part of " );
 
       render_link_external(
@@ -1375,18 +1388,6 @@ function render_blog_template( $equipment_list ) {
       );
 
       tag_shut( 'iframe' );
-
-      out_text( "\n\nYou can support this channel on Patreon: " );
-
-      render_link_external(
-        'patreon.com/JohnElliotV',
-        'https://www.patreon.com/JohnElliotV',
-        TITLE_BLOG_PATREON,
-        [
-          MUD_HTML_OPT_SPACE => false,
-          MUD_HTML_OPT_BREAK => false,
-        ],
-      );
 
       out_text( "\n\n" );
 
