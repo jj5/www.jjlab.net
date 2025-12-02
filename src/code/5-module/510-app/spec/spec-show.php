@@ -4240,3 +4240,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Tech Lead' ),
+  learning_the_art(
+    publication_date( '2025-12-02' ),
+    title( "Learning the Art of Electronics: 1L.4.1 Internal resistance of the movement" ),
+    youtube_video( 'n6lB2wnB_p0' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/12/02/learning-the-art-of-electronics-1l-4-1-internal-resistance-of-the-movement-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/144887936' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Meter Movement', 'Internal Resistance',
+    ),
+  ),
+);
