@@ -4270,3 +4270,20 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Systems Architect' ),
+  maxitronix_segment(
+    publication_date( '2025-12-04' ),
+    title( 'The Sunrise-Sunset Light' ),
+    project( 7, 30 ),
+    maxitronix_kit_name( '30in1' ),
+    youtube_video( 'rmuhA3vkyPo' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/12/04/the-sunrise-sunset-light-project-7-30-maxitronix-30in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/145036371' ),
+    tags(
+      'jjlab', 'Maxitronix 30in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'The Sunrise-Sunset Light', 'Transistor', 'LED', 'Capacitor', 'Resistor',
+    ),
+  ),
+);
