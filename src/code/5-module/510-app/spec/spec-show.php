@@ -4287,3 +4287,28 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Phase Pharaoh' ),
+  old_book_teardown(
+    publication_date( '2025-12-05' ),
+    youtube_video( 'usgzsc1aibo' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/12/05/archer-semiconductor-reference-and-application-handbook-1978-edition-1978/' ),
+    patreon_url( 'https://www.patreon.com/posts/145129918' ),
+    old_book(
+      title( 'Archer Semiconductor Reference and Application Handbook' ),
+      author( 'None Credited' ),
+      copyright_year( '1978' ),
+      page_count( 143 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/dp/B00188CPW4' ),
+        item_price    ( 'US$4.00' ),
+      ),
+    ),
+    tags(
+      'jjlab', 'Old Book Teardown', 'Book Review',
+      "Archer Semiconductor Reference and Application Handbook",
+      '1978 edition', 'Radio Shack',
+    ),
+  ),
+);
