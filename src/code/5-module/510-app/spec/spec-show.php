@@ -4312,3 +4312,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Bolt Boy' ),
+  learning_the_art(
+    publication_date( '2025-12-09' ),
+    title( "Learning the Art of Electronics: 1L.4.2 10 V Voltmeter" ),
+    youtube_video( 'W0mkxzEBEyg' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/12/09/learning-the-art-of-electronics-1l-4-2-10-v-voltmeter-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/145429279' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Volt Meter', 'Meter Movement',
+    ),
+  ),
+);
