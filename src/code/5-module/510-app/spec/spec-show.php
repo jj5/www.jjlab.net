@@ -4326,3 +4326,78 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Science Officer' ),
+  channel_news(
+    publication_date( '2025-12-10' ),
+    title( "Merry Christmas and Happy New Year!" ),
+    youtube_video( 'gVpfrVBKw74' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/12/10/channel-news-9-merry-christmas-and-happy-new-year-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/145440815' ),
+    tags(
+      'jjlab', 'Channel News', 'Merry Christmas', 'Happy New Year',
+      'Routine', 'Video Release Cadence',
+      'Module Monday',
+      'Learning the Art of Electronics',
+      'Mail Call', 'Unboxing', 'Demo', 'Interlude', 'Channel News',
+      'Maxitronix Project',
+      'Old Book Teardown', 'New Book Teardown',
+      'Electronics Project', 'Mini Project',
+      'Cheatsheet', 'QuickStudy',
+      'OBS Studio Computers', 'treat', 'charisma', 'verve', 'trail',
+      'Video Inputs',
+      'Welcome Cam', 'Farewell Cam',
+      'Face Cam', 'Stand Cam', 'charisma Desktop',
+      'Lab Cam', 'Mat Cam', 'Wide Cam', 'Power Cam', 'Thermal Cam', 'OWON Cam', 'verve Desktop', 'HDMI Cam',
+      'Rigol MSO5074', 'Yizhan Microscope', 'TOMLOV DM602 Pro Microscope', 'Xbox to HDMI Converter', 'AV RCA to HDMI Converter',
+      'Bench Xbox',
+      'JCID AiXun H314 Intelligent Hot Air Gun',
+      'The Pi Hut', 'Maker Advent Calendar 2025', 'The 12 Projects of Codemas',
+
+    )
+  ),
+);
+
+show(
+  silly_job_title( 'Grounding Genius' ),
+  maxitronix_segment(
+    publication_date( '2025-12-11' ),
+    title( 'The Slow Motion Sunrise-Sunset Light' ),
+    project( 8, 30 ),
+    maxitronix_kit_name( '30in1' ),
+    youtube_video( 'djqQx_AUJ-E' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/12/11/the-slow-motion-sunrise-sunset-light-project-8-30-maxitronix-30in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/145445127' ),
+    tags(
+      'jjlab', 'Maxitronix 30in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'The Slow Motion Sunrise-Sunset Light', 'Darlington Transistor', 'Transistor', 'LED', 'Capacitor', 'Resistor',
+    ),
+  ),
+);
+
+show(
+  silly_job_title( 'Ohm Oracle' ),
+  new_book_teardown(
+    publication_date( '2025-12-12' ),
+    youtube_video( '1nCu3398HSY' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/12/12/new-book-teardown-8-electricity-and-magnetism-3rd-edition-2013-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/145663818' ),
+    new_book(
+      title( "Electricity and Magnetism" ),
+      edition( 3 ),
+      author( 'Edward M. Purcell, David J. Morin' ),
+      copyright_year( '2013' ),
+      page_count( 839 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/dp/1107014026' ),
+        item_price    ( 'US$63.02' ),
+      ),
+    ),
+    tags(
+      'jjlab', 'New Book Teardown', 'Book Review',
+      'Electricity and Magnetism',
+      'Edward Purcell', 'David Morin',
+    ),
+  ),
+);
