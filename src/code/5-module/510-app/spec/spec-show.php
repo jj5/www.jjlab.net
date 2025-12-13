@@ -4401,3 +4401,19 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Current Curator' ),
+  advent_2025(
+    publication_date( '2025-12-14' ),
+    title( 'Getting Started' ),
+    project( 1, 12 ),
+    youtube_video( '7zQg_4QNM04' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/12/14/maker-advent-calendar-2025-1-getting-started-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/145772201' ),
+    tags(
+      'jjlab', 'Maker Advent Calendar 2025', 'Getting Started',
+      'MicroPython', 'Raspberry Pi Pico',
+    ),
+  ),
+);

@@ -1,32 +1,16 @@
 <?php
 
-function maker_advent_calendar_2025() {
+function advent_2025() {
 
-  return new_thing( MakerAdventCalendar2025::class, func_get_args() );
+  return new_thing( Advent2025::class, func_get_args() );
 
 }
 
-class MakerAdventCalendar2025 extends Segment {
-
-  public function get_channel() {
-
-    return get_item_by_slug( Channel::class, '@InTheLabWithJayJay' );
-
-  }
-
-  public function get_show_type() {
-
-    return get_item_by_slug( ShowType::class, ShowEnum::SpecialShow->value );
-
-  }
+class Advent2025 extends AdventSegment {
 
   public function get_feature() {
 
-    return get_item_by_slug( Feature::class, 'maker-advent-calendar-2025' );
-
-  }
-
-  public function render_extra_video_attributes() {
+    return get_item_by_slug( Feature::class, 'advent-2025' );
 
   }
 
@@ -68,11 +52,9 @@ class MakerAdventCalendar2025 extends Segment {
 
   }
 
-  public function render_title_suffix() {}
-
 }
 
-class NullMakerAdventCalendar2025 extends MakerAdventCalendar2025 {
+class NullAdvent2025 extends Advent2025 {
 
   use NullThingMixin;
 
