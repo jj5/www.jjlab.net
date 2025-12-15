@@ -4417,3 +4417,51 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Electron Ambassador' ),
+  advent_2025(
+    publication_date( '2025-12-15' ),
+    title( 'Let’s Get Blinky!' ),
+    project( 2, 12 ),
+    youtube_video( 'riUGzwggw5Q' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/12/15/maker-advent-calendar-2025-2-lets-get-blinky-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/145863098' ),
+    tags(
+      'jjlab', 'Maker Advent Calendar 2025', 'Lets Get Blinky',
+      'MicroPython', 'Raspberry Pi Pico',
+    ),
+  ),
+);
+
+show(
+  silly_job_title( 'Earth Grounder' ),
+  advent_2025(
+    publication_date( '2025-12-16' ),
+    title( 'Bashing Buttons!' ),
+    project( 3, 12 ),
+    youtube_video( 'u_OMDGgKAk0' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/12/16/maker-advent-calendar-2025-3-bashing-buttons-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/145872983' ),
+    tags(
+      'jjlab', 'Maker Advent Calendar 2025', 'Bashing Buttons',
+      'MicroPython', 'Raspberry Pi Pico',
+    ),
+  ),
+);
+
+show(
+  silly_job_title( 'Maker of Videos' ),
+  advent_2025(
+    publication_date( '2025-12-17' ),
+    title( 'Amazing Analog!' ),
+    project( 4, 12 ),
+    youtube_video( 'Qtt_jl9g-DM' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/12/17/maker-advent-calendar-2025-4-amazing-analog-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/145875536' ),
+    tags(
+      'jjlab', 'Maker Advent Calendar 2025', 'Amazing Analog',
+      'MicroPython', 'Raspberry Pi Pico',
+    ),
+  ),
+);
