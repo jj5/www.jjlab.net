@@ -4466,7 +4466,6 @@ show(
   ),
 );
 
-
 show(
   silly_job_title( 'Spark Slinger' ),
   advent_2025(
@@ -4478,6 +4477,22 @@ show(
     patreon_url( 'https://www.patreon.com/posts/146098946' ),
     tags(
       'jjlab', 'Maker Advent Calendar 2025', 'Hear my Code',
+      'MicroPython', 'Raspberry Pi Pico', 'Thonny',
+    ),
+  ),
+);
+
+show(
+  silly_job_title( 'Transistor Troubadour' ),
+  advent_2025(
+    publication_date( '2025-12-19' ),
+    title( 'Looking for Light!' ),
+    project( 6, 12 ),
+    youtube_video( 'ztVNNAgBMhw' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/12/19/maker-advent-calendar-2025-6-looking-for-light-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/146100005' ),
+    tags(
+      'jjlab', 'Maker Advent Calendar 2025', 'Looking for Light',
       'MicroPython', 'Raspberry Pi Pico', 'Thonny',
     ),
   ),
