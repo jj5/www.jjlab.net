@@ -4465,3 +4465,20 @@ show(
     ),
   ),
 );
+
+
+show(
+  silly_job_title( 'Spark Slinger' ),
+  advent_2025(
+    publication_date( '2025-12-18' ),
+    title( 'Hear my Code!' ),
+    project( 5, 12 ),
+    youtube_video( 'XwC_egV_J6U' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/12/18/maker-advent-calendar-2025-5-hear-my-code-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/146098946' ),
+    tags(
+      'jjlab', 'Maker Advent Calendar 2025', 'Hear my Code',
+      'MicroPython', 'Raspberry Pi Pico', 'Thonny',
+    ),
+  ),
+);
