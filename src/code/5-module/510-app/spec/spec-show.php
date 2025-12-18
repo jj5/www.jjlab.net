@@ -4497,3 +4497,18 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Volt Vanguard' ),
+  unboxing(
+    publication_date( '2025-12-31' ),
+    title( 'AiXun H314 Hot Air Gun from AliExpress' ),
+    youtube_video( 'GqqbjpWiihI' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/12/31/unboxing-31-aixun-h314-hot-air-gun-from-aliexpress-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/146108202' ),
+    tags(
+      'jjlab', 'AiXun H314 Hot Air Gun', 'AliExpress',
+      'Hot Air Gun',
+    ),
+  ),
+);
