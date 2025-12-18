@@ -16429,6 +16429,33 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2025-11-12' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Se8bea63ca75844eebcf72e180fdfde618.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_name ( "AiXun" ),
+    model_name        ( 'H314' ),
+    EquipmentFeature::HOT_AIR_GUN,
+  ),
+  sixsigma_url  ( '' ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005006953233366.html' ),
+    affiliate_url ( 'https://s.click.aliexpress.com/e/_c38FuFVr' ),
+    listing_name  ( 'JCID Aixun H314 Intelligent Hot Air Gun Soldering Station 1400W Digital High Power BGA Rework Heating Station For SMD BGA Repair' ),
+    item_options  ( 'Color: H314 220V' ),
+    item_price    ( 'AU$393.39' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005006953233366.html' ),
+    order_id        ( '8180180038153938' ),
+    order_date      ( 'Nov 12, 2025' ),
+    order_item_name ( 'JCID Aixun H314 Intelligent Hot Air Gun Soldering Station 1400W Digital High Power BGA Rework Heating Station For SMD BGA Repair' ),
+    order_price     ( 'AU$386.69' ),
+    order_tax       ( 'AU$38.67' ),
+    order_quantity  ( 1 ),
+  ),
+);
+
 
 
 /*
