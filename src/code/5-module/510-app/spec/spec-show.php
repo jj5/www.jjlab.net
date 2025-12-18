@@ -4499,6 +4499,86 @@ show(
 );
 
 show(
+  silly_job_title( 'Current Conjurer' ),
+  advent_2025(
+    publication_date( '2025-12-20' ),
+    title( 'Monitoring Motion!' ),
+    project( 7, 12 ),
+    youtube_video( 'hfSwUdDXCio' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/12/20/maker-advent-calendar-2025-7-monitoring-motion-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/146112703' ),
+    tags(
+      'jjlab', 'Maker Advent Calendar 2025', 'Monitoring Motion',
+      'MicroPython', 'Raspberry Pi Pico', 'Thonny',
+    ),
+  ),
+);
+
+show(
+  silly_job_title( 'Relay Renegade' ),
+  advent_2025(
+    publication_date( '2025-12-21' ),
+    title( 'Tracking Temps!' ),
+    project( 8, 12 ),
+    youtube_video( 's8KrYkJIY34' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/12/21/maker-advent-calendar-2025-8-tracking-temps-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/146115020' ),
+    tags(
+      'jjlab', 'Maker Advent Calendar 2025', 'Tracking Temps',
+      'MicroPython', 'Raspberry Pi Pico', 'Thonny',
+    ),
+  ),
+);
+
+show(
+  silly_job_title( 'Terminal Tactician' ),
+  advent_2025(
+    publication_date( '2025-12-22' ),
+    title( 'Full Tilt!' ),
+    project( 9, 12 ),
+    youtube_video( 'bxIICp77YDE' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/12/22/maker-advent-calendar-2025-9-full-tilt-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/146117833' ),
+    tags(
+      'jjlab', 'Maker Advent Calendar 2025', 'Full Tilt',
+      'MicroPython', 'Raspberry Pi Pico', 'Thonny',
+    ),
+  ),
+);
+
+show(
+  silly_job_title( 'Luminary Luminar' ),
+  advent_2025(
+    publication_date( '2025-12-23' ),
+    title( 'Breaking Beams!' ),
+    project( 10, 12 ),
+    youtube_video( 'sV7QVpLLZPU' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/12/23/maker-advent-calendar-2025-10-breaking-beams-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/146121657' ),
+    tags(
+      'jjlab', 'Maker Advent Calendar 2025', 'Breaking Beams',
+      'MicroPython', 'Raspberry Pi Pico', 'Thonny',
+    ),
+  ),
+);
+
+show(
+  silly_job_title( 'Operation Manager' ),
+  advent_2025(
+    publication_date( '2025-12-24' ),
+    title( 'OMG OLED!' ),
+    project( 11, 12 ),
+    youtube_video( 'PKmQJTvEIxc' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/12/24/maker-advent-calendar-2025-11-omg-oled-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/146125126' ),
+    tags(
+      'jjlab', 'Maker Advent Calendar 2025', 'OMG OLED',
+      'MicroPython', 'Raspberry Pi Pico', 'Thonny',
+    ),
+  ),
+);
+
+show(
   silly_job_title( 'Volt Vanguard' ),
   unboxing(
     publication_date( '2025-12-31' ),
