@@ -16433,6 +16433,10 @@ equipment(
   equipment_date( '2025-11-12' ),
   equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/Se8bea63ca75844eebcf72e180fdfde618.jpg_960x960q75.jpg_.avif' ),
   equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://aixun.com/product/h314-smart-hot-air-rework-station-heating-1400w-intelligent-rework-station-bga-repair/' ),
+      link_text       ( 'H314 1400W Smart Hot Air Rework Station Heating Intelligent Rework Station For SMD BGA Repair' ),
+    ),
     manufacturer_name ( "AiXun" ),
     model_name        ( 'H314' ),
     EquipmentFeature::HOT_AIR_GUN,
