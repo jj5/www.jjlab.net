@@ -4579,6 +4579,22 @@ show(
 );
 
 show(
+  silly_job_title( 'Energy Maestro' ),
+  advent_2025(
+    publication_date( '2025-12-25' ),
+    title( 'RGB LED Strip!' ),
+    project( 12, 12 ),
+    youtube_video( 'YSMcDyAqRDA' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/12/25/maker-advent-calendar-2025-12-rgb-led-strip-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/146562260' ),
+    tags(
+      'jjlab', 'Maker Advent Calendar 2025', 'RGB LED Strip',
+      'MicroPython', 'Raspberry Pi Pico', 'Thonny',
+    ),
+  ),
+);
+
+show(
   silly_job_title( 'Volt Vanguard' ),
   unboxing(
     publication_date( '2025-12-31' ),
