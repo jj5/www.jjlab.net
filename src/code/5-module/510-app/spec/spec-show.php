@@ -4595,6 +4595,30 @@ show(
 );
 
 show(
+  silly_job_title( 'Sparky' ),
+  old_book_teardown(
+    publication_date( '2025-12-26' ),
+    youtube_video( 'MB1_VVA9acU' ),
+    blog_url( 'https://blog.jj5.net/blog/2025/12/26/old-book-teardown-22-industrial-electronics-reference-book-1948-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/146700288' ),
+    old_book(
+      title( 'Industrial Electronics Reference Book' ),
+      author( 'Electronics Engineers of the Westinghouse Electric Corporation' ),
+      copyright_year( '1948' ),
+      page_count( 680 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/dp/0471936545' ),
+        item_price    ( 'US$6.88' ),
+      ),
+    ),
+    tags(
+      'jjlab', 'Old Book Teardown', 'Industrial Electronics Reference Book',
+      'Book Review', 'Electronics Engineers of the Westinghouse Electric Corporation',
+    ),
+  ),
+);
+
+show(
   silly_job_title( 'Volt Vanguard' ),
   unboxing(
     publication_date( '2025-12-31' ),
