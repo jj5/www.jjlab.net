@@ -4632,3 +4632,18 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Current Commander' ),
+  channel_news(
+    publication_date( '2026-01-02' ),
+    title( "Happy New Year!" ),
+    youtube_video( 'g2Z2cngDXiI' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/01/02/channel-news-10-happy-new-year-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/147190918' ),
+    tags(
+      'jjlab', 'Channel News', 'Happy New Year',
+      'Maths Homework', 'Signpost', 'NSW Syllabus',
+    )
+  ),
+);
