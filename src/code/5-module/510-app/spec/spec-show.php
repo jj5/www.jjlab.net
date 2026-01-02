@@ -4647,3 +4647,17 @@ show(
     )
   ),
 );
+
+show(
+  silly_job_title( 'Cable Connector' ),
+  electronics_project(
+    publication_date( '2026-01-03' ),
+    title( 'Review of Maxitronix 10in1 Project 5: 1-Transistor Radio' ),
+    youtube_video( 'qqxZ6FBGPI4' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/01/03/electronics-project-24-review-of-maxitronix-10in1-project-5-1-transistor-radio-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/147195272' ),
+    tags(
+      'jjlab', 'Electronics Project', 'Maxitronix 10in1', '1-Transistor Radio',
+    ),
+  ),
+);
