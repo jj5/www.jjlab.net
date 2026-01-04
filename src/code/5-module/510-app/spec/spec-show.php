@@ -4661,3 +4661,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Electronics Guru' ),
+  cheatsheet(
+    publication_date( '2026-01-04' ),
+    title( 'Algebra Part-1 QuickStudy' ),
+    youtube_video( 'd2axmmmFAA0' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/01/04/cheatsheet-3-algebra-part-1-quickstudy-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/147369583' ),
+    tags(
+      'jjlab', 'QuickStudy Academic Outline', 'Algebra QuickStudy',
+    ),
+  ),
+);
