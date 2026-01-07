@@ -4675,3 +4675,33 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Craig Entertainer' ),
+  mail_call(
+    publication_date( '2026-01-07' ),
+    title( 'Eve Meter, Science Books, STM32, Breadboard Base, and More!' ),
+    youtube_video( 'ShjtvZG87Ao' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/01/07/mail-call-54-eve-meter-science-books-stm32-breadboard-base-and-more-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/147638806' ),
+    tags(
+      'jjlab', 'Mail Call', 'AliExpress', 'Amazon', 'eBay',
+      'Eve Energy AU Matter Smart Plug Power Meter',
+      "The Boy's Playbook of Science", 'The Fairy-Land of Science', 'Lots Of Knock-Knock Jokes for Kids',
+      'STM32F103C8T6',
+      'Model Painting Stand Base with 10pcs Metal Flexible Alligator Clips',
+      'YQK-70 Hydraulic Terminal Crimper Cable Wire Force Crimping Tool',
+      'Magnetic Iron Filings',
+      '4mm Banana Socket',
+      'SH 1.0mm Length 10cm 10Pin S',
+      'WeAct Mini Debugger STLink-STM32',
+      '6.35mm Female Stereo Connector',
+      '3.5mm Female Stereo Connector',
+      'USB-C Female to USB-A Female',
+      'BAT-SAFE LIPO BOX Lithium Battery Explosion Proof Safe',
+      'JDRC Mini Waterproof Fireproof Explosion-Proof Portable Lipo Battery Safety Bag',
+      '20pcs Gold Plated 4mm Banana Plug',
+      'Cleqee P4002 10PCS 6mm Insert Type-U Type And Type-Y Banana Plug',
+    ),
+  ),
+);
