@@ -4705,3 +4705,27 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Circuit Breaker' ),
+  old_book_teardown(
+    publication_date( '2026-01-16' ),
+    youtube_video( 'aYEtPs3Y5dY' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/01/16/old-book-teardown-23-engineering-electronics-with-industrial-applications-and-control-1957/' ),
+    patreon_url( 'https://www.patreon.com/posts/148316786' ),
+    old_book(
+      title( 'Engineering Electronics with Industrial Applications and Control' ),
+      author( 'John D. Ryder' ),
+      copyright_year( '1957' ),
+      page_count( 666 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/dp/B09SHH8JLJ' ),
+        item_price    ( 'US$73.51' ),
+      ),
+    ),
+    tags(
+      'jjlab', 'Old Book Teardown', 'Engineering Electronics with Industrial Applications and Control',
+      'Book Review', 'John D. Ryder',
+    ),
+  ),
+);
