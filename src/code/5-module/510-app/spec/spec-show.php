@@ -4729,3 +4729,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Current Conjurer' ),
+  electronics_project(
+    publication_date( '2026-02-14' ),
+    title( 'Variable Brightness LED for Testing Ammeter' ),
+    youtube_video( 'oSlbyU3NI3w' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/02/14/electronics-project-25-variable-brightness-led-for-testing-ammeter-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/150757945' ),
+    tags(
+      'jjlab', 'Electronics Project', 'LED', 'Potentiometer', 'Variable Resistor', 'Ammeter Test',
+    ),
+  ),
+);
