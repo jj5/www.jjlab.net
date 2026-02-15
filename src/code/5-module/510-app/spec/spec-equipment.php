@@ -10287,7 +10287,7 @@ equipment(
     model_name        ( 'KT-908' ),
     EquipmentFeature::DIGITAL_THERMOMETER,
   ),
-  sixsigma_url  ( '' ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/Yum_Cha_KT-908_Digital_Thermometer' ),
   affiliate_link(
     equipment_url ( 'https://www.ebay.com.au/itm/174131252214' ),
     affiliate_url ( 'https://ebay.us/Kz7YAg' ),
