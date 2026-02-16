@@ -1494,6 +1494,8 @@ function render_blog_template( $equipment_list ) {
 
       out_text( "\n\n" );
 
+      out_text( "p.s. today I added <em></em> to my spell check.\n\n" );
+
       mud_html_set_opt( MUD_HTML_OPT_SPACE, false );
       mud_html_set_opt( MUD_HTML_OPT_BREAK, true );
 

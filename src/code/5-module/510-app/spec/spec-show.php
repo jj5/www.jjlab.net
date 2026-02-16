@@ -4743,3 +4743,18 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Electron Herder' ),
+  learning_the_art(
+    publication_date( '2026-02-17' ),
+    title( "Learning the Art of Electronics: 1L.4.3 10 mA Ammeter" ),
+    youtube_video( 'yropI54P7fM' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/02/17/learning-the-art-of-electronics-1l-4-3-10-ma-ammeter-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/150918274' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Ammeter', 'Meter Movement',
+    ),
+  ),
+);
+
