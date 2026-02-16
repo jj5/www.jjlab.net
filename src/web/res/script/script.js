@@ -97,33 +97,41 @@ function handle_keydown( ev ) {
   }
 
   const spec = {
-    '?': '/about.php#shortcuts',
-    'h': '/',
-    'w': '/wiki/',
-    'l': '/#latest',
-    '!': '/#costume',
-    'i': '/#silly-job-title',
-    'm': '/channel.php/@InTheLabWithJayJay#heading',
-    '1': '/channel.php/@InTheLabWithJayJay#heading',
-    '2': '/channel.php/@ElliotsExtras#heading',
-    '5': '/jjcode.php#heading',
-    's': '/sponsor.php#heading',
-    'e': '/equipment.php#heading',
     'a': '/about.php#heading',
-    '3': '/youtube-hacks.php#heading',
-    'u': '/support.php#heading',
+    'b': '/books.php#books',
     'c': '/contact.php#heading',
-    'n': '/stats.php#heading',
+    'd': '/debug.php',
+    'e': '/equipment.php#heading',
+    'f': '/homies.php#heading',
+    // 'g': '/#',
+    'h': '/',
+    'i': '/#silly-job-title',
     'j': '/feature.php/mini-project#heading',
     'k': '/feature.php/maxitronix#heading',
-    'v': '/videos.php#videos',
-    'b': '/books.php#books',
-    'x': '/sitemap.php',
+    'l': '/#latest',
+    'm': '/channel.php/@InTheLabWithJayJay#heading',
+    'n': '/stats.php#heading',
+    // 'o': '/#',
+    // 'p': '/#',
+    // 'q': '/#',
     'r': '/feed.php',
+    's': '/sponsor.php#heading',
     't': '/blog-template.php#heading',
+    'u': '/support.php#heading',
+    'v': '/videos.php#videos',
+    'w': '/wiki/',
+    'x': '/sitemap.php',
     'y': '/youtube-template.php#heading',
     'z': '/about.php#software-version',
-    'd': '/debug.php'
+
+    '1': '/channel.php/@InTheLabWithJayJay#heading',
+    '2': '/channel.php/@ElliotsExtras#heading',
+    '3': '/youtube-hacks.php#heading',
+    '5': '/jjcode.php#heading',
+
+    '?': '/about.php#shortcuts',
+    '!': '/#costume'
+
   };
 
   for ( const key in spec ) {

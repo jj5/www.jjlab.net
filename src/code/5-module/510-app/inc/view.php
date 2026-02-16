@@ -446,6 +446,7 @@ function render_section_about_shortcuts( int $heading_level = 2 ) {
         render_shortcut( '2', '2nd Channel',        $extra_channel,                   TITLE_CHANNEL_EXTRA     );
         render_shortcut( '5', 'New JJCODE',         '/jjcode.php#heading',            $title_jjcode           );
         render_shortcut( 'S', 'Sponsors',           '/sponsor.php#heading',           TITLE_SPONSOR           );
+        render_shortcut( 'F', 'Homies',             '/homies.php#heading',            TITLE_HOMIES            );
         render_shortcut( 'E', 'Equipment',          '/equipment.php#heading',         TITLE_EQUIPMENT         );
         render_shortcut( 'A', 'About the Website',  '/about.php#heading',             TITLE_ABOUT             );
         render_shortcut( '3', 'YouTube Hacks',      '/youtube-hacks.php#heading',     TITLE_YOUTUBE_HACKS     );
