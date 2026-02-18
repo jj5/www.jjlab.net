@@ -5,13 +5,13 @@
 export JJLAB_NAME='www.jjlab.net';
 export JJLAB_CODE='jjlab';
 
-export JJLAB_VERSION='0.3.2121';
+export JJLAB_VERSION='0.3.2123';
 export JJLAB_VERSION_MAJOR='0';
 export JJLAB_VERSION_MINOR='3';
-export JJLAB_VERSION_PATCH='2121';
+export JJLAB_VERSION_PATCH='2123';
 
-export JJLAB_SVN_DATE='Date: 2026-02-17 02:34:52 +1100 (Tue, 17 Feb 2026)';
-export JJLAB_SVN_REVISION='Revision: 2623915252972';
+export JJLAB_SVN_DATE='Date: 2026-02-18 20:09:27 +1100 (Wed, 18 Feb 2026)';
+export JJLAB_SVN_REVISION='Revision: 841768199701';
 export JJLAB_SVN_AUTHOR='Author: jj5';
 
-export JJLAB_GIT_DATE='2026-02-17 02:34:52 +1100 (Tue, 17 Feb 2026)';
+export JJLAB_GIT_DATE='2026-02-18 20:09:27 +1100 (Wed, 18 Feb 2026)';
