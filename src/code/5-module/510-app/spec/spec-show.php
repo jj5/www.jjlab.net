@@ -4758,3 +4758,19 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Earth Grounder' ),
+  maxitronix_segment(
+    publication_date( '2026-02-19' ),
+    title( 'The "Secret Code" Key' ),
+    project( 9, 30 ),
+    maxitronix_kit_name( '30in1' ),
+    youtube_video( 'ZngSPhZP_b8' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/02/19/the-secret-code-key-project-9-30-maxitronix-30in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/151062466' ),
+    tags(
+      'jjlab', 'Maxitronix 30in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'The Secret Code Key', 'Transistor', 'Capacitor', 'Resistor', 'Morse Code', 'Buzzer', 'Oscillator',
+    ),
+  ),
+);

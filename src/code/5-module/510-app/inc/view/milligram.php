@@ -1408,8 +1408,8 @@ function render_blog_template( $equipment_list ) {
       out_text( "In this video we do the \$nth project from the " );
 
         render_link_internal(
-          'Maxitronix Sensor Robot 20 (20in1) Electronics Project Lab Kit',
-          'https://jj5.net/49230',
+          'Maxitronix 30in1 Electronics Project Lab Kit',
+          'https://jj5.net/82225',
           'Click here for affiliate links and latest prices.',
           [
             MUD_HTML_OPT_SPACE => false,
