@@ -4774,3 +4774,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Terminal Tactician' ),
+  learning_the_art(
+    publication_date( '2026-02-24' ),
+    title( "Learning the Art of Electronics: 1L.5 The Diode" ),
+    youtube_video( '1grV06YYkmg' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/02/24/learning-the-art-of-electronics-1l-5-the-diode-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/151471053' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Diode',
+    ),
+  ),
+);
