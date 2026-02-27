@@ -28,7 +28,7 @@ function app_render() {
 
     }
 
-    return http_redirect( $link );
+    return http_redirect( $link, 301 );
 
   }
   catch ( Throwable $ex ) {
