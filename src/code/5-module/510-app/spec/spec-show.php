@@ -4788,3 +4788,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Code Warrior' ),
+  learning_the_art(
+    publication_date( '2026-03-03' ),
+    title( "Learning the Art of Electronics: 1L.6 I versus V for some mystery boxes" ),
+    youtube_video( '4sWBBQ1YgPM' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/03/03/learning-the-art-of-electronics-1l-6-i-versus-v-for-some-mystery-boxes-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/152119219' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'I versus V', 'Mystery Boxes',
+    ),
+  ),
+);
