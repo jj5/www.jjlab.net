@@ -35,6 +35,20 @@ function render_support_main() {
 
         tag_text( 'p', 'Thinking of joining their ranks? Below are a few ideas for how you can support me as well!' );
 
+        tag_open( 'p', [ 'style' => 'border: 3px solid green; border-radius: 5px; padding: 18px; background: lightgreen;' ] );
+
+          out_text( 'The best way to support the show is to become a Patreon supporter: ' );
+
+          render_link_external(
+            'patreon.com/JohnElliotV',
+            'https://www.patreon.com/JohnElliotV',
+            TITLE_PATREON,
+          );
+
+          //out_text( '.' );
+
+        tag_shut( 'p' );
+
       tag_shut( 'section' );
 
     tag_shut( 'header' );
