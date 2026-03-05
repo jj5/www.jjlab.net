@@ -4802,3 +4802,20 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Volt Vanguard' ),
+  maxitronix_segment(
+    publication_date( '2026-03-05' ),
+    title( 'The Highs and Lows of Oscillation' ),
+    project( 10, 30 ),
+    maxitronix_kit_name( '30in1' ),
+    youtube_video( 'bCKvBkI8SvA' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/03/05/the-highs-and-lows-of-oscillation-project-10-30-maxitronix-30in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/152291366' ),
+    tags(
+      'jjlab', 'Maxitronix 30in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'Oscillation', 'Oscillator', 'Transistor', 'Capacitor', 'Resistor',
+    ),
+  ),
+);
