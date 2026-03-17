@@ -563,6 +563,10 @@ equipment(
     order_quantity  ( 1 ),
     order_shipping  ( 'AU$135.69' ),
   ),
+  video_link(
+    link_href   ( 'https://youtu.be/aV4ueIzkP14' ),
+    link_text   ( 'Learning the Art of Electronics: 1L.7 Oscilloscope and function generator | In The Lab With Jay Jay' ),
+  ),
 );
 
 equipment(
@@ -2338,6 +2342,10 @@ equipment(
     order_price     ( 'AU$205.81' ),
     order_quantity  ( 1 ),
     order_gst       ( 'AU$20.58' ),
+  ),
+  video_link(
+    link_href   ( 'https://youtu.be/aV4ueIzkP14' ),
+    link_text   ( 'Learning the Art of Electronics: 1L.7 Oscilloscope and function generator | In The Lab With Jay Jay' ),
   ),
 );
 

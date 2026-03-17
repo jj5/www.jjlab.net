@@ -4819,3 +4819,19 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Spark Slinger' ),
+  learning_the_art(
+    publication_date( '2026-03-17' ),
+    title( "Learning the Art of Electronics: 1L.7 Oscilloscope and function generator" ),
+    youtube_video( 'aV4ueIzkP14' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/03/17/learning-the-art-of-electronics-1l-7-oscilloscope-and-function-generator-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/153249855' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Oscilloscope', 'Function Generator',
+      'Rigol', 'MSO5074', 'UNI-T', 'UTG962E',
+    ),
+  ),
+);
+
