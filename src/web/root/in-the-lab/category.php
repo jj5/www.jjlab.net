@@ -4,6 +4,7 @@
 
 if ( gethostname() !== 'charisma' ) {
 
+  http_response_code( 500 );
   exit;
 
 }

@@ -1,8 +1,13 @@
+User-agent: meta-externalagent
+Disallow: /
+
 User-agent: *
 Disallow: /wiki/mediawiki
 Disallow: /in-the-lab/debug.php
 Disallow: /in-the-lab/jjcode.php
 Disallow: /in-the-lab/blog-template.php
 Disallow: /in-the-lab/youtube-template.php
+Disallow: /in-the-lab/category.php
+Disallow: /in-the-lab/manufacturer.php
 
 Sitemap: https://www.inthelabwithjayjay.com/in-the-lab/sitemap.php
