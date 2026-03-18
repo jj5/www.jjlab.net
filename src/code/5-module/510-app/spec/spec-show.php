@@ -4835,3 +4835,20 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Transistor Troubadour' ),
+  maxitronix_segment(
+    publication_date( '2026-03-19' ),
+    title( 'The Beacon Light' ),
+    project( 11, 30 ),
+    maxitronix_kit_name( '30in1' ),
+    youtube_video( 'nYWv_r9LFXs' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/03/19/the-beacon-light-project-11-30-maxitronix-30in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/153378433' ),
+    tags(
+      'jjlab', 'Maxitronix 30in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'Oscillation', 'Oscillator', 'Transistor', 'Capacitor', 'Resistor', 'Transformer', 'LED',
+    ),
+  ),
+);
+
