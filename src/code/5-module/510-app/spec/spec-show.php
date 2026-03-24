@@ -4852,3 +4852,17 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Note Taker' ),
+  interlude(
+    publication_date( '2026-03-25' ),
+    title( "Making Power Cables for FNIRSI SG-002 Current Source" ),
+    youtube_video( 'THrgvfSHd8o' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/03/25/interlude-19-making-power-cables-for-fnirsi-sg-002-current-source-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/153820304' ),
+    tags(
+      'jjlab', 'Interlude', 'FNIRSI SG-002 Signal Generator', 'Current Source', 'Power Cable',
+    ),
+  ),
+);
+
