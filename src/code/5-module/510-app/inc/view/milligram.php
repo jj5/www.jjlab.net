@@ -1441,6 +1441,7 @@ function render_blog_template( $equipment_list ) {
         'https://jj5.net/14877' => 'EEVblog BM2257 Digital Multimeter',
         'https://jj5.net/13612' => 'EEVblog BM036 Digital Multimeter',
         'https://jj5.net/98301' => 'Fluke 17B+ Digital Multimeter',
+        'https://jj5.net/74820' => 'Yum Cha DT830B Digital Multimeter',
         'https://jj5.net/22041' => "Pro'sKit MT-2207-C Analog Multimeter",
         'https://jj5.net/15985' => 'OWON XDM1041 Bench Multimeter',
         'https://jj5.net/97876' => 'ANENG AN-999S Bench Multimeter',

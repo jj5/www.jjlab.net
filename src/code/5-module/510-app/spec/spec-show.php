@@ -4866,3 +4866,17 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Luminary Luminar' ),
+  learning_the_art(
+    publication_date( '2026-04-14' ),
+    title( "Learning the Art of Electronics: 1S Supplementary Notes: Investigating Thevenin equivalent of voltage divider" ),
+    youtube_video( 'u8-RnUYzMZY' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/04/14/learning-the-art-of-electronics-1s-supplementary-notes-investigating-thevenin-equivalent-of-voltage-divider-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/155580796' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Thevenin Equivalent', 'Voltage Divider',
+      'Resistor', 'Voltage', 'Current', 'Art of Electronics',
+    ),
+  ),
+);

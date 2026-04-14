@@ -7693,6 +7693,22 @@ equipment(
     order_quantity  ( 5 ),
     order_gst       ( 'AU$2.73' ),
   ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005004951791846.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.52.1af218023USIx4&orderId=8204091905613938' ),
+    order_id        ( '8204091905613938' ),
+    order_date      ( 'Sep 1, 2025' ),
+    order_item_name ( 'DT830B AC/DC LCD Digital Multimeter 750/1000V Voltmeter Ammeter Ohm Tester High Safety Handheld Meter Digital Multimeter' ),
+    order_options   ( 'Color: Yellow' ),
+    order_price     ( 'AU$5.12' ),
+    order_quantity  ( 3 ),
+    order_gst       ( 'AU$2.29' ),
+    order_shipping  ( 'AU$3.35' ),
+  ),
+  video_link(
+    link_href   ( 'https://youtu.be/u8-RnUYzMZY' ),
+    link_text   ( 'Learning the Art of Electronics: 1S Supplementary Notes: Investigating Thevenin equivalent of voltage divider' ),
+  ),
 );
 
 equipment(

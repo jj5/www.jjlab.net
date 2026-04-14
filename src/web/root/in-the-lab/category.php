@@ -1,13 +1,14 @@
 <?php
 
 // 2026-03-19 jj5 - TEMP: probably put this back in at some point, disabled for now.
-
+/*
 if ( gethostname() !== 'charisma' ) {
 
   http_response_code( 500 );
   exit;
 
 }
+*/
 
 require_once __DIR__ . '/../../../../run/run-web.php';
 
