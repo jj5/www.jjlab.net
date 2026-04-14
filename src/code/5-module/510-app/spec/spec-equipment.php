@@ -7709,6 +7709,10 @@ equipment(
     link_href   ( 'https://youtu.be/u8-RnUYzMZY' ),
     link_text   ( 'Learning the Art of Electronics: 1S Supplementary Notes: Investigating Thevenin equivalent of voltage divider' ),
   ),
+  video_link(
+    link_href   ( 'https://youtu.be/kvWRG1KQNAQ' ),
+    link_text   ( 'Interlude #20: Making Banana Jack to Female DuPont Cables | In The Lab With Jay Jay' ),
+  ),
 );
 
 equipment(

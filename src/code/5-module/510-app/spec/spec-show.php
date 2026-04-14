@@ -4880,3 +4880,18 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Relay Renegade' ),
+  interlude(
+    publication_date( '2026-04-15' ),
+    title( "Making Banana Jack to Female DuPont Cables" ),
+    youtube_video( 'kvWRG1KQNAQ' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/04/15/interlude-20-making-banana-jack-to-female-dupont-cables-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/155587959' ),
+    tags(
+      'jjlab', 'Interlude', 'Banana Cables',
+      'Banana Jack', 'Female DuPont',
+    ),
+  ),
+);
