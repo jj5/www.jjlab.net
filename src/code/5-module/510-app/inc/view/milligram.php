@@ -1878,7 +1878,7 @@ function render_equipment_table( $equipment_list ) {
 
             tag_text( 'th', 'Affiliate', [ 'style' => 'width:5% !important;' ] );
 
-            tag_text( 'th', 'Unit Price', [ 'colspan' => 2, 'style' => 'width:10% !important;' ] );
+            tag_text( 'th', 'Price', [ 'colspan' => 2, 'style' => 'width:10% !important;' ] );
 
             tag_text( 'th', 'Affiliate Link (Click here for the latest price and to buy!)' );
 
@@ -2171,7 +2171,7 @@ function render_equipment_table( $equipment_list ) {
 
               tag_text( 'th', 'Vendor' );
 
-              tag_text( 'th', 'Unit Price' );
+              tag_text( 'th', 'Price' );
 
               tag_text(
                 'th',
