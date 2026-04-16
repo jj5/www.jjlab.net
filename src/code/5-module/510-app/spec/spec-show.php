@@ -4913,3 +4913,29 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Operation Manager' ),
+  new_book_teardown(
+    publication_date( '2026-04-17' ),
+    youtube_video( 'xanlQ_vJjqk' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/04/17/new-book-teardown-9-basic-circuit-analysis-2nd-edition-2011-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/155758790' ),
+    new_book(
+      title( "Basic Circuit Analysis" ),
+      edition( 2 ),
+      author( "John O'Malley" ),
+      copyright_year( '2011' ),
+      page_count( 419 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com.au/dp/0071756434' ),
+        item_price    ( 'AU$40.95' ),
+      ),
+    ),
+    tags(
+      'jjlab', 'New Book Teardown', 'Book Review',
+      'Basic Circuit Analysis 2nd Edition',
+      'John O\'Malley',
+    ),
+  ),
+);
