@@ -4954,3 +4954,20 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Technical Director' ),
+  mail_call(
+    publication_date( '2026-04-19' ),
+    title( 'Tapo P110M Smart Plug, FNIRSI SG-002, USB-C Power and Cables' ),
+    youtube_video( 'GaAgmzS8Wl8' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/04/19/mail-call-55-tapo-p110m-smart-plug-fnirsi-sg-002-usb-c-power-and-cables-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/155866693' ),
+    tags(
+      'jjlab', 'Mail Call', 'AliExpress', 'Amazon',
+      'FNIRSI SG-002 Signal Generator', 'Current Source',
+      'TP-Link Tapo P110M Smart Plug',
+      'USB-C Power Adapter', 'USB-C Power Cables',
+    ),
+  ),
+);
