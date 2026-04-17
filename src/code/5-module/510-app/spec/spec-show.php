@@ -4939,3 +4939,18 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Craig Entertainer' ),
+  electronics_project(
+    publication_date( '2026-04-18' ),
+    title( 'More Banana Jack to Female DuPont Cables' ),
+    youtube_video( 'QFLNLF-t2v8' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/04/18/electronics-project-26-more-banana-jack-to-female-dupont-cables-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/155864870' ),
+    tags(
+      'jjlab', 'Electronics Project', 'Banana Cables',
+      'Banana Jack', 'Female DuPont',
+    ),
+  ),
+);
