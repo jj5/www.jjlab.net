@@ -4971,3 +4971,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Sparky' ),
+  module_monday(
+    publication_date( '2026-04-20' ),
+    title( 'HW-390 Soil Moisture Sensor Module' ),
+    youtube_video( 'OK1x-6Y5Mfw' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/04/20/module-monday-10-hw-390-soil-moisture-sensor-module-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/156055944' ),
+    tags(
+      'jjlab', 'Module Monday', 'Soil Moisture Sensor Module', 'HW-390', 'Capacitive Sensor Module',
+    ),
+  ),
+);
