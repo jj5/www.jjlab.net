@@ -4985,3 +4985,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Electronics Guru' ),
+  learning_the_art(
+    publication_date( '2026-04-21' ),
+    title( "Learning the Art of Electronics: 1L.4.3 10 mA Ammeter Redux" ),
+    youtube_video( 'XBsXU0Wgmrg' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/04/21/learning-the-art-of-electronics-1l-4-3-10-ma-ammeter-redux-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/156167015' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Ammeter', 'Meter Movement',
+    ),
+  ),
+);
