@@ -4999,3 +4999,27 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Amp Alchemist' ),
+  mail_call(
+    publication_date( '2026-04-22' ),
+    title( 'Tools and Components from AliExpress' ),
+    youtube_video( 'X5HVfRPSc_k' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/04/22/mail-call-56-tools-and-components-from-aliexpress-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/156187790' ),
+    tags(
+      'jjlab', 'Mail Call', 'AliExpress',
+      'TXS0108E', '3.3V 5V 8 Channel Logic Level Converter', // YF08E 7BKG4 D7SL
+      'SS-331H White Mat O-Ring', 'SS-331H Filter', 'SS-331H Needle Pipe Cleaning Brush',
+      'Wall Mounted Hooks',
+      'AU 240V 10A Female Socket', 'AU 240V 10A Male Plug', 'AU 240V 15A Female Socket',
+      'IEC320 C14 AC Inlet Socket',
+      'Hammer Nail Clip',
+      'Round AWG Wire Gauge',
+      'Keychain Multi-tool',
+      'Bolt Gauge Card',
+      'Right-Angle Metal Square Ruler',
+    ),
+  ),
+);
