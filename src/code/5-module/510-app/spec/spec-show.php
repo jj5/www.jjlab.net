@@ -242,6 +242,8 @@ show(
   ),
 );
 
+// 2026-04-23 jj5 - OLD: I'm not sure why this is missing the video..? At any rate it was done again on 2025-12-26.
+/*
 show(
   silly_job_title( 'Grounding Genius' ),
   old_book_teardown(
@@ -254,6 +256,7 @@ show(
     ),
   ),
 );
+*/
 
 show(
   sponsor_name( 'PCBWay' ),
@@ -267,6 +270,8 @@ show(
   ),
 );
 
+// 2026-04-23 jj5 - OLD: I'm not sure why this was here? It's missing the video and I couldn't find it anywhere...
+/*
 show(
   silly_job_title( 'Ohm Oracle' ),
   old_book_teardown(
@@ -279,6 +284,7 @@ show(
     ),
   )
 );
+*/
 
 show(
   extra_content(
