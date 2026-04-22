@@ -5025,6 +5025,24 @@ show(
 );
 
 show(
+  silly_job_title( 'Maker of Videos' ),
+  maxitronix_segment(
+    publication_date( '2026-04-23' ),
+    title( 'The Leaky Faucet' ),
+    project( 13, 30 ),
+    maxitronix_kit_name( '30in1' ),
+    youtube_video( 'Z92uNJJ4RCU' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/04/23/the-leaky-faucet-project-13-30-maxitronix-30in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/156300967' ),
+    tags(
+      'jjlab', 'Maxitronix 30in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'Oscillation', 'Oscillator', 'Transistor', 'Capacitor', 'Resistor', 'Transformer', 'Earphone',
+      'Leaky Faucet',
+    ),
+  ),
+);
+
+show(
   silly_job_title( 'Prime Hack' ),
   mail_call(
     publication_date( '2026-04-29' ),
