@@ -242,6 +242,7 @@ show(
   ),
 );
 
+/*
 show(
   silly_job_title( 'Grounding Genius' ),
   old_book_teardown(
@@ -258,6 +259,7 @@ show(
     ),
   ),
 );
+*/
 
 show(
   sponsor_name( 'PCBWay' ),
@@ -271,6 +273,7 @@ show(
   ),
 );
 
+/*
 show(
   silly_job_title( 'Ohm Oracle' ),
   old_book_teardown(
@@ -287,6 +290,7 @@ show(
     ),
   )
 );
+*/
 
 show(
   extra_content(
