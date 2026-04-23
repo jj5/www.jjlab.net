@@ -10,6 +10,17 @@ if ( gethostname() !== 'charisma' ) {
 }
 */
 
+$user_agent = $_SERVER[ 'HTTP_USER_AGENT' ] ?? '';
+
+if ( strpos( $user_agent, 'meta-' ) === 0 ) {
+
+  // 2026-04-24 jj5 - if we're not buying, any excuse will do...
+  //
+  http_response_code( 429 ); // Too Many Requests
+  exit;
+
+}
+
 require_once __DIR__ . '/../../../../run/run-web.php';
 
 function app_render() {
