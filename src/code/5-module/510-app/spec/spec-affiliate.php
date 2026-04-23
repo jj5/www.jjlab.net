@@ -28,6 +28,11 @@ $g_ignore_list = [
 ];
 
 affiliate(
+  affiliate_name( 'Show Notes' ),
+  affiliate_url( 'https://blog.jj5.net/' ),
+);
+
+affiliate(
   affiliate_name( 'Amazon USA' ),
   affiliate_url( 'https://www.amazon.com/' ),
 );

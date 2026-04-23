@@ -77,7 +77,7 @@ function render_books_main( $books ) {
             tag_text( 'th', 'Copyright' );
             tag_text( 'th', 'Age' );
             tag_text( 'th', 'Pages' );
-            tag_text( 'th', 'Purchase' );
+            tag_text( 'th', 'Links' );
 
           tag_shut( 'tr' );
 
@@ -98,7 +98,12 @@ function render_books_main( $books ) {
 
               tag_open( 'td', [ 'class' => 'right' ] );
 
-                if ( ! $book->get_youtube_video()->is_null() ) {
+                if ( $book->get_youtube_video()->is_null() ) {
+
+                  out_text( $book->get_video_date() );
+
+                }
+                else {
 
                   render_link_internal(
                     $book->get_video_date(),

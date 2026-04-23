@@ -86,10 +86,18 @@ class AffiliateLink extends AppThing implements ILink {
 
   public function render( mixed $format = null, array $attrs = [] ): void {
 
+    $title = TITLE_AFFILIATE_LINK;
+
+    if ( strpos( $this->get_link_href(), 'https://blog.jj5.net/' ) === 0 ) {
+
+      $title = TITLE_SHOW_NOTES;
+
+    }
+
     render_link_external(
       $this->get_link_text(),
       $this->get_link_href(),
-      TITLE_AFFILIATE_LINK,
+      $title,
       [
         'class' => $this->get_link_class(),
       ],

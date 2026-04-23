@@ -242,24 +242,21 @@ show(
   ),
 );
 
-/*
 show(
   silly_job_title( 'Grounding Genius' ),
   old_book_teardown(
     publication_date( '2023-11-30' ),
-    title( "Teardown of Homemade Continuity Tester" ),
-    youtube_video( 'AHW3ipQYTGc' ),
-    blog_url( 'https://blog.jj5.net/blog/2023/11/30/in-the-lab-with-jay-jay-november-30-2023-teardown-of-homemade-continuity-tester/' ),
-    patreon_url( 'https://www.patreon.com/posts/93803125' ),
     old_book(
       title( 'Industrial Electronics Reference Book' ),
       author( 'Electronics Engineers of the Westinghouse Electric Corporation' ),
       copyright_year( '1948' ),
       page_count( 680 ),
+      affiliate_link(
+        equipment_url ( 'https://blog.jj5.net/blog/2023/11/30/in-the-lab-with-jay-jay-november-30-2023-teardown-of-homemade-continuity-tester/' ),
+      ),
     ),
   ),
 );
-*/
 
 show(
   sponsor_name( 'PCBWay' ),
@@ -273,15 +270,10 @@ show(
   ),
 );
 
-/*
 show(
   silly_job_title( 'Ohm Oracle' ),
   old_book_teardown(
     publication_date( '2023-12-12' ),
-    title( "Mail Call! Plus Two Old Books And A Floppy Disk" ),
-    youtube_video( 'gOMHSQCOQ70' ),
-    blog_url( 'https://blog.jj5.net/blog/2023/12/12/in-the-lab-with-jay-jay-december-12-2023-mail-call-plus-two-old-books-and-a-floppy-disk/' ),
-    patreon_url( 'https://www.patreon.com/posts/94525531' ),
     old_book(
       title( 'Electric Circuits' ),
       author( 'J. Richard Johnson' ),
@@ -290,7 +282,6 @@ show(
     ),
   )
 );
-*/
 
 show(
   extra_content(
