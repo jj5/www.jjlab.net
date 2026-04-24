@@ -5067,3 +5067,26 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Ohm Oracle' ),
+  old_book_teardown(
+    publication_date( '2026-04-24' ),
+    youtube_video( 'uNVbqDuULF4' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/04/24/old-book-teardown-24-electronic-and-radio-engineering-1955-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/156412580' ),
+    old_book(
+      title( 'Electronic and Radio Engineering' ),
+      author( 'Frederick Emmons Terman' ),
+      copyright_year( '1955' ),
+      page_count( 666 ),
+      affiliate_link(
+        equipment_url ( 'https://archive.org/details/in.ernet.dli.2015.126279' ),
+      ),
+    ),
+    tags(
+      'jjlab', 'Old Book Teardown', 'Electronic and Radio Engineering', 'Frederick Terman',
+      'Book Review',
+    ),
+  ),
+);
