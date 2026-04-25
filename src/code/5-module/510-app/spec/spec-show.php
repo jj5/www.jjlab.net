@@ -5046,29 +5046,6 @@ show(
 );
 
 show(
-  silly_job_title( 'Prime Hack' ),
-  mail_call(
-    publication_date( '2026-04-29' ),
-    title( 'More Tools and Components from AliExpress' ),
-    youtube_video( 'Jz02YPxf1tE' ),
-    blog_url( 'https://blog.jj5.net/blog/2026/04/29/mail-call-57-more-tools-and-components-from-aliexpress-in-the-lab-with-jay-jay/' ),
-    patreon_url( 'https://www.patreon.com/posts/156297546' ),
-    tags(
-      'jjlab', 'Mail Call', 'AliExpress',
-      'Spatula', 'Hooks', 'Webcam Cover', 'Mighty Bar', 'Stainless Steel Palette Tray with Mixing Rod',
-      'Multi-tool', '50 Year Calendar Medalion', 'TZE 12mm Tape', '18 AWG Wire',
-      'Stainless Steel Double-Sided Bolt Gauge Card', 'Wire Gauge Screw Measuring Tool',
-      'IEC320 C14 Electrical AC Socket', 'Spinning Top', 'Wall-Mounted Vertical Tool Rack',
-      'Glass Prism', 'Rolling Pin', 'Right-Angle Metal Square Ruler', 'Spark Plug Gap Gauge',
-      'Newton\'s Cradle', 'USB-A and USB-C Converters', 'Caulk Cap Glue Condom',
-      'Knitting Accessories Needle Gauge', 'Nano Cleaning Sponge',
-      '12V Mini Tungsten Bulb', 'Magnetic Metal Plate Sticker', 'Mini Funnel', 'Portable Nail Fixer Tool',
-      'USB Silicone Dust Plugs'
-    ),
-  ),
-);
-
-show(
   silly_job_title( 'Ohm Oracle' ),
   old_book_teardown(
     publication_date( '2026-04-24' ),
@@ -5101,6 +5078,29 @@ show(
     patreon_url( 'https://www.patreon.com/posts/156496004' ),
     tags(
       'jjlab', 'Electronics Project', 'Space Drop', 'Handheld Game', 'ESP8266 D1 Mini',
+    ),
+  ),
+);
+
+show(
+  silly_job_title( 'Prime Hack' ),
+  mail_call(
+    publication_date( '2026-04-29' ),
+    title( 'More Tools and Components from AliExpress' ),
+    youtube_video( 'Jz02YPxf1tE' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/04/29/mail-call-57-more-tools-and-components-from-aliexpress-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/156297546' ),
+    tags(
+      'jjlab', 'Mail Call', 'AliExpress',
+      'Spatula', 'Hooks', 'Webcam Cover', 'Mighty Bar', 'Stainless Steel Palette Tray with Mixing Rod',
+      'Multi-tool', '50 Year Calendar Medalion', 'TZE 12mm Tape', '18 AWG Wire',
+      'Stainless Steel Double-Sided Bolt Gauge Card', 'Wire Gauge Screw Measuring Tool',
+      'IEC320 C14 Electrical AC Socket', 'Spinning Top', 'Wall-Mounted Vertical Tool Rack',
+      'Glass Prism', 'Rolling Pin', 'Right-Angle Metal Square Ruler', 'Spark Plug Gap Gauge',
+      'Newton\'s Cradle', 'USB-A and USB-C Converters', 'Caulk Cap Glue Condom',
+      'Knitting Accessories Needle Gauge', 'Nano Cleaning Sponge',
+      '12V Mini Tungsten Bulb', 'Magnetic Metal Plate Sticker', 'Mini Funnel', 'Portable Nail Fixer Tool',
+      'USB Silicone Dust Plugs'
     ),
   ),
 );
