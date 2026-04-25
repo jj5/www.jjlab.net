@@ -5090,3 +5090,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Current Curator' ),
+  electronics_project(
+    publication_date( '2026-04-25' ),
+    title( 'Space Drop Handheld Game' ),
+    youtube_video( 'uD_pmR0BXhM' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/04/25/electronics-project-27-space-drop-handheld-game-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/156496004' ),
+    tags(
+      'jjlab', 'Electronics Project', 'Space Drop', 'Handheld Game', 'ESP8266 D1 Mini',
+    ),
+  ),
+);
