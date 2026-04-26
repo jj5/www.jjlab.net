@@ -5083,6 +5083,20 @@ show(
 );
 
 show(
+  silly_job_title( 'Electron Ambassador' ),
+  electronics_project(
+    publication_date( '2026-04-26' ),
+    title( 'Space Drop Power Subsystem' ),
+    youtube_video( 'o7Ru_ILYJeo' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/04/26/electronics-project-28-space-drop-power-subsystem-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/156572118' ),
+    tags(
+      'jjlab', 'Electronics Project', 'Power Subsystem', 'Space Drop', 'Auto Power Off',
+    ),
+  ),
+);
+
+show(
   silly_job_title( 'Prime Hack' ),
   mail_call(
     publication_date( '2026-04-29' ),
