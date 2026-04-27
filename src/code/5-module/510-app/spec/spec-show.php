@@ -5097,6 +5097,20 @@ show(
 );
 
 show(
+  silly_job_title( 'Current Commander' ),
+  module_monday(
+    publication_date( '2026-04-27' ),
+    title( 'IR-08H Avoidance Sensor Module' ),
+    youtube_video( 'bEZVenDS17A' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/04/27/module-monday-11-ir-08h-avoidance-sensor-module-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/156648896' ),
+    tags(
+      'jjlab', 'Module Monday', 'IR-08H Avoidance Sensor Module',
+    ),
+  ),
+);
+
+show(
   silly_job_title( 'Prime Hack' ),
   mail_call(
     publication_date( '2026-04-29' ),
