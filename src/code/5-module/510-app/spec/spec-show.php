@@ -5132,3 +5132,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Electronics Guy' ),
+  learning_the_art(
+    publication_date( '2026-04-28' ),
+    title( "Learning the Art of Electronics: 1W.1 Designing an Ammeter" ),
+    youtube_video( 'sz1OvOe4W1I' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/04/28/learning-the-art-of-electronics-1w-1-designing-an-ammeter-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/156744960' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Ammeter', 'Meter Movement', 'Approximation',
+    ),
+  ),
+);
