@@ -5146,3 +5146,21 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Systems Architect' ),
+  maxitronix_segment(
+    publication_date( '2026-04-30' ),
+    title( 'The Bee' ),
+    project( 14, 30 ),
+    maxitronix_kit_name( '30in1' ),
+    youtube_video( '-nDDNfjAkeg' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/04/30/the-bee-project-14-30-maxitronix-30in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/156954552' ),
+    tags(
+      'jjlab', 'Maxitronix 30in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'Oscillation', 'Oscillator', 'Transistor', 'Capacitor', 'Resistor', 'Transformer', 'Earphone',
+      'The Bee',
+    ),
+  ),
+);
