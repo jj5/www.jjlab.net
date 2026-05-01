@@ -5164,3 +5164,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Phase Pharaoh' ),
+  electronics_project(
+    publication_date( '2026-05-01' ),
+    title( 'STC15W204S series MCU LED Hourglass Project' ),
+    youtube_video( 'UDoSZHVbGD8' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/05/01/electronics-project-29-stc15w204s-series-mcu-led-hourglass-project-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/157048826' ),
+    tags(
+      'jjlab', 'Electronics Project', 'LED Hourglass', 'STC15W204S', 'Microcontroller', 'MCU',
+    ),
+  ),
+);
