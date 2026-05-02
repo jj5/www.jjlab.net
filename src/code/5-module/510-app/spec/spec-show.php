@@ -5178,3 +5178,22 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Cable Connector' ),
+  mail_call(
+    publication_date( '2026-05-02' ),
+    title( 'Loot from AliExpress, Amazon, and Seagate' ),
+    youtube_video( 'BcxTEgil0QU' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/05/02/mail-call-58-loot-from-aliexpress-amazon-and-seagate-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/157150550' ),
+    tags(
+      'jjlab', 'Mail Call', 'AliExpress', 'Amazon', 'Seagate',
+      'TSH-06F IC Tester',
+      'Seagate Exos X24 12TB', 'Hard Drive', 'HDD',
+      'LocknLock Round Tall Food Container', 'Cloth Container',
+      'Heavy Duty Black Gaffer Tape',
+      'Thermalright Assassin X 120 SE CPU Air Cooler', 'CPU Fan',
+    ),
+  ),
+);
