@@ -5197,3 +5197,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Circuit Sorcerer' ),
+  electronics_project(
+    publication_date( '2026-05-03' ),
+    title( 'CD4017 Colorful Voice Control Rotating LED Light Kit' ),
+    youtube_video( '4oLyAqszd9Y' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/05/03/electronics-project-30-cd4017-colorful-voice-control-rotating-led-light-kit-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/157236120' ),
+    tags(
+      'jjlab', 'Electronics Project', 'Rotating LED Light', 'CD4017', 'Voice Control',
+    ),
+  ),
+);
