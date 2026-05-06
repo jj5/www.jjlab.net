@@ -5211,3 +5211,59 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Bolt Boy' ),
+  module_monday(
+    publication_date( '2026-05-04' ),
+    title( 'YL-99 Collision Sensor Module' ),
+    youtube_video( 'MeXd0KnG64g' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/05/04/module-monday-12-yl-99-collision-sensor-module-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/157320326' ),
+    tags(
+      'jjlab', 'Module Monday', 'YL-99 Collision Sensor Module',
+    ),
+  ),
+);
+
+show(
+  silly_job_title( 'Science Officer' ),
+  learning_the_art(
+    publication_date( '2026-05-05' ),
+    title( "Learning the Art of Electronics: 1W.1 Designing a Voltmeter" ),
+    youtube_video( '1lM3O1KqxO4' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/05/05/learning-the-art-of-electronics-1w-1-designing-a-voltmeter-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/157413893' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Voltmeter', 'Meter Movement', 'Approximation',
+    ),
+  ),
+);
+
+show(
+  silly_job_title( 'Grounding Genius' ),
+  mail_call(
+    publication_date( '2026-05-06' ),
+    title( 'Loot from AliExpress and Amazon' ),
+    youtube_video( '39Oi8EVS19Y' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/05/06/mail-call-59-loot-from-aliexpress-and-amazon-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/157516231' ),
+    tags(
+      'jjlab', 'Mail Call', 'AliExpress', 'Amazon',
+      'Rössler Drawer Box',
+      'Iron Sky DVD',
+      'The Bullet Journal Method', 'Metal Stencil Bookmark for Bullet Journals',
+      'Multi Functional Table Storage Hook Rack',
+      'Plastic Screw Holder',
+      'Glue Sealing Cap', 'Glue Condom',
+      '3-in-1 OTG Adapter USB 3.0 UBS-C to USB-A with TF and SD Card Reader',
+      'Rafford Screw Holder Drill Bit',
+      'Cable Label Sticker', 'Cable Tag Sticker',
+      'Silicone Dust Plugs USB-A', 'Silicone Dust Plugs USB-C',
+      'Microfiber Cleaning Cloth',
+      'Thin Metal Disassembly Tool With Handle',
+      'Stainless Steel Spudger Pry Tool Set',
+      'Colored Velcro Cable Ties',
+    ),
+  ),
+);
