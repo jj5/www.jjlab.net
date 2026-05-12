@@ -5267,3 +5267,18 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Chief Fuse Blower' ),
+  learning_the_art(
+    publication_date( '2026-05-12' ),
+    title( "Learning the Art of Electronics: 1W.2 Resistor power dissipation" ),
+    youtube_video( 'tzXCLMrHmko' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/05/12/learning-the-art-of-electronics-1w-2-resistor-power-dissipation-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/158034435' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Power Dissipation', 'Resistor',
+      'The Art of Electronics', 'Power in resistors'
+    ),
+  ),
+);
