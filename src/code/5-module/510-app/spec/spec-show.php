@@ -5282,3 +5282,46 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Conductor Captain' ),
+  mail_call(
+    publication_date( '2026-05-13' ),
+    title( 'Loot from AliExpress and Amazon' ),
+    youtube_video( 'LbnT26Szge4' ),
+    blog_url( '' ),
+    patreon_url( 'https://www.patreon.com/posts/' ),
+    tags(
+      'jjlab', 'Mail Call', 'AliExpress', 'Amazon',
+      'Bullet Journal',
+      'Infrared Obstacle Avoidance Sensor Module',
+      '4 Channel Infrared Avoidance Sensor Module',
+      '2W Metal Film Resistor',
+      'USB-A Cable', '3mm Green LED',
+      'KY-032 Infrared Obstacle Avoidance Sensor Module',
+      'High Accuracy DC Voltage Sensor Module',
+      'Insulation Piercing Probes',
+      '433 MHz Wireless RF Transmitter and Receiver',
+      'Telescopic Magnetic Pickup Tool',
+      'LM393 Voltage Comparator Module',
+      'Heavy-Duty Multipurpose Double-Headed Crocodile Clip Holder',
+      'LM358P Operational Amplifier DIP8 IC Chip',
+      'Mini Brass Wire Brush Set',
+      '6-In-1 Solar-Power Robot Kit',
+      'Solar Car Toy for Kids',
+      'TTP223 Touch Button Module',
+      '433 MHz HC-12 SI4463 Wireless Serial Port Module',
+      'Multimeter Probe Holder',
+      '4Pcs Precision Pick and Hook Set',
+      'Automotive Electrical Terminal Connector Removal Tool',
+      'Solar Racing Car DIY Hand-Assembled Model Kit',
+      'Lithium Battery Charger Module',
+      'HMA76-1 Set Hand Assembled Models DIY Acoustic Imaging Device',
+      'SOP8 To DIP8 EZ Programmer Adapter Socket',
+      'USB-C Socket',
+      'CH340N USB-C To UART TTL Serial Port Communication Module',
+
+
+    ),
+  ),
+);
