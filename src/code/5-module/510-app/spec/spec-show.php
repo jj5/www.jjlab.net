@@ -5289,8 +5289,8 @@ show(
     publication_date( '2026-05-13' ),
     title( 'Loot from AliExpress and Amazon' ),
     youtube_video( 'LbnT26Szge4' ),
-    blog_url( '' ),
-    patreon_url( 'https://www.patreon.com/posts/' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/05/13/mail-call-60-loot-from-aliexpress-and-amazon-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/158147436' ),
     tags(
       'jjlab', 'Mail Call', 'AliExpress', 'Amazon',
       'Bullet Journal',
