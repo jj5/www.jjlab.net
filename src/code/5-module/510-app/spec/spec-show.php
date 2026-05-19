@@ -5339,3 +5339,22 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Hack in Residence' ),
+  mail_call(
+    publication_date( '2026-05-20' ),
+    title( 'Loot from AliExpress' ),
+    youtube_video( 'O-2f268bJxA' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/05/20/mail-call-61-loot-from-aliexpress-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/158683612' ),
+    tags(
+      'jjlab', 'Mail Call', 'AliExpress',
+      '3.5mm Audio Cable',
+      'Steel Wire Brush', 'Brass Wire Brush', 'Fiberglass Bristle Brush', 'Nylon Bristle Brush',
+      'Electronic Hourglass DIY Kit', 'STC 15W201S-35I DIP16 Microcontroller', 'STC15W201S-35I MCU',
+      '46Pcs Socket Set with Ratchet Handle',
+      '14Types 82PCS USB Socket', '10Types 100PCS USB-C Socket',
+    ),
+  ),
+);
