@@ -5325,3 +5325,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Charge Charmer' ),
+  learning_the_art(
+    publication_date( '2026-05-19' ),
+    title( "Learning the Art of Electronics: 1W.3 Instrument Imperfections" ),
+    youtube_video( 'vK5-jFGNgWU' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/05/19/learning-the-art-of-electronics-1w-3-instrument-imperfections-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/158670251' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Ammeter', 'Voltmeter', 'DVM', 'VOM',
+    ),
+  ),
+);
