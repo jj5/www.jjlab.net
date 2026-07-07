@@ -5377,3 +5377,17 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Capacitor Captain' ),
+  learning_the_art(
+    publication_date( '2026-07-07' ),
+    title( "Learning the Art of Electronics: 1W.4 Thevenin Models" ),
+    youtube_video( 'A2xTu74V5S4' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/07/07/learning-the-art-of-electronics-1w-4-thevenin-models-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/163131520' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Thevenin Models', 'Thevenin Equivalent', 'Voltage Divider', 'Resistor',
+    ),
+  ),
+);
+
