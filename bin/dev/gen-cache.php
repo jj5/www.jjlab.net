@@ -1,6 +1,8 @@
 #!/usr/bin/env php
 <?php
 
+require_once __DIR__ . '/../../debug.php';
+
 define( 'APP_ORIGIN', 'http://localhost' );
 define( 'APP_ORIGIN_PROD', 'https://www.inthelabwithjayjay.com' );
 define( 'APP_ORIGIN_CDN', 'https://der3syffk4l6q.cloudfront.net' );
