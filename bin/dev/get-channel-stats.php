@@ -1,6 +1,8 @@
 #!/usr/bin/env php
 <?php
 
+require_once __DIR__ . '/../../debug.php';
+
 require_once __DIR__ . '/../../inc/framework.php';
 require_once __DIR__ . '/../../config.php';
 

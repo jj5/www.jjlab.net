@@ -1,6 +1,8 @@
 #!/usr/bin/env php
 <?php
 
+require_once __DIR__ . '/../../debug.php';
+
 function main( $argv ) {
 
   $list = get_list( Equipment::class );
