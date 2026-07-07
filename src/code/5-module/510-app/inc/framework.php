@@ -8,32 +8,7 @@ if ( ! defined( 'JJLAB_DIR' ) ) {
 
 }
 
-if ( is_cache_request() ) {
-
-  define( 'DEBUG', false );
-  define( 'DEV', false );
-  define( 'BETA', false );
-  define( 'PROD', true );
-
-}
-
 assert_options( ASSERT_CALLBACK, 'custom_assert_handler' );
-
-function is_cache_request() {
-
-  static $is_cache_request = null;
-
-  if ( $is_cache_request === null ) {
-
-    $cache = $_COOKIE[ 'cache' ] ?? false;
-
-    $is_cache_request = ( $cache !== false );
-
-  }
-
-  return $is_cache_request;
-
-}
 
 function get_resource_version( string $resource_name ) {
 
