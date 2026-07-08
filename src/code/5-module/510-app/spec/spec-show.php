@@ -5391,3 +5391,20 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Joule Juggler' ),
+  maxitronix_segment(
+    publication_date( '2026-07-09' ),
+    title( 'The Burglar Alarm' ),
+    project( 16, 30 ),
+    maxitronix_kit_name( '30in1' ),
+    youtube_video( 'bLGmeTl_Ivs' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/07/09/the-burglar-alarm-project-16-30-maxitronix-30in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/163216966' ),
+    tags(
+      'jjlab', 'Maxitronix 30in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'Oscillation', 'Oscillator', 'Transistor', 'Capacitor', 'Resistor', 'Transformer', 'Earphone',
+      'The Burglar Alarm',
+    ),
+  ),
+);
