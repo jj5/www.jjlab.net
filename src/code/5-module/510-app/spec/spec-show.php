@@ -5408,3 +5408,19 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Tech Lead' ),
+  learning_the_art(
+    publication_date( '2026-07-14' ),
+    title( "Learning the Art of Electronics: 1W.6 Effects of loading" ),
+    youtube_video( 'u96T5tc9c20' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/07/14/learning-the-art-of-electronics-1w-6-effects-of-loading-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/163703504' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Thevenin Models', 'Thevenin Equivalent', 'Voltage Divider', 'Resistor',
+      'Loading', 'Load Resistance', 'Voltage Drop',
+    ),
+  ),
+);
+
