@@ -5424,3 +5424,20 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Wire Whisperer' ),
+  maxitronix_segment(
+    publication_date( '2026-07-16' ),
+    title( 'The Touching Light' ),
+    project( 17, 30 ),
+    maxitronix_kit_name( '30in1' ),
+    youtube_video( 'QTSpTpG01q4' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/07/16/the-touching-light-project-17-30-maxitronix-30in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/163787711' ),
+    tags(
+      'jjlab', 'Maxitronix 30in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'Oscillation', 'Oscillator', 'Transistor', 'Darlington Pair', 'LED', 'Resistor',
+      'The Touching Light',
+    ),
+  ),
+);
