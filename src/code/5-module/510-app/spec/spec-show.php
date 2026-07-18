@@ -5441,3 +5441,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Tome Pumper' ),
+  learning_the_art(
+    publication_date( '2026-07-21' ),
+    title( "Learning the Art of Electronics: 1O Breadboarding Hints and Tips" ),
+    youtube_video( 'Eca31PMI2Ws' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/07/21/learning-the-art-of-electronics-1o-breadboarding-hints-and-tips-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/164209650' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Breadboarding', 'Breadboard', 'Hints and Tips', 'Online Content',
+    ),
+  ),
+);
