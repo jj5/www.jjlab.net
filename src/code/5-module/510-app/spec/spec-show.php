@@ -5455,3 +5455,18 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Voltage Virtuoso' ),
+  unboxing(
+    publication_date( '2026-07-19' ),
+    title( 'Unboxing the Casio fx-991CW ClassWiz Scientific Calculator' ),
+    youtube_video( 'GlM1Q9RXCVo' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/07/19/unboxing-32-unboxing-the-casio-fx-991cw-classwiz-scientific-calculator-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/164231379' ),
+    tags(
+      'jjlab', 'Casio', 'fx-991CW', 'ClassWiz', 'Scientific Calculator', 'ClassPad.net', 'Unboxing',
+      'Math', 'Engineering', 'Science'
+    ),
+  ),
+);
