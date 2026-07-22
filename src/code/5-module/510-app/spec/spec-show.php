@@ -5470,3 +5470,21 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Fixeruperer' ),
+  maxitronix_segment(
+    publication_date( '2026-07-23' ),
+    title( 'The Rain Detector' ),
+    project( 18, 30 ),
+    maxitronix_kit_name( '30in1' ),
+    youtube_video( 'a3JAk1lPhfw' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/07/23/the-rain-detector-project-18-30-maxitronix-30in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/164540264' ),
+    tags(
+      'jjlab', 'Maxitronix 30in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'Oscillation', 'Oscillator',
+      'The Rain Detector',
+    ),
+  ),
+);
