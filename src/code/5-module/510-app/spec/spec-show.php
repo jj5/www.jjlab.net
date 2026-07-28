@@ -5488,3 +5488,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Chief Engineer' ),
+  learning_the_art(
+    publication_date( '2026-07-28' ),
+    title( "Learning the Art of Electronics: Fig 2N.3 RC constant current" ),
+    youtube_video( 'PyX9yefAZzo' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/07/28/learning-the-art-of-electronics-fig-2n-3-rc-constant-current-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/165043105' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'RC Circuit', 'Time-Domain', 'Constant Current', 'Capacitor', 'Resistor',
+    ),
+  ),
+);
