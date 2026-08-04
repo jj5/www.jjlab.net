@@ -5502,3 +5502,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Watt Wizard' ),
+  learning_the_art(
+    publication_date( '2026-08-04' ),
+    title( "Learning the Art of Electronics: Fig 2N.4 Constant Current Investigation" ),
+    youtube_video( 'M-La-vGj_WI' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/08/04/learning-the-art-of-electronics-fig-2n-4-constant-current-investigation-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Constant Current', 'Current Source',
+    ),
+  ),
+);
