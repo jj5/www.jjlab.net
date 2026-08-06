@@ -16488,6 +16488,47 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2026-08-06' ),
+  equipment_icon( 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhamparts.shop%2Fimg%2Fcms%2Faccessories%2Fvna%2Flitevna64%2Flitevna64_all.jpg&f=1&nofb=1&ipt=7b3bcf50f49741acdab70dcb776e8d1986f281d28510888b8d3ee0d22ba99894' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.zeenko.tech/litevna' ),
+      link_text       ( 'LiteVNA64 All-in-One VNA' ),
+    ),
+    manufacturer_name ( 'ZeenKo' ),
+    model_name        ( 'LiteVNA64' ),
+    EquipmentFeature::VECTOR_NETWORK_ANALYZER,
+    EquipmentConnectivity::USB,
+    EquipmentAttribute::TEST_EQUIPMENT,
+  ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/LiteVNA_64_Vector_Network_Analyzer' ),
+  web_link(
+    link_href   ( 'https://drive.google.com/drive/folders/10lU5xnwmHDnPX98z21ky09N8nb_cEOk4' ),
+    link_text   ( 'LiteVNA documentation and software' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005008556839182.html' ),
+    listing_name  ( 'Latest Version 0.3.2 LiteVNA-64 50KHz ~ 6.3GHz LiteVNA 3.95" Touch Screen Vector Network Analyzer HF VHF UHF Antenna Analyzer' ),
+    item_price    ( 'AU$236.19' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005008556839182.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.67.674c180289a4IK&orderId=8213808475863938' ),
+    order_id        ( '8213808475863938' ),
+    order_date      ( 'Jul 29, 2022' ),
+    order_item_name ( 'Latest Version 0.3.2 LiteVNA-64 50KHz ~ 6.3GHz LiteVNA 3.95" Touch Screen Vector Network Analyzer HF VHF UHF Antenna Analyzer' ),
+    //order_options   ( '' ),
+    order_price     ( 'AU$229.99' ),
+    order_quantity  ( 1 ),
+    order_shipping  ( 'AU$0.01' ),
+    order_tax       ( 'AU$23.00' ),
+  ),
+  video_link(
+    link_href   ( 'https://youtu.be/828qamZ_DHU' ),
+    link_text   ( 'Unboxing the ZeenKo LiteVNA64 Vector Network Analyzer' ),
+  ),
+);
 
 
 /*

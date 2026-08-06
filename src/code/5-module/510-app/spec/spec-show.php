@@ -5516,3 +5516,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Electron Enchanter' ),
+  unboxing(
+    publication_date( '2026-08-06' ),
+    title( 'Unboxing the ZeenKo LiteVNA64 Vector Network Analyzer' ),
+    youtube_video( '828qamZ_DHU' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/08/06/unboxing-33-unboxing-the-zeenko-litevna64-vector-network-analyzer-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/165912065' ),
+    tags(
+      'jjlab', 'LiteVNA64', 'Vector Network Analyzer', 'ZeenKo', 'Unboxing',
+    ),
+  ),
+);

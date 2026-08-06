@@ -218,6 +218,13 @@ enum EquipmentFeature : string {
     case DIGITAL_STORAGE_OSCILLOSCOPE = 'digital-storage-oscilloscope';
 
   //
+  // VECTOR_NETWORK_ANALYZER
+  //
+
+  case VECTOR_NETWORK_ANALYZER = 'vector-network-analyzer';
+
+
+  //
   // ANALYZER
   //
 

@@ -482,6 +482,20 @@ equipment_define(
   );
 
 //
+// 2026-08-06 jj5 - VECTOR_NETWORK_ANALYZER
+//
+
+equipment_define(
+  EquipmentFeature::VECTOR_NETWORK_ANALYZER,
+  EquipmentClass::VECTOR_NETWORK_ANALYZER,
+  EquipmentAttribute::TEST_EQUIPMENT,
+  EquipmentAttribute::MEASURING_EQUIPMENT,
+  EquipmentMeasure::TIME,
+  EquipmentMeasure::FREQUENCY,
+);
+
+
+//
 // 2024-08-03 jj5 - ANALYZER
 //
 

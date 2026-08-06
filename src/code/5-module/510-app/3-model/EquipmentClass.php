@@ -158,6 +158,7 @@ enum EquipmentClass : string {
   case UV_LAMP = 'uv-lamp';
   case VACUUM = 'vacuum';
   case VACUUM_FILTER = 'vacuum-filter';
+  case VECTOR_NETWORK_ANALYZER = 'vector-network-analyzer';
   case VOLTAGE_DETECTOR = 'voltage-detector';
   case WIRE = 'wire';
   case WIRE_CUTTER = 'wire-cutter';
