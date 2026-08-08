@@ -5530,3 +5530,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Digital Dancer' ),
+  unboxing(
+    publication_date( '2026-08-08' ),
+    title( 'Unboxing the Sharp EL-506TS Scientific Calculator' ),
+    youtube_video( 'nXx-NiST6HI' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/08/08/unboxing-34-unboxing-the-sharp-el-506ts-scientific-calculator-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/166097922' ),
+    tags(
+      'jjlab', 'Sharp EL-506TS', 'Scientific Calculator', 'Unboxing',
+    ),
+  ),
+);
