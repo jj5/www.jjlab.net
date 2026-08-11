@@ -5510,7 +5510,7 @@ show(
     title( "Learning the Art of Electronics: Fig 2N.4 Constant Current Investigation" ),
     youtube_video( 'M-La-vGj_WI' ),
     blog_url( 'https://blog.jj5.net/blog/2026/08/04/learning-the-art-of-electronics-fig-2n-4-constant-current-investigation-in-the-lab-with-jay-jay/' ),
-    patreon_url( 'https://www.patreon.com/posts/' ),
+    patreon_url( 'https://www.patreon.com/posts/165740774' ),
     tags(
       'jjlab', 'Learning the Art of Electronics', 'Constant Current', 'Current Source',
     ),
@@ -5541,6 +5541,23 @@ show(
     patreon_url( 'https://www.patreon.com/posts/166097922' ),
     tags(
       'jjlab', 'Sharp EL-506TS', 'Scientific Calculator', 'Unboxing',
+    ),
+  ),
+);
+
+show(
+  silly_job_title( 'Connector Kingpin' ),
+  learning_the_art(
+    publication_date( '2026-08-11' ),
+    title( "Learning the Art of Electronics: Constant Current Reading from AoE and AoEx" ),
+    youtube_video( 'EgWF3yQZPfU' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/08/11/learning-the-art-of-electronics-constant-current-reading-from-aoe-and-aoex-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/166388840' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Current Source', 'Constant Current',
+      'The Art of Electronics', 'The Art of Electronics: The x-Chapters', 'AoE', 'AoEx',
+      'BJT Current Source', 'Op-Amp Current Source', 'Voltage Regulator Current Source',
+      'Cascode Configuration',
     ),
   ),
 );
