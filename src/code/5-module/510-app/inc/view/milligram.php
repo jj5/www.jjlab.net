@@ -1336,7 +1336,7 @@ function render_blog_template( $equipment_list ) {
       mud_html_set_opt( MUD_HTML_OPT_SPACE, true );
       mud_html_set_opt( MUD_HTML_OPT_BREAK, false );
 
-      out_text( "\nYou can support this channel on Patreon: " );
+      out_text( "\nYou can support this channel: " );
 
       render_link_external(
         'patreon.com/JohnElliotV',
