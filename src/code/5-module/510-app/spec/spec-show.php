@@ -5561,3 +5561,36 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Phase Phaser' ),
+  mail_call(
+    publication_date( '2026-08-16' ),
+    title( 'Loot from AliExpress, Amazon, and eBay' ),
+    youtube_video( 'auRZiCc2CoA' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/08/16/mail-call-62-loot-from-aliexpress-amazon-and-ebay-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/166783696' ),
+    tags(
+      'jjlab', 'Mail Call', 'Graphing Calculator', 'Scientific Calculator',
+      'AliExpress', 'Amazon', 'eBay',
+      'SMA to BNC Adapter', 'Pentel 0.7mm 2B Lead Refill', 'Epic Xylitol Gum', 'Space Bookmarks',
+      'FNIRSI HRM-10 Battery Voltage Internal Resistance Tester',
+      'FNIRSI SG-003A Multifunctional Signal Generator',
+      'Mestek EMF Meter Electromagnetic Field Radiation Detector',
+      'Casio fx-991CW Advanced Scientific Calculator',
+      'TI 36X Pro Scientific Calculator',
+      'Casio fx-CP400 CAS Graphing Calculator',
+      'HP Prime CAS Graphing Calculator',
+      'Axiometa Genesis Mini',
+      'Airepair LCR-AR1 Transistor Diode LCR ESR Tester',
+      'Bendable Spring Drawstring Threader',
+      'X8 Brushless Violent Mini Fan',
+      'Mini TEF6686 All Band Radio Receiver',
+      '0V-3700V Withstanding Voltage Tester',
+      '10A Relay Receiver with Remote Control',
+      'Precision Signal Generator',
+      'Battery Capacity Checker',
+      'FNIRSI ERD-10 4-IN-1 Electromagnetic Radiation Detector',
+    ),
+  ),
+);
