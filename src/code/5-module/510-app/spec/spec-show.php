@@ -5594,3 +5594,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Spark Specialist' ),
+  unboxing(
+    publication_date( '2026-08-17' ),
+    title( 'Unboxing the HP Prime CAS Graphing Calculator' ),
+    youtube_video( 'nj7KWOYJ6Cg' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/08/17/unboxing-35-unboxing-the-hp-prime-cas-graphing-calculator-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/166789354' ),
+    tags(
+      'jjlab', 'HP Prime', 'Graphing Calculator', 'Scientific Calculator', 'CAS', 'Unboxing',
+    ),
+  ),
+);
