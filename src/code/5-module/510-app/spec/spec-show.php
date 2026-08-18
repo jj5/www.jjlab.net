@@ -5608,3 +5608,18 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Switch Sleuth' ),
+  learning_the_art(
+    publication_date( '2026-08-18' ),
+    title( "Learning the Art of Electronics: Constant Current BJT Circuit from AoE" ),
+    youtube_video( '2eeZ5gNgGjQ' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/08/18/learning-the-art-of-electronics-constant-current-bjt-circuit-from-aoe-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/166973217' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Current Source', 'Constant Current',
+      'The Art of Electronics', 'AoE', 'BJT Current Source',
+    ),
+  ),
+);
