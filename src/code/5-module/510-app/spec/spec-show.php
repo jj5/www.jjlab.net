@@ -5623,3 +5623,27 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Charge Changer' ),
+  mail_call(
+    publication_date( '2026-08-23' ),
+    title( 'Loot from AliExpress & Amazon, Periodic Table & Electronics' ),
+    youtube_video( 'JJ9Qtu15wYg' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/08/23/mail-call-63-loot-from-aliexpress-amazon-periodic-table-electronics-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/167444289' ),
+    tags(
+      'jjlab', 'Mail Call', 'Periodic Table',
+      'AliExpress', 'Amazon', 'Silicon Chip', 'Fundamentals of Solid State', 'Periodic Table Advanced',
+      'QuickStudy Cheatsheets', 'Periodic Table of Elements',
+      'LT3092 Adjustable Constant Current Source',
+      'LND150N3-G N-Channel Depletion Mode MOSFET',
+      'IXCP10M45S Current Regulator',
+      'LM334Z Adjustable Constant Current Source',
+      'CH341A Programmer',
+      'SST505 Current Regulation Diode',
+      'LM385Z-2.5 Voltage Reference',
+      'REF200 Current Source and Current Mirror',
+    ),
+  ),
+);
