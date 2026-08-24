@@ -5647,3 +5647,19 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Energy Elicitor' ),
+  unboxing(
+    publication_date( '2026-08-24' ),
+    title( 'Unboxing the MESTEK EMF02R EMF Meter' ),
+    youtube_video( 'Kt490C98OGM' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/08/24/unboxing-36-unboxing-the-mestek-emf02r-emf-meter-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/167540604' ),
+    tags(
+      'jjlab', 'MESTEK EMF02R', 'EMF Meter', 'Unboxing',
+      'Magnetic Field', 'Electromagnetic Field', 'Radiation Detector', 'EMF Detector',
+      'E-Field', 'H-Field', 'EMF Measurement', 'Electromagnetic Radiation', 'RF Radiation',
+    ),
+  ),
+);
