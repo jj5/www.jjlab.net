@@ -5677,3 +5677,24 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Cable Commander' ),
+  mail_call(
+    publication_date( '2026-08-29' ),
+    title( 'Loot from AliExpress & Amazon, ELP-U3 USB Camera, Spanners and More!' ),
+    youtube_video( 'rT0rG6eFvvM' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/08/29/mail-call-64-loot-from-aliexpress-amazon-elp-u3-usb-camera-spanners-and-more-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/167955123' ),
+    tags(
+      'jjlab', 'AliExpress', 'Amazon',
+      'Mail Call', 'Periodic Table',
+      'M5Stack Official Cap LoRa 1262 for Cardputer Adv',
+      'SMA Cable', 'SMA Adapter',
+      'Stainless Steel Spanner Set', 'Wrench Set',
+      'The Art of Electronics: The x-Chapters 2nd Edition',
+      'Dual Gang Potentiometer',
+      'ELP-U3 USB 3.0 4K 60FPS Webcam', 'USB Camera',
+    ),
+  ),
+);
