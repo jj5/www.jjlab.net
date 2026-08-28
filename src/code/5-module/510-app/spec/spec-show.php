@@ -5698,3 +5698,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Bench Master' ),
+  unboxing(
+    publication_date( '2026-08-30' ),
+    title( 'Unboxing the ELP-U3 USB 3.0 4K 60FPS Webcam' ),
+    youtube_video( 'E5bQVeIPhRg' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/08/30/unboxing-37-unboxing-the-elp-u3-usb-3-0-4k-60fps-webcam-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/167958099' ),
+    tags(
+      'jjlab', 'ELP-U3 USB 3.0 4K 60FPS Webcam', 'USB Camera', 'Unboxing',
+    ),
+  ),
+);
