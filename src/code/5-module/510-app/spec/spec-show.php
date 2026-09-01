@@ -5712,3 +5712,48 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Plugerinerer' ),
+  learning_the_art(
+    publication_date( '2026-09-01' ),
+    title( "Learning the Art of Electronics: Fig-2N.5 Constant Voltage Charge" ),
+    youtube_video( 'lfIagmNHLc4' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/09/01/learning-the-art-of-electronics-fig-2n-5-constant-voltage-charge-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/168283861' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Voltage Source', 'Constant Voltage', 'RC Circuit'
+    ),
+  ),
+);
+
+show(
+  silly_job_title( 'Solder Soldier' ),
+  new_book_teardown(
+    publication_date( '2026-09-02' ),
+    youtube_video( '3ZC2_B_exbk' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/09/02/new-book-teardown-10-the-art-of-electronics-the-x-chapters-2nd-edition-2026-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/168149204' ),
+    new_book(
+      title( "The Art of Electronics: The x-Chapters" ),
+      edition( 2 ),
+      author( "Paul Horowitz, Winfield Hill" ),
+      copyright_year( '2026' ),
+      page_count( 694 ),
+      affiliate_link(
+        equipment_url ( 'https://www.amazon.com/dp/1009632884' ),
+        item_price    ( 'AU$90.00' ),
+      ),
+    ),
+    tags(
+      'jjlab', 'New Book Teardown',
+      'The Art of Electronics: The x-Chapters 2nd Edition',
+      'Paul Horowitz', 'Winfield Hill',
+      'The Art of Electronics', 'Metcal PS-900 Soldering Iron',
+      'Four-Terminal Sensing', 'Digital Potentiometer', 'Sziklai Pair',
+      'Highland Technology', 'Audio Power Amplifier Design', 'Douglas Self',
+      'Eurocard', 'Printed Circuit Board',
+      'Building Electro-Optical Systems: Making It All Work', 'Philip C. D. Hobbs'
+    ),
+  ),
+);
