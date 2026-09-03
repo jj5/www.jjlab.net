@@ -5774,3 +5774,18 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Lightning Tamer' ),
+  unboxing(
+    publication_date( '2026-09-04' ),
+    title( 'Unboxing the FNIRSI HRM-10 Internal Resistance Tester' ),
+    youtube_video( 'CE3yls2Yfww' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/09/04/unboxing-38-unboxing-the-fnirsi-hrm-10-internal-resistance-tester-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/168545632' ),
+    tags(
+      'jjlab', 'FNIRSI HRM-10 Internal Resistance Tester', 'Unboxing', 'Battery Tester', 'Capacitor Tester',
+      'Internal Resistance Tester'
+    ),
+  ),
+);

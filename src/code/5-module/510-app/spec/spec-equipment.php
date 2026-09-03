@@ -16544,7 +16544,7 @@ equipment(
     EquipmentConnectivity::USB,
     EquipmentAttribute::TEST_EQUIPMENT,
   ),
-  //sixsigma_url  ( 'https://www.jj5.net/wiki/FNIRSI_HRM-10_Battery_Voltage_Internal_Resistance_Tester' ),
+  sixsigma_url  ( 'https://www.jj5.net/wiki/FNIRSI_HRM-10_Internal_Resistance_Tester' ),
   web_link(
     link_href   ( 'https://ae-pic-a1.aliexpress-media.com/kf/S70d3e89b84384d709b9bf218c1589b0eF.pdf?spm=a2g0o.detail.0.0.1e41YRZmYRZmcW&file=S70d3e89b84384d709b9bf218c1589b0eF.pdf' ),
     link_text   ( 'FNIRSI HRM-10 documentation' ),
