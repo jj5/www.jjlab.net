@@ -1422,6 +1422,7 @@ function render_blog_template( $equipment_list ) {
       $equipment_map = [
         'https://jj5.net/75064' => 'Rigol MSO5074 Mixed Signal Oscilloscope',
         'https://jj5.net/52689' => 'Rigol PLA2216 Logic Probe',
+        'https://jj5.net/87480' => 'LiteVNA 64 Vector Network Analyzer',
         'https://jj5.net/57146' => 'METCAL PS-900 Soldering Station',
         //'https://jj5.net/89537' => 'Horusdy Soldering Station with Hot Air Gun',
         'https://jj5.net/92878' => 'AiXun H314 Hot Air Gun',

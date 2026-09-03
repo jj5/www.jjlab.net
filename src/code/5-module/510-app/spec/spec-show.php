@@ -5757,3 +5757,20 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Switch Switcher' ),
+  maxitronix_segment(
+    publication_date( '2026-09-03' ),
+    title( 'The Radio Station' ),
+    project( 19, 30 ),
+    maxitronix_kit_name( '30in1' ),
+    youtube_video( 'O2RVL7XOWAE' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/09/03/the-radio-station-project-19-30-maxitronix-30in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/168476479' ),
+    tags(
+      'jjlab', 'Maxitronix 30in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'The Radio Station',
+    ),
+  ),
+);
