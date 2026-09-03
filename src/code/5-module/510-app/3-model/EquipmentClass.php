@@ -72,6 +72,7 @@ enum EquipmentClass : string {
   case HOOK = 'hook';
   case HUB = 'hub';
   case INDUCTOR = 'inductor';
+  case INTERNAL_RESISTANCE_TESTER = 'internal-resistance-tester';
   case JAW_PADS = 'jaw-pads';
   case KEYBOARD = 'keyboard';
   case KIT = 'kit';

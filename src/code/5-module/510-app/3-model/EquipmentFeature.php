@@ -320,6 +320,8 @@ enum EquipmentFeature : string {
 
       case TRIAC_AND_THYRISTOR_ANALYZER = 'triac-and-thyristor-analyzer';
 
+    case INTERNAL_RESISTANCE_TESTER = 'internal-resistance-tester';
+
   //
   // 2024-08-04 jj5 - PROBE
   //

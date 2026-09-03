@@ -16530,6 +16530,50 @@ equipment(
   ),
 );
 
+equipment(
+  equipment_date( '2026-07-31' ),
+  equipment_icon( 'https://ae-pic-a1.aliexpress-media.com/kf/S8723e2d5c1a7459484ba01c8b08be2f8p.jpg_960x960q75.jpg_.avif' ),
+  equipment_item(
+    manufacturer_link (
+      link_href       ( 'https://www.fnirsi.com/products/hrm-10' ),
+      link_text       ( 'FNIRSI HRM-10 Battery Voltage Internal Resistance Tester' ),
+    ),
+    manufacturer_name ( 'FNIRSI' ),
+    model_name        ( 'HRM-10' ),
+    EquipmentFeature::INTERNAL_RESISTANCE_TESTER,
+    EquipmentConnectivity::USB,
+    EquipmentAttribute::TEST_EQUIPMENT,
+  ),
+  //sixsigma_url  ( 'https://www.jj5.net/wiki/FNIRSI_HRM-10_Battery_Voltage_Internal_Resistance_Tester' ),
+  web_link(
+    link_href   ( 'https://ae-pic-a1.aliexpress-media.com/kf/S70d3e89b84384d709b9bf218c1589b0eF.pdf?spm=a2g0o.detail.0.0.1e41YRZmYRZmcW&file=S70d3e89b84384d709b9bf218c1589b0eF.pdf' ),
+    link_text   ( 'FNIRSI HRM-10 documentation' ),
+  ),
+  affiliate_link(
+    equipment_url ( 'https://www.aliexpress.com/item/1005007138201986.html' ),
+    listing_name  ( 'FNIRSI HRM-10 Battery Voltage Internal Resistance Tester 18650 High-precision AC Acid Lithium Lead Car Battery Capacitor Tester' ),
+    item_price    ( 'AU$69.54' ),
+  ),
+  purchase(
+    equipment_url   ( 'https://www.aliexpress.com/item/1005007138201986.html' ),
+    order_url       ( 'https://www.aliexpress.com/p/order/detail.html?spm=a2g0o.order_list.order_list_main.1.72d91802Ot6PCO&orderId=8213395882553938' ),
+    order_id        ( '8213395882553938' ),
+    order_date      ( 'Jul 31, 2026' ),
+    order_item_name ( ' FNIRSI HRM-10 Battery Voltage Internal Resistance Tester 18650 High-precision AC Acid Lithium Lead Car Battery Capacitor Tester' ),
+    order_options   ( 'HRM-10 Set' ),
+    order_price     ( 'AU$75.49' ),
+    order_quantity  ( 1 ),
+    //order_shipping  ( 'AU$' ),
+    order_tax       ( 'AU$8.18 ' ),
+  ),
+  /* 2026-09-04 jj5 - TODO:
+  video_link(
+    link_href   ( 'https://youtu.be/828qamZ_DHU' ),
+    link_text   ( 'Unboxing the ZeenKo LiteVNA64 Vector Network Analyzer' ),
+  ),
+  */
+);
+
 
 /*
 

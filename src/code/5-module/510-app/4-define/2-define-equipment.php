@@ -666,6 +666,15 @@ equipment_define(
   );
 
   equipment_define(
+    EquipmentFeature::INTERNAL_RESISTANCE_TESTER,
+    EquipmentClass::INTERNAL_RESISTANCE_TESTER,
+    EquipmentAttribute::TEST_EQUIPMENT,
+    EquipmentAttribute::MEASURING_EQUIPMENT,
+    EquipmentMeasure::VOLTAGE_DC,
+    EquipmentMeasure::RESISTANCE,
+  );
+
+  equipment_define(
     EquipmentFeature::THYRISTOR_ANALYZER,
     EquipmentFeature::METER,
   );
