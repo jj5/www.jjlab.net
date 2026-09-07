@@ -5789,3 +5789,23 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Buzz Boss' ),
+  mail_call(
+    publication_date( '2026-09-07' ),
+    title( 'Bus Pirate 6, Cardputer ADV, LILYGO T-Deck Plus, Programmers and More!' ),
+    youtube_video( 'C2qCQqsBgAM' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/09/07/mail-call-65-bus-pirate-6-cardputer-adv-lilygo-t-deck-plus-programmers-and-more-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/168843424' ),
+    tags(
+      'jjlab', 'AliExpress', 'Amazon',
+      'Electricity and Magnetism Kit',
+      'Bus Pirate 6', 'Project Box', 'Resistors', 'CH347 Programmer', 'XTW100 Programmer',
+      'Cardputer ADV', '2 in 1 RF Development Board for M5Stack Cardputer ADV',
+      'M5Stack Official Cap LoRa 1262 for Cardputer ADV',
+      'LILYGO T-Deck Plus Meshtastic',
+      'XGecu T48 Programmer',
+    ),
+  ),
+);
