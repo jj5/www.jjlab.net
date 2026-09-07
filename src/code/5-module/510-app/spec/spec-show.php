@@ -5799,7 +5799,7 @@ show(
     blog_url( 'https://blog.jj5.net/blog/2026/09/07/mail-call-65-bus-pirate-6-cardputer-adv-lilygo-t-deck-plus-programmers-and-more-in-the-lab/' ),
     patreon_url( 'https://www.patreon.com/posts/168843424' ),
     tags(
-      'jjlab', 'AliExpress', 'Amazon',
+      'jjlab', 'AliExpress', 'Amazon', 'DirtyPCBs.com',
       'Electricity and Magnetism Kit',
       'Bus Pirate 6', 'Project Box', 'Resistors', 'CH347 Programmer', 'XTW100 Programmer',
       'Cardputer ADV', '2 in 1 RF Development Board for M5Stack Cardputer ADV',
