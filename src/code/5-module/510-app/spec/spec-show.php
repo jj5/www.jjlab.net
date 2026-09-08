@@ -5809,3 +5809,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Surge Sage' ),
+  learning_the_art(
+    publication_date( '2026-09-08' ),
+    title( "Learning the Art of Electronics: 2N.2.1 Differentiators" ),
+    youtube_video( '6Q6uwsoOrWY' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/09/08/learning-the-art-of-electronics-2n-2-1-differentiators-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/168939428' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Differentiator', 'RC Circuit', 'Resistor', 'Capacitor',
+    ),
+  ),
+);
