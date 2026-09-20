@@ -136,6 +136,9 @@ class AffiliateLink extends AppThing implements ILink {
         // 2026-09-21 jj5 - HACK! for now we're not using the Aliexpress affiliate links, my account got canceled
         // and my old links no longer work. boo.
 
+        // 2026-09-21 jj5 - NOTE: actually the problem might be that my affiliate links are to products that no longer exist.
+        // In any event, we will just use the regular equipment URL instead of the Aliexpress affiliate link for now.
+
         return $this->get_equipment_url()->to_string();
 
       }
