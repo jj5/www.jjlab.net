@@ -129,7 +129,18 @@ class AffiliateLink extends AppThing implements ILink {
 
     if ( ! $this->get_affiliate_url()->is_empty() ) {
 
-      return $this->get_affiliate_url()->to_string();
+      $affiliate_url = $this->get_affiliate_url();
+
+      if ( strpos( $affiliate_url->to_string(), 'https://s.click.aliexpress.com/' ) === 0 ) {
+
+        // 2026-09-21 jj5 - HACK! for now we're not using the Aliexpress affiliate links, my account got canceled
+        // and my old links no longer work. boo.
+
+        return $this->get_equipment_url()->to_string();
+
+      }
+
+      return $affiliate_url->to_string();
 
     }
 
