@@ -5837,3 +5837,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Component Wrangler' ),
+  learning_the_art(
+    publication_date( '2026-09-22' ),
+    title( "Learning the Art of Electronics: Fig-2N.12-A Current Integrator" ),
+    youtube_video( 'Ky2PFXE0juI' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/09/22/learning-the-art-of-electronics-fig-2n-12-a-current-integrator-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/170209470' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Current Integrator', 'Capacitor',
+    ),
+  ),
+);
