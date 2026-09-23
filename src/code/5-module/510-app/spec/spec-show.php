@@ -5853,6 +5853,20 @@ show(
 );
 
 show(
+  silly_job_title( 'Master Planner' ),
+  unboxing(
+    publication_date( '2026-09-23' ),
+    title( 'Unboxing the TI-36X Pro Scientific Calculator' ),
+    youtube_video( 'UYYvxnSEvbM' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/09/23/unboxing-39-unboxing-the-ti-36x-pro-scientific-calculator-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/170338496' ),
+    tags(
+      'jjlab', 'TI-36X Pro Scientific Calculator', 'Texas Instruments', 'Unboxing',
+    ),
+  ),
+);
+
+show(
   silly_job_title( 'Power Provider' ),
   maxitronix_segment(
     publication_date( '2026-09-24' ),
