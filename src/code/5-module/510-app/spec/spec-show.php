@@ -5851,3 +5851,20 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Power Provider' ),
+  maxitronix_segment(
+    publication_date( '2026-09-24' ),
+    title( 'The Wireless Rain Detector' ),
+    project( 20, 30 ),
+    maxitronix_kit_name( '30in1' ),
+    youtube_video( 'i_ZHf4X6Zys' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/09/24/the-wireless-rain-detector-project-20-30-maxitronix-30in1-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/170326027' ),
+    tags(
+      'jjlab', 'Maxitronix 30in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'The Wireless Rain Detector', 'Oscillator', 'Radio Transmitter',
+    ),
+  ),
+);
