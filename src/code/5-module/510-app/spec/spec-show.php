@@ -5882,3 +5882,18 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Wattage Warlock' ),
+  learning_the_art(
+    publication_date( '2026-09-29' ),
+    title( "Learning the Art of Electronics: Fig-2N.12-B Voltage Integrator" ),
+    youtube_video( 'Rdy9vrXQgsk' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/09/29/learning-the-art-of-electronics-fig-2n-12-b-voltage-integrator-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/170889013' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Voltage Integrator', 'RC Circuit',
+      'Capacitor', 'Resistor'
+    ),
+  ),
+);
