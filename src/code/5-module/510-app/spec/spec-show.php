@@ -5897,3 +5897,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Outlet Overlord' ),
+  learning_the_art(
+    publication_date( '2026-10-06' ),
+    title( "Learning the Art of Electronics: 2N.3.2 RC filters" ),
+    youtube_video( 'DmqFbs7CYHI' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/10/06/learning-the-art-of-electronics-2n-3-2-rc-filters-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/171540279' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'RC Filters', 'Resistor', 'Capacitor', 'Voltage Divider',
+    ),
+  ),
+);
