@@ -5911,3 +5911,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Maker of Videos' ),
+  learning_the_art(
+    publication_date( '2026-10-13' ),
+    title( "Learning the Art of Electronics: 2N.3.3 Decibels" ),
+    youtube_video( 'gNpgGawTAVU' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/10/13/learning-the-art-of-electronics-2n-3-3-decibels-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/172213588' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Decibels',
+    ),
+  ),
+);
