@@ -5925,3 +5925,17 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Ohm Oracle' ),
+  channel_news(
+    publication_date( '2026-10-22' ),
+    title( "Checking In!" ),
+    youtube_video( 'UT8jKg_hLFQ' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/10/22/channel-news-11-checking-in-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/' ),
+    tags(
+      'jjlab', 'Channel News', 'Network Upgrade',
+    )
+  ),
+);
