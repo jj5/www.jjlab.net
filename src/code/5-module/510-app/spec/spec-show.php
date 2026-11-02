@@ -5939,3 +5939,18 @@ show(
     )
   ),
 );
+
+show(
+  silly_job_title( 'Current Commander' ),
+  learning_the_art(
+    publication_date( '2026-11-03' ),
+    title( "Learning the Art of Electronics: 2N.3.4 Estimating a filter's attenuation" ),
+    youtube_video( 'kGVRTehHwOU' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/11/03/learning-the-art-of-electronics-2n-3-4-estimating-a-filters-attenuation-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/174186053' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Estimating Attenuation',
+      'Highpass Filter', 'Lowpass Filter', 'Attenuation', 'Gain',
+    ),
+  ),
+);
