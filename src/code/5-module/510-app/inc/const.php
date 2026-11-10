@@ -1,7 +1,7 @@
 <?php
 
 define(
-  'APP_URL_BASE',
+  'CFG_URL_BASE',
   'https://www.inthelabwithjayjay.com/in-the-lab'
 );
 

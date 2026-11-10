@@ -5954,3 +5954,18 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Charge Charmer' ),
+  learning_the_art(
+    publication_date( '2026-11-10' ),
+    title( "Learning the Art of Electronics: 2N.3.5 Impedance of RC Circuits" ),
+    youtube_video( '5-58pfo84yQ' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/11/10/learning-the-art-of-electronics-2n-3-5-impedance-of-rc-circuits-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/174872733' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Estimating Impedance',
+      'Highpass Filter', 'Lowpass Filter', 'Input Impedance', 'Output Impedance',
+    ),
+  ),
+);
