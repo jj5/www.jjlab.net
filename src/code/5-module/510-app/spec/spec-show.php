@@ -5969,3 +5969,20 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Relay Releaser' ),
+  mail_call(
+    publication_date( '2026-11-18' ),
+    title( 'Capacitors, Speakers, Connectors, Amplifiers, Debuggers, and More!' ),
+    youtube_video( 'fde8MRt-60c' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/11/18/mail-call-66-capacitors-speakers-connectors-amplifiers-debuggers-and-more-in-the-lab/' ),
+    patreon_url( 'https://www.patreon.com/posts/175482387' ),
+    tags(
+      'jjlab', 'AliExpress', 'X2 Safety Capacitors', 'Polypropylene Capacitors', '0.5W Speakers', '3W Speakers',
+      'JST XH2.54 Connectors', 'XH-A157 Amplifiers', 'PAM8403 Amplifiers', 'WeAct DAPLink Debugger', 'WeAct STLink Debugger',
+      'Passive Buzzer'
+    ),
+  ),
+);
+
