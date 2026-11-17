@@ -5986,3 +5986,17 @@ show(
   ),
 );
 
+show(
+  silly_job_title( 'Current Conjurer' ),
+  learning_the_art(
+    publication_date( '2026-11-17' ),
+    title( "The Art of Electronics: 1.7.1 Frequency analysis of reactive circuits" ),
+    youtube_video( 'GtKZsk5z-B0' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/11/17/the-art-of-electronics-1-7-1-frequency-analysis-of-reactive-circuits-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/175585019' ),
+    tags(
+      'jjlab', 'Learning the Art of Electronics', 'Frequency Analysis', 'Reactive Circuits',
+      'Highpass Filter', 'Lowpass Filter', 'Input Impedance', 'Output Impedance',
+    ),
+  ),
+);
