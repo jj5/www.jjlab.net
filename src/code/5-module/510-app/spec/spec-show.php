@@ -6000,3 +6000,20 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Relay Renegade' ),
+  maxitronix_segment(
+    publication_date( '2026-11-19' ),
+    title( 'The Metal Detector' ),
+    project( 21, 30 ),
+    maxitronix_kit_name( '30in1' ),
+    youtube_video( 'wtofyBqUTnA' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/11/19/the-metal-detector-project-21-30-maxitronix-30in1-learning-electronics-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/175751227' ),
+    tags(
+      'jjlab', 'Maxitronix 30in1', 'Electronics Project', 'Lab', 'Kit', 'Circuit', 'Experiment',
+      'Metal Detector', 'Oscillator', 'Radio Transmitter',
+    ),
+  ),
+);
