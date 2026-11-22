@@ -6017,3 +6017,25 @@ show(
     ),
   ),
 );
+
+show(
+  silly_job_title( 'Luminary Luminar' ),
+  old_book_teardown(
+    publication_date( '2026-11-22' ),
+    youtube_video( 'T6AsQ1R6N18' ),
+    blog_url( 'https://blog.jj5.net/blog/2026/11/22/old-book-teardown-25-electrical-engineering-circuits-1958-in-the-lab-with-jay-jay/' ),
+    patreon_url( 'https://www.patreon.com/posts/176045207' ),
+    old_book(
+      title( 'Electrical Engineering Circuits' ),
+      author( 'Hugh Skilling' ),
+      copyright_year( '1958' ),
+      page_count( 724 ),
+      affiliate_link(
+        equipment_url ( 'https://archive.org/details/electricalengine0000skil_f1k2' ),
+      ),
+    ),
+    tags(
+      'jjlab', 'Old Book Teardown', 'Electrical Engineering Circuits', 'Hugh Skilling', 'Book Review',
+    ),
+  ),
+);
